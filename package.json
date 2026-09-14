@@ -1,26 +1,59 @@
 {
-  "name": "covid-journey",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "next": "16.3.4",
-    "react": "19.2.8",
-    "react-dom": "19.2.8"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.3.4",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-  }
+    "name": "outbreak-dossier",
+    "version": "0.1.0",
+    "description": "An interactive, declassified visual intelligence chronicle documenting global pandemics, viral mutations, and human resilience across modern history.",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "eslint",
+        "test": "vitest run",
+        "test:unit": "vitest run",
+        "test:e2e": "playwright test",
+        "storybook": "storybook dev -p 6006",
+        "build-storybook": "storybook build"
+    },
+    "dependencies": {
+        "@sentry/nextjs": "^10.74.0",
+        "clsx": "^2.1.1",
+        "framer-motion": "^13.2.0",
+        "globe.gl": "^2.46.2",
+        "lucide-react": "^1.44.0",
+        "next": "16.3.4",
+        "next-intl": "^4.14.3",
+        "react": "19.2.8",
+        "react-dom": "19.2.8",
+        "tailwind-merge": "^3.6.0",
+        "zustand": "^5.0.15"
+    },
+    "devDependencies": {
+        "@chromatic-com/storybook": "latest",
+        "@playwright/test": "^1.63.0",
+        "@storybook/addon-a11y": "^10.6.0",
+        "@storybook/addon-docs": "^10.6.0",
+        "@storybook/addon-mcp": "^10.6.0",
+        "@storybook/addon-vitest": "^10.6.0",
+        "@storybook/nextjs-vite": "^10.6.0",
+        "@storybook/react": "^10.6.0",
+        "@tailwindcss/postcss": "^4",
+        "@testing-library/jest-dom": "^7.0.1",
+        "@testing-library/react": "^16.3.3",
+        "@types/node": "^22.20.2",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "@types/three": "^0.185.4",
+        "@vitest/browser-playwright": "5.0.0",
+        "@vitest/coverage-v8": "5.0.0",
+        "eslint": "^9",
+        "eslint-config-next": "16.3.4",
+        "eslint-plugin-storybook": "^10.6.0",
+        "jsdom": "^29.1.1",
+        "playwright": "latest",
+        "storybook": "^10.6.0",
+        "tailwindcss": "^4",
+        "typescript": "^5",
+        "vite": "latest",
+        "vitest": "^5.0.0"
+    }
 }

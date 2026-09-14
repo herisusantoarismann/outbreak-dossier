@@ -1,0 +1,380 @@
+{
+    "meta": {
+        "title": "Outbreak Dossier // Global Declassified Pathogen Archives",
+        "description": "An interactive, declassified visual intelligence chronicle documenting global pandemics, viral mutations, and human resilience across modern history."
+    },
+    "hub": {
+        "title": "OUTBREAK DOSSIER",
+        "badge": "CLASSIFIED RECON ARCHIVE // VOL. 01: COVID-19",
+        "sitrep": "SITREP",
+        "scanActive": "GEOJSON TERRITORY SCAN ACTIVE",
+        "targetVector": "TARGET VECTOR: IDN [ARCHIPELAGO POLYGON]",
+        "hotspotTooltip": "BIOHAZARD HOTSPOT // INDONESIA",
+        "hotspotClick": "KLIK POLIGON UNTUK MEMULAI INVESTIGASI",
+        "dragPrompt": "GESER BOLA DUNIA UNTUK ROTASI // KLIK WILAYAH SOROTAN",
+        "targetLockedPrompt": "TARGET HOTSPOT TERKUNCI // KLIK POLIGON UNTUK MEMULAI",
+        "initializing": "MEMULAI SIMULASI ORBITAL 3D..."
+    },
+    "whoStats": {
+        "title": "WHO GLOBAL SITREP",
+        "archiveBadge": "ARSIP RESMI",
+        "infections": "INFEKSI",
+        "infectionsCount": "~704M+",
+        "infectionsLabel": "INFEKSI GLOBAL",
+        "mortality": "MORTALITAS",
+        "mortalityCount": "~7.0M+",
+        "mortalityLabel": "KORBAN JIWA GLOBAL",
+        "statusLabel": "STATUS:",
+        "statusValue": "PENYEBARAN GLOBAL (2019-2023)"
+    },
+    "briefing": {
+        "territoryLocked": "WILAYAH TERKUNCI: INDONESIA",
+        "period": "MARET 2020",
+        "headline": "KEPULAUAN INDONESIA",
+        "description": "Kasus 01 dan 02 terkonfirmasi di Depok, Jawa Barat. Mobilisasi layanan kesehatan nasional dimulai seiring eskalasi penularan.",
+        "launchButton": "LUNCURKAN URUTAN DOKUMENTER",
+        "bioModalButton": "[?] BIO-DATA: APA ITU SARS-CoV-2?"
+    },
+    "bioModal": {
+        "classifiedBadge": "[CLASSIFIED BIO-DATA] // ISOLAT PASIEN NOL",
+        "title": "APA ITU SARS-CoV-2?",
+        "bioIdentityTitle": "IDENTITAS BIOLOGIS & STRUKTUR",
+        "bioIdentityP1": "SARS-CoV-2 (Severe Acute Respiratory Syndrome Coronavirus 2) adalah jenis beta-coronavirus berkapsul untai-tunggal RNA positif. Permukaan virus terbungkus lapisan ganda lipid (lipid bilayer) yang dipenuhi tonjolan khas glikoprotein Spike (S) menyerupai mahkota, yang berfungsi menembus dan membajak sel inang manusia.",
+        "transmissionTitle": "VEKTOR TRANSMISI",
+        "transmissionText": "Penularan dominan melalui aerosol dan droplet pernapasan udara (batuk, bersin, berbicara di ruang tertutup tanpa ventilasi) serta kontak fisik dekat.",
+        "incubationTitle": "INKUBASI",
+        "incubationValue": "1 - 14 Hari",
+        "incubationSub": "Median 4-5 Hari",
+        "receptorTitle": "RESEPTOR",
+        "receptorValue": "ACE2",
+        "receptorSub": "Target Pengikatan Sel",
+        "familyTitle": "FAMILI",
+        "familyValue": "Coronaviridae",
+        "familySub": "Genus Betacoronavirus",
+        "acknowledgeBtn": "KONFIRMASI BIO-DOSIR // KEMBALI KE HUB"
+    },
+    "loading": {
+        "surveillanceBadge": "[ BIO-THREAT SURVEILLANCE FEED ]",
+        "isolating": "MENGISOLASI GALUR...",
+        "identified": "SARS-CoV-2 TERIDENTIFIKASI",
+        "targetVector": "MENEMUKAN TARGET: VEKTOR ID / ASIA TENGGARA"
+    },
+    "scrollytelling": {
+        "returnToGlobe": "HUB ORBITAL // KEMBALI KE BOLA DUNIA",
+        "returnShort": "KEMBALI KE BOLA DUNIA",
+        "chapterPrefix": "BAB",
+        "archiveRecord": "CATATAN ARSIP INDONESIA // DIDEKLASIFIKASI",
+        "timelineLocation": "LOKASI TIMELINE // MEDIA ARSIP",
+        "recorded": "TERCATAT:"
+    },
+    "chapters": [
+        {
+            "id": "wuhan-spillover",
+            "chapterNumber": "01",
+            "title": "Titik Nol: Loncatan Zoonotik di Wuhan",
+            "date": "Desember 2019 - Januari 2020",
+            "strain": "SARS-CoV-2 (Wuhan-Hu-1 / Lineage A/B)",
+            "flash": "DESAS-DESUS: Klaster pneumonia misterius di Pasar Huanan; Indonesia masih santai.",
+            "virusProfile": {
+                "code": "WILD-TYPE (WUHAN-HU-1)",
+                "mutationType": "Spillover Zoonotik via Reseptor ACE2",
+                "r0": "2.2 - 2.7",
+                "threatLevel": "EMERGING GLOBAL THREAT",
+                "clinicalTarget": "Pneumonia interstitial akut, demam tinggi, sitokin awal"
+            },
+            "societalImpact": {
+                "collectiveMemory": "Candaan kebal karena iklim tropis & nasi kucing",
+                "keyEvent": "Thermal scanner dipasang di bandara; publik menganggap remeh kabar Twitter",
+                "economicShock": "Pariwisata Bali mulai melambat akibat pembatalan turis Tiongkok"
+            },
+            "description": "Di bawah mikroskop elektron di Wuhan, partikel virus berdiameter 100 nanometer dengan protein spike mahkota teridentifikasi membajak sel pernapasan manusia. Saat kabar ini melintasi perbatasan, pejabat publik Indonesia sempat berseloroh masyarakat kebal karena doyan nasi kucing atau iklim tropis. Di bandara internasional, pemeriksaan thermo-scanner dilakukan seadanya. Belum ada yang menyadari patogen liar ini sudah menumpang di penerbangan komersial menuju kota-kota besar Asia Tenggara.",
+            "image": "/assets/images/01-loading-virus.jpg"
+        },
+        {
+            "id": "depok-patient-zero",
+            "chapterNumber": "02",
+            "title": "Infiltrasi Terkonfirmasi: Histeria Kasus 01 & 02",
+            "date": "2 Maret 2020",
+            "strain": "SARS-CoV-2 Lineage B.1 (Clade G)",
+            "flash": "BREAKING: Pengumuman mendadak dari Istana Negara; perburuan masker dimulai.",
+            "virusProfile": {
+                "code": "LINEAGE B.1 (EARLY LOCAL TRANSMISSION)",
+                "mutationType": "Transmisi Droplet & Kontak Dekat",
+                "r0": "2.5",
+                "threatLevel": "LOCAL COMMUNITY TRANSMISSION",
+                "clinicalTarget": "Anosmia mendadak (hilang penciuman), malaise, batuk kering"
+            },
+            "societalImpact": {
+                "collectiveMemory": "Panic buying masker Rp 400.000/boks & hand sanitizer saku",
+                "keyEvent": "Identitas pasien bocor ke media; tetangga mengucilkan lingkungan",
+                "economicShock": "Indeks Saham Gabungan (IHSG) anjlok tajam memicu auto-rejection"
+            },
+            "description": "Transmisi lokal resmi pecah di klub dansa Jakarta usai kontak dengan warga asing. Siang hari 2 Maret, siaran pers kepresidenan memicu gelombang kepanikan instan dalam hitungan jam. Rak-rak supermarket ludes diborong warga yang panik menimbun beras, mi instan, dan tisu toilet. Masker bedah yang biasanya seharga puluhan ribu rupiah melonjak liar hingga ratusan ribu rupiah per boks. Di gerbong KRL Jabodetabek, batuk sekali saja sudah cukup untuk membuat seisi gerbong melempar tatapan curiga.",
+            "image": "/assets/images/02-outbreak-spread.jpg"
+        },
+        {
+            "id": "empon-empon-defense",
+            "chapterNumber": "03",
+            "title": "Naluri Purba: Jahe Merah & Bilik Disinfektan Gang",
+            "date": "Maret 2020",
+            "strain": "SARS-CoV-2 Spike D614G Emergence",
+            "flash": "HERBAL WAVE: Empon-empon langka di pasar; portal gang ditutup warga swadaya.",
+            "virusProfile": {
+                "code": "EARLY SPIKE DRIFT",
+                "mutationType": "Persiapan Mutasi Asam Amino D614G",
+                "r0": "2.8",
+                "threatLevel": "UNCONTAINED EXPONENTIAL SPREAD",
+                "clinicalTarget": "Peningkatan viral load di saluran pernapasan atas"
+            },
+            "societalImpact": {
+                "collectiveMemory": "Minum rebusan temulawak tiap pagi & disemprot disinfektan saat masuk gang",
+                "keyEvent": "Muncul portal bambu 'LOCKDOWN LOKAL' dan wastafel cuci tangan di depan rumah",
+                "economicShock": "Harga jahe merah dan rempah melonjak hingga 400%"
+            },
+            "description": "Sebelum dunia medis memiliki kepastian vaksin atau obat antivirus, naluri bertahan hidup masyarakat lari ke kearifan lokal. Jahe merah, temulawak, dan sereh mendadak jadi komoditas paling dicari di pasar tradisional hingga harganya melambung berkali-kali lipat. Di tingkat akar rumput, warga bergerak sendiri: portal-portal gang perumahan ditutup bambu bertuliskan 'LOCKDOWN LOKAL'. Setiap tamu yang melintas wajib mencuci tangan di ember darurat dan disemprot bilik disinfektan rakitan dari pompa tanaman.",
+            "image": "/assets/images/11-herbal-disinfectant.jpg"
+        },
+        {
+            "id": "psbb-ghost-town",
+            "chapterNumber": "04",
+            "title": "Kota Hantu: PSBB Pertama & Jalan Protokol Sunyi",
+            "date": "April - Mei 2020",
+            "strain": "SARS-CoV-2 Spike D614G (Global Dominance)",
+            "flash": "KOTA SUNYI: Sudirman-Thamrin kosong melompong; Ramadhan pertama tanpa mudik.",
+            "virusProfile": {
+                "code": "MUTASI D614G DOMINAN",
+                "mutationType": "Substitusi Asam Amino Aspartat ke Glisin pada Spike",
+                "r0": "3.0 (Infektivitas Meningkat 300%)",
+                "threatLevel": "GLOBAL METROPOLITAN PARALYSIS",
+                "clinicalTarget": "Afinitas reseptor meningkat, transmisi tanpa gejala meluas"
+            },
+            "societalImpact": {
+                "collectiveMemory": "Penyekatan jalan tol & sholat Idul Fitri di ruang tamu",
+                "keyEvent": "Penerapan PSBB resmi; penutupan mal, sekolah, dan gedung perkantoran",
+                "economicShock": "Gelombang PHK massal sektor ritel dan perhotelan; mall merugi miliaran"
+            },
+            "description": "Di tingkat mikroskopis, mutasi D614G membuat tonjolan protein virus lebih stabil saat menembus sel manusia. Pemerintah resmi mengetuk palu PSBB untuk meredam penyebaran. Kawasan Sudirman-Thamrin yang biasanya dipadati jutaan komuter mendadak berubah lengang layaknya kota mati. Suara deru knalpot berganti hening yang mencekam. Sekolah meliburkan murid, perkantoran memadamkan lampu, dan jutaan perantau dilarang mudik Lebaran untuk pertama kalinya dalam sejarah modern Indonesia.",
+            "image": "/assets/images/03-lockdown-city.jpg"
+        },
+        {
+            "id": "digital-domestic-migration",
+            "chapterNumber": "05",
+            "title": "Migrasi Domestik: Dalgona, Zoom Fatigue, & Sepeda Lipat",
+            "date": "Juni - September 2020",
+            "strain": "Aerosol Micro-Droplet Indoor Spread",
+            "flash": "ADAPTASI: Eksperimen kopi berbusa, tanaman hias, dan jenuhnya rapat virtual.",
+            "virusProfile": {
+                "code": "INDOOR AIRBORNE AEROSOL",
+                "mutationType": "Suspensi Partikel Mikro di Udara Ruangan Tertutup",
+                "r0": "Tinggi di Ruang Ber-AC Tanpa Ventilasi",
+                "threatLevel": "WORKPLACE & FAMILY CLUSTER RISK",
+                "clinicalTarget": "Happy Hypoxia (saturasi oksigen anjlok tanpa sesak terasa)"
+            },
+            "societalImpact": {
+                "collectiveMemory": "Mengocok dalgona coffee sampai pegal & heboh tanaman monstera/janda bolong",
+                "keyEvent": "Keluarga bekerja dan belajar dari rumah; ledakan gowes sepeda massal di akhir pekan",
+                "economicShock": "Booming aplikasi video call, e-commerce, kurir logistik, dan food delivery"
+            },
+            "description": "WHO akhirnya merevisi pernyataan dan mengakui bahwa virus melayang di udara ruangan tertutup sebagai aerosol. Istilah 'happy hypoxia' mulai meneror praktisi medis saat pasien terlihat bugar padahal kadar oksigen darahnya terjun bebas. Di rumah, masyarakat berusaha keras menjaga kewarasan: tren mengocok dalgona coffee meledak di media sosial, disusul demam merawat tanaman hias monstera dan ledakan gowes sepeda lipat. Ruang keluarga berubah menjadi kantor sekaligus kelas sekolah, sementara paket belanja online wajib disemprot alkohol sebelum dibuka.",
+            "image": "/assets/images/07-digital-shift.jpg"
+        },
+        {
+            "id": "wisma-atlet-citadel",
+            "chapterNumber": "06",
+            "title": "Benteng Pertahanan: Lampu Abadi Wisma Atlet",
+            "date": "Oktober - Desember 2020",
+            "strain": "SARS-CoV-2 Pre-Alpha Clades",
+            "flash": "GARIS DEPAN: Tower Kemayoran menyala penuh; sirene ambulans jadi pengantar tidur.",
+            "virusProfile": {
+                "code": "MASS FACILITY SATURATION",
+                "mutationType": "Kluster Penularan Domestik & Fasilitas Umum",
+                "r0": "2.8",
+                "threatLevel": "HEALTHCARE INFRASTRUCTURE STRAIN",
+                "clinicalTarget": "Pneumonia berat bilateral, badai sitokin fase akut"
+            },
+            "societalImpact": {
+                "collectiveMemory": "Melihat iring-iringan ambulans di jalan tol & video nakes kelelahan mandi keringat",
+                "keyEvent": "Wisma Atlet Kemayoran difungsikan menjadi RSDC terbesar di dunia",
+                "economicShock": "Anggaran negara terkuras triliunan untuk fasilitas isolasi dan insentif nakes"
+            },
+            "description": "Ledakan kasus klaster perkantoran dan keluarga menekan kapasitas rumah sakit rujukan. Pemerintah menyulap Wisma Atlet Kemayoran menjadi Rumah Sakit Darurat COVID-19 raksasa dengan ribuan kamar isolasi. Malam demi malam, menara-menara flat Kemayoran menyala terang benderang menjadi saksi perjuangan ribuan pasien. Tenaga kesehatan bertarung belasan jam di balik pakaian hazmat kedap udara tanpa sempat makan atau buang air, sementara raungan sirene ambulans di jalan protokol menjadi penanda ritme malam di kota-kota besar Jawa.",
+            "image": "/assets/images/04-hospital-panic.jpg"
+        },
+        {
+            "id": "alpha-beta-cold-chain",
+            "chapterNumber": "07",
+            "title": "Fajar Harapan: Kedatangan Vaksin & Ancaman Alpha-Beta",
+            "date": "Januari - April 2021",
+            "strain": "Varian Alpha (B.1.1.7) & Beta (B.1.351)",
+            "flash": "TITIK BALIK: Vaksinasi perdana dimulai di Istana; varian mutasi Inggris terdeteksi.",
+            "virusProfile": {
+                "code": "VOC ALPHA (B.1.1.7) & BETA (B.1.351)",
+                "mutationType": "Mutasi N501Y (Spike Binding Affinity) & E484K (Immune Escape)",
+                "r0": "3.5 - 4.2",
+                "threatLevel": "VARIANT OF CONCERN DUAL THREAT",
+                "clinicalTarget": "Peningkatan risiko transmisi sebesar 50% dan keparahan gejala"
+            },
+            "societalImpact": {
+                "collectiveMemory": "Pamer foto sertifikat vaksin ke-1 di status WhatsApp & antre subuh di GOR",
+                "keyEvent": "Presiden disuntik vaksin Sinovac perdana; distribusi logistik rantai dingin ke 17.000 pulau",
+                "economicShock": "Harapan pemulihan pasar modal; belanja negara fokus ke pengadaan ratusan juta dosis"
+            },
+            "description": "Harapan baru merekah saat kontainer pendingin khusus berisi jutaan dosis vaksin tiba di Bandara Soekarno-Hatta. Program vaksinasi nasional resmi dimulai dari Istana Kepresidenan, disusul transformasi gelanggang olahraga dan mal menjadi sentra vaksinasi massal. Namun pada saat bersamaan, mutasi global Alpha (B.1.1.7) dari Inggris dan Beta dari Afrika Selatan mulai terdeteksi masuk melalui jalur repatriasi pekerja migran, membawa mutasi N501Y yang mengikat reseptor sel paru-paru jauh lebih kuat.",
+            "image": "/assets/images/05-vaccine-cure.jpg"
+        },
+        {
+            "id": "delta-catastrophe",
+            "chapterNumber": "08",
+            "title": "Juli Kelam: Tsunami Delta & Kolapsnya Ruang ICU",
+            "date": "Juni - Juli 2021",
+            "strain": "Varian Delta (B.1.617.2 / AY.23)",
+            "flash": "PUNCAK KRISIS: 56.000 kasus sehari; ICU kolaps dan tenda darurat parkiran RS didirikan.",
+            "virusProfile": {
+                "code": "VOC DELTA (B.1.617.2)",
+                "mutationType": "Mutasi Ganda L452R + P681R (Cleavage Furin Cepat)",
+                "r0": "6.0 - 7.5 (Super Menular)",
+                "threatLevel": "MAXIMUM BIOLOGICAL TOLL",
+                "clinicalTarget": "Viral load 1.000x lebih padat, kerusakan alveolus cepat, desaturasi ekstrem"
+            },
+            "societalImpact": {
+                "collectiveMemory": "Grup WhatsApp penuh ucapan belasungkawa & pesan darurat mencari bed kosong",
+                "keyEvent": "Pemberlakuan PPKM Darurat Level 4; rumah sakit membangun tenda militer di parkiran",
+                "economicShock": "Aktivitas ekonomi kembali dibekukan mendadak; sektor UMKM terpukul parah"
+            },
+            "description": "Periode paling suram dalam catatan sejarah modern bangsa. Mutasi L452R dan P681R pada varian Delta melipatgandakan viral load pasien hingga 1.000 kali lebih pekat. Dalam hitungan minggu, kapasitas rumah sakit runtuh total. Lorong-lorong RS hingga pelataran parkir dipenuhi ranjang pasien di bawah tenda darurat militer. Di dunia maya, grup WhatsApp keluarga dan rekan kantor dibanjiri pesan duka beruntun serta permohonan putus asa mencari donor plasma konvalesen dan ruang isolasi bertekanan negatif.",
+            "image": "/assets/images/08-oxygen-crisis.jpg"
+        },
+        {
+            "id": "oxygen-panic-bearbrand",
+            "chapterNumber": "09",
+            "title": "Kekalutan Sipil: Perburuan Oksigen & Susu Steril",
+            "date": "Juli - Agustus 2021",
+            "strain": "Peak Lethality Delta Wave",
+            "flash": "REBUTAN: Antrean tabung oksigen mengular tengah malam; kaleng susu ludes diborong.",
+            "virusProfile": {
+                "code": "FATALITY SURGE METRICS",
+                "mutationType": "Transmisi Lintas Generasi di Lingkungan Rumah",
+                "r0": "6.5",
+                "threatLevel": "MEDICAL SUPPLY RUN-OUT",
+                "clinicalTarget": "Hipoksia akut; saturasi anjlok di bawah 80% dalam 48 jam"
+            },
+            "societalImpact": {
+                "collectiveMemory": "Melihat angka oximeter dengan cemas & video viral orang berebut susu di lorong minimarket",
+                "keyEvent": "Pemerintah mengimpor konsentrator oksigen darurat; pemakaman malam hari dengan lampu sorot",
+                "economicShock": "Harga tabung oksigen dan oximeter digoreng spekulan hingga naik 500%"
+            },
+            "description": "Dengan angka kematian menembus lebih dari 2.000 jiwa per hari, kepanikan warga mencapai puncaknya. Depot pengisian oksigen dipadati antrean orang yang panik menggotong tabung silinder hijau demi menyelamatkan keluarga yang terengah-engah di rumah. Video warga berebut susu steril di lorong supermarket mendadak viral karena desas-desus khasiat kekebalan instan. Oximeter saku menjadi penentu nasib: angka saturasi di bawah 94 sudah cukup untuk membuat seisi rumah terjaga sepanjang malam mencari pertolongan.",
+            "image": "/assets/images/12-oxygen-lines.jpg"
+        },
+        {
+            "id": "digital-surveillance-qr",
+            "chapterNumber": "10",
+            "title": "Era Barcode: Sekat Digital PeduliLindungi",
+            "date": "September - Desember 2021",
+            "strain": "Sub-lineage Delta AY.23 (Dominasi Lokal)",
+            "flash": "CHECK-IN WAJIB: Scan QR code di pintu mal; warna hijau jadi tiket kebebasan.",
+            "virusProfile": {
+                "code": "LOCAL DOMINANT VARIANT AY.23",
+                "mutationType": "Spike Stabilisasi Genomik Domestik",
+                "r0": "Ditekan ke < 1.0 via Restriksi Mobilitas",
+                "threatLevel": "REGULATED CONTAINMENT PHASE",
+                "clinicalTarget": "Penurunan morbiditas berkat capaian vaksinasi dosis lengkap"
+            },
+            "societalImpact": {
+                "collectiveMemory": "HP kehabisan baterai di depan satpam mal & antrean memindai suhu kening",
+                "keyEvent": "Kewajiban check-in digital terhubung NIK; indikator warna Hitam/Merah/Kuning/Hijau",
+                "economicShock": "Kunjungan fisik ke pusat perbelanjaan dan transportasi umum disaring ketat"
+            },
+            "description": "Seiring badai Delta yang perlahan surut berkat akselerasi vaksinasi, ruang publik dikunci oleh protokol digital terpadu. Aplikasi PeduliLindungi menjadi syarat mutlak untuk melangkahkan kaki ke luar rumah. Di stasiun KRL, bandara, lobi gedung kantor, hingga pintu masuk mal, warga berbaris tertib mengangkat ponsel untuk memindai QR code dan mengarahkan pergelangan tangan ke sensor suhu otomatis. Kotak warna hijau di layar ponsel menjadi satu-satunya jaminan legalitas mobilitas warga.",
+            "image": "/assets/images/09-digital-tracing.jpg"
+        },
+        {
+            "id": "omicron-lightning-wave",
+            "chapterNumber": "11",
+            "title": "Serangan Kilat: 30 Mutasi & Gelombang Omicron",
+            "date": "Februari - Maret 2022",
+            "strain": "Varian Omicron (B.1.1.529 / BA.1 / BA.2)",
+            "flash": "REKOR INFEKSI: Kasus harian tembus 64.000; demam massal tapi isolasi di kamar.",
+            "virusProfile": {
+                "code": "VOC OMICRON (B.1.1.529)",
+                "mutationType": "30+ Mutasi pada Protein Spike (Immune Evasion Masif)",
+                "r0": "8.0 - 10.0 (Daya Tular Tertinggi)",
+                "threatLevel": "HYPER-TRANSMISSIBLE ATTENUATED STRAIN",
+                "clinicalTarget": "Replikasi cepat di bronkus atas, penurunan risiko kerusakan jaringan paru"
+            },
+            "societalImpact": {
+                "collectiveMemory": "Satu kantor mendadak radang tenggorokan & saling kirim parasetamol via ojek online",
+                "keyEvent": "Rekor infeksi tertinggi sepanjang masa (64.718 kasus); layanan telemedicine gratis digelontorkan",
+                "economicShock": "Absensi kerja massal sementara, namun rumah sakit dan perekonomian tidak sampai lumpuh"
+            },
+            "description": "Di awal tahun 2022, varian Omicron muncul membawa lebih dari 30 mutasi pada protein spike-nya, mampu mengelabui pertahanan antibodi alami dengan kecepatan transmisi yang tak tertandingi. Rekor kasus harian nasional pecah di angka 64.718 infeksi. Seluruh divisi kantor dan keluarga besar bisa demam serta radang tenggorokan serempak dalam tiga hari. Namun berkat proteksi vaksin dosis ganda, serta kecenderungan virus yang berpusat di saluran napas atas, fatalitasnya jauh di bawah Delta. Mayoritas melewatinya dengan isolasi mandiri di rumah ditemani kiriman obat dari teman.",
+            "image": "/assets/images/13-omicron-fever.jpg"
+        },
+        {
+            "id": "booster-and-mask-unveiling",
+            "chapterNumber": "12",
+            "title": "Pelepasan Perlahan: Vaksin Booster & Senja Masker",
+            "date": "Pertengahan 2022",
+            "strain": "Subvarian Omicron BA.4 / BA.5",
+            "flash": "TRANSISI: Pengumuman boleh buka masker di ruang terbuka; konser musik kembali hidup.",
+            "virusProfile": {
+                "code": "OMICRON DRIFT SUB-LINEAGES",
+                "mutationType": "Evolusi Pelolosan Imunitas Bertahap",
+                "r0": "Tinggi namun Terbendung Herd Immunity",
+                "threatLevel": "MANAGED PUBLIC HEALTH BURDEN",
+                "clinicalTarget": "Infeksi ringan mirip selesma pada populasi berimunitas tinggi"
+            },
+            "societalImpact": {
+                "collectiveMemory": "Ragu-ragu melepas masker di taman & histeria menonton konser festival musik perdana",
+                "keyEvent": "Kelonggaran aturan masker ruang terbuka; kewajiban vaksinasi dosis ketiga (booster)",
+                "economicShock": "Sektor pariwisata, hiburan, dan konser musik mengalami lonjakan pendapatan"
+            },
+            "description": "Dinding imunitas populasi kian menebal melalui serbuan vaksinasi booster ketiga dan imunitas pasca-infeksi alami. Presiden mengumumkan pelonggaran bertahap: masker boleh dilepas saat berada di area terbuka yang tidak padat. Momen tersebut disambut canggung oleh publik yang sudah terbiasa bersembunyi di balik kain penutup wajah selama lebih dari dua tahun. Festival musik luar ruangan kembali digelar, bioskop dipadati penonton, dan denyut kehidupan kota kembali menemukan ritme aslinya.",
+            "image": "/assets/images/06-new-normal.jpg"
+        },
+        {
+            "id": "endemic-declaration",
+            "chapterNumber": "13",
+            "title": "Garis Akhir: Pencabutan Status Kedaruratan",
+            "date": "Juni 2023",
+            "strain": "Endemic Subvariants (XBB / JN.1 Lineages)",
+            "flash": "RESMI BERAKHIR: Status pandemi dicabut; kembali ke tatanan hidup biasa.",
+            "virusProfile": {
+                "code": "ENDEMIC SURVEILLANCE STATUS",
+                "mutationType": "Mutasi Mikro Berkelanjutan Tanpa Lonjakan Kematian",
+                "r0": "Stabil Endemik",
+                "threatLevel": "SEASONAL RESPIRATORY MONITORING",
+                "clinicalTarget": "Infeksi pernapasan musiman berisiko rendah pada kelompok non-komorbid"
+            },
+            "societalImpact": {
+                "collectiveMemory": "Menyimpan sisa kotak masker di laci & kebiasaan mencuci tangan yang terbawa",
+                "keyEvent": "Presiden resmi mengumumkan Indonesia memasuki masa endemi COVID-19",
+                "economicShock": "Pemulihan total aktivitas perbatasan, perkantoran, dan mobilitas komersial"
+            },
+            "description": "Pada Juni 2023, Presiden secara resmi mencabut status kedaruratan pandemi, menyelaraskan langkah dengan de-eskalasi darurat kesehatan global WHO. SARS-CoV-2 tidak pernah benar-benar lenyap; ia terus bermutasi di latar belakang, namun kini diperlakukan layaknya infeksi pernapasan musiman biasa. Kebiasaan membawa antiseptik di saku dan memakai masker saat terserang flu menjadi warisan perilaku yang menetap di tengah masyarakat.",
+            "image": "/assets/images/14-endemic-sunrise.jpg"
+        },
+        {
+            "id": "national-debriefing",
+            "chapterNumber": "14",
+            "title": "Debriefing Nasional: Monumen Angka & Ketangguhan",
+            "date": "Kaleidoskop Krisis & Rekapitulasi Akhir",
+            "strain": "Arsip Data Resmi Kemenkes RI / Satgas COVID-19",
+            "flash": "REKAP AKHIR: 6,81 Juta Kasus, 6,64 Juta Sembuh, 161.918 Jiwa Gugur.",
+            "virusProfile": {
+                "code": "HISTORICAL CRISIS METRICS",
+                "mutationType": "Evolusi 3 Tahun: Wild Type -> Delta -> Omicron",
+                "r0": "Arsip Tertutup",
+                "threatLevel": "RESOLVED NATIONAL RECOVERY",
+                "clinicalTarget": "Evaluasi ketahanan sistem fasilitas kesehatan nasional"
+            },
+            "societalImpact": {
+                "collectiveMemory": "Mengenang keluarga, sahabat, dan tenaga medis yang gugur di medan krisis",
+                "keyEvent": "Penerbitan rekapitulasi data final penanganan pandemi nasional",
+                "economicShock": "Transformasi struktural: adopsi digital permanen dan perbaikan sistem logistik medis"
+            },
+            "description": "Pandemi meninggalkan bekas luka yang tak terhapuskan dalam memori kolektif bangsa. Rekapitulasi akhir mencatat lebih dari 6,81 juta infeksi kumulatif di tanah air, dengan 6,64 juta jiwa dinyatakan sembuh. Namun di balik angka pemulihan tersebut, terdapat keheningan untuk mengenang 161.918 jiwa—orang tua, kerabat, anak, serta ratusan dokter dan perawat—yang gugur sebelum badai mereda. Indonesia berhasil bertahan dari krisis biologis terbesar abad ini, tumbuh menjadi bangsa yang lebih tangguh dan selamanya berubah.",
+            "image": "/assets/images/10-data-summary.jpg"
+        }
+    ]
+}
