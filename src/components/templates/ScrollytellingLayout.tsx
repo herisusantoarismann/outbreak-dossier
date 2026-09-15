@@ -418,11 +418,9 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
                             <div className="flex items-center gap-2">
                                 <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
                                 <span className="font-bold tracking-wider text-neutral-200 uppercase">
-                                    {locale === "zh"
-                                        ? "历史档案对比 // 雅加达苏迪曼大道"
-                                        : locale === "en"
-                                          ? "ARCHIVE COMPARISON // JALAN JENDERAL SUDIRMAN"
-                                          : "KOMPARASI ARSIP // JALAN JENDERAL SUDIRMAN"}
+                                    {locale === "en"
+                                        ? "ARCHIVE COMPARISON // JALAN JENDERAL SUDIRMAN"
+                                        : "KOMPARASI ARSIP // JALAN JENDERAL SUDIRMAN"}
                                 </span>
                             </div>
                             <span className="text-neutral-500 hidden xs:inline">
@@ -435,22 +433,18 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
                                 "/assets/images/covid-19/id/03a-jakarta-rush-hour.jpg"
                             }
                             beforeLabel={
-                                locale === "zh"
-                                    ? "疫情前 // 高峰车流"
-                                    : locale === "en"
-                                      ? "PRE-PANDEMIC // RUSH HOUR"
-                                      : "PRA-PANDEMI // RUSH HOUR"
+                                locale === "en"
+                                    ? "PRE-PANDEMIC // RUSH HOUR"
+                                    : "PRA-PANDEMI // RUSH HOUR"
                             }
                             afterImage={
                                 chapter.afterImage ||
                                 "/assets/images/covid-19/id/03b-jakarta-psbb-empty.jpg"
                             }
                             afterLabel={
-                                locale === "zh"
-                                    ? "全面封锁 // 空旷街道"
-                                    : locale === "en"
-                                      ? "TOTAL PSBB // DESERTED SUDIRMAN"
-                                      : "PSBB TOTAL // SUD MAN KOSONG"
+                                locale === "en"
+                                    ? "TOTAL PSBB // DESERTED SUDIRMAN"
+                                    : "PSBB TOTAL // SUD MAN KOSONG"
                             }
                             aspectRatio="aspect-[16/9]"
                             className="w-full"
@@ -487,7 +481,7 @@ function getChapterYear(chapter: Chapter): string {
     const dateStr =
         typeof chapter.date === "string"
             ? chapter.date
-            : chapter.date?.id || chapter.date?.en || chapter.date?.zh || "";
+            : chapter.date?.id || chapter.date?.en || "";
     if (
         dateStr.includes("2023") ||
         chapter.id.includes("national-debriefing") ||
@@ -679,22 +673,18 @@ const ScrollytellingLayoutContent: React.FC<ScrollytellingLayoutProps> = ({
                                         "/assets/images/covid-19/id/03a-jakarta-rush-hour.jpg"
                                     }
                                     beforeLabel={
-                                        locale === "zh"
-                                            ? "疫情前 // 高峰车流"
-                                            : locale === "en"
-                                              ? "PRE-PANDEMIC // RUSH HOUR"
-                                              : "PRA-PANDEMI // RUSH HOUR"
+                                        locale === "en"
+                                            ? "PRE-PANDEMIC // RUSH HOUR"
+                                            : "PRA-PANDEMI // RUSH HOUR"
                                     }
                                     afterImage={
                                         activeChapter.afterImage ||
                                         "/assets/images/covid-19/id/03b-jakarta-psbb-empty.jpg"
                                     }
                                     afterLabel={
-                                        locale === "zh"
-                                            ? "全面封锁 // 空旷街道"
-                                            : locale === "en"
-                                              ? "TOTAL PSBB // DESERTED SUDIRMAN"
-                                              : "PSBB TOTAL // SUD MAN KOSONG"
+                                        locale === "en"
+                                            ? "TOTAL PSBB // DESERTED SUDIRMAN"
+                                            : "PSBB TOTAL // SUD MAN KOSONG"
                                     }
                                     className="w-full h-full"
                                 />

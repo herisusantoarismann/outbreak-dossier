@@ -9,7 +9,6 @@ import {
     Radio,
     ShieldCheck,
     AlertOctagon,
-    Activity,
     Thermometer,
 } from "lucide-react";
 

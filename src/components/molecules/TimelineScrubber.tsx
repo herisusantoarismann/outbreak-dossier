@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import { useLocale } from "next-intl";
-import { Chapter, SupportedLocale } from "@/types/journey";
+import { Chapter, LocalizedContent, SupportedLocale } from "@/types/journey";
 import { t } from "@/utils/i18n";
 
 export interface TimelineScrubberProps {
@@ -20,11 +20,12 @@ interface YearGroup {
     }[];
 }
 
-function parseYear(date: any, id: string): string {
+function parseYear(
+    date: LocalizedContent | string | undefined | null,
+    id: string,
+): string {
     const dateStr =
-        typeof date === "string"
-            ? date
-            : date?.id || date?.en || date?.zh || "";
+        typeof date === "string" ? date : date?.id || date?.en || "";
     if (
         dateStr.includes("2023") ||
         id.includes("national-debriefing") ||
@@ -48,7 +49,7 @@ export const TimelineScrubber: React.FC<TimelineScrubberProps> = ({
     let locale: SupportedLocale = "id";
     try {
         const intlLocale = useLocale();
-        if (intlLocale === "id" || intlLocale === "en" || intlLocale === "zh") {
+        if (intlLocale === "id" || intlLocale === "en") {
             locale = intlLocale as SupportedLocale;
         }
     } catch {

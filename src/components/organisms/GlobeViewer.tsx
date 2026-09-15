@@ -74,7 +74,6 @@ export const GlobeViewer: React.FC = () => {
     const tHub = useTranslations("hub");
     const tPathogen = useTranslations("pathogenBrief");
 
-    const [isGlobeReady, setIsGlobeReady] = useState(false);
     const [isPathogenBriefOpen, setIsPathogenBriefOpen] = useState(false);
     const [hoveredCountryName, setHoveredCountryName] = useState<string | null>(
         null,
@@ -123,7 +122,6 @@ export const GlobeViewer: React.FC = () => {
 
     // Approximate centroid coordinates of a polygon feature
     const getFeatureCentroid = useCallback(
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         (feat: GeoJsonFeature): { lat: number; lng: number } | null => {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             const geom = (feat as any).geometry;
@@ -555,7 +553,6 @@ export const GlobeViewer: React.FC = () => {
             controls.maxDistance = 500;
 
             globeInstanceRef.current = globe;
-            setIsGlobeReady(true);
 
             // Window Resize Handler
             const handleResize = () => {

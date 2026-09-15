@@ -4,140 +4,857 @@
         "chapterNumber": "01",
         "type": "milestone",
         "title": {
-            "id": "Episentrum Eropa: Pasien Satu di Codogno",
-            "en": "European Ground Zero: Patient One in Codogno",
-            "zh": "欧洲零号坐标：科多尼奥一号病人"
+            "id": "Pasien Satu Codogno: Runtuhnya Tembok Ilusi Eropa",
+            "en": "Patient One of Codogno: Shattering the European Illusion"
         },
         "date": {
-            "id": "Februari 2020",
-            "en": "February 2020",
-            "zh": "2020年2月"
+            "id": "20 - 21 Februari 2020",
+            "en": "February 20 - 21, 2020"
         },
-        "strain": "SARS-CoV-2 Lineage B.1 (D614G Mutation)",
+        "strain": "SARS-CoV-2 (Lineage B.1 / European Anchor)",
         "flash": {
-            "id": "Guncangan Lombardia: Pria atletis 38 tahun positif di Codogno, membongkar rantai transmisi tersembunyi.",
-            "en": "Lombardy shock: A 38-year-old athlete tests positive in Codogno, exposing widespread silent community spread.",
-            "zh": "伦巴第震惊：科多尼奥一名38岁业余运动员确诊，揭开大规模隐秘社区传播链条。"
+            "id": "ALARM LOMBARDIA: Seorang pelari maraton 38 tahun di Codogno positif; mitos bahwa virus hanya menyerang orang tua dan pelancong sirna seketika.",
+            "en": "LOMBARDY BREACH: An athletic 38-year-old marathon runner tests positive; the myth of an isolated Asian pathogen evaporates."
         },
         "virusProfile": {
-            "code": "CLADE 20A / D614G",
+            "code": "EUR-B.1 ANCHOR (CODOGNO)",
             "mutationType": {
-                "id": "Mutasi D614G pada Spike Protein (Transmisibilitas Tinggi)",
-                "en": "Spike D614G Mutation (Enhanced Viral Transmissibility)",
-                "zh": "刺突蛋白 D614G 变异（传染性显著增强）"
+                "id": "Transmisi Siluman Komunitas di Lembah Sungai Po",
+                "en": "Cryptic Community Spread Across the Po Valley Basin"
             },
-            "r0": "2.8 - 3.2",
+            "r0": "3.2 - 3.6",
             "threatLevel": {
-                "id": "DARURAT TINGKAT KRITIS BENUA",
-                "en": "CONTINENTAL CRITICAL EMERGENCY",
-                "zh": "洲际极高危紧急状态"
+                "id": "EPISENTER EROPA RESMI MELETUS",
+                "en": "OFFICIAL EUROPEAN OUTBREAK IGNITION"
             },
             "clinicalTarget": {
-                "id": "Pneumonia bilateral agresif, kegagalan pernapasan hipoksemia akut",
-                "en": "Aggressive bilateral pneumonia, acute hypoxemic respiratory collapse",
-                "zh": "侵袭性双侧弥漫性肺炎、急性低氧血症呼吸衰竭"
+                "id": "Pneumonia interstitial refrakter pada usia muda tanpa komorbid",
+                "en": "Refractory interstitial pneumonia in young, healthy cohorts"
             }
         },
         "description": {
-            "id": "Di rumah sakit kecil Codogno, seorang dokter anestesi melanggar protokol pengujian resmi untuk menguji seorang pria sehat berusia 38 tahun yang menderita pneumonia tak kunjung sembuh. Hasil positif memicu kepanikan di seluruh Italia utara. Tanpa disadari, varian dengan mutasi D614G telah menyebar diam-diam selama berminggu-minggu melalui jaringan industri dan sepak bola Lombardia.",
-            "en": "In the provincial hospital of Codogno, an intensive care physician broke standard testing protocols to swab an otherwise healthy 38-year-old athlete with non-responsive pneumonia. The positive result triggered pandemonium across northern Italy. The virus carrying the D614G spike mutation had been circulating silently for weeks through Lombardy's industrial clusters and stadium matches.",
-            "zh": "在科多尼奥的地区医院，一名重症科医生打破既有检测协议，对一名患有难治性肺炎且无涉外旅行史的38岁业余运动员进行了核酸检测。阳性结果引发了意大利北部的剧烈恐慌。携带 D614G 刺突突变的病毒早已在伦巴第工业区和足球场赛事中隐秘传播了数周之久。"
+            "id": "Di Rumah Sakit Codogno, Lombardia, Dr. Annalisa Malara mengambil keputusan berani melanggar protokol pengujian resmi dengan melakukan tes swab pada Mattia Maestri—seorang pria bugar berusia 38 tahun yang menderita gagal napas tanpa pernah pergi ke Asia. Hasil lab keluar tengah malam: Positif. Dalam semalam, kota kecil berpenduduk 15.000 jiwa itu menjadi Ground Zero benua Eropa, mengungkap fakta mengerikan bahwa virus korona telah bermutasi dan berakar diam-diam di Italia selama berpekan-pekan.",
+            "en": "At Codogno Hospital in Lombardy, anesthesiologist Dr. Annalisa Malara defied official ministerial testing directives by swabbing Mattia Maestri—a fit 38-year-old suffering from acute hypoxia with zero contact history with Asia. The positive result arrived at midnight. Overnight, Codogno became Europe's Ground Zero, exposing the terrifying reality that the pathogen had been quietly multiplying across northern Italian factories and cafes for weeks."
         },
-        "image": "/assets/images/covid-19/id/04-hospital-panic.jpg",
-        "location": "Codogno, Lombardy, Italy"
+        "image": "/assets/images/covid-19/it/01-codogno-patient-one.jpg"
     },
     {
-        "id": "it-02-bergamo-convoy-tragedy",
-        "chapterNumber": "02",
+        "id": "it-02-side-match-zero",
+        "chapterNumber": "INTERLUDE I",
+        "type": "side_story",
+        "title": {
+            "id": "Partai Nol: Ledakan Biologis di San Siro",
+            "en": "Match Zero: The Biological Blast at San Siro"
+        },
+        "date": {
+            "id": "19 Februari 2020",
+            "en": "February 19, 2020"
+        },
+        "strain": "SARS-CoV-2 Pre-Symptomatic Dissemination",
+        "flash": {
+            "id": "SUPER-SPREADER MASSIF: 44.000 warga Bergamo berkumpul di San Siro merayakan kemenangan Atalanta; virus disemai ke seluruh provinsi.",
+            "en": "SUPERSPREADER CRUCIBLE: 44,000 Atalanta supporters pack Milan's San Siro; the virus disperses across Bergamo."
+        },
+        "virusProfile": {
+            "code": "MASS EVENT AMPLIFIER (ATALANTA-VALENCIA)",
+            "mutationType": {
+                "id": "Aerosolisasi Sorakan & Pelukan Masif di Ruang Publik",
+                "en": "Aerosolized Spreader Wave Driven by Vocal Shouting & Contact"
+            },
+            "r0": "4.5 (Di Gerbong Kereta Komuter dan Tribun)",
+            "threatLevel": {
+                "id": "DETONATOR EPIDEMIOLOGI EROPA TERCATAT",
+                "en": "CONTINENTAL CATALYST DISASTER"
+            },
+            "clinicalTarget": {
+                "id": "Transmisi antar-generasi cucu ke kakek-nenek di rumah",
+                "en": "Intergenerational domestic transmission from youths to elderly relatives"
+            }
+        },
+        "description": {
+            "id": "Laga 16 besar Liga Champions antara Atalanta dan Valencia di San Siro Milan tercatat dalam sejarah sebagai 'Partita Zero'. Sepertiga penduduk Bergamo menaiki kereta dan bus komuter bersama, minum di bar-bar padat, dan berpelukan histeris saat merayakan empat gol bersejarah. Dua minggu kemudian, Bergamo hancur lebur. Malam olahraga paling indah dalam sejarah klub berubah menjadi bom biologis tak kasat mata yang menyapu bersih generasi orang tua di lembah Val Seriana.",
+            "en": "The UEFA Champions League fixture between Atalanta and Valencia at Milan's San Siro stadium became known as 'Partita Zero'. A third of Bergamo's population traveled shoulder-to-shoulder on commuter trains, drank in cramped metro bars, and hugged during four unforgettable goals. Two weeks later, the province disintegrated. The greatest sporting night in Bergamo's history had acted as an airborne biological bomb, tearing through the elderly of the Seriana Valley."
+        },
+        "image": "/assets/images/covid-19/it/02-san-siro-match-zero.jpg"
+    },
+    {
+        "id": "it-03-bergamo-hospital-collapse",
+        "chapterNumber": "03",
         "type": "milestone",
         "title": {
-            "id": "Malam Kelam Bergamo: Konvoi Truk Militer",
-            "en": "The Dark Night of Bergamo: The Military Convoys",
-            "zh": "贝加莫暗夜：沉默的军车棺木车队"
+            "id": "Benteng Papa Giovanni XXIII: RS Bergamo di Titik Nadir",
+            "en": "Fortress Papa Giovanni XXIII: Bergamo Hospital Overrun"
+        },
+        "date": {
+            "id": "Awal Maret 2020",
+            "en": "Early March 2020"
+        },
+        "strain": "Lineage B.1 (Spike D614G Mutation Anchor)",
+        "flash": {
+            "id": "KOLAPS STRUKTURAL: IGD rumah sakit paling modern di Lombardia kehabisan ranjang; ratusan pasien memakai helm gelembung CPAP di lorong.",
+            "en": "STRUCTURAL BREAK: Lombardy's most advanced hospital runs out of beds; hundreds of CPAP bubble helmets line hallways."
+        },
+        "virusProfile": {
+            "code": "CLINICAL CAPACITY DEPLETION",
+            "mutationType": {
+                "id": "Replikasi Agresif Saluran Napas Bawah",
+                "en": "Aggressive Lower Respiratory Tropism Overwhelming Critical Care"
+            },
+            "r0": "3.8",
+            "threatLevel": {
+                "id": "SATURASI MEDIS TERTINGGI EROPA",
+                "en": "EUROPEAN ACUTE CLINICAL CRUNCH"
+            },
+            "clinicalTarget": {
+                "id": "Sindrom distres pernapasan akut (ARDS) refrakter",
+                "en": "Refractory Acute Respiratory Distress Syndrome across geriatrics"
+            }
+        },
+        "description": {
+            "id": "Rumah Sakit Papa Giovanni XXIII di Bergamo—kebanggaan sistem kesehatan Italia—berubah menjadi bangsal darurat berbau desinfektan dalam tempo 10 hari. Setiap sudut ruang tunggu, kapel doa, dan ruang administrasi dipasangi kasur lipat. Bunyi mendesis dari ratusan helm plastik transparan CPAP yang dipasangkan ke kepala pasien berpadu dengan jeritan sirine monitor jantung. Nakes bekerja dalam giliran 16 jam tanpa jeda, dengan bekas luka merah menganga di hidung dan pipi akibat ikatan masker FFP2.",
+            "en": "The Papa Giovanni XXIII Hospital in Bergamo—the crown jewel of Italian public health—mutated into an emergency field ward in ten days. Waiting rooms, chapels, and administrative corridors were crowded with makeshift gurneys. The relentless hissing of hundreds of transparent plastic CPAP helmets mingled with the wailing of flatlining cardiac alarms. Nurses labored through 16-hour shifts, their faces bruised and bleeding under the relentless pressure of tight FFP2 respirators."
+        },
+        "image": "/assets/images/covid-19/it/03-papa-giovanni-hospital.jpg"
+    },
+    {
+        "id": "it-04-wartime-triage-ethics",
+        "chapterNumber": "04",
+        "type": "standard",
+        "title": {
+            "id": "Pilihan Neraka: Rekomendasi Triase Perang Bencana SIAARTI",
+            "en": "The Tragic Calculus: SIAARTI Wartime Triage Directives"
         },
         "date": {
             "id": "Maret 2020",
-            "en": "March 2020",
-            "zh": "2020年3月"
+            "en": "March 2020"
         },
-        "strain": "SARS-CoV-2 (Lineage B.1)",
+        "strain": "Ventilator Exhaustion Phase",
         "flash": {
-            "id": "Puncak Tragedi: Krematorium Bergamo kolaps; konvoi truk tentara membawa jenazah ke luar kota di tengah malam.",
-            "en": "Summit of tragedy: Bergamo crematoriums overwhelmed; military trucks transport coffins under midnight curfew.",
-            "zh": "悲剧巅峰：贝加莫火葬场不堪重负，陆军军用卡车车队在午夜戒严中运送棺木转移外省。"
+            "id": "ETIKA MEDIS DI TITIK RUNTUH: Anestesiolog Italia menerbitkan pedoman penjatahan ventilator berdasarkan sisa harapan hidup.",
+            "en": "ETHICAL ABYSS: Italian intensivists formalize wartime criteria to ration scarce ventilators by survival probability."
         },
         "virusProfile": {
-            "code": "B.1 LOMBARDY EPICENTER",
+            "code": "RATIONING COLLAPSE POINT",
             "mutationType": {
-                "id": "Lonjakan Viral Load Nosokomial",
-                "en": "Nosocomial Viral Load Amplification",
-                "zh": "医院院内高载量病毒扩增"
+                "id": "Permintaan Ventilasi Mekanik 500% Melampaui Stok Faskes",
+                "en": "Mechanical Ventilation Demand Overrunning ICU Beds by 500%"
             },
-            "r0": "3.5+",
+            "r0": "Triase Bencana",
             "threatLevel": {
-                "id": "KOLAPS SISTEM KESEHATAN REGIONAL",
-                "en": "REGIONAL HEALTH SYSTEM COLLAPSE",
-                "zh": "区域医疗系统彻底瘫痪"
+                "id": "KRISIS ETIKA KEDOKTERAN MODERN",
+                "en": "CRITICAL BIOETHICS CRISIS"
             },
             "clinicalTarget": {
-                "id": "Kerusakan alveolar difus, saturasi oksigen jatuh di bawah 70%",
-                "en": "Diffuse alveolar damage, oxygen saturation dropping below 70%",
-                "zh": "广泛肺泡弥漫性损伤、血氧饱和度骤降至70%以下"
+                "id": "Penghentian terapi invasif untuk pasien usia lanjut dengan komorbiditas",
+                "en": "Withholding invasive mechanical support for frail geriatric patients"
             }
         },
         "description": {
-            "id": "Maret 2020 menjadi simbol duka dunia barat ketika deretan truk militer tentara Italia bergerak perlahan di jalanan sepi Bergamo tengah malam. Rumah sakit Papa Giovanni XXIII kehabisan ventilator dan tempat tidur ICU, sementara kabar duka memenuhi berlembar-lembar koran lokal L'Eco di Bergamo. Peristiwa ini mengubah persepsi global tentang keparahan pandemi.",
-            "en": "March 2020 became the defining visual grief of the western world as a column of dark Italian army trucks moved slowly through empty Bergamo streets at midnight. Papa Giovanni XXIII Hospital ran out of ventilators and ICU beds, while death notices in the local newspaper L'Eco di Bergamo expanded to ten pages daily. The catastrophe permanently shifted global comprehension of the pathogen's lethality.",
-            "zh": "2020年3月，当一列深色意大利陆军军用卡车在午夜空无一人的贝加莫街道上缓缓行驶时，这一画面成为了西方世界刻骨铭心的悲痛记忆。若望二十三世医院的呼吸机与重症床位彻底告罄，当地报纸的讣告栏从一页暴增至整整十版，这场浩劫彻底打破了全球对病毒致死性的误判。"
+            "id": "Ketika lonjakan pasien gagal napas melampaui jumlah mesin pernapasan buatan, Perkumpulan Anestesiologi dan Terapi Intensif Italia (SIAARTI) merilis dokumen paling menyayat hati dalam sejarah kedokteran Eropa: rekomendasi etika triase masa perang. Terjebak dalam kelangkaan ekstrem, dokter dipaksa menetapkan batas usia dan harapan hidup. Pasien lansia dengan komorbiditas disuntik morfin penenang agar meninggal tanpa rasa sakit, demi mengalokasikan satu-satunya selang intubasi yang tersisa bagi pasien yang memiliki tahun hidup lebih panjang.",
+            "en": "As suffocating admissions hopelessly outpaced mechanical lung machines, the Italian Society of Anesthesia, Analgesia, and Intensive Care (SIAARTI) published the most agonizing bioethics brief of modern European medicine. Forced into extreme rationing, clinicians established utilitarian life-expectancy thresholds. Frail elderly patients were placed on compassionate palliative sedation to slip away, ensuring the ward's remaining ventilators were reserved for younger parents with viable life horizons."
         },
-        "image": "/assets/images/covid-19/id/08-oxygen-crisis.jpg",
-        "location": "Bergamo, Lombardy, Italy"
+        "image": "/assets/images/covid-19/it/04-wartime-triage-doctor.jpg"
     },
     {
-        "id": "it-03-first-western-lockdown",
-        "chapterNumber": "03",
+        "id": "it-05-the-midnight-army-convoy",
+        "chapterNumber": "05",
+        "type": "milestone",
+        "title": {
+            "id": "Iring-iringan Truk Tengah Malam: Tragedi Peti Mati Bergamo",
+            "en": "The Midnight Convoy: Bergamo's Military Coffin Procession"
+        },
+        "date": {
+            "id": "18 Maret 2020",
+            "en": "March 18, 2020"
+        },
+        "strain": "SARS-CoV-2 (Lombardy Mortality Zenith)",
+        "flash": {
+            "id": "FOTO YANG MENYENTAK DUNIA: 30 truk militer Angkatan Darat mengangkut ratusan peti mati keluar Bergamo karena krematorium meledak kapasitas.",
+            "en": "THE IMAGE THAT STUNNED THE WORLD: 30 camouflaged army trucks crawl through the night evacuating coffins from overwhelmed crematoria."
+        },
+        "virusProfile": {
+            "code": "MORTUARY INFRASTRUCTURE COLLAPSE",
+            "mutationType": {
+                "id": "Mortalitas Masif Melipatgandakan Kapasitas Kremasi Kota 10x",
+                "en": "Tenfold Mortality Spike Demolishing Municipal Cremation Infrastructure"
+            },
+            "r0": "Puncak Kematian Domestik",
+            "threatLevel": {
+                "id": "TRAUMA KOLEKTIF NASIONAL ABADI",
+                "en": "PERMANENT NATIONAL MEMORIAL APEX"
+            },
+            "clinicalTarget": {
+                "id": "Ketidakmampuan memulasarakan ribuan jenazah secara normal",
+                "en": "Inability to process thousands of deceased through dignified civil rites"
+            }
+        },
+        "description": {
+            "id": "Pada malam berkabut 18 Maret 2020, sebuah potret dari jendela lantai dua di Bergamo menyentak hati nurani seluruh umat manusia. Tiga puluh truk militer berpelat Angkatan Darat Italia berbaris panjang merayap pelan di Via Borgo Palazzo di bawah sorotan lampu jalanan yang basah. Krematorium monumen Bergamo yang membakar jenazah non-stop 24 jam sehari telah terbakar mesinnya. Ratusan peti mati terpaksa dievakuasi ke krematorium Modena, Bologna, dan Venezia, dibawa pergi tanpa taburan bunga maupun kehadiran anak-cucu yang sedang terkurung karantina.",
+            "en": "On the misty night of March 18, 2020, a single amateur photograph snapped from a window in Bergamo scarred global memory. Thirty olive-drab Italian Army trucks crept through Via Borgo Palazzo under amber streetlamps. Bergamo's monumental crematorium, incinerating bodies 24/7, had suffered structural heat failure. The military was ordered to transport hundreds of plain coffins to faraway crematoria in Emilia-Romagna, without a single child or spouse permitted to bid farewell."
+        },
+        "image": "/assets/images/covid-19/it/05-bergamo-army-trucks.jpg"
+    },
+    {
+        "id": "it-06-side-balcony-symphonies",
+        "chapterNumber": "INTERLUDE II",
+        "type": "side_story",
+        "title": {
+            "id": "Melodi dari Jendela: Suara Balkon Melawan Kematian",
+            "en": "Balcony Symphonies: Communal Resistance Against Fear"
+        },
+        "date": {
+            "id": "Maret 2020",
+            "en": "March 2020"
+        },
+        "strain": "Civic Resilience & Cultural Response",
+        "flash": {
+            "id": "SOLIDARITAS BUDAYA: Tepat jam 6 sore setiap hari, jutaan warga bernyanyi di balkon apartemen dari Roma hingga Napoli.",
+            "en": "CULTURAL HARMONY: Daily at 6:00 PM, millions take to apartment balconies across Italy singing operatic anthems."
+        },
+        "virusProfile": {
+            "code": "COLLECTIVE COPING PSYCHOLOGY",
+            "mutationType": {
+                "id": "Pertahanan Psikologis Kolektif Komunal",
+                "en": "Spontaneous Community Coping Mechanism Against Isolation"
+            },
+            "r0": "Transmisi Nol (Jarak Vertikal)",
+            "threatLevel": {
+                "id": "SIMBOL DAYA TAHAN JIWA MANUSIA",
+                "en": "HUMAN SPIRIT RESILIENCE MONUMENT"
+            },
+            "clinicalTarget": {
+                "id": "Mitigasi depresi akut dan histeria isolasi rumah tangga",
+                "en": "Alleviation of existential terror and solitary domestic neurosis"
+            }
+        },
+        "description": {
+            "id": "Di tengah karantina paling muram, jiwa bangsa Italia memancarkan cahaya kehangatan yang menggetarkan dunia. Tepat pukul 18.00 setiap senja, jutaan jendela apartemen di Roma, Torino, Napoli, dan Firenze terbuka serentak. Warga bernyanyi bersama, memainkan biola, memukul panci, dan memutar rekaman 'Nessun Dorma' dari pelantang suara. Spanduk kain bertuliskan 'Andrà tutto bene' dengan gambar pelangi berkibar di pagar balkon, membuktikan bahwa meski tubuh terkurung di dalam empat dinding, harapan dan persaudaraan tak dapat dipenjara.",
+            "en": "In the shadow of quarantine, Italian warmth staged an unforgettable spiritual counteroffensive. Daily at 6:00 PM, shuttered windows and ornate iron balconies flew open in Rome, Turin, Naples, and Florence. Citizens sang the national anthem, played trumpets, and blasted Pavarotti's 'Nessun Dorma' into empty stone courtyards. Hand-painted bedsheets reading 'Andrà tutto bene' with crayon rainbows fluttered from railings, proving that human connection could breach any barrier."
+        },
+        "image": "/assets/images/covid-19/it/06-balcony-singing-solidarity.jpg"
+    },
+    {
+        "id": "it-07-statio-orbis-pope-francis",
+        "chapterNumber": "06",
+        "type": "milestone",
+        "title": {
+            "id": "Doa di Lapangan Sunyi: Statio Orbis Paus Fransiskus",
+            "en": "Statio Orbis: Pope Francis in the Deserted Rain of St. Peter's"
+        },
+        "date": {
+            "id": "27 Maret 2020",
+            "en": "March 27, 2020"
+        },
+        "strain": "Global Metaphysical Solitude",
+        "flash": {
+            "id": "MONUMEN SPIRITUAL ABADI: Di bawah guyuran hujan lebat di Piazza San Pietro yang kosong melompong, Paus memimpin doa Urbi et Orbi luar biasa bagi umat manusia.",
+            "en": "UNIVERSAL BENEDICTION: In the pouring rain of an empty St. Peter's Square, Pope Francis delivers an extraordinary Urbi et Orbi blessing to the world."
+        },
+        "virusProfile": {
+            "code": "METAPHYSICAL CONSOLATION BENCHMARK",
+            "mutationType": {
+                "id": "Penghentian Total Peribadatan Publik Global",
+                "en": "Complete Global Cessation of Public Religious Congregation"
+            },
+            "r0": "Nol Kerumunan",
+            "threatLevel": {
+                "id": "TITIK PERENUNGAN PERADABAN MANUSIA",
+                "en": "CIVILIZATIONAL SPIRITUAL ANCHOR"
+            },
+            "clinicalTarget": {
+                "id": "Kekuatan mental populasi dunia di puncak badai kematian",
+                "en": "Psychological solace for a terrified global populace in confinement"
+            }
+        },
+        "description": {
+            "id": "Pada senja berkabut 27 Maret 2020, sebuah peristiwa spiritual paling monumental dalam sejarah modern tersaji di Vatikan. Paus Fransiskus berjalan tertatih-tatih sendirian melintasi hamparan batu basah Piazza San Pietro yang kosong melompong di bawah guyuran hujan lebat Roma. Tanpa ada satu pun peziarah di sekelilingnya, suaranya yang parau menggema melalui pengeras suara: 'Kita mendapati diri kita takut dan tersesat... kita semua berada di dalam perahu yang sama di tengah badai yang ganas'. Berkat luar biasa 'Urbi et Orbi' malam itu menjadi monumen duka sekaligus penghiburan bagi seluruh dunia.",
+            "en": "On the rain-swept dusk of March 27, 2020, modern history witnessed its most poignant spiritual spectacle. An aged Pope Francis limped alone across the slick, glistening cobblestones of an utterly vacant St. Peter's Square under heavy Roman skies. With no pilgrims in sight, his tired voice echoed across empty colonnades: 'We have realized that we are on the same boat, all of us fragile and disoriented... but all called to row together.' The extraordinary Urbi et Orbi blessing stood as a beacon of universal sorrow and communion."
+        },
+        "image": "/assets/images/covid-19/it/07-pope-empty-vatican.jpg"
+    },
+    {
+        "id": "it-08-the-silent-generation-toll",
+        "chapterNumber": "07",
+        "type": "milestone",
+        "title": {
+            "id": "Gugurnya Para Penjaga Memori: Punahnya Kaum Lansia Italia",
+            "en": "The Extinguished Generation: Loss of Italy's Memory Keepers"
+        },
+        "date": {
+            "id": "Maret - April 2020",
+            "en": "March - April 2020"
+        },
+        "strain": "SARS-CoV-2 (Geriatric Democide)",
+        "flash": {
+            "id": "HILANGNYA SILSILAH BUDAYA: Puluhan desa di Lembah Seriana kehilangan hampir seluruh warga berusia di atas 70 tahun.",
+            "en": "CULTURAL ERASURE: Valleys in Lombardy lose nearly an entire generation of seniors who rebuilt post-war Italy."
+        },
+        "virusProfile": {
+            "code": "HISTORIC DEMOGRAPHIC SCAR",
+            "mutationType": {
+                "id": "Pembersihan Kohor Generasi Kelahiran 1925-1945",
+                "en": "Severe Cohort Decimation of Italian Citizens Born 1925-1945"
+            },
+            "r0": "Puncak Fatalitas Geriatrik",
+            "threatLevel": {
+                "id": "TERPUTUSNYA TRANSMISI BUDAYA DAN TRADISI",
+                "en": "CULTURAL IDENTITY AND DIALECT DISRUPTION"
+            },
+            "clinicalTarget": {
+                "id": "Kematian sepihak tanpa kesempatan salam perpisahan",
+                "en": "Solitary demise without possibility of family communion or farewells"
+            }
+        },
+        "description": {
+            "id": "Luka paling pedih di Italia bukanlah angka statistik ekonomi, melainkan lenyapnya sebuah generasi yang tak tergantikan. Kaum lansia yang lahir pada dekade 1920-an dan 1930-an—mereka yang dengan tangan sendiri membangun Italia dari puing-puing fasisme dan Perang Dunia II, penutur dialek lokal Bergamo, penjaga rahasia resep tradisional dan lagu rakyat—hilang dalam tempo berminggu-minggu. Di koran harian 'L'Eco di Bergamo', rubrik obituari melonjak dari 1 halaman menjadi 11 halaman penuh berisi deretan foto pria dan wanita berambut putih yang meninggal sendirian di ranjang rumah sakit tanpa sempat menggenggam tangan anak-cucu mereka.",
+            "en": "The deepest scar left on Italy was not economic contraction, but an irreplaceable cultural rupture. The generation born in the 1920s and 30s—who had rebuilt the republic from the rubble of fascism, safeguarded endangered regional dialects, and passed down culinary legacies—vanished in a month. In the daily 'L'Eco di Bergamo', the obituary pages expanded from a customary single column to eleven consecutive pages of solemn faces who slipped away without holding a loved one's hand."
+        },
+        "image": "/assets/images/covid-19/it/08-leco-di-bergamo-obituaries.jpg"
+    },
+    {
+        "id": "it-09-rome-wuhan-tourists",
+        "chapterNumber": "08",
         "type": "standard",
         "title": {
-            "id": "Zona Merah: Karantina Nasional Pertama Dunia Barat",
-            "en": "Zona Rossa: The First Western Nationwide Lockdown",
-            "zh": "红色区域：西方现代史上首次全境封锁"
+            "id": "Alarm di Grand Hotel: Pasangan Turis Wuhan di Roma",
+            "en": "Alarm at the Grand Hotel: The Wuhan Tourists in Rome"
+        },
+        "date": {
+            "id": "29 - 31 Januari 2020",
+            "en": "January 29 - 31, 2020"
+        },
+        "strain": "SARS-CoV-2 (Wuhan-Hu-1 Lineage B)",
+        "flash": {
+            "id": "DETEKSI IMPOR: Dua turis asal Tiongkok dievakuasi dari Hotel Palatino Roma ke Institut Spallanzani; Italia memutus penerbangan langsung.",
+            "en": "FIRST IMPORTED CASE: Two Chinese tourists evacuated from Hotel Palatino in Rome; Italy suspends direct flights to China."
+        },
+        "virusProfile": {
+            "code": "IMPORTED CLUSTER (ROME)",
+            "mutationType": {
+                "id": "Transmisi Impor Turisme Jarak Jauh",
+                "en": "Long-Distance Cross-Border Tourist Transmission"
+            },
+            "r0": "2.2",
+            "threatLevel": {
+                "id": "STATUS DARURAT KESEHATAN NASIONAL",
+                "en": "NATIONAL HEALTH EMERGENCY DECLARATION"
+            },
+            "clinicalTarget": {
+                "id": "Pneumonia demam akut dengan riwayat paparan dari Hubei",
+                "en": "Acute febrile pneumonia with recent epidemiological links to Hubei"
+            }
+        },
+        "description": {
+            "id": "Pada malam 29 Januari 2020, ambulans bertekanan negatif meluncur membelah jalanan Roma menuju Hotel Palatino di dekat Colosseum. Sepasang suami istri paruh baya asal Wuhan yang sedang berlibur mengalami demam tinggi dan batuk parah. Mereka langsung diisolasi ketat di Rumah Sakit Nasional Penyakit Menular Lazzaro Spallanzani. Pemerintah Roma segera mengumumkan status darurat nasional selama enam bulan dan menghentikan seluruh penerbangan langsung dari Tiongkok, meyakini bahwa langkah drastis ini cukup untuk membentengi semenanjung Italia.",
+            "en": "On the night of January 29, 2020, negative-pressure ambulances tore through the streets of Rome toward the Hotel Palatino near the Colosseum. A retired couple visiting from Wuhan had collapsed with high fevers and respiratory distress. Rushed into biocontainment at the Lazzaro Spallanzani National Institute, they became Italy's confirmed patient zero and one. Confident that immediate flight bans would contain the threat, Rome declared a six-month national state of emergency."
+        },
+        "image": "/assets/images/covid-19/it/10-rome-spallanzani.jpg"
+    },
+    {
+        "id": "it-10-vo-euganeo-first-death",
+        "chapterNumber": "09",
+        "type": "standard",
+        "title": {
+            "id": "Vo' Euganeo: Kematian Pertama Adriano Trevisan & Swab Seluruh Desa",
+            "en": "Vo' Euganeo: The First Fatality & The Village Laboratory"
+        },
+        "date": {
+            "id": "21 - 28 Februari 2020",
+            "en": "February 21 - 28, 2020"
+        },
+        "strain": "SARS-CoV-2 (Veneto Cluster / Clade 19A)",
+        "flash": {
+            "id": "KORBAN PERTAMA EROPA: Adriano Trevisan (78) meninggal di Padova; seluruh 3.300 warga desa Vo' Euganeo dites swab massal.",
+            "en": "FIRST EUROPEAN DEATH: 78-year-old Adriano Trevisan dies in Padua; Professor Crisanti swabs the entire village of 3,300 souls."
+        },
+        "virusProfile": {
+            "code": "ASYMPTOMATIC SHEDDING MATRIX",
+            "mutationType": {
+                "id": "Penularan Asimtomatik 43% Ditemukan pada Populasi Tertutup",
+                "en": "43% Asymptomatic Reservoir Ratio Identified in Closed Cohort"
+            },
+            "r0": "2.8",
+            "threatLevel": {
+                "id": "PENELITIAN VIROLOGI POPULASI PERTAMA",
+                "en": "FIRST COHORT POPULATION GENOMICS BENCHMARK"
+            },
+            "clinicalTarget": {
+                "id": "Deteksi dini sebelum kerusakan parenkim paru lanjut",
+                "en": "Pre-symptomatic detection prior to extensive pulmonary opacities"
+            }
+        },
+        "description": {
+            "id": "Beberapa jam setelah kasus Codogno merebak, kabar duka melanda desa tetangga di Veneto: Adriano Trevisan, kakek pensiunan tukang batu berusia 78 tahun, menghembuskan napas terakhir di RS Schiavonia Padova, menjadi korban jiwa pertama COVID-19 di Italia. Pemerintah daerah mengunci desa berpenduduk 3.300 jiwa itu menjadi Zona Merah (Zona Rossa). Ahli mikrobiologi Prof. Andrea Crisanti mengubah seluruh desa menjadi laboratorium ilmiah: seluruh warga diswab dua putaran, mengungkap temuan mengejutkan dunia bahwa 43% pembawa virus tidak bergejala sama sekali.",
+            "en": "Hours after Codogno surfaced, death struck the Veneto hills: Adriano Trevisan, a 78-year-old retired bricklayer, succumbed at Schiavonia Hospital, marking Italy's first domestic fatality. Authorities threw a military cordon around the 3,300-person village of Vo'. Microbiologist Andrea Crisanti leveraged the quarantine to conduct an unprecedented scientific study: swabbing the entire population twice, proving to the world that over 40% of viral carriers exhibited zero symptoms."
+        },
+        "image": "/assets/images/covid-19/it/11-vo-euganeo-quarantine.jpg"
+    },
+    {
+        "id": "it-11-midnight-train-exodus",
+        "chapterNumber": "10",
+        "type": "standard",
+        "title": {
+            "id": "Eksodus Kereta Malam: Bocornya Dekrit & Panik di Milano Centrale",
+            "en": "The Midnight Flight: Leaked Decrees & Panic at Milano Centrale"
+        },
+        "date": {
+            "id": "7 - 8 Maret 2020",
+            "en": "March 7 - 8, 2020"
+        },
+        "strain": "SARS-CoV-2 (Intra-National Inter-Regional Seeding)",
+        "flash": {
+            "id": "KEBOCORAN INFORMASI: Draf dekrit isolasi Lombardia bocor ke media; ribuan pekerja menyerbu stasiun kereta malam menuju Italia selatan.",
+            "en": "INFORMATIONAL PANIC: Leaked draft of the Lombardy lockdown sparks a midnight stampede to southbound trains at Milano Centrale."
+        },
+        "virusProfile": {
+            "code": "MASS PANIC DISPERSAL",
+            "mutationType": {
+                "id": "Penyebaran Geografis Mendadak Utara-ke-Selatan",
+                "en": "Abrupt North-to-South Geographic Vector Displacement"
+            },
+            "r0": "Transmisi Kereta Malam Padat",
+            "threatLevel": {
+                "id": "ANCAMAN KOLAPS FASKES ITALIA SELATAN",
+                "en": "SOUTHERN HEALTHCARE GRID FRAGILITY RISK"
+            },
+            "clinicalTarget": {
+                "id": "Transmisi dari pemudik muda ke wilayah dengan rasio ranjang ICU rendah",
+                "en": "Carrier transfer into under-resourced southern provincial clinics"
+            }
+        },
+        "description": {
+            "id": "Pada malam 7 Maret 2020, draf peraturan pemerintah pusat untuk mengunci total seluruh kawasan Lombardia bocor ke media sebelum diumumkan secara resmi. Kepanikan liar meledak di Milan. Ribuan mahasiswa dan pekerja rantau asal selatan mengemas koper tergesa-gesa dan berlari menyerbu Stasiun Milano Centrale. Massa berdesakan menaiki kereta antarkota terakhir menuju Napoli, Bari, dan Sisilia tanpa pemeriksaan suhu tubuh. Eksodus malam itu menyebarkan rantai infeksi ke kawasan selatan Italia yang memiliki infrastruktur rumah sakit jauh lebih rentan.",
+            "en": "Late on Saturday, March 7, 2020, a leaked draft decree mandating the total quarantine of Lombardy hit the press before official broadcast. Mass panic erupted across Milan. Thousands of southern students and migrant workers packed bags in frenzy, racing to Milano Centrale. Terrified crowds stormed the carriages of the last southbound intercity trains toward Naples, Bari, and Sicily. This panicked exodus seeded the virus into southern regions where critical care capacity was dangerously fragile."
+        },
+        "image": "/assets/images/covid-19/it/12-milano-centrale-exodus.jpg"
+    },
+    {
+        "id": "it-12-io-resto-a-casa-lockdown",
+        "chapterNumber": "11",
+        "type": "milestone",
+        "title": {
+            "id": "Io Resto a Casa: Dekrit Perdana Menteri Conte Mengunci Italia",
+            "en": "Io Resto a Casa: Prime Minister Conte Locks Down the Republic"
+        },
+        "date": {
+            "id": "9 Maret 2020",
+            "en": "March 9, 2020"
+        },
+        "strain": "Civil Quarantine Directive Phase",
+        "flash": {
+            "id": "KARANTINA TOTAL BARAT: Seluruh 60 juta rakyat Italia diperintahkan tidak keluar rumah; zona merah diperluas ke seisi semenanjung.",
+            "en": "TOTAL WESTERN LOCKDOWN: 60 million Italian citizens ordered into home isolation; the red zone blankets the entire peninsula."
+        },
+        "virusProfile": {
+            "code": "NATIONWIDE MOBILITY SEVERANCE",
+            "mutationType": {
+                "id": "Pemotongan Mobilitas Publik 90% via Dekrit Hukum",
+                "en": "90% Municipal Transit Suppression via Executive Lockdown Decree"
+            },
+            "r0": "Ditekan dari 3.5 ke < 1.0 dalam 30 Hari",
+            "threatLevel": {
+                "id": "PENETAPAN LOCKDOWN DEMOKRASI BARAT PERTAMA",
+                "en": "FIRST WESTERN DEMOCRATIC CORDON SANITAIRE"
+            },
+            "clinicalTarget": {
+                "id": "Pengendalian kurva transmisi sebelum menembus faskes tengah dan selatan",
+                "en": "Flattening the incidence wave prior to overwhelming central-southern networks"
+            }
+        },
+        "description": {
+            "id": "Pukul 21.30 malam 9 Maret 2020, Perdana Menteri Giuseppe Conte muncul di layar televisi nasional membacakan maklumat bersejarah 'Io Resto a Casa' (Saya Tinggal di Rumah). Untuk pertama kalinya sejak Perang Dunia II, sebuah negara demokrasi barat mengunci seluruh 60 juta penduduknya. Sekolah, restoran, museum, dan katedral ditutup. Polisi militer berpatroli meminta formulir pernyataan izin perjalanan (autocertificazione). Italia mengorbankan ekonominya demi menyelamatkan nyawa warganya.",
+            "en": "At 9:30 PM on March 9, 2020, Prime Minister Giuseppe Conte addressed the republic in an address christened 'Io Resto a Casa'. For the first time in modern Western democratic history, a nation of sixty million citizens was placed under home confinement. Piazzas emptied, cafes shuttered, and Carabinieri patrolled checkpoints demanding signed self-declaration forms ('autocertificazione'). Italy sacrificed its economic pulse to halt the biological collapse of its society."
+        },
+        "image": "/assets/images/covid-19/it/13-conte-speech-lockdown.jpg"
+    },
+    {
+        "id": "it-13-side-prison-riots",
+        "chapterNumber": "INTERLUDE III",
+        "type": "side_story",
+        "title": {
+            "id": "Pemberontakan Penjara: Amarah di Balik Jeruji San Vittore & Modena",
+            "en": "Rage Behind Bars: The Penitentiary Riots from San Vittore to Modena"
+        },
+        "date": {
+            "id": "8 - 11 Maret 2020",
+            "en": "March 8 - 11, 2020"
+        },
+        "strain": "Penitentiary Structural Pressure",
+        "flash": {
+            "id": "PEMBERONTAKAN SERENTAK: Kerusuhan meletus di 27 lapas Italia saat kunjungan keluarga dilarang; 12 tahanan tewas di Modena dan atap San Vittore dibakar.",
+            "en": "CARCERAL MUTINY: Riots sweep 27 Italian prisons following the suspension of family visits; 12 inmates die amidst smoke and tear gas."
+        },
+        "virusProfile": {
+            "code": "CONFINED INSTITUTIONAL MUTINY",
+            "mutationType": {
+                "id": "Kepanikan Penularan di Lingkungan Fasilitas Tertutup Padat",
+                "en": "Overcrowded Facility Hysteria Triggered by Isolation Sanctions"
+            },
+            "r0": "Transmisi Sel Tahanan Padat",
+            "threatLevel": {
+                "id": "KRISIS KETERTIBAN UMUM TINGKAT TINGGI",
+                "en": "CRITICAL PUBLIC ORDER BREACH"
+            },
+            "clinicalTarget": {
+                "id": "Keracunan obat overdosis apotek lapas dan trauma kekerasan",
+                "en": "Lethal pharmaceutical overdoses following infirmary raids and acute riot trauma"
+            }
+        },
+        "description": {
+            "id": "Ketika dekrit lockdown melarang seluruh kunjungan tatap muka keluarga, kepanikan tertular virus di balik sel yang sesak memicu pemberontakan serentak di 27 penjara di seluruh Italia. Di Lapas San Vittore Milan, narapidana memanjat atap genteng, membakar kasur busa, dan berteriak meminta grasi di tengah kepulan asap hitam pekat. Tragedi paling berdarah pecah di Penjara Sant'Anna Modena: tahanan menjarah apotek penjara dan menenggak metadon, berujung pada kematian tragis 12 narapidana sebelum pasukan anti-huru-hara merebut kendali.",
+            "en": "When emergency decrees severed all familial visits, sheer dread of contagion within overcrowded cells sparked coordinated mutinies across 27 Italian prisons. At Milan's San Vittore, convicts scaled exterior roofs, setting mattresses ablaze and chanting for clemency beneath plumes of acrid smoke. Catastrophe unspooled in Modena's Sant'Anna prison: inmates ransacked infirmaries for methadone and narcotics, leaving twelve dead from massive overdoses before tactical police regained control."
+        },
+        "image": "/assets/images/covid-19/it/14-prison-riot-smoke.jpg"
+    },
+    {
+        "id": "it-14-church-of-all-saints-coffins",
+        "chapterNumber": "12",
+        "type": "standard",
+        "title": {
+            "id": "Gereja Para Peti Mati: Nave All Saints Bergamo Penuh Kayu Pinus",
+            "en": "The Nave of Pine: Church of All Saints Filled with Coffins"
+        },
+        "date": {
+            "id": "Maret 2020",
+            "en": "March 2020"
+        },
+        "strain": "SARS-CoV-2 (Mortuary Saturation)",
+        "flash": {
+            "id": "TEMPAT SUCI JADI DEPOT: Gereja Cimitero Monumentale Bergamo menampung lebih dari 100 peti mati berjajar di lantai altar suci.",
+            "en": "SANCTUARY AS MORGUE: Bergamo's monumental cemetery church stores over 100 sealed coffins across its nave."
+        },
+        "virusProfile": {
+            "code": "SACRED LOGISTICS CRISIS",
+            "mutationType": {
+                "id": "Penyimpanan Jenazah Tersekat di Bangunan Berbatu Dingin",
+                "en": "Interim Storage of Contagious Remains in Historic Stone Cathedrals"
+            },
+            "r0": "Nol Transmisi (Jenazah Bersegel Zink)",
+            "threatLevel": {
+                "id": "KRISIS PEMAKAMAN DAN MARTABAT RELIGIUS",
+                "en": "FUNERARY SACRAMENTAL SUSPENSION"
+            },
+            "clinicalTarget": {
+                "id": "Pencegahan infeksi pada petugas kamar mayat via peti segel ganda",
+                "en": "Zinc-lined hermetic sealing to protect mortuary and cemetery handlers"
+            }
+        },
+        "description": {
+            "id": "Gereja All Saints (Chiesa di Ognissanti) yang terletak di dalam Kompleks Pemakaman Monumental Bergamo terpaksa diubah fungsinya menjadi gudang jenazah darurat. Bangku-bangku jemaat digeser ke dinding, dan seluruh lantai marmer altar ditutupi lebih dari seratus peti mati kayu pinus yang berjejer rapat dengan nomor label spidol hitam. Pastor Marco Bergamelli berdiri sendirian di altar yang sunyi, memberikan berkat kilat dan merenjiskan air suci setiap beberapa menit kepada peti-peti baru yang terus berdatangan tanpa sanak keluarga.",
+            "en": "The Church of All Saints inside Bergamo's Monumental Cemetery had its sacred nave retrofitted into an emergency mortuary depot. Wooden church pews were pushed to the masonry walls, leaving the stone floor packed with rows of over a hundred sealed pine caskets marked with handwritten tags. Father Marco Bergamelli stood alone beneath the crucifix, whispering rapid individual blessings and sprinkling holy water every ten minutes as fresh coffins arrived with no relatives present."
+        },
+        "image": "/assets/images/covid-19/it/15-church-all-saints-coffins.jpg"
+    },
+    {
+        "id": "it-15-the-decathlon-mask-hack",
+        "chapterNumber": "13",
+        "type": "standard",
+        "title": {
+            "id": "Mukjizat Brescia: Modifikasi Masker Selam Decathlon & Katup 3D",
+            "en": "The Brescia Hack: Decathlon Snorkel Masks & 3D Printed Venturi Valves"
+        },
+        "date": {
+            "id": "Pertengahan Maret 2020",
+            "en": "Mid-March 2020"
+        },
+        "strain": "Emergency Biomedical Engineering Phase",
+        "flash": {
+            "id": "HACKING BIOMEDIS: Dua insinyur muda Brescia mencetak katup pernapasan darurat dengan 3D printer dan mengubah masker snorkeling jadi ventilator.",
+            "en": "GRASSROOTS INVENTIVENESS: Engineers 3D-print Venturi valves, transforming commercial Decathlon snorkel masks into hospital CPAP gear."
+        },
+        "virusProfile": {
+            "code": "OPEN-SOURCE VENTILATION PROTOTYPE",
+            "mutationType": {
+                "id": "Inovasi Darurat Mengatasi Kelangkaan Pasokan Medis",
+                "en": "Improvised Biomimetic Repurposing Against Supply Chain Blockade"
+            },
+            "r0": "Intervensi Faskes Bawah",
+            "threatLevel": {
+                "id": "SOLUSI LOGISTIK PENYELAMAT NYAWA",
+                "en": "LIFE-SAVING OPEN ENGINEERING PARADIGM"
+            },
+            "clinicalTarget": {
+                "id": "Terapi oksigen non-invasif bagi pasien yang belum terintubasi",
+                "en": "Non-invasive positive airway pressure for sub-critical hypoxemic patients"
+            }
+        },
+        "description": {
+            "id": "Ketika Rumah Sakit Chiari di Brescia kehabisan katup pernapasan Venturi dan produsen resmi tidak mampu memasok tepat waktu, insinyur muda Cristian Fracassi dan Alessandro Romaioli merespons dalam tempo 24 jam: mereka membawa printer 3D ke laboratorium dan mendesain ulang katup plastik tersebut secara gratis. Berkolaborasi dengan mantan kepala dokter Renato Favero, mereka merancang konektor khusus 'Charlotte Valve' yang mampu menyulap masker selam snorkel Decathlon Easybreath menjadi masker CPAP oksigen rumah sakit, menyelamatkan ratusan pasien dari kematian akibat sesak napas.",
+            "en": "When Chiari Hospital in Brescia exhausted its supply of essential Venturi oxygen valves with the original manufacturer unable to restock, young engineers Cristian Fracassi and Alessandro Romaioli acted within hours. Bringing 3D printers into the hospital, they reverse-engineered and printed replacement valves for free. Teaming up with retired physician Dr. Renato Favero, they engineered the 'Charlotte valve', connecting Decathlon snorkeling masks directly to oxygen outlets and rescuing hundreds of asphyxiating patients."
+        },
+        "image": "/assets/images/covid-19/it/16-decathlon-3d-valve.jpg"
+    },
+    {
+        "id": "it-16-general-practitioners-sacrifice",
+        "chapterNumber": "14",
+        "type": "standard",
+        "title": {
+            "id": "Gugur Tanpa Senjata: Pengorbanan Dokter Umum (Medici di Base)",
+            "en": "Unarmed Martyrs: The Sacrifice of Italy's General Practitioners"
+        },
+        "date": {
+            "id": "Maret - April 2020",
+            "en": "March - April 2020"
+        },
+        "strain": "Nosocomial Occupational Exposure",
+        "flash": {
+            "id": "MARTIR MEDIS: Lebih dari 300 dokter dan perawat Italia gugur; dokter keluarga mendatangi rumah pasien hanya berbekal masker kain dan jas hujan.",
+            "en": "FALLEN HEALERS: Over 300 Italian doctors perish; local practitioners visit homebound patients with mere cloth masks and plastic ponchos."
+        },
+        "virusProfile": {
+            "code": "OCCUPATIONAL LETHAL LOAD",
+            "mutationType": {
+                "id": "Paparan Muatan Viral Tinggi Rumah Tangga Tanpa APD",
+                "en": "High-Inoculum Infiltration in Confined Domiciliary Visits"
+            },
+            "r0": "Infeksi Nakes Ekstrem",
+            "threatLevel": {
+                "id": "KERUNTUHAN GARIS DEPAN PRIMER",
+                "en": "PRIMARY CARE FRONT LINE LOSS"
+            },
+            "clinicalTarget": {
+                "id": "Kematian mendadak dokter keluarga senior yang tetap melayani warga",
+                "en": "Fatal infection of senior primary physicians maintaining home visits"
+            }
+        },
+        "description": {
+            "id": "Tragedi paling sunyi berlangsung di pintu-pintu rumah warga. Ribuan dokter umum (medici di base) di Lombardia menerima panggilan telepon siang malam dari pasien demam yang tak sanggup bangun dari ranjang. Tanpa adanya masker N95, gaun bedah, maupun kacamata pelindung, dokter-dokter senior ini tetap menaiki tangga apartemen dan mengetuk pintu hanya berbekal stetoskop dan masker bedah tipis. Lebih dari 300 dokter dan puluhan perawat gugur tertular di garis depan, diabadikan oleh Federasi Dokter Italia dalam 'Daftar Hitam Martir Medis'.",
+            "en": "The most agonizing sacrifice took place on quiet residential doorsteps. Thousands of general practitioners ('medici di base') across Lombardy fielded frantic calls around the clock from gasping patients trapped in their beds. Deprived of N95 respirators, gowns, or eye protection, these veteran family doctors climbed stairwells with only stethoscopes and paper surgical masks. More than 300 Italian physicians gave their lives, their names inscribed in a somber national roll of honor."
+        },
+        "image": "/assets/images/covid-19/it/17-family-doctor-visit.jpg"
+    },
+    {
+        "id": "it-17-venice-crystal-canals",
+        "chapterNumber": "15",
+        "type": "standard",
+        "title": {
+            "id": "Kanal Kristal Venesia: Air Bening dan Angsa di Kota yang Membisu",
+            "en": "Venice's Crystal Waters: Silence and Swans in the Sunken Lagoon"
+        },
+        "date": {
+            "id": "April 2020",
+            "en": "April 2020"
+        },
+        "strain": "Environmental Anthropopause Phase",
+        "flash": {
+            "id": "KONTRAST SURREALIS: Tiadanya perahu motor dan jutaan turis membuat air kanal Venesia berubah jernih kristal hingga ikan kecil terlihat jelas di dasar.",
+            "en": "ECOLOGICAL PARADOX: Total absence of motorboats and tourists turns Venice's canals transparent, revealing fish schools in clear waters."
+        },
+        "virusProfile": {
+            "code": "ANTHROPOPAUSE ECOLOGICAL REVERSAL",
+            "mutationType": {
+                "id": "Penurunan Emisi & Sedimentasi Akibat Berhentinya Navigasi",
+                "en": "Immediate Sediment Deposition & Emissions Drop via Human Standstill"
+            },
+            "r0": "Transmisi Nol (Zona Wisata Mati)",
+            "threatLevel": {
+                "id": "REFLEKSI EKOLOGIS PLANETER",
+                "en": "GLOBAL ANTHROPOCENE STUDY CASE"
+            },
+            "clinicalTarget": {
+                "id": "Kontras penderitaan manusia di dalam rumah vs alam yang bernapas lega",
+                "en": "Human anguish in domestic confinement juxtaposed with rapid nature restoration"
+            }
+        },
+        "description": {
+            "id": "Di tengah kedukaan yang mencekam, pemandangan magis yang belum pernah terlihat selama berabad-abad muncul di Venesia. Berhentinya seluruh perahu gondola, taksi air, dan feri vaporetto membuat endapan lumpur di dasar laguna mengendap sempurna. Air di Grand Canal dan kanal-kanal sempit berubah jernih bagai kaca, memantulkan bayangan istana Gotik tanpa riak gelombang. Ikan-ikan kecil berenang bebas di dekat Piazza San Marco dan angsa liar meluncur tenang di permukaan air, memperlihatkan pemandangan surealis betapa cepatnya alam pulih ketika manusia berhenti bergerak.",
+            "en": "Amidst the overwhelming tragedy, a mesmerizing sight unobserved in centuries grace Venice. The sudden disappearance of motorboats, gondolas, and cruise liners allowed churned sediment to settle to the lagoon floor. Waters in the Grand Canal turned crystalline, mirroring Gothic palazzos without a ripple. Schools of tiny fish navigated clear waters near St. Mark's Square and wild birds nested undisturbed on empty moorings, offering an unforgettable glimpse of nature flourishing as human civilization hit pause."
+        },
+        "image": "/assets/images/covid-19/it/18-venice-clear-canals.jpg"
+    },
+    {
+        "id": "it-18-rsa-trivulzio-elderly-tragedy",
+        "chapterNumber": "16",
+        "type": "standard",
+        "title": {
+            "id": "Skandal RSA Pio Albergo Trivulzio: Tragedi Sunyi di Rumah Jompo",
+            "en": "The Trivulzio RSA Scandal: The Silent Massacre in Nursing Homes"
         },
         "date": {
             "id": "Maret - Mei 2020",
-            "en": "March - May 2020",
-            "zh": "2020年3月 - 5月"
+            "en": "March - May 2020"
         },
-        "strain": "SARS-CoV-2 (Lineage B.1)",
+        "strain": "SARS-CoV-2 (Geriatric Residential Infiltration)",
         "flash": {
-            "id": "'Io Resto a Casa': Perdana Menteri Conte mengunci 60 juta penduduk; balkon menyanyikan 'Bella Ciao'.",
-            "en": "'Io Resto a Casa': Prime Minister Conte orders 60 million citizens into lockdown; balconies sing 'Bella Ciao'.",
-            "zh": "“我留在家中”：孔特总理下令全意6000万人封锁居家，阳台唱响《啊朋友再见》。"
+            "id": "INVESTIGASI SKANDAL: Ratusan lansia meninggal di panti jompo tertua Milan usai pasien rawat inap rumah sakit dipindahkan tanpa uji swab terpisah.",
+            "en": "JUDICIAL INQUIRY: Hundreds of residents perish in Milan's historic care home after hospital overflow patients were transferred without screening."
         },
         "virusProfile": {
-            "code": "LOCKDOWN SUPPRESSION",
+            "code": "ELDERCARE RESERVOIR EXTINGUISHMENT",
             "mutationType": {
-                "id": "Penekanan Mobilitas Transmisi",
-                "en": "Mobility Transmission Suppression",
-                "zh": "人口移动阻断与传播抑制"
+                "id": "Penetrasi Fasilitas Perawatan Lansia Kronis Tertutup",
+                "en": "Lethal Infiltration into Closed Long-Term Eldercare Facilities"
             },
-            "r0": "Turun dari 3.0 ke 0.8",
+            "r0": "Fatalitas Klaster Lansia Tertutup",
             "threatLevel": {
-                "id": "DARURAT KEAMANAN SIPIL NASIONAL",
-                "en": "CIVIL DEFENSE NATIONAL EMERGENCY",
-                "zh": "国家民防一级紧急戒备"
+                "id": "SKANDAL BIOETIKA DAN KELALAIAN SISTEMIK",
+                "en": "SYSTEMIC REGULATORY AND BIOETHICAL SCANDAL"
             },
             "clinicalTarget": {
-                "id": "Isolasi kontak bergejala, dekompresi bertahap ruang rawat inap",
-                "en": "Isolation of symptomatic contacts, gradual inpatient decompression",
-                "zh": "有症状密接隔离、住院病房逐步减压分流"
+                "id": "Kematian lansia renta akibat infeksi silang di balik pintu tertutup",
+                "en": "Cross-infection fatalities among frail, non-verbal dementia residents"
             }
         },
         "description": {
-            "id": "Dengan dekret 'Io Resto a Casa', Italia menjadi negara demokrasi pertama yang memberlakukan karantina total skala nasional. Piazza San Marco di Venesia dan Colosseum di Roma menjadi sunyi senyap bagai kota hantu. Dari balkon apartemen, warga bernyanyi dan memainkan instrumen musik bersama untuk menjaga semangat kemanusiaan di tengah isolasi ketat.",
-            "en": "With the 'Io Resto a Casa' decree, Italy became the first democratic state to implement comprehensive nationwide quarantine. St. Mark's Square in Venice and the Colosseum in Rome became desolate ghostscapes. Yet from apartment balconies across the country, trapped residents sang folk songs and played instruments together, crafting an enduring portrait of human resilience.",
-            "zh": "伴随着“我留在家中”政令颁布，意大利成为首个实施全国性严格居家封锁的现代民主国家。威尼斯的圣马可广场与罗马斗兽场万籁俱寂，化为空城。然而在全国各地的公寓阳台上，受困居民自发合唱民谣、演奏乐器，在冷酷隔离中绽放出了人类守望相助的光芒。"
+            "id": "Tragedi paling kelam dari sudut kemanusiaan meletus di Pio Albergo Trivulzio, panti jompo terbesar dan tertua di Milan yang dijuluki 'Baggina'. Untuk mengosongkan ranjang rumah sakit kota yang penuh sesak, otoritas daerah menginstruksikan pemindahan pasien pemulihan ke fasilitas panti jompo. Petugas perawat dilarang memakai masker agar 'tidak menakuti para lansia'. Hasilnya adalah malapetaka mengerikan: virus menyebar tanpa ampun di antara penghuni lanjut usia yang terkurung, merenggut lebih dari 300 nyawa dalam kesendirian mutlak sebelum penyelidikan kejaksaan membongkar skandal tersebut.",
+            "en": "The grimmest humanitarian chapter unfolded at the Pio Albergo Trivulzio, Milan's most historic geriatric institution, affectionately known as the 'Baggina'. To free up acute hospital beds, authorities approved transferring convalescent patients into eldercare facilities. Staff were initially discouraged from wearing masks to avoid 'panicking residents'. The consequence was a quiet slaughter: contagion swept through locked wards, claiming over 300 frail lives in total isolation and igniting fierce judicial inquiries."
         },
-        "image": "/assets/images/covid-19/id/06-new-normal.jpg",
-        "location": "Rome & Milan, Italy"
+        "image": "/assets/images/covid-19/it/19-rsa-nursing-home.jpg"
+    },
+    {
+        "id": "it-19-hug-rooms-reconnection",
+        "chapterNumber": "17",
+        "type": "standard",
+        "title": {
+            "id": "Ruang Peluk: Sentuhan Pertama di Balik Tirai Plastik",
+            "en": "The Hug Rooms: Relearning Touch Behind Plastic Curtains"
+        },
+        "date": {
+            "id": "Akhir 2020 - Awal 2021",
+            "en": "Late 2020 - Early 2021"
+        },
+        "strain": "Psychosocial Rehabilitation Phase",
+        "flash": {
+            "id": "REKONSILIASI KASIH: Panti jompo Italia menciptakan 'Stanza degli Abbracci' berdinding vinil agar anak dan orang tua lansia bisa berpelukan kembali.",
+            "en": "TACTILE HEALING: Care homes install vinyl-curtained 'Hug Rooms', allowing long-isolated elderly and kin to embrace safely."
+        },
+        "virusProfile": {
+            "code": "TACTILE REHABILITATION MATRIX",
+            "mutationType": {
+                "id": "Restorasi Kebutuhan Sentuhan Fisik Aman Biologis",
+                "en": "Controlled Biocontained Physical Re-Engagement"
+            },
+            "r0": "Transmisi Nol (Partisi Polivinil)",
+            "threatLevel": {
+                "id": "TERAPI HUMANISME PASCATRAUMA",
+                "en": "POST-TRAUMATIC HUMANIZATION THERAPY"
+            },
+            "clinicalTarget": {
+                "id": "Pemulihan sindrom depresi dan keputusasaan pada lansia isolasi",
+                "en": "Reversal of profound sensory deprivation and depression in prolonged isolation"
+            }
+        },
+        "description": {
+            "id": "Setelah hampir satu tahun hidup dalam pengasingan mutlak di mana sentuhan manusia dilarang, panti-panti jompo di Italia meluncurkan inovasi kemanusiaan yang mengharukan: 'La Stanza degli Abbracci' (Ruang Peluk). Menggunakan bilik berdinding tirai plastik transparan yang dilengkapi sarung tangan karet panjang terintegrasi, anak-anak akhirnya bisa memeluk ibu mereka yang renta, merasakan hangatnya tubuh yang telah terpisah berbulan-bulan, dan menumpahkan tangis haru di balik sekat vinil tipis yang membatasi antara maut dan cinta.",
+            "en": "After nearly a year of enforced isolation where physical touch was outlawed, Italian nursing homes introduced a profoundly human innovation: 'La Stanza degli Abbracci' (The Hug Room). Utilizing soft, transparent vinyl membranes fitted with sealed airtight sleeves, children finally embraced their fragile mothers, feeling the warm contour of bodies they feared they would never touch again. Behind that humble barrier, tears flowed in an outpouring of reclaimed dignity."
+        },
+        "image": "/assets/images/covid-19/it/20-hug-room-embrace.jpg"
+    },
+    {
+        "id": "it-20-vaccine-rebirth-day",
+        "chapterNumber": "18",
+        "type": "standard",
+        "title": {
+            "id": "Fajar V-Day: Jarum Harapan di Spallanzani Roma",
+            "en": "V-Day Dawn: The First Needle at Rome's Spallanzani"
+        },
+        "date": {
+            "id": "27 Desember 2020",
+            "en": "December 27, 2020"
+        },
+        "strain": "European Vaccine Rollout Phase (BNT162b2)",
+        "flash": {
+            "id": "TITIK BALIK SAINS: Perawat Claudia Alivernini (29) menjadi orang pertama di Italia yang menerima suntikan vaksin mRNA.",
+            "en": "TURNING THE TIDE: 29-year-old nurse Claudia Alivernini becomes the first person in Italy inoculated with the mRNA vaccine."
+        },
+        "virusProfile": {
+            "code": "MASS IMMUNOPROPHYLAXIS ROLLOUT",
+            "mutationType": {
+                "id": "Netralisasi Antibodi Proteksi Nakes Garis Depan",
+                "en": "Humoral Neutralization Targeting Frontline Healthcare Workers"
+            },
+            "r0": "Penurunan Progresif Transmisi Nosokomial",
+            "threatLevel": {
+                "id": "SENJATA BIOMEDIS PEMBALIK KEADAAN",
+                "en": "BIOLOGICAL BALANCE RESTORATION"
+            },
+            "clinicalTarget": {
+                "id": "Pencegahan absolut infeksi parah pada tenaga kesehatan",
+                "en": "Absolute risk reduction of severe mortality endpoints in clinicians"
+            }
+        },
+        "description": {
+            "id": "Tepat pada hari Minggu 27 Desember 2020, sebuah kotak pendingin khusus berlabel BioNTech/Pfizer yang dikawal ketat oleh mobil polisi Carabinieri meluncur tiba di RS Lazzaro Spallanzani di Roma. Tepat pukul 07.20 pagi, perawat muda berusia 29 tahun, Claudia Alivernini, menggulung lengan bajunya di hadapan kamera televisi dan disuntik vaksin dosis pertama. 'Hari ini dengan bangga dan penuh kesadaran saya menerima vaksin ini,' ujarnya dengan mata berbinar. Momen bersejarah European V-Day menyalakan lilin harapan bahwa bangsa yang pertama kali terpukul ini akan segera bangkit dari abu kehancuran.",
+            "en": "On Sunday, December 27, 2020, an ultra-cold freezer box escorted by Carabinieri cruisers pulled into Rome's Spallanzani Institute. At 7:20 AM, 29-year-old nurse Claudia Alivernini rolled up her sleeve before national television cameras to receive Italy's first mRNA jab. 'With pride and deep responsibility, I vaccinate today for all who could not,' she stated through a smile behind her mask. The European V-Day signaled the psychological turning point for a battered nation beginning its long ascent from catastrophe."
+        },
+        "image": "/assets/images/covid-19/it/21-v-day-first-vaccine.jpg"
+    },
+    {
+        "id": "it-21-super-green-pass-dilemma",
+        "chapterNumber": "19",
+        "type": "standard",
+        "title": {
+            "id": "Sertifikat Hijau: Debat Super Green Pass & Ketegangan Sosial",
+            "en": "The Green Certificate: Super Green Pass & Civic Tensions"
+        },
+        "date": {
+            "id": "Musim Gugur 2021",
+            "en": "Autumn 2021"
+        },
+        "strain": "SARS-CoV-2 (Vaccine Passport Mandate Era)",
+        "flash": {
+            "id": "KEBIJAKAN TERKETAT DI EROPA: Italia mewajibkan 'Green Pass' bagi seluruh pekerja swasta dan negeri untuk dapat menerima gaji dan bekerja.",
+            "en": "EUROPE'S STRICTEST MANDATE: Italy decrees mandatory 'Super Green Pass' certification for all public and private employees to enter workplaces."
+        },
+        "virusProfile": {
+            "code": "LEGISLATIVE IMMUNIZATION COERCION",
+            "mutationType": {
+                "id": "Regulasi Sertifikasi Digital Penahan Varian Delta",
+                "en": "Digital Certification Governance Suppressing Delta Transmission in Workplaces"
+            },
+            "r0": "Ditekan lewat Akses Vaksinasi",
+            "threatLevel": {
+                "id": "FRIKSI HUKUM DAN KONTRAK KERJA NASIONAL",
+                "en": "CIVIC-LEGAL FRICTION AND WORKPLACE DISRUPTION"
+            },
+            "clinicalTarget": {
+                "id": "Maksimalisasi rasio vaksinasi hingga di atas 85% populasi",
+                "en": "Pushing national vaccination coverage above the 85% adult benchmark"
+            }
+        },
+        "description": {
+            "id": "Di bawah kepemimpinan Perdana Menteri Mario Draghi, Italia kembali mengambil langkah paling berani dan kontroversial di dunia barat: meluncurkan regulasi 'Super Green Pass'. Sertifikat vaksinasi digital diwajibkan bukan hanya untuk masuk bioskop atau restoran, tetapi menjadi syarat mutlak bagi seluruh 23 juta pekerja untuk melangkah ke tempat kerja mereka tanpa dikenai sanksi skorsing gaji. Di Trieste dan Roma, demonstrasi buruh pelabuhan dan bentrokan jalanan meletus, membelah masyarakat antara kewajiban melindungi kesehatan kolektif versus hak konstitusional atas pekerjaan.",
+            "en": "Under Prime Minister Mario Draghi, Italy adopted the most uncompromising policy in Europe: the 'Super Green Pass'. Proof of vaccination or recovery became mandatory not merely for social venues, but for all 23 million private and public sector employees to access their desks and earn livelihoods without suspension. In the Port of Trieste and the boulevards of Rome, fierce worker walkouts and clashes erupted, pitting collective biosecurity against civil constitutional employment rights."
+        },
+        "image": "/assets/images/covid-19/it/22-green-pass-protests.jpg"
+    },
+    {
+        "id": "it-22-sector-ita-epilogue",
+        "chapterNumber": "20",
+        "type": "milestone",
+        "title": {
+            "id": "Epilog Sektor ITA: Lonceng Damai di Lembah yang Berduka",
+            "en": "Sector ITA Debrief: Church Bells Over the Reborn Valley"
+        },
+        "date": {
+            "id": "Arsip Resmi Istituto Superiore di Sanità & Memori Nasional",
+            "en": "Istituto Superiore di Sanità Official Archive & National Memorial"
+        },
+        "strain": "Rekapitulasi Krisis Italia 2020 - 2023",
+        "flash": {
+            "id": "BERKAS DITUTUP: Dari Codogno hingga alun-alun Vatikan; keberanian para perawat dan kenangan akan generasi yang gugur abadi di bumi Italia.",
+            "en": "DOSSIER ARCHIVED: From Codogno to the Vatican rain; the valor of healers and the memory of the lost live forever."
+        },
+        "virusProfile": {
+            "code": "RESOLVED SECTOR ITA DOSSIER",
+            "mutationType": {
+                "id": "Evolusi Penuh Gelombang Epik Eropa: Wuhan -> B.1 -> Delta -> Endemi",
+                "en": "Complete European Outbreak Arc: Wild-Type to Endemicity"
+            },
+            "r0": "Siklus Endemi Global Terkelola",
+            "threatLevel": {
+                "id": "MONUMEN SEJARAH PERADABAN GLOBAL",
+                "en": "GLOBAL CIVILIZATIONAL SACRIFICE RECORD"
+            },
+            "clinicalTarget": {
+                "id": "Rekonsiliasi duka nasional dan pemulihan permanen memori bangsa",
+                "en": "National grief reconciliation and perpetual safeguarding of collective memory"
+            }
+        },
+        "description": {
+            "id": "Dossier Italia ditutup dengan penghormatan mendalam bagi sebuah bangsa yang pertama kali menanggung beban ketakutan dunia barat. Italia menghadapi badai tanpa buku pedoman, mengorbankan ratusan dokter dan perawat yang bertempur hingga napas terakhir, dan meratapi kepergian generasi orang tua mereka dengan ketabahan luar biasa. Dari lonceng gereja di Bergamo hingga keheningan Colosseum dan air jernih Venesia, luka itu tak akan pernah hilang, namun ketangguhan jiwa dan kehangatan manusia Italia menjadi mercusuar yang menyadarkan seluruh dunia tentang arti sejati dari persaudaraan dan solidaritas kemanusiaan.",
+            "en": "The Italian dossier concludes with solemn reverence for the nation that absorbed the initial, brutal shockwave for the Western world. Italy navigated the unknown without a playbook, losing hundreds of frontline clinicians who fought until their lungs gave out, mourning their elders with monumental grace. From the ringing church towers of Bergamo to the silent arches of the Colosseum and the translucent canals of Venice, the scar remains indelible—yet Italy's innate humanity illuminated the true essence of global solidarity."
+        },
+        "image": "/assets/images/covid-19/it/09-bergamo-cemetery-dawn.jpg"
     }
 ]
