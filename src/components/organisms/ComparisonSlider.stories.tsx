@@ -20,9 +20,9 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
     args: {
-        beforeImage: "/assets/images/03a-jakarta-rush-hour.jpg",
+        beforeImage: "/assets/images/covid-19/id/03a-jakarta-rush-hour.jpg",
         beforeLabel: "PRA-PANDEMI // RUSH HOUR",
-        afterImage: "/assets/images/03b-jakarta-psbb-empty.jpg",
+        afterImage: "/assets/images/covid-19/id/03b-jakarta-psbb-empty.jpg",
         afterLabel: "PSBB TOTAL // SUD MAN KOSONG",
         initialPosition: 50,
         aspectRatio: "aspect-video",
@@ -32,9 +32,9 @@ export const Default: Story = {
 
 export const Fullbleed: Story = {
     args: {
-        beforeImage: "/assets/images/03a-jakarta-rush-hour.jpg",
+        beforeImage: "/assets/images/covid-19/id/03a-jakarta-rush-hour.jpg",
         beforeLabel: "PRA-PANDEMI // RUSH HOUR",
-        afterImage: "/assets/images/03b-jakarta-psbb-empty.jpg",
+        afterImage: "/assets/images/covid-19/id/03b-jakarta-psbb-empty.jpg",
         afterLabel: "PSBB TOTAL // SUD MAN KOSONG",
         initialPosition: 30,
         className: "w-[800px] h-[450px] rounded-xl border border-neutral-800",

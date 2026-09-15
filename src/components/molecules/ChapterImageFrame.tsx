@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { Crosshair } from "lucide-react";
+import { resolveImagePath } from "@/lib/imageResolver";
 
 export interface ChapterImageFrameProps {
     src: string;
@@ -21,11 +22,12 @@ export const ChapterImageFrame: React.FC<ChapterImageFrameProps> = ({
     quality = 80,
     className = "",
 }) => {
-    const [currentSrc, setCurrentSrc] = useState(src);
+    const resolvedSrc = resolveImagePath(src);
+    const [currentSrc, setCurrentSrc] = useState(resolvedSrc);
     const [loaded, setLoaded] = useState(false);
 
-    if (src !== currentSrc) {
-        setCurrentSrc(src);
+    if (resolvedSrc !== currentSrc) {
+        setCurrentSrc(resolvedSrc);
         setLoaded(false);
     }
 
@@ -56,7 +58,7 @@ export const ChapterImageFrame: React.FC<ChapterImageFrameProps> = ({
             )}
 
             <Image
-                src={src}
+                src={resolvedSrc}
                 alt={alt}
                 fill
                 sizes={sizes}
