@@ -1,7 +1,9 @@
 "use client";
 
 import React, { useState, useMemo } from "react";
-import { Chapter } from "@/types/journey";
+import { useLocale } from "next-intl";
+import { Chapter, SupportedLocale } from "@/types/journey";
+import { t } from "@/utils/i18n";
 
 export interface TimelineScrubberProps {
     chapters: Chapter[];
@@ -18,12 +20,21 @@ interface YearGroup {
     }[];
 }
 
-function parseYear(dateStr: string, id: string): string {
-    if (dateStr.includes("2023") || id.includes("national-debriefing"))
+function parseYear(date: any, id: string): string {
+    const dateStr =
+        typeof date === "string"
+            ? date
+            : date?.id || date?.en || date?.zh || "";
+    if (
+        dateStr.includes("2023") ||
+        id.includes("national-debriefing") ||
+        id.includes("ground-zero-epilogue")
+    )
         return "2023";
     if (dateStr.includes("2022")) return "2022";
     if (dateStr.includes("2021")) return "2021";
-    if (dateStr.includes("2020") || dateStr.includes("2019")) return "2020";
+    if (dateStr.includes("2020")) return "2020";
+    if (dateStr.includes("2019")) return "2019";
     return "2020";
 }
 
@@ -33,6 +44,16 @@ export const TimelineScrubber: React.FC<TimelineScrubberProps> = ({
     onSelectChapter,
 }) => {
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+
+    let locale: SupportedLocale = "id";
+    try {
+        const intlLocale = useLocale();
+        if (intlLocale === "id" || intlLocale === "en" || intlLocale === "zh") {
+            locale = intlLocale as SupportedLocale;
+        }
+    } catch {
+        // Fallback for non-next-intl contexts (e.g. Storybook)
+    }
 
     // Group chapters by year anchor (2020, 2021, 2022, 2023)
     const yearGroups = useMemo(() => {
@@ -160,7 +181,7 @@ export const TimelineScrubber: React.FC<TimelineScrubberProps> = ({
                                                         )
                                                     }
                                                     className={`h-1 rounded-full transition-all duration-200 cursor-pointer block ${activeStyle}`}
-                                                    aria-label={`Jump to Chapter ${globalIndex + 1}: ${chapter.title}`}
+                                                    aria-label={`Jump to Chapter ${globalIndex + 1}: ${t(chapter.title, locale)}`}
                                                 />
 
                                                 {/* Minimal Hover Tooltip */}
@@ -191,7 +212,10 @@ export const TimelineScrubber: React.FC<TimelineScrubberProps> = ({
                                                                 )}
                                                             </span>
                                                             <span className="text-white max-w-[200px] truncate">
-                                                                {chapter.title}
+                                                                {t(
+                                                                    chapter.title,
+                                                                    locale,
+                                                                )}
                                                             </span>
                                                         </div>
                                                     </div>

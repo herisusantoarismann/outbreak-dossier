@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "cn-01-huanan-spillover",
+    "chapterNumber": "01",
+    "type": "milestone",
+    "title": {
+      "id": "Titik Nol: Kabut di Pasar Basah Huanan",
+      "en": "Ground Zero: The Huanan Wet Market Enigma",
+      "zh": "零号坐标：华南海鲜市场的迷雾"
+    },
+    "date": {
+      "id": "Desember 2019",
+      "en": "December 2019",
+      "zh": "2019年12月"
+    },
+    "strain": "SARS-CoV-2 (Wuhan-Hu-1 / Lineage B)",
+    "flash": {
+      "id": "EPISENTER AWAL: Klaster pneumonia misterius terdeteksi di sekitar kios satwa liar ilegal.",
+      "en": "FIRST EPICENTER: Cluster of mysterious pneumonia detected around illegal wildlife stalls.",
+      "zh": "始发震中：非法野生动物摊位周边惊现不明原因聚集性肺炎。"
+    },
+    "virusProfile": {
+      "code": "WILD-TYPE (WUHAN-HU-1)",
+      "mutationType": {
+        "id": "Spillover Zoonotik via Reseptor ACE2",
+        "en": "Zoonotic Spillover via ACE2 Receptor",
+        "zh": "通过ACE2受体的人畜共患溢出"
+      },
+      "r0": "2.2 - 2.6",
+      "threatLevel": {
+        "id": "PROGENITOR GLOBAL AWAL",
+        "en": "ORIGINAL GLOBAL PROGENITOR",
+        "zh": "全球始发株威胁"
+      },
+      "clinicalTarget": {
+        "id": "Pneumonia interstitial akut, lesi paru ground-glass bilateral",
+        "en": "Acute interstitial pneumonia, bilateral ground-glass opacities",
+        "zh": "急性间质性肺炎，双肺毛玻璃浸润病灶"
+      }
+    },
+    "description": {
+      "id": "Di lorong basah dan remang Pasar Grosir Makanan Laut Huanan di Distrik Jianghan, Wuhan, beberapa pedagang dan pengunjung dilarikan ke Rumah Sakit Wuhan Jinyintan dengan demam tinggi dan sesak napas akut. Sampel bilasan bronkoalveolar pertama yang diambil oleh dokter mengungkap struktur virus korona baru yang belum pernah terdata dalam genomik manusia. Meski tanda-tanda transmisi lokal makin nyata, desas-desus masih dibungkam di balik pintu tertutup birokrasi lokal.",
+      "en": "In the damp, dimly lit alleyways of Wuhan's Huanan Seafood Wholesale Market, vendors and shoppers were rushed to Jinyintan Hospital presenting with acute fever and respiratory failure. Early bronchoalveolar lavage samples revealed a novel coronavirus lineage absent from human genetic databases. Despite mounting evidence of localized clustering, the deadly finding was kept strictly confidential behind bureaucratic doors.",
+      "zh": "在武汉市江汉区潮湿昏暗的华南海鲜批发市场深处，数名商户与顾客因持续高烧与急性呼吸衰竭被紧急送往金银潭医院。首批肺泡灌洗液样本分离出一种未知的冠状病毒。尽管局部聚集性感染迹象愈发明显，但在最初的数周内，这一致命发现仍被掩盖在官僚报告与通报的字里行间。"
+    },
+    "image": "/assets/images/covid-19/cn/01-huanan-market.jpg"
+  },
+  {
+    "id": "cn-02-whistleblower-silenced",
+    "chapterNumber": "02",
+    "type": "milestone",
+    "title": {
+      "id": "Peluit yang Dibungkam: Peringatan Li Wenliang",
+      "en": "The Silenced Whistle: Dr. Li Wenliang's Midnight Alert",
+      "zh": "吹哨人的训诫：李文亮医生的夜半警报"
+    },
+    "date": {
+      "id": "30 Desember 2019 - 3 Januari 2020",
+      "en": "December 30, 2019 - January 3, 2020",
+      "zh": "2019年12月30日 - 2020年1月3日"
+    },
+    "strain": "SARS-CoV-2 Lineage B (Wuhan Isolate)",
+    "flash": {
+      "id": "SENSOR DAN INTEROGASI: Delapan dokter dipanggil polisi usai membagikan hasil lab di WeChat.",
+      "en": "CENSORSHIP & SUMMONS: Eight frontline doctors reprimanded by police after sharing lab sheets.",
+      "zh": "言论管制：八名一线医生因在医学群提示疑似SARS风险遭警方训诫。"
+    },
+    "virusProfile": {
+      "code": "GENOMIC SUPPRESSION PHASE",
+      "mutationType": {
+        "id": "Transmisi Awal Tanpa Perlindungan Medis",
+        "en": "Early Transmission Without PPE",
+        "zh": "无防护早期院内暴露传播"
+      },
+      "r0": "2.4",
+      "threatLevel": {
+        "id": "PENYELUBUNGAN INSTITUSIONAL",
+        "en": "INSTITUTIONAL SUPPRESSION",
+        "zh": "体制性信息封锁与暴露"
+      },
+      "clinicalTarget": {
+        "id": "Infeksi silang nosokomial pada tenaga medis",
+        "en": "Nosocomial cross-infection among healthcare personnel",
+        "zh": "医护人员院内交叉感染"
+      }
+    },
+    "description": {
+      "id": "Dokter mata Li Wenliang mengirimkan pesan singkat di grup WeChat alumni kedokterannya memperingatkan adanya 7 kasus menyerupai SARS dari Pasar Huanan. Dalam hitungan hari, ia dan tujuh rekan sejawatnya dipanggil ke Kantor Polisi Jalan Zhongnan. Li dipaksa menandatangani surat pernyataan pengakuan bahwa ia telah menyebarkan rumor palsu dan mengganggu ketertiban umum. Di saat yang sama, laboratorium genom swasta diperintahkan untuk menghentikan pengujian sampel dan menghancurkan data isolat.",
+      "en": "Ophthalmologist Dr. Li Wenliang sent an alert to a private medical alumni chat group warning of seven SARS-like cases linked to Huanan. Within days, he and seven peers were summoned by police and forced to sign reprimand letters acknowledging they spread 'untrue rumors that breached public order'. Concurrently, independent genomics labs were ordered to halt testing and destroy existing clinical isolates.",
+      "zh": "眼科医生李文亮在同学群发出预警，指出华南海鲜市场确诊7例疑似SARS病例。数日内，他和另外七名同行被传唤至派出所，被迫在印有‘发表不实言论、严重扰乱社会秩序’的训诫书上按下红手印。与此同时，商业基因测序机构接获销毁现存样本并停止测序的指令，错失最初阻击窗口。"
+    },
+    "image": "/assets/images/covid-19/cn/02-li-wenliang-warning.jpg"
+  },
+  {
+    "id": "cn-03-side-baibuting-banquet",
+    "chapterNumber": "INTERLUDE I",
+    "type": "side_story",
+    "title": {
+      "id": "Jamuan Makan Maut: Pesta 40.000 Keluarga Baibuting",
+      "en": "The Fatal Feast: Baibuting's 40,000-Family Banquet",
+      "zh": "致命盛宴：百步亭社区四万人万家宴"
+    },
+    "date": {
+      "id": "18 Januari 2020",
+      "en": "January 18, 2020",
+      "zh": "2020年1月18日"
+    },
+    "strain": "SARS-CoV-2 Pre-Lockdown Spread",
+    "flash": {
+      "id": "TRAGEDI SOSIAL: Demi mengejar rekor perayaan Imlek, puluhan ribu warga berkumpul di satu meja raksasa.",
+      "en": "SUPERSPREADER EVENT: To stage festive harmony, tens of thousands gathered for a record dinner.",
+      "zh": "政治幻象：为迎春营造祥和气氛，数万居民共赴超级传播盛宴。"
+    },
+    "virusProfile": {
+      "code": "MASS SOCIAL ACCELERATION",
+      "mutationType": {
+        "id": "Amplifikasi Klaster via Droplet Makanan Bersama",
+        "en": "Cluster Amplification via Communal Dining",
+        "zh": "共餐飞沫与密集接触群聚放大"
+      },
+      "r0": "3.5 (Ruang Padat Tertutup)",
+      "threatLevel": {
+        "id": "PERISTIWA SUPERSPREADER",
+        "en": "SUPERSPREADER EVENT",
+        "zh": "超级传播风险事件"
+      },
+      "clinicalTarget": {
+        "id": "Transmisi droplet masif pada lansia dan keluarga",
+        "en": "Massive droplet transmission among multi-generational families",
+        "zh": "老年人群与多代家庭聚集性飞沫感染"
+      }
+    },
+    "description": {
+      "id": "Demi mencatatkan rekor tahunan dan memamerkan kerukunan warga menjelang Tahun Baru Imlek, Komunitas Baibuting di Wuhan tetap menggelar tradisi Jamuan Sepuluh Ribu Keluarga. Lebih dari 40.000 keluarga berkumpul, menyajikan 13.000 hidangan, dan berbagi sumpit serta sendok di ruang terbuka yang padat. Hanya dalam tempo dua minggu, komplek perumahan ini lumpuh total setelah ratusan gedung apartemennya terpaksa dilabeli Gedung Terjangkit Merah akibat ledakan demam.",
+      "en": "To project festive harmony ahead of Lunar New Year, Wuhan's Baibuting community proceeded with its 20th annual banquet. Over 40,000 households gathered to share home-cooked dishes in shoulder-to-shoulder dining setups. Within a fortnight, the sprawling enclave turned into a catastrophic hotspot, with hundreds of residential blocks marked with red quarantine quarantine banners.",
+      "zh": "为迎接农历新年并营造祥和繁荣表象，武汉百步亭社区执意举办第二十届‘万家宴’。四万多个家庭汇聚一堂，端出上万道菜肴，在极度拥挤的空间内互敬菜肴、共用餐具。短短两周后，该社区全面沦陷，数百栋单元楼被红牌标注为‘发热门栋’，悲鸣响彻楼宇。"
+    },
+    "image": "/assets/images/covid-19/cn/03-baibuting-banquet.jpg"
+  },
+  {
+    "id": "cn-04-human-transmission-confirms",
+    "chapterNumber": "03",
+    "type": "standard",
+    "title": {
+      "id": "Pecahnya Kebohongan: Penularan Antar-Manusia Terkonfirmasi",
+      "en": "The Veil Drops: Human-to-Human Transmission Confirmed",
+      "zh": "真相大白：钟南山宣布‘人传人’"
+    },
+    "date": {
+      "id": "20 Januari 2020",
+      "en": "January 20, 2020",
+      "zh": "2020年1月20日"
+    },
+    "strain": "SARS-CoV-2 Clade L/S",
+    "flash": {
+      "id": "PENGAKUAN RESMI: Dr. Zhong Nanshan mengonfirmasi virus menular antar-manusia dan menginfeksi nakes.",
+      "en": "OFFICIAL ADMISSION: High-level epidemiologist confirms human transmission and healthcare staff infection.",
+      "zh": "官方确证：国家卫健委高级别专家组证实存在人传人及医务人员感染。"
+    },
+    "virusProfile": {
+      "code": "CONFIRMED ANTHROPONOTIC PATHOGEN",
+      "mutationType": {
+        "id": "Penetrasi Mukosa Saluran Pernapasan Antar-Manusia",
+        "en": "Human-to-Human Respiratory Mucosal Penetration",
+        "zh": "人际呼吸道黏膜穿透传播"
+      },
+      "r0": "2.8 - 3.2",
+      "threatLevel": {
+        "id": "AMBANG BATAS PANDEMI GLOBAL DILAMPAUI",
+        "en": "GLOBAL PANDEMIC THRESHOLD BREACHED",
+        "zh": "突破全球大流行临界点"
+      },
+      "clinicalTarget": {
+        "id": "Penyebaran cepat melalui partikel aerosol dan droplet",
+        "en": "Rapid transmission via aerosols and respiratory droplets",
+        "zh": "气溶胶与呼吸道飞沫高速扩散"
+      }
+    },
+    "description": {
+      "id": "Setelah berminggu-minggu pejabat bersikeras menyatakan tidak ada bukti jelas penularan antar-manusia dan penyakit masih dapat dicegah serta dikendalikan, pakar respirasi senior Dr. Zhong Nanshan muncul dalam siaran langsung CCTV News. Ia mengonfirmasi fakta pahit: dua pasien di Guangdong tertular tanpa pernah ke Wuhan, dan belasan tenaga medis telah tumbang terinfeksi. Pernyataan malam itu seketika meruntuhkan kepalsuan dan menyalakan kepanikan di 1,4 miliar penduduk.",
+      "en": "Following weeks of official claims that there was 'no clear evidence of human-to-human transmission', veteran epidemiologist Dr. Zhong Nanshan addressed state broadcaster CCTV. He confirmed what doctors long feared: two patients in Guangdong were infected via relatives, and over a dozen medical personnel had fallen ill, exposing the outbreak's uncontained trajectory.",
+      "zh": "在官方连续数周坚称‘未见明显人传人、疫情可防可控’后，钟南山院士现身央视直播。他直截了当地向全国通报残酷现实：广东两名确诊者从未去过武汉，且已有十四名医护人员遭交叉感染。当晚这番表态如平地惊雷，瞬间击碎侥幸心理，引爆全社会防护警戒。"
+    },
+    "image": "/assets/images/covid-19/cn/04-zhong-nanshan-announcement.jpg"
+  },
+  {
+    "id": "cn-05-wuhan-lockdown-midnight",
+    "chapterNumber": "04",
+    "type": "milestone",
+    "title": {
+      "id": "Gembok Besi: Wuhan Lockdown Jam 10 Pagi",
+      "en": "The Iron Seal: Wuhan Lockdown at 10 AM",
+      "zh": "铁幕降临：武汉封城令生效"
+    },
+    "date": {
+      "id": "23 Januari 2020",
+      "en": "January 23, 2020",
+      "zh": "2020年1月23日"
+    },
+    "strain": "Lineage B.1 Progenitor Clades",
+    "flash": {
+      "id": "KARANTINA TERBESAR: Pintu tol diblokade, stasiun Hankou ditutup, 11 juta jiwa terisolasi total.",
+      "en": "UNPRECEDENTED SIEGE: Highway tolls shut, transit severed, 11 million residents quarantined overnight.",
+      "zh": "史无前例：除夕前夜紧急通告，机场火车站全面停摆，千万人口沦为孤岛。"
+    },
+    "virusProfile": {
+      "code": "MASS QUARANTINE INTERCEPTION",
+      "mutationType": {
+        "id": "Pemotongan Arus Mobilitas Terbesar Abad Ini",
+        "en": "Historic Mega-City Cordon Sanitaire",
+        "zh": "世纪最大规模交通阻断干预"
+      },
+      "r0": "Ditekan dari 3.1 ke < 1.0 pasca blokade",
+      "threatLevel": {
+        "id": "PROTOKOL MAKSIMUM KARANTINA SIPIL",
+        "en": "CIVIL CONTAINMENT MAXIMUM PROTOCOL",
+        "zh": "最高等级平民封控管制"
+      },
+      "clinicalTarget": {
+        "id": "Isolasi klaster metropolitan penuh",
+        "en": "Total metropolitan cluster isolation",
+        "zh": "特大城市全域聚集性隔离"
+      }
+    },
+    "description": {
+      "id": "Pukul 02.00 dini hari menjelang malam Tahun Baru Imlek, Markas Komando Pencegahan Wabah Wuhan mengeluarkan maklumat darurat: seluruh bus, subway, feri penumpang, dan penerbangan keluar dihentikan mulai pukul 10.00 pagi. Kepanikan pecah seketika. Ratusan ribu warga berdesakan di Stasiun Hankou berebut naik kereta terakhir sebelum peron digembok aparat bersenjata. Sejak detik itu, kota metropolitan berpenduduk 11 juta jiwa diputus total dari peradaban luar.",
+      "en": "At 2:00 AM on the eve of Lunar New Year, Wuhan authorities issued Emergency Order No. 1: all public buses, subways, ferries, and outgoing flights were suspended from 10:00 AM. A chaotic exodus erupted through the damp winter night as thousands raced to Hankou Railway Station to catch the last departing trains. When the turnstiles were padlocked, an 11-million-person metropolis was sealed from the world.",
+      "zh": "农历除夕前夜凌晨两点，疫情防控指挥部发布第1号通告：上午10时起，全市公交、地铁、轮渡暂停运营，机场、火车站离汉通道暂时关闭。恐慌迅速在黑夜中蔓延，数十万人涌入汉口火车站抢搭最后的出城班次。当铁道大门最终上锁，拥有一千一百万人口的工业大都会沦为静默孤岛。"
+    },
+    "image": "/assets/images/covid-19/cn/05-hankou-station-lockdown.jpg"
+  },
+  {
+    "id": "cn-06-ten-day-miracle-hospitals",
+    "chapterNumber": "05",
+    "type": "standard",
+    "title": {
+      "id": "Benteng Prefabrikasi: Huoshenshan dalam 10 Hari",
+      "en": "Prefabricated Siege: Huoshenshan Built in 10 Days",
+      "zh": "火雷神速：十天落成的方舟医院"
+    },
+    "date": {
+      "id": "24 Januari - 2 Februari 2020",
+      "en": "January 24 - February 2, 2020",
+      "zh": "2020年1月24日 - 2月2日"
+    },
+    "strain": "Lineage B Clade L",
+    "flash": {
+      "id": "LOGISTIK KILAT: Ribuan ekskavator dan 40 juta penonton siaran langsung pembangunan RS darurat.",
+      "en": "ENGINEERING MARVEL: Armies of excavators and 40 million live streamers witness a 10-day field hospital.",
+      "zh": "极限工程：数千台挖机昼夜会战，四千万‘云监工’见证负压隔离医院平地拔起。"
+    },
+    "virusProfile": {
+      "code": "SURGICAL INFRASTRUCTURE RESPONSE",
+      "mutationType": {
+        "id": "Isolasi Tekanan Negatif Berskala Masif",
+        "en": "Rapid Negative-Pressure Facility Deployment",
+        "zh": "大规模负压隔离体系快速构建"
+      },
+      "r0": "Pengendalian Klaster Faskes",
+      "threatLevel": {
+        "id": "PENGGELARAN DARURAT INFRASTRUKTUR",
+        "en": "INFRASTRUCTURE EMERGENCY DEPLOYMENT",
+        "zh": "战时级基建应急动员"
+      },
+      "clinicalTarget": {
+        "id": "Penampungan 2.600 pasien dengan gagal napas akut",
+        "en": "Triage & care for 2,600 acute respiratory failure patients",
+        "zh": "收治2600名急性呼吸衰竭重症患者"
+      }
+    },
+    "description": {
+      "id": "Dengan IGD rumah sakit yang kolaps dan pasien sekarat terlantar di lorong, pemerintah meluncurkan operasi logistik militer tanpa tanding: membangun RS Huoshenshan (1.000 ranjang) dan Leishenshan (1.600 ranjang) dari nol dalam tempo 10 hari. Ribuan ekskavator meratakan bukit lumpur di bawah sorotan lampu tembak genset. Lebih dari 40 juta pemirsa di seluruh dunia menyaksikan siaran langsung tanpa henti aksi para pekerja merakit ratusan kontainer bertekanan negatif.",
+      "en": "With city clinics overwhelmed and oxygen-depleted patients gasping in freezing hallways, the state initiated an extreme engineering offensive: constructing the 1,000-bed Huoshenshan and 1,600-bed Leishenshan hospitals from scratch in just ten days. Thousands of heavy excavators graded muddy swaths under blazing spotlights, watched 24/7 by over 40 million online viewers monitoring the assembly of negative-pressure isolation wards.",
+      "zh": "面对挤爆的门诊大厅与在走廊艰难吸氧的重症病患，极速工程展开：十天内从荒野平地拔起拥有千张负压床位的火神山与雷神山医院。上千台挖掘机在刺眼的探照灯与轰鸣声中昼夜削平泥沼，数千万名网民化身‘云监工’紧盯直播屏幕，见证集装箱板房严丝合缝地拼接成抗疫堡垒。"
+    },
+    "image": "/assets/images/covid-19/cn/06-huoshenshan-construction.jpg"
+  },
+  {
+    "id": "cn-07-dr-li-wenliang-martyrdom",
+    "chapterNumber": "06",
+    "type": "milestone",
+    "title": {
+      "id": "Malam Tanpa Tidur: Gugurnya Li Wenliang",
+      "en": "Sleepless Night: The Martyrdom of Dr. Li Wenliang",
+      "zh": "旷野哭声：李文亮医生的永夜长逝"
+    },
+    "date": {
+      "id": "6 - 7 Februari 2020",
+      "en": "February 6 - 7, 2020",
+      "zh": "2020年2月6日 - 7日"
+    },
+    "strain": "SARS-CoV-2 (Nosocomial Lethal Load)",
+    "flash": {
+      "id": "KEMATIAN SANG SAKSI: Tagar 'Kami Ingin Kebebasan Berpendapat' meledak di Weibo sebelum disapu bersih sensor.",
+      "en": "NATIONAL GRIEF: The whistleblower's death ignites public fury; 'We Want Free Speech' trends before purges.",
+      "zh": "群情悲恸：吹哨人殉职引发舆论风暴，‘我们要言论自由’词条深夜冲上热搜。"
+    },
+    "virusProfile": {
+      "code": "NOSOCOMIAL CYTOKINE COLLAPSE",
+      "mutationType": {
+        "id": "Paparan Muatan Viral Tinggi ke Saluran Napas Atas",
+        "en": "High-Dose Viral Load Exposure to Airway",
+        "zh": "高载量病毒直接暴露"
+      },
+      "r0": "Mortalitas Tenaga Medis Garis Depan",
+      "threatLevel": {
+        "id": "TITIK KRITIS KEPERCAYAAN SOSIAL",
+        "en": "SOCIAL TRUST CRISIS BREAKING POINT",
+        "zh": "社会信任与公信力风暴"
+      },
+      "clinicalTarget": {
+        "id": "ARDS fulminan pada pasien muda non-komorbid",
+        "en": "Fulminant ARDS in young individuals without comorbidities",
+        "zh": "中青年非基础病患者突发暴发性ARDS"
+      }
+    },
+    "description": {
+      "id": "Pada 7 Februari pukul 02.58 dini hari, jantung Dr. Li Wenliang akhirnya berhenti berdetak di ruang ICU RS Pusat Wuhan setelah berminggu-minggu bertarung melawan virus yang pernah ia peringatkan. Kabar kematiannya menyulut gelombang kemarahan publik terbesar dalam sejarah internet Tiongkok. Jutaan warganet membanjiri Weibo menuntut kebebasan berpendapat dan akuntabilitas pejabat. Bot sensor bekerja panik menghapus unggahan, namun kolom komentar Li Wenliang selamanya berubah menjadi Tembok Ratapan Digital.",
+      "en": "At 2:58 AM on February 7, Dr. Li Wenliang succumbed to COVID-19 in Wuhan Central Hospital's intensive care unit. His death triggered an unprecedented wave of public grief and outrage across Chinese cyberspace. Millions flooded Weibo with calls for free speech and official accountability. While algorithmic filters frantically scrubbed viral posts into the morning, Dr. Li's last Weibo entry became a permanent digital 'Wailing Wall'.",
+      "zh": "2月7日凌晨2时58分，34岁的李文亮医生在武汉市中心医院重症监护室永远停止了心跳。他的死讯引爆了当代互联网史上极其强烈的情绪海啸。数百万人通宵刷屏悼念图腾。尽管审查算法在深夜迅速删帖，他的微博评论区自此成为数千万网民寄托哀思与倾诉苦难的‘互联网哭墙’。"
+    },
+    "image": "/assets/images/covid-19/cn/07-li-wenliang-passing.jpg"
+  },
+  {
+    "id": "cn-08-fangcang-shelters",
+    "chapterNumber": "07",
+    "type": "standard",
+    "title": {
+      "id": "Karantina GOR Raksasa: Era Rumah Sakit Fangcang",
+      "en": "Communal Quarantine: The Rise of Fangcang Shelters",
+      "zh": "方舱方阵：会展中心与体育场的生命方舟"
+    },
+    "date": {
+      "id": "Februari - Maret 2020",
+      "en": "February - March 2020",
+      "zh": "2020年2月 - 3月"
+    },
+    "strain": "SARS-CoV-2 Clade L",
+    "flash": {
+      "id": "PEMISAHAN TOTAL: Gelanggang olahraga disulap jadi barak isolasi puluhan ribu ranjang.",
+      "en": "TOTAL TRIAGE: Sports complexes and exhibition arenas transformed into massive isolation wards.",
+      "zh": "全面收治：体育场馆变身巨型隔离方舱，阻断家庭内部传播死循环。"
+    },
+    "virusProfile": {
+      "code": "MILD-CASE CONTAINMENT MATRIX",
+      "mutationType": {
+        "id": "Isolasi Kasus Ringan Skala Masif",
+        "en": "Mass Isolation of Mild & Asymptomatic Cases",
+        "zh": "方舱大规模轻症收治隔离"
+      },
+      "r0": "Ditekan ke 0.3 (Memutus Rantai Rumah Tangga)",
+      "threatLevel": {
+        "id": "PENIADAAN TRANSMISI KOMUNITAS",
+        "en": "COMMUNITY TRANSMISSION ZEROING",
+        "zh": "阻断社区隐匿性传播"
+      },
+      "clinicalTarget": {
+        "id": "Triase pemisahan kasus asimtomatik dari populasi rentan",
+        "en": "Triage isolating positive cases from household contacts",
+        "zh": "有效隔离轻症患者，阻断家庭二次传播"
+      }
+    },
+    "description": {
+      "id": "Untuk memutus rantai penularan dalam keluarga, otoritas menyulap belasan stadion dan gedung pameran menjadi RS Darurat Fangcang. Puluhan ribu ranjang lipat berjejer rapat di bawah kubah aula raksasa. Di dalam barak ini, muncul dinamika unik: pasien bergejala ringan membaca buku filsafat di atas ranjang, senam bersama nakes berhazmat putih, dan saling menguatkan dalam ruang karantina komunal terbesar yang pernah dirancang.",
+      "en": "To sever transmission within households, sixteen sports complexes and convention halls were converted into Fangcang shelter hospitals. Thousands of cots stood under vaulted ceilings. A distinct subculture emerged: mild patients reading political philosophy in bed and square-dancing with hazmat-clad nurses, embodying rapid clinical triage.",
+      "zh": "为彻底切断家庭内部传染，十六座大型体育馆与会展中心迅速改造成方舱医院。上万张行军床在空旷的钢架穹顶下整齐排开。这里呈现出奇特的方舱生态：轻症患者靠在床头静读《政治秩序的起源》、穿戴防护服的护士带领大爷大妈跳起广场舞，在集体空间中完成了全城病例的大清零。"
+    },
+    "image": "/assets/images/covid-19/cn/08-fangcang-hospital.jpg"
+  },
+  {
+    "id": "cn-09-side-iron-welding-doors",
+    "chapterNumber": "INTERLUDE II",
+    "type": "side_story",
+    "title": {
+      "id": "Pintu Terlas & Dering Drone Bersuara Kasar",
+      "en": "Welded Seclusion: Iron Bars and Loudspeaker Drones",
+      "zh": "焊门围城：角铁封锁与低空无人机"
+    },
+    "date": {
+      "id": "Februari 2020",
+      "en": "February 2020",
+      "zh": "2020年2月"
+    },
+    "strain": "Ekstremitas Penegakan Karantina",
+    "flash": {
+      "id": "BENTENG APARTEMEN: Pintu rumah dilas batangan baja; drone pengawas meneriaki warga di balkon.",
+      "en": "HARD CONTAINMENT: Unit gates spot-welded shut while loudspeaker drones circle residential balconies.",
+      "zh": "硬核封控：角铁焊死单元防盗门，扩音无人机低空训斥出门市民。"
+    },
+    "virusProfile": {
+      "code": "HARD PHYSICAL LOCKDOWN",
+      "mutationType": {
+        "id": "Pengekangan Fisik Tanpa Toleransi Gerak",
+        "en": "Zero-Tolerance Physical Confinement",
+        "zh": "零容忍实体物理硬隔离"
+      },
+      "r0": "Nol Transmisi Komunitas Eksterior",
+      "threatLevel": {
+        "id": "PEMBATASAN PERGERAKAN SIPIL EKSTREM",
+        "en": "CIVIL MOVEMENT RESTRICTION",
+        "zh": "强制性平民行动限制"
+      },
+      "clinicalTarget": {
+        "id": "Pembatasan pergerakan fisik manusia secara total",
+        "en": "Total cessation of civilian mobility",
+        "zh": "完全封锁物理流动"
+      }
+    },
+    "description": {
+      "id": "Di berbagai sudut pemukiman Hubei, penegakan karantina mencapai titik ekstrem. Petugas lingkungan menggunakan mesin las dan rantai tebal untuk mengunci palang pintu apartemen warga yang dicurigai kontak erat dari luar, menyisakan celah kecil hanya untuk menyalurkan sayuran dan mi instan. Di udara, drone pengawas terbang rendah menyusuri jendela balkon, memperingatkan lansia yang keluar tanpa masker lewat pengeras suara dengan nada keras.",
+      "en": "Throughout residential complexes, containment was rigidly enforced. Neighborhood cadres used electric welding gear to weld unit doors shut from the outside, leaving narrow slots to slide in winter cabbage and noodles. Overhead, surveillance drones patrolled alleyways, barking commands through megaphones at residents stepping onto balconies without masks.",
+      "zh": "在基层封控过程中，硬核手段层出不穷。网格员与施工队使用角铁与电焊机，将密接居民单元防盗门焊死，仅留小口递送米菜。低空盘旋的巡查无人机穿梭于居民楼之间，通过高音喇叭严厉呵斥未戴口罩在阳台透气的居民：‘赶紧戴好口罩进屋！’，物理限制推向极致。"
+    },
+    "image": "/assets/images/covid-19/cn/09-welded-doors.jpg"
+  },
+  {
+    "id": "cn-10-wuhan-reopening-sunrise",
+    "chapterNumber": "08",
+    "type": "standard",
+    "title": {
+      "id": "Gembok Terlepas: Fajar 76 Hari Wuhan",
+      "en": "Unsealing Dawn: Wuhan's 76-Day Awakening",
+      "zh": "解封拂晓：长江汽笛与76天的解冻"
+    },
+    "date": {
+      "id": "8 April 2020",
+      "en": "April 8, 2020",
+      "zh": "2020年4月8日"
+    },
+    "strain": "SARS-CoV-2 Local Elimination Clade",
+    "flash": {
+      "id": "PEMBUKAAN KEMBALI: Sirene kapal Sungai Yangtze menyala; Wuhan mencatat nol transmisi lokal.",
+      "en": "REOPENING CADENCE: Yangtze ferries sound long horns as Wuhan records zero local transmissions.",
+      "zh": "走出绝境：长江轮渡鸣笛长啸，历经76天封闭管控后离汉通道全面重启。"
+    },
+    "virusProfile": {
+      "code": "FIRST LOCAL TRANSMISSION ARREST",
+      "mutationType": {
+        "id": "Eliminasi Virus Domestik via Intervensi Total",
+        "en": "Domestic Suppression via Total Intervention",
+        "zh": "全面强力干预实现境内清零"
+      },
+      "r0": "< 0.2",
+      "threatLevel": {
+        "id": "WABAH DOMESTIK DIATASI",
+        "en": "DOMESTIC OUTBREAK CRUSHED",
+        "zh": "本土暴发态势基本阻断"
+      },
+      "clinicalTarget": {
+        "id": "Restorasi pergerakan dan aktivitas publik bertahap",
+        "en": "Phased recovery of public transit and civic activity",
+        "zh": "逐步恢复民生与城市交通机能"
+      }
+    },
+    "description": {
+      "id": "Tepat tengah malam 8 April 2020, setelah 76 hari terkurung dari dunia, blokade Wuhan resmi dibuka. Menara pencakar langit di tepi Sungai Yangtze menyala dengan proyeksi cahaya hologram bertuliskan Kota Pahlawan. Mobil-mobil membunyikan klakson panjang di gerbang tol yang palangnya terangkat untuk kali pertama. Di stasiun kereta, ribuan pekerja migran menaiki gerbong dengan air mata haru, meninggalkan kota yang telah membayar harga amat mahal.",
+      "en": "At midnight on April 8, 2020, following 76 grueling days of confinement, Wuhan's blockade was lifted. Waterfront high-rises along the Yangtze ignited with laser projections proclaiming 'Heroic City'. Car horns blared as toll gates opened for the first time since January, and emotional travelers boarded trains, bringing an end to the first modern metropolitan cordon sanitaire.",
+      "zh": "2020年4月8日零点整，在一千八百多个小时的封闭后，武汉解除离汉通道管控。长江两岸的摩天大楼点亮‘英雄之城’灯光秀，收费站栏杆抬起，积压百日的车辆长鸣汽笛汇成洪流。高铁站内，大批返工人员抹泪登车，一座经历了沉重创伤的工业巨城重新恢复心跳。"
+    },
+    "image": "/assets/images/covid-19/cn/10-wuhan-unsealed.jpg"
+  },
+  {
+    "id": "cn-11-health-code-surveillance",
+    "chapterNumber": "09",
+    "type": "milestone",
+    "title": {
+      "id": "Tirani Tiga Warna: Rezim Kode Kesehatan QR",
+      "en": "The Three-Color Leash: Algorithmic QR Governance",
+      "zh": "三色数字锁链：健康码统治日常"
+    },
+    "date": {
+      "id": "Mei 2020 - 2021",
+      "en": "May 2020 - 2021",
+      "zh": "2020年5月 - 2021年"
+    },
+    "strain": "Digital Tracing Infrastructure Era",
+    "flash": {
+      "id": "SEKAT DIGITAL: Barcode Hijau, Kuning, dan Merah menentukan setiap langkah hak hidup warga.",
+      "en": "DIGITAL POLICING: Green, Yellow, and Red QR codes dictate human movement in public spaces.",
+      "zh": "数字规训：绿码、黄码、红码，算法接管十四亿人的空间通行权利。"
+    },
+    "virusProfile": {
+      "code": "ALGORITHMIC DIGITAL SURVEILLANCE",
+      "mutationType": {
+        "id": "Pelacakan Spasial Real-Time Berbasis Big Data",
+        "en": "Big Data Real-Time Spatial Contact Tracing",
+        "zh": "大数据驱动的实时时空伴随追踪"
+      },
+      "r0": "Tersekat Regulasi Algoritmik",
+      "threatLevel": {
+        "id": "PENCABUTAN MOBILITAS OTOMATIS",
+        "en": "AUTOMATED MOVEMENT REVOCATION",
+        "zh": "自动化绿码通行权限剥夺"
+      },
+      "clinicalTarget": {
+        "id": "Isolasi preventif jutaan kontak spasial sekunder",
+        "en": "Preemptive quarantine of millions via colored digital codes",
+        "zh": "数以百万计的时空伴随者预防性赋黄码管控"
+      }
+    },
+    "description": {
+      "id": "Pascabukanya Wuhan, rutinitas penduduk terikat pada satu sistem digital: Kode Kesehatan (Jiankang Ma). Tiga warna menentukan nasib harian seseorang: Hijau bebas bepergian, Kuning berarti karantina rumah, dan Merah berarti dijemput mobil isolasi darurat. Untuk naik bus, membeli sawi di pasar, hingga masuk toilet umum, ponsel wajib diarahkan ke mesin pemindai barcode. Satu kasus positif di mall cukup untuk mengubah kode ratusan ribu warga menjadi kuning secara instan.",
+      "en": "In the post-Wuhan era, civic life was governed by the Health Code ecosystem integrated into WeChat and Alipay. Three dynamic colors dictated reality: Green allowed passage, Yellow required home confinement, and Red triggered mandatory transfer to state quarantine. Entering a grocery store, boarding a subway, or stepping into a public park required scanning a venue code.",
+      "zh": "进入常态化防控后，国民日常被收束于微信与支付宝内置的‘健康码’。绿码自由出行、黄码居家弹窗、红码闭环转运。搭乘公交、买菜甚至进公厕都必须严苛‘亮码打卡’。大数据凭借时空伴随算法，只需商场出现一例密接，即可在瞬间让数万人的健康码变黄，剥夺其流动自由。"
+    },
+    "image": "/assets/images/covid-19/cn/11-qr-health-code.jpg"
+  },
+  {
+    "id": "cn-12-side-ten-million-testing",
+    "chapterNumber": "INTERLUDE III",
+    "type": "side_story",
+    "title": {
+      "id": "Garis Tes Tiada Akhir: Operasi Swab 10 Juta Jiwa",
+      "en": "The Endless Queue: Wuhan's Ten-Million Testing Campaign",
+      "zh": "十日大会战：全城千万人口核酸大筛查"
+    },
+    "date": {
+      "id": "Mei 2020",
+      "en": "May 2020",
+      "zh": "2020年5月"
+    },
+    "strain": "Mass RT-PCR Pooling Techniques",
+    "flash": {
+      "id": "BLITZKRIEG MEDIS: Seluruh penduduk kota Wuhan dites swab PCR hanya dalam tempo sepuluh hari.",
+      "en": "TESTING BLITZ: An entire metropolitan population of ten million swabbed within ten days.",
+      "zh": "极速筛查：武汉全城千万居民在十天内完成地毯式核酸检测。"
+    },
+    "virusProfile": {
+      "code": "POOLED-SAMPLE TESTING SYSTEM",
+      "mutationType": {
+        "id": "Skrining Masif 5-in-1 dan 10-in-1 Batch Testing",
+        "en": "5-in-1 and 10-in-1 Pooled PCR Screening",
+        "zh": "5混1与10混1全民核酸混检筛查"
+      },
+      "r0": "Deteksi Dini Pasien Asimtomatik",
+      "threatLevel": {
+        "id": "SISTEM PENGUJIAN PADA KAPASITAS MAKSIMAL",
+        "en": "TESTING SYSTEM AT CAPACITY",
+        "zh": "全域核酸动员峰值负荷"
+      },
+      "clinicalTarget": {
+        "id": "Eliminasi sisa kantong pembawa virus tanpa gejala",
+        "en": "Eradication of residual asymptomatic carriers",
+        "zh": "彻底排查全城残余无症状隐性感染"
+      }
+    },
+    "description": {
+      "id": "Ditemukannya segelintir kasus tanpa gejala baru memicu diluncurkannya Kampanye Sepuluh Hari Uji Swab Massal di Wuhan. Lapangan sekolah, kolong jembatan layang, dan sudut jalan disulap jadi bilik uji cepat. Warga mengantre berjam-jam di tengah terik panas dan hujan badai. Menggunakan metode pencampuran sampel (batch testing), sebanyak 9,89 juta penduduk berhasil diswab dalam sembilan hari, menetapkan standar karantina ofensif untuk tahun-tahun berikutnya.",
+      "en": "Triggered by a handful of asymptomatic cases, Wuhan launched the 'Ten-Day Ten-Million Testing Battle'. School tracks, highway underpasses, and neighborhood gates were repurposed into swabbing corridors. Residents queued for hours in humid summer heat to be swabbed by hazmat-clad workers. Leveraging 5-in-1 and 10-in-1 batching protocols, 9.89 million citizens were tested in nine days.",
+      "zh": "因零星无症状感染者的出现，武汉发起‘十天核酸大会战’。街道操场、高架桥底搭建起密密麻麻的采样棚，市民在烈日与暴雨中排出长龙，张嘴迎向防护员的棉签。借助五混一与十混一混采方案，全城九天内完成近千万人全覆盖检测，为日后大筛模式定下了基准战术。"
+    },
+    "image": "/assets/images/covid-19/cn/12-mass-testing-lines.jpg"
+  },
+  {
+    "id": "cn-13-dynamic-zero-doctrine",
+    "chapterNumber": "10",
+    "type": "standard",
+    "title": {
+      "id": "Doktrin Nol Kasus Dinamis: Benteng Tembok Tanpa Celah",
+      "en": "Dynamic Zero Doctrine: The Closed Border Bulwark",
+      "zh": "动态清零法典：隔离高墙与‘五个一’"
+    },
+    "date": {
+      "id": "Akhir 2020 - 2021",
+      "en": "Late 2020 - 2021",
+      "zh": "2020年末 - 2021年"
+    },
+    "strain": "Wild-Type / D614G Global Lineages",
+    "flash": {
+      "id": "ISOLASI GLOBAL: Kebijakan 'Five-One' dan karantina hotel 21 hari mengunci pintu masuk internasional.",
+      "en": "BORDER CURTAIN: Strict flight caps and 21-day hotel isolations seal external entry points.",
+      "zh": "国门闭环：国际航班断崖式缩减，入境21天严苛隔离筑起生物防线。"
+    },
+    "virusProfile": {
+      "code": "ZERO-TOLERANCE ERADICATION MODEL",
+      "mutationType": {
+        "id": "Intersepsi Jalur Impor Luar Negeri",
+        "en": "Closed-Loop Border Interception Protocols",
+        "zh": "境外输入链条长周期闭环阻截"
+      },
+      "r0": "0.0 di Luar Kamp Karantina",
+      "threatLevel": {
+        "id": "MOBILITAS GLOBAL TERPUTUS",
+        "en": "GLOBAL MOBILITY SEVERED",
+        "zh": "国境熔断与国际交往隔绝"
+      },
+      "clinicalTarget": {
+        "id": "Blokade impor kasus varian baru dari luar negeri",
+        "en": "Blockade against importation of novel international variants",
+        "zh": "严防境外变异毒株经口岸与冷链输入"
+      }
+    },
+    "description": {
+      "id": "Ketika negara-negara barat mulai melonggarkan protokol dan memilih hidup berdampingan dengan virus, Tiongkok mengunci pendiriannya dalam doktrin Nol Kasus Dinamis (Dongtai Qingling). Akses penerbangan internasional dipangkas habis lewat regulasi Five-One. Pendatang dari luar negeri wajib dikawal menuju hotel isolasi selama 14 hingga 21 hari tanpa boleh menginjakkan kaki keluar kamar. Aktivitas domestik tetap berjalan normal di balik benteng karantina yang kian terisolasi dari pergaulan dunia.",
+      "en": "As Western nations grappled with mounting death tolls and transitioned toward endemicity, Beijing codified 'Dynamic Zero-COVID' into national orthodoxy. Strict international arrival quotas ('Five-One' flight policy) severed external travel. Incoming travelers were escorted directly into designated quarantine hotels for up to 21 days of isolation, insulating domestic manufacturing at the cost of global disconnect.",
+      "zh": "当全球多国迈向与病毒共存时，中国将‘动态清零’奉为不可动摇的国策。民航‘五个一’政策切断绝大多数国际客运航线。少数入境者落地即被专车送往隔离酒店，面临长达14至21天闭门监管。境内经济在严格屏障保护下持续运转，筑造起一座自豪却愈发封闭的高墙。"
+    },
+    "image": "/assets/images/covid-19/cn/13-hotel-quarantine.jpg"
+  },
+  {
+    "id": "cn-14-side-dabai-guardians",
+    "chapterNumber": "INTERLUDE IV",
+    "type": "side_story",
+    "title": {
+      "id": "Kasta Jubah Putih: Menguasai Lorong Bersama Da Bai",
+      "en": "The White Hazmats: Neighborhood Governance Under Da Bai",
+      "zh": "白色威权：防护服下的基层掌控力"
+    },
+    "date": {
+      "id": "2021",
+      "en": "2021",
+      "zh": "2021年"
+    },
+    "strain": "Sosiologi Pengawasan Lapangan",
+    "flash": {
+      "id": "IKON PENGUASA LORONG: Sosok 'Si Putih Besar' (Da Bai) bertransformasi jadi simbol penegakan protokol kaku.",
+      "en": "STREET WATCHMEN: The celebrated 'Big White' transforms into an omnipresent symbol of grassroots control.",
+      "zh": "符号嬗变：‘大白’形象从最初的白衣天使蜕变为日常管制的基层执法符号。"
+    },
+    "virusProfile": {
+      "code": "CIVIL SURVEILLANCE CADRE",
+      "mutationType": {
+        "id": "Birokrasi Hazmat Terpadu di Tingkat RT/RW",
+        "en": "Hazmat Bureaucracy at Grassroots Neighborhood Level",
+        "zh": "网格化基层白衣行政与防疫管制"
+      },
+      "r0": "Alat Intervensi Lapangan",
+      "threatLevel": {
+        "id": "EKSPANSI OTORITAS AKAR RUMPUT",
+        "en": "GRASSROOTS REGULATORY OVERREACH",
+        "zh": "微观社区防疫过度管控"
+      },
+      "clinicalTarget": {
+        "id": "Pengawasan kedisiplinan dan sanitasi disinfektan jalanan",
+        "en": "Enforcing residential compliance and ambient street sanitization",
+        "zh": "常态化楼道消杀与居民外出管理"
+      }
+    },
+    "description": {
+      "id": "Sosok berhazmat putih lengkap dengan kacamata google dan sarung tangan karet—dikenal secara luas sebagai Da Bai (Si Putih Besar)—muncul di setiap blok pemukiman. Di awal krisis mereka dirayakan sebagai relawan setia yang mengantarkan makanan saat cuaca membeku. Namun seiring berjalannya waktu, wewenang luas yang dipegang petugas anonim ini memicu gesekan: penolakan izin darurat medis, pembentakan warga yang terlambat tes, hingga penyemprotan disinfektan kimia langsung ke dalam ruang hunian pribadi warga.",
+      "en": "Covered in full-body personal protective suits, goggles, and rubber boots, frontline cadres were popularized as 'Da Bai' (Big White). Initially celebrated as selfless heroes carrying groceries to locked-down citizens, their unchecked administrative power increasingly stoked public friction: forcefully culling pets, shouting at residents in courtyards, and ransacking private homes for heavy disinfection.",
+      "zh": "身穿一体式连体防护服的基层工作人员被形象地称为‘大白’。初期他们冒雪运送物资，是受人称赞的奉献者。但随着清零机制的僵化，这群匿名的白色身影掌握了绝对的微观权力：扑杀宠物、训斥迟做核酸的住户、甚至破门入户进行高浓度消杀，群体认同逐渐分裂。"
+    },
+    "image": "/assets/images/covid-19/cn/14-dabai-patrol.jpg"
+  },
+  {
+    "id": "cn-15-delta-breaches-nanjing",
+    "chapterNumber": "11",
+    "type": "standard",
+    "title": {
+      "id": "Retak di Dinding Kaca: Varian Delta Menembus Nanjing",
+      "en": "Cracking the Glass Wall: Delta Breaches Nanjing",
+      "zh": "防线崩塌：禄口机场与德尔塔破关"
+    },
+    "date": {
+      "id": "Juli - Agustus 2021",
+      "en": "July - August 2021",
+      "zh": "2021年7月 - 8月"
+    },
+    "strain": "Varian Delta (B.1.617.2)",
+    "flash": {
+      "id": "PENYUSUPAN DELTA: Pembersih kabin di Bandara Lukou tertular; klaster meluas ke belasan provinsi.",
+      "en": "DELTA INFILTRATION: Airport cleaners at Lukou test positive; clusters spiral into 15 provinces.",
+      "zh": "输入破防：境外航班保洁流程纰漏，德尔塔烈火引燃十余省市旅游带。"
+    },
+    "virusProfile": {
+      "code": "VOC DELTA PENETRATION",
+      "mutationType": {
+        "id": "Mutasi L452R + P681R Mengakali Protokol Pembersihan",
+        "en": "L452R + P681R Mutations Evading Disinfection Protocols",
+        "zh": "L452R与P681R双重突变穿透机组保洁屏障"
+      },
+      "r0": "6.0 - 7.0 (Transmisibilitas Ekstrem)",
+      "threatLevel": {
+        "id": "RETAKAN PADA BENTENG ZERO-COVID",
+        "en": "CRACK IN THE ZERO-COVID BULWARK",
+        "zh": "动态清零防线首现重大缺口"
+      },
+      "clinicalTarget": {
+        "id": "Viral load pekat, penyebaran aerosol di lorong pesawat",
+        "en": "Dense viral load, rapid cabin aerosol dissemination",
+        "zh": "超高病毒载量与客舱密闭气溶胶传播"
+      }
+    },
+    "description": {
+      "id": "Keyakinan bahwa strategi nol kasus sepenuhnya kebal dari mutasi virus pecah di Bandara Internasional Lukou Nanjing. Varian Delta yang jauh lebih agresif menyusup lewat petugas kebersihan pesawat rute internasional. Dari Nanjing, penularan menjalar ke penonton teater terbuka di Zhangjiajie yang penuh sesak tanpa masker. Dalam hitungan hari, virus menyebar ke puluhan kota di belasan provinsi, menyeret jutaan warga kembali ke putaran swab massal tanpa jeda.",
+      "en": "The illusion of an impenetrable biological fortress cracked at Nanjing Lukou International Airport. The ultra-transmissible Delta variant leaked through ground crews servicing a charter flight. Infected cleaners subsequently attended crowded performances in tourist hotspot Zhangjiajie. Within days, Delta seeded clusters across fifteen provinces, forcing millions back into routine testing spirals.",
+      "zh": "严密的防护体系在南京禄口国际机场撕开裂缝。一架入境航班客舱保洁流程纰漏，使德尔塔变异株在保洁人员中引爆。随后张家界露天剧场无防护聚集演出将病毒带向多省，击溃数座防范严密的名城，将千万人重新卷入无休止的全员筛查周期中。"
+    },
+    "image": "/assets/images/covid-19/cn/15-nanjing-airport-closure.jpg"
+  },
+  {
+    "id": "cn-16-xian-starvation-siege",
+    "chapterNumber": "12",
+    "type": "standard",
+    "title": {
+      "id": "Kepungan Kota Kuno: Xi'an Kehabisan Pasokan Makanan",
+      "en": "The Ancient Siege: Xi'an's Supply Grid Breakdown",
+      "zh": "古都围城：一千三百万人的粮荒与以物易物"
+    },
+    "date": {
+      "id": "Desember 2021 - Januari 2022",
+      "en": "December 2021 - January 2022",
+      "zh": "2021年12月 - 2022年1月"
+    },
+    "strain": "Varian Delta (Xi'an Outbreak)",
+    "flash": {
+      "id": "KRISIS LOGISTIK: 13 juta warga dilarang keluar rumah; barter barang pokok mencuat demi bertahan hidup.",
+      "en": "LOGISTIC CRISIS: 13 million barred from exiting homes; bartering resurfaces for survival.",
+      "zh": "保供危机：千万居民足不出户，物物交换重现，急诊拒收悲剧引发公愤。"
+    },
+    "virusProfile": {
+      "code": "URBAN LOGISTIC STARVATION",
+      "mutationType": {
+        "id": "Penutupan Total Tanpa Rantai Pasok Terpadu",
+        "en": "Citywide Lockdown Severing Food & Supply Logistics",
+        "zh": "全城严苛封控与生活保供链断裂"
+      },
+      "r0": "Ditekan Paksa lewat Blokade Rumah Tangga",
+      "threatLevel": {
+        "id": "KRISIS KEMANUSIAAN KOLATERAL",
+        "en": "COLLATERAL HUMANITARIAN CRISIS",
+        "zh": "次生人道主义危机"
+      },
+      "clinicalTarget": {
+        "id": "Kematian non-COVID akibat keterlambatan medis darurat",
+        "en": "Excess non-COVID deaths from hospital entry refusals",
+        "zh": "急危重症与孕妇因核酸硬指标救治延误"
+      }
+    },
+    "description": {
+      "id": "Kota bersejarah Xi'an berpenduduk 13 juta jiwa diperintahkan lockdown ketat mendadak. Akibatnya jaringan logistik kota lumpuh seketika: toko kelontong disegel dan armada kurir dilarang jalan. Warga apartemen yang terkurung kelaparan terpaksa melakukan barter: menukar konsol game atau rokok dengan sebungkus mi instan dan sawi putih. Kekecewaan publik meledak ketika seorang ibu hamil delapan bulan ditolak masuk rumah sakit akibat tes PCR-nya kedaluwarsa dua jam, berujung keguguran janin di trotoar depan klinik.",
+      "en": "The historic metropolis of Xi'an locked down 13 million residents following a Delta cluster, triggering an acute municipal supply failure. Supermarkets were shut and couriers grounded. Starving residents reverted to bartering: trading electronics and tobacco for bags of instant noodles and greens. Public fury peaked when an eight-month pregnant woman miscarried outside an emergency room because her COVID test was two hours expired.",
+      "zh": "古都西安因突发疫情全域封控。官方后勤保障瘫痪，外卖停摆，居民在微信群以物易物：用游戏机和香烟换取白菜与泡面。惨剧接踵而至，一名怀孕八个月的孕妇因核酸证明超时两小时被拒诊而在医院门前大出血流产，过度防疫激起全民公愤。"
+    },
+    "image": "/assets/images/covid-19/cn/16-xian-lockdown.jpg"
+  },
+  {
+    "id": "cn-17-shanghai-the-great-cage",
+    "chapterNumber": "13",
+    "type": "milestone",
+    "title": {
+      "id": "Sangkar Emas Pecah: Lockdown Brutal Shanghai",
+      "en": "The Golden Cage Shuts: Shanghai's 25-Million Confinement",
+      "zh": "魔都悲歌：两千五百万人的无声困境"
+    },
+    "date": {
+      "id": "Maret - Mei 2022",
+      "en": "March - May 2022",
+      "zh": "2022年3月 - 5月"
+    },
+    "strain": "Varian Omicron BA.2",
+    "flash": {
+      "id": "METROPOLIS LUMPUH: Ibukota finansial dikunci dua bulan penuh; jeritan warga bergema dari jendela apartemen gelap.",
+      "en": "FINANCIAL ENGINE HALTED: Shanghai locked down for two months; screams echo from high-rise balconies.",
+      "zh": "金融中心停摆：上海两月全域静默，阳台绝望呐喊刺破浦东夜空。"
+    },
+    "virusProfile": {
+      "code": "VOC OMICRON BA.2 HYPER-SPREAD",
+      "mutationType": {
+        "id": "Immune Evasion & Transmisi Aerosol Asimtomatik",
+        "en": "Immune Evasion & Stealth Airborne Aerosol Transmission",
+        "zh": "免疫逃逸与隐匿性气溶胶高频传播"
+      },
+      "r0": "9.5 - 12.0 (Mustahil Dibendung Cara Konvensional)",
+      "threatLevel": {
+        "id": "KELEBIHAN BEBAN SISTEMIK ASIMTOMATIK",
+        "en": "ASYMPTOMATIC SYSTEMIC OVERLOAD",
+        "zh": "医疗挤兑与无症状收治极限"
+      },
+      "clinicalTarget": {
+        "id": "Lonjakan infeksi ringan, kolapsnya triase rawat inap",
+        "en": "Mild infection tsunami overwhelming isolation infrastructure",
+        "zh": "轻症海啸瘫痪分级诊疗与常规急诊"
+      }
+    },
+    "description": {
+      "id": "Kekuatan finansial utama di Shanghai tak berkutik melawan lonjakan subvarian Omicron BA.2. Skema karantina bertahap akhirnya berubah menjadi kurungan penuh selama dua bulan bagi 25 juta warganya. Server aplikasi belanja sayur tumbang setiap jam 6 pagi, sementara anak balita dipisahkan dari orang tua saat masuk ruang observasi isolasi. Pada malam-malam yang sunyi, jeritan histeris ribuan warga terdengar saling bersahutan dari jendela apartemen pencakar langit, memecah kesunyian kota metropolis yang mati suri.",
+      "en": "China's financial hub crumbled before the velocity of Omicron BA.2. A staggered lockdown splitting the city deteriorated into an ironclad, two-month confinement of 25 million people. Residents woke before dawn to fight crashing grocery delivery apps, while infants were separated from parents at isolation depots. Desperate screams from locked high-rise windows echoed through the night across the silent metropolis.",
+      "zh": "经济第一都上海在奥密克戎BA.2突袭下失守。划江封控演化为长达两月的全域静默，两千五百万人沦为困兽。抢菜软件拂晓瘫痪，方舱内幼儿与父母强行分离。深夜的居民区上空，绝望住户探出阳台敲击锅碗瓢盆、发出凄厉嚎叫，声波在死寂的夜空久久回荡。"
+    },
+    "image": "/assets/images/covid-19/cn/17-shanghai-empty-bund.jpg"
+  },
+  {
+    "id": "cn-18-side-voices-of-april",
+    "chapterNumber": "INTERLUDE V",
+    "type": "side_story",
+    "title": {
+      "id": "Suara-Suara Bulan April: Perang Gerilya Melawan Sensor",
+      "en": "Voices of April: The Digital Relay Against Erasure",
+      "zh": "四月之声：六分钟音频的赛博抵抗"
+    },
+    "date": {
+      "id": "22 April 2022",
+      "en": "April 22, 2022",
+      "zh": "2022年4月22日"
+    },
+    "strain": "Digital Resistance & Auditory Memorial",
+    "flash": {
+      "id": "PERANG DIGITAL: Klip audio 6 menit jeritan warga Shanghai dibagikan jutaan kali lewat pemutaran terbalik dan kode QR.",
+      "en": "CYBER DISSENT: A 6-minute audio recording shared millions of times through inverted videos and QR mirrors.",
+      "zh": "数字游击战：黑白音频全网接力转发，倒放、镜像对抗系统抹杀。"
+    },
+    "virusProfile": {
+      "code": "VIRAL DISSENT PROPAGATION",
+      "mutationType": {
+        "id": "Enkripsi Kolektif Konten Audio Anti-Sensor",
+        "en": "Decentralized Audio Encoding Defying Automated Censors",
+        "zh": "去中心化音频重编码与反审查突围"
+      },
+      "r0": "Eksponensial di WeChat Moments",
+      "threatLevel": {
+        "id": "RISIKO RUNTUHNYA NARASI TUNGGAL",
+        "en": "TOTAL NARRATIVE COLLAPSE RISK",
+        "zh": "官方主导叙事面临公信力考验"
+      },
+      "clinicalTarget": {
+        "id": "Penyelamatan arsip suara korban darurat medis",
+        "en": "Preservation of civilian distress recordings during lockdown",
+        "zh": "封城期民生求救录音与集体记忆留存"
+      }
+    },
+    "description": {
+      "id": "Di puncak keputusasaan warga Shanghai, sebuah video enam menit bertajuk Suara-Suara Bulan April (Si Yue Zhi Sheng) diunggah ke dunia maya. Tanpa visual rumit, klip monokrom ini menyajikan rekaman asli suara telepon warga yang menangis memohon pertolongan medis dan petugas RT yang kelelahan. Saat algoritma sensor menyapu bersih video tersebut, aksi perlawanan digital meletus: jutaan pengguna membagikan file yang diputar terbalik, diselipkan di sela adegan film jadul, hingga diubah menjadi kode matriks agar suaranya tak terhapus dari sejarah.",
+      "en": "During the height of the Shanghai crisis, a six-minute compilation titled 'Voices of April' appeared online. Layering authentic audio clips of dying cancer patients, exhausted ward physicians, and crying parents over monochromatic aerial city vistas, it struck a raw national nerve. As censors scrubbed the file, millions staged a viral digital mutiny: reversing the video, encoding it into QR images, and embedding it on blockchains.",
+      "zh": "一部名为《四月之声》的六分钟短片在网络上线。无画面黑白基调下，原汁原味记录了重症病患求医无门的哀求、基层人员崩溃的哭诉与群众无助的呐喊。全网开启删帖封锁后，数千万人将视频倒放、嵌入老电影片段、制作彩色二维码接力转发，打响抗击遗忘的数字游击战。"
+    },
+    "image": "/assets/images/covid-19/cn/18-voices-of-april.jpg"
+  },
+  {
+    "id": "cn-19-side-tiananmen-bus-tragedy",
+    "chapterNumber": "INTERLUDE VI",
+    "type": "side_story",
+    "title": {
+      "id": "Bus Maut Tengah Malam Guizhou: 27 Jiwa di Jurang",
+      "en": "The Midnight Coach: 27 Lives Lost in Guizhou's Fog",
+      "zh": "深夜转运之殇：贵州大巴坠崖惨剧"
+    },
+    "date": {
+      "id": "18 September 2022",
+      "en": "September 18, 2022",
+      "zh": "2022年9月18日"
+    },
+    "strain": "Extreme Transfer Quarantine Logistics",
+    "flash": {
+      "id": "TRAGEDI KARANTINA: Bus pengangkut warga negatif menuju kamp isolasi terbalik di jurang jam 2 pagi; 27 orang tewas.",
+      "en": "QUARANTINE CASUALTY: Midnight transport bus crashes off mountain highway; 27 negative residents die.",
+      "zh": "代价惨痛：凌晨转运大巴山岭翻覆坠崖，二十七条无辜平民殒命深谷。"
+    },
+    "virusProfile": {
+      "code": "HAZARDOUS QUARANTINE TRANSPORT",
+      "mutationType": {
+        "id": "Evakuasi Paksa Tengah Malam Demi Target Statistik",
+        "en": "Midnight Forced Transit to Meet Statistical Zero Goals",
+        "zh": "为实现社会面清零深夜转运隔离"
+      },
+      "r0": "Nol Infeksi di Lokasi Kejadian",
+      "threatLevel": {
+        "id": "TINDAKAN ADMINISTRATIF FATAL",
+        "en": "LETHAL ADMINISTRATIVE OVERREACH",
+        "zh": "形式主义行政指令致死风险"
+      },
+      "clinicalTarget": {
+        "id": "Mortalitas akibat kecelakaan transportasi darurat",
+        "en": "Deadly crash during mandatory midnight quarantine transfer",
+        "zh": "夜间盘山公路非因病致死重大车祸"
+      }
+    },
+    "description": {
+      "id": "Demi memenuhi instruksi pembersihan kasus di tingkat komunitas, aparat Kota Guiyang memindahkan ribuan kontak erat yang berstatus tes negatif ke penampungan karantina ratusan kilometer jauhnya di tengah malam. Pukul 02.40 pagi di jalur tol pegunungan Sandu County yang berkabut tebal, sebuah bus berpenumpang 47 orang tergelincir masuk jurang sedalam puluhan meter. Sopir berhazmat dan 27 penumpang tewas di tempat. Bencana ini memantik empati dan duka mendalam: Kita semua sebenarnya berada di dalam bus tengah malam itu.",
+      "en": "Enforcing the mandate to clear inner-city infections, Guiyang authorities forced thousands of COVID-negative residents onto buses in the dead of night to remote quarantine camps. At 2:40 AM on a foggy mountain highway, a coach carrying 47 passengers veered off the road into a ravine, killing 27 people. The tragedy crystallized systemic absurdity: 'We are all on that midnight bus.'",
+      "zh": "为落实清零硬指标，贵阳半夜将数千名核酸阴性的密接住户强行装车异地隔离。凌晨2点40分，满载47人的转运大巴在山区浓雾中失控坠落深谷，穿着闷热防护服的司机与27名乘客当场罹难。这起非医学伤亡引发广泛共情与反思：‘我们都在那辆凌晨的大巴上。’"
+    },
+    "image": "/assets/images/covid-19/cn/19-guizhou-bus-crash.jpg"
+  },
+  {
+    "id": "cn-20-foxconn-exodus",
+    "chapterNumber": "14",
+    "type": "standard",
+    "title": {
+      "id": "Eksodus dari Kota iPhone: Pelarian Buruh Foxconn",
+      "en": "The Foxconn Exodus: Highway Flight from iPhone City",
+      "zh": "徒步大逃亡：富士康二十万工人的迁徙"
+    },
+    "date": {
+      "id": "Oktober - November 2022",
+      "en": "October - November 2022",
+      "zh": "2022年10月 - 11月"
+    },
+    "strain": "Varian Omicron BF.7",
+    "flash": {
+      "id": "PELARIAN PABRIK: Ratusan ribu buruh menjebol pagar kawat berduri dan jalan kaki ratusan kilometer di jalan tol.",
+      "en": "FACTORY EXODUS: Thousands scale barbed enclosures to trek hundreds of miles home along highways.",
+      "zh": "冲破围网：青年工人翻越高架铁丝网，沿高速公路徒步数百公里返乡。"
+    },
+    "virusProfile": {
+      "code": "CLOSED-LOOP MANUFACTURING FAILURE",
+      "mutationType": {
+        "id": "Klaster Pabrik Berpenghuni 200.000 Buruh",
+        "en": "Closed-Loop Mega-Factory Outbreak of 200,000 Workers",
+        "zh": "20万工人超级工厂闭环感染暴发"
+      },
+      "r0": "8.0 di Asrama Padat",
+      "threatLevel": {
+        "id": "KRISIS RANTAI PASOK TEKNOLOGI GLOBAL",
+        "en": "GLOBAL TECH SUPPLY CHAIN COLLAPSE",
+        "zh": "全球核心电子产业链断裂危机"
+      },
+      "clinicalTarget": {
+        "id": "Kepanikan terisolasi tanpa makanan dan obat-obatan",
+        "en": "Confinement panic, food shortages, and highway walkouts",
+        "zh": "厂区封锁断粮恐慌与劳工徒步大出逃"
+      }
+    },
+    "description": {
+      "id": "Pabrik perakitan iPhone terbesar di dunia di Zhengzhou mengoperasikan skema produksi tertutup untuk 200.000 buruh. Saat Omicron merebak di dalam asrama pabrik, suplai logistik dan pengobatan ambruk. Didorong ketakutan terinfeksi tanpa perawatan, eksodus massal pecah: ribuan buruh melompati pagar pembatas dan berjalan kaki siang malam menyusuri bahu jalan tol Henan untuk pulang ke kampung halaman masing-masing, sementara warga desa sekitar meletakkan makanan dan air minum di tepi jalan.",
+      "en": "The world's largest iPhone plant in Zhengzhou placed 200,000 workers into a closed-loop bubble. When Omicron infiltrated crowded dormitories, food and medical supplies collapsed. Terrified of being trapped in contaminated quarters, a mass defection erupted: thousands scaled barbed wire enclosures and marched on foot along highway shoulders across Henan Province carrying blankets and rucksacks.",
+      "zh": "全球最大iPhone组装厂郑州富士康园区实施闭环生产。随着感染蔓延，厂区物资短缺引发恐慌。数以万计的青年工人翻越铁丝护栏，手提塑料袋沿着高速公路应急车道徒步数百公里返乡，沿线村民悄悄在路旁放置矿泉水与馒头接力援助。"
+    },
+    "image": "/assets/images/covid-19/cn/20-foxconn-escape.jpg"
+  },
+  {
+    "id": "cn-21-urumqi-fire-ignition",
+    "chapterNumber": "15",
+    "type": "milestone",
+    "title": {
+      "id": "Titik Ledak: Api Maut Apartemen Urumqi",
+      "en": "The Spark in Xinjiang: Urumqi High-Rise Fire",
+      "zh": "乌鲁木齐烈火：吉祥苑高层的绝望悲剧"
+    },
+    "date": {
+      "id": "24 November 2022",
+      "en": "November 24, 2022",
+      "zh": "2022年11月24日"
+    },
+    "strain": "SARS-CoV-2 Zero-Tolerance Climax",
+    "flash": {
+      "id": "TRAGEDI XINJIANG: Kebakaran gedung apartemen merenggut 10 korban jiwa akibat akses jalan tertutup palang kawat.",
+      "en": "THE TIPPING POINT: High-rise fire claims ten lives as quarantine bollards obstruct emergency fire trucks.",
+      "zh": "引爆沸点：高层失火因封控路障阻碍施救酿十人罹难，全国悲愤达到极值。"
+    },
+    "virusProfile": {
+      "code": "LETHAL EVACUATION FAILURE",
+      "mutationType": {
+        "id": "Karantina Wilayah Kering Selama 100+ Hari",
+        "en": "100+ Day Residential Confinement Barring Exits",
+        "zh": "超百天极限封控与门窗物理焊死阻燃"
+      },
+      "r0": "Nol",
+      "threatLevel": {
+        "id": "TITIK PICU KEMARAHAN SIPIL NASIONAL",
+        "en": "CIVIL UNREST IGNITION POINT",
+        "zh": "引爆全国性民意觉醒与悲情临界点"
+      },
+      "clinicalTarget": {
+        "id": "Kematian akibat asfiksia asap di dalam gedung terkunci",
+        "en": "Fatal smoke asphyxiation behind bolted building exits",
+        "zh": "高层住宅逃生通道受阻致居民窒息身亡"
+      }
+    },
+    "description": {
+      "id": "Setelah warga Urumqi dikurung dalam status karantina selama lebih dari seratus hari berturut-turut, kebakaran melanda lantai atas Kompleks Apartemen Jixiangyuan. Mobil pemadam kebakaran terhambat selama lebih dari dua jam di luar gapura komplek karena akses masuk terhalang tiang baja dan mobil warga yang mogok setelah berbulan-bulan tidak dijalankan. Jeritan minta tolong para korban yang terjebak di dalam kamar membakar habis batas kesabaran publik di seluruh penjuru negeri.",
+      "en": "Urumqi had endured more than 100 consecutive days of strict quarantine. On November 24, fire engulfed the upper floors of an apartment complex. Fire engines were blocked for two hours by quarantine gates, bollards, and deserted cars with dead batteries. Ten people died from smoke inhalation. The horror, livestreamed directly from inside the burning tower, broke the collective endurance of the Chinese public.",
+      "zh": "在封控超百天后，乌鲁木齐吉祥苑高层住宅突发火灾。由于小区消防通道被铁皮、地桩锁死，私家车亏电无法挪动，消防车被阻隔在数百米外。火海中传出的求救声通过网络直播传遍全国，十人不幸罹难，将压抑三年的社会情绪推上总爆发边缘。"
+    },
+    "image": "/assets/images/covid-19/cn/21-urumqi-fire.jpg"
+  },
+  {
+    "id": "cn-22-white-paper-revolution",
+    "chapterNumber": "16",
+    "type": "milestone",
+    "title": {
+      "id": "Revolusi Kertas Putih: Teriakan Tanpa Kata",
+      "en": "The A4 Revolution: Blank Sheets Break the Silence",
+      "zh": "白纸运动：无言抗议的青年觉醒"
+    },
+    "date": {
+      "id": "26 - 28 November 2022",
+      "en": "November 26 - 28, 2022",
+      "zh": "2022年11月26日 - 28日"
+    },
+    "strain": "A4 Blank Paper Revolution Movement",
+    "flash": {
+      "id": "PROTES TERBESAR: Lembaran kertas A4 kosong diangkat di Shanghai, Beijing, Wuhan, dan puluhan kampus universitas.",
+      "en": "HISTORIC DEFIANCE: Blank sheets of A4 paper raised across Shanghai, Beijing, Wuhan, and dozens of campuses.",
+      "zh": "无字之书：沪京汉及百所高校青年手举A4白纸，呐喊打破封控与言论枷锁。"
+    },
+    "virusProfile": {
+      "code": "HISTORIC CIVIL DEFIANCE",
+      "mutationType": {
+        "id": "Perlawanan Spontan Tanpa Simbol Terlarang",
+        "en": "Blank A4 Paper Resistance Without Prohibited Words",
+        "zh": "手持白纸的非暴力无字集体抗争"
+      },
+      "r0": "Menjalar di Seluruh Kota Besar",
+      "threatLevel": {
+        "id": "TANTANGAN KESTABILAN KEBIJAKAN UTAMA",
+        "en": "POLICY STABILITY CHALLENGE",
+        "zh": "最高层防疫路线遭遇全面动摇"
+      },
+      "clinicalTarget": {
+        "id": "Runtuhnya legitimasi penegakan karantina tanpa batas",
+        "en": "Irreversible collapse of lockdown policy legitimacy",
+        "zh": "无限期封控措施合法性彻底崩塌"
+      }
+    },
+    "description": {
+      "id": "Tragedi Urumqi memicu gelombang unjuk rasa paling terbuka dalam beberapa dekade. Di Jalan Urumqi Tengah di Shanghai, kerumunan pemuda menyalakan lilin dan mengangkat selembar kertas putih polos ukuran A4—simbol bahwa kata-kata protes mereka sudah terlalu jelas tanpa perlu dituliskan. Demonstrasi merambat ke Universitas Tsinghua di Beijing, Wuhan, hingga Guangzhou, menyuarakan tuntutan bersama: Akhiri tes tanpa akhir, kembalikan kebebasan warga.",
+      "en": "The Urumqi blaze ignited the most consequential nationwide protests in decades. On Shanghai's Urumqi Middle Road, crowds held vigils while hoisting blank A4 sheets—a silent statement against ubiquitous censorship. The demonstrations leaped to universities and road intersections across Beijing, Chengdu, Wuhan, and Guangzhou, demanding an end to endless lockdowns and restrictions.",
+      "zh": "乌鲁木齐的惨剧点燃了广泛的反响。在上海乌鲁木齐中路，青年们点亮蜡烛，举起空无一字的A4白纸——白纸什么都没写，却凝聚了所有的诉求。抗议迅速蔓延至清华大学、北京亮马桥、武汉与广州，呼喊‘不要核酸要自由’，推动了政策调整的到来。"
+    },
+    "image": "/assets/images/covid-19/cn/22-a4-white-paper.jpg"
+  },
+  {
+    "id": "cn-23-abrupt-zero-collapse",
+    "chapterNumber": "17",
+    "type": "standard",
+    "title": {
+      "id": "Tembok Runtuh Seketika: Pembukaan Tanpa Transisi",
+      "en": "The Abrupt Thaw: Overnight Dismantling of Zero-COVID",
+      "zh": "大拐弯骤降：毫无缓冲的极速放开"
+    },
+    "date": {
+      "id": "7 Desember 2022 - Januari 2023",
+      "en": "December 7, 2022 - January 2023",
+      "zh": "2022年12月7日 - 2023年1月"
+    },
+    "strain": "Subvarian Omicron BF.7 & BA.5.2",
+    "flash": {
+      "id": "U-TURN TOTAL: Regulasi 'Sepuluh Langkah Baru' mencabut tes PCR seketika; badai demam melanda jutaan warga.",
+      "en": "180-DEGREE PIVOT: The 'New Ten Measures' end mass PCR instantly; an unprecedented infection wave follows.",
+      "zh": "新十条急转：核酸亭连夜拆除，健康码退市，海啸般感染潮席卷全国门诊。"
+    },
+    "virusProfile": {
+      "code": "UNRESTRICTED OMICRON TSUNAMI",
+      "mutationType": {
+        "id": "Penularan Menyeluruh di Populasi Rendah Imunitas Hibrida",
+        "en": "Unchecked R0~18 Wave in Low Hybrid Immunity Population",
+        "zh": "低混合免疫屏障人群遭遇R0高达18的奥密克戎海啸"
+      },
+      "r0": "10.0 - 15.0 (Eksponensial Vertikal)",
+      "threatLevel": {
+        "id": "LONJAKAN EKSTREM LAYANAN KESEHATAN",
+        "en": "HEALTHCARE CLINICAL SURGE",
+        "zh": "急诊、ICU与殡葬挤兑极端峰值"
+      },
+      "clinicalTarget": {
+        "id": "Ratusan juta infeksi dalam hitungan minggu, krisis obat demam",
+        "en": "Hundreds of millions infected in weeks; severe antipyretic shortages",
+        "zh": "数周内数亿人达峰感染与退烧药重度断供"
+      }
+    },
+    "description": {
+      "id": "Di bawah tekanan sosial dan ekonomi, pemerintah mengumumkan Sepuluh Langkah Baru yang mencabut seluruh mekanisme tes PCR massal dan pemeriksaan barcode kesehatan tanpa masa persiapan. Akibatnya, gelombang infeksi merebak liar: diperkirakan ratusan juta penduduk terpapar dalam hitungan pekan. Stok obat penurun panas di apotek ludes seketika, antrean klinik demam membludak ke jalan raya, dan fasilitas krematorium kewalahan menghadapi lonjakan kematian tak terduga.",
+      "en": "Caught between civil disobedience and economic exhaustion, authorities enacted an abrupt reversal via the 'New Ten Measures'. Mandated PCR testing was abolished, the Health Code dismantled, and travel restrictions dropped with zero warning. Without stockpiled fever medication or adequate elderly vaccination coverage, Omicron swept through 1.4 billion people unchecked.",
+      "zh": "‘新十条’毫无缓冲出台，瞬间终结执行三年的管控体系。核酸检测点撤除，健康码停运。然而由于退烧药储备不足与老年人群免疫覆盖差距，海啸般的感染潮席卷各地。药房退烧药被抢购一空，发热门诊排起长队，社会以极其剧烈的速度完成了集体感染过程。"
+    },
+    "image": "/assets/images/covid-19/cn/23-abrupt-reopening.jpg"
+  },
+  {
+    "id": "cn-24-ground-zero-epilogue",
+    "chapterNumber": "18",
+    "type": "milestone",
+    "title": {
+      "id": "Tirai Terakhir Ground Zero: Memori yang Tak Boleh Lupa",
+      "en": "Ground Zero Epilogue: The Scars of Three Thousand Days",
+      "zh": "终局史诗：三千个日夜的历史疤痕"
+    },
+    "date": {
+      "id": "Arsip Resmi Nasional CDC China & WHO",
+      "en": "Official National Archives of China CDC & WHO",
+      "zh": "中国疾控中心与世界卫生组织官方档案"
+    },
+    "strain": "Rekapitulasi Krisis Ground Zero 2019 - 2023",
+    "flash": {
+      "id": "EPILOG SEJARAH: Dari lorong basah Huanan hingga lembaran kertas putih; tiga tahun yang mengubah peradaban.",
+      "en": "FINAL ARCHIVE: From Huanan stalls to blank sheets of paper; three years that redefined civil crisis.",
+      "zh": "归档复盘：从海鲜市场到白纸翻飞，人类史上规模最大防疫工程画上休止符。"
+    },
+    "virusProfile": {
+      "code": "RESOLVED GROUND ZERO FILE",
+      "mutationType": {
+        "id": "Evolusi Penuh: Wild-Type -> Delta -> Omicron -> Endemi",
+        "en": "Full Arc: Wild-Type -> Delta -> Omicron -> Endemic",
+        "zh": "完整谱系演化：始发株 -> 德尔塔 -> 奥密克戎 -> 地方性常态"
+      },
+      "r0": "Siklus Endemi Global Terkelola",
+      "threatLevel": {
+        "id": "ARSIP SEJARAH BIOLOGIS PERMANEN",
+        "en": "HISTORICAL ARCHIVE",
+        "zh": "永久去机密化流行病学历史档案"
+      },
+      "clinicalTarget": {
+        "id": "Evaluasi ketahanan sistem sosial dan pemulihan kolektif",
+        "en": "Societal resilience debriefing and collective healing",
+        "zh": "公共卫生应急治理、社会韧性与集体创伤反思"
+      }
+    },
+    "description": {
+      "id": "Kisah Ground Zero ditutup dalam keheningan mendalam. Selama tiga tahun penuh, Tiongkok menjadi panggung intervensi epidemiologi terbesar dalam sejarah modern: karantina kota terpanjang, pengawasan digital paling ketat, pengorbanan jutaan tenaga garis depan, hingga keberanian warga menyuarakan keresahan mereka. Virus korona telah berbaur dengan napas kehidupan sehari-hari, namun arsip memori dan rekaman pengorbanan manusia di baliknya akan selamanya menjadi catatan penting bagi peradaban dunia.",
+      "en": "The Ground Zero dossier closes on a quiet, sober cadence. Across three years, China hosted the most colossal public health containment effort in human history: the world's first ironclad cordons, comprehensive algorithmic tracking matrices, profound grassroots sacrifices, and courageous civil resistance. While SARS-CoV-2 settled into background endemicity, the scars and memories remain indelible.",
+      "zh": "随着病毒毒力减弱与群体免疫形成，‘零号坐标’正式归档。从最初的肺部阴影到全面回归日常，这片土地上演了人类历史上规模罕见的公共卫生工程：严格的物理管控、高精度的数字追踪、千万基层付出与深刻的反思。病毒融入日常呼吸，但刻在记忆中的经历，已成为文明前行的镜鉴。"
+    },
+    "image": "/assets/images/covid-19/cn/24-national-debriefing.jpg"
+  }
+]

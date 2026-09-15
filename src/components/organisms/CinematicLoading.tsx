@@ -236,7 +236,7 @@ const CinematicLoadingContent: React.FC = () => {
                         {/* External Image (smoothly superimposed if available, hidden if failed) */}
                         {!imgError && (
                             <Image
-                                src="/assets/images/01-loading-virus.jpg"
+                                src="/assets/images/covid-19/id/01-loading-virus.jpg"
                                 alt="SARS-CoV-2 Specimen under microscope"
                                 fill
                                 className="object-cover transition-opacity duration-300"

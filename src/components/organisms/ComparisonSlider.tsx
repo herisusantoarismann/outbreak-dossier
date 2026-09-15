@@ -3,6 +3,7 @@
 
 import React, { useState, useRef, useCallback } from "react";
 import { ChevronsLeftRight } from "lucide-react";
+import { resolveImagePath } from "@/lib/imageResolver";
 
 export interface ComparisonSliderProps {
     beforeImage: string;
@@ -93,7 +94,7 @@ export const ComparisonSlider: React.FC<ComparisonSliderProps> = ({
         >
             {/* After Image (Background Base Layer - Empty Sudirman) */}
             <img
-                src={afterImage}
+                src={resolveImagePath(afterImage, "id")}
                 alt={afterLabel}
                 className="absolute inset-0 w-full h-full object-cover pointer-events-none"
                 draggable={false}
@@ -101,7 +102,8 @@ export const ComparisonSlider: React.FC<ComparisonSliderProps> = ({
                     // Fallback to lockdown city image if specific image path is unreachable
                     const target = e.currentTarget;
                     if (!target.src.includes("03-lockdown-city.jpg")) {
-                        target.src = "/assets/images/03-lockdown-city.jpg";
+                        target.src =
+                            "/assets/images/covid-19/id/03-lockdown-city.jpg";
                     }
                 }}
             />
@@ -115,7 +117,7 @@ export const ComparisonSlider: React.FC<ComparisonSliderProps> = ({
                 }}
             >
                 <img
-                    src={beforeImage}
+                    src={resolveImagePath(beforeImage, "id")}
                     alt={beforeLabel}
                     className="absolute inset-0 w-full h-full object-cover pointer-events-none"
                     draggable={false}
@@ -124,7 +126,7 @@ export const ComparisonSlider: React.FC<ComparisonSliderProps> = ({
                         const target = e.currentTarget;
                         if (!target.src.includes("02-outbreak-spread.jpg")) {
                             target.src =
-                                "/assets/images/02-outbreak-spread.jpg";
+                                "/assets/images/covid-19/id/02-outbreak-spread.jpg";
                         }
                     }}
                 />

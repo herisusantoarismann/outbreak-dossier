@@ -1,0 +1,143 @@
+[
+    {
+        "id": "in-01-snap-lockdown-exodus",
+        "chapterNumber": "01",
+        "type": "milestone",
+        "title": {
+            "id": "Maklumat 4 Jam: Eksodus Migran Terbesar",
+            "en": "The 4-Hour Proclamation: The Great Migrant Walking Exodus",
+            "zh": "4小时突发戒严：历史上最大规模外来劳工徒步大迁徙"
+        },
+        "date": {
+            "id": "Maret 2020",
+            "en": "March 2020",
+            "zh": "2020年3月"
+        },
+        "strain": "SARS-CoV-2 (Lineage B.1 Influx)",
+        "flash": {
+            "id": "Keputusan Drastis: Lockdown 21 hari diumumkan dengan pemberitahuan 4 jam; jutaan pekerja berjalan kaki ratusan kilometer.",
+            "en": "Drastic Decree: A 21-day nationwide lockdown decreed with four hours' notice, stranding millions of daily-wage workers.",
+            "zh": "决绝法令：全国性封锁仅提前4小时宣布，数以百万计日结劳工被迫踏上徒步数百公里的漫漫返乡路。"
+        },
+        "virusProfile": {
+            "code": "SUBCONTINENTAL CONTAINMENT",
+            "mutationType": {
+                "id": "Pemutusan Mobilitas Antar-Negara Bagian",
+                "en": "Interstate Movement Interruption",
+                "zh": "邦际流动全面阻断"
+            },
+            "r0": "2.4 - 2.8",
+            "threatLevel": {
+                "id": "KRISIS KEMANUSIAAN SKALA MASIF",
+                "en": "MASSIVE HUMANITARIAN CONTAINMENT CRISIS",
+                "zh": "大规模人道与流动阻断危机"
+            },
+            "clinicalTarget": {
+                "id": "Pencegahan infeksi pedesaan, deteksi demam di perbatasan",
+                "en": "Prevention of rural infiltration, border checkpoint fever scans",
+                "zh": "防止乡村隐匿渗透、邦境哨卡体温筛查"
+            }
+        },
+        "description": {
+            "id": "Pada 24 Maret 2020 pukul 20.00, Perdana Menteri Modi mengumumkan penguncian seluruh negara berpenduduk 1,3 miliar jiwa dalam tempo 4 jam. Sistem transportasi kereta api dan bus lumpuh seketika. Tanpa tabungan dan makanan di kota-kota metropolitan seperti Delhi dan Mumbai, jutaan pekerja harian berjalan kaki bersama keluarga mereka menempuh ratusan kilometer di bawah terik matahari.",
+            "en": "On March 24, 2020 at 8 PM, a nationwide lockdown of 1.3 billion citizens was proclaimed with merely four hours' notice. All trains and buses ceased instantly. Deprived of wages and shelter in megacities like Delhi and Mumbai, millions of daily laborers began walking hundreds of kilometers across dusty highways toward their rural villages.",
+            "zh": "2020年3月24日晚8点，拥有13亿人口的印度在仅有4小时缓冲通知的情况下实施全国大封锁。所有铁路和长途客运瞬间停运。在德里和孟买等大都市瞬间失去生计与住处的数百万日结工，扶老携幼在烈日黄沙的公路干线上跋涉数百公里返回故土。"
+        },
+        "image": "/assets/images/covid-19/id/16-natuna-quarantine.jpg",
+        "location": "New Delhi & Uttar Pradesh, India"
+    },
+    {
+        "id": "in-02-delta-tsunami-wave",
+        "chapterNumber": "02",
+        "type": "milestone",
+        "title": {
+            "id": "Tsunami Delta: Runtuhnya Pasokan Oksigen",
+            "en": "The Delta Tsunami: The Oxygen Grid Collapse",
+            "zh": "德尔塔海啸：全印医用氧气网络大崩溃"
+        },
+        "date": {
+            "id": "April - Mei 2021",
+            "en": "April - May 2021",
+            "zh": "2021年4月 - 5月"
+        },
+        "strain": "SARS-CoV-2 Variant Delta (B.1.617.2 / L452R + T478K)",
+        "flash": {
+            "id": "Eskalasi Mematikan: 400.000 kasus baru per hari; tabung oksigen diperjualbelikan di pasar gelap; krematorium jalanan menyala malam hari.",
+            "en": "Lethal Escalation: 400,000 daily cases; black markets for oxygen cylinders; mass pyres illuminate night skies across cities.",
+            "zh": "致命升级：单日新增确诊突破40万例，黑市抢购医用氧气瓶，城市露天火葬火光照亮夜空。"
+        },
+        "virusProfile": {
+            "code": "DELTA VARIANT (B.1.617.2)",
+            "mutationType": {
+                "id": "Mutasi Ganda L452R + T478K (Viral Load 1000x Lebih Tinggi)",
+                "en": "Dual Mutation L452R + T478K (1000x Higher Viral Load)",
+                "zh": "双重突变 L452R + T478K（病毒载量高出1000倍）"
+            },
+            "r0": "5.0 - 7.0 (Sangat Menular)",
+            "threatLevel": {
+                "id": "DARURAT GLOBAL PALING MEMATIKAN TAHUN 2021",
+                "en": "MOST LETHAL GLOBAL EMERGENCY OF 2021",
+                "zh": "2021年度全球最致命公共卫生危机"
+            },
+            "clinicalTarget": {
+                "id": "Kerusakan paru kilat dalam 3-5 hari, badai sitokin ekstrem",
+                "en": "Rapid lung destruction in 3-5 days, explosive cytokine cascade",
+                "zh": "3-5天内肺部快速大面积纤维化与毁灭性细胞因子风暴"
+            }
+        },
+        "description": {
+            "id": "Musim semi 2021 menyaksikan lahirnya varian paling ganas dalam pandemi: Delta. Dengan kemampuan replikasi luar biasa cepat, varian ini menyapu India bagai badai api. Rumah sakit kehabisan pasokan oksigen medis dalam hitungan jam. Tagar Twitter #SOS menjadi saluran darurat warga mencari tabung oksigen, tempat tidur ICU, dan obat antivirus.",
+            "en": "In the spring of 2021, the most catastrophic variant of the pandemic struck: Delta. Armed with explosive replication kinetics, Delta swept through India like a wildfire. Hospital liquid oxygen reserves were depleted within hours. Social media feeds transformed into desperate life-or-death boards pleading for oxygen cylinders and ICU beds.",
+            "zh": "2021年春季，这场全球大流行中最凶险的变异毒株——德尔塔降临。凭借惊人的复制速度，德尔塔如同野火般吞噬全印。大医院的液氧储罐在数小时内被消耗殆尽。社交网络成为了民众恳求获得一个氧气瓶、一张重症床位与抗病毒药品的生死求助板。"
+        },
+        "image": "/assets/images/covid-19/id/12-oxygen-lines.jpg",
+        "location": "New Delhi, Mumbai, Varanasi, India"
+    },
+    {
+        "id": "in-03-billion-doses-campaign",
+        "chapterNumber": "03",
+        "type": "standard",
+        "title": {
+            "id": "Perisai 1 Miliar Dosis: Mobilisasi Terbesar Dunia",
+            "en": "The Billion-Dose Shield: The World's Largest Mobilization",
+            "zh": "十亿剂免疫之盾：全球规模最大的疫苗动员"
+        },
+        "date": {
+            "id": "Oktober 2021",
+            "en": "October 2021",
+            "zh": "2021年10月"
+        },
+        "strain": "SARS-CoV-2 (Serum Institute Covishield & Covaxin)",
+        "flash": {
+            "id": "Rekor Bersejarah: India melampaui 1 miliar dosis vaksinasi melalui platform digital CoWIN dan vaksinator keliling pedesaan.",
+            "en": "Historic Milestone: India administers its 1-billionth vaccine dose via the digital CoWIN system and barefoot rural vaccinators.",
+            "zh": "历史性里程碑：印度依托CoWIN数字化系统与深入偏远乡村的接种队，突破十亿剂新冠疫苗接种大关。"
+        },
+        "virusProfile": {
+            "code": "MASS IMMUNIZATION DRIVE",
+            "mutationType": {
+                "id": "Kekebalan Populasi Skala Megah",
+                "en": "Mass Scale Population Hybrid Immunity",
+                "zh": "超大规模混合群体免疫屏障"
+            },
+            "r0": "Penurunan Fatalitas Rawat Inap >80%",
+            "threatLevel": {
+                "id": "PEMULIHAN KETAHANAN BIOSURVEILANS NASIONAL",
+                "en": "NATIONAL BIOSURVEILLANCE RESILIENCE RECOVERY",
+                "zh": "国家生物防御与韧性全面恢复"
+            },
+            "clinicalTarget": {
+                "id": "Perlindungan terhadap gejala berat dan kematian varian baru",
+                "en": "Protection against severe disease and death from emerging variants",
+                "zh": "阻断危重症演变与新变异株致死风险"
+            }
+        },
+        "description": {
+            "id": "Bangkit dari abu tragedi gelombang kedua, Serum Institute of India di Pune memproduksi jutaan dosis Covishield (AstraZeneca) setiap hari. Melalui platform digital CoWIN dan dedikasi jutaan tenaga kesehatan ASHA yang mendaki pegunungan Himalaya dan menyeberangi sungai dengan kotak pendingin vaksin, India berhasil menyuntikkan 1 miliar dosis vaksin.",
+            "en": "Rising from the ashes of the second wave, the Serum Institute of India in Pune ramped production of Covishield to tens of millions of doses weekly. Supported by the CoWIN digital logistics architecture and heroic grassroots ASHA healthcare workers who trekked across the Himalayas with vaccine iceboxes, India crossed the one-billion dose milestone.",
+            "zh": "从第二波海啸的创痛中奋起，位于浦那的印度血清研究所开足马力，每周供应数千万剂Covishield疫苗。借助强大的CoWIN数字物流系统，以及身背冷藏箱翻越喜马拉雅崇山峻岭的数百万基层医疗工作者，印度成功跨越了接种十亿剂疫苗的历史丰碑。"
+        },
+        "image": "/assets/images/covid-19/id/09-digital-tracing.jpg",
+        "location": "Pune & National Logistics Network, India"
+    }
+]

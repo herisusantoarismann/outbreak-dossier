@@ -53,6 +53,29 @@
         "familySub": "Genus Betacoronavirus",
         "acknowledgeBtn": "ACKNOWLEDGE BIO-DOSSIER // RETURN TO HUB"
     },
+    "pathogenBrief": {
+        "trigger": "PATHOGEN BRIEF // WHAT IS COVID-19",
+        "classifiedBadge": "[CLASSIFIED PATHOGEN DOSSIER] // ISOLATE: SARS-CoV-2",
+        "title": "WHAT IS COVID-19?",
+        "subtitle": "DEEP RECON // VIRAL TAXONOMY & CLINICAL PROFILE",
+        "classificationTitle": "PATHOGEN CLASSIFICATION & STRUCTURE",
+        "classificationText": "SARS-CoV-2 (Severe Acute Respiratory Syndrome Coronavirus 2) is an enveloped, positive-sense single-stranded RNA (+ssRNA) beta-coronavirus. Its spherical virion is encased in a host-derived lipid membrane densely populated by trimeric Spike (S) glycoproteins, creating a characteristic solar halo (corona) engineered for high-affinity human cellular docking.",
+        "transmissionTitle": "TRANSMISSION VECTORS",
+        "transmissionText": "Primary contagion occurs via airborne respiratory droplets and microscopic aerosols suspended in unventilated environments (speech, exhalation, coughing). Secondary vectors include direct physical contact and fomite transmission in crowded conditions.",
+        "symptomsTitle": "CORE CLINICAL MANIFESTATIONS",
+        "symptomsText": "Biphasic progression: High persistent pyrexia (fever), dry hacking cough, extreme fatigue, sudden anosmia/ageusia (loss of smell/taste), progressing in severe presentations to acute dyspnea, cytokine cascades, and Acute Respiratory Distress Syndrome (ARDS).",
+        "incubationTitle": "INCUBATION",
+        "incubationValue": "2 - 14 Days",
+        "incubationSub": "Median: 4-5 Days",
+        "receptorTitle": "RECEPTOR DOCK",
+        "receptorValue": "ACE2",
+        "receptorSub": "Angiotensin-Converting Enzyme 2",
+        "familyTitle": "TAXONOMY",
+        "familyValue": "Coronaviridae",
+        "familySub": "Genus Betacoronavirus // Sarbecovirus",
+        "closeBtn": "CLOSE BRIEF [ESC]",
+        "acknowledgeBtn": "ACKNOWLEDGE PATHOGEN DOSSIER // RETURN TO ORBIT"
+    },
     "loading": {
         "surveillanceBadge": "[ BIO-THREAT SURVEILLANCE FEED ]",
         "isolating": "ISOLATING STRAIN...",
@@ -88,7 +111,7 @@
                 "economicShock": "Bali tourism begins slowing down due to Chinese tourist cancellations"
             },
             "description": "Under an electron microscope in Wuhan, 100-nanometer virions with characteristic crown-like spike glycoproteins were identified hijacking human respiratory cells. As news crossed borders, Indonesian public officials joked that citizens were immune due to tropical weather or traditional diets. Airport thermo-scanners operated with casual routine. Few realized this wild pathogen had already boarded commercial flights bound for Southeast Asian metropolises.",
-            "image": "/assets/images/01-loading-virus.jpg"
+            "image": "/assets/images/covid-19/id/01-loading-virus.jpg"
         },
         {
             "id": "depok-patient-zero",
@@ -110,7 +133,7 @@
                 "economicShock": "Indonesia Composite Index (IHSG) plunges triggering auto-rejections"
             },
             "description": "Local transmission officially erupted following a dance club event in Jakarta with a foreign national. On the afternoon of March 2, a presidential announcement ignited instantaneous nationwide panic. Supermarket shelves were stripped bare of rice, instant noodles, and toilet paper. Surgical masks normally priced at pocket change skyrocketed to hundreds of thousands of rupiah per box. On commuter trains, a single cough was enough to draw suspicion from the entire carriage.",
-            "image": "/assets/images/02-outbreak-spread.jpg"
+            "image": "/assets/images/covid-19/id/02-outbreak-spread.jpg"
         },
         {
             "id": "empon-empon-defense",
@@ -132,7 +155,7 @@
                 "economicShock": "Prices of red ginger and indigenous spices surge by up to 400%"
             },
             "description": "Before modern medicine could deliver vaccines or targeted antivirals, public survival instincts turned to indigenous remedies. Red ginger, wild turmeric, and lemongrass became the most sought-after commodities in traditional markets, commanding tenfold prices. At the grassroots level, communities mobilized autonomously: neighborhood alleyways were blocked with bamboo barricades reading 'LOCAL LOCKDOWN'. Visitors were made to wash their hands in makeshift buckets and walk through misting booths built from garden sprayers.",
-            "image": "/assets/images/11-herbal-disinfectant.jpg"
+            "image": "/assets/images/covid-19/id/11-herbal-disinfectant.jpg"
         },
         {
             "id": "psbb-ghost-town",
@@ -154,7 +177,7 @@
                 "economicShock": "Mass layoffs across retail and hospitality sectors; malls hemorrhaging billions"
             },
             "description": "At the microscopic scale, the D614G mutation stabilized the virus spike protein, drastically enhancing cellular invasion. The government formally enacted Large-Scale Social Restrictions (PSBB). Jakarta's Sudirman-Thamrin corridor, typically jammed with millions of commuters, turned eerily silent like a dystopian ghost town. Schools dismissed classrooms, skyscrapers powered down lights, and millions of urban migrants were barred from annual homecoming for the first time in modern memory.",
-            "image": "/assets/images/03-lockdown-city.jpg"
+            "image": "/assets/images/covid-19/id/03-lockdown-city.jpg"
         },
         {
             "id": "digital-domestic-migration",
@@ -176,7 +199,7 @@
                 "economicShock": "Explosive growth in video conferencing apps, e-commerce, and on-demand delivery"
             },
             "description": "Global health agencies finally conceded that the virus lingered in indoor air as fine aerosols. The specter of 'happy hypoxia' terrified clinicians as patients appeared calm while blood oxygen levels plummeted. At home, families fought to preserve sanity: viral whipped coffee challenges swept social media, followed by plant-keeping hobbies and mass weekend cycling crazes. Living rooms doubled as boardrooms and classrooms, and online deliveries were routinely doused in alcohol before crossing the threshold.",
-            "image": "/assets/images/07-digital-shift.jpg"
+            "image": "/assets/images/covid-19/id/07-digital-shift.jpg"
         },
         {
             "id": "wisma-atlet-citadel",
@@ -198,7 +221,7 @@
                 "economicShock": "Trillions in state expenditure redirected to isolation facilities and medic incentives"
             },
             "description": "Exploding corporate and household clusters pushed referral hospitals past breaking points. The government converted the Kemayoran Athletes Village into a colossal Emergency COVID-19 Hospital housing thousands of isolation beds. Night after night, the residential towers burned like eternal beacons, bearing witness to thousands battling infection. Healthcare workers endured twelve-hour shifts locked in hazmat suits without food or relief, while wailing sirens became the soundtrack of major cities.",
-            "image": "/assets/images/04-hospital-panic.jpg"
+            "image": "/assets/images/covid-19/id/04-hospital-panic.jpg"
         },
         {
             "id": "alpha-beta-cold-chain",
@@ -220,7 +243,7 @@
                 "economicShock": "Rebound optimism in capital markets; massive budget pivot to vaccine procurement"
             },
             "description": "Renewed optimism surfaced as refrigerated containers carrying millions of vaccine doses touched down at Soekarno-Hatta Airport. The national vaccination drive commenced live from the State Palace, transforming stadiums, convention halls, and malls into immunization hubs. Simultaneously, however, the Alpha variant from the UK and Beta from South Africa were detected at repatriation borders, bearing the N501Y mutation that latched onto lung cells with unprecedented tenacity.",
-            "image": "/assets/images/05-vaccine-cure.jpg"
+            "image": "/assets/images/covid-19/id/05-vaccine-cure.jpg"
         },
         {
             "id": "delta-catastrophe",
@@ -242,7 +265,7 @@
                 "economicShock": "Commercial activity frozen abruptly; small enterprises suffer severe capital depletion"
             },
             "description": "The darkest chapter in modern national history. The dual L452R and P681R mutations in the Delta variant amplified patient viral loads a thousandfold. Within weeks, healthcare networks disintegrated. Hospital hallways, lobbies, and outdoor parking lots overflowed with patients resting on cots under military tents. Online, social media feeds and family chats were overwhelmed by nonstop death notices and frantic pleas for convalescent plasma or oxygen cylinders.",
-            "image": "/assets/images/08-oxygen-crisis.jpg"
+            "image": "/assets/images/covid-19/id/08-oxygen-crisis.jpg"
         },
         {
             "id": "oxygen-panic-bearbrand",
@@ -264,7 +287,7 @@
                 "economicShock": "Black-market prices of oxygen tanks and pulse oximeters surge over 500%"
             },
             "description": "With official fatalities exceeding 2,000 souls daily, public anxiety peaked. Refill depots witnessed endless queues of civilians hoisting heavy green steel cylinders in desperate hopes of sustaining family members gasping at home. Supermarket videos of shoppers hoarding sterilized milk went viral amid rumors of instant immunity. The digital pulse oximeter became an oracle of life: an oxygen reading below 94 was enough to plunge households into overnight emergencies.",
-            "image": "/assets/images/12-oxygen-lines.jpg"
+            "image": "/assets/images/covid-19/id/12-oxygen-lines.jpg"
         },
         {
             "id": "digital-surveillance-qr",
@@ -286,7 +309,7 @@
                 "economicShock": "Strict physical filtering of shopping centers and public transit hubs"
             },
             "description": "As the Delta wave receded under accelerated vaccine administration, public spaces were guarded by integrated digital architecture. The PeduliLindungi mobile app became compulsory for stepping outside. At train terminals, airports, office lobbies, and mall entrances, citizens lined up to scan QR codes and display wrist temperatures. The glowing green status badge on smartphone screens became the definitive license for civic mobility.",
-            "image": "/assets/images/09-digital-tracing.jpg"
+            "image": "/assets/images/covid-19/id/09-digital-tracing.jpg"
         },
         {
             "id": "omicron-lightning-wave",
@@ -308,7 +331,7 @@
                 "economicShock": "Widespread temporary workplace absenteeism without hospital system collapse"
             },
             "description": "In early 2022, Omicron arrived harboring over 30 mutations on its spike glycoprotein, outmaneuvering prior neutralizing antibodies with unprecedented velocity. National records shattered as daily infections topped 64,718. Entire corporate departments and extended families came down with fever and sore throats in unison. Yet bolstered by vaccine coverage and viral preference for upper airways, mortality remained low. Most recovered at home supported by courier deliveries and community care packages.",
-            "image": "/assets/images/13-omicron-fever.jpg"
+            "image": "/assets/images/covid-19/id/13-omicron-fever.jpg"
         },
         {
             "id": "booster-and-mask-unveiling",
@@ -330,7 +353,7 @@
                 "economicShock": "Surge in tourism, live entertainment, and consumer hospitality sectors"
             },
             "description": "Population defenses fortified through widespread booster programs and natural hybrid immunity. The government announced phased relaxations: masks were no longer mandatory in uncrowded outdoor areas. Citizens felt tentative and awkward stepping out without face coverings after two years of habit. Open-air music festivals returned, cinema halls filled, and urban life reclaimed its familiar cadence.",
-            "image": "/assets/images/06-new-normal.jpg"
+            "image": "/assets/images/covid-19/id/06-new-normal.jpg"
         },
         {
             "id": "endemic-declaration",
@@ -352,7 +375,7 @@
                 "economicShock": "Total normalization of international borders, commercial travel, and commerce"
             },
             "description": "In June 2023, the President officially revoked the national pandemic emergency status, aligning with global de-escalation by the WHO. SARS-CoV-2 never vanished; it continues mutating in the background, now managed like routine seasonal respiratory illness. Carrying pocket sanitizers and wearing masks when catching a cold became enduring behavioral legacies embedded in society.",
-            "image": "/assets/images/14-endemic-sunrise.jpg"
+            "image": "/assets/images/covid-19/id/14-endemic-sunrise.jpg"
         },
         {
             "id": "national-debriefing",
@@ -374,7 +397,7 @@
                 "economicShock": "Structural transformation: permanent digital adoption and fortified medical supply chains"
             },
             "description": "The pandemic etched an indelible mark on the nation's collective soul. Final debriefing logs recorded over 6.81 million confirmed infections, with 6.64 million recoveries. Behind the statistics lies solemn silence honoring 161,918 souls—parents, children, friends, and hundreds of doctors and nurses—who fell before the storm subsided. Indonesia survived the greatest biological crisis of the century, emerging resilient, transformed, and forever changed.",
-            "image": "/assets/images/10-data-summary.jpg"
+            "image": "/assets/images/covid-19/id/10-data-summary.jpg"
         }
     ]
 }
