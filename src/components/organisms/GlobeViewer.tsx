@@ -2,18 +2,21 @@
 
 import React, { useEffect, useRef, useState, useCallback } from "react";
 import { useRouter } from "@/i18n/routing";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { useAppStore } from "@/stores/useAppStore";
-import {
-    Activity,
-    Crosshair,
-    AlertTriangle,
-    ShieldAlert,
-    HelpCircle,
-    ChevronDown,
-} from "lucide-react";
-import { VirusInfoModal } from "./VirusInfoModal";
+import { Activity, Crosshair } from "lucide-react";
+import { PathogenBriefingDrawer } from "./PathogenBriefingDrawer";
+import { CountryTacticalHUD } from "./CountryTacticalHUD";
 import { LocaleSwitcher } from "@/components/molecules/LocaleSwitcher";
+import {
+    EPICENTER_REGISTRY,
+    EpicenterCode,
+    EpicenterMetadata,
+    SurveillanceData,
+    isEpicenter,
+    getCountrySurveillanceData,
+    SupportedLocale,
+} from "@/data/countriesConfig";
 
 interface GeoJsonFeature {
     type: string;
@@ -34,11 +37,25 @@ interface CountriesGeoJson {
     features: GeoJsonFeature[];
 }
 
-const INDONESIA_CAMERA_TARGET = {
-    lat: -0.7893,
-    lng: 113.9213,
-    altitude: 0.85,
-};
+interface GlobePoint {
+    lat: number;
+    lng: number;
+    altitude: number;
+    radius: number;
+    color: string;
+    isEpicenter: boolean;
+    epicenter?: EpicenterMetadata;
+    feature?: GeoJsonFeature;
+}
+
+interface GlobeRing {
+    lat: number;
+    lng: number;
+    maxR: number;
+    propagationSpeed: number;
+    repeatPeriod: number;
+    color: string;
+}
 
 const GEOJSON_REMOTE_URL =
     "https://raw.githubusercontent.com/vasturiano/globe.gl/master/example/datasets/ne_110m_admin_0_countries.geojson";
@@ -51,52 +68,160 @@ export const GlobeViewer: React.FC = () => {
     const idleTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
     const router = useRouter();
-    const { setIsLoading, isLoading } = useAppStore();
+    const currentLocale = useLocale() as SupportedLocale;
+    const { setIsLoading } = useAppStore();
 
     const tHub = useTranslations("hub");
-    const tStats = useTranslations("whoStats");
-    const tBriefing = useTranslations("briefing");
+    const tPathogen = useTranslations("pathogenBrief");
 
-    const [isIndonesiaHovered, setIsIndonesiaHovered] = useState(false);
     const [isGlobeReady, setIsGlobeReady] = useState(false);
-    const [isBioModalOpen, setIsBioModalOpen] = useState(false);
-    const [isStatsExpanded, setIsStatsExpanded] = useState(false);
+    const [isPathogenBriefOpen, setIsPathogenBriefOpen] = useState(false);
+    const [hoveredCountryName, setHoveredCountryName] = useState<string | null>(
+        null,
+    );
+    const [hoveredIsEpicenter, setHoveredIsEpicenter] = useState(false);
 
-    // Helper to identify Indonesia polygon features
-    const isIndonesia = useCallback(
-        (feat: GeoJsonFeature | null | undefined): boolean => {
-            if (!feat?.properties) return false;
+    // Modal state for Tier 1 (Epicenter) vs Tier 2 (Surveillance)
+    const [tacticalHUD, setTacticalHUD] = useState<{
+        isOpen: boolean;
+        epicenterData: EpicenterMetadata | null;
+        surveillanceData: SurveillanceData | null;
+    }>({
+        isOpen: false,
+        epicenterData: null,
+        surveillanceData: null,
+    });
+
+    // Helper to extract ISO and Name from GeoJSON
+    const getFeatureCountryInfo = useCallback(
+        (
+            feat: GeoJsonFeature | null | undefined,
+        ): { iso2: string; iso3: string; name: string } => {
+            if (!feat?.properties) return { iso2: "", iso3: "", name: "" };
             const p = feat.properties;
-            return (
-                p.ISO_A3 === "IDN" ||
-                p.ADM0_A3 === "IDN" ||
-                p.ADMIN === "Indonesia" ||
-                p.NAME === "Indonesia" ||
-                p.NAME_LONG === "Indonesia" ||
-                feat.id === "IDN"
-            );
+            const iso3 = (
+                p.ISO_A3 ||
+                p.ADM0_A3 ||
+                (feat.id as string) ||
+                ""
+            ).toUpperCase();
+            const name = (p.NAME || p.ADMIN || p.NAME_LONG || "").toString();
+
+            let iso2 = "";
+            if (iso3 === "IDN" || name === "Indonesia") iso2 = "ID";
+            else if (iso3 === "CHN" || name === "China") iso2 = "CN";
+            else if (iso3 === "ITA" || name === "Italy") iso2 = "IT";
+            else if (iso3 === "USA" || name.includes("United States"))
+                iso2 = "US";
+            else if (iso3 === "IND" || name === "India") iso2 = "IN";
+            else iso2 = iso3.slice(0, 2);
+
+            return { iso2, iso3, name };
         },
         [],
     );
 
-    // Trigger documentary sequence
-    const handleTriggerJourney = useCallback(() => {
-        if (isLoading) return;
+    // Approximate centroid coordinates of a polygon feature
+    const getFeatureCentroid = useCallback(
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        (feat: GeoJsonFeature): { lat: number; lng: number } | null => {
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            const geom = (feat as any).geometry;
+            if (!geom) return null;
+            let coords: number[][] = [];
+            if (geom.type === "Polygon" && geom.coordinates?.[0]) {
+                coords = geom.coordinates[0];
+            } else if (
+                geom.type === "MultiPolygon" &&
+                geom.coordinates?.[0]?.[0]
+            ) {
+                coords = geom.coordinates[0][0];
+            }
+            if (!coords || coords.length === 0) return null;
 
-        // Smoothly focus camera onto Indonesia
-        if (globeInstanceRef.current) {
-            globeInstanceRef.current.pointOfView(INDONESIA_CAMERA_TARGET, 1200);
-        }
+            let sumLng = 0;
+            let sumLat = 0;
+            const count = Math.min(coords.length, 60);
+            for (let i = 0; i < count; i++) {
+                sumLng += coords[i][0];
+                sumLat += coords[i][1];
+            }
+            return {
+                lat: sumLat / count,
+                lng: sumLng / count,
+            };
+        },
+        [],
+    );
 
-        // Trigger Cinematic Loading
-        setIsLoading(true);
+    // Handle country selection (direct click on polygon or beacon pin)
+    const handleSelectCountry = useCallback(
+        (feat: GeoJsonFeature | null, directEpicenter?: EpicenterMetadata) => {
+            if (directEpicenter) {
+                if (globeInstanceRef.current) {
+                    globeInstanceRef.current.pointOfView(
+                        directEpicenter.coordinates,
+                        1200,
+                    );
+                }
+                setTacticalHUD({
+                    isOpen: true,
+                    epicenterData: directEpicenter,
+                    surveillanceData: null,
+                });
+                return;
+            }
 
-        // 3-second delay for cinematic typewriter loading sequence
-        setTimeout(() => {
-            router.push("/journey/id");
-            setIsLoading(false);
-        }, 3000);
-    }, [isLoading, router, setIsLoading]);
+            if (!feat) return;
+            const { iso2, iso3, name } = getFeatureCountryInfo(feat);
+
+            if (isEpicenter(iso2) || isEpicenter(iso3)) {
+                const code = (isEpicenter(iso2) ? iso2 : iso3) as EpicenterCode;
+                const epi = EPICENTER_REGISTRY[code];
+                if (globeInstanceRef.current) {
+                    globeInstanceRef.current.pointOfView(epi.coordinates, 1200);
+                }
+                setTacticalHUD({
+                    isOpen: true,
+                    epicenterData: epi,
+                    surveillanceData: null,
+                });
+            } else {
+                // Secondary Surveillance Nation
+                const surv = getCountrySurveillanceData(iso3 || iso2, name);
+                const centroid = getFeatureCentroid(feat);
+                if (centroid && globeInstanceRef.current) {
+                    globeInstanceRef.current.pointOfView(
+                        {
+                            lat: centroid.lat,
+                            lng: centroid.lng,
+                            altitude: 1.35,
+                        },
+                        1200,
+                    );
+                }
+                setTacticalHUD({
+                    isOpen: true,
+                    epicenterData: null,
+                    surveillanceData: surv,
+                });
+            }
+        },
+        [getFeatureCentroid, getFeatureCountryInfo],
+    );
+
+    // Launch full dossier for Epicenters
+    const handleInitializeDossier = useCallback(
+        (countryCode: string) => {
+            setTacticalHUD((prev) => ({ ...prev, isOpen: false }));
+            setIsLoading(true);
+            setTimeout(() => {
+                router.push(`/dossier/covid-19/${countryCode.toLowerCase()}`);
+                setIsLoading(false);
+            }, 2400);
+        },
+        [router, setIsLoading],
+    );
 
     // Intelligent Idle UX timer handler
     const resetIdleTimer = useCallback(() => {
@@ -161,102 +286,265 @@ export const GlobeViewer: React.FC = () => {
 
             if (!isMounted || !containerRef.current) return;
 
-            // Instantiate Globe
+            // 1. Build Pulsing Radar Rings for 5 Epicenters
+            const epicenterRings: GlobeRing[] = Object.values(
+                EPICENTER_REGISTRY,
+            ).map((e) => ({
+                lat: e.coordinates.lat,
+                lng: e.coordinates.lng,
+                maxR: 4.8,
+                propagationSpeed: 2.2,
+                repeatPeriod: 1400,
+                color: e.beaconColor,
+            }));
+
+            // 2. Build Globe Points: Prominent pins for 5 Epicenters, neutral dots for surveillance
+            const pointsData: GlobePoint[] = [];
+
+            // Add 5 Epicenter beacon pins
+            Object.values(EPICENTER_REGISTRY).forEach((e) => {
+                pointsData.push({
+                    lat: e.coordinates.lat,
+                    lng: e.coordinates.lng,
+                    altitude: 0.05,
+                    radius: 0.6,
+                    color: e.beaconColor,
+                    isEpicenter: true,
+                    epicenter: e,
+                });
+            });
+
+            // Add subtle surveillance dots for non-epicenter countries
+            geoData.features.forEach((feat) => {
+                const { iso2, iso3 } = getFeatureCountryInfo(feat);
+                if (isEpicenter(iso2) || isEpicenter(iso3)) return;
+
+                const centroid = getFeatureCentroid(feat);
+                if (centroid) {
+                    pointsData.push({
+                        lat: centroid.lat,
+                        lng: centroid.lng,
+                        altitude: 0.008,
+                        radius: 0.18,
+                        color: "#475569", // text-neutral-500 neutral surveillance dot
+                        isEpicenter: false,
+                        feature: feat,
+                    });
+                }
+            });
+
+            // 3. Instantiate Globe
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             const globe = (GlobeFactory as any)()(containerRef.current)
                 .backgroundColor("rgba(5, 5, 8, 0)")
                 .showAtmosphere(true)
                 .atmosphereColor("#ef4444")
-                .atmosphereAltitude(0.22)
+                .atmosphereAltitude(0.2)
                 .globeImageUrl(
                     "//unpkg.com/three-globe/example/img/earth-night.jpg",
                 )
                 .bumpImageUrl(
                     "//unpkg.com/three-globe/example/img/earth-topology.png",
                 )
+                // Pulsing Radar Rings Layer for Epicenters
+                .ringsData(epicenterRings)
+                .ringLat("lat")
+                .ringLng("lng")
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                .ringColor((d: any) => (t: number) => {
+                    const hex = d.color || "#ef4444";
+                    const r = parseInt(hex.slice(1, 3), 16) || 239;
+                    const g = parseInt(hex.slice(3, 5), 16) || 68;
+                    const b = parseInt(hex.slice(5, 7), 16) || 68;
+                    return `rgba(${r}, ${g}, ${b}, ${Math.max(0, 1 - t)})`;
+                })
+                .ringMaxRadius("maxR")
+                .ringPropagationSpeed("propagationSpeed")
+                .ringRepeatPeriod("repeatPeriod")
+                // Points Data Layer (Beacon pins & neutral surveillance dots)
+                .pointsData(pointsData)
+                .pointLat("lat")
+                .pointLng("lng")
+                .pointAltitude("altitude")
+                .pointRadius("radius")
+                .pointColor("color")
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                .onPointClick((point: any) => {
+                    if (point.isEpicenter && point.epicenter) {
+                        handleSelectCountry(null, point.epicenter);
+                    } else if (point.feature) {
+                        handleSelectCountry(point.feature);
+                    }
+                })
                 // Country Polygons Layer
                 .polygonsData(geoData.features)
-                .polygonAltitude((feat: GeoJsonFeature) =>
-                    isIndonesia(feat) ? 0.06 : 0.006,
-                )
+                .polygonAltitude((feat: GeoJsonFeature) => {
+                    const { iso2, iso3 } = getFeatureCountryInfo(feat);
+                    if (isEpicenter(iso2) || isEpicenter(iso3)) return 0.05;
+                    return 0.005;
+                })
                 .polygonCapColor((feat: GeoJsonFeature) => {
-                    if (isIndonesia(feat)) {
-                        return "rgba(239, 68, 68, 0.88)";
+                    const { iso2, iso3 } = getFeatureCountryInfo(feat);
+                    if (isEpicenter(iso2) || isEpicenter(iso3)) {
+                        const code = (
+                            isEpicenter(iso2) ? iso2 : iso3
+                        ) as EpicenterCode;
+                        if (code === "ID") return "rgba(239, 68, 68, 0.88)";
+                        if (code === "CN") return "rgba(6, 182, 212, 0.88)";
+                        if (code === "IT") return "rgba(245, 158, 11, 0.85)";
+                        if (code === "US") return "rgba(239, 68, 68, 0.85)";
+                        if (code === "IN") return "rgba(249, 115, 22, 0.85)";
                     }
                     return "rgba(15, 23, 42, 0.35)";
                 })
                 .polygonSideColor((feat: GeoJsonFeature) => {
-                    if (isIndonesia(feat)) {
+                    const { iso2, iso3 } = getFeatureCountryInfo(feat);
+                    if (isEpicenter(iso2) || isEpicenter(iso3)) {
+                        const code = (
+                            isEpicenter(iso2) ? iso2 : iso3
+                        ) as EpicenterCode;
+                        if (code === "CN") return "rgba(8, 145, 178, 0.8)";
+                        if (code === "IT") return "rgba(217, 119, 6, 0.8)";
+                        if (code === "IN") return "rgba(194, 65, 12, 0.8)";
                         return "rgba(185, 28, 28, 0.8)";
                     }
                     return "rgba(15, 23, 42, 0.15)";
                 })
                 .polygonStrokeColor((feat: GeoJsonFeature) => {
-                    if (isIndonesia(feat)) {
-                        return "#fca5a5";
+                    const { iso2, iso3 } = getFeatureCountryInfo(feat);
+                    if (isEpicenter(iso2) || isEpicenter(iso3)) {
+                        const code = (
+                            isEpicenter(iso2) ? iso2 : iso3
+                        ) as EpicenterCode;
+                        return (
+                            EPICENTER_REGISTRY[code]?.beaconColor || "#ef4444"
+                        );
                     }
-                    return "rgba(75, 85, 99, 0.22)";
+                    return "rgba(71, 85, 105, 0.25)";
                 })
                 .polygonLabel((feat: GeoJsonFeature) => {
-                    if (isIndonesia(feat)) {
+                    const { iso2, iso3, name } = getFeatureCountryInfo(feat);
+                    if (isEpicenter(iso2) || isEpicenter(iso3)) {
+                        const code = (
+                            isEpicenter(iso2) ? iso2 : iso3
+                        ) as EpicenterCode;
+                        const epi = EPICENTER_REGISTRY[code];
+                        const bc = epi?.beaconColor || "#ef4444";
+                        const localizedName =
+                            epi?.name[currentLocale] || epi?.name.en || name;
+
                         return `
               <div style="
-                background: rgba(5, 5, 8, 0.92);
-                border: 1px solid rgba(239, 68, 68, 0.8);
+                background: rgba(5, 5, 8, 0.94);
+                border: 1px solid ${bc};
                 border-radius: 6px;
                 padding: 8px 12px;
                 font-family: monospace;
-                box-shadow: 0 0 20px rgba(239, 68, 68, 0.5);
+                box-shadow: 0 0 20px ${bc}80;
                 color: #ffffff;
                 pointer-events: none;
               ">
-                <div style="color: #ef4444; font-weight: bold; font-size: 11px; letter-spacing: 0.1em; display: flex; align-items: center; gap: 4px;">
-                  <span style="display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #ef4444;"></span>
-                  ${tHub("hotspotTooltip")}
+                <div style="color: ${bc}; font-weight: bold; font-size: 11px; letter-spacing: 0.1em; display: flex; align-items: center; gap: 5px;">
+                  <span style="display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: ${bc};"></span>
+                  ${epi?.sectorCode || "EPICENTER HOTSPOT"}
                 </div>
-                <div style="font-size: 10px; color: #d1d5db; margin-top: 2px;">
-                  ${tHub("hotspotClick")}
+                <div style="font-size: 12px; color: #ffffff; font-weight: bold; margin-top: 3px;">
+                  ${localizedName.toUpperCase()}
+                </div>
+                <div style="font-size: 9px; color: #d1d5db; margin-top: 2px;">
+                  CLICK TO INITIALIZE DECLASSIFIED DOSSIER
                 </div>
               </div>
             `;
                     }
-                    return "";
+
+                    // Secondary Surveillance Nation tooltip
+                    return `
+            <div style="
+              background: rgba(5, 5, 8, 0.92);
+              border: 1px solid #475569;
+              border-radius: 6px;
+              padding: 6px 10px;
+              font-family: monospace;
+              box-shadow: 0 0 15px rgba(0,0,0,0.8);
+              color: #ffffff;
+              pointer-events: none;
+            ">
+              <div style="color: #94a3b8; font-weight: bold; font-size: 10px; letter-spacing: 0.05em; display: flex; align-items: center; gap: 4px;">
+                <span style="display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: #64748b;"></span>
+                SURVEILLANCE SECTOR // ${name.toUpperCase()}
+              </div>
+              <div style="font-size: 9px; color: #94a3b8; margin-top: 2px;">
+                CLICK TO INSPECT EPIDEMIOLOGICAL TELEMETRY
+              </div>
+            </div>
+          `;
                 })
                 .onPolygonHover((feat: GeoJsonFeature | null) => {
-                    const hoveredIsIdn = isIndonesia(feat);
-                    setIsIndonesiaHovered(hoveredIsIdn);
-
                     if (containerRef.current) {
-                        containerRef.current.style.cursor = hoveredIsIdn
+                        containerRef.current.style.cursor = feat
                             ? "pointer"
                             : "grab";
+                    }
+
+                    if (feat) {
+                        const { iso2, iso3, name } =
+                            getFeatureCountryInfo(feat);
+                        const isEpi = isEpicenter(iso2) || isEpicenter(iso3);
+                        setHoveredCountryName(name);
+                        setHoveredIsEpicenter(isEpi);
+                    } else {
+                        setHoveredCountryName(null);
+                        setHoveredIsEpicenter(false);
                     }
 
                     // Dynamic elevation and brightness on hover
                     globe
                         .polygonAltitude((f: GeoJsonFeature) => {
-                            if (isIndonesia(f)) {
-                                return hoveredIsIdn ? 0.09 : 0.06;
-                            }
-                            return 0.006;
+                            const { iso2, iso3 } = getFeatureCountryInfo(f);
+                            const isEpi =
+                                isEpicenter(iso2) || isEpicenter(iso3);
+                            const isTarget = feat && f === feat;
+                            if (isEpi) return isTarget ? 0.08 : 0.05;
+                            return isTarget ? 0.02 : 0.005;
                         })
                         .polygonCapColor((f: GeoJsonFeature) => {
-                            if (isIndonesia(f)) {
-                                return hoveredIsIdn
-                                    ? "rgba(248, 113, 113, 0.98)"
-                                    : "rgba(239, 68, 68, 0.88)";
+                            const { iso2, iso3 } = getFeatureCountryInfo(f);
+                            const isEpi =
+                                isEpicenter(iso2) || isEpicenter(iso3);
+                            const isTarget = feat && f === feat;
+                            if (isEpi) {
+                                const code = (
+                                    isEpicenter(iso2) ? iso2 : iso3
+                                ) as EpicenterCode;
+                                const bc =
+                                    EPICENTER_REGISTRY[code]?.beaconColor;
+                                if (isTarget)
+                                    return bc
+                                        ? `${bc}fa`
+                                        : "rgba(239, 68, 68, 0.98)";
+                                if (code === "ID")
+                                    return "rgba(239, 68, 68, 0.88)";
+                                if (code === "CN")
+                                    return "rgba(6, 182, 212, 0.88)";
+                                if (code === "IT")
+                                    return "rgba(245, 158, 11, 0.85)";
+                                if (code === "US")
+                                    return "rgba(239, 68, 68, 0.85)";
+                                if (code === "IN")
+                                    return "rgba(249, 115, 22, 0.85)";
                             }
-                            return "rgba(15, 23, 42, 0.35)";
+                            return isTarget
+                                ? "rgba(30, 41, 59, 0.65)"
+                                : "rgba(15, 23, 42, 0.35)";
                         });
                 })
                 .onPolygonClick((feat: GeoJsonFeature) => {
-                    if (isIndonesia(feat)) {
-                        handleTriggerJourney();
-                    }
+                    handleSelectCountry(feat);
                 });
 
-            // Camera view centered toward Southeast Asia / Indonesia
-            globe.pointOfView({ lat: 2, lng: 116, altitude: 2.2 });
+            // Camera view centered toward Southeast Asia / Indonesia initially
+            globe.pointOfView({ lat: 10, lng: 100, altitude: 2.3 });
 
             // Intelligent Auto-Rotate initial setup
             const controls = globe.controls();
@@ -314,7 +602,13 @@ export const GlobeViewer: React.FC = () => {
                 globeInstanceRef.current._destructor();
             }
         };
-    }, [handleTriggerJourney, isIndonesia, resetIdleTimer, tHub]);
+    }, [
+        currentLocale,
+        getFeatureCentroid,
+        getFeatureCountryInfo,
+        handleSelectCountry,
+        resetIdleTimer,
+    ]);
 
     return (
         <div className="relative w-full h-full overflow-hidden bg-[#050508]">
@@ -327,7 +621,7 @@ export const GlobeViewer: React.FC = () => {
             {/* Sci-Fi Ambient Vignette */}
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_45%,#050508_95%)] pointer-events-none" />
 
-            {/* Top HUD Header */}
+            {/* Top HUD Header (Vector Quick Orbit Completely Eradicated) */}
             <header className="absolute top-0 left-0 right-0 p-3 sm:p-6 flex items-center justify-between pointer-events-none z-10">
                 <div className="flex items-center gap-2.5 sm:gap-3">
                     <div className="w-8 h-8 sm:w-10 sm:h-10 rounded border border-red-500/40 bg-black/70 flex items-center justify-center text-red-500 shadow-[0_0_15px_rgba(239,68,68,0.25)] shrink-0">
@@ -346,165 +640,76 @@ export const GlobeViewer: React.FC = () => {
                     </div>
                 </div>
 
-                {/* Right Header Cluster: Locale Switcher, Mobile Stats Toggle, Desktop Coordinates */}
+                {/* Right Header Cluster: Locale Switcher & Coordinates HUD */}
                 <div className="flex items-center gap-2 pointer-events-auto">
                     {/* Tactical Language Switcher */}
                     <LocaleSwitcher />
 
-                    {/* Mobile Stats Toggle Badge */}
-                    <div className="md:hidden">
-                        <button
-                            onClick={() => setIsStatsExpanded((prev) => !prev)}
-                            className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-black/85 border border-neutral-800 hover:border-cyan-500/50 text-[10px] font-mono text-cyan-400 backdrop-blur-md cursor-pointer active:scale-95 transition-all shadow-[0_0_12px_rgba(6,182,212,0.15)]"
-                        >
-                            <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping" />
-                            <span className="font-bold">{tHub("sitrep")}</span>
-                            <ChevronDown
-                                className={`w-3 h-3 transition-transform duration-200 ${
-                                    isStatsExpanded ? "rotate-180" : ""
-                                }`}
-                            />
-                        </button>
-                    </div>
-
                     {/* Desktop Tactical Coordinates HUD */}
-                    <div className="hidden md:flex flex-col items-end text-[11px] font-mono text-neutral-400 bg-black/60 border border-neutral-800/80 px-3 py-2 rounded backdrop-blur">
-                        <div className="flex items-center gap-1 text-red-400">
+                    <div className="hidden lg:flex flex-col items-end text-[11px] font-mono text-neutral-400 bg-black/60 border border-neutral-800/80 px-3 py-1.5 rounded backdrop-blur">
+                        <div className="flex items-center gap-1 text-cyan-400">
                             <Crosshair className="w-3.5 h-3.5" />
                             <span>{tHub("scanActive")}</span>
                         </div>
-                        <div>{tHub("targetVector")}</div>
+                        <div className="text-[10px] text-neutral-400">
+                            {hoveredCountryName
+                                ? `${hoveredIsEpicenter ? "EPICENTER TARGET" : "SURVEILLANCE"}: ${hoveredCountryName.toUpperCase()}`
+                                : "ORBITAL BIO-SURVEILLANCE ACTIVE"}
+                        </div>
                     </div>
                 </div>
             </header>
 
-            {/* Floating Global Pandemic Statistics Widget (WHO Telemetry) */}
-            <section
-                className={`absolute top-14 right-3 sm:top-24 sm:right-6 z-20 w-[calc(100%-1.5rem)] sm:w-80 max-w-sm pointer-events-none transition-all duration-300 ${
-                    isStatsExpanded
-                        ? "block pointer-events-auto"
-                        : "hidden md:block md:pointer-events-none"
-                }`}
-            >
-                <div className="bg-black/90 md:bg-black/80 backdrop-blur-md border border-neutral-800/90 hover:border-cyan-500/40 rounded-lg p-3 sm:p-4 shadow-[0_0_30px_rgba(0,0,0,0.9)] pointer-events-auto transition-colors duration-300">
-                    {/* Header */}
-                    <div className="flex items-center justify-between pb-2 mb-2.5 sm:mb-3 border-b border-neutral-800/80">
-                        <div className="flex items-center gap-2">
-                            <span className="w-2 h-2 rounded-full bg-cyan-400 animate-ping" />
-                            <span className="text-[10px] sm:text-[11px] font-mono font-bold tracking-widest text-cyan-400 uppercase">
-                                {tStats("title")}
-                            </span>
-                        </div>
-                        <span className="text-[9px] sm:text-[10px] font-mono px-2 py-0.5 rounded bg-cyan-950/60 text-cyan-300 border border-cyan-800/60">
-                            {tStats("archiveBadge")}
-                        </span>
-                    </div>
-
-                    {/* Metric Grid */}
-                    <div className="grid grid-cols-2 gap-2 mb-2.5">
-                        {/* Global Infections */}
-                        <div className="bg-neutral-950/80 border border-neutral-800/90 rounded p-2 sm:p-2.5">
-                            <div className="text-[9px] sm:text-[10px] font-mono text-neutral-400 uppercase tracking-wider mb-0.5 sm:mb-1 flex items-center justify-between">
-                                <span>{tStats("infections")}</span>
-                                <span className="w-1.5 h-1.5 rounded-full bg-red-500" />
-                            </div>
-                            <div className="text-sm sm:text-lg font-mono font-black text-red-500 tracking-tight hud-glow">
-                                {tStats("infectionsCount")}
-                            </div>
-                            <div className="text-[8px] sm:text-[9px] font-mono text-neutral-500 mt-0.5">
-                                {tStats("infectionsLabel")}
-                            </div>
-                        </div>
-
-                        {/* Global Deaths */}
-                        <div className="bg-neutral-950/80 border border-neutral-800/90 rounded p-2 sm:p-2.5">
-                            <div className="text-[9px] sm:text-[10px] font-mono text-neutral-400 uppercase tracking-wider mb-0.5 sm:mb-1 flex items-center justify-between">
-                                <span>{tStats("mortality")}</span>
-                                <span className="w-1.5 h-1.5 rounded-full bg-red-500/80" />
-                            </div>
-                            <div className="text-sm sm:text-lg font-mono font-black text-neutral-100 tracking-tight">
-                                {tStats("mortalityCount")}
-                            </div>
-                            <div className="text-[8px] sm:text-[9px] font-mono text-neutral-500 mt-0.5">
-                                {tStats("mortalityLabel")}
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Status Span */}
-                    <div className="bg-neutral-950/90 border border-neutral-800/80 rounded px-2.5 py-1.5 flex items-center justify-between text-[9px] sm:text-[11px] font-mono">
-                        <span className="text-neutral-400">
-                            {tStats("statusLabel")}
-                        </span>
-                        <span className="text-cyan-400 font-bold tracking-wide">
-                            {tStats("statusValue")}
-                        </span>
-                    </div>
-                </div>
-            </section>
-
-            {/* Bottom Tactical Briefing Card / Callout (Mobile-optimized) */}
-            <aside className="absolute bottom-3 left-3 right-3 sm:bottom-6 sm:left-6 sm:w-96 z-10 pointer-events-none">
-                <div className="bg-black/85 backdrop-blur-md border border-red-500/30 rounded-lg p-3 sm:p-4 shadow-[0_0_25px_rgba(239,68,68,0.15)] text-neutral-200 pointer-events-auto">
-                    <div className="flex items-center justify-between mb-1 sm:mb-2">
-                        <div className="flex items-center gap-1.5 text-[11px] sm:text-xs font-mono font-bold text-red-400">
-                            <AlertTriangle className="w-3.5 h-3.5 text-red-500 shrink-0" />
-                            <span>{tBriefing("territoryLocked")}</span>
-                        </div>
-                        <span className="text-[9px] sm:text-[10px] font-mono px-1.5 py-0.5 rounded bg-red-950/80 text-red-300 border border-red-800">
-                            {tBriefing("period")}
-                        </span>
-                    </div>
-
-                    <h2 className="text-sm sm:text-base font-mono font-bold text-white mb-1">
-                        {tBriefing("headline")}
-                    </h2>
-                    <p className="hidden sm:block text-xs text-neutral-400 mb-3 leading-relaxed">
-                        {tBriefing("description")}
-                    </p>
-
-                    <div className="flex flex-col gap-1.5 mt-1 sm:mt-0">
-                        <button
-                            onClick={handleTriggerJourney}
-                            disabled={isLoading || !isGlobeReady}
-                            className="w-full flex items-center justify-center gap-2 py-2 sm:py-2.5 px-3 bg-red-600 hover:bg-red-500 active:bg-red-700 text-white font-mono font-bold text-[11px] sm:text-xs uppercase tracking-widest rounded transition-all duration-200 shadow-[0_0_20px_rgba(239,68,68,0.4)] disabled:opacity-50 cursor-pointer"
-                        >
-                            <ShieldAlert className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                            <span>{tBriefing("launchButton")}</span>
-                        </button>
-
-                        {/* Secondary Educational Trigger Button */}
-                        <button
-                            onClick={() => setIsBioModalOpen(true)}
-                            className="w-full flex items-center justify-center gap-1.5 py-1.5 sm:py-2 px-3 bg-neutral-900/90 hover:bg-neutral-800 text-neutral-300 hover:text-white font-mono text-[10px] sm:text-xs uppercase tracking-wider rounded border border-neutral-700/80 hover:border-cyan-500/60 transition-all duration-200 cursor-pointer shadow-[0_0_15px_rgba(0,0,0,0.5)]"
-                        >
-                            <HelpCircle className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-cyan-400" />
-                            <span>{tBriefing("bioModalButton")}</span>
-                        </button>
-                    </div>
-                </div>
+            {/* Minimal Floating Tactical Pill: Pathogen Brief Trigger */}
+            <aside className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 z-20 pointer-events-auto">
+                <button
+                    onClick={() => setIsPathogenBriefOpen(true)}
+                    className="font-mono text-xs text-neutral-300 border border-white/20 bg-black/60 backdrop-blur-md px-3 py-1.5 rounded-full hover:border-cyan-400 hover:text-cyan-300 transition-all cursor-pointer shadow-[0_0_15px_rgba(0,0,0,0.5)] flex items-center gap-1.5 active:scale-95"
+                >
+                    <span className="text-cyan-400 font-bold">[!]</span>
+                    <span>{tPathogen("trigger")}</span>
+                </button>
             </aside>
 
             {/* Global Tactical Footer */}
-            <footer className="absolute bottom-3 left-3 right-3 sm:bottom-6 sm:left-6 sm:right-6 flex flex-col sm:flex-row items-center justify-between gap-2 pointer-events-none z-10 font-mono text-[10px] sm:text-[11px] text-neutral-500">
-                <div className="bg-black/75 border border-neutral-800/80 px-3 py-1.5 rounded backdrop-blur text-center sm:text-left">
-                    {`OUTBREAK DOSSIER © ${new Date().getFullYear()} // DECLASSIFIED EPIDEMIOLOGICAL DATA INTELLIGENCE.`}
-                </div>
-                <div className="hidden md:block bg-black/60 border border-neutral-800/80 px-3 py-1.5 rounded backdrop-blur">
-                    {isIndonesiaHovered ? (
-                        <span className="text-red-400">
-                            {tHub("targetLockedPrompt")}
+            <footer className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 flex flex-col sm:flex-row items-end sm:items-center gap-2 pointer-events-none z-10 font-mono text-[10px] sm:text-[11px] text-neutral-500">
+                <div className="bg-black/60 border border-neutral-800/80 px-3 py-1.5 rounded backdrop-blur">
+                    {hoveredCountryName ? (
+                        <span
+                            className={
+                                hoveredIsEpicenter
+                                    ? "text-red-400"
+                                    : "text-cyan-400"
+                            }
+                        >
+                            {hoveredIsEpicenter
+                                ? `HOTSPOT // ${hoveredCountryName.toUpperCase()} [CLICK TO DECLASSIFY]`
+                                : `SURVEILLANCE // ${hoveredCountryName.toUpperCase()} [CLICK FOR TELEMETRY]`}
                         </span>
                     ) : (
                         <span>{tHub("dragPrompt")}</span>
                     )}
                 </div>
+                <div className="bg-black/75 border border-neutral-800/80 px-3 py-1.5 rounded backdrop-blur text-right">
+                    {`OUTBREAK DOSSIER © ${new Date().getFullYear()} // DECLASSIFIED EPIDEMIOLOGICAL DATA INTELLIGENCE.`}
+                </div>
             </footer>
 
-            {/* Educational Virus Info Modal */}
-            <VirusInfoModal
-                isOpen={isBioModalOpen}
-                onClose={() => setIsBioModalOpen(false)}
+            {/* Slide-over Pathogen Briefing Drawer */}
+            <PathogenBriefingDrawer
+                isOpen={isPathogenBriefOpen}
+                onClose={() => setIsPathogenBriefOpen(false)}
+            />
+
+            {/* Differentiated Tactical HUD: Epicenter vs Secondary Surveillance */}
+            <CountryTacticalHUD
+                isOpen={tacticalHUD.isOpen}
+                onClose={() =>
+                    setTacticalHUD((prev) => ({ ...prev, isOpen: false }))
+                }
+                epicenterData={tacticalHUD.epicenterData}
+                surveillanceData={tacticalHUD.surveillanceData}
+                onInitializeDossier={handleInitializeDossier}
             />
         </div>
     );
