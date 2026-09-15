@@ -1,143 +1,1014 @@
 [
     {
-        "id": "us-01-snohomish-patient-zero",
+        "id": "us-01-kirkland-ground-zero",
         "chapterNumber": "01",
         "type": "milestone",
         "title": {
-            "id": "Infiltrasi Pasifik: Kasus Pertama di Snohomish",
-            "en": "Pacific Infiltration: Patient Zero in Snohomish",
-            "zh": "太平洋渗透：斯诺霍米什零号病例"
+            "id": "Titik Masuk Pasifik: Klaster Panti Jompo Kirkland",
+            "en": "Pacific Ingress: The Kirkland Nursing Home Cluster",
+            "zh": "太平洋登陆点：柯克兰养老院的隐秘引爆"
         },
         "date": {
-            "id": "Januari 2020",
-            "en": "January 2020",
-            "zh": "2020年1月"
+            "id": "Januari - Februari 2020",
+            "en": "January - February 2020",
+            "zh": "2020年1月 - 2月"
         },
-        "strain": "SARS-CoV-2 (USA-WA1/2020)",
+        "strain": "SARS-CoV-2 (Lineage WA1 / S-Clade)",
         "flash": {
-            "id": "Deteksi Dini: Seorang pria berusia 35 tahun di Washington dikonfirmasi terinfeksi setelah kembali dari Wuhan.",
-            "en": "Early Detection: A 35-year-old Washington man confirmed positive after returning from Wuhan.",
-            "zh": "早期检出：华盛顿州一名自武汉返美的35岁男子被确诊为全美首例阳性病例。"
+            "id": "ALARM PERTAMA: Virus menyusup ke fasilitas perawatan lansia di Washington State; puluhan penghuni meregang nyawa.",
+            "en": "FIRST DOMESTIC ALARM: Pathogen infiltrates a Washington State eldercare facility, claiming dozens of lives.",
+            "zh": "本土首度警报：病毒潜入华盛顿州养老护理中心，数十名高龄老人接连殒命。"
         },
         "virusProfile": {
-            "code": "USA-WA1/2020 (LINEAGE A)",
+            "code": "USA-WA1/2020 INGRESS",
             "mutationType": {
-                "id": "Spillover Antarbenua",
-                "en": "Intercontinental Spillover",
-                "zh": "跨洲输入性扩散"
+                "id": "Transmisi Siluman Komunitas Pra-Deteksi",
+                "en": "Pre-Detection Cryptic Community Transmission",
+                "zh": "未被察觉的早期隐秘社区传播"
             },
-            "r0": "2.2 - 2.5",
+            "r0": "2.4 - 2.8",
             "threatLevel": {
-                "id": "ANCAMAN BIOSURVEILANS TINGKAT SATU",
-                "en": "TIER-ONE BIOSURVEILLANCE THREAT",
-                "zh": "一级生物监测输入威胁"
+                "id": "PENETRASI POPULASI RENTAN TINGGI",
+                "en": "CRITICAL GERIATRIC VULNERABILITY",
+                "zh": "极危级高龄易感人群渗透"
             },
             "clinicalTarget": {
-                "id": "Infeksi saluran pernapasan bawah, demam intermiten",
-                "en": "Lower respiratory tract infiltration, intermittent fever",
-                "zh": "下呼吸道浸润、间歇性发热"
+                "id": "Pneumonia dekompensasi akut pada lansia dengan komorbiditas vaskular",
+                "en": "Acute decompensating pneumonia in elderly patients with vascular comorbidities",
+                "zh": "老年伴心血管基础病患者之急性失代偿性肺炎"
             }
         },
         "description": {
-            "id": "Pada pertengahan Januari 2020, CDC mengonfirmasi kasus pertama SARS-CoV-2 di tanah Amerika Serikat di Snohomish County, Washington. Otoritas kesehatan memuji isolasi cepat dan pelacakan kontak, namun pengurutan genomik beberapa pekan kemudian mengungkapkan bahwa transmisi komunitas tersembunyi telah berakar di panti jompo Kirkland.",
-            "en": "In mid-January 2020, the CDC confirmed the first United States SARS-CoV-2 infection in Snohomish County, Washington. While officials praised swift containment, retroactive genomic sequencing later demonstrated that silent community transmission had already taken root in the Life Care Center nursing home.",
-            "zh": "2020年1月中旬，美国疾控中心在华盛顿州斯诺霍米什县确认了美国本土首例感染者。尽管官方最初认为输入病例已被有效围堵，但随后的基因组测序表明，隐秘的社区传播已经在柯克兰养老中心深植滋生。"
+            "id": "Di pinggiran kota Seattle yang berkabut, ambulans bolak-balik meraung keluar masuk Life Care Center Kirkland. Tanpa disadari petugas medis yang awalnya mengira ini sekadar flu musiman, virus telah bermutasi dan bersirkulasi diam-diam selama berminggu-minggu di Pacific Northwest. Ketika hasil tes laboratorium genom universitas independen membuktikan virus sudah menyebar tak terkendali di masyarakat, puluhan ranjang di panti jompo tersebut sudah berubah menjadi kamar jenazah.",
+            "en": "In the misty suburbs of Seattle, emergency sirens wailed relentlessly outside the Life Care Center in Kirkland. Initially mistaken by clinicians for seasonal influenza, the novel coronavirus had been circulating cryptically across the Pacific Northwest for weeks. By the time independent genomic sequencing confirmed widespread community transmission, dozens of eldercare beds had already turned into death chambers.",
+            "zh": "在细雨迷蒙的西雅图郊外，急救车长鸣呼啸着进出柯克兰生命护理中心。起初医护仅将其视为普通冬季流感，殊不知该新型冠状病毒早已在太平洋西北部隐秘传播数周。当华盛顿大学独立基因测序团队证实病毒已在社区失控蔓延时，这座原本宁静的养老机构已有数十位老人相继离世。"
         },
-        "image": "/assets/images/covid-19/id/02-outbreak-spread.jpg",
-        "location": "Snohomish, Washington, USA"
+        "image": "/assets/images/covid-19/us/01-kirkland-outbreak.jpg"
     },
     {
-        "id": "us-02-new-york-apex-crisis",
+        "id": "us-02-flawed-cdc-testkits",
         "chapterNumber": "02",
+        "type": "standard",
+        "title": {
+            "id": "Kebutaan Diagnostik: Skandal Reagen Cacat CDC",
+            "en": "Diagnostic Blindness: The Contaminated CDC Test Kit Fiasco",
+            "zh": "诊断盲区：CDC受污染检测试剂盒丑闻"
+        },
+        "date": {
+            "id": "Februari 2020",
+            "en": "February 2020",
+            "zh": "2020年2月"
+        },
+        "strain": "SARS-CoV-2 Early Global Clades",
+        "flash": {
+            "id": "KEGAGALAN INSTITUSIONAL: Reagen PCR buatan CDC terkontaminasi di lab federal; AS kehilangan momentum pelacakan awal.",
+            "en": "INSTITUTIONAL FAILURE: CDC-manufactured PCR primers contaminated in federal labs; nation blinded during critical window.",
+            "zh": "建制级失误：联邦实验室PCR试剂遭自身核酸污染，美国丧失早期黄金阻击窗口。"
+        },
+        "virusProfile": {
+            "code": "SURVEILLANCE EVASION GAP",
+            "mutationType": {
+                "id": "Eksploitasi Celah Regulasi & Kegagalan Deteksi Lab",
+                "en": "Exploitation of Regulatory Rigidity & Assay Contamination",
+                "zh": "监管壁垒与试剂污染引发的监测真空"
+            },
+            "r0": "2.6",
+            "threatLevel": {
+                "id": "KEBUTAAN STRATEGIS NASIONAL",
+                "en": "NATIONAL STRATEGIC BLINDNESS",
+                "zh": "国家级早期流行病学监测失灵"
+            },
+            "clinicalTarget": {
+                "id": "Penyebaran asimtomatik tanpa pengujian konfirmatori",
+                "en": "Unchecked asymptomatic dissemination without confirmatory assay",
+                "zh": "缺乏确诊检测下的无症状无序扩散"
+            }
+        },
+        "description": {
+            "id": "Saat dunia menanti kepemimpinan sains Amerika, Centers for Disease Control and Prevention (CDC) justru tergelincir dalam bencana birokrasi. Paket uji PCR resmi yang dikirim ke ratusan laboratorium kesehatan masyarakat di 50 negara bagian menghasilkan hasil positif palsu akibat kontaminasi silang di laboratorium Atlanta. FDA melarang rumah sakit universitas menggunakan tes PCR racikan mandiri, membuat otoritas kesehatan buta total terhadap jutaan pembawa virus yang mendarat di bandara-bandara internasional.",
+            "en": "As the global community looked to American scientific prowess, the CDC stumbled into an administrative catastrophe. Official diagnostic PCR panels shipped to state public health laboratories malfunctioned due to negative-control cross-contamination in Atlanta. Strict FDA barriers simultaneously barred academic hospitals from deploying in-house assays, leaving the nation utterly blind as millions traversed international airports without surveillance.",
+            "zh": "正当全球仰赖美国公共卫生权威之际，联邦疾控中心（CDC）却坠入官僚灾难。分发至各州公卫实验室的首批PCR检测盒因亚特兰大实验室交叉污染频现假阳性。同时FDA严苛的审批门槛阻断了顶尖大学自主开发试剂，导致数以百万计的入境者在零筛查的‘至暗盲区’中穿梭全美。"
+        },
+        "image": "/assets/images/covid-19/us/02-cdc-lab-failure.jpg"
+    },
+    {
+        "id": "us-03-side-nba-shutdown",
+        "chapterNumber": "INTERLUDE I",
+        "type": "side_story",
+        "title": {
+            "id": "Peluit Terakhir: Malam Matinya Olahraga & Mikrofon Gobert",
+            "en": "The Final Whistle: Rudy Gobert's Mic Tap & The Night Sports Froze",
+            "zh": "终场哨音：戈贝尔的话筒与全美体育停摆之夜"
+        },
+        "date": {
+            "id": "11 Maret 2020",
+            "en": "March 11, 2020",
+            "zh": "2020年3月11日"
+        },
+        "strain": "SARS-CoV-2 Pre-Shutdown Dissemination",
+        "flash": {
+            "id": "SYOK POP-CULTURE: Bintang Utah Jazz positif sesaat sebelum kickoff; liga olahraga dan Broadway tutup serentak.",
+            "en": "CULTURAL SHOCKWAVE: Utah Jazz center tests positive seconds before tipoff; sports leagues and Broadway shutter.",
+            "zh": "文化核爆：犹他爵士队中锋赛前数秒确诊，全美职业体育与百老汇瞬间陷入死寂。"
+        },
+        "virusProfile": {
+            "code": "MASS VENUE ACCELERATOR",
+            "mutationType": {
+                "id": "Transmisi Permukaan Fomite & Aerosol di Arena Tertutup",
+                "en": "Fomite Touching & Indoor Arena Aerosol Shedding",
+                "zh": "密闭球馆气溶胶排放与接触传播"
+            },
+            "r0": "3.1 (Di Dalam Stadion Padat)",
+            "threatLevel": {
+                "id": "TITIK BALIK KESADARAN PUBLIK",
+                "en": "POPULAR CONSCIOUSNESS TURNING POINT",
+                "zh": "大众危机感知质变点"
+            },
+            "clinicalTarget": {
+                "id": "Penularan droplet antar-atlet dan penonton tanpa gejala",
+                "en": "Droplet transfer among asymptomatic athletes and stadium attendees",
+                "zh": "无症状运动员与密集观众间的飞沫传染"
+            }
+        },
+        "description": {
+            "id": "Hanya dua hari setelah bercanda menyentuh semua mikrofon wartawan di ruang pers, atlet Utah Jazz Rudy Gobert dinyatakan positif COVID-19. Wasit berlari menghentikan pertandingan melawan Oklahoma City Thunder tepat sebelum tip-off di depan ribuan penonton yang kebingungan. Malam itu menjadi titik balik psikologis bagi jutaan warga Amerika yang sebelumnya acuh tak acuh: dalam 24 jam, NBA ditunda, Disneyland digembok, Broadway memadamkan lampu, dan ilusi kekebalan Amerika resmi sirna.",
+            "en": "Just 48 hours after playfully rubbing all press microphones in a briefing room, Utah Jazz center Rudy Gobert tested positive. Officials sprinted onto the floor to halt the game against Oklahoma City seconds before tipoff in front of 18,000 bewildered fans. That single evening shattered American complacency: within 24 hours, the NBA suspended its season, Disneyland shuttered, Broadway went dark, and the illusion of exceptionalism evaporated.",
+            "zh": "就在新闻发布会上嬉闹着摸遍记者录音话筒仅仅两天后，犹他爵士队中锋戈贝尔确诊感染。裁判在比赛哨响前数秒紧急冲入场内叫停，看台上一万八千名球迷错愕相望。这一夜彻底震碎了美国民间的侥幸心理：24小时内，NBA无限期休赛、迪士尼闭园、百老汇熄灯，超级大国的免疫神话轰然坍塌。"
+        },
+        "image": "/assets/images/covid-19/us/03-nba-empty-court.jpg"
+    },
+    {
+        "id": "us-04-new-york-epicenter",
+        "chapterNumber": "03",
         "type": "milestone",
         "title": {
-            "id": "Pusaran Megapolitan: Krisis Puncak New York",
-            "en": "Megacity Vortex: The New York Apex Crisis",
-            "zh": "超级大都市风暴：纽约高潮危机"
+            "id": "Sirene Tanpa Henti: New York Kota Hantu",
+            "en": "The Unbroken Siren: New York Becomes the Global Epicenter",
+            "zh": "不绝警报：纽约沦为全球震中"
         },
         "date": {
             "id": "Maret - April 2020",
             "en": "March - April 2020",
             "zh": "2020年3月 - 4月"
         },
-        "strain": "SARS-CoV-2 (Lineage B.1 European Influx)",
+        "strain": "SARS-CoV-2 (Lineage B.1 / European Ingress via JFK)",
         "flash": {
-            "id": "Sirene Tanpa Henti: Rumah sakit Elmhurst Queens kewalahan; truk pendingin jenazah terparkir di jalanan.",
-            "en": "Endless Sirens: Elmhurst Hospital in Queens buckles; refrigerated mortuary trailers line Manhattan avenues.",
-            "zh": "警报长鸣：皇后区埃尔姆赫斯特医院防线击溃，冷藏运尸卡车排满曼哈顿街道。"
+            "id": "KOTA MATI SURI: Times Square kosong melompong; suara sirene ambulans meraung tiap dua menit di Manhattan.",
+            "en": "URBAN DESOLATION: Times Square lies vacant; ambulance wails pierce Manhattan every 120 seconds.",
+            "zh": "末世空城：时代广场空无一人，曼哈顿街头每两分钟便回荡起急救警报。"
         },
         "virusProfile": {
-            "code": "NY METROPOLITAN SURGE",
+            "code": "METROPOLITAN TRANSIT AMPLIFICATION",
             "mutationType": {
-                "id": "Transmisi Super-Spreader Transit Padat",
-                "en": "High-Density Transit Super-Spreader Wave",
-                "zh": "高密度轨道交通超级传播浪潮"
+                "id": "Transmisi B.1 D614G via Kereta Bawah Tanah & Kepadatan Tinggi",
+                "en": "D614G Spike Mutation Spread via Dense Transit Systems",
+                "zh": "D614G变异株经由高密度地铁网络共振扩散"
             },
-            "r0": "3.8 - 4.1",
+            "r0": "3.2 - 3.8",
             "threatLevel": {
-                "id": "KOLAPS KEDARURATAN KOTA TERTINGGI",
-                "en": "HIGHEST MUNICIPAL DISASTER STATE",
-                "zh": "最高级别城市灾难状态"
+                "id": "KOLAPS SISTEM DARURAT PERKOTAAN",
+                "en": "MUNICIPAL EMERGENCY GRID COLLAPSE",
+                "zh": "特大都市急救体系濒临击穿"
             },
             "clinicalTarget": {
-                "id": "Kegagalan multi-organ, pembekuan darah mikro-vaskular dan ARDS",
-                "en": "Multisystem organ failure, micro-vascular thrombosis, fulminant ARDS",
-                "zh": "多器官功能衰竭、微血管血栓形成及暴发性ARDS"
+                "id": "ARDS fulminan, badai sitokin, hiperkoagulabilitas darah",
+                "en": "Fulminant ARDS, cytokine cascades, hypercoagulable thrombosis",
+                "zh": "暴发性ARDS、细胞因子风暴与弥漫性微血管血栓"
             }
         },
         "description": {
-            "id": "Pada musim semi 2020, New York City menjadi episentrum pandemi dunia. Times Square yang biasanya hiruk-pikuk kosong melompong bagai film fiksi ilmiah, hanya dipecahkan oleh raungan ambulans setiap beberapa menit. Rumah Sakit Lapangan didirikan darurat di Central Park dan kapal rumah sakit Angkatan Laut USNS Comfort merapat di pelabuhan Manhattan.",
-            "en": "In the spring of 2020, New York City became the global epicenter of the pandemic. Times Square emptied into a surreal, post-apocalyptic silence punctuated only by the wail of sirens every ninety seconds. Field hospitals sprouted across Central Park and the US Navy hospital ship USNS Comfort docked in Manhattan harbor.",
-            "zh": "2020年春，纽约市沦为全球疫情风暴的漩涡中心。繁华的时代广场化为末日般的死寂废墟，唯有救护车刺耳的笛声每隔数十秒撕破空气。中央公园临时搭建起帐篷野战医院，美国海军医疗船“舒适号”紧急停泊曼哈顿港口支援。"
+            "id": "Ibukota finansial dunia lumpuh total. Jalan-jalan Manhattan yang biasanya dipadati jutaan pejalan kaki berubah menjadi lembah sunyi bermandikan lampu kuning neon. Setiap dua menit, raungan ambulans FDNY memecah keheningan jalanan basah. Rumah sakit di lima borough New York dibanjiri pasien sesak napas akut yang berbaring di lorong tanpa tabung oksigen yang memadai. Kota yang tidak pernah tidur itu kini hanya dihuni ketakutan dan ratapan sirene.",
+            "en": "The world's financial metropolis ground to a terrifying halt. Manhattan's bustling avenues stood deserted under glowing billboards. Every two minutes, the siren wails of FDNY ambulances shattered the chilly rain. Hospital emergency departments across all five boroughs were swamped with cyanotic patients gasping in corridors without sufficient oxygen hookups. The city that never sleeps had succumbed to absolute isolation.",
+            "zh": "世界金融之都陷入前所未有的死寂。昔日摩肩接踵的曼哈顿大道沦为荒原，唯有霓虹广告牌在冷雨中孤寂闪烁。急救车凄厉的警报声每隔百秒便刺穿夜幕。五大区公立医院急诊室被大批面色发绀的垂危病患淹没，甚至在走廊中都难觅供氧端口。这座从不停歇的城市，如今只剩下恐惧与回荡的警笛。"
         },
-        "image": "/assets/images/covid-19/id/03-lockdown-city.jpg",
-        "location": "New York City, USA"
+        "image": "/assets/images/covid-19/us/04-empty-times-square.jpg"
     },
     {
-        "id": "us-03-operation-warp-speed",
-        "chapterNumber": "03",
+        "id": "us-05-elmhurst-triage-hell",
+        "chapterNumber": "04",
         "type": "standard",
         "title": {
-            "id": "Akselerasi Genomik: Operation Warp Speed",
-            "en": "Genomic Acceleration: Operation Warp Speed",
-            "zh": "基因组竞速：曲率极速行动"
+            "id": "Neraka Queens: Triase Darurat di Elmhurst Hospital",
+            "en": "The Queens Crucible: Medical Triage at Elmhurst Hospital",
+            "zh": "皇后区炼狱：埃尔姆赫斯特医院的极限战地分诊"
         },
         "date": {
-            "id": "Desember 2020",
-            "en": "December 2020",
-            "zh": "2020年12月"
+            "id": "Maret - April 2020",
+            "en": "March - April 2020",
+            "zh": "2020年3月 - 4月"
         },
-        "strain": "SARS-CoV-2 (mRNA-1273 & BNT162b2 Response)",
+        "strain": "SARS-CoV-2 Clade 20C",
         "flash": {
-            "id": "Terobosan Bioteknologi: Vaksin mRNA pertama dalam sejarah manusia disetujui FDA dalam tempo kurang dari setahun.",
-            "en": "Biotech Breakthrough: The first mRNA vaccines in human history receive FDA emergency authorization within 11 months.",
-            "zh": "生物技术突破：人类历史上首批mRNA疫苗在不到11个月内获得FDA紧急使用授权。"
+            "id": "FASKES KOLAPS: Dokter memakai jas hujan plastik pengganti APD; 13 pasien meninggal dalam tempo 24 jam di satu RS.",
+            "en": "SYSTEMIC OVERRUN: Doctors don trash bags for lack of PPE; 13 patients succumb in a single 24-hour ward shift.",
+            "zh": "医疗崩塌：医生被迫裹塑料垃圾袋充当防护服，单所医院24小时内13名重症相继不治。"
         },
         "virusProfile": {
-            "code": "SYNTHETIC IMMUNITY PLATFORM",
+            "code": "HIGH-VIRAL-LOAD NOSOCOMIAL BLITZ",
             "mutationType": {
-                "id": "Modifikasi Nukleosida Prefusi Spike",
-                "en": "Prefusion Spike Nucleoside-Modification",
-                "zh": "融合前刺突蛋白核苷酸修饰靶向"
+                "id": "Aerosolisasi Ruang Tertutup di Faskes Komunitas Padat",
+                "en": "Indoor Aerosol Concentration in High-Density Community Clinics",
+                "zh": "高密度社区医疗机构密闭气溶胶高负荷爆仓"
             },
-            "r0": "Efikasi Awal >90%",
+            "r0": "Nosokomial Ekstrem",
             "threatLevel": {
-                "id": "MOBILISASI RISET MILITER-SIPIL SKALA PENUH",
-                "en": "FULL MILITARY-CIVIL SCIENTIFIC MOBILIZATION",
-                "zh": "军民协同全方位科研总动员"
+                "id": "TRIASE MEDIS LEVEL BENCANA",
+                "en": "CATASTROPHIC DISASTER MEDICINE PROTOCOL",
+                "zh": "灾难级战地医疗伦理抉择"
             },
             "clinicalTarget": {
-                "id": "Antibodi netralisasi IgG tinggi, respons sel T memori kuat",
-                "en": "High-titer neutralizing IgG antibodies, robust memory T-cell responses",
-                "zh": "高滴度中和IgG抗体、强效记忆T细胞免疫应答"
+                "id": "Kebutuhan ventilator invasif melebihi rasio kapasitas bed 400%",
+                "en": "Invasive mechanical ventilation demand exceeding bed limits by 400%",
+                "zh": "有创机械通气需求超出床位承载极限400%"
             }
         },
         "description": {
-            "id": "Melalui inisiatif kemitraan publik-swasta berskala raksasa Operation Warp Speed, Amerika Serikat mendanai dan mempercepat uji klinis vaksin mRNA Pfizer-BioNTech dan Moderna. Pada 14 Desember 2020, seorang perawat ICU di Queens menjadi orang pertama di AS yang menerima suntikan vaksin, menandai babak baru pertahanan ilmiah melawan patogen.",
-            "en": "Through the massive public-private initiative Operation Warp Speed, the United States accelerated clinical trials and manufacturing of Pfizer-BioNTech and Moderna mRNA vaccines. On December 14, 2020, an intensive care nurse in Queens became the first person in the nation to receive the vaccine, launching a new frontier of counter-pathogen biotechnology.",
-            "zh": "通过庞大的公私合营计划“曲率极速行动”，美国全力资助并加速了辉瑞-BioNTech和莫德纳mRNA疫苗的临床试验与量产物流。2020年12月14日，皇后区一名重症监护护士接种了全美第一针疫苗，开启了人类利用前沿生物合成技术抵御未知病毒的全新纪元。"
+            "id": "Di Elmhurst Hospital, sebuah rumah sakit umum daerah di distrik imigran Queens, medan perang medis paling berdarah di Amerika meletus. Ruang gawat darurat penuh sesak hingga dokter terpaksa menolak pasien yang saturasi oksigennya sudah turun di bawah 80%. Ketiadaan masker N95 dan gaun medis memaksa perawat mencuci ulang masker bedah sekali pakai dan membalut tubuh mereka dengan kantong sampah hitam. Dokter-dokter muda menangis di mobil mereka seusai dinas, dihantui keputusan etis memilih siapa pasien yang berhak mendapatkan ventilator terakhir.",
+            "en": "At Elmhurst Hospital, a public safety-net facility in immigrant-dense Queens, America witnessed its grimmest clinical triage. Emergency bays overflowed so severely that clinicians turned away individuals with oxygen saturations below 80%. A critical deficit of N95 respirators forced nurses to wash disposable gear and fashion gowns out of black trash liners. Young physicians wept in parking lots, broken by the harrowing triage decisions of who received the ward's final functioning ventilator.",
+            "zh": "在移民聚居的皇后区公立埃尔姆赫斯特医院，全美最残酷的战地分诊无情上演。抢救大厅挤满痛苦喘息的患者，血氧低于80%已成常态。N95口罩与防护服耗尽，护士们只能套上黑色垃圾袋、用消毒水冲洗一次性手套。年轻医生在交班后躲进停车场痛哭，他们被迫在道德深渊中裁定哪位患者能用上最后一台呼吸机。"
         },
-        "image": "/assets/images/covid-19/id/05-vaccine-cure.jpg",
-        "location": "Washington D.C. & New York, USA"
+        "image": "/assets/images/covid-19/us/05-elmhurst-hospital-crisis.jpg"
+    },
+    {
+        "id": "us-06-reefer-trucks-morgues",
+        "chapterNumber": "05",
+        "type": "milestone",
+        "title": {
+            "id": "Kamar Jenazah Roda Enam: Truk Pendingin di Trotoar Kota",
+            "en": "Six-Wheeled Morgues: The Mobile Refrigerated Trucks of NYC",
+            "zh": "六轮停尸房：停泊在曼哈顿人行道旁的冷藏货柜车"
+        },
+        "date": {
+            "id": "April 2020",
+            "en": "April 2020",
+            "zh": "2020年4月"
+        },
+        "strain": "SARS-CoV-2 Alpha Precursor Lineages",
+        "flash": {
+            "id": "LOGISTIK KEMATIAN: Kamar mayat rumah sakit penuh; puluhan truk kontainer berpendingin terparkir di jalan umum.",
+            "en": "LETHAL CAPACITY BREACH: Hospital morgues max out; dozens of 53-foot refrigerated reefers line public curbs.",
+            "zh": "死线击穿：医院停尸间彻底爆满，数十辆53英尺冷藏集装箱货车横亘纽约闹市街头。"
+        },
+        "virusProfile": {
+            "code": "MASS CASUALTY INFLUX OVERRUN",
+            "mutationType": {
+                "id": "Mortalitas Masif Eksponensial dalam Jendela 30 Hari",
+                "en": "Exponential Daily Mortality Surge Overwhelming Mortuary Capacity",
+                "zh": "日增死亡指数级激增击垮民用殡葬承载力"
+            },
+            "r0": "Puncak Fatalitas Domestik",
+            "threatLevel": {
+                "id": "KOLAPS INFRASTRUKTUR PEMULASARAN JENAZAH",
+                "en": "MORTUARY INFRASTRUCTURE COMPLETE COLLAPSE",
+                "zh": "市政遗体处置与殡葬基础设施全面瘫痪"
+            },
+            "clinicalTarget": {
+                "id": "Kematian mendadak di rumah dan ruang isolasi",
+                "en": "Unattended home fatalities and sudden inpatient cardiac arrests",
+                "zh": "居家猝死与院内急性循环衰竭"
+            }
+        },
+        "description": {
+            "id": "Pemandangan paling menyeramkan dalam sejarah modern New York terhampar di sepanjang trotoar First Avenue: deretan truk kontainer pendingin 18-roda terparkir di luar pintu keluar rumah sakit. Mesin kompresor pendinginnya menderu siang dan malam memancarkan udara beku berbau disinfektan. Prajurit Garda Nasional dan perawat mengangkat kantong jenazah oranye dan putih lapis ganda ke dalam truk menggunakan tangga kayu darurat karena rumah duka dan krematorium swasta sudah angkat tangan tak sanggup lagi menampung jenazah.",
+            "en": "The most haunting specter of modern American public health lined the curb along First Avenue: 53-foot commercial refrigerated trailers humming outside hospital service docks. Their diesel compressors ran continuously, venting freezing, chemical-scented exhaust over the sidewalks. National Guard personnel and exhausted staff carried double-layered orange and white body bags into darkened interiors using wooden ramps as local mortuaries and crematoria buckled under backlog.",
+            "zh": "纽约现代史上最令人不寒而栗的景象横亘在第一大道旁：排成长龙的重型冷藏集装箱货车紧贴医院货运通道。柴油压缩机昼夜轰鸣，喷吐着刺鼻消毒剂与冰冷的尾气。国民警卫队战士与疲惫的护工踩着临时木梯，将层层密封的裹尸袋机械地送入昏暗的冷柜，全市民营殡仪馆与火葬场已堆积如山、无力收殓。"
+        },
+        "image": "/assets/images/covid-19/us/06-refrigerated-morgue-trucks.jpg"
+    },
+    {
+        "id": "us-07-hart-island-trenches",
+        "chapterNumber": "06",
+        "type": "standard",
+        "title": {
+            "id": "Pulau Para Terasing: Parit Pemakaman Massal Hart Island",
+            "en": "The Trench of the Forgotten: Mass Burials on Hart Island",
+            "zh": "遗忘之岛：哈特岛的泥泞万人冢"
+        },
+        "date": {
+            "id": "April 2020",
+            "en": "April 2020",
+            "zh": "2020年4月"
+        },
+        "strain": "SARS-CoV-2 (New York City Surge Clade)",
+        "flash": {
+            "id": "REKAMAN DRONE VIRAL: Peti mati kayu pinus ditumpuk tiga lapis di parit pemakaman massal pulau tak berpenghuni.",
+            "en": "DRONE FOOTAGE BREAKS: Pine coffins stacked three-deep inside muddy mass trenches on a desolate island.",
+            "zh": "航拍骇人实录：荒岛泥泞长坑内，未涂漆的松木薄棺层叠三层填埋无主遗骸。"
+        },
+        "virusProfile": {
+            "code": "INDIGENT CASUALTY SPILLOVER",
+            "mutationType": {
+                "id": "Disrupsi Fatal pada Komunitas Miskin Kota & Tunawisma",
+                "en": "Disproportionate Fatality Across Indigent & Unclaimed Populations",
+                "zh": "弱势贫民与无名死者之高比例死亡外溢"
+            },
+            "r0": "Fatalitas Komunitas Urban",
+            "threatLevel": {
+                "id": "KEDARURATAN PEMAKAMAN PUBLIK MASSAL",
+                "en": "MUNICIPAL MASS BURIAL EMERGENCY",
+                "zh": "市政紧急公墓接纳极限"
+            },
+            "clinicalTarget": {
+                "id": "Korban tak bertuan tanpa keluarga yang mampu membayar biaya kremasi",
+                "en": "Deceased with no next-of-kin or resources for private funeral services",
+                "zh": "无直系亲属认领或无力承担商业殡葬费用之罹难者"
+            }
+        },
+        "description": {
+            "id": "Rekaman drone yang diambil dari atas Hart Island—sebuah pulau sunyi di perairan Long Island Sound yang digunakan sebagai pemakaman umum orang miskin sejak abad ke-19—mengguncang hati nurani dunia. Alat berat ekskavator menggali parit raksasa sepanjang puluhan meter di tanah liat yang basah. Pekerja berkostum hazmat putih menumpuk ratusan peti mati kayu pinus sederhana bertuliskan nama dengan spidol hitam dalam formasi tiga tingkat. Di negara paling kaya di dunia, ribuan nyawa dimakamkan tanpa bunga, tanpa lagu penghormatan, dan tanpa nisan.",
+            "en": "Aerial drone footage captured over Hart Island—a desolate strip in Long Island Sound used for pauper burials since the 19th century—sent shockwaves through global media. Heavy backhoes carved vast trenches into damp clay. Contract laborers clad in white hazmats systematically stacked hundreds of plain pine coffins, each marked with names in black marker, three deep into the earth. In the wealthiest nation on earth, thousands were laid to rest without flowers, eulogies, or headstones.",
+            "zh": "长岛海湾偏僻哈特岛上空的无人机航拍震撼了全球舆论。自19世纪起作为贫民公墓的泥泞荒原上，重型挖掘机掘开数十米深的巨大土沟。身着白色防护服的工人将写有黑色标记的粗糙松木薄棺三层一组紧密码放。在世界最富庶的国度，成百上千条生命在没有鲜花、没有悼词、没有墓碑的冰冷泥土中悄然落幕。"
+        },
+        "image": "/assets/images/covid-19/us/07-hart-island-burials.jpg"
+    },
+    {
+        "id": "us-08-side-usns-comfort",
+        "chapterNumber": "INTERLUDE II",
+        "type": "side_story",
+        "title": {
+            "id": "Raksasa Putih Manhattan: Kapal Rumah Sakit USNS Comfort",
+            "en": "The White Giant on the Hudson: The USNS Comfort Voyage",
+            "zh": "哈德逊河上的白色巨舰：舒适号医院船的象征航程"
+        },
+        "date": {
+            "id": "Maret - April 2020",
+            "en": "March - April 2020",
+            "zh": "2020年3月 - 4月"
+        },
+        "strain": "Military Medical Mobilization Phase",
+        "flash": {
+            "id": "SIMBOL MILITER: Kapal rumah sakit AL bersalib merah bersandar di Pier 90, namun terhambat protokol militer.",
+            "en": "NAVAL SYMBOLISM: 1,000-bed naval hospital ship docks at Pier 90, yet constrained by military contagion protocols.",
+            "zh": "海军象征力量：千张床位巨型白色医院船靠泊90号码头，却受困于军方严苛的感染排查规程。"
+        },
+        "virusProfile": {
+            "code": "DEFENSE INFRASTRUCTURE DEPLOYMENT",
+            "mutationType": {
+                "id": "Pemisahan Pasien Non-COVID vs Beban Epidemiologi Nyata",
+                "en": "Non-Contagious Trauma Routing Against an Airborne Pathogen Reality",
+                "zh": "非传染性创伤分流与气溶胶实际感染的严重错位"
+            },
+            "r0": "Pengendalian Karantina Maritim",
+            "threatLevel": {
+                "id": "FRIKSI PROTOKOL BIROKRASI MILITER",
+                "en": "BUREAUCRATIC SURGICAL INTEGRATION FRICTION",
+                "zh": "军民协同流程脱节与空置率争议"
+            },
+            "clinicalTarget": {
+                "id": "Pasien trauma bedah non-COVID untuk meringankan IGD kota",
+                "en": "Non-COVID surgical emergencies intended to relieve municipal ERs",
+                "zh": "旨在分流市政急诊压力的非新冠创伤与普通外科手术"
+            }
+        },
+        "description": {
+            "id": "Pada 30 Maret 2020, kapal rumah sakit militer Angkatan Laut USNS Comfort merapat di Pier 90 Manhattan, disambut kerumunan warga di tepi sungai. Dengan lambung raksasa bercat putih dan tanda palang merah menyala, kapal 1.000 tempat tidur ini diharapkan menyedot beban pasien non-COVID dari rumah sakit kota yang sekarat. Namun protokol militer yang kaku dan larangan menerima pasien demam membuat kapal megah ini sempat berlayar hampir kosong melompong di tengah badai pandemi, sebelum akhirnya menyerah dan turut membuka pintunya bagi pasien terinfeksi.",
+            "en": "On March 30, 2020, the naval hospital ship USNS Comfort glided up the Hudson River, docking at Manhattan's Pier 90 to cheers from riverside onlookers. With a towering white hull bearing gigantic red crosses, the 1,000-bed vessel was intended to siphon non-COVID trauma patients from drowning city wards. However, strict naval infection protocols and screening red tape initially kept its state-of-the-art suites nearly empty, standing as a poignant testament to civilian-military gridlock.",
+            "zh": "2020年3月30日，美国海军‘舒适号’千床医院船沿哈德逊河缓缓驶入曼哈顿90号码头，岸边聚集着屏息注视的市民。这艘原本旨在收治非新冠创伤病患、为全城医院卸荷的庞然大物，却因军方繁琐的筛查流程与拒绝发热患者的严苛禁令，在最初数周几乎沦为空船，成为危机中军地协同脱节的尴尬缩影。"
+        },
+        "image": "/assets/images/covid-19/us/08-usns-comfort-manhattan.jpg"
+    },
+    {
+        "id": "us-09-briefing-room-schism",
+        "chapterNumber": "07",
+        "type": "milestone",
+        "title": {
+            "id": "Perang di Podium: Sains vs Politik di Ruang Pers Gedung Putih",
+            "en": "Podium Schism: Science vs Politics in the White House Press Room",
+            "zh": "讲台裂痕：白宫简报室里的科学与政治角力"
+        },
+        "date": {
+            "id": "April - Mei 2020",
+            "en": "April - May 2020",
+            "zh": "2020年4月 - 5月"
+        },
+        "strain": "Infodemic & Political Discourse Mutations",
+        "flash": {
+            "id": "RETORIKA VS FAKTA: Wacana suntikan disinfektan dan hidroksiklorokuin memicu perseteruan terbuka para pakar medis.",
+            "en": "DISINFECTANT GAFFE: Unproven therapies and bleach speculation fuel public health pandemonium on live TV.",
+            "zh": "舆论震荡：‘注射消毒剂’臆测与羟氯喹争端引爆全球电视直播现场的公卫伦理危机。"
+        },
+        "virusProfile": {
+            "code": "POLITICAL EPISTEMOLOGY CRISIS",
+            "mutationType": {
+                "id": "Misinformasi Viral dari Saluran Eksekutif Puncak",
+                "en": "Executive-Level Misinformation Amplification",
+                "zh": "最高行政话语引发的虚假疗法病毒式发酵"
+            },
+            "r0": "Amplifikasi Media Global",
+            "threatLevel": {
+                "id": "ERIKSI KEPERCAYAAN SAINS NASIONAL",
+                "en": "INSTITUTIONAL PUBLIC TRUST EROSION",
+                "zh": "国家级公卫专业公信力断崖式瓦解"
+            },
+            "clinicalTarget": {
+                "id": "Keracunan zat kimia rumah tangga akibat terapi palsu",
+                "en": "Toxic exposure and poisoning from unproven household prophylactic remedies",
+                "zh": "盲从偏方导致之民用化学品中毒与延误正规救治"
+            }
+        },
+        "description": {
+            "id": "Setiap sore di Ruang Konferensi Pers James S. Brady, jutaan pasang mata menyaksikan drama ketegangan antara sains dan kekuasaan politik. Di saat para pejabat mengklaim virus akan 'lenyap secara ajaib seperti mukjizat' dan melontarkan spekulasi tentang penyuntikan zat pemutih serta sinar ultraviolet ke paru-paru, Dr. Anthony Fauci dan Dr. Deborah Birx tertangkap kamera menundukkan kepala dalam kepedihan. Informasi medis resmi terfragmentasi, memicu lonjakan panggilan darurat racun nasional dan membelah masyarakat dalam dua kubu realitas yang bertolak belakang.",
+            "en": "Every afternoon in the James S. Brady Briefing Room, tens of millions witnessed an agonizing duel between epidemiological rigor and populist bravado. As assertions circulated that the contagion would 'miraculously disappear' alongside theories of injecting disinfectants and blasting internal lungs with UV light, Dr. Anthony Fauci was filmed clutching his brow in silent exasperation. Scientific messaging fractured, resulting in spikes in poison control calls and bifurcating the American populace.",
+            "zh": "每天傍晚在白宫詹姆斯·布雷迪简报室，数千万电视观众目睹着流行病学与政客话术的尖锐对撞。当‘病毒会像奇迹一样凭空消失’以及在体内‘注射消毒剂、照射紫外线’的离奇提议从讲台抛出时，福奇博士与伯克斯博士在台侧掩面扼腕的画面被镜头永久定格。国家最高公卫指令的撕裂，直接诱发全美中毒求助热线被打爆，大众认知陷入空前割裂。"
+        },
+        "image": "/assets/images/covid-19/us/09-white-house-briefing.jpg"
+    },
+    {
+        "id": "us-10-mask-wars-liberty",
+        "chapterNumber": "08",
+        "type": "standard",
+        "title": {
+            "id": "Perang Sehelai Kain: Masker dan Polarisasi Kebebasan",
+            "en": "The Cloth War: Mask Mandates and the Fracturing of Liberty",
+            "zh": "布片之战：口罩令与美利坚自由边界的裂变"
+        },
+        "date": {
+            "id": "Mei - Juli 2020",
+            "en": "May - July 2020",
+            "zh": "2020年5月 - 7月"
+        },
+        "strain": "SARS-CoV-2 (Spike D614G Dominance)",
+        "flash": {
+            "id": "SIMBOL POLITIK: Sehelai masker kain berubah menjadi batas faksi identitas politik dan bentrokan di ruang publik.",
+            "en": "PARTISAN SHIELD: A disposable surgical mask mutates into a battleground for individual rights and public decorum.",
+            "zh": "政治图腾：薄薄一层防护布蜕变为两党意识形态交锋与民权抗争的前沿导火索。"
+        },
+        "virusProfile": {
+            "code": "BEHAVIORAL POLICY COUNTERACTION",
+            "mutationType": {
+                "id": "Penolakan NPIs (Non-Pharmaceutical Interventions)",
+                "en": "Rejection of Non-Pharmaceutical Interventions via Partisan Tribalism",
+                "zh": "党派极化诱发的非药物公共卫生干预全面抵制"
+            },
+            "r0": "2.8 - 3.4",
+            "threatLevel": {
+                "id": "RESISTENSI PROTOKOL KOMUNITAS MASIF",
+                "en": "CIVIL RESISTANCE TO EPIDEMIOLOGICAL HARMONIZATION",
+                "zh": "全国性公卫防疫协调机制遭基底抗拒"
+            },
+            "clinicalTarget": {
+                "id": "Penyebaran droplet di ruang ritel publik, kabin pesawat, dan sekolah",
+                "en": "Droplet and aerosol dispersion in retail spaces, aircraft cabins, and classrooms",
+                "zh": "商业零售场所、密闭机舱与校园内的无屏障气溶胶蔓延"
+            }
+        },
+        "description": {
+            "id": "Kain penutup hidung dan mulut yang sederhana menjelma menjadi instrumen perang budaya paling sengit di abad ke-21. Di gerai ritel Costco, pesawat komersial, dan gedung dewan sekolah, adu jotos dan makian meletus setiap hari antara mereka yang menegakkan kewajiban masker demi solidaritas komunal versus warga yang memandangnya sebagai tirani pelanggaran hak asasi individu. Perbedaan sikap terhadap protokol kesehatan bukan lagi masalah sains, melainkan deklarasi loyalitas politik yang membelah keluarga dan komunitas.",
+            "en": "A modest rectangle of non-woven polypropylene transformed into the defining battleground of American culture. In grocery checkout aisles, aircraft cabins, and municipal school board hearings, violent verbal brawls erupted daily between citizens enforcing mandates for public welfare and those viewing facial coverings as government tyranny. Adherence to basic infection control was stripped of empirical science, degenerating into a tribal litmus test.",
+            "zh": "一块简易的无纺布外科口罩，异化为21世纪美国最激烈的文化战场。在超市收款台、客机客舱以及学区听证会上，因强制佩戴口罩引发的口角与肢体冲突层出不穷。坚持群体防护被视为‘守望相助’，而拒绝蒙面则被高呼为‘不可剥夺的宪法自由’。一项基础的流行病学阻断措施，彻底堕落为划分政治阵营的图腾。"
+        },
+        "image": "/assets/images/covid-19/us/10-mask-protest-rally.jpg"
+    },
+    {
+        "id": "us-11-side-michigan-capitol-siege",
+        "chapterNumber": "INTERLUDE III",
+        "type": "side_story",
+        "title": {
+            "id": "Senapan di Balik Pintu Senat: Pengepungan Capitol Michigan",
+            "en": "Rifles at the Senate Door: The Armed Siege of the Michigan Capitol",
+            "zh": "参议院门前的枪膛：密歇根议会大厦武装对峙"
+        },
+        "date": {
+            "id": "30 April 2020",
+            "en": "April 30, 2020",
+            "zh": "2020年4月30日"
+        },
+        "strain": "Militia Mobilization & Anti-Lockdown Fervor",
+        "flash": {
+            "id": "ESKALASI BERSENJATA: Milisi bersenjata senapan semi-otomatis AR-15 menerobos masuk gedung parlemen negara bagian.",
+            "en": "PARAMILITARY INTRUSION: Armed militia bearing tactical rifles surge into the Lansing Statehouse during debate.",
+            "zh": "武装逼宫：重装民兵荷枪实弹涌入兰辛州议会大厅，枪口对准正在辩论封控法案的议员。"
+        },
+        "virusProfile": {
+            "code": "PARAMILITARY INSURGENT THREAT",
+            "mutationType": {
+                "id": "Konfrontasi Bersenjata Melawan Peraturan Karantina Wilayah",
+                "en": "Armed Escalation Targeting Quarantine Statutory Powers",
+                "zh": "针对行政封控隔离权力的武装威慑升级"
+            },
+            "r0": "Disrupsi Kebijakan Sipil",
+            "threatLevel": {
+                "id": "ANCAMAN KESTABILAN PEMERINTAHAN SIPIL",
+                "en": "CIVIL GOVERNANCE BREAKDOWN VECTOR",
+                "zh": "州级立法机关宪政运作受阻危机"
+            },
+            "clinicalTarget": {
+                "id": "Pembatalan paksa dekrit darurat kesehatan negara bagian",
+                "en": "Forced nullification of state executive public health emergency declarations",
+                "zh": "强行迫使州政府废止突发公共卫生紧急状态行政令"
+            }
+        },
+        "description": {
+            "id": "Ratusan pengunjuk rasa anti-karantina, banyak di antaranya mengenakan rompi taktis antipeluru dan menentang senapan serbu semi-otomatis AR-15, menyerbu masuk ke dalam gedung Capitol di Lansing, Michigan. Mereka menggedor pintu kayu ruang sidang senat, meneriaki polisi parlemen dari jarak beberapa inci tanpa masker, dan menuntut Gubernur Gretchen Whitmer dicopot dari jabatannya karena memberlakukan pembatasan wilayah. Peristiwa ini menjadi lonceng peringatan bahwa krisis pandemi telah bergeser menjadi bara instabilitas keamanan dalam negeri.",
+            "en": "Hundreds of heavily armed demonstrators, clad in body armor and bearing semi-automatic tactical rifles, stormed the Michigan State Capitol in Lansing. They banged on the locked wooden doors of the Senate floor, screaming inches from unmasked state troopers' faces, demanding an immediate end to Governor Gretchen Whitmer's executive stay-at-home orders. The standoff signaled a dark inflection: public health mandates were morphing into armed domestic brinkmanship.",
+            "zh": "数百名身穿防弹背心、肩挎AR-15半自动步枪的武装示威者冲破安检，涌入密歇根州首府兰辛议会大厦。他们猛砸参议院木质厚门，未戴口罩的咆哮面孔逼近州警鼻尖，声嘶力竭要求撤销州长惠特默的居家封控令。这场武装对峙向全美鸣响了凶险警报：流行病学危机已正式质变为荷枪实弹的宪政内乱隐患。"
+        },
+        "image": "/assets/images/covid-19/us/11-michigan-capitol-protest.jpg"
+    },
+    {
+        "id": "us-12-summer-protests-confluence",
+        "chapterNumber": "09",
+        "type": "standard",
+        "title": {
+            "id": "Musim Panas yang Membara: Demonstrasi Jalanan di Tengah Wabah",
+            "en": "The Fiery Summer: Streets in Confluence of Plague and Protest",
+            "zh": "燃烧的盛夏：大疫与街头正义风暴的历史交汇"
+        },
+        "date": {
+            "id": "Juni - Agustus 2020",
+            "en": "June - August 2020",
+            "zh": "2020年6月 - 8月"
+        },
+        "strain": "SARS-CoV-2 (Clade 20A / Summer Surge)",
+        "flash": {
+            "id": "DUKACITA GANDA: Jutaan warga turun ke jalan memprotes kebrutalan polisi usai kematian George Floyd.",
+            "en": "DUAL CONFLICT: Millions flood urban avenues protesting systemic racial injustice amidst high contagion.",
+            "zh": "双重呐喊：弗洛伊德之死引发全美百城历史性街头示威，公卫封控与民权抗争迎头对撞。"
+        },
+        "virusProfile": {
+            "code": "MASS CIVIC DEMONSTRATION DISPERSAL",
+            "mutationType": {
+                "id": "Aerosolisasi Udara Terbuka Skala Jutaan Massa",
+                "en": "Open-Air Aerosol Dynamic Across Multimillion Participant Marches",
+                "zh": "百万人级户外密集游行与催泪瓦斯刺激诱发的呼吸道扩散"
+            },
+            "r0": "2.2 - 2.5 (Teredam Sirkulasi Udara Terbuka)",
+            "threatLevel": {
+                "id": "KONVERGENSI KRISIS SOSIAL & BIOLOGIS",
+                "en": "CIVIC UNREST AND EPIDEMIOLOGICAL CONFLUENCE",
+                "zh": "社会正义冲突与传染病学大爆发之历史性交织"
+            },
+            "clinicalTarget": {
+                "id": "Iritasi mukosa akibat gas air mata yang memperparah transmisi batuk",
+                "en": "Mucosal chemical irritation from tear gas accelerating cough dispersion",
+                "zh": "催泪瓦斯引发剧烈咳嗽并破坏呼吸道黏膜防御屏障"
+            }
+        },
+        "description": {
+            "id": "Kematian tragis George Floyd di Minneapolis melepaskan amarah publik yang telah terpendam selama berbulan-bulan di balik tembok isolasi. Dari New York hingga Los Angeles, jutaan demonstran mengenakan masker hitam memadati jalan-jalan kota, berlutut, dan meneriakkan keadilan rasial di bawah kepulan gas air mata polisi dan kobaran api etalase toko. Para epidemiolog dihadapkan pada dilema moral luar biasa: mengakui urgensi protes hak asasi manusia sembari berdebar menyaksikan runtuhnya jarak fisik di tengah pandemi yang belum teratasi.",
+            "en": "The murder of George Floyd ignited an unprecedented eruption of civic rage bottled up through months of isolation. From Minneapolis to Manhattan, millions marched shoulder-to-shoulder wearing black cloth masks, chanting for racial justice amidst clouds of law-enforcement tear gas and flaming storefronts. Public health scholars confronted an extraordinary moral paradox: validating the structural imperative of anti-racism while anxiously tracking the erosion of physical distancing.",
+            "zh": "乔治·弗洛伊德之死引爆了在数月隔离高压下积压已久的全国性怒火。从明尼阿波利斯到西海岸，数百万头戴黑色口罩的示威者并肩涌上街头，在催泪烟雾与闪烁警灯下高呼种族正义。公卫学界面临空前伦理拉扯：一边声援反抗种族不公的历史必然性，一边胆战心惊地注视着物理社交距离的彻底失效。"
+        },
+        "image": "/assets/images/covid-19/us/12-summer-blm-march.jpg"
+    },
+    {
+        "id": "us-13-operation-warp-speed",
+        "chapterNumber": "10",
+        "type": "milestone",
+        "title": {
+            "id": "Kecepatan Cahaya: Mukjizat Rekor Vaksin mRNA",
+            "en": "Operation Warp Speed: The Sub-Year mRNA Breakthrough",
+            "zh": "曲率极速行动：年内攻克mRNA疫苗的科学奇迹"
+        },
+        "date": {
+            "id": "Mei - Desember 2020",
+            "en": "May - December 2020",
+            "zh": "2020年5月 - 12月"
+        },
+        "strain": "Synthetic Modified mRNA-1273 & BNT162b2",
+        "flash": {
+            "id": "REKOR BIOTEKNOLOGI: Kemitraan publik-swasta menggelontorkan $18 miliar; vaksin lahir dalam tempo 300 hari.",
+            "en": "BIOTECH HORIZON: Public-private crash program deploys $18 billion to forge viable mRNA vaccines in under 300 days.",
+            "zh": "生科登月：联邦注资180亿美元力推公私合营，仅用300天便将核酸疫苗推向量产临界点。"
+        },
+        "virusProfile": {
+            "code": "SYNTHETIC SPIKE COUNTERMEASURE",
+            "mutationType": {
+                "id": "Platform mRNA Berbasis Lipid Nanoparticle (LNP)",
+                "en": "Lipid Nanoparticle-Encapsulated Pseudouridine mRNA Vector",
+                "zh": "脂质纳米颗粒包裹修饰性mRNA中和抗体靶向工程"
+            },
+            "r0": "Efikasi Awal 95% Melawan Strain Leluhur",
+            "threatLevel": {
+                "id": "SENJATA INTERVENSI BIOLOGIS UTAMA",
+                "en": "PRIMARY BIOTECHNOLOGICAL INTERVENTION ASSET",
+                "zh": "终结全球流行之决定性合成生物学利器"
+            },
+            "clinicalTarget": {
+                "id": "Induksi sel limfosit B & T untuk netralisasi protein spike",
+                "en": "Humoral and cellular immune induction targeting full-length spike glycoprotein",
+                "zh": "诱导强效体液免疫与细胞免疫精准锚定S刺突糖蛋白"
+            }
+        },
+        "description": {
+            "id": "Di bawah payung 'Operation Warp Speed', militer Amerika Serikat dan raksasa bioteknologi meluncurkan proyek sains termahal sejak Manhattan Project. Menghilangkan birokrasi konvensional, uji klinis fase 3 dan proses produksi massal dijalankan secara paralel. Pada November 2020, data klinis Pfizer-BioNTech dan Moderna mengungkap efikasi mencengangkan hingga 95%. Pada 14 Desember, Sandra Lindsay, seorang perawat ICU di New York, menjadi orang Amerika pertama yang menerima suntikan vaksin di depan kamera siaran langsung nasional.",
+            "en": "Under Operation Warp Speed, the federal government and biotech giants orchestrated the most aggressive medical mobilization since the Apollo program. By producing candidate vials in parallel with Phase 3 clinical efficacy trials, development cycles were compressed from ten years to ten months. In November 2020, Pfizer and Moderna announced a staggering 95% efficacy, and on December 14, Queens ICU nurse Sandra Lindsay received the nation's historic first jab on live television.",
+            "zh": "在‘曲率极速行动’框架下，联邦防务体系与生物制药先驱启动了堪比曼哈顿工程的极限攻关。打破数十年研发官僚惯例，三期临床与工业级量产流水线同步压茬推进。辉瑞与Moderna相继交出95%保护效力的惊人答卷。12月14日，纽约ICU护士桑德拉·林赛在全美直播下挽起袖管，成为首位载入史册的接种者。"
+        },
+        "image": "/assets/images/covid-19/us/13-first-vaccine-injection.jpg"
+    },
+    {
+        "id": "us-14-side-rose-garden-superspreader",
+        "chapterNumber": "INTERLUDE IV",
+        "type": "side_story",
+        "title": {
+            "id": "Badai di Taman Mawar: Klaster Infeksi Gedung Putih",
+            "en": "The Rose Garden Cluster: Contagion at the Seat of Power",
+            "zh": "玫瑰园风暴：最高权力中枢的超级传播事件"
+        },
+        "date": {
+            "id": "September - Oktober 2020",
+            "en": "September - October 2020",
+            "zh": "2020年9月 - 10月"
+        },
+        "strain": "SARS-CoV-2 Clade 20C (Beltway Outbreak)",
+        "flash": {
+            "id": "INFEKSI ISTANA: Upacara nominasi Mahkamah Agung tanpa masker menjangkiti presiden, senator, dan ajudan militer.",
+            "en": "EXECUTIVE OUTBREAK: Maskless Supreme Court ceremony infects the Commander-in-Chief and top senators.",
+            "zh": "中枢沦陷：无防护最高法院大法官提名典礼引发连环感染，总统与多位核心幕僚紧急入院。"
+        },
+        "virusProfile": {
+            "code": "HIGH-PROFILE INSTITUTIONAL EXPOSURE",
+            "mutationType": {
+                "id": "Transmisi VIP Tanpa Masker di Lingkaran Tertutup",
+                "en": "Close-Quarter Unmasked Elite Superspreading",
+                "zh": "特权精英无防护社交圈内之超级传播扩散"
+            },
+            "r0": "Transmisi Ruang VIP Padat",
+            "threatLevel": {
+                "id": "GANGGUAN KELANGSUNGAN KEKUASAAN NEGARA",
+                "en": "CONTINUITY OF GOVERNMENT STRATEGIC THREAT",
+                "zh": "国家行政与防务指挥链连续性突发危机"
+            },
+            "clinicalTarget": {
+                "id": "Pemberian terapi antibodi monoklonal eksperimental darurat",
+                "en": "Emergency compassionate deployment of synthetic monoclonal antibody cocktails",
+                "zh": "紧急同情用药方案之实验性单克隆抗体鸡尾酒冲击疗法"
+            }
+        },
+        "description": {
+            "id": "Pada 26 September 2020, ratusan pejabat tinggi negara berkumpul tanpa masker di Taman Mawar Gedung Putih untuk merayakan nominasi Hakim Agung Amy Coney Barrett. Dalam hitungan hari, virus menyusup ke jantung komando negara: Presiden Donald Trump dilarikan ke Pusat Medis Militer Walter Reed dengan helikopter Marine One usai mengalami saturasi rendah dan demam tinggi. Tiga senator federal, Ibu Negara, dan sekretaris pers terkonfirmasi positif, membuktikan virus tidak mengenal garis perbatasan maupun barikade Secret Service.",
+            "en": "On September 26, 2020, hundreds of top officials gathered maskless shoulder-to-shoulder in the Rose Garden to celebrate a Supreme Court nomination. Within days, the virus breached the inner sanctuary of the republic: President Donald Trump was airlifted via Marine One to Walter Reed National Military Medical Center suffering from declining oxygen saturation and high fever. The outbreak swept the Cabinet, exposing the absolute vulnerability of political exceptionalism.",
+            "zh": "2020年9月26日，数百名政界要员未戴口罩齐聚白宫玫瑰园，共庆最高法院大法官提名盛典。数日之内，病毒长驱直入击溃特勤安保屏障：总统因血氧骤降伴随高烧，被‘海军陆战队一号’直升机紧急转运至沃尔特·里德国家军事医疗中心。多位参议员及白宫新闻官接连确诊，特权神话在自然法则面前苍白无力。"
+        },
+        "image": "/assets/images/covid-19/us/14-rose-garden-gathering.jpg"
+    },
+    {
+        "id": "us-15-winter-darkness-surge",
+        "chapterNumber": "11",
+        "type": "standard",
+        "title": {
+            "id": "Musim Dingin yang Kelam: Tsunami Kasus Akhir Tahun",
+            "en": "The Dark Winter: America's Most Lethal Seasonal Peak",
+            "zh": "至暗寒冬：单日死亡破四千的岁末灾难高峰"
+        },
+        "date": {
+            "id": "Desember 2020 - Januari 2021",
+            "en": "December 2020 - January 2021",
+            "zh": "2020年12月 - 2021年1月"
+        },
+        "strain": "SARS-CoV-2 (Lineage B.1.2 & Early Alpha Ingress)",
+        "flash": {
+            "id": "PUNCAK MAUT: Kematian harian tembus 4.000 jiwa per hari usai libur Thanksgiving dan Natal.",
+            "en": "MORTALITY ZENITH: Daily fatalities cross 4,000 following holiday travel and winter family gatherings.",
+            "zh": "死亡天花板：感恩节与圣诞节人员流动引发致命反扑，单日因疫阵亡人数突破四千关口。"
+        },
+        "virusProfile": {
+            "code": "HOLIDAY MOBILITY ACCELERATION",
+            "mutationType": {
+                "id": "Transmisi Klaster Domestik Ruang Berpemanas Musim Dingin",
+                "en": "Heated Indoor Gathering Spread During Extreme Winter Mobility",
+                "zh": "极寒季密闭供暖空间聚会引发的全域共振裂变"
+            },
+            "r0": "3.5",
+            "threatLevel": {
+                "id": "REKOR FATALITAS HARIAN TERTINGGI SEPANJANG MASA",
+                "en": "ALL-TIME PEAK DOMESTIC MORTALITY CRISIS",
+                "zh": "全美有记录以来单日超额死亡历史顶峰"
+            },
+            "clinicalTarget": {
+                "id": "Kolaps serentak kapasitas ICU di pedesaan hingga kota metropolitan",
+                "en": "Simultaneous ICU saturation across both rural clinics and urban medical centers",
+                "zh": "乡村基层诊所与超大都市三甲重症监护资源全线挤兑"
+            }
+        },
+        "description": {
+            "id": "Peringatan para ilmuwan tentang datangnya 'Musim Dingin yang Kelam' menjadi kenyataan pahit. Jutaan warga tetap memadati bandara demi reuni libur Thanksgiving dan Natal. Akibatnya, kurva infeksi meroket tajam tanpa ampun: pada Januari 2021, Amerika mencatat lebih dari 4.000 kematian setiap 24 jam—setara dengan satu peristiwa 9/11 setiap harinya. Di California Selatan, ambulans terpaksa mengantre 8 jam di pelataran parkir IGD hanya untuk menurunkan pasien yang sekarat kehabisan tabung oksigen.",
+            "en": "Epidemiological warnings of an impending 'Dark Winter' materialized with brutal certainty. Millions defied federal travel advisories to celebrate Thanksgiving and Christmas. In January 2021, the slaughter reached 4,000 Americans dying every 24 hours—a daily casualty rate eclipsing September 11th. In Los Angeles, paramedics were ordered to ration therapeutic oxygen and wait up to eight hours in parking bays just to offload gasping patients.",
+            "zh": "公卫专家反复警告的‘至暗寒冬’在岁末如期而至。数以百万计的民众无视劝阻，在感恩节与圣诞节涌入拥挤的航站楼。灾难随即在全美引爆：2021年1月，每日死亡人数狂飙突破四千人，其惨烈程度相当于每天都在经历一次9/11事件。在南加州，救护车在急诊室外排队八小时仅为等待空置吸氧点。"
+        },
+        "image": "/assets/images/covid-19/us/15-dark-winter-icu.jpg"
+    },
+    {
+        "id": "us-16-mass-vax-sites",
+        "chapterNumber": "12",
+        "type": "standard",
+        "title": {
+            "id": "Benteng Harapan: Stadion Raksasa Jadi Sentra Vaksinasi",
+            "en": "Cathedrals of Inoculation: Mass Vaccination in Stadium Megasites",
+            "zh": "免疫巨构：洛杉矶道奇球场与全美巨型接种中心"
+        },
+        "date": {
+            "id": "Januari - Mei 2021",
+            "en": "January - May 2021",
+            "zh": "2021年1月 - 5月"
+        },
+        "strain": "Universal Vaccine Rollout Phase",
+        "flash": {
+            "id": "LOGISTIK MILITER: Dodger Stadium dan Disneyland disulap jadi jalur drive-thru 10.000 dosis per hari.",
+            "en": "MASS LOGISTICS: Iconic stadiums and theme park parking lots converted to 10,000-dose-per-day drive-thrus.",
+            "zh": "工业化铺开：道奇体育场与迪士尼巨型停车场变身日均接种万剂的免下车免疫阵地。"
+        },
+        "virusProfile": {
+            "code": "MASS IMMUNIZATION DRIVE",
+            "mutationType": {
+                "id": "Imunisasi Skala Besar Menekan Strain Primitif",
+                "en": "Rapid Population Neutralization of Wild-Type and Alpha Variants",
+                "zh": "以高密度群体中和抗体阻击原始株及早期Alpha株"
+            },
+            "r0": "Ditekan Turun ke < 0.8 pada Komunitas Tervaksinasi Penuh",
+            "threatLevel": {
+                "id": "PERANG LOGISTIK RANTAI DINGIN ULTRA-RENDAH",
+                "en": "ULTRA-COLD CHAIN LOGISTICAL DEPLOYMENT",
+                "zh": "零下70度超低温冷链储运与现场调配极限"
+            },
+            "clinicalTarget": {
+                "id": "Pencapaian herd immunity dan pencegahan rawat inap parah",
+                "en": "Aggressive prevention of clinical hospitalization and severe mortality endpoints",
+                "zh": "构筑群体免疫屏障与彻底斩断危重症住院转化率"
+            }
+        },
+        "description": {
+            "id": "Logistik militer FEMA dan Garda Nasional bergerak mendirikan sentra vaksinasi massal terbesar di dunia. Lahan parkir raksasa Stadion Dodger di Los Angeles, arena bisbol, dan sirkuit balap mobil disulap menjadi lorong-lorong drive-thru berjejer ratusan mobil. Warga mengantre mendengarkan radio lokal sambil menggulung lengan kaus mereka di jendela mobil. Dengan jutaan dosis disuntikkan setiap hari, musim semi 2021 menyalakan harapan bahwa perang melawan pandemi akhirnya akan segera dimenangkan.",
+            "en": "FEMA and National Guard logistics forged the largest domestic mass vaccination grid in history. The sprawling tarmac of Dodger Stadium in Los Angeles, motor speedways, and convention arenas transformed into labyrinthine drive-thru corridors processing ten thousand vehicles daily. Motorists queued with families, rolling down windows to the sound of local radio broadcasts. Delivering three million doses daily, spring 2021 sparked genuine euphoria that the long siege was ending.",
+            "zh": "联邦紧急事务管理局（FEMA）与国民警卫队联手搭建起全美史上最庞大的免下车接种网络。洛杉矶道奇体育场无垠的沥青停车场与各州赛车场，被分隔成由数百个遮阳篷构成的流动流水线。民众在车载电台广播声中摇下车窗、挽起衣袖。单日破三百万剂的注射速度，让2021年的春光中激荡着胜利即将来临的乐观情绪。"
+        },
+        "image": "/assets/images/covid-19/us/16-dodger-stadium-vaccine.jpg"
+    },
+    {
+        "id": "us-17-side-ivermectin-infodemic",
+        "chapterNumber": "INTERLUDE V",
+        "type": "side_story",
+        "title": {
+            "id": "Ilusi Obat Cacing: Demam Ivermectin & Toko Hewan Ternak",
+            "en": "The Horse Paste Delusion: The Ivermectin Infodemic Wave",
+            "zh": "马药狂想曲：伊维菌素狂潮与农牧兽药店的脱销假象"
+        },
+        "date": {
+            "id": "Agustus - Oktober 2021",
+            "en": "August - October 2021",
+            "zh": "2021年8月 - 10月"
+        },
+        "strain": "Digital Disinformation Amplification",
+        "flash": {
+            "id": "KEGILAAN ALGORITMA: Warga memborong pasta antiparasit ternak usai disinformasi media sosial merebak.",
+            "en": "ALGORITHMIC DELUSION: Citizens clear farm supply shelves for equine antiparasitic paste over FDA-approved vaccines.",
+            "zh": "算法失控：大批网民听信社交媒体偏方，洗劫农牧兽药店的马用抗寄生虫膏药抵制正规疫苗。"
+        },
+        "virusProfile": {
+            "code": "PSEUDOSCIENTIFIC FOLKLORE INGRESS",
+            "mutationType": {
+                "id": "Kecemasan Vaksin Dieksploitasi Teori Konspirasi",
+                "en": "Exploitation of Vaccine Hesitancy via Alternative Therapeutics",
+                "zh": "替代疗法狂热借由网络阴谋论吞噬科学共识"
+            },
+            "r0": "Penularan Narasi Palsu",
+            "threatLevel": {
+                "id": "KERACUNAN MASSAL OBAT VETERINER",
+                "en": "ACUTE VETERINARY TOXICITY CONTAMINATION",
+                "zh": "大剂量兽用非处方制剂滥用导致的系统性急性中毒"
+            },
+            "clinicalTarget": {
+                "id": "Gagal hati akut, kebutaan sementara, dan keracunan neurotoksik",
+                "en": "Acute hepatic dysfunction, visual distortions, and neurotoxic overdose",
+                "zh": "急性肝功能衰竭、视神经受损与中枢神经毒性反应"
+            }
+        },
+        "description": {
+            "id": "Di tengah kecurigaan mendalam terhadap vaksin resmi pemerintah, sebuah rumor liar meledak di grup Facebook dan siniar populer: obat anti-parasit ternak Ivermectin diklaim sebagai obat mujarab rahasia penakluk COVID-19. Rak-rak pakan ternak di toko perdesaan ludes diserbu warga yang panik meminum pasta obat cacing kuda dosis tinggi. Pusat Informasi Keracunan dibanjiri telepon pasien yang mengalami gangguan penglihatan dan muntah darah, memaksa FDA mengeluarkan peringatan resmi bersejarah di media sosial: 'Anda bukan kuda. Anda bukan sapi. Hentikan!'.",
+            "en": "Driven by profound institutional cynicism, a runaway narrative ricocheted across social forums and podcasts: the veterinary antiparasitic drug Ivermectin was hailed as a suppressed cure. Agricultural feed stores found shelves stripped clean as terrified individuals ingested concentrated equine dewormer pastes. Poison control call volumes spiked astronomically with patients suffering hallucinations and liver damage, prompting the FDA's viral plea: 'You are not a horse. You are not a cow. Seriously, y'all. Stop it.'",
+            "zh": "在对主流医疗建制的深重猜忌下，一则荒诞谣言在播客与社交群组病毒式发酵：兽用抗寄生虫药伊维菌素被奉为被‘医药巨头隐瞒的真正神药’。全美乡村饲料店货架上的高剂量马用驱虫膏被抢购一空。各地中毒控制中心被因吞服兽药导致视物模糊、剧烈呕吐的患者打爆，迫使FDA在官方推特写下名句：‘你不是马。你不是牛。说真的，大家都别吃了。’"
+        },
+        "image": "/assets/images/covid-19/us/17-ivermectin-farm-store.jpg"
+    },
+    {
+        "id": "us-18-delta-southern-surge",
+        "chapterNumber": "13",
+        "type": "standard",
+        "title": {
+            "id": "Badai di Sabuk Alkitab: Varian Delta Menghantam Selatan",
+            "en": "Southern Crucible: Delta Ravages the Unvaccinated Sunbelt",
+            "zh": "圣经带风暴：德尔塔撕裂低接种率的阳光地带"
+        },
+        "date": {
+            "id": "Juli - September 2021",
+            "en": "July - September 2021",
+            "zh": "2021年7月 - 9月"
+        },
+        "strain": "Varian Delta (B.1.617.2 / Lineage AY)",
+        "flash": {
+            "id": "PANDEMI ORANG BELUM DIVAKSIN: Varian Delta membantai wilayah dengan tingkat vaksinasi rendah di Texas, Florida, dan Alabama.",
+            "en": "PANDEMIC OF THE UNVACCINATED: Delta cuts a merciless path through low-uptake enclaves in the South.",
+            "zh": "未接种者之殇：极度致命的德尔塔毒株血洗佛罗里达与德克萨斯低疫苗接种率堡垒。"
+        },
+        "virusProfile": {
+            "code": "VOC DELTA (B.1.617.2)",
+            "mutationType": {
+                "id": "Viral Load 1.000 Kali Lebih Pekat & Penetrasi Cepat",
+                "en": "L452R and P681R Spike Mutations Producing 1,000x Viral Loads",
+                "zh": "刺突蛋白突变带来千倍级鼻咽喉排毒载量与极速肺部浸润"
+            },
+            "r0": "6.0 - 7.0",
+            "threatLevel": {
+                "id": "KRISIS TEMPAT TIDUR ICU REGIONAL TOTAL",
+                "en": "REGIONAL CRITICAL CARE COLLAPSE",
+                "zh": "区域性重症监护ICU床位绝对枯竭"
+            },
+            "clinicalTarget": {
+                "id": "Kematian mendadak usia muda produktif non-vaksinasi",
+                "en": "Severe respiratory arrest in younger, unvaccinated working-age cohorts",
+                "zh": "未接种疫苗的中青年中坚群体急性不可逆肺纤维化"
+            }
+        },
+        "description": {
+            "id": "Ilusi bahwa vaksin telah mengakhiri pandemi hancur lebur saat varian Delta menyerang. Di negara-negara bagian selatan seperti Florida, Texas, dan Mississippi—di mana penolakan terhadap vaksin sangat tinggi—rumah sakit mengalami kepenuhan paling parah sepanjang sejarah. Pasien berusia 30-an dan 40-an tahun yang sebelumnya bugar memohon disuntik vaksin saat selang intubasi hendak dimasukkan ke tenggorokan mereka, memaksa para dokter menyampaikan kenyataan getir: 'Semuanya sudah terlambat'.",
+            "en": "The early summer euphoria of a pandemic conquered shattered upon Delta's arrival. Across the conservative Sunbelt—Florida, Texas, and Alabama—where vaccine rejection remained fierce, hospital systems suffered catastrophic insolvency. Unvaccinated patients in their thirties and forties, clutching emergency staff's gowns, begged for vaccinations moments before intubation tubes were driven down their airways, only to receive the tragic reply: 'It is too late.'",
+            "zh": "盛夏的解脱幻象在凶猛的德尔塔浪潮前粉身碎骨。在疫苗接种率低迷的南部阳光地带（佛罗里达、德克萨斯等），医院遭遇了建院以来最恐怖的超载。三十多岁、无基础病的年轻未接种者在插管前夕颤抖着拉住医生的衣角乞求补种疫苗，得到的却是痛彻心扉的叹息：‘太迟了，孩子，现在已经太迟了。’"
+        },
+        "image": "/assets/images/covid-19/us/18-delta-southern-surge.jpg"
+    },
+    {
+        "id": "us-19-omicron-vertical-wall",
+        "chapterNumber": "14",
+        "type": "milestone",
+        "title": {
+            "id": "Dinding Vertikal: Ledakan Sejuta Kasus Sehari Omicron",
+            "en": "The Vertical Wall: Omicron's Million-Case-a-Day Tsunami",
+            "zh": "垂直之墙：奥密克戎单日确诊破百万的超音速海啸"
+        },
+        "date": {
+            "id": "Desember 2021 - Februari 2022",
+            "en": "December 2021 - February 2022",
+            "zh": "2021年12月 - 2022年2月"
+        },
+        "strain": "Varian Omicron (B.1.1.529 / Lineage BA.1)",
+        "flash": {
+            "id": "REKOR DUNIA: Amerika mencatat lebih dari 1.000.000 infeksi baru dalam tempo 24 jam; sekolah dan maskapai lumpuh.",
+            "en": "GLOBAL RECORD: US surpasses 1,000,000 confirmed infections in a single day; schools and airlines freeze.",
+            "zh": "全球极值：全美单日新增确诊惊人突破100万大关，大批航班取消、学校停摆、社会机能近乎空转。"
+        },
+        "virusProfile": {
+            "code": "VOC OMICRON (BA.1)",
+            "mutationType": {
+                "id": "30+ Mutasi Spike dengan Immune Evasion Sempurna",
+                "en": "Over 30 Spike Mutations Delivering Extreme Humoral Immune Evasion",
+                "zh": "S蛋白30余处密集突变实现对既往抗体的极致免疫逃逸"
+            },
+            "r0": "9.0 - 12.0",
+            "threatLevel": {
+                "id": "TSUNAMI TRANSMISI HIPER-EKSPONENSIAL",
+                "en": "HYPER-EXPONENTIAL TRANSMISSION ONSLAUGHT",
+                "zh": "超音速级人群全面感染穿透"
+            },
+            "clinicalTarget": {
+                "id": "Bronkus saluran napas atas, demam mendadak, kelelahan akut",
+                "en": "Upper bronchial epithelium affinity, abrupt fever, universal workplace absenteeism",
+                "zh": "上呼吸道支气管嗜性倍增与全美劳动力大面积病休瘫痪"
+            }
+        },
+        "description": {
+            "id": "Tepat saat liburan musim dingin 2021, varian Omicron menghantam bagaikan dinding vertikal. Dengan lebih dari 30 mutasi pada protein spike-nya, virus ini meruntuhkan perlindungan antibodi dari vaksin awal dan infeksi sebelumnya. Pada 3 Januari 2022, Amerika mencatat lebih dari 1 juta infeksi baru hanya dalam satu hari. Meskipun tingkat keparahan per individu relatif lebih rendah dibanding Delta, volume kasus yang luar biasa kolosal membuat ribuan penerbangan dibatalkan, sekolah ditutup, dan staf medis tumbang terinfeksi massal.",
+            "en": "Entering winter 2021, the Omicron variant struck the nation like a vertical wall on epidemiological charts. Armed with over 30 mutations on its spike protein, it bypassed early monoclonal antibodies and vaccine-induced neutralizing titers. On January 3, 2022, the US recorded an unfathomable 1.08 million cases in 24 hours. The astronomical caseload knocked tens of thousands of healthcare workers and airline crews into quarantine, paralyzing daily life.",
+            "zh": "2021年深冬，奥密克戎变异株在流行病学曲线上画出了一道直插云霄的‘垂直之墙’。凭借刺突蛋白上的30多处变异，它无视了既往疫苗的中和屏障。2022年1月3日，全美单日报告感染者达创纪录的108万例。尽管单体致死率较德尔塔下降，但超乎想象的海量基数直接击溃了航运调度与学校运转，医护大面积缺勤使急诊再度告急。"
+        },
+        "image": "/assets/images/covid-19/us/19-omicron-vertical-wall.jpg"
+    },
+    {
+        "id": "us-20-one-million-flags",
+        "chapterNumber": "15",
+        "type": "milestone",
+        "title": {
+            "id": "Satu Juta Jiwa: Lautan Bendera Putih di National Mall",
+            "en": "One Million White Flags: The Monument to Unthinkable Loss",
+            "zh": "百万白旗：国家广场上的无声碑林"
+        },
+        "date": {
+            "id": "Mei 2022",
+            "en": "May 2022",
+            "zh": "2022年5月"
+        },
+        "strain": "The Official One Million Fatality Threshold",
+        "flash": {
+            "id": "ANGKA DUKACITA NASIONAL: Korban meninggal resmi menembus 1.000.000 jiwa; lonceng Katedral Washington berdentang 1.000 kali.",
+            "en": "TRAGIC APEX: Official US death toll crosses 1,000,000; Washington National Cathedral tolls its bells 1,000 times.",
+            "zh": "历史极点：官方统计新冠死亡人数正式突破100万大关，国家大教堂丧钟长鸣一千次致哀。"
+        },
+        "virusProfile": {
+            "code": "HISTORIC FATALITY THRESHOLD",
+            "mutationType": {
+                "id": "Akumulasi Korban Jiwa Terbesar dalam Sejarah Modern AS",
+                "en": "Cumulative Historical Mortality Surpassing All 20th Century Conflicts",
+                "zh": "超越美国20世纪所有对外战争阵亡总和之百年伤亡极值"
+            },
+            "r0": "Resolusi Epidemiologi Makro",
+            "threatLevel": {
+                "id": "TRAUMA SOSIAL & DEMOGRAFI PERMANEN",
+                "en": "PERMANENT SOCIAL AND DEMOGRAPHIC WOUND",
+                "zh": "国家级人口统计创伤与集体悲痛归档"
+            },
+            "clinicalTarget": {
+                "id": "Satu juta keluarga berduka dan krisis anak yatim pandemi",
+                "en": "Bereavement of one million households and generation of pandemic orphans",
+                "zh": "百万家庭永诀与数十万计大流行孤儿的长期社会救济"
+            }
+        },
+        "description": {
+            "id": "Pada Mei 2022, angka kematian resmi akibat COVID-19 di Amerika Serikat melintasi batas psikologis yang mengerikan: satu juta nyawa melayang—melampaui total gabungan seluruh prajurit Amerika yang gugur dalam Perang Dunia I, Perang Dunia II, dan Perang Vietnam. Di National Mall, Washington DC, hamparan rumput di bawah bayang-bayang Monumen Washington dipenuhi ratusan ribu bendera putih kecil yang berkibar tertiup angin sore. Setiap bendera mewakili satu jiwa yang hilang, menyuarakan duka mendalam peradaban yang membayar harga terlalu mahal.",
+            "en": "In May 2022, the official US COVID-19 death count crossed an agonizing marker: one million lives lost—eclipsing the total American combat casualties of World War I, World War II, and the Vietnam War combined. Across the National Mall, under the obelisk of the Washington Monument, artist Suzanne Brennan Firstenberg planted over 700,000 fluttering white flags in the grass. The vast geometric sea of cloth stood as a devastating testament to an unfathomable collective wound.",
+            "zh": "2022年5月，全美累计新冠死亡人数穿透了令人窒息的心理底线：100万条生命消逝——这一数字超过了一战、二战及越战中阵亡美军的总和。在华盛顿纪念碑脚下的国家广场上，数十万面细小的白色旗帜如海浪般在微风中摇曳，每一面旗帜都代表着一个消逝的鲜活生命，汇聚成人类文明史上最沉重的无声挽歌。"
+        },
+        "image": "/assets/images/covid-19/us/20-one-million-flags.jpg"
+    },
+    {
+        "id": "us-21-side-long-covid-ghosts",
+        "chapterNumber": "INTERLUDE VI",
+        "type": "side_story",
+        "title": {
+            "id": "Jeratan Tak Kasat Mata: Perjuangan Para Penyintas Long COVID",
+            "en": "The Invisible Tether: The Millions Trapped in Long COVID",
+            "zh": "无形枷锁：数百万长新冠患者的漫长幽暗岁月"
+        },
+        "date": {
+            "id": "2022 - 2023",
+            "en": "2022 - 2023",
+            "zh": "2022年 - 2023年"
+        },
+        "strain": "Post-Acute Sequelae of SARS-CoV-2 (PASC)",
+        "flash": {
+            "id": "LUKA TERSISA: Jutaan mantan pasien produktif tersingkir dari dunia kerja akibat kabut otak dan kelelahan kronis.",
+            "en": "LINGERING SHADOW: Millions of working Americans sidelined by debilitating brain fog, dysautonomia, and chronic exhaustion.",
+            "zh": "漫长余震：数百万曾经健康的劳动力因顽固脑雾、自主神经失调与极度疲劳被迫脱离社会轨道。"
+        },
+        "virusProfile": {
+            "code": "CHRONIC MULTI-ORGAN SEQUELAE",
+            "mutationType": {
+                "id": "Autoimun Pasca-Viral & Persistensi Reservoir Virus",
+                "en": "Post-Viral Autoimmunity, Microclots, and Viral Reservoir Persistence",
+                "zh": "病毒储库微量残留、微血栓形成与系统性自身免疫异常"
+            },
+            "r0": "Non-Menular (Patologi Kronis)",
+            "threatLevel": {
+                "id": "DISABILITAS SOSIAL & EKONOMI JANGKA PANJANG",
+                "en": "LONG-TERM SOCIOECONOMIC DISABILITY CRISIS",
+                "zh": "国家劳动力结构性长期慢性伤残危机"
+            },
+            "clinicalTarget": {
+                "id": "Sistem saraf otonom, sindrom POTS, penurunan memori kognitif",
+                "en": "Dysautonomia, postural orthostatic tachycardia syndrome, cognitive neuroinflammation",
+                "zh": "自主神经系统紊乱、直立性心动过速（POTS）与认知功能损伤"
+            }
+        },
+        "description": {
+            "id": "Saat masyarakat bergegas 'kembali ke normal' dan menanggalkan masker, jutaan warga Amerika mendapati diri mereka tertinggal dalam kegelapan. Dikenal secara klinis sebagai PASC atau Long COVID, sindrom pasca-infeksi ini merampas kebugaran atlet muda, profesional, dan guru: mereka berjuang melawan kabut otak (brain fog) yang membuat mereka lupa nama anak mereka, jantung berdegup kencang saat berdiri, dan kelelahan ekstrem setelah berjalan beberapa langkah. Penyakit ini menjadi saksi bisu bahwa virus korona meninggalkan jejak kerusakan kronis yang belum selesai.",
+            "en": "As society aggressively declared a return to normalcy and discarded masks, millions found themselves stranded in chronic physical impairment. Clinically classified as Post-Acute Sequelae of SARS-CoV-2 (PASC), Long COVID transformed marathon runners and corporate professionals into bedridden patients battling unrelenting neuro-inflammation, orthostatic tachycardia, and crushing fatigue. The silent epidemic proved that survival from the acute phase was not synonymous with recovery.",
+            "zh": "当全社会迫不及待地宣布‘重归正轨’并摘下口罩时，数百万美国人却被永远抛在漫长的病榻阴影中。长新冠（PASC）这一隐秘综合征无情夺走了年轻运动员与专业人士的体魄：浓重的脑雾让他们甚至瞬间遗忘亲人的名字，轻微站立便诱发心动过速与剧烈虚脱。这场无声的慢性危机向世界揭示：急性期生存绝不等于彻底治愈。"
+        },
+        "image": "/assets/images/covid-19/us/21-long-covid-clinic.jpg"
+    },
+    {
+        "id": "us-22-sector-usa-epilogue",
+        "chapterNumber": "16",
+        "type": "milestone",
+        "title": {
+            "id": "Epilog Sektor 03: Arsip Retakan Sebuah Negara Adidaya",
+            "en": "Sector 03 Debrief: The Fractured Superpower Dossier",
+            "zh": "03号扇区终局简报：撕裂超级大国的历史档案"
+        },
+        "date": {
+            "id": "Arsip Resmi CDC, HHS & Declassified Record",
+            "en": "CDC, HHS Official Archive & Declassified Historical Record",
+            "zh": "CDC、联邦卫生部官方解密历史归档"
+        },
+        "strain": "Rekapitulasi Krisis Epidemiologi Amerika Serikat 2020 - 2023",
+        "flash": {
+            "id": "BERKAS DITUTUP: Dari panti jompo Kirkland hingga satu juta bendera; duel antara puncak sains dan jurang perpecahan sosial.",
+            "en": "FILE CONCLUDED: From Kirkland to one million flags; a duel between peak biotechnology and systemic political tribalism.",
+            "zh": "档案解密封存：从柯克兰养老院到百万白旗长眠；顶尖生物科技与深重体制裂痕的世纪交锋。"
+        },
+        "virusProfile": {
+            "code": "RESOLVED SECTOR USA DOSSIER",
+            "mutationType": {
+                "id": "Evolusi Penuh SARS-CoV-2 di Populasi Adidaya Terpolarisasi",
+                "en": "Complete SARS-CoV-2 Trajectory Across a Polarized Superpower",
+                "zh": "高度极化大国社会结构下冠状病毒之完整演化周期"
+            },
+            "r0": "Endemisitas Terkelola Baru",
+            "threatLevel": {
+                "id": "PELAJARAN KETAHANAN PERADABAN GLOBAL",
+                "en": "GLOBAL CIVILIZATIONAL RESILIENCE ARCHIVE",
+                "zh": "全球现代文明韧性与制度反思历史镜鉴"
+            },
+            "clinicalTarget": {
+                "id": "Rekonsiliasi memori publik dan arsitektur kesiapsiagaan biologis",
+                "en": "Public collective reconciliation and modern biodefense infrastructure redesign",
+                "zh": "公众历史创伤平复与国家生物安全防御体系彻底重构"
+            }
+        },
+        "description": {
+            "id": "Dossier Sektor USA ditutup dengan refleksi mendalam tentang kerapuhan peradaban modern. Amerika Serikat membuktikan dirinya mampu melahirkan mukjizat sains paling revolusioner lewat vaksin mRNA dalam hitungan bulan, namun sekaligus memperlihatkan kerapuhan fatal saat disinformasi, polarisasi politik, dan ketidakpercayaan publik meruntuhkan protokol pertahanan bersama. Pandemi di Amerika bukan hanya pertempuran melawan kode genetik virus, melainkan ujian terberat terhadap jiwa dan persatuan sebuah bangsa.",
+            "en": "The Sector USA dossier concludes on a sober civilizational reflection. The United States engineered the most groundbreaking biotechnological triumph in modern history with Operation Warp Speed, yet proved profoundly vulnerable as institutional distrust, misinformation, and political polarization fractured the collective response. The American pandemic experience was not merely a clash with biological pathogen code, but an existential stress-test of democratic coherence.",
+            "zh": "美国扇区档案在对现代文明脆弱性的深沉反思中归档。美利坚合众国凭借极速研发的mRNA疫苗展现了人类科技的登峰造极，却在虚假信息、政治极化与机构信任瓦解的泥潭中付出了沉重代价。这场席卷全美的大流行不仅是一场与生化病毒代码的殊死搏斗，更是一场对国家认同与社会契约最严峻的世纪压力测试。"
+        },
+        "image": "/assets/images/covid-19/us/22-national-monument-twilight.jpg"
     }
 ]
