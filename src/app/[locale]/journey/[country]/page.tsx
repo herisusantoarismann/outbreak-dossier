@@ -15,10 +15,21 @@ interface JourneyPageProps {
 }
 
 export function generateStaticParams() {
-    return routing.locales.flatMap((locale) => [
-        { locale, country: "id" },
-        { locale, country: "idn" },
-    ]);
+    const countries = [
+        "id",
+        "idn",
+        "cn",
+        "chn",
+        "it",
+        "ita",
+        "us",
+        "usa",
+        "in",
+        "ind",
+    ];
+    return routing.locales.flatMap((locale) =>
+        countries.map((country) => ({ locale, country })),
+    );
 }
 
 export default async function JourneyPage({ params }: JourneyPageProps) {
@@ -29,18 +40,44 @@ export default async function JourneyPage({ params }: JourneyPageProps) {
         notFound();
     }
 
-    // Route validation: currently supporting Indonesia ('id' or 'idn')
-    if (normalizedCountry !== "id" && normalizedCountry !== "idn") {
+    const isChina = normalizedCountry === "cn" || normalizedCountry === "chn";
+    const isIndonesia =
+        normalizedCountry === "id" || normalizedCountry === "idn";
+    const isItaly = normalizedCountry === "it" || normalizedCountry === "ita";
+    const isUS = normalizedCountry === "us" || normalizedCountry === "usa";
+    const isIndia = normalizedCountry === "in" || normalizedCountry === "ind";
+
+    if (!isChina && !isIndonesia && !isItaly && !isUS && !isIndia) {
         notFound();
     }
 
     setRequestLocale(locale);
 
     const t = await getTranslations({ locale, namespace: "scrollytelling" });
-    const chaptersModule =
-        locale === "en"
-            ? await import("@/data/pandemics/covid-19/en.json")
-            : await import("@/data/pandemics/covid-19/id.json");
+
+    let chaptersModule;
+    let classificationBadge = "CLASSIFIED RECON ARCHIVE // VOL. 01: COVID-19";
+
+    if (isChina) {
+        chaptersModule = await import("@/data/pandemics/covid-19/cn.json");
+        classificationBadge =
+            "CLASSIFIED RECON ARCHIVE // GROUND ZERO: WUHAN, CHINA";
+    } else if (isItaly) {
+        chaptersModule = await import("@/data/pandemics/covid-19/it.json");
+        classificationBadge =
+            "CLASSIFIED RECON ARCHIVE // EUROPEAN GROUND ZERO: ITALY";
+    } else if (isUS) {
+        chaptersModule = await import("@/data/pandemics/covid-19/us.json");
+        classificationBadge =
+            "CLASSIFIED RECON ARCHIVE // TRANSMISSION SPIKE: UNITED STATES";
+    } else if (isIndia) {
+        chaptersModule = await import("@/data/pandemics/covid-19/in.json");
+        classificationBadge = "CLASSIFIED RECON ARCHIVE // DELTA SURGE: INDIA";
+    } else {
+        chaptersModule = await import("@/data/pandemics/covid-19/id.json");
+        classificationBadge =
+            "CLASSIFIED RECON ARCHIVE // SOUTHEAST ASIA: INDONESIA";
+    }
     const chapters: Chapter[] = chaptersModule.default as unknown as Chapter[];
 
     return (
@@ -67,7 +104,7 @@ export default async function JourneyPage({ params }: JourneyPageProps) {
                         OUTBREAK DOSSIER
                     </span>
                     <span className="font-mono text-[9px] text-red-400 font-bold tracking-wider">
-                        CLASSIFIED RECON ARCHIVE // VOL. 01: COVID-19
+                        {classificationBadge}
                     </span>
                 </div>
 

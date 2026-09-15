@@ -19,7 +19,7 @@ const mockChapters: Chapter[] = [
             clinicalTarget: "Lungs",
         },
         description: "Mock description",
-        image: "/assets/images/01-loading-virus.jpg",
+        image: "/assets/images/covid-19/id/01-loading-virus.jpg",
     },
     {
         id: "02-evakuasi-natuna",
@@ -37,7 +37,7 @@ const mockChapters: Chapter[] = [
             clinicalTarget: "Lungs",
         },
         description: "Mock description",
-        image: "/assets/images/16-natuna-quarantine.jpg",
+        image: "/assets/images/covid-19/id/16-natuna-quarantine.jpg",
     },
     {
         id: "05-side-herbal-shield",
@@ -55,7 +55,7 @@ const mockChapters: Chapter[] = [
             clinicalTarget: "Psychological",
         },
         description: "Mock description",
-        image: "/assets/images/11-herbal-disinfectant.jpg",
+        image: "/assets/images/covid-19/id/11-herbal-disinfectant.jpg",
     },
     {
         id: "12-vaccine-breakthrough",
@@ -73,7 +73,7 @@ const mockChapters: Chapter[] = [
             clinicalTarget: "Antibodies",
         },
         description: "Mock description",
-        image: "/assets/images/05-vaccine-cure.jpg",
+        image: "/assets/images/covid-19/id/05-vaccine-cure.jpg",
     },
     {
         id: "21-omicron-lightning-wave",
@@ -91,7 +91,7 @@ const mockChapters: Chapter[] = [
             clinicalTarget: "Bronchus",
         },
         description: "Mock description",
-        image: "/assets/images/13-omicron-fever.jpg",
+        image: "/assets/images/covid-19/id/13-omicron-fever.jpg",
     },
     {
         id: "25-endemic-declaration",
@@ -109,7 +109,7 @@ const mockChapters: Chapter[] = [
             clinicalTarget: "Upper airway",
         },
         description: "Mock description",
-        image: "/assets/images/14-endemic-sunrise.jpg",
+        image: "/assets/images/covid-19/id/14-endemic-sunrise.jpg",
     },
 ];
 

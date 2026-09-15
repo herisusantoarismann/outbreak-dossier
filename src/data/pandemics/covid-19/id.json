@@ -1,470 +1,1200 @@
 [
-    {
-        "id": "01-wuhan-spillover",
-        "chapterNumber": "01",
-        "type": "milestone",
-        "title": "Titik Nol: Alarm dari Pasar Huanan",
-        "date": "Desember 2019 - Januari 2020",
-        "strain": "SARS-CoV-2 (Wuhan-Hu-1 / Clade L)",
-        "flash": "ALARM PERTAMA: Klaster pneumonia misterius di Tiongkok; pejabat tanah air masih melempar candaan.",
-        "virusProfile": {
-            "code": "WILD-TYPE (LINEAGE B)",
-            "mutationType": "Loncatan Zoonotik via Reseptor ACE2",
-            "r0": "2.2 - 2.7",
-            "threatLevel": "EMERGING GLOBAL PATHOGEN",
-            "clinicalTarget": "Pneumonia interstitial akut, sitokin awal"
-        },
-        "description": "Di bawah lensa mikroskop elektron Wuhan, virus corona berdiameter 100 nanometer teridentifikasi membajak sel saluran napas manusia. Ketika kabar ini meluas, pejabat publik di Jakarta berseloroh masyarakat Indonesia kebal karena rutin mengonsumsi nasi kucing dan terlindungi terik matahari tropis. Pintu kedatangan internasional tetap dibuka normal hanya dengan thermo-scanner formalitas, membiarkan patogen liar ini menyusup lewat penerbangan komersial internasional.",
-        "image": "/assets/images/01-loading-virus.jpg"
+  {
+    "id": "01-wuhan-spillover",
+    "chapterNumber": "01",
+    "type": "milestone",
+    "title": {
+      "id": "Titik Nol: Alarm dari Pasar Huanan",
+      "en": "Ground Zero: Alarm from Huanan Market",
+      "zh": "零号坐标：华南海鲜市场的警报"
     },
-    {
-        "id": "02-evakuasi-natuna",
-        "chapterNumber": "02",
-        "type": "standard",
-        "title": "Karantina Pulau Karang: Evakuasi Natuna",
-        "date": "Februari 2020",
-        "strain": "SARS-CoV-2 Lineage A/B",
-        "flash": "EVAKUASI: 243 WNI dipulangkan dari Wuhan; penolakan warga pecah di Natuna.",
-        "virusProfile": {
-            "code": "BORDER CONTAINMENT STRAIN",
-            "mutationType": "Isolasi Primer Pelaku Perjalanan Luar Negeri",
-            "r0": "2.5",
-            "threatLevel": "BORDER QUARANTINE HAZARD",
-            "clinicalTarget": "Inkubasi asimtomatik 14 hari"
-        },
-        "description": "Pesawat sewaan mendarat di Kepulauan Riau membawa ratusan mahasiswa dan keluarga yang dievakuasi langsung dari pusat karantina Wuhan. Langkah ini memicu unjuk rasa warga lokal yang cemas pulau mereka dijadikan tempat buangan wabah mematikan. Lokasi pangkalan militer disulap jadi barikade karantina tertutup di bawah penjagaan ketat bersenjata, menjadi gladi resik pertama bagi sistem karantina isolasi nasional.",
-        "image": "/assets/images/16-natuna-quarantine.jpg"
+    "date": {
+      "id": "Desember 2019 - Januari 2020",
+      "en": "December 2019 - January 2020",
+      "zh": "2019年12月 - 2020年1月"
     },
-    {
-        "id": "03-depok-patient-zero",
-        "chapterNumber": "03",
-        "type": "milestone",
-        "title": "Dua Garis Merah di Depok",
-        "date": "2 Maret 2020",
-        "strain": "SARS-CoV-2 Lineage B.1 (Clade G)",
-        "flash": "BREAKING: Pengumuman kepresidenan pecah; perburuan masker dan histeria massal dimulai.",
-        "virusProfile": {
-            "code": "LINEAGE B.1 (CLADE G)",
-            "mutationType": "Transmisi Kontak Erat Domestik",
-            "r0": "2.5",
-            "threatLevel": "COMMUNITY SPREAD CONFIRMED",
-            "clinicalTarget": "Anosmia mendadak, demam tinggi, malaise"
-        },
-        "description": "Siang hari itu, siaran pers dari Istana Negara seketika menghentikan rutinitas warga. Dua warga Depok dikonfirmasi positif usai berdansa dengan warga negara asing di sebuah kelab malam Jakarta. Dalam hitungan jam, kepanikan massal meledak. Rak supermarket ludes diborong warga yang menimbun beras, mi instan, dan tisu. Masker bedah mendadak langka dan harganya melambung gila-gilaan hingga ratusan ribu rupiah per kotak. Di gerbong KRL, satu suara batuk cukup untuk membuat seisi gerbong menjauh ketakutan.",
-        "image": "/assets/images/02-outbreak-spread.jpg"
+    "strain": "SARS-CoV-2 (Wuhan-Hu-1 / Clade L)",
+    "flash": {
+      "id": "ALARM PERTAMA: Klaster pneumonia misterius di Tiongkok; pejabat tanah air masih melempar candaan.",
+      "en": "FIRST ALARM: Cluster of mysterious pneumonia in China; domestic officials brush it off with jokes.",
+      "zh": "最初警报：中国惊现不明原因肺炎；印尼官员尚在谈笑风生。"
     },
-    {
-        "id": "04-jas-hujan-nakes",
-        "chapterNumber": "04",
-        "type": "milestone",
-        "title": "Garis Depan Rapuh: Baju Hazmat Jas Hujan Plastik",
-        "date": "Maret 2020",
-        "strain": "SARS-CoV-2 Spike D614G Emergence",
-        "flash": "DARURAT MEDIS: Stok APD nasional kosong; dokter bertaruh nyawa memakai jas hujan plastik.",
-        "virusProfile": {
-            "code": "HEALTHCARE WORKER HAZARD",
-            "mutationType": "Transmisi Nosokomial Tanpa Pelindung Standar",
-            "r0": "3.0 di Fasilitas Medis",
-            "threatLevel": "EXTREME MORTALITY AMONG DOCTORS",
-            "clinicalTarget": "Paparan viral load tinggi langsung ke paru-paru tenaga medis"
-        },
-        "description": "Ledakan pasien pertama menghantam fasilitas kesehatan yang sama sekali tidak siap. Stok pakaian hazmat standar medis dan masker N95 ludes dari pasar internasional. Di ruang instalasi gawat darurat, para dokter dan perawat terpaksa membalut tubuh menggunakan jas hujan plastik kresek seharga belasan ribu rupiah demi menolong pasien yang megap-megap. Belasan dokter gugur hanya dalam beberapa pekan pertama, menandai pengorbanan terberat dalam sejarah kedokteran tanah air.",
-        "image": "/assets/images/17-raincoat-doctors.jpg"
+    "virusProfile": {
+      "code": "WILD-TYPE (LINEAGE B)",
+      "mutationType": {
+        "id": "Loncatan Zoonotik via Reseptor ACE2",
+        "en": "Zoonotic Spillover via ACE2 Receptor",
+        "zh": "通过ACE2受体的人畜共患溢出"
+      },
+      "r0": "2.2 - 2.7",
+      "threatLevel": {
+        "id": "PATOGEN GLOBAL MUNCUL",
+        "en": "EMERGING GLOBAL PATHOGEN",
+        "zh": "新兴全球病原体威胁"
+      },
+      "clinicalTarget": {
+        "id": "Pneumonia interstitial akut, sitokin awal",
+        "en": "Acute interstitial pneumonia, early cytokine surge",
+        "zh": "急性间质性肺炎，早期细胞因子风暴"
+      }
     },
-    {
-        "id": "05-side-herbal-shield",
-        "chapterNumber": "INTERLUDE I",
-        "type": "side_story",
-        "title": "Benteng Herbal, Kalung Kayu Putih, & Berjemur Jam 10",
-        "date": "Maret - April 2020",
-        "strain": "Resistensi Kultural Akar Rumput",
-        "flash": "VIRAL: Pasar kehabisan jahe merah; jalan komplek dipenuhi warga berjemur jam 10 pagi.",
-        "virusProfile": {
-            "code": "CULTURAL FOLKLORE",
-            "mutationType": "Kearifan Lokal vs Kecemasan Kolektif",
-            "r0": "Viral di Ruang Digital",
-            "threatLevel": "INFORMATION NOISE",
-            "clinicalTarget": "Kepanikan psikologis massal"
-        },
-        "description": "Sebelum dunia medis menemukan kepastian ilmiah, kepanikan publik bermutasi menjadi perburuan herbal. Jahe merah, temulawak, dan sereh mendadak jadi komoditas mewah berharga ratusan ribu per kilo. Muncul rilis kalung kayu putih eucalyptus yang diklaim mampu menangkal virus. Setiap jam 10 pagi, jalan komplek dan balkon rumah dipenuhi keluarga yang berdiri terpanggang matahari demi mengejar asupan vitamin D, sementara portal gang ditutup portal bambu 'Lockdown Lokal' lengkap dengan bilik semprot disinfektan dari tangki tanaman.",
-        "image": "/assets/images/11-herbal-disinfectant.jpg"
+    "description": {
+      "id": "Di bawah lensa mikroskop elektron Wuhan, virus corona berdiameter 100 nanometer teridentifikasi membajak sel saluran napas manusia. Ketika kabar ini meluas, pejabat publik di Jakarta berseloroh masyarakat Indonesia kebal karena rutin mengonsumsi nasi kucing dan terlindungi terik matahari tropis. Pintu kedatangan internasional tetap dibuka normal hanya dengan thermo-scanner formalitas, membiarkan patogen liar ini menyusup lewat penerbangan komersial internasional.",
+      "en": "Under electron microscopes in Wuhan, 100-nanometer virions were identified hijacking human respiratory cells. As news crossed borders, public officials in Jakarta joked that Indonesians were naturally immune thanks to traditional herbal diets and tropical sunshine. International arrival gates remained open with routine thermal checks, allowing the wild pathogen to board commercial flights unnoticed.",
+      "zh": "在武汉的电子显微镜下，直径100纳米的新型冠状病毒被证实正在入侵人类呼吸道细胞。消息传出后，雅加达部分官员仍玩笑称热带气候与传统草药能赐予印尼人天然免疫力。国际机场口岸仅设形式上的测温仪，任由野生毒株潜入商业客运航线。"
     },
-    {
-        "id": "06-psbb-ghost-town",
-        "chapterNumber": "05",
-        "type": "standard",
-        "title": "Kota Hantu: PSBB Pertama & Jalanan Jakarta yang Senyap",
-        "date": "April 2020",
-        "strain": "Spike Mutation D614G",
-        "flash": "KOTA SENYAP: Sudirman-Thamrin kosong melompong; sekolah dan kantor ditutup total.",
-        "virusProfile": {
-            "code": "MUTASI D614G DOMINAN",
-            "mutationType": "Substitusi Asam Amino Aspartat ke Glisin",
-            "r0": "3.0 (Infektivitas Meningkat 300%)",
-            "threatLevel": "EXPONENTIAL TRANSMISSIBILITY",
-            "clinicalTarget": "Replikasi cepat di saluran pernapasan atas"
-        },
-        "description": "Pemberlakuan PSBB resmi membekukan ritme metropolitan. Koridor utama Sudirman-Thamrin yang setiap hari dipadati jutaan komuter berubah sunyi senyap laksana kota mati tanpa deru knalpot. Sekolah meliburkan murid, gedung perkantoran memadamkan lampu, dan jutaan keluarga dipaksa beradaptasi secara instan dengan rutinitas bekerja dan belajar dari balik layar monitor.",
-        "image": "/assets/images/03-lockdown-city.jpg"
+    "image": "/assets/images/covid-19/id/01-loading-virus.jpg"
+  },
+  {
+    "id": "02-evakuasi-natuna",
+    "chapterNumber": "02",
+    "type": "standard",
+    "title": {
+      "id": "Karantina Pulau Karang: Evakuasi Natuna",
+      "en": "Island Quarantine: The Natuna Evacuation",
+      "zh": "珊瑚孤岛隔离：纳土纳撤侨行动"
     },
-    {
-        "id": "07-ramadhan-tanpa-mudik",
-        "chapterNumber": "06",
-        "type": "standard",
-        "title": "Lebaran Senyap Tanpa Mudik",
-        "date": "Mei 2020",
-        "strain": "SARS-CoV-2 Clade GR",
-        "flash": "PENYEKATAN: Tol Cikampek dibarikade aparat; salat Idul Fitri di ruang tamu.",
-        "virusProfile": {
-            "code": "CLADE GR",
-            "mutationType": "Transmisi Tertutup Tanpa Gejala",
-            "r0": "Ditekan ke ~1.2 via Penyekatan",
-            "threatLevel": "DOMESTIC TRAVEL INTERDICTION",
-            "clinicalTarget": "Penularan klaster keluarga lintas generasi"
-        },
-        "description": "Bulan suci tiba dalam suasana yang belum pernah dialami bangsa ini sebelumnya. Tradisi mudik tahunan dilarang total. Jalur tol Trans-Jawa disekat barikade beton dan pos penjagaan aparat, memaksa sebagian pemudik nekat bersembunyi di bagasi bus atau bak truk sayuran. Pagi Idul Fitri dirayakan hening di ruang tamu beralaskan karpet rumah, bersilaturahmi lewat sambungan panggilan video call yang kerap tersendat.",
-        "image": "/assets/images/03-lockdown-city.jpg"
+    "date": {
+      "id": "Februari 2020",
+      "en": "February 2020",
+      "zh": "2020年2月"
     },
-    {
-        "id": "08-side-masker-scuba-larangan",
-        "chapterNumber": "INTERLUDE II",
-        "type": "side_story",
-        "title": "Polemik Masker Scuba & Razia Masker",
-        "date": "Juni - Juli 2020",
-        "strain": "Aerosol Micro-Droplet Filtration",
-        "flash": "KONTROVERSI: Masker scuba dilarang masuk KRL; razia sanksi push-up dan masuk peti mati.",
-        "virusProfile": {
-            "code": "AEROSOL TRANSMISSION RECOGNITION",
-            "mutationType": "Filtrasi Partikel Sub-Mikron",
-            "r0": "Tinggi via Kain Non-Medis",
-            "threatLevel": "FALSE SENSE OF SECURITY",
-            "clinicalTarget": "Pori-pori kain tipis ditembus aerosol dengan mudah"
-        },
-        "description": "Setelah warga terbiasa membeli masker kain scuba berwarna-warni seharga lima ribuan, penelitian membuktikan kain elastis tersebut memiliki efektivitas filtrasi di bawah lima persen. Operator KRL dan Satpol PP melarang keras penggunaan masker scuba dan buff. Operasi yustisi digelar di pinggir jalan; pelanggar tanpa masker medis diganjar hukuman push-up, menyapu trotoar memakai rompi oranye, hingga dipaksa merenung di dalam replika peti mati.",
-        "image": "/assets/images/18-scuba-mask-ban.jpg"
+    "strain": "SARS-CoV-2 Lineage A/B",
+    "flash": {
+      "id": "EVAKUASI: 243 WNI dipulangkan dari Wuhan; penolakan warga pecah di Natuna.",
+      "en": "EVACUATION: 243 citizens airlifted from Wuhan; local protests erupt across Natuna.",
+      "zh": "紧急撤侨：243名公民自武汉撤回；纳土纳群岛爆发抗议潮。"
     },
-    {
-        "id": "09-side-dalgona-isolation",
-        "chapterNumber": "INTERLUDE III",
-        "type": "side_story",
-        "title": "Eksperimen Dapur, Janda Bolong, & Demam Gowes",
-        "date": "Juli - September 2020",
-        "strain": "Fenomena Domestik",
-        "flash": "TREN RUMAHAN: Mengocok kopi sampai pegal, monstera jutaan rupiah, dan demam sepeda lipat.",
-        "virusProfile": {
-            "code": "CABIN FEVER ESCAPE",
-            "mutationType": "Pelarian Mental di Tengah Karantina",
-            "r0": "Tren Domestik",
-            "threatLevel": "MENTAL FATIGUE",
-            "clinicalTarget": "Kelelahan kognitif dan isolasi sosial"
-        },
-        "description": "Berbulan-bulan mendekam di rumah memicu lahirnya gelombang pelarian unik. Jutaan orang mengocok bubuk kopi instan dan gula ratusan kali hingga berbusa tebal, merawat tanaman hias monstera hingga bernilai jutaan rupiah, serta memenuhi jalanan di akhir pekan dengan demam sepeda lipat. Di balik layar, batas waktu kerja dan ruang pribadi luntur; panggilan rapat daring tak henti berdering dari pagi hingga larut malam.",
-        "image": "/assets/images/07-digital-shift.jpg"
+    "virusProfile": {
+      "code": "BORDER CONTAINMENT STRAIN",
+      "mutationType": {
+        "id": "Isolasi Primer Pelaku Perjalanan Luar Negeri",
+        "en": "Primary Isolation of Repatriated Travelers",
+        "zh": "入境撤侨人员初级隔离排查"
+      },
+      "r0": "2.5",
+      "threatLevel": {
+        "id": "BAHAYA KARANTINA PERBATASAN",
+        "en": "BORDER QUARANTINE HAZARD",
+        "zh": "国境边境隔离险情"
+      },
+      "clinicalTarget": {
+        "id": "Inkubasi asimtomatik 14 hari",
+        "en": "14-day asymptomatic incubation period",
+        "zh": "14天无症状潜伏期监控"
+      }
     },
-    {
-        "id": "10-wisma-atlet-citadel",
-        "chapterNumber": "07",
-        "type": "standard",
-        "title": "Benteng Pertahanan: Menara Kemayoran",
-        "date": "Oktober - Desember 2020",
-        "strain": "SARS-CoV-2 Pre-Alpha Clades",
-        "flash": "GARIS DEPAN: Wisma Atlet beroperasi penuh; sirene ambulans jadi pengantar tidur kota.",
-        "virusProfile": {
-            "code": "MASS FACILITY SATURATION",
-            "mutationType": "Klaster Perkantoran & Rumah Tangga",
-            "r0": "2.8",
-            "threatLevel": "CRITICAL HOSPITAL LOAD",
-            "clinicalTarget": "Pneumonia bilateral, penurunan saturasi drastis"
-        },
-        "description": "Ledakan kasus klaster perkantoran dan keluarga membuat kapasitas rumah sakit umum kewalahan. Kompleks flat atlet Kemayoran disulap menjadi Rumah Sakit Darurat COVID-19 raksasa dengan ribuan tempat tidur. Malam hari di Kemayoran diterangi ribuan jendela kamar isolasi yang tak pernah padam. Tenaga medis bertugas belasan jam bersimbah keringat di balik hazmat kedap udara tanpa sempat makan atau buang air, sementara deru sirene ambulans menjadi suara latar malam di kota-kota besar Pulau Jawa.",
-        "image": "/assets/images/04-hospital-panic.jpg"
+    "description": {
+      "id": "Pesawat sewaan mendarat di Kepulauan Riau membawa ratusan mahasiswa dan keluarga yang dievakuasi langsung dari pusat karantina Wuhan. Langkah ini memicu unjuk rasa warga lokal yang cemas pulau mereka dijadikan tempat buangan wabah mematikan. Lokasi pangkalan militer disulap jadi barikade karantina tertutup di bawah penjagaan ketat bersenjata, menjadi gladi resik pertama bagi sistem karantina isolasi nasional.",
+      "en": "A chartered flight landed in the Riau Archipelago carrying hundreds of students and families evacuated directly from the epicenter in Wuhan. The operation sparked protests from island residents fearful of becoming a quarantine dumping ground. Military hangars were hastily turned into sealed quarantine barriers under armed guard, serving as the nation's trial run for biological containment.",
+      "zh": "一架包机降落在廖内群岛，载回从武汉疫区紧急撤离的数百名留学生与家属。撤离行动引发当地居民抗议，担忧家园沦为病毒倾倒地。空军基地军营被紧急改建为全封闭军事隔离区，拉开了印尼国家级公共卫生防御演练的序幕。"
     },
-    {
-        "id": "11-skandal-korupsi-bansos",
-        "chapterNumber": "08",
-        "type": "standard",
-        "title": "Ironi di Tengah Bencana: Skandal Bansos",
-        "date": "Desember 2020",
-        "strain": "Krisis Integritas Tata Kelola",
-        "flash": "SKANDAL: Menteri Sosial ditangkap KPK; paket sembako bantuan rakyat disunat.",
-        "virusProfile": {
-            "code": "SOCIO-POLITICAL PATHOLOGY",
-            "mutationType": "Pungutan Liar Paket Bantuan Sembako",
-            "r0": "Kerugian Finansial Masif",
-            "threatLevel": "PUBLIC TRUST COLLAPSE",
-            "clinicalTarget": "Masyarakat miskin penerima beras berkutu dan lauk tak layak"
-        },
-        "description": "Di tengah rintihan rakyat yang kehilangan pekerjaan dan berlapar-lapar di rumah kontrakan, operasi tangkap tangan KPK membongkar suap pengadaan bantuan sosial sembako COVID-19 yang menyeret pucuk pimpinan Kementerian Sosial. Kantong bantuan merah-putih yang seharusnya berisi bahan pangan berkualitas disunat nilainya hingga menyisakan beras apek berkutu dan sarden kaleng murah. Peristiwa ini meremukkan rasa keadilan publik di titik terendah krisis.",
-        "image": "/assets/images/19-bansos-scandal.jpg"
+    "image": "/assets/images/covid-19/id/16-natuna-quarantine.jpg"
+  },
+  {
+    "id": "03-depok-patient-zero",
+    "chapterNumber": "03",
+    "type": "milestone",
+    "title": {
+      "id": "Dua Garis Merah di Depok",
+      "en": "Confirmed Infiltration: Two Red Lines in Depok",
+      "zh": "突破国门：德波确诊的两道红线"
     },
-    {
-        "id": "12-vaccine-breakthrough",
-        "chapterNumber": "09",
-        "type": "milestone",
-        "title": "Secercah Harapan: Jarum Suntik Perdana",
-        "date": "13 Januari 2021",
-        "strain": "CoronaVac / Sinovac (Platform Inaktivasi)",
-        "flash": "GAME CHANGER: Presiden menerima suntikan pertama; rantai dingin vaksinasi massal dimulai.",
-        "virusProfile": {
-            "code": "IMMUNOLOGICAL SHIELD",
-            "mutationType": "Platform Virus Inaktivasi",
-            "r0": "Mulai Terbendung Pembentukan Antibodi",
-            "threatLevel": "SYSTEMIC COUNTER-OFFENSIVE",
-            "clinicalTarget": "Pencegahan gejala berat dan fatalitas"
-        },
-        "description": "Setelah setahun dicekam ketakutan, harapan nyata tiba di Bandara Soekarno-Hatta dalam kontainer pendingin khusus berisi jutaan vial vaksin. Siaran langsung penyuntikan dosis perdana kepada Presiden di Istana Merdeka resmi membuka kampanye imunisasi massal terbesar sepanjang sejarah bangsa. Stadion, aula olahraga, hingga pusat perbelanjaan disulap menjadi sentra vaksinasi dengan antrean warga yang mengular sejak subuh demi mendapatkan perlindungan pertama.",
-        "image": "/assets/images/05-vaccine-cure.jpg"
+    "date": {
+      "id": "2 Maret 2020",
+      "en": "March 2, 2020",
+      "zh": "2020年3月2日"
     },
-    {
-        "id": "13-side-genose-stasiun",
-        "chapterNumber": "INTERLUDE IV",
-        "type": "side_story",
-        "title": "Tiup Kantong Plastik: Era GeNose C19",
-        "date": "Februari - Mei 2021",
-        "strain": "Teknologi Skrining Napas Volatile Organic Compound",
-        "flash": "KONTROVERSI: Antrean tiup kantong napas seharga 30 ribu di stasiun kereta api.",
-        "virusProfile": {
-            "code": "VOC SENSOR SCREENING",
-            "mutationType": "Deteksi Pola Emisi Hawa Napas",
-            "r0": "Skrining Cepat Penumpang",
-            "threatLevel": "FALSE NEGATIVE ACCURACY RISKS",
-            "clinicalTarget": "Pemeriksaan murah syarat perjalanan kereta antar-kota"
-        },
-        "description": "Sebagai alternatif tes PCR dan Swab Antigen yang mahal, stasiun kereta api menghadirkan bilik skrining GeNose C19 karya kampus dalam negeri. Dengan tarif tiga puluh ribu rupiah, calon penumpang mengantre meniup kantong plastik kecil hingga menggelembung sebelum dihubungkan ke sensor elektronik. Meski mempermudah mobilitas murah, kontroversi akurasi dan risiko hasil negatif palsu terus membayangi hingga alat ini akhirnya dipensiunkan menjelang badai Delta.",
-        "image": "/assets/images/20-genose-station.jpg"
+    "strain": "SARS-CoV-2 Lineage B.1 (Clade G)",
+    "flash": {
+      "id": "BREAKING: Pengumuman kepresidenan pecah; perburuan masker dan histeria massal dimulai.",
+      "en": "BREAKING: Presidential press alert breaks; surgical mask frenzy and mass panic ignite.",
+      "zh": "突发通报：总统府新闻发布会引爆全国；抢购口罩与恐慌蔓延。"
     },
-    {
-        "id": "14-side-vaccine-conspiracy",
-        "chapterNumber": "INTERLUDE V",
-        "type": "side_story",
-        "title": "Konspirasi Microchip & Magnet di Lengan",
-        "date": "Maret - Mei 2021",
-        "strain": "Infodemi Digital Global-Lokal",
-        "flash": "HOAKS MASSAL: Isu koin menempel di lengan bekas suntik dan narasi konspirasi chip 5G.",
-        "virusProfile": {
-            "code": "INFODEMIC WAVE",
-            "mutationType": "Misinformasi Pesan Berantai Lintas Generasi",
-            "r0": "Viral di Grup Percakapan",
-            "threatLevel": "VACCINE HESITANCY HAZARD",
-            "clinicalTarget": "Keraguan imunisasi pada kelompok lansia"
-        },
-        "description": "Di tengah akselerasi vaksinasi, kabar bohong menyebar liar di ruang digital. Narasi bahwa vaksin disisipi chip pelacak 5G buatan luar negeri hingga video koin logam yang menempel di bekas luka suntikan ramai dibagikan. Banyak anak muda harus bersusah payah mendebat orang tua dan kerabat lansia di meja makan agar tidak termakan kabar bohong dan bersedia mendaftar ke sentra vaksinasi terdekat.",
-        "image": "/assets/images/15-infodemic-hoax.jpg"
+    "virusProfile": {
+      "code": "LINEAGE B.1 (CLADE G)",
+      "mutationType": {
+        "id": "Transmisi Kontak Erat Domestik",
+        "en": "Domestic Close-Contact Transmission",
+        "zh": "本土室内密接飞沫传播"
+      },
+      "r0": "2.5",
+      "threatLevel": {
+        "id": "PENULARAN KOMUNITAS TERKONFIRMASI",
+        "en": "COMMUNITY SPREAD CONFIRMED",
+        "zh": "社区传播链正式确证"
+      },
+      "clinicalTarget": {
+        "id": "Anosmia mendadak, demam tinggi, malaise",
+        "en": "Sudden anosmia, high pyrexia, severe malaise",
+        "zh": "突发嗅觉丧失、高热及全身乏力"
+      }
     },
-    {
-        "id": "15-mutasi-alpha-beta",
-        "chapterNumber": "10",
-        "type": "standard",
-        "title": "Penyusup Senyap: Varian Alpha & Beta",
-        "date": "April - Mei 2021",
-        "strain": "Varian Alpha (B.1.1.7) & Beta (B.1.351)",
-        "flash": "MUTASI: Varian Inggris dan Afrika Selatan terdeteksi masuk lewat pintu repatriasi.",
-        "virusProfile": {
-            "code": "VOC ALPHA & BETA",
-            "mutationType": "Mutasi N501Y (Afinitas Reseptor) & E484K",
-            "r0": "3.8 - 4.5",
-            "threatLevel": "VARIANT OF CONCERN ALERT",
-            "clinicalTarget": "Peningkatan laju transmisi dan keparahan gejala"
-        },
-        "description": "Saat masyarakat mulai melonggarkan disiplin masker karena merasa sebagian sudah divaksinasi, mutasi ganas dari luar negeri diam-diam menembus karantina hotel repatriasi bandara. Varian Alpha membawa mutasi N501Y yang membuat pengikatan ke reseptor paru-paru jauh lebih kuat, disusul varian Beta yang memiliki kemampuan parsial menghindari antibodi. Bibit penyebaran baru ini menjadi bahan bakar tersembunyi bagi ledakan krisis berikutnya.",
-        "image": "/assets/images/01-loading-virus.jpg"
+    "description": {
+      "id": "Siang hari itu, siaran pers dari Istana Negara seketika menghentikan rutinitas warga. Dua warga Depok dikonfirmasi positif usai berdansa dengan warga negara asing di sebuah kelab malam Jakarta. Dalam hitungan jam, kepanikan massal meledak. Rak supermarket ludes diborong warga yang menimbun beras, mi instan, dan tisu. Masker bedah mendadak langka dan harganya melambung gila-gilaan hingga ratusan ribu rupiah per kotak. Di gerbong KRL, satu suara batuk cukup untuk membuat seisi gerbong menjauh ketakutan.",
+      "en": "On that fateful afternoon, a presidential live broadcast abruptly froze normal life. Two residents of Depok were confirmed positive following exposure at a dance venue in Jakarta. Within hours, supermarket shelves were swept clear of staples. Surgical masks skyrocketed tenfold in price. On commuter train carriages, a solitary cough was enough to disperse crowds in suspicion.",
+      "zh": "当天下午，总统府突发新闻发布会冻结了日常节奏：德波两名居民在雅加达舞蹈俱乐部接触外籍人士后确诊。数小时内全城恐慌沸腾，超市货架上的大米与方便面被扫荡一空。医用口罩价格暴涨数十倍。通勤列车车厢里，一声咳嗽足以让所有人投去戒备恐惧的目光。"
     },
-    {
-        "id": "16-delta-catastrophe",
-        "chapterNumber": "11",
-        "type": "milestone",
-        "title": "Badai Juli: Tsunami Mutasi Delta",
-        "date": "Juni - Juli 2021",
-        "strain": "Varian Delta (B.1.617.2)",
-        "flash": "PUNCAK DARURAT: Kasus tembus 56.000 sehari; tenda darurat militer didirikan di parkiran IGD.",
-        "virusProfile": {
-            "code": "VOC DELTA (B.1.617.2)",
-            "mutationType": "Mutasi Ganda Spike L452R + P681R",
-            "r0": "6.0 - 7.5 (Super Agresif)",
-            "threatLevel": "MAXIMUM BIOLOGICAL CASUALTY",
-            "clinicalTarget": "Viral load 1.000x lebih padat, kerusakan alveolus paru masif"
-        },
-        "description": "Bulan paling kelam dalam sejarah modern bangsa. Mutasi Delta meledak dengan tingkat keganasan yang tak tertandingi, melipatgandakan viral load pasien hingga seribu kali lebih pekat. Dalam hitungan minggu, seluruh rumah sakit di Pulau Jawa dan Bali kolaps total. Koridor IGD hingga pelataran parkir dipenuhi ranjang pasien di bawah tenda darurat militer. Grup chat keluarga dan kantor dipenuhi kabar duka bertubi-tubi dan permohonan putus asa mencari ruang isolasi serta donor plasma konvalesen.",
-        "image": "/assets/images/08-oxygen-crisis.jpg"
+    "image": "/assets/images/covid-19/id/02-outbreak-spread.jpg"
+  },
+  {
+    "id": "04-jas-hujan-nakes",
+    "chapterNumber": "04",
+    "type": "milestone",
+    "title": {
+      "id": "Garis Depan Rapuh: Baju Hazmat Jas Hujan Plastik",
+      "en": "Fragile Frontline: Plastic Raincoats as Hazmats",
+      "zh": "脆弱防线：塑料雨衣充当医用防护服"
     },
-    {
-        "id": "17-side-krisis-oksigen-ivermectin",
-        "chapterNumber": "INTERLUDE VI",
-        "type": "side_story",
-        "title": "Perburuan Tabung Hijau, Oximeter, & Ivermectin",
-        "date": "Juli 2021",
-        "strain": "Kepanikan Komoditas Medis",
-        "flash": "KEPANIKAN: Antrean tabung oksigen tengah malam; obat keras Ivermectin ludes diburu.",
-        "virusProfile": {
-            "code": "CONSUMER PANIC PHENOMENON",
-            "mutationType": "Spekulasi Pasar Bebas & Kelangkaan Komoditas",
-            "r0": "Ludes dalam Hitungan Menit",
-            "threatLevel": "PRICE GOUGING EXPLOITATION",
-            "clinicalTarget": "Kecemasan saturasi darah anjlok di bawah 90%"
-        },
-        "description": "Di tengah ledakan kematian yang menyentuh angka 2.000 jiwa per hari, kepanikan warga memuncak. Depot pengisian oksigen dipadati antrean orang yang menggotong tabung silinder hijau demi menyelamatkan keluarga yang terengah-engah di rumah. Video warga berebut susu steril di lorong supermarket viral karena mitos kebal instan. Obat keras Ivermectin dan Favipiravir diborong hingga harganya digoreng jutaan rupiah, sementara angka pada layar oximeter jari menjadi penentu ketakutan di setiap rumah.",
-        "image": "/assets/images/12-oxygen-lines.jpg"
+    "date": {
+      "id": "Maret 2020",
+      "en": "March 2020",
+      "zh": "2020年3月"
     },
-    {
-        "id": "18-pemakaman-malam-hari",
-        "chapterNumber": "12",
-        "type": "standard",
-        "title": "Lampu Sorot di Pemakaman Malam",
-        "date": "Juli - Agustus 2021",
-        "strain": "Peak Lethality Delta Wave",
-        "flash": "DUKA NASIONAL: Petugas gali kubur bekerja tanpa henti di bawah sorot lampu tembak.",
-        "virusProfile": {
-            "code": "HIGH MORTALITY SURGE",
-            "mutationType": "Mortalitas Puncak Gelombang Delta",
-            "r0": "6.0",
-            "threatLevel": "MORTALITY SHOCK",
-            "clinicalTarget": "Gagal napas akut (ARDS) refrakter"
-        },
-        "description": "Lahan pemakaman khusus jenazah COVID-19 di kota-kota besar kehabisan liang kubur. Petugas pemakaman berpakaian hazmat lengkap bekerja tanpa henti hingga larut malam dibantu sorot lampu tembak genset. Bau tanah basah dan cairan disinfektan menguap di udara malam yang dingin. Nyaris tidak ada satu pun keluarga yang tidak kehilangan kerabat, tetangga, atau sahabat dekat dalam rentang dua bulan yang memilukan ini.",
-        "image": "/assets/images/21-night-burials.jpg"
+    "strain": "SARS-CoV-2 Spike D614G Emergence",
+    "flash": {
+      "id": "DARURAT APD: Stok medis runtuh; dokter bertaruh nyawa berbalut jas hujan kresek.",
+      "en": "PPE SHORTAGE: Medical reserves collapse; doctors fight for lives wrapped in disposable raincoats.",
+      "zh": "防护告急：医疗物资断供；医生身穿一次性雨衣与死神博弈。"
     },
-    {
-        "id": "19-digital-surveillance-qr",
-        "chapterNumber": "13",
-        "type": "standard",
-        "title": "Sekat Digital di Balik Pintu: PeduliLindungi",
-        "date": "September - Desember 2021",
-        "strain": "Sub-lineage Delta AY.23 (Dominasi Lokal)",
-        "flash": "NORMAL BARU: Pemindaian kode QR di pintu masuk mal dan transportasi publik.",
-        "virusProfile": {
-            "code": "SUBLINEAGE DELTA AY.23",
-            "mutationType": "Stabilisasi Strain Domestik",
-            "r0": "Ditekan ke < 1.0 via PPKM Bertingkat",
-            "threatLevel": "DIGITAL TRACKING CONTROL",
-            "clinicalTarget": "Pemantauan status sertifikat vaksin populasi"
-        },
-        "description": "Begitu amukan badai Delta perlahan mereda berkat serbuan vaksinasi massal, aktivitas publik dikunci di bawah regulasi digital ketat. Aplikasi PeduliLindungi menjadi tiket wajib ke mana pun warga melangkah. Di stasiun kereta komuter, bandara, lobi kantor, hingga pintu masuk mal, warga berbaris memindai kode QR dan mengarahkan tangan ke sensor thermo-gun. Indikator warna hijau di layar ponsel menjadi satu-satunya jaminan hak bergerak.",
-        "image": "/assets/images/09-digital-tracing.jpg"
+    "virusProfile": {
+      "code": "HEALTHCARE WORKER HAZARD",
+      "mutationType": {
+        "id": "Paparan Nosokomial Tanpa Pelindung Standar",
+        "en": "Nosocomial Exposure Without Standard PPE",
+        "zh": "无防护高载量院内职业暴露"
+      },
+      "r0": "3.0 di Fasilitas Medis",
+      "threatLevel": {
+        "id": "KOLAPS LOGISTIK GARIS DEPAN",
+        "en": "FRONTLINE LOGISTIC COLLAPSE",
+        "zh": "一线防护供应链全面崩溃"
+      },
+      "clinicalTarget": {
+        "id": "Infiltrasi viral load pekat pada nakes",
+        "en": "High-density viral load in healthcare personnel",
+        "zh": "医护高危黏膜暴露与重症呼吸窘迫"
+      }
     },
-    {
-        "id": "20-side-sertifikat-palsu-nik",
-        "chapterNumber": "INTERLUDE VII",
-        "type": "side_story",
-        "title": "Drama NIK Dicatut & Sertifikat Vaksin Palsu",
-        "date": "Oktober - Desember 2021",
-        "strain": "Kerentanan Data Identitas Digital",
-        "flash": "KEKACAUAN DATA: Warga gagal vaksin akibat NIK dicatut orang lain; sindikat sertifikat palsu dibongkar.",
-        "virusProfile": {
-            "code": "IDENTITY INTEGRITY HAZARD",
-            "mutationType": "Eksploitasi Celah Basis Data Kependudukan",
-            "r0": "Penyimpangan Akses Publik",
-            "threatLevel": "DATA SECURITY COMPROMISE",
-            "clinicalTarget": "Hambatan administratif kelompok rentan"
-        },
-        "description": "Ketika sertifikat vaksin menjadi syarat mutlak bekerja dan bepergian, kekacauan data identitas merebak. Banyak warga yang ditolak saat hendak disuntik karena nomor induk kependudukan (NIK) mereka sudah dipakai orang tak dikenal di kota lain. Di pasar gelap daring, sindikat penjualan sertifikat vaksin tembak tanpa suntik dibongkar polisi, menyingkap celah rapuh dalam integrasi sistem administrasi digital nasional.",
-        "image": "/assets/images/22-data-leak-nik.jpg"
+    "description": {
+      "id": "Ledakan pasien pertama menghantam fasilitas kesehatan yang sama sekali tidak siap. Stok pakaian hazmat standar medis dan masker N95 ludes dari pasar internasional. Di ruang instalasi gawat darurat, para dokter dan perawat terpaksa membalut tubuh menggunakan jas hujan plastik kresek seharga belasan ribu rupiah demi menolong pasien yang megap-megap. Belasan dokter gugur hanya dalam beberapa pekan pertama, menandai pengorbanan terberat dalam sejarah kedokteran tanah air.",
+      "en": "The opening patient influx caught hospitals entirely unfortified. Certified PPE and N95 respirators vanished worldwide. In emergency rooms, clinicians improvised by wrapping themselves in flimsy disposable plastic raincoats to intubate gasping patients. Dozens of doctors fell in the opening weeks, marking one of the most agonizing chapters in national medical history.",
+      "zh": "首批感染潮猛烈冲击毫无准备的医疗系统。国际医用防护服与N95口罩全面售罄。在急诊重症室，医护人员被迫身穿廉价塑料雨衣插管抢救窒息患者。短短数周内数十名医生相继殉职，写下印尼医学史上最惨烈的悲壮篇章。"
     },
-    {
-        "id": "21-omicron-lightning-wave",
-        "chapterNumber": "14",
-        "type": "milestone",
-        "title": "Serangan Kilat: 30 Mutasi & Gelombang Omicron",
-        "date": "Februari - Maret 2022",
-        "strain": "Varian Omicron (B.1.1.529 / BA.1 / BA.2)",
-        "flash": "REKOR INFEKSI: Kasus harian tembus 64.000; demam massal namun isolasi mandiri di rumah.",
-        "virusProfile": {
-            "code": "VOC OMICRON (B.1.1.529)",
-            "mutationType": "30+ Mutasi Spike (Immune Evasion Masif)",
-            "r0": "8.0 - 10.0 (Daya Tular Tertinggi)",
-            "threatLevel": "HYPER-INFECTIOUS / ATTENUATED LUNG SEVERITY",
-            "clinicalTarget": "Replikasi di bronkus atas, penurunan risiko kerusakan jaringan paru"
-        },
-        "description": "Membawa lebih dari 30 mutasi pada protein mahkotanya, Omicron menyebar secepat kilat dan menembus rekor kasus harian tertinggi sepanjang masa di angka 64.718 infeksi. Satu divisi kantor atau seisi rumah tangga bisa demam dan radang tenggorokan bersamaan hanya dalam tiga hari. Namun berkat proteksi vaksin dosis ganda, kepanikan rumah sakit tidak terulang. Mayoritas melewatinya dengan isolasi mandiri di kamar tidur sambil saling berkirim parasetamol via kurir ojek online.",
-        "image": "/assets/images/13-omicron-fever.jpg"
+    "image": "/assets/images/covid-19/id/17-raincoat-doctors.jpg"
+  },
+  {
+    "id": "05-side-herbal-shield",
+    "chapterNumber": "INTERLUDE I",
+    "type": "side_story",
+    "title": {
+      "id": "Benteng Herbal, Kalung Kayu Putih, & Berjemur Jam 10",
+      "en": "The Folklore Shield: Red Ginger, Eucalyptus, & 10 AM Sunbathing",
+      "zh": "草药护体：红姜、尤加利项圈与上午十点日光浴"
     },
-    {
-        "id": "22-side-booster-mudik-tiket",
-        "chapterNumber": "INTERLUDE VIII",
-        "type": "side_story",
-        "title": "Perburuan Vaksin Booster & Tiket Mudik Perdana",
-        "date": "April 2022",
-        "strain": "Mandat Dosis Lanjutan (Booster)",
-        "flash": "SYARAT RESMI: Antre booster ketiga demi tiket pulang kampung setelah dua tahun dilarang.",
-        "virusProfile": {
-            "code": "BOOSTER ESCALATION",
-            "mutationType": "Peningkatan Titer Antibodi Neutralisasi",
-            "r0": "Terkendali",
-            "threatLevel": "PUBLIC HEALTH COMPLIANCE",
-            "clinicalTarget": "Perpanjangan durasi memori imun sel B dan sel T"
-        },
-        "description": "Menjelang Idul Fitri 2022, pemerintah akhirnya mengizinkan mudik dengan satu syarat: wajib vaksinasi dosis ketiga (booster). Posko imunisasi di stasiun kereta dan rest area jalan tol mendadak dipadati warga yang rela disuntik demi menyalakan status hijau di aplikasi. Setelah dua tahun tertahan di perantauan, jutaan orang akhirnya tumpah ruah memadati jalur darat dan udara dalam arus mudik akbar yang penuh rasa haru.",
-        "image": "/assets/images/05-vaccine-cure.jpg"
+    "date": {
+      "id": "Maret - April 2020",
+      "en": "March - April 2020",
+      "zh": "2020年3月 - 4月"
     },
-    {
-        "id": "23-pelepasan-masker-luar-ruang",
-        "chapterNumber": "15",
-        "type": "standard",
-        "title": "Senja Penutup Wajah: Pelonggaran Masker",
-        "date": "Mei - Agustus 2022",
-        "strain": "Subvarian Omicron BA.4 / BA.5",
-        "flash": "PELONGGARAN: Boleh melepas masker di area terbuka; festival musik kembali hidup.",
-        "virusProfile": {
-            "code": "OMICRON DRIFT SUB-LINEAGES",
-            "mutationType": "Evolusi Pelolosan Imunitas Bertahap",
-            "r0": "Tinggi namun Terbendung Herd Immunity",
-            "threatLevel": "MANAGED PUBLIC HEALTH BURDEN",
-            "clinicalTarget": "Infeksi ringan mirip selesma pada populasi berimunitas tinggi"
-        },
-        "description": "Presiden secara bertahap mengumumkan bahwa masker boleh dilepas di ruang terbuka yang tidak padat. Momen ini disambut canggung oleh warga yang sudah terbiasa menyembunyikan wajah di balik masker selama lebih dari dua tahun. Festival musik kembali digelar, bioskop dan pusat belanja dipadati pengunjung, dan denyut jalanan perkotaan perlahan menemukan ritme kehidupannya yang lama.",
-        "image": "/assets/images/06-new-normal.jpg"
+    "strain": "Resistensi Kultural Akar Rumput",
+    "flash": {
+      "id": "RESISTENSI KULTURAL: Rempah langka; warga berjemur massal dan pasang portal gang mandiri.",
+      "en": "CULTURAL RESILIENCE: Herbs vanish; mass morning sunbathing & DIY bamboo roadblocks.",
+      "zh": "民间自救：红姜遭疯抢；街坊相约晒太阳，私设竹竿封巷。"
     },
-    {
-        "id": "24-penghentian-ppkm",
-        "chapterNumber": "16",
-        "type": "standard",
-        "title": "Pencabutan Sekat: Berakhirnya PPKM",
-        "date": "30 Desember 2022",
-        "strain": "Omicron Subvariants XBB / BQ.1",
-        "flash": "DE-ESKALASI: PPKM resmi dihentikan di seluruh wilayah Indonesia; aplikasi pelacakan dipensiunkan.",
-        "virusProfile": {
-            "code": "PRE-ENDEMIC DRIFT",
-            "mutationType": "Spike Diversification Menyerupai Flu Musiman",
-            "r0": "Endemik Rendah Fatalitas",
-            "threatLevel": "TRANSITIONAL DE-ESCALATION",
-            "clinicalTarget": "Infeksi saluran napas atas ringan"
-        },
-        "description": "Tepat sebelum pergantian tahun 2023, pemerintah resmi mencabut kebijakan Pemberlakuan Pembatasan Kegiatan Masyarakat (PPKM) di seluruh wilayah tanah air. Pos-pos pemeriksaan dibongkar, kewajiban scan QR code di pintu masuk gedung mulai dihentikan, dan aplikasi PeduliLindungi bertransformasi menjadi platform rekam medis terpadu SatuSehat.",
-        "image": "/assets/images/23-ppkm-lifted.jpg"
+    "virusProfile": {
+      "code": "CULTURAL FOLKLORE",
+      "mutationType": {
+        "id": "Eksploitasi Celah Pengetahuan Biologis",
+        "en": "Exploitation of Biological Knowledge Gap",
+        "zh": "防疫盲区下的民间传统认知自愈"
+      },
+      "r0": "Viral di Ruang Digital",
+      "threatLevel": {
+        "id": "MISINFORMASI ADAPTIF POPULER",
+        "en": "ADAPTIVE FOLK REMEDIES",
+        "zh": "自发性草根防护与信息混杂"
+      },
+      "clinicalTarget": {
+        "id": "Resistensi kultural psikologis masyarakat",
+        "en": "Psychological resilience through cultural remedies",
+        "zh": "群体心理应激安抚与免疫防御安慰剂"
+      }
     },
-    {
-        "id": "25-endemic-declaration",
-        "chapterNumber": "17",
-        "type": "milestone",
-        "title": "Garis Akhir: Deklarasi Resmi Endemi",
-        "date": "21 Juni 2023",
-        "strain": "Endemic Lineages (JN.1 / EG.5 / XBB)",
-        "flash": "EPILOG RESMI: Presiden mencabut status darurat pandemi; COVID-19 beralih menjadi endemi biasa.",
-        "virusProfile": {
-            "code": "ENDEMIC SURVEILLANCE STATUS",
-            "mutationType": "Mutasi Mikro Berkelanjutan Tanpa Lonjakan Kematian",
-            "r0": "Stabil Endemik",
-            "threatLevel": "SEASONAL RESPIRATORY MONITORING",
-            "clinicalTarget": "Penyakit flu musiman pada kelompok umum non-komorbid"
-        },
-        "description": "Presiden secara resmi mengumumkan bahwa Indonesia memasuki masa endemi COVID-19, menyelaraskan dengan langkah WHO yang mencabut status darurat kesehatan masyarakat internasional. SARS-CoV-2 tidak pernah musnah; ia terus bermutasi di latar belakang, namun benteng kekebalan populasi yang terbentuk dari infeksi alami dan vaksinasi berulang telah melucuti daya hancur massalnya.",
-        "image": "/assets/images/14-endemic-sunrise.jpg"
+    "description": {
+      "id": "Sebelum dunia medis menemukan kepastian ilmiah, kepanikan publik bermutasi menjadi perburuan herbal. Jahe merah, temulawak, dan sereh mendadak jadi komoditas mewah berharga ratusan ribu per kilo. Muncul rilis kalung kayu putih eucalyptus yang diklaim mampu menangkal virus. Setiap jam 10 pagi, jalan komplek dan balkon rumah dipenuhi keluarga yang berdiri terpanggang matahari demi mengejar asupan vitamin D, sementara portal gang ditutup portal bambu 'Lockdown Lokal' lengkap dengan bilik semprot disinfektan dari tangki tanaman.",
+      "en": "Before medical consensus emerged, survival anxiety spawned grassroots remedies. Red ginger, wild turmeric, and lemongrass became prized luxuries selling at exorbitant rates. Eucalyptus necklaces claimed antiviral protection. By 10 AM daily, streets and balconies filled with citizens sunbathing for vitamin D, while neighborhoods raised makeshift bamboo boom gates with agricultural disinfection spray booths.",
+      "zh": "在疫苗问世前，公众的自保本能诉诸民间土方。红姜、黄姜和柠檬草身价暴涨十倍；官方甚至推出声称杀毒的尤加利精油挂坠。每天上午十点，街头巷尾聚集着晒太阳补充维生素D的人群；各村口胡同架起‘民间封城’的竹竿路障，用农药喷雾器为过路者全身喷洒消毒水。"
     },
-    {
-        "id": "26-national-debriefing",
-        "chapterNumber": "18",
-        "type": "milestone",
-        "title": "Debriefing Nasional: Monumen Angka & Nama yang Abadi",
-        "date": "Arsip Sejarah Resmi Satgas & Kemenkes RI",
-        "strain": "Rekapitulasi Krisis Nasional 2020 - 2023",
-        "flash": "REKAP AKHIR: 6,81 Juta Kasus, 6,64 Juta Sembuh, 161.918 Jiwa Gugur.",
-        "virusProfile": {
-            "code": "HISTORICAL CRISIS RESOLUTION",
-            "mutationType": "Evolusi 3,5 Tahun: Wild Type -> Delta -> Omicron",
-            "r0": "Arsip Tertutup",
-            "threatLevel": "RESOLVED NATIONAL RECOVERY",
-            "clinicalTarget": "Evaluasi ketahanan sistem kesehatan dan ketangguhan sosial bangsa"
-        },
-        "description": "Pandemi meninggalkan jejak permanen dalam memori kolektif bangsa. Rekapitulasi akhir mencatat lebih dari 6,81 juta kasus infeksi terkonfirmasi di Indonesia, dengan 6,64 juta jiwa dinyatakan sembuh. Namun di balik angka statistik tersebut, ada keheningan mendalam untuk mengenang 161.918 jiwa—orang tua, kerabat, anak, serta ratusan dokter dan tenaga kesehatan—yang gugur di medan krisis. Bangsa ini berhasil melewati badai terhebat abad ini, tumbuh menjadi masyarakat yang lebih tangguh dan selamanya berubah.",
-        "image": "/assets/images/10-data-summary.jpg"
-    }
+    "image": "/assets/images/covid-19/id/11-herbal-disinfectant.jpg"
+  },
+  {
+    "id": "06-psbb-ghost-town",
+    "chapterNumber": "05",
+    "type": "standard",
+    "title": {
+      "id": "Kota Hantu: PSBB Pertama & Jalanan Jakarta yang Senyap",
+      "en": "Ghost Town: First PSBB Lockdown & Deserted Corridors",
+      "zh": "幽灵之城：首轮PSBB封锁与沉寂的雅加达大道"
+    },
+    "date": {
+      "id": "April 2020",
+      "en": "April 2020",
+      "zh": "2020年4月"
+    },
+    "strain": "Spike Mutation D614G",
+    "flash": {
+      "id": "METROPOLIS MEMBEKU: Sudirman-Thamrin senyap total; jutaan pekerja dirumahkan.",
+      "en": "METROPOLIS FROZEN: Sudirman-Thamrin deserted; millions shift to remote isolation.",
+      "zh": "都会停摆：苏迪曼大道空无一人；数百万人退守屏幕之后。"
+    },
+    "virusProfile": {
+      "code": "MUTASI D614G DOMINAN",
+      "mutationType": {
+        "id": "Intervensi Non-Farmasi Skala Megapolitan",
+        "en": "Non-Pharmaceutical Megacity Intervention",
+        "zh": "特大城市超大规模非药物干预封控"
+      },
+      "r0": "3.0 (Infektivitas Meningkat 300%)",
+      "threatLevel": {
+        "id": "PEMBATASAN SOSIAL MAKSIMUM",
+        "en": "MAXIMUM SOCIAL RESTRICTION",
+        "zh": "最高层级城市流动性冻结"
+      },
+      "clinicalTarget": {
+        "id": "Penurunan kurva transmisi klaster kantor & jalan raya",
+        "en": "Flattening mobility-driven corporate transmission curve",
+        "zh": "阻断商务楼宇与公共交通传染链"
+      }
+    },
+    "description": {
+      "id": "Pemberlakuan PSBB resmi membekukan ritme metropolitan. Koridor utama Sudirman-Thamrin yang setiap hari dipadati jutaan komuter berubah sunyi senyap laksana kota mati tanpa deru knalpot. Sekolah meliburkan murid, gedung perkantoran memadamkan lampu, dan jutaan keluarga dipaksa beradaptasi secara instan dengan rutinitas bekerja dan belajar dari balik layar monitor.",
+      "en": "The enactment of Large-Scale Social Restrictions (PSBB) paralyzed the capital's pulse. Jakarta's central Sudirman-Thamrin corridor, typically crowded with millions, became a ghost artery void of traffic noise. Office towers turned off facades, schools shuttered classrooms, and households retreated into quarantine life behind screens.",
+      "zh": "大规模社交限制令（PSBB）正式落地，瞬间冻结了千万级大都市的脉动。平日拥堵不堪的苏迪曼-谭林核心主干道死一般沉寂，听不到半点引擎轰鸣。摩天写字楼熄灭灯光，学校停课，数百万家庭被迫退入屏幕背后的远程生活。"
+    },
+    "image": "/assets/images/covid-19/id/03-lockdown-city.jpg",
+    "beforeImage": "/assets/images/covid-19/id/03a-jakarta-rush-hour.jpg",
+    "afterImage": "/assets/images/covid-19/id/03b-jakarta-psbb-empty.jpg"
+  },
+  {
+    "id": "07-ramadhan-tanpa-mudik",
+    "chapterNumber": "06",
+    "type": "standard",
+    "title": {
+      "id": "Lebaran Senyap Tanpa Mudik",
+      "en": "Silent Homecoming: First Ramadan Without Mudik",
+      "zh": "寂静开斋节：没有返乡潮的第一次禁令"
+    },
+    "date": {
+      "id": "Mei 2020",
+      "en": "May 2020",
+      "zh": "2020年5月"
+    },
+    "strain": "SARS-CoV-2 Clade GR",
+    "flash": {
+      "id": "TRADISI TERPUTUS: Tol Trans-Jawa disekat beton; silaturahmi terkurung sambungan video call.",
+      "en": "TRADITIONS SEVERED: Toll roads blocked by concrete; holiday gatherings confined to video calls.",
+      "zh": "传统断链：爪哇高速公路水泥封路；亲情问候隔屏相对。"
+    },
+    "virusProfile": {
+      "code": "CLADE GR",
+      "mutationType": {
+        "id": "Penyekatan Arus Mudik Interseksi Regional",
+        "en": "Inter-Regional Holiday Migration Cordon",
+        "zh": "跨区域节日返乡人口大流动强制切断"
+      },
+      "r0": "Ditekan ke ~1.2 via Penyekatan",
+      "threatLevel": {
+        "id": "DISRUPSI TRADISI KEAGAMAAN MASSAL",
+        "en": "MASS CULTURAL DISRUPTION",
+        "zh": "全民性宗教民俗重大中断"
+      },
+      "clinicalTarget": {
+        "id": "Pencegahan spillover virus dari ibu kota ke pelosok desa",
+        "en": "Preventing urban-to-rural epidemiological seeding",
+        "zh": "严防病毒由首都雅加达向农村腹地蔓延"
+      }
+    },
+    "description": {
+      "id": "Bulan suci tiba dalam suasana yang belum pernah dialami bangsa ini sebelumnya. Tradisi mudik tahunan dilarang total. Jalur tol Trans-Jawa disekat barikade beton dan pos penjagaan aparat, memaksa sebagian pemudik nekat bersembunyi di bagasi bus atau bak truk sayuran. Pagi Idul Fitri dirayakan hening di ruang tamu beralaskan karpet rumah, bersilaturahmi lewat sambungan panggilan video call yang kerap tersendat.",
+      "en": "The sacred holiday arrived under conditions unseen in living memory. The historic annual homecoming (Mudik) was prohibited. Trans-Java toll expressways were obstructed by concrete barriers and checkpoints, prompting desperate travelers to hide in luggage compartments or under vegetable tarps. Eid prayers echoed quietly in living rooms via glitching video streams.",
+      "zh": "神圣的开斋节在举国前所未见的沉寂中到来：传承数百年的万人返乡潮遭全面叫停。跨爪哇高速公路被水泥路障与军警检查站截断，逼得部分归心似箭者藏身行李舱或菜车中。开斋节清晨，人们只能铺着客厅地毯，对着卡顿的视频连线遥寄问候。"
+    },
+    "image": "/assets/images/covid-19/id/03-lockdown-city.jpg"
+  },
+  {
+    "id": "08-side-masker-scuba-larangan",
+    "chapterNumber": "INTERLUDE II",
+    "type": "side_story",
+    "title": {
+      "id": "Polemik Masker Scuba & Razia Masker",
+      "en": "The Scuba Mask Controversy & Curbside Punishments",
+      "zh": "潜水布口罩争议与街头惩戒风暴"
+    },
+    "date": {
+      "id": "Juni - Juli 2020",
+      "en": "June - July 2020",
+      "zh": "2020年6月 - 7月"
+    },
+    "strain": "Aerosol Micro-Droplet Filtration",
+    "flash": {
+      "id": "PENERTIBAN JALANAN: Masker kain tipis dilarang; pelanggar dihukum push-up dan merenung di peti mati.",
+      "en": "STREET JUSTICE: Porous scuba masks banned; violators sentenced to push-ups and coffin vigils.",
+      "zh": "严查口罩：单层潜水布遭禁；违令者当街俯卧撑、罚躺棺材反省。"
+    },
+    "virusProfile": {
+      "code": "AEROSOL TRANSMISSION RECOGNITION",
+      "mutationType": {
+        "id": "Infiltrasi Aerosol Tembus Masker Non-Standar",
+        "en": "Aerosol Penetration via Non-Certified Fabrics",
+        "zh": "劣质织物气溶胶穿透与低过滤效能暴露"
+      },
+      "r0": "Tinggi via Kain Non-Medis",
+      "threatLevel": {
+        "id": "DISIPLIN SANITASI FISIK",
+        "en": "PHYSICAL SANITARY ENFORCEMENT",
+        "zh": "街头卫生规训与惩戒强制"
+      },
+      "clinicalTarget": {
+        "id": "Penyaringan droplet pernapasan di fasilitas publik",
+        "en": "Respiratory droplet filtration in crowded transit",
+        "zh": "公共交通与公共场所飞沫阻隔标本兼治"
+      }
+    },
+    "description": {
+      "id": "Setelah warga terbiasa membeli masker kain scuba berwarna-warni seharga lima ribuan, penelitian membuktikan kain elastis tersebut memiliki efektivitas filtrasi di bawah lima persen. Operator KRL dan Satpol PP melarang keras penggunaan masker scuba dan buff. Operasi yustisi digelar di pinggir jalan; pelanggar tanpa masker medis diganjar hukuman push-up, menyapu trotoar memakai rompi oranye, hingga dipaksa merenung di dalam replika peti mati.",
+      "en": "After millions had embraced inexpensive, colorful stretchy scuba masks, filtration studies revealed their protection was practically zero. Transit authorities banned single-layer fabrics. Curbside enforcement taskforces penalized unmasked citizens with public push-ups, sidewalk sweeping in orange vests, or even brief detention inside mock open coffins.",
+      "zh": "在公众普遍习惯购买五千印尼盾一条的鲜艳单层潜水布口罩后，科研证实其微粒过滤率甚至低于5%。通勤铁路与城管队迅速严令禁用。街头惩处大队严阵以待：未佩戴正规医用口罩者被当街罚做俯卧撑、穿橙色马甲扫大街，甚至被命令躺入敞开的空棺材中闭门思过。"
+    },
+    "image": "/assets/images/covid-19/id/18-scuba-mask-ban.jpg"
+  },
+  {
+    "id": "09-side-dalgona-isolation",
+    "chapterNumber": "INTERLUDE III",
+    "type": "side_story",
+    "title": {
+      "id": "Eksperimen Dapur, Janda Bolong, & Demam Gowes",
+      "en": "Homebound Fads: Dalgona Coffee, Monsteras, & Folding Bikes",
+      "zh": "居家乐事：400次咖啡、龟背竹与折叠单车狂潮"
+    },
+    "date": {
+      "id": "Juli - September 2020",
+      "en": "July - September 2020",
+      "zh": "2020年7月 - 9月"
+    },
+    "strain": "Fenomena Domestik",
+    "flash": {
+      "id": "PELARIAN MENTAL: Mengocok kopi ratusan kali; tanaman hias puluhan juta dan jalanan penuh pesepeda.",
+      "en": "COPING MECHANISMS: Whipping coffee 400 times; rare plants surge in value amid cycling mania.",
+      "zh": "居家疗愈：手打咖啡400次；名贵盆栽炒至天价，周末骑行塞满街道。"
+    },
+    "virusProfile": {
+      "code": "CABIN FEVER ESCAPE",
+      "mutationType": {
+        "id": "Evolusi Spikeprotein D614G Stabil Menetap",
+        "en": "Spike Protein D614G Worldwide Stabilization",
+        "zh": "D614G突变在全球范围内的稳定主导"
+      },
+      "r0": "Tren Domestik",
+      "threatLevel": {
+        "id": "KELELAHAN MENTAL & ANXIETAS MASSIF",
+        "en": "PANDEMIC FATIGUE & ANXIETY",
+        "zh": "长期居家引发的社会心理疲惫"
+      },
+      "clinicalTarget": {
+        "id": "Kesehatan mental dan isolasi psikososial domestik",
+        "en": "Mental health management under chronic isolation",
+        "zh": "长期隔离下的家庭心理健康与倦怠应激"
+      }
+    },
+    "description": {
+      "id": "Berbulan-bulan mendekam di rumah memicu lahirnya gelombang pelarian unik. Jutaan orang mengocok bubuk kopi instan dan gula ratusan kali hingga berbusa tebal, merawat tanaman hias monstera hingga bernilai jutaan rupiah, serta memenuhi jalanan di akhir pekan dengan demam sepeda lipat. Di balik layar, batas waktu kerja dan ruang pribadi luntur; panggilan rapat daring tak henti berdering dari pagi hingga larut malam.",
+      "en": "Months confined indoors gave rise to eccentric escapes. Millions whipped instant coffee powders hundreds of times to create fluffy Dalgona foam, collected rare Monstera houseplants at surging prices, and flooded weekend asphalt on folding bicycles. Meanwhile, boundaries blurred as remote videoconferences invaded domestic sanctuary from dawn until past midnight.",
+      "zh": "数月足不出户催生了独特的居家疗愈潮。数以百万计的市民在家手动搅打即溶咖啡粉至绵密起泡；稀有龟背竹盆栽被炒至数千万天价；周末的马路则被折叠单车车流填满。而在屏幕背后，生活与工作的界限彻底瓦解，视频会议声从清晨响至深夜。"
+    },
+    "image": "/assets/images/covid-19/id/07-digital-shift.jpg"
+  },
+  {
+    "id": "10-wisma-atlet-citadel",
+    "chapterNumber": "07",
+    "type": "standard",
+    "title": {
+      "id": "Benteng Pertahanan: Menara Kemayoran",
+      "en": "The Quarantine Citadel: Kemayoran Athlete Towers",
+      "zh": "抗疫灯塔：凯马腰兰方舱医院的孤光"
+    },
+    "date": {
+      "id": "Oktober - Desember 2020",
+      "en": "October - December 2020",
+      "zh": "2020年10月 - 12月"
+    },
+    "strain": "SARS-CoV-2 Pre-Alpha Clades",
+    "flash": {
+      "id": "CITADEL ISOLASI: Ribuan ranjang menyala di Kemayoran; sirene ambulans tak pernah tidur.",
+      "en": "ISOLATION CITADEL: Thousands of ward windows ablaze; sirens echo sleeplessly in Kemayoran.",
+      "zh": "方舱长明：数千扇隔离病房通宵明亮；救护车汽笛彻夜轰鸣。"
+    },
+    "virusProfile": {
+      "code": "MASS FACILITY SATURATION",
+      "mutationType": {
+        "id": "Transmisi Klaster Padat Urban Skala Masif",
+        "en": "Dense Urban Indoor Cluster Proliferation",
+        "zh": "密集城市室内环境大规模群聚传播"
+      },
+      "r0": "2.8",
+      "threatLevel": {
+        "id": "SATURASI RS & ISOLASI MASIF",
+        "en": "HOSPITAL SATURATION & MASS QUARANTINE",
+        "zh": "全域医疗床位逼近饱和与方舱征用"
+      },
+      "clinicalTarget": {
+        "id": "Triase isolasi pasien ringan-sedang perkotaan",
+        "en": "Urban mild-to-moderate patient triage and isolation",
+        "zh": "城市中轻症患者集中隔离与早期临床分流"
+      }
+    },
+    "description": {
+      "id": "Ledakan kasus klaster perkantoran dan keluarga membuat kapasitas rumah sakit umum kewalahan. Kompleks flat atlet Kemayoran disulap menjadi Rumah Sakit Darurat COVID-19 raksasa dengan ribuan tempat tidur. Malam hari di Kemayoran diterangi ribuan jendela kamar isolasi yang tak pernah padam. Tenaga medis bertugas belasan jam bersimbah keringat di balik hazmat kedap udara tanpa sempat makan atau buang air, sementara deru sirene ambulans menjadi suara latar malam di kota-kota besar Pulau Jawa.",
+      "en": "Office and household spikes pushed public hospitals past exhaustion. The Kemayoran Asian Games Athletes Village was transformed into a colossal makeshift emergency hospital with thousands of isolation beds. At night, towering apartment blocks glowed perpetually. Caregivers braved 12-hour shifts drenched in airtight suits, with wailing ambulances scoring the city's midnight soundtrack.",
+      "zh": "写字楼与家庭聚集性疫情暴发导致公立医院全线告急。原亚运村运动员公寓被火速改建为拥有数千张隔离床位的庞大应急医院。入夜后，凯马腰兰高耸的楼栋窗户整夜通明。身穿密不透风防护服的医护人员全身湿透、长达十几个小时不吃不喝连续作战，救护车的警笛声成了爪哇各大城市黑夜的背景音。"
+    },
+    "image": "/assets/images/covid-19/id/04-hospital-panic.jpg"
+  },
+  {
+    "id": "11-skandal-korupsi-bansos",
+    "chapterNumber": "08",
+    "type": "standard",
+    "title": {
+      "id": "Ironi di Tengah Bencana: Skandal Bansos",
+      "en": "Crisis Profiteering: The Social Aid Kickback Scandal",
+      "zh": "国难之殇：疫情救济粮贪腐丑闻"
+    },
+    "date": {
+      "id": "Desember 2020",
+      "en": "December 2020",
+      "zh": "2020年12月"
+    },
+    "strain": "Krisis Integritas Tata Kelola",
+    "flash": {
+      "id": "SKANDAL MORAL: Bantuan sembako rakyat dipotong suap; beras apek di meja warga lapar.",
+      "en": "ETHICAL OUTRAGE: Social safety food packages trimmed for kickbacks; stale rice for the hungry.",
+      "zh": "良知沦丧：救济粮包裹遭克扣回扣；饥肠辘辘的平民收到发霉粮食。"
+    },
+    "virusProfile": {
+      "code": "SOCIO-POLITICAL PATHOLOGY",
+      "mutationType": {
+        "id": "Penyusutan Nilai Bantuan Darurat Pangan",
+        "en": "Administrative Siphoning of Emergency Aid",
+        "zh": "紧急救援民生物资遭体制内职务侵占"
+      },
+      "r0": "Kerugian Finansial Masif",
+      "threatLevel": {
+        "id": "EROSI MORAL & INTEGRITAS PUBLIK",
+        "en": "INSTITUTIONAL INTEGRITY CRISIS",
+        "zh": "公共行政伦理溃败与民愤引爆"
+      },
+      "clinicalTarget": {
+        "id": "Ketahanan gizi dan stabilitas sosial masyarakat miskin",
+        "en": "Nutritional security and social peace in vulnerable groups",
+        "zh": "低收入脆弱群体的基础营养与生存防线"
+      }
+    },
+    "description": {
+      "id": "Di tengah rintihan rakyat yang kehilangan pekerjaan dan berlapar-lapar di rumah kontrakan, operasi tangkap tangan KPK membongkar suap pengadaan bantuan sosial sembako COVID-19 yang menyeret pucuk pimpinan Kementerian Sosial. Kantong bantuan merah-putih yang seharusnya berisi bahan pangan berkualitas disunat nilainya hingga menyisakan beras apek berkutu dan sarden kaleng murah. Peristiwa ini meremukkan rasa keadilan publik di titik terendah krisis.",
+      "en": "As families faced joblessness and hunger in modest rented rooms, anti-corruption sting operations uncovered massive kickbacks in social food aid procurement involving the Social Affairs Ministry. Red-and-white aid packages meant to deliver nutritious staples were hollowed out, leaving citizens with weevil-infested rice and substandard canned goods, deeply wounding public trust.",
+      "zh": "就在无数底层民众失业、在逼仄出租屋中艰难求生之际，反贪腐机构一举查获社会事务部高官受贿克扣疫情基本生活救济包的惊天丑闻。原本印着红白国旗、装有营养食材的爱心包裹价值遭层层克扣，留给受灾百姓的竟是生虫霉米与廉价罐头，令公众对社会公平的信任坠入冰点。"
+    },
+    "image": "/assets/images/covid-19/id/19-bansos-scandal.jpg"
+  },
+  {
+    "id": "12-vaccine-breakthrough",
+    "chapterNumber": "09",
+    "type": "milestone",
+    "title": {
+      "id": "Secercah Harapan: Jarum Suntik Perdana",
+      "en": "Dawn of Immunization: The First Vaccine Injection",
+      "zh": "初现曙光：总统府的第一针疫苗"
+    },
+    "date": {
+      "id": "13 Januari 2021",
+      "en": "January 13, 2021",
+      "zh": "2021年1月13日"
+    },
+    "strain": "CoronaVac / Sinovac (Platform Inaktivasi)",
+    "flash": {
+      "id": "IMUNISASI NASIONAL: Siaran langsung vaksinasi perdana Presiden; harapan normalitas bangkit.",
+      "en": "NATIONAL IMMUNIZATION: Live broadcast of President's inoculation; hope for recovery takes root.",
+      "zh": "全民接种：总统直播接种第一针；重返正常生活的希望冉冉升起。"
+    },
+    "virusProfile": {
+      "code": "IMMUNOLOGICAL SHIELD",
+      "mutationType": {
+        "id": "Inisiasi Imunitas Humoral Buatan Skala Nasional",
+        "en": "Nationwide Humoral Immunity Induction",
+        "zh": "全国范围内人工体液免疫屏障初建"
+      },
+      "r0": "Mulai Terbendung Pembentukan Antibodi",
+      "threatLevel": {
+        "id": "MOBILISASI LOGISTIK BIOLOGIS MASSAL",
+        "en": "MASS BIOLOGICAL LOGISTICS DRIVE",
+        "zh": "战备级生物医药冷链与全民分发动员"
+      },
+      "clinicalTarget": {
+        "id": "Pembentukan antibodi penetralisir pada garda depan",
+        "en": "Neutralizing antibody generation in frontline workers",
+        "zh": "一线医护与关键服务人员中和抗体建立"
+      }
+    },
+    "description": {
+      "id": "Setelah setahun dicekam ketakutan, harapan nyata tiba di Bandara Soekarno-Hatta dalam kontainer pendingin khusus berisi jutaan vial vaksin. Siaran langsung penyuntikan dosis perdana kepada Presiden di Istana Merdeka resmi membuka kampanye imunisasi massal terbesar sepanjang sejarah bangsa. Stadion, aula olahraga, hingga pusat perbelanjaan disulap menjadi sentra vaksinasi dengan antrean warga yang mengular sejak subuh demi mendapatkan perlindungan pertama.",
+      "en": "After twelve months in fear, tangible relief arrived at the airport via cold-chain containers packed with vaccine vials. A live broadcast of the President receiving the inaugural dose at Merdeka Palace kicked off the largest mass immunization drive in national history. Sports arenas, exhibition halls, and shopping malls were converted into inoculation hubs as long queues formed at daybreak.",
+      "zh": "在被恐慌笼罩整整一年后，满载数百万剂疫苗的冷链集装箱运抵机场。独立宫内总统现场直播接种第一针，正式开启了印尼历史上规模最庞大的全民免费免疫接种运动。体育馆、会展中心与大型商场被改建为接种中心，成千上万市民天未破晓便排起长队。"
+    },
+    "image": "/assets/images/covid-19/id/05-vaccine-cure.jpg"
+  },
+  {
+    "id": "13-side-genose-stasiun",
+    "chapterNumber": "INTERLUDE IV",
+    "type": "side_story",
+    "title": {
+      "id": "Tiup Kantong Plastik: Era GeNose C19",
+      "en": "The Breath Test Craze: GeNose C19 Station Queues",
+      "zh": "呼气测毒：火车站里的GeNose塑料气袋风潮"
+    },
+    "date": {
+      "id": "Februari - Mei 2021",
+      "en": "February - May 2021",
+      "zh": "2021年2月 - 5月"
+    },
+    "strain": "Teknologi Skrining Napas Volatile Organic Compound",
+    "flash": {
+      "id": "SKRINING NAFAS: Kantong udara Rp 30.000 jadi syarat kereta; perdebatan akurasi terus bergulir.",
+      "en": "AFFORDABLE SCREENING: Rp 30,000 breath bags cleared rail travel; sensor reliability debated.",
+      "zh": "平价筛查：三万印尼盾呼气袋换取乘车许可；准确度争议如影随形。"
+    },
+    "virusProfile": {
+      "code": "VOC SENSOR SCREENING",
+      "mutationType": {
+        "id": "Deteksi Volatile Organic Compounds (VOC) Saluran Napas",
+        "en": "Exhaled Volatile Organic Compound (VOC) Sensing",
+        "zh": "呼出气挥发性有机物（VOC）传感器筛查"
+      },
+      "r0": "Skrining Cepat Penumpang",
+      "threatLevel": {
+        "id": "KONTROVERSI VALIDITAS SKRINING MASIF",
+        "en": "SCREENING ACCURACY DEBATE",
+        "zh": "平价大规模筛查工具准确性与假阴性风险"
+      },
+      "clinicalTarget": {
+        "id": "Skrining cepat penumpang transportasi publik jarak jauh",
+        "en": "Rapid screening for intercity public transport passengers",
+        "zh": "城际公共交通低成本即时快速筛查"
+      }
+    },
+    "description": {
+      "id": "Sebagai alternatif tes PCR dan Swab Antigen yang mahal, stasiun kereta api menghadirkan bilik skrining GeNose C19 karya kampus dalam negeri. Dengan tarif tiga puluh ribu rupiah, calon penumpang mengantre meniup kantong plastik kecil hingga menggelembung sebelum dihubungkan ke sensor elektronik. Meski mempermudah mobilitas murah, kontroversi akurasi dan risiko hasil negatif palsu terus membayangi hingga alat ini akhirnya dipensiunkan menjelang badai Delta.",
+      "en": "To lower transit costs compared to expensive PCR tests, train stations introduced locally developed GeNose C19 electronic nose booths. For Rp 30,000, passengers inflated small plastic bags to be analyzed by AI sensors. While facilitating affordable travel, debates surrounding false negatives lingered until the technology was quietly retired ahead of the Delta surge.",
+      "zh": "面对昂贵的核酸检测费用，印尼火车站推出了本土高校研发的GeNose呼气检测仪。只需花三万印尼盾，旅客排队向小塑料袋吹气充盈，再连入电子传感器检测呼出挥发性气体。尽管降低了出行成本，但假阴性风险的巨大争议最终使其在德尔塔风暴来临前悄然退出舞台。"
+    },
+    "image": "/assets/images/covid-19/id/20-genose-station.jpg"
+  },
+  {
+    "id": "14-side-vaccine-conspiracy",
+    "chapterNumber": "INTERLUDE V",
+    "type": "side_story",
+    "title": {
+      "id": "Konspirasi Microchip & Magnet di Lengan",
+      "en": "Digital Myths: Microchips, 5G, & Magnetic Arms",
+      "zh": "数字迷思：5G微芯片与手臂吸铁勺谣言"
+    },
+    "date": {
+      "id": "Maret - Mei 2021",
+      "en": "March - May 2021",
+      "zh": "2021年3月 - 5月"
+    },
+    "strain": "Infodemi Digital Global-Lokal",
+    "flash": {
+      "id": "INFODEMIK: Video koin menempel di lengan viral; anak muda berjuang bujuk orang tua ikut vaksin.",
+      "en": "INFODEMIC: Viral videos show coins sticking to arms; youth battle hoaxes to convince elders.",
+      "zh": "虚假信息：手臂吸附硬币视频疯传；年轻人竭力劝导长辈破除谣言打疫苗。"
+    },
+    "virusProfile": {
+      "code": "INFODEMIC WAVE",
+      "mutationType": {
+        "id": "Distorsi Narasi Ilmiah via Media Sosial",
+        "en": "Social Media Distortion of Scientific Data",
+        "zh": "社交媒体算法放大的科学迷思与信息流行病"
+      },
+      "r0": "Viral di Grup Percakapan",
+      "threatLevel": {
+        "id": "RESISTENSI VAKSINASI KOMUNITAS",
+        "en": "COMMUNITY VACCINE HESITANCY",
+        "zh": "弱势群体疫苗犹豫与接种迟滞风险"
+      },
+      "clinicalTarget": {
+        "id": "Cakupan vaksinasi lansia dan populasi rentan",
+        "en": "Vaccination coverage in hesitant elder populations",
+        "zh": "老年人口与高危人群基础免疫接种覆盖率"
+      }
+    },
+    "description": {
+      "id": "Di tengah akselerasi vaksinasi, kabar bohong menyebar liar di ruang digital. Narasi bahwa vaksin disisipi chip pelacak 5G buatan luar negeri hingga video koin logam yang menempel di bekas luka suntikan ramai dibagikan. Banyak anak muda harus bersusah payah mendebat orang tua dan kerabat lansia di meja makan agar tidak termakan kabar bohong dan bersedia mendaftar ke sentra vaksinasi terdekat.",
+      "en": "Parallel to vaccine rollouts, wild online conspiracies surged. Claims that vaccines harbored foreign 5G tracking microchips spread alongside clips of coins sticking to injection marks. Younger generations spent agonizing dinner discussions countering misinformation to convince hesitant elderly parents to register at vaccination hubs.",
+      "zh": "在疫苗接种提速的同时，网络谣言在社交平台野蛮生长。从疫苗内植入外国5G追踪芯片，到针口处能吸附铁勺硬币的摆拍短视频广为流传。许多年轻人必须在饭桌上苦口婆心地与父母长辈辩论辟谣，才劝得老人前往社区接种疫苗。"
+    },
+    "image": "/assets/images/covid-19/id/15-infodemic-hoax.jpg"
+  },
+  {
+    "id": "15-mutasi-alpha-beta",
+    "chapterNumber": "10",
+    "type": "standard",
+    "title": {
+      "id": "Penyusup Senyap: Varian Alpha & Beta",
+      "en": "The Silent Intruders: Variants Alpha & Beta",
+      "zh": "隐秘入侵者：阿尔法与贝塔变异毒株"
+    },
+    "date": {
+      "id": "April - Mei 2021",
+      "en": "April - May 2021",
+      "zh": "2021年4月 - 5月"
+    },
+    "strain": "Varian Alpha (B.1.1.7) & Beta (B.1.351)",
+    "flash": {
+      "id": "MUTASI IMPOR: Varian Inggris dan Afrika Selatan lolos di karantina bandara; transmisi melonjak.",
+      "en": "IMPORTED VARIANTS: UK and South African lineages slip past borders; transmission ticks upward.",
+      "zh": "输入变异：英国与南非毒株穿透入境隔离屏障；感染率再次爬升。"
+    },
+    "virusProfile": {
+      "code": "VOC ALPHA & BETA",
+      "mutationType": {
+        "id": "Mutasi Reseptor-Binding Domain N501Y",
+        "en": "Spike Receptor-Binding Domain Mutation N501Y",
+        "zh": "刺突蛋白受体结合域N501Y关键突变"
+      },
+      "r0": "3.8 - 4.5",
+      "threatLevel": {
+        "id": "PENINGKATAN TRANSMISIBILITAS GLOBAL",
+        "en": "HEIGHTENED GLOBAL TRANSMISSIBILITY",
+        "zh": "全球突变株强传播力升级险情"
+      },
+      "clinicalTarget": {
+        "id": "Afinitas reseptor paru yang lebih agresif",
+        "en": "Increased binding affinity to pulmonary ACE2 receptors",
+        "zh": "肺部ACE2受体高强结合与下呼吸道快速浸润"
+      }
+    },
+    "description": {
+      "id": "Pengawasan genomik nasional mendeteksi masuknya varian Alpha (B.1.1.7) dari Inggris dan Beta (B.1.351) dari Afrika Selatan melalui jalur kepulangan pekerja migran. Mutasi N501Y pada protein spike meningkatkan kemampuan virus menempel pada reseptor sel manusia hingga 50 persen lebih rekat. Sistem surveilans genomik tanah air yang masih terbatas tertatih-tatih melacak rantai penyebaran di tengah euforia pembukaan mobilitas.",
+      "en": "Whole-genome sequencing caught the quiet entry of the UK Alpha (B.1.1.7) and South African Beta (B.1.351) strains through returning labor routes. The pivotal N501Y spike mutation enhanced binding affinity to ACE2 receptors by up to 50 percent. Underfunded genomic laboratories scrambled to sequence clusters amid premature calls for travel normalization.",
+      "zh": "印尼全基因组测序监测到英国阿尔法株（B.1.1.7）与南非贝塔株（B.1.351）经返国务工人员渠道悄然输入。刺突蛋白上的N501Y突变使病毒与人类细胞受体的结合亲和力提升高达50%。仍在起步阶段的本土基因监测网络在过早解封的呼声中勉力追查传播链。"
+    },
+    "image": "/assets/images/covid-19/id/01-loading-virus.jpg"
+  },
+  {
+    "id": "16-delta-catastrophe",
+    "chapterNumber": "11",
+    "type": "milestone",
+    "title": {
+      "id": "Badai Juli: Tsunami Mutasi Delta",
+      "en": "The July Catastrophe: Delta Mutation Tsunami",
+      "zh": "七月劫难：德尔塔变异株海啸"
+    },
+    "date": {
+      "id": "Juni - Juli 2021",
+      "en": "June - July 2021",
+      "zh": "2021年6月 - 7月"
+    },
+    "strain": "Varian Delta (B.1.617.2)",
+    "flash": {
+      "id": "TITIK NADIR: 56.000 kasus sehari; ICU kolaps total dan parkiran rumah sakit jadi ruang rawat.",
+      "en": "DARKEST HOUR: 56,000 daily cases; ICUs collapse and hospital parking lots become open wards.",
+      "zh": "至暗时刻：单日确诊突破5.6万；ICU彻底瘫痪，医院停车场沦为临时病区。"
+    },
+    "virusProfile": {
+      "code": "VOC DELTA (B.1.617.2)",
+      "mutationType": {
+        "id": "Mutasi Ganda Spike L452R + P681R",
+        "en": "Dual Spike Mutations L452R + P681R",
+        "zh": "刺突蛋白L452R与P681R双重突变协同放大"
+      },
+      "r0": "6.0 - 7.5 (Super Agresif)",
+      "threatLevel": {
+        "id": "KOLAPS SISTEM KESEHATAN NASIONAL",
+        "en": "NATIONAL HEALTH SYSTEM COLLAPSE",
+        "zh": "国家医疗与急救体系全面崩溃"
+      },
+      "clinicalTarget": {
+        "id": "Hipoksia cepat dan sindrom badai sitokin mematikan",
+        "en": "Rapid silent hypoxia and fulminant cytokine storms",
+        "zh": "暴发性细胞因子风暴与急性沉默性缺氧"
+      }
+    },
+    "description": {
+      "id": "Bulan Juli 2021 menjadi catatan paling berdarah dalam sejarah modern bangsa. Varian Delta (B.1.617.2) menyapu Pulau Jawa dan Bali dengan kecepatan mengerikan. Membawa mutasi ganda L452R dan P681R, varian ini melipatgandakan muatan virus hingga seribu kali lebih pekat. Rumah sakit kolaps seketika; lobi, koridor, hingga pelataran parkir berubah jadi hamparan kasur pasien berbalut terpal tentara, sementara ribuan nyawa melayang saat masih mengantre di pintu IGD.",
+      "en": "July 2021 etched the darkest chapter into modern national memory. The Delta variant (B.1.617.2) engulfed Java and Bali with ferocious speed. Packing the dual L452R and P681R mutations, patient viral loads soared a thousandfold. Hospitals disintegrated under the crush: hallways, entryways, and outdoor tarmac overflowed with gurneys under military awnings while thousands perished before triage.",
+      "zh": "2021年7月写下了印尼现代史上最惨烈的一页。德尔塔变异毒株（B.1.617.2）以恐怖速度席卷爪哇与巴厘岛。携带L452R与P681R双重突变的病人体内病毒载量暴增千倍。全国医院瞬间瘫痪：大厅、走廊乃至室外停车场搭满军用雨棚停满病床，数以千计的患者尚未迈进急诊室便已咽气。"
+    },
+    "image": "/assets/images/covid-19/id/08-oxygen-crisis.jpg"
+  },
+  {
+    "id": "17-side-krisis-oksigen-ivermectin",
+    "chapterNumber": "INTERLUDE VI",
+    "type": "side_story",
+    "title": {
+      "id": "Perburuan Tabung Hijau, Oximeter, & Ivermectin",
+      "en": "Scramble for Breath: Oxygen Cylinders & Panic Hoarding",
+      "zh": "抢氧生死战：绿色氧气瓶、血氧仪与伊维菌素狂热"
+    },
+    "date": {
+      "id": "Juli 2021",
+      "en": "July 2021",
+      "zh": "2021年7月"
+    },
+    "strain": "Kepanikan Komoditas Medis",
+    "flash": {
+      "id": "BEREBUT NAFAS: Antrean isi ulang oksigen tengah malam; harga obat cacing melonjak gila-gilaan.",
+      "en": "GASPING FOR AIR: Midnight queues for oxygen; antiparasitic drug prices surge out of control.",
+      "zh": "争夺氧气：充氧站午夜排起数公里长龙；寄生虫药被炒至荒唐天价。"
+    },
+    "virusProfile": {
+      "code": "CONSUMER PANIC PHENOMENON",
+      "mutationType": {
+        "id": "Kelangkaan Logistik Penopang Hidup Kritis",
+        "en": "Severe Critical Care Life-Support Shortage",
+        "zh": "重症基础生命支持供应链全面断裂"
+      },
+      "r0": "Ludes dalam Hitungan Menit",
+      "threatLevel": {
+        "id": "PANIC BUYING & KELANGKAAN OKSIGEN MEDIS",
+        "en": "PANIC HOARDING & MEDICAL OXYGEN FAMINE",
+        "zh": "医用氧气极度匮乏与恐慌性药品囤积"
+      },
+      "clinicalTarget": {
+        "id": "Pertolongan desaturasi akut di bawah 85 persen",
+        "en": "Emergency management of blood oxygen drops below 85%",
+        "zh": "血氧饱和度骤降低于85%的家庭紧急复苏"
+      }
+    },
+    "description": {
+      "id": "Ketika pasokan oksigen medis rumah sakit mengering, beban bertahan hidup berpindah ke pundak warga biasa. Depot pengisian oksigen dipadati antrean orang yang panik menggotong tabung silinder hijau tengah malam demi menyelamatkan keluarga yang megap-megap di kamar isolasi mandiri. Harga oximeter saku melambung dari puluhan ribu menjadi ratusan ribu rupiah. Di apotek dan lokapasar daring, obat cacing Ivermectin dan suplemen susu kaleng ludes diborong karena desas-desus khasiat kesembuhan instan.",
+      "en": "When hospital bulk oxygen reservoirs emptied, the burden of survival shifted to ordinary homes. Refill depots were thronged by midnight crowds hoisting heavy green cylinders to keep suffocating relatives alive in bedrooms. Pocket pulse oximeter prices multiplied tenfold. Pharmacies were cleared of veterinary antiparasitic Ivermectin and canned milk amid desperate rumors of instant miracle cures.",
+      "zh": "当医院中心供氧彻底告罄，保命的重担落在了每个普通家庭肩上。充氧站外，数以千计的家属通宵排队扛着沉重的绿色钢瓶，只为给在卧室自我隔离中喘不上气的亲人续命。脉搏血氧仪价格暴涨十倍；药店与网购平台的驱虫药伊维菌素与灭菌罐装牛奶被洗劫一空。"
+    },
+    "image": "/assets/images/covid-19/id/12-oxygen-lines.jpg"
+  },
+  {
+    "id": "18-pemakaman-malam-hari",
+    "chapterNumber": "12",
+    "type": "standard",
+    "title": {
+      "id": "Lampu Sorot di Pemakaman Malam",
+      "en": "Floodlights at Midnight: The Graveyard Shift",
+      "zh": "暗夜探照灯：公墓土地上的连夜掘墓人"
+    },
+    "date": {
+      "id": "Juli - Agustus 2021",
+      "en": "July - August 2021",
+      "zh": "2021年7月 - 8月"
+    },
+    "strain": "Peak Lethality Delta Wave",
+    "flash": {
+      "id": "PUNCAK MORTALITAS: Lebih dari 2.000 jiwa melayang sehari; liang lahad digali excavator 24 jam.",
+      "en": "FATALITY APEX: Over 2,000 deaths daily; excavators carve graves around the clock.",
+      "zh": "死亡峰值：单日逾两千人罹难；挖掘机24小时连轴开凿墓穴。"
+    },
+    "virusProfile": {
+      "code": "HIGH MORTALITY SURGE",
+      "mutationType": {
+        "id": "Mortalitas Puncak Akibat Kehabisan Akses Medis",
+        "en": "Mortality Peak Driven by Depleted Clinical Access",
+        "zh": "医疗资源耗尽导致的超额暴发性死亡"
+      },
+      "r0": "6.0",
+      "threatLevel": {
+        "id": "KEDARURATAN PEMAKAMAN PROTOKOL KESEHATAN",
+        "en": "CEMETERY SATURATION CRISIS",
+        "zh": "公墓承载力崩溃与24小时遗体应急处理"
+      },
+      "clinicalTarget": {
+        "id": "Pengurusan jenazah infeksius protokol COVID-19",
+        "en": "Infectious pathogen containment in deceased processing",
+        "zh": "高危生物感染遗体严格无害化防护规程"
+      }
+    },
+    "description": {
+      "id": "Dengan angka kematian resmi menembus lebih dari dua ribu jiwa per hari, Tempat Pemakaman Umum seperti Rorotan dan Pondok Ranggon kewalahan. Sirine ambulans berlalu-lalang tanpa jeda dari subuh hingga larut malam. Para penggali kubur bertugas di bawah terik matahari hingga bantuan lampu sorot malam hari, dibantu alat berat excavator yang terus mengeruk liang lahat baru. Bau disinfektan dan tangisan histeris keluarga yang hanya boleh menyaksikan dari kejauhan menjadi memori paling menyayat hati.",
+      "en": "With official daily deaths passing two thousand, public cemeteries like Rorotan and Pondok Ranggon were overwhelmed. Ambulances arrived in endless convoys. Gravediggers worked around the clock under blazing sun and night floodlights, assisted by backhoes carving trench after trench. The scent of chemical disinfectant mingling with distant tears etched an unforgettable grief into the collective soul.",
+      "zh": "随着单日官方死亡人数突破两千大关，罗罗坦等大型公墓被遗体淹没。运尸救护车日夜不息长鸣而至。掘墓工人在白昼烈日与深夜探照灯下连轴作业，重型挖掘机轰鸣着开凿一眼望不到头的墓坑。消毒水味与只能远远送葬的家属撕心裂肺的哭声，铸成了国人记忆中最沉痛的创伤。"
+    },
+    "image": "/assets/images/covid-19/id/21-night-burials.jpg"
+  },
+  {
+    "id": "19-digital-surveillance-qr",
+    "chapterNumber": "13",
+    "type": "standard",
+    "title": {
+      "id": "Sekat Digital di Balik Pintu: PeduliLindungi",
+      "en": "Digital Borders: QR Codes & PeduliLindungi",
+      "zh": "数字围栏：健康码通行与PeduliLindungi时代"
+    },
+    "date": {
+      "id": "September - Desember 2021",
+      "en": "September - December 2021",
+      "zh": "2021年9月 - 12月"
+    },
+    "strain": "Sub-lineage Delta AY.23 (Dominasi Lokal)",
+    "flash": {
+      "id": "CHECK-IN WAJIB: Scan QR code di setiap pintu gedung; warna hijau jadi tiket kebebasan bergerak.",
+      "en": "MANDATORY CHECK-IN: QR scans at every entrance; green screens become the currency of movement.",
+      "zh": "强制扫码：出入公共场所必扫二维码；手机绿码成为出行的数字通行证。"
+    },
+    "virusProfile": {
+      "code": "SUBLINEAGE DELTA AY.23",
+      "mutationType": {
+        "id": "Pelacakan Kontak Digital & Paspor Vaksinasi",
+        "en": "Digital Contact Tracing & Digital Vaccine Passports",
+        "zh": "数字化密接轨迹追踪与疫苗接种电子凭证"
+      },
+      "r0": "Ditekan ke < 1.0 via PPKM Bertingkat",
+      "threatLevel": {
+        "id": "INTEGRASI SURVEILANS DIGITAL NASIONAL",
+        "en": "NATIONAL DIGITAL SURVEILLANCE INTEGRATION",
+        "zh": "国家级常态化数字化空间管控"
+      },
+      "clinicalTarget": {
+        "id": "Skrining status vaksinasi dan paparan kontak publik",
+        "en": "Public verification of vaccination and exposure history",
+        "zh": "公共场所聚集人群疫苗接种与密接暴露核验"
+      }
+    },
+    "description": {
+      "id": "Seiring meredanya amukan varian Delta berkat pembatasan darurat dan percepatan vaksinasi, tatanan kehidupan baru dikunci oleh ekosistem digital terpadu. Aplikasi PeduliLindungi menjadi syarat mutlak untuk melangkahkan kaki ke luar rumah. Di stasiun, bandara, kantor, hingga pintu masuk mal, warga berbaris tertib mengangkat ponsel untuk memindai kode QR dan mengecek saturasi suhu tubuh. Warna hijau di layar ponsel menjadi tiket sah kebebasan bergerak.",
+      "en": "As the Delta wave receded under tightened restrictions and rapid vaccination, public life reorganized around digital monitoring. The PeduliLindungi contact-tracing app became mandatory for civic re-entry. Outside train turnstiles, airports, and mall lobbies, citizens queued to scan QR checkpoints and register wrist temperatures. A green status screen served as the definitive permit for physical mobility.",
+      "zh": "随着德尔塔疫情在严厉封控与疫苗普及下逐渐受控，公共生活被编织进统一的数字化追踪网。PeduliLindungi应用成为走出家门的必备钥匙。火车站、机场、写字楼与商场入口前，市民排队举起手机扫码并核对体温。屏幕上亮起的绿色健康码，成了丈量行动自由的唯一凭证。"
+    },
+    "image": "/assets/images/covid-19/id/09-digital-tracing.jpg"
+  },
+  {
+    "id": "20-side-sertifikat-palsu-nik",
+    "chapterNumber": "INTERLUDE VII",
+    "type": "side_story",
+    "title": {
+      "id": "Drama NIK Dicatut & Sertifikat Vaksin Palsu",
+      "en": "Identity Chaos: Hijacked ID Numbers & Forged Certificates",
+      "zh": "身份乱局：身份证号盗用与黑市伪造疫苗证书"
+    },
+    "date": {
+      "id": "Oktober - Desember 2021",
+      "en": "October - December 2021",
+      "zh": "2021年10月 - 12月"
+    },
+    "strain": "Kerentanan Data Identitas Digital",
+    "flash": {
+      "id": "CELAH DATA: Sertifikat vaksin bocor dan diperjualbelikan; warga kaget NIK-nya dipakai orang lain.",
+      "en": "DATA VULNERABILITY: Vaccine passes leaked and traded; citizens find identities claimed by strangers.",
+      "zh": "数据漏洞：疫苗证书遭黑市倒卖；普通市民惊觉身份证号被陌生人盗用接种。"
+    },
+    "virusProfile": {
+      "code": "IDENTITY INTEGRITY HAZARD",
+      "mutationType": {
+        "id": "Eksploitasi Celah Keamanan Siber Identitas",
+        "en": "Cyber Vulnerability in Identity Infrastructure",
+        "zh": "人口身份大数据库安全漏洞与黑产套利"
+      },
+      "r0": "Penyimpangan Akses Publik",
+      "threatLevel": {
+        "id": "KEBOCORAN DATA PRIBADI & DOKUMEN PALSU",
+        "en": "DATA PRIVACY BREACH & FORGERY",
+        "zh": "个人核心数据外泄与虚假防疫凭证泛滥"
+      },
+      "clinicalTarget": {
+        "id": "Validasi integritas data imunisasi kesehatan publik",
+        "en": "Auditing public health immunization registry integrity",
+        "zh": "公共卫生免疫注册数据的真实性核验与审计"
+      }
+    },
+    "description": {
+      "id": "Ketergantungan total pada sistem digital membuka celah kerentanan data pribadi. Di media sosial, sertifikat vaksin milik tokoh publik hingga Presiden bocor ke ruang publik lengkap dengan Nomor Induk Kependudukan (NIK). Muncul sindikat yang memperjualbelikan sertifikat vaksin tembak tanpa suntikan asli. Banyak warga yang hendak divaksinasi ditolak di lokasi karena NIK mereka telah dicatut dan didaftarkan oleh orang tak dikenal demi lolos syarat perjalanan.",
+      "en": "Total dependence on digital platforms laid bare glaring personal data vulnerabilities. Official vaccine passes—including that of the President—were publicly leaked online alongside national identification numbers. Underground syndicates sold counterfeit green certifications without genuine injections. Ordinary citizens arriving at clinics were stunned to discover their ID numbers had been hijacked by strangers.",
+      "zh": "全社会对数字凭证的高度依赖暴露出个人隐私数据的巨大漏洞。从政要到总统本人的疫苗证书连同身份证号（NIK）在网上泄露。地下黑市甚至滋生出免注射直接出具假绿码证书的犯罪链条。许多老百姓前往接种点时，震惊地发现自己的身份证号已被陌生人盗用乘车。"
+    },
+    "image": "/assets/images/covid-19/id/22-data-leak-nik.jpg"
+  },
+  {
+    "id": "21-omicron-lightning-wave",
+    "chapterNumber": "14",
+    "type": "milestone",
+    "title": {
+      "id": "Serangan Kilat: 30 Mutasi & Gelombang Omicron",
+      "en": "The Lightning Wave: 30 Mutations & Omicron Onslaught",
+      "zh": "闪电突袭：30处突变与奥密克戎感染潮"
+    },
+    "date": {
+      "id": "Februari - Maret 2022",
+      "en": "February - March 2022",
+      "zh": "2022年2月 - 3月"
+    },
+    "strain": "Varian Omicron (B.1.1.529 / BA.1 / BA.2)",
+    "flash": {
+      "id": "REKOR INFEKSI: Kasus harian tembus 64.000; tenggorokan nyeri massal tapi fatalitas melandai.",
+      "en": "INFECTION RECORD: Daily infections peak past 64,000; mass sore throats but lower fatality.",
+      "zh": "确诊破纪录：单日确诊飙破6.4万；全城咽痛却见重症率大幅下行。"
+    },
+    "virusProfile": {
+      "code": "VOC OMICRON (B.1.1.529)",
+      "mutationType": {
+        "id": "Hiper-Transmisibilitas 30+ Mutasi Spike Omicron",
+        "en": "Hyper-Transmissible 30+ Spike Mutations (B.1.1.529)",
+        "zh": "奥密克戎刺突蛋白30余处高密度变异与抗体逃逸"
+      },
+      "r0": "8.0 - 10.0 (Daya Tular Tertinggi)",
+      "threatLevel": {
+        "id": "REKOR INFEKSI KASUS HARIAN NASIONAL",
+        "en": "RECORD NATIONAL DAILY INFECTIONS",
+        "zh": "全国单日新增感染创历史最高纪录"
+      },
+      "clinicalTarget": {
+        "id": "Transmisi cepat saluran napas atas, batuk kering & faringitis",
+        "en": "Rapid upper respiratory invasion, sore throat & pharyngitis",
+        "zh": "上呼吸道急性感染、剧烈咽痛与居家自愈支持"
+      }
+    },
+    "description": {
+      "id": "Awal tahun 2022 dikejutkan oleh varian Omicron (B.1.1.529) yang membawa lebih dari 30 mutasi pada protein spike, mampu menembus perlindungan antibodi vaksin dosis ganda. Rekor infeksi harian nasional pecah di angka 64.718 kasus. Kantor dan sekolah dilanda demam massal dan radang tenggorokan hebat. Namun berbeda dengan horor Delta, dinding imunitas vaksinasi dan kecenderungan virus berpusat di saluran napas atas membuat angka rawat inap dan kematian jauh lebih terkendali.",
+      "en": "Early 2022 brought the Omicron variant (B.1.1.529), armed with over thirty mutations on its spike protein that deftly outflanked double-dose vaccine antibodies. All-time infection records shattered at 64,718 cases in a single day. Workplaces and schools succumbed to widespread fevers. Yet unlike the trauma of Delta, hybrid vaccine defenses and upper-airway tropism kept critical hospitalizations and deaths contained.",
+      "zh": "2022年初，刺突蛋白携带三十余处突变的奥密克戎株（B.1.1.529）凶猛来袭，轻易穿透双剂疫苗的抗体防线。印尼单日新增确诊创下64718例的历史极值。办公室与学校陷入集体发热与咽喉如刀割的症状中。但万幸的是，得益于疫苗构筑的混合免疫底色与毒株向呼吸道上游转移的特性，重症率与死亡率远低于德尔塔。"
+    },
+    "image": "/assets/images/covid-19/id/13-omicron-fever.jpg"
+  },
+  {
+    "id": "22-side-booster-mudik-tiket",
+    "chapterNumber": "INTERLUDE VIII",
+    "type": "side_story",
+    "title": {
+      "id": "Perburuan Vaksin Booster & Tiket Mudik Perdana",
+      "en": "Booster Hunt: Earning the Ticket Home",
+      "zh": "加强针热潮：换取两年后的第一张返乡车票"
+    },
+    "date": {
+      "id": "April 2022",
+      "en": "April 2022",
+      "zh": "2022年4月"
+    },
+    "strain": "Mandat Dosis Lanjutan (Booster)",
+    "flash": {
+      "id": "MUDIK KEMBALI: Syarat booster ketiga dibuka; jutaan perantau berburu vaksin demi pelukan ibu.",
+      "en": "MUDIK RESTORED: Third booster mandates open travel; millions scramble for jabs to reunite.",
+      "zh": "解禁返乡：接种第三针加强针免检出行；千万人争相扎针奔赴久违团圆。"
+    },
+    "virusProfile": {
+      "code": "BOOSTER ESCALATION",
+      "mutationType": {
+        "id": "Akselerasi Booster Dosis Ketiga Populasi",
+        "en": "Third-Dose Booster Population Acceleration",
+        "zh": "全人群第三剂加强针抗体滴度快速拉升"
+      },
+      "r0": "Terkendali",
+      "threatLevel": {
+        "id": "MOBILITAS MASSIF ARUS MUDIK PASCA-PANDEMI",
+        "en": "POST-PANDEMIC REUNION MOBILITY",
+        "zh": "疫情受控后数千万人跨省超大规模迁徙"
+      },
+      "clinicalTarget": {
+        "id": "Peningkatan titer antibodi netralisasi pada perjalanan massal",
+        "en": "Elevating neutralizing antibody titers prior to mass transit",
+        "zh": "大规模人群高频流动前中和抗体滴度加固"
+      }
+    },
+    "description": {
+      "id": "Setelah dua tahun berturut-turut dilarang pulang kampung, pemerintah akhirnya mengizinkan tradisi mudik Lebaran dengan satu syarat mutlak: telah menerima suntikan vaksin penguat (booster) ketiga. Gelanggang olahraga, kantor polisi, hingga rest area jalan tol mendadak dibanjiri antrean jutaan warga yang rela disuntik lengan kiri demi memegang tiket pulang dan kembali memeluk orang tua di kampung halaman.",
+      "en": "After two consecutive years of banned holiday homecoming, the government greenlit Mudik under a strict condition: completion of a third booster dose. Convention grounds, transit depots, and highway rest areas saw millions eagerly rolling up sleeves, trading a booster jab for the cherished license to travel home and embrace elderly parents once more.",
+      "zh": "在连续两年严禁返乡后，印尼政府终于正式解禁开斋节返乡潮，唯一硬性前提是必须完成第三剂加强针接种。体育场、警局门口乃至高速公路服务区排起长龙，数百万人自愿卷起衣袖接种加强针，只为换取那张能回乡拥抱年迈父母的珍贵通行证。"
+    },
+    "image": "/assets/images/covid-19/id/05-vaccine-cure.jpg"
+  },
+  {
+    "id": "23-pelepasan-masker-luar-ruang",
+    "chapterNumber": "15",
+    "type": "standard",
+    "title": {
+      "id": "Senja Penutup Wajah: Pelonggaran Masker",
+      "en": "Unmasking the City: Outdoor Mandates Eased",
+      "zh": "面纱渐落：室外口罩令放宽与微笑重现"
+    },
+    "date": {
+      "id": "Mei - Agustus 2022",
+      "en": "May - August 2022",
+      "zh": "2022年5月 - 8月"
+    },
+    "strain": "Subvarian Omicron BA.4 / BA.5",
+    "flash": {
+      "id": "TRANSISI HIDUP: Masker boleh dilepas di ruang terbuka; canggung tersenyum usai 2 tahun bersembunyi.",
+      "en": "TRANSITION ERA: Outdoor mask mandates lifted; awkward smiles return after two hidden years.",
+      "zh": "转折时代：室外开阔场地允许摘下口罩；隐匿两年的人们试探着露出笑容。"
+    },
+    "virusProfile": {
+      "code": "OMICRON DRIFT SUB-LINEAGES",
+      "mutationType": {
+        "id": "Pembentukan Imunitas Hibrida Populasi >98%",
+        "en": "Hybrid Population Seroprevalence Exceeding 98%",
+        "zh": "疫苗接种与自然感染混合免疫屏障逾98%"
+      },
+      "r0": "Tinggi namun Terbendung Herd Immunity",
+      "threatLevel": {
+        "id": "RELAKSASI KEBIJAKAN PROTOKOL KESEHATAN",
+        "en": "SANITARY POLICY RELAXATION",
+        "zh": "常态化公共卫生限制阶段性稳步撤除"
+      },
+      "clinicalTarget": {
+        "id": "Adaptasi perilaku normalisasi pernapasan terbuka",
+        "en": "Behavioral adaptation to unrestricted outdoor respiration",
+        "zh": "低风险室外环境逐步过渡与心理安全感重建"
+      }
+    },
+    "description": {
+      "id": "Tingkat imunitas hibrida masyarakat yang menembus lebih dari 98 persen membuka babak pelonggaran baru. Presiden mengumumkan bahwa warga diperbolehkan membuka masker saat berada di ruangan terbuka yang tidak padat. Momen ini disambut dengan perasaan campur aduk: lega namun canggung menatap wajah rekan kerja dan orang asing tanpa pembatas kain yang selama lebih dari dua tahun menjadi busana wajib harian.",
+      "en": "With hybrid seroprevalence exceeding 98 percent nationwide, authorities initiated gradual de-escalation. The President announced that masks could finally be removed in uncrowded open-air spaces. The moment brought a peculiar mixture of relief and shyness as people gazed upon bare smiles and faces that had remained concealed behind fabric for two long years.",
+      "zh": "全国血清混合抗体阳性率突破98%，解封进程迈出关键一步。总统正式宣布：市民在室外不拥挤的开放场地可免戴口罩。这一刻让许多人悲喜交集：在感到卸下重担的释然之余，人们对摘下已成为两年生活标配的面孔织物、赤裸相对地露出笑容感到既新鲜又带着一丝羞涩。"
+    },
+    "image": "/assets/images/covid-19/id/06-new-normal.jpg"
+  },
+  {
+    "id": "24-penghentian-ppkm",
+    "chapterNumber": "16",
+    "type": "standard",
+    "title": {
+      "id": "Pencabutan Sekat: Berakhirnya PPKM",
+      "en": "Dismantling Barriers: Termination of PPKM",
+      "zh": "拆除关卡：PPKM活动限制令终结"
+    },
+    "date": {
+      "id": "30 Desember 2022",
+      "en": "December 30, 2022",
+      "zh": "2022年12月30日"
+    },
+    "strain": "Omicron Subvariants XBB / BQ.1",
+    "flash": {
+      "id": "BEBAS GERAK: Status PPKM resmi dicabut di seluruh Indonesia; mal dan konser pulih seratus persen.",
+      "en": "RESTRICTIONS LIFTED: PPKM officially revoked nationwide; concerts and commerce surge back to 100%.",
+      "zh": "禁令解除：全国PPKM限制令正式废止；商场客流与演唱会全额满座复苏。"
+    },
+    "virusProfile": {
+      "code": "PRE-ENDEMIC DRIFT",
+      "mutationType": {
+        "id": "Transisi Epidemiologis Menuju Sirkulasi Endemik",
+        "en": "Epidemiological Transition to Endemic Circulation",
+        "zh": "大流行急性期向地方性常态化流行平稳过渡"
+      },
+      "r0": "Endemik Rendah Fatalitas",
+      "threatLevel": {
+        "id": "DE-ESKALASI STATUS PEMBATASAN DARURAT",
+        "en": "EMERGENCY CONTAINMENT DE-ESCALATION",
+        "zh": "法定紧急管控状态正式彻底撤销"
+      },
+      "clinicalTarget": {
+        "id": "Normalisasi kapasitas layanan medis dan mobilitas publik",
+        "en": "Normalizing healthcare operational capacity & civic mobility",
+        "zh": "常规医疗秩序全面恢复与全行业经济复苏"
+      }
+    },
+    "description": {
+      "id": "Di penghujung tahun 2022, pemerintah mengumumkan pencabutan resmi Pemberlakuan Pembatasan Kegiatan Masyarakat (PPKM) di seluruh penjuru tanah air. Kerumunan konser musik, bioskop tanpa jarak kursi, dan festival perayaan kembali memadati sudut-sudut kota. Kendati virus masih bermutasi, masyarakat telah belajar hidup berdampingan tanpa rasa panik yang melumpuhkan sendi-sendi ekonomi.",
+      "en": "On the cusp of 2023, the government officially terminated Community Activity Restrictions (PPKM) across the entire archipelago. Live festivals, cinemas without spaced seats, and uninhibited celebrations returned to vibrant city streets. Though viral evolution persisted, society had mastered coexistence without paralyzing economic fear.",
+      "zh": "2022岁末，印尼政府郑重宣布在全国所有省市正式废除社区活动限制令（PPKM）。音乐节人山人海、电影院满座开映、商铺深夜营业，城市烟火气彻底回归。尽管病毒依然在背景中持续变异，但整个社会已学会与之共存，不再因恐慌而停摆经济命脉。"
+    },
+    "image": "/assets/images/covid-19/id/23-ppkm-lifted.jpg"
+  },
+  {
+    "id": "25-endemic-declaration",
+    "chapterNumber": "17",
+    "type": "milestone",
+    "title": {
+      "id": "Garis Akhir: Deklarasi Resmi Endemi",
+      "en": "The Finish Line: Official Endemic Declaration",
+      "zh": "终点线：国家正式宣布转入地方性常态"
+    },
+    "date": {
+      "id": "21 Juni 2023",
+      "en": "June 21, 2023",
+      "zh": "2023年6月21日"
+    },
+    "strain": "Endemic Lineages (JN.1 / EG.5 / XBB)",
+    "flash": {
+      "id": "STATUS PANDEMI CABUT: Indonesia resmi melangkah keluar dari darurat biologis terbesar abad ini.",
+      "en": "PANDEMIC REVOKED: Indonesia officially emerges from the greatest biological emergency of the century.",
+      "zh": "大流行终结：印尼正式告别本世纪最严峻的公共卫生危机。"
+    },
+    "virusProfile": {
+      "code": "ENDEMIC SURVEILLANCE STATUS",
+      "mutationType": {
+        "id": "Stabilisasi Varian Rekombinan XBB & Subvarian Endemik",
+        "en": "Endemic Equilibrium: Recombinant XBB Lineages",
+        "zh": "奥密克戎重组株XBB与地方性亚分支动态平衡"
+      },
+      "r0": "Stabil Endemik",
+      "threatLevel": {
+        "id": "PENCABUTAN STATUS DARURAT KESEHATAN",
+        "en": "PUBLIC HEALTH EMERGENCY REVOKED",
+        "zh": "国家公共卫生紧急状态正式撤销"
+      },
+      "clinicalTarget": {
+        "id": "Pengelolaan mandiri infeksi pernapasan endemik",
+        "en": "Self-managed outpatient treatment of endemic respiratory illness",
+        "zh": "按常态化季节性呼吸道感染管理门诊自愈"
+      }
+    },
+    "description": {
+      "id": "Tepat pada hari ulang tahunnya, Presiden Joko Widodo secara resmi mengumumkan pencabutan status darurat pandemi COVID-19 di Indonesia, menyelaraskan langkah dengan keputusan Organisasi Kesehatan Dunia (WHO). SARS-CoV-2 dinyatakan beralih menjadi penyakit menular endemik biasa. Penanganan virus kini diperlakukan layaknya influenza musiman, mengakhiri pertempuran panjang selama 39 bulan yang telah merombak tatanan hidup bangsa.",
+      "en": "On his birthday, President Joko Widodo officially rescinded the national pandemic emergency status in Indonesia, aligning with the World Health Organization's de-escalation. SARS-CoV-2 was designated an endemic disease managed similarly to seasonal influenza, concluding a grueling 39-month ordeal that forever altered the nation's social fabric.",
+      "zh": "就在总统生日当天，佐科·维多多总统正式向全国宣布撤销COVID-19国家疫情紧急状态，与世界卫生组织（WHO）步调一致。新冠病毒被正式定性为地方性常见呼吸道传染病，按季节性流感模式常规管理。这场历时整整39个月、重塑了整个民族生存轨迹的史诗抗疫宣告落幕。"
+    },
+    "image": "/assets/images/covid-19/id/14-endemic-sunrise.jpg"
+  },
+  {
+    "id": "26-national-debriefing",
+    "chapterNumber": "18",
+    "type": "milestone",
+    "title": {
+      "id": "Debriefing Nasional: Monumen Angka & Nama yang Abadi",
+      "en": "National Debriefing: The Monument of Names & Numbers",
+      "zh": "国家终审纪要：永恒铭刻的数字与英名丰碑"
+    },
+    "date": {
+      "id": "Arsip Sejarah Resmi Satgas & Kemenkes RI",
+      "en": "Official Historical Archive of National Taskforce & Ministry of Health",
+      "zh": "印尼防疫工作组与卫生部官方历史档案"
+    },
+    "strain": "Rekapitulasi Krisis Nasional 2020 - 2023",
+    "flash": {
+      "id": "REKAPITULASI ABADI: 6,81 Juta Kasus, 6,64 Juta Sembuh, 161.918 Jiwa Gugur demi Ketangguhan Bangsa.",
+      "en": "IMMORTAL LOGS: 6.81M Cases, 6.64M Recoveries, 161,918 Souls Remembered for Resilience.",
+      "zh": "永恒丰碑：681万例确诊，664万人康复，161918位同胞的牺牲铸就民族韧性。"
+    },
+    "virusProfile": {
+      "code": "HISTORICAL CRISIS RESOLUTION",
+      "mutationType": {
+        "id": "Arsip Evolusi Genomik Lengkap SARS-CoV-2",
+        "en": "Comprehensive SARS-CoV-2 Genomic Evolution Archive",
+        "zh": "SARS-CoV-2全谱系演化与基因组学终极档案"
+      },
+      "r0": "Arsip Tertutup",
+      "threatLevel": {
+        "id": "MONUMEN SEJARAH PERMANEN & DECLASSIFIED",
+        "en": "PERMANENT HISTORICAL ARCHIVE",
+        "zh": "去机密化永久流行病学国家历史档案"
+      },
+      "clinicalTarget": {
+        "id": "Evaluasi ketahanan sistem sosial dan kesiapsiagaan biologis",
+        "en": "Social resilience debriefing and pandemic preparedness",
+        "zh": "国家卫生应急体系现代化、社会韧性与防范未来大流行"
+      }
+    },
+    "description": {
+      "id": "Pandemi meninggalkan jejak permanen dalam memori kolektif bangsa. Rekapitulasi akhir mencatat 6,81 juta kasus positif dan 6,64 juta jiwa dinyatakan pulih. Namun di balik angka statistik tersebut, terukir duka mendalam untuk 161.918 jiwa—orang tua, anak, kerabat, serta ratusan tenaga kesehatan—yang berkorban sebelum badai reda. Dari jas hujan plastik hingga kecanggihan vaksin, Indonesia berhasil melintasi krisis terbesar abad ini dan bangkit sebagai bangsa yang lebih kuat.",
+      "en": "The pandemic etched an indelible inscription into the nation's collective soul. Final debriefing logs tallies 6.81 million cumulative infections with 6.64 million recoveries. Behind these figures rests solemn honor for 161,918 souls—parents, children, friends, and hundreds of heroic healthcare workers—lost before peace returned. From makeshift plastic raincoats to modern vaccine diplomacy, Indonesia endured the defining crisis of our century.",
+      "zh": "这场漫长的大流行在印尼民族的集体记忆中烙下了无法磨灭的印记。最终官方纪要记录了681万累计确诊与664万康复奇迹。但在这些宏大数字背后，深沉镌刻着对161918位同胞——父母、子女、亲朋好友以及数百名以身殉职的白衣天使——的无尽追思。从最初的雨衣防护到全民免疫长城，印尼挺过了本世纪最严酷的生存试炼，以更坚韧的姿态屹立于世。"
+    },
+    "image": "/assets/images/covid-19/id/10-data-summary.jpg"
+  }
 ]

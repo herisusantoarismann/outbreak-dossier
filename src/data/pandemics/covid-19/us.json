@@ -1,0 +1,143 @@
+[
+    {
+        "id": "us-01-snohomish-patient-zero",
+        "chapterNumber": "01",
+        "type": "milestone",
+        "title": {
+            "id": "Infiltrasi Pasifik: Kasus Pertama di Snohomish",
+            "en": "Pacific Infiltration: Patient Zero in Snohomish",
+            "zh": "太平洋渗透：斯诺霍米什零号病例"
+        },
+        "date": {
+            "id": "Januari 2020",
+            "en": "January 2020",
+            "zh": "2020年1月"
+        },
+        "strain": "SARS-CoV-2 (USA-WA1/2020)",
+        "flash": {
+            "id": "Deteksi Dini: Seorang pria berusia 35 tahun di Washington dikonfirmasi terinfeksi setelah kembali dari Wuhan.",
+            "en": "Early Detection: A 35-year-old Washington man confirmed positive after returning from Wuhan.",
+            "zh": "早期检出：华盛顿州一名自武汉返美的35岁男子被确诊为全美首例阳性病例。"
+        },
+        "virusProfile": {
+            "code": "USA-WA1/2020 (LINEAGE A)",
+            "mutationType": {
+                "id": "Spillover Antarbenua",
+                "en": "Intercontinental Spillover",
+                "zh": "跨洲输入性扩散"
+            },
+            "r0": "2.2 - 2.5",
+            "threatLevel": {
+                "id": "ANCAMAN BIOSURVEILANS TINGKAT SATU",
+                "en": "TIER-ONE BIOSURVEILLANCE THREAT",
+                "zh": "一级生物监测输入威胁"
+            },
+            "clinicalTarget": {
+                "id": "Infeksi saluran pernapasan bawah, demam intermiten",
+                "en": "Lower respiratory tract infiltration, intermittent fever",
+                "zh": "下呼吸道浸润、间歇性发热"
+            }
+        },
+        "description": {
+            "id": "Pada pertengahan Januari 2020, CDC mengonfirmasi kasus pertama SARS-CoV-2 di tanah Amerika Serikat di Snohomish County, Washington. Otoritas kesehatan memuji isolasi cepat dan pelacakan kontak, namun pengurutan genomik beberapa pekan kemudian mengungkapkan bahwa transmisi komunitas tersembunyi telah berakar di panti jompo Kirkland.",
+            "en": "In mid-January 2020, the CDC confirmed the first United States SARS-CoV-2 infection in Snohomish County, Washington. While officials praised swift containment, retroactive genomic sequencing later demonstrated that silent community transmission had already taken root in the Life Care Center nursing home.",
+            "zh": "2020年1月中旬，美国疾控中心在华盛顿州斯诺霍米什县确认了美国本土首例感染者。尽管官方最初认为输入病例已被有效围堵，但随后的基因组测序表明，隐秘的社区传播已经在柯克兰养老中心深植滋生。"
+        },
+        "image": "/assets/images/covid-19/id/02-outbreak-spread.jpg",
+        "location": "Snohomish, Washington, USA"
+    },
+    {
+        "id": "us-02-new-york-apex-crisis",
+        "chapterNumber": "02",
+        "type": "milestone",
+        "title": {
+            "id": "Pusaran Megapolitan: Krisis Puncak New York",
+            "en": "Megacity Vortex: The New York Apex Crisis",
+            "zh": "超级大都市风暴：纽约高潮危机"
+        },
+        "date": {
+            "id": "Maret - April 2020",
+            "en": "March - April 2020",
+            "zh": "2020年3月 - 4月"
+        },
+        "strain": "SARS-CoV-2 (Lineage B.1 European Influx)",
+        "flash": {
+            "id": "Sirene Tanpa Henti: Rumah sakit Elmhurst Queens kewalahan; truk pendingin jenazah terparkir di jalanan.",
+            "en": "Endless Sirens: Elmhurst Hospital in Queens buckles; refrigerated mortuary trailers line Manhattan avenues.",
+            "zh": "警报长鸣：皇后区埃尔姆赫斯特医院防线击溃，冷藏运尸卡车排满曼哈顿街道。"
+        },
+        "virusProfile": {
+            "code": "NY METROPOLITAN SURGE",
+            "mutationType": {
+                "id": "Transmisi Super-Spreader Transit Padat",
+                "en": "High-Density Transit Super-Spreader Wave",
+                "zh": "高密度轨道交通超级传播浪潮"
+            },
+            "r0": "3.8 - 4.1",
+            "threatLevel": {
+                "id": "KOLAPS KEDARURATAN KOTA TERTINGGI",
+                "en": "HIGHEST MUNICIPAL DISASTER STATE",
+                "zh": "最高级别城市灾难状态"
+            },
+            "clinicalTarget": {
+                "id": "Kegagalan multi-organ, pembekuan darah mikro-vaskular dan ARDS",
+                "en": "Multisystem organ failure, micro-vascular thrombosis, fulminant ARDS",
+                "zh": "多器官功能衰竭、微血管血栓形成及暴发性ARDS"
+            }
+        },
+        "description": {
+            "id": "Pada musim semi 2020, New York City menjadi episentrum pandemi dunia. Times Square yang biasanya hiruk-pikuk kosong melompong bagai film fiksi ilmiah, hanya dipecahkan oleh raungan ambulans setiap beberapa menit. Rumah Sakit Lapangan didirikan darurat di Central Park dan kapal rumah sakit Angkatan Laut USNS Comfort merapat di pelabuhan Manhattan.",
+            "en": "In the spring of 2020, New York City became the global epicenter of the pandemic. Times Square emptied into a surreal, post-apocalyptic silence punctuated only by the wail of sirens every ninety seconds. Field hospitals sprouted across Central Park and the US Navy hospital ship USNS Comfort docked in Manhattan harbor.",
+            "zh": "2020年春，纽约市沦为全球疫情风暴的漩涡中心。繁华的时代广场化为末日般的死寂废墟，唯有救护车刺耳的笛声每隔数十秒撕破空气。中央公园临时搭建起帐篷野战医院，美国海军医疗船“舒适号”紧急停泊曼哈顿港口支援。"
+        },
+        "image": "/assets/images/covid-19/id/03-lockdown-city.jpg",
+        "location": "New York City, USA"
+    },
+    {
+        "id": "us-03-operation-warp-speed",
+        "chapterNumber": "03",
+        "type": "standard",
+        "title": {
+            "id": "Akselerasi Genomik: Operation Warp Speed",
+            "en": "Genomic Acceleration: Operation Warp Speed",
+            "zh": "基因组竞速：曲率极速行动"
+        },
+        "date": {
+            "id": "Desember 2020",
+            "en": "December 2020",
+            "zh": "2020年12月"
+        },
+        "strain": "SARS-CoV-2 (mRNA-1273 & BNT162b2 Response)",
+        "flash": {
+            "id": "Terobosan Bioteknologi: Vaksin mRNA pertama dalam sejarah manusia disetujui FDA dalam tempo kurang dari setahun.",
+            "en": "Biotech Breakthrough: The first mRNA vaccines in human history receive FDA emergency authorization within 11 months.",
+            "zh": "生物技术突破：人类历史上首批mRNA疫苗在不到11个月内获得FDA紧急使用授权。"
+        },
+        "virusProfile": {
+            "code": "SYNTHETIC IMMUNITY PLATFORM",
+            "mutationType": {
+                "id": "Modifikasi Nukleosida Prefusi Spike",
+                "en": "Prefusion Spike Nucleoside-Modification",
+                "zh": "融合前刺突蛋白核苷酸修饰靶向"
+            },
+            "r0": "Efikasi Awal >90%",
+            "threatLevel": {
+                "id": "MOBILISASI RISET MILITER-SIPIL SKALA PENUH",
+                "en": "FULL MILITARY-CIVIL SCIENTIFIC MOBILIZATION",
+                "zh": "军民协同全方位科研总动员"
+            },
+            "clinicalTarget": {
+                "id": "Antibodi netralisasi IgG tinggi, respons sel T memori kuat",
+                "en": "High-titer neutralizing IgG antibodies, robust memory T-cell responses",
+                "zh": "高滴度中和IgG抗体、强效记忆T细胞免疫应答"
+            }
+        },
+        "description": {
+            "id": "Melalui inisiatif kemitraan publik-swasta berskala raksasa Operation Warp Speed, Amerika Serikat mendanai dan mempercepat uji klinis vaksin mRNA Pfizer-BioNTech dan Moderna. Pada 14 Desember 2020, seorang perawat ICU di Queens menjadi orang pertama di AS yang menerima suntikan vaksin, menandai babak baru pertahanan ilmiah melawan patogen.",
+            "en": "Through the massive public-private initiative Operation Warp Speed, the United States accelerated clinical trials and manufacturing of Pfizer-BioNTech and Moderna mRNA vaccines. On December 14, 2020, an intensive care nurse in Queens became the first person in the nation to receive the vaccine, launching a new frontier of counter-pathogen biotechnology.",
+            "zh": "通过庞大的公私合营计划“曲率极速行动”，美国全力资助并加速了辉瑞-BioNTech和莫德纳mRNA疫苗的临床试验与量产物流。2020年12月14日，皇后区一名重症监护护士接种了全美第一针疫苗，开启了人类利用前沿生物合成技术抵御未知病毒的全新纪元。"
+        },
+        "image": "/assets/images/covid-19/id/05-vaccine-cure.jpg",
+        "location": "Washington D.C. & New York, USA"
+    }
+]

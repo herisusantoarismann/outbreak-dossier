@@ -8,10 +8,11 @@ import React, {
     Suspense,
 } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
-import { Chapter } from "@/types/journey";
+import { Chapter, SupportedLocale } from "@/types/journey";
+import { t } from "@/utils/i18n";
 import { useJourneyStore } from "@/stores/useJourneyStore";
 import {
     Calendar,
@@ -26,6 +27,7 @@ import { ComparisonSlider } from "@/components/organisms/ComparisonSlider";
 import { TimelineScrubber } from "@/components/molecules/TimelineScrubber";
 import { ChapterImageFrame } from "@/components/molecules/ChapterImageFrame";
 import { useKeyboardNavigation } from "@/hooks/useKeyboardNavigation";
+import { resolveImagePath } from "@/lib/imageResolver";
 
 interface ScrollytellingLayoutProps {
     chapters: Chapter[];
@@ -47,7 +49,8 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
     onInView,
 }) => {
     const sectionRef = useRef<HTMLDivElement>(null);
-    const t = useTranslations("scrollytelling");
+    const tMsg = useTranslations("scrollytelling");
+    const locale = useLocale() as SupportedLocale;
     const [isDossierExpanded, setIsDossierExpanded] = useState(true);
 
     useEffect(() => {
@@ -202,7 +205,7 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
         >
             <motion.article
                 role="region"
-                aria-label={`Chapter ${chapter.chapterNumber}: ${chapter.title}`}
+                aria-label={`Chapter ${chapter.chapterNumber}: ${t(chapter.title, locale)}`}
                 initial={{ opacity: 0.4 }}
                 animate={{
                     opacity: isActive ? 1 : 0.45,
@@ -242,7 +245,7 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
                         >
                             {isSideStory
                                 ? chapter.chapterNumber
-                                : `${t("chapterPrefix")} ${
+                                : `${tMsg("chapterPrefix")} ${
                                       chapter.chapterNumber ||
                                       String(index + 1).padStart(2, "0")
                                   } // ${String(total).padStart(2, "0")}`}
@@ -274,12 +277,12 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
                                         : "text-neutral-400"
                             }`}
                         />
-                        <span>{chapter.date}</span>
+                        <span>{t(chapter.date, locale)}</span>
                     </div>
                 </header>
 
                 {/* 2. Top Ambient Warning Ticker */}
-                {chapter.flash && (
+                {t(chapter.flash, locale) && (
                     <div
                         className={`mb-3.5 border font-mono text-xs px-3 py-1.5 rounded inline-flex items-center gap-2 w-full ${flashStyle}`}
                     >
@@ -287,7 +290,7 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
                             className={`w-3.5 h-3.5 shrink-0 ${flashIconStyle} animate-pulse`}
                         />
                         <span className="truncate tracking-wide text-[11px] sm:text-xs">
-                            {chapter.flash}
+                            {t(chapter.flash, locale)}
                         </span>
                     </div>
                 )}
@@ -295,7 +298,7 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
                 {/* 3. Headline & Strain Badge */}
                 <div className="mb-3.5">
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-mono font-bold text-white mb-2 leading-tight tracking-wide">
-                        {chapter.title}
+                        {t(chapter.title, locale)}
                     </h2>
                     {chapter.strain && (
                         <div
@@ -335,7 +338,10 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
                             </div>
                             <div className="flex items-center gap-2 shrink-0">
                                 <span className="text-[9px] font-mono px-2 py-0.5 rounded bg-black/60 text-neutral-300 border border-white/10 truncate max-w-[140px] sm:max-w-none">
-                                    {chapter.virusProfile.threatLevel}
+                                    {t(
+                                        chapter.virusProfile.threatLevel,
+                                        locale,
+                                    )}
                                 </span>
                                 <ChevronDown
                                     className={`w-3.5 h-3.5 text-neutral-400 transition-transform duration-200 ${
@@ -367,11 +373,15 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
                                     </div>
                                     <div
                                         className="text-neutral-300 font-medium text-[11px] mt-0.5 line-clamp-2"
-                                        title={
-                                            chapter.virusProfile.mutationType
-                                        }
+                                        title={t(
+                                            chapter.virusProfile.mutationType,
+                                            locale,
+                                        )}
                                     >
-                                        {chapter.virusProfile.mutationType}
+                                        {t(
+                                            chapter.virusProfile.mutationType,
+                                            locale,
+                                        )}
                                     </div>
                                 </div>
                                 <div className="bg-black/60 p-2 rounded border border-neutral-800/80">
@@ -380,11 +390,15 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
                                     </div>
                                     <div
                                         className="text-neutral-300 font-medium text-[11px] mt-0.5 line-clamp-2"
-                                        title={
-                                            chapter.virusProfile.clinicalTarget
-                                        }
+                                        title={t(
+                                            chapter.virusProfile.clinicalTarget,
+                                            locale,
+                                        )}
                                     >
-                                        {chapter.virusProfile.clinicalTarget}
+                                        {t(
+                                            chapter.virusProfile.clinicalTarget,
+                                            locale,
+                                        )}
                                     </div>
                                 </div>
                             </div>
@@ -394,7 +408,7 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
 
                 {/* 5. Narrative Description Body with relaxed leading */}
                 <p className="leading-relaxed sm:leading-loose text-sm sm:text-base text-neutral-200 font-sans mb-4">
-                    {chapter.description}
+                    {t(chapter.description, locale)}
                 </p>
 
                 {/* Interactive Split-View Comparison Slider for Chapter 06 (PSBB Ghost Town) */}
@@ -404,7 +418,11 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
                             <div className="flex items-center gap-2">
                                 <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
                                 <span className="font-bold tracking-wider text-neutral-200 uppercase">
-                                    KOMPARASI ARSIP // JALAN JENDERAL SUDIRMAN
+                                    {locale === "zh"
+                                        ? "历史档案对比 // 雅加达苏迪曼大道"
+                                        : locale === "en"
+                                          ? "ARCHIVE COMPARISON // JALAN JENDERAL SUDIRMAN"
+                                          : "KOMPARASI ARSIP // JALAN JENDERAL SUDIRMAN"}
                                 </span>
                             </div>
                             <span className="text-neutral-500 hidden xs:inline">
@@ -412,10 +430,28 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
                             </span>
                         </div>
                         <ComparisonSlider
-                            beforeImage="/assets/images/03a-jakarta-rush-hour.jpg"
-                            beforeLabel="PRA-PANDEMI // RUSH HOUR"
-                            afterImage="/assets/images/03b-jakarta-psbb-empty.jpg"
-                            afterLabel="PSBB TOTAL // SUD MAN KOSONG"
+                            beforeImage={
+                                chapter.beforeImage ||
+                                "/assets/images/covid-19/id/03a-jakarta-rush-hour.jpg"
+                            }
+                            beforeLabel={
+                                locale === "zh"
+                                    ? "疫情前 // 高峰车流"
+                                    : locale === "en"
+                                      ? "PRE-PANDEMIC // RUSH HOUR"
+                                      : "PRA-PANDEMI // RUSH HOUR"
+                            }
+                            afterImage={
+                                chapter.afterImage ||
+                                "/assets/images/covid-19/id/03b-jakarta-psbb-empty.jpg"
+                            }
+                            afterLabel={
+                                locale === "zh"
+                                    ? "全面封锁 // 空旷街道"
+                                    : locale === "en"
+                                      ? "TOTAL PSBB // DESERTED SUDIRMAN"
+                                      : "PSBB TOTAL // SUD MAN KOSONG"
+                            }
                             aspectRatio="aspect-[16/9]"
                             className="w-full"
                         />
@@ -448,20 +484,28 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
 };
 
 function getChapterYear(chapter: Chapter): string {
+    const dateStr =
+        typeof chapter.date === "string"
+            ? chapter.date
+            : chapter.date?.id || chapter.date?.en || chapter.date?.zh || "";
     if (
-        chapter.date.includes("2023") ||
-        chapter.id.includes("national-debriefing")
+        dateStr.includes("2023") ||
+        chapter.id.includes("national-debriefing") ||
+        chapter.id.includes("ground-zero-epilogue")
     )
         return "2023";
-    if (chapter.date.includes("2022")) return "2022";
-    if (chapter.date.includes("2021")) return "2021";
+    if (dateStr.includes("2022")) return "2022";
+    if (dateStr.includes("2021")) return "2021";
+    if (dateStr.includes("2020")) return "2020";
+    if (dateStr.includes("2019")) return "2019";
     return "2020";
 }
 
 const ScrollytellingLayoutContent: React.FC<ScrollytellingLayoutProps> = ({
     chapters,
 }) => {
-    const t = useTranslations("scrollytelling");
+    const tMsg = useTranslations("scrollytelling");
+    const locale = useLocale() as SupportedLocale;
     const searchParams = useSearchParams();
 
     // 1. URL-Based Initial Chapter Read
@@ -553,7 +597,7 @@ const ScrollytellingLayoutContent: React.FC<ScrollytellingLayoutProps> = ({
         <div className="relative flex flex-col md:flex-row h-screen w-full overflow-y-auto overflow-x-hidden snap-y snap-mandatory bg-[#050508] text-neutral-100">
             {/* Screen Reader Live Region Announcement */}
             <div aria-live="polite" aria-atomic="true" className="sr-only">
-                {`Now viewing Chapter ${activeIndex + 1} of ${chapters.length}: ${activeChapter.title}. Year ${getChapterYear(activeChapter)}`}
+                {`Now viewing Chapter ${activeIndex + 1} of ${chapters.length}: ${t(activeChapter.title, locale)}. Year ${getChapterYear(activeChapter)}`}
             </div>
 
             {/* =========================================================================
@@ -568,7 +612,7 @@ const ScrollytellingLayoutContent: React.FC<ScrollytellingLayoutProps> = ({
                     <div className="flex items-center gap-2">
                         <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
                         <span className="text-neutral-400 text-[11px] sm:text-xs tracking-wider">
-                            {t("chapterPrefix")}{" "}
+                            {tMsg("chapterPrefix")}{" "}
                             <strong className="text-white font-bold">
                                 {String(activeIndex + 1).padStart(2, "0")}
                             </strong>
@@ -630,10 +674,28 @@ const ScrollytellingLayoutContent: React.FC<ScrollytellingLayoutProps> = ({
                                 className="absolute inset-0 w-full h-full pointer-events-auto"
                             >
                                 <ComparisonSlider
-                                    beforeImage="/assets/images/03a-jakarta-rush-hour.jpg"
-                                    beforeLabel="PRA-PANDEMI // RUSH HOUR"
-                                    afterImage="/assets/images/03b-jakarta-psbb-empty.jpg"
-                                    afterLabel="PSBB TOTAL // SUD MAN KOSONG"
+                                    beforeImage={
+                                        activeChapter.beforeImage ||
+                                        "/assets/images/covid-19/id/03a-jakarta-rush-hour.jpg"
+                                    }
+                                    beforeLabel={
+                                        locale === "zh"
+                                            ? "疫情前 // 高峰车流"
+                                            : locale === "en"
+                                              ? "PRE-PANDEMIC // RUSH HOUR"
+                                              : "PRA-PANDEMI // RUSH HOUR"
+                                    }
+                                    afterImage={
+                                        activeChapter.afterImage ||
+                                        "/assets/images/covid-19/id/03b-jakarta-psbb-empty.jpg"
+                                    }
+                                    afterLabel={
+                                        locale === "zh"
+                                            ? "全面封锁 // 空旷街道"
+                                            : locale === "en"
+                                              ? "TOTAL PSBB // DESERTED SUDIRMAN"
+                                              : "PSBB TOTAL // SUD MAN KOSONG"
+                                    }
                                     className="w-full h-full"
                                 />
                             </motion.div>
@@ -651,7 +713,7 @@ const ScrollytellingLayoutContent: React.FC<ScrollytellingLayoutProps> = ({
                             >
                                 <ChapterImageFrame
                                     src={activeChapter.image}
-                                    alt={activeChapter.title}
+                                    alt={t(activeChapter.title, locale)}
                                     priority={true}
                                     sizes="(max-width: 768px) 100vw, 50vw"
                                 />
@@ -667,7 +729,9 @@ const ScrollytellingLayoutContent: React.FC<ScrollytellingLayoutProps> = ({
                         aria-hidden="true"
                     >
                         <Image
-                            src={chapters[activeIndex + 1].image}
+                            src={resolveImagePath(
+                                chapters[activeIndex + 1].image,
+                            )}
                             alt=""
                             fill
                             sizes="(max-width: 768px) 100vw, 50vw"
@@ -687,13 +751,13 @@ const ScrollytellingLayoutContent: React.FC<ScrollytellingLayoutProps> = ({
                     <div className="bg-black/80 backdrop-blur-md border border-neutral-800 p-3 rounded-lg max-w-sm">
                         <div className="text-[10px] font-mono text-red-400 tracking-wider uppercase mb-1 flex items-center gap-1.5">
                             <Compass className="w-3 h-3 text-red-500" />
-                            <span>{t("timelineLocation")}</span>
+                            <span>{tMsg("timelineLocation")}</span>
                         </div>
                         <div className="text-xs font-mono font-bold text-white truncate">
-                            {activeChapter.title}
+                            {t(activeChapter.title, locale)}
                         </div>
                         <div className="text-[10px] font-mono text-neutral-400 mt-0.5">
-                            {t("recorded")} {activeChapter.date}
+                            {tMsg("recorded")} {t(activeChapter.date, locale)}
                         </div>
                     </div>
 

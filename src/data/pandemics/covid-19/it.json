@@ -1,0 +1,143 @@
+[
+    {
+        "id": "it-01-codogno-patient-one",
+        "chapterNumber": "01",
+        "type": "milestone",
+        "title": {
+            "id": "Episentrum Eropa: Pasien Satu di Codogno",
+            "en": "European Ground Zero: Patient One in Codogno",
+            "zh": "欧洲零号坐标：科多尼奥一号病人"
+        },
+        "date": {
+            "id": "Februari 2020",
+            "en": "February 2020",
+            "zh": "2020年2月"
+        },
+        "strain": "SARS-CoV-2 Lineage B.1 (D614G Mutation)",
+        "flash": {
+            "id": "Guncangan Lombardia: Pria atletis 38 tahun positif di Codogno, membongkar rantai transmisi tersembunyi.",
+            "en": "Lombardy shock: A 38-year-old athlete tests positive in Codogno, exposing widespread silent community spread.",
+            "zh": "伦巴第震惊：科多尼奥一名38岁业余运动员确诊，揭开大规模隐秘社区传播链条。"
+        },
+        "virusProfile": {
+            "code": "CLADE 20A / D614G",
+            "mutationType": {
+                "id": "Mutasi D614G pada Spike Protein (Transmisibilitas Tinggi)",
+                "en": "Spike D614G Mutation (Enhanced Viral Transmissibility)",
+                "zh": "刺突蛋白 D614G 变异（传染性显著增强）"
+            },
+            "r0": "2.8 - 3.2",
+            "threatLevel": {
+                "id": "DARURAT TINGKAT KRITIS BENUA",
+                "en": "CONTINENTAL CRITICAL EMERGENCY",
+                "zh": "洲际极高危紧急状态"
+            },
+            "clinicalTarget": {
+                "id": "Pneumonia bilateral agresif, kegagalan pernapasan hipoksemia akut",
+                "en": "Aggressive bilateral pneumonia, acute hypoxemic respiratory collapse",
+                "zh": "侵袭性双侧弥漫性肺炎、急性低氧血症呼吸衰竭"
+            }
+        },
+        "description": {
+            "id": "Di rumah sakit kecil Codogno, seorang dokter anestesi melanggar protokol pengujian resmi untuk menguji seorang pria sehat berusia 38 tahun yang menderita pneumonia tak kunjung sembuh. Hasil positif memicu kepanikan di seluruh Italia utara. Tanpa disadari, varian dengan mutasi D614G telah menyebar diam-diam selama berminggu-minggu melalui jaringan industri dan sepak bola Lombardia.",
+            "en": "In the provincial hospital of Codogno, an intensive care physician broke standard testing protocols to swab an otherwise healthy 38-year-old athlete with non-responsive pneumonia. The positive result triggered pandemonium across northern Italy. The virus carrying the D614G spike mutation had been circulating silently for weeks through Lombardy's industrial clusters and stadium matches.",
+            "zh": "在科多尼奥的地区医院，一名重症科医生打破既有检测协议，对一名患有难治性肺炎且无涉外旅行史的38岁业余运动员进行了核酸检测。阳性结果引发了意大利北部的剧烈恐慌。携带 D614G 刺突突变的病毒早已在伦巴第工业区和足球场赛事中隐秘传播了数周之久。"
+        },
+        "image": "/assets/images/covid-19/id/04-hospital-panic.jpg",
+        "location": "Codogno, Lombardy, Italy"
+    },
+    {
+        "id": "it-02-bergamo-convoy-tragedy",
+        "chapterNumber": "02",
+        "type": "milestone",
+        "title": {
+            "id": "Malam Kelam Bergamo: Konvoi Truk Militer",
+            "en": "The Dark Night of Bergamo: The Military Convoys",
+            "zh": "贝加莫暗夜：沉默的军车棺木车队"
+        },
+        "date": {
+            "id": "Maret 2020",
+            "en": "March 2020",
+            "zh": "2020年3月"
+        },
+        "strain": "SARS-CoV-2 (Lineage B.1)",
+        "flash": {
+            "id": "Puncak Tragedi: Krematorium Bergamo kolaps; konvoi truk tentara membawa jenazah ke luar kota di tengah malam.",
+            "en": "Summit of tragedy: Bergamo crematoriums overwhelmed; military trucks transport coffins under midnight curfew.",
+            "zh": "悲剧巅峰：贝加莫火葬场不堪重负，陆军军用卡车车队在午夜戒严中运送棺木转移外省。"
+        },
+        "virusProfile": {
+            "code": "B.1 LOMBARDY EPICENTER",
+            "mutationType": {
+                "id": "Lonjakan Viral Load Nosokomial",
+                "en": "Nosocomial Viral Load Amplification",
+                "zh": "医院院内高载量病毒扩增"
+            },
+            "r0": "3.5+",
+            "threatLevel": {
+                "id": "KOLAPS SISTEM KESEHATAN REGIONAL",
+                "en": "REGIONAL HEALTH SYSTEM COLLAPSE",
+                "zh": "区域医疗系统彻底瘫痪"
+            },
+            "clinicalTarget": {
+                "id": "Kerusakan alveolar difus, saturasi oksigen jatuh di bawah 70%",
+                "en": "Diffuse alveolar damage, oxygen saturation dropping below 70%",
+                "zh": "广泛肺泡弥漫性损伤、血氧饱和度骤降至70%以下"
+            }
+        },
+        "description": {
+            "id": "Maret 2020 menjadi simbol duka dunia barat ketika deretan truk militer tentara Italia bergerak perlahan di jalanan sepi Bergamo tengah malam. Rumah sakit Papa Giovanni XXIII kehabisan ventilator dan tempat tidur ICU, sementara kabar duka memenuhi berlembar-lembar koran lokal L'Eco di Bergamo. Peristiwa ini mengubah persepsi global tentang keparahan pandemi.",
+            "en": "March 2020 became the defining visual grief of the western world as a column of dark Italian army trucks moved slowly through empty Bergamo streets at midnight. Papa Giovanni XXIII Hospital ran out of ventilators and ICU beds, while death notices in the local newspaper L'Eco di Bergamo expanded to ten pages daily. The catastrophe permanently shifted global comprehension of the pathogen's lethality.",
+            "zh": "2020年3月，当一列深色意大利陆军军用卡车在午夜空无一人的贝加莫街道上缓缓行驶时，这一画面成为了西方世界刻骨铭心的悲痛记忆。若望二十三世医院的呼吸机与重症床位彻底告罄，当地报纸的讣告栏从一页暴增至整整十版，这场浩劫彻底打破了全球对病毒致死性的误判。"
+        },
+        "image": "/assets/images/covid-19/id/08-oxygen-crisis.jpg",
+        "location": "Bergamo, Lombardy, Italy"
+    },
+    {
+        "id": "it-03-first-western-lockdown",
+        "chapterNumber": "03",
+        "type": "standard",
+        "title": {
+            "id": "Zona Merah: Karantina Nasional Pertama Dunia Barat",
+            "en": "Zona Rossa: The First Western Nationwide Lockdown",
+            "zh": "红色区域：西方现代史上首次全境封锁"
+        },
+        "date": {
+            "id": "Maret - Mei 2020",
+            "en": "March - May 2020",
+            "zh": "2020年3月 - 5月"
+        },
+        "strain": "SARS-CoV-2 (Lineage B.1)",
+        "flash": {
+            "id": "'Io Resto a Casa': Perdana Menteri Conte mengunci 60 juta penduduk; balkon menyanyikan 'Bella Ciao'.",
+            "en": "'Io Resto a Casa': Prime Minister Conte orders 60 million citizens into lockdown; balconies sing 'Bella Ciao'.",
+            "zh": "“我留在家中”：孔特总理下令全意6000万人封锁居家，阳台唱响《啊朋友再见》。"
+        },
+        "virusProfile": {
+            "code": "LOCKDOWN SUPPRESSION",
+            "mutationType": {
+                "id": "Penekanan Mobilitas Transmisi",
+                "en": "Mobility Transmission Suppression",
+                "zh": "人口移动阻断与传播抑制"
+            },
+            "r0": "Turun dari 3.0 ke 0.8",
+            "threatLevel": {
+                "id": "DARURAT KEAMANAN SIPIL NASIONAL",
+                "en": "CIVIL DEFENSE NATIONAL EMERGENCY",
+                "zh": "国家民防一级紧急戒备"
+            },
+            "clinicalTarget": {
+                "id": "Isolasi kontak bergejala, dekompresi bertahap ruang rawat inap",
+                "en": "Isolation of symptomatic contacts, gradual inpatient decompression",
+                "zh": "有症状密接隔离、住院病房逐步减压分流"
+            }
+        },
+        "description": {
+            "id": "Dengan dekret 'Io Resto a Casa', Italia menjadi negara demokrasi pertama yang memberlakukan karantina total skala nasional. Piazza San Marco di Venesia dan Colosseum di Roma menjadi sunyi senyap bagai kota hantu. Dari balkon apartemen, warga bernyanyi dan memainkan instrumen musik bersama untuk menjaga semangat kemanusiaan di tengah isolasi ketat.",
+            "en": "With the 'Io Resto a Casa' decree, Italy became the first democratic state to implement comprehensive nationwide quarantine. St. Mark's Square in Venice and the Colosseum in Rome became desolate ghostscapes. Yet from apartment balconies across the country, trapped residents sang folk songs and played instruments together, crafting an enduring portrait of human resilience.",
+            "zh": "伴随着“我留在家中”政令颁布，意大利成为首个实施全国性严格居家封锁的现代民主国家。威尼斯的圣马可广场与罗马斗兽场万籁俱寂，化为空城。然而在全国各地的公寓阳台上，受困居民自发合唱民谣、演奏乐器，在冷酷隔离中绽放出了人类守望相助的光芒。"
+        },
+        "image": "/assets/images/covid-19/id/06-new-normal.jpg",
+        "location": "Rome & Milan, Italy"
+    }
+]
