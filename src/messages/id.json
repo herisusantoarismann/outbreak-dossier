@@ -53,6 +53,29 @@
         "familySub": "Genus Betacoronavirus",
         "acknowledgeBtn": "KONFIRMASI BIO-DOSIR // KEMBALI KE HUB"
     },
+    "pathogenBrief": {
+        "trigger": "PATHOGEN BRIEF // APA ITU COVID-19",
+        "classifiedBadge": "[DOSIR PATOGEN TERKLASIFIKASI] // ISOLAT: SARS-CoV-2",
+        "title": "APA ITU COVID-19?",
+        "subtitle": "REKONSTRUKSI MENDALAM // TAKSONOMI VIRAL & PROFIL KLINIS",
+        "classificationTitle": "KLASIFIKASI & STRUKTUR PATOGEN",
+        "classificationText": "SARS-CoV-2 (Severe Acute Respiratory Syndrome Coronavirus 2) adalah jenis beta-coronavirus berkapsul untai-tunggal RNA positif (+ssRNA). Virion sferis terbungkus membran lipid sel inang yang dipenuhi trimer glikoprotein Spike (S), membentuk halo korona khas yang teradaptasi kuat untuk mengikat sel epitel pernapasan manusia.",
+        "transmissionTitle": "VEKTOR TRANSMISI",
+        "transmissionText": "Penularan primer berlangsung melalui droplet pernapasan udara dan aerosol mikroskopis di ruangan dengan sirkulasi buruk (saat berbicara, bernapas, bersin, batuk). Vektor sekunder mencakup kontak fisik langsung dan permukaan benda terkontaminasi.",
+        "symptomsTitle": "MANIFESTASI KLINIS UTAMA",
+        "symptomsText": "Progresi klinis: Demam persisten tinggi, batuk kering mendalam, kelelahan akut, anosmia/ageusia (hilang rasa dan penciuman mendadak), hingga sesak napas akut, badai sitokin, dan Acute Respiratory Distress Syndrome (ARDS) pada komplikasi fatal.",
+        "incubationTitle": "MASA INKUBASI",
+        "incubationValue": "2 - 14 Hari",
+        "incubationSub": "Median: 4-5 Hari",
+        "receptorTitle": "RESEPTOR SEL",
+        "receptorValue": "ACE2",
+        "receptorSub": "Angiotensin-Converting Enzyme 2",
+        "familyTitle": "TAKSONOMI",
+        "familyValue": "Coronaviridae",
+        "familySub": "Genus Betacoronavirus // Sarbecovirus",
+        "closeBtn": "TUTUP BRIEF [ESC]",
+        "acknowledgeBtn": "KONFIRMASI DOSIR PATOGEN // KEMBALI KE ORBIT"
+    },
     "loading": {
         "surveillanceBadge": "[ BIO-THREAT SURVEILLANCE FEED ]",
         "isolating": "MENGISOLASI GALUR...",
@@ -88,7 +111,7 @@
                 "economicShock": "Pariwisata Bali mulai melambat akibat pembatalan turis Tiongkok"
             },
             "description": "Di bawah mikroskop elektron di Wuhan, partikel virus berdiameter 100 nanometer dengan protein spike mahkota teridentifikasi membajak sel pernapasan manusia. Saat kabar ini melintasi perbatasan, pejabat publik Indonesia sempat berseloroh masyarakat kebal karena doyan nasi kucing atau iklim tropis. Di bandara internasional, pemeriksaan thermo-scanner dilakukan seadanya. Belum ada yang menyadari patogen liar ini sudah menumpang di penerbangan komersial menuju kota-kota besar Asia Tenggara.",
-            "image": "/assets/images/01-loading-virus.jpg"
+            "image": "/assets/images/covid-19/id/01-loading-virus.jpg"
         },
         {
             "id": "depok-patient-zero",
@@ -110,7 +133,7 @@
                 "economicShock": "Indeks Saham Gabungan (IHSG) anjlok tajam memicu auto-rejection"
             },
             "description": "Transmisi lokal resmi pecah di klub dansa Jakarta usai kontak dengan warga asing. Siang hari 2 Maret, siaran pers kepresidenan memicu gelombang kepanikan instan dalam hitungan jam. Rak-rak supermarket ludes diborong warga yang panik menimbun beras, mi instan, dan tisu toilet. Masker bedah yang biasanya seharga puluhan ribu rupiah melonjak liar hingga ratusan ribu rupiah per boks. Di gerbong KRL Jabodetabek, batuk sekali saja sudah cukup untuk membuat seisi gerbong melempar tatapan curiga.",
-            "image": "/assets/images/02-outbreak-spread.jpg"
+            "image": "/assets/images/covid-19/id/02-outbreak-spread.jpg"
         },
         {
             "id": "empon-empon-defense",
@@ -132,7 +155,7 @@
                 "economicShock": "Harga jahe merah dan rempah melonjak hingga 400%"
             },
             "description": "Sebelum dunia medis memiliki kepastian vaksin atau obat antivirus, naluri bertahan hidup masyarakat lari ke kearifan lokal. Jahe merah, temulawak, dan sereh mendadak jadi komoditas paling dicari di pasar tradisional hingga harganya melambung berkali-kali lipat. Di tingkat akar rumput, warga bergerak sendiri: portal-portal gang perumahan ditutup bambu bertuliskan 'LOCKDOWN LOKAL'. Setiap tamu yang melintas wajib mencuci tangan di ember darurat dan disemprot bilik disinfektan rakitan dari pompa tanaman.",
-            "image": "/assets/images/11-herbal-disinfectant.jpg"
+            "image": "/assets/images/covid-19/id/11-herbal-disinfectant.jpg"
         },
         {
             "id": "psbb-ghost-town",
@@ -154,7 +177,7 @@
                 "economicShock": "Gelombang PHK massal sektor ritel dan perhotelan; mall merugi miliaran"
             },
             "description": "Di tingkat mikroskopis, mutasi D614G membuat tonjolan protein virus lebih stabil saat menembus sel manusia. Pemerintah resmi mengetuk palu PSBB untuk meredam penyebaran. Kawasan Sudirman-Thamrin yang biasanya dipadati jutaan komuter mendadak berubah lengang layaknya kota mati. Suara deru knalpot berganti hening yang mencekam. Sekolah meliburkan murid, perkantoran memadamkan lampu, dan jutaan perantau dilarang mudik Lebaran untuk pertama kalinya dalam sejarah modern Indonesia.",
-            "image": "/assets/images/03-lockdown-city.jpg"
+            "image": "/assets/images/covid-19/id/03-lockdown-city.jpg"
         },
         {
             "id": "digital-domestic-migration",
@@ -176,7 +199,7 @@
                 "economicShock": "Booming aplikasi video call, e-commerce, kurir logistik, dan food delivery"
             },
             "description": "WHO akhirnya merevisi pernyataan dan mengakui bahwa virus melayang di udara ruangan tertutup sebagai aerosol. Istilah 'happy hypoxia' mulai meneror praktisi medis saat pasien terlihat bugar padahal kadar oksigen darahnya terjun bebas. Di rumah, masyarakat berusaha keras menjaga kewarasan: tren mengocok dalgona coffee meledak di media sosial, disusul demam merawat tanaman hias monstera dan ledakan gowes sepeda lipat. Ruang keluarga berubah menjadi kantor sekaligus kelas sekolah, sementara paket belanja online wajib disemprot alkohol sebelum dibuka.",
-            "image": "/assets/images/07-digital-shift.jpg"
+            "image": "/assets/images/covid-19/id/07-digital-shift.jpg"
         },
         {
             "id": "wisma-atlet-citadel",
@@ -198,7 +221,7 @@
                 "economicShock": "Anggaran negara terkuras triliunan untuk fasilitas isolasi dan insentif nakes"
             },
             "description": "Ledakan kasus klaster perkantoran dan keluarga menekan kapasitas rumah sakit rujukan. Pemerintah menyulap Wisma Atlet Kemayoran menjadi Rumah Sakit Darurat COVID-19 raksasa dengan ribuan kamar isolasi. Malam demi malam, menara-menara flat Kemayoran menyala terang benderang menjadi saksi perjuangan ribuan pasien. Tenaga kesehatan bertarung belasan jam di balik pakaian hazmat kedap udara tanpa sempat makan atau buang air, sementara raungan sirene ambulans di jalan protokol menjadi penanda ritme malam di kota-kota besar Jawa.",
-            "image": "/assets/images/04-hospital-panic.jpg"
+            "image": "/assets/images/covid-19/id/04-hospital-panic.jpg"
         },
         {
             "id": "alpha-beta-cold-chain",
@@ -220,7 +243,7 @@
                 "economicShock": "Harapan pemulihan pasar modal; belanja negara fokus ke pengadaan ratusan juta dosis"
             },
             "description": "Harapan baru merekah saat kontainer pendingin khusus berisi jutaan dosis vaksin tiba di Bandara Soekarno-Hatta. Program vaksinasi nasional resmi dimulai dari Istana Kepresidenan, disusul transformasi gelanggang olahraga dan mal menjadi sentra vaksinasi massal. Namun pada saat bersamaan, mutasi global Alpha (B.1.1.7) dari Inggris dan Beta dari Afrika Selatan mulai terdeteksi masuk melalui jalur repatriasi pekerja migran, membawa mutasi N501Y yang mengikat reseptor sel paru-paru jauh lebih kuat.",
-            "image": "/assets/images/05-vaccine-cure.jpg"
+            "image": "/assets/images/covid-19/id/05-vaccine-cure.jpg"
         },
         {
             "id": "delta-catastrophe",
@@ -242,7 +265,7 @@
                 "economicShock": "Aktivitas ekonomi kembali dibekukan mendadak; sektor UMKM terpukul parah"
             },
             "description": "Periode paling suram dalam catatan sejarah modern bangsa. Mutasi L452R dan P681R pada varian Delta melipatgandakan viral load pasien hingga 1.000 kali lebih pekat. Dalam hitungan minggu, kapasitas rumah sakit runtuh total. Lorong-lorong RS hingga pelataran parkir dipenuhi ranjang pasien di bawah tenda darurat militer. Di dunia maya, grup WhatsApp keluarga dan rekan kantor dibanjiri pesan duka beruntun serta permohonan putus asa mencari donor plasma konvalesen dan ruang isolasi bertekanan negatif.",
-            "image": "/assets/images/08-oxygen-crisis.jpg"
+            "image": "/assets/images/covid-19/id/08-oxygen-crisis.jpg"
         },
         {
             "id": "oxygen-panic-bearbrand",
@@ -264,7 +287,7 @@
                 "economicShock": "Harga tabung oksigen dan oximeter digoreng spekulan hingga naik 500%"
             },
             "description": "Dengan angka kematian menembus lebih dari 2.000 jiwa per hari, kepanikan warga mencapai puncaknya. Depot pengisian oksigen dipadati antrean orang yang panik menggotong tabung silinder hijau demi menyelamatkan keluarga yang terengah-engah di rumah. Video warga berebut susu steril di lorong supermarket mendadak viral karena desas-desus khasiat kekebalan instan. Oximeter saku menjadi penentu nasib: angka saturasi di bawah 94 sudah cukup untuk membuat seisi rumah terjaga sepanjang malam mencari pertolongan.",
-            "image": "/assets/images/12-oxygen-lines.jpg"
+            "image": "/assets/images/covid-19/id/12-oxygen-lines.jpg"
         },
         {
             "id": "digital-surveillance-qr",
@@ -286,7 +309,7 @@
                 "economicShock": "Kunjungan fisik ke pusat perbelanjaan dan transportasi umum disaring ketat"
             },
             "description": "Seiring badai Delta yang perlahan surut berkat akselerasi vaksinasi, ruang publik dikunci oleh protokol digital terpadu. Aplikasi PeduliLindungi menjadi syarat mutlak untuk melangkahkan kaki ke luar rumah. Di stasiun KRL, bandara, lobi gedung kantor, hingga pintu masuk mal, warga berbaris tertib mengangkat ponsel untuk memindai QR code dan mengarahkan pergelangan tangan ke sensor suhu otomatis. Kotak warna hijau di layar ponsel menjadi satu-satunya jaminan legalitas mobilitas warga.",
-            "image": "/assets/images/09-digital-tracing.jpg"
+            "image": "/assets/images/covid-19/id/09-digital-tracing.jpg"
         },
         {
             "id": "omicron-lightning-wave",
@@ -308,7 +331,7 @@
                 "economicShock": "Absensi kerja massal sementara, namun rumah sakit dan perekonomian tidak sampai lumpuh"
             },
             "description": "Di awal tahun 2022, varian Omicron muncul membawa lebih dari 30 mutasi pada protein spike-nya, mampu mengelabui pertahanan antibodi alami dengan kecepatan transmisi yang tak tertandingi. Rekor kasus harian nasional pecah di angka 64.718 infeksi. Seluruh divisi kantor dan keluarga besar bisa demam serta radang tenggorokan serempak dalam tiga hari. Namun berkat proteksi vaksin dosis ganda, serta kecenderungan virus yang berpusat di saluran napas atas, fatalitasnya jauh di bawah Delta. Mayoritas melewatinya dengan isolasi mandiri di rumah ditemani kiriman obat dari teman.",
-            "image": "/assets/images/13-omicron-fever.jpg"
+            "image": "/assets/images/covid-19/id/13-omicron-fever.jpg"
         },
         {
             "id": "booster-and-mask-unveiling",
@@ -330,7 +353,7 @@
                 "economicShock": "Sektor pariwisata, hiburan, dan konser musik mengalami lonjakan pendapatan"
             },
             "description": "Dinding imunitas populasi kian menebal melalui serbuan vaksinasi booster ketiga dan imunitas pasca-infeksi alami. Presiden mengumumkan pelonggaran bertahap: masker boleh dilepas saat berada di area terbuka yang tidak padat. Momen tersebut disambut canggung oleh publik yang sudah terbiasa bersembunyi di balik kain penutup wajah selama lebih dari dua tahun. Festival musik luar ruangan kembali digelar, bioskop dipadati penonton, dan denyut kehidupan kota kembali menemukan ritme aslinya.",
-            "image": "/assets/images/06-new-normal.jpg"
+            "image": "/assets/images/covid-19/id/06-new-normal.jpg"
         },
         {
             "id": "endemic-declaration",
@@ -352,7 +375,7 @@
                 "economicShock": "Pemulihan total aktivitas perbatasan, perkantoran, dan mobilitas komersial"
             },
             "description": "Pada Juni 2023, Presiden secara resmi mencabut status kedaruratan pandemi, menyelaraskan langkah dengan de-eskalasi darurat kesehatan global WHO. SARS-CoV-2 tidak pernah benar-benar lenyap; ia terus bermutasi di latar belakang, namun kini diperlakukan layaknya infeksi pernapasan musiman biasa. Kebiasaan membawa antiseptik di saku dan memakai masker saat terserang flu menjadi warisan perilaku yang menetap di tengah masyarakat.",
-            "image": "/assets/images/14-endemic-sunrise.jpg"
+            "image": "/assets/images/covid-19/id/14-endemic-sunrise.jpg"
         },
         {
             "id": "national-debriefing",
@@ -374,7 +397,7 @@
                 "economicShock": "Transformasi struktural: adopsi digital permanen dan perbaikan sistem logistik medis"
             },
             "description": "Pandemi meninggalkan bekas luka yang tak terhapuskan dalam memori kolektif bangsa. Rekapitulasi akhir mencatat lebih dari 6,81 juta infeksi kumulatif di tanah air, dengan 6,64 juta jiwa dinyatakan sembuh. Namun di balik angka pemulihan tersebut, terdapat keheningan untuk mengenang 161.918 jiwa—orang tua, kerabat, anak, serta ratusan dokter dan perawat—yang gugur sebelum badai mereda. Indonesia berhasil bertahan dari krisis biologis terbesar abad ini, tumbuh menjadi bangsa yang lebih tangguh dan selamanya berubah.",
-            "image": "/assets/images/10-data-summary.jpg"
+            "image": "/assets/images/covid-19/id/10-data-summary.jpg"
         }
     ]
 }

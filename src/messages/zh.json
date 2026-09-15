@@ -1,0 +1,93 @@
+{
+    "meta": {
+        "title": "Outbreak Dossier // 全球解密病原体档案",
+        "description": "一份互动式解密视觉情报档案，记录现代历史上全球大流行、病毒突变与人类韧性。"
+    },
+    "hub": {
+        "title": "OUTBREAK DOSSIER",
+        "badge": "解密侦察档案 // 第01卷：COVID-19",
+        "sitrep": "战况简报",
+        "scanActive": "GEOJSON 领土扫描活跃",
+        "targetVector": "目标向量：IDN [群岛多边形]",
+        "hotspotTooltip": "生物危害热点 // 印度尼西亚",
+        "hotspotClick": "点击多边形开始调查",
+        "dragPrompt": "拖动地球仪旋转 // 点击高亮领土",
+        "targetLockedPrompt": "热点目标锁定 // 点击多边形开始",
+        "initializing": "正在初始化 3D 轨道模拟..."
+    },
+    "whoStats": {
+        "title": "WHO 全球疫情简报",
+        "archiveBadge": "官方档案",
+        "infections": "全球感染",
+        "infectionsCount": "~7.04亿+",
+        "infectionsLabel": "全球累计确诊",
+        "mortality": "全球死亡",
+        "mortalityCount": "~700万+",
+        "mortalityLabel": "全球累计死亡",
+        "statusLabel": "状态：",
+        "statusValue": "全球大流行 (2019-2023)"
+    },
+    "briefing": {
+        "territoryLocked": "锁定领土：印度尼西亚",
+        "period": "2020年3月",
+        "headline": "印度尼西亚群岛",
+        "description": "西爪哇德波确认第01号和第02号病例。随着社区传播扩大，全国医疗系统全面动员。",
+        "launchButton": "启动纪录片序列",
+        "bioModalButton": "[?] 生物数据：什么是 SARS-CoV-2？"
+    },
+    "bioModal": {
+        "classifiedBadge": "[机密生物数据] // 零号病人分离株",
+        "title": "什么是 SARS-CoV-2？",
+        "bioIdentityTitle": "生物学特性与结构",
+        "bioIdentityP1": "SARS-CoV-2（严重急性呼吸系统综合征冠状病毒2）是一种具包膜的正链单股RNA乙型冠状病毒。病毒表面包裹着宿主衍生的脂质双层膜，镶嵌着形成王冠状光晕的刺突（S）糖蛋白，专门用于侵入并劫持人类宿主细胞。",
+        "transmissionTitle": "传播途径",
+        "transmissionText": "主要通过空气呼吸道飞沫和细气溶胶传播（在通风不良的室内空间咳嗽、打喷嚏、长时间交谈）以及密切物理接触传播。",
+        "incubationTitle": "潜伏期",
+        "incubationValue": "1 - 14 天",
+        "incubationSub": "中位数 4-5 天",
+        "receptorTitle": "受体靶点",
+        "receptorValue": "ACE2",
+        "receptorSub": "细胞结合目标",
+        "familyTitle": "病毒科属",
+        "familyValue": "冠状病毒科",
+        "familySub": "乙型冠状病毒属",
+        "acknowledgeBtn": "确认生物档案 // 返回控制中心"
+    },
+    "pathogenBrief": {
+        "trigger": "病原体简报 // 什么是 COVID-19",
+        "classifiedBadge": "[机密病原体档案] // 分离株：SARS-CoV-2",
+        "title": "什么是 COVID-19？",
+        "subtitle": "深度勘察 // 病毒分类与临床特征",
+        "classificationTitle": "病原体分类与结构",
+        "classificationText": "SARS-CoV-2（严重急性呼吸系统综合征冠状病毒2）是一种具包膜的正链单股RNA（+ssRNA）乙型冠状病毒。其球形病毒粒子包裹在宿主衍生的脂质膜中，表面密集分布着三聚体刺突（S）糖蛋白，形成日冕般的独特光晕，具备与人类细胞受体极高亲和力的对接能力。",
+        "transmissionTitle": "传播途径与载体",
+        "transmissionText": "原发传播途径为空气中的呼吸道飞沫与密闭无通风空间中悬浮的微细气溶胶（呼吸、言语、咳嗽）。继发途径包括密切身体接触以及接触受污染表面。",
+        "symptomsTitle": "核心临床症状表现",
+        "symptomsText": "典型双相进展：持续高热、深部干咳、极度乏力、突发味觉或嗅觉丧失（anosmia/ageusia），危重症病例可迅速进展为严重呼吸困难、细胞因子风暴以及急性呼吸窘迫综合征 (ARDS)。",
+        "incubationTitle": "潜伏期",
+        "incubationValue": "2 - 14 天",
+        "incubationSub": "中位数：4-5 天",
+        "receptorTitle": "受体靶点",
+        "receptorValue": "ACE2",
+        "receptorSub": "血管紧张素转化酶 2",
+        "familyTitle": "病毒分类学",
+        "familyValue": "冠状病毒科",
+        "familySub": "乙型冠状病毒属 // 严重急性呼吸道综合征相关冠状病毒种",
+        "closeBtn": "关闭简报 [ESC]",
+        "acknowledgeBtn": "确认病原体档案 // 返回地球轨道"
+    },
+    "loading": {
+        "surveillanceBadge": "[ 生物威胁监测信号 ]",
+        "isolating": "正在分离毒株...",
+        "identified": "SARS-CoV-2 已识别",
+        "targetVector": "定位目标：ID / 东南亚向量"
+    },
+    "scrollytelling": {
+        "returnToGlobe": "轨道中心 // 返回地球",
+        "returnShort": "返回地球",
+        "chapterPrefix": "章节",
+        "archiveRecord": "档案记录 // 已解密",
+        "timelineLocation": "时间轴坐标 // 档案媒体",
+        "recorded": "记录时间："
+    }
+}

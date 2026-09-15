@@ -1,13 +1,21 @@
 export type PandemicId = "covid-19" | "sars" | "mers" | "ebola";
 
-export type LanguageCode = "id" | "en";
+export type SupportedLocale = "id" | "en" | "zh";
+
+export type LanguageCode = SupportedLocale;
+
+export interface LocalizedContent {
+    id: string;
+    en: string;
+    zh: string;
+}
 
 export interface VirusProfile {
     code: string;
-    mutationType: string;
+    mutationType: LocalizedContent | string;
     r0: string;
-    threatLevel: string;
-    clinicalTarget: string;
+    threatLevel: LocalizedContent | string;
+    clinicalTarget: LocalizedContent | string;
 }
 
 export interface SocietalImpact {
@@ -20,14 +28,16 @@ export interface Chapter {
     id: string;
     chapterNumber: string;
     type: "standard" | "milestone" | "side_story";
-    title: string;
-    date: string;
+    title: LocalizedContent | string;
+    date: LocalizedContent | string;
     strain: string;
-    flash: string;
+    flash: LocalizedContent | string;
     virusProfile: VirusProfile;
     societalImpact?: SocietalImpact;
-    description: string;
+    description: LocalizedContent | string;
     image: string;
+    beforeImage?: string;
+    afterImage?: string;
     location?: string;
     tag?: string;
 }
