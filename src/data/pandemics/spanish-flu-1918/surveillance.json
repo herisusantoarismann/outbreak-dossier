@@ -1,0 +1,83 @@
+{
+    "US": {
+        "iso2": "US",
+        "name": { "id": "Amerika Serikat", "en": "United States" },
+        "continent": "North America",
+        "confirmedCases": 28000000,
+        "fatalities": 675000,
+        "recoveryRate": "97.6%",
+        "peakWave": {
+            "id": "Oktober - November 1918",
+            "en": "October - November 1918"
+        }
+    },
+    "FR": {
+        "iso2": "FR",
+        "name": { "id": "Prancis", "en": "France" },
+        "continent": "Europe",
+        "confirmedCases": 12000000,
+        "fatalities": 400000,
+        "recoveryRate": "96.7%",
+        "peakWave": { "id": "Musim Gugur 1918", "en": "Autumn 1918" }
+    },
+    "GB": {
+        "iso2": "GB",
+        "name": { "id": "Britania Raya", "en": "United Kingdom" },
+        "continent": "Europe",
+        "confirmedCases": 9500000,
+        "fatalities": 228000,
+        "recoveryRate": "97.6%",
+        "peakWave": { "id": "November 1918", "en": "November 1918" }
+    },
+    "ES": {
+        "iso2": "ES",
+        "name": { "id": "Spanyol", "en": "Spain" },
+        "continent": "Europe",
+        "confirmedCases": 8000000,
+        "fatalities": 260000,
+        "recoveryRate": "96.8%",
+        "peakWave": {
+            "id": "September - Oktober 1918",
+            "en": "September - October 1918"
+        }
+    },
+    "DE": {
+        "iso2": "DE",
+        "name": { "id": "Kekaisaran Jerman", "en": "German Empire" },
+        "continent": "Europe",
+        "confirmedCases": 11000000,
+        "fatalities": 287000,
+        "recoveryRate": "97.4%",
+        "peakWave": { "id": "Musim Gugur 1918", "en": "Autumn 1918" }
+    },
+    "IN": {
+        "iso2": "IN",
+        "name": {
+            "id": "Kemaharajaan Britania (India)",
+            "en": "British Raj (India)"
+        },
+        "continent": "Asia",
+        "confirmedCases": 120000000,
+        "fatalities": 17000000,
+        "recoveryRate": "85.8%",
+        "peakWave": {
+            "id": "Agustus - November 1918",
+            "en": "August - November 1918"
+        }
+    },
+    "ID": {
+        "iso2": "ID",
+        "name": {
+            "id": "Hindia Belanda (Indonesia)",
+            "en": "Dutch East Indies (Indonesia)"
+        },
+        "continent": "Asia",
+        "confirmedCases": 15000000,
+        "fatalities": 1500000,
+        "recoveryRate": "90.0%",
+        "peakWave": {
+            "id": "November 1918 - Januari 1919",
+            "en": "November 1918 - January 1919"
+        }
+    }
+}

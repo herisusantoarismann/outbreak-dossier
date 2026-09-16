@@ -1,0 +1,97 @@
+[
+    {
+        "id": "sf-philadelphia-collapse",
+        "iso2": "US",
+        "metricType": "mortality",
+        "label": {
+            "id": "Kolaps Kamar Jenazah Philadelphia",
+            "en": "Philadelphia Morgue Collapse"
+        },
+        "countryName": {
+            "id": "Amerika Serikat (Philadelphia)",
+            "en": "United States (Philadelphia)"
+        },
+        "value": "12.000+ Tewas (Okt 1918)",
+        "context": {
+            "id": "Pawai Liberty Loan memicu lonjakan infeksi katastropik; peti mati habis dan galian parit darurat menggunakan uap.",
+            "en": "Liberty Loan parade ignited a catastrophic surge; coffins exhausted and steam shovels dug mass trenches."
+        },
+        "coordinates": { "lat": 39.9526, "lng": -75.1652 }
+    },
+    {
+        "id": "sf-camp-funston-ingress",
+        "iso2": "US",
+        "metricType": "containment",
+        "label": {
+            "id": "Episentrum Barak Camp Funston",
+            "en": "Camp Funston Military Ingress"
+        },
+        "countryName": {
+            "id": "Amerika Serikat (Kansas)",
+            "en": "United States (Kansas)"
+        },
+        "value": "1.100 Kasus / 3 Pekan",
+        "context": {
+            "id": "Maret 1918: Koki barak Albert Gitchell melapor sakit flu, memicu gelombang pertama di tengah mobilisasi PD I.",
+            "en": "March 1918: Camp cook Albert Gitchell reported sick, initiating the first documented military wave."
+        },
+        "coordinates": { "lat": 39.0119, "lng": -98.4842 }
+    },
+    {
+        "id": "sf-etaples-staging",
+        "iso2": "FR",
+        "metricType": "density",
+        "label": {
+            "id": "Kepadatan Kamp Militer Étaples",
+            "en": "Étaples Transit Staging Density"
+        },
+        "countryName": {
+            "id": "Prancis (Étaples)",
+            "en": "France (Étaples)"
+        },
+        "value": "100.000 Prajurit / Hari",
+        "context": {
+            "id": "Kombinasi gas beracun parit dan overcrowding barak mempercepat mutasi virus flu mematikan.",
+            "en": "Overcrowded tents, pig farms, and mustard gas exposure accelerated respiratory vulnerability."
+        },
+        "coordinates": { "lat": 50.5186, "lng": 1.6397 }
+    },
+    {
+        "id": "sf-madrid-press-censorship",
+        "iso2": "ES",
+        "metricType": "containment",
+        "label": {
+            "id": "Pemberitaan Terbuka Tanpa Sensor",
+            "en": "Uncensored Press Transparency"
+        },
+        "countryName": {
+            "id": "Spanyol (Madrid)",
+            "en": "Spain (Madrid)"
+        },
+        "value": "8 Juta Terinfeksi",
+        "context": {
+            "id": "Sebagai negara netral PD I, pers Spanyol bebas memberitakan sakitnya Raja Alfonso XIII sehingga dinamai Flu Spanyol.",
+            "en": "As a neutral nation, uncensored Spanish media reported King Alfonso XIII's illness, coining the name."
+        },
+        "coordinates": { "lat": 40.4168, "lng": -3.7038 }
+    },
+    {
+        "id": "sf-western-samoa-mortality",
+        "iso2": "WS",
+        "metricType": "mortality",
+        "label": {
+            "id": "Kehancuran Demografi Samoa Barat",
+            "en": "Western Samoa Mortality Spike"
+        },
+        "countryName": {
+            "id": "Samoa Barat",
+            "en": "Western Samoa"
+        },
+        "value": "~22% Populasi Lenyap",
+        "context": {
+            "id": "Kapal SS Talune tiba tanpa karantina pada November 1918, melenyapkan lebih dari seperlima seluruh penduduk pulau.",
+            "en": "Arrival of SS Talune without quarantine in Nov 1918 wiped out over a fifth of the island's entire population."
+        },
+        "coordinates": { "lat": -13.759, "lng": -172.1046 }
+    }
+]

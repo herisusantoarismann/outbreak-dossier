@@ -1,0 +1,86 @@
+{
+    "IT": {
+        "iso2": "IT",
+        "name": {
+            "id": "Italia (Kepulauan Sisilia & Semenanjung)",
+            "en": "Italy (Sicily & Peninsular States)"
+        },
+        "continent": "Europe",
+        "confirmedCases": 3500000,
+        "fatalities": 2400000,
+        "recoveryRate": "31.4%",
+        "peakWave": { "id": "Musim Panas 1348", "en": "Summer 1348" }
+    },
+    "FR": {
+        "iso2": "FR",
+        "name": {
+            "id": "Kerajaan Prancis & Avignon",
+            "en": "Kingdom of France & Avignon"
+        },
+        "continent": "Europe",
+        "confirmedCases": 7000000,
+        "fatalities": 4200000,
+        "recoveryRate": "40.0%",
+        "peakWave": { "id": "Musim Gugur 1348", "en": "Autumn 1348" }
+    },
+    "GB": {
+        "iso2": "GB",
+        "name": {
+            "id": "Kepulauan Britania & Irlandia",
+            "en": "British Isles & Ireland"
+        },
+        "continent": "Europe",
+        "confirmedCases": 3200000,
+        "fatalities": 1800000,
+        "recoveryRate": "43.7%",
+        "peakWave": { "id": "Musim Semi 1349", "en": "Spring 1349" }
+    },
+    "DE": {
+        "iso2": "DE",
+        "name": {
+            "id": "Kekaisaran Romawi Suci (Wilayah Jerman)",
+            "en": "Holy Roman Empire (Germanic Territories)"
+        },
+        "continent": "Europe",
+        "confirmedCases": 4500000,
+        "fatalities": 1900000,
+        "recoveryRate": "57.7%",
+        "peakWave": { "id": "Akhir 1349 - 1350", "en": "Late 1349 - 1350" }
+    },
+    "ES": {
+        "iso2": "ES",
+        "name": {
+            "id": "Semenanjung Iberia (Kastilia & Aragon)",
+            "en": "Iberian Peninsula (Castile & Aragon)"
+        },
+        "continent": "Europe",
+        "confirmedCases": 3800000,
+        "fatalities": 2200000,
+        "recoveryRate": "42.1%",
+        "peakWave": { "id": "Musim Panas 1348", "en": "Summer 1348" }
+    },
+    "EG": {
+        "iso2": "EG",
+        "name": {
+            "id": "Kesultanan Mamluk (Mesir & Syam)",
+            "en": "Mamluk Sultanate (Egypt & Levant)"
+        },
+        "continent": "Africa",
+        "confirmedCases": 3000000,
+        "fatalities": 1500000,
+        "recoveryRate": "50.0%",
+        "peakWave": { "id": "Musim Gugur 1348", "en": "Autumn 1348" }
+    },
+    "CN": {
+        "iso2": "CN",
+        "name": {
+            "id": "Dinasti Yuan (Tiongkok & Asia Tengah)",
+            "en": "Yuan Dynasty (China & Central Asia)"
+        },
+        "continent": "Asia",
+        "confirmedCases": 18000000,
+        "fatalities": 13000000,
+        "recoveryRate": "27.7%",
+        "peakWave": { "id": "Dekade 1330 - 1340-an", "en": "1330s - 1340s" }
+    }
+}
