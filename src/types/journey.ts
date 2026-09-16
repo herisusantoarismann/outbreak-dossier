@@ -7,6 +7,9 @@ export type LanguageCode = SupportedLocale;
 export interface LocalizedContent {
     id: string;
     en: string;
+    zh?: string;
+    it?: string;
+    hi?: string;
 }
 
 export interface VirusProfile {
