@@ -1,1322 +1,860 @@
 [
-    {
-        "id": "in-01-kerala-wuhan-returnee",
-        "chapterNumber": "01",
-        "type": "milestone",
-        "title": {
-            "id": "Penyusupan Pertama: Mahasiswa Kedokteran Wuhan di Kerala",
-            "en": "The First Breach: The Wuhan Medical Student in Kerala",
-            "zh": "首度渗透：喀拉拉邦的武汉返乡医学生",
-            "it": "La Prima Infiltrazione: La Studentessa di Wuhan in Kerala",
-            "hi": "पहला हमला: केरल में वुहान से लौटी मेडिकल छात्रा"
-        },
-        "date": {
-            "id": "30 Januari 2020",
-            "en": "January 30, 2020",
-            "zh": "2020年1月30日",
-            "it": "30 Gennaio 2020",
-            "hi": "30 जनवरी 2020"
-        },
-        "strain": "SARS-CoV-2 (Lineage B Progenitor / Wuhan-Hu-1)",
-        "flash": {
-            "id": "KASUS PERTAMA: Mahasiswa kedokteran Universitas Wuhan mendarat di Thrissur; Kerala menerapkan protokol karantina kontak agresif.",
-            "en": "FIRST INGRESS: Wuhan University medical student tests positive in Thrissur; Kerala activates aggressive tracing protocols.",
-            "zh": "本土确诊首例：武汉大学医学生在特里苏尔确诊阳性；喀拉拉邦启动严密流调阻击。",
-            "it": "PRIMO CASO: Studentessa di Wuhan positiva a Thrissur; il Kerala attiva un tracciamento capillare.",
-            "hi": "पहला मामला: त्रिशूर में वुहान विश्वविद्यालय की मेडिकल छात्रा पॉजिटिव; केरल में सख्त निगरानी शुरू।"
-        },
-        "virusProfile": {
-            "code": "IND-INGRESS (KERALA CLUSTER)",
-            "mutationType": {
-                "id": "Transmisi Impor Pelajar Internasional",
-                "en": "Student Repatriation Ingress Transmission",
-                "zh": "留学生归国输入性传播",
-                "it": "Trasmissione da Rimpatrio Studentesco",
-                "hi": "अंतरराष्ट्रीय छात्र वापसी संचरण"
-            },
-            "r0": "2.1 - 2.4",
-            "threatLevel": {
-                "id": "TERISOLASI DI TINGKAT REGIONAL",
-                "en": "CONTAINED REGIONAL INGRESS",
-                "zh": "早期区域可控输入态势",
-                "it": "CONTENIMENTO REGIONALE CIRCOSCRITTO",
-                "hi": "नियंत्रित क्षेत्रीय प्रवेश"
-            },
-            "clinicalTarget": {
-                "id": "Gejala respiratorik ringan dengan riwayat isolasi mandiri ketat",
-                "en": "Mild respiratory presentation managed via strict contact tracing",
-                "zh": "严格追踪隔离下之中轻度呼吸道感染",
-                "it": "Sintomatologia lieve gestita con isolamento fiduciario",
-                "hi": "कड़े संपर्क अनुरेखण द्वारा प्रबंधित हल्के श्वसन लक्षण"
-            }
-        },
-        "description": {
-            "id": "Pada 30 Januari 2020, India mencatat kasus perdana infeksi SARS-CoV-2 ketika seorang mahasiswi kedokteran Universitas Wuhan mendarat di Distrik Thrissur, Kerala. Berbekal pengalaman menaklukkan wabah virus Nipah pada 2018, Dinas Kesehatan Kerala bergerak sigap: mengisolasi pasien, melacak ratusan kontak erat hingga ke desa-desa terpencil, dan mendirikan bilik pemantauan harian. Untuk beberapa pekan, India tampak berhasil membendung ancaman wabah di gerbang terluar semenanjung.",
-            "en": "On January 30, 2020, India confirmed its first SARS-CoV-2 infection when a medical student returning from Wuhan University arrived in Thrissur, Kerala. Hardened by their successful response to the 2018 Nipah outbreak, the Kerala Health Department acted decisively: isolating the patient, tracking down every flight and train contact, and deploying localized quarantine committees. For several weeks, it appeared the vast subcontinent had averted catastrophe.",
-            "zh": "2020年1月30日，印度喀拉拉邦特里苏尔报告了全国首例SARS-CoV-2感染者，系一名从武汉大学返乡的医学专业留学生。得益于2018年成功抗击尼帕病毒的宝贵经验，喀拉拉邦卫生部门反应神速：立即收治隔离、沿着飞行与火车路线地毯式追踪密接，并在基层筑牢防线。最初数周内，次大陆仿佛成功将风暴阻绝在半岛门户之外。",
-            "it": "Il 30 gennaio 2020 l'India confermò la prima infezione: una studentessa di medicina rientrata da Wuhan a Thrissur, in Kerala. Forte dell'esperienza acquisita contro il virus Nipah nel 2018, la sanità locale reagì con rapidità: isolò la paziente, tracciò ogni contatto e attivò comitati di sorveglianza. Per diverse settimane l'India sembrò aver respinto la minaccia alle porte della penisola.",
-            "hi": "30 जनवरी 2020 को भारत में पहला मामला तब दर्ज हुआ जब वुहान यूनिवर्सिटी की मेडिकल छात्रा केरल के त्रिशूर पहुंची। 2018 के निपाह वायरस संकट से सीख लेते हुए केरल स्वास्थ्य विभाग ने तुरंत कदम उठाए: मरीज को क्वारंटाइन किया, संपर्कों को ट्रैक किया और निगरानी समितियां बनाईं। कुछ हफ्तों तक ऐसा लगा कि उपमहाद्वीप ने खतरे को टाल दिया है।"
-        },
-        "image": "/assets/images/covid-19/in/01-kerala-first-case.jpg"
+  {
+    "id": "in-01-kerala-wuhan-returnee",
+    "chapterNumber": "01",
+    "type": "milestone",
+    "title": {
+      "id": "Penyusupan Pertama: Mahasiswa Kedokteran Wuhan di Kerala",
+      "en": "The First Breach: The Wuhan Medical Student in Kerala"
     },
-    {
-        "id": "in-02-four-hour-lockdown-notice",
-        "chapterNumber": "02",
-        "type": "milestone",
-        "title": {
-            "id": "Maklumat Jam 8 Malam: Lockdown Nasional dalam 4 Jam",
-            "en": "The 8 PM Decree: A Nationwide Lockdown in 4 Hours",
-            "zh": "八点钟断头令：四小时极限全国大封锁",
-            "it": "Il Decreto delle 20: Lockdown Nazionale in 4 Ore",
-            "hi": "रात 8 बजे का ऐलान: 4 घंटे में संपूर्ण लॉकडाउन"
-        },
-        "date": {
-            "id": "24 Maret 2020",
-            "en": "March 24, 2020",
-            "zh": "2020年3月24日",
-            "it": "24 Marzo 2020",
-            "hi": "24 मार्च 2020"
-        },
-        "strain": "Civil Containment Maximum Protocol",
-        "flash": {
-            "id": "KARANTINA TERBESAR DUNIA: PM Narendra Modi memerintahkan 1,3 miliar rakyat mengunci pintu hanya dengan pemberitahuan 240 menit.",
-            "en": "LARGEST QUARANTINE IN HISTORY: Prime Minister Narendra Modi confines 1.38 billion citizens with four hours of advance warning.",
-            "zh": "人类史上最大规模封锁：莫迪总理在晚间黄金档宣布240分钟后全国全域进入硬核封控。",
-            "it": "LA PIÙ GRANDE QUARANTENA DELLA STORIA: Il premier Modi ordina il lockdown per 1,3 miliardi di persone con sole 4 ore di preavviso.",
-            "hi": "इतिहास का सबसे बड़ा लॉकडाउन: पीएम मोदी ने सिर्फ 4 घंटे के नोटिस पर 1.3 अरब लोगों को घरों में रहने का आदेश दिया।"
-        },
-        "virusProfile": {
-            "code": "CONTINENTAL SHUTDOWN ORDER",
-            "mutationType": {
-                "id": "Penutupan Total Seluruh Jaringan Kereta & Bisnis",
-                "en": "Universal Cessation of Public Transport and Economic Life",
-                "zh": "全国铁道客运与工商业无预警绝对停摆",
-                "it": "Blocco Totale dei Treni e Sospensione Improvvisa dell'Economia",
-                "hi": "सार्वजनिक परिवहन और आर्थिक गतिविधियों पर पूर्ण विराम"
-            },
-            "r0": "Ditekan Paksa dari 3.2",
-            "threatLevel": {
-                "id": "GUNCANGAN SOSIO-EKONOMI EKSTREM",
-                "en": "SEVEREST SOCIOECONOMIC SYSTEM SHOCK",
-                "zh": "极度社会经济结构性冲击",
-                "it": "SHOCK STRUTTURALE SOCIO-ECONOMICO ESTREMO",
-                "hi": "अभूतपूर्व सामाजिक-आर्थिक आघात"
-            },
-            "clinicalTarget": {
-                "id": "Pemotongan rantai penularan di kota sebelum menyentuh pedesaan",
-                "en": "Severing inter-city transmission before rural health post penetration",
-                "zh": "在病毒穿透乡村薄弱防线前强行隔断城市传播链",
-                "it": "Blocco della catena di trasmissione urbana verso le aree rurali",
-                "hi": "ग्रामीण इलाकों में फैलने से पहले शहरी ट्रांसमिशन को रोकना"
-            }
-        },
-        "description": {
-            "id": "Tepat pukul 20.00 malam 24 Maret 2020, Perdana Menteri Narendra Modi mengumumkan lewat siaran langsung bahwa seluruh wilayah India akan menjalani lockdown total selama 21 hari mulai tengah malam. Dengan hanya empat jam pemberitahuan bagi 1,38 miliar penduduk, seluruh moda transportasi antarkota, kereta api yang telah beroperasi selama 167 tahun, perkantoran, dan pabrik dihentikan seketika. Keputusan tanpa persiapan jaring pengaman ini seketika merenggut mata pencaharian ratusan juta pekerja sektor informal harian.",
-            "en": "At 8:00 PM on March 24, 2020, Prime Minister Narendra Modi declared on national television that the entire country would enter a strict 21-day lockdown starting at midnight. Given a mere four-hour window, 1.38 billion citizens were paralyzed. For the first time in 167 years, the vast Indian Railways network stopped running. Overnight, informal laborers, domestic workers, and construction laborers were stripped of wages, food, and shelter.",
-            "zh": "2020年3月24日晚8点整，印度总理纳伦德拉·莫迪在全国电视讲话中宣告：自午夜零点起，全印度实施为期21天的严格封锁。留给全境近14亿国民的缓冲时间仅仅只有四个小时。运行了167年之久的印度庞大铁路网瞬间停运，工厂大门紧闭。这项毫无社会保障铺垫的断然举措，一夜之间剥夺了数亿日薪劳工的基本生存依托。",
-            "it": "Alle 20:00 del 24 marzo 2020, il premier Narendra Modi annunciò in diretta tv un lockdown totale di 21 giorni a partire dalla mezzanotte. Con sole quattro ore di anticipo per 1,38 miliardi di persone, l'intero Paese si fermò. Per la prima volta in 167 anni le ferrovie indiane si arrestarono. Centinaia di milioni di lavoratori a giornata rimasero all'istante senza salario né un posto dove dormire.",
-            "hi": "24 मार्च 2020 को रात 8 बजे प्रधानमंत्री नरेंद्र मोदी ने आधी रात से 21 दिनों के देशव्यापी लॉकडाउन की घोषणा की। 1.38 अरब लोगों को तैयारी के लिए केवल चार घंटे दिए गए। 167 साल के इतिहास में पहली बार भारतीय रेल पूरी तरह रुक गई। बिना किसी तैयारी के लिए गए इस फैसले ने करोड़ों दिहाड़ी मजदूरों की आजीविका छीन ली।"
-        },
-        "image": "/assets/images/covid-19/in/02-lockdown-announcement.jpg"
+    "date": {
+      "id": "30 Januari 2020",
+      "en": "January 30, 2020"
     },
-    {
-        "id": "in-03-great-migrant-exodus",
-        "chapterNumber": "03",
-        "type": "milestone",
-        "title": {
-            "id": "Eksodus Terbesar Sejak Partisi: Pulang Jalan Kaki Ribuan Kilometer",
-            "en": "The Long March Home: The Great Migrant Exodus",
-            "zh": "世纪大迁徙：印巴分治以来最大规模徒步返乡潮",
-            "it": "Il Grande Esodo dei Migranti: La Marcia a Piedi Verso Casa",
-            "hi": "विभाजन के बाद का सबसे बड़ा पलायन: पैदल घर लौटते करोड़ों मजदूर"
-        },
-        "date": {
-            "id": "Maret - Mei 2020",
-            "en": "March - May 2020",
-            "zh": "2020年3月 - 5月",
-            "it": "Marzo - Maggio 2020",
-            "hi": "मार्च - मई 2020"
-        },
-        "strain": "Socio-Epidemiological Catastrophe",
-        "flash": {
-            "id": "EKSODUS MASSAL: Lebih dari 10 juta buruh harian berjalan kaki di bawah terik 40°C menyusuri jalan tol nasional demi pulang ke desa.",
-            "en": "HUMAN MIGRATION WAVE: Over 10 million migrant workers trek thousands of miles on foot under 40°C heat along federal highways.",
-            "zh": "千万劳工长征：一千多万失去生计的城市民工在40度酷暑下，徒步数千公里沿国道跋涉还乡。",
-            "it": "ESODO BIBLICO: Oltre 10 milioni di lavoratori marciano a piedi per migliaia di chilometri sotto 40°C lungo le autostrade.",
-            "hi": "महापलायन: 40 डिग्री की चिलचिलाती धूप में 1 करोड़ से अधिक मजदूर हाईवे पर पैदल चलकर अपने गांवों की ओर निकले।"
-        },
-        "virusProfile": {
-            "code": "MASS PEDESTRIAN MIGRATION EXODUS",
-            "mutationType": {
-                "id": "Penyebaran Geografis Tak Terbendung via Jalur Jalan Kaki",
-                "en": "Unregulated Foot-Traffic Dispersal Across Interstate Borders",
-                "zh": "跨邦步行迁徙引发的无序地理病毒播散",
-                "it": "Dispersione Geografica Incontrollata lungo le Direttrici Autostradali",
-                "hi": "पैदल पलायन के जरिए अनियंत्रित भौगोलिक फैलाव"
-            },
-            "r0": "Transmisi Kerumunan Jalan Raya",
-            "threatLevel": {
-                "id": "TRAGEDI KEMANUSIAAN SKALA MASSIF",
-                "en": "CATASTROPHIC HUMANITARIAN EMERGENCY",
-                "zh": "特大人道主义流亡浩劫",
-                "it": "EMERGENZA UMANITARIA SU SCALA CONTINENTALE",
-                "hi": "विशाल मानवीय त्रासदी"
-            },
-            "clinicalTarget": {
-                "id": "Dehidrasi fatal, kelelahan fisik ekstrem, dan heatstroke di jalan",
-                "en": "Fatal dehydration, acute physical collapse, and severe heatstroke",
-                "zh": "长途跋涉致严重脱水、热衰竭与急性身体崩溃",
-                "it": "Disidratazione letale, collasso fisico e colpi di calore sull'asfalto",
-                "hi": "जानलेवा निर्जलीकरण, अत्यधिक शारीरिक थकान और लू लगना"
-            }
-        },
-        "description": {
-            "id": "Terjebak di kota-kota megapolitan tanpa penghasilan dan uang sewa kamar, lebih dari 10 juta buruh migran memulai eksodus terbesar di Asia Selatan sejak Tragedi Partisi 1947. Bersama anak balita di pundak dan buntalan karung di kepala, mereka berjalan kaki siang dan malam menyusuri aspal panas jalan tol nasional menuju Uttar Pradesh dan Bihar sejauh lebih dari 1.000 kilometer. Puluhan pekerja tewas kelelahan, kelaparan, dan dehidrasi di pinggir jalan sebelum sempat melihat kampung halaman mereka.",
-            "en": "Stranded in megalopolises with zero income and evicted from shanties, over 10 million internal migrant laborers triggered South Asia's largest human displacement since the 1947 Partition. Carrying infants on shoulders and meager belongings in cloth sacks, families marched along scalding highway tarmac toward Uttar Pradesh and Bihar, navigating journeys exceeding 1,000 kilometers on foot. Scores died of exhaustion, starvation, and heatstroke along the roadsides.",
-            "zh": "困在大都市中身无分文、遭房东驱赶的千万名劳工，被迫踏上了自1947年印巴分治以来南亚最大规模的人口流亡之路。男人们将孩子扛在肩头，女人们头顶粗布包裹，在滚烫的高速公路沥青地面上日夜兼程，向着千里之外的北方邦与比哈尔邦故土跋涉。沿途数十名务工者因重度脱水、中暑与饥饿倒在荒芜的路基旁，未能见上故乡最后一面。",
-            "it": "Senza lavoro e cacciati dagli alloggi di fortuna nelle metropoli, oltre 10 milioni di lavoratori intrapresero la più vasta migrazione in Asia dal 1947. Con i bambini sulle spalle e i pochi averi in sacchi di tela, famiglie intere marciarono per oltre mille chilometri sull'asfalto rovente verso l'Uttar Pradesh e il Bihar. Decine di loro crollarono ai margini delle autostrade per fame, disidratazione e insolazione.",
-            "hi": "शहरों में बिना पैसे और छत के बेसहारा होकर 1 करोड़ से अधिक मजदूरों ने 1947 के विभाजन के बाद का सबसे बड़ा पलायन शुरू किया। कंधों पर बच्चों और सिर पर गठरियां उठाए मजदूर तपती सड़कों पर 1000 किमी दूर उत्तर प्रदेश और बिहार के लिए पैदल चल पड़े। रास्ते में भूख, प्यास और थकान से कई लोगों की मौत हो गई।"
-        },
-        "image": "/assets/images/covid-19/in/03-migrant-workers-highway.jpg"
+    "strain": "SARS-CoV-2 (Lineage B Progenitor / Wuhan-Hu-1)",
+    "flash": {
+      "id": "KASUS PERTAMA: Mahasiswa kedokteran Universitas Wuhan mendarat di Thrissur; Kerala menerapkan protokol karantina kontak agresif.",
+      "en": "FIRST INGRESS: Wuhan University medical student tests positive in Thrissur; Kerala activates aggressive tracing protocols."
     },
-    {
-        "id": "in-04-side-aurangabad-rail-tragedy",
-        "chapterNumber": "INTERLUDE I",
-        "type": "side_story",
-        "title": {
-            "id": "Roti yang Berserak di Rel: Tragedi Kereta Aurangabad",
-            "en": "Scattered Roti on the Tracks: The Aurangabad Train Tragedy",
-            "zh": "铁轨上散落的烤饼：奥兰加巴德列车惨案",
-            "it": "I Roti sui Binari: La Tragedia Ferroviaria di Aurangabad",
-            "hi": "पटरियों पर बिखरी रोटियां: औरंगाबाद रेल हादसा"
-        },
-        "date": {
-            "id": "8 Mei 2020",
-            "en": "May 8, 2020",
-            "zh": "2020年5月8日",
-            "it": "8 Maggio 2020",
-            "hi": "8 मई 2020"
-        },
-        "strain": "Collateral Lockdown Fatality",
-        "flash": {
-            "id": "TRAGEDI REL: 16 buruh migran yang tertidur di atas rel karena mengira kereta berhenti beroperasi tewas terlindas kereta barang.",
-            "en": "CRUSHED DREAMS: 16 exhausted migrant workers sleeping on tracks, presuming trains halted, are killed by a freight train.",
-            "zh": "铁道惨案：16名因过度疲劳睡在铁轨上的返乡劳工遭货运列车碾压身亡，现场留下一地干粮面饼。",
-            "it": "TRAGEDIA SUI BINARI: 16 braccianti addormentati sui binari convinti che i treni fossero fermi vengono travolti da un convoglio merci.",
-            "hi": "दर्दनाक हादसा: पटरियों पर सो रहे 16 थके हुए प्रवासी मजदूर मालगाड़ी की चपेट में आकर मारे गए।"
-        },
-        "virusProfile": {
-            "code": "INFRASTRUCTURE COLLATERAL FATALITY",
-            "mutationType": {
-                "id": "Mortalitas Non-Viral Akibat Kelelahan Masif Pengungsian",
-                "en": "Non-Viral Displacement Fatality via Critical Exhaustion",
-                "zh": "极端疲劳迁徙引发之非病毒性突发衍生事故死亡",
-                "it": "Mortalità Indiretta da Esaustione Fisica da Lockdown",
-                "hi": "अत्यधिक थकान के कारण हुई गैर-वायरल दुर्घटना मृत्यु"
-            },
-            "r0": "Nol Transmisi (Kecelakaan Rel)",
-            "threatLevel": {
-                "id": "SIMBOL KORBAN KERUSAKAN SAMPINGAN LOCKDOWN",
-                "en": "ICONIC COLLATERAL DAMAGE EPISODE",
-                "zh": "硬封控次生灾难最具痛感象征",
-                "it": "SIMBOLO DELLA DISPERAZIONE DEI MARGINALI",
-                "hi": "लॉकडाउन की बर्बादी का सबसे दर्दनाक प्रतीक"
-            },
-            "clinicalTarget": {
-                "id": "Trauma fatal akibat kelelahan sensorik ekstrem",
-                "en": "Lethal blunt force trauma stemming from sensory deprivation and fatigue",
-                "zh": "感官迟钝与生理机能透支导致的瞬间致命外伤",
-                "it": "Trauma letale causato da privazione sensoriale e spossatezza",
-                "hi": "गंभीर थकावट के कारण हुई जानलेवा दुर्घटना"
-            }
-        },
-        "description": {
-            "id": "Enam belas buruh pabrik baja yang telah berjalan kaki sejauh 40 kilometer dari Jalna menuju Madhya Pradesh memilih tidur di atas bantalan rel kereta api dekat Aurangabad, yakin bahwa seluruh jalur kereta telah mati akibat lockdown. Pukul 05.15 dini hari, sebuah kereta barang yang melaju kencang tak sempat mengerem. Foto jurnalis yang memperlihatkan potongan roti pipih (roti) buatan bekal perjalanan yang berserak berlumuran darah di antara dua batang rel baja menjadi simbol kepedihan paling menusuk dari nasib kaum papa India.",
-            "en": "Sixteen factory laborers who had walked 40 kilometers through the dark from Jalna toward Madhya Pradesh collapsed from exhaustion on the railroad tracks near Aurangabad, assuming all rail operations were shut down. At 5:15 AM, a high-speed freight train approached around a curve. The tragic image of scattered, home-baked flatbreads (rotis) soaked in blood along the steel ties became the defining icon of the migrants' plight.",
-            "zh": "十六名从贾尔纳出发连夜徒步近40公里的钢铁厂工人，误以为全境封城铁路绝无列车通行，在极度困倦中合衣躺在奥兰加巴德附近的铁轨木枕上沉沉睡去。清晨5点15分，一列急驰的特快货运列车拐过弯道。随身携带的干粮面饼（Roti）被碾碎散落在染血的冰冷钢轨缝隙之间，成为大封控次生灾害中最刺痛国民神经的定格。",
-            "it": "Sedici operai che avevano camminato per 40 chilometri da Jalna verso il Madhya Pradesh crollarono dal sonno sui binari vicino ad Aurangabad, credendo che i treni non circolassero. Alle 5:15 del mattino un treno merci sbucò dalla curva travolgendoli. La fotografia delle focacce fatte in casa (roti) sparse tra i sassi e intrise di sangue rimase l'immagine più straziante del lockdown indiano.",
-            "hi": "जालना से मध्य प्रदेश के लिए 40 किलोमीटर पैदल चलने के बाद 16 मजदूर यह सोचकर औरंगाबाद के पास पटरियों पर सो गए कि ट्रेनें बंद हैं। सुबह 5:15 बजे एक मालगाड़ी उनके ऊपर से गुजर गई। पटरियों पर खून से सनी बिखरी हुई रोटियों की तस्वीर ने पूरे देश को झकझोर कर रख दिया।"
-        },
-        "image": "/assets/images/covid-19/in/04-aurangabad-rail-tracks.jpg"
+    "virusProfile": {
+      "code": "IND-INGRESS (KERALA CLUSTER)",
+      "mutationType": {
+        "id": "Transmisi Impor Pelajar Internasional",
+        "en": "Student Repatriation Ingress Transmission"
+      },
+      "r0": "2.1 - 2.4",
+      "threatLevel": {
+        "id": "TERISOLASI DI TINGKAT REGIONAL",
+        "en": "CONTAINED REGIONAL INGRESS"
+      },
+      "clinicalTarget": {
+        "id": "Gejala respiratorik ringan dengan riwayat isolasi mandiri ketat",
+        "en": "Mild respiratory presentation managed via strict contact tracing"
+      }
     },
-    {
-        "id": "in-05-dharavi-slum-containment",
-        "chapterNumber": "04",
-        "type": "standard",
-        "title": {
-            "id": "Pertempuran Dharavi: Perang Melawan Wabah di Kawasan Paling Padat Asia",
-            "en": "The Battle of Dharavi: Defending Asia's Densest Slum",
-            "zh": "达拉维阻击战：亚洲最大贫民窟的生死博弈",
-            "it": "La Battaglia di Dharavi: Difendere lo Slum più Affollato d'Asia",
-            "hi": "धारावी की लड़ाई: एशिया की सबसे घनी बस्ती में महामारी से जंग"
-        },
-        "date": {
-            "id": "April - Juni 2020",
-            "en": "April - June 2020",
-            "zh": "2020年4月 - 6月",
-            "it": "Aprile - Giugno 2020",
-            "hi": "अप्रैल - जून 2020"
-        },
-        "strain": "SARS-CoV-2 High-Density Clade",
-        "flash": {
-            "id": "SUKSES KOMUNITAS: Mengandalkan deteksi demam pintu-ke-pintu, relawan Mumbai berhasil membendung penyebaran di Dharavi (800.000 jiwa per 2 km²).",
-            "en": "COMMUNITY TRIUMPH: Door-to-door fever squads contain the pathogen inside Dharavi, sheltering 800,000 residents in 2.1 square kilometers.",
-            "zh": "基层奇迹：两平方公里挤入八十万居民的达拉维贫民窟，靠挨家挨户体温枪排查成功压平疫情曲线。",
-            "it": "MIRACOLO A DHARAVI: Squadre porta a porta contengono il virus a Dharavi, dove vivono 800.000 persone in due chilometri quadrati.",
-            "hi": "धारावी का चमत्कार: घर-घर जाकर बुखार की जांच करके मुंबई के स्वयंसेवकों ने एशिया की सबसे घनी बस्ती में वायरस को काबू किया।"
-        },
-        "virusProfile": {
-            "code": "HIGH-DENSITY SHANTY CONTAINMENT",
-            "mutationType": {
-                "id": "Transmisi Ekstrem di Kawasan Sanitasi Terbagi",
-                "en": "Shared Sanitation and Extreme Spatial Proximity Amplification",
-                "zh": "极度狭窄空间共用公共旱厕高危环境阻击",
-                "it": "Contenimento in Spazi Ridotti con Servizi Igienici Condivisi",
-                "hi": "साझा शौचालयों और अत्यधिक सघन आबादी में प्रसार नियंत्रण"
-            },
-            "r0": "Ditekan dari 4.0 ke < 1.1",
-            "threatLevel": {
-                "id": "RAWAN PECAH BENCANA METROPOLITAN",
-                "en": "CATASTROPHIC URBAN DENSITY RISK",
-                "zh": "特大型都市密度爆破临界点",
-                "it": "RISCHIO ESPLOSIONE EPIDEMICA URBANA",
-                "hi": "शहरी जनसांख्यिकी विस्फोट का जोखिम"
-            },
-            "clinicalTarget": {
-                "id": "Pencegahan penularan di kamar berpenghuni 10 orang",
-                "en": "Preventing total household attack rates in single-room ten-person dwellings",
-                "zh": "阻断单间容纳十人高密住所之全员感染",
-                "it": "Prevenzione del contagio in stanze uniche condivise da dieci persone",
-                "hi": "एक ही कमरे में 10 लोगों के रहने वाले घरों में संक्रमण रोकना"
-            }
-        },
-        "description": {
-            "id": "Dengan 800.000 jiwa berjejer di gubuk-gubuk sempit seluas 2,1 kilometer persegi di mana satu toilet umum dipakai oleh 80 orang, kawasan kumuh Dharavi di Mumbai diprediksi banyak pihak akan musnah tersapu wabah. Namun strategi 'Kejar Virus' (Chase the Virus) yang diluncurkan otoritas kota dan relawan lokal mengubah keadaan: tim medis mendatangi ribuan gubuk setiap pagi memeriksa suhu tubuh dan saturasi oksigen, mengubah sekolah menjadi barak karantina gratis, dan membagikan ransum makanan agar warga tidak keluar rumah.",
-            "en": "With 800,000 souls packed into 2.1 square kilometers where 80 people share a single latrine, Mumbai's Dharavi slum was widely written off as an impending mass grave. Instead, the municipal administration and local community leaders launched the 'Chase the Virus' campaign: medical squads screened thousands of shanties every morning, converting municipal schools into isolation wards and providing free hot meals so daily laborers would not venture into narrow lanes.",
-            "zh": "两平方公里内挤压着80万人口、平均80人共用一个公厕的孟买达拉维贫民窟，曾被国际舆论断言为大流行的‘人间炼狱’。然而孟买市政厅与当地社区领袖联手推行了‘跑在病毒前面’（Chase the Virus）战术：基层医护带着血氧夹逐门逐户敲门筛查，将公立学校改造成免费隔离病区并每日派送热餐，成功遏制了失控性暴发。",
-            "it": "Con 800.000 abitanti ammassati in poco più di due chilometri quadrati e bagni condivisi da decine di persone, lo slum di Dharavi a Mumbai sembrava destinato a una catastrofe annunciata. La strategia municipale 'Insegui il virus' ribaltò i pronostici: medici e volontari perquisirono ogni baracca con saturimetri, trasformando le scuole in dormitori di quarantena e garantendo pasti caldi per evitare che gli abitanti uscissero nei vicoli.",
-            "hi": "2.1 वर्ग किलोमीटर में 8 लाख की आबादी और 80 लोगों पर एक शौचालय वाली मुंबई की धारावी बस्ती के लिए महाविनाश की भविष्यवाणी की गई थी। लेकिन बीएमसी और स्थानीय स्वयंसेवकों ने 'चेज द वायरस' मॉडल अपनाया: हर सुबह घर-घर जाकर थर्मल स्क्रीनिंग की, स्कूलों को क्वारंटाइन सेंटर बनाया और मुफ्त भोजन बांटकर संक्रमण को रोक दिया।"
-        },
-        "image": "/assets/images/covid-19/in/05-dharavi-slum-screening.jpg"
+    "description": {
+      "id": "Pada 30 Januari 2020, India mencatat kasus perdana infeksi SARS-CoV-2 ketika seorang mahasiswi kedokteran Universitas Wuhan mendarat di Distrik Thrissur, Kerala. Berbekal pengalaman menaklukkan wabah virus Nipah pada 2018, Dinas Kesehatan Kerala bergerak sigap: mengisolasi pasien, melacak ratusan kontak erat hingga ke desa-desa terpencil, dan mendirikan bilik pemantauan harian. Untuk beberapa pekan, India tampak berhasil membendung ancaman wabah di gerbang terluar semenanjung.",
+      "en": "On January 30, 2020, India confirmed its first SARS-CoV-2 infection when a medical student returning from Wuhan University arrived in Thrissur, Kerala. Hardened by their successful response to the 2018 Nipah outbreak, the Kerala Health Department acted decisively: isolating the patient, tracking down every flight and train contact, and deploying localized quarantine committees. For several weeks, it appeared the vast subcontinent had averted catastrophe."
     },
-    {
-        "id": "in-06-false-victory-euphoria",
-        "chapterNumber": "05",
-        "type": "standard",
-        "title": {
-            "id": "Ilusi Kemenangan: Diplomasi Vaksin & Euforia Akhir 2020",
-            "en": "The Illusion of Victory: Vaccine Diplomacy & Premature Euphoria",
-            "zh": "虚妄的胜果：疫苗外交与过早宣称的胜利",
-            "it": "L'Illusione della Vittoria: Diplomazia dei Vaccini ed Euforia",
-            "hi": "जीत का भ्रम: वैक्सीन कूटनीति और समय से पहले जश्न"
-        },
-        "date": {
-            "id": "Januari - Februari 2021",
-            "en": "January - February 2021",
-            "zh": "2021年1月 - 2月",
-            "it": "Gennaio - Febbraio 2021",
-            "hi": "जनवरी - फरवरी 2021"
-        },
-        "strain": "SARS-CoV-2 (Apparent Quiescence / Pre-Delta)",
-        "flash": {
-            "id": "EUPHORIA NASIONAL: Pejabat mendeklarasikan India telah menaklukkan pandemi; jutaan dosis diekspor melalui program Vaccine Maitri.",
-            "en": "PREMATURE TRIUMPH: Officials boast of defeating the virus; millions of Covishield doses are exported via 'Vaccine Maitri'.",
-            "zh": "盲目狂热：官方高调宣布击溃大流行，通过‘疫苗友谊’计划向数十国对外捐赠输出数千万剂疫苗。",
-            "it": "TRIONFO PREMATURO: Le autorità dichiarano vinta la battaglia e milioni di dosi vengono esportate nel mondo.",
-            "hi": "समय पूर्व जश्न: सरकार ने महामारी को हराने का दावा किया और 'वैक्सीन मैत्री' के तहत लाखों खुराकें विदेशों में भेजीं।"
-        },
-        "virusProfile": {
-            "code": "QUIESCENT PHASE COMPLACENCY",
-            "mutationType": {
-                "id": "Rendahnya Kesiapsiagaan Akibat Keyakinan Herd Immunity Prematur",
-                "en": "Institutional Demobilization Spurred by Presumed Herd Immunity",
-                "zh": "基于虚妄群体免疫假说的全面麻痹与医疗防线拆除",
-                "it": "Smobilitazione Strutturale da Falso Senso di Immunità di Gregge",
-                "hi": "झूठे हर्ड इम्युनिटी के विश्वास के कारण स्वास्थ्य तैयारियों में ढिलाई"
-            },
-            "r0": "2.2",
-            "threatLevel": {
-                "id": "PENURUNAN KEWASPADAAN STRATEGIS",
-                "en": "STRATEGIC VIGILANCE DISMANTLEMENT",
-                "zh": "国家级战略戒备全面松懈",
-                "it": "SMOBILITAZIONE DELLA VIGILANZA STRATEGICA",
-                "hi": "रणनीतिक सतर्कता का खात्मा"
-            },
-            "clinicalTarget": {
-                "id": "Penurunan kapasitas tempat tidur rumah sakit darurat",
-                "en": "Dismantling of makeshift triage field hospitals ahead of variant surge",
-                "zh": "在大风暴前夕盲目拆除方舱床位与供氧设施",
-                "it": "Dismissione degli ospedali da campo prima dell'ondata mutante",
-                "hi": "म्यूटेंट लहर से ठीक पहले अस्थायी कोविड अस्पतालों को बंद करना"
-            }
-        },
-        "description": {
-            "id": "Menjelang awal tahun 2021, angka kasus harian di India merosot tajam. Para politisi dan media secara terbuka membanggakan bahwa bangsa India memiliki kekebalan alami bawaan yang luar biasa. Di Forum Ekonomi Dunia, para menteri mendeklarasikan kemenangan total, sementara India mengekspor puluhan juta dosis vaksin buatan Serum Institute ke seluruh dunia lewat program diplomasi 'Vaccine Maitri'. Rumah sakit darurat dibongkar, masker ditanggalkan, dan kewaspadaan runtuh tepat saat varian mutasi paling mematikan sedang bersembunyi.",
-            "en": "By early 2021, new infections plummeted across India. Politicians and media outlets heralded India's supposed 'natural immunity' as a medical miracle. In global forums, leaders boasted of defeating the virus, while the country shipped millions of Covishield vials overseas under its 'Vaccine Maitri' initiative. Emergency field wards were dismantled, public mask compliance collapsed, and vigilance vanished just as a monstrous new variant emerged.",
-            "zh": "进入2021年初，印度单日确诊人数奇迹般锐减。政坛与主流舆论盲目沉溺于‘特殊体质与天然免疫’的盲目狂喜中。领导人在达沃斯等全球论坛高调宣告胜利，并大张旗鼓推行‘疫苗友谊’（Vaccine Maitri）向全球输出疫苗。临时方舱被拆除、民众彻底摘掉口罩，全国防备在最致命变异株暗中聚力之际全线解除。",
-            "it": "All'inizio del 2021 la curva dei contagi crollò in modo sorprendente. I media celebrarono la 'speciale immunità naturale' indiana e i vertici di governo annunciarono la vittoria finale. Mentre milioni di dosi di Covishield venivano spedite all'estero con l'iniziativa 'Vaccine Maitri', i reparti provvisori venivano smantellati e le mascherine abbandonate, proprio mentre nell'ombra maturava una variante micidiale.",
-            "hi": "2021 की शुरुआत में भारत में मामले बहुत कम हो गए। नेताओं और मीडिया ने दावा किया कि भारतीयों में प्राकृतिक इम्युनिटी है। वैश्विक मंचों पर जीत का डंका बजाया गया और 'वैक्सीन मैत्री' के तहत लाखों वैक्सीन विदेश भेजी गईं। अस्थायी अस्पताल तोड़ दिए गए और मास्क हटा दिए गए, ठीक उसी वक्त जब एक भयानक म्यूटेंट जन्म ले रहा था।"
-        },
-        "image": "/assets/images/covid-19/in/06-vaccine-diplomacy-cargo.jpg"
+    "image": "/assets/images/covid-19/in/01-kerala-first-case.jpg"
+  },
+  {
+    "id": "in-02-four-hour-lockdown-notice",
+    "chapterNumber": "02",
+    "type": "milestone",
+    "title": {
+      "id": "Maklumat Jam 8 Malam: Lockdown Nasional dalam 4 Jam",
+      "en": "The 8 PM Decree: A Nationwide Lockdown in 4 Hours"
     },
-    {
-        "id": "in-07-kumbh-mela-super-spreader",
-        "chapterNumber": "06",
-        "type": "milestone",
-        "title": {
-            "id": "Festival di Tepi Sungai Suci: Kumbh Mela Haridwar",
-            "en": "Ritual by the Holy River: The Kumbh Mela Super-Spreader",
-            "zh": "圣河狂欢：哈里德瓦大壶节超级传播事件",
-            "it": "Il Bagno Sacro: La Kumbh Mela di Haridwar",
-            "hi": "पवित्र नदी का महाकुंभ: हरिद्वार का सुपर-स्प्रेडर जमावड़ा"
-        },
-        "date": {
-            "id": "Maret - April 2021",
-            "en": "March - April 2021",
-            "zh": "2021年3月 - 4月",
-            "it": "Marzo - Aprile 2021",
-            "hi": "मार्च - अप्रैल 2021"
-        },
-        "strain": "Lineage B.1.617 (Early Delta Emergence)",
-        "flash": {
-            "id": "KERUMUNAN MASSAL: Lebih dari 9 juta peziarah berdesakan tanpa masker di Haridwar untuk mandi suci di Sungai Gangga.",
-            "en": "MASS CONGREGATION: Over nine million pilgrims bathe unmasked in the sacred Ganges at Haridwar as infections soar.",
-            "zh": "九百万人圣浸：逾900万信徒未戴口罩汇聚哈里德瓦恒河畔参加圣浴，将病毒带往全印各邦。",
-            "it": "RITUALE DI MASSA: Oltre 9 milioni di fedeli si immergono senza mascherina nel Gange ad Haridwar.",
-            "hi": "लाखों का हुजूम: हरिद्वार में 90 लाख से अधिक श्रद्धालुओं ने गंगा में बिना मास्क डुबकी लगाई, जिससे वायरस पूरे देश में फैला।"
-        },
-        "virusProfile": {
-            "code": "MASS FAITH AMPLIFIER",
-            "mutationType": {
-                "id": "Transmisi Masif Tanpa Masker di Kerumunan Keagamaan",
-                "en": "Religious Congregation Involving Multimillion-Scale Aerosol Exchange",
-                "zh": "数百万人级无防护宗教聚集引发之超速全域气溶胶共振",
-                "it": "Amplificazione da Assembramento Religioso di Massa Senza Mascherine",
-                "hi": "लाखों लोगों के धार्मिक जमावड़े में बिना मास्क भारी ट्रांसमिशन"
-            },
-            "r0": "5.5 (Di Tepi Sungai & Asrama Peziarah)",
-            "threatLevel": {
-                "id": "DETONATOR GELOMBANG KEDUA NASIONAL",
-                "en": "NATIONAL SECOND WAVE DETONATOR",
-                "zh": "第二波浩劫全国总引爆点",
-                "it": "DETONATORE DELLA SECONDA ONDATA NAZIONALE",
-                "hi": "दूसरी लहर का देशव्यापी डेटोनेटर"
-            },
-            "clinicalTarget": {
-                "id": "Penyebaran lintas wilayah dari peziarah yang kembali ke pelosok desa",
-                "en": "Dissemination by returning pilgrims into remote, unmonitored villages",
-                "zh": "返乡朝圣者将高载量变异株向深山腹地村庄全域输出",
-                "it": "Diffusione a lungo raggio nei villaggi rurali da parte dei fedeli",
-                "hi": "तीर्थयात्रियों द्वारा दूर-दराज के गांवों में वायरस का प्रसार"
-            }
-        },
-        "description": {
-            "id": "Di Haridwar, Uttarakhand, festival akbar Kumbh Mela tetap digelar dan dimajukan satu tahun lebih cepat. Selama beberapa pekan, lebih dari 9 juta peziarah Hindu berkumpul rapat di ghat-ghat batu Sungai Gangga, berdesakan tanpa masker untuk merayakan mandi suci (Shahi Snan). Tes swab kilat di pintu masuk dipalsukan oleh laboratorium swasta yang nakal. Ribuan peziarah dan pemuka agama jatuh sakit, membawa varian baru yang baru lahir pulang ke ribuan desa di seluruh pelosok India.",
-            "en": "In Haridwar, Uttarakhand, the massive Kumbh Mela pilgrimage went ahead, brought forward by a year for astrological reasons. Over several weeks, more than nine million devotees converged on the stone ghats of the Ganges, packing tight without masks for the royal baths ('Shahi Snan'). Corrupt private testing kiosks generated thousands of fake negative tests. Infected pilgrims carried a brewing mutant pathogen back to thousands of unsuspecting villages.",
-            "zh": "在北阿坎德邦的哈里德瓦，全球规模最大的宗教集会大壶节被提前一年照常举办。在数周之内，超过900万名信众摩肩接踵挤满恒河石阶，在未经防护的状态下共赴‘皇家圣浴’。现场快速核酸检测点甚至爆出私营机构出具海量虚假阴性证明的丑闻。高热的信徒随后乘列车返乡，将新变异株播撒进全印度数万个乡村角落。",
-            "it": "Ad Haridwar la gigantesca festa religiosa della Kumbh Mela si tenne ugualmente. Per settimane oltre 9 milioni di fedeli affollarono i ghat del Gange, immergendosi senza mascherina per il bagno rituale. Laboratori compiacenti rilasciarono migliaia di certificati falsi negativi. Migliaia di pellegrini tornarono a casa contagiati, diffondendo la neonata variante in ogni angolo dell'India.",
-            "hi": "हरिद्वार में महाकुंभ का आयोजन बिना किसी रोक-टोक के हुआ। 90 लाख से अधिक श्रद्धालु गंगा के घाटों पर बिना मास्क 'शाही स्नान' के लिए उमड़ पड़े। निजी लैबों द्वारा फर्जी नेगेटिव रिपोर्ट बनाने का घोटाला सामने आया। संक्रमित होकर लौटे तीर्थयात्रियों ने इस नए म्यूटेंट को देश के कोने-कोने तक पहुंचा दिया।"
-        },
-        "image": "/assets/images/covid-19/in/07-kumbh-mela-crowds.jpg"
+    "date": {
+      "id": "24 Maret 2020",
+      "en": "March 24, 2020"
     },
-    {
-        "id": "in-08-b1617-delta-ignition",
-        "chapterNumber": "07",
-        "type": "standard",
-        "title": {
-            "id": "Kelahiran Sang Monster: Varian Delta (B.1.617.2) Merebak",
-            "en": "Birth of the Behemoth: The Surge of the Delta Variant (B.1.617.2)",
-            "zh": "巨兽诞生：德尔塔双突变株（B.1.617.2）的咆哮",
-            "it": "La Nascita del Mostro: L'Esplosione della Variante Delta",
-            "hi": "दानव का जन्म: डेल्टा वेरिएंट (B.1.617.2) का जानलेवा विस्फोट"
-        },
-        "date": {
-            "id": "Maret - April 2021",
-            "en": "March - April 2021",
-            "zh": "2021年3月 - 4月",
-            "it": "Marzo - Aprile 2021",
-            "hi": "मार्च - अप्रैल 2021"
-        },
-        "strain": "VOC Delta (B.1.617.2 / Double Mutant)",
-        "flash": {
-            "id": "MUTASI GANDA: Varian B.1.617.2 dengan mutasi L452R dan E484Q mereplikasi diri ribuan kali lebih cepat dan melumpuhkan sistem imun.",
-            "en": "DOUBLE MUTANT: Lineage B.1.617.2 harboring L452R and P681R mutations replicates a thousand times faster, breaking immune barriers.",
-            "zh": "双突变风暴：携带L452R与P681R强力突变的B.1.617.2毒株载量暴增千倍，全面撕裂人体免疫屏障。",
-            "it": "DOPPIA MUTAZIONE: La variante B.1.617.2 con mutazioni L452R e P681R si replica 1000 volte più velocemente.",
-            "hi": "डबल म्यूटेंट: L452R और P681R म्यूटेशन वाला B.1.617.2 वायरस हजार गुना तेजी से फैलकर इम्युनिटी को चकमा देने लगा।"
-        },
-        "virusProfile": {
-            "code": "VOC DELTA (B.1.617.2 PROGENITOR)",
-            "mutationType": {
-                "id": "Peningkatan Fusi Sel via Mutasi Furin Cleavage Site P681R",
-                "en": "Enhanced Syncytia Formation via P681R Spike Alteration",
-                "zh": "P681R位点突变极大增强膜融合与组织穿透能力",
-                "it": "Aumento della Fusione Cellulare tramite Mutazione P681R",
-                "hi": "P681R म्यूटेशन द्वारा फेफड़ों के ऊतकों में घातक पैठ"
-            },
-            "r0": "6.0 - 7.5 (Transmisibilitas Ekstrem)",
-            "threatLevel": {
-                "id": "VARIAN PALING MEMATIKAN DALAM SEJARAH PANDEMI",
-                "en": "DEADLIEST VARIANT IN THE PANDEMIC'S ANNALS",
-                "zh": "大流行史上杀伤力最强之变异毒株",
-                "it": "LA VARIANTE PIÙ LETALE DELLA PANDEMIA",
-                "hi": "महामारी का सबसे घातक और संक्रामक वेरिएंट"
-            },
-            "clinicalTarget": {
-                "id": "Hipoksia hening mendadak, desaturasi cepat di bawah 70% dalam hitungan jam",
-                "en": "Rapid silent hypoxia with precipitously plunging oxygen levels within hours",
-                "zh": "静默型低氧血症致血氧数小时内断崖式跌破70%",
-                "it": "Ipossia silente fulminea con saturazione sotto il 70% in poche ore",
-                "hi": "अचानक साइलेंट हाइपोक्सिया, कुछ ही घंटों में ऑक्सीजन 70% से नीचे गिरना"
-            }
-        },
-        "description": {
-            "id": "Di laboratorium Maharashtra, para ahli genomik tertegun melihat kode genetik sampel virus baru yang diberi kode B.1.617. Varian ini membawa dua mutasi kunci yang memungkinkannya bereplikasi 1.000 kali lebih pekat di saluran pernapasan atas dan menghindari antibodi. Dikenal dunia sebagai varian 'Delta', mutasi ini menyebar dengan kecepatan kilat yang belum pernah disaksikan sebelumnya: seluruh anggota keluarga bisa tertular hanya dalam tempo 24 jam setelah satu orang terpapar.",
-            "en": "In Maharashtra laboratories, genomic scientists were stunned by the sequencing profile of a new lineage designated B.1.617. This variant possessed key mutations enabling viral replication at loads a thousand times higher than the ancestral strain while bypassing neutralizing antibodies. Later named 'Delta' by the WHO, it spread with frightening velocity: an entire household would test positive within 24 hours of a single exposure.",
-            "zh": "在马哈拉施特拉邦的基因测序实验室中，科学家们惊骇地审视着代号为B.1.617的新突变毒株。该株携带了致命突变，使其在上呼吸道的复制浓度较原始株狂飙近千倍，并具备极强的抗体逃逸能力。这便是日后让全球闻风丧胆的‘德尔塔’（Delta）。它以前所未有的速度席卷次大陆：一人染疫，全家二十四小时内全员沦陷。",
-            "it": "Nei laboratori del Maharashtra i genetisti rimasero sconvolti dalla sequenza della nuova linea B.1.617. Questa variante possedeva mutazioni che le permettevano di replicarsi a cariche virali mille volte superiori, eludendo gli anticorpi. Ribattezzata 'Delta' dall'OMS, si propagò con una rapidità inaudita: bastava un contagiato per infettare l'intera famiglia in un giorno.",
-            "hi": "महाराष्ट्र की लैब में वैज्ञानिकों ने जब B.1.617 की जीनोम सीक्वेंसिंग देखी तो दंग रह गए। इस वेरिएंट में ऐसे म्यूटेशन थे जो इसे पुराने वायरस से 1000 गुना अधिक ताकतवर बनाते थे। विश्व स्वास्थ्य संगठन द्वारा 'डेल्टा' नाम दिया गया यह वायरस इतनी तेजी से फैला कि परिवार के एक सदस्य के संपर्क में आते ही 24 घंटे में पूरा घर बीमार हो गया।"
-        },
-        "image": "/assets/images/covid-19/in/08-delta-variant-lab.jpg"
+    "strain": "Civil Containment Maximum Protocol",
+    "flash": {
+      "id": "KARANTINA TERBESAR DUNIA: PM Narendra Modi memerintahkan 1,3 miliar rakyat mengunci pintu hanya dengan pemberitahuan 240 menit.",
+      "en": "LARGEST QUARANTINE IN HISTORY: Prime Minister Narendra Modi confines 1.38 billion citizens with four hours of advance warning."
     },
-    {
-        "id": "in-09-delhi-oxygen-sos",
-        "chapterNumber": "08",
-        "type": "milestone",
-        "title": {
-            "id": "Napas yang Tercekik: Jeritan SOS Oksigen New Delhi",
-            "en": "Suffocating Capital: The Oxygen SOS Catastrophe of New Delhi",
-            "zh": "窒息的首都：新德里的血色吸氧SOS警报",
-            "it": "La Capitale Soffoca: La Tragedia dell'Ossigeno a New Delhi",
-            "hi": "सांसों का संकट: नई दिल्ली में ऑक्सीजन की त्राहि-त्राहि"
-        },
-        "date": {
-            "id": "April - Mei 2021",
-            "en": "April - May 2021",
-            "zh": "2021年4月 - 5月",
-            "it": "Aprile - Maggio 2021",
-            "hi": "अप्रैल - मई 2021"
-        },
-        "strain": "VOC Delta Severe Inpatient Wave",
-        "flash": {
-            "id": "KRISIS OKSIGEN MEDIS: RS Sir Ganga Ram dan Batra Hospital kehabisan oksigen cair; puluhan pasien ICU meninggal lemas di ranjang.",
-            "en": "OXYGEN DEPLETION: Top hospitals run out of liquid medical oxygen; dozens of intensive care patients suffocate in their beds.",
-            "zh": "医用氧气枯竭：恒河医院与巴特拉医院液氧断供，重症监护室数十名患者在窒息中悲惨咽气。",
-            "it": "CRISI DELL'OSSIGENO: I migliori ospedali esauriscono l'ossigeno liquido; decine di pazienti in rianimazione muoiono asfissiati.",
-            "hi": "ऑक्सीजन का महासंकट: सर गंगा राम और बत्रा अस्पताल में लिक्विड ऑक्सीजन खत्म होने से दर्जनों आईसीयू मरीजों ने दम तोड़ दिया।"
-        },
-        "virusProfile": {
-            "code": "LIQUID MEDICAL OXYGEN EXHAUSTION",
-            "mutationType": {
-                "id": "Lonjakan Konsumsi Oksigen Pasien ARDS Parah",
-                "en": "Acute Hypoxia Surge Overrunning Industrial Production Grids",
-                "zh": "重症低氧患者海啸式激增击垮全境医用液氧生产调度网络",
-                "it": "Consumo Fuori Controllo che Travolge le Reti Industriali di Ossigeno",
-                "hi": "गंभीर मरीजों की भारी संख्या से मेडिकल ऑक्सीजन सप्लाई चेन का टूटना"
-            },
-            "r0": "Puncak Rawat Inap Parah",
-            "threatLevel": {
-                "id": "KOLAPS INFRASTRUKTUR PENOPANG HIDUP IBU KOTA",
-                "en": "TOTAL METROPOLITAN CRITICAL CARE COLLAPSE",
-                "zh": "国家首都重症维生系统全线崩溃",
-                "it": "COLLASSO TOTALE DEI SISTEMI VITALI NELLA CAPITALE",
-                "hi": "राजधानी के स्वास्थ्य ढांचे का पूर्ण पतन"
-            },
-            "clinicalTarget": {
-                "id": "Kematian asfiksia iatrogenik akibat tekanan pipa sentral drop ke nol",
-                "en": "Suffocation secondary to central pipeline pressure falling to zero",
-                "zh": "中心供氧管网压力归零诱发的群体性医源性窒息死亡",
-                "it": "Morte per asfissia dovuta all'azzeramento della pressione nei tubi",
-                "hi": "सेंट्रल ऑक्सीजन पाइपलाइन का प्रेशर शून्य होने से सामूहिक दम घुटना"
-            }
-        },
-        "description": {
-            "id": "Pada pekan ketiga April 2021, sistem kesehatan di New Delhi runtuh total. Pipa pasokan oksigen cair di rumah-rumah sakit elit seperti Sir Ganga Ram Hospital dan Batra Hospital mengering hingga tekanan pipa menjadi nol, menewaskan puluhan pasien ICU dalam tempo beberapa menit. Para direktur rumah sakit menangis di siaran langsung televisi memohon bantuan, sementara linimasa media sosial berubah menjadi dinding ratapan SOS warga yang panik mencari tabung oksigen untuk keluarga mereka yang sekarat di dalam mobil di pelataran parkir.",
-            "en": "In late April 2021, New Delhi's clinical system suffered total collapse. Liquid medical oxygen reservoirs at premier facilities like Sir Ganga Ram Hospital ran bone-dry, plummeting manifold pressure to zero and suffocating scores of ICU patients in minutes. Hospital directors broke down on live broadcasts begging for tankers, while Twitter became a desperate SOS board for citizens hunting for black-market cylinders for family members dying in cars outside locked emergency gates.",
-            "zh": "2021年4月下旬，新德里的医疗系统遭遇毁灭性崩盘。甘加·拉姆爵士医院与巴特拉医院等顶级医疗机构的医用液氧储备见底，中央管道压力归零，重症监护室数十名病患在数分钟内接连窒息而亡。院长在直播连线中泣不成声向法院与军队乞求氧气罐车。社交媒体推特化作全城绝望的求生SOS墙，无数市民为在车里喘息的亲人疯抢黑市高价氧气瓶。",
-            "it": "Nella seconda metà di aprile 2021, il sistema sanitario di New Delhi collassò. All'ospedale Sir Ganga Ram l'ossigeno liquido finì del tutto: la pressione crollò a zero e decine di pazienti in terapia intensiva morirono asfissiati in pochi minuti. I primari piangevano in tv supplicando l'invio di cisterne, mentre i social si riempivano di appelli disperati di familiari in cerca di bombole sul mercato nero.",
-            "hi": "अप्रैल 2021 के अंत में नई दिल्ली का स्वास्थ्य ढांचा पूरी तरह चरमरा गया। सर गंगा राम अस्पताल जैसे बड़े अस्पतालों में लिक्विड ऑक्सीजन खत्म हो गई, जिससे पाइपलाइन का प्रेशर जीरो हो गया और दर्जनों मरीजों की तड़पकर मौत हो गई। अस्पताल के डॉक्टर टीवी पर रोते हुए मदद मांग रहे थे, और सोशल मीडिया ऑक्सीजन सिलेंडर की गुहार लगाने वालों से भर गया था।"
-        },
-        "image": "/assets/images/covid-19/in/09-delhi-oxygen-sos.jpg"
+    "virusProfile": {
+      "code": "CONTINENTAL SHUTDOWN ORDER",
+      "mutationType": {
+        "id": "Penutupan Total Seluruh Jaringan Kereta & Bisnis",
+        "en": "Universal Cessation of Public Transport and Economic Life"
+      },
+      "r0": "Ditekan Paksa dari 3.2",
+      "threatLevel": {
+        "id": "GUNCANGAN SOSIO-EKONOMI EKSTREM",
+        "en": "SEVEREST SOCIOECONOMIC SYSTEM SHOCK"
+      },
+      "clinicalTarget": {
+        "id": "Pemotongan rantai penularan di kota sebelum menyentuh pedesaan",
+        "en": "Severing inter-city transmission before rural health post penetration"
+      }
     },
-    {
-        "id": "in-10-parking-lot-pyres",
-        "chapterNumber": "09",
-        "type": "milestone",
-        "title": {
-            "id": "Api yang Tak Pernah Padam: Krematorium Terbuka di Tempat Parkir",
-            "en": "The Unbroken Flames: Open-Air Pyres in City Parking Lots",
-            "zh": "永燃之焰：停车场与街心公园化作露天焚尸场",
-            "it": "I Roghi Senza Fine: I Parcheggi Trasformati in Crematori",
-            "hi": "अखंड चिताएं: श्मशान बने पार्किंग लॉट और पार्क"
-        },
-        "date": {
-            "id": "April - Mei 2021",
-            "en": "April - May 2021",
-            "zh": "2021年4月 - 5月",
-            "it": "Aprile - Maggio 2021",
-            "hi": "अप्रैल - मई 2021"
-        },
-        "strain": "SARS-CoV-2 Peak Mortality Wave",
-        "flash": {
-            "id": "KREMASI MASSAL: Krematorium resmi penuh; lahan parkir, taman kota, dan trotoar New Delhi disulap menjadi ratusan tumpukan kayu bakar kremasi 24 jam.",
-            "en": "OPEN PYRES: Crematoria overflow; parking tarmac and public parks in New Delhi are converted into continuous burning pyres.",
-            "zh": "烈焰围城：正规火葬场瘫痪，新德里停车场、公共绿地与河滩被辟为上百座昼夜不息的露天柴堆火化场。",
-            "it": "CREMAZIONI A CIELO APERTO: I forni sono saturi; parchi e parcheggi di New Delhi diventano roghi funebri accesi giorno e notte.",
-            "hi": "सामूहिक दाह संस्कार: श्मशान कम पड़ने पर दिल्ली के पार्कों और पार्किंग लॉट में दर्जनों चिताएं दिन-रात जलने लगीं।"
-        },
-        "virusProfile": {
-            "code": "CIVIC MORTUARY GRID COLLAPSE",
-            "mutationType": {
-                "id": "Mortalitas Eksponensial Melumpuhkan Fasilitas Pemulasaraan",
-                "en": "Exponential Mortality Depleting Municipal Funerary Lumber",
-                "zh": "指数级死亡海啸致使城市木材与火化基础设施全域耗竭",
-                "it": "Mortalità Esponenziale ed Esaurimento di Legna e Forni",
-                "hi": "अत्यधिक मौतों से श्मशानों और लकड़ी की भारी कमी"
-            },
-            "r0": "Puncak Fatalitas Delta",
-            "threatLevel": {
-                "id": "BENCANA PEMULASARAAN MASSAL TERTINGGI SEJARAH",
-                "en": "HIGHEST RECORDED CIVIC MORTUARY EMERGENCY",
-                "zh": "现代史记载最严重市政丧葬灾难",
-                "it": "MASSIMA EMERGENZA CIMITERIALE NELLA STORIA RECENTE",
-                "hi": "इतिहास का सबसे बड़ा नागरिक दाह संस्कार संकट"
-            },
-            "clinicalTarget": {
-                "id": "Kematian massal tanpa sertifikat medis di rumah dan luar faskes",
-                "en": "Unregistered community fatalities arriving directly at pyres",
-                "zh": "未经医院确诊登记便直接送往火葬场的非正规大批死者",
-                "it": "Decessi domiciliari non registrati portati direttamente sui roghi",
-                "hi": "अस्पताल में जगह न मिलने के कारण घर और सड़कों पर होने वाली मौतें"
-            }
-        },
-        "description": {
-            "id": "Ketika fasilitas krematorium listrik di New Delhi melelehkan cerobong asapnya akibat dipakai tanpa henti, pemandangan paling mengerikan abad ke-21 terhampar di ibu kota. Lahan parkir mobil, taman kota, dan tepi Sungai Yamuna disulap menjadi krematorium terbuka raksasa. Ratusan tumpukan kayu bakar dinyalakan berderet-deret memancarkan cahaya jingga menyala ke langit malam yang pekat. Suhu udara panas membakar wajah para penggali kubur yang kelelahan, sementara antrean ambulans dan bajaj pengangkut jenazah mengular hingga belasan jam.",
-            "en": "As electric crematoria incinerators melted from nonstop operation, New Delhi witnessed the modern era's most harrowing scenes. Asphalt parking lots, public parks, and banks along the Yamuna River were commandeered into open-air cremation grounds. Hundreds of wooden funeral pyres burned in rows, casting an eerie orange glow over smog-laden skies. The heat singed the faces of exhausted workers, while queues of ambulances and autorickshaws bearing corpses stretched for blocks.",
-            "zh": "当新德里电子火化炉的金属烟囱因昼夜不停焚化而烧塌熔化时，当代最震撼的灾难图景在首都降临。柏油停车场、公共花园与亚穆纳河畔全被紧急征用为露天柴堆火化区。数百座火化木堆整齐排开，滔天烈焰将浓烟笼罩的夜空染成诡异的猩红色。热浪灼烧着疲惫不堪的搬运工面庞，而载着遗体的救护车与机动三轮车排队长达数十小时。",
-            "it": "I forni elettrici di New Delhi si fusero per l'uso ininterrotto. La capitale si trasformò in una gigantesca pira funeraria: parcheggi, giardini pubblici e le rive del fiume Yamuna furono invasi da roghi di legna accesi l'uno accanto all'altro. Il cielo notturno divenne color arancio brillante sotto il fumo acre, mentre ambulanze e risciò carichi di corpi attendevano in fila per ore.",
-            "hi": "लगातार चलने के कारण जब नई दिल्ली की इलेक्ट्रिक भट्टियों की चिमनियां पिघल गईं, तो पार्कों और यमुना के किनारों को श्मशान बना दिया गया। सैकड़ों चिताएं एक साथ जलाई गईं, जिससे आसमान नारंगी हो गया। श्मशान घाटों पर एंबुलेंस और ऑटो रिक्शा में शवों की लंबी कतारें लगी थीं।"
-        },
-        "image": "/assets/images/covid-19/in/10-parking-lot-cremations.jpg"
+    "description": {
+      "id": "Tepat pukul 20.00 malam 24 Maret 2020, Perdana Menteri Narendra Modi mengumumkan lewat siaran langsung bahwa seluruh wilayah India akan menjalani lockdown total selama 21 hari mulai tengah malam. Dengan hanya empat jam pemberitahuan bagi 1,38 miliar penduduk, seluruh moda transportasi antarkota, kereta api yang telah beroperasi selama 167 tahun, perkantoran, dan pabrik dihentikan seketika. Keputusan tanpa persiapan jaring pengaman ini seketika merenggut mata pencaharian ratusan juta pekerja sektor informal harian.",
+      "en": "At 8:00 PM on March 24, 2020, Prime Minister Narendra Modi declared on national television that the entire country would enter a strict 21-day lockdown starting at midnight. Given a mere four-hour window, 1.38 billion citizens were paralyzed. For the first time in 167 years, the vast Indian Railways network stopped running. Overnight, informal laborers, domestic workers, and construction laborers were stripped of wages, food, and shelter."
     },
-    {
-        "id": "in-11-ganga-floating-bodies",
-        "chapterNumber": "10",
-        "type": "milestone",
-        "title": {
-            "id": "Sungai Para Arwah: Tragedi Ratusan Jenazah di Sungai Gangga",
-            "en": "River of Souls: The Floating Dead of the Holy Ganges",
-            "zh": "恒河浮尸：圣河沙洲上的上千浅埋与漂浮亡灵",
-            "it": "Il Fiume delle Anime: I Cadaveri Fluttuanti nel Fiume Sacro",
-            "hi": "गंगा में तैरती लाशें: पवित्र नदी के किनारों पर सामूहिक दफन"
-        },
-        "date": {
-            "id": "Mei 2021",
-            "en": "May 2021",
-            "zh": "2021年5月",
-            "it": "Maggio 2021",
-            "hi": "मई 2021"
-        },
-        "strain": "SARS-CoV-2 (Rural Mortality Climax)",
-        "flash": {
-            "id": "TRAGEDI SUNGAI SUCI: Mahalnya harga kayu bakar memaksa ribuan keluarga miskin mengubur dangkal atau melarungkan jenazah ke Sungai Gangga di Buxar dan Ghazipur.",
-            "en": "DESPERATION ON THE WATERS: Soaring wood prices force destitute families to float or shallow-bury hundreds of bodies along the Ganges banks.",
-            "zh": "圣河浩劫：火化木柴价格飙升，贫困百姓被迫将亲人遗体水葬或浅埋于布克萨尔与加济普尔的恒河沙洲。",
-            "it": "ORRORE SUL FIUME SACRO: Il costo proibitivo della legna spinge migliaia di famiglie a gettare le salme nel Gange o a seppellirle nella sabbia.",
-            "hi": "पवित्र नदी का दर्द: लकड़ी के बढ़े दामों के कारण मजबूर परिजनों ने सैकड़ों शवों को बक्सर और गाजीपुर में गंगा में बहाया या रेत में दफनाया।"
-        },
-        "virusProfile": {
-            "code": "RURAL POVERTY MORTALITY CRISIS",
-            "mutationType": {
-                "id": "Mortalitas Masif Perdesaan Tanpa Akses Kremasi Terjangkau",
-                "en": "Extreme Rural Destitution Precluding Traditional Cremation Rites",
-                "zh": "极端乡村贫困导致传统火葬仪式链条彻底断裂",
-                "it": "Rottura dei Riti Tradizionali per Povertà Estrema nelle Campagne",
-                "hi": "गरीबी के कारण पारंपरिक अंतिम संस्कार करने में असमर्थता"
-            },
-            "r0": "Fatalitas Perdesaan Tersembunyi",
-            "threatLevel": {
-                "id": "PUNCAK PENYANGKALAN DAN TRAGEDI EKOLOGIS",
-                "en": "MACRO-EPIDEMIOLOGICAL APEX AND WATERWAY CONTAMINATION",
-                "zh": "大流行人道主义与流域环境悲剧极值点",
-                "it": "APICE DELL'EMERGENZA UMANITARIA ED ECOLOGICA",
-                "hi": "मानवीय और पर्यावरणीय त्रासदी का चरम बिंदु"
-            },
-            "clinicalTarget": {
-                "id": "Dekomposisi jenazah di badan air publik lintas negara bagian",
-                "en": "Decomposition of unclaimed remains across inter-state river basins",
-                "zh": "跨邦河流水体中无名遇难者遗体漂浮与生态污染",
-                "it": "Decomposizione di corpi non reclamati nei bacini fluviali",
-                "hi": "नदियों में बहते अज्ञात शवों से संक्रमण और प्रदूषण का खतरा"
-            }
-        },
-        "description": {
-            "id": "Ketika badai Delta menyapu kawasan perdesaan di mana uang tabungan habis dan harga kayu bakar melonjak tiga kali lipat, pemandangan paling menyayat hati terlihat di sepanjang bantaran Sungai Gangga di Buxar (Bihar) dan Ghazipur (Uttar Pradesh). Ratusan jenazah yang dibungkus kain oranye dan putih ditemukan mengapung di perairan suci atau terkubur dangkal di bukit-bukit pasir tepi sungai. Saat angin monsun bertiup, lapisan pasir terkikis, memperlihatkan ratusan gundukan kain kafan yang menjadi saksi bisu betapa dalamnya jurang kemiskinan dan penderitaan rakyat kecil.",
-            "en": "As Delta struck impoverished villages, funeral wood prices tripled, placing dignity out of reach for millions. In Buxar (Bihar) and Ghazipur (Uttar Pradesh), the holy Ganges delivered a horrific sight: hundreds of bloated bodies swathed in saffron and white shrouds washed ashore or lay shallowly interred in sandbanks. As seasonal winds blew, sands shifted to reveal vast fields of shroud-covered corpses—a searing testimony to how the pandemic ravaged India's rural poor.",
-            "zh": "当德尔塔风暴肆虐赤贫乡村、火化木材价格暴涨三倍时，比哈尔邦布克萨尔与北方邦加济普尔的恒河沿岸展现了令人心碎的惨状。数百具裹着橙色与白色粗布的遗体被水流冲上浅滩，或被浅浅掩埋在沙洲之中。随着季风吹过，松软的河沙被吹散，露出密密麻麻的裹尸布凸起，成为次大陆贫民在这场世纪浩劫中无声受难的最残酷见证。",
-            "it": "Nelle campagne il prezzo della legna triplicò, rendendo la cremazione inaccessibile ai poveri. A Buxar e Ghazipur il sacro Gange restituì uno scenario desolante: centinaia di cadaveri avvolti in teli arancioni e bianchi emersero dalle acque o affiorarono dalle fosse poco profonde sulle rive sabbiose. Il vento scoprì distese di lenzuola funebri, rivelando il tributo pagato dalle fasce più deboli.",
-            "hi": "जब डेल्टा वेरिएंट गांवों में पहुंचा तो लकड़ी के दाम आसमान छूने लगे। बिहार के बक्सर और यूपी के गाजीपुर में गंगा नदी में तैरते सैकड़ों शव किनारे आ लगे। रेत में दफनाए गए शवों पर से जब तेज हवा ने रेत हटाई, तो कफन से लिपटे सैकड़ों शव दिखाई देने लगे। यह दृश्य ग्रामीण भारत की बेबसी की सबसे दर्दनाक तस्वीर बन गया।"
-        },
-        "image": "/assets/images/covid-19/in/11-ganga-river-shrouds.jpg"
+    "image": "/assets/images/covid-19/in/02-lockdown-announcement.jpg"
+  },
+  {
+    "id": "in-03-great-migrant-exodus",
+    "chapterNumber": "03",
+    "type": "milestone",
+    "title": {
+      "id": "Eksodus Terbesar Sejak Partisi: Pulang Jalan Kaki Ribuan Kilometer",
+      "en": "The Long March Home: The Great Migrant Exodus"
     },
-    {
-        "id": "in-12-side-bengal-election-rallies",
-        "chapterNumber": "INTERLUDE II",
-        "type": "side_story",
-        "title": {
-            "id": "Panggung Demokrasi Tanpa Masker: Rapat Umum Pemilu Benggala Barat",
-            "en": "The Unmasked Hustings: The West Bengal Election Rallies",
-            "zh": "狂热选战：西孟加拉邦无防护竞选集会风暴",
-            "it": "I Comizi Senza Mascherina: Le Elezioni in Bengala Occidentale",
-            "hi": "चुनावी रैलियों की आंधी: पश्चिम बंगाल में बिना मास्क भारी भीड़"
-        },
-        "date": {
-            "id": "Maret - April 2021",
-            "en": "March - April 2021",
-            "zh": "2021年3月 - 4月",
-            "it": "Marzo - Aprile 2021",
-            "hi": "मार्च - अप्रैल 2021"
-        },
-        "strain": "Political Mass Aerosolization Event",
-        "flash": {
-            "id": "POLITISASI WABAH: Para politisi papan atas menggelar rapat umum yang dihadiri ratusan ribu simpatisan tanpa masker di tengah lonjakan Delta.",
-            "en": "CAMPAIGN SUPERSPREADER: Top political leaders address mammoth, shoulder-to-shoulder unmasked rallies across West Bengal.",
-            "zh": "选战放大器：政治要员在西孟加拉邦连续举行数十场数十万人无防护密集竞选集会。",
-            "it": "SUPER-DIFFUSORE ELETTORALE: I comizi elettorali in Bengala Occidentale radunano folle oceaniche senza protezioni.",
-            "hi": "चुनावी सुपर-स्प्रेडर: डेल्टा लहर के बीच पश्चिम बंगाल में राजनेताओं ने बिना मास्क लाखों लोगों की रैलियों को संबोधित किया।"
-        },
-        "virusProfile": {
-            "code": "MASS ELECTORAL DISSEMINATION",
-            "mutationType": {
-                "id": "Aerosolisasi Politik di Lapangan Terbuka Padat",
-                "en": "Dense Packed Political Rallies Accelerating Mutation Vectors",
-                "zh": "极度密集的政治集会狂热呼喊导致病毒极速扩散",
-                "it": "Assembramenti Politici Oceanici che Accelerano la Diffusione",
-                "hi": "राजनीतिक रैलियों में नारेबाजी और भारी भीड़ से संक्रमण का फैलाव"
-            },
-            "r0": "4.8",
-            "threatLevel": {
-                "id": "KEGAGALAN REGULASI ELEKTORAL",
-                "en": "ELECTORAL GOVERNANCE REGULATORY FAILURE",
-                "zh": "选举监管体系对公共卫生风险的彻底失控",
-                "it": "COLLASSO DELLE REGOLE DI SICUREZZA ELETTORALE",
-                "hi": "चुनावी आचार संहिता और स्वास्थ्य नियमों की विफलता"
-            },
-            "clinicalTarget": {
-                "id": "Infeksi silang pada aktivis partai, polisi, dan kandidat pemilu",
-                "en": "Cross-infection sweeping polling officials, police, and candidates",
-                "zh": "竞选骨干、现场警员及候选人发生群体性重症感染",
-                "it": "Infezioni a catena tra scrutatori, agenti e candidati",
-                "hi": "चुनाव कर्मियों, पुलिस और उम्मीदवारों में गंभीर संक्रमण"
-            }
-        },
-        "description": {
-            "id": "Bahkan ketika varian Delta telah meledakkan angka rawat inap di seluruh negeri, pemilu legislatif negara bagian di Benggala Barat tetap digelar dalam delapan putaran maraton. Para pemimpin partai dari berbagai kubu berpidato di panggung terbuka menyapa lautan manusia yang berdesakan tanpa masker dan menjaga jarak. Pengadilan Tinggi Madras mengecam keras Komisi Pemilihan Umum, menyatakan mereka 'harus bertanggung jawab atas pembunuhan massal' karena mengizinkan kampanye tanpa protokol di saat virus sedang ganas-ganasnya.",
-            "en": "Even as Delta detonated across hospital wards, the West Bengal legislative elections proceeded across an eight-phase marathon. Party heavyweights addressed ocean-like crowds packed shoulder-to-shoulder with zero masking. The Madras High Court issued a blistering rebuke to the Election Commission, remarking that its officials should 'probably be booked for murder' for permitting massive unmasked political congregations as infections were exploding.",
-            "zh": "即便德尔塔变异株已在各大城市掀起惊涛骇浪，西孟加拉邦的长达八轮马拉松式地方选举依然照常推进。各党派核心高层站在高台上，面对肩并肩、毫无口罩防护的数十万人海激情演讲。马德拉斯高等法院对此发出严厉抨击，直指选举委员会放任致命集会‘理应因谋杀罪被起诉’。",
-            "it": "Mentre la variante Delta travolgeva gli ospedali, le elezioni in Bengala Occidentale si tennero in una maratona di otto fasi. I leader politici arringavano folle sterminate senza alcuna protezione. L'Alta Corte di Madras attaccò duramente la Commissione Elettorale, dichiarando che i suoi funzionari 'avrebbero dovuto essere incriminati per omicidio' per aver consentito comizi oceanici nel pieno della strage.",
-            "hi": "जब डेल्टा वेरिएंट अस्पतालों पर कहर बरपा रहा था, तब पश्चिम बंगाल में आठ चरणों में चुनाव प्रचार चल रहा था। बड़े नेता बिना मास्क वाली लाखों की भीड़ के सामने भाषण दे रहे थे। मद्रास हाईकोर्ट ने चुनाव आयोग को कड़ी फटकार लगाते हुए कहा कि आयोग पर संभवतः 'हत्या का मुकदमा' दर्ज होना चाहिए।"
-        },
-        "image": "/assets/images/covid-19/in/12-bengal-election-rally.jpg"
+    "date": {
+      "id": "Maret - Mei 2020",
+      "en": "March - May 2020"
     },
-    {
-        "id": "in-13-black-market-remdesivir",
-        "chapterNumber": "11",
-        "type": "standard",
-        "title": {
-            "id": "Perburuan Obat Palsu: Pasar Gelap Remdesivir & Tocilizumab",
-            "en": "The Vulture Bazaar: The Remdesivir & Oxygen Black Market",
-            "zh": "秃鹫集市：瑞德西韦与黑市氧气瓶的人性深渊",
-            "it": "Il Mercato Nero: La Caccia a Remdesivir e Ossigeno",
-            "hi": "कालाबाज़ारी का बाज़ार: रेमडेसिविर और ऑक्सीजन सिलेंडरों की लूट"
-        },
-        "date": {
-            "id": "Mei 2021",
-            "en": "May 2021",
-            "zh": "2021年5月",
-            "it": "Maggio 2021",
-            "hi": "मई 2021"
-        },
-        "strain": "Pharmaceutical Extortion Wave",
-        "flash": {
-            "id": "EKSPLOITASI KRISIS: Tabung oksigen dan obat antivirus Remdesivir dijual calo di jalanan hingga 20 kali lipat harga resmi.",
-            "en": "MARKET PROFITEERING: Oxygen cylinders and Remdesivir vials sell on illicit markets at 20 times the ceiling price.",
-            "zh": "黑市暴利：氧气瓶与抗病毒药瑞德西韦在黑市被炒至原价的20倍以上，甚至出现灌注食盐水的假药。",
-            "it": "SPECULAZIONE CRIMINALE: Bombole e fiale di Remdesivir vendute al mercato nero a venti volte il prezzo ufficiale.",
-            "hi": "कालाबाज़ारी का खेल: ऑक्सीजन सिलेंडर और रेमडेसिविर के इंजेक्शन 20 गुना महंगे दामों पर बेचे गए।"
-        },
-        "virusProfile": {
-            "code": "PHARMACEUTICAL SPECULATION CRISIS",
-            "mutationType": {
-                "id": "Kelangkaan Terapeutik Ekstrem Mengakibatkan Penipuan Obat",
-                "en": "Acute Therapeutic Scarcity Fueling Counterfeit Drug Rings",
-                "zh": "急救药物极度短缺引发假药与欺诈网络泛滥",
-                "it": "Carenza Terapeutica e Proliferazione di Reti di Farmaci Contraffatti",
-                "hi": "दवाइयों की भारी कमी के कारण नकली दवाओं का जाल"
-            },
-            "r0": "Transmisi Pasar Gelap",
-            "threatLevel": {
-                "id": "RUNTUHNYA INTEGRITAS LOGISTIK FARMASI",
-                "en": "TOTAL PHARMACEUTICAL SUPPLY CHAIN DEGRADATION",
-                "zh": "国家药品与特种医械供应链信任全面崩塌",
-                "it": "DEGRADAZIONE TOTALE DELLA FILIERA FARMACEUTICA",
-                "hi": "दवा आपूर्ति श्रृंखला की गंभीर विफलता"
-            },
-            "clinicalTarget": {
-                "id": "Toksisitas akibat suntikan obat palsu berisi air garam atau parasetamol cair",
-                "en": "Severe adverse outcomes from saline-filled counterfeit antiviral vials",
-                "zh": "注射生理盐水冒充之假瑞德西韦延误抢救与脓毒症",
-                "it": "Tossicità e ritardi letali causati da fiale contraffatte riempite di soluzione fisiologica",
-                "hi": "नकली इंजेक्शनों में पानी भरे होने से मरीजों की हालत और बिगड़ना"
-            }
-        },
-        "description": {
-            "id": "Di luar pintu rumah sakit, sebuah pasar gelap yang kejam beroperasi di bawah lindungan kegelapan. Botol kecil obat antivirus Remdesivir yang memiliki harga resmi 3.000 rupee dijual oleh calo hingga 60.000 rupee (setara jutaan rupiah), sementara tabung oksigen ukuran kecil dibanderol hingga 100.000 rupee bagi keluarga yang putus asa. Polisi menangkap sindikat kriminal yang mengecat tabung pemadam api busa bekas menjadi tabung oksigen medis, serta komplotan yang mengisi botol bekas dengan air garam biasa dan menjualnya sebagai obat penawar berharga puluhan juta rupiah.",
-            "en": "Outside hospital gates, a merciless illicit bazaar thrived in the shadows. Vials of the antiviral Remdesivir, officially capped at 3,000 rupees, traded hands for 60,000 to 100,000 rupees among desperate relatives. Police broken up criminal rings repainting fire extinguishers to sell as medical oxygen cylinders and caught fraudsters packaging ordinary saline into recycled brand-name vials, preying upon families on the brink of losing everything.",
-            "zh": "在医院大门外的阴影下，一个残酷的黑市吸血网络迅速滋生。官方定价仅三千卢比的瑞德西韦抗病毒针剂，在黑市被黄牛叫卖到六万至十万卢比的惊天高价。更令人发指的是，警方查获了将废弃灭火器喷漆伪造成医用氧气罐出售的犯罪团伙，并缴获了大批灌入生理盐水假冒特效药的空安瓿瓶，将绝望家庭推向倾家荡产的深渊。",
-            "it": "Fuori dagli ospedali fiorì un mercato nero spietato. Fiale di Remdesivir dal costo di tremila rupie venivano vendute fino a centomila rupie a parenti disperati. La polizia sgominò bande criminali che riverniciavano estintori vendendoli come bombole di ossigeno e truffatori che riempivano flaconi usati con acqua salata, lucrando sulla disperazione di chi stava perdendo i propri cari.",
-            "hi": "अस्पतालों के बाहर एक क्रूर कालाबाज़ारी नेटवर्क पनप गया। 3000 रुपये का रेमडेसिविर इंजेक्शन 1 लाख रुपये तक में बिका। पुलिस ने ऐसे गिरोहों को पकड़ा जो अग्निशामक सिलेंडरों को मेडिकल ऑक्सीजन बताकर बेच रहे थे और रेमडेसिविर की खाली शीशियों में नमक का पानी भरकर मरीजों की जान से खिलवाड़ कर रहे थे।"
-        },
-        "image": "/assets/images/covid-19/in/13-black-market-medicines.jpg"
+    "strain": "Socio-Epidemiological Catastrophe",
+    "flash": {
+      "id": "EKSODUS MASSAL: Lebih dari 10 juta buruh harian berjalan kaki di bawah terik 40°C menyusuri jalan tol nasional demi pulang ke desa.",
+      "en": "HUMAN MIGRATION WAVE: Over 10 million migrant workers trek thousands of miles on foot under 40°C heat along federal highways."
     },
-    {
-        "id": "in-14-black-fungus-epidemic",
-        "chapterNumber": "12",
-        "type": "standard",
-        "title": {
-            "id": "Kutukan Pasca-Badai: Epidemi Jamur Hitam (Mucormycosis)",
-            "en": "The Second Affliction: The Mucormycosis 'Black Fungus' Wave",
-            "zh": "次生梦魇：黑真菌症（毛霉菌病）的二次暴发",
-            "it": "La Seconda Piaga: L'Epidemia di 'Fungo Nero' (Mucormicosi)",
-            "hi": "दूसरी आफत: ब्लैक फंगस (म्यूकोर्मिकोसिस) का आतंक"
-        },
-        "date": {
-            "id": "Mei - Juli 2021",
-            "en": "May - July 2021",
-            "zh": "2021年5月 - 7月",
-            "it": "Maggio - Luglio 2021",
-            "hi": "मई - जुलाई 2021"
-        },
-        "strain": "Opportunistic Fungal Coinfection (Mucorales)",
-        "flash": {
-            "id": "WABAH DI DALAM WABAH: Lebih dari 45.000 pasien sembuh COVID-19 terserang jamur hitam langka; ahli bedah terpaksa mengangkat mata dan rahang pasien.",
-            "en": "EPIDEMIC WITHIN EPIDEMIC: Over 45,000 recovering COVID patients contract mucormycosis; surgeons remove eyes and jaws to halt fungal spread.",
-            "zh": "灾上加灾：逾4.5万名新冠康复者感染罕见致死性黑真菌，外科医生被迫切除患者眼球与颌骨保命。",
-            "it": "EPIDEMIA NELL'EPIDEMIA: Oltre 45.000 guariti colpiti dal 'fungo nero'; i chirurghi asportano occhi e mascelle per salvarli.",
-            "hi": "महामारी के अंदर महामारी: 45,000 से अधिक मरीज 'ब्लैक फंगस' की चपेट में आए; जान बचाने के लिए डॉक्टरों को आंखें और जबड़े निकालने पड़े।"
-        },
-        "virusProfile": {
-            "code": "OPPORTUNISTIC MYCOTIC SUPERINFECTION",
-            "mutationType": {
-                "id": "Invasi Angioinvasif Fungal Pasca-Terapi Steroid Berlebihan",
-                "en": "Angioinvasive Fungal Proliferation Triggered by High-Dose Steroids & Diabetes",
-                "zh": "大剂量皮质类固醇激素滥用与高血糖诱发之血管侵袭性真菌感染",
-                "it": "Infezione Fungina Invasiva Favorita da Steroidi e Diabete",
-                "hi": "स्टेरॉयड के अंधाधुंध इस्तेमाल और डायबिटीज के कारण फंगस का जानलेवा हमला"
-            },
-            "r0": "Non-Menular (Infeksi Sekunder)",
-            "threatLevel": {
-                "id": "MUTILASI BEDAH DARURAT TINGKAT TINGGI",
-                "en": "CRITICAL SURGICAL MUTILATION EMERGENCY",
-                "zh": "极高致残率与五成致死率之次生病理危机",
-                "it": "EMERGENZA CHIRURGICA MUTILANTE AD ALTA MORTALITÀ",
-                "hi": "गंभीर शल्य विकृति और 50% मृत्यु दर वाला संकट"
-            },
-            "clinicalTarget": {
-                "id": "Nekrosis jaringan sinus, orbita mata, dan invasi ke otak",
-                "en": "Tissue necrosis of the palate, orbit, and cerebral parenchymal invasion",
-                "zh": "鼻窦软组织坏死、眼眶浸润失明与中枢脑实质真菌侵蚀",
-                "it": "Necrosi dei seni paranasali, distruzione dell'orbita e invasione cerebrale",
-                "hi": "आंखों की रोशनी जाना, जबड़े की हड्डी का गलना और मस्तिष्क में संक्रमण"
-            }
-        },
-        "description": {
-            "id": "Saat badai Delta mulai mereda, penderitaan baru melanda puluhan ribu penyintas di India: ledakan kasus Mukormikosis atau 'Jamur Hitam'. Penggunaan steroid dosis tinggi tanpa kontrol medis untuk meredakan badai sitokin, dikombinasikan dengan tingginya prevalensi diabetes dan penggunaan air kotor pada tabung pelembap oksigen, menciptakan lahan subur bagi spora jamur mematikan. Jamur ini membusukkan jaringan hidung, langit-langit mulut, dan rongga mata, memaksa dokter bedah mengangkat bola mata dan tulang rahang pasien demi mencegah jamur menembus otak.",
-            "en": "Just as the Delta surge receded, an insidious nightmare surfaced across India: an unprecedented wave of Mucormycosis, or 'Black Fungus'. The widespread, unmonitored use of high-dose corticosteroids to tame cytokine storms, paired with rampant diabetes and unsterilized water in oxygen humidifiers, allowed aggressive fungal spores to invade tissue. The fungal colonies turned sinuses, palates, and eye sockets necrotic, forcing surgeons to enucleate eyes and resect jawbones to save lives.",
-            "zh": "正当德尔塔风暴渐息之际，一场可怕的次生噩梦突袭了数万名幸存者：毛霉菌病（俗称‘黑真菌症’）在全印呈爆炸式蔓延。为强压细胞因子风暴而普遍滥用的大剂量类固醇激素、极高的糖尿病基础以及吸氧加湿瓶中不洁的自来水，为致命真菌侵蚀构筑了温床。真菌迅速侵蚀面部骨骼与眼眶，迫使外科医生不得不摘除病患眼球、锯除上颌骨以阻遏真菌钻入脑髓。",
-            "it": "Mentre l'ondata Delta arretrava, un incubo si abbatté sui sopravvissuti: l'epidemia di Mucormicosi, il 'Fungo Nero'. L'uso indiscriminato di cortisonici per domare la tempesta citochinica, unito a un diabete diffuso e ad acqua non sterile nei gorgogliatori dell'ossigeno, creò il terreno ideale per il fungo. L'infezione necrotizzava palato e orbite, costringendo i chirurghi a enucleare gli occhi e asportare ossa mascellari per salvare i pazienti.",
-            "hi": "डेल्टा लहर के शांत होते ही एक और भयावह संकट 'ब्लैक फंगस' के रूप में सामने आया। मरीजों को बिना सोचे-समझे दिए गए हेवी स्टेरॉयड, अनियंत्रित डायबिटीज और ऑक्सीजन सिलेंडरों में गंदे पानी के उपयोग से इस फंगस ने हजारों लोगों को जकड़ लिया। फंगस को दिमाग तक पहुंचने से रोकने के लिए डॉक्टरों को मरीजों की आंखें और जबड़े तक काटने पड़े।"
-        },
-        "image": "/assets/images/covid-19/in/14-black-fungus-ward.jpg"
+    "virusProfile": {
+      "code": "MASS PEDESTRIAN MIGRATION EXODUS",
+      "mutationType": {
+        "id": "Penyebaran Geografis Tak Terbendung via Jalur Jalan Kaki",
+        "en": "Unregulated Foot-Traffic Dispersal Across Interstate Borders"
+      },
+      "r0": "Transmisi Kerumunan Jalan Raya",
+      "threatLevel": {
+        "id": "TRAGEDI KEMANUSIAAN SKALA MASSIF",
+        "en": "CATASTROPHIC HUMANITARIAN EMERGENCY"
+      },
+      "clinicalTarget": {
+        "id": "Dehidrasi fatal, kelelahan fisik ekstrem, dan heatstroke di jalan",
+        "en": "Fatal dehydration, acute physical collapse, and severe heatstroke"
+      }
     },
-    {
-        "id": "in-15-oxygen-express-trains",
-        "chapterNumber": "13",
-        "type": "standard",
-        "title": {
-            "id": "Kereta Penyelamat Nyawa: Peluncuran Oxygen Express & Rantai Baja",
-            "en": "Lifeline on Steel: The 'Oxygen Express' Rail Fleet",
-            "zh": "钢铁生命线：穿越次大陆的‘氧气特快’列车",
-            "it": "I Treni della Salvezza: La Flotta 'Oxygen Express'",
-            "hi": "पटरी पर जिंदगी: 'ऑक्सीजन एक्सप्रेस' और ग्रीन कॉरिडोर"
-        },
-        "date": {
-            "id": "Mei - Juni 2021",
-            "en": "May - June 2021",
-            "zh": "2021年5月 - 6月",
-            "it": "Maggio - Giugno 2021",
-            "hi": "मई - जून 2021"
-        },
-        "strain": "Industrial Emergency Logistics Phase",
-        "flash": {
-            "id": "LOGISTIK MILITER: Kereta api India meluncurkan 'Oxygen Express', mengangkut ratusan ribu ton oksigen cair dari pabrik baja timur ke ibu kota.",
-            "en": "WAR FOOTING: Indian Railways deploys 'Oxygen Express' trains, hauling cryogenic tankers from eastern steel mills to choking cities.",
-            "zh": "战时调度：印度铁路开辟全速绿色通道，‘氧气快车’昼夜将东部钢厂数万吨深冷液氧急送新德里。",
-            "it": "LOGISTICA DA GUERRA: Le ferrovie indiane lanciano i treni 'Oxygen Express' per trasportare cisterne criogeniche dalle acciaierie alle città.",
-            "hi": "रेलवे की जंग: भारतीय रेल ने 'ऑक्सीजन एक्सप्रेस' चलाकर पूर्वी स्टील प्लांटों से हजारों टन लिक्विड ऑक्सीजन राजधानी तक पहुंचाई।"
-        },
-        "virusProfile": {
-            "code": "CRYOGENIC FREIGHT MOBILIZATION",
-            "mutationType": {
-                "id": "Alih Fungsi Produksi Baja Berat ke Oksigen Medis",
-                "en": "Repurposing Heavy Industrial Metallurgy Output for Clinical Survival",
-                "zh": "重工业炼钢深冷空分产能向民用急救液氧战略转产",
-                "it": "Riconversione d'Urgenza dell'Acciaio Industriale in Ossigeno Ospedaliero",
-                "hi": "स्टील प्लांट्स की औद्योगिक ऑक्सीजन को मेडिकल ऑक्सीजन में बदलना"
-            },
-            "r0": "Penyelamatan Faskes Sentral",
-            "threatLevel": {
-                "id": "LOGISTIK MILITER DAN TRANSPORTASI DARURAT",
-                "en": "HIGH-PRIORITY TRANS-NATIONAL LOGISTIC CRISIS",
-                "zh": "国家生命通道跨区域联运极限考验",
-                "it": "OPERAZIONE LOGISTICA STRATEGICA NAZIONALE",
-                "hi": "राष्ट्रीय स्तर की आपातकालीन जीवन रक्षक लॉजिस्टिक्स"
-            },
-            "clinicalTarget": {
-                "id": "Penyediaan suplai oksigen harian untuk 200.000 pasien ICU",
-                "en": "Sustaining daily oxygen pressure for over 200,000 ventilated inpatients",
-                "zh": "维系全境逾二十万名重症呼吸衰竭患者之连续吸氧",
-                "it": "Garantire l'erogazione continua a oltre 200.000 pazienti intubati",
-                "hi": "2 लाख से अधिक वेंटिलेटर मरीजों के लिए ऑक्सीजन की निरंतर आपूर्ति"
-            }
-        },
-        "description": {
-            "id": "Ketika jalan raya macet dan kapal tangki terbatas, Angkatan Darat dan Kereta Api India meluncurkan operasi logistik terbesar pasca-kemerdekaan: jaringan 'Oxygen Express'. Pabrik baja di Rourkela, Jamshedpur, dan Vizag di India timur menyetop operasional pabrik demi mengalihkan seluruh produksi oksigen industri mereka menjadi oksigen medis. Truk tangki kriogenik raksasa dinaikkan ke atas gerbong datar kereta barang, lalu melesat menempuh ribuan kilometer tanpa henti melalui 'Green Corridor' khusus menuju New Delhi dan Mumbai.",
-            "en": "With highways gridlocked and cryogenic tankers scarce, Indian Railways mobilized its most ambitious peacetime effort: the 'Oxygen Express'. Giant steel plants in Rourkela, Jamshedpur, and Vizag halted metallurgy production to divert liquid oxygen into medical streams. Massive cryogenic trailers were rolled onto flatbed rail wagons (Ro-Ro) and rocketed through dedicated 'Green Corridors' cleared of all passenger traffic, delivering life-saving gas directly to overwhelmed capitals.",
-            "zh": "在公路运力窒息与特种深冷储槽紧缺的绝境下，印度铁路局启动了非战时期最波澜壮阔的物流大会战：‘氧气特快’（Oxygen Express）。位于东部鲁尔克拉与贾姆谢德布尔的巨型重工业钢铁厂紧急停产，将工业氧气生产线全负荷转产医用液氧。重达数十吨的深冷槽车开上铁路平车，列车通过清空一切客运的‘绿色生命走廊’全速飞驰上千公里，为重度缺氧的城市输送生命的呼吸。",
-            "it": "Con le strade bloccate e le autocisterne introvabili, le ferrovie indiane attuarono la loro più imponente operazione logistica civile: i treni 'Oxygen Express'. I grandi poli siderurgici dell'Est interruppero la produzione industriale per deviare l'ossigeno liquido agli ospedali. Le cisterne criogeniche furono caricate sui vagoni merci e corsero lungo 'corridoi verdi' ad alta velocità, rifornendo New Delhi e Mumbai.",
-            "hi": "सड़कों पर भारी जाम और ऑक्सीजन की किल्लत को देखते हुए भारतीय रेलवे ने 'ऑक्सीजन एक्सप्रेस' का संचालन किया। जमशेदपुर और राउरकेला के बड़े स्टील प्लांटों ने अपना उत्पादन रोककर सारा ऑक्सीजन अस्पतालों के लिए डायवर्ट कर दिया। ट्रेनों को 'ग्रीन कॉरिडोर' के जरिए बिना रुके सीधे दिल्ली और मुंबई जैसे बड़े शहरों तक पहुंचाया गया।"
-        },
-        "image": "/assets/images/covid-19/in/15-oxygen-express-train.jpg"
+    "description": {
+      "id": "Terjebak di kota-kota megapolitan tanpa penghasilan dan uang sewa kamar, lebih dari 10 juta buruh migran memulai eksodus terbesar di Asia Selatan sejak Tragedi Partisi 1947. Bersama anak balita di pundak dan buntalan karung di kepala, mereka berjalan kaki siang dan malam menyusuri aspal panas jalan tol nasional menuju Uttar Pradesh dan Bihar sejauh lebih dari 1.000 kilometer. Puluhan pekerja tewas kelelahan, kelaparan, dan dehidrasi di pinggir jalan sebelum sempat melihat kampung halaman mereka.",
+      "en": "Stranded in megalopolises with zero income and evicted from shanties, over 10 million internal migrant laborers triggered South Asia's largest human displacement since the 1947 Partition. Carrying infants on shoulders and meager belongings in cloth sacks, families marched along scalding highway tarmac toward Uttar Pradesh and Bihar, navigating journeys exceeding 1,000 kilometers on foot. Scores died of exhaustion, starvation, and heatstroke along the roadsides."
     },
-    {
-        "id": "in-16-serum-institute-vaccine-engine",
-        "chapterNumber": "14",
-        "type": "standard",
-        "title": {
-            "id": "Pabrik Farmasi Dunia: Serum Institute of India di Pune",
-            "en": "Pharmacy to the World: The Serum Institute of India Engine",
-            "zh": "世界药房的引擎：普纳印度血清研究所的产能风暴",
-            "it": "La Farmacia del Mondo: Il Motore del Serum Institute a Pune",
-            "hi": "दुनिया की फार्मेसी: पुणे का सीरम इंस्टीट्यूट ऑफ इंडिया"
-        },
-        "date": {
-            "id": "Pertengahan 2021",
-            "en": "Mid-2021",
-            "zh": "2021年中期",
-            "it": "Metà 2021",
-            "hi": "मध्य 2021"
-        },
-        "strain": "AstraZeneca/Oxford ChAdOx1 (Covishield Mass Production)",
-        "flash": {
-            "id": "PRODUKSI RAKSASA: Fasilitas SII di Pune memproduksi lebih dari 100 juta dosis vaksin Covishield setiap bulan untuk menyelamatkan populasi.",
-            "en": "INDUSTRIAL SCALE: The Serum Institute in Pune scales output past 100 million Covishield doses monthly to turn the tide.",
-            "zh": "超级产能：普纳SII基地将Covishield疫苗月产能轰至一亿剂以上，以极限制造拯救人口大国。",
-            "it": "SCALA INDUSTRIALE: Il Serum Institute porta la produzione di Covishield a oltre 100 milioni di dosi al mese.",
-            "hi": "महा-उत्पादन: पुणे के सीरम इंस्टीट्यूट ने हर महीने 10 करोड़ से अधिक कोविशील्ड टीके बनाकर देश को सुरक्षा कवच दिया।"
-        },
-        "virusProfile": {
-            "code": "MASS ADENOVIRUS VECTOR SCALING",
-            "mutationType": {
-                "id": "Kultur Bioreaktor Masif ChAdOx1-S Rekombinan",
-                "en": "Massive Viral Vector Bioreactor Expansion Suppressing Re-Infection",
-                "zh": "重组腺病毒载体生物反应器万升级超级扩增",
-                "it": "Produzione di Massa di Vaccini a Vettore Adenovirale",
-                "hi": "पुनः संयोजक एडेनोवायरस वेक्टर टीकों का बड़े पैमाने पर निर्माण"
-            },
-            "r0": "Ditekan lewat Imunisasi Massal",
-            "threatLevel": {
-                "id": "PERTAHANAN AKHIR IMUNITAS POPULASI",
-                "en": "FINAL STRATEGIC BIOLOGICAL DEFENSE SHIELD",
-                "zh": "国家人口生物安全终极护盾",
-                "it": "SCUDO STRATEGICO DI IMMUNIZZAZIONE DI MASSA",
-                "hi": "राष्ट्रीय जनसंख्या के लिए अंतिम जैविक सुरक्षा कवच"
-            },
-            "clinicalTarget": {
-                "id": "Pencegahan mortalitas dan penurunan keparahan paru varian Delta",
-                "en": "Aggressive prevention of Delta-induced respiratory arrest",
-                "zh": "强力阻断德尔塔株诱发的恶性呼吸骤停与重症死亡",
-                "it": "Prevenzione dei decessi e delle forme polmonari gravi da Delta",
-                "hi": "डेल्टा वेरिएंट के कारण होने वाली फेफड़ों की गंभीर क्षति और मौतों को रोकना"
-            }
-        },
-        "description": {
-            "id": "Di kota industri Pune, kompleks pabrik Serum Institute of India (SII)—produsen vaksin terbesar di dunia berdasarkan volume—beroperasi bagaikan instalasi militer 24 jam sehari. Ratusan bioreaktor raksasa dari baja tahan karat memfermentasi miliaran sel untuk menghasilkan vaksin AstraZeneca yang dinamai secara lokal 'Covishield'. Dipimpin oleh Adar Poonawalla, pabrik ini mengerahkan seluruh kapasitasnya guna memompa lebih dari 100 juta dosis per bulan, menjadi tulang punggung pertahanan biologis yang menyelamatkan ratusan juta rakyat India dari gelombang susulan.",
-            "en": "In the industrial city of Pune, the sprawling campus of the Serum Institute of India—the world's largest vaccine manufacturer by volume—ran around the clock like a mobilization complex. Rows of towering stainless-steel bioreactors fermented billions of cells producing Oxford-AstraZeneca vials, branded domestically as 'Covishield'. Under intense pressure, the facility scaled capacity past 100 million doses per month, acting as the indispensable engine behind the subcontinent's vaccination turnaround.",
-            "zh": "在工业重镇普纳，全球产量最大的疫苗生产企业——印度血清研究所（SII）的巨型园区如战时军工厂般彻夜运转。一排排巨大的不锈钢生物反应器昼夜发酵数十亿个重组细胞，批量灌装被命名为‘Covishield’的阿斯利康疫苗。在阿达尔·普纳瓦拉领导下，该厂顶住供应链极限制约，将月产能拉升破一亿剂，成为庇佑数亿国民免遭后续毒株吞噬的中流砥柱。",
-            "it": "A Pune, il gigantesco impianto del Serum Institute of India funzionò senza sosta come una roccaforte strategica. Centinaia di bioreattori in acciaio inox fermentavano miliardi di cellule per sfornare il vaccino AstraZeneca, ribattezzato 'Covishield'. Sotto la guida di Adar Poonawalla, lo stabilimento superò i 100 milioni di dosi al mese, costituendo la colonna portante che protesse centinaia di milioni di cittadini da ulteriori ondate.",
-            "hi": "पुणे में दुनिया की सबसे बड़ी वैक्सीन निर्माता कंपनी सीरम इंस्टीट्यूट ऑफ इंडिया (SII) का प्लांट 24 घंटे चला। विशाल स्टील बायोरिएक्टरों में दिन-रात ऑक्सफोर्ड-एस्ट्राजेनेका का टीका बना, जिसे भारत में 'कोविशील्ड' नाम दिया गया। आदर पूनावाला के नेतृत्व में इस कंपनी ने हर महीने 10 करोड़ से ज्यादा डोज बनाकर करोड़ों भारतीयों की जान बचाई।"
-        },
-        "image": "/assets/images/covid-19/in/16-serum-institute-vials.jpg"
+    "image": "/assets/images/covid-19/in/03-migrant-workers-highway.jpg"
+  },
+  {
+    "id": "in-04-side-aurangabad-rail-tragedy",
+    "chapterNumber": "INTERLUDE I",
+    "type": "side_story",
+    "title": {
+      "id": "Roti yang Berserak di Rel: Tragedi Kereta Aurangabad",
+      "en": "Scattered Roti on the Tracks: The Aurangabad Train Tragedy"
     },
-    {
-        "id": "in-17-cowin-billion-doses",
-        "chapterNumber": "15",
-        "type": "milestone",
-        "title": {
-            "id": "Satu Miliar Suntikan: Revolusi Digital Portal CoWIN",
-            "en": "A Billion Jabs: The CoWIN Digital Inoculation Blitz",
-            "zh": "十亿巨碑：CoWIN数字平台的超级接种战役",
-            "it": "Un Miliardo di Dosi: La Rivoluzione Digitale di CoWIN",
-            "hi": "100 करोड़ टीके: कोविन (CoWIN) पोर्टल का डिजिटल चमत्कार"
-        },
-        "date": {
-            "id": "21 Oktober 2021",
-            "en": "October 21, 2021",
-            "zh": "2021年10月21日",
-            "it": "21 Ottobre 2021",
-            "hi": "21 अक्टूबर 2021"
-        },
-        "strain": "Digital Public Health Infrastructure",
-        "flash": {
-            "id": "MILESTONE SEJARAH: India menembus rekor 1.000.000.000 dosis vaksinasi yang dikelola secara real-time via platform open-source CoWIN.",
-            "en": "HISTORIC PINNACLE: India administers its 1,000,000,000th vaccine dose, tracked real-time via the homegrown CoWIN platform.",
-            "zh": "历史极值点：印度通过自主研发的CoWIN数字平台完成全境第十亿剂新冠疫苗接种纪录。",
-            "it": "RECORD STORICO: L'India taglia il traguardo di un miliardo di dosi somministrate, gestite in tempo reale dalla piattaforma CoWIN.",
-            "hi": "ऐतिहासिक मील का पत्थर: भारत ने कोविन पोर्टल के जरिए 100 करोड़ (1 बिलियन) टीकों का आंकड़ा पार किया।"
-        },
-        "virusProfile": {
-            "code": "POPULATION IMMUNITY MILESTONE",
-            "mutationType": {
-                "id": "Penyerapan Vaksinasi Skala 1 Miliar Dosis",
-                "en": "Billion-Scale Coverage Establishing Subcontinental Population Barrier",
-                "zh": "十亿级广谱疫苗覆盖筑起全印人群稳固免疫屏障",
-                "it": "Copertura a Livello di Miliardo che Frena la Circolazione Virale",
-                "hi": "100 करोड़ खुराक से तैयार हुआ उपमहाद्वीप का सुरक्षा घेरा"
-            },
-            "r0": "Turun Tajam ke < 0.7",
-            "threatLevel": {
-                "id": "KEBERHASILAN LOGISTIK DIGITAL PUBLIK",
-                "en": "CIVIC BIOMETRIC AND HEALTH TRIUMPH",
-                "zh": "国家级数字公卫基础设施历史性胜利",
-                "it": "TRIONFO DELLA LOGISTICA E DELLA SANITÀ DIGITALE",
-                "hi": "डिजिटल पब्लिक हेल्थ इंफ्रास्ट्रक्चर की ऐतिहासिक सफलता"
-            },
-            "clinicalTarget": {
-                "id": "Pengurangan 90% angka rawat inap ICU di seluruh negara bagian",
-                "en": "90% reduction in secondary hospitalization and death across all demographics",
-                "zh": "各邦次生重症住院率与病亡率全线下跌逾九成",
-                "it": "Riduzione del 90% delle ospedalizzazioni e dei decessi",
-                "hi": "देशभर के अस्पतालों में मौतों और आईसीयू एडमिशन में 90% की गिरावट"
-            }
-        },
-        "description": {
-            "id": "Pada 21 Oktober 2021, sirene dan pengeras suara di stasiun kereta api serta monumen bersejarah di seluruh penjuru India berbunyi serempak: negara ini resmi menyuntikkan dosis vaksin ke-1 miliar. Keberhasilan kampanye logistik terbesar dalam sejarah ini ditopang oleh platform digital open-source CoWIN. Dari gubuk terpencil di pegunungan Himalaya hingga desa nelayan di Samudra Hindia, para nakes membawa kotak pendingin vaksin melintasi sungai dengan perahu kayu dan jalan setapak, memberikan sertifikat berkode QR digital langsung ke ponsel warga.",
-            "en": "On October 21, 2021, horns sounded across railway stations and landmarks as India administered its one-billionth vaccine dose. This monumental milestone was orchestrated by the homegrown digital backbone, CoWIN. From remote Himalayan outposts to fishing hamlets on the Indian Ocean, healthcare workers hauled blue vaccine cold-boxes across rope bridges and desert dunes on camels, delivering instant, QR-verified digital certificates to mobile phones across the subcontinent.",
-            "zh": "2021年10月21日，全印各大火车站与历史地标同时响起庆祝的汽笛与广播：印度正式完成了第十亿剂新冠疫苗接种。这场人类史上规模罕见的公卫战役由自主研发的开源数字化底层系统CoWIN强力驱动。从喜马拉雅山脊的积雪哨所到印度洋畔的偏僻渔村，基层护士挎着蓝色冷链保温箱徒步攀悬崖、渡激流，将带有加密二维码的数字接种证明实时推送到数亿国民的手机中。",
-            "it": "Il 21 ottobre 2021 le sirene suonarono nelle stazioni di tutta l'India: era stata somministrata la dose numero un miliardo. Questo colossale sforzo fu coordinato dal sistema digitale CoWIN. Dalle valli innevate dell'Himalaya ai villaggi di pescatori del Sud, gli operatori sanitari trasportarono borse frigo a piedi, a cavallo o in barca, rilasciando certificati digitali con codice QR direttamente sui telefoni dei cittadini.",
-            "hi": "21 अक्टूबर 2021 को भारत भर के रेलवे स्टेशनों और स्मारकों पर सायरन बजाकर 100 करोड़ वैक्सीन खुराक का ऐतिहासिक जश्न मनाया गया। इस विशाल अभियान को 'कोविन' (CoWIN) डिजिटल प्लेटफॉर्म ने संभव बनाया। हिमालय की चोटियों से लेकर सुदूर गांवों तक, स्वास्थ्य कर्मियों ने वैक्सीन बॉक्स ढोकर हर नागरिक तक टीका और मोबाइल पर डिजिटल सर्टिफिकेट पहुंचाया।"
-        },
-        "image": "/assets/images/covid-19/in/17-cowin-vaccine-center.jpg"
+    "date": {
+      "id": "8 Mei 2020",
+      "en": "May 8, 2020"
     },
-    {
-        "id": "in-18-side-undercount-controversy",
-        "chapterNumber": "INTERLUDE III",
-        "type": "side_story",
-        "title": {
-            "id": "Tabir Angka yang Hilang: Kontroversi Data Kematian Berlebih",
-            "en": "The Uncounted Millions: The Excess Mortality Reckoning",
-            "zh": "隐匿的数据迷雾：超额死亡真实人数大辩论",
-            "it": "I Milioni Non Contati: La Controversia sull'Eccesso di Mortalità",
-            "hi": "अनगिनत मौतें: अतिरिक्त मौतों के आंकड़ों पर वैश्विक विवाद"
-        },
-        "date": {
-            "id": "2021 - 2022",
-            "en": "2021 - 2022",
-            "zh": "2021年 - 2022年",
-            "it": "2021 - 2022",
-            "hi": "2021 - 2022"
-        },
-        "strain": "Epidemiological Demography Debate",
-        "flash": {
-            "id": "PERDEBATAN GLOBAL: Angka resmi kematian mencatat 500.000 jiwa, namun studi WHO dan ekonom independen memperkirakan korban riil mencapai 3 hingga 4,7 juta jiwa.",
-            "en": "EPIDEMIOLOGICAL RECKONING: While official rolls register 500,000 fatalities, WHO models and researchers calculate 3 to 4.7 million excess deaths.",
-            "zh": "数据交锋：官方统计死亡人数停留在五十万左右，但世卫组织与独立人口学家测算真实超额死亡高达300万至470万人。",
-            "it": "CONTO EPIDEMIOLOGICO: Il bilancio ufficiale segna 500.000 morti, ma modelli dell'OMS e studi indipendenti stimano tra i 3 e i 4,7 milioni di vittime.",
-            "hi": "आंकड़ों की सच्चाई: आधिकारिक आंकड़ा 5 लाख था, लेकिन डब्ल्यूएचओ और शोधकर्ताओं के अनुसार वास्तविक मौतें 30 से 47 लाख के बीच थीं।"
-        },
-        "virusProfile": {
-            "code": "MORTALITY UNDER-REGISTRATION GAP",
-            "mutationType": {
-                "id": "Keterbatasan Registrasi Kematian Sipil di Wilayah Perdesaan",
-                "en": "Rural Civil Registration Systemic Under-Reporting",
-                "zh": "乡村民政死亡登记盲区引发的系统性统计漏报",
-                "it": "Sottostima Sistematica delle Morti nei Registri Civili Rurali",
-                "hi": "ग्रामीण इलाकों में जन्म-मृत्यु पंजीकरण की कमी से आंकड़ों का छूटना"
-            },
-            "r0": "Analisis Statistik Retrospektif",
-            "threatLevel": {
-                "id": "KRISIS TRANSPARANSI STATISTIK DEMOGRAFI",
-                "en": "DEMOGRAPHIC VERACITY AND ACCOUNTABILITY IMPASSE",
-                "zh": "国家人口统计公信力与国际学术界的尖锐交锋",
-                "it": "CRISI DI TRASPARENZA STATISTICA DEMOGRAFICA",
-                "hi": "जनसांख्यिकीय पारदर्शिता और विश्वसनीयता का संकट"
-            },
-            "clinicalTarget": {
-                "id": "Estimasi kematian tidak tercatat di desa-desa tanpa akses tes PCR",
-                "en": "Unrecorded rural mortality lacking confirmatory diagnostic testing",
-                "zh": "缺乏核酸确诊证明之乡村隐秘超额死亡测算",
-                "it": "Stima dei decessi non registrati nei villaggi privi di tamponi",
-                "hi": "बिना जांच और रिपोर्ट के गांवों में हुई मौतों का सटीक आकलन"
-            }
-        },
-        "description": {
-            "id": "Selama berbulan-bulan, angka resmi kematian akibat COVID-19 di India bertahan di angka sekitar 500.000 jiwa. Namun jurnalis investigasi yang menghitung akta kematian di kantor-kantor kelurahan, bersama para peneliti dari World Health Organization (WHO) dan Center for Global Development, mempublikasikan pemodelan berbasis data kematian berlebih (excess deaths). Hasilnya mengejutkan dunia: diperkirakan antara 3,2 hingga 4,7 juta warga India meninggal selama pandemi—menjadikannya tragedi kematian terbesar dalam sejarah India modern pasca-Kemerdekaan.",
-            "en": "For months, India's official COVID-19 fatality registry hovered around 500,000. However, investigative reporters tallying municipal death registers alongside global demographers at the WHO published excess mortality analyses that shook the scientific world. Calculating cremation logs and all-cause mortality baselines, studies estimated that between 3.2 and 4.7 million Indians perished during the catastrophe, marking the subcontinent's deadliest tragedy since Independence.",
-            "zh": "数月以来，印度官方的新冠死亡统计始终停留在约50万人。然而，深入各邦基层查阅民政死亡火化登记簿的调查记者，与世卫组织（WHO）及全球顶尖人口统计学家拿出了冷酷的超额死亡分析模型。通过对比历年正常死亡基线与火葬场实际火化数据，研究测算真实的遇难人数在320万至470万人之间，这是印度独立以来最为惨烈的人口灾难。",
-            "it": "Per mesi il bilancio ufficiale delle vittime indiane rimase fermo a circa 500.000. Tuttavia, inchieste giornalistiche sui registri comunali e studi dell'OMS tracciarono un quadro ben diverso attraverso l'analisi dell'eccesso di mortalità. I modelli stimarono tra 3,2 e 4,7 milioni di decessi effettivi, rendendo la pandemia il più letale evento della storia indiana moderna dall'Indipendenza.",
-            "hi": "महीनों तक भारत में कोविड से आधिकारिक मौतों की संख्या करीब 5 लाख बताई जाती रही। लेकिन श्मशानों के रजिस्टरों की पड़ताल और विश्व स्वास्थ्य संगठन (WHO) के अध्ययनों ने चौंकाने वाला सच उजागर किया। वैज्ञानिकों के अनुसार असल में 32 से 47 लाख लोगों की जान गई थी, जो आजादी के बाद की सबसे बड़ी जनहानि थी।"
-        },
-        "image": "/assets/images/covid-19/in/18-registry-death-certificates.jpg"
+    "strain": "Collateral Lockdown Fatality",
+    "flash": {
+      "id": "TRAGEDI REL: 16 buruh migran yang tertidur di atas rel karena mengira kereta berhenti beroperasi tewas terlindas kereta barang.",
+      "en": "CRUSHED DREAMS: 16 exhausted migrant workers sleeping on tracks, presuming trains halted, are killed by a freight train."
     },
-    {
-        "id": "in-19-village-barefoot-warriors",
-        "chapterNumber": "16",
-        "type": "standard",
-        "title": {
-            "id": "Pahlawan Bertelanjang Kaki: Barisan Kader ASHA di Garis Depan",
-            "en": "The Barefoot Sentinels: The ASHA Workers on the Rural Frontier",
-            "zh": "赤脚哨兵：守护印度六十万村庄的阿莎（ASHA）女工",
-            "it": "Le Sentinelle a Piedi Nudi: Le Lavoratrici ASHA nei Villaggi",
-            "hi": "जमीन की रक्षक: ग्रामीण मोर्चे पर आशा (ASHA) कार्यकर्ताओं का संघर्ष"
-        },
-        "date": {
-            "id": "2021 - 2022",
-            "en": "2021 - 2022",
-            "zh": "2021年 - 2022年",
-            "it": "2021 - 2022",
-            "hi": "2021 - 2022"
-        },
-        "strain": "Community Health Mobilization",
-        "flash": {
-            "id": "PAHLAWAN KESEHATAN DESA: 1 juta kader perempuan ASHA dengan seragam sari merah muda berjalan kaki mendatangi jutaan rumah di pelosok desa.",
-            "en": "FRONTLINE SISTERS: One million women ASHA workers clad in pink saris march into remote rural hamlets to deliver care and dispel vaccine hesitancy.",
-            "zh": "粉色纱丽军团：一百万名身着粉色纱丽的‘阿莎’基层女工徒步深入偏远乡村，挨户送药并破除疫苗谣言。",
-            "it": "L'ESERCITO IN SARI ROSA: Un milione di lavoratrici sanitarie ASHA percorre a piedi i villaggi più remoti per curare e vaccinare.",
-            "hi": "गुलाबी साड़ी में वीरांगनाएं: 10 लाख आशा कार्यकर्ताओं ने पैदल चलकर दूरदराज के गांवों में दवाएं पहुंचाईं और टीके लगाए।"
-        },
-        "virusProfile": {
-            "code": "GRASSROOTS RURAL SURVEILLANCE",
-            "mutationType": {
-                "id": "Edukasi Komunitas & Intervensi Pintu ke Pintu",
-                "en": "Grassroots Domiciliary Health Education Disarming Misinformation",
-                "zh": "基层入户健康宣教强力击碎民间阴谋论抗拒心理",
-                "it": "Educazione Sanitaria Domiciliare contro la Disinformazione nei Villaggi",
-                "hi": "घर-घर जाकर स्वास्थ्य जागरूकता और अफवाहों का मुकाबला"
-            },
-            "r0": "Pengendalian Klaster Pedesaan",
-            "threatLevel": {
-                "id": "TULANG PUNGGUNG KESEHATAN MASYARAKAT PRIMER",
-                "en": "PRIMARY COMMUNITY DEFENSE ARCHITECTURE",
-                "zh": "印度最基层公卫防御体系的不可替代基石",
-                "it": "SPINA DORSALE DELLA SANITÀ TERRITORIALE INDIANA",
-                "hi": "ग्रामीण स्वास्थ्य रक्षा की सबसे मजबूत रीढ़"
-            },
-            "clinicalTarget": {
-                "id": "Deteksi dini demam dan rujukan pasien sesak napas perdesaan",
-                "en": "Early febrile triage and oxygen monitoring in remote primary health posts",
-                "zh": "偏远初级卫生所之早期发热分诊与血氧饱和度监测",
-                "it": "Triage precoce dei febbricitanti e monitoraggio dell'ossigeno nei villaggi",
-                "hi": "बुखार और ऑक्सीजन की शुरुआती जांच कर समय पर अस्पताल पहुंचाना"
-            }
-        },
-        "description": {
-            "id": "Di tengah segala keterbatasan fasilitas medis canggih, benteng pertahanan terkuat India bertumpu pada satu juta kader perempuan kesehatan masyarakat desa yang dikenal sebagai kader ASHA (Accredited Social Health Activist). Mengenakan seragam sari merah muda, para wanita pemberani ini berjalan kaki belasan kilometer setiap hari di bawah terik matahari, mendaki bukit terpencil, mendistribusikan obat-obatan, mengukur saturasi oksigen warga lansia, dan dengan sabar melawan kabar bohong anti-vaksin di kalangan tetangga desa mereka dengan upah yang sangat minim.",
-            "en": "Amidst the failure of high-tech medical grids, India's most resilient defense rested upon one million rural female community healthcare workers known as ASHA workers. Donning distinctive pink saris, these underpaid women trekked miles daily under scorching sun, climbing remote ridges, dispensing paracetamol, checking blood oxygen levels of isolated elders, and dispelling vaccine conspiracies on front porches with boundless patience and empathy.",
-            "zh": "在一切高精尖医疗设备宣告瘫痪之际，印度最坚不可摧的防线依托于一百万名被称为‘阿莎’（ASHA）的农村女性基层社工。身着标志性的粉红色纱丽，这群拿着微薄津贴的女性每天在烈日下步行十余公里，翻山越岭敲开偏远农户的大门，发放退烧药、用血氧仪测量孤寡老人体征，并在屋檐下以极大的温情与耐心瓦解村民对疫苗的迷信恐惧。",
-            "it": "Mentre le grandi strutture andavano in tilt, la salvezza arrivò da un milione di donne: le lavoratrici sanitarie ASHA. Con i loro sari rosa, marciarono ogni giorno per chilometri sotto il sole cocente per raggiungere i casolari isolati, distribuire medicinali, misurare la saturazione agli anziani e smontare con pazienza le bufale sui vaccini, sostenendo da sole la sanità rurale con stipendi minimi.",
-            "hi": "जब बड़े-बड़े अस्पताल फेल हो गए, तब 10 लाख आशा (ASHA) कार्यकर्ताओं ने मोर्चा संभाला। गुलाबी साड़ी पहने इन बहादुर महिलाओं ने चिलचिलाती धूप में कई किलोमीटर पैदल चलकर बुजुर्गों की ऑक्सीजन जांची, दवाइयां बांटीं और बेहद कम मानदेय के बावजूद लोगों को समझा-बुझाकर वैक्सीन लगवाई।"
-        },
-        "image": "/assets/images/covid-19/in/19-asha-workers-village.jpg"
+    "virusProfile": {
+      "code": "INFRASTRUCTURE COLLATERAL FATALITY",
+      "mutationType": {
+        "id": "Mortalitas Non-Viral Akibat Kelelahan Masif Pengungsian",
+        "en": "Non-Viral Displacement Fatality via Critical Exhaustion"
+      },
+      "r0": "Nol Transmisi (Kecelakaan Rel)",
+      "threatLevel": {
+        "id": "SIMBOL KORBAN KERUSAKAN SAMPINGAN LOCKDOWN",
+        "en": "ICONIC COLLATERAL DAMAGE EPISODE"
+      },
+      "clinicalTarget": {
+        "id": "Trauma fatal akibat kelelahan sensorik ekstrem",
+        "en": "Lethal blunt force trauma stemming from sensory deprivation and fatigue"
+      }
     },
-    {
-        "id": "in-20-omicron-tsunami-tamed",
-        "chapterNumber": "17",
-        "type": "standard",
-        "title": {
-            "id": "Tembok Kekebalan: Menjinakkan Gelombang Omicron",
-            "en": "The Shield of Hybrid Immunity: Taming the Omicron Wave",
-            "zh": "混杂免疫之盾：驯服奥密克戎风暴",
-            "it": "Lo Scudo dell'Immunità Ibrida: La Risposta a Omicron",
-            "hi": "हाइब्रिड इम्युनिटी की ढाल: ओमिक्रॉन लहर का सामना"
-        },
-        "date": {
-            "id": "Januari - Februari 2022",
-            "en": "January - February 2022",
-            "zh": "2022年1月 - 2月",
-            "it": "Gennaio - Febbraio 2022",
-            "hi": "जनवरी - फरवरी 2022"
-        },
-        "strain": "VOC Omicron (B.1.1.529 / Sublineage BA.1 & BA.2)",
-        "flash": {
-            "id": "GELOMBANG KETIGA: Omicron menyapu 300.000 kasus sehari, namun tingkat keparahan rendah berkat kekebalan hibrida pasca-Delta dan vaksinasi masif.",
-            "en": "THIRD WAVE SURGE: Omicron sparks 300,000 daily cases, but clinical severity stays low due to widespread hybrid immunity.",
-            "zh": "第三波冲击：奥密克戎引发单日三十万感染，但在德尔塔感染抗体与高疫苗接种率构筑的混杂免疫面前未再造成医疗挤兑。",
-            "it": "TERZA ONDATA: Omicron scatena 300.000 contagi al giorno, ma l'immunità ibrida evita il tracollo degli ospedali.",
-            "hi": "तीसरी लहर: ओमिक्रॉन से रोज 3 लाख मामले आए, लेकिन व्यापक हाइब्रिड इम्युनिटी के चलते अस्पताल बच गए।"
-        },
-        "virusProfile": {
-            "code": "VOC OMICRON (HYBRID RESILIENCE)",
-            "mutationType": {
-                "id": "Transmisi Cepat dengan Penurunan Tropisme Saluran Bawah",
-                "en": "High Upper-Airway Transmissibility with Attenuated Lung Pathogenicity",
-                "zh": "上呼吸道极高传播力与肺实质致病力显著衰减",
-                "it": "Alta Trasmissibilità delle Alte Vie Aeree con Minore Patogenicità Polmonare",
-                "hi": "ऊपरी श्वसन तंत्र में तेज प्रसार लेकिन फेफड़ों पर कम घातक असर"
-            },
-            "r0": "8.0 - 10.0",
-            "threatLevel": {
-                "id": "TRANSISI MENMENUJU ENDEMISITAS TERKENDALI",
-                "en": "MANAGEABLE ENDEMIC TRANSITION VECTOR",
-                "zh": "向可控流行病学地方性内生转段",
-                "it": "TRANSIZIONE VERSO L'ENDEMICITÀ GESTIBILE",
-                "hi": "नियंत्रित स्थानिक (एंडेमिक) स्थिति की ओर बदलाव"
-            },
-            "clinicalTarget": {
-                "id": "Faringitis akut dan demam ringan dengan tingkat penggunaan oksigen < 5%",
-                "en": "Acute pharyngitis with oxygen utilization demand dropping under 5%",
-                "zh": "急性咽炎与轻度发热，重症用氧需求断崖式跌破5%",
-                "it": "Faringite acuta e fabbisogno di ossigenoterapia crollato sotto il 5%",
-                "hi": "हल्का बुखार और गले में खराश, ऑक्सीजन की जरूरत 5% से भी कम"
-            }
-        },
-        "description": {
-            "id": "Pada awal 2022, varian Omicron menyapu India bagaikan kilat, mendorong angka infeksi harian kembali melompat ke atas 300.000 kasus. Namun kali ini, ketakutan akan terulangnya mimpi buruk tahun 2021 tidak menjadi kenyataan. Berkat kombinasi 'Kekebalan Hibrida'—hasil dari antibodi infeksi masif gelombang Delta sebelumnya ditambah suntikan ratusan juta vaksin Covishield—ranjang-ranjang ICU rumah sakit tetap kosong, kebutuhan tabung oksigen anjlok, dan masyarakat melewati gelombang ketiga tanpa kepanikan besar.",
-            "en": "In early 2022, the Omicron variant ripped through India with lightning speed, sending daily tallies back past 300,000 cases. Yet the apocalyptic terror of 2021 did not repeat. Bolstered by 'hybrid immunity'—the potent physiological shield forged by past Delta exposure combined with hundreds of millions of Covishield vaccinations—intensive care units remained calm, oxygen cylinders stayed on reserve racks, and the nation weathered the wave without panic.",
-            "zh": "2022年初，奥密克戎突变株以疾风之势席卷印度，单日确诊再度飙升破30万例。然而，2021年春天的地狱图景并未重演。在‘混杂免疫’（此前惨烈的德尔塔感染基底叠加大规模Covishield接种）的强固护航下，全国各重症ICU床位安然无恙，氧气管网压力平稳，次大陆以前所未有的从容跨越了第三波考验。",
-            "it": "All'inizio del 2022 la variante Omicron attraversò l'India a velocità fulminea, riportando i contagi sopra quota 300.000. Questa volta, però, l'incubo non si ripeté. Grazie alla cosiddetta 'immunità ibrida' — creata dalla precedente esposizione a Delta combinata alle vaccinazioni di massa — le terapie intensive rimasero vuote, l'ossigeno non mancò e il Paese superò l'ondata senza panico.",
-            "hi": "2022 की शुरुआत में ओमिक्रॉन वेरिएंट ने भारत में तेज दस्तक दी और रोजाना 3 लाख से ज्यादा केस आने लगे। लेकिन इस बार 2021 जैसा मंजर नहीं दोहराया गया। पिछली डेल्टा लहर और भारी टीकाकरण से बनी 'हाइब्रिड इम्युनिटी' के कारण अस्पतालों में बेड खाली रहे, ऑक्सीजन की कमी नहीं हुई और देश ने इस लहर को आसानी से पार कर लिया।"
-        },
-        "image": "/assets/images/covid-19/in/20-omicron-recovery.jpg"
+    "description": {
+      "id": "Enam belas buruh pabrik baja yang telah berjalan kaki sejauh 40 kilometer dari Jalna menuju Madhya Pradesh memilih tidur di atas bantalan rel kereta api dekat Aurangabad, yakin bahwa seluruh jalur kereta telah mati akibat lockdown. Pukul 05.15 dini hari, sebuah kereta barang yang melaju kencang tak sempat mengerem. Foto jurnalis yang memperlihatkan potongan roti pipih (roti) buatan bekal perjalanan yang berserak berlumuran darah di antara dua batang rel baja menjadi simbol kepedihan paling menusuk dari nasib kaum papa India.",
+      "en": "Sixteen factory laborers who had walked 40 kilometers through the dark from Jalna toward Madhya Pradesh collapsed from exhaustion on the railroad tracks near Aurangabad, assuming all rail operations were shut down. At 5:15 AM, a high-speed freight train approached around a curve. The tragic image of scattered, home-baked flatbreads (rotis) soaked in blood along the steel ties became the defining icon of the migrants' plight."
     },
-    {
-        "id": "in-21-national-memorial-monsoon",
-        "chapterNumber": "18",
-        "type": "standard",
-        "title": {
-            "id": "Luka di Bawah Hujan Monsun: Mengenang Jiwa yang Hilang",
-            "en": "Scars Under the Monsoon: Remembering the Departed",
-            "zh": "季风下的伤痕：为逝去灵魂点燃的恒河明灯",
-            "it": "Cicattrici Sotto il Monsone: In Memoria delle Anime Perdute",
-            "hi": "मानसून की बारिश में आंसू: अपनों की याद में जलते दीये"
-        },
-        "date": {
-            "id": "Pertengahan 2022",
-            "en": "Mid-2022",
-            "zh": "2022年中期",
-            "it": "Metà 2022",
-            "hi": "मध्य 2022"
-        },
-        "strain": "National Commemoration & Post-Trauma Healing",
-        "flash": {
-            "id": "MEMORI PUBLIK: Ribuan lentera minyak terapung dinyalakan di ghat Varanasi saat jutaan keluarga mendoakan kepergian orang tua mereka.",
-            "en": "COLLECTIVE MEMORY: Thousands of floating oil diyas illuminate Varanasi's ghats as families pray for lost generations.",
-            "zh": "集体追思：瓦拉纳西石阶岸边点亮数千盏祈福油灯，万千家庭在暮色中祭奠逝去的长辈与亲人。",
-            "it": "MEMORIA COLLETTIVA: Migliaia di lanterne galleggianti illuminano i ghat di Varanasi in memoria delle vittime.",
-            "hi": "सामूहिक स्मृति: वाराणसी के घाटों पर हजारों दीये जलाकर परिवारों ने महामारी में बिछड़े अपनों को श्रद्धांजलि दी।"
-        },
-        "virusProfile": {
-            "code": "POST-PANDEMIC RECONCILIATION",
-            "mutationType": {
-                "id": "Resolusi Duka Kolektif dan Pemulihan Budaya",
-                "en": "Cultural Grief Resolution and Societal Healing Rite",
-                "zh": "超大规模社会群体创伤平复与传统人文告别仪式重聚",
-                "it": "Elaborazione del Lutto Collettivo e Riconciliazione Culturale",
-                "hi": "सामूहिक शोक निवारण और सामाजिक उपचार प्रक्रिया"
-            },
-            "r0": "Endemi Rendah",
-            "threatLevel": {
-                "id": "PULIHNYA SPIRITUALITAS DAN DAYA TAHAN BANGSA",
-                "en": "SPIRITUAL FORTITUDE AND RESILIENCE MONUMENT",
-                "zh": "民族精神韧性之沉淀与抚平",
-                "it": "RESILIENZA SPIRITUALE E MEMORIA NAZIONALE",
-                "hi": "आध्यात्मिक धैर्य और राष्ट्रीय संकल्प का प्रतीक"
-            },
-            "clinicalTarget": {
-                "id": "Konseling pascatrauma dan santunan sosial jutaan anak yatim pandemi",
-                "en": "Psychosocial rehabilitation for millions of pandemic-bereaved orphans",
-                "zh": "针对数以百万计疫情孤儿与丧亲家庭之长期心理救助与社会帮扶",
-                "it": "Sostegno psicologico e sociale a milioni di orfani della pandemia",
-                "hi": "महामारी में अनाथ हुए बच्चों और शोक संतप्त परिवारों की दीर्घकालिक मदद"
-            }
-        },
-        "description": {
-            "id": "Saat hujan monsun membasuh debu dan abu dari musim semi kelam 2021, ribuan keluarga berkumpul di ghat-ghat kuno Varanasi di tepi Sungai Gangga. Mereka melepaskan perahu-perahu kecil terbuat dari anyaman daun yang membawa bunga marigold dan lentera minyak yang menyala (diya) ke atas aliran sungai yang tenang. Setiap cahaya lilin yang terombang-ambing di atas air adalah persembahan cinta bagi ayah, ibu, dan dokter yang gugur tanpa sempat dipeluk, mengukuhkan janji sebuah bangsa untuk tidak pernah melupakan harga mahal yang telah dibayar.",
-            "en": "As monsoon rains washed away the dust and ashes of the devastating spring of 2021, families gathered on the ancient ghats of Varanasi. Devotees floated small leaf boats bearing bright marigolds and glowing oil lamps ('diyas') onto the dark Ganges waters. Each shimmering flame drifting downstream symbolized a beloved parent, child, or clinician who died unheld, sealing a sacred national vow that this sacrifice would never fade from historical memory.",
-            "zh": "当季风大雨冲刷尽2021年那个至暗春天的烟尘与残烬，无数家庭肃立在瓦拉纳西古老的恒河石阶旁。人们将盛满金盏花瓣与点燃油灯（Diya）的片片树叶小舟轻放进深邃的河水中。那一簇簇在水面摇曳漂流的微光，寄托着对未能握手道别的父母、子女与白衣勇士的无尽追思，化作一个伟大古老文明绝不遗忘历史苦难的庄严承诺。",
-            "it": "Mentre le piogge monsoniche lavavano via le ceneri della primavera del 2021, le famiglie si radunarono sui ghat di Varanasi. Deposero sulle acque del Gange barchette di foglie con fiori di tagete e lampade a olio accese (diya). Ogni fiammella galleggiante era un tributo a genitori e medici scomparsi senza un abbraccio, rinnovando la promessa di non dimenticare mai l'altissimo prezzo pagato.",
-            "hi": "जब मानसून की बारिश ने 2021 की भयावह राख को धो दिया, तब वाराणसी के घाटों पर हजारों लोग जमा हुए। उन्होंने मिट्टी के दीयों और गेंदे के फूलों से सजी पत्तियों की नावों को गंगा की लहरों पर छोड़ा। पानी पर तैरती हर लौ उस मां, बाप, बच्चे या डॉक्टर की याद थी जिसे वे अंतिम विदाई भी नहीं दे सके थे।"
-        },
-        "image": "/assets/images/covid-19/in/21-varanasi-memorial-diyas.jpg"
+    "image": "/assets/images/covid-19/in/04-aurangabad-rail-tracks.jpg"
+  },
+  {
+    "id": "in-05-dharavi-slum-containment",
+    "chapterNumber": "04",
+    "type": "standard",
+    "title": {
+      "id": "Pertempuran Dharavi: Perang Melawan Wabah di Kawasan Paling Padat Asia",
+      "en": "The Battle of Dharavi: Defending Asia's Densest Slum"
     },
-    {
-        "id": "in-22-sector-ind-epilogue",
-        "chapterNumber": "19",
-        "type": "milestone",
-        "title": {
-            "id": "Epilog Sektor IND: Kawah Ujian Sang Raksasa Asia",
-            "en": "Sector IND Debrief: The Subcontinent's Crucible of Survival",
-            "zh": "IND扇区终局简报：次大陆在烈火熔炉中的淬炼",
-            "it": "Epilogo Settore IND: Il Crogiolo della Sopravvivenza",
-            "hi": "IND सेक्टर का अंतिम विश्लेषण: उपमहाद्वीप की अग्निपरीक्षा और जीत"
-        },
-        "date": {
-            "id": "Arsip Resmi ICMR, MoHFW & Rekod Sejarah Declassified",
-            "en": "ICMR, MoHFW Official Archives & Historical Declassified Record",
-            "zh": "印度医学研究理事会（ICMR）与卫生部官方解密归档",
-            "it": "Archivi Ufficiali ICMR, Ministero della Salute e Memoria Storica",
-            "hi": "ICMR और स्वास्थ्य मंत्रालय के आधिकारिक ऐतिहासिक अभिलेख"
-        },
-        "strain": "Rekapitulasi Krisis India 2020 - 2023",
-        "flash": {
-            "id": "BERKAS DITUTUP: Dari Kerala ke peron kereta api, dari api krematorium New Delhi hingga 1 miliar vaksin; India bangkit dari jurang bencana terbesar abad ini.",
-            "en": "DOSSIER ARCHIVED: From Kerala to the highways, from Delhi's pyres to a billion jabs; India rises from modern history's deepest abyss.",
-            "zh": "档案解密封存：从喀拉拉的破晓到千万劳工的征程，从新德里的冲天烈焰到十亿针剂的荣光；一个大国在世纪废墟中浴火重生。",
-            "it": "ARCHIVIO DECLASSIFICATO: Dal Kerala alle autostrade, dai roghi di Delhi a un miliardo di vaccini; l'India rinasce dall'abisso.",
-            "hi": "दस्तावेज़ सील: केरल के पहले केस से लेकर हाईवे के पलायन, दिल्ली की चिताओं और 100 करोड़ टीकों तक; भारत ने इतिहास की सबसे कठिन जंग जीती।"
-        },
-        "virusProfile": {
-            "code": "RESOLVED SECTOR IND DOSSIER",
-            "mutationType": {
-                "id": "Evolusi Penuh Gelombang Epik India: Wuhan-Type -> B.1.617.2 Delta -> Endemi",
-                "en": "Complete Indian Subcontinental Outbreak Arc: Ingress to Endemicity",
-                "zh": "次大陆大流行演进全周期：输入株至德尔塔海啸再到内生常态化",
-                "it": "Risoluzione dell'Arco Indiano: Dall'Ingresso alla Variante Delta fino all'Endemia",
-                "hi": "भारतीय उपमहाद्वीप का संपूर्ण महामारी चक्र: वुहान स्ट्रेन से डेल्टा और एंडेमिक तक"
-            },
-            "r0": "Endemi Terkendali",
-            "threatLevel": {
-                "id": "ARSIP KETAHANAN KEMANUSIAAN TERBESAR ABAD INI",
-                "en": "CENTURY'S DEFINING HUMAN RESILIENCE ARCHIVE",
-                "zh": "人类本世纪最具震撼力之苦难与尊严历史归档",
-                "it": "MONUMENTO AL CORAGGIO E ALLA RESILIENZA DEL XXI SECOLO",
-                "hi": "21वीं सदी के सबसे बड़े मानवीय संघर्ष और साहस का ऐतिहासिक दस्तावेज"
-            },
-            "clinicalTarget": {
-                "id": "Kesiapsiagaan biologis masa depan dan reformasi faskes publik global",
-                "en": "Global biosecurity architecture overhaul and public healthcare reform",
-                "zh": "重塑全球生物安全预警机制与发展中国家初级医疗根基革新",
-                "it": "Riforma della sanità territoriale e sicurezza biologica globale",
-                "hi": "भविष्य की महामारियों से निपटने के लिए स्वास्थ्य तंत्र का पुनर्गठन"
-            }
-        },
-        "description": {
-            "id": "Dengan penutupan Sektor IND, lima episenter utama Outbreak Dossier telah terangkum utuh. India menjadi cermin paling gamblang tentang batas daya tahan manusia di hadapan virus ganas. Negeri ini merasakan jurang penderitaan paling dalam saat jutaan buruh berjalan kaki tanpa bekal dan oksigen lenyap di ibu kota, namun sekaligus membuktikan keajaiban kapasitas produksinya melalui Serum Institute, ketangguhan kader perempuan ASHA di pelosok dusun, dan keberhasilan menyuntikkan satu miliar dosis vaksin. Dari kobaran api di tepi Yamuna hingga fajar harapan baru, kisah India akan selamanya menjadi catatan abadi tentang luka, pengorbanan, dan kebangkitan sebuah peradaban.",
-            "en": "With the conclusion of Sector IND, the five core epicenters of the Outbreak Dossier stand fully chronicled. India bore the rawest test of human resilience against biological terror. It touched the lowest depths of suffering during the agonizing migrant march and the capital's oxygen famine, yet manifested breathtaking industrial endurance through the Serum Institute, the selfless grit of grassroots ASHA workers, and the deployment of a billion vaccine doses. From the flames along the Yamuna to the dawn of recovery, India's crucible stands as an eternal monument to sacrifice and rebirth.",
-            "zh": "随着IND扇区的落幕，‘疫情档案’（Outbreak Dossier）五大始发震中全谱图正式合龙。印度是人类直面生化灾难时脆弱与坚韧并存的最深刻镜鉴。它曾坠入千万劳工长征流亡与首都氧气告竭的苦难深渊，却也凭借血清研究所傲视全球的量产引擎、一百万‘阿莎’基层女工的血肉长城以及十亿剂疫苗的数字奇迹完成了自救。从亚穆纳河畔摇曳的无尽烈焰到瓦拉纳西河面的明灯，这段悲壮史诗将作为人类文明不可磨灭的伤痕与勋章永载史册。",
-            "it": "Con la chiusura del Settore IND si completa la narrazione dei cinque epicentri mondiali dell'Outbreak Dossier. L'India ha rappresentato la prova più cruda della resistenza umana. Ha toccato il fondo della sofferenza con l'esodo dei migranti e la fame d'ossigeno della capitale, ma ha mostrato una straordinaria capacità di riscatto attraverso il Serum Institute, il lavoro delle donne ASHA e la somministrazione di un miliardo di vaccini. Dai roghi lungo lo Yamuna alla rinascita, l'India rimarrà un monumento al sacrificio e alla speranza.",
-            "hi": "सेक्टर IND के समापन के साथ 'आउटब्रेक डोजियर' के पांचों प्रमुख केंद्र पूरे हो गए हैं। भारत महामारी के खिलाफ मानवीय संघर्ष का सबसे बड़ा उदाहरण बना। देश ने मजदूरों के पलायन और ऑक्सीजन की कमी का सबसे गहरा दर्द झेला, लेकिन साथ ही सीरम इंस्टीट्यूट की उत्पादन क्षमता, आशा कार्यकर्ताओं के समर्पण और 100 करोड़ टीकों के साथ वापसी की। यमुना के किनारों की चिताओं से लेकर नई सुबह तक, भारत का यह संघर्ष बलिदान और पुनर्जन्म का अमर इतिहास बन गया है।"
-        },
-        "image": "/assets/images/covid-19/in/22-national-memorial-monsoon.jpg"
-    }
+    "date": {
+      "id": "April - Juni 2020",
+      "en": "April - June 2020"
+    },
+    "strain": "SARS-CoV-2 High-Density Clade",
+    "flash": {
+      "id": "SUKSES KOMUNITAS: Mengandalkan deteksi demam pintu-ke-pintu, relawan Mumbai berhasil membendung penyebaran di Dharavi (800.000 jiwa per 2 km²).",
+      "en": "COMMUNITY TRIUMPH: Door-to-door fever squads contain the pathogen inside Dharavi, sheltering 800,000 residents in 2.1 square kilometers."
+    },
+    "virusProfile": {
+      "code": "HIGH-DENSITY SHANTY CONTAINMENT",
+      "mutationType": {
+        "id": "Transmisi Ekstrem di Kawasan Sanitasi Terbagi",
+        "en": "Shared Sanitation and Extreme Spatial Proximity Amplification"
+      },
+      "r0": "Ditekan dari 4.0 ke < 1.1",
+      "threatLevel": {
+        "id": "RAWAN PECAH BENCANA METROPOLITAN",
+        "en": "CATASTROPHIC URBAN DENSITY RISK"
+      },
+      "clinicalTarget": {
+        "id": "Pencegahan penularan di kamar berpenghuni 10 orang",
+        "en": "Preventing total household attack rates in single-room ten-person dwellings"
+      }
+    },
+    "description": {
+      "id": "Dengan 800.000 jiwa berjejer di gubuk-gubuk sempit seluas 2,1 kilometer persegi di mana satu toilet umum dipakai oleh 80 orang, kawasan kumuh Dharavi di Mumbai diprediksi banyak pihak akan musnah tersapu wabah. Namun strategi 'Kejar Virus' (Chase the Virus) yang diluncurkan otoritas kota dan relawan lokal mengubah keadaan: tim medis mendatangi ribuan gubuk setiap pagi memeriksa suhu tubuh dan saturasi oksigen, mengubah sekolah menjadi barak karantina gratis, dan membagikan ransum makanan agar warga tidak keluar rumah.",
+      "en": "With 800,000 souls packed into 2.1 square kilometers where 80 people share a single latrine, Mumbai's Dharavi slum was widely written off as an impending mass grave. Instead, the municipal administration and local community leaders launched the 'Chase the Virus' campaign: medical squads screened thousands of shanties every morning, converting municipal schools into isolation wards and providing free hot meals so daily laborers would not venture into narrow lanes."
+    },
+    "image": "/assets/images/covid-19/in/05-dharavi-slum-screening.jpg"
+  },
+  {
+    "id": "in-06-false-victory-euphoria",
+    "chapterNumber": "05",
+    "type": "standard",
+    "title": {
+      "id": "Ilusi Kemenangan: Diplomasi Vaksin & Euforia Akhir 2020",
+      "en": "The Illusion of Victory: Vaccine Diplomacy & Premature Euphoria"
+    },
+    "date": {
+      "id": "Januari - Februari 2021",
+      "en": "January - February 2021"
+    },
+    "strain": "SARS-CoV-2 (Apparent Quiescence / Pre-Delta)",
+    "flash": {
+      "id": "EUPHORIA NASIONAL: Pejabat mendeklarasikan India telah menaklukkan pandemi; jutaan dosis diekspor melalui program Vaccine Maitri.",
+      "en": "PREMATURE TRIUMPH: Officials boast of defeating the virus; millions of Covishield doses are exported via 'Vaccine Maitri'."
+    },
+    "virusProfile": {
+      "code": "QUIESCENT PHASE COMPLACENCY",
+      "mutationType": {
+        "id": "Rendahnya Kesiapsiagaan Akibat Keyakinan Herd Immunity Prematur",
+        "en": "Institutional Demobilization Spurred by Presumed Herd Immunity"
+      },
+      "r0": "2.2",
+      "threatLevel": {
+        "id": "PENURUNAN KEWASPADAAN STRATEGIS",
+        "en": "STRATEGIC VIGILANCE DISMANTLEMENT"
+      },
+      "clinicalTarget": {
+        "id": "Penurunan kapasitas tempat tidur rumah sakit darurat",
+        "en": "Dismantling of makeshift triage field hospitals ahead of variant surge"
+      }
+    },
+    "description": {
+      "id": "Menjelang awal tahun 2021, angka kasus harian di India merosot tajam. Para politisi dan media secara terbuka membanggakan bahwa bangsa India memiliki kekebalan alami bawaan yang luar biasa. Di Forum Ekonomi Dunia, para menteri mendeklarasikan kemenangan total, sementara India mengekspor puluhan juta dosis vaksin buatan Serum Institute ke seluruh dunia lewat program diplomasi 'Vaccine Maitri'. Rumah sakit darurat dibongkar, masker ditanggalkan, dan kewaspadaan runtuh tepat saat varian mutasi paling mematikan sedang bersembunyi.",
+      "en": "By early 2021, new infections plummeted across India. Politicians and media outlets heralded India's supposed 'natural immunity' as a medical miracle. In global forums, leaders boasted of defeating the virus, while the country shipped millions of Covishield vials overseas under its 'Vaccine Maitri' initiative. Emergency field wards were dismantled, public mask compliance collapsed, and vigilance vanished just as a monstrous new variant emerged."
+    },
+    "image": "/assets/images/covid-19/in/06-vaccine-diplomacy-cargo.jpg"
+  },
+  {
+    "id": "in-07-kumbh-mela-super-spreader",
+    "chapterNumber": "06",
+    "type": "milestone",
+    "title": {
+      "id": "Festival di Tepi Sungai Suci: Kumbh Mela Haridwar",
+      "en": "Ritual by the Holy River: The Kumbh Mela Super-Spreader"
+    },
+    "date": {
+      "id": "Maret - April 2021",
+      "en": "March - April 2021"
+    },
+    "strain": "Lineage B.1.617 (Early Delta Emergence)",
+    "flash": {
+      "id": "KERUMUNAN MASSAL: Lebih dari 9 juta peziarah berdesakan tanpa masker di Haridwar untuk mandi suci di Sungai Gangga.",
+      "en": "MASS CONGREGATION: Over nine million pilgrims bathe unmasked in the sacred Ganges at Haridwar as infections soar."
+    },
+    "virusProfile": {
+      "code": "MASS FAITH AMPLIFIER",
+      "mutationType": {
+        "id": "Transmisi Masif Tanpa Masker di Kerumunan Keagamaan",
+        "en": "Religious Congregation Involving Multimillion-Scale Aerosol Exchange"
+      },
+      "r0": "5.5 (Di Tepi Sungai & Asrama Peziarah)",
+      "threatLevel": {
+        "id": "DETONATOR GELOMBANG KEDUA NASIONAL",
+        "en": "NATIONAL SECOND WAVE DETONATOR"
+      },
+      "clinicalTarget": {
+        "id": "Penyebaran lintas wilayah dari peziarah yang kembali ke pelosok desa",
+        "en": "Dissemination by returning pilgrims into remote, unmonitored villages"
+      }
+    },
+    "description": {
+      "id": "Di Haridwar, Uttarakhand, festival akbar Kumbh Mela tetap digelar dan dimajukan satu tahun lebih cepat. Selama beberapa pekan, lebih dari 9 juta peziarah Hindu berkumpul rapat di ghat-ghat batu Sungai Gangga, berdesakan tanpa masker untuk merayakan mandi suci (Shahi Snan). Tes swab kilat di pintu masuk dipalsukan oleh laboratorium swasta yang nakal. Ribuan peziarah dan pemuka agama jatuh sakit, membawa varian baru yang baru lahir pulang ke ribuan desa di seluruh pelosok India.",
+      "en": "In Haridwar, Uttarakhand, the massive Kumbh Mela pilgrimage went ahead, brought forward by a year for astrological reasons. Over several weeks, more than nine million devotees converged on the stone ghats of the Ganges, packing tight without masks for the royal baths ('Shahi Snan'). Corrupt private testing kiosks generated thousands of fake negative tests. Infected pilgrims carried a brewing mutant pathogen back to thousands of unsuspecting villages."
+    },
+    "image": "/assets/images/covid-19/in/07-kumbh-mela-crowds.jpg"
+  },
+  {
+    "id": "in-08-b1617-delta-ignition",
+    "chapterNumber": "07",
+    "type": "standard",
+    "title": {
+      "id": "Kelahiran Sang Monster: Varian Delta (B.1.617.2) Merebak",
+      "en": "Birth of the Behemoth: The Surge of the Delta Variant (B.1.617.2)"
+    },
+    "date": {
+      "id": "Maret - April 2021",
+      "en": "March - April 2021"
+    },
+    "strain": "VOC Delta (B.1.617.2 / Double Mutant)",
+    "flash": {
+      "id": "MUTASI GANDA: Varian B.1.617.2 dengan mutasi L452R dan E484Q mereplikasi diri ribuan kali lebih cepat dan melumpuhkan sistem imun.",
+      "en": "DOUBLE MUTANT: Lineage B.1.617.2 harboring L452R and P681R mutations replicates a thousand times faster, breaking immune barriers."
+    },
+    "virusProfile": {
+      "code": "VOC DELTA (B.1.617.2 PROGENITOR)",
+      "mutationType": {
+        "id": "Peningkatan Fusi Sel via Mutasi Furin Cleavage Site P681R",
+        "en": "Enhanced Syncytia Formation via P681R Spike Alteration"
+      },
+      "r0": "6.0 - 7.5 (Transmisibilitas Ekstrem)",
+      "threatLevel": {
+        "id": "VARIAN PALING MEMATIKAN DALAM SEJARAH PANDEMI",
+        "en": "DEADLIEST VARIANT IN THE PANDEMIC'S ANNALS"
+      },
+      "clinicalTarget": {
+        "id": "Hipoksia hening mendadak, desaturasi cepat di bawah 70% dalam hitungan jam",
+        "en": "Rapid silent hypoxia with precipitously plunging oxygen levels within hours"
+      }
+    },
+    "description": {
+      "id": "Di laboratorium Maharashtra, para ahli genomik tertegun melihat kode genetik sampel virus baru yang diberi kode B.1.617. Varian ini membawa dua mutasi kunci yang memungkinkannya bereplikasi 1.000 kali lebih pekat di saluran pernapasan atas dan menghindari antibodi. Dikenal dunia sebagai varian 'Delta', mutasi ini menyebar dengan kecepatan kilat yang belum pernah disaksikan sebelumnya: seluruh anggota keluarga bisa tertular hanya dalam tempo 24 jam setelah satu orang terpapar.",
+      "en": "In Maharashtra laboratories, genomic scientists were stunned by the sequencing profile of a new lineage designated B.1.617. This variant possessed key mutations enabling viral replication at loads a thousand times higher than the ancestral strain while bypassing neutralizing antibodies. Later named 'Delta' by the WHO, it spread with frightening velocity: an entire household would test positive within 24 hours of a single exposure."
+    },
+    "image": "/assets/images/covid-19/in/08-delta-variant-lab.jpg"
+  },
+  {
+    "id": "in-09-delhi-oxygen-sos",
+    "chapterNumber": "08",
+    "type": "milestone",
+    "title": {
+      "id": "Napas yang Tercekik: Jeritan SOS Oksigen New Delhi",
+      "en": "Suffocating Capital: The Oxygen SOS Catastrophe of New Delhi"
+    },
+    "date": {
+      "id": "April - Mei 2021",
+      "en": "April - May 2021"
+    },
+    "strain": "VOC Delta Severe Inpatient Wave",
+    "flash": {
+      "id": "KRISIS OKSIGEN MEDIS: RS Sir Ganga Ram dan Batra Hospital kehabisan oksigen cair; puluhan pasien ICU meninggal lemas di ranjang.",
+      "en": "OXYGEN DEPLETION: Top hospitals run out of liquid medical oxygen; dozens of intensive care patients suffocate in their beds."
+    },
+    "virusProfile": {
+      "code": "LIQUID MEDICAL OXYGEN EXHAUSTION",
+      "mutationType": {
+        "id": "Lonjakan Konsumsi Oksigen Pasien ARDS Parah",
+        "en": "Acute Hypoxia Surge Overrunning Industrial Production Grids"
+      },
+      "r0": "Puncak Rawat Inap Parah",
+      "threatLevel": {
+        "id": "KOLAPS INFRASTRUKTUR PENOPANG HIDUP IBU KOTA",
+        "en": "TOTAL METROPOLITAN CRITICAL CARE COLLAPSE"
+      },
+      "clinicalTarget": {
+        "id": "Kematian asfiksia iatrogenik akibat tekanan pipa sentral drop ke nol",
+        "en": "Suffocation secondary to central pipeline pressure falling to zero"
+      }
+    },
+    "description": {
+      "id": "Pada pekan ketiga April 2021, sistem kesehatan di New Delhi runtuh total. Pipa pasokan oksigen cair di rumah-rumah sakit elit seperti Sir Ganga Ram Hospital dan Batra Hospital mengering hingga tekanan pipa menjadi nol, menewaskan puluhan pasien ICU dalam tempo beberapa menit. Para direktur rumah sakit menangis di siaran langsung televisi memohon bantuan, sementara linimasa media sosial berubah menjadi dinding ratapan SOS warga yang panik mencari tabung oksigen untuk keluarga mereka yang sekarat di dalam mobil di pelataran parkir.",
+      "en": "In late April 2021, New Delhi's clinical system suffered total collapse. Liquid medical oxygen reservoirs at premier facilities like Sir Ganga Ram Hospital ran bone-dry, plummeting manifold pressure to zero and suffocating scores of ICU patients in minutes. Hospital directors broke down on live broadcasts begging for tankers, while Twitter became a desperate SOS board for citizens hunting for black-market cylinders for family members dying in cars outside locked emergency gates."
+    },
+    "image": "/assets/images/covid-19/in/09-delhi-oxygen-sos.jpg"
+  },
+  {
+    "id": "in-10-parking-lot-pyres",
+    "chapterNumber": "09",
+    "type": "milestone",
+    "title": {
+      "id": "Api yang Tak Pernah Padam: Krematorium Terbuka di Tempat Parkir",
+      "en": "The Unbroken Flames: Open-Air Pyres in City Parking Lots"
+    },
+    "date": {
+      "id": "April - Mei 2021",
+      "en": "April - May 2021"
+    },
+    "strain": "SARS-CoV-2 Peak Mortality Wave",
+    "flash": {
+      "id": "KREMASI MASSAL: Krematorium resmi penuh; lahan parkir, taman kota, dan trotoar New Delhi disulap menjadi ratusan tumpukan kayu bakar kremasi 24 jam.",
+      "en": "OPEN PYRES: Crematoria overflow; parking tarmac and public parks in New Delhi are converted into continuous burning pyres."
+    },
+    "virusProfile": {
+      "code": "CIVIC MORTUARY GRID COLLAPSE",
+      "mutationType": {
+        "id": "Mortalitas Eksponensial Melumpuhkan Fasilitas Pemulasaraan",
+        "en": "Exponential Mortality Depleting Municipal Funerary Lumber"
+      },
+      "r0": "Puncak Fatalitas Delta",
+      "threatLevel": {
+        "id": "BENCANA PEMULASARAAN MASSAL TERTINGGI SEJARAH",
+        "en": "HIGHEST RECORDED CIVIC MORTUARY EMERGENCY"
+      },
+      "clinicalTarget": {
+        "id": "Kematian massal tanpa sertifikat medis di rumah dan luar faskes",
+        "en": "Unregistered community fatalities arriving directly at pyres"
+      }
+    },
+    "description": {
+      "id": "Ketika fasilitas krematorium listrik di New Delhi melelehkan cerobong asapnya akibat dipakai tanpa henti, pemandangan paling mengerikan abad ke-21 terhampar di ibu kota. Lahan parkir mobil, taman kota, dan tepi Sungai Yamuna disulap menjadi krematorium terbuka raksasa. Ratusan tumpukan kayu bakar dinyalakan berderet-deret memancarkan cahaya jingga menyala ke langit malam yang pekat. Suhu udara panas membakar wajah para penggali kubur yang kelelahan, sementara antrean ambulans dan bajaj pengangkut jenazah mengular hingga belasan jam.",
+      "en": "As electric crematoria incinerators melted from nonstop operation, New Delhi witnessed the modern era's most harrowing scenes. Asphalt parking lots, public parks, and banks along the Yamuna River were commandeered into open-air cremation grounds. Hundreds of wooden funeral pyres burned in rows, casting an eerie orange glow over smog-laden skies. The heat singed the faces of exhausted workers, while queues of ambulances and autorickshaws bearing corpses stretched for blocks."
+    },
+    "image": "/assets/images/covid-19/in/10-parking-lot-cremations.jpg"
+  },
+  {
+    "id": "in-11-ganga-floating-bodies",
+    "chapterNumber": "10",
+    "type": "milestone",
+    "title": {
+      "id": "Sungai Para Arwah: Tragedi Ratusan Jenazah di Sungai Gangga",
+      "en": "River of Souls: The Floating Dead of the Holy Ganges"
+    },
+    "date": {
+      "id": "Mei 2021",
+      "en": "May 2021"
+    },
+    "strain": "SARS-CoV-2 (Rural Mortality Climax)",
+    "flash": {
+      "id": "TRAGEDI SUNGAI SUCI: Mahalnya harga kayu bakar memaksa ribuan keluarga miskin mengubur dangkal atau melarungkan jenazah ke Sungai Gangga di Buxar dan Ghazipur.",
+      "en": "DESPERATION ON THE WATERS: Soaring wood prices force destitute families to float or shallow-bury hundreds of bodies along the Ganges banks."
+    },
+    "virusProfile": {
+      "code": "RURAL POVERTY MORTALITY CRISIS",
+      "mutationType": {
+        "id": "Mortalitas Masif Perdesaan Tanpa Akses Kremasi Terjangkau",
+        "en": "Extreme Rural Destitution Precluding Traditional Cremation Rites"
+      },
+      "r0": "Fatalitas Perdesaan Tersembunyi",
+      "threatLevel": {
+        "id": "PUNCAK PENYANGKALAN DAN TRAGEDI EKOLOGIS",
+        "en": "MACRO-EPIDEMIOLOGICAL APEX AND WATERWAY CONTAMINATION"
+      },
+      "clinicalTarget": {
+        "id": "Dekomposisi jenazah di badan air publik lintas negara bagian",
+        "en": "Decomposition of unclaimed remains across inter-state river basins"
+      }
+    },
+    "description": {
+      "id": "Ketika badai Delta menyapu kawasan perdesaan di mana uang tabungan habis dan harga kayu bakar melonjak tiga kali lipat, pemandangan paling menyayat hati terlihat di sepanjang bantaran Sungai Gangga di Buxar (Bihar) dan Ghazipur (Uttar Pradesh). Ratusan jenazah yang dibungkus kain oranye dan putih ditemukan mengapung di perairan suci atau terkubur dangkal di bukit-bukit pasir tepi sungai. Saat angin monsun bertiup, lapisan pasir terkikis, memperlihatkan ratusan gundukan kain kafan yang menjadi saksi bisu betapa dalamnya jurang kemiskinan dan penderitaan rakyat kecil.",
+      "en": "As Delta struck impoverished villages, funeral wood prices tripled, placing dignity out of reach for millions. In Buxar (Bihar) and Ghazipur (Uttar Pradesh), the holy Ganges delivered a horrific sight: hundreds of bloated bodies swathed in saffron and white shrouds washed ashore or lay shallowly interred in sandbanks. As seasonal winds blew, sands shifted to reveal vast fields of shroud-covered corpses—a searing testimony to how the pandemic ravaged India's rural poor."
+    },
+    "image": "/assets/images/covid-19/in/11-ganga-river-shrouds.jpg"
+  },
+  {
+    "id": "in-12-side-bengal-election-rallies",
+    "chapterNumber": "INTERLUDE II",
+    "type": "side_story",
+    "title": {
+      "id": "Panggung Demokrasi Tanpa Masker: Rapat Umum Pemilu Benggala Barat",
+      "en": "The Unmasked Hustings: The West Bengal Election Rallies"
+    },
+    "date": {
+      "id": "Maret - April 2021",
+      "en": "March - April 2021"
+    },
+    "strain": "Political Mass Aerosolization Event",
+    "flash": {
+      "id": "POLITISASI WABAH: Para politisi papan atas menggelar rapat umum yang dihadiri ratusan ribu simpatisan tanpa masker di tengah lonjakan Delta.",
+      "en": "CAMPAIGN SUPERSPREADER: Top political leaders address mammoth, shoulder-to-shoulder unmasked rallies across West Bengal."
+    },
+    "virusProfile": {
+      "code": "MASS ELECTORAL DISSEMINATION",
+      "mutationType": {
+        "id": "Aerosolisasi Politik di Lapangan Terbuka Padat",
+        "en": "Dense Packed Political Rallies Accelerating Mutation Vectors"
+      },
+      "r0": "4.8",
+      "threatLevel": {
+        "id": "KEGAGALAN REGULASI ELEKTORAL",
+        "en": "ELECTORAL GOVERNANCE REGULATORY FAILURE"
+      },
+      "clinicalTarget": {
+        "id": "Infeksi silang pada aktivis partai, polisi, dan kandidat pemilu",
+        "en": "Cross-infection sweeping polling officials, police, and candidates"
+      }
+    },
+    "description": {
+      "id": "Bahkan ketika varian Delta telah meledakkan angka rawat inap di seluruh negeri, pemilu legislatif negara bagian di Benggala Barat tetap digelar dalam delapan putaran maraton. Para pemimpin partai dari berbagai kubu berpidato di panggung terbuka menyapa lautan manusia yang berdesakan tanpa masker dan menjaga jarak. Pengadilan Tinggi Madras mengecam keras Komisi Pemilihan Umum, menyatakan mereka 'harus bertanggung jawab atas pembunuhan massal' karena mengizinkan kampanye tanpa protokol di saat virus sedang ganas-ganasnya.",
+      "en": "Even as Delta detonated across hospital wards, the West Bengal legislative elections proceeded across an eight-phase marathon. Party heavyweights addressed ocean-like crowds packed shoulder-to-shoulder with zero masking. The Madras High Court issued a blistering rebuke to the Election Commission, remarking that its officials should 'probably be booked for murder' for permitting massive unmasked political congregations as infections were exploding."
+    },
+    "image": "/assets/images/covid-19/in/12-bengal-election-rally.jpg"
+  },
+  {
+    "id": "in-13-black-market-remdesivir",
+    "chapterNumber": "11",
+    "type": "standard",
+    "title": {
+      "id": "Perburuan Obat Palsu: Pasar Gelap Remdesivir & Tocilizumab",
+      "en": "The Vulture Bazaar: The Remdesivir & Oxygen Black Market"
+    },
+    "date": {
+      "id": "Mei 2021",
+      "en": "May 2021"
+    },
+    "strain": "Pharmaceutical Extortion Wave",
+    "flash": {
+      "id": "EKSPLOITASI KRISIS: Tabung oksigen dan obat antivirus Remdesivir dijual calo di jalanan hingga 20 kali lipat harga resmi.",
+      "en": "MARKET PROFITEERING: Oxygen cylinders and Remdesivir vials sell on illicit markets at 20 times the ceiling price."
+    },
+    "virusProfile": {
+      "code": "PHARMACEUTICAL SPECULATION CRISIS",
+      "mutationType": {
+        "id": "Kelangkaan Terapeutik Ekstrem Mengakibatkan Penipuan Obat",
+        "en": "Acute Therapeutic Scarcity Fueling Counterfeit Drug Rings"
+      },
+      "r0": "Transmisi Pasar Gelap",
+      "threatLevel": {
+        "id": "RUNTUHNYA INTEGRITAS LOGISTIK FARMASI",
+        "en": "TOTAL PHARMACEUTICAL SUPPLY CHAIN DEGRADATION"
+      },
+      "clinicalTarget": {
+        "id": "Toksisitas akibat suntikan obat palsu berisi air garam atau parasetamol cair",
+        "en": "Severe adverse outcomes from saline-filled counterfeit antiviral vials"
+      }
+    },
+    "description": {
+      "id": "Di luar pintu rumah sakit, sebuah pasar gelap yang kejam beroperasi di bawah lindungan kegelapan. Botol kecil obat antivirus Remdesivir yang memiliki harga resmi 3.000 rupee dijual oleh calo hingga 60.000 rupee (setara jutaan rupiah), sementara tabung oksigen ukuran kecil dibanderol hingga 100.000 rupee bagi keluarga yang putus asa. Polisi menangkap sindikat kriminal yang mengecat tabung pemadam api busa bekas menjadi tabung oksigen medis, serta komplotan yang mengisi botol bekas dengan air garam biasa dan menjualnya sebagai obat penawar berharga puluhan juta rupiah.",
+      "en": "Outside hospital gates, a merciless illicit bazaar thrived in the shadows. Vials of the antiviral Remdesivir, officially capped at 3,000 rupees, traded hands for 60,000 to 100,000 rupees among desperate relatives. Police broken up criminal rings repainting fire extinguishers to sell as medical oxygen cylinders and caught fraudsters packaging ordinary saline into recycled brand-name vials, preying upon families on the brink of losing everything."
+    },
+    "image": "/assets/images/covid-19/in/13-black-market-medicines.jpg"
+  },
+  {
+    "id": "in-14-black-fungus-epidemic",
+    "chapterNumber": "12",
+    "type": "standard",
+    "title": {
+      "id": "Kutukan Pasca-Badai: Epidemi Jamur Hitam (Mucormycosis)",
+      "en": "The Second Affliction: The Mucormycosis 'Black Fungus' Wave"
+    },
+    "date": {
+      "id": "Mei - Juli 2021",
+      "en": "May - July 2021"
+    },
+    "strain": "Opportunistic Fungal Coinfection (Mucorales)",
+    "flash": {
+      "id": "WABAH DI DALAM WABAH: Lebih dari 45.000 pasien sembuh COVID-19 terserang jamur hitam langka; ahli bedah terpaksa mengangkat mata dan rahang pasien.",
+      "en": "EPIDEMIC WITHIN EPIDEMIC: Over 45,000 recovering COVID patients contract mucormycosis; surgeons remove eyes and jaws to halt fungal spread."
+    },
+    "virusProfile": {
+      "code": "OPPORTUNISTIC MYCOTIC SUPERINFECTION",
+      "mutationType": {
+        "id": "Invasi Angioinvasif Fungal Pasca-Terapi Steroid Berlebihan",
+        "en": "Angioinvasive Fungal Proliferation Triggered by High-Dose Steroids & Diabetes"
+      },
+      "r0": "Non-Menular (Infeksi Sekunder)",
+      "threatLevel": {
+        "id": "MUTILASI BEDAH DARURAT TINGKAT TINGGI",
+        "en": "CRITICAL SURGICAL MUTILATION EMERGENCY"
+      },
+      "clinicalTarget": {
+        "id": "Nekrosis jaringan sinus, orbita mata, dan invasi ke otak",
+        "en": "Tissue necrosis of the palate, orbit, and cerebral parenchymal invasion"
+      }
+    },
+    "description": {
+      "id": "Saat badai Delta mulai mereda, penderitaan baru melanda puluhan ribu penyintas di India: ledakan kasus Mukormikosis atau 'Jamur Hitam'. Penggunaan steroid dosis tinggi tanpa kontrol medis untuk meredakan badai sitokin, dikombinasikan dengan tingginya prevalensi diabetes dan penggunaan air kotor pada tabung pelembap oksigen, menciptakan lahan subur bagi spora jamur mematikan. Jamur ini membusukkan jaringan hidung, langit-langit mulut, dan rongga mata, memaksa dokter bedah mengangkat bola mata dan tulang rahang pasien demi mencegah jamur menembus otak.",
+      "en": "Just as the Delta surge receded, an insidious nightmare surfaced across India: an unprecedented wave of Mucormycosis, or 'Black Fungus'. The widespread, unmonitored use of high-dose corticosteroids to tame cytokine storms, paired with rampant diabetes and unsterilized water in oxygen humidifiers, allowed aggressive fungal spores to invade tissue. The fungal colonies turned sinuses, palates, and eye sockets necrotic, forcing surgeons to enucleate eyes and resect jawbones to save lives."
+    },
+    "image": "/assets/images/covid-19/in/14-black-fungus-ward.jpg"
+  },
+  {
+    "id": "in-15-oxygen-express-trains",
+    "chapterNumber": "13",
+    "type": "standard",
+    "title": {
+      "id": "Kereta Penyelamat Nyawa: Peluncuran Oxygen Express & Rantai Baja",
+      "en": "Lifeline on Steel: The 'Oxygen Express' Rail Fleet"
+    },
+    "date": {
+      "id": "Mei - Juni 2021",
+      "en": "May - June 2021"
+    },
+    "strain": "Industrial Emergency Logistics Phase",
+    "flash": {
+      "id": "LOGISTIK MILITER: Kereta api India meluncurkan 'Oxygen Express', mengangkut ratusan ribu ton oksigen cair dari pabrik baja timur ke ibu kota.",
+      "en": "WAR FOOTING: Indian Railways deploys 'Oxygen Express' trains, hauling cryogenic tankers from eastern steel mills to choking cities."
+    },
+    "virusProfile": {
+      "code": "CRYOGENIC FREIGHT MOBILIZATION",
+      "mutationType": {
+        "id": "Alih Fungsi Produksi Baja Berat ke Oksigen Medis",
+        "en": "Repurposing Heavy Industrial Metallurgy Output for Clinical Survival"
+      },
+      "r0": "Penyelamatan Faskes Sentral",
+      "threatLevel": {
+        "id": "LOGISTIK MILITER DAN TRANSPORTASI DARURAT",
+        "en": "HIGH-PRIORITY TRANS-NATIONAL LOGISTIC CRISIS"
+      },
+      "clinicalTarget": {
+        "id": "Penyediaan suplai oksigen harian untuk 200.000 pasien ICU",
+        "en": "Sustaining daily oxygen pressure for over 200,000 ventilated inpatients"
+      }
+    },
+    "description": {
+      "id": "Ketika jalan raya macet dan kapal tangki terbatas, Angkatan Darat dan Kereta Api India meluncurkan operasi logistik terbesar pasca-kemerdekaan: jaringan 'Oxygen Express'. Pabrik baja di Rourkela, Jamshedpur, dan Vizag di India timur menyetop operasional pabrik demi mengalihkan seluruh produksi oksigen industri mereka menjadi oksigen medis. Truk tangki kriogenik raksasa dinaikkan ke atas gerbong datar kereta barang, lalu melesat menempuh ribuan kilometer tanpa henti melalui 'Green Corridor' khusus menuju New Delhi dan Mumbai.",
+      "en": "With highways gridlocked and cryogenic tankers scarce, Indian Railways mobilized its most ambitious peacetime effort: the 'Oxygen Express'. Giant steel plants in Rourkela, Jamshedpur, and Vizag halted metallurgy production to divert liquid oxygen into medical streams. Massive cryogenic trailers were rolled onto flatbed rail wagons (Ro-Ro) and rocketed through dedicated 'Green Corridors' cleared of all passenger traffic, delivering life-saving gas directly to overwhelmed capitals."
+    },
+    "image": "/assets/images/covid-19/in/15-oxygen-express-train.jpg"
+  },
+  {
+    "id": "in-16-serum-institute-vaccine-engine",
+    "chapterNumber": "14",
+    "type": "standard",
+    "title": {
+      "id": "Pabrik Farmasi Dunia: Serum Institute of India di Pune",
+      "en": "Pharmacy to the World: The Serum Institute of India Engine"
+    },
+    "date": {
+      "id": "Pertengahan 2021",
+      "en": "Mid-2021"
+    },
+    "strain": "AstraZeneca/Oxford ChAdOx1 (Covishield Mass Production)",
+    "flash": {
+      "id": "PRODUKSI RAKSASA: Fasilitas SII di Pune memproduksi lebih dari 100 juta dosis vaksin Covishield setiap bulan untuk menyelamatkan populasi.",
+      "en": "INDUSTRIAL SCALE: The Serum Institute in Pune scales output past 100 million Covishield doses monthly to turn the tide."
+    },
+    "virusProfile": {
+      "code": "MASS ADENOVIRUS VECTOR SCALING",
+      "mutationType": {
+        "id": "Kultur Bioreaktor Masif ChAdOx1-S Rekombinan",
+        "en": "Massive Viral Vector Bioreactor Expansion Suppressing Re-Infection"
+      },
+      "r0": "Ditekan lewat Imunisasi Massal",
+      "threatLevel": {
+        "id": "PERTAHANAN AKHIR IMUNITAS POPULASI",
+        "en": "FINAL STRATEGIC BIOLOGICAL DEFENSE SHIELD"
+      },
+      "clinicalTarget": {
+        "id": "Pencegahan mortalitas dan penurunan keparahan paru varian Delta",
+        "en": "Aggressive prevention of Delta-induced respiratory arrest"
+      }
+    },
+    "description": {
+      "id": "Di kota industri Pune, kompleks pabrik Serum Institute of India (SII)—produsen vaksin terbesar di dunia berdasarkan volume—beroperasi bagaikan instalasi militer 24 jam sehari. Ratusan bioreaktor raksasa dari baja tahan karat memfermentasi miliaran sel untuk menghasilkan vaksin AstraZeneca yang dinamai secara lokal 'Covishield'. Dipimpin oleh Adar Poonawalla, pabrik ini mengerahkan seluruh kapasitasnya guna memompa lebih dari 100 juta dosis per bulan, menjadi tulang punggung pertahanan biologis yang menyelamatkan ratusan juta rakyat India dari gelombang susulan.",
+      "en": "In the industrial city of Pune, the sprawling campus of the Serum Institute of India—the world's largest vaccine manufacturer by volume—ran around the clock like a mobilization complex. Rows of towering stainless-steel bioreactors fermented billions of cells producing Oxford-AstraZeneca vials, branded domestically as 'Covishield'. Under intense pressure, the facility scaled capacity past 100 million doses per month, acting as the indispensable engine behind the subcontinent's vaccination turnaround."
+    },
+    "image": "/assets/images/covid-19/in/16-serum-institute-vials.jpg"
+  },
+  {
+    "id": "in-17-cowin-billion-doses",
+    "chapterNumber": "15",
+    "type": "milestone",
+    "title": {
+      "id": "Satu Miliar Suntikan: Revolusi Digital Portal CoWIN",
+      "en": "A Billion Jabs: The CoWIN Digital Inoculation Blitz"
+    },
+    "date": {
+      "id": "21 Oktober 2021",
+      "en": "October 21, 2021"
+    },
+    "strain": "Digital Public Health Infrastructure",
+    "flash": {
+      "id": "MILESTONE SEJARAH: India menembus rekor 1.000.000.000 dosis vaksinasi yang dikelola secara real-time via platform open-source CoWIN.",
+      "en": "HISTORIC PINNACLE: India administers its 1,000,000,000th vaccine dose, tracked real-time via the homegrown CoWIN platform."
+    },
+    "virusProfile": {
+      "code": "POPULATION IMMUNITY MILESTONE",
+      "mutationType": {
+        "id": "Penyerapan Vaksinasi Skala 1 Miliar Dosis",
+        "en": "Billion-Scale Coverage Establishing Subcontinental Population Barrier"
+      },
+      "r0": "Turun Tajam ke < 0.7",
+      "threatLevel": {
+        "id": "KEBERHASILAN LOGISTIK DIGITAL PUBLIK",
+        "en": "CIVIC BIOMETRIC AND HEALTH TRIUMPH"
+      },
+      "clinicalTarget": {
+        "id": "Pengurangan 90% angka rawat inap ICU di seluruh negara bagian",
+        "en": "90% reduction in secondary hospitalization and death across all demographics"
+      }
+    },
+    "description": {
+      "id": "Pada 21 Oktober 2021, sirene dan pengeras suara di stasiun kereta api serta monumen bersejarah di seluruh penjuru India berbunyi serempak: negara ini resmi menyuntikkan dosis vaksin ke-1 miliar. Keberhasilan kampanye logistik terbesar dalam sejarah ini ditopang oleh platform digital open-source CoWIN. Dari gubuk terpencil di pegunungan Himalaya hingga desa nelayan di Samudra Hindia, para nakes membawa kotak pendingin vaksin melintasi sungai dengan perahu kayu dan jalan setapak, memberikan sertifikat berkode QR digital langsung ke ponsel warga.",
+      "en": "On October 21, 2021, horns sounded across railway stations and landmarks as India administered its one-billionth vaccine dose. This monumental milestone was orchestrated by the homegrown digital backbone, CoWIN. From remote Himalayan outposts to fishing hamlets on the Indian Ocean, healthcare workers hauled blue vaccine cold-boxes across rope bridges and desert dunes on camels, delivering instant, QR-verified digital certificates to mobile phones across the subcontinent."
+    },
+    "image": "/assets/images/covid-19/in/17-cowin-vaccine-center.jpg"
+  },
+  {
+    "id": "in-18-side-undercount-controversy",
+    "chapterNumber": "INTERLUDE III",
+    "type": "side_story",
+    "title": {
+      "id": "Tabir Angka yang Hilang: Kontroversi Data Kematian Berlebih",
+      "en": "The Uncounted Millions: The Excess Mortality Reckoning"
+    },
+    "date": {
+      "id": "2021 - 2022",
+      "en": "2021 - 2022"
+    },
+    "strain": "Epidemiological Demography Debate",
+    "flash": {
+      "id": "PERDEBATAN GLOBAL: Angka resmi kematian mencatat 500.000 jiwa, namun studi WHO dan ekonom independen memperkirakan korban riil mencapai 3 hingga 4,7 juta jiwa.",
+      "en": "EPIDEMIOLOGICAL RECKONING: While official rolls register 500,000 fatalities, WHO models and researchers calculate 3 to 4.7 million excess deaths."
+    },
+    "virusProfile": {
+      "code": "MORTALITY UNDER-REGISTRATION GAP",
+      "mutationType": {
+        "id": "Keterbatasan Registrasi Kematian Sipil di Wilayah Perdesaan",
+        "en": "Rural Civil Registration Systemic Under-Reporting"
+      },
+      "r0": "Analisis Statistik Retrospektif",
+      "threatLevel": {
+        "id": "KRISIS TRANSPARANSI STATISTIK DEMOGRAFI",
+        "en": "DEMOGRAPHIC VERACITY AND ACCOUNTABILITY IMPASSE"
+      },
+      "clinicalTarget": {
+        "id": "Estimasi kematian tidak tercatat di desa-desa tanpa akses tes PCR",
+        "en": "Unrecorded rural mortality lacking confirmatory diagnostic testing"
+      }
+    },
+    "description": {
+      "id": "Selama berbulan-bulan, angka resmi kematian akibat COVID-19 di India bertahan di angka sekitar 500.000 jiwa. Namun jurnalis investigasi yang menghitung akta kematian di kantor-kantor kelurahan, bersama para peneliti dari World Health Organization (WHO) dan Center for Global Development, mempublikasikan pemodelan berbasis data kematian berlebih (excess deaths). Hasilnya mengejutkan dunia: diperkirakan antara 3,2 hingga 4,7 juta warga India meninggal selama pandemi—menjadikannya tragedi kematian terbesar dalam sejarah India modern pasca-Kemerdekaan.",
+      "en": "For months, India's official COVID-19 fatality registry hovered around 500,000. However, investigative reporters tallying municipal death registers alongside global demographers at the WHO published excess mortality analyses that shook the scientific world. Calculating cremation logs and all-cause mortality baselines, studies estimated that between 3.2 and 4.7 million Indians perished during the catastrophe, marking the subcontinent's deadliest tragedy since Independence."
+    },
+    "image": "/assets/images/covid-19/in/18-registry-death-certificates.jpg"
+  },
+  {
+    "id": "in-19-village-barefoot-warriors",
+    "chapterNumber": "16",
+    "type": "standard",
+    "title": {
+      "id": "Pahlawan Bertelanjang Kaki: Barisan Kader ASHA di Garis Depan",
+      "en": "The Barefoot Sentinels: The ASHA Workers on the Rural Frontier"
+    },
+    "date": {
+      "id": "2021 - 2022",
+      "en": "2021 - 2022"
+    },
+    "strain": "Community Health Mobilization",
+    "flash": {
+      "id": "PAHLAWAN KESEHATAN DESA: 1 juta kader perempuan ASHA dengan seragam sari merah muda berjalan kaki mendatangi jutaan rumah di pelosok desa.",
+      "en": "FRONTLINE SISTERS: One million women ASHA workers clad in pink saris march into remote rural hamlets to deliver care and dispel vaccine hesitancy."
+    },
+    "virusProfile": {
+      "code": "GRASSROOTS RURAL SURVEILLANCE",
+      "mutationType": {
+        "id": "Edukasi Komunitas & Intervensi Pintu ke Pintu",
+        "en": "Grassroots Domiciliary Health Education Disarming Misinformation"
+      },
+      "r0": "Pengendalian Klaster Pedesaan",
+      "threatLevel": {
+        "id": "TULANG PUNGGUNG KESEHATAN MASYARAKAT PRIMER",
+        "en": "PRIMARY COMMUNITY DEFENSE ARCHITECTURE"
+      },
+      "clinicalTarget": {
+        "id": "Deteksi dini demam dan rujukan pasien sesak napas perdesaan",
+        "en": "Early febrile triage and oxygen monitoring in remote primary health posts"
+      }
+    },
+    "description": {
+      "id": "Di tengah segala keterbatasan fasilitas medis canggih, benteng pertahanan terkuat India bertumpu pada satu juta kader perempuan kesehatan masyarakat desa yang dikenal sebagai kader ASHA (Accredited Social Health Activist). Mengenakan seragam sari merah muda, para wanita pemberani ini berjalan kaki belasan kilometer setiap hari di bawah terik matahari, mendaki bukit terpencil, mendistribusikan obat-obatan, mengukur saturasi oksigen warga lansia, dan dengan sabar melawan kabar bohong anti-vaksin di kalangan tetangga desa mereka dengan upah yang sangat minim.",
+      "en": "Amidst the failure of high-tech medical grids, India's most resilient defense rested upon one million rural female community healthcare workers known as ASHA workers. Donning distinctive pink saris, these underpaid women trekked miles daily under scorching sun, climbing remote ridges, dispensing paracetamol, checking blood oxygen levels of isolated elders, and dispelling vaccine conspiracies on front porches with boundless patience and empathy."
+    },
+    "image": "/assets/images/covid-19/in/19-asha-workers-village.jpg"
+  },
+  {
+    "id": "in-20-omicron-tsunami-tamed",
+    "chapterNumber": "17",
+    "type": "standard",
+    "title": {
+      "id": "Tembok Kekebalan: Menjinakkan Gelombang Omicron",
+      "en": "The Shield of Hybrid Immunity: Taming the Omicron Wave"
+    },
+    "date": {
+      "id": "Januari - Februari 2022",
+      "en": "January - February 2022"
+    },
+    "strain": "VOC Omicron (B.1.1.529 / Sublineage BA.1 & BA.2)",
+    "flash": {
+      "id": "GELOMBANG KETIGA: Omicron menyapu 300.000 kasus sehari, namun tingkat keparahan rendah berkat kekebalan hibrida pasca-Delta dan vaksinasi masif.",
+      "en": "THIRD WAVE SURGE: Omicron sparks 300,000 daily cases, but clinical severity stays low due to widespread hybrid immunity."
+    },
+    "virusProfile": {
+      "code": "VOC OMICRON (HYBRID RESILIENCE)",
+      "mutationType": {
+        "id": "Transmisi Cepat dengan Penurunan Tropisme Saluran Bawah",
+        "en": "High Upper-Airway Transmissibility with Attenuated Lung Pathogenicity"
+      },
+      "r0": "8.0 - 10.0",
+      "threatLevel": {
+        "id": "TRANSISI MENMENUJU ENDEMISITAS TERKENDALI",
+        "en": "MANAGEABLE ENDEMIC TRANSITION VECTOR"
+      },
+      "clinicalTarget": {
+        "id": "Faringitis akut dan demam ringan dengan tingkat penggunaan oksigen < 5%",
+        "en": "Acute pharyngitis with oxygen utilization demand dropping under 5%"
+      }
+    },
+    "description": {
+      "id": "Pada awal 2022, varian Omicron menyapu India bagaikan kilat, mendorong angka infeksi harian kembali melompat ke atas 300.000 kasus. Namun kali ini, ketakutan akan terulangnya mimpi buruk tahun 2021 tidak menjadi kenyataan. Berkat kombinasi 'Kekebalan Hibrida'—hasil dari antibodi infeksi masif gelombang Delta sebelumnya ditambah suntikan ratusan juta vaksin Covishield—ranjang-ranjang ICU rumah sakit tetap kosong, kebutuhan tabung oksigen anjlok, dan masyarakat melewati gelombang ketiga tanpa kepanikan besar.",
+      "en": "In early 2022, the Omicron variant ripped through India with lightning speed, sending daily tallies back past 300,000 cases. Yet the apocalyptic terror of 2021 did not repeat. Bolstered by 'hybrid immunity'—the potent physiological shield forged by past Delta exposure combined with hundreds of millions of Covishield vaccinations—intensive care units remained calm, oxygen cylinders stayed on reserve racks, and the nation weathered the wave without panic."
+    },
+    "image": "/assets/images/covid-19/in/20-omicron-recovery.jpg"
+  },
+  {
+    "id": "in-21-national-memorial-monsoon",
+    "chapterNumber": "18",
+    "type": "standard",
+    "title": {
+      "id": "Luka di Bawah Hujan Monsun: Mengenang Jiwa yang Hilang",
+      "en": "Scars Under the Monsoon: Remembering the Departed"
+    },
+    "date": {
+      "id": "Pertengahan 2022",
+      "en": "Mid-2022"
+    },
+    "strain": "National Commemoration & Post-Trauma Healing",
+    "flash": {
+      "id": "MEMORI PUBLIK: Ribuan lentera minyak terapung dinyalakan di ghat Varanasi saat jutaan keluarga mendoakan kepergian orang tua mereka.",
+      "en": "COLLECTIVE MEMORY: Thousands of floating oil diyas illuminate Varanasi's ghats as families pray for lost generations."
+    },
+    "virusProfile": {
+      "code": "POST-PANDEMIC RECONCILIATION",
+      "mutationType": {
+        "id": "Resolusi Duka Kolektif dan Pemulihan Budaya",
+        "en": "Cultural Grief Resolution and Societal Healing Rite"
+      },
+      "r0": "Endemi Rendah",
+      "threatLevel": {
+        "id": "PULIHNYA SPIRITUALITAS DAN DAYA TAHAN BANGSA",
+        "en": "SPIRITUAL FORTITUDE AND RESILIENCE MONUMENT"
+      },
+      "clinicalTarget": {
+        "id": "Konseling pascatrauma dan santunan sosial jutaan anak yatim pandemi",
+        "en": "Psychosocial rehabilitation for millions of pandemic-bereaved orphans"
+      }
+    },
+    "description": {
+      "id": "Saat hujan monsun membasuh debu dan abu dari musim semi kelam 2021, ribuan keluarga berkumpul di ghat-ghat kuno Varanasi di tepi Sungai Gangga. Mereka melepaskan perahu-perahu kecil terbuat dari anyaman daun yang membawa bunga marigold dan lentera minyak yang menyala (diya) ke atas aliran sungai yang tenang. Setiap cahaya lilin yang terombang-ambing di atas air adalah persembahan cinta bagi ayah, ibu, dan dokter yang gugur tanpa sempat dipeluk, mengukuhkan janji sebuah bangsa untuk tidak pernah melupakan harga mahal yang telah dibayar.",
+      "en": "As monsoon rains washed away the dust and ashes of the devastating spring of 2021, families gathered on the ancient ghats of Varanasi. Devotees floated small leaf boats bearing bright marigolds and glowing oil lamps ('diyas') onto the dark Ganges waters. Each shimmering flame drifting downstream symbolized a beloved parent, child, or clinician who died unheld, sealing a sacred national vow that this sacrifice would never fade from historical memory."
+    },
+    "image": "/assets/images/covid-19/in/21-varanasi-memorial-diyas.jpg"
+  },
+  {
+    "id": "in-22-sector-ind-epilogue",
+    "chapterNumber": "19",
+    "type": "milestone",
+    "title": {
+      "id": "Epilog Sektor IND: Kawah Ujian Sang Raksasa Asia",
+      "en": "Sector IND Debrief: The Subcontinent's Crucible of Survival"
+    },
+    "date": {
+      "id": "Arsip Resmi ICMR, MoHFW & Rekod Sejarah Declassified",
+      "en": "ICMR, MoHFW Official Archives & Historical Declassified Record"
+    },
+    "strain": "Rekapitulasi Krisis India 2020 - 2023",
+    "flash": {
+      "id": "BERKAS DITUTUP: Dari Kerala ke peron kereta api, dari api krematorium New Delhi hingga 1 miliar vaksin; India bangkit dari jurang bencana terbesar abad ini.",
+      "en": "DOSSIER ARCHIVED: From Kerala to the highways, from Delhi's pyres to a billion jabs; India rises from modern history's deepest abyss."
+    },
+    "virusProfile": {
+      "code": "RESOLVED SECTOR IND DOSSIER",
+      "mutationType": {
+        "id": "Evolusi Penuh Gelombang Epik India: Wuhan-Type -> B.1.617.2 Delta -> Endemi",
+        "en": "Complete Indian Subcontinental Outbreak Arc: Ingress to Endemicity"
+      },
+      "r0": "Endemi Terkendali",
+      "threatLevel": {
+        "id": "ARSIP KETAHANAN KEMANUSIAAN TERBESAR ABAD INI",
+        "en": "CENTURY'S DEFINING HUMAN RESILIENCE ARCHIVE"
+      },
+      "clinicalTarget": {
+        "id": "Kesiapsiagaan biologis masa depan dan reformasi faskes publik global",
+        "en": "Global biosecurity architecture overhaul and public healthcare reform"
+      }
+    },
+    "description": {
+      "id": "Dengan penutupan Sektor IND, lima episenter utama Outbreak Dossier telah terangkum utuh. India menjadi cermin paling gamblang tentang batas daya tahan manusia di hadapan virus ganas. Negeri ini merasakan jurang penderitaan paling dalam saat jutaan buruh berjalan kaki tanpa bekal dan oksigen lenyap di ibu kota, namun sekaligus membuktikan keajaiban kapasitas produksinya melalui Serum Institute, ketangguhan kader perempuan ASHA di pelosok dusun, dan keberhasilan menyuntikkan satu miliar dosis vaksin. Dari kobaran api di tepi Yamuna hingga fajar harapan baru, kisah India akan selamanya menjadi catatan abadi tentang luka, pengorbanan, dan kebangkitan sebuah peradaban.",
+      "en": "With the conclusion of Sector IND, the five core epicenters of the Outbreak Dossier stand fully chronicled. India bore the rawest test of human resilience against biological terror. It touched the lowest depths of suffering during the agonizing migrant march and the capital's oxygen famine, yet manifested breathtaking industrial endurance through the Serum Institute, the selfless grit of grassroots ASHA workers, and the deployment of a billion vaccine doses. From the flames along the Yamuna to the dawn of recovery, India's crucible stands as an eternal monument to sacrifice and rebirth."
+    },
+    "image": "/assets/images/covid-19/in/22-national-memorial-monsoon.jpg"
+  }
 ]

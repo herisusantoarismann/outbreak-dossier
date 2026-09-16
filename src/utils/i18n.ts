@@ -1,7 +1,7 @@
 import { LocalizedContent, SupportedLocale } from "@/types/journey";
 
 export const t = (
-    content: LocalizedContent | string | undefined | null,
+    content: LocalizedContent | string | undefined,
     locale: SupportedLocale = "id",
 ): string => {
     if (!content) return "";
