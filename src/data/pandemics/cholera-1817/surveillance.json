@@ -1,0 +1,62 @@
+{
+    "IN": {
+        "iso2": "IN",
+        "name": {
+            "id": "Kemaharajaan Britania (Kepresidenan Benggala)",
+            "en": "British East India Company (Bengal)"
+        },
+        "continent": "Asia",
+        "confirmedCases": 1200000,
+        "fatalities": 500000,
+        "recoveryRate": "58.3%",
+        "peakWave": { "id": "1817 – 1818 M", "en": "1817 – 1818 AD" }
+    },
+    "ID": {
+        "iso2": "ID",
+        "name": {
+            "id": "Hindia Belanda (Jawa & Madura)",
+            "en": "Dutch East Indies (Java & Madura)"
+        },
+        "continent": "Asia",
+        "confirmedCases": 350000,
+        "fatalities": 125000,
+        "recoveryRate": "64.2%",
+        "peakWave": { "id": "1821 M", "en": "1821 AD" }
+    },
+    "OM": {
+        "iso2": "OM",
+        "name": {
+            "id": "Kesultanan Oman (Muskat)",
+            "en": "Sultanate of Oman (Muscat)"
+        },
+        "continent": "Asia",
+        "confirmedCases": 30000,
+        "fatalities": 10000,
+        "recoveryRate": "66.6%",
+        "peakWave": { "id": "1821 M", "en": "1821 AD" }
+    },
+    "IR": {
+        "iso2": "IR",
+        "name": {
+            "id": "Kekaisaran Qajar (Persia)",
+            "en": "Qajar Empire (Persia)"
+        },
+        "continent": "Asia",
+        "confirmedCases": 180000,
+        "fatalities": 75000,
+        "recoveryRate": "58.3%",
+        "peakWave": { "id": "1821 – 1822 M", "en": "1821 – 1822 AD" }
+    },
+    "PH": {
+        "iso2": "PH",
+        "name": {
+            "id": "Kapten Jenderal Filipina (Manila)",
+            "en": "Captaincy General of the Philippines"
+        },
+        "continent": "Asia",
+        "confirmedCases": 80000,
+        "fatalities": 30000,
+        "recoveryRate": "62.5%",
+        "peakWave": { "id": "1820 M", "en": "1820 AD" }
+    }
+}

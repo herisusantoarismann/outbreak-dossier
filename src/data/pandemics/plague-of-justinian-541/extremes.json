@@ -1,0 +1,78 @@
+[
+    {
+        "id": "pj-constantinople-peak",
+        "iso2": "TR",
+        "metricType": "mortality",
+        "label": {
+            "id": "Puncak Kematian Harian Konstantinopel",
+            "en": "Constantinople Daily Mortality Peak"
+        },
+        "countryName": {
+            "id": "Kekaisaran Bizantium (Konstantinopel)",
+            "en": "Byzantine Empire (Constantinople)"
+        },
+        "value": "5.000 – 10.000 Jenazah/Hari",
+        "context": {
+            "id": "Sejarawan Procopius mencatat menara-menara benteng Sycae diisi penuh mayat hingga atap karena kuburan massal tak mampu menampung korban.",
+            "en": "Procopius recorded that city rampart towers were packed to the roof with corpses as graves completely overflowed."
+        },
+        "coordinates": { "lat": 41.0082, "lng": 28.9784 }
+    },
+    {
+        "id": "pj-pelusium-ingress",
+        "iso2": "EG",
+        "metricType": "containment",
+        "label": {
+            "id": "Titik Titik Masuk Dermaga Pelusium",
+            "en": "Pelusium Maritime Ingress"
+        },
+        "countryName": {
+            "id": "Mesir (Pelusium / Delta Nil)",
+            "en": "Egypt (Pelusium / Nile Delta)"
+        },
+        "value": "Vektor Gandum Nil",
+        "context": {
+            "id": "Tahun 541: Kapal-kapal gandum pembayar upeti membawa tikus dan kutu pes dari pedalaman Afrika menuju muara Mediterania.",
+            "en": "Year 541: Grain tribute vessels carried plague-infested rodents from African trade routes to Mediterranean ports."
+        },
+        "coordinates": { "lat": 31.05, "lng": 32.6 }
+    },
+    {
+        "id": "pj-justinian-infection",
+        "iso2": "GR",
+        "metricType": "survival",
+        "label": {
+            "id": "Infeksi Kaisar Yustinianus I",
+            "en": "Emperor Justinian I Infection"
+        },
+        "countryName": {
+            "id": "Istana Agung Konstantinopel",
+            "en": "Great Palace of Constantinople"
+        },
+        "value": "Kaisar Bertahan Hidup",
+        "context": {
+            "id": "Kaisar Yustinianus I terjangkit pes bubonik namun pulih; roda pemerintahan sempat dikendalikan sepenuhnya oleh Maharani Theodora.",
+            "en": "Emperor Justinian contracted the bubonic plague and survived; Empress Theodora assumed direct administrative control."
+        },
+        "coordinates": { "lat": 41.0055, "lng": 28.9768 }
+    },
+    {
+        "id": "pj-rome-depopulation",
+        "iso2": "IT",
+        "metricType": "density",
+        "label": {
+            "id": "Runtuhnya Upaya Rekonquista Italia",
+            "en": "Collapse of Italian Reconquest"
+        },
+        "countryName": {
+            "id": "Italia (Roma / Ravenna)",
+            "en": "Italy (Rome / Ravenna)"
+        },
+        "value": "~40% Penurunan Militer",
+        "context": {
+            "id": "Epidemi menghancurkan logistik pasukan Romawi Timur, menghentikan penyatuan kembali wilayah Mediterania barat.",
+            "en": "The epidemic decimated Byzantine legions, permanently ending efforts to reclaim Western Roman territories."
+        },
+        "coordinates": { "lat": 41.8902, "lng": 12.4922 }
+    }
+]

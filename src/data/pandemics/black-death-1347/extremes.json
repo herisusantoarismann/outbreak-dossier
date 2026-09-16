@@ -1,0 +1,97 @@
+[
+    {
+        "id": "bd-florence-mortality",
+        "iso2": "IT",
+        "metricType": "mortality",
+        "label": {
+            "id": "Kematian Massal Kota Firenze",
+            "en": "Florence Decimation Rate"
+        },
+        "countryName": {
+            "id": "Italia (Firenze)",
+            "en": "Italy (Florence)"
+        },
+        "value": "~60% - 75%",
+        "context": {
+            "id": "Sekitar 60.000 dari 80.000 penduduk tewas dalam kurun waktu 4 bulan; didokumentasikan oleh Giovanni Boccaccio.",
+            "en": "Over 60,000 of 80,000 citizens perished in 4 months, chronicled vividly by Giovanni Boccaccio in the Decameron."
+        },
+        "coordinates": { "lat": 43.7696, "lng": 11.2558 }
+    },
+    {
+        "id": "bd-messina-arrival",
+        "iso2": "IT",
+        "metricType": "containment",
+        "label": {
+            "id": "Titik Titik Masuk Pertama Eropa",
+            "en": "First European Ground Zero"
+        },
+        "countryName": {
+            "id": "Italia (Sisilia / Messina)",
+            "en": "Italy (Messina)"
+        },
+        "value": "12 Galai Genoa",
+        "context": {
+            "id": "Oktober 1347: 12 kapal dagang Genoa merapat di dermaga Sisilia membawa kru sekarat dan menyebarkan kutu pes.",
+            "en": "October 1347: 12 Genoese merchant galleys docked in Sicily carrying dying crews and plague fleas."
+        },
+        "coordinates": { "lat": 38.1938, "lng": 15.554 }
+    },
+    {
+        "id": "bd-avignon-river-burial",
+        "iso2": "FR",
+        "metricType": "density",
+        "label": {
+            "id": "Penyucian Sungai Rhône oleh Paus",
+            "en": "Papal Rhône River Consecration"
+        },
+        "countryName": {
+            "id": "Prancis (Avignon)",
+            "en": "France (Avignon)"
+        },
+        "value": "11.000 Jenazah / Pekan",
+        "context": {
+            "id": "Paus Klemens VI menyucikan Sungai Rhône agar jenazah korban pes dapat dibuang langsung karena pemakaman kota penuh.",
+            "en": "Pope Clement VI consecrated the Rhône River so bodies could be buried immediately as cemeteries overflowed."
+        },
+        "coordinates": { "lat": 43.9493, "lng": 4.8055 }
+    },
+    {
+        "id": "bd-london-black-death",
+        "iso2": "GB",
+        "metricType": "mortality",
+        "label": {
+            "id": "Penurunan Populasi London",
+            "en": "London Urban Depopulation"
+        },
+        "countryName": {
+            "id": "Inggris (London)",
+            "en": "United Kingdom (London)"
+        },
+        "value": "~50% Total Populasi",
+        "context": {
+            "id": "Musim gugur 1348 hingga 1350: Lebih dari 30.000 warga London dimakamkan di lubang massal Smithfield.",
+            "en": "Autumn 1348 to 1350: Over 30,000 Londoners buried in emergency mass plague pits across East Smithfield."
+        },
+        "coordinates": { "lat": 51.5074, "lng": -0.1278 }
+    },
+    {
+        "id": "bd-silk-road-origin",
+        "iso2": "CN",
+        "metricType": "survival",
+        "label": {
+            "id": "Vektor Kafilah Jalur Sutra",
+            "en": "Silk Road Caravan Vector"
+        },
+        "countryName": {
+            "id": "Tiongkok (Jalur Sutra)",
+            "en": "China (Silk Road)"
+        },
+        "value": "Trans-Eurasia",
+        "context": {
+            "id": "Transmisi dari koloni marmot liar Asia Tengah menyeberang sepanjang pos perdagangan Kekaisaran Mongol.",
+            "en": "Zoonotic reservoir in Central Asian steppe marmots propagated across Pax Mongolica trade arteries."
+        },
+        "coordinates": { "lat": 34.3416, "lng": 108.9398 }
+    }
+]

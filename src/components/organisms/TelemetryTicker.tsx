@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useLocale } from "next-intl";
 import { Crosshair } from "lucide-react";
 import { GlobalExtremeRecord, SupportedLocale } from "@/types/journey";
-import defaultExtremesData from "@/data/pandemics/covid-19/global-extremes.json";
+import { useActivePandemic } from "@/context/PandemicContext";
 import { t } from "@/utils/i18n";
 
 export interface TelemetryTickerProps {
@@ -15,28 +15,57 @@ export interface TelemetryTickerProps {
 }
 
 export const TelemetryTicker: React.FC<TelemetryTickerProps> = ({
-    records = defaultExtremesData as GlobalExtremeRecord[],
+    records,
     onSelectRecord,
     className = "",
 }) => {
     const locale = useLocale() as SupportedLocale;
+    const { activePandemic, extremesData } = useActivePandemic();
+
+    const effectiveRecords = records ?? extremesData;
+
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isPaused, setIsPaused] = useState(false);
 
+    const [prevPandemicId, setPrevPandemicId] = useState(activePandemic.id);
+    if (prevPandemicId !== activePandemic.id) {
+        setPrevPandemicId(activePandemic.id);
+        setCurrentIndex(0);
+    }
+
     // Auto-cycle through items every 7 seconds
     useEffect(() => {
-        if (!records.length || isPaused) return;
+        if (!effectiveRecords.length || isPaused) return;
 
         const interval = setInterval(() => {
-            setCurrentIndex((prev) => (prev + 1) % records.length);
+            setCurrentIndex((prev) => (prev + 1) % effectiveRecords.length);
         }, 7000);
 
         return () => clearInterval(interval);
-    }, [records.length, isPaused]);
+    }, [effectiveRecords.length, isPaused]);
 
-    if (!records.length) return null;
+    const pandemicDisplayName =
+        locale === "id" ? activePandemic.name.id : activePandemic.name.en;
 
-    const currentRecord = records[currentIndex];
+    // Graceful fallback display when records are still in drafting
+    if (!effectiveRecords.length) {
+        return (
+            <div className={`pointer-events-auto select-none ${className}`}>
+                <div className="bg-black/85 border border-amber-500/40 text-[10.5px] sm:text-xs font-mono text-neutral-300 px-2.5 py-1 sm:px-4 sm:py-2 rounded-full backdrop-blur-md flex items-center gap-2 sm:gap-2.5 shadow-[0_0_20px_rgba(0,0,0,0.7)]">
+                    <span className="relative flex h-2 w-2 shrink-0">
+                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75" />
+                        <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-400" />
+                    </span>
+                    <span className="text-[9.5px] sm:text-[11px] font-bold tracking-widest text-amber-300 uppercase truncate">
+                        [● SURVEILLANCE TELEMETRY // ERA:{" "}
+                        {pandemicDisplayName.toUpperCase()} ARCHIVE ACTIVE]
+                    </span>
+                </div>
+            </div>
+        );
+    }
+
+    const currentRecord = effectiveRecords[currentIndex] || effectiveRecords[0];
     const countryName = t(currentRecord.countryName, locale);
     const label = t(currentRecord.label, locale);
 
@@ -83,15 +112,15 @@ export const TelemetryTicker: React.FC<TelemetryTickerProps> = ({
                 onClick={() => onSelectRecord(currentRecord)}
                 title="Click to locate on 3D Globe"
                 aria-label={`Locate ${countryName} on Globe`}
-                className="group relative bg-black/85 border border-cyan-500/35 hover:border-cyan-400/80 text-xs font-mono text-neutral-300 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full backdrop-blur-md flex items-center gap-2.5 sm:gap-3.5 shadow-[0_0_20px_rgba(0,0,0,0.7)] hover:shadow-[0_0_25px_rgba(6,182,212,0.35)] transition-all duration-300 cursor-pointer max-w-[92vw] sm:max-w-2xl overflow-hidden active:scale-[0.98]"
+                className="group relative bg-black/85 border border-cyan-500/35 hover:border-cyan-400/80 text-[10.5px] sm:text-xs font-mono text-neutral-300 px-2.5 py-1 sm:px-4 sm:py-2 rounded-full backdrop-blur-md flex items-center gap-2 sm:gap-3.5 shadow-[0_0_20px_rgba(0,0,0,0.7)] hover:shadow-[0_0_25px_rgba(6,182,212,0.35)] transition-all duration-300 cursor-pointer max-w-[90vw] sm:max-w-2xl overflow-hidden active:scale-[0.98]"
             >
                 {/* Status Indicator Light */}
                 <div className="flex items-center gap-1.5 shrink-0 pr-1 border-r border-neutral-800">
-                    <span className="relative flex h-2 w-2">
+                    <span className="relative flex h-2 w-2 shrink-0">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75" />
                         <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-400" />
                     </span>
-                    <span className="text-[10px] sm:text-[11px] font-bold tracking-widest text-cyan-400 uppercase hidden xs:inline">
+                    <span className="text-[9.5px] sm:text-[11px] font-bold tracking-widest text-cyan-400 uppercase hidden sm:inline">
                         [● LIVE TELEMETRY]
                     </span>
                 </div>
@@ -100,7 +129,7 @@ export const TelemetryTicker: React.FC<TelemetryTickerProps> = ({
                 <div className="overflow-hidden relative min-h-[22px] flex items-center flex-1">
                     <AnimatePresence mode="wait">
                         <motion.div
-                            key={currentRecord.id}
+                            key={`${activePandemic.id}-${currentRecord.id}`}
                             initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: -10 }}

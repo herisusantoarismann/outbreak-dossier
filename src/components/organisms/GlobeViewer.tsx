@@ -5,30 +5,23 @@ import { useRouter } from "@/i18n/routing";
 import { useTranslations, useLocale } from "next-intl";
 import { useAppStore } from "@/stores/useAppStore";
 import { Activity, Crosshair } from "lucide-react";
-import { PathogenBriefingDrawer } from "./PathogenBriefingDrawer";
+import { motion, AnimatePresence } from "framer-motion";
+import { PandemicInfoDrawer } from "./PandemicInfoDrawer";
 import { CountryTacticalHUD } from "./CountryTacticalHUD";
 import { SurveillanceModal } from "./SurveillanceModal";
 import { TelemetryTicker } from "./TelemetryTicker";
+import { PandemicSwitcher } from "./PandemicSwitcher";
 import { LocaleSwitcher } from "@/components/molecules/LocaleSwitcher";
-import {
-    EPICENTER_REGISTRY,
-    EpicenterCode,
-    EpicenterMetadata,
-    isEpicenter,
-    SupportedLocale,
-} from "@/data/countriesConfig";
-import globalSurveillanceCatalogRaw from "@/data/pandemics/covid-19/global-surveillance.json";
+import { EpicenterMetadata, SupportedLocale } from "@/data/countriesConfig";
+import { getEpicentersForPandemic } from "@/data/pandemicsRegistry";
+import { PandemicProvider, useActivePandemic } from "@/context/PandemicContext";
 import { CountrySurveillanceData, GlobalExtremeRecord } from "@/types/journey";
-
-const globalSurveillanceCatalog = globalSurveillanceCatalogRaw as Record<
-    string,
-    CountrySurveillanceData
->;
 
 interface GeoJsonFeature {
     type: string;
     id?: string;
     properties?: {
+        ISO_A2?: string;
         ISO_A3?: string;
         ADM0_A3?: string;
         ADMIN?: string;
@@ -68,20 +61,28 @@ const GEOJSON_REMOTE_URL =
     "https://raw.githubusercontent.com/vasturiano/globe.gl/master/example/datasets/ne_110m_admin_0_countries.geojson";
 const GEOJSON_LOCAL_FALLBACK = "/data/ne_110m_admin_0_countries.geojson";
 
-export const GlobeViewer: React.FC = () => {
+const GlobeViewerInner: React.FC = () => {
     const containerRef = useRef<HTMLDivElement>(null);
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const globeInstanceRef = useRef<any>(null);
     const idleTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+    const geoDataRef = useRef<CountriesGeoJson | null>(null);
 
     const router = useRouter();
     const currentLocale = useLocale() as SupportedLocale;
     const { setIsLoading } = useAppStore();
 
-    const tHub = useTranslations("hub");
-    const tPathogen = useTranslations("pathogenBrief");
+    const {
+        activePandemic,
+        activePandemicId,
+        surveillanceData,
+        encryptedNotification,
+        triggerEncryptedAlert,
+    } = useActivePandemic();
 
-    const [isPathogenBriefOpen, setIsPathogenBriefOpen] = useState(false);
+    const tHub = useTranslations("hub");
+
+    const [isInfoDrawerOpen, setIsInfoDrawerOpen] = useState(false);
     const [hoveredCountryName, setHoveredCountryName] = useState<string | null>(
         null,
     );
@@ -129,6 +130,11 @@ export const GlobeViewer: React.FC = () => {
                 iso2 = "US";
             else if (iso3 === "IND" || name === "India") iso2 = "IN";
             else if (iso3 === "FRA" || name === "France") iso2 = "FR";
+            else if (iso3 === "ESP" || name === "Spain") iso2 = "ES";
+            else if (iso3 === "GBR" || name.includes("United Kingdom"))
+                iso2 = "GB";
+            else if (iso3 === "DEU" || name.includes("Germany")) iso2 = "DE";
+            else if (iso3 === "EGY" || name.includes("Egypt")) iso2 = "EG";
             else if (iso3 === "NOR" || name === "Norway") iso2 = "NO";
             else if (iso3 === "CYP" || name.includes("Cyprus")) iso2 = "CY";
             else if (iso3 === "SOM" || name.includes("Somaliland")) iso2 = "SO";
@@ -171,9 +177,33 @@ export const GlobeViewer: React.FC = () => {
         [],
     );
 
+    // Check if country is an epicenter for active pandemic
+    const checkIsEpicenter = useCallback(
+        (iso2: string, iso3: string): EpicenterMetadata | null => {
+            const epicenters = getEpicentersForPandemic(activePandemicId);
+            return (
+                epicenters[iso2.toUpperCase()] ||
+                epicenters[iso3.toUpperCase()] ||
+                null
+            );
+        },
+        [activePandemicId],
+    );
+
     // Handle country selection (direct click on polygon or beacon pin)
     const handleSelectCountry = useCallback(
         (feat: GeoJsonFeature | null, directEpicenter?: EpicenterMetadata) => {
+            if (activePandemic.status === "classified_archive") {
+                triggerEncryptedAlert();
+                if (directEpicenter && globeInstanceRef.current) {
+                    globeInstanceRef.current.pointOfView(
+                        directEpicenter.coordinates,
+                        1200,
+                    );
+                }
+                return;
+            }
+
             if (directEpicenter) {
                 if (globeInstanceRef.current) {
                     globeInstanceRef.current.pointOfView(
@@ -190,10 +220,9 @@ export const GlobeViewer: React.FC = () => {
 
             if (!feat) return;
             const { iso2, iso3, name } = getFeatureCountryInfo(feat);
+            const epi = checkIsEpicenter(iso2, iso3);
 
-            if (isEpicenter(iso2) || isEpicenter(iso3)) {
-                const code = (isEpicenter(iso2) ? iso2 : iso3) as EpicenterCode;
-                const epi = EPICENTER_REGISTRY[code];
+            if (epi) {
                 if (globeInstanceRef.current) {
                     globeInstanceRef.current.pointOfView(epi.coordinates, 1200);
                 }
@@ -202,8 +231,8 @@ export const GlobeViewer: React.FC = () => {
                     epicenterData: epi,
                 });
             } else {
-                // Secondary Surveillance Nation
-                const survData = globalSurveillanceCatalog[iso2] || {
+                // Secondary Surveillance Nation - sourced from isolated active pandemic dataset
+                const survData = surveillanceData[iso2] || {
                     iso2: iso2 || "XX",
                     name: {
                         id: name || "Wilayah Terpantau",
@@ -214,8 +243,8 @@ export const GlobeViewer: React.FC = () => {
                     fatalities: 18400,
                     recoveryRate: "98.5%",
                     peakWave: {
-                        id: "Januari 2022",
-                        en: "January 2022",
+                        id: activePandemic.eraLabel,
+                        en: activePandemic.eraLabel,
                     },
                 };
                 const centroid = getFeatureCentroid(feat);
@@ -235,7 +264,15 @@ export const GlobeViewer: React.FC = () => {
                 });
             }
         },
-        [getFeatureCentroid, getFeatureCountryInfo],
+        [
+            activePandemic.eraLabel,
+            activePandemic.status,
+            checkIsEpicenter,
+            getFeatureCentroid,
+            getFeatureCountryInfo,
+            surveillanceData,
+            triggerEncryptedAlert,
+        ],
     );
 
     // Launch full dossier for Epicenters
@@ -244,11 +281,13 @@ export const GlobeViewer: React.FC = () => {
             setTacticalHUD((prev) => ({ ...prev, isOpen: false }));
             setIsLoading(true);
             setTimeout(() => {
-                router.push(`/dossier/covid-19/${countryCode.toLowerCase()}`);
+                router.push(
+                    `/dossier/${activePandemicId}/${countryCode.toLowerCase()}`,
+                );
                 setIsLoading(false);
             }, 2400);
         },
-        [router, setIsLoading],
+        [activePandemicId, router, setIsLoading],
     );
 
     // Intelligent Idle UX timer handler
@@ -277,7 +316,7 @@ export const GlobeViewer: React.FC = () => {
         }, 3000);
     }, []);
 
-    // Ticker fly-to handler: Centers camera on country and mounts telemetry modal
+    // Ticker fly-to handler
     const handleSelectRecord = useCallback(
         (record: GlobalExtremeRecord) => {
             resetIdleTimer();
@@ -293,14 +332,14 @@ export const GlobeViewer: React.FC = () => {
                 );
             }
 
-            if (isEpicenter(record.iso2)) {
-                const code = record.iso2 as EpicenterCode;
+            const epi = checkIsEpicenter(record.iso2, record.iso2);
+            if (epi) {
                 setTacticalHUD({
                     isOpen: true,
-                    epicenterData: EPICENTER_REGISTRY[code],
+                    epicenterData: epi,
                 });
             } else {
-                const survData = globalSurveillanceCatalog[record.iso2] || {
+                const survData = surveillanceData[record.iso2] || {
                     iso2: record.iso2,
                     name: record.countryName,
                     continent: "Global",
@@ -308,8 +347,8 @@ export const GlobeViewer: React.FC = () => {
                     fatalities: 18400,
                     recoveryRate: "98.5%",
                     peakWave: {
-                        id: "Januari 2022",
-                        en: "January 2022",
+                        id: activePandemic.eraLabel,
+                        en: activePandemic.eraLabel,
                     },
                 };
                 setSurveillanceModal({
@@ -318,9 +357,15 @@ export const GlobeViewer: React.FC = () => {
                 });
             }
         },
-        [resetIdleTimer],
+        [
+            activePandemic.eraLabel,
+            checkIsEpicenter,
+            resetIdleTimer,
+            surveillanceData,
+        ],
     );
 
+    // Initial globe setup
     useEffect(() => {
         if (!containerRef.current) return;
 
@@ -357,24 +402,23 @@ export const GlobeViewer: React.FC = () => {
             }
 
             if (!isMounted || !containerRef.current) return;
+            geoDataRef.current = geoData;
 
-            // 1. Build Pulsing Radar Rings for 5 Epicenters
-            const epicenterRings: GlobeRing[] = Object.values(
-                EPICENTER_REGISTRY,
-            ).map((e) => ({
-                lat: e.coordinates.lat,
-                lng: e.coordinates.lng,
-                maxR: 4.8,
-                propagationSpeed: 2.2,
-                repeatPeriod: 1400,
-                color: e.beaconColor,
-            }));
+            // Build initial rings & points for active pandemic
+            const epicenters = getEpicentersForPandemic(activePandemicId);
+            const epicenterRings: GlobeRing[] = Object.values(epicenters).map(
+                (e) => ({
+                    lat: e.coordinates.lat,
+                    lng: e.coordinates.lng,
+                    maxR: 4.8,
+                    propagationSpeed: 2.2,
+                    repeatPeriod: 1400,
+                    color: e.beaconColor,
+                }),
+            );
 
-            // 2. Build Globe Points: Prominent pins for 5 Epicenters, neutral dots for surveillance
             const pointsData: GlobePoint[] = [];
-
-            // Add 5 Epicenter beacon pins
-            Object.values(EPICENTER_REGISTRY).forEach((e) => {
+            Object.values(epicenters).forEach((e) => {
                 pointsData.push({
                     lat: e.coordinates.lat,
                     lng: e.coordinates.lng,
@@ -386,10 +430,9 @@ export const GlobeViewer: React.FC = () => {
                 });
             });
 
-            // Add subtle surveillance dots for non-epicenter countries
             geoData.features.forEach((feat) => {
                 const { iso2, iso3 } = getFeatureCountryInfo(feat);
-                if (isEpicenter(iso2) || isEpicenter(iso3)) return;
+                if (epicenters[iso2] || epicenters[iso3]) return;
 
                 const centroid = getFeatureCentroid(feat);
                 if (centroid) {
@@ -398,20 +441,19 @@ export const GlobeViewer: React.FC = () => {
                         lng: centroid.lng,
                         altitude: 0.012,
                         radius: 0.22,
-                        color: "#38bdf8", // cyan surveillance marker
+                        color: activePandemic.atmosphereHex,
                         isEpicenter: false,
                         feature: feat,
                     });
                 }
             });
 
-            // Color and altitude styling helpers for base and dynamic hover states
             const getPolygonAltitude = (
                 f: GeoJsonFeature,
                 targetFeat: GeoJsonFeature | null,
             ) => {
                 const { iso2, iso3 } = getFeatureCountryInfo(f);
-                const isEpi = isEpicenter(iso2) || isEpicenter(iso3);
+                const isEpi = Boolean(epicenters[iso2] || epicenters[iso3]);
                 const isTarget = !!targetFeat && f === targetFeat;
                 if (isEpi) return isTarget ? 0.08 : 0.035;
                 return isTarget ? 0.028 : 0.008;
@@ -422,33 +464,19 @@ export const GlobeViewer: React.FC = () => {
                 targetFeat: GeoJsonFeature | null,
             ) => {
                 const { iso2, iso3 } = getFeatureCountryInfo(f);
-                const isEpi = isEpicenter(iso2) || isEpicenter(iso3);
+                const epi = epicenters[iso2] || epicenters[iso3];
                 const isTarget = !!targetFeat && f === targetFeat;
 
-                if (isEpi) {
-                    const code = (
-                        isEpicenter(iso2) ? iso2 : iso3
-                    ) as EpicenterCode;
+                if (epi) {
                     if (isTarget) {
-                        // Intensify neon emission on hover (emissive: #06b6d4 / #ef4444, intensity: 1.0)
-                        if (code === "CN") return "rgba(6, 182, 212, 1.0)";
-                        if (code === "IT") return "rgba(245, 158, 11, 1.0)";
-                        if (code === "IN") return "rgba(249, 115, 22, 1.0)";
-                        return "rgba(239, 68, 68, 1.0)";
+                        return epi.beaconColor;
                     }
-                    // Base fill: Dark tactical crimson/cyan tone (#1e1b4b or #450a0a)
-                    if (code === "CN") return "rgba(30, 27, 75, 0.95)";
-                    if (code === "IT") return "rgba(69, 26, 3, 0.92)";
-                    if (code === "IN") return "rgba(67, 20, 7, 0.92)";
-                    return "rgba(69, 10, 10, 0.95)";
+                    return "rgba(45, 10, 20, 0.92)";
                 }
 
-                // ~190 Secondary Countries:
                 if (isTarget) {
-                    // Active surveillance cyan hue (#38bdf8, opacity 0.85)
                     return "rgba(56, 189, 248, 0.85)";
                 }
-                // Base fill: Discernible tactical slate/navy mesh (#0f172a or #1e293b, opacity ~0.7)
                 return "rgba(30, 41, 59, 0.72)";
             };
 
@@ -457,23 +485,13 @@ export const GlobeViewer: React.FC = () => {
                 targetFeat: GeoJsonFeature | null,
             ) => {
                 const { iso2, iso3 } = getFeatureCountryInfo(f);
-                const isEpi = isEpicenter(iso2) || isEpicenter(iso3);
+                const epi = epicenters[iso2] || epicenters[iso3];
                 const isTarget = !!targetFeat && f === targetFeat;
 
-                if (isEpi) {
-                    const code = (
-                        isEpicenter(iso2) ? iso2 : iso3
-                    ) as EpicenterCode;
-                    if (isTarget) {
-                        if (code === "CN") return "rgba(6, 182, 212, 0.85)";
-                        if (code === "IT") return "rgba(245, 158, 11, 0.85)";
-                        if (code === "IN") return "rgba(249, 115, 22, 0.85)";
-                        return "rgba(239, 68, 68, 0.85)";
-                    }
-                    if (code === "CN") return "rgba(8, 145, 178, 0.4)";
-                    if (code === "IT") return "rgba(217, 119, 6, 0.4)";
-                    if (code === "IN") return "rgba(194, 65, 12, 0.4)";
-                    return "rgba(185, 28, 28, 0.4)";
+                if (epi) {
+                    return isTarget
+                        ? `${epi.beaconColor}dd`
+                        : "rgba(185, 28, 28, 0.4)";
                 }
 
                 if (isTarget) {
@@ -487,39 +505,33 @@ export const GlobeViewer: React.FC = () => {
                 targetFeat: GeoJsonFeature | null,
             ) => {
                 const { iso2, iso3 } = getFeatureCountryInfo(f);
-                const isEpi = isEpicenter(iso2) || isEpicenter(iso3);
+                const epi = epicenters[iso2] || epicenters[iso3];
                 const isTarget = !!targetFeat && f === targetFeat;
 
-                if (isEpi) {
-                    const code = (
-                        isEpicenter(iso2) ? iso2 : iso3
-                    ) as EpicenterCode;
+                if (epi) {
                     if (isTarget) return "#ffffff";
-                    // High-intensity neon glow (#06b6d4 or #ef4444, line width 1.5)
-                    return EPICENTER_REGISTRY[code]?.beaconColor || "#ef4444";
+                    return epi.beaconColor || activePandemic.atmosphereHex;
                 }
 
                 if (isTarget) {
                     return "rgba(56, 189, 248, 0.95)";
                 }
-                // Subtle tactical wireframe borders (#334155 or #475569, opacity ~0.5)
                 return "rgba(71, 85, 105, 0.55)";
             };
 
-            // 3. Instantiate Globe
+            // Instantiate Globe
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             const globe = (GlobeFactory as any)()(containerRef.current)
                 .backgroundColor("rgba(5, 5, 8, 0)")
                 .showAtmosphere(true)
-                .atmosphereColor("#ef4444")
-                .atmosphereAltitude(0.2)
+                .atmosphereColor(activePandemic.atmosphereHex)
+                .atmosphereAltitude(0.22)
                 .globeImageUrl(
                     "//unpkg.com/three-globe/example/img/earth-night.jpg",
                 )
                 .bumpImageUrl(
                     "//unpkg.com/three-globe/example/img/earth-topology.png",
                 )
-                // Pulsing Radar Rings Layer for Epicenters
                 .ringsData(epicenterRings)
                 .ringLat("lat")
                 .ringLng("lng")
@@ -534,7 +546,6 @@ export const GlobeViewer: React.FC = () => {
                 .ringMaxRadius("maxR")
                 .ringPropagationSpeed("propagationSpeed")
                 .ringRepeatPeriod("repeatPeriod")
-                // Points Data Layer (Beacon pins & neutral surveillance dots)
                 .pointsData(pointsData)
                 .pointLat("lat")
                 .pointLng("lng")
@@ -563,7 +574,6 @@ export const GlobeViewer: React.FC = () => {
                         }
                     }
                 })
-                // Country Polygons Layer with Discernible Landmasses & Dynamic Raycaster
                 .polygonsData(geoData.features)
                 .polygonsTransitionDuration(180)
                 .polygonAltitude((feat: GeoJsonFeature) =>
@@ -581,15 +591,11 @@ export const GlobeViewer: React.FC = () => {
                 .polygonLabel((feat: GeoJsonFeature) => {
                     const { iso2, iso3 } = getFeatureCountryInfo(feat);
                     const code = iso2 || iso3 || "XX";
-                    const isEpi = isEpicenter(iso2) || isEpicenter(iso3);
+                    const epi = epicenters[iso2] || epicenters[iso3];
 
-                    if (isEpi) {
-                        const epiCode = (
-                            isEpicenter(iso2) ? iso2 : iso3
-                        ) as EpicenterCode;
-                        const epi = EPICENTER_REGISTRY[epiCode];
-                        const bc = epi?.beaconColor || "#ef4444";
-
+                    if (epi) {
+                        const bc =
+                            epi.beaconColor || activePandemic.atmosphereHex;
                         return `
               <div style="
                 display: inline-flex;
@@ -609,12 +615,11 @@ export const GlobeViewer: React.FC = () => {
                 white-space: nowrap;
               ">
                 <span style="display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: ${bc};"></span>
-                <span>[ ISO: ${code} // CLICK FOR DOSSIER ]</span>
+                <span>[ ISO: ${code} // ${activePandemic.status === "classified_archive" ? "ARCHIVE ENCRYPTED" : "CLICK FOR DOSSIER"} ]</span>
               </div>
             `;
                     }
 
-                    // Secondary Surveillance Nation: minimal tactical chip HUD
                     return `
             <div style="
               display: inline-flex;
@@ -646,7 +651,9 @@ export const GlobeViewer: React.FC = () => {
                         }
                         const { iso2, iso3, name } =
                             getFeatureCountryInfo(feat);
-                        const isEpi = isEpicenter(iso2) || isEpicenter(iso3);
+                        const isEpi = Boolean(
+                            epicenters[iso2] || epicenters[iso3],
+                        );
                         setHoveredCountryName(name);
                         setHoveredIsEpicenter(isEpi);
                     } else {
@@ -658,7 +665,6 @@ export const GlobeViewer: React.FC = () => {
                         setHoveredIsEpicenter(false);
                     }
 
-                    // Dynamic Raycaster elevation, cap color, side color, and stroke color on hover
                     globe
                         .polygonAltitude((f: GeoJsonFeature) =>
                             getPolygonAltitude(f, feat),
@@ -677,10 +683,16 @@ export const GlobeViewer: React.FC = () => {
                     handleSelectCountry(feat);
                 });
 
-            // Camera view centered toward Southeast Asia / Indonesia initially
-            globe.pointOfView({ lat: 10, lng: 100, altitude: 2.3 });
+            // Set initial camera view
+            const initCam = activePandemic.defaultCameraPosition || [
+                10, 100, 2.3,
+            ];
+            globe.pointOfView({
+                lat: initCam[0],
+                lng: initCam[1],
+                altitude: initCam[2],
+            });
 
-            // Intelligent Auto-Rotate initial setup
             const controls = globe.controls();
             controls.autoRotate = true;
             controls.autoRotateSpeed = 0.5;
@@ -690,7 +702,6 @@ export const GlobeViewer: React.FC = () => {
 
             globeInstanceRef.current = globe;
 
-            // Window Resize Handler
             const handleResize = () => {
                 if (!containerRef.current) return;
                 globe
@@ -710,7 +721,6 @@ export const GlobeViewer: React.FC = () => {
 
         initGlobe();
 
-        // Idle interaction listeners on container
         const onInteraction = () => {
             resetIdleTimer();
         };
@@ -737,11 +747,88 @@ export const GlobeViewer: React.FC = () => {
             }
         };
     }, [
+        activePandemic,
+        activePandemicId,
         currentLocale,
         getFeatureCentroid,
         getFeatureCountryInfo,
         handleSelectCountry,
         resetIdleTimer,
+    ]);
+
+    // Reactive handler when activePandemic changes:
+    // 1. Smoothly update atmosphere color
+    // 2. Swap epicenter rings & point beacons
+    // 3. Smooth camera orbit reset via Three.js tween
+    useEffect(() => {
+        if (!globeInstanceRef.current) return;
+        const globe = globeInstanceRef.current;
+
+        // 1. Update atmosphere color (Cyan: #0e7490, Amber: #b45309, Crimson: #881337)
+        globe.atmosphereColor(activePandemic.atmosphereHex);
+
+        // 2. Re-target epicenters & build rings for current pandemic
+        const epicenters = getEpicentersForPandemic(activePandemicId);
+        const newRings: GlobeRing[] = Object.values(epicenters).map((e) => ({
+            lat: e.coordinates.lat,
+            lng: e.coordinates.lng,
+            maxR: 4.8,
+            propagationSpeed: 2.2,
+            repeatPeriod: 1400,
+            color: e.beaconColor,
+        }));
+        globe.ringsData(newRings);
+
+        // 3. Rebuild pointsData
+        const newPoints: GlobePoint[] = [];
+        Object.values(epicenters).forEach((e) => {
+            newPoints.push({
+                lat: e.coordinates.lat,
+                lng: e.coordinates.lng,
+                altitude: 0.05,
+                radius: 0.6,
+                color: e.beaconColor,
+                isEpicenter: true,
+                epicenter: e,
+            });
+        });
+
+        if (geoDataRef.current) {
+            geoDataRef.current.features.forEach((feat) => {
+                const { iso2, iso3 } = getFeatureCountryInfo(feat);
+                if (epicenters[iso2] || epicenters[iso3]) return;
+
+                const centroid = getFeatureCentroid(feat);
+                if (centroid) {
+                    newPoints.push({
+                        lat: centroid.lat,
+                        lng: centroid.lng,
+                        altitude: 0.012,
+                        radius: 0.22,
+                        color: activePandemic.atmosphereHex,
+                        isEpicenter: false,
+                        feature: feat,
+                    });
+                }
+            });
+        }
+        globe.pointsData(newPoints);
+
+        // 4. Smooth camera orbit reset
+        const cam = activePandemic.defaultCameraPosition || [10, 100, 2.3];
+        globe.pointOfView(
+            {
+                lat: cam[0],
+                lng: cam[1],
+                altitude: cam[2],
+            },
+            1600,
+        );
+    }, [
+        activePandemic,
+        activePandemicId,
+        getFeatureCentroid,
+        getFeatureCountryInfo,
     ]);
 
     return (
@@ -755,27 +842,27 @@ export const GlobeViewer: React.FC = () => {
             {/* Sci-Fi Ambient Vignette */}
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_45%,#050508_95%)] pointer-events-none" />
 
-            {/* Top HUD Header (Vector Quick Orbit Completely Eradicated) */}
+            {/* Top HUD Header - Kept clean with only Logo & Nav, leaving room for Telemetry Ticker */}
             <header className="absolute top-0 left-0 right-0 p-3 sm:p-6 flex items-center justify-between pointer-events-none z-10">
-                <div className="flex items-center gap-2.5 sm:gap-3">
+                <div className="flex items-center gap-2 sm:gap-3 pointer-events-auto min-w-0">
                     <div className="w-8 h-8 sm:w-10 sm:h-10 rounded border border-red-500/40 bg-black/70 flex items-center justify-center text-red-500 shadow-[0_0_15px_rgba(239,68,68,0.25)] shrink-0">
                         <Activity className="w-4 h-4 sm:w-5 sm:h-5 animate-pulse" />
                     </div>
-                    <div>
+                    <div className="min-w-0">
                         <div className="flex items-center gap-1.5">
-                            <span className="text-[10px] sm:text-xs font-mono font-bold tracking-widest text-red-500">
+                            <span className="text-[9px] sm:text-xs font-mono font-bold tracking-widest text-red-500 truncate max-w-[130px] xs:max-w-[200px] sm:max-w-none">
                                 {tHub("badge")}
                             </span>
-                            <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-ping" />
+                            <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-ping shrink-0" />
                         </div>
-                        <h1 className="font-mono tracking-widest text-sm sm:text-base font-bold text-neutral-100 uppercase">
+                        <h1 className="font-mono tracking-widest text-xs sm:text-base font-bold text-neutral-100 uppercase truncate">
                             {tHub("title")}
                         </h1>
                     </div>
                 </div>
 
                 {/* Right Header Cluster: Locale Switcher & Coordinates HUD */}
-                <div className="flex items-center gap-2 pointer-events-auto">
+                <div className="flex items-center gap-2 pointer-events-auto shrink-0">
                     {/* Tactical Language Switcher */}
                     <LocaleSwitcher />
 
@@ -788,31 +875,41 @@ export const GlobeViewer: React.FC = () => {
                         <div className="text-[10px] text-neutral-400">
                             {hoveredCountryName
                                 ? `${hoveredIsEpicenter ? "EPICENTER TARGET" : "SURVEILLANCE"}: ${hoveredCountryName.toUpperCase()}`
-                                : "ORBITAL BIO-SURVEILLANCE ACTIVE"}
+                                : `ORBITAL BIO-SURVEILLANCE // ${activePandemic.eraLabel}`}
                         </div>
                     </div>
                 </div>
             </header>
 
-            {/* Mission Control Tactical Telemetry Ticker (Global Extremes) */}
-            <div className="absolute top-16 sm:top-5 left-1/2 -translate-x-1/2 z-20 pointer-events-none">
+            {/* Subtle Encrypted Archive HUD Notification */}
+            <AnimatePresence>
+                {encryptedNotification && (
+                    <motion.div
+                        initial={{ opacity: 0, y: -10, scale: 0.96 }}
+                        animate={{ opacity: 1, y: 0, scale: 1 }}
+                        exit={{ opacity: 0, y: -10, scale: 0.96 }}
+                        transition={{ duration: 0.2 }}
+                        className="fixed top-26 sm:top-28 md:top-32 xl:top-20 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded border border-amber-500/60 bg-black/95 backdrop-blur-md shadow-[0_0_25px_rgba(245,158,11,0.35)] font-mono text-[11px] sm:text-xs text-amber-400 tracking-wider pointer-events-none max-w-[92vw] text-center"
+                    >
+                        <span className="w-2 h-2 rounded-full bg-amber-400 animate-ping shrink-0" />
+                        <span className="font-bold truncate">
+                            {encryptedNotification}
+                        </span>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+
+            {/* Mission Control Tactical Telemetry Ticker (Global Extremes) - Top Center */}
+            <div className="absolute top-14 sm:top-16 md:top-20 xl:top-6 left-1/2 -translate-x-1/2 z-20 pointer-events-none">
                 <TelemetryTicker onSelectRecord={handleSelectRecord} />
             </div>
 
-            {/* Minimal Floating Tactical Pill: Pathogen Brief Trigger */}
-            <aside className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 z-20 pointer-events-auto">
-                <button
-                    onClick={() => setIsPathogenBriefOpen(true)}
-                    className="font-mono text-xs text-neutral-300 border border-white/20 bg-black/60 backdrop-blur-md px-3 py-1.5 rounded-full hover:border-cyan-400 hover:text-cyan-300 transition-all cursor-pointer shadow-[0_0_15px_rgba(0,0,0,0.5)] flex items-center gap-1.5 active:scale-95"
-                >
-                    <span className="text-cyan-400 font-bold">[!]</span>
-                    <span>{tPathogen("trigger")}</span>
-                </button>
-            </aside>
+            {/* Unified Responsive Pandemic Switcher & Bottom Dock */}
+            <PandemicSwitcher onOpenInfo={() => setIsInfoDrawerOpen(true)} />
 
-            {/* Global Tactical Footer */}
-            <footer className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 flex flex-col sm:flex-row items-end sm:items-center gap-2 pointer-events-none z-10 font-mono text-[10px] sm:text-[11px] text-neutral-500">
-                <div className="bg-black/60 border border-neutral-800/80 px-3 py-1.5 rounded backdrop-blur">
+            {/* Global Tactical Footer (Bottom-Right, Widescreen Desktop Only) */}
+            <footer className="hidden xl:flex absolute bottom-6 right-6 flex-col items-end gap-1.5 pointer-events-none z-10 font-mono text-[10px] text-neutral-500">
+                <div className="bg-black/60 border border-neutral-800/80 px-3 py-1 rounded backdrop-blur">
                     {hoveredCountryName ? (
                         <span
                             className={
@@ -822,22 +919,22 @@ export const GlobeViewer: React.FC = () => {
                             }
                         >
                             {hoveredIsEpicenter
-                                ? `HOTSPOT // ${hoveredCountryName.toUpperCase()} [CLICK TO DECLASSIFY]`
+                                ? `HOTSPOT // ${hoveredCountryName.toUpperCase()} [${activePandemic.status === "classified_archive" ? "CLASSIFIED ARCHIVE" : "CLICK TO DECLASSIFY"}]`
                                 : `SURVEILLANCE // ${hoveredCountryName.toUpperCase()} [CLICK FOR TELEMETRY]`}
                         </span>
                     ) : (
                         <span>{tHub("dragPrompt")}</span>
                     )}
                 </div>
-                <div className="bg-black/75 border border-neutral-800/80 px-3 py-1.5 rounded backdrop-blur text-right">
+                <div className="bg-black/75 border border-neutral-800/80 px-3 py-1 rounded backdrop-blur text-right text-[9px] text-neutral-600">
                     {`OUTBREAK DOSSIER © ${new Date().getFullYear()} // DECLASSIFIED EPIDEMIOLOGICAL DATA INTELLIGENCE.`}
                 </div>
             </footer>
 
-            {/* Slide-over Pathogen Briefing Drawer */}
-            <PathogenBriefingDrawer
-                isOpen={isPathogenBriefOpen}
-                onClose={() => setIsPathogenBriefOpen(false)}
+            {/* Slide-over Pandemic & Pathogen Intelligence Drawer */}
+            <PandemicInfoDrawer
+                isOpen={isInfoDrawerOpen}
+                onClose={() => setIsInfoDrawerOpen(false)}
             />
 
             {/* Epicenter Activation Card (Tier 1 Hotspots) */}
@@ -859,6 +956,16 @@ export const GlobeViewer: React.FC = () => {
                 data={surveillanceModal.data}
             />
         </div>
+    );
+};
+
+export const GlobeViewer: React.FC<{ initialPandemicId?: string }> = ({
+    initialPandemicId,
+}) => {
+    return (
+        <PandemicProvider initialPandemicId={initialPandemicId}>
+            <GlobeViewerInner />
+        </PandemicProvider>
     );
 };
 

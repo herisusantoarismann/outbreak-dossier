@@ -1,0 +1,62 @@
+{
+    "TR": {
+        "iso2": "TR",
+        "name": {
+            "id": "Kekaisaran Romawi Timur (Bizantium)",
+            "en": "Byzantine (Eastern Roman) Empire"
+        },
+        "continent": "Europe",
+        "confirmedCases": 4000000,
+        "fatalities": 2500000,
+        "recoveryRate": "37.5%",
+        "peakWave": { "id": "Musim Semi 542 M", "en": "Spring 542 AD" }
+    },
+    "EG": {
+        "iso2": "EG",
+        "name": {
+            "id": "Provinsi Mesir Romawi (Pelusium & Aleksandria)",
+            "en": "Roman Egypt (Pelusium & Alexandria)"
+        },
+        "continent": "Africa",
+        "confirmedCases": 2500000,
+        "fatalities": 1400000,
+        "recoveryRate": "44.0%",
+        "peakWave": { "id": "Musim Gugur 541 M", "en": "Autumn 541 AD" }
+    },
+    "IT": {
+        "iso2": "IT",
+        "name": {
+            "id": "Semenanjung Italia & Sisilia",
+            "en": "Italian Peninsula & Sicily"
+        },
+        "continent": "Europe",
+        "confirmedCases": 1800000,
+        "fatalities": 900000,
+        "recoveryRate": "50.0%",
+        "peakWave": { "id": "Tahun 543 M", "en": "Year 543 AD" }
+    },
+    "SY": {
+        "iso2": "SY",
+        "name": {
+            "id": "Provinsi Suriah & Antiokhia",
+            "en": "Syrian Diocese & Antioch"
+        },
+        "continent": "Asia",
+        "confirmedCases": 1500000,
+        "fatalities": 800000,
+        "recoveryRate": "46.6%",
+        "peakWave": { "id": "Tahun 542 M", "en": "Year 542 AD" }
+    },
+    "IR": {
+        "iso2": "IR",
+        "name": {
+            "id": "Kekaisaran Sasaniyah (Persia)",
+            "en": "Sasanian Empire (Persia)"
+        },
+        "continent": "Asia",
+        "confirmedCases": 2000000,
+        "fatalities": 1100000,
+        "recoveryRate": "45.0%",
+        "peakWave": { "id": "Tahun 543 – 544 M", "en": "Year 543 – 544 AD" }
+    }
+}

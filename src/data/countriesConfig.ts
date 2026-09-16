@@ -8,7 +8,7 @@ export const isEpicenter = (code: string): code is EpicenterCode => {
 };
 
 export interface EpicenterMetadata {
-    code: EpicenterCode;
+    code: string;
     iso3: string;
     name: {
         id: string;
