@@ -43,8 +43,7 @@ export async function generateMetadata({
         applicationName: "Outbreak Dossier",
         openGraph: {
             siteName: "Outbreak Dossier",
-            locale:
-                locale === "id" ? "id_ID" : locale === "zh" ? "zh_CN" : "en_US",
+            locale: locale === "id" ? "id_ID" : "en_US",
             title,
             description,
             type: "website",

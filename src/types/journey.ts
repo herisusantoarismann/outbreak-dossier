@@ -1,13 +1,12 @@
 export type PandemicId = "covid-19" | "sars" | "mers" | "ebola";
 
-export type SupportedLocale = "id" | "en" | "zh";
+export type SupportedLocale = "id" | "en";
 
 export type LanguageCode = SupportedLocale;
 
 export interface LocalizedContent {
     id: string;
     en: string;
-    zh: string;
 }
 
 export interface VirusProfile {

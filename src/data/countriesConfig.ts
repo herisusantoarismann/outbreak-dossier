@@ -1,4 +1,4 @@
-export type SupportedLocale = "id" | "en" | "zh";
+export type SupportedLocale = "id" | "en";
 
 export const EPICENTER_COUNTRIES = ["ID", "CN", "IT", "US", "IN"] as const;
 export type EpicenterCode = (typeof EPICENTER_COUNTRIES)[number];
@@ -13,7 +13,6 @@ export interface EpicenterMetadata {
     name: {
         id: string;
         en: string;
-        zh: string;
     };
     sectorCode: string;
     coordinates: {
@@ -25,17 +24,14 @@ export interface EpicenterMetadata {
     status: {
         id: string;
         en: string;
-        zh: string;
     };
     synopsis: {
         id: string;
         en: string;
-        zh: string;
     };
     timelinePeriod: {
         id: string;
         en: string;
-        zh: string;
     };
 }
 
@@ -46,7 +42,6 @@ export const EPICENTER_REGISTRY: Record<EpicenterCode, EpicenterMetadata> = {
         name: {
             id: "Indonesia",
             en: "Indonesia",
-            zh: "印度尼西亚",
         },
         sectorCode: "SECTOR // IDN - PRIORITY ALPHA",
         coordinates: {
@@ -58,17 +53,14 @@ export const EPICENTER_REGISTRY: Record<EpicenterCode, EpicenterMetadata> = {
         status: {
             id: "STATUS: DECLASSIFIED DOSSIER AVAILABLE",
             en: "STATUS: DECLASSIFIED DOSSIER AVAILABLE",
-            zh: "状态：已解密机密档案可用",
         },
         synopsis: {
             id: "Episentrum transmisi kepulauan Asia Tenggara. Dokumentasi 26 bab mencakup Kasus 01 Depok, isolasi PSBB/PPKM, krisis oksigen delta, hingga transisi endemi.",
             en: "Southeast Asian archipelago epicenter. Comprehensive 26-chapter chronicle spanning Depok Case 01, PSBB/PPKM containment, oxygen crisis, and endemic transition.",
-            zh: "东南亚群岛疫情震中。26个完整解密章节涵盖德波首例确诊、大规模社会限制、氧气供应危机及向地方性流行转变。",
         },
         timelinePeriod: {
             id: "Maret 2020 - Juni 2023",
             en: "March 2020 - June 2023",
-            zh: "2020年3月 - 2023年6月",
         },
     },
     CN: {
@@ -77,7 +69,6 @@ export const EPICENTER_REGISTRY: Record<EpicenterCode, EpicenterMetadata> = {
         name: {
             id: "China",
             en: "China",
-            zh: "中国",
         },
         sectorCode: "SECTOR // CHN - GROUND ZERO",
         coordinates: {
@@ -89,17 +80,14 @@ export const EPICENTER_REGISTRY: Record<EpicenterCode, EpicenterMetadata> = {
         status: {
             id: "STATUS: DECLASSIFIED DOSSIER AVAILABLE",
             en: "STATUS: DECLASSIFIED DOSSIER AVAILABLE",
-            zh: "状态：已解密机密档案可用",
         },
         synopsis: {
             id: "Titik nol spillover zoonotik di Pasar Huanan Wuhan. Kronik 24 bab mencakup peringatan dr. Li Wenliang, lockdown 76 hari, RS Fangcang, hingga gerakan kertas putih.",
             en: "Zoonotic spillover ground zero at Wuhan Huanan market. 24 declassified chapters documenting whistleblower warnings, 76-day lockdown, Fangcang shelters, and the A4 movement.",
-            zh: "武汉华南海鲜市场人畜共患外溢零号坐标。24章解密档案记录李文亮医生午夜预警、76天封城、方舱医院建设及白纸运动。",
         },
         timelinePeriod: {
             id: "Desember 2019 - Awal 2023",
             en: "December 2019 - Early 2023",
-            zh: "2019年12月 - 2023年初",
         },
     },
     IT: {
@@ -108,7 +96,6 @@ export const EPICENTER_REGISTRY: Record<EpicenterCode, EpicenterMetadata> = {
         name: {
             id: "Italia",
             en: "Italy",
-            zh: "意大利",
         },
         sectorCode: "SECTOR // ITA - EUROPEAN GROUND ZERO",
         coordinates: {
@@ -120,17 +107,14 @@ export const EPICENTER_REGISTRY: Record<EpicenterCode, EpicenterMetadata> = {
         status: {
             id: "STATUS: DECLASSIFIED DOSSIER AVAILABLE",
             en: "STATUS: DECLASSIFIED DOSSIER AVAILABLE",
-            zh: "状态：已解密机密档案可用",
         },
         synopsis: {
             id: "Titik episentrum pertama di benua Eropa. Krisis ICU Lombardia, karantina nasional pertama dunia barat, dan konvoi truk militer Bergamo.",
             en: "First western epicenter in continental Europe. Lombardy ICU collapse, the first nationwide lockdown outside China, and Bergamo military convoys.",
-            zh: "欧洲大陆首个重大疫情震中。伦巴第重症监护室危机、西方世界首个全国性封锁及贝加莫军车车队历史记录。",
         },
         timelinePeriod: {
             id: "Februari 2020 - Mei 2022",
             en: "February 2020 - May 2022",
-            zh: "2020年2月 - 2022年5月",
         },
     },
     US: {
@@ -139,7 +123,6 @@ export const EPICENTER_REGISTRY: Record<EpicenterCode, EpicenterMetadata> = {
         name: {
             id: "Amerika Serikat",
             en: "United States",
-            zh: "美国",
         },
         sectorCode: "SECTOR // USA - GLOBAL TRANSMISSION SPIKE",
         coordinates: {
@@ -151,17 +134,14 @@ export const EPICENTER_REGISTRY: Record<EpicenterCode, EpicenterMetadata> = {
         status: {
             id: "STATUS: DECLASSIFIED DOSSIER AVAILABLE",
             en: "STATUS: DECLASSIFIED DOSSIER AVAILABLE",
-            zh: "状态：已解密机密档案可用",
         },
         synopsis: {
             id: "Transmisi komunitas masif lintas negara bagian. Episentrum New York City, gelombang rawat inap musim dingin, dan percepatan vaksin mRNA Operation Warp Speed.",
             en: "Massive community spread across 50 states. New York City epicenter, record-breaking winter surges, and the Operation Warp Speed mRNA vaccine mobilization.",
-            zh: "全美50个州的大规模社区传播。纽约市震中、破纪录的冬季住院浪潮及曲率极速行动（Operation Warp Speed）mRNA疫苗研发。",
         },
         timelinePeriod: {
             id: "Januari 2020 - Mei 2023",
             en: "January 2020 - May 2023",
-            zh: "2020年1月 - 2023年5月",
         },
     },
     IN: {
@@ -170,7 +150,6 @@ export const EPICENTER_REGISTRY: Record<EpicenterCode, EpicenterMetadata> = {
         name: {
             id: "India",
             en: "India",
-            zh: "印度",
         },
         sectorCode: "SECTOR // IND - DELTA VARIANT SURGE",
         coordinates: {
@@ -182,17 +161,14 @@ export const EPICENTER_REGISTRY: Record<EpicenterCode, EpicenterMetadata> = {
         status: {
             id: "STATUS: DECLASSIFIED DOSSIER AVAILABLE",
             en: "STATUS: DECLASSIFIED DOSSIER AVAILABLE",
-            zh: "状态：已解密机密档案可用",
         },
         synopsis: {
             id: "Lokasi mutasi dan eskalasi varian Delta (B.1.617.2). Lockdown 4 jam yang memicu eksodus jutaan pekerja migran dan krisis oksigen nasional musim semi 2021.",
             en: "Origin and catastrophic wave of the Delta variant (B.1.617.2). A 4-hour snap national lockdown, mass migrant walking exodus, and the acute 2021 oxygen crisis.",
-            zh: "德尔塔突变株（B.1.617.2）起源地与海啸级浪潮。4小时突发全国封锁、数百万外来务工人员徒步返乡及2021年春季严重氧气荒。",
         },
         timelinePeriod: {
-            id: "Maret 2020 - Desember 2022",
-            en: "March 2020 - December 2022",
-            zh: "2020年3月 - 2022年12月",
+            id: "Januari 2020 - Desember 2022",
+            en: "January 2020 - December 2022",
         },
     },
 };
