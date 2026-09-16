@@ -1,0 +1,222 @@
+[
+    {
+        "id": "extreme-peru-cfr",
+        "iso2": "PE",
+        "metricType": "mortality",
+        "label": {
+            "id": "Tingkat Fatalitas Kasus Tertinggi (CFR)",
+            "en": "Highest Case Fatality Rate (CFR)"
+        },
+        "countryName": {
+            "id": "Peru",
+            "en": "Peru"
+        },
+        "value": "4.93% (6,500+ / 1M Pop)",
+        "context": {
+            "id": "Krisis oksigen akut Andes & saturasi fasilitas ICU nasional",
+            "en": "Acute Andean oxygen deficit & national ICU saturation"
+        },
+        "coordinates": {
+            "lat": -9.19,
+            "lng": -75.0152
+        }
+    },
+    {
+        "id": "extreme-us-fatalities",
+        "iso2": "US",
+        "metricType": "mortality",
+        "label": {
+            "id": "Total Kematian Kumulatif Tertinggi",
+            "en": "Highest Cumulative Fatalities"
+        },
+        "countryName": {
+            "id": "Amerika Serikat",
+            "en": "United States"
+        },
+        "value": "1,180,000+ Fatalitas",
+        "context": {
+            "id": "Gelombang transmisi berulang & beban puncak faskes musim dingin",
+            "en": "Multi-wave community surges & winter clinical strain"
+        },
+        "coordinates": {
+            "lat": 37.0902,
+            "lng": -95.7129
+        }
+    },
+    {
+        "id": "extreme-nz-zero-covid",
+        "iso2": "NZ",
+        "metricType": "survival",
+        "label": {
+            "id": "Protokol Eliminasi Kepulauan Terlama",
+            "en": "Longest Island Elimination Protocol"
+        },
+        "countryName": {
+            "id": "Selandia Baru",
+            "en": "New Zealand"
+        },
+        "value": "548 Hari Tanpa Transmisi",
+        "context": {
+            "id": "Pengendalian karantina perbatasan maritim MIQ terpusat",
+            "en": "Centralized maritime MIQ border ring-fencing"
+        },
+        "coordinates": {
+            "lat": -40.9006,
+            "lng": 174.886
+        }
+    },
+    {
+        "id": "extreme-sm-density",
+        "iso2": "SM",
+        "metricType": "density",
+        "label": {
+            "id": "Tingkat Infeksi Per Kapita Tertinggi",
+            "en": "Highest Per-Capita Infection Ratio"
+        },
+        "countryName": {
+            "id": "San Marino",
+            "en": "San Marino"
+        },
+        "value": "76.8% Terinfeksi",
+        "context": {
+            "id": "Enklave mikro Eropa dengan laju paparan awal cepat",
+            "en": "European micro-enclave with acute early exposure"
+        },
+        "coordinates": {
+            "lat": 43.9424,
+            "lng": 12.4578
+        }
+    },
+    {
+        "id": "extreme-cn-lockdown",
+        "iso2": "CN",
+        "metricType": "containment",
+        "label": {
+            "id": "Durasi Karantina Episentrum Awal Terpanjang",
+            "en": "Longest Ground-Zero Quarantine"
+        },
+        "countryName": {
+            "id": "China",
+            "en": "China"
+        },
+        "value": "76 Hari Isolasi Wuhan",
+        "context": {
+            "id": "Karantina total metropolitan & pendirian RS darurat Fangcang",
+            "en": "Metropolitan cordon sanitaire & Fangcang rapid shelters"
+        },
+        "coordinates": {
+            "lat": 30.5928,
+            "lng": 114.3055
+        }
+    },
+    {
+        "id": "extreme-in-delta-surge",
+        "iso2": "IN",
+        "metricType": "mortality",
+        "label": {
+            "id": "Lonjakan Harian Tertinggi Varian Delta",
+            "en": "Highest Single-Day Delta Variant Surge"
+        },
+        "countryName": {
+            "id": "India",
+            "en": "India"
+        },
+        "value": "414,188 Kasus / 24 Jam",
+        "context": {
+            "id": "Mutasi B.1.617.2 dan krisis darurat pasokan oksigen medis",
+            "en": "B.1.617.2 mutation explosion & acute oxygen shortage"
+        },
+        "coordinates": {
+            "lat": 20.5937,
+            "lng": 78.9629
+        }
+    },
+    {
+        "id": "extreme-is-genomics",
+        "iso2": "IS",
+        "metricType": "survival",
+        "label": {
+            "id": "Sekuensing Genomik Populasi Tertinggi",
+            "en": "Highest Population Genomic Sequencing"
+        },
+        "countryName": {
+            "id": "Islandia",
+            "en": "Iceland"
+        },
+        "value": ">90% Kasus Tersekuens",
+        "context": {
+            "id": "Pelacakan filogenetik deCODE memetakan seluruh mutasi impor",
+            "en": "deCODE phylogenetic tracing of all imported viral lineages"
+        },
+        "coordinates": {
+            "lat": 64.9631,
+            "lng": -19.0208
+        }
+    },
+    {
+        "id": "extreme-bt-vaccine-blitz",
+        "iso2": "BT",
+        "metricType": "containment",
+        "label": {
+            "id": "Kecepatan Vaksinasi Massal Tercepat",
+            "en": "Fastest Nationwide Vaccine Blitz"
+        },
+        "countryName": {
+            "id": "Bhutan",
+            "en": "Bhutan"
+        },
+        "value": "93% Dewasa dalam 16 Hari",
+        "context": {
+            "id": "Distribusi rantai dingin relawan Desuup melintasi Himalaya",
+            "en": "Desuup volunteer cold-chain trek across Himalayan terrain"
+        },
+        "coordinates": {
+            "lat": 27.5142,
+            "lng": 90.4336
+        }
+    },
+    {
+        "id": "extreme-it-icu-saturation",
+        "iso2": "IT",
+        "metricType": "density",
+        "label": {
+            "id": "Saturasi ICU Eropa Pertama",
+            "en": "First European ICU Saturation"
+        },
+        "countryName": {
+            "id": "Italia",
+            "en": "Italy"
+        },
+        "value": "100% Okupansi ICU dalam 18 Hari",
+        "context": {
+            "id": "Episentrum Lombardia & protokol triage darurat rumah sakit",
+            "en": "Lombardy shockwave & initial hospital triage crisis"
+        },
+        "coordinates": {
+            "lat": 41.8719,
+            "lng": 12.5674
+        }
+    },
+    {
+        "id": "extreme-id-delta-peak",
+        "iso2": "ID",
+        "metricType": "mortality",
+        "label": {
+            "id": "Puncak Fatalitas Harian Asia Tenggara",
+            "en": "Southeast Asian Peak Daily Fatalities"
+        },
+        "countryName": {
+            "id": "Indonesia",
+            "en": "Indonesia"
+        },
+        "value": "2,069 Korban Jiwa / 24 Jam",
+        "context": {
+            "id": "Krisis tabung oksigen darurat & saturasi faskes Jawa-Bali",
+            "en": "Emergency oxygen stockout & Java-Bali hospital gridlock"
+        },
+        "coordinates": {
+            "lat": -0.7893,
+            "lng": 113.9213
+        }
+    }
+]

@@ -8,8 +8,9 @@ const nextConfig: NextConfig = {
     reactStrictMode: true,
     images: {
         formats: ["image/avif", "image/webp"],
-        qualities: [25, 50, 75, 80, 90, 100], // added 80 here
+        qualities: [25, 50, 75, 80, 85, 90, 100], // added 80 here
         minimumCacheTTL: 2592000,
+        unoptimized: true,
     },
 };
 

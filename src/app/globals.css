@@ -44,3 +44,12 @@ body {
 .hud-box-glow {
     box-shadow: 0 0 25px rgba(239, 68, 68, 0.2);
 }
+
+/* Globe Tooltip Reset for Minimal Tactical Chip HUD */
+.scene-tooltip {
+    background: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+    pointer-events: none !important;
+    z-index: 50 !important;
+}

@@ -14,10 +14,10 @@ export interface LocalizedContent {
 
 export interface VirusProfile {
     code: string;
-    mutationType: LocalizedContent | string;
+    mutationType: LocalizedContent;
     r0: string;
-    threatLevel: LocalizedContent | string;
-    clinicalTarget: LocalizedContent | string;
+    threatLevel: LocalizedContent;
+    clinicalTarget: LocalizedContent;
 }
 
 export interface SocietalImpact {
@@ -30,18 +30,42 @@ export interface Chapter {
     id: string;
     chapterNumber: string;
     type: "standard" | "milestone" | "side_story";
-    title: LocalizedContent | string;
-    date: LocalizedContent | string;
+    title: LocalizedContent;
+    date: LocalizedContent;
     strain: string;
-    flash: LocalizedContent | string;
+    flash: LocalizedContent;
     virusProfile: VirusProfile;
     societalImpact?: SocietalImpact;
-    description: LocalizedContent | string;
+    description: LocalizedContent;
     image: string;
     beforeImage?: string;
     afterImage?: string;
     location?: string;
     tag?: string;
+}
+
+export interface CountrySurveillanceData {
+    iso2: string;
+    name: LocalizedContent;
+    continent: string;
+    confirmedCases: number;
+    fatalities: number;
+    recoveryRate: string;
+    peakWave: LocalizedContent;
+}
+
+export interface GlobalExtremeRecord {
+    id: string;
+    iso2: string;
+    metricType: "mortality" | "survival" | "containment" | "density";
+    label: LocalizedContent;
+    countryName: LocalizedContent;
+    value: string;
+    context: LocalizedContent;
+    coordinates?: {
+        lat: number;
+        lng: number;
+    };
 }
 
 export interface SceneMedia {

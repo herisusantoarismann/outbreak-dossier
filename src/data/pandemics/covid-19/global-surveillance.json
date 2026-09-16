@@ -1,0 +1,2837 @@
+{
+  "BR": {
+    "iso2": "BR",
+    "name": {
+      "id": "Brasil",
+      "en": "Brazil"
+    },
+    "continent": "South America",
+    "confirmedCases": 37519960,
+    "fatalities": 702116,
+    "recoveryRate": "98.1%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "GB": {
+    "iso2": "GB",
+    "name": {
+      "id": "Inggris Raya",
+      "en": "United Kingdom"
+    },
+    "continent": "Europe",
+    "confirmedCases": 24942000,
+    "fatalities": 229000,
+    "recoveryRate": "98.7%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "FR": {
+    "iso2": "FR",
+    "name": {
+      "id": "Prancis",
+      "en": "France"
+    },
+    "continent": "Europe",
+    "confirmedCases": 40138000,
+    "fatalities": 167000,
+    "recoveryRate": "99.1%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "DE": {
+    "iso2": "DE",
+    "name": {
+      "id": "Jerman",
+      "en": "Germany"
+    },
+    "continent": "Europe",
+    "confirmedCases": 38437000,
+    "fatalities": 174000,
+    "recoveryRate": "99.0%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "JP": {
+    "iso2": "JP",
+    "name": {
+      "id": "Jepang",
+      "en": "Japan"
+    },
+    "continent": "Asia",
+    "confirmedCases": 33803000,
+    "fatalities": 74694,
+    "recoveryRate": "99.5%",
+    "peakWave": {
+      "id": "Agustus 2022 (BA.5)",
+      "en": "August 2022 (BA.5)"
+    }
+  },
+  "RU": {
+    "iso2": "RU",
+    "name": {
+      "id": "Rusia",
+      "en": "Russia"
+    },
+    "continent": "Europe",
+    "confirmedCases": 22900000,
+    "fatalities": 399000,
+    "recoveryRate": "97.8%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron)",
+      "en": "February 2022 (Omicron)"
+    }
+  },
+  "ZA": {
+    "iso2": "ZA",
+    "name": {
+      "id": "Afrika Selatan",
+      "en": "South Africa"
+    },
+    "continent": "Africa",
+    "confirmedCases": 4072000,
+    "fatalities": 102595,
+    "recoveryRate": "97.2%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "MX": {
+    "iso2": "MX",
+    "name": {
+      "id": "Meksiko",
+      "en": "Mexico"
+    },
+    "continent": "North America",
+    "confirmedCases": 7633000,
+    "fatalities": 334336,
+    "recoveryRate": "94.6%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "CA": {
+    "iso2": "CA",
+    "name": {
+      "id": "Kanada",
+      "en": "Canada"
+    },
+    "continent": "North America",
+    "confirmedCases": 4697000,
+    "fatalities": 53147,
+    "recoveryRate": "98.2%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "AU": {
+    "iso2": "AU",
+    "name": {
+      "id": "Australia",
+      "en": "Australia"
+    },
+    "continent": "Oceania",
+    "confirmedCases": 11811000,
+    "fatalities": 24414,
+    "recoveryRate": "99.2%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "ES": {
+    "iso2": "ES",
+    "name": {
+      "id": "Spanyol",
+      "en": "Spain"
+    },
+    "continent": "Europe",
+    "confirmedCases": 13914000,
+    "fatalities": 121760,
+    "recoveryRate": "98.8%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "KR": {
+    "iso2": "KR",
+    "name": {
+      "id": "Korea Selatan",
+      "en": "South Korea"
+    },
+    "continent": "Asia",
+    "confirmedCases": 34571000,
+    "fatalities": 35934,
+    "recoveryRate": "99.6%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron)",
+      "en": "March 2022 (Omicron)"
+    }
+  },
+  "TR": {
+    "iso2": "TR",
+    "name": {
+      "id": "Turki",
+      "en": "Turkey"
+    },
+    "continent": "Asia",
+    "confirmedCases": 17232000,
+    "fatalities": 102174,
+    "recoveryRate": "99.1%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron)",
+      "en": "February 2022 (Omicron)"
+    }
+  },
+  "VN": {
+    "iso2": "VN",
+    "name": {
+      "id": "Vietnam",
+      "en": "Vietnam"
+    },
+    "continent": "Asia",
+    "confirmedCases": 11624000,
+    "fatalities": 43206,
+    "recoveryRate": "99.3%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron)",
+      "en": "March 2022 (Omicron)"
+    }
+  },
+  "AR": {
+    "iso2": "AR",
+    "name": {
+      "id": "Argentina",
+      "en": "Argentina"
+    },
+    "continent": "South America",
+    "confirmedCases": 10044000,
+    "fatalities": 130472,
+    "recoveryRate": "98.3%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "IR": {
+    "iso2": "IR",
+    "name": {
+      "id": "Iran",
+      "en": "Iran"
+    },
+    "continent": "Asia",
+    "confirmedCases": 7627000,
+    "fatalities": 146811,
+    "recoveryRate": "97.5%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "CO": {
+    "iso2": "CO",
+    "name": {
+      "id": "Kolombia",
+      "en": "Colombia"
+    },
+    "continent": "South America",
+    "confirmedCases": 6384000,
+    "fatalities": 142727,
+    "recoveryRate": "97.4%",
+    "peakWave": {
+      "id": "Juni 2021 (Delta/Mu)",
+      "en": "June 2021 (Delta/Mu)"
+    }
+  },
+  "PL": {
+    "iso2": "PL",
+    "name": {
+      "id": "Polandia",
+      "en": "Poland"
+    },
+    "continent": "Europe",
+    "confirmedCases": 6517000,
+    "fatalities": 119626,
+    "recoveryRate": "97.9%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron)",
+      "en": "February 2022 (Omicron)"
+    }
+  },
+  "NL": {
+    "iso2": "NL",
+    "name": {
+      "id": "Belanda",
+      "en": "Netherlands"
+    },
+    "continent": "Europe",
+    "confirmedCases": 8610000,
+    "fatalities": 22992,
+    "recoveryRate": "99.4%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron)",
+      "en": "February 2022 (Omicron)"
+    }
+  },
+  "MY": {
+    "iso2": "MY",
+    "name": {
+      "id": "Malaysia",
+      "en": "Malaysia"
+    },
+    "continent": "Asia",
+    "confirmedCases": 5123000,
+    "fatalities": 37165,
+    "recoveryRate": "99.0%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron)",
+      "en": "March 2022 (Omicron)"
+    }
+  },
+  "TH": {
+    "iso2": "TH",
+    "name": {
+      "id": "Thailand",
+      "en": "Thailand"
+    },
+    "continent": "Asia",
+    "confirmedCases": 4758000,
+    "fatalities": 34488,
+    "recoveryRate": "99.1%",
+    "peakWave": {
+      "id": "April 2022 (Omicron)",
+      "en": "April 2022 (Omicron)"
+    }
+  },
+  "PH": {
+    "iso2": "PH",
+    "name": {
+      "id": "Filipina",
+      "en": "Philippines"
+    },
+    "continent": "Asia",
+    "confirmedCases": 4140000,
+    "fatalities": 66864,
+    "recoveryRate": "98.1%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "SG": {
+    "iso2": "SG",
+    "name": {
+      "id": "Singapura",
+      "en": "Singapore"
+    },
+    "continent": "Asia",
+    "confirmedCases": 2986000,
+    "fatalities": 1918,
+    "recoveryRate": "99.8%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron)",
+      "en": "March 2022 (Omicron)"
+    }
+  },
+  "EG": {
+    "iso2": "EG",
+    "name": {
+      "id": "Mesir",
+      "en": "Egypt"
+    },
+    "continent": "Africa",
+    "confirmedCases": 516000,
+    "fatalities": 24830,
+    "recoveryRate": "94.8%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron)",
+      "en": "February 2022 (Omicron)"
+    }
+  },
+  "NG": {
+    "iso2": "NG",
+    "name": {
+      "id": "Nigeria",
+      "en": "Nigeria"
+    },
+    "continent": "Africa",
+    "confirmedCases": 267000,
+    "fatalities": 3155,
+    "recoveryRate": "98.5%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "KE": {
+    "iso2": "KE",
+    "name": {
+      "id": "Kenya",
+      "en": "Kenya"
+    },
+    "continent": "Africa",
+    "confirmedCases": 344000,
+    "fatalities": 5689,
+    "recoveryRate": "98.0%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "PK": {
+    "iso2": "PK",
+    "name": {
+      "id": "Pakistan",
+      "en": "Pakistan"
+    },
+    "continent": "Asia",
+    "confirmedCases": 1581000,
+    "fatalities": 30656,
+    "recoveryRate": "97.8%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "BD": {
+    "iso2": "BD",
+    "name": {
+      "id": "Bangladesh",
+      "en": "Bangladesh"
+    },
+    "continent": "Asia",
+    "confirmedCases": 2049000,
+    "fatalities": 29493,
+    "recoveryRate": "98.3%",
+    "peakWave": {
+      "id": "Juli 2021 (Delta)",
+      "en": "July 2021 (Delta)"
+    }
+  },
+  "SA": {
+    "iso2": "SA",
+    "name": {
+      "id": "Arab Saudi",
+      "en": "Saudi Arabia"
+    },
+    "continent": "Asia",
+    "confirmedCases": 841000,
+    "fatalities": 9646,
+    "recoveryRate": "98.6%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "AE": {
+    "iso2": "AE",
+    "name": {
+      "id": "Uni Emirat Arab",
+      "en": "United Arab Emirates"
+    },
+    "continent": "Asia",
+    "confirmedCases": 1075000,
+    "fatalities": 2349,
+    "recoveryRate": "99.6%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "CL": {
+    "iso2": "CL",
+    "name": {
+      "id": "Chili",
+      "en": "Chile"
+    },
+    "continent": "South America",
+    "confirmedCases": 5289000,
+    "fatalities": 64497,
+    "recoveryRate": "98.4%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron)",
+      "en": "February 2022 (Omicron)"
+    }
+  },
+  "PE": {
+    "iso2": "PE",
+    "name": {
+      "id": "Peru",
+      "en": "Peru"
+    },
+    "continent": "South America",
+    "confirmedCases": 4524000,
+    "fatalities": 220935,
+    "recoveryRate": "94.8%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "NZ": {
+    "iso2": "NZ",
+    "name": {
+      "id": "Selandia Baru",
+      "en": "New Zealand"
+    },
+    "continent": "Oceania",
+    "confirmedCases": 2437000,
+    "fatalities": 4500,
+    "recoveryRate": "99.6%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron)",
+      "en": "March 2022 (Omicron)"
+    }
+  },
+  "IL": {
+    "iso2": "IL",
+    "name": {
+      "id": "Israel",
+      "en": "Israel"
+    },
+    "continent": "Asia",
+    "confirmedCases": 4841000,
+    "fatalities": 12564,
+    "recoveryRate": "99.5%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "UA": {
+    "iso2": "UA",
+    "name": {
+      "id": "Ukraina",
+      "en": "Ukraine"
+    },
+    "continent": "Europe",
+    "confirmedCases": 5557000,
+    "fatalities": 112459,
+    "recoveryRate": "97.5%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron)",
+      "en": "February 2022 (Omicron)"
+    }
+  },
+  "SE": {
+    "iso2": "SE",
+    "name": {
+      "id": "Swedia",
+      "en": "Sweden"
+    },
+    "continent": "Europe",
+    "confirmedCases": 2752000,
+    "fatalities": 24537,
+    "recoveryRate": "98.8%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron)",
+      "en": "February 2022 (Omicron)"
+    }
+  },
+  "NO": {
+    "iso2": "NO",
+    "name": {
+      "id": "Norwegia",
+      "en": "Norway"
+    },
+    "continent": "Europe",
+    "confirmedCases": 1508000,
+    "fatalities": 5572,
+    "recoveryRate": "99.4%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron)",
+      "en": "February 2022 (Omicron)"
+    }
+  },
+  "FI": {
+    "iso2": "FI",
+    "name": {
+      "id": "Finlandia",
+      "en": "Finland"
+    },
+    "continent": "Europe",
+    "confirmedCases": 1499000,
+    "fatalities": 10210,
+    "recoveryRate": "99.0%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron)",
+      "en": "March 2022 (Omicron)"
+    }
+  },
+  "DK": {
+    "iso2": "DK",
+    "name": {
+      "id": "Denmark",
+      "en": "Denmark"
+    },
+    "continent": "Europe",
+    "confirmedCases": 3425000,
+    "fatalities": 8767,
+    "recoveryRate": "99.6%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron)",
+      "en": "February 2022 (Omicron)"
+    }
+  },
+  "CH": {
+    "iso2": "CH",
+    "name": {
+      "id": "Swiss",
+      "en": "Switzerland"
+    },
+    "continent": "Europe",
+    "confirmedCases": 4444000,
+    "fatalities": 14452,
+    "recoveryRate": "99.5%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron)",
+      "en": "February 2022 (Omicron)"
+    }
+  },
+  "AT": {
+    "iso2": "AT",
+    "name": {
+      "id": "Austria",
+      "en": "Austria"
+    },
+    "continent": "Europe",
+    "confirmedCases": 6081000,
+    "fatalities": 22542,
+    "recoveryRate": "99.4%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron)",
+      "en": "March 2022 (Omicron)"
+    }
+  },
+  "BE": {
+    "iso2": "BE",
+    "name": {
+      "id": "Belgia",
+      "en": "Belgium"
+    },
+    "continent": "Europe",
+    "confirmedCases": 4818000,
+    "fatalities": 34339,
+    "recoveryRate": "99.0%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "PT": {
+    "iso2": "PT",
+    "name": {
+      "id": "Portugal",
+      "en": "Portugal"
+    },
+    "continent": "Europe",
+    "confirmedCases": 5618000,
+    "fatalities": 27243,
+    "recoveryRate": "99.2%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "GR": {
+    "iso2": "GR",
+    "name": {
+      "id": "Yunani",
+      "en": "Greece"
+    },
+    "continent": "Europe",
+    "confirmedCases": 5609000,
+    "fatalities": 37089,
+    "recoveryRate": "99.1%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "AF": {
+    "iso2": "AF",
+    "name": {
+      "id": "Afganistan",
+      "en": "Afghanistan"
+    },
+    "continent": "Asia",
+    "confirmedCases": 3412481,
+    "fatalities": 51187,
+    "recoveryRate": "98.3%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "AO": {
+    "iso2": "AO",
+    "name": {
+      "id": "Angola",
+      "en": "Angola"
+    },
+    "continent": "Africa",
+    "confirmedCases": 5568952,
+    "fatalities": 66827,
+    "recoveryRate": "99.2%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "AL": {
+    "iso2": "AL",
+    "name": {
+      "id": "Albania",
+      "en": "Albania"
+    },
+    "continent": "Europe",
+    "confirmedCases": 487678,
+    "fatalities": 4389,
+    "recoveryRate": "98.9%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "AM": {
+    "iso2": "AM",
+    "name": {
+      "id": "Armenia",
+      "en": "Armenia"
+    },
+    "continent": "Asia",
+    "confirmedCases": 517682,
+    "fatalities": 5177,
+    "recoveryRate": "99.0%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "AQ": {
+    "iso2": "AQ",
+    "name": {
+      "id": "Antarctica",
+      "en": "Antarctica"
+    },
+    "continent": "Antarctica",
+    "confirmedCases": 5000,
+    "fatalities": 45,
+    "recoveryRate": "99.4%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "TF": {
+    "iso2": "TF",
+    "name": {
+      "id": "Fr. S. Antarctic Lands",
+      "en": "Fr. S. Antarctic Lands"
+    },
+    "continent": "Seven seas (open ocean)",
+    "confirmedCases": 5000,
+    "fatalities": 45,
+    "recoveryRate": "98.4%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "AZ": {
+    "iso2": "AZ",
+    "name": {
+      "id": "Azerbaijan",
+      "en": "Azerbaijan"
+    },
+    "continent": "Asia",
+    "confirmedCases": 996140,
+    "fatalities": 10958,
+    "recoveryRate": "97.5%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "BI": {
+    "iso2": "BI",
+    "name": {
+      "id": "Burundi",
+      "en": "Burundi"
+    },
+    "continent": "Africa",
+    "confirmedCases": 2752021,
+    "fatalities": 35776,
+    "recoveryRate": "98.9%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "BJ": {
+    "iso2": "BJ",
+    "name": {
+      "id": "Benin",
+      "en": "Benin"
+    },
+    "continent": "Africa",
+    "confirmedCases": 551940,
+    "fatalities": 7727,
+    "recoveryRate": "99.0%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "BF": {
+    "iso2": "BF",
+    "name": {
+      "id": "Burkina Faso",
+      "en": "Burkina Faso"
+    },
+    "continent": "Africa",
+    "confirmedCases": 4222577,
+    "fatalities": 42226,
+    "recoveryRate": "98.6%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "BG": {
+    "iso2": "BG",
+    "name": {
+      "id": "Bulgaria",
+      "en": "Bulgaria"
+    },
+    "continent": "Europe",
+    "confirmedCases": 1562332,
+    "fatalities": 17186,
+    "recoveryRate": "98.7%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "BS": {
+    "iso2": "BS",
+    "name": {
+      "id": "Bahama",
+      "en": "Bahamas"
+    },
+    "continent": "North America",
+    "confirmedCases": 46198,
+    "fatalities": 508,
+    "recoveryRate": "97.1%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "BA": {
+    "iso2": "BA",
+    "name": {
+      "id": "Bosnia dan Herzegovina",
+      "en": "Bosnia and Herz."
+    },
+    "continent": "Europe",
+    "confirmedCases": 616989,
+    "fatalities": 10489,
+    "recoveryRate": "98.1%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "BY": {
+    "iso2": "BY",
+    "name": {
+      "id": "Belarus",
+      "en": "Belarus"
+    },
+    "continent": "Europe",
+    "confirmedCases": 1909949,
+    "fatalities": 32469,
+    "recoveryRate": "97.7%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "BZ": {
+    "iso2": "BZ",
+    "name": {
+      "id": "Belize",
+      "en": "Belize"
+    },
+    "continent": "North America",
+    "confirmedCases": 75673,
+    "fatalities": 454,
+    "recoveryRate": "97.8%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "BO": {
+    "iso2": "BO",
+    "name": {
+      "id": "Bolivia",
+      "en": "Bolivia"
+    },
+    "continent": "South America",
+    "confirmedCases": 1113823,
+    "fatalities": 7797,
+    "recoveryRate": "99.5%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "BN": {
+    "iso2": "BN",
+    "name": {
+      "id": "Brunei",
+      "en": "Brunei"
+    },
+    "continent": "Asia",
+    "confirmedCases": 39923,
+    "fatalities": 240,
+    "recoveryRate": "99.4%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "BT": {
+    "iso2": "BT",
+    "name": {
+      "id": "Bhutan",
+      "en": "Bhutan"
+    },
+    "continent": "Asia",
+    "confirmedCases": 113743,
+    "fatalities": 1365,
+    "recoveryRate": "97.2%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "BW": {
+    "iso2": "BW",
+    "name": {
+      "id": "Botswana",
+      "en": "Botswana"
+    },
+    "continent": "Africa",
+    "confirmedCases": 398674,
+    "fatalities": 5980,
+    "recoveryRate": "97.5%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "CF": {
+    "iso2": "CF",
+    "name": {
+      "id": "Republik Afrika Tengah",
+      "en": "Central African Rep."
+    },
+    "continent": "Africa",
+    "confirmedCases": 675014,
+    "fatalities": 11475,
+    "recoveryRate": "98.9%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "CN": {
+    "iso2": "CN",
+    "name": {
+      "id": "Tiongkok",
+      "en": "China"
+    },
+    "continent": "Asia",
+    "confirmedCases": 275860554,
+    "fatalities": 3586187,
+    "recoveryRate": "99.7%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "CI": {
+    "iso2": "CI",
+    "name": {
+      "id": "Pantai Gading",
+      "en": "Côte d'Ivoire"
+    },
+    "continent": "Africa",
+    "confirmedCases": 3627722,
+    "fatalities": 29022,
+    "recoveryRate": "99.2%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "CM": {
+    "iso2": "CM",
+    "name": {
+      "id": "Kamerun",
+      "en": "Cameroon"
+    },
+    "continent": "Africa",
+    "confirmedCases": 4749028,
+    "fatalities": 56988,
+    "recoveryRate": "99.6%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "CD": {
+    "iso2": "CD",
+    "name": {
+      "id": "Republik Demokratik Kongo",
+      "en": "Dem. Rep. Congo"
+    },
+    "continent": "Africa",
+    "confirmedCases": 8330115,
+    "fatalities": 124952,
+    "recoveryRate": "98.7%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "CG": {
+    "iso2": "CG",
+    "name": {
+      "id": "Kongo",
+      "en": "Congo"
+    },
+    "continent": "Africa",
+    "confirmedCases": 644108,
+    "fatalities": 3865,
+    "recoveryRate": "99.0%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "CR": {
+    "iso2": "CR",
+    "name": {
+      "id": "Kosta Rika",
+      "en": "Costa Rica"
+    },
+    "continent": "North America",
+    "confirmedCases": 1183262,
+    "fatalities": 20115,
+    "recoveryRate": "97.3%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "CU": {
+    "iso2": "CU",
+    "name": {
+      "id": "Kuba",
+      "en": "Cuba"
+    },
+    "continent": "North America",
+    "confirmedCases": 780318,
+    "fatalities": 6243,
+    "recoveryRate": "97.6%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "CY": {
+    "iso2": "CY",
+    "name": {
+      "id": "Siprus",
+      "en": "N. Cyprus"
+    },
+    "continent": "Asia",
+    "confirmedCases": 29161,
+    "fatalities": 350,
+    "recoveryRate": "98.0%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "CZ": {
+    "iso2": "CZ",
+    "name": {
+      "id": "Ceko",
+      "en": "Czechia"
+    },
+    "continent": "Europe",
+    "confirmedCases": 1280967,
+    "fatalities": 16653,
+    "recoveryRate": "98.1%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "DJ": {
+    "iso2": "DJ",
+    "name": {
+      "id": "Jibuti",
+      "en": "Djibouti"
+    },
+    "continent": "Africa",
+    "confirmedCases": 60569,
+    "fatalities": 969,
+    "recoveryRate": "99.6%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "DO": {
+    "iso2": "DO",
+    "name": {
+      "id": "Republik Dominika",
+      "en": "Dominican Rep."
+    },
+    "continent": "North America",
+    "confirmedCases": 1288110,
+    "fatalities": 11593,
+    "recoveryRate": "97.3%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "DZ": {
+    "iso2": "DZ",
+    "name": {
+      "id": "Aljazair",
+      "en": "Algeria"
+    },
+    "continent": "Africa",
+    "confirmedCases": 9422972,
+    "fatalities": 75384,
+    "recoveryRate": "98.4%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "EC": {
+    "iso2": "EC",
+    "name": {
+      "id": "Ekuador",
+      "en": "Ecuador"
+    },
+    "continent": "South America",
+    "confirmedCases": 1792000,
+    "fatalities": 28672,
+    "recoveryRate": "99.2%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "ER": {
+    "iso2": "ER",
+    "name": {
+      "id": "Eritrea",
+      "en": "Eritrea"
+    },
+    "continent": "Africa",
+    "confirmedCases": 355135,
+    "fatalities": 2486,
+    "recoveryRate": "97.9%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "EE": {
+    "iso2": "EE",
+    "name": {
+      "id": "Estonia",
+      "en": "Estonia"
+    },
+    "continent": "Europe",
+    "confirmedCases": 162706,
+    "fatalities": 976,
+    "recoveryRate": "99.4%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "ET": {
+    "iso2": "ET",
+    "name": {
+      "id": "Etiopia",
+      "en": "Ethiopia"
+    },
+    "continent": "Africa",
+    "confirmedCases": 8428002,
+    "fatalities": 75852,
+    "recoveryRate": "98.1%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "FJ": {
+    "iso2": "FJ",
+    "name": {
+      "id": "Fiji",
+      "en": "Fiji"
+    },
+    "continent": "Oceania",
+    "confirmedCases": 82884,
+    "fatalities": 497,
+    "recoveryRate": "97.4%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "FK": {
+    "iso2": "FK",
+    "name": {
+      "id": "Falkland Is.",
+      "en": "Falkland Is."
+    },
+    "continent": "South America",
+    "confirmedCases": 5000,
+    "fatalities": 45,
+    "recoveryRate": "97.5%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "GA": {
+    "iso2": "GA",
+    "name": {
+      "id": "Gabon",
+      "en": "Gabon"
+    },
+    "continent": "Africa",
+    "confirmedCases": 194948,
+    "fatalities": 3119,
+    "recoveryRate": "99.6%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "GE": {
+    "iso2": "GE",
+    "name": {
+      "id": "Georgia",
+      "en": "Georgia"
+    },
+    "continent": "Asia",
+    "confirmedCases": 738950,
+    "fatalities": 5912,
+    "recoveryRate": "97.2%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "GH": {
+    "iso2": "GH",
+    "name": {
+      "id": "Ghana",
+      "en": "Ghana"
+    },
+    "continent": "Africa",
+    "confirmedCases": 4949986,
+    "fatalities": 54450,
+    "recoveryRate": "97.5%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "GN": {
+    "iso2": "GN",
+    "name": {
+      "id": "Guinea",
+      "en": "Guinea"
+    },
+    "continent": "Africa",
+    "confirmedCases": 2979328,
+    "fatalities": 50649,
+    "recoveryRate": "98.1%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "GM": {
+    "iso2": "GM",
+    "name": {
+      "id": "Gambia",
+      "en": "Gambia"
+    },
+    "continent": "Africa",
+    "confirmedCases": 471813,
+    "fatalities": 7549,
+    "recoveryRate": "98.0%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "GW": {
+    "iso2": "GW",
+    "name": {
+      "id": "Guinea-Bissau",
+      "en": "Guinea-Bissau"
+    },
+    "continent": "Africa",
+    "confirmedCases": 233004,
+    "fatalities": 3262,
+    "recoveryRate": "99.0%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "GQ": {
+    "iso2": "GQ",
+    "name": {
+      "id": "Guinea Khatulistiwa",
+      "en": "Eq. Guinea"
+    },
+    "continent": "Africa",
+    "confirmedCases": 54485,
+    "fatalities": 436,
+    "recoveryRate": "98.4%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "GL": {
+    "iso2": "GL",
+    "name": {
+      "id": "Greenland",
+      "en": "Greenland"
+    },
+    "continent": "North America",
+    "confirmedCases": 12697,
+    "fatalities": 190,
+    "recoveryRate": "97.9%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "GT": {
+    "iso2": "GT",
+    "name": {
+      "id": "Guatemala",
+      "en": "Guatemala"
+    },
+    "continent": "North America",
+    "confirmedCases": 1546073,
+    "fatalities": 17007,
+    "recoveryRate": "98.7%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "GY": {
+    "iso2": "GY",
+    "name": {
+      "id": "Guyana",
+      "en": "Guyana"
+    },
+    "continent": "South America",
+    "confirmedCases": 110658,
+    "fatalities": 1771,
+    "recoveryRate": "99.2%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "HN": {
+    "iso2": "HN",
+    "name": {
+      "id": "Honduras",
+      "en": "Honduras"
+    },
+    "continent": "North America",
+    "confirmedCases": 1355811,
+    "fatalities": 16270,
+    "recoveryRate": "98.4%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "HR": {
+    "iso2": "HR",
+    "name": {
+      "id": "Kroasia",
+      "en": "Croatia"
+    },
+    "continent": "Europe",
+    "confirmedCases": 815498,
+    "fatalities": 13048,
+    "recoveryRate": "98.8%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "HT": {
+    "iso2": "HT",
+    "name": {
+      "id": "Haiti",
+      "en": "Haiti"
+    },
+    "continent": "North America",
+    "confirmedCases": 2235810,
+    "fatalities": 13415,
+    "recoveryRate": "99.0%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "HU": {
+    "iso2": "HU",
+    "name": {
+      "id": "Hongaria",
+      "en": "Hungary"
+    },
+    "continent": "Europe",
+    "confirmedCases": 2167186,
+    "fatalities": 15170,
+    "recoveryRate": "99.1%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "ID": {
+    "iso2": "ID",
+    "name": {
+      "id": "Indonesia",
+      "en": "Indonesia"
+    },
+    "continent": "Asia",
+    "confirmedCases": 41692918,
+    "fatalities": 375236,
+    "recoveryRate": "97.7%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "IN": {
+    "iso2": "IN",
+    "name": {
+      "id": "India",
+      "en": "India"
+    },
+    "continent": "Asia",
+    "confirmedCases": 76916155,
+    "fatalities": 538413,
+    "recoveryRate": "98.7%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "IE": {
+    "iso2": "IE",
+    "name": {
+      "id": "Irlandia",
+      "en": "Ireland"
+    },
+    "continent": "Europe",
+    "confirmedCases": 851887,
+    "fatalities": 8519,
+    "recoveryRate": "97.8%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "IQ": {
+    "iso2": "IQ",
+    "name": {
+      "id": "Irak",
+      "en": "Iraq"
+    },
+    "continent": "Asia",
+    "confirmedCases": 3527290,
+    "fatalities": 35273,
+    "recoveryRate": "99.0%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "IS": {
+    "iso2": "IS",
+    "name": {
+      "id": "Islandia",
+      "en": "Iceland"
+    },
+    "continent": "Europe",
+    "confirmedCases": 37372,
+    "fatalities": 448,
+    "recoveryRate": "99.2%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "IT": {
+    "iso2": "IT",
+    "name": {
+      "id": "Italia",
+      "en": "Italy"
+    },
+    "continent": "Europe",
+    "confirmedCases": 7456536,
+    "fatalities": 96935,
+    "recoveryRate": "99.3%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "JM": {
+    "iso2": "JM",
+    "name": {
+      "id": "Jamaika",
+      "en": "Jamaica"
+    },
+    "continent": "North America",
+    "confirmedCases": 478490,
+    "fatalities": 6220,
+    "recoveryRate": "98.9%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "JO": {
+    "iso2": "JO",
+    "name": {
+      "id": "Yordania",
+      "en": "Jordan"
+    },
+    "continent": "Asia",
+    "confirmedCases": 1844652,
+    "fatalities": 27670,
+    "recoveryRate": "99.1%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "KZ": {
+    "iso2": "KZ",
+    "name": {
+      "id": "Kazakhstan",
+      "en": "Kazakhstan"
+    },
+    "continent": "Asia",
+    "confirmedCases": 3711340,
+    "fatalities": 33402,
+    "recoveryRate": "97.7%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "KG": {
+    "iso2": "KG",
+    "name": {
+      "id": "Kirgizstan",
+      "en": "Kyrgyzstan"
+    },
+    "continent": "Asia",
+    "confirmedCases": 1215716,
+    "fatalities": 17020,
+    "recoveryRate": "98.6%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "KH": {
+    "iso2": "KH",
+    "name": {
+      "id": "Kamboja",
+      "en": "Cambodia"
+    },
+    "continent": "Asia",
+    "confirmedCases": 3564987,
+    "fatalities": 53475,
+    "recoveryRate": "98.7%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "XK": {
+    "iso2": "XK",
+    "name": {
+      "id": "Kosovo",
+      "en": "Kosovo"
+    },
+    "continent": "Europe",
+    "confirmedCases": 151620,
+    "fatalities": 1971,
+    "recoveryRate": "97.3%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "KW": {
+    "iso2": "KW",
+    "name": {
+      "id": "Kuwait",
+      "en": "Kuwait"
+    },
+    "continent": "Asia",
+    "confirmedCases": 488822,
+    "fatalities": 2933,
+    "recoveryRate": "97.4%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "LA": {
+    "iso2": "LA",
+    "name": {
+      "id": "Laos",
+      "en": "Laos"
+    },
+    "continent": "Asia",
+    "confirmedCases": 427602,
+    "fatalities": 6414,
+    "recoveryRate": "98.3%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "LB": {
+    "iso2": "LB",
+    "name": {
+      "id": "Lebanon",
+      "en": "Lebanon"
+    },
+    "continent": "Asia",
+    "confirmedCases": 436086,
+    "fatalities": 6977,
+    "recoveryRate": "98.4%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "LR": {
+    "iso2": "LR",
+    "name": {
+      "id": "Liberia",
+      "en": "Liberia"
+    },
+    "continent": "Africa",
+    "confirmedCases": 1078475,
+    "fatalities": 8628,
+    "recoveryRate": "97.2%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "LY": {
+    "iso2": "LY",
+    "name": {
+      "id": "Libya",
+      "en": "Libya"
+    },
+    "continent": "Africa",
+    "confirmedCases": 665321,
+    "fatalities": 9980,
+    "recoveryRate": "97.9%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "LK": {
+    "iso2": "LK",
+    "name": {
+      "id": "Sri Lanka",
+      "en": "Sri Lanka"
+    },
+    "continent": "Asia",
+    "confirmedCases": 3585501,
+    "fatalities": 46612,
+    "recoveryRate": "99.3%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "LS": {
+    "iso2": "LS",
+    "name": {
+      "id": "Lesotho",
+      "en": "Lesotho"
+    },
+    "continent": "Africa",
+    "confirmedCases": 469930,
+    "fatalities": 4229,
+    "recoveryRate": "97.3%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "LT": {
+    "iso2": "LT",
+    "name": {
+      "id": "Lituania",
+      "en": "Lithuania"
+    },
+    "continent": "Europe",
+    "confirmedCases": 141193,
+    "fatalities": 1412,
+    "recoveryRate": "97.4%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "LU": {
+    "iso2": "LU",
+    "name": {
+      "id": "Luksemburg",
+      "en": "Luxembourg"
+    },
+    "continent": "Europe",
+    "confirmedCases": 35648,
+    "fatalities": 392,
+    "recoveryRate": "97.5%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "LV": {
+    "iso2": "LV",
+    "name": {
+      "id": "Latvia",
+      "en": "Latvia"
+    },
+    "continent": "Europe",
+    "confirmedCases": 136125,
+    "fatalities": 1634,
+    "recoveryRate": "97.6%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "MA": {
+    "iso2": "MA",
+    "name": {
+      "id": "Maroko",
+      "en": "Morocco"
+    },
+    "continent": "Africa",
+    "confirmedCases": 5777731,
+    "fatalities": 57777,
+    "recoveryRate": "98.6%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "MD": {
+    "iso2": "MD",
+    "name": {
+      "id": "Moldova",
+      "en": "Moldova"
+    },
+    "continent": "Europe",
+    "confirmedCases": 694824,
+    "fatalities": 9033,
+    "recoveryRate": "98.9%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "MG": {
+    "iso2": "MG",
+    "name": {
+      "id": "Madagaskar",
+      "en": "Madagascar"
+    },
+    "continent": "Africa",
+    "confirmedCases": 5762457,
+    "fatalities": 92199,
+    "recoveryRate": "99.2%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "MK": {
+    "iso2": "MK",
+    "name": {
+      "id": "Makedonia Utara",
+      "en": "Macedonia"
+    },
+    "continent": "Europe",
+    "confirmedCases": 147260,
+    "fatalities": 1178,
+    "recoveryRate": "99.6%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "ML": {
+    "iso2": "ML",
+    "name": {
+      "id": "Mali",
+      "en": "Mali"
+    },
+    "continent": "Africa",
+    "confirmedCases": 1430820,
+    "fatalities": 12877,
+    "recoveryRate": "99.7%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "MM": {
+    "iso2": "MM",
+    "name": {
+      "id": "Myanmar",
+      "en": "Myanmar"
+    },
+    "continent": "Asia",
+    "confirmedCases": 4961143,
+    "fatalities": 49611,
+    "recoveryRate": "97.0%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "ME": {
+    "iso2": "ME",
+    "name": {
+      "id": "Montenegro",
+      "en": "Montenegro"
+    },
+    "continent": "Europe",
+    "confirmedCases": 134936,
+    "fatalities": 1889,
+    "recoveryRate": "99.0%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "MN": {
+    "iso2": "MN",
+    "name": {
+      "id": "Mongolia",
+      "en": "Mongolia"
+    },
+    "continent": "Asia",
+    "confirmedCases": 306824,
+    "fatalities": 3375,
+    "recoveryRate": "97.1%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "MZ": {
+    "iso2": "MZ",
+    "name": {
+      "id": "Mozambik",
+      "en": "Mozambique"
+    },
+    "continent": "Africa",
+    "confirmedCases": 5846215,
+    "fatalities": 64308,
+    "recoveryRate": "98.3%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "MR": {
+    "iso2": "MR",
+    "name": {
+      "id": "Mauritania",
+      "en": "Mauritania"
+    },
+    "continent": "Africa",
+    "confirmedCases": 526200,
+    "fatalities": 7893,
+    "recoveryRate": "97.5%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "MW": {
+    "iso2": "MW",
+    "name": {
+      "id": "Malawi",
+      "en": "Malawi"
+    },
+    "continent": "Africa",
+    "confirmedCases": 3647287,
+    "fatalities": 29178,
+    "recoveryRate": "98.0%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "NA": {
+    "iso2": "NA",
+    "name": {
+      "id": "Namibia",
+      "en": "Namibia"
+    },
+    "continent": "Africa",
+    "confirmedCases": 198782,
+    "fatalities": 3379,
+    "recoveryRate": "98.9%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "NC": {
+    "iso2": "NC",
+    "name": {
+      "id": "New Caledonia",
+      "en": "New Caledonia"
+    },
+    "continent": "Oceania",
+    "confirmedCases": 27907,
+    "fatalities": 195,
+    "recoveryRate": "99.1%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "NE": {
+    "iso2": "NE",
+    "name": {
+      "id": "Niger",
+      "en": "Niger"
+    },
+    "continent": "Africa",
+    "confirmedCases": 2309441,
+    "fatalities": 20785,
+    "recoveryRate": "99.3%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "NI": {
+    "iso2": "NI",
+    "name": {
+      "id": "Nikaragua",
+      "en": "Nicaragua"
+    },
+    "continent": "North America",
+    "confirmedCases": 964152,
+    "fatalities": 12534,
+    "recoveryRate": "99.7%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "NP": {
+    "iso2": "NP",
+    "name": {
+      "id": "Nepal",
+      "en": "Nepal"
+    },
+    "continent": "Asia",
+    "confirmedCases": 6758388,
+    "fatalities": 54067,
+    "recoveryRate": "97.6%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "OM": {
+    "iso2": "OM",
+    "name": {
+      "id": "Oman",
+      "en": "Oman"
+    },
+    "continent": "Asia",
+    "confirmedCases": 376682,
+    "fatalities": 4520,
+    "recoveryRate": "97.6%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "PA": {
+    "iso2": "PA",
+    "name": {
+      "id": "Panama",
+      "en": "Panama"
+    },
+    "continent": "North America",
+    "confirmedCases": 375314,
+    "fatalities": 2627,
+    "recoveryRate": "99.5%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "PG": {
+    "iso2": "PG",
+    "name": {
+      "id": "Papua Nugini",
+      "en": "Papua New Guinea"
+    },
+    "continent": "Oceania",
+    "confirmedCases": 1105552,
+    "fatalities": 14372,
+    "recoveryRate": "97.3%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "PR": {
+    "iso2": "PR",
+    "name": {
+      "id": "Puerto Rico",
+      "en": "Puerto Rico"
+    },
+    "continent": "North America",
+    "confirmedCases": 234628,
+    "fatalities": 2816,
+    "recoveryRate": "98.4%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "KP": {
+    "iso2": "KP",
+    "name": {
+      "id": "Korea Utara",
+      "en": "North Korea"
+    },
+    "continent": "Asia",
+    "confirmedCases": 2524814,
+    "fatalities": 27773,
+    "recoveryRate": "99.5%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "PY": {
+    "iso2": "PY",
+    "name": {
+      "id": "Paraguay",
+      "en": "Paraguay"
+    },
+    "continent": "South America",
+    "confirmedCases": 972123,
+    "fatalities": 6805,
+    "recoveryRate": "99.1%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "PS": {
+    "iso2": "PS",
+    "name": {
+      "id": "Palestina",
+      "en": "Palestine"
+    },
+    "continent": "Asia",
+    "confirmedCases": 363450,
+    "fatalities": 4725,
+    "recoveryRate": "98.5%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "QA": {
+    "iso2": "QA",
+    "name": {
+      "id": "Qatar",
+      "en": "Qatar"
+    },
+    "continent": "Asia",
+    "confirmedCases": 486004,
+    "fatalities": 6804,
+    "recoveryRate": "97.0%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "RO": {
+    "iso2": "RO",
+    "name": {
+      "id": "Rumania",
+      "en": "Romania"
+    },
+    "continent": "Europe",
+    "confirmedCases": 1291798,
+    "fatalities": 14210,
+    "recoveryRate": "98.7%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "RW": {
+    "iso2": "RW",
+    "name": {
+      "id": "Rwanda",
+      "en": "Rwanda"
+    },
+    "continent": "Africa",
+    "confirmedCases": 1666208,
+    "fatalities": 11663,
+    "recoveryRate": "99.5%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "EH": {
+    "iso2": "EH",
+    "name": {
+      "id": "W. Sahara",
+      "en": "W. Sahara"
+    },
+    "continent": "Africa",
+    "confirmedCases": 96520,
+    "fatalities": 869,
+    "recoveryRate": "99.7%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "SD": {
+    "iso2": "SD",
+    "name": {
+      "id": "Sudan",
+      "en": "Sudan"
+    },
+    "continent": "Africa",
+    "confirmedCases": 2240756,
+    "fatalities": 15685,
+    "recoveryRate": "97.9%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "SS": {
+    "iso2": "SS",
+    "name": {
+      "id": "Sudan Selatan",
+      "en": "S. Sudan"
+    },
+    "continent": "Africa",
+    "confirmedCases": 2735487,
+    "fatalities": 27355,
+    "recoveryRate": "99.4%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "SN": {
+    "iso2": "SN",
+    "name": {
+      "id": "Senegal",
+      "en": "Senegal"
+    },
+    "continent": "Africa",
+    "confirmedCases": 2346964,
+    "fatalities": 39898,
+    "recoveryRate": "98.9%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "SB": {
+    "iso2": "SB",
+    "name": {
+      "id": "Solomon Is.",
+      "en": "Solomon Is."
+    },
+    "continent": "Oceania",
+    "confirmedCases": 155419,
+    "fatalities": 2642,
+    "recoveryRate": "97.7%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "SL": {
+    "iso2": "SL",
+    "name": {
+      "id": "Sierra Leone",
+      "en": "Sierra Leone"
+    },
+    "continent": "Africa",
+    "confirmedCases": 862847,
+    "fatalities": 12943,
+    "recoveryRate": "98.7%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "SV": {
+    "iso2": "SV",
+    "name": {
+      "id": "El Salvador",
+      "en": "El Salvador"
+    },
+    "continent": "North America",
+    "confirmedCases": 1481283,
+    "fatalities": 19257,
+    "recoveryRate": "99.7%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "SO": {
+    "iso2": "SO",
+    "name": {
+      "id": "Somalia",
+      "en": "Somaliland"
+    },
+    "continent": "Africa",
+    "confirmedCases": 595000,
+    "fatalities": 3570,
+    "recoveryRate": "99.0%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "RS": {
+    "iso2": "RS",
+    "name": {
+      "id": "Serbia",
+      "en": "Serbia"
+    },
+    "continent": "Europe",
+    "confirmedCases": 711102,
+    "fatalities": 10667,
+    "recoveryRate": "99.1%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "SR": {
+    "iso2": "SR",
+    "name": {
+      "id": "Suriname",
+      "en": "Suriname"
+    },
+    "continent": "South America",
+    "confirmedCases": 118384,
+    "fatalities": 1065,
+    "recoveryRate": "99.3%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "SK": {
+    "iso2": "SK",
+    "name": {
+      "id": "Slowakia",
+      "en": "Slovakia"
+    },
+    "continent": "Europe",
+    "confirmedCases": 707958,
+    "fatalities": 9911,
+    "recoveryRate": "98.6%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "SI": {
+    "iso2": "SI",
+    "name": {
+      "id": "Slovenia",
+      "en": "Slovenia"
+    },
+    "continent": "Europe",
+    "confirmedCases": 216934,
+    "fatalities": 2603,
+    "recoveryRate": "98.4%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "SZ": {
+    "iso2": "SZ",
+    "name": {
+      "id": "Eswatini",
+      "en": "Swaziland"
+    },
+    "continent": "Africa",
+    "confirmedCases": 117372,
+    "fatalities": 1995,
+    "recoveryRate": "97.3%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "SY": {
+    "iso2": "SY",
+    "name": {
+      "id": "Suriah",
+      "en": "Syria"
+    },
+    "continent": "Asia",
+    "confirmedCases": 1261998,
+    "fatalities": 20192,
+    "recoveryRate": "97.2%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "TD": {
+    "iso2": "TD",
+    "name": {
+      "id": "Chad",
+      "en": "Chad"
+    },
+    "continent": "Africa",
+    "confirmedCases": 2052917,
+    "fatalities": 28741,
+    "recoveryRate": "98.2%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "TG": {
+    "iso2": "TG",
+    "name": {
+      "id": "Togo",
+      "en": "Togo"
+    },
+    "continent": "Africa",
+    "confirmedCases": 1593011,
+    "fatalities": 27081,
+    "recoveryRate": "98.5%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "TJ": {
+    "iso2": "TJ",
+    "name": {
+      "id": "Tajikistan",
+      "en": "Tajikistan"
+    },
+    "continent": "Asia",
+    "confirmedCases": 1947768,
+    "fatalities": 15582,
+    "recoveryRate": "98.8%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "TM": {
+    "iso2": "TM",
+    "name": {
+      "id": "Turkmenistan",
+      "en": "Turkmenistan"
+    },
+    "continent": "Asia",
+    "confirmedCases": 321077,
+    "fatalities": 3532,
+    "recoveryRate": "99.1%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "TL": {
+    "iso2": "TL",
+    "name": {
+      "id": "Timor Leste",
+      "en": "Timor-Leste"
+    },
+    "continent": "Asia",
+    "confirmedCases": 64568,
+    "fatalities": 646,
+    "recoveryRate": "99.0%",
+    "peakWave": {
+      "id": "Desember 2021 (Omicron)",
+      "en": "December 2021 (Omicron)"
+    }
+  },
+  "TT": {
+    "iso2": "TT",
+    "name": {
+      "id": "Trinidad dan Tobago",
+      "en": "Trinidad and Tobago"
+    },
+    "continent": "North America",
+    "confirmedCases": 158367,
+    "fatalities": 950,
+    "recoveryRate": "97.0%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "TN": {
+    "iso2": "TN",
+    "name": {
+      "id": "Tunisia",
+      "en": "Tunisia"
+    },
+    "continent": "Africa",
+    "confirmedCases": 798266,
+    "fatalities": 9579,
+    "recoveryRate": "99.2%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "TW": {
+    "iso2": "TW",
+    "name": {
+      "id": "Taiwan",
+      "en": "Taiwan"
+    },
+    "continent": "Asia",
+    "confirmedCases": 3761348,
+    "fatalities": 33852,
+    "recoveryRate": "97.3%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "TZ": {
+    "iso2": "TZ",
+    "name": {
+      "id": "Tanzania",
+      "en": "Tanzania"
+    },
+    "continent": "Africa",
+    "confirmedCases": 10250678,
+    "fatalities": 123008,
+    "recoveryRate": "97.6%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "UG": {
+    "iso2": "UG",
+    "name": {
+      "id": "Uganda",
+      "en": "Uganda"
+    },
+    "continent": "Africa",
+    "confirmedCases": 4352714,
+    "fatalities": 52233,
+    "recoveryRate": "98.8%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "UY": {
+    "iso2": "UY",
+    "name": {
+      "id": "Uruguay",
+      "en": "Uruguay"
+    },
+    "continent": "South America",
+    "confirmedCases": 302413,
+    "fatalities": 1814,
+    "recoveryRate": "97.8%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "US": {
+    "iso2": "US",
+    "name": {
+      "id": "Amerika Serikat",
+      "en": "United States of America"
+    },
+    "continent": "North America",
+    "confirmedCases": 75123932,
+    "fatalities": 901487,
+    "recoveryRate": "97.2%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "UZ": {
+    "iso2": "UZ",
+    "name": {
+      "id": "Uzbekistan",
+      "en": "Uzbekistan"
+    },
+    "continent": "Asia",
+    "confirmedCases": 2974886,
+    "fatalities": 20824,
+    "recoveryRate": "97.9%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron BA.1)",
+      "en": "February 2022 (Omicron BA.1)"
+    }
+  },
+  "VE": {
+    "iso2": "VE",
+    "name": {
+      "id": "Venezuela",
+      "en": "Venezuela"
+    },
+    "continent": "South America",
+    "confirmedCases": 6260803,
+    "fatalities": 106434,
+    "recoveryRate": "98.9%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "VU": {
+    "iso2": "VU",
+    "name": {
+      "id": "Vanuatu",
+      "en": "Vanuatu"
+    },
+    "continent": "Oceania",
+    "confirmedCases": 45250,
+    "fatalities": 407,
+    "recoveryRate": "97.7%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "YE": {
+    "iso2": "YE",
+    "name": {
+      "id": "Yaman",
+      "en": "Yemen"
+    },
+    "continent": "Asia",
+    "confirmedCases": 3644788,
+    "fatalities": 51027,
+    "recoveryRate": "97.0%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "ZM": {
+    "iso2": "ZM",
+    "name": {
+      "id": "Zambia",
+      "en": "Zambia"
+    },
+    "continent": "Africa",
+    "confirmedCases": 1916640,
+    "fatalities": 32583,
+    "recoveryRate": "98.1%",
+    "peakWave": {
+      "id": "Juli 2022 (BA.5)",
+      "en": "July 2022 (BA.5)"
+    }
+  },
+  "ZW": {
+    "iso2": "ZW",
+    "name": {
+      "id": "Zimbabwe",
+      "en": "Zimbabwe"
+    },
+    "continent": "Africa",
+    "confirmedCases": 3037118,
+    "fatalities": 45557,
+    "recoveryRate": "99.1%",
+    "peakWave": {
+      "id": "Agustus 2021 (Delta)",
+      "en": "August 2021 (Delta)"
+    }
+  },
+  "HK": {
+    "iso2": "HK",
+    "name": {
+      "id": "Hong Kong",
+      "en": "Hong Kong"
+    },
+    "continent": "Asia",
+    "confirmedCases": 2870000,
+    "fatalities": 13100,
+    "recoveryRate": "99.2%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron BA.2)",
+      "en": "March 2022 (Omicron BA.2)"
+    }
+  },
+  "MO": {
+    "iso2": "MO",
+    "name": {
+      "id": "Makau",
+      "en": "Macau"
+    },
+    "continent": "Asia",
+    "confirmedCases": 82000,
+    "fatalities": 120,
+    "recoveryRate": "99.8%",
+    "peakWave": {
+      "id": "Desember 2022",
+      "en": "December 2022"
+    }
+  },
+  "MT": {
+    "iso2": "MT",
+    "name": {
+      "id": "Malta",
+      "en": "Malta"
+    },
+    "continent": "Europe",
+    "confirmedCases": 118000,
+    "fatalities": 840,
+    "recoveryRate": "99.1%",
+    "peakWave": {
+      "id": "April 2022 (Omicron)",
+      "en": "April 2022 (Omicron)"
+    }
+  },
+  "MC": {
+    "iso2": "MC",
+    "name": {
+      "id": "Monako",
+      "en": "Monaco"
+    },
+    "continent": "Europe",
+    "confirmedCases": 16500,
+    "fatalities": 67,
+    "recoveryRate": "99.4%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "AD": {
+    "iso2": "AD",
+    "name": {
+      "id": "Andorra",
+      "en": "Andorra"
+    },
+    "continent": "Europe",
+    "confirmedCases": 48000,
+    "fatalities": 159,
+    "recoveryRate": "99.5%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "SM": {
+    "iso2": "SM",
+    "name": {
+      "id": "San Marino",
+      "en": "San Marino"
+    },
+    "continent": "Europe",
+    "confirmedCases": 24000,
+    "fatalities": 125,
+    "recoveryRate": "99.3%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "LI": {
+    "iso2": "LI",
+    "name": {
+      "id": "Liechtenstein",
+      "en": "Liechtenstein"
+    },
+    "continent": "Europe",
+    "confirmedCases": 21400,
+    "fatalities": 89,
+    "recoveryRate": "99.4%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron)",
+      "en": "February 2022 (Omicron)"
+    }
+  },
+  "MV": {
+    "iso2": "MV",
+    "name": {
+      "id": "Maladewa",
+      "en": "Maldives"
+    },
+    "continent": "Asia",
+    "confirmedCases": 186000,
+    "fatalities": 316,
+    "recoveryRate": "99.7%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "MU": {
+    "iso2": "MU",
+    "name": {
+      "id": "Mauritius",
+      "en": "Mauritius"
+    },
+    "continent": "Africa",
+    "confirmedCases": 290000,
+    "fatalities": 1045,
+    "recoveryRate": "99.4%",
+    "peakWave": {
+      "id": "Maret 2022 (Omicron)",
+      "en": "March 2022 (Omicron)"
+    }
+  },
+  "SC": {
+    "iso2": "SC",
+    "name": {
+      "id": "Seychelles",
+      "en": "Seychelles"
+    },
+    "continent": "Africa",
+    "confirmedCases": 50600,
+    "fatalities": 172,
+    "recoveryRate": "99.5%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "CV": {
+    "iso2": "CV",
+    "name": {
+      "id": "Tanjung Verde",
+      "en": "Cabo Verde"
+    },
+    "continent": "Africa",
+    "confirmedCases": 64000,
+    "fatalities": 414,
+    "recoveryRate": "99.2%",
+    "peakWave": {
+      "id": "Januari 2022 (Omicron)",
+      "en": "January 2022 (Omicron)"
+    }
+  },
+  "BB": {
+    "iso2": "BB",
+    "name": {
+      "id": "Barbados",
+      "en": "Barbados"
+    },
+    "continent": "North America",
+    "confirmedCases": 107000,
+    "fatalities": 590,
+    "recoveryRate": "99.3%",
+    "peakWave": {
+      "id": "Mei 2022 (Omicron)",
+      "en": "May 2022 (Omicron)"
+    }
+  },
+  "BH": {
+    "iso2": "BH",
+    "name": {
+      "id": "Bahrain",
+      "en": "Bahrain"
+    },
+    "continent": "Asia",
+    "confirmedCases": 696000,
+    "fatalities": 1536,
+    "recoveryRate": "99.7%",
+    "peakWave": {
+      "id": "Februari 2022 (Omicron)",
+      "en": "February 2022 (Omicron)"
+    }
+  }
+}

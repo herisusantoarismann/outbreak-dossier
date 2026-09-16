@@ -3,9 +3,9 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, Globe } from "lucide-react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link, routing, Locale } from "@/i18n/routing";
-import { Chapter } from "@/types/journey";
 import { ScrollytellingLayout } from "@/components/templates/ScrollytellingLayout";
 import { LocaleSwitcher } from "@/components/molecules/LocaleSwitcher";
+import { loadDossier, normalizeCountryCode } from "@/data/pandemicsRegistry";
 
 interface JourneyPageProps {
     params: Promise<{
@@ -34,20 +34,8 @@ export function generateStaticParams() {
 
 export default async function JourneyPage({ params }: JourneyPageProps) {
     const { locale, country } = await params;
-    const normalizedCountry = country.toLowerCase();
 
     if (!routing.locales.includes(locale as Locale)) {
-        notFound();
-    }
-
-    const isChina = normalizedCountry === "cn" || normalizedCountry === "chn";
-    const isIndonesia =
-        normalizedCountry === "id" || normalizedCountry === "idn";
-    const isItaly = normalizedCountry === "it" || normalizedCountry === "ita";
-    const isUS = normalizedCountry === "us" || normalizedCountry === "usa";
-    const isIndia = normalizedCountry === "in" || normalizedCountry === "ind";
-
-    if (!isChina && !isIndonesia && !isItaly && !isUS && !isIndia) {
         notFound();
     }
 
@@ -55,30 +43,13 @@ export default async function JourneyPage({ params }: JourneyPageProps) {
 
     const t = await getTranslations({ locale, namespace: "scrollytelling" });
 
-    let chaptersModule;
-    let classificationBadge = "CLASSIFIED RECON ARCHIVE // VOL. 01: COVID-19";
-
-    if (isChina) {
-        chaptersModule = await import("@/data/pandemics/covid-19/cn.json");
-        classificationBadge =
-            "CLASSIFIED RECON ARCHIVE // GROUND ZERO: WUHAN, CHINA";
-    } else if (isItaly) {
-        chaptersModule = await import("@/data/pandemics/covid-19/it.json");
-        classificationBadge =
-            "CLASSIFIED RECON ARCHIVE // EUROPEAN GROUND ZERO: ITALY";
-    } else if (isUS) {
-        chaptersModule = await import("@/data/pandemics/covid-19/us.json");
-        classificationBadge =
-            "CLASSIFIED RECON ARCHIVE // TRANSMISSION SPIKE: UNITED STATES";
-    } else if (isIndia) {
-        chaptersModule = await import("@/data/pandemics/covid-19/in.json");
-        classificationBadge = "CLASSIFIED RECON ARCHIVE // DELTA SURGE: INDIA";
-    } else {
-        chaptersModule = await import("@/data/pandemics/covid-19/id.json");
-        classificationBadge =
-            "CLASSIFIED RECON ARCHIVE // SOUTHEAST ASIA: INDONESIA";
+    const chapters = await loadDossier("covid-19", country);
+    if (!chapters || chapters.length === 0) {
+        notFound();
     }
-    const chapters: Chapter[] = chaptersModule.default as unknown as Chapter[];
+
+    const normalizedCode = normalizeCountryCode(country).toUpperCase();
+    const classificationBadge = `DECLASSIFIED RECON ARCHIVE // COVID-19 SECTOR [${normalizedCode}]`;
 
     return (
         <div className="relative min-h-screen w-full bg-[#050508] text-neutral-100">

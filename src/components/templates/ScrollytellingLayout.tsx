@@ -11,6 +11,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
+import { useRouter } from "@/i18n/routing";
 import { Chapter, SupportedLocale } from "@/types/journey";
 import { t } from "@/utils/i18n";
 import { useJourneyStore } from "@/stores/useJourneyStore";
@@ -26,7 +27,8 @@ import {
 import { ComparisonSlider } from "@/components/organisms/ComparisonSlider";
 import { TimelineScrubber } from "@/components/molecules/TimelineScrubber";
 import { ChapterImageFrame } from "@/components/molecules/ChapterImageFrame";
-import { useKeyboardNavigation } from "@/hooks/useKeyboardNavigation";
+import { useDossierKeyboardNav } from "@/hooks/useDossierKeyboardNav";
+import { useChapterPreloader } from "@/hooks/useChapterPreloader";
 import { resolveImagePath } from "@/lib/imageResolver";
 
 interface ScrollytellingLayoutProps {
@@ -500,6 +502,7 @@ const ScrollytellingLayoutContent: React.FC<ScrollytellingLayoutProps> = ({
 }) => {
     const tMsg = useTranslations("scrollytelling");
     const locale = useLocale() as SupportedLocale;
+    const router = useRouter();
     const searchParams = useSearchParams();
 
     // 1. URL-Based Initial Chapter Read
@@ -578,11 +581,15 @@ const ScrollytellingLayoutContent: React.FC<ScrollytellingLayoutProps> = ({
         [chapters],
     );
 
-    // 6. Keyboard navigation (ArrowUp/Down, PageUp/Down, Home, End)
-    useKeyboardNavigation({
+    // 6. Sequential chapter asset preloader (N+1, N+2)
+    useChapterPreloader(chapters, activeIndex);
+
+    // 7. Accessible hardware keyboard navigation (Arrows, PageUp/Down, Home, End, Escape)
+    useDossierKeyboardNav({
         totalChapters: chapters.length,
         currentIndex: activeIndex,
-        onNavigate: scrollToChapter,
+        onNavigateChapter: scrollToChapter,
+        onEscape: () => router.push("/"),
     });
 
     const activeChapter = chapters[activeIndex] || chapters[0];
