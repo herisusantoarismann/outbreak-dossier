@@ -51,12 +51,12 @@ export const TelemetryTicker: React.FC<TelemetryTickerProps> = ({
     if (!effectiveRecords.length) {
         return (
             <div className={`pointer-events-auto select-none ${className}`}>
-                <div className="bg-black/85 border border-amber-500/40 text-xs font-mono text-neutral-300 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full backdrop-blur-md flex items-center gap-2.5 shadow-[0_0_20px_rgba(0,0,0,0.7)]">
-                    <span className="relative flex h-2 w-2">
+                <div className="bg-black/85 border border-amber-500/40 text-[10.5px] sm:text-xs font-mono text-neutral-300 px-2.5 py-1 sm:px-4 sm:py-2 rounded-full backdrop-blur-md flex items-center gap-2 sm:gap-2.5 shadow-[0_0_20px_rgba(0,0,0,0.7)]">
+                    <span className="relative flex h-2 w-2 shrink-0">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75" />
                         <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-400" />
                     </span>
-                    <span className="text-[10px] sm:text-[11px] font-bold tracking-widest text-amber-300 uppercase">
+                    <span className="text-[9.5px] sm:text-[11px] font-bold tracking-widest text-amber-300 uppercase truncate">
                         [● SURVEILLANCE TELEMETRY // ERA:{" "}
                         {pandemicDisplayName.toUpperCase()} ARCHIVE ACTIVE]
                     </span>
@@ -112,15 +112,15 @@ export const TelemetryTicker: React.FC<TelemetryTickerProps> = ({
                 onClick={() => onSelectRecord(currentRecord)}
                 title="Click to locate on 3D Globe"
                 aria-label={`Locate ${countryName} on Globe`}
-                className="group relative bg-black/85 border border-cyan-500/35 hover:border-cyan-400/80 text-xs font-mono text-neutral-300 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full backdrop-blur-md flex items-center gap-2.5 sm:gap-3.5 shadow-[0_0_20px_rgba(0,0,0,0.7)] hover:shadow-[0_0_25px_rgba(6,182,212,0.35)] transition-all duration-300 cursor-pointer max-w-[92vw] sm:max-w-2xl overflow-hidden active:scale-[0.98]"
+                className="group relative bg-black/85 border border-cyan-500/35 hover:border-cyan-400/80 text-[10.5px] sm:text-xs font-mono text-neutral-300 px-2.5 py-1 sm:px-4 sm:py-2 rounded-full backdrop-blur-md flex items-center gap-2 sm:gap-3.5 shadow-[0_0_20px_rgba(0,0,0,0.7)] hover:shadow-[0_0_25px_rgba(6,182,212,0.35)] transition-all duration-300 cursor-pointer max-w-[90vw] sm:max-w-2xl overflow-hidden active:scale-[0.98]"
             >
                 {/* Status Indicator Light */}
                 <div className="flex items-center gap-1.5 shrink-0 pr-1 border-r border-neutral-800">
-                    <span className="relative flex h-2 w-2">
+                    <span className="relative flex h-2 w-2 shrink-0">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75" />
                         <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-400" />
                     </span>
-                    <span className="text-[10px] sm:text-[11px] font-bold tracking-widest text-cyan-400 uppercase hidden xs:inline">
+                    <span className="text-[9.5px] sm:text-[11px] font-bold tracking-widest text-cyan-400 uppercase hidden sm:inline">
                         [● LIVE TELEMETRY]
                     </span>
                 </div>

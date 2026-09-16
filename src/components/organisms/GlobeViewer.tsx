@@ -849,25 +849,25 @@ const GlobeViewerInner: React.FC = () => {
 
             {/* Top HUD Header - Kept clean with only Logo & Nav, leaving room for Telemetry Ticker */}
             <header className="absolute top-0 left-0 right-0 p-3 sm:p-6 flex items-center justify-between pointer-events-none z-10">
-                <div className="flex items-center gap-2.5 sm:gap-3 pointer-events-auto">
+                <div className="flex items-center gap-2 sm:gap-3 pointer-events-auto min-w-0">
                     <div className="w-8 h-8 sm:w-10 sm:h-10 rounded border border-red-500/40 bg-black/70 flex items-center justify-center text-red-500 shadow-[0_0_15px_rgba(239,68,68,0.25)] shrink-0">
                         <Activity className="w-4 h-4 sm:w-5 sm:h-5 animate-pulse" />
                     </div>
-                    <div>
+                    <div className="min-w-0">
                         <div className="flex items-center gap-1.5">
-                            <span className="text-[10px] sm:text-xs font-mono font-bold tracking-widest text-red-500">
+                            <span className="text-[9px] sm:text-xs font-mono font-bold tracking-widest text-red-500 truncate max-w-[130px] xs:max-w-[200px] sm:max-w-none">
                                 {tHub("badge")}
                             </span>
-                            <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-ping" />
+                            <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-ping shrink-0" />
                         </div>
-                        <h1 className="font-mono tracking-widest text-sm sm:text-base font-bold text-neutral-100 uppercase">
+                        <h1 className="font-mono tracking-widest text-xs sm:text-base font-bold text-neutral-100 uppercase truncate">
                             {tHub("title")}
                         </h1>
                     </div>
                 </div>
 
                 {/* Right Header Cluster: Locale Switcher & Coordinates HUD */}
-                <div className="flex items-center gap-2 pointer-events-auto">
+                <div className="flex items-center gap-2 pointer-events-auto shrink-0">
                     {/* Tactical Language Switcher */}
                     <LocaleSwitcher />
 
@@ -894,10 +894,10 @@ const GlobeViewerInner: React.FC = () => {
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: -10, scale: 0.96 }}
                         transition={{ duration: 0.2 }}
-                        className="fixed top-20 sm:top-24 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2.5 px-4 py-2 rounded border border-amber-500/60 bg-black/95 backdrop-blur-md shadow-[0_0_25px_rgba(245,158,11,0.35)] font-mono text-xs text-amber-400 tracking-wider pointer-events-none"
+                        className="fixed top-26 sm:top-20 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded border border-amber-500/60 bg-black/95 backdrop-blur-md shadow-[0_0_25px_rgba(245,158,11,0.35)] font-mono text-[11px] sm:text-xs text-amber-400 tracking-wider pointer-events-none max-w-[92vw] text-center"
                     >
                         <span className="w-2 h-2 rounded-full bg-amber-400 animate-ping shrink-0" />
-                        <span className="font-bold">
+                        <span className="font-bold truncate">
                             {encryptedNotification}
                         </span>
                     </motion.div>
@@ -905,15 +905,34 @@ const GlobeViewerInner: React.FC = () => {
             </AnimatePresence>
 
             {/* Mission Control Tactical Telemetry Ticker (Global Extremes) - Top Center */}
-            <div className="absolute top-16 sm:top-5 left-1/2 -translate-x-1/2 z-20 pointer-events-none">
+            <div className="absolute top-14 sm:top-5 left-1/2 -translate-x-1/2 z-20 pointer-events-none">
                 <TelemetryTicker onSelectRecord={handleSelectRecord} />
             </div>
 
-            {/* Pinned Chronological Pandemic Switcher (Bottom-Center Command Dock) */}
-            <PandemicSwitcher />
+            {/* 1. Mobile Unified Command Island (Bottom Center, Non-overlapping) */}
+            <div className="fixed bottom-5 left-1/2 -translate-x-1/2 z-40 flex md:hidden items-center gap-2 max-w-[95vw] pointer-events-auto select-none">
+                {/* Compact Pathogen Brief Trigger */}
+                <button
+                    onClick={() => setIsInfoDrawerOpen(true)}
+                    className="font-mono text-xs text-neutral-200 border border-white/20 bg-black/85 backdrop-blur-md px-3 py-1.5 rounded-full hover:border-cyan-400 hover:text-cyan-300 transition-all cursor-pointer shadow-[0_0_15px_rgba(0,0,0,0.8)] flex items-center gap-1.5 active:scale-95 shrink-0"
+                    aria-label="Open Pathogen Brief"
+                    title="Open Pathogen Intelligence Brief"
+                >
+                    <span className="text-cyan-400 font-bold shrink-0">
+                        [!]
+                    </span>
+                    <span className="font-bold tracking-wider">BRIEF</span>
+                </button>
 
-            {/* Minimal Floating Tactical Pill: Dynamic Pathogen/Pandemic Brief Trigger (Bottom-Left) */}
-            <aside className="absolute bottom-6 left-4 sm:left-6 z-30 pointer-events-auto">
+                {/* Compact Epoch Switcher Trigger & Modal */}
+                <PandemicSwitcher isMobileTriggerOnly />
+            </div>
+
+            {/* 2. Desktop Pinned Chronological Pandemic Switcher (Bottom-Center Command Dock) */}
+            <PandemicSwitcher className="hidden md:flex" />
+
+            {/* 3. Desktop Floating Tactical Pill: Dynamic Pathogen/Pandemic Brief Trigger (Bottom-Left) */}
+            <aside className="hidden md:block absolute bottom-6 left-4 sm:left-6 z-30 pointer-events-auto">
                 <button
                     onClick={() => setIsInfoDrawerOpen(true)}
                     className="font-mono text-xs text-neutral-300 border border-white/20 bg-black/75 backdrop-blur-md px-3.5 py-1.5 rounded-full hover:border-cyan-400 hover:text-cyan-300 transition-all cursor-pointer shadow-[0_0_15px_rgba(0,0,0,0.6)] flex items-center gap-1.5 active:scale-95 max-w-[45vw] sm:max-w-xs truncate"
