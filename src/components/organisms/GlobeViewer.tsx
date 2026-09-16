@@ -831,11 +831,6 @@ const GlobeViewerInner: React.FC = () => {
         getFeatureCountryInfo,
     ]);
 
-    const infoButtonText =
-        currentLocale === "id"
-            ? activePandemic.aboutTitle.id
-            : activePandemic.aboutTitle.en;
-
     return (
         <div className="relative w-full h-full overflow-hidden bg-[#050508]">
             {/* 3D WebGL Canvas Mount */}
@@ -894,7 +889,7 @@ const GlobeViewerInner: React.FC = () => {
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: -10, scale: 0.96 }}
                         transition={{ duration: 0.2 }}
-                        className="fixed top-26 sm:top-20 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded border border-amber-500/60 bg-black/95 backdrop-blur-md shadow-[0_0_25px_rgba(245,158,11,0.35)] font-mono text-[11px] sm:text-xs text-amber-400 tracking-wider pointer-events-none max-w-[92vw] text-center"
+                        className="fixed top-26 sm:top-28 md:top-32 xl:top-20 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded border border-amber-500/60 bg-black/95 backdrop-blur-md shadow-[0_0_25px_rgba(245,158,11,0.35)] font-mono text-[11px] sm:text-xs text-amber-400 tracking-wider pointer-events-none max-w-[92vw] text-center"
                     >
                         <span className="w-2 h-2 rounded-full bg-amber-400 animate-ping shrink-0" />
                         <span className="font-bold truncate">
@@ -905,47 +900,15 @@ const GlobeViewerInner: React.FC = () => {
             </AnimatePresence>
 
             {/* Mission Control Tactical Telemetry Ticker (Global Extremes) - Top Center */}
-            <div className="absolute top-14 sm:top-5 left-1/2 -translate-x-1/2 z-20 pointer-events-none">
+            <div className="absolute top-14 sm:top-16 md:top-20 xl:top-6 left-1/2 -translate-x-1/2 z-20 pointer-events-none">
                 <TelemetryTicker onSelectRecord={handleSelectRecord} />
             </div>
 
-            {/* 1. Mobile Unified Command Island (Bottom Center, Non-overlapping) */}
-            <div className="fixed bottom-5 left-1/2 -translate-x-1/2 z-40 flex md:hidden items-center gap-2 max-w-[95vw] pointer-events-auto select-none">
-                {/* Compact Pathogen Brief Trigger */}
-                <button
-                    onClick={() => setIsInfoDrawerOpen(true)}
-                    className="font-mono text-xs text-neutral-200 border border-white/20 bg-black/85 backdrop-blur-md px-3 py-1.5 rounded-full hover:border-cyan-400 hover:text-cyan-300 transition-all cursor-pointer shadow-[0_0_15px_rgba(0,0,0,0.8)] flex items-center gap-1.5 active:scale-95 shrink-0"
-                    aria-label="Open Pathogen Brief"
-                    title="Open Pathogen Intelligence Brief"
-                >
-                    <span className="text-cyan-400 font-bold shrink-0">
-                        [!]
-                    </span>
-                    <span className="font-bold tracking-wider">BRIEF</span>
-                </button>
+            {/* Unified Responsive Pandemic Switcher & Bottom Dock */}
+            <PandemicSwitcher onOpenInfo={() => setIsInfoDrawerOpen(true)} />
 
-                {/* Compact Epoch Switcher Trigger & Modal */}
-                <PandemicSwitcher isMobileTriggerOnly />
-            </div>
-
-            {/* 2. Desktop Pinned Chronological Pandemic Switcher (Bottom-Center Command Dock) */}
-            <PandemicSwitcher className="hidden md:flex" />
-
-            {/* 3. Desktop Floating Tactical Pill: Dynamic Pathogen/Pandemic Brief Trigger (Bottom-Left) */}
-            <aside className="hidden md:block absolute bottom-6 left-4 sm:left-6 z-30 pointer-events-auto">
-                <button
-                    onClick={() => setIsInfoDrawerOpen(true)}
-                    className="font-mono text-xs text-neutral-300 border border-white/20 bg-black/75 backdrop-blur-md px-3.5 py-1.5 rounded-full hover:border-cyan-400 hover:text-cyan-300 transition-all cursor-pointer shadow-[0_0_15px_rgba(0,0,0,0.6)] flex items-center gap-1.5 active:scale-95 max-w-[45vw] sm:max-w-xs truncate"
-                >
-                    <span className="text-cyan-400 font-bold shrink-0">
-                        [!]
-                    </span>
-                    <span className="truncate">{infoButtonText}</span>
-                </button>
-            </aside>
-
-            {/* Global Tactical Footer (Bottom-Right) */}
-            <footer className="hidden md:flex absolute bottom-6 right-4 sm:right-6 flex-col items-end gap-1.5 pointer-events-none z-10 font-mono text-[10px] text-neutral-500">
+            {/* Global Tactical Footer (Bottom-Right, Widescreen Desktop Only) */}
+            <footer className="hidden xl:flex absolute bottom-6 right-6 flex-col items-end gap-1.5 pointer-events-none z-10 font-mono text-[10px] text-neutral-500">
                 <div className="bg-black/60 border border-neutral-800/80 px-3 py-1 rounded backdrop-blur">
                     {hoveredCountryName ? (
                         <span
