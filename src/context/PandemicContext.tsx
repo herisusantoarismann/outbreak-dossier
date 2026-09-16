@@ -18,12 +18,16 @@ import {
 import { GlobalExtremeRecord, CountrySurveillanceData } from "@/types/journey";
 
 // Pre-imported datasets for instantaneous zero-latency era switching
-import covidExtremes from "@/data/pandemics/covid-19/global-extremes.json";
-import covidSurveillance from "@/data/pandemics/covid-19/global-surveillance.json";
+import justinianExtremes from "@/data/pandemics/plague-of-justinian-541/extremes.json";
+import justinianSurveillance from "@/data/pandemics/plague-of-justinian-541/surveillance.json";
 import blackDeathExtremes from "@/data/pandemics/black-death-1347/extremes.json";
 import blackDeathSurveillance from "@/data/pandemics/black-death-1347/surveillance.json";
+import choleraExtremes from "@/data/pandemics/cholera-1817/extremes.json";
+import choleraSurveillance from "@/data/pandemics/cholera-1817/surveillance.json";
 import spanishFluExtremes from "@/data/pandemics/spanish-flu-1918/extremes.json";
 import spanishFluSurveillance from "@/data/pandemics/spanish-flu-1918/surveillance.json";
+import covidExtremes from "@/data/pandemics/covid-19/global-extremes.json";
+import covidSurveillance from "@/data/pandemics/covid-19/global-surveillance.json";
 
 export interface AboutDrawerContent {
     title: { id: string; en: string };
@@ -32,9 +36,17 @@ export interface AboutDrawerContent {
     clinical: ClinicalProfile;
 }
 
+export type PandemicEraId =
+    | "plague-of-justinian-541"
+    | "black-death-1347"
+    | "cholera-1817"
+    | "spanish-flu-1918"
+    | "covid-19"
+    | string;
+
 export interface PandemicContextValue {
     activePandemic: PandemicProfile;
-    activePandemicId: "black-death-1347" | "spanish-flu-1918" | "covid-19";
+    activePandemicId: PandemicEraId;
     setActivePandemicId: (id: string) => void;
     allPandemics: PandemicProfile[];
     metadata: {
@@ -57,7 +69,10 @@ const PandemicContext = createContext<PandemicContextValue | undefined>(
 );
 
 const EXTREMES_CATALOG: Record<string, GlobalExtremeRecord[]> = {
+    "plague-of-justinian-541":
+        justinianExtremes as unknown as GlobalExtremeRecord[],
     "black-death-1347": blackDeathExtremes as unknown as GlobalExtremeRecord[],
+    "cholera-1817": choleraExtremes as unknown as GlobalExtremeRecord[],
     "spanish-flu-1918": spanishFluExtremes as unknown as GlobalExtremeRecord[],
     "covid-19": covidExtremes as unknown as GlobalExtremeRecord[],
 };
@@ -66,7 +81,15 @@ const SURVEILLANCE_CATALOG: Record<
     string,
     Record<string, CountrySurveillanceData>
 > = {
+    "plague-of-justinian-541": justinianSurveillance as unknown as Record<
+        string,
+        CountrySurveillanceData
+    >,
     "black-death-1347": blackDeathSurveillance as unknown as Record<
+        string,
+        CountrySurveillanceData
+    >,
+    "cholera-1817": choleraSurveillance as unknown as Record<
         string,
         CountrySurveillanceData
     >,
@@ -99,11 +122,11 @@ export const PandemicProvider: React.FC<{
     const activePandemicId = (selectedPandemicId ??
         initialPandemicId ??
         routePandemicId ??
-        "covid-19") as "black-death-1347" | "spanish-flu-1918" | "covid-19";
+        "covid-19") as PandemicEraId;
 
     const triggerEncryptedAlert = useCallback(() => {
         setEncryptedNotification(
-            "[ ARCHIVE ENCRYPTED // DECLASSIFICATION IN PROGRESS ]",
+            "[ ACCESS RESTRICTED // ARCHIVE DECLASSIFICATION IN PROGRESS ]",
         );
     }, []);
 
@@ -133,11 +156,12 @@ export const PandemicProvider: React.FC<{
             const target = getPandemicConfig(id);
             if (!target) return;
 
-            setSelectedPandemicId(target.id);
-
             if (target.status === "classified_archive") {
                 triggerEncryptedAlert();
+                return;
             }
+
+            setSelectedPandemicId(target.id);
 
             // Update browser URL without triggering a full page reload / WebGL scene destruction
             if (typeof window !== "undefined") {
@@ -264,7 +288,9 @@ export const PandemicProvider: React.FC<{
 export function useActivePandemic(): PandemicContextValue {
     const context = useContext(PandemicContext);
     if (!context) {
-        const defaultPandemic = PANDEMIC_REGISTRY[2] || PANDEMIC_REGISTRY[0];
+        const defaultPandemic =
+            PANDEMIC_REGISTRY.find((p) => p.id === "covid-19") ||
+            PANDEMIC_REGISTRY[0];
         return {
             activePandemic: defaultPandemic,
             activePandemicId: defaultPandemic.id,
