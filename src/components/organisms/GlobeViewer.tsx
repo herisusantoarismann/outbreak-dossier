@@ -61,6 +61,22 @@ const GEOJSON_REMOTE_URL =
     "https://raw.githubusercontent.com/vasturiano/globe.gl/master/example/datasets/ne_110m_admin_0_countries.geojson";
 const GEOJSON_LOCAL_FALLBACK = "/data/ne_110m_admin_0_countries.geojson";
 
+// Helper to convert camera coords (supports both [lat, lng, alt] and Cartesian [x, y, z])
+const resolveCameraPOV = (
+    cam: [number, number, number],
+): { lat: number; lng: number; altitude: number } => {
+    // If coords are normalized 3D Cartesian vectors (e.g. [0.35, 1.2, 1.8])
+    if (Math.abs(cam[0]) <= 2 && Math.abs(cam[1]) <= 2) {
+        const [x, y, z] = cam;
+        const r = Math.hypot(x, y, z);
+        const lat =
+            (Math.asin(Math.min(Math.max(y / r, -1), 1)) * 180) / Math.PI;
+        const lng = (Math.atan2(x, z) * 180) / Math.PI;
+        return { lat, lng, altitude: cam[2] };
+    }
+    return { lat: cam[0], lng: cam[1], altitude: cam[2] };
+};
+
 const GlobeViewerInner: React.FC = () => {
     const containerRef = useRef<HTMLDivElement>(null);
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -181,10 +197,26 @@ const GlobeViewerInner: React.FC = () => {
     const checkIsEpicenter = useCallback(
         (iso2: string, iso3: string): EpicenterMetadata | null => {
             const epicenters = getEpicentersForPandemic(activePandemicId);
+            const u2 = iso2.toUpperCase();
+            const u3 = iso3.toUpperCase();
+            if (epicenters[u2]) return epicenters[u2];
+            if (epicenters[u3]) return epicenters[u3];
             return (
-                epicenters[iso2.toUpperCase()] ||
-                epicenters[iso3.toUpperCase()] ||
-                null
+                Object.values(epicenters).find(
+                    (e) =>
+                        e.code.toUpperCase() === u2 ||
+                        e.iso3.toUpperCase() === u3 ||
+                        (e.code === "CPX" && (u2 === "TR" || u3 === "TUR")) ||
+                        (e.code === "PEL" && (u2 === "EG" || u3 === "EGY")) ||
+                        (e.code === "SAS" &&
+                            (u2 === "IR" ||
+                                u2 === "IQ" ||
+                                u2 === "SY" ||
+                                u3 === "IRN" ||
+                                u3 === "IRQ" ||
+                                u3 === "SYR")) ||
+                        (e.code === "ROM" && (u2 === "IT" || u3 === "ITA")),
+                ) || null
             );
         },
         [activePandemicId],
@@ -687,11 +719,7 @@ const GlobeViewerInner: React.FC = () => {
             const initCam = activePandemic.defaultCameraPosition || [
                 10, 100, 2.3,
             ];
-            globe.pointOfView({
-                lat: initCam[0],
-                lng: initCam[1],
-                altitude: initCam[2],
-            });
+            globe.pointOfView(resolveCameraPOV(initCam));
 
             const controls = globe.controls();
             controls.autoRotate = true;
@@ -796,7 +824,7 @@ const GlobeViewerInner: React.FC = () => {
         if (geoDataRef.current) {
             geoDataRef.current.features.forEach((feat) => {
                 const { iso2, iso3 } = getFeatureCountryInfo(feat);
-                if (epicenters[iso2] || epicenters[iso3]) return;
+                if (checkIsEpicenter(iso2, iso3)) return;
 
                 const centroid = getFeatureCentroid(feat);
                 if (centroid) {
@@ -816,17 +844,11 @@ const GlobeViewerInner: React.FC = () => {
 
         // 4. Smooth camera orbit reset
         const cam = activePandemic.defaultCameraPosition || [10, 100, 2.3];
-        globe.pointOfView(
-            {
-                lat: cam[0],
-                lng: cam[1],
-                altitude: cam[2],
-            },
-            1600,
-        );
+        globe.pointOfView(resolveCameraPOV(cam), 1600);
     }, [
         activePandemic,
         activePandemicId,
+        checkIsEpicenter,
         getFeatureCentroid,
         getFeatureCountryInfo,
     ]);

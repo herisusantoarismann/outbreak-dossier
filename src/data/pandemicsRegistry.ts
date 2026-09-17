@@ -72,7 +72,10 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
         id: "plague-of-justinian-541",
         year: 541,
         eraLabel: "541 – 549 M",
-        name: { id: "Wabah Yustinianus", en: "Plague of Justinian" },
+        name: {
+            id: "Wabah Yustinianus (541 M)",
+            en: "Plague of Justinian (541 AD)",
+        },
         shortLabel: "541 // JUSTINIAN",
         pathogenName: "Yersinia pestis",
         aboutTitle: {
@@ -90,12 +93,12 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
         era: "541 – 549 M",
         pathogen: "Yersinia pestis",
         globeAtmosphere: "#581c87",
-        globalFatalities: "~30M - 50M",
-        status: "classified_archive",
+        globalFatalities: "~25M - 50M",
+        status: "active",
         route: "/globe/plague-of-justinian-541",
         baseYear: 541,
-        epicenters: ["tr", "eg", "it", "sy"],
-        defaultCameraPosition: [41, 29, 2.3],
+        epicenters: ["CPX", "PEL", "SAS", "ROM"],
+        defaultCameraPosition: [0.35, 1.2, 1.8],
         clinicalProfile: {
             classification: {
                 title: {
@@ -485,8 +488,8 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
  * Historical epicenters for 541 Plague of Justinian
  */
 export const JUSTINIAN_EPICENTERS: Record<string, EpicenterMetadata> = {
-    TR: {
-        code: "TR",
+    CPX: {
+        code: "CPX",
         iso3: "TUR",
         name: {
             id: "Konstantinopel (Bizantium)",
@@ -496,8 +499,8 @@ export const JUSTINIAN_EPICENTERS: Record<string, EpicenterMetadata> = {
         coordinates: { lat: 41.0082, lng: 28.9784, altitude: 1.05 },
         beaconColor: "#a855f7",
         status: {
-            id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
-            en: "CLASSIFIED ARCHIVE // DRAFTING",
+            id: "ARSIP AKTIF // DIDEKLASIFIKASI",
+            en: "ACTIVE DOSSIER // DECLASSIFIED",
         },
         synopsis: {
             id: "Pusat kekaisaran Yustinianus I; menara benteng dipenuhi jenazah saat korban mencapai 10.000 jiwa per hari.",
@@ -505,16 +508,16 @@ export const JUSTINIAN_EPICENTERS: Record<string, EpicenterMetadata> = {
         },
         timelinePeriod: { id: "Musim Semi 542 M", en: "Spring 542 AD" },
     },
-    EG: {
-        code: "EG",
+    PEL: {
+        code: "PEL",
         iso3: "EGY",
         name: { id: "Mesir (Pelusium)", en: "Egypt (Pelusium)" },
         sectorCode: "SECTOR // EGY - PELUSIUM INGRESS",
         coordinates: { lat: 31.05, lng: 32.6, altitude: 1.05 },
         beaconColor: "#a855f7",
         status: {
-            id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
-            en: "CLASSIFIED ARCHIVE // DRAFTING",
+            id: "ARSIP AKTIF // DIDEKLASIFIKASI",
+            en: "ACTIVE DOSSIER // DECLASSIFIED",
         },
         synopsis: {
             id: "Titik masuk pes pertama ke wilayah Romawi Timur melalui rute pasokan gandum Sungai Nil pada tahun 541 M.",
@@ -522,39 +525,42 @@ export const JUSTINIAN_EPICENTERS: Record<string, EpicenterMetadata> = {
         },
         timelinePeriod: { id: "541 M", en: "541 AD" },
     },
-    IT: {
-        code: "IT",
+    SAS: {
+        code: "SAS",
+        iso3: "IRN",
+        name: {
+            id: "Kekaisaran Sasaniyah (Persia)",
+            en: "Sasanian Empire (Persia)",
+        },
+        sectorCode: "SECTOR // SAS - CTESIPHON / MESOPOTAMIA",
+        coordinates: { lat: 33.0936, lng: 44.5808, altitude: 1.05 },
+        beaconColor: "#a855f7",
+        status: {
+            id: "ARSIP AKTIF // DIDEKLASIFIKASI",
+            en: "ACTIVE DOSSIER // DECLASSIFIED",
+        },
+        synopsis: {
+            id: "Wabah menyeberang perbatasan ke Mesopotamia dan ibu kota Sasaniyah, melumpuhkan rivalitas abadi Romawi Timur.",
+            en: "Plague crossed borders into Mesopotamia and the Sasanian capital, crippling Eastern Rome's perpetual rival.",
+        },
+        timelinePeriod: { id: "542 – 543 M", en: "542 – 543 AD" },
+    },
+    ROM: {
+        code: "ROM",
         iso3: "ITA",
         name: { id: "Italia (Roma / Ravenna)", en: "Italy (Rome / Ravenna)" },
         sectorCode: "SECTOR // ITA - RAVENNA EXARCHATE",
         coordinates: { lat: 41.8902, lng: 12.4922, altitude: 1.05 },
         beaconColor: "#a855f7",
         status: {
-            id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
-            en: "CLASSIFIED ARCHIVE // DRAFTING",
+            id: "ARSIP AKTIF // DIDEKLASIFIKASI",
+            en: "ACTIVE DOSSIER // DECLASSIFIED",
         },
         synopsis: {
             id: "Wabah melumpuhkan kekuatan militer Jenderal Belisarius dan menghentikan pemulihan semenanjung Italia.",
             en: "Plague paralyzed General Belisarius' forces, ending the Byzantine reconquest of the Italian peninsula.",
         },
         timelinePeriod: { id: "543 M", en: "543 AD" },
-    },
-    SY: {
-        code: "SY",
-        iso3: "SYR",
-        name: { id: "Suriah (Antiokhia)", en: "Syria (Antioch)" },
-        sectorCode: "SECTOR // SYR - ANTIOCH CARAVAN VECTOR",
-        coordinates: { lat: 36.2021, lng: 36.1606, altitude: 1.05 },
-        beaconColor: "#a855f7",
-        status: {
-            id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
-            en: "CLASSIFIED ARCHIVE // DRAFTING",
-        },
-        synopsis: {
-            id: "Kota metropolis ketiga kekaisaran yang hancur sebelum wabah menyeberang perbatasan Persia Sasaniyah.",
-            en: "The third metropolis of the empire devastated before the epidemic crossed into Sasanian Persia.",
-        },
-        timelinePeriod: { id: "542 M", en: "542 AD" },
     },
 };
 
@@ -851,6 +857,10 @@ export function normalizeCountryCode(countryCode: string): string {
     if (code === "bgd") return "bd";
     if (code === "omn") return "om";
     if (code === "irn") return "ir";
+    if (code === "cpx") return "cpx";
+    if (code === "pel") return "pel";
+    if (code === "sas") return "sas";
+    if (code === "rom") return "rom";
     return code.slice(0, 2);
 }
 
