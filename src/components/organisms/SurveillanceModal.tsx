@@ -114,9 +114,9 @@ export const SurveillanceModal: React.FC<SurveillanceModalProps> = ({
                             <div className="p-2.5 bg-neutral-900/80 border border-neutral-700/80 rounded-lg flex items-center gap-2">
                                 <AlertCircle className="w-4 h-4 text-amber-400 shrink-0" />
                                 <span className="text-[10px] sm:text-[11px] font-mono font-bold text-amber-300 tracking-wider">
-                                    {
-                                        "[!] SECONDARY SURVEILLANCE // MONITORING TELEMETRY ONLY"
-                                    }
+                                    {data.statusBadge
+                                        ? t(data.statusBadge, locale)
+                                        : "[!] SECONDARY SURVEILLANCE // MONITORING TELEMETRY ONLY"}
                                 </span>
                             </div>
 

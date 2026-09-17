@@ -55,30 +55,39 @@ export const PandemicInfoDrawer: React.FC<PandemicInfoDrawerProps> = ({
 
     const isBlackDeath = activePandemic.id === "black-death-1347";
     const isSpanishFlu = activePandemic.id === "spanish-flu-1918";
+    const isJustinian = activePandemic.id === "plague-of-justinian-541";
 
-    const accentColor = isBlackDeath
-        ? "text-rose-400 border-rose-500/40 bg-rose-950/70 shadow-[0_0_15px_rgba(225,29,72,0.3)]"
-        : isSpanishFlu
-          ? "text-amber-400 border-amber-500/40 bg-amber-950/70 shadow-[0_0_15px_rgba(245,158,11,0.3)]"
-          : "text-cyan-400 border-cyan-500/40 bg-cyan-950/70 shadow-[0_0_15px_rgba(6,182,212,0.3)]";
+    const accentColor = isJustinian
+        ? "text-purple-400 border-purple-500/40 bg-purple-950/70 shadow-[0_0_15px_rgba(168,85,247,0.3)]"
+        : isBlackDeath
+          ? "text-rose-400 border-rose-500/40 bg-rose-950/70 shadow-[0_0_15px_rgba(225,29,72,0.3)]"
+          : isSpanishFlu
+            ? "text-amber-400 border-amber-500/40 bg-amber-950/70 shadow-[0_0_15px_rgba(245,158,11,0.3)]"
+            : "text-cyan-400 border-cyan-500/40 bg-cyan-950/70 shadow-[0_0_15px_rgba(6,182,212,0.3)]";
 
-    const topBorderGradient = isBlackDeath
-        ? "from-rose-500 via-neutral-900 to-rose-600"
-        : isSpanishFlu
-          ? "from-amber-500 via-neutral-900 to-amber-600"
-          : "from-cyan-500 via-red-500 to-cyan-400";
+    const topBorderGradient = isJustinian
+        ? "from-purple-500 via-neutral-900 to-purple-600"
+        : isBlackDeath
+          ? "from-rose-500 via-neutral-900 to-rose-600"
+          : isSpanishFlu
+            ? "from-amber-500 via-neutral-900 to-amber-600"
+            : "from-cyan-500 via-red-500 to-cyan-400";
 
-    const closeBtnHover = isBlackDeath
-        ? "hover:border-rose-500/50"
-        : isSpanishFlu
-          ? "hover:border-amber-500/50"
-          : "hover:border-cyan-500/50";
+    const closeBtnHover = isJustinian
+        ? "hover:border-purple-500/50"
+        : isBlackDeath
+          ? "hover:border-rose-500/50"
+          : isSpanishFlu
+            ? "hover:border-amber-500/50"
+            : "hover:border-cyan-500/50";
 
-    const ackBtnClass = isBlackDeath
-        ? "bg-rose-950/80 hover:bg-rose-900 text-rose-200 border-rose-700/60 hover:border-rose-400 shadow-[0_0_20px_rgba(225,29,72,0.2)]"
-        : isSpanishFlu
-          ? "bg-amber-950/80 hover:bg-amber-900 text-amber-200 border-amber-700/60 hover:border-amber-400 shadow-[0_0_20px_rgba(245,158,11,0.2)]"
-          : "bg-cyan-950/80 hover:bg-cyan-900 text-cyan-200 border-cyan-700/60 hover:border-cyan-400 shadow-[0_0_20px_rgba(6,182,212,0.2)]";
+    const ackBtnClass = isJustinian
+        ? "bg-purple-950/80 hover:bg-purple-900 text-purple-200 border-purple-700/60 hover:border-purple-400 shadow-[0_0_20px_rgba(168,85,247,0.2)]"
+        : isBlackDeath
+          ? "bg-rose-950/80 hover:bg-rose-900 text-rose-200 border-rose-700/60 hover:border-rose-400 shadow-[0_0_20px_rgba(225,29,72,0.2)]"
+          : isSpanishFlu
+            ? "bg-amber-950/80 hover:bg-amber-900 text-amber-200 border-amber-700/60 hover:border-amber-400 shadow-[0_0_20px_rgba(245,158,11,0.2)]"
+            : "bg-cyan-950/80 hover:bg-cyan-900 text-cyan-200 border-cyan-700/60 hover:border-cyan-400 shadow-[0_0_20px_rgba(6,182,212,0.2)]";
 
     return (
         <AnimatePresence>
@@ -138,6 +147,14 @@ export const PandemicInfoDrawer: React.FC<PandemicInfoDrawerProps> = ({
                                     >
                                         {title}
                                     </h2>
+                                    {aboutDrawerContent.subtitle && (
+                                        <p className="text-xs text-purple-300 font-medium italic mt-1 leading-snug">
+                                            {locale === "id"
+                                                ? aboutDrawerContent.subtitle.id
+                                                : aboutDrawerContent.subtitle
+                                                      .en}
+                                        </p>
+                                    )}
                                     <p className="text-[10px] font-mono text-neutral-400 mt-0.5 tracking-wide">
                                         {aboutDrawerContent.pathogenName}
                                     </p>
@@ -268,6 +285,68 @@ export const PandemicInfoDrawer: React.FC<PandemicInfoDrawerProps> = ({
                                         : symptoms.text.en}
                                 </p>
                             </section>
+
+                            {/* Section 4: Clinical Features / Syndromic Profile */}
+                            {aboutDrawerContent.clinicalFeatures &&
+                                aboutDrawerContent.clinicalFeatures.length >
+                                    0 && (
+                                    <section className="space-y-2">
+                                        <div className="flex items-center gap-1.5 text-xs font-mono font-bold uppercase tracking-widest text-neutral-300">
+                                            <Thermometer className="w-4 h-4 text-purple-400" />
+                                            <span>
+                                                {locale === "id"
+                                                    ? "Fitur Klinis Khas"
+                                                    : "Key Clinical Features"}
+                                            </span>
+                                        </div>
+                                        <div className="space-y-2">
+                                            {aboutDrawerContent.clinicalFeatures.map(
+                                                (feat, idx) => (
+                                                    <div
+                                                        key={idx}
+                                                        className="p-3 bg-neutral-950/70 border border-neutral-800/80 rounded-lg"
+                                                    >
+                                                        <div className="text-xs font-bold text-purple-300 mb-1">
+                                                            {locale === "id"
+                                                                ? feat.name.id
+                                                                : feat.name.en}
+                                                        </div>
+                                                        <p className="text-xs text-neutral-300 leading-relaxed font-sans">
+                                                            {locale === "id"
+                                                                ? feat
+                                                                      .description
+                                                                      .id
+                                                                : feat
+                                                                      .description
+                                                                      .en}
+                                                        </p>
+                                                    </div>
+                                                ),
+                                            )}
+                                        </div>
+                                    </section>
+                                )}
+
+                            {/* Section 5: Historical & Geopolitical Impact */}
+                            {aboutDrawerContent.historicalImpact && (
+                                <section className="p-3.5 bg-purple-950/25 border border-purple-900/50 rounded-lg space-y-1.5">
+                                    <div className="flex items-center gap-1.5 text-xs font-mono font-bold text-purple-400 uppercase tracking-wider">
+                                        <AlertOctagon className="w-4 h-4 text-purple-400" />
+                                        <span>
+                                            {locale === "id"
+                                                ? "Dampak Historis & Geopolitik"
+                                                : "Historical & Geopolitical Impact"}
+                                        </span>
+                                    </div>
+                                    <p className="text-xs text-neutral-300 leading-relaxed font-sans">
+                                        {locale === "id"
+                                            ? aboutDrawerContent
+                                                  .historicalImpact.id
+                                            : aboutDrawerContent
+                                                  .historicalImpact.en}
+                                    </p>
+                                </section>
+                            )}
                         </div>
 
                         {/* Drawer Footer Action */}

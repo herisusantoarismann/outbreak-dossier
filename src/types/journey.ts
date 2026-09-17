@@ -52,11 +52,13 @@ export interface CountrySurveillanceData {
     fatalities: number;
     recoveryRate: string;
     peakWave: LocalizedContent;
+    statusBadge?: LocalizedContent;
 }
 
 export interface GlobalExtremeRecord {
     id: string;
     iso2: string;
+    territoryCode?: string;
     metricType: "mortality" | "survival" | "containment" | "density";
     label: LocalizedContent;
     countryName: LocalizedContent;

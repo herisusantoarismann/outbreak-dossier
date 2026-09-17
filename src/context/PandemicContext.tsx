@@ -20,6 +20,7 @@ import { GlobalExtremeRecord, CountrySurveillanceData } from "@/types/journey";
 // Pre-imported datasets for instantaneous zero-latency era switching
 import justinianExtremes from "@/data/pandemics/plague-of-justinian-541/extremes.json";
 import justinianSurveillance from "@/data/pandemics/plague-of-justinian-541/surveillance.json";
+import justinianAbout from "@/data/pandemics/plague-of-justinian-541/about.json";
 import blackDeathExtremes from "@/data/pandemics/black-death-1347/extremes.json";
 import blackDeathSurveillance from "@/data/pandemics/black-death-1347/surveillance.json";
 import choleraExtremes from "@/data/pandemics/cholera-1817/extremes.json";
@@ -31,9 +32,15 @@ import covidSurveillance from "@/data/pandemics/covid-19/global-surveillance.jso
 
 export interface AboutDrawerContent {
     title: { id: string; en: string };
+    subtitle?: { id: string; en: string };
     overview: { id: string; en: string };
     pathogenName: string;
     clinical: ClinicalProfile;
+    clinicalFeatures?: Array<{
+        name: { id: string; en: string };
+        description: { id: string; en: string };
+    }>;
+    historicalImpact?: { id: string; en: string };
 }
 
 export type PandemicEraId =
@@ -189,8 +196,68 @@ export const PandemicProvider: React.FC<{
         [activePandemic],
     );
 
-    const aboutDrawerContent = useMemo(
-        (): AboutDrawerContent => ({
+    const aboutDrawerContent = useMemo((): AboutDrawerContent => {
+        if (activePandemic.id === "plague-of-justinian-541") {
+            return {
+                title: justinianAbout.title,
+                subtitle: justinianAbout.subtitle,
+                overview: justinianAbout.overview,
+                pathogenName: justinianAbout.pathogen.name,
+                clinical: activePandemic.clinicalProfile || {
+                    classification: {
+                        title: {
+                            id: "Klasifikasi Biologis",
+                            en: "Biological Classification",
+                        },
+                        text: justinianAbout.pathogen.type,
+                    },
+                    metrics: {
+                        incubation: {
+                            title: {
+                                id: "Masa Inkubasi",
+                                en: "Incubation Period",
+                            },
+                            value: "2 – 7 Hari",
+                            sub: { id: "Pes Bubonik", en: "Bubonic Plague" },
+                        },
+                        receptor: {
+                            title: { id: "Vektor Utama", en: "Primary Vector" },
+                            value: "X. cheopis",
+                            sub: { id: "Kutu Tikus", en: "Rat Flea" },
+                        },
+                        family: {
+                            title: {
+                                id: "Famili Bakteri",
+                                en: "Bacterial Family",
+                            },
+                            value: "Yersiniaceae",
+                            sub: {
+                                id: "Enterobacterales",
+                                en: "Enterobacterales",
+                            },
+                        },
+                    },
+                    transmission: {
+                        title: {
+                            id: "Vektor Penularan",
+                            en: "Transmission Vectors",
+                        },
+                        text: justinianAbout.pathogen.vector,
+                    },
+                    symptoms: {
+                        title: {
+                            id: "Reservoir Alami",
+                            en: "Natural Reservoir",
+                        },
+                        text: justinianAbout.pathogen.reservoir,
+                    },
+                },
+                clinicalFeatures: justinianAbout.clinicalFeatures,
+                historicalImpact: justinianAbout.historicalImpact,
+            };
+        }
+
+        return {
             title: activePandemic.aboutTitle,
             overview: activePandemic.aboutOverview,
             pathogenName: activePandemic.pathogenName,
@@ -234,9 +301,8 @@ export const PandemicProvider: React.FC<{
                     },
                 },
             },
-        }),
-        [activePandemic],
-    );
+        };
+    }, [activePandemic]);
 
     const extremesData = useMemo(() => {
         return EXTREMES_CATALOG[activePandemic.id] || [];
