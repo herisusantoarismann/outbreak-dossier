@@ -141,28 +141,36 @@ export const PandemicSwitcher: React.FC<PandemicSwitcherProps> = ({
                 </button>
             </div>
 
-            {/* 2. Widescreen Desktop Elements (xl: 1280px and above) */}
-            {/* 2A. Widescreen Left Pathogen Brief Pill */}
-            {onOpenInfo && (
-                <aside className="hidden xl:block fixed bottom-6 left-6 z-30 pointer-events-auto">
-                    <button
-                        type="button"
-                        onClick={onOpenInfo}
-                        className="font-mono text-xs text-neutral-300 border border-white/20 bg-black/75 backdrop-blur-md px-3.5 py-1.5 rounded-full hover:border-cyan-400 hover:text-cyan-300 transition-all cursor-pointer shadow-[0_0_15px_rgba(0,0,0,0.6)] flex items-center gap-1.5 active:scale-95 max-w-xs truncate"
-                    >
-                        <span className="text-cyan-400 font-bold shrink-0">
-                            [!]
-                        </span>
-                        <span className="truncate">{activeDisplayName}</span>
-                    </button>
-                </aside>
-            )}
-
-            {/* 2B. Widescreen Center Chronological Dock */}
+            {/* 2. Widescreen Desktop Tactical Command Dock (xl: 1280px and above) */}
             <nav
                 aria-label="Chronological Pandemic Dossier Selector"
-                className={`hidden xl:flex fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex-row items-center gap-1.5 p-1.5 bg-black/85 border border-white/10 backdrop-blur-md rounded-full shadow-2xl pointer-events-auto font-mono text-xs select-none ${className}`}
+                className={`hidden xl:flex fixed bottom-5 sm:bottom-6 left-1/2 -translate-x-1/2 z-40 flex-row items-center gap-1.5 p-1.5 bg-black/90 border border-white/15 backdrop-blur-md rounded-full shadow-[0_4px_30px_rgba(0,0,0,0.85)] pointer-events-auto font-mono text-[11px] 2xl:text-xs select-none ${className}`}
             >
+                {/* Pathogen Intelligence Brief Trigger Button */}
+                {onOpenInfo && (
+                    <>
+                        <button
+                            type="button"
+                            onClick={onOpenInfo}
+                            className="px-3 py-1 rounded-full border border-white/10 hover:border-cyan-400/60 bg-white/5 hover:bg-cyan-950/40 text-neutral-300 hover:text-cyan-300 transition-all cursor-pointer flex items-center gap-1.5 active:scale-95 shrink-0 shadow-sm"
+                            aria-label="Open Pathogen Intelligence Brief"
+                            title={`Open Intelligence Brief: ${activeDisplayName}`}
+                        >
+                            <span className="text-cyan-400 font-bold shrink-0">
+                                [!]
+                            </span>
+                            <span className="font-bold tracking-wider">
+                                BRIEF
+                            </span>
+                        </button>
+                        <div
+                            className="h-3.5 w-px bg-white/15 mx-0.5 shrink-0"
+                            aria-hidden="true"
+                        />
+                    </>
+                )}
+
+                {/* Historical Epoch Buttons */}
                 {chronologicalPandemics.map((pandemic) => {
                     const isActive = pandemic.id === activePandemicId;
                     const isClassified =
@@ -179,7 +187,7 @@ export const PandemicSwitcher: React.FC<PandemicSwitcherProps> = ({
                             key={pandemic.id}
                             type="button"
                             onClick={() => setActivePandemicId(pandemic.id)}
-                            className={`px-3 py-1 rounded-full border transition-all duration-200 tracking-wider whitespace-nowrap active:scale-95 flex items-center gap-1.5 ${buttonClass}`}
+                            className={`px-2.5 2xl:px-3 py-1 rounded-full border transition-all duration-200 tracking-wider whitespace-nowrap active:scale-95 flex items-center gap-1.5 ${buttonClass}`}
                             title={
                                 isClassified
                                     ? `[ RESTRICTED ARCHIVE ] ${pandemic.name.en} (${pandemic.eraLabel}) — ${pandemic.pathogenName}`

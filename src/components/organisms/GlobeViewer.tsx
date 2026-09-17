@@ -888,8 +888,8 @@ const GlobeViewerInner: React.FC = () => {
                     {/* Tactical Language Switcher */}
                     <LocaleSwitcher />
 
-                    {/* Desktop Tactical Coordinates HUD */}
-                    <div className="hidden lg:flex flex-col items-end text-[11px] font-mono text-neutral-400 bg-black/60 border border-neutral-800/80 px-3 py-1.5 rounded backdrop-blur">
+                    {/* Desktop Tactical Coordinates HUD (2xl+: wide screens only to prevent header overlap on laptops/1440px) */}
+                    <div className="hidden 2xl:flex flex-col items-end text-[11px] font-mono text-neutral-400 bg-black/60 border border-neutral-800/80 px-3 py-1.5 rounded backdrop-blur">
                         <div className="flex items-center gap-1 text-cyan-400">
                             <Crosshair className="w-3.5 h-3.5" />
                             <span>{tHub("scanActive")}</span>
@@ -911,7 +911,7 @@ const GlobeViewerInner: React.FC = () => {
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: -10, scale: 0.96 }}
                         transition={{ duration: 0.2 }}
-                        className="fixed top-26 sm:top-28 md:top-32 xl:top-20 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded border border-amber-500/60 bg-black/95 backdrop-blur-md shadow-[0_0_25px_rgba(245,158,11,0.35)] font-mono text-[11px] sm:text-xs text-amber-400 tracking-wider pointer-events-none max-w-[92vw] text-center"
+                        className="fixed top-28 sm:top-32 md:top-34 xl:top-34 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded border border-amber-500/60 bg-black/95 backdrop-blur-md shadow-[0_0_25px_rgba(245,158,11,0.35)] font-mono text-[11px] sm:text-xs text-amber-400 tracking-wider pointer-events-none max-w-[92vw] text-center"
                     >
                         <span className="w-2 h-2 rounded-full bg-amber-400 animate-ping shrink-0" />
                         <span className="font-bold truncate">
@@ -921,23 +921,23 @@ const GlobeViewerInner: React.FC = () => {
                 )}
             </AnimatePresence>
 
-            {/* Mission Control Tactical Telemetry Ticker (Global Extremes) - Top Center */}
-            <div className="absolute top-14 sm:top-16 md:top-20 xl:top-6 left-1/2 -translate-x-1/2 z-20 pointer-events-none">
+            {/* Mission Control Tactical Telemetry Ticker (Global Extremes) - Top Center (Safely below Header on all screen sizes) */}
+            <div className="absolute top-16 sm:top-18 md:top-20 xl:top-20 left-1/2 -translate-x-1/2 z-20 pointer-events-none">
                 <TelemetryTicker onSelectRecord={handleSelectRecord} />
             </div>
 
             {/* Unified Responsive Pandemic Switcher & Bottom Dock */}
             <PandemicSwitcher onOpenInfo={() => setIsInfoDrawerOpen(true)} />
 
-            {/* Global Tactical Footer (Bottom-Right, Widescreen Desktop Only) */}
-            <footer className="hidden xl:flex absolute bottom-6 right-6 flex-col items-end gap-1.5 pointer-events-none z-10 font-mono text-[10px] text-neutral-500">
-                <div className="bg-black/60 border border-neutral-800/80 px-3 py-1 rounded backdrop-blur">
+            {/* Global Tactical Footer & Hover Telemetry (Bottom-Right, Elevated above bottom dock to eliminate collisions) */}
+            <footer className="hidden xl:flex fixed bottom-20 right-6 flex-col items-end gap-1.5 pointer-events-none z-10 font-mono text-[10px] text-neutral-500">
+                <div className="bg-black/80 border border-neutral-800/80 px-3 py-1 rounded backdrop-blur shadow-lg">
                     {hoveredCountryName ? (
                         <span
                             className={
                                 hoveredIsEpicenter
-                                    ? "text-red-400"
-                                    : "text-cyan-400"
+                                    ? "text-red-400 font-bold"
+                                    : "text-cyan-400 font-bold"
                             }
                         >
                             {hoveredIsEpicenter
@@ -948,7 +948,7 @@ const GlobeViewerInner: React.FC = () => {
                         <span>{tHub("dragPrompt")}</span>
                     )}
                 </div>
-                <div className="bg-black/75 border border-neutral-800/80 px-3 py-1 rounded backdrop-blur text-right text-[9px] text-neutral-600">
+                <div className="bg-black/80 border border-neutral-800/80 px-3 py-1 rounded backdrop-blur text-right text-[9px] text-neutral-600">
                     {`OUTBREAK DOSSIER © ${new Date().getFullYear()} // DECLASSIFIED EPIDEMIOLOGICAL DATA INTELLIGENCE.`}
                 </div>
             </footer>
