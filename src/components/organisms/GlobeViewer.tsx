@@ -923,7 +923,10 @@ const GlobeViewerInner: React.FC = () => {
 
             {/* Mission Control Tactical Telemetry Ticker (Global Extremes) - Top Center (Parallel with Header on >1440px, Below on <=1440px) */}
             <div className="absolute top-16 sm:top-18 md:top-20 xl:top-20 hud-ticker-wide left-1/2 -translate-x-1/2 z-20 pointer-events-none">
-                <TelemetryTicker onSelectRecord={handleSelectRecord} />
+                <TelemetryTicker
+                    key={activePandemicId}
+                    onSelectRecord={handleSelectRecord}
+                />
             </div>
 
             {/* Unified Responsive Pandemic Switcher & Bottom Dock */}

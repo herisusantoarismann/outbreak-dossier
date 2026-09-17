@@ -27,12 +27,6 @@ export const TelemetryTicker: React.FC<TelemetryTickerProps> = ({
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isPaused, setIsPaused] = useState(false);
 
-    const [prevPandemicId, setPrevPandemicId] = useState(activePandemic.id);
-    if (prevPandemicId !== activePandemic.id) {
-        setPrevPandemicId(activePandemic.id);
-        setCurrentIndex(0);
-    }
-
     // Auto-cycle through items every 7 seconds
     useEffect(() => {
         if (!effectiveRecords.length || isPaused) return;
