@@ -888,8 +888,8 @@ const GlobeViewerInner: React.FC = () => {
                     {/* Tactical Language Switcher */}
                     <LocaleSwitcher />
 
-                    {/* Desktop Tactical Coordinates HUD (2xl+: wide screens only to prevent header overlap on laptops/1440px) */}
-                    <div className="hidden 2xl:flex flex-col items-end text-[11px] font-mono text-neutral-400 bg-black/60 border border-neutral-800/80 px-3 py-1.5 rounded backdrop-blur">
+                    {/* Desktop Tactical Coordinates HUD (Visible on >1440px where header has full clearance) */}
+                    <div className="hidden min-[1441px]:flex flex-col items-end text-[11px] font-mono text-neutral-400 bg-black/60 border border-neutral-800/80 px-3 py-1.5 rounded backdrop-blur">
                         <div className="flex items-center gap-1 text-cyan-400">
                             <Crosshair className="w-3.5 h-3.5" />
                             <span>{tHub("scanActive")}</span>
@@ -911,7 +911,7 @@ const GlobeViewerInner: React.FC = () => {
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: -10, scale: 0.96 }}
                         transition={{ duration: 0.2 }}
-                        className="fixed top-28 sm:top-32 md:top-34 xl:top-34 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded border border-amber-500/60 bg-black/95 backdrop-blur-md shadow-[0_0_25px_rgba(245,158,11,0.35)] font-mono text-[11px] sm:text-xs text-amber-400 tracking-wider pointer-events-none max-w-[92vw] text-center"
+                        className="fixed top-28 sm:top-32 md:top-34 xl:top-34 min-[1441px]:top-20 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 px-3.5 py-1.5 sm:px-4 sm:py-2 rounded border border-amber-500/60 bg-black/95 backdrop-blur-md shadow-[0_0_25px_rgba(245,158,11,0.35)] font-mono text-[11px] sm:text-xs text-amber-400 tracking-wider pointer-events-none max-w-[92vw] text-center"
                     >
                         <span className="w-2 h-2 rounded-full bg-amber-400 animate-ping shrink-0" />
                         <span className="font-bold truncate">
@@ -921,16 +921,16 @@ const GlobeViewerInner: React.FC = () => {
                 )}
             </AnimatePresence>
 
-            {/* Mission Control Tactical Telemetry Ticker (Global Extremes) - Top Center (Safely below Header on all screen sizes) */}
-            <div className="absolute top-16 sm:top-18 md:top-20 xl:top-20 left-1/2 -translate-x-1/2 z-20 pointer-events-none">
+            {/* Mission Control Tactical Telemetry Ticker (Global Extremes) - Top Center (Parallel with Header on >1440px, Below on <=1440px) */}
+            <div className="absolute top-16 sm:top-18 md:top-20 xl:top-20 min-[1441px]:top-6 left-1/2 -translate-x-1/2 z-20 pointer-events-none">
                 <TelemetryTicker onSelectRecord={handleSelectRecord} />
             </div>
 
             {/* Unified Responsive Pandemic Switcher & Bottom Dock */}
             <PandemicSwitcher onOpenInfo={() => setIsInfoDrawerOpen(true)} />
 
-            {/* Global Tactical Footer & Hover Telemetry (Bottom-Right, Elevated above bottom dock to eliminate collisions) */}
-            <footer className="hidden xl:flex fixed bottom-20 right-6 flex-col items-end gap-1.5 pointer-events-none z-10 font-mono text-[10px] text-neutral-500">
+            {/* Global Tactical Footer & Hover Telemetry (Bottom-Right, Elevated on <=1440px, Parallel with Switcher on >1440px) */}
+            <footer className="hidden xl:flex fixed bottom-20 min-[1441px]:bottom-6 right-6 flex-col items-end gap-1.5 pointer-events-none z-10 font-mono text-[10px] text-neutral-500">
                 <div className="bg-black/80 border border-neutral-800/80 px-3 py-1 rounded backdrop-blur shadow-lg">
                     {hoveredCountryName ? (
                         <span
