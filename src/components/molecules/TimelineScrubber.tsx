@@ -23,20 +23,30 @@ interface YearGroup {
 function parseYear(
     date: LocalizedContent | string | undefined | null,
     id: string,
+    fallbackYear: string = "2020",
 ): string {
     const dateStr =
-        typeof date === "string" ? date : date?.id || date?.en || "";
+        typeof date === "string" ? date : `${date?.id || ""} ${date?.en || ""}`;
+
+    // Epilogue / debriefing chapters without explicit dates inherit the fallback/current era year
     if (
-        dateStr.includes("2023") ||
         id.includes("national-debriefing") ||
-        id.includes("ground-zero-epilogue")
-    )
-        return "2023";
-    if (dateStr.includes("2022")) return "2022";
-    if (dateStr.includes("2021")) return "2021";
-    if (dateStr.includes("2020")) return "2020";
-    if (dateStr.includes("2019")) return "2019";
-    return "2020";
+        id.includes("ground-zero-epilogue") ||
+        id.includes("sector-ind-epilogue") ||
+        id.includes("sector-ita-epilogue") ||
+        id.includes("sector-usa-epilogue")
+    ) {
+        return fallbackYear;
+    }
+
+    // Match any 3-digit (e.g. 541, 542 in Justinian) or 4-digit (e.g. 1347, 1817, 1918, 2020) year
+    const matches = dateStr.match(/\b([1-2]\d{3}|[5-9]\d{2})\b/g);
+    if (matches && matches.length > 0) {
+        // If range like "2019 - 2020" or "Maret – April 542 M", pick the dominant/last matched year
+        return matches[matches.length - 1];
+    }
+
+    return fallbackYear;
 }
 
 export const TimelineScrubber: React.FC<TimelineScrubberProps> = ({
@@ -56,7 +66,7 @@ export const TimelineScrubber: React.FC<TimelineScrubberProps> = ({
         // Fallback for non-next-intl contexts (e.g. Storybook)
     }
 
-    // Group chapters by year anchor (2020, 2021, 2022, 2023)
+    // Dynamically group chapters by chronological year anchor across all pandemics
     const yearGroups = useMemo(() => {
         const groups: YearGroup[] = [];
         const yearMap = new Map<
@@ -64,8 +74,23 @@ export const TimelineScrubber: React.FC<TimelineScrubberProps> = ({
             { chapter: Chapter; globalIndex: number }[]
         >();
 
+        // Pre-scan chapters to determine initial era year fallback
+        let currentYear = "2020";
+        for (const ch of chapters) {
+            const str =
+                typeof ch.date === "string"
+                    ? ch.date
+                    : `${ch.date?.id || ""} ${ch.date?.en || ""}`;
+            const m = str.match(/\b([1-2]\d{3}|[5-9]\d{2})\b/);
+            if (m) {
+                currentYear = m[1];
+                break;
+            }
+        }
+
         chapters.forEach((chapter, index) => {
-            const year = parseYear(chapter.date, chapter.id);
+            const year = parseYear(chapter.date, chapter.id, currentYear);
+            currentYear = year; // Keep track of active timeline year context
             if (!yearMap.has(year)) {
                 yearMap.set(year, []);
             }
@@ -104,7 +129,7 @@ export const TimelineScrubber: React.FC<TimelineScrubberProps> = ({
             className="fixed right-4 top-1/2 -translate-y-1/2 z-40 hidden md:flex flex-col items-center gap-1.5 pointer-events-auto select-none"
         >
             <div className="bg-black/85 backdrop-blur-md border border-neutral-800/90 rounded-full py-3 px-1.5 shadow-[0_0_30px_rgba(0,0,0,0.9)] flex flex-col items-center gap-1.5">
-                {yearGroups.map((group) => {
+                {yearGroups.map((group, groupIndex) => {
                     const isYearActive = group.chapters.some(
                         (c) => c.globalIndex === activeIndex,
                     );
@@ -228,7 +253,7 @@ export const TimelineScrubber: React.FC<TimelineScrubberProps> = ({
                             </div>
 
                             {/* Subtle divider line between years */}
-                            {group.year !== "2023" && (
+                            {groupIndex < yearGroups.length - 1 && (
                                 <div className="w-1.5 h-px bg-neutral-800 my-0.5" />
                             )}
                         </div>
