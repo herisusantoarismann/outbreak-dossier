@@ -1,0 +1,460 @@
+{
+    "sectorId": "KAF",
+    "sectorName": {
+        "id": "Sektor Kaffa (Krimea & Titik Api Perang Biologis)",
+        "en": "Sector Kaffa (Crimea & The Biological Siege)"
+    },
+    "coordinates": [45.0344, 35.3792],
+    "timeRange": "1346 – 1347 M",
+    "estimatedFatalities": "80.000 – 120.000 (Garnisun Krimea & Pasukan Golden Horde)",
+    "chapters": [
+        {
+            "id": "kaf-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Benteng Kaffa: Pos Terdepan Republik Genoa di Laut Hitam",
+                "en": "Fortress of Kaffa: Genoa's Black Sea Outpost"
+            },
+            "date": {
+                "id": "Awal 1346 M",
+                "en": "Early 1346 AD"
+            },
+            "flash": {
+                "id": "Koloni dagang benteng Genoa di semenanjung Krimea menjadi simpul paling makmur di Laut Hitam, tempat bertemunya pedagang Italia dengan kafilah Jalur Sutra.",
+                "en": "Genoa's fortified trading colony in the Crimean peninsula serves as the richest Black Sea nexus, where Italian merchants meet Silk Road caravans."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Galur Medievalis Stepa Eurasia)",
+                "vector": "Xenopsylla cheopis via Tikus Stepa & Muatan Sutra",
+                "incubation": "2 – 6 Hari",
+                "transmission": "Kontak perdagangan lintas benua di pos pabean Krimea"
+            },
+            "description": {
+                "id": "Kaffa adalah permata maritim Republik Genoa di Krimea, dilindungi tembok batu kapur ganda dan parit dalam. Di pelabuhan ini, kapal-kapal galai Italia memuat sutra mentah, rempah-rempah, jelai, dan budak dari pedalaman Asia untuk dibawa ke Mediterania. Kota benteng berpenduduk puluhan ribu jiwa ini menikmati kemakmuran luar biasa di bawah piagam dagang dengan para khan Mongol, tanpa menyadari bahwa jalur kafilah stepa sedang mengalirkan wabah mematikan dari timur.",
+                "en": "Kaffa was Genoa's maritime jewel in Crimea, guarded by double limestone curtain walls and deep moats. In its protected harbor, Italian galleys loaded raw silk, spices, barley, and captives from Central Asia bound for the Mediterranean. Housing tens of thousands behind strong bastions, Kaffa flourished under trade pacts with Mongol khans, blind to the biological terror traveling steadily along steppe caravan corridors."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_01.jpg"
+        },
+        {
+            "id": "kaf-ch-02",
+            "chapterNumber": 2,
+            "type": "standard",
+            "title": {
+                "id": "Debu Stepa: Gelombang Maut dari Asia Tengah",
+                "en": "Steppe Dust: The Lethal Wave from Central Asia"
+            },
+            "date": {
+                "id": "Pertengahan 1346 M",
+                "en": "Mid-1346 AD"
+            },
+            "flash": {
+                "id": "Wabah pes yang telah membakar wilayah Danau Issyk-Kul dan hulu Sungai Volga mencapai kamp-kamp nomaden bangsa Tatar di Laut Kaspia.",
+                "en": "Plague ravaging Lake Issyk-Kul and the upper Volga reaches nomadic Tatar encampments across the Caspian littoral."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Reservoir Pengerat Liar Stepa)",
+                "vector": "Marmota baibacina & Pinjal Padang Rumput",
+                "incubation": "3 – 5 Hari",
+                "transmission": "Perburuan marmot dan pergerakan kavaleri nomaden"
+            },
+            "description": {
+                "id": "Bakteri pes telah lama hidup di sarang marmot liar di dataran tinggi Asia Tengah. Perubahan iklim dan kekeringan memaksa koloni hewan pengerat bermigrasi, memicu kontak dengan kafilah dagang Pax Mongolica. Ketika pasukan kavaleri Golden Horde melintasi Sungai Don dan Donets, para prajurit nomaden mulai terserang demam mendadak. Bintik-bintik ungu gelap dan benjolan sebesar telur muncul di ketiak mereka, melumpuhkan seluruh perkemahan yurt dalam hitungan pekan.",
+                "en": "The plague bacterium had long inhabited wild marmot burrows across the Central Asian highlands. Shifting climates and droughts drove rodent colonies outward, sparking contact with Pax Mongolica trading trails. As Golden Horde cavalry crossed the Don and Donets rivers, nomadic warriors succumbed to sudden, scorching fevers. Dark purple lenticulae and egg-sized tumors erupted in their armpits, decimating yurt encampments within weeks."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_02.jpg"
+        },
+        {
+            "id": "kaf-ch-03",
+            "chapterNumber": 3,
+            "type": "standard",
+            "title": {
+                "id": "Pengepungan Khan Jani Beg: Tembok Melawan Stepa",
+                "en": "The Siege of Jani Beg: Stone Versus Steppe"
+            },
+            "date": {
+                "id": "Musim Gugur 1346 M",
+                "en": "Autumn 1346 AD"
+            },
+            "flash": {
+                "id": "Sengketa pasar memicu perang; Khan Jani Beg dari Golden Horde mengerahkan puluhan ribu pasukan berkuda untuk mengepung total benteng Kaffa dari daratan.",
+                "en": "Market brawls escalate into full war; Khan Jani Beg of the Golden Horde marshals tens of thousands of horsemen to encircle Kaffa from the landward plains."
+            },
+            "virusProfile": {
+                "agent": "Konsentrasi Pasukan Skala Besar",
+                "vector": "Kepadatan Kamp Militer Tanpa Sanitasi",
+                "incubation": "N/A",
+                "transmission": "Eskalasi paparan antar prajurit di garis parit pengepungan"
+            },
+            "description": {
+                "id": "Perselisihan berdarah di pasar Tana antara pedagang Kristen Italia dan penduduk Muslim lokal memicu murka Khan Jani Beg. Penguasa Golden Horde itu menuntut kepala para pelaku dan memimpin pasukan gabungan Tatar mengepung Kaffa. Pasukan nomaden mendirikan parit-parit kepung, menara kayu, dan tenda-tenda di sekeliling dinding darat kota. Namun bangsa Genoa bertahan kokoh; armada galai mereka terus menyuplai bahan pangan lewat laut, menciptakan kebuntuan militer yang menguras tenaga kedua belah pihak.",
+                "en": "A violent marketplace brawl in Tana between Italian Christian traders and local Muslim residents incurred the wrath of Khan Jani Beg. The Golden Horde sovereign demanded retribution and marshaled Tatar armies to besiege Kaffa. The nomads erected siege earthworks, wooden mantlets, and camps encircling the landward walls. But the Genoese held fast; naval galleys continually ferried food and bolts through the sea, freezing the contest into an agonizing stalemate."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_03.jpg"
+        },
+        {
+            "id": "kaf-ch-04",
+            "chapterNumber": 4,
+            "type": "standard",
+            "title": {
+                "id": "Petaka di Kamp Pengepung: Wabah Menyerang Tatar",
+                "en": "Catastrophe in the Lines: The Pestilence Strikes the Tatars"
+            },
+            "date": {
+                "id": "Akhir Musim Gugur 1346 M",
+                "en": "Late Autumn 1346 AD"
+            },
+            "flash": {
+                "id": "Bakteri Yersinia pestis meledak di dalam kamp tentara Mongol; ribuan prajurit pengepung tewas seketika, menghentikan rencana penyerbuan umum.",
+                "en": "Yersinia pestis explodes inside the Mongol camp; thousands of besiegers perish abruptly, extinguishing plans for a general assault on Kaffa."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Bentuk Septikemik & Paru)",
+                "vector": "Droplet Pernapasan & Inokulasi Pinjal Kamp",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Penyebaran ganas di perkemahan prajurit berkuda"
+            },
+            "description": {
+                "id": "Sebelum panah-panah pembakar sempat meruntuhkan gerbang Kaffa, musuh yang tak kasat mata menyusup ke barisan tentara Tatar. Prajurit-prajurit tangguh yang terbiasa hidup keras di padang rumput mendadak merintih kesakitan di dalam tenda kulit mereka. Demam tinggi, muntah darah hitam, dan pembengkakan kelenjar selangkangan menewaskan ribuan orang dalam hitungan hari. Kematian begitu masif hingga prajurit yang masih hidup menolak memindahkan jenazah rekan mereka, membiarkan aroma busuk memayungi seluruh garis pengepungan.",
+                "en": "Before fire arrows breached Kaffa's gates, an invisible enemy struck the Tatar host. Hardened cavalrymen accustomed to steppe privations collapsed in agony inside leather pavilions. Burning fevers, vomiting of dark blood, and groin buboes claimed thousands within days. Mortality escalated so rapidly that survivors refused to bury comrades, leaving putrefying corpses beneath the autumn rains."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_04.jpg"
+        },
+        {
+            "id": "kaf-ch-05",
+            "chapterNumber": 5,
+            "type": "milestone",
+            "title": {
+                "id": "Perintah Khan Jani Beg: Proyektil Maut Trebuchet",
+                "en": "Decree of Khan Jani Beg: The Trebuchet Payload"
+            },
+            "date": {
+                "id": "Musim Dingin 1346 M",
+                "en": "Winter 1346 AD"
+            },
+            "flash": {
+                "id": "Saksi mata Gabriele de' Mussi mencatat keputusan fatal sang Khan: memerintahkan jenazah prajurit yang tewas terkena pes untuk dimuat ke dalam katapel raksasa dan dilontarkan melewati tembok Kaffa.",
+                "en": "Chronicler Gabriele de' Mussi records the fatal decision: the Khan orders pestilence-ridden cadavers loaded into massive trebuchet slings and hurled over Kaffa's walls."
+            },
+            "virusProfile": {
+                "agent": "Perang Biologis Pertama Abad Pertengahan",
+                "vector": "Proyektil Kadavrik Berinfeksi",
+                "incubation": "N/A",
+                "transmission": "Aerosolisasi cairan busuk saat jenazah membentur batu jalanan"
+            },
+            "description": {
+                "id": "Menyadari tentaranya sedang musnah dan pengepungan di ambang kegagalan, Khan Jani Beg melancarkan taktik keputusasaan yang kelak mengubah sejarah dunia. Ia memerintahkan mesin-mesin pelontar batu (trebuchet) diarahkan ke pusat kota. Alih-alih batu karang, mangkuk pelontar diisi dengan mayat-mayat prajurit Tatar yang membusuk penuh luka pes. Satu per satu, jenazah-jenazah beracun itu dilontarkan melintasi dinding batu Kaffa, mendarat di atap-atap rumah dan halaman gereja kota.",
+                "en": "Realizing his host was perishing and the siege unviable, Khan Jani Beg deployed a desperate stratagem that altered world history. He ordered counterweight trebuchets turned against the urban core. In place of boulders, sling cradles were loaded with the rotting, bubo-riddled corpses of Tatar soldiers. One after another, the putrid cadavers were hurled across Kaffa's high curtain walls, crashing onto tiled roofs and church courtyards."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_05.jpg"
+        },
+        {
+            "id": "kaf-ch-06",
+            "chapterNumber": 6,
+            "type": "standard",
+            "title": {
+                "id": "Hujan Mayat di Langit Malam: Teror di Balik Tembok",
+                "en": "Raining Corpses: Terror Behind the Ramparts"
+            },
+            "date": {
+                "id": "Desember 1346 M",
+                "en": "December 1346 AD"
+            },
+            "flash": {
+                "id": "Dentingan mesin trebuchet mengiringi jatuhnya ratusan jasad berpenyakit di atas pemukiman padat warga Genoa, menyebarkan bau pembusukan dan kepanikan tak terkendali.",
+                "en": "Creaking trebuchet counterweights herald the arrival of hundreds of pestilent corpses crashing into dense Genoese quarters, sparking mass panic."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Transmisi Fomites & Droplet Kadavrik)",
+                "vector": "Pecahnya Jaringan Tubuh Jenazah yang Membentur Batu",
+                "incubation": "2 – 3 Hari",
+                "transmission": "Inhalasi partikel aerosol busuk dan paparan langsung luka terbuka"
+            },
+            "description": {
+                "id": "Langit musim dingin Kaffa dipenuhi teror yang belum pernah disaksikan bangsa Eropa. Dentang kayu trebuchet yang melepaskan bandul diikuti oleh suara berdebum mengerikan saat jenazah prajurit Mongol menghantam paving jalanan kota, pecah berhamburan mengeluarkan cairan busuk dan nanah hitam. Bau bangkai seketika memenuhi lorong-lorong sempit Kaffa. Warga sipil berteriak histeris, mengunci pintu-pintu kayu mereka sementara para serdadu bayaran menolak mendekati titik-titik jatuhnya jasad.",
+                "en": "Kaffa's winter skies filled with an unprecedented nightmare. The groan of trebuchet timbers was followed by sickening impacts as Tatar corpses smashed onto cobblestones, rupturing purulent buboes across streets. The stench of decomposition saturated narrow alleys. Terrified civilians barricaded their homes while mercenaries refused to approach impact sites where diseased gore lay splattered."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_06.jpg"
+        },
+        {
+            "id": "kaf-ch-07",
+            "chapterNumber": 7,
+            "type": "standard",
+            "title": {
+                "id": "Pembuangan ke Laut Hitam: Upaya Sanitasi yang Terlambat",
+                "en": "Jettison into the Black Sea: Too Late for Cleansing"
+            },
+            "date": {
+                "id": "Januari 1347 M",
+                "en": "January 1347 AD"
+            },
+            "flash": {
+                "id": "Otoritas Genoa memaksa narapidana dan budak melempar jasad-jasad musuh ke laut; ombak pasang mengembalikan mayat-mayat itu ke tepi dermaga.",
+                "en": "Genoese magistrates force convicts to pitch enemy cadavers into the sea; crashing winter swells wash putrefying remains back onto harbor quays."
+            },
+            "virusProfile": {
+                "agent": "Pencemaran Pesisir Pelabuhan",
+                "vector": "Kontak Kulit Pekerja Sanitasi dengan Eksudat",
+                "incubation": "3 Hari",
+                "transmission": "Inokulasi bakteri melalui luka di tangan para pengangkut jenazah"
+            },
+            "description": {
+                "id": "Podesta (gubernur) Kaffa segera menyadari ancaman mematikan ini dan mengerahkan regu paksa untuk membuang jasad-jasad proyektil itu secepat mungkin. Dengan kait besi dan terpal rami, jenazah diseret ke puncak benteng laut lalu dilemparkan ke ombak Laut Hitam. Namun upaya pembersihan ini sia-sia. Gelombang pasang musim dingin menghempaskan puluhan mayat kembali ke bebatuan dermaga, mencemari air pelabuhan dan menularkan bakteri ke tangan para pekerja yang menyeretnya.",
+                "en": "Kaffa's Podestà recognized the deadly nature of the bombardment and ordered emergency work gangs to clear the bodies. Using iron gaffs and hemp tarpaulins, laborers dragged cadavers to sea bastions and heaved them into the churning surf. Yet winter tides drove dozens back against the wharf pilings, fouling harbor waters and infecting the bare hands of the clearing crews."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_07.jpg"
+        },
+        {
+            "id": "kaf-ch-08",
+            "chapterNumber": 8,
+            "type": "standard",
+            "title": {
+                "id": "Ledakan Penularan Domestik: Kolapsnya Sanitasi Kota",
+                "en": "Domestic Conflagration: The Internal Collapse"
+            },
+            "date": {
+                "id": "Februari 1347 M",
+                "en": "February 1347 AD"
+            },
+            "flash": {
+                "id": "Wabah menyala liar di dalam benteng Kaffa; kutu tikus berpindah dari jasad-jasad proyektil ke koloni tikus kota dan populasi warga Italia.",
+                "en": "Pestilence ignites inside Kaffa; fleas leap from catapulted cadavers into urban rodent colonies and the densely packed Italian population."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Transmisi Vektor Ganda)",
+                "vector": "Xenopsylla cheopis & Pulex irritans",
+                "incubation": "2 – 4 Hari",
+                "transmission": "Gigitan pinjal pada warga sipil dan penularan kontak serumah"
+            },
+            "description": {
+                "id": "Bahkan jika jasad-jasad itu berhasil dibuang, proyektil maut tersebut telah menyelesaikan misinya: melepaskan ribuan kutu pes lapar ke dalam kota berbenteng yang padat. Kutu-kutu itu segera melompat ke tikus-tikus hitam di gudang pelabuhan dan kasur-kasur rumah warga. Pada bulan Februari 1347 M, warga Kaffa mulai tumbang serentak. Kelenjar di leher dan selangkangan mereka membengkak hitam, disertai racauan panas demam yang menandai bahwa benteng itu kini telah menjadi penjara maut.",
+                "en": "Even when corpses were pitched into the sea, the biological payload had accomplished its task: releasing thousands of starved fleas inside the crowded perimeter. Parasites transferred into harbor rodent warrens and citizens' straw mattresses. By February 1347 AD, residents collapsed en masse. Swollen groin and cervical buboes, accompanied by violent delirium, turned the fortified enclave into a death trap."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_08.jpg"
+        },
+        {
+            "id": "kaf-ch-09",
+            "chapterNumber": 9,
+            "type": "side_story",
+            "title": {
+                "id": "Catatan Terakhir Notaris Gabriele de' Mussi",
+                "en": "The Last Ledger of Gabriele de' Mussi"
+            },
+            "date": {
+                "id": "Maret 1347 M",
+                "en": "March 1347 AD"
+            },
+            "flash": {
+                "id": "Kesaksian tertulis notaris Piacenza, Gabriele de' Mussi, yang mendokumentasikan kengerian bau busuk dan keputusasaan para saudagar Genoa yang terperangkap.",
+                "en": "Written testimony of notary Gabriele de' Mussi of Piacenza, chronicling the stench and utter despair of Genoese merchants trapped within."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Catatan Saksi Mata Primer)",
+                "vector": "Kontaminasi Udara & Permukaan Benda",
+                "incubation": "N/A",
+                "transmission": "Dokumentasi historis awal tentang penyebaran wabah pes"
+            },
+            "description": {
+                "id": "Notaris Gabriele de' Mussi duduk di mejanya dengan tangan gemetar, menuliskan salah satu kesaksian paling mengerikan abad pertengahan: 'Mayat-mayat busuk dilemparkan ke dalam kota, membuat seluruh udara tercemar dan sumber air beracun. Tidak ada tempat untuk bersembunyi dari bau maut. Ribuan orang mati setiap hari, dan mereka yang merawat orang sakit ikut tertular dalam hitungan jam.' Catatannya menjadi bukti abadi bagaimana sebuah taktik perang berubah menjadi awal kepunahan massal.",
+                "en": "Notary Gabriele de' Mussi sat at his desk with shaking hands, recording one of the medieval world's most chilling testimonies: 'Rotting bodies were hurled within, poisoning air and wells alike. No sanctuary could evade the stench of death. Thousands fell daily, and those nursing the stricken contracted the scourge within hours.' His parchment preserved how a desperate siege tactic ignited a continental apocalypse."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_09.jpg"
+        },
+        {
+            "id": "kaf-ch-10",
+            "chapterNumber": 10,
+            "type": "standard",
+            "title": {
+                "id": "Rapat Dewan Genoa: Rencana Pelarian Putus Asa",
+                "en": "Council of Genoa: The Desperate Evacuation Plan"
+            },
+            "date": {
+                "id": "April 1347 M",
+                "en": "April 1347 AD"
+            },
+            "flash": {
+                "id": "Dewan kota Kaffa mengakui kekalahan mutlak; para kapten galai bersepakat melanggar karantina dan melarikan diri menggunakan kapal dagang yang tersisa.",
+                "en": "The Genoese Council admits total defeat; sea captains resolve to breach harbor locks and evacuate aboard surviving merchant galleys."
+            },
+            "virusProfile": {
+                "agent": "Dampak Perilaku Manusia (Eksodus Maritim)",
+                "vector": "Pelarian Kapal Dagang Berawak Infeksius",
+                "incubation": "1 – 4 Hari",
+                "transmission": "Persiapan pelayaran maut melintasi Laut Hitam"
+            },
+            "description": {
+                "id": "Di dalam aula Dewan Santo Georgius yang diterangi lilin lemak, para kapten kapal dan tetua pedagang Genoa menyadari bahwa Kaffa sudah tamat. Di luar tembok, tentara Mongol yang tersisa terus menjaga kepungan; di dalam tembok, bau mayat tak lagi tertahankan. Pilihan yang tersisa hanyalah mati membusuk di Krimea atau mencoba peruntungan berlayar pulang ke Italia. Mereka sepakat menyiapkan selusin galai perang tercepat untuk evakuasi darurat di tengah malam.",
+                "en": "Inside the candlelit hall of the Council of St. George, Genoese captains and merchant magistrates recognized that Kaffa was finished. Outside the bastions, surviving Tatar horsemen maintained the cordon; within, the stench of decay was unbearable. The only choice was rotting in Crimea or attempting a desperate voyage home to Italy. They resolved to ready a dozen fast galleys for emergency nocturnal evacuation."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_10.jpg"
+        },
+        {
+            "id": "kaf-ch-11",
+            "chapterNumber": 11,
+            "type": "milestone",
+            "title": {
+                "id": "Kepanikan di Dermaga Kaffa: Pemuatan Galai Terakhir",
+                "en": "Harbor Turmoil: Boarding the Final Galleys"
+            },
+            "date": {
+                "id": "Mei 1347 M",
+                "en": "May 1347 AD"
+            },
+            "flash": {
+                "id": "Ribuan warga berebut menaiki tangga galai di tengah hujan badai; keluarga-keluarga kaya membuang muatan sutra demi menyelamatkan nyawa.",
+                "en": "Thousands battle for gangplanks amidst driving rain; patrician households jettison silk bales to secure passage aboard crowded decks."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Palka Kapal Terkontaminasi)",
+                "vector": "Barang Bawaan & Kasur Pelarian Pengungsi",
+                "incubation": "2 Hari",
+                "transmission": "Penyebaran pinjal pada ruang palka yang berdesakan"
+            },
+            "description": {
+                "id": "Malam evakuasi berubah menjadi huru-hara berdarah. Di dermaga kayu Kaffa, ribuan warga Genoa, Yunani, dan Armenia saling dorong menaiki tangga kapal. Para prajurit menghunus belati untuk menghalau kerumunan yang kelebihan muatan. Di tengah kekacauan itu, peti-peti pakaian wol dan karung perbekalan yang dipenuhi kutu berpes dinaikkan ke atas dek. Beberapa pengungsi yang telah mengalami demam tinggi dan menyembunyikan bintil bubo di balik jubah mereka berhasil lolos ke dalam kapal.",
+                "en": "The night of evacuation degenerated into bloody bedlam. On Kaffa's timber wharves, thousands of Genoese, Greek, and Armenian refugees surged against gangways. Mercenaries brandished daggers to beat back mobs swamping gunwales. Amidst the chaos, baggage crates packed with plague-harboring fleas were winched aboard. Several refugees hiding burning fevers and buboes beneath wool tunics slipped past inspection."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_11.jpg"
+        },
+        {
+            "id": "kaf-ch-12",
+            "chapterNumber": 12,
+            "type": "standard",
+            "title": {
+                "id": "Galai Kematian Berlayar: Membelah Kabut Laut Hitam",
+                "en": "The Death Galleys Depart: Parting the Euxine Fog"
+            },
+            "date": {
+                "id": "Juni 1347 M",
+                "en": "June 1347 AD"
+            },
+            "flash": {
+                "id": "Dua belas galai Genoa mengangkat jangkar dan memutus tali tambat; armada maut ini meluncur ke selatan melintasi Laut Hitam menuju Selat Bosphorus.",
+                "en": "Twelve Genoese galleys haul anchor and slip their hawsers; the fleet glides south across the Black Sea toward the Bosphorus strait."
+            },
+            "virusProfile": {
+                "agent": "Vektor Penularan Maritim Jarak Jauh",
+                "vector": "Armada Galai Berdayung Cepat",
+                "incubation": "Kecepatan Transit 30–40 km/Hari",
+                "transmission": "Eskalasi infeksi tertutup selama pelayaran antarpulau"
+            },
+            "description": {
+                "id": "Dalam keheningan fajar berkabut, dua belas galai dagang bertiang layar segitiga meluncur keluar dari teluk Kaffa. Para pendayung menarik dayung dengan sisa-sisa tenaga mereka, menjauh dari daratan Krimea yang dipayungi asap pembakaran mayat. Mereka mengira telah berhasil melarikan diri dari takdir maut. Namun di bawah geladak kayu yang gelap dan basah, jutaan bakteri pes telah berkembang biak di dalam aliran darah tikus-tikus kapal dan para awak perahu.",
+                "en": "Through misty morning doldrums, twelve lateen-rigged merchant galleys stood out from Kaffa bay. Oarsmen strained with waning strength, pulling away from a Crimean shoreline shrouded in smoke from burning pyres. The fugitives believed they had cheated mortality. But deep within the dank cargo holds, Yersinia pestis colonies multiplied rapidly inside shipboard rodents and the veins of the rowers."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_12.jpg"
+        },
+        {
+            "id": "kaf-ch-13",
+            "chapterNumber": 13,
+            "type": "standard",
+            "title": {
+                "id": "Agoni di Tengah Samudra: Galai yang Berubah Menjadi Peti Mati",
+                "en": "Agony on Open Water: Galleys Turned Coffins"
+            },
+            "date": {
+                "id": "Juli 1347 M",
+                "en": "July 1347 AD"
+            },
+            "flash": {
+                "id": "Di tengah pelayaran melintasi Laut Hitam, pes meledak ganas di atas kapal; para pendayung tewas di bangku dayung dan jenazah dilemparkan ke laut setiap pergantian jaga.",
+                "en": "Midway across the Black Sea, plague erupts aboard; oarsmen perish at thwarts and corpses are pitched into sea swells each watch."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Bentuk Paru Aerosol di Ruang Palka)",
+                "vector": "Droplet Pernapasan di Ruang Dayung Tertutup",
+                "incubation": "18 Jam",
+                "transmission": "Tingkat fatalitas 100% di ruang dayung tanpa ventilasi"
+            },
+            "description": {
+                "id": "Hanya beberapa hari setelah meninggalkan Kaffa, pelayaran itu berubah menjadi neraka mengapung. Udara pengap di ruang dayung memicu timbulnya pes paru; para pendayung batuk memuntahkan darah hitam berbusa ke atas dayung mereka. Ketika seorang pelaut meninggal, rekannya yang masih hidup melemparkan jasadnya ke laut lepas. Namun kutu pes yang kelaparan segera berpindah ke pelaut lain yang tersisa, mengurangi separuh awak galai sebelum kapal-kapal itu sempat melihat pantai Anatolia.",
+                "en": "Barely days out of Kaffa, the voyage turned into a floating abattoir. Stagnant air below decks sparked pneumonic plague; oarsmen coughed frothing black blood across their benches. When a mariner expired, survivors heaved him into the swells. But starved fleas promptly sought out remaining crew, halving the ships' manpower before the Anatolian coast was sighted."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_13.jpg"
+        },
+        {
+            "id": "kaf-ch-14",
+            "chapterNumber": 14,
+            "type": "standard",
+            "title": {
+                "id": "Mundurnya Tentara Tatar: Padang Rumput yang Sunyi",
+                "en": "Retreat of the Horde: Silence on the Steppes"
+            },
+            "date": {
+                "id": "Agustus 1347 M",
+                "en": "August 1347 AD"
+            },
+            "flash": {
+                "id": "Pasukan Khan Jani Beg membakar kemah pengepungan dan menarik mundur sisa kavaleri yang selamat; dataran Krimea ditinggalkan sebagai padang tandus berbau bangkai.",
+                "en": "Khan Jani Beg's surviving troops burn their siege encampment and withdraw; the Crimean plains are left a desolation reeking of death."
+            },
+            "virusProfile": {
+                "agent": "Dampak Demografis Stepa",
+                "vector": "Pemusnahan Kekuatan Militer Golden Horde",
+                "incubation": "Kronis",
+                "transmission": "Penyebaran sekunder ke suku-suku nomaden pedalaman Rusia"
+            },
+            "description": {
+                "id": "Di luar tembok Kaffa, pengepungan berakhir bukan oleh pertempuran, melainkan oleh kepunahan biologis. Khan Jani Beg memerintahkan sisa-sisa pasukannya membakar tenda yurt dan mesin trebuchet mereka sebelum bergerak mundur ke arah Sungai Volga. Ribuan bangkai kuda dan prajurit ditinggalkan berserakan di padang rumput yang menghitam. Garis kekuasaan Golden Horde di Krimea terguncang hebat, meninggalkan benteng Kaffa yang sunyi seperti kuburan batu raksasa.",
+                "en": "Beyond Kaffa's walls, the siege ended not through martial glory, but through biological annihilation. Khan Jani Beg commanded his remnants to fire their yurts and siege engines before retreating toward the Volga. Thousands of dead mounts and warriors lay unburied across blackened steppe turf. Golden Horde hegemony across Crimea was broken, leaving Kaffa silent as a tomb."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_14.jpg"
+        },
+        {
+            "id": "kaf-ch-15",
+            "chapterNumber": 15,
+            "type": "standard",
+            "title": {
+                "id": "Kaffa Kota Hantu: Benteng Tanpa Jiwa",
+                "en": "Ghost Fortress of Kaffa: The Hollow Bastion"
+            },
+            "date": {
+                "id": "September 1347 M",
+                "en": "September 1347 AD"
+            },
+            "flash": {
+                "id": "Hanya segelintir warga yang bertahan hidup di dalam benteng Kaffa; anjing-anjing liar berkeliaran di basilika Santo Mikael di antara tumpukan pakaian yang ditinggalkan.",
+                "en": "Barely a fraction of Kaffa's citizens survive; feral dogs prowl St. Michael's basilica among piles of discarded garments."
+            },
+            "virusProfile": {
+                "agent": "Depopulasi Perkotaan Ekstrem",
+                "vector": "Ketiadaan Populasi Inang Rentan",
+                "incubation": "N/A",
+                "transmission": "Matinya sirkulasi kehidupan kota koloni dagang"
+            },
+            "description": {
+                "id": "Kaffa kini menjadi kota mati. Dari 40.000 jiwa yang mendiami koloni makmur tersebut, lebih dari dua pertiga telah tewas atau melarikan diri ke laut. Di alun-alun depan istana Podesta, rumput liar mulai tumbuh di antara paving marmer. Barang-barang berharga, gulungan sutra berlumut, dan bejana anggur tergeletak berserakan tanpa ada yang menjaga. Benteng pertahanan terhebat di Laut Hitam ini telah dikalahkan bukan oleh pedang tentara Mongol, melainkan oleh strategi proyektil mayat Khan Jani Beg.",
+                "en": "Kaffa stood as a necropolis. Of the 40,000 souls formerly inhabiting the colony, over two-thirds lay dead or had fled. In the square fronting the Podestà's palace, weeds pushed through marble flags. Untended silks, moldering merchandise, and amphorae lay abandoned. The Black Sea's formidable fortress had been laid low not by Tatar sabers, but by Khan Jani Beg's catapulted contagion."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_15.jpg"
+        },
+        {
+            "id": "kaf-ch-16",
+            "chapterNumber": 16,
+            "type": "summary",
+            "title": {
+                "id": "Epilog Kaffa: Gerbang Pembuka Maut Hitam Eropa",
+                "en": "Epilogue: Kaffa and the Ignition of the European Apocalypse"
+            },
+            "date": {
+                "id": "Musim Gugur 1347 M & Warisan Sejarah",
+                "en": "Autumn 1347 AD & Historical Legacy"
+            },
+            "flash": {
+                "id": "Dua belas galai maut tiba di Selat Bosphorus dan Sisilia; proyektil jenazah dari Kaffa berhasil membakar seluruh peradaban Eropa abad pertengahan.",
+                "en": "Twelve death-laden galleys reach the Bosphorus and Sicily; the biological projectiles of Kaffa successfully ignite the medieval apocalypse."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Pandemik Kontinental Penuh)",
+                "vector": "Jaringan Pelayaran Maritim Mediterania",
+                "incubation": "Penyebaran Kontinental 1347 – 1353 M",
+                "transmission": "Evolusi dari konflik lokal Krimea menjadi bencana global"
+            },
+            "description": {
+                "id": "Pengepungan Kaffa pada tahun 1346 M selamanya tercatat sebagai salah satu peristiwa paling menentukan dalam sejarah peradaban manusia. Tindakan melontarkan mayat berpes melintasi dinding batu bukan hanya memecah pengepungan benteng, tetapi melahirkan rangkaian gelombang malapetaka yang menewaskan sepertiga umat manusia. Ketika armada galai Genoa yang sekarat itu merapat di Messina pada Oktober 1347 M, mereka membawa bara api biologis dari Krimea yang siap membakar seluruh benua Eropa.",
+                "en": "The siege of Kaffa in 1346 AD stands forever as one of the most consequential turning points in human history. The catapulting of infected corpses did not merely lift a siege; it unleashed a continental cataclysm that devoured one-third of humankind. When those dying Genoese galleys made landfall in Messina in October 1347 AD, they carried Crimean embers destined to reduce medieval Europe to ash."
+            },
+            "image": "/assets/images/black-death-1347/kaf/kaf_ch_16.jpg"
+        }
+    ]
+}

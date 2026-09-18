@@ -1,0 +1,572 @@
+{
+    "sectorId": "LON",
+    "sectorName": {
+        "id": "Sektor London (Kerajaan Inggris & Parit Smithfield)",
+        "en": "Sector London (Kingdom of England & The Smithfield Trenches)"
+    },
+    "coordinates": [51.5074, -0.1278],
+    "timeRange": "Juni 1348 – 1350 M",
+    "estimatedFatalities": "35.000 – 45.000 (≈ 50% Populasi London; 2 Juta di Kepulauan Britania)",
+    "chapters": [
+        {
+            "id": "lon-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Pendaratan di Melcombe Regis: Maut Menyeberangi Selat",
+                "en": "Landfall at Melcombe Regis: Crossing the English Channel"
+            },
+            "date": {
+                "id": "Juni – Juli 1348 M",
+                "en": "June – July 1348 AD"
+            },
+            "flash": {
+                "id": "Sebuah kapal kargo (cog) dari Gascony merapat di pelabuhan kecil Melcombe Regis di Dorset; bakteri Yersinia pestis melangkah pertama kali ke tanah kepulauan Britania.",
+                "en": "A merchant cog from Gascony berths at the small port of Melcombe Regis in Dorset; Yersinia pestis steps ashore onto the British Isles for the first time."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Galur Maritim Aquitaine)",
+                "vector": "Xenopsylla cheopis via Awak Kapal & Tong Anggur Bordeaux",
+                "incubation": "2 – 5 Hari",
+                "transmission": "Inokulasi langsung pada pelaut dan kuli dermaga pesisir Dorset"
+            },
+            "description": {
+                "id": "Pada akhir Juni 1348 M, sebuah kapal cog kayu bertiang tunggal yang berlayar dari pelabuhan Bordeaux di Gascony merapat di dermaga kayu Melcombe Regis (kini Weymouth), Dorset. Para pelautnya membawa muatan anggur merah dan kain wol, namun di bawah geladak kayu yang lembap, mereka juga membawa kutu-kutu pes yang kelaparan. Salah seorang pelaut yang telah mengalami demam tinggi dan bisul hitam di lehernya meninggal beberapa jam setelah turun ke darat. Dari desa pelabuhan kecil inilah malapetaka menyebar bagai api liar menyusuri jalanan tanah liat menuju pedalaman Inggris.",
+                "en": "In late June 1348 AD, a single-masted merchant cog sailing from Bordeaux in English Gascony tied up at Melcombe Regis (modern Weymouth), Dorset. Her mariners carried barrels of wine and bales of cloth, but deep within her bilges they sheltered famished plague fleas. A sailor exhibiting violent chills and black neck swellings died within hours of disembarking. From this modest haven, contagion erupted like wildfire along muddy coaching tracks toward the English interior."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_01.jpg"
+        },
+        {
+            "id": "lon-ch-02",
+            "chapterNumber": 2,
+            "type": "standard",
+            "title": {
+                "id": "London di Tepian Thames: Metropolis Kayu yang Padat",
+                "en": "London on the Thames: The Crowded Timber Metropolis"
+            },
+            "date": {
+                "id": "Agustus 1348 M",
+                "en": "August 1348 AD"
+            },
+            "flash": {
+                "id": "London berpenghuni 70.000 jiwa di dalam benteng dinding kuno; pemukiman kayu berlantai banyak dan selokan terbuka di Cheapside menjadi perangkap biologis sempurna.",
+                "en": "London houses 70,000 souls within ancient Roman walls; multi-story timber tenements and open gutters in Cheapside create an ideal biological trap."
+            },
+            "virusProfile": {
+                "agent": "Kepadatan Ekstrem Perkotaan Abad Pertengahan",
+                "vector": "Rattus rattus di Gudang Biji-bijian & Jerami Pemukiman",
+                "incubation": "N/A",
+                "transmission": "Kondisi sanitasi buruk yang mempercepat siklus enzootik tikus-manusia"
+            },
+            "description": {
+                "id": "Ibu kota Kerajaan Inggris pada musim panas 1348 adalah labirin sempit yang berbau busuk. Di dalam dinding batu peninggalan Romawi, puluhan ribu warga tinggal berdesak-desakan di rumah-rumah kayu dan lepa tanah (wattle-and-daub) yang lantai dasarnya ditutupi jerami kotor. Limbah rumah tangga dan jeroan jagal dibuang langsung ke selokan jalanan yang bermuara ke Sungai Thames. London Bridge dipenuhi pertokoan kayu bertingkat tiga yang menghalangi aliran udara segar, menciptakan inkubator alami bagi koloni tikus hitam perkotaan.",
+                "en": "The capital of the English realm in summer 1348 was a pungent, claustrophobic maze. Inside ancient Roman walls, tens of thousands crowded into wattle-and-daub timber tenements whose earthen floors were strewn with soiled rushes. Household refuse and butcher offal were pitched directly into street gutters draining toward the Thames. London Bridge was choked with multi-story timber workshops restricting breezes, creating a natural incubator for urban black rat warrens."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_02.jpg"
+        },
+        {
+            "id": "lon-ch-03",
+            "chapterNumber": 3,
+            "type": "milestone",
+            "title": {
+                "id": "Ledakan Pertama di Paroki St. Botolph Aldgate",
+                "en": "First Outbreak at St. Botolph Aldgate"
+            },
+            "date": {
+                "id": "September 1348 M",
+                "en": "September 1348 AD"
+            },
+            "flash": {
+                "id": "Kasus kematian pertama terkonfirmasi di paroki miskin St. Botolph Aldgate di dekat gerbang timur kota; demam berdarah dan bubo menyebar ke pemukiman buruh kasar.",
+                "en": "First confirmed plague deaths strike the impoverished parish of St. Botolph Aldgate near the eastern gates; hemorrhagic fevers spread across laborers' slums."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Galur Medievalis Kepulauan)",
+                "vector": "Xenopsylla cheopis pada Pakaian Wol Kasar",
+                "incubation": "2 – 4 Hari",
+                "transmission": "Penularan antar tetangga di pemukiman kumuh gerbang kota"
+            },
+            "description": {
+                "id": "Pada bulan September 1348 M, peringatan dari uskup-uskup di barat terbukti menjadi kenyataan mengerikan. Di paroki St. Botolph Aldgate, tepat di luar gerbang timur kota tempat para pekerja penyamak kulit dan kuli bongkar tinggal, kasus-kasus kematian aneh mulai melonjak. Para korban mengalami menggigil hebat yang diikuti oleh demam membakar dan munculnya benjolan ungu kehitaman di ketiak dan pangkal paha. Dalam kurun dua pekan, lonceng kematian paroki berdentang tanpa henti hingga para penggali kubur gereja kehabisan liang lahat.",
+                "en": "In September 1348 AD, dire epistles from western bishops materialized into nightmare. In the parish of St. Botolph Aldgate, just outside the eastern city wall where tanners and day laborers clustered, bizarre deaths multiplied. Sufferers experienced teeth-chattering agues followed by scorching fevers and purple-black swellings in armpits and groins. Within a fortnight, church bells tolled without pause until parish sextons ran out of consecrated ground."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_03.jpg"
+        },
+        {
+            "id": "lon-ch-04",
+            "chapterNumber": 4,
+            "type": "standard",
+            "title": {
+                "id": "Agoni di Balik Pintu Cheapside: Teror Kamar Tidur",
+                "en": "Agony Behind Cheapside Shutters: Bedchamber Terror"
+            },
+            "date": {
+                "id": "Oktober 1348 M",
+                "en": "October 1348 AD"
+            },
+            "flash": {
+                "id": "Penyakit menembus kawasan elit Cheapside; keluarga-keluarga pedagang wol mengunci pintu rumah dari dalam saat anak-anak mereka tewas dalam hitungan 48 jam.",
+                "en": "Contagion penetrates affluent Cheapside; merchant dynasties bolt oak shutters from within as their children perish within 48 hours of fever onset."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Toksemia & Syok Septik Akut)",
+                "vector": "Kutu Kasur Domestik & Pakaian Impor",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Eskalasi intrakeluarga di bilik-bilik tidur tertutup"
+            },
+            "description": {
+                "id": "Kekayaan para saudagar besar di Cheapside tidak memberi perlindungan apa pun. Bau dupa mahal dan cuka mawar yang disemprotkan di kamar-kamar tidur tidak mampu mengusir kutu pes yang bersembunyi di dalam tirai wol dan permadani impor. Anak-anak dan pelayan rumah tangga tumbang serentak, meracau dalam kegilaan akibat rasa sakit yang tak tertahankan pada kelenjar mereka yang membengkak. Tetangga yang ketakutan memasang palang kayu di pintu rumah yang terinfeksi, membiarkan orang yang sekarat merintih di balik jendela berteralis besi.",
+                "en": "Wealth among Cheapside merchant patriciates offered zero immunity. Costly frankincense and rose vinegar burned in bedchambers failed to deter fleas harbored within heavy wool draperies and imported rugs. Scions and domestic servants collapsed together, screaming in delirium from agonizing pressure within inflamed lymph glands. Terrified neighbors barred infected houses from the outside, leaving the dying to groan behind leaded lattice casements."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_04.jpg"
+        },
+        {
+            "id": "lon-ch-05",
+            "chapterNumber": 5,
+            "type": "milestone",
+            "title": {
+                "id": "Parlemen Westminster Ditangguhkan",
+                "en": "The Prorogation of Westminster: Parliament Dissolved"
+            },
+            "date": {
+                "id": "1 Januari 1349 M",
+                "en": "January 1, 1349 AD"
+            },
+            "flash": {
+                "id": "Raja Edward III menerbitkan dekrit kerajaan dari Istana Westminster; menangguhkan sidang Parlemen Inggris tanpa batas waktu karena mortalitas yang semakin ganas.",
+                "en": "King Edward III issues a royal writ from Westminster Palace; proroguing Parliament indefinitely as mortality consumes the capital."
+            },
+            "virusProfile": {
+                "agent": "Kelumpuhan Birokrasi Tertinggi Kerajaan",
+                "vector": "Kematian Pejabat Kanselir & Panitera Mahkamah",
+                "incubation": "N/A",
+                "transmission": "Penghentian seluruh fungsi legislatif dan kehakiman Kerajaan Inggris"
+            },
+            "description": {
+                "id": "Pada hari pertama tahun 1349 M, Raja Edward III mengakui bahwa ibu kotanya sedang bertekuk lutut di hadapan maut. Parlemen yang dijadwalkan bersidang untuk membahas pendanaan perang melawan Prancis ditangguhkan secara resmi. Sang raja menulis dalam maklumatnya bahwa 'wabah kematian yang mengerikan terus meningkat di sekitar Westminster, sehingga berbahaya bagi para bangsawan dan anggota dewan untuk berkumpul'. Pengadilan King's Bench dan Exchequer menghentikan pencatatan, membiarkan administrasi hukum Inggris membeku di tengah ketakutan massal.",
+                "en": "On New Year's Day 1349 AD, King Edward III formally acknowledged that his seat of rule had bowed before mortality. The Parliament summoned to vote war subsidies against France was abruptly prorogued. The sovereign declared in his writ that 'the plague of lethal mortality daily increases around Westminster, making it perilous for barons and knights to convene'. The Court of King's Bench and the Exchequer suspended rolls, freezing English jurisprudence in its tracks."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_05.jpg"
+        },
+        {
+            "id": "lon-ch-06",
+            "chapterNumber": 6,
+            "type": "standard",
+            "title": {
+                "id": "Inisiatif Sir Walter Manny: Tanah Pemakaman West Smithfield",
+                "en": "Sir Walter Manny's Charter: The West Smithfield Yard"
+            },
+            "date": {
+                "id": "Januari 1349 M",
+                "en": "January 1349 AD"
+            },
+            "flash": {
+                "id": "Ksatria kerajaan Sir Walter Manny membeli tiga belas ekar tanah padang rumput di West Smithfield (Pardon Churchyard) untuk dijadikan pemakaman darurat korban pes.",
+                "en": "Royal knight Sir Walter Manny purchases thirteen acres of open pasture at West Smithfield (Pardon Churchyard) as an emergency burial ground."
+            },
+            "virusProfile": {
+                "agent": "Krisis Ruang Pemakaman Kota",
+                "vector": "Meluapnya Halaman Gereja Paroki Tradisional",
+                "incubation": "N/A",
+                "transmission": "Evolusi infrastruktur sanitasi darurat di luar dinding kota"
+            },
+            "description": {
+                "id": "Melihat halaman gereja-gereja paroki di dalam kota telah menggembung penuh oleh jenazah yang mulai membusuk di permukaan tanah, seorang ksatria terkemuka asal Hainault, Sir Walter Manny, menyewa sebidang tanah luas bernama 'Spital Croft' di West Smithfield. Uskup London, Ralph Stratford, segera menguduskan tanah tersebut. Manny membangun sebuah kapel kecil di tengah padang rumput itu, menyediakan tempat peristirahatan terakhir bagi puluhan ribu warga miskin yang meninggal tanpa mampu membeli makam keluarga.",
+                "en": "Observing that intramural churchyards were heaving with decomposing remains breaking through turf, chivalric knight Sir Walter Manny leased thirteen acres known as 'Spital Croft' in West Smithfield. The Bishop of London consecrated the tract without delay. Manny endowed an adjacent chapel, establishing an emergency necropolis for tens of thousands of penniless Londoners lacking funds for private church vaults."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_06.jpg"
+        },
+        {
+            "id": "lon-ch-07",
+            "chapterNumber": 7,
+            "type": "milestone",
+            "title": {
+                "id": "Parit Kematian East Smithfield: Ekskavasi Massal",
+                "en": "The East Smithfield Trench: Mass Excavation"
+            },
+            "date": {
+                "id": "Februari 1349 M",
+                "en": "February 1349 AD"
+            },
+            "flash": {
+                "id": "Lahan pemakaman kedua dibuka di East Smithfield di dekat Tower of London; para pekerja menggali parit raksasa sepanjang 70 meter untuk menumpuk 200 jenazah sehari.",
+                "en": "A second mass cemetery opens at East Smithfield near the Tower; laborers dig 70-meter trenches to receive over 200 corpses daily."
+            },
+            "virusProfile": {
+                "agent": "Arkeologi Forensik Yersinia pestis",
+                "vector": "Tumpukan Jenazah Berlapis (Stratified Burials)",
+                "incubation": "N/A",
+                "transmission": "Bukti modern identifikasi DNA purba dari gigi korban pes London"
+            },
+            "description": {
+                "id": "Di East Smithfield, di sebelah timur Menara London, tercipta pemandangan yang kelak menjadi rujukan arkeologi dunia. Parit-parit raksasa sedalam tiga meter digali melintasi tanah liat London. Para penggali kubur menyusun jenazah dengan kerapian yang mencerminkan rasa hormat terakhir di tengah keputusasaan: jenazah dibungkus kain kafan lenan, diletakkan berdampingan dari kepala ke kaki, berselang-seling seperti susunan batu dinding. Di situs inilah enam abad kemudian para ilmuwan berhasil merekonstruksi kode genetik utuh Yersinia pestis abad pertengahan.",
+                "en": "At East Smithfield, east of the Tower of London, arose an archaeological testament to medieval resilience. Trenches three meters deep were carved across the London clay. Laborers stacked corpses with astonishing order amidst horror: shrouded in plain linen, bodies lay head-to-toe in neat horizontal strata, interspersed with thin soil. It was here that modern geneticists centuries later reconstructed the pristine ancient genome of medieval Yersinia pestis."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_07.jpg"
+        },
+        {
+            "id": "lon-ch-08",
+            "chapterNumber": 8,
+            "type": "standard",
+            "title": {
+                "id": "Malam di Tower of London: Bayang-Bayang di Gerbang Air",
+                "en": "Night at the Tower: Shadows at the Water Gate"
+            },
+            "date": {
+                "id": "Maret 1349 M",
+                "en": "March 1349 AD"
+            },
+            "flash": {
+                "id": "Benteng Menara London mengunci jembatan angkat dan gerbang besinya; garnisun kerajaan mengamati deretan gerobak mayat melintas menuju parit pemakaman di luar benteng.",
+                "en": "The fortress Tower of London raises drawbridges and portcullises; the royal garrison watches death-carts trundle toward trenches beyond the moat."
+            },
+            "virusProfile": {
+                "agent": "Isolasi Benteng Militer Monarki",
+                "vector": "Penjagaan Garis Perimeter Tepi Sungai",
+                "incubation": "N/A",
+                "transmission": "Garnisun benteng bertahan dengan persediaan ransum tertutup"
+            },
+            "description": {
+                "id": "Menara London yang kokoh berdiri bagai pulau terisolasi di tepi Sungai Thames yang keruh. Komandan benteng (Constable of the Tower) memerintahkan gerbang Traitors' Gate dan jembatan angkat ditarik ke atas. Prajurit berzirah dengan tombak terhunus berjaga di dinding benteng White Tower, memandangi kabut malam di mana gerobak-gerobak pengangkut mayat berderit menyusuri jalanan becek di luar parit. Meskipun benteng berhasil menghindari wabah massal, para pengawalnya hidup dalam ketakutan mendengar lonceng gereja paroki yang berdentang tanpa henti.",
+                "en": "The formidable Tower of London stood like a besieged island along the muddy Thames. The Constable ordered Traitors' Gate locked and the landward drawbridges hoisted high. Armored sentries with lowered bills paced the battlements of the White Tower, staring into the river mists where iron-rimmed dead-carts rattled toward pits beyond the moat. Though the royal citadel avoided wholesale mortality, its garrison lived in dread, listening to perpetual funeral knells."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_08.jpg"
+        },
+        {
+            "id": "lon-ch-09",
+            "chapterNumber": 9,
+            "type": "standard",
+            "title": {
+                "id": "Derit Roda Kereta Jenazah di Cheapside",
+                "en": "The Rattle of the Dead-Cart: Silence in Cheapside"
+            },
+            "date": {
+                "id": "April 1349 M",
+                "en": "April 1349 AD"
+            },
+            "flash": {
+                "id": "Suara kehidupan kota berganti dengan derit roda gerobak pengangkut mayat; para pengemudi gerobak berteriak 'Bawakan orang mati kalian!' di jalanan yang sunyi.",
+                "en": "The city's clamor is replaced by the rattle of corpse wagons; carters call out 'Bring out your dead!' through eerily deserted paved avenues."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Puncak Mortalitas Harian London)",
+                "vector": "Droplet Aerosol & Kontak Langsung Kadavrik",
+                "incubation": "18 – 36 Jam",
+                "transmission": "Hingga 300 kematian per hari di dalam dinding kota London"
+            },
+            "description": {
+                "id": "Pada bulan April 1349, detak jantung komersial London telah berhenti berdenyut. Jalan utama Cheapside, tempat para pedagang perhiasan dan sutra biasa memajang barang dagangan mereka, kosong melompong. Satu-satunya suara yang memecah keheningan berkabut adalah derit roda gerobak kayu yang ditarik kuda-kuda kurus. Para pengemudi gerobak, yang menutup hidung mereka dengan kain berendam cuka, mengetuk pintu-pintu rumah kayu dengan tongkat panjang, mengumpulkan jenazah yang telah dibungkus tikar oleh keluarga yang ketakutan.",
+                "en": "By April 1349, London's commercial pulse had flatlined. The broad thoroughfare of Cheapside, where goldsmiths and mercers once displayed wares, stood barren. The only sound piercing the foggy gloom was the creak of wooden cartwheels drawn by hollow-flanked horses. Carters with vinegar-soaked rags bound across mouths rapped on timber doors with long staves, collecting linen-bundled bodies placed upon thresholds by weeping kin."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_09.jpg"
+        },
+        {
+            "id": "lon-ch-10",
+            "chapterNumber": 10,
+            "type": "standard",
+            "title": {
+                "id": "Guildhall yang Lumpuh: Runtuhnya Administrasi Walikota",
+                "en": "The Paralyzed Guildhall: Collapse of the Mayoral Bench"
+            },
+            "date": {
+                "id": "Mei 1349 M",
+                "en": "May 1349 AD"
+            },
+            "flash": {
+                "id": "Lord Mayor dan dewan aldermen Guildhall lumpuh total; sebagian besar anggota dewan kota tewas atau melarikan diri ke pedalaman Surrey.",
+                "en": "The Lord Mayor and the Guildhall aldermen are incapacitated; most aldermen perish or evacuate into the Surrey countryside."
+            },
+            "virusProfile": {
+                "agent": "Kehancuran Tata Kelola Munisipal",
+                "vector": "Kematian Korps Pegawai Catatan Sipil",
+                "incubation": "N/A",
+                "transmission": "Ketiadaan kepemimpinan administratif kota selama masa puncak krisis"
+            },
+            "description": {
+                "id": "Gedung Guildhall, pusat pemerintahan sipil Kota London, menyerupai kapal yang ditinggalkan nakhodanya di tengah badai. Kursi-kursi berlengan kayu tempat Lord Mayor John Lovekyn dan para alderman mengadili sengketa perdagangan tertutup debu tebal. Tinta di wadah tanduk mengering di atas perkamen keputusan dewan yang belum selesai ditulis. Tanpa adanya pejabat yang memungut retribusi pasar atau mengawasi pembersihan selokan, tatanan sipil yang dibangun selama berabad-abad sejak era Piagam Magna Carta runtuh dalam sekejap.",
+                "en": "The Guildhall, seat of London's civic liberties, resembled a ship abandoned in a tempest. The carved oak benches where the Lord Mayor and aldermen adjudicated commercial covenants were coated in grime. Inkwells dried over unfinished mayoral rolls. With bailiffs dead and market assizes suspended, centuries of municipal governance established since the Magna Carta dissolved into paralysis."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_10.jpg"
+        },
+        {
+            "id": "lon-ch-11",
+            "chapterNumber": 11,
+            "type": "milestone",
+            "title": {
+                "id": "Ordinance of Labourers (1349): Pembekuan Upah Buruh",
+                "en": "The Ordinance of Labourers (1349): Wage Freezes"
+            },
+            "date": {
+                "id": "18 Juni 1349 M",
+                "en": "June 18, 1349 AD"
+            },
+            "flash": {
+                "id": "Raja Edward III memberlakukan maklumat darurat kerajaan 'Ordinance of Labourers'; mewajibkan semua pekerja menerima upah setara era pra-wabah di bawah ancaman penjara.",
+                "en": "King Edward III issues the emergency royal 'Ordinance of Labourers'; mandating all workers accept pre-plague wages under threat of imprisonment."
+            },
+            "virusProfile": {
+                "agent": "Dampak Sosio-Ekonomi Agraria",
+                "vector": "Kelangkaan Ekstrem Tenaga Kerja (Labor Scarcity)",
+                "incubation": "Kronis",
+                "transmission": "Konflik kelas antara tuan tanah bangsawan dan buruh tani penyintas"
+            },
+            "description": {
+                "id": "Kematian separuh populasi pekerja membalikkan hukum ekonomi feodal. Para buruh tani yang selamat menolak membajak tanah atau menyabit gandum kecuali jika tuan tanah bersedia membayar upah dua hingga tiga kali lipat. Menghadapi kepanikan kaum bangsawan tuan tanah, Raja Edward III mengeluarkan maklumat kontroversial 'Ordinance of Labourers'. Hukum ini menetapkan bahwa upah dibekukan pada level tahun 1346 dan melarang siapa pun menolak bekerja. Dekrit otoriter ini menabur benih kebencian mendalam di hati jutaan rakyat pekerja Inggris.",
+                "en": "The elimination of half the working populace inverted feudal economics. Surviving yeomen refused to plow manorial strips unless landlords doubled or tripled cash wages. Responding to patrician panic, Edward III promulgated the draconian 'Ordinance of Labourers'. It froze wages at 1346 rates and criminalized refusal to labor. This authoritarian edict sowed bitter seeds of class resentment across the English countryside."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_11.jpg"
+        },
+        {
+            "id": "lon-ch-12",
+            "chapterNumber": 12,
+            "type": "side_story",
+            "title": {
+                "id": "Kematian di Biara Westminster: Simon de Bircheston",
+                "en": "Death at Westminster Abbey: Simon de Bircheston"
+            },
+            "date": {
+                "id": "Mei 1349 M",
+                "en": "May 1349 AD"
+            },
+            "flash": {
+                "id": "Abbas Simon de Bircheston dan dua puluh enam biarawan ordo Benediktin di Biara Westminster wafat terkena pes dalam kurun waktu tiga pekan.",
+                "en": "Abbot Simon de Bircheston and twenty-six Benedictine monks of Westminster Abbey perish of the pestilence within three weeks."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Klaster Monastik Tertutup)",
+                "vector": "Kontak Komunal di Ruang Refektori & Doa Biara",
+                "incubation": "48 Jam",
+                "transmission": "Kepunahan generasi klerus senior gereja Inggris"
+            },
+            "description": {
+                "id": "Biara Westminster, tempat pemakaman raja-raja Inggris dan pusat spiritual kerajaan, mengalami kehancuran tragis di balik dinding batu biara. Abbas Simon de Bircheston, bersama dua puluh enam saudara biarawannya, jatuh sakit secara hampir bersamaan. Suara nyanyian mazmur di dalam gereja biara terhenti digantikan rintihan sekarat. Para biarawan yang tersisa tidak sempat menggali makam terpisah; sang abbas dimakamkan di serambi biara barat dalam satu liang kubur bersama rekan-rekannya yang meninggal di hari yang sama.",
+                "en": "Westminster Abbey, royal pantheon and spiritual engine of England, suffered tragic desolation within its cloister walls. Abbot Simon de Bircheston, alongside twenty-six Benedictine brethren, fell ill almost concurrently. Psalter chants gave way to agonized moans across the dormitory. The few surviving monks could not dig individual graves; the Abbot was buried beneath the South Cloister flagstones in a common vault with brethren who expired the same day."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_12.jpg"
+        },
+        {
+            "id": "lon-ch-13",
+            "chapterNumber": 13,
+            "type": "standard",
+            "title": {
+                "id": "Toko Roti Bread Street yang Membisu: Krisis Pangan",
+                "en": "The Silent Ovens of Bread Street: The Food Crisis"
+            },
+            "date": {
+                "id": "Juni 1349 M",
+                "en": "June 1349 AD"
+            },
+            "flash": {
+                "id": "Toko-toko roti dan penggilingan gandum di sepanjang Bread Street tutup total; persediaan tepung menipis dan harga roti melonjak di tengah kelaparan.",
+                "en": "Bakeshops and flour mills along Bread Street close down; flour reserves dwindle and bread prices soar amidst hunger."
+            },
+            "virusProfile": {
+                "agent": "Disrupsi Ketahanan Pangan Perkotaan",
+                "vector": "Kematian Serikat Pekerja Tukang Roti (Bakers' Guild)",
+                "incubation": "Kronis",
+                "transmission": "Krisis malnutrisi yang melipatgandakan kerentanan warga terhadap pes"
+            },
+            "description": {
+                "id": "Jalan Bread Street, pusat pembuatan roti untuk seluruh warga kota London, berubah menjadi jalanan mati. Tungku-tungku perapian batu yang biasanya menyala sejak dini hari telah dingin dan berdebu. Sebagian besar anggota serikat pembuat roti telah meninggal atau terbaring tak berdaya. Gandum yang dikirim dari kincir air di Sungai Fleet menumpuk membusuk di gudang kayu karena tidak ada pekerja yang mengolahnya. Kelaparan mulai menghantui mereka yang berhasil selamat dari gigitan kutu pes.",
+                "en": "Bread Street, the baking quarter feeding London, transformed into a lifeless alley. Stone ovens that once roared before dawn were cold and choked with ash. Most masters and apprentices of the Bakers' Company lay in Smithfield pits or groveled in fever. Grain carted from tidal mills along the River Fleet moldered in timber storehouses for want of hands to knead it. Starvation stalked those who had dodged the bite of plague fleas."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_13.jpg"
+        },
+        {
+            "id": "lon-ch-14",
+            "chapterNumber": 14,
+            "type": "standard",
+            "title": {
+                "id": "Pemberontakan Petani Kent: Retaknya Sistem Perhambaan",
+                "en": "The Kentish Defiance: The Fracturing of Serfdom"
+            },
+            "date": {
+                "id": "Musim Panas 1349 M",
+                "en": "Summer 1349 AD"
+            },
+            "flash": {
+                "id": "Di desa-desa pedesaan Kent dan Sussex, para petani terikat (serfs) menolak hukum kerja paksa tuan tanah; mereka meninggalkan tanah manor untuk menuntut upah bebas.",
+                "en": "Across Kent and Sussex villages, villeins defy feudal labor services; abandoning manorial strips to demand free cash wages on neighboring estates."
+            },
+            "virusProfile": {
+                "agent": "Dinamika Mobilitas Sosial Pasca-Pandemi",
+                "vector": "Migrasi Liar Petani Melintasi Batas Wilayah Manor",
+                "incubation": "Kronis",
+                "transmission": "Runtuhnya ikatan perhambaan feodal di Inggris selatan"
+            },
+            "description": {
+                "id": "Di luar gerbang London, di pedesaan subur Kent dan Essex, tatanan feodal mengalami keretakan yang tak dapat diperbaiki. Karena tanah-tanah pertanian terbengkalai dan gandum siap panen membusuk di batang, para tuan tanah terpaksa melanggar hukum raja secara diam-diam dan menawarkan upah tinggi demi menarik pekerja. Menyadari hal ini, ribuan petani terikat memutus rantai perhambaan mereka, melarikan diri di malam hari dari manor majikan lama mereka untuk menjadi buruh bebas berbayar koin perak.",
+                "en": "Beyond London's moat, in the rolling fields of Kent and Essex, the feudal fabric sustained irreparable tears. With harvest rot threatening landlords with ruin, noble manorial lords secretly breached the king's ordinance, offering illicit cash wages to entice labor. Sensing liberation, thousands of bondmen broke their villein ties, absconding by night from ancestral manors to work as free day-laborers for silver pence."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_14.jpg"
+        },
+        {
+            "id": "lon-ch-15",
+            "chapterNumber": 15,
+            "type": "side_story",
+            "title": {
+                "id": "Khotbah John Ball: Benih Revolusi Petani",
+                "en": "Sermon of John Ball: Seeds of the Peasants' Revolt"
+            },
+            "date": {
+                "id": "Musim Gugur 1349 M",
+                "en": "Autumn 1349 AD"
+            },
+            "flash": {
+                "id": "Imam radikal John Ball mulai berkhotbah di persimpangan jalan Essex; mempertanyakan keadilan tatanan feodal di hadapan maut yang menyamaratakan semua manusia.",
+                "en": "Radical priest John Ball begins preaching at Essex crossroads; questioning feudal hierarchy before the great equalizer of mortality."
+            },
+            "virusProfile": {
+                "agent": "Ideologi Egalitarianisme Abad Pertengahan",
+                "vector": "Penyebaran Teologi Kesetaraan Sosial",
+                "incubation": "N/A",
+                "transmission": "Penyemaian intelektual Pemberontakan Petani 1381 (Peasants' Revolt)"
+            },
+            "description": {
+                "id": "Di tengah hamparan kuburan massal, seorang pastor desa radikal bernama John Ball mulai menyuarakan ide yang kelak mengguncang kerajaan Inggris. Di persimpangan jalan desa Colchester dan Braintree, ia berkhotbah kepada kerumunan petani yang memegang sabit: 'Ketika Adam mencangkul dan Hawa memintal, siapakah yang menjadi bangsawan?' Ia mengajarkan bahwa jika Tuhan menciptakan manusia sederajat dan wabah mencabut nyawa raja dan pengemis secara setara, maka para tuan tanah tidak memiliki hak ilahi untuk menindas rakyat pekerja.",
+                "en": "Amidst sprawling mass graves, a radical itinerant priest named John Ball voiced ideas that would soon shake the Plantagenet crown. At crossroads outside Colchester and Braintree, he preached to scythe-wielding yeomen: 'When Adam delved and Eve span, who was then the gentleman?' He proclaimed that if God created men equal and the pestilence struck down kings and beggars alike, lords possessed no divine sanction to enslave the laboring poor."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_15.jpg"
+        },
+        {
+            "id": "lon-ch-16",
+            "chapterNumber": 16,
+            "type": "standard",
+            "title": {
+                "id": "Halaman Gereja St. Paul: Lonceng Kematian yang Terdiam",
+                "en": "St. Paul's Churchyard: The Silenced Bells"
+            },
+            "date": {
+                "id": "September 1349 M",
+                "en": "September 1349 AD"
+            },
+            "flash": {
+                "id": "Katedral St. Paul dan halaman pemakamannya dipenuhi peti-peti kayu pinus; pembunyian lonceng dilarang oleh otoritas karena memicu keputusasaan psikologis warga.",
+                "en": "St. Paul's Cathedral and its churchyard overflow with pine coffins; the tolling of funeral knells is outlawed to prevent psychic despair."
+            },
+            "virusProfile": {
+                "agent": "Dampak Psikologis Trauma Massal",
+                "vector": "Larangan Bunyi Lonceng Kematian (Death Knell)",
+                "incubation": "N/A",
+                "transmission": "Upaya menekan histeria mental di kalangan penyintas kota"
+            },
+            "description": {
+                "id": "Katedral megah Old St. Paul's yang mendominasi cakrawala London menjadi saksi kelelahan spiritual yang mendalam. Dentang lonceng kematian yang berbunyi tanpa henti dari seratus menara gereja kota telah mendorong warga yang bertahan ke jurang keputusasaan gila. Demi menjaga ketertiban mental, dewan aldermen melarang pembunyian lonceng pemakaman. Pemakaman dilakukan dalam kesunyian mutlak di bawah bayang-bayang nave Gotik katedral, di mana tumpukan peti mati pinus menanti giliran dibawa ke parit Smithfield.",
+                "en": "The towering gothic bulk of Old St. Paul's dominating London's skyline stood witness to profound spiritual exhaustion. The ceaseless tolling of funeral knells from over a hundred parish spires had driven survivors to the brink of raving despair. To preserve civic sanity, aldermen banned the ringing of bells. Burials proceeded in absolute, ghostly silence beneath the cathedral's shadow, where stacks of rough pine boxes awaited transport to the Smithfield trenches."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_16.jpg"
+        },
+        {
+            "id": "lon-ch-17",
+            "chapterNumber": 17,
+            "type": "standard",
+            "title": {
+                "id": "Desa-Desa Terbengkalai di Luar Dinding Kota",
+                "en": "Abandoned Hamlets Beyond the Walls"
+            },
+            "date": {
+                "id": "Oktober 1349 M",
+                "en": "October 1349 AD"
+            },
+            "flash": {
+                "id": "Ratusan desa di sekitar wilayah Middlesex dan Hertfordshire ditinggalkan kosong; ternak berkeliaran liar di antara gubuk-gubuk jerami yang runtuh.",
+                "en": "Scores of farming hamlets across Middlesex and Hertfordshire stand deserted; livestock wanders untended among collapsing thatched cottages."
+            },
+            "virusProfile": {
+                "agent": "Fenomena Desa Terbengkalai Abad Pertengahan (DMV)",
+                "vector": "Depopulasi Total Komunitas Pedesaan",
+                "incubation": "Kronis",
+                "transmission": "Hilangnya ratusan permukiman secara permanen dari peta geografi Inggris"
+            },
+            "description": {
+                "id": "Di luar tembok pelindung London, pedesaan Middlesex dan Hertfordshire berubah menjadi padang sunyi. Fenomena yang kelak dikenal para sejarawan sebagai *Deserted Medieval Villages (DMV)* mulai terbentuk. Seluruh warga sebuah dusun bisa tewas atau bubar dalam waktu sebulan. Kawanan domba wol berbulu lebat berkeliaran melintasi pekarangan rumah dan menginjak-injak tanaman jelai yang tak tersabit. Anjing-anjing gembala yang liar melolong di malam hari di samping pintu-pintu pondok yang terbuka miring.",
+                "en": "Beyond London's perimeter, the rolling fields of Middlesex and Hertfordshire mutated into desolate wastes. The phenomenon historians would christen *Deserted Medieval Villages (DMV)* took root. Entire hamlets were annihilated or dispersed within a month. Heavy-fleeced sheep strayed through untended farmyards, trampling rotting barley strips. Feral sheepdogs howled through autumn nights beside cabin doors swinging loose on rusted iron pintles."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_17.jpg"
+        },
+        {
+            "id": "lon-ch-18",
+            "chapterNumber": 18,
+            "type": "side_story",
+            "title": {
+                "id": "Imam Muda di Serambi St. Mary-le-Bow",
+                "en": "The Young Curate at St. Mary-le-Bow"
+            },
+            "date": {
+                "id": "November 1349 M",
+                "en": "November 1349 AD"
+            },
+            "flash": {
+                "id": "Kisah William, pemuda berusia delapan belas tahun yang ditahbiskan secara tergesa-gesa menjadi imam paroki setelah seluruh klerus senior St. Mary-le-Bow tewas.",
+                "en": "Account of William, an 18-year-old youth hastily ordained as curate after all senior clergy of St. Mary-le-Bow perish within a fortnight."
+            },
+            "virusProfile": {
+                "agent": "Degradasi Kualifikasi Klerus Gereja",
+                "vector": "Kematian Masif Para Imam Senior Berpendidikan",
+                "incubation": "N/A",
+                "transmission": "Penahbisan darurat remaja tak terdidik untuk memimpin misa"
+            },
+            "description": {
+                "id": "Gereja Inggris kehilangan lebih dari separuh pendetanya dalam kurun satu tahun. Demi memastikan orang-orang yang sekarat tetap menerima pelayanan rohani, Uskup London terpaksa melanggar hukum kanonik dan menahbiskan pemuda-pemuda yang nyaris buta huruf menjadi pastor paroki. Di gereja St. Mary-le-Bow di Cheapside, pemuda bernama William yang baru berusia delapan belas tahun mendapati dirinya memegang cawan suci dan memimpin doa pemakaman untuk puluhan jasad setiap fajar, membacakan liturgi Latin yang bahkan tidak dipahaminya secara utuh.",
+                "en": "The Church of England lost over half its ordained priesthood in a single year. To guarantee dying souls received absolution, the Bishop of London broke canonical age limits, ordaining illiterate youths to parish charges. At St. Mary-le-Bow, an eighteen-year-old clerk named William found himself holding the silver chalice and conducting funeral obsequies for dozens each dawn, reciting Latin prayers whose theological syntax he barely comprehended."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_18.jpg"
+        },
+        {
+            "id": "lon-ch-19",
+            "chapterNumber": 19,
+            "type": "standard",
+            "title": {
+                "id": "Dermaga Billingsgate yang Lumpuh: Kapal-Kapal Hantu",
+                "en": "Paralysis at Billingsgate: The Ghost Ships"
+            },
+            "date": {
+                "id": "Desember 1349 M",
+                "en": "December 1349 AD"
+            },
+            "flash": {
+                "id": "Dermaga perdagangan ikan dan kargo internasional Billingsgate membeku; kapal-kapal dagang terombang-ambing di Sungai Thames dengan muatan yang membusuk.",
+                "en": "The international fish and cargo wharves of Billingsgate freeze; merchant vessels rock idly in the Thames with rotting cargo."
+            },
+            "virusProfile": {
+                "agent": "Kelumpuhan Perdagangan Maritim Internasional",
+                "vector": "Ketiadaan Tenaga Kerja Bongkar Muat Dok",
+                "incubation": "Kronis",
+                "transmission": "Terhentinya ekspor wol mentah Inggris ke Flandria dan Italia"
+            },
+            "description": {
+                "id": "Dermaga Billingsgate, pintu gerbang pasokan ikan laut dan perdagangan internasional London, berubah menjadi kuburan kapal. Kapal-kapal dagang dari Laut Baltik dan Negeri Belanda bersandar di tiang-tiang pancang kayu dengan layar terkulai robek ditiup angin musim dingin. Tidak ada buruh dok yang bersedia membongkar tong-tong ikan haring asin yang mulai berbau busuk. Ekspor wol mentah Inggris—tulang punggung keuangan Kerajaan Plantagenet—terhenti total, membuat kas kerajaan di Westminster benar-benar bangkrut.",
+                "en": "Billingsgate dock, gateway for North Sea fisheries and foreign trade, turned into a shipping graveyard. Cogs from the Baltic and the Low Countries sat moored to timber pilings with lateen sails tattered by winter gales. No stevedores were left to hoist barrels of salted herring fermenting in holds. England's raw wool exports—the financial spine of the Plantagenet exchequer—flatlined, leaving royal coffers at Westminster destitute."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_19.jpg"
+        },
+        {
+            "id": "lon-ch-20",
+            "chapterNumber": 20,
+            "type": "summary",
+            "title": {
+                "id": "Epilog London: Fajar Zaman Baru",
+                "en": "Epilogue: London and the Dawn of a New Social Order"
+            },
+            "date": {
+                "id": "1350 M & Warisan Sejarah",
+                "en": "1350 AD & Historical Legacy"
+            },
+            "flash": {
+                "id": "Wabah mereda setelah merenggut 40.000 jiwa di London; sistem perhambaan feodal hancur selamanya, membuka jalan bagi bangkitnya kelas pekerja bebas dan bahasa Inggris modern.",
+                "en": "The pestilence wanes after claiming 40,000 Londoners; feudal serfdom is permanently broken, paving the way for free labor and modern English."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Transformasi Struktural Peradaban Inggris)",
+                "vector": "Endemisasi Berulang (1350 – 1665 M)",
+                "incubation": "Tiga Abad Gelombang Berkala",
+                "transmission": "Runtuhnya perhambaan feodal dan lahirnya ekonomi pasar tenaga kerja"
+            },
+            "description": {
+                "id": "Pada musim semi 1350 M, gelombang maut pertama mulai mereda di London. Di atas parit-parit Smithfield yang telah ditutup tanah kapur, rumput hijau mulai tumbuh kembali. Namun Kerajaan Inggris tidak akan pernah sama lagi. Hampir setengah dari seluruh penduduk kepulauan Britania telah terkubur di bawah tanah. Sistem perhambaan feodal hancur karena para tuan tanah terpaksa menyewakan tanah mereka dengan uang tunai kepada petani bebas. Bahasa Prancis-Norman yang digunakan para bangsawan mulai tersingkir oleh bahasa Inggris rakyat jelata, dan sebuah tatanan sosial baru lahir dari abu malapetaka Maut Hitam.",
+                "en": "By spring 1350 AD, the first great mortality ebbed in London. Over the Smithfield trenches sealed beneath lime, wild grass took root. But the Kingdom of England would never be the same. Nearly half the inhabitants of the British Isles lay beneath the soil. Feudal serfdom disintegrated as lords were compelled to lease lands for cash to free tenants. Anglo-Norman French faded before the vigorous English vernacular of the commoners, and a modern social order emerged from the ashes of the Black Death."
+            },
+            "image": "/assets/images/black-death-1347/lon/lon_ch_20.jpg"
+        }
+    ]
+}
