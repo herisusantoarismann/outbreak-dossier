@@ -90,6 +90,7 @@
     {
         "id": "bd-silk-road-origin",
         "iso2": "CN",
+        "territoryCode": "CN",
         "metricType": "survival",
         "label": {
             "id": "Vektor Kafilah Jalur Sutra",
@@ -108,5 +109,51 @@
             "en": "Zoonotic reservoir in Central Asian steppe marmots propagated across Pax Mongolica trade arteries."
         },
         "coordinates": { "lat": 34.3416, "lng": 108.9398 }
+    },
+    {
+        "id": "bd-kaffa-siege",
+        "iso2": "UA",
+        "territoryCode": "KAF",
+        "metricType": "containment",
+        "label": {
+            "id": "Pengepungan Benteng Kaffa",
+            "en": "Siege of Kaffa Citadel"
+        },
+        "countryName": {
+            "id": "Kaffa / Theodosia (Krimea)",
+            "en": "Kaffa / Theodosia (Crimea)"
+        },
+        "value": {
+            "id": "Ground Zero Maritim",
+            "en": "Maritime Ground Zero"
+        },
+        "context": {
+            "id": "Pasukan Mongol Jani Beg melemparkan mayat terinfeksi ke dalam benteng sebelum galai Genoa melarikan diri ke Mediterania.",
+            "en": "Mongol forces catapulted plague cadavers into the citadel before Genoese galleys fled into the Mediterranean."
+        },
+        "coordinates": { "lat": 45.0344, "lng": 35.3792 }
+    },
+    {
+        "id": "bd-paris-hotel-dieu",
+        "iso2": "FR",
+        "territoryCode": "PAR",
+        "metricType": "mortality",
+        "label": {
+            "id": "Mortalitas Harian Paris",
+            "en": "Paris Daily Mortality Peak"
+        },
+        "countryName": {
+            "id": "Prancis (Paris)",
+            "en": "France (Paris)"
+        },
+        "value": {
+            "id": "500 – 800 Jiwa / Hari",
+            "en": "500 – 800 People / Day"
+        },
+        "context": {
+            "id": "Rumah sakit Hôtel-Dieu mencatat hingga 800 kematian per hari pada puncak krisis musim panas 1348.",
+            "en": "The Hôtel-Dieu hospital recorded up to 800 deaths daily at the height of the summer 1348 crisis."
+        },
+        "coordinates": { "lat": 48.8566, "lng": 2.3522 }
     }
 ]
