@@ -11,7 +11,10 @@
             "id": "Amerika Serikat (Philadelphia)",
             "en": "United States (Philadelphia)"
         },
-        "value": "12.000+ Tewas (Okt 1918)",
+        "value": {
+            "id": "12.000+ Tewas (Okt 1918)",
+            "en": "12,000+ Dead (Oct 1918)"
+        },
         "context": {
             "id": "Pawai Liberty Loan memicu lonjakan infeksi katastropik; peti mati habis dan galian parit darurat menggunakan uap.",
             "en": "Liberty Loan parade ignited a catastrophic surge; coffins exhausted and steam shovels dug mass trenches."
@@ -30,7 +33,10 @@
             "id": "Amerika Serikat (Kansas)",
             "en": "United States (Kansas)"
         },
-        "value": "1.100 Kasus / 3 Pekan",
+        "value": {
+            "id": "1.100 Kasus / 3 Pekan",
+            "en": "1,100 Cases / 3 Weeks"
+        },
         "context": {
             "id": "Maret 1918: Koki barak Albert Gitchell melapor sakit flu, memicu gelombang pertama di tengah mobilisasi PD I.",
             "en": "March 1918: Camp cook Albert Gitchell reported sick, initiating the first documented military wave."
@@ -49,7 +55,10 @@
             "id": "Prancis (Étaples)",
             "en": "France (Étaples)"
         },
-        "value": "100.000 Prajurit / Hari",
+        "value": {
+            "id": "100.000 Prajurit / Hari",
+            "en": "100,000 Soldiers / Day"
+        },
         "context": {
             "id": "Kombinasi gas beracun parit dan overcrowding barak mempercepat mutasi virus flu mematikan.",
             "en": "Overcrowded tents, pig farms, and mustard gas exposure accelerated respiratory vulnerability."
@@ -68,7 +77,10 @@
             "id": "Spanyol (Madrid)",
             "en": "Spain (Madrid)"
         },
-        "value": "8 Juta Terinfeksi",
+        "value": {
+            "id": "8 Juta Terinfeksi",
+            "en": "8 Million Infected"
+        },
         "context": {
             "id": "Sebagai negara netral PD I, pers Spanyol bebas memberitakan sakitnya Raja Alfonso XIII sehingga dinamai Flu Spanyol.",
             "en": "As a neutral nation, uncensored Spanish media reported King Alfonso XIII's illness, coining the name."
@@ -87,7 +99,10 @@
             "id": "Samoa Barat",
             "en": "Western Samoa"
         },
-        "value": "~22% Populasi Lenyap",
+        "value": {
+            "id": "~22% Populasi Lenyap",
+            "en": "~22% Population Decimated"
+        },
         "context": {
             "id": "Kapal SS Talune tiba tanpa karantina pada November 1918, melenyapkan lebih dari seperlima seluruh penduduk pulau.",
             "en": "Arrival of SS Talune without quarantine in Nov 1918 wiped out over a fifth of the island's entire population."

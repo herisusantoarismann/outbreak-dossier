@@ -1,0 +1,460 @@
+{
+    "sectorId": "PEL",
+    "sectorName": {
+        "id": "Sektor Pelusium (Ground Zero Delta Nil, Mesir)",
+        "en": "Sector Pelusium (Nile Delta Ground Zero, Egypt)"
+    },
+    "coordinates": [31.05, 32.55],
+    "timeRange": "Juli 541 – Awal 542 M",
+    "estimatedFatalities": "180.000 – 220.000 (Koridor Delta Nil & Jalur Alexandria)",
+    "chapters": [
+        {
+            "id": "pel-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Gerbang Pasir & Titik Temu Jalur Sutra Laut",
+                "en": "The Sand Gate & The Maritime Silk Nexus"
+            },
+            "date": {
+                "id": "Juli 541 M",
+                "en": "July 541 AD"
+            },
+            "flash": {
+                "id": "Pelabuhan benteng Pelusium di timur Delta Nil menyambut kapal-kapal dagang Laut Merah; bakteri Yersinia pestis melompat pertama kali ke wilayah kekaisaran Bizantium.",
+                "en": "The fortress-port of Pelusium in the eastern Nile Delta receives Red Sea merchantmen; Yersinia pestis breaches the Byzantine imperial perimeter for the first time."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Galur Leluhur 0.ANT4)",
+                "vector": "Xenopsylla cheopis via Rattus rattus",
+                "incubation": "2 – 6 Hari",
+                "transmission": "Kontak langsung pekerja dermaga dengan pengerat kapal dagang Laut Merah"
+            },
+            "description": {
+                "id": "Pelusium bukan sekadar pelabuhan nelayan biasa; kota ini adalah benteng terdepan Mesir Romawi tempat bertemunya kafilah rempah Laut Merah dengan kapal tongkang gandum Sungai Nil. Pada bulan Juli 541 M, kapal-kapal yang berlayar dari Samudra Hindia dan pelabuhan Axum (Ethiopia) membongkar muatannya. Bersama gading dan sutra mentah, tikus-tikus kapal yang terinfeksi bakteri mematikan merayap turun melalui tali tambat menuju lumbung gandum Pelusium.",
+                "en": "Pelusium was no sleepy fishing outpost; it served as Roman Egypt's fortified bastion where Red Sea spice caravans converged with Nile grain barges. In July 541 AD, vessels sailing from the Indian Ocean and the Kingdom of Aksum (modern Ethiopia) discharged cargo. Alongside ivory and raw silk, shipboard rodents harboring lethal bacterial strains scurried down mooring lines straight into Pelusium's expansive grain stores."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_01.jpg"
+        },
+        {
+            "id": "pel-ch-02",
+            "chapterNumber": 2,
+            "type": "standard",
+            "title": {
+                "id": "Lumbung Padi Serbonis: Reservoir Tak Kasat Mata",
+                "en": "The Serbonis Silos: The Invisible Reservoir"
+            },
+            "date": {
+                "id": "Agustus 541 M",
+                "en": "August 541 AD"
+            },
+            "flash": {
+                "id": "Kombinasi tumpukan jelai kering dan kelembapan rawa Danau Serbonis menciptakan ekosistem sempurna bagi ledakan populasi pinjal Xenopsylla cheopis.",
+                "en": "Dry barley silos combined with marsh humidity from Lake Serbonis create an ideal incubator for explosive Xenopsylla cheopis flea proliferation."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Amplifikasi Vektor)",
+                "vector": "Pinjal Tikus Oriental di Dalam Silo Biji-bijian",
+                "incubation": "N/A (Fase Vektor)",
+                "transmission": "Perpindahan pinjal antar pengerat gudang dalam kepadatan ekstrem"
+            },
+            "description": {
+                "id": "Di dalam silo batu kapur Pelusium, ribuan ton gandum menunggu giliran dikirim ke Konstantinopel dan Roma. Debu biji-bijian yang hangat dan kegelapan menciptakan habitat ideal bagi pinjal untuk bereproduksi tanpa kendali. Ketika tikus-tikus lokal mulai mati massal karena pembengkakan organ dalam, jutaan kutu yang kelaparan meloncat keluar dari sela-sela karung gandum, siap menyerang buruh pelabuhan mana pun yang mendekat.",
+                "en": "Inside Pelusium's limestone silos, thousands of tons of grain sat awaiting transit to Constantinople and Rome. Warm grain dust and perpetual darkness fostered an unchecked breeding ground for fleas. As local rodents died en masse from septic organ failure, millions of starved parasites abandoned cold carcasses and dispersed across burlap sacks, ready to latch onto arriving laborers."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_02.jpg"
+        },
+        {
+            "id": "pel-ch-03",
+            "chapterNumber": 3,
+            "type": "side_story",
+            "title": {
+                "id": "Kafilah Terakhir dari Berenike",
+                "en": "The Final Caravan from Berenike"
+            },
+            "date": {
+                "id": "Pertengahan Agustus 541 M",
+                "en": "Mid-August 541 AD"
+            },
+            "flash": {
+                "id": "Kisah qasid (penunggang unta) bernama Harith yang tiba dengan mata merah menyala dan racauan panas, membawa kabar kematian massal di pelabuhan selatan.",
+                "en": "Micro-dossier of Harith, a camel scout arriving with bloodshot eyes and violent fever, carrying reports of wholesale death at southern anchorages."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Bubo Aksila Akut)",
+                "vector": "Kutu Pakaian Kafilah Gurun",
+                "incubation": "3 Hari",
+                "transmission": "Inokulasi saat bermalam di pos karavan pesisir"
+            },
+            "description": {
+                "id": "Harith telah menempuh perjalanan dua pekan melintasi gurun timur Mesir dari pelabuhan Berenike. Ketika untanya merosot di depan gerbang selatan Pelusium, Harith tidak mampu lagi berbicara jelas; ketiak kanannya membengkak sebesar buah delima hitam yang mengeluarkan cairan busuk. Sebelum mengembuskan napas terakhirnya di ruang pos jaga, ia hanya sempat membisikkan bahwa pelabuhan-pelabuhan di selatan telah sunyi, ditinggalkan para pelaut yang membusuk di atas pasir pantai.",
+                "en": "Harith had ridden fourteen grueling days across Egypt's eastern sands from the Red Sea port of Berenike. Collapsing at Pelusium's southern gate, his speech was unintelligible; his right armpit was swollen with a blackened, suppurating bubo the size of a pomegranate. Before perishing in the guardhouse, he rasped that southern anchorages lay deserted, with sailors rotting unburied on coastal reefs."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_03.jpg"
+        },
+        {
+            "id": "pel-ch-04",
+            "chapterNumber": 4,
+            "type": "standard",
+            "title": {
+                "id": "Runtuhnya Pos Bea Cukai: Tinta yang Menodai Papirus",
+                "en": "Collapse of the Teloneion: Ink Stains on Papyrus"
+            },
+            "date": {
+                "id": "Akhir Agustus 541 M",
+                "en": "Late August 541 AD"
+            },
+            "flash": {
+                "id": "Para juru tulis bea cukai kekaisaran (telonai) jatuh sakit serentak; pencatatan kapal dan pemeriksaan karantina barang dagang terhenti total.",
+                "en": "Imperial customs scribes (telonai) succumb simultaneously; ship manifest inspections and commercial cargo tallies grind to a complete halt."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Bentuk Bubo Inguinal)",
+                "vector": "Paparan Lingkungan Kerja Dok & Kantor Pabean",
+                "incubation": "2 – 4 Hari",
+                "transmission": "Gigitan pinjal pada pergelangan kaki juru tulis"
+            },
+            "description": {
+                "id": "Setiap kapal yang masuk ke Mesir wajib membayar bea cukai dan mendaftarkan muatannya di kantor teloneion Pelusium. Namun pada akhir Agustus, pena-pena bulu alang-alang terlepas dari tangan para juru tulis. Demam menggigil mendadak menyerang para pegawai administrasi; dalam tiga hari, sembilan dari sepuluh petugas pos pabean tewas di meja kerja mereka. Kapal-kapal gandum yang tiba kemudian berlabuh dan berlayar tanpa ada pemeriksaan sanitasi sama sekali.",
+                "en": "Every vessel entering Egypt was legally required to log cargo manifests at Pelusium's teloneion customs bureau. By late August, reed styluses slipped from trembling fingers. Chills and burning fevers struck the clerks; within three days, nine out of ten officials perished over their ledgers. Arriving grain transports subsequently docked and departed without a shred of quarantine inspection."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_04.jpg"
+        },
+        {
+            "id": "pel-ch-05",
+            "chapterNumber": 5,
+            "type": "standard",
+            "title": {
+                "id": "Wabah di Distrik Nelayan: Api di Balik Dinding Bata Lumpur",
+                "en": "Plague in the Mud-Brick Wards: Fires Behind Silt Walls"
+            },
+            "date": {
+                "id": "Awal September 541 M",
+                "en": "Early September 541 AD"
+            },
+            "flash": {
+                "id": "Infeksi merayap ke permukiman nelayan dan buruh miskin Pelusium; kematian merajalela di gubuk-gubuk jerami di tepi rawa asin.",
+                "en": "The infection sweeps into fishing quarters and impoverished laborers' huts; high mortality ravages silt cabins beside the saline marshes."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Nekrosis Jaringan Ekstremitas)",
+                "vector": "Kontak Domestik di Permukiman Lembap",
+                "incubation": "3 Hari",
+                "transmission": "Penularan pinjal intrakeluarga di bilik tidur sempit"
+            },
+            "description": {
+                "id": "Dari dermaga pabean, penyakit melompat ke kawasan padat nelayan yang hidup dari hasil tangkapan Danau Serbonis. Rumah-rumah bata lumpur yang lembap menjadi perangkap biologis. Tubuh para korban menghitam di bagian jemari tangan dan hidung akibat kematian jaringan (gangren), membuat penduduk setempat mengira mereka terkena kutukan iblis gurun Seth. Ratapan duka terdengar dari setiap pintu rumah, sementara keluarga-keluarga membakar jelaga untuk mengusir bau busuk jenazah kerabat mereka.",
+                "en": "From the customs docks, contagion plunged into the crowded fishermen's quarter fringing Lake Serbonis. Damp mud-brick tenements became biological traps. Gangrene blackened victims' fingertips and lips, prompting whispers that the ancient desert demon Seth had unloosed his wrath. Mourning wails rose from every alley as surviving relatives burned bitumen to mask the smell of decomposing flesh."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_05.jpg"
+        },
+        {
+            "id": "pel-ch-06",
+            "chapterNumber": 6,
+            "type": "standard",
+            "title": {
+                "id": "Pisau Bedah Tabib Menas: Investigasi Pertama Bubo",
+                "en": "The Scalpel of Menas: First Necropsy of the Bubo"
+            },
+            "date": {
+                "id": "Pertengahan September 541 M",
+                "en": "Mid-September 541 AD"
+            },
+            "flash": {
+                "id": "Tabib Menas dari Alexandria melakukan pembedahan mayat pertama pada korban pes di Pelusium, mendapati kelenjar getah bening yang membusuk penuh cairan kehitaman.",
+                "en": "Physician Menas of Alexandria performs the earliest recorded necropsy on a Pelusium plague corpse, uncovering lymph nodes engorged with blackish purulent fluid."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Nekrosis Supuratif Nodus)",
+                "vector": "Eksudat Kadavrik Berbahaya",
+                "incubation": "N/A",
+                "transmission": "Inokulasi langsung saat tindakan bedah tanpa proteksi"
+            },
+            "description": {
+                "id": "Menas, tabib yang terlatih di akademi medis Alexandria, datang ke Pelusium untuk mencari tahu penyebab kematian massal tersebut. Di halaman belakang sebuah biara, ia memberanikan diri membedah benjolan sebesar kepalan tangan di selangkangan seorang prajurit yang baru meninggal. Ketika pisau bedah perunggunya menembus kulit, cairan kental berdarah menyembur keluar disertai bau busuk menyengat; bagian dalam kelenjar telah membatu menjadi arang hitam. Menas sadar ini bukan demam malaria biasa, melainkan penyakit ganas yang belum pernah tertulis dalam naskah Galen.",
+                "en": "Menas, trained in Alexandria's medical academies, arrived in Pelusium determined to diagnose the rampant mortality. In a shaded monastery cloister, he incised a fist-sized groin tumor on a deceased guard. As his bronze scalpel pierced the tissue, thick hemorrhagic fluid erupted alongside putrid gas; the interior of the node was charred necrotic tissue. Menas realized this was no marsh ague, but a lethal pathogen absent from Galen's texts."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_06.jpg"
+        },
+        {
+            "id": "pel-ch-07",
+            "chapterNumber": 7,
+            "type": "milestone",
+            "title": {
+                "id": "Kapal Gandum Terbengkalai di Cabang Pelusiac",
+                "en": "Derelict Grain Barges on the Pelusiac Branch"
+            },
+            "date": {
+                "id": "Akhir September 541 M",
+                "en": "Late September 541 AD"
+            },
+            "flash": {
+                "id": "Rantai logistik gandum Nil terputus; tongkang-tongkang pengangkut panen terombang-ambing tanpa pendayung di antara alang-alang rawa.",
+                "en": "The Nile grain corridor severs; harvest-laden barges drift unguided among delta reeds with entire crews dead at the oars."
+            },
+            "virusProfile": {
+                "agent": "Disfungsi Rantai Pasok Pangan",
+                "vector": "Kelumpuhan Transportasi Air Pedalaman",
+                "incubation": "Kronis",
+                "transmission": "Krisis pangan susulan di seluruh distrik hilir Nil"
+            },
+            "description": {
+                "id": "Cabang Pelusiac—saluran paling timur Sungai Nil yang mengalirkan air tawar dan jalur transportasi kapal—berubah menjadi kuburan mengapung. Puluhan perahu layar pengangkut gandum terdampar di beting lumpur karena para juru mudi dan pendayungnya tewas tergeletak di dek. Gandum berharga di dalam karung mulai membusuk dan berjamur di bawah terik matahari musim gugur, menandai awal mula krisis kelaparan hebat yang segera melanda Alexandria.",
+                "en": "The Pelusiac branch—the Nile's easternmost waterway carrying vital freshwater and barge traffic—transformed into a floating cemetery. Scores of sailcraft loaded with fresh harvest drifted onto mudbanks, their helmsmen and oarsmen slumped lifeless across deck thwarts. Precious grain fermented and spoiled under the autumn sun, triggering the acute bread famine that soon gripped Alexandria."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_07.jpg"
+        },
+        {
+            "id": "pel-ch-08",
+            "chapterNumber": 8,
+            "type": "standard",
+            "title": {
+                "id": "Eksodus Massal: Menyeberangi Delta yang Terinfeksi",
+                "en": "The Great Flight: Crossing the Stricken Delta"
+            },
+            "date": {
+                "id": "Awal Oktober 541 M",
+                "en": "Early October 541 AD"
+            },
+            "flash": {
+                "id": "Ribuan warga Pelusium melarikan diri membawa tikar dan perabot; eksodus panik ini menyebarkan pinjal berinfeksi ke seluruh desa pedalaman Delta Nil.",
+                "en": "Thousands of Pelusium residents flee westward with bedding and livestock, inadvertently dispersing infected fleas across inland delta villages."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Dispersi Geografis Cepat)",
+                "vector": "Fomites (Kain Wol & Kasur Jerami Pengungsi)",
+                "incubation": "2 – 5 Hari",
+                "transmission": "Penyebaran pinjal melalui barang bawaan pengungsi jalan kaki"
+            },
+            "description": {
+                "id": "Ketika aroma kematian tak lagi tertahankan, kepanikan massal pecah di Pelusium. Ribuan keluarga berkemas tergesa-gesa, menaiki keledai atau berjalan kaki menyusuri tanggul-tanggul kanal Nil menuju barat. Namun mereka tidak menyadari bahwa di dalam gulungan tikar tidur dan lipatan jubah wol mereka, kutu-kutu Xenopsylla ikut menumpang. Setiap desa agraris dan biara padang pasir yang mereka singgahi untuk bermalam akan menyala oleh wabah pes dalam kurun sepuluh hari berikutnya.",
+                "en": "When the smell of decay grew unbearable, unbridled terror swept Pelusium. Thousands gathered belongings onto donkeys or trudged on foot along canal dykes toward the western delta. Unwittingly, they carried their doom: tucked within rolled sleeping mats and wool mantles lurked hordes of Xenopsylla fleas. Every agricultural hamlet and desert hermitage granting shelter erupted in plague within ten days."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_08.jpg"
+        },
+        {
+            "id": "pel-ch-09",
+            "chapterNumber": 9,
+            "type": "milestone",
+            "title": {
+                "id": "Kuburan Gurun Serbonis: Parit Pasir Tanpa Nisan",
+                "en": "Serbonis Sand Trenches: The Unmarked Dunes"
+            },
+            "date": {
+                "id": "Pertengahan Oktober 541 M",
+                "en": "Mid-October 541 AD"
+            },
+            "flash": {
+                "id": "Lahan pemakaman kota habis; otoritas menggali parit pasir raksasa di sepanjang gumuk Danau Serbonis, menimbun ratusan jenazah setiap senja.",
+                "en": "Urban cemetery space is exhausted; magistrates order trench excavation along Serbonis dunes, bulldozing hundreds of corpses beneath sand each dusk."
+            },
+            "virusProfile": {
+                "agent": "Krisis Mortuaria Massal",
+                "vector": "Pencemaran Air Tanah Pesisir",
+                "incubation": "N/A",
+                "transmission": "Kegagalan penanganan jenazah skala kota"
+            },
+            "description": {
+                "id": "Kepadatan korban melumpuhkan tata cara pemakaman tradisional Mesir dan Kristen. Prefek militer mengerahkan tawanan perang dan budak untuk menggali parit-parit panjang di gumuk pasir di luar benteng. Jenazah dilemparkan berlapis-lapis tanpa kafan atau peti kayu, lalu ditutup pasir tipis dengan sekop. Angin gurun yang bertiup kencang kerap menyibak timbunan pasir tersebut, memperlihatkan tumpukan tangan dan kaki kering yang membiru di bawah langit tembaga.",
+                "en": "Casualty tallies overwhelmed traditional burial rites. The military praefect impressed convicts and slaves to dig trenches into the dunes outside the bastions. Bodies were hurled in strata without shrouds or pine coffins, covered by spadefuls of sand. Savage desert squalls regularly stripped the dunes, exposing desiccated, blackened limbs beneath copper skies."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_09.jpg"
+        },
+        {
+            "id": "pel-ch-10",
+            "chapterNumber": 10,
+            "type": "standard",
+            "title": {
+                "id": "Kurir Via Maris: Jalur Maut Menuju Gaza",
+                "en": "Couriers of the Via Maris: Death Highway to Gaza"
+            },
+            "date": {
+                "id": "Akhir Oktober 541 M",
+                "en": "Late October 541 AD"
+            },
+            "flash": {
+                "id": "Wabah melompat ke jalur pos militer Via Maris; stasiun-stasiun pergantian kuda ke arah Palestina mulai melaporkan kematian beruntun para penunggang kuda.",
+                "en": "The pathogen infiltrates the Via Maris military post route; relay stations toward Palestine record rapid mortality among imperial dispatch riders."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Penetrasi Jalur Militer)",
+                "vector": "Kutu Kuda & Tas Pelana Kurir Pos (Cursus Publicus)",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Penyebaran cepat melalui stasiun pos pos kilat kekaisaran"
+            },
+            "description": {
+                "id": "Jalan militer kuno Via Maris yang membentang dari Pelusium menuju Gaza dan Antiokhia menjadi jalan tol penyebaran ke arah timur. Para kurir pos kekaisaran (cursores) yang membawa surat resmi bermalam di penginapan stasiun pos Pelusium tanpa tahu kasur mereka dipenuhi pinjal pes. Dalam hitungan hari, mereka tumbang dari pelana kuda di tengah gurun Sinai, sementara para pengelana lain yang menolong mereka ikut terjangkit dan membawa maut ke gerbang kota Gaza.",
+                "en": "The historic Via Maris artery connecting Pelusium to Gaza and Antioch became the eastern transit corridor. Imperial couriers (cursores) quartering at Pelusium relay inns carried plague fleas in their saddles. Within days, riders pitched from saddles in the Sinai wastes; Good Samaritans assisting them contracted the scourge, ferrying pestilence directly to the gates of Gaza."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_10.jpg"
+        },
+        {
+            "id": "pel-ch-11",
+            "chapterNumber": 11,
+            "type": "milestone",
+            "title": {
+                "id": "Alexandria Terpapar: Masuknya Pes ke Metropolis Hellenik",
+                "en": "Alexandria Infiltrated: Pestilence in the Hellenic Hub"
+            },
+            "date": {
+                "id": "November 541 M",
+                "en": "November 541 AD"
+            },
+            "flash": {
+                "id": "Perahu pengungsi dan tongkang gandum tiba di Pelabuhan Besar Alexandria; wabah menyusup ke kota metropolis terpadat kedua di seluruh Mediterania.",
+                "en": "Refugee craft and grain barges dock in the Great Harbor of Alexandria; pestilence penetrates the second most populous metropolis of the Mediterranean."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Transmisi Urban Masif)",
+                "vector": "Tikus Gudang Alexandria & Koloni Pinjal Baru",
+                "incubation": "2 – 4 Hari",
+                "transmission": "Eskalasi di kawasan pergudangan dan akademi kota"
+            },
+            "description": {
+                "id": "Pada bulan November, Pelusium telah menularkan malapetaka ke Alexandria. Di pelabuhan agung di bawah bayang-bayang Mercusuar Pharos, perahu-perahu sungai dari Delta Nil membongkar muatan di tengah kekacauan pasar. Penyakit menyebar cepat di distrik Rhakotis yang padat penduduk. Akademi filsafat tutup, perpustakaan sepi, dan para sarjana kedokteran terkemuka menyaksikan dengan tak berdaya ketika ribuan warga kota tewas dalam hitungan pekan.",
+                "en": "By November, Pelusium had transmitted the scourge to Alexandria. In the Great Harbor under the Pharos lighthouse, rivercraft discharged cargo amid market uproar. Disease flared through the densely packed Rhakotis tenements. Philosophical schools closed, scriptoriums emptied, and eminent physicians watched helplessly as thousands perished weekly."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_11.jpg"
+        },
+        {
+            "id": "pel-ch-12",
+            "chapterNumber": 12,
+            "type": "side_story",
+            "title": {
+                "id": "Doa di Balik Dinding Wadi Natrun",
+                "en": "Prayers Behind the Walls of Wadi Natrun"
+            },
+            "date": {
+                "id": "Desember 541 M",
+                "en": "December 541 AD"
+            },
+            "flash": {
+                "id": "Kisah rahib-rahib gurun di biara terpencil Scetis yang menerima pengungsi Delta Nil; isolasi spiritual mereka runtuh oleh wabah yang tak memandang ketaatan iman.",
+                "en": "Chronicle of Desert Fathers in the remote monasteries of Scetis who sheltered delta refugees; their sanctuary fell to a contagion indifferent to piety."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Klaster Komunal Biara)",
+                "vector": "Kontak Dekat dalam Komunitas Pertapaan",
+                "incubation": "3 Hari",
+                "transmission": "Penularan antar biarawan saat merawat sesama peziarah"
+            },
+            "description": {
+                "id": "Di lembah Wadi Natrun, para rahib pertapa hidup terpisah dari gemerlap duniawi. Namun ketika pengungsi yang demam mengetuk pintu gerbang kayu biara meminta perlindungan, para biarawan membuka pintu dengan belas kasih Kristiani. Dalam dua pekan, ruang doa yang biasanya sunyi dipenuhi rintihan penderitaan. Para tetua biara yang berusia lanjut tewas satu demi satu di atas lantai batu kapur, menyisakan lonceng perunggu yang berdentang sendiri ditiup angin gurun.",
+                "en": "In the valley of Wadi Natrun, monastic hermits lived divorced from secular life. Yet when shivering refugees knocked on timber abbey gates pleading for shelter, the monks opened their doors in Christian charity. Within a fortnight, stone chapels echoed with agonized groans. Elderly anchorites perished on cold limestone flags, leaving chapel bells swinging idle in desert gales."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_12.jpg"
+        },
+        {
+            "id": "pel-ch-13",
+            "chapterNumber": 13,
+            "type": "standard",
+            "title": {
+                "id": "Pos Garnisun yang Membisu: Perbatasan yang Terbuka",
+                "en": "Silent Outposts: The Open Frontier"
+            },
+            "date": {
+                "id": "Januari 542 M",
+                "en": "January 542 AD"
+            },
+            "flash": {
+                "id": "Pasukan garnisun perbatasan (limitanei) binasa di barak-barak militer mereka; gerbang timur Mesir tak lagi dijaga dari serbuan suku-suku nomaden.",
+                "en": "Frontier limitanei garrison troops perish within stone barracks; Egypt's eastern threshold is left undefended against nomadic raids."
+            },
+            "virusProfile": {
+                "agent": "Kehancuran Pertahanan Militer Perbatasan",
+                "vector": "Kematian Massal Barak Prajurit Romawi",
+                "incubation": "N/A",
+                "transmission": "Hilangnya kesiapsiagaan tempur garnisun perbatasan"
+            },
+            "description": {
+                "id": "Benteng batu Pelusium yang selama ratusan tahun menjaga perbatasan timur kekaisaran dari serbuan suku Badui dan tentara Persia mendadak sunyi. Pasukan limitanei yang digaji kaisar tewas bergelimpangan di barak kayu mereka tanpa sempat menghunus pedang. Tombak-tombak besi berkarat di rak senjata, sementara bendera kekaisaran robek ditiup badai pasir tanpa ada prajurit yang tersisa untuk menggantinya.",
+                "en": "Pelusium's stone fortress, which for centuries shielded Egypt from Bedouin skirmishers and Persian raiders, fell dead silent. Paid limitanei legionaries collapsed across timber barracks without drawing swords. Iron spears rusted on wall racks while imperial labarum banners frayed in the gales, bereft of sentries to replace them."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_13.jpg"
+        },
+        {
+            "id": "pel-ch-14",
+            "chapterNumber": 14,
+            "type": "standard",
+            "title": {
+                "id": "Jalan Bangkai Sinai: Dari Raphia Hingga Gaza",
+                "en": "Sinai Trail of Skeletons: From Raphia to Gaza"
+            },
+            "date": {
+                "id": "Februari 542 M",
+                "en": "February 542 AD"
+            },
+            "flash": {
+                "id": "Rute pesisir Sinai dipenuhi bangkai keledai dan barang bawaan kafilah yang ditinggalkan pemiliknya yang tewas di tengah perjalanan.",
+                "en": "The coastal Sinai trail is littered with dead pack beasts and abandoned caravan goods whose owners expired along the trek."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Koridor Penularan Antarbenua)",
+                "vector": "Kontaminasi Rute Darat Asia-Afrika",
+                "incubation": "Kronis",
+                "transmission": "Penularan beruntun antar stasiun air gurun"
+            },
+            "description": {
+                "id": "Perjalanan antara Pelusium dan Gaza yang biasanya ramai oleh pedagang kurma dan minyak zaitun berubah menjadi jalur maut. Sumur-sumur air di sepanjang pesisir Sinai tercemar oleh jenazah musafir yang merosot ke dalam mata air demi meredakan dahaga demam mereka. Kafilah-kafilah dagang yang lewat menolak berhenti, namun pinjal yang menempel pada debu gurun dan kantong pelana tetap melompat, membawa wabah merayap pasti menuju Syam.",
+                "en": "The corridor linking Pelusium and Gaza, normally humming with olive oil and date merchants, turned into a deadly wasteland. Desert way-wells became fouled by feverish travelers pitching into water basins to quench their thirst. Passing caravans refused to stop, yet fleas clinging to saddle blankets leaped aboard, ushering the pestilence relentlessly into the Levant."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_14.jpg"
+        },
+        {
+            "id": "pel-ch-15",
+            "chapterNumber": 15,
+            "type": "standard",
+            "title": {
+                "id": "Rawa yang Membusuk: Kolaps Ekologi Delta",
+                "en": "The Putrid Marshlands: Delta Ecological Collapse"
+            },
+            "date": {
+                "id": "Maret 542 M",
+                "en": "March 542 AD"
+            },
+            "flash": {
+                "id": "Kanal-kanal irigasi tersumbat lumpur dan tanaman liar; tiadanya petani memicu banjir liar dan kehancuran panen rami serta jelai di seluruh Mesir Hilir.",
+                "en": "Irrigation canals choke with silt and weeds; absence of agricultural labor sparks unmanaged flooding, destroying flax and barley harvests."
+            },
+            "virusProfile": {
+                "agent": "Kolaps Sosio-Ekologis Agraria",
+                "vector": "Runtuhnya Manajemen Air Sungai Nil",
+                "incubation": "N/A",
+                "transmission": "Kelaparan sistemik yang melipatgandakan kerentanan inang manusia"
+            },
+            "description": {
+                "id": "Pertanian Mesir bergantung pada pengaturan teliti atas saluran air Nil. Ketika populasi petani di sekitar Pelusium musnah, pintu-pintu air kayu hancur tanpa perawatan. Air rawa asin merembes masuk ke sawah-sawar tawar, meracuni tanah dengan garam dan membusukkan tanaman rami serta papirus. Mesir, yang selama setengah milenium menjadi lumbung pangan tak terbatas bagi Imperium Romawi, mendadak berubah menjadi tanah tandus yang kelaparan.",
+                "en": "Egyptian agriculture relied upon precise regulation of Nile spillways. With the agrarian populace around Pelusium eradicated, timber sluices rotted unattended. Saline swamp water seeped into freshwater paddies, poisoning soils and rotting standing crops of flax. Egypt, the inexhaustible breadbasket of the Roman world for half a millennium, plunged into starvation."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_15.jpg"
+        },
+        {
+            "id": "pel-ch-16",
+            "chapterNumber": 16,
+            "type": "summary",
+            "title": {
+                "id": "Epilog Pelusium: Muasal Bencana Dunia",
+                "en": "Epilogue: Pelusium and the Spark of Global Cataclysm"
+            },
+            "date": {
+                "id": "Musim Semi 542 M & Catatan Sejarah",
+                "en": "Spring 542 AD & Historical Legacy"
+            },
+            "flash": {
+                "id": "Pelusium menjadi kota hantu; dari dermaga lumpur inilah bakteri pes menyebar ke dua penjuru mata angin, meluncur menuju Konstantinopel dan membakar dunia Mediterania.",
+                "en": "Pelusium stands as a ghost port; from its muddy wharves, the plague bacterium diverged in two deadly directions, sailing for Constantinople and engulfing the world."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Keberhasilan Pandemik Global)",
+                "vector": "Jaringan Perdagangan Gandum & Pos Militer Imperium",
+                "incubation": "Penyebaran Global 541 – 549 M",
+                "transmission": "Eksploitasi menyeluruh atas infrastruktur transportasi Romawi"
+            },
+            "description": {
+                "id": "Sejarawan Procopius menulis dengan tegas: 'Wabah ini bermula dari bangsa Mesir yang tinggal di Pelusium, lalu terbagi menjadi dua arah, sebagian menuju Alexandria dan seluruh Mesir, sebagian lagi menuju Palestina.' Pelusium tidak pernah pulih dari kehancuran ini. Pelabuhan benteng yang megah itu perlahan tertimbun endapan pasir dan lumpur Nil, terlupakan oleh zaman, namun selamanya tercatat sebagai gerbang tempat maut pertama kali melangkah masuk untuk meremukkan peradaban klasik.",
+                "en": "Procopius penned the definitive record: 'It started among the Egyptians in Pelusium. Then dividing, it moved in one direction toward Alexandria and the rest of Egypt, and in the other toward Palestine.' Pelusium never recovered from the blow. The once-mighty fortress port slowly silted over beneath Nile mud and drifting sands, forgotten by ages, yet immortalized as the fatal portal through which the ancient world was broken."
+            },
+            "image": "/assets/images/plague-of-justinian-541/pel/pel_ch_16.jpg"
+        }
+    ]
+}

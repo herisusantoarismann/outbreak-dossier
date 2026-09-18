@@ -62,3 +62,32 @@ body {
     pointer-events: none !important;
     z-index: 50 !important;
 }
+
+/* Responsive HUD In-Line Alignment for Displays > 1440px */
+@media (min-width: 1441px) {
+    .hud-ticker-wide {
+        top: 1.5rem !important; /* 24px - perfectly parallel with header row */
+    }
+    .hud-encrypted-wide {
+        top: 5rem !important; /* 80px - cleanly beneath the ticker */
+    }
+    .hud-coordinates-wide {
+        display: flex !important;
+    }
+    .hud-footer-wide {
+        bottom: 1.5rem !important; /* 24px - perfectly parallel with bottom switcher dock */
+    }
+}
+
+@keyframes spin-slow {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin-slow {
+    animation: spin-slow 24s linear infinite;
+}

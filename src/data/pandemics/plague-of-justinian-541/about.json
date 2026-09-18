@@ -1,0 +1,66 @@
+{
+    "id": "plague-of-justinian-541",
+    "title": {
+        "id": "Mengenal Wabah Yustinianus (541 M)",
+        "en": "Understanding the Plague of Justinian (541 AD)"
+    },
+    "subtitle": {
+        "id": "Runtuhnya Ambisi Restorasi Romawi di Bawah Bayang-Bayang Maut Hitam Kuno",
+        "en": "The Collapse of Roman Restoration Beneath Ancient Bubonic Shadows"
+    },
+    "pathogen": {
+        "name": "Yersinia pestis",
+        "type": {
+            "id": "Bakteri Gram-negatif Berbentuk Batang (Basil)",
+            "en": "Gram-negative Rod-shaped Coccobacillus"
+        },
+        "vector": {
+            "id": "Kutu Tikus Oriental (Xenopsylla cheopis) & Tikus Hitam Kapal (Rattus rattus)",
+            "en": "Oriental Rat Flea (Xenopsylla cheopis) & Shipboard Black Rats (Rattus rattus)"
+        },
+        "reservoir": {
+            "id": "Marmot & Pengerat Liar di Asia Tengah / Afrika Timur",
+            "en": "Wild rodents and marmots in Central Asia / Eastern Africa"
+        }
+    },
+    "overview": {
+        "id": "Wabah Yustinianus (541–549 M) adalah pandemi pes bubonik pertama yang tercatat secara ekstensif dalam sejarah manusia. Pecah saat puncak kekuasaan Kaisar Yustinianus I di Konstantinopel, wabah ini merenggut 25 hingga 50 juta jiwa di sekeliling Cekungan Mediterania dan Timur Dekat. Ditularkan melalui armada kapal gandum kekaisaran dari Mesir, infeksi ini menghancurkan ekonomi agraris Bizantium, membinasakan pasukan legiun Belisarius, dan selamanya mengubur impian menyatukan kembali Imperium Romawi Barat dan Timur.",
+        "en": "The Plague of Justinian (541–549 AD) is the first historically documented pandemic of bubonic plague. Igniting at the height of Emperor Justinian I's reign in Constantinople, the scourge eliminated an estimated 25 to 50 million lives across the Mediterranean Basin and Near East. Disseminated by imperial grain fleets sailing from Egypt, the contagion shattered the Byzantine agrarian tax base, decimated Belisarius' veteran legions, and permanently extinguished the dream of restoring the united Roman Empire."
+    },
+    "clinicalFeatures": [
+        {
+            "name": {
+                "id": "Bubo Limfatik Akut",
+                "en": "Acute Lymphatic Buboes"
+            },
+            "description": {
+                "id": "Pembengkakan keras berdarah dan bernanah pada kelenjar getah bening selangkangan, ketiak, dan leher yang sangat menyakitkan.",
+                "en": "Excruciating, suppurating, and haemorrhagic swelling of lymph nodes in the groin, armpits, and neck."
+            }
+        },
+        {
+            "name": {
+                "id": "Delirium & Halusinasi",
+                "en": "Delirium & Hallucinations"
+            },
+            "description": {
+                "id": "Sebagaimana dicatat sejarawan Procopius, korban mengalami demam mendadak disertai paranoia penampakan sosok hantu sebelum jatuh koma.",
+                "en": "As chronicled by Procopius, victims suffered sudden high fever, terrifying apparitions of phantoms, and violent delirium before coma."
+            }
+        },
+        {
+            "name": {
+                "id": "Nekrosis Akral Hitam",
+                "en": "Acral Gangrene & Necrosis"
+            },
+            "description": {
+                "id": "Penyumbatan mikrovaskular memicu kematian jaringan jari tangan, hidung, dan bibir hingga menghitam terbakar kusta pes.",
+                "en": "Disseminated intravascular coagulation resulting in rapid blackening and gangrene of fingers, lips, and extremities."
+            }
+        }
+    ],
+    "historicalImpact": {
+        "id": "Pandemi ini mengakhiri zaman klasik akhir (*Late Antiquity*) dan menandai awal kemunduran demografi bangsa-bangsa Mediterania. Berhentinya pasokan pajak gandum dan tenaga kerja memicu krisis fiskal kronis di Konstantinopel, merapuhkan perbatasan pertahanan terhadap invasi bangsa Slavia di Balkan, serta memicu kekosongan kekuasaan yang kelak memuluskan ekspansi bangsa Arab di abad ke-7.",
+        "en": "The contagion effectively demarcated the close of Late Antiquity. The evaporation of agricultural yields and tax rolls precipitated irreversible fiscal atrophy in Constantinople, leaving frontiers undefended against Slavic incursions and creating a geopolitical vacuum across the Levant that accelerated the early Arab conquests a century later."
+    }
+}

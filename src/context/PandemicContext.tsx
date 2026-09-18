@@ -20,6 +20,7 @@ import { GlobalExtremeRecord, CountrySurveillanceData } from "@/types/journey";
 // Pre-imported datasets for instantaneous zero-latency era switching
 import justinianExtremes from "@/data/pandemics/plague-of-justinian-541/extremes.json";
 import justinianSurveillance from "@/data/pandemics/plague-of-justinian-541/surveillance.json";
+import justinianAbout from "@/data/pandemics/plague-of-justinian-541/about.json";
 import blackDeathExtremes from "@/data/pandemics/black-death-1347/extremes.json";
 import blackDeathSurveillance from "@/data/pandemics/black-death-1347/surveillance.json";
 import choleraExtremes from "@/data/pandemics/cholera-1817/extremes.json";
@@ -31,9 +32,15 @@ import covidSurveillance from "@/data/pandemics/covid-19/global-surveillance.jso
 
 export interface AboutDrawerContent {
     title: { id: string; en: string };
+    subtitle?: { id: string; en: string };
     overview: { id: string; en: string };
     pathogenName: string;
     clinical: ClinicalProfile;
+    clinicalFeatures?: Array<{
+        name: { id: string; en: string };
+        description: { id: string; en: string };
+    }>;
+    historicalImpact?: { id: string; en: string };
 }
 
 export type PandemicEraId =
@@ -113,7 +120,30 @@ export const PandemicProvider: React.FC<{
         (params?.pandemicId as string) || (params?.pandemic as string);
 
     const [selectedPandemicId, setSelectedPandemicId] = useState<string | null>(
-        null,
+        () => {
+            if (
+                typeof window !== "undefined" &&
+                !initialPandemicId &&
+                !routePandemicId
+            ) {
+                try {
+                    const saved = localStorage.getItem(
+                        "outbreak_active_pandemic",
+                    );
+                    if (
+                        saved &&
+                        getPandemicConfig(saved) &&
+                        getPandemicConfig(saved)?.status !==
+                            "classified_archive"
+                    ) {
+                        return saved;
+                    }
+                } catch {
+                    // Ignore storage errors
+                }
+            }
+            return null;
+        },
     );
     const [encryptedNotification, setEncryptedNotification] = useState<
         string | null
@@ -123,6 +153,44 @@ export const PandemicProvider: React.FC<{
         initialPandemicId ??
         routePandemicId ??
         "covid-19") as PandemicEraId;
+
+    // Sync state if initialPandemicId changes (e.g. Next.js route navigation)
+    useEffect(() => {
+        if (initialPandemicId && initialPandemicId !== selectedPandemicId) {
+            setSelectedPandemicId(initialPandemicId);
+        }
+    }, [initialPandemicId, selectedPandemicId]);
+
+    // Persist active pandemic into localStorage whenever it changes
+    useEffect(() => {
+        if (activePandemicId) {
+            try {
+                localStorage.setItem(
+                    "outbreak_active_pandemic",
+                    activePandemicId,
+                );
+            } catch {
+                // Ignore storage errors
+            }
+        }
+    }, [activePandemicId]);
+
+    // Synchronize state with browser forward/back buttons (popstate)
+    useEffect(() => {
+        const handlePopState = () => {
+            if (typeof window === "undefined") return;
+            const path = window.location.pathname;
+            const match = path.match(/\/globe\/([^/?#]+)/);
+            if (match && match[1]) {
+                const config = getPandemicConfig(match[1]);
+                if (config && config.status !== "classified_archive") {
+                    setSelectedPandemicId(config.id);
+                }
+            }
+        };
+        window.addEventListener("popstate", handlePopState);
+        return () => window.removeEventListener("popstate", handlePopState);
+    }, []);
 
     const triggerEncryptedAlert = useCallback(() => {
         setEncryptedNotification(
@@ -162,6 +230,11 @@ export const PandemicProvider: React.FC<{
             }
 
             setSelectedPandemicId(target.id);
+            try {
+                localStorage.setItem("outbreak_active_pandemic", target.id);
+            } catch {
+                // Ignore storage errors
+            }
 
             // Update browser URL without triggering a full page reload / WebGL scene destruction
             if (typeof window !== "undefined") {
@@ -189,8 +262,68 @@ export const PandemicProvider: React.FC<{
         [activePandemic],
     );
 
-    const aboutDrawerContent = useMemo(
-        (): AboutDrawerContent => ({
+    const aboutDrawerContent = useMemo((): AboutDrawerContent => {
+        if (activePandemic.id === "plague-of-justinian-541") {
+            return {
+                title: justinianAbout.title,
+                subtitle: justinianAbout.subtitle,
+                overview: justinianAbout.overview,
+                pathogenName: justinianAbout.pathogen.name,
+                clinical: activePandemic.clinicalProfile || {
+                    classification: {
+                        title: {
+                            id: "Klasifikasi Biologis",
+                            en: "Biological Classification",
+                        },
+                        text: justinianAbout.pathogen.type,
+                    },
+                    metrics: {
+                        incubation: {
+                            title: {
+                                id: "Masa Inkubasi",
+                                en: "Incubation Period",
+                            },
+                            value: "2 – 7 Hari",
+                            sub: { id: "Pes Bubonik", en: "Bubonic Plague" },
+                        },
+                        receptor: {
+                            title: { id: "Vektor Utama", en: "Primary Vector" },
+                            value: "X. cheopis",
+                            sub: { id: "Kutu Tikus", en: "Rat Flea" },
+                        },
+                        family: {
+                            title: {
+                                id: "Famili Bakteri",
+                                en: "Bacterial Family",
+                            },
+                            value: "Yersiniaceae",
+                            sub: {
+                                id: "Enterobacterales",
+                                en: "Enterobacterales",
+                            },
+                        },
+                    },
+                    transmission: {
+                        title: {
+                            id: "Vektor Penularan",
+                            en: "Transmission Vectors",
+                        },
+                        text: justinianAbout.pathogen.vector,
+                    },
+                    symptoms: {
+                        title: {
+                            id: "Reservoir Alami",
+                            en: "Natural Reservoir",
+                        },
+                        text: justinianAbout.pathogen.reservoir,
+                    },
+                },
+                clinicalFeatures: justinianAbout.clinicalFeatures,
+                historicalImpact: justinianAbout.historicalImpact,
+            };
+        }
+
+        return {
             title: activePandemic.aboutTitle,
             overview: activePandemic.aboutOverview,
             pathogenName: activePandemic.pathogenName,
@@ -234,9 +367,8 @@ export const PandemicProvider: React.FC<{
                     },
                 },
             },
-        }),
-        [activePandemic],
-    );
+        };
+    }, [activePandemic]);
 
     const extremesData = useMemo(() => {
         return EXTREMES_CATALOG[activePandemic.id] || [];

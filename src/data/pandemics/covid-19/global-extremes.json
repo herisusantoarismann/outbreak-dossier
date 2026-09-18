@@ -11,7 +11,10 @@
             "id": "Peru",
             "en": "Peru"
         },
-        "value": "4.93% (6,500+ / 1M Pop)",
+        "value": {
+            "id": "4.93% (6.500+ / 1 Juta Pop)",
+            "en": "4.93% (6,500+ / 1M Pop)"
+        },
         "context": {
             "id": "Krisis oksigen akut Andes & saturasi fasilitas ICU nasional",
             "en": "Acute Andean oxygen deficit & national ICU saturation"
@@ -33,7 +36,10 @@
             "id": "Amerika Serikat",
             "en": "United States"
         },
-        "value": "1,180,000+ Fatalitas",
+        "value": {
+            "id": "1.180.000+ Fatalitas",
+            "en": "1,180,000+ Fatalities"
+        },
         "context": {
             "id": "Gelombang transmisi berulang & beban puncak faskes musim dingin",
             "en": "Multi-wave community surges & winter clinical strain"
@@ -55,7 +61,10 @@
             "id": "Selandia Baru",
             "en": "New Zealand"
         },
-        "value": "548 Hari Tanpa Transmisi",
+        "value": {
+            "id": "548 Hari Tanpa Transmisi",
+            "en": "548 Days Without Transmission"
+        },
         "context": {
             "id": "Pengendalian karantina perbatasan maritim MIQ terpusat",
             "en": "Centralized maritime MIQ border ring-fencing"
@@ -77,7 +86,10 @@
             "id": "San Marino",
             "en": "San Marino"
         },
-        "value": "76.8% Terinfeksi",
+        "value": {
+            "id": "76.8% Terinfeksi",
+            "en": "76.8% Infected"
+        },
         "context": {
             "id": "Enklave mikro Eropa dengan laju paparan awal cepat",
             "en": "European micro-enclave with acute early exposure"
@@ -99,7 +111,10 @@
             "id": "China",
             "en": "China"
         },
-        "value": "76 Hari Isolasi Wuhan",
+        "value": {
+            "id": "76 Hari Isolasi Wuhan",
+            "en": "76 Days Wuhan Lockdown"
+        },
         "context": {
             "id": "Karantina total metropolitan & pendirian RS darurat Fangcang",
             "en": "Metropolitan cordon sanitaire & Fangcang rapid shelters"
@@ -121,7 +136,10 @@
             "id": "India",
             "en": "India"
         },
-        "value": "414,188 Kasus / 24 Jam",
+        "value": {
+            "id": "414.188 Kasus / 24 Jam",
+            "en": "414,188 Cases / 24 Hours"
+        },
         "context": {
             "id": "Mutasi B.1.617.2 dan krisis darurat pasokan oksigen medis",
             "en": "B.1.617.2 mutation explosion & acute oxygen shortage"
@@ -143,7 +161,10 @@
             "id": "Islandia",
             "en": "Iceland"
         },
-        "value": ">90% Kasus Tersekuens",
+        "value": {
+            "id": ">90% Kasus Tersekuens",
+            "en": ">90% Cases Sequenced"
+        },
         "context": {
             "id": "Pelacakan filogenetik deCODE memetakan seluruh mutasi impor",
             "en": "deCODE phylogenetic tracing of all imported viral lineages"
@@ -165,7 +186,10 @@
             "id": "Bhutan",
             "en": "Bhutan"
         },
-        "value": "93% Dewasa dalam 16 Hari",
+        "value": {
+            "id": "93% Dewasa dalam 16 Hari",
+            "en": "93% Adults in 16 Days"
+        },
         "context": {
             "id": "Distribusi rantai dingin relawan Desuup melintasi Himalaya",
             "en": "Desuup volunteer cold-chain trek across Himalayan terrain"
@@ -187,7 +211,10 @@
             "id": "Italia",
             "en": "Italy"
         },
-        "value": "100% Okupansi ICU dalam 18 Hari",
+        "value": {
+            "id": "100% Okupansi ICU dalam 18 Hari",
+            "en": "100% ICU Occupancy in 18 Days"
+        },
         "context": {
             "id": "Episentrum Lombardia & protokol triage darurat rumah sakit",
             "en": "Lombardy shockwave & initial hospital triage crisis"
@@ -209,7 +236,10 @@
             "id": "Indonesia",
             "en": "Indonesia"
         },
-        "value": "2,069 Korban Jiwa / 24 Jam",
+        "value": {
+            "id": "2.069 Korban Jiwa / 24 Jam",
+            "en": "2,069 Fatalities / 24 Hours"
+        },
         "context": {
             "id": "Krisis tabung oksigen darurat & saturasi faskes Jawa-Bali",
             "en": "Emergency oxygen stockout & Java-Bali hospital gridlock"

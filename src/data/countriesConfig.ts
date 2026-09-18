@@ -103,7 +103,7 @@ export const EPICENTER_REGISTRY: Record<EpicenterCode, EpicenterMetadata> = {
             lng: 12.5674,
             altitude: 1.05,
         },
-        beaconColor: "#f59e0b",
+        beaconColor: "#a855f7",
         status: {
             id: "STATUS: DECLASSIFIED DOSSIER AVAILABLE",
             en: "STATUS: DECLASSIFIED DOSSIER AVAILABLE",
@@ -130,7 +130,7 @@ export const EPICENTER_REGISTRY: Record<EpicenterCode, EpicenterMetadata> = {
             lng: -95.7129,
             altitude: 1.15,
         },
-        beaconColor: "#ef4444",
+        beaconColor: "#3b82f6",
         status: {
             id: "STATUS: DECLASSIFIED DOSSIER AVAILABLE",
             en: "STATUS: DECLASSIFIED DOSSIER AVAILABLE",

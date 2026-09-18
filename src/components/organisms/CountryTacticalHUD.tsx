@@ -27,6 +27,7 @@ export interface CountryTacticalHUDProps {
     epicenterData?: EpicenterMetadata | null;
     surveillanceData?: SurveillanceData | null;
     onInitializeDossier?: (countryCode: string) => void;
+    pandemicId?: string;
 }
 
 export const CountryTacticalHUD: React.FC<CountryTacticalHUDProps> = ({
@@ -35,6 +36,7 @@ export const CountryTacticalHUD: React.FC<CountryTacticalHUDProps> = ({
     epicenterData,
     surveillanceData,
     onInitializeDossier,
+    pandemicId = "covid-19",
 }) => {
     const router = useRouter();
     const currentLocale = useLocale() as SupportedLocale;
@@ -56,7 +58,7 @@ export const CountryTacticalHUD: React.FC<CountryTacticalHUDProps> = ({
         if (onInitializeDossier) {
             onInitializeDossier(code);
         } else {
-            router.push(`/dossier/covid-19/${code}`);
+            router.push(`/dossier/${pandemicId}/${code}`);
         }
     };
 

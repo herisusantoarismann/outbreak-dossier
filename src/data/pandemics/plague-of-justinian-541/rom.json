@@ -1,0 +1,460 @@
+{
+    "sectorId": "ROM",
+    "sectorName": {
+        "id": "Sektor Roma (Semenanjung Italia & Runtuhnya Restorasi)",
+        "en": "Sector Rome (Italian Peninsula & The Shattered Reconquest)"
+    },
+    "coordinates": [41.9028, 12.4964],
+    "timeRange": "543 – 546 M",
+    "estimatedFatalities": "350.000 – 450.000 (Semenanjung Italia & Lembah Sungai Po)",
+    "chapters": [
+        {
+            "id": "rom-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Pendaratan di Ostia: Bantuan yang Membawa Petaka",
+                "en": "Landing at Ostia: Relief Bearing Ruin"
+            },
+            "date": {
+                "id": "Musim Semi 543 M",
+                "en": "Spring 543 AD"
+            },
+            "flash": {
+                "id": "Kapal-kapal logistik Bizantium dari Sisilia berlabuh di pelabuhan Ostia membawa perbekalan untuk pasukan Belisarius, sekaligus memasukkan koloni kutu pes ke semenanjung yang hancur.",
+                "en": "Byzantine supply transports from Sicily dock at Ostia with provisions for Belisarius' troops, introducing plague flea colonies onto the war-torn peninsula."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Galur Laut Tyrrhenia)",
+                "vector": "Xenopsylla cheopis via Pasokan Militer Armada",
+                "incubation": "2 – 5 Hari",
+                "transmission": "Inokulasi langsung pada garnisun dermaga Ostia dan Porta Portuensis"
+            },
+            "description": {
+                "id": "Italia telah diperas oleh delapan tahun Perang Gotik. Ladang terbengkalai, kota-kota dijarah, dan penduduk Roma menyusut drastis. Ketika kapal-kapal perbekalan militer Bizantium merapat di muara Sungai Tiber di Ostia pada awal 543 M, warga menyambutnya sebagai mukjizat penolong kelaparan. Namun bersama karung gandum dan keju kering, kutu-kutu berinfeksi pes melompat ke gerobak perbekalan yang ditarik keledai menuju Gerbang Porta Portuensis di Roma.",
+                "en": "Italy had been hollowed by eight brutal years of Gothic warfare. Fields lay uncultivated, towns sacked, and Rome's populace dwindled to a shadow. When Byzantine naval supply vessels moored at Ostia's Tiber estuary in early 543 AD, citizens hailed them as deliverance from famine. Yet nestled within sacks of grain and salted rations lurked infected fleas, boarding supply carts trundling through Rome's Porta Portuensis gate."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_01.jpg"
+        },
+        {
+            "id": "rom-ch-02",
+            "chapterNumber": 2,
+            "type": "standard",
+            "title": {
+                "id": "Kota Reruntuhan: Roma di Ambang Kepunahan",
+                "en": "City of Ruins: Rome on the Precipice"
+            },
+            "date": {
+                "id": "Musim Panas 543 M",
+                "en": "Summer 543 AD"
+            },
+            "flash": {
+                "id": "Wabah menyebar cepat di antara 30.000 penduduk Roma yang tersisa; tubuh-tubuh kurus kering akibat kelaparan tak memiliki daya tahan melawan racun Yersinia pestis.",
+                "en": "Contagion ravages Rome's remaining 30,000 inhabitants; famine-wasted bodies possess zero immunological resistance against Yersinia pestis toxins."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Sinergi Malnutrisi-Pes)",
+                "vector": "Pengerat Domestik di Reruntuhan Monumen",
+                "incubation": "36 – 72 Jam",
+                "transmission": "Tingkat fatalitas mendekati 80% akibat malnutrisi kronis populasi"
+            },
+            "description": {
+                "id": "Roma bukan lagi ibu kota megah berpenduduk satu juta jiwa; kota ini tinggal bayang-bayang masa lalu di mana warga miskin tinggal di ceruk-ceruk teater kuno dan kuil marmer yang runtuh. Penduduk yang telah bertahun-tahun memakan jelatang dan akar rumput tidak memiliki imunitas. Ketika demam pes menyerang, korban langsung jatuh koma dalam hitungan hari. Forum Romanum yang sunyi dipenuhi tumpukan jenazah yang tidak sempat dikubur oleh tetangga mereka yang sama lemasnya.",
+                "en": "Rome was no longer the gleaming metropolis of a million souls; it was a ghost town where squatters sheltered inside ruined amphitheaters and collapsed temples. A population subsisting on nettles and wild grass possessed no immune reserves. When plague fever struck, victims collapsed into coma within days. The overgrown Forum was littered with corpses left unburied by neighbors too weak to lift a spade."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_02.jpg"
+        },
+        {
+            "id": "rom-ch-03",
+            "chapterNumber": 3,
+            "type": "milestone",
+            "title": {
+                "id": "Garis Pertahanan Belisarius yang Terkoyak",
+                "en": "Belisarius' Fractured Front"
+            },
+            "date": {
+                "id": "Musim Gugur 543 M",
+                "en": "Autumn 543 AD"
+            },
+            "flash": {
+                "id": "Jenderal Belisarius menyaksikan pasukannya runtuh bukan oleh pedang bangsa Goth, melainkan oleh demam pembengkakan selangkangan yang melumpuhkan garnisun Tembok Aurelian.",
+                "en": "General Belisarius watches veteran legions disintegrate not beneath Gothic blades, but from groin buboes eviscerating garrisons along the Aurelian Walls."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Paralisis Militer Bizantium)",
+                "vector": "Kontak Erat di Barak Tembok Pertahanan",
+                "incubation": "2 – 4 Hari",
+                "transmission": "Wabah di barak prajurit berkuda Thrace dan infanteri Illyria"
+            },
+            "description": {
+                "id": "Jenderal Belisarius, penakluk Afrika Utara dan pembebas Italia, berdiri tak berdaya di atas Tembok Aurelian. Prajurit-prajurit veteran Thrace dan Illyria yang setia menemaninya menyeberangi laut kini menggeliat kesakitan di lantai barak batu. Dengan sepertiga tentaranya tewas dan sisanya terbaring lemah, Belisarius tidak mampu lagi mengerahkan patroli dinding benteng, apalagi melancarkan ofensif militer untuk mengusir musuh dari pedalaman Italia.",
+                "en": "General Belisarius, conqueror of North Africa and liberator of Italy, stood powerless atop the Aurelian ramparts. The veteran Thracian and Illyrian cavalry who followed him across seas now writhed in agonizing torment on barracks floors. With a third of his garrison dead and the rest incapacitated, Belisarius could barely mount sentries on the parapets, much less launch counter-offensives against the Goths."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_03.jpg"
+        },
+        {
+            "id": "rom-ch-04",
+            "chapterNumber": 4,
+            "type": "side_story",
+            "title": {
+                "id": "Ratapan Terakhir Wangsa Anicii",
+                "en": "The Last Lament of the Anicii"
+            },
+            "date": {
+                "id": "Akhir 543 M",
+                "en": "Late 543 AD"
+            },
+            "flash": {
+                "id": "Kisah punahnya wangsa bangsawan senator tertua Roma, keluarga Anicii, yang bertahan dari penjarahan bangsa barbar namun terhapus oleh wabah di dalam istana marmer Bukit Aventine.",
+                "en": "Micro-dossier on the extinction of Rome's oldest senatorial house, the Anicii, who survived barbarian sacks only to be extinguished in their Aventine palace."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Kepunahan Aristokrasi Klasik)",
+                "vector": "Pinjal Domestik pada Karpet Wol Kuno",
+                "incubation": "3 Hari",
+                "transmission": "Penularan di kalangan keluarga bangsawan Romawi terakhir"
+            },
+            "description": {
+                "id": "Keluarga Anicii telah menghasilkan konsul dan kaisar selama berabad-abad. Mereka berhasil menyelamatkan kekayaan dan perpustakaan mereka dari penjarahan Alaric dan Genseric. Namun ketika pes menembus gerbang kayu istana mereka di Bukit Aventine, garis keturunan itu berakhir. Senator Probus dan ketiga putranya tewas dalam rentang waktu empat hari. Harta warisan naskah kuno dan patung leluhur mereka tertinggal berdebu tanpa ada pewaris sah yang tersisa.",
+                "en": "The Anicii house had yielded Roman consuls and emperors for centuries. They had preserved their wealth and libraries through sacks by Alaric and Genseric. But when pestilence slipped past their Aventine gates, the bloodline ceased. Senator Probus and his three sons died within four days. Ancient codices and ancestral busts gathered cobwebs, bereft of a single surviving heir."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_04.jpg"
+        },
+        {
+            "id": "rom-ch-05",
+            "chapterNumber": 5,
+            "type": "standard",
+            "title": {
+                "id": "Akuaduk yang Terputus: Genangan Maut Campagna",
+                "en": "Severed Aqueducts: Death Pools of the Campagna"
+            },
+            "date": {
+                "id": "Awal 544 M",
+                "en": "Early 544 AD"
+            },
+            "flash": {
+                "id": "Saluran akuaduk yang diputus bangsa Goth membanjiri dataran Campagna, menciptakan rawa-rawa buatan yang memicu lonjakan populasi vektor pengerat liar.",
+                "en": "Aqueducts severed by the Goths flood the Campagna plain, creating artificial wetlands that amplify wild rodent reservoirs."
+            },
+            "virusProfile": {
+                "agent": "Degradasi Ekologi Infrastruktur Romawi",
+                "vector": "Proliferasi Tikus Rawa & Nyamuk Malaria",
+                "incubation": "N/A",
+                "transmission": "Kerusakan sanitasi air bersih perkotaan"
+            },
+            "description": {
+                "id": "Sebelas jalur akuaduk raksasa yang dulunya mengalirkan jutaan galon air bersih ke Roma telah dihancurkan oleh Raja Vitiges selama pengepungan. Aliran air yang tersumbat meluap ke padang rumput di luar tembok kota, mengubah pedesaan Campagna yang subur menjadi rawa busuk berlumut. Genangan air ini menjadi sarang ideal bagi tikus dan serangga, mempercepat penularan pes sekaligus membawa gelombang demam malaria yang menyiksa sisa-sisa penduduk pedesaan.",
+                "en": "Eleven monumental aqueducts that once delivered millions of gallons of water were breached by King Vitiges during the siege. Blocked waters spilled onto the plains beyond the Aurelian circuit, turning fertile farmland into malarial marshes. These stagnant wetlands fostered vast rodent colonies, supercharging plague transmission and layering deadly malarial fevers onto surviving peasants."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_05.jpg"
+        },
+        {
+            "id": "rom-ch-06",
+            "chapterNumber": 6,
+            "type": "standard",
+            "title": {
+                "id": "Wabah di Perkemahan Pasukan Goth",
+                "en": "Pestilence in the Gothic Siege Lines"
+            },
+            "date": {
+                "id": "Musim Semi 544 M",
+                "en": "Spring 544 AD"
+            },
+            "flash": {
+                "id": "Wabah tidak memihak; pes menembus perkemahan perang bangsa Ostrogoth di luar Roma, meremukkan kavaleri berkuda mereka dan memaksa pengepungan bubar sementara.",
+                "en": "The scourge shows no allegiance; plague breaches Ostrogothic siege encampments, devastating heavy cavalry and lifting the blockade."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Penularan Lintas Pasukan)",
+                "vector": "Kutu dari Ransum Jarahan Kota Roma",
+                "incubation": "2 – 4 Hari",
+                "transmission": "Penularan antar prajurit di perkemahan tenda padat"
+            },
+            "description": {
+                "id": "Bangsa Ostrogoth mengira penyakit di dalam kota adalah tanda kemurkaan Tuhan atas tentara Romawi. Namun ketika mereka menjarah gerobak-gerobak pengungsi yang melarikan diri dari Roma, mereka membawa maut ke dalam perkemahan mereka sendiri. Prajurit-prajurit berperawakan besar penunggang kuda tombak berjatuhan demam di samping tenda kulit mereka. Bangsa Goth terpaksa membakar kemah mereka dan mundur ke utara, meninggalkan ratusan bangkai kuda dan prajurit di tanah berdebu.",
+                "en": "The Ostrogoths initially celebrated the affliction inside Rome as divine retribution upon the Byzantines. But when raiding parties plundered carts of refugees fleeing through the gates, they carried death into their own lines. Hulking Gothic lancers collapsed beside leather pavilions. Compelled to burn their encampments, the Goths retreated northward, leaving dead horses and warriors behind."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_06.jpg"
+        },
+        {
+            "id": "rom-ch-07",
+            "chapterNumber": 7,
+            "type": "milestone",
+            "title": {
+                "id": "Prosesi Doa Penyesalan di Via Appia",
+                "en": "The Penitential Litany on the Appian Way"
+            },
+            "date": {
+                "id": "Pertengahan 544 M",
+                "en": "Mid-544 AD"
+            },
+            "flash": {
+                "id": "Klerus Roma memimpin prosesi doa tobat tujuh lapis melintasi jalan kuno Via Appia; sejumlah biarawan kolaps dan meninggal saat memegang salib prosesi.",
+                "en": "Roman clergy lead a sevenfold penitential litany down the ancient Appian Way; monks collapse dead while bearing processional crucifixes."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Bentuk Paru / Aerosol Kerumunan)",
+                "vector": "Droplet Pernapasan saat Nyanyian Litani",
+                "incubation": "18 – 24 Jam",
+                "transmission": "Eskalasi aerosol selama prosesi doa massal"
+            },
+            "description": {
+                "id": "Dengan runtuhnya otoritas sipil kekaisaran, Gereja Roma menjadi satu-satunya pelindung yang tersisa. Uskup Roma memerintahkan seluruh warga yang masih mampu berdiri untuk berbaris dalam prosesi doa penyesalan. Selama tiga hari, ribuan orang berkerumun menyanyikan doa tobat melintasi makam-makam kuno di Via Appia. Namun kerumunan rapat ini justru memicu penularan pes paru; puluhan peziarah batuk berdarah dan tumbang langsung ke atas batu basal jalanan.",
+                "en": "With the collapse of secular Roman magistracies, the Church stood as the sole remaining civic institution. The Bishop of Rome ordered all citizens who could walk to assemble in solemn litanies. For three days, thousands marched chanting penitential hymns past ancient tombs on the Appian Way. But crowding sparked pneumonic plague outbreaks; participants coughed blood and collapsed onto the basalt paving slabs."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_07.jpg"
+        },
+        {
+            "id": "rom-ch-08",
+            "chapterNumber": 8,
+            "type": "standard",
+            "title": {
+                "id": "Ravenna Terpapar: Ibukota Eksarkat yang Lumpuh",
+                "en": "Ravenna Infiltrated: Atrophy of the Exarchate"
+            },
+            "date": {
+                "id": "Musim Gugur 544 M",
+                "en": "Autumn 544 AD"
+            },
+            "flash": {
+                "id": "Wabah merayap ke utara menuju pelabuhan militer Classis dan ibukota administratif Ravenna; pengerjaan mosaik gereja megah San Vitale terhenti.",
+                "en": "The plague spreads north to the Classis naval base and the administrative capital of Ravenna; mosaic work at the basilica of San Vitale halts."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Penetrasi Pesisir Adriatik)",
+                "vector": "Armada Angkatan Laut Pelabuhan Classis",
+                "incubation": "3 Hari",
+                "transmission": "Penularan antar awak galai perang Adriatik"
+            },
+            "description": {
+                "id": "Ravenna, kota berbenteng rawa yang menjadi pusat pemerintahan Bizantium di Italia, tidak luput dari serangan. Melalui pangkalan armada laut Classis di pesisir Laut Adriatik, pes menyusup ke istana eksarkat. Para seniman Yunani yang sedang menyelesaikan dekorasi mosaik kaisar di basilika San Vitale jatuh sakit dan meninggal di atas perancah kayu mereka. Kota yang dirancang tahan terhadap pengepungan tentara ini tak berkutik melawan musuh mikroskopis.",
+                "en": "Ravenna, the marsh-girded fortress serving as Byzantine Italy's governing capital, proved equally vulnerable. Infiltrating through the Classis naval station on the Adriatic coast, plague entered the palace. Greek artisans setting tesserae for imperial mosaics in the basilica of San Vitale collapsed from scaffolds. The city, engineered to withstand sieges, was helpless against a microscopic invader."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_08.jpg"
+        },
+        {
+            "id": "rom-ch-09",
+            "chapterNumber": 9,
+            "type": "milestone",
+            "title": {
+                "id": "Katakombe Roma: Pemakaman Bawah Tanah yang Penuh",
+                "en": "Catacombs of Rome: The Choked Subterrane"
+            },
+            "date": {
+                "id": "Akhir 544 M",
+                "en": "Late 544 AD"
+            },
+            "flash": {
+                "id": "Ruang pemakaman bawah tanah (katakombe) Kristen abad-abad awal dibuka kembali; ribuan jenazah dijejalkan ke lorong tufa hingga celah batu habis.",
+                "en": "Early Christian catacombs are reopened; thousands of plague victims are crammed into subterranean tufa tunnels until burial space is exhausted."
+            },
+            "virusProfile": {
+                "agent": "Krisis Sanitasi Bawah Tanah",
+                "vector": "Gas Dekomposisi di Lorong Sempit",
+                "incubation": "N/A",
+                "transmission": "Bahaya paparan tinggi bagi para penggali kubur gereja"
+            },
+            "description": {
+                "id": "Dengan tanah permukaan yang rawan dibongkar anjing liar dan serigala, para klerus Roma memutuskan untuk membuka kembali jaringan katakombe kuno di bawah bukit-bukit kota. Dengan obor lemak sapi di tangan, para penggali kubur menjejalkan jenazah ke dalam ceruk batu (*loculi*) yang dulunya menjadi tempat peristirahatan para martir. Ketika ceruk-ceruk itu habis, jenazah ditumpuk begitu saja di lorong bawah tanah hingga aroma pembusukan merembes keluar melalui lubang-lubang ventilasi.",
+                "en": "With surface graves scavenged by wolves, the Roman clergy reopened early Christian catacombs tunneling beneath the city hills. Bearing tallow torches, grave diggers shoved corpses into limestone niches (*loculi*) once reserved for martyrs. When niches were exhausted, bodies were piled along underground galleries until putrefaction gas drifted up through street ventilation shafts."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_09.jpg"
+        },
+        {
+            "id": "rom-ch-10",
+            "chapterNumber": 10,
+            "type": "standard",
+            "title": {
+                "id": "Kincir Air Sungai Tiber yang Terbengkalai",
+                "en": "Derelict Tiber Mills: The Silent Current"
+            },
+            "date": {
+                "id": "Awal 545 M",
+                "en": "Early 545 AD"
+            },
+            "flash": {
+                "id": "Inovasi kincir air apung Belisarius di Sungai Tiber berhenti berputar; matinya para tukang giling memicu kelaparan roti terburuk dalam sejarah Romawi Barat.",
+                "en": "Belisarius' floating river mills on the Tiber grind to a halt; mortality among millers triggers the worst bread famine in Western Roman history."
+            },
+            "virusProfile": {
+                "agent": "Disfungsi Infrastruktur Ketahanan Pangan",
+                "vector": "Lumpuhnya Penggilingan Gandum Sungai",
+                "incubation": "Kronis",
+                "transmission": "Eskalasi kelaparan absolut yang melenyapkan sisa populasi"
+            },
+            "description": {
+                "id": "Ketika saluran air diputus musuh, Belisarius dengan cerdik merancang kincir gandum terapung di atas perahu di Sungai Tiber yang digerakkan oleh arus air. Kincir-kincir ini adalah nyawa bagi pasokan roti kota Roma. Namun ketika para pengrajin dan tukang giling tewas terkena pes, perahu-perahu kincir itu terbengkalai. Tali-tali penambatnya putus, dan kincir air kayu tersebut hanyut terdampar menjadi puing di tepi sungai, mengakhiri pasokan tepung gandum untuk selamanya.",
+                "en": "When aqueducts fell, Belisarius engineered floating mills moored between Tiber bridges, harnessing river currents to grind grain. These mills were Rome's lifeline. But as millers and artisans perished from plague, the barges were neglected. Mooring cables snapped, and wooden wheelhouses drifted downstream into wreckage, permanently cutting Rome's grain-milling capacity."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_10.jpg"
+        },
+        {
+            "id": "rom-ch-11",
+            "chapterNumber": 11,
+            "type": "standard",
+            "title": {
+                "id": "Disersi Pasukan Bayaran: Runtuhnya Garis Komando",
+                "en": "Mercenary Desertion: Fractured Command"
+            },
+            "date": {
+                "id": "Pertengahan 545 M",
+                "en": "Mid-545 AD"
+            },
+            "flash": {
+                "id": "Pasukan tentara bayaran Herul, Hun, dan Isauria memberontak karena gaji kaisar yang tak kunjung tiba akibat kolapsnya kas Konstantinopel; mereka menjarah desa-desa Italia.",
+                "en": "Herul, Hunnic, and Isaurian mercenaries mutiny over unpaid imperial wages caused by Constantinople's financial ruin, looting Italian villages."
+            },
+            "virusProfile": {
+                "agent": "Dampak Finansial Pasca-Pandemi",
+                "vector": "Ketiadaan Gaji Militer Solidus",
+                "incubation": "N/A",
+                "transmission": "Kolapsnya disiplin legiun dan anarki bersenjata"
+            },
+            "description": {
+                "id": "Kekaisaran Bizantium tidak lagi mampu mengirimkan koin emas Solidus untuk menggaji tentara di Italia karena wabah telah melumpuhkan pemungutan pajak di timur. Menghadapi ancaman maut dari pes dan perut yang lapar, ribuan prajurit kavaleri bayaran membuang panji kekaisaran. Mereka menjarah biara-biara dan desa-desa pedalaman yang selamat, mengubah sisa-sisa wilayah kekaisaran di Italia menjadi arena perang saudara tanpa hukum.",
+                "en": "Byzantium could no longer dispatch gold Solidi to pay legions in Italy; plague had hollowed tax revenues across the east. Facing death by pestilence and starvation, mercenary cavalry cast down imperial standards. Mutineers pillaged remaining monasteries and rural hamlets, pitching imperial Italian holdings into lawless anarchy."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_11.jpg"
+        },
+        {
+            "id": "rom-ch-12",
+            "chapterNumber": 12,
+            "type": "milestone",
+            "title": {
+                "id": "Kembalinya Totila: Jatuhnya Kota Tanpa Perlawanan",
+                "en": "The Return of Totila: The Fall of a Ghost City"
+            },
+            "date": {
+                "id": "Desember 546 M",
+                "en": "December 546 AD"
+            },
+            "flash": {
+                "id": "Raja Ostrogoth Totila memasuki Roma; ia mendapati benteng-benteng pertahanan ditinggalkan tanpa penjaga dan jalanan kota hanya dihuni oleh kurang dari 500 orang yang selamat.",
+                "en": "Ostrogothic King Totila enters Rome; finding gates unmanned and avenues inhabited by fewer than 500 starving survivors."
+            },
+            "virusProfile": {
+                "agent": "Kehancuran Demografi Total",
+                "vector": "Depopulasi Ekstrem Perkotaan Klasik",
+                "incubation": "Kronis",
+                "transmission": "Akhir dari peradaban urban Romawi kuno"
+            },
+            "description": {
+                "id": "Pada akhir tahun 546 M, Raja Totila menunggang kudanya melewati Gerbang Asinaria tanpa perlu melepaskan satu panah pun. Pasukan garnisun Bizantium telah kabur atau mati. Procopius mencatat pemandangan yang mengerikan: hanya sekitar 500 warga sipil yang masih hidup di dalam kota raksasa itu, kurus kering seperti hantu dan bersembunyi di dalam gereja St. Petrus. Roma, kota abadi yang pernah menguasai dunia, telah dikosongkan oleh perpaduan maut antara perang dan pes.",
+                "en": "In late 546 AD, King Totila rode through the Asinarian Gate without loosing an arrow. The Byzantine garrison had fled or perished. Procopius preserved the grim reality: barely 500 civilians survived inside the vast walled circuit, skeletal apparitions sheltering in St. Peter's basilica. Rome, the eternal city that ruled the ancient world, had been emptied by war and pestilence."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_12.jpg"
+        },
+        {
+            "id": "rom-ch-13",
+            "chapterNumber": 13,
+            "type": "side_story",
+            "title": {
+                "id": "Toga Terakhir di Curia Julia",
+                "en": "The Last Toga in the Curia Julia"
+            },
+            "date": {
+                "id": "547 M",
+                "en": "547 AD"
+            },
+            "flash": {
+                "id": "Kisah sunyi pembubaran Senat Romawi kuno; pertemuan terakhir segelintir bangsawan tua di gedung Curia Julia sebelum tradisi politik seribu tahun berakhir selamanya.",
+                "en": "The silent extinction of the ancient Roman Senate; final gathering of surviving patricians inside the Curia Julia before a millennial tradition dissolved."
+            },
+            "virusProfile": {
+                "agent": "Kepunahan Institusi Romawi",
+                "vector": "Hilangnya Kelas Elit Berpendidikan",
+                "incubation": "N/A",
+                "transmission": "Runtuhnya tradisi tata kelola klasik Romawi Barat"
+            },
+            "description": {
+                "id": "Gedung Curia Julia di Forum Romanum telah menjadi saksi perdebatan Cicero dan Caesar. Namun pada tahun 547 M, hanya tersisa segelintir pria lanjut usia mengenakan toga usang yang duduk di atas kursi marmer berdebu. Tidak ada lagi undang-undang yang dirumuskan, tidak ada lagi perdebatan kekaisaran. Mereka hanya duduk dalam keheningan mendalam, meratapi hilangnya anak-cucu mereka yang disapu bersih oleh pes. Pertemuan informal itu menjadi nafas terakhir Senat Romawi.",
+                "en": "The Curia Julia had echoed with the orations of Cicero and Caesar. Yet by 547 AD, a handful of elderly patricians in frayed togas sat upon dust-covered marble benches. No laws were drafted, no imperial policies debated. They sat in silence, mourning children and grandchildren wiped out by the pestilence. That hushed gathering marked the final gasp of the Roman Senate."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_13.jpg"
+        },
+        {
+            "id": "rom-ch-14",
+            "chapterNumber": 14,
+            "type": "standard",
+            "title": {
+                "id": "Lembah Sungai Po yang Membisu: Ladang Menjadi Hutan",
+                "en": "Silence on the Po: Farmland Reclaimed by Forest"
+            },
+            "date": {
+                "id": "547 – 548 M",
+                "en": "547 – 548 AD"
+            },
+            "flash": {
+                "id": "Kawasan pertanian terpadat di Italia utara musnah; benteng-benteng tanah liat dan desa agrikultur Lembah Po berubah kembali menjadi hutan belantara dan rawa liar.",
+                "en": "Northern Italy's fertile agrarian basin collapses; villages and river dykes of the Po Valley revert to wilderness and uncontrolled swamps."
+            },
+            "virusProfile": {
+                "agent": "Reforestasi Spontan Pasca-Mortalitas",
+                "vector": "Hilangnya Tekanan Demografi Manusia",
+                "incubation": "Kronis",
+                "transmission": "Keruntuhan sistem drainase sentral Italia Utara"
+            },
+            "description": {
+                "id": "Lembah Sungai Po di utara Italia, yang selama berabad-abad menjadi pusat produksi minyak zaitun, anggur, dan ternak, tenggelam dalam kesunyian. Desa-desa agraris ditinggalkan kosong dengan pintu-pintu tergantung miring. Tanggul-tanggul sungai runtuh karena tiadanya tenaga perawat, menenggelamkan ribuan hektar sawah gandum. Dalam kurun waktu beberapa tahun, pohon-pohon ek dan semak berduri liar tumbuh menutupi sisa-sisa pemukiman Romawi, menandai datangnya Zaman Kegelapan sejati di Eropa barat.",
+                "en": "The Po River basin, agricultural engine for olive, wine, and cattle production, sank into desolation. Farming villages stood empty with doors swinging on hinges. Unmaintained river dykes burst, inundating thousands of acres of tilled soil. Within years, oak forests and brambles swallowed Roman villas, inaugurating the genuine Dark Ages across Western Europe."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_14.jpg"
+        },
+        {
+            "id": "rom-ch-15",
+            "chapterNumber": 15,
+            "type": "standard",
+            "title": {
+                "id": "Colosseum yang Berumput: Akhir Peradaban Kota",
+                "en": "The Overgrown Colosseum: The End of Civic Splendor"
+            },
+            "date": {
+                "id": "548 M",
+                "en": "548 AD"
+            },
+            "flash": {
+                "id": "Amfiteater Flavianus (Colosseum) berubah menjadi pemukiman kumuh terisolasi; rumput liar dan pohon-pohon kecil menutupi arena marmer yang dulunya megah.",
+                "en": "The Flavian Amphitheater (Colosseum) morphs into an isolated squatter compound; weeds and saplings choke the once-gleaming marble arena."
+            },
+            "virusProfile": {
+                "agent": "Degradasi Ruang Publik Urban",
+                "vector": "Fragmentasi Pemukiman Pertahanan Lokal",
+                "incubation": "N/A",
+                "transmission": "Evolusi kota kuno menjadi benteng-benteng feodal kecil"
+            },
+            "description": {
+                "id": "Simbol kemegahan bangsa Romawi, Colosseum, tidak lagi menggelar pertunjukan publik. Koridor-koridor lengkung batunya disekat dengan dinding kayu kasar oleh keluarga-keluarga yang selamat untuk dijadikan kandang kambing dan gubuk darurat. Di tengah arena tempat para gladiator pernah bertarung, rumput liar tumbuh setinggi dada manusia. Warga Roma tidak lagi memandang diri mereka sebagai warga imperium adidaya, melainkan penyintas yang bertahan di tengah reruntuhan raksasa peradaban masa lalu.",
+                "en": "The towering symbol of Roman greatness, the Colosseum, hosted no spectacles. Its stone arcades were partitioned with timber by surviving squatters into goat pens and crude huts. Across the arena floor where gladiators fought, wild grass grew chest-high. The Romans no longer viewed themselves as masters of an empire, but as scavengers living among monuments left by giants."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_15.jpg"
+        },
+        {
+            "id": "rom-ch-16",
+            "chapterNumber": 16,
+            "type": "summary",
+            "title": {
+                "id": "Epilog Roma: Runtuhnya Mimpi Sang Kaisar",
+                "en": "Epilogue: The Shattered Dream of Justinian"
+            },
+            "date": {
+                "id": "549 M & Warisan Sejarah",
+                "en": "549 AD & Historical Legacy"
+            },
+            "flash": {
+                "id": "Penaklukan kembali Italia oleh Bizantium berakhir sebagai kemenangan hampa; semenanjung yang hancur dan kosong membuka pintu bagi invasi suku bangsa Langobardi.",
+                "en": "The Byzantine reconquest of Italy ends as a pyrrhic victory; a ruined peninsula opens the floodgates for the Lombard invasion."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Transformasi Geopolitik Abad Pertengahan)",
+                "vector": "Kekosongan Demografis & Militer Permanen",
+                "incubation": "Warisan Jangka Panjang (Abad ke-6 – 8 M)",
+                "transmission": "Runtuhnya unifikasi Mediterania klasik selamanya"
+            },
+            "description": {
+                "id": "Kaisar Yustinianus berhasil merebut kembali Roma di atas kertas, namun harga yang dibayar adalah kehancuran total peradaban klasik Italia. Dengan jutaan korban jiwa akibat pes dan perang, Bizantium tidak mampu menempatkan garnisun untuk mempertahankan semenanjung tersebut. Kurang dari dua dekade kemudian, suku bangsa Langobardi turun dari pegunungan Alpen menaklukkan Italia tanpa perlawanan berarti. Wabah Yustinianus di Roma memastikan bahwa Romawi Barat tidak akan pernah bangkit kembali.",
+                "en": "Emperor Justinian reclaimed Rome on paper, but the price was the complete annihilation of Italian classical civilization. With millions dead from plague and war, Byzantium lacked the manpower to garrison the peninsula. Less than two decades later, the Lombards descended from the Alps to seize Italy with minimal resistance. The Plague of Justinian ensured that Western Rome would never rise again."
+            },
+            "image": "/assets/images/plague-of-justinian-541/rom/rom_ch_16.jpg"
+        }
+    ]
+}

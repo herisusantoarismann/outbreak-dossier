@@ -1,62 +1,97 @@
 {
-    "TR": {
-        "iso2": "TR",
+    "GAU": {
+        "iso2": "GAU",
         "name": {
-            "id": "Kekaisaran Romawi Timur (Bizantium)",
-            "en": "Byzantine (Eastern Roman) Empire"
+            "id": "Galia (Kerajaan Franka)",
+            "en": "Gaul (Frankish Kingdoms)"
         },
-        "continent": "Europe",
-        "confirmedCases": 4000000,
-        "fatalities": 2500000,
-        "recoveryRate": "37.5%",
-        "peakWave": { "id": "Musim Semi 542 M", "en": "Spring 542 AD" }
-    },
-    "EG": {
-        "iso2": "EG",
-        "name": {
-            "id": "Provinsi Mesir Romawi (Pelusium & Aleksandria)",
-            "en": "Roman Egypt (Pelusium & Alexandria)"
-        },
-        "continent": "Africa",
-        "confirmedCases": 2500000,
+        "continent": "Western Europe",
+        "confirmedCases": 2800000,
         "fatalities": 1400000,
-        "recoveryRate": "44.0%",
-        "peakWave": { "id": "Musim Gugur 541 M", "en": "Autumn 541 AD" }
-    },
-    "IT": {
-        "iso2": "IT",
-        "name": {
-            "id": "Semenanjung Italia & Sisilia",
-            "en": "Italian Peninsula & Sicily"
-        },
-        "continent": "Europe",
-        "confirmedCases": 1800000,
-        "fatalities": 900000,
         "recoveryRate": "50.0%",
-        "peakWave": { "id": "Tahun 543 M", "en": "Year 543 AD" }
-    },
-    "SY": {
-        "iso2": "SY",
-        "name": {
-            "id": "Provinsi Suriah & Antiokhia",
-            "en": "Syrian Diocese & Antioch"
+        "peakWave": {
+            "id": "543 M (Penyebaran Lembah Sungai Rhône)",
+            "en": "543 AD (Rhône River Valley Basin)"
         },
-        "continent": "Asia",
-        "confirmedCases": 1500000,
-        "fatalities": 800000,
-        "recoveryRate": "46.6%",
-        "peakWave": { "id": "Tahun 542 M", "en": "Year 542 AD" }
+        "statusBadge": {
+            "id": "PEMANTAUAN KRONIK GREGORIUS DARI TOURS",
+            "en": "SURVEILLANCE VIA GREGORY OF TOURS CHRONICLE"
+        }
     },
-    "IR": {
-        "iso2": "IR",
+    "HIS": {
+        "iso2": "HIS",
         "name": {
-            "id": "Kekaisaran Sasaniyah (Persia)",
-            "en": "Sasanian Empire (Persia)"
+            "id": "Hispania (Kerajaan Visigoth)",
+            "en": "Hispania (Visigothic Kingdom)"
         },
-        "continent": "Asia",
-        "confirmedCases": 2000000,
-        "fatalities": 1100000,
-        "recoveryRate": "45.0%",
-        "peakWave": { "id": "Tahun 543 – 544 M", "en": "Year 543 – 544 AD" }
+        "continent": "Iberian Peninsula",
+        "confirmedCases": 1900000,
+        "fatalities": 950000,
+        "recoveryRate": "50.0%",
+        "peakWave": {
+            "id": "Musim Gugur 542 M – 543 M",
+            "en": "Autumn 542 AD – 543 AD"
+        },
+        "statusBadge": {
+            "id": "ARSIP DOKUMEN VISIGOTH LOKAL",
+            "en": "VISIGOTHIC REGIONAL ARCHIVES"
+        }
+    },
+    "BRI": {
+        "iso2": "BRI",
+        "name": {
+            "id": "Britania Pasca-Romawi",
+            "en": "Post-Roman Britain"
+        },
+        "continent": "British Isles",
+        "confirmedCases": 650000,
+        "fatalities": 320000,
+        "recoveryRate": "50.8%",
+        "peakWave": {
+            "id": "544 M (Wabah Kuning Rhos Ddu)",
+            "en": "544 AD (Yellow Plague of Rhos)"
+        },
+        "statusBadge": {
+            "id": "CATATAN KRONIK KELTIK BRITAINA",
+            "en": "INSULAR CELTIC ANNALS TELEMETRY"
+        }
+    },
+    "AFR": {
+        "iso2": "AFR",
+        "name": {
+            "id": "Exarchate Afrika (Kartago)",
+            "en": "Exarchate of Africa (Carthage)"
+        },
+        "continent": "North Africa",
+        "confirmedCases": 3100000,
+        "fatalities": 1600000,
+        "recoveryRate": "48.4%",
+        "peakWave": {
+            "id": "542 M (Dermaga Kartago Terpapar)",
+            "en": "542 AD (Carthage Maritime Ingress)"
+        },
+        "statusBadge": {
+            "id": "KONTROL KANAL GANDUM AFRIKA",
+            "en": "AFRICAN GRAIN CORRIDOR SURVEILLANCE"
+        }
+    },
+    "LEV": {
+        "iso2": "LEV",
+        "name": {
+            "id": "Provinsi Levant (Antiokhia & Yerusalem)",
+            "en": "Levant Provinces (Antioch & Jerusalem)"
+        },
+        "continent": "Near East",
+        "confirmedCases": 2400000,
+        "fatalities": 1250000,
+        "recoveryRate": "47.9%",
+        "peakWave": {
+            "id": "Awal 542 M (Pasca Gempa Antiokhia)",
+            "en": "Early 542 AD (Post-Antioch Seism)"
+        },
+        "statusBadge": {
+            "id": "GARNISUN FRONTIER TIMUR",
+            "en": "EASTERN FRONTIER GARRISON MONITOR"
+        }
     }
 }

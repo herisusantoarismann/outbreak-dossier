@@ -114,9 +114,11 @@ export const SurveillanceModal: React.FC<SurveillanceModalProps> = ({
                             <div className="p-2.5 bg-neutral-900/80 border border-neutral-700/80 rounded-lg flex items-center gap-2">
                                 <AlertCircle className="w-4 h-4 text-amber-400 shrink-0" />
                                 <span className="text-[10px] sm:text-[11px] font-mono font-bold text-amber-300 tracking-wider">
-                                    {
-                                        "[!] SECONDARY SURVEILLANCE // MONITORING TELEMETRY ONLY"
-                                    }
+                                    {data.statusBadge
+                                        ? t(data.statusBadge, locale)
+                                        : locale === "id"
+                                          ? "[!] PENGAWASAN SEKUNDER // TELEMETRI MONITORING SAJA"
+                                          : "[!] SECONDARY SURVEILLANCE // MONITORING TELEMETRY ONLY"}
                                 </span>
                             </div>
 
@@ -125,56 +127,80 @@ export const SurveillanceModal: React.FC<SurveillanceModalProps> = ({
                                 {/* Confirmed Cases */}
                                 <div className="bg-neutral-950/80 border border-neutral-800 rounded-lg p-3">
                                     <div className="flex items-center justify-between text-[10px] font-mono text-neutral-400 uppercase tracking-wider mb-1">
-                                        <span>Confirmed Cases</span>
+                                        <span>
+                                            {locale === "id"
+                                                ? "Kasus Terkonfirmasi"
+                                                : "Confirmed Cases"}
+                                        </span>
                                         <Users className="w-3.5 h-3.5 text-neutral-500" />
                                     </div>
                                     <div className="text-base sm:text-lg font-mono font-black text-neutral-100 tracking-tight">
                                         {data.confirmedCases.toLocaleString()}
                                     </div>
                                     <div className="text-[8px] font-mono text-neutral-500 mt-0.5">
-                                        Cumulative Infections
+                                        {locale === "id"
+                                            ? "Infeksi Kumulatif"
+                                            : "Cumulative Infections"}
                                     </div>
                                 </div>
 
                                 {/* Total Deaths */}
                                 <div className="bg-neutral-950/80 border border-neutral-800 rounded-lg p-3">
                                     <div className="flex items-center justify-between text-[10px] font-mono text-neutral-400 uppercase tracking-wider mb-1">
-                                        <span>Total Deaths</span>
+                                        <span>
+                                            {locale === "id"
+                                                ? "Total Kematian"
+                                                : "Total Deaths"}
+                                        </span>
                                         <Skull className="w-3.5 h-3.5 text-red-500/80" />
                                     </div>
                                     <div className="text-base sm:text-lg font-mono font-black text-red-400 tracking-tight">
                                         {data.fatalities.toLocaleString()}
                                     </div>
                                     <div className="text-[8px] font-mono text-neutral-500 mt-0.5">
-                                        Official Attributed
+                                        {locale === "id"
+                                            ? "Atribusi Resmi"
+                                            : "Official Attributed"}
                                     </div>
                                 </div>
 
                                 {/* Recovery Rate */}
                                 <div className="bg-neutral-950/80 border border-neutral-800 rounded-lg p-3">
                                     <div className="flex items-center justify-between text-[10px] font-mono text-neutral-400 uppercase tracking-wider mb-1">
-                                        <span>Recovery Rate</span>
+                                        <span>
+                                            {locale === "id"
+                                                ? "Tingkat Kesembuhan"
+                                                : "Recovery Rate"}
+                                        </span>
                                         <HeartPulse className="w-3.5 h-3.5 text-emerald-400" />
                                     </div>
                                     <div className="text-base sm:text-lg font-mono font-black text-emerald-400 tracking-tight">
                                         {data.recoveryRate}
                                     </div>
                                     <div className="text-[8px] font-mono text-neutral-500 mt-0.5">
-                                        Clinical Resolution
+                                        {locale === "id"
+                                            ? "Resolusi Klinis"
+                                            : "Clinical Resolution"}
                                     </div>
                                 </div>
 
                                 {/* Peak Wave */}
                                 <div className="bg-neutral-950/80 border border-neutral-800 rounded-lg p-3">
                                     <div className="flex items-center justify-between text-[10px] font-mono text-neutral-400 uppercase tracking-wider mb-1">
-                                        <span>Peak Wave</span>
+                                        <span>
+                                            {locale === "id"
+                                                ? "Puncak Gelombang"
+                                                : "Peak Wave"}
+                                        </span>
                                         <Calendar className="w-3.5 h-3.5 text-cyan-400" />
                                     </div>
                                     <div className="text-xs sm:text-sm font-mono font-bold text-cyan-300 tracking-tight truncate">
                                         {peakWaveText}
                                     </div>
                                     <div className="text-[8px] font-mono text-neutral-500 mt-0.5">
-                                        Highest Transmission
+                                        {locale === "id"
+                                            ? "Transmisi Tertinggi"
+                                            : "Highest Transmission"}
                                     </div>
                                 </div>
                             </div>
@@ -185,7 +211,11 @@ export const SurveillanceModal: React.FC<SurveillanceModalProps> = ({
                                     onClick={onClose}
                                     className="w-full py-2.5 px-4 bg-neutral-900 hover:bg-neutral-800 active:bg-neutral-950 text-neutral-300 hover:text-white font-mono text-xs uppercase tracking-wider rounded-lg border border-neutral-800 hover:border-neutral-700 transition-colors cursor-pointer text-center flex items-center justify-center gap-1.5"
                                 >
-                                    <span>[ CLOSE X ]</span>
+                                    <span>
+                                        {locale === "id"
+                                            ? "[ TUTUP X ]"
+                                            : "[ CLOSE X ]"}
+                                    </span>
                                 </button>
                             </div>
                         </div>
