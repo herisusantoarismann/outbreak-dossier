@@ -1,0 +1,572 @@
+{
+    "sectorId": "PAR",
+    "sectorName": {
+        "id": "Sektor Paris (Kerajaan Prancis & Krisis Wangsa Valois)",
+        "en": "Sector Paris (Kingdom of France & The Valois Crisis)"
+    },
+    "coordinates": [48.8566, 2.3522],
+    "timeRange": "Mei 1348 – 1350 M",
+    "estimatedFatalities": "80.000 – 100.000 (≈ 50% Populasi Paris)",
+    "chapters": [
+        {
+            "id": "par-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Metropolis di Tepi Sungai Seine: Paris Abad ke-14",
+                "en": "Metropolis on the Seine: 14th-Century Paris"
+            },
+            "date": {
+                "id": "Mei 1348 M",
+                "en": "May 1348 AD"
+            },
+            "flash": {
+                "id": "Paris berdiri sebagai kota terbesar di Eropa Barat dengan 200.000 jiwa; kepadatan ekstrem di Île de la Cité dan tepi Seine menjadi lahan subur bagi penyebaran penyakit.",
+                "en": "Paris stands as Western Europe's largest metropolis with 200,000 residents; intense overcrowding on Île de la Cité and the Seine wharves creates fertile ground for contagion."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Galur Medievalis Lembah Rhône)",
+                "vector": "Xenopsylla cheopis via Tikus Hitam Kota",
+                "incubation": "2 – 5 Hari",
+                "transmission": "Kepadatan ekstrem pemukiman kayu bertingkat di tepian Sungai Seine"
+            },
+            "description": {
+                "id": "Paris pada musim semi 1348 adalah pusat intelektual, ekonomi, dan politik Eropa Barat. Di bawah naungan katedral Notre-Dame yang menjulang, jalan-jalan sempit berlumpur dipadati oleh para pedagang wol, pelajar dari seluruh penjuru benua, dan para pengrajin serikat. Namun drainase yang buruk, limbah jagal yang langsung dibuang ke Sungai Seine, serta rumah-rumah kayu bertingkat yang saling berhimpitan menciptakan lingkungan ideal bagi jutaan tikus dan pinjal untuk berkembang biak tanpa terkendali.",
+                "en": "In spring 1348, Paris was the intellectual, commercial, and political heart of Western Europe. Beneath the spires of Notre-Dame, narrow muddy lanes teemed with cloth merchants, scholars from across Christendom, and guild artisans. Yet non-existent drainage, butcher offal dumped directly into the Seine, and multi-story timber houses leaning over alleys created an ideal breeding ground for unchecked rodent and flea populations."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_01.jpg"
+        },
+        {
+            "id": "par-ch-02",
+            "chapterNumber": 2,
+            "type": "standard",
+            "title": {
+                "id": "Bayang-Bayang Crécy: Kerajaan yang Telah Terluka",
+                "en": "Shadow of Crécy: An Already Wounded Realm"
+            },
+            "date": {
+                "id": "Akhir Mei 1348 M",
+                "en": "Late May 1348 AD"
+            },
+            "flash": {
+                "id": "Prancis masih terluka parah akibat kekalahan telak dari Inggris di Pertempuran Crécy (1346); kas kerajaan kosong dan moral rakyat berada di titik nadir.",
+                "en": "France reels from its catastrophic defeat by the English at the Battle of Crécy (1346); royal coffers are empty and national morale is at its lowest ebb."
+            },
+            "virusProfile": {
+                "agent": "Kerentanan Sosio-Ekonomi Ekstrem",
+                "vector": "Mobilisasi Pasukan & Pengungsi Perang",
+                "incubation": "N/A",
+                "transmission": "Eskalasi beban pajak dan malnutrisi penduduk akibat Perang Seratus Tahun"
+            },
+            "description": {
+                "id": "Wabah pes tidak menyerang kerajaan yang makmur dan damai, melainkan sebuah negeri yang sedang berdarah di tengah Perang Seratus Tahun. Dua tahun setelah kekalahan memalukan ksatria Prancis di hadapan pemanah busur panjang Inggris di Crécy, Paris dipenuhi prajurit cacat dan pengungsi dari utara. Pajak gabelle (pajak garam) yang dipungut paksa oleh Raja Philippe VI telah memicu kemarahan para pengrajin kota, menciptakan ketidakstabilan sosial bahkan sebelum kuman pes tiba.",
+                "en": "The pestilence struck not a thriving realm, but a kingdom bleeding from the Hundred Years' War. Two years after the humiliating slaughter of French chivalry by English longbowmen at Crécy, Paris was choked with maimed veterans and northern refugees. Draconian gabelle salt taxes levied by King Philip VI stoked open fury among urban guilds, rendering society brittle even before the pathogen arrived."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_02.jpg"
+        },
+        {
+            "id": "par-ch-03",
+            "chapterNumber": 3,
+            "type": "milestone",
+            "title": {
+                "id": "Tongkang dari Selatan: Penetrasi Lembah Rhône",
+                "en": "Barges from the South: The Rhône Corridor Infiltration"
+            },
+            "date": {
+                "id": "Awal Juni 1348 M",
+                "en": "Early June 1348 AD"
+            },
+            "flash": {
+                "id": "Setelah membakar Marseille dan Lyon, wabah menunggangi tongkang komersial menyusuri Sungai Saône dan jaringan jalan darat menuju pelabuhan bongkar Port de Grève di Paris.",
+                "en": "After engulfing Marseille and Lyon, the pestilence rides river barges up the Saône corridor and overland roads, making landfall at Paris' Port de Grève."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Transmisi Arteri Perdagangan Domestik)",
+                "vector": "Xenopsylla cheopis pada Bal Kain & Peti Anggur",
+                "incubation": "2 – 4 Hari",
+                "transmission": "Pelepasan kutu saat pembongkaran muatan di dermaga Paris"
+            },
+            "description": {
+                "id": "Penyebaran pes dari pelabuhan Mediterania ke utara berlangsung dengan kecepatan mencengangkan melalui jalur air alami Prancis. Dari Marseille, kuman merambat ke Avignon dan Lyon, lalu melompat ke gerobak pedagang menuju Paris. Pada awal Juni 1348 M, tongkang-tongkang yang merapat di dermaga Port de Grève di tepi Seine menurunkan karung-karung tekstil dan anggur selatan. Bersama muatan mewah itu, kutu-kutu pes melompat ke para buruh angkut dermaga, menyalakan episenter di jantung ibu kota.",
+                "en": "The pestilence raced north from Mediterranean anchorages along France's river arteries. From Marseille it consumed Avignon and Lyon before leaping onto commercial carters bound for Paris. In early June 1348 AD, river barges mooring at the Port de Grève unloaded southern textiles and wine casks. Alongside luxury goods, plague fleas jumped onto stevedores, igniting an outbreak in the capital's heart."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_03.jpg"
+        },
+        {
+            "id": "par-ch-04",
+            "chapterNumber": 4,
+            "type": "standard",
+            "title": {
+                "id": "Bubo di Latin Quarter: Mahasiswa yang Berguguran",
+                "en": "Buboes in the Latin Quarter: The Stricken Scholars"
+            },
+            "date": {
+                "id": "Pertengahan Juni 1348 M",
+                "en": "Mid-June 1348 AD"
+            },
+            "flash": {
+                "id": "Asrama-asrama mahasiswa di Latin Quarter menjadi titik ledakan awal; ratusan cendekiawan muda dan dosen teologi terkapar demam di atas tumpukan perkamen.",
+                "en": "Student colleges across the Latin Quarter become early focal points; hundreds of scholars and theology masters collapse with fevers over their parchments."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Klaster Asrama Perkotaan)",
+                "vector": "Kontak Domestik di Ruang Belajar & Tidur Bersama",
+                "incubation": "48 Jam",
+                "transmission": "Eskalasi pes bubonik di pemukiman komunal mahasiswa"
+            },
+            "description": {
+                "id": "Kawasan Latin Quarter yang biasanya berdengung dengan perdebatan dialektika Aristoteles mendadak dicekam horor. Di dalam asrama-asrama sempit tempat mahasiswa tinggal berjejalan dengan kasur jerami yang jarang diganti, penyakit menyebar bagai api. Gejala klinis muncul mendadak: sakit kepala hebat, pembengkakan kelenjar getah bening di leher dan selangkangan sebesar buah apel, serta muntah empedu hitam. Perkuliahan terhenti total saat para pengajar dan murid tewas berdampingan di kamar-kamar batu mereka.",
+                "en": "The Latin Quarter, usually alive with Aristotelian debates, plunged into terror. Inside crowded collegiate dormitories where students slept on soiled straw mattresses, disease flared unchecked. Violent symptoms struck without warning: blinding headaches, egg-sized lymph swellings in necks and groins, and black bile emesis. Lectures ceased as masters and pupils expired side by side within their stone cells."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_04.jpg"
+        },
+        {
+            "id": "par-ch-05",
+            "chapterNumber": 5,
+            "type": "milestone",
+            "title": {
+                "id": "Dekrit Kerajaan: Perintah Penyelidikan Fakultas Kedokteran",
+                "en": "Royal Mandate: The Inquisition of the Faculty of Medicine"
+            },
+            "date": {
+                "id": "Juli 1348 M",
+                "en": "July 1348 AD"
+            },
+            "flash": {
+                "id": "Kaisar Philippe VI memerintahkan para master Fakultas Kedokteran Universitas Paris untuk menyusun risalah resmi mengenai asal-usul dan penawar bencana maut ini.",
+                "en": "King Philip VI commands the masters of the Faculty of Medicine at the University of Paris to draft an official treatise on the origin and remedy of the mortality."
+            },
+            "virusProfile": {
+                "agent": "Respons Institusional Akademis Abad Pertengahan",
+                "vector": "Kajian Kosmologi & Teori Miasma",
+                "incubation": "N/A",
+                "transmission": "Upaya penjelasan rasional atas fenomena patologis berskala kontinental"
+            },
+            "description": {
+                "id": "Menghadapi kehancuran yang belum pernah terjadi, Raja Philippe VI berpaling kepada otoritas intelektual tertinggi di dunia Kristen: Fakultas Kedokteran Paris. Dewan master yang dipimpin oleh para tabib terkemuka dikumpulkan untuk menganalisis teks-teks kuno Galen, Avicenna, dan tabel-tabel astronomi. Mereka diperintahkan menyusun pedoman resmi bagi seluruh kerajaan guna menjelaskan mengapa udara tiba-tiba menjadi racun yang mencabut nyawa orang-orang saleh dan berdosa tanpa pandang bulu.",
+                "en": "Confronting unprecedented devastation, King Philip VI turned to Christendom's paramount intellectual authority: the Faculty of Medicine of Paris. A convocation of senior medical regents gathered to scrutinize ancient texts of Galen, Avicenna, and astronomical ephemerides. They were tasked with drafting an authoritative consultation for the kingdom explaining why the very atmosphere had turned deadly to sinners and saints alike."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_05.jpg"
+        },
+        {
+            "id": "par-ch-06",
+            "chapterNumber": 6,
+            "type": "milestone",
+            "title": {
+                "id": "Compendium de Epidemia: Konjungsi Tiga Planet",
+                "en": "Compendium de Epidemia: The Conjunction of Three Planets"
+            },
+            "date": {
+                "id": "Oktober 1348 M",
+                "en": "October 1348 AD"
+            },
+            "flash": {
+                "id": "Fakultas Kedokteran Paris menerbitkan mahakarya 'Compendium de epidemia'; menyimpulkan wabah dipicu oleh konjungsi astronomis Saturnus, Jupiter, dan Mars pada 20 Maret 1345.",
+                "en": "The Paris Faculty releases its landmark 'Compendium de epidemia'; concluding the plague was spawned by the planetary conjunction of Saturn, Jupiter, and Mars on March 20, 1345."
+            },
+            "virusProfile": {
+                "agent": "Teori Miasma Astral Klasik",
+                "vector": "Udara Busuk Teracuni Pengaruh Konstelasi Aquarius",
+                "incubation": "N/A",
+                "transmission": "Inhalasi uap beracun kosmis menurut sains abad ke-14"
+            },
+            "description": {
+                "id": "Risalah Compendium de epidemia menjadi dokumen medis paling berpengaruh di abad pertengahan. Para tabib Paris menyimpulkan bahwa konjungsi tiga planet superior di rasi bintang Aquarius telah memanaskan dan meracuni uap bumi dan laut. Udara beracun (miasma) ini tertiup angin ke barat, merusak cairan tubuh manusia (*humors*) dan mengendap di jantung serta paru-paru. Rekomendasi mereka: membakar kayu juniper dan kemenyan, menghindari mandi air panas agar pori-pori kulit tidak terbuka, serta pantang memakan daging berlemak.",
+                "en": "The Compendium de epidemia became the most influential medical treatise of the Middle Ages. The Parisian masters argued that the conjunction of three superior planets in Aquarius heated and corrupted subterranean vapors. This poisoned miasma, blown west by winds, corrupted the human humors, striking the heart and lungs. Their remedies: burning juniper boughs and incense, avoiding hot baths lest skin pores open, and abstaining from waterfowl and fat meats."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_06.jpg"
+        },
+        {
+            "id": "par-ch-07",
+            "chapterNumber": 7,
+            "type": "standard",
+            "title": {
+                "id": "Hôtel-Dieu: Neraka di Samping Katedral",
+                "en": "Hôtel-Dieu: Inferno Beside the Cathedral"
+            },
+            "date": {
+                "id": "Agustus 1348 M",
+                "en": "August 1348 AD"
+            },
+            "flash": {
+                "id": "Rumah sakit tertua Paris, Hôtel-Dieu, menampung ribuan pasien melebihi kapasitas; para biarawati Augustinian merawat orang sekarat hingga seluruh anggota ordo mereka gugur.",
+                "en": "Paris' premier hospital, the Hôtel-Dieu, overflows with thousands; Augustinian nursing sisters tend the dying until nearly the entire order perishes."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Bentuk Paru Aerosol Nosokomial)",
+                "vector": "Droplet Pernapasan di Bangsal Tertutup",
+                "incubation": "18 – 24 Jam",
+                "transmission": "Penularan langsung pada perawat sukarela di ruang tidur bersama"
+            },
+            "description": {
+                "id": "Di seberang serambi katedral Notre-Dame, aula batu Hôtel-Dieu berubah menjadi pemandangan neraka Dante. Hingga enam penderita pes ditidurkan berdesakan di atas satu ranjang kayu yang sama. Pasien dengan bisul pecah bernanah terbaring bersentuhan dengan mereka yang batuk menyemburkan darah segar. Suster-suster Augustinian memperlihatkan keberanian luar biasa; meski tahu bahwa merawat pasien pes paru berarti vonis mati, mereka terus menyuapkan bubur dan memandikan jenazah hingga hampir seluruh biarawati rumah sakit tewas dan harus digantikan oleh relawan baru berkali-kali.",
+                "en": "Across from Notre-Dame's parvis, the stone halls of the Hôtel-Dieu resembled Dante's inferno. Up to six plague victims were packed into single wooden beds. Sufferers with weeping buboes lay pressed against patients vomiting arterial blood. The Augustinian sisters demonstrated staggering devotion; knowing that tending pneumonic cases was a death sentence, they spooned broth and shrouded corpses until nearly the entire sisterhood perished, replaced repeatedly by fresh recruits."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_07.jpg"
+        },
+        {
+            "id": "par-ch-08",
+            "chapterNumber": 8,
+            "type": "side_story",
+            "title": {
+                "id": "Tongkat Tabib Jean de Saxe",
+                "en": "The Wand of Physician Jean de Saxe"
+            },
+            "date": {
+                "id": "September 1348 M",
+                "en": "September 1348 AD"
+            },
+            "flash": {
+                "id": "Kisah Jean de Saxe, tabib kerajaan yang memeriksa denyut nadi pasien menggunakan tongkat kayu panjang dan bola wewangian logam untuk menghindari menyentuh kulit penderita.",
+                "en": "Chronicle of court physician Jean de Saxe examining pulses using a long wooden wand and an amber pomander to avoid direct cutaneous contact."
+            },
+            "virusProfile": {
+                "agent": "Protokol Isolasi Medis Primitif",
+                "vector": "Penghindaran Fomites & Sentuhan Fisik",
+                "incubation": "N/A",
+                "transmission": "Evolusi awal alat pelindung diri dan jarak fisik tabib era pertengahan"
+            },
+            "description": {
+                "id": "Ketika para tabib biasa tewas berurutan, Jean de Saxe merancang metode pemeriksaan jarak jauh. Ia mengenakan jubah wol tebal berlapis lilin lebah, menutup hidung dan mulutnya dengan kain berendam cuka, serta memegang pomander perak berisi cengkih dan kemenyan. Saat memeriksa penderita di istana, ia tidak menyentuh pergelangan tangan pasien, melainkan menggunakan tongkat kayu birch halus untuk menekan denyut nadi dan memeriksa kedalaman pembengkakan bubo. Pendekatan hati-hati ini menyelamatkan nyawanya sementara rekan-rekannya musnah.",
+                "en": "As fellow practitioners perished, Jean de Saxe devised rudimentary barrier protocols. Clad in heavy wool waxed with beeswax, nostrils stuffed with vinegar-soaked linen, he carried a silver pomander packed with cloves and frankincense. Examining patricians, he eschewed bare hands, employing a polished birch rod to depress pulses and probe groin buboes. This scrupulous distancing preserved his life while his colleagues succumbed."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_08.jpg"
+        },
+        {
+            "id": "par-ch-09",
+            "chapterNumber": 9,
+            "type": "milestone",
+            "title": {
+                "id": "Kuburan Saints-Innocents: Parit Kapur yang Meluap",
+                "en": "The Saints-Innocents Trench: The Choked Charnels"
+            },
+            "date": {
+                "id": "Oktober 1348 M",
+                "en": "October 1348 AD"
+            },
+            "flash": {
+                "id": "Pemakaman umum terbesar Paris, Saints-Innocents, tidak mampu lagi menampung 500 jenazah sehari; parit raksasa digali dan dinding ossuary dipenuhi tulang belulang.",
+                "en": "Paris' central burial ground, Saints-Innocents, buckles under 500 daily arrivals; massive trenches are excavated and ossuary galleries are crammed to capacity."
+            },
+            "virusProfile": {
+                "agent": "Krisis Mortuaria Metropolis Terbesar",
+                "vector": "Parit Galian Terbuka di Jantung Permukiman",
+                "incubation": "N/A",
+                "transmission": "Pencemaran uap tanah dan sumber air sumur dangkal Paris"
+            },
+            "description": {
+                "id": "Cimetière des Innocents adalah pusat pemakaman Paris yang dikelilingi galeri karnel batu. Pada musim gugur 1348, gerobak-gerobak jenazah antre berjam-jam di gerbang pemakaman. Para penggali kubur menggali parit selebar delapan meter dan sedalam enam meter. Puluhan jenazah yang hanya dibungkus kain terpal dijatuhkan berlapis-lapis seperti susunan batu bata, lalu ditaburi kapur tohor untuk mempercepat pembusukan. Aroma daging membusuk merembes melintasi dinding pemakaman hingga tercium ke pasar Les Halles di dekatnya.",
+                "en": "The Holy Innocents cemetery was Paris' principal necropolis, enclosed by vaulted stone charnels. By autumn 1348, two-wheeled death carts queued for hours at the gates. Gravediggers excavated trenches eight meters across and six meters deep. Scores of linen-wrapped corpses were stacked in tiers like masonry, dusted with quicklime to hasten decomposition. The sickly-sweet reek permeated stone walls, drifting directly into the stalls of the adjacent Les Halles market."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_09.jpg"
+        },
+        {
+            "id": "par-ch-10",
+            "chapterNumber": 10,
+            "type": "standard",
+            "title": {
+                "id": "Keluarga Valois Mengungsi: Istana Louvre yang Ditinggalkan",
+                "en": "Flight of the Valois: Abandonment of the Louvre"
+            },
+            "date": {
+                "id": "November 1348 M",
+                "en": "November 1348 AD"
+            },
+            "flash": {
+                "id": "Kematian menyusup ke lingkungan istana; Ratu Jeanne dari Burgundia wafat terkena pes, memaksa Raja Philippe VI mengungsi meninggalkan Paris menuju châteaux pedalaman.",
+                "en": "Mortality breaches royal corridors; Queen Joan of Burgundy dies of pestilence, prompting King Philip VI to evacuate Paris for provincial châteaux."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Penetrasi Dinasti Valois)",
+                "vector": "Kutu Tikus Istana di Benteng Louvre",
+                "incubation": "3 Hari",
+                "transmission": "Krisis suksesi takhta dan kelumpuhan eksekutif monarki"
+            },
+            "description": {
+                "id": "Kemegahan darah biru tidak kebal dari Yersinia pestis. Pada musim gugur 1348, permaisuri Prancis, Jeanne de Bourgogne ('Jeanne si Pincang'), jatuh sakit mendadak dan wafat dalam hitungan hari di dalam istana. Kepanikan melanda keluarga Valois. Philippe VI bersama para menteri intinya berkemas tergesa-gesa dan melarikan diri meninggalkan benteng Louvre dan Palais de la Cité. Kepergian sang raja meninggalkan Paris tanpa kepemimpinan terpusat di tengah krisis terhebatnya.",
+                "en": "Royal pedigree provided no immunity. In autumn 1348, the Queen of France, Joan of Burgundy ('the Lame'), collapsed suddenly and perished within days inside the palace. Blind panic seized the Valois court. Philip VI and his ministers evacuated the fortress Louvre and the Palais de la Cité, scattering to fortified estates in the forests. The monarch's flight stripped Paris of executive authority at the peak of catastrophe."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_10.jpg"
+        },
+        {
+            "id": "par-ch-11",
+            "chapterNumber": 11,
+            "type": "milestone",
+            "title": {
+                "id": "Pencambuk Diri di Depan Notre-Dame: Sekte Flagellants",
+                "en": "Scourges on the Parvis: The Flagellant Zealots"
+            },
+            "date": {
+                "id": "Desember 1348 M",
+                "en": "December 1348 AD"
+            },
+            "flash": {
+                "id": "Rombongan pencambuk diri (Brotherhood of the Cross) memasuki Paris; ratusan pria bertelanjang dada mencambuk punggung mereka dengan cambuk berujung paku di serambi katedral.",
+                "en": "Processions of flagellants (Brotherhood of the Cross) march into Paris; hundreds of penitents lacerate their backs with iron-tipped scourges on church squares."
+            },
+            "virusProfile": {
+                "agent": "Histeria Eskatologis Massal",
+                "vector": "Luka Terbuka & Darah Tercecer di Ruang Publik",
+                "incubation": "N/A",
+                "transmission": "Penyebaran fanatisme religius radikal yang merongrong otoritas Gereja"
+            },
+            "description": {
+                "id": "Meyakini bahwa akhir dunia telah tiba dan murka Allah hanya bisa ditenangkan dengan penumpahan darah manusia, ratusan peziarah dari Flandria dan Jerman berbaris memasuki Paris. Mengenakan tudung hitam dengan tanda salib merah di dada, mereka membentuk lingkaran di depan Notre-Dame. Diiringi nyanyian ratapan dalam bahasa Latin, mereka mencambuk tubuh sendiri dengan tali kulit bertabur kait besi hingga darah memercik ke batu jalanan. Kerumunan warga Paris menyaksikan dengan takjub dan histeris, mengabaikan peringatan para klerus lokal.",
+                "en": "Convinced the apocalypse had arrived and God's wrath demanded blood, hundreds of zealots from Flanders and Germany marched into Paris. Donning black hoods emblazoned with red crosses, they circled the parvis of Notre-Dame. Chanting dirges, they lashed bare shoulders with iron-barbed scourges until blood splattered the paving stones. Parisian onlookers watched in weeping ecstasy, defying parish clergy who warned against the heresy."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_11.jpg"
+        },
+        {
+            "id": "par-ch-12",
+            "chapterNumber": 12,
+            "type": "standard",
+            "title": {
+                "id": "Châtelet yang Membisu: Runtuhnya Peradilan & Keamanan",
+                "en": "The Silent Châtelet: Atrophy of Justice & Order"
+            },
+            "date": {
+                "id": "Januari 1349 M",
+                "en": "January 1349 AD"
+            },
+            "flash": {
+                "id": "Benteng Grand Châtelet, markas kepala polisi (prévôt) dan pengadilan kriminal, ditinggalkan kosong; penegakan hukum perdata dan pidana lumpuh total.",
+                "en": "The fortress of Grand Châtelet, headquarters of the provost and criminal court, stands deserted; civil law enforcement and penal systems cease entirely."
+            },
+            "virusProfile": {
+                "agent": "Disintegrasi Lembaga Penegak Hukum",
+                "vector": "Kematian Massal Korps Sersan & Hakim",
+                "incubation": "N/A",
+                "transmission": "Kekosongan otoritas peradilan pidana di ibu kota"
+            },
+            "description": {
+                "id": "Grand Châtelet, benteng batu kokoh di ujung utara jembatan Pont au Change yang menjadi simbol hukum kerajaan, tidak lagi berfungsi. Para sersan patroli kota (*sergents à verge*) tewas atau membuang seragam mereka untuk bersembunyi. Pengadilan Parlement de Paris menangguhkan seluruh sidang. Tanpa adanya hakim yang memeriksa perkara atau penjaga yang berpatroli di malam hari, pintu-pintu gerbang kota dibiarkan terbuka tanpa penjagaan, memungkinkan para penjahat berkeliaran bebas.",
+                "en": "The Grand Châtelet, the squat stone fortress anchoring the north end of the Pont au Change and the seat of royal justice, fell silent. Patrol sergeants died or discarded their batons to flee into hiding. The Parlement of Paris suspended all judicial sessions. With magistrates dead and nocturnal watches dissolved, city gates swung unlatched, leaving the streets at the mercy of plunderers and vagabonds."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_12.jpg"
+        },
+        {
+            "id": "par-ch-13",
+            "chapterNumber": 13,
+            "type": "standard",
+            "title": {
+                "id": "Les Halles yang Terbengkalai: Runtuhnya Pasokan Pangan",
+                "en": "Desolation at Les Halles: Collapse of the Grain Market"
+            },
+            "date": {
+                "id": "Februari 1349 M",
+                "en": "February 1349 AD"
+            },
+            "flash": {
+                "id": "Pasar induk Les Halles mati suri; para petani gandum dari wilayah Beauce menolak membawa hasil panen ke Paris karena takut tertular kuman pes.",
+                "en": "The central market of Les Halles flatlines; grain carters from the Beauce agricultural basin refuse to enter Paris for dread of contagion."
+            },
+            "virusProfile": {
+                "agent": "Kelumpuhan Rantai Pasok Pangan Urban",
+                "vector": "Pemutusan Arus Transportasi Pedesaan-Kota",
+                "incubation": "Kronis",
+                "transmission": "Eskalasi kelaparan di tengah sisa-sisa penduduk Paris"
+            },
+            "description": {
+                "id": "Urat nadi kehidupan Paris bergantung pada pasar pangan Les Halles yang menerima ratusan kereta gandum, ternak, dan keju setiap pagi. Namun ketika berita tentang pemakaman massal di Saints-Innocents menyebar ke pedesaan sekitar, para petani menghentikan pasokan mereka. Roda-roda kincir air di jembatan Seine berhenti berputar karena para tukang giling telah meninggal. Harga sepotong roti gandum melambung hingga tidak terbeli oleh rakyat miskin, memicu kepanikan kelaparan di tengah amukan wabah.",
+                "en": "Paris' biological survival rested upon Les Halles, fed daily by hundreds of carts bearing grain, livestock, and cheese. But as grim reports of mass graves at Saints-Innocents reached rural hamlets, farmers halted deliveries. Waterwheel mills beneath Seine bridges sat frozen, their millers dead. Bread prices surged beyond the reach of the poor, layering famine over rampant pestilence."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_13.jpg"
+        },
+        {
+            "id": "par-ch-14",
+            "chapterNumber": 14,
+            "type": "standard",
+            "title": {
+                "id": "Pajak atas Mayat: Kerusuhan Pengrajin Kota",
+                "en": "Taxes on the Dead: Guild Unrest in the Wards"
+            },
+            "date": {
+                "id": "Maret 1349 M",
+                "en": "March 1349 AD"
+            },
+            "flash": {
+                "id": "Pejabat perbendaharaan Valois berusaha memungut pajak perang dari bengkel-bengkel yang pemiliknya telah meninggal; serikat pengrajin angkat senjata melawan juru sita.",
+                "en": "Valois treasury agents attempt to extract war subsidies from workshops of deceased masters; craft guilds take up arms against royal bailiffs."
+            },
+            "virusProfile": {
+                "agent": "Konflik Fiskal Pasca-Demografi",
+                "vector": "Kekerasan Bersenjata Antara Rakyat & Birokrasi Pajak",
+                "incubation": "N/A",
+                "transmission": "Awal retaknya kesetiaan borjuasi kota Paris terhadap mahkota Valois"
+            },
+            "description": {
+                "id": "Meski seperempat warga kota telah meninggal, birokrasi pajak kerajaan tetap menuntut kuota upeti perang yang sama. Petugas penagih pajak mendatangi bengkel pandai besi, penenun, dan tukang sepatu di distrik Saint-Denis, menuntut para penyintas membayar tunggakan rekan mereka yang telah dikubur di Saints-Innocents. Kemarahan meledak menjadi perlawanan fisik: para pengrajin serikat mengejar para juru sita dengan palu dan pisau kulit, mengusir mereka dari distrik-distrik pengrajin.",
+                "en": "Though a quarter of the citizenry lay in trenches, the royal exchequer demanded unreduced war subsidies. Tax assessors visited smithies, weavers, and cobblers in the Saint-Denis ward, ordering survivors to pay arrears of dead masters. Outrage erupted into armed resistance: guild journeymen chased royal bailiffs with iron hammers and cleavers, driving taxmen from working-class districts."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_14.jpg"
+        },
+        {
+            "id": "par-ch-15",
+            "chapterNumber": 15,
+            "type": "standard",
+            "title": {
+                "id": "Porte Saint-Antoine yang Tertutup: Karantina Elit",
+                "en": "Porte Saint-Antoine Barred: The Elite Quarantine"
+            },
+            "date": {
+                "id": "April 1349 M",
+                "en": "April 1349 AD"
+            },
+            "flash": {
+                "id": "Bangsawan yang tersisa berusaha melarikan diri dengan kereta kuda tertutup; warga kota memblokade gerbang Porte Saint-Antoine, menolak membiarkan orang kaya kabur.",
+                "en": "Remaining patricians attempt escape in enclosed carriages; commoners blockade Porte Saint-Antoine, refusing to permit the wealthy to flee."
+            },
+            "virusProfile": {
+                "agent": "Friksi Kelas Sosial Akut",
+                "vector": "Blokade Akses Gerbang Dinding Philippe Auguste",
+                "incubation": "N/A",
+                "transmission": "Kekerasan sipil di titik keluar-masuk benteng kota"
+            },
+            "description": {
+                "id": "Melihat sang raja telah kabur, para bangsawan dan saudagar kaya mencoba menyelamatkan diri ke vila-vila mereka di pedesaan Normandia. Mereka memuat gerobak dengan perak dan permadani wol. Namun di gerbang Porte Saint-Antoine di timur kota, ribuan warga miskin yang terjebak membarikade jalan dengan balok kayu dan gerobak terbalik. Mereka menuntut orang-orang kaya tersebut tetap tinggal dan berbagi nasib bersama; beberapa kereta bangsawan diserbu dan dibakar di depan mata para penjaga benteng.",
+                "en": "Following the monarch's evacuation, remaining patricians and wealthy burghers attempted escape to rural estates in Normandy. They piled carriages with silver plate and tapestries. But at the eastern Porte Saint-Antoine, thousands of desperate commoners barricaded the portal with timber beams and carts. Demanding the privileged share the city's ordeal, mobs torched several noble carriages before the eyes of fortress sentries."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_15.jpg"
+        },
+        {
+            "id": "par-ch-16",
+            "chapterNumber": 16,
+            "type": "side_story",
+            "title": {
+                "id": "Majelis Gelap Étienne Marcel: Benih Pemberontakan",
+                "en": "The Clandestine Assembly: Seeds of Étienne Marcel"
+            },
+            "date": {
+                "id": "Mei 1349 M",
+                "en": "May 1349 AD"
+            },
+            "flash": {
+                "id": "Pemimpin serikat pedagang kain, Étienne Marcel, mengumpulkan para saudagar yang selamat dalam pertemuan rahasia; merumuskan otonomi kota Paris pasca-pandemi.",
+                "en": "Leader of the draper guild, Étienne Marcel, convenes surviving burghers in secret; drafting blueprints for Parisian municipal autonomy post-plague."
+            },
+            "virusProfile": {
+                "agent": "Transformasi Politik Borjuasi",
+                "vector": "Konsolidasi Kekuatan Serikat Pengrajin (Guilds)",
+                "incubation": "Kronis",
+                "transmission": "Penyemaian revolusi komunal Paris yang meledak pada 1358 M"
+            },
+            "description": {
+                "id": "Di dalam ruang bawah tanah sebuah gudang kain di dekat Place de Grève, pedagang terkemuka Étienne Marcel memimpin pertemuan para pemimpin serikat yang masih hidup. Mereka menyadari bahwa monarki Valois telah meninggalkan mereka saat maut merajalela. Di bawah cahaya lilin temaram, mereka bersumpah untuk menolak tunduk pada dekrit raja yang tidak adil dan mulai membentuk milisi sipil sendiri. Pertemuan rahasia di tengah wabah ini menjadi benih pemberontakan besar Paris yang kelak dipimpin oleh Marcel satu dekade kemudian.",
+                "en": "Inside the vaulted cellar of a draper warehouse near Place de Grève, influential merchant Étienne Marcel convened surviving guild leaders. They recognized that the Valois monarchy had abandoned the commune in its hour of mortal agony. By dim candlelight, they pledged to resist arbitrary royal decrees and began forming an independent municipal militia. This covert assembly sowed the seeds of the great Parisian revolt that Marcel led a decade later."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_16.jpg"
+        },
+        {
+            "id": "par-ch-17",
+            "chapterNumber": 17,
+            "type": "standard",
+            "title": {
+                "id": "Lembah Île-de-France yang Membisu: Hutan yang Kembali",
+                "en": "Silent Île-de-France: The Forest Returns"
+            },
+            "date": {
+                "id": "Musim Panas 1349 M",
+                "en": "Summer 1349 AD"
+            },
+            "flash": {
+                "id": "Desa-desa pertanian di sekitar Paris kosong melompong; ladang gandum mengering tanpa disabit dan ternak berkeliaran liar di bekas pemukiman petani.",
+                "en": "Agricultural villages surrounding Paris stand abandoned; wheat crops wither uncut and untended cattle roam through deserted farming hamlets."
+            },
+            "virusProfile": {
+                "agent": "Kehancuran Ekonomi Feodal Manorial",
+                "vector": "Kematian Petani Terikat (Serfs)",
+                "incubation": "Kronis",
+                "transmission": "Kelangkaan tenaga kerja agrikultur yang melipatgandakan upah buruh"
+            },
+            "description": {
+                "id": "Di luar tembok kota Paris, pedesaan Île-de-France yang subur tenggelam dalam kesunyian mematikan. Desa-desa penghasil gandum dan anggur kehilangan hingga separuh populasinya. Gubuk-gubuk beratap jerami rubuh tanpa ada yang memperbaiki. Ladang gandum yang menguning membusuk di bawah hujan musim panas karena tiadanya tenaga pemotong. Sisa-sisa petani yang masih hidup menyadari nilai tawar mereka yang baru; mereka menolak bekerja sebagai budak feodal dan menuntut upah tunai berlipat ganda dari tuan tanah.",
+                "en": "Beyond Paris' walls, the fertile countryside of Île-de-France sank into silence. Wheat-growing and viticultural hamlets lost up to half their inhabitants. Thatch-roofed cottages collapsed without hands to mend them. Ripe wheat fields rotted beneath summer rains for lack of reapers. Surviving peasants recognized their unprecedented leverage; they refused feudal servitude, demanding double cash wages from noble landlords."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_17.jpg"
+        },
+        {
+            "id": "par-ch-18",
+            "chapterNumber": 18,
+            "type": "standard",
+            "title": {
+                "id": "Biara Saint-Denis: Makam Para Raja yang Sunyi",
+                "en": "Abbey of Saint-Denis: Silent Tombs of the Kings"
+            },
+            "date": {
+                "id": "Musim Gugur 1349 M",
+                "en": "Autumn 1349 AD"
+            },
+            "flash": {
+                "id": "Basilika makam kerajaan Saint-Denis kehilangan mayoritas biarawannya; nyanyian doa harian terhenti di antara patung-patung marmer raja Prancis.",
+                "en": "The royal necropolis abbey of Saint-Denis loses most of its monks; daily liturgies fall silent among marble effigies of French monarchs."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Klaster Monastik Ordo Benedictus)",
+                "vector": "Kontak Komunal di Dalam Biara Tertutup",
+                "incubation": "2 Hari",
+                "transmission": "Kepunahan generasi klerus terdidik di pusat spiritual Prancis"
+            },
+            "description": {
+                "id": "Biara Saint-Denis di utara Paris adalah jantung spiritual monarki Prancis, tempat makam para raja dari Clovis hingga para penguasa Capet. Namun kekudusan situs ini tidak menghalangi penularan pes. Dari puluhan biarawan Benediktin yang mengabdi, lebih dari empat puluh orang wafat dalam waktu dua bulan. Nyanyian Gregorian yang telah berkumandang selama ratusan tahun di bawah kubah Gotik biara tersebut terhenti; lilin-lilin altar padam, menyisakan debu tebal di atas patung-patung makam marmer para raja.",
+                "en": "The Abbey of Saint-Denis north of Paris was the spiritual core of the French monarchy, sheltering tombs of kings from Clovis through the Capetian line. Yet sacred relics halted no infection. Of scores of Benedictine monks, over forty perished within two months. Gregorian chants that had resonated for centuries beneath Gothic vaults ceased; altar candles flickered out, leaving thick dust over marble effigies of monarchs."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_18.jpg"
+        },
+        {
+            "id": "par-ch-19",
+            "chapterNumber": 19,
+            "type": "milestone",
+            "title": {
+                "id": "Api Pembersihan di Sudut-Sudut Jalan",
+                "en": "Fires of Cleansing at the Crossroads"
+            },
+            "date": {
+                "id": "Akhir 1349 M",
+                "en": "Late 1349 AD"
+            },
+            "flash": {
+                "id": "Mengikuti saran Fakultas Kedokteran, otoritas menyalakan api unggun belerang dan kayu aromatik siang dan malam di persimpangan jalan Paris untuk membersihkan udara.",
+                "en": "Following the Faculty's counsels, authorities burn sulfur and aromatic boughs day and night at Paris crossroads to purge contaminated air."
+            },
+            "virusProfile": {
+                "agent": "Upaya Disinfeksi Miasma Skala Kota",
+                "vector": "Pembakaran Belerang, Damar, & Kayu Juniper",
+                "incubation": "N/A",
+                "transmission": "Asap tebal menyesakkan yang menyelimuti atmosfer ibu kota"
+            },
+            "description": {
+                "id": "Pada akhir 1349, Paris menyerupai pemandangan api penyucian. Di setiap persimpangan jalan utama, perapian raksasa dinyalakan membakar kayu juniper, getah kemenyan, dan serbuk belerang. Asap kuning pekat menyelimuti menara-menara katedral dan gang-gang sempit, membuat mata pedih dan napas sesak. Warga berjalan tergesa-gesa dengan saputangan beraroma cuka yang ditekan ke hidung. Meski tidak membunuh bakteri pes yang bersarang pada kutu tikus, asap tersebut mengaburkan aroma kematian yang menyengat dari pemakaman umum.",
+                "en": "By late 1349, Paris resembled a purgatorial landscape. At every major crossroads, bonfires burned juniper, frankincense, and brimstone. Acrid yellow smoke draped cathedral spires and alleys, stinging eyes and choking throats. Citizens hurried by with vinegar-soaked cloths pressed to faces. While failing to kill fleas on rodents, the acrid smog masked the sweet reek of decomposition rising from cemeteries."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_19.jpg"
+        },
+        {
+            "id": "par-ch-20",
+            "chapterNumber": 20,
+            "type": "summary",
+            "title": {
+                "id": "Epilog Paris: Runtuhnya Tatanan Abad Pertengahan",
+                "en": "Epilogue: Paris and the Fracture of Medieval Order"
+            },
+            "date": {
+                "id": "1350 M & Warisan Sejarah",
+                "en": "1350 AD & Historical Legacy"
+            },
+            "flash": {
+                "id": "Gelombang pertama Maut Hitam mereda setelah menewaskan hampir 100.000 warga Paris; tatanan feodal Prancis hancur, membuka era pergolakan upah dan revolusi borjuasi.",
+                "en": "The initial wave of the Black Death recedes after claiming nearly 100,000 Parisians; the French feudal order fractures, inaugurating labor upheavals and civic revolt."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Transformasi Struktural Masyarakat)",
+                "vector": "Fase Endemik Berulang (1350 – 1720 M)",
+                "incubation": "Dua Abad Krisis Demografi Berkala",
+                "transmission": "Runtuhnya legitimasi monarki feodal dan kebangkitan kelas buruh"
+            },
+            "description": {
+                "id": "Pada musim semi 1350 M, jumlah kematian di Paris mulai menurun seiring habisnya populasi rentan. Namun kota metropolitan terhebat di Eropa Barat itu telah berubah selamanya. Hampir separuh warganya terkubur di parit-parit Saints-Innocents. Monarki Wangsa Valois kehilangan wibawanya di mata rakyat, serikat-serikat pengrajin menuntut kekuasaan politik, dan kelangkaan tenaga kerja memicu kejatuhan sistem perhambaan feodal. Paris telah melewati ambang pintu apokalips, melangkah keluar sebagai dunia baru yang lelah dan bergolak.",
+                "en": "By spring 1350 AD, mortality in Paris ebbed as susceptible hosts were exhausted. Yet Western Europe's greatest metropolis was irrevocably altered. Nearly half its population lay buried in the trenches of Saints-Innocents. The Valois dynasty lost moral authority, craft guilds demanded civic power, and severe labor shortages dismantled feudal serfdom. Paris had passed through the crucible of the apocalypse, emerging into a turbulent new world."
+            },
+            "image": "/assets/images/black-death-1347/par/par_ch_20.jpg"
+        }
+    ]
+}

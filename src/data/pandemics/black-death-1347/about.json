@@ -1,0 +1,37 @@
+{
+    "pandemicId": "black-death-1347",
+    "title": {
+        "id": "Maut Hitam: Apokalips Abad Pertengahan (1347 – 1353 M)",
+        "en": "The Black Death: The Medieval Apocalypse (1347 – 1353 AD)"
+    },
+    "subtitle": {
+        "id": "Gelombang Pandemik Kedua Yersinia Pestis Melintasi Jalur Sutra & Eropa Feodal",
+        "en": "The Second Pandemic Wave of Yersinia Pestis Across the Silk Road & Feodal Europe"
+    },
+    "timeline": "1346 – 1353 M",
+    "estimatedTotalDeaths": "75.000.000 – 200.000.000 (≈ 30–60% Populasi Eurasia)",
+    "pathogenProfile": {
+        "scientificName": "Yersinia pestis",
+        "strain": "Medievalis (Second Pandemic Lineage)",
+        "transmissionVectors": [
+            {
+                "id": "Kutu tikus oriental (Xenopsylla cheopis) via Rattus rattus",
+                "en": "Oriental rat flea (Xenopsylla cheopis) via Rattus rattus"
+            },
+            {
+                "id": "Transmisi droplet aerosol pernapasan langsung (Pes Paru)",
+                "en": "Direct respiratory droplet aerosol transmission (Pneumonic Plague)"
+            },
+            {
+                "id": "Inokulasi langsung via cairan limfatik/bubo yang pecah",
+                "en": "Direct inoculation via ruptured lymph fluids/buboes"
+            }
+        ],
+        "caseFatalityRate": "60–80% (Bubonik), ~100% (Paru & Septikemik tanpa antibiotik)",
+        "incubationPeriod": "1 – 6 Hari"
+    },
+    "historicalContext": {
+        "id": "Maut Hitam adalah bencana demografi terbesar dalam sejarah tertulis manusia. Bermula dari stepa Asia Tengah dan jalur perdagangan Pax Mongolica, bakteri pes meledak di Krimea sebelum menembus Mediterania lewat armada dagang Genoa. Pandemi ini meruntuhkan sistem ekonomi manor feodal, mengguncang otoritas absolut Gereja Katolik Roma, dan memicu restrukturisasi radikal atas upah buruh dan tatanan sosial Eropa.",
+        "en": "The Black Death stands as the single most devastating demographic catastrophe in recorded human history. Originating in the Central Asian steppes along Pax Mongolica trade arteries, the pestilence erupted in Crimea before penetrating the Mediterranean via Genoese merchant galleys. The pandemic dismantled the feudal manorial economy, destabilized the absolute authority of the Roman Catholic Church, and catalyzed radical social restructuring."
+    }
+}

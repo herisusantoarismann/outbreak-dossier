@@ -4,6 +4,7 @@ import {
     getCountryInteraction,
     getEpicentersForPandemic,
     getSurveillanceForPandemic,
+    loadDossier,
     type PandemicProfile,
 } from "@/data/pandemicsRegistry";
 
@@ -142,6 +143,234 @@ describe("Pandemic Era Isolation & Country Interaction Resolver", () => {
             expect(getCountryInteraction("covid-19", "BRI")).toBeNull();
             expect(getCountryInteraction("covid-19", "AFR")).toBeNull();
             expect(getCountryInteraction("covid-19", "LEV")).toBeNull();
+            expect(getCountryInteraction("covid-19", "KAF")).toBeNull();
+            expect(getCountryInteraction("covid-19", "MES")).toBeNull();
+            expect(getCountryInteraction("covid-19", "LON")).toBeNull();
+            expect(getCountryInteraction("covid-19", "PAR")).toBeNull();
+        });
+    });
+
+    describe("Black Death (1347 AD) - Strict Whitelisting & Sector Resolution", () => {
+        it("returns active status and registered metadata in pandemic profile", () => {
+            const bd = pandemics.find(
+                (p: PandemicProfile) => p.id === "black-death-1347",
+            );
+            expect(bd).toBeDefined();
+            expect(bd?.status).toBe("active");
+            expect(bd?.year).toBe(1347);
+            expect(bd?.themeColor).toBe("#e11d48");
+            expect(bd?.cameraInitialPosition).toEqual({
+                lat: 45.0,
+                lng: 35.0,
+                altitude: 2.2,
+            });
+            expect(bd?.primaryEpicenters).toEqual(["KAF", "MES", "LON", "PAR"]);
+            expect(bd?.surveillanceRegions).toEqual([
+                "FLR",
+                "AVN",
+                "VEN",
+                "KRA",
+                "MOS",
+                "CAI",
+            ]);
+        });
+
+        it("resolves primary epicenters for Black Death (KAF, MES, LON, PAR)", () => {
+            // KAF (Kaffa / Crimea)
+            const kaf = getCountryInteraction("black-death-1347", "KAF");
+            expect(kaf).not.toBeNull();
+            expect(kaf?.type).toBe("epicenter");
+            expect(kaf?.code).toBe("KAF");
+            expect(kaf?.epicenter?.name.en).toContain("Kaffa");
+
+            const kafViaUa = getCountryInteraction("black-death-1347", "UA");
+            expect(kafViaUa?.code).toBe("KAF");
+
+            // MES (Messina / Italy)
+            const mes = getCountryInteraction("black-death-1347", "MES");
+            expect(mes?.code).toBe("MES");
+            const mesViaIt = getCountryInteraction("black-death-1347", "IT");
+            expect(mesViaIt?.code).toBe("MES");
+
+            // LON (London / England)
+            const lon = getCountryInteraction("black-death-1347", "LON");
+            expect(lon?.code).toBe("LON");
+            const lonViaGb = getCountryInteraction("black-death-1347", "GB");
+            expect(lonViaGb?.code).toBe("LON");
+
+            // PAR (Paris / France)
+            const par = getCountryInteraction("black-death-1347", "PAR");
+            expect(par?.code).toBe("PAR");
+            const parViaFr = getCountryInteraction("black-death-1347", "FR");
+            expect(parViaFr?.code).toBe("PAR");
+        });
+
+        it("resolves secondary surveillance targets (FLR, AVN, VEN, KRA, MOS, CAI)", () => {
+            const flr = getCountryInteraction("black-death-1347", "FLR");
+            expect(flr?.type).toBe("surveillance");
+            expect(flr?.code).toBe("FLR");
+
+            const avn = getCountryInteraction("black-death-1347", "AVN");
+            expect(avn?.code).toBe("AVN");
+
+            const ven = getCountryInteraction("black-death-1347", "VEN");
+            expect(ven?.code).toBe("VEN");
+
+            const kra = getCountryInteraction("black-death-1347", "KRA");
+            expect(kra?.code).toBe("KRA");
+            const kraViaPl = getCountryInteraction("black-death-1347", "PL");
+            expect(kraViaPl?.code).toBe("KRA");
+
+            const mos = getCountryInteraction("black-death-1347", "MOS");
+            expect(mos?.code).toBe("MOS");
+
+            const cai = getCountryInteraction("black-death-1347", "CAI");
+            expect(cai?.code).toBe("CAI");
+        });
+
+        it("returns null for non-relevant countries and Justinian sectors in Black Death era", () => {
+            expect(getCountryInteraction("black-death-1347", "US")).toBeNull();
+            expect(getCountryInteraction("black-death-1347", "ID")).toBeNull();
+            expect(getCountryInteraction("black-death-1347", "BR")).toBeNull();
+            expect(getCountryInteraction("black-death-1347", "CPX")).toBeNull();
+            expect(getCountryInteraction("black-death-1347", "PEL")).toBeNull();
+            expect(getCountryInteraction("black-death-1347", "SAS")).toBeNull();
+            expect(getCountryInteraction("black-death-1347", "ROM")).toBeNull();
+        });
+
+        it("loads complete 20-chapter dossier for Sector MES via loadDossier", async () => {
+            const chapters = await loadDossier("black-death-1347", "MES");
+            expect(chapters).not.toBeNull();
+            expect(chapters?.length).toBe(20);
+
+            // Chapter 1 integrity check
+            const ch1 = chapters![0];
+            expect(ch1.id).toBe("mes-ch-01");
+            expect(ch1.chapterNumber).toBe(1);
+            expect(ch1.title.id).toBe("Galai Hantu di Selat Messina");
+            expect(ch1.title.en).toBe("The Ghost Galleys of the Strait");
+            expect(ch1.image).toBe(
+                "/assets/images/black-death-1347/mes/mes_ch_01.jpg",
+            );
+            expect(ch1.virusProfile.agent).toContain("Yersinia pestis");
+
+            // Chapter 20 integrity check
+            const ch20 = chapters![19];
+            expect(ch20.id).toBe("mes-ch-20");
+            expect(ch20.chapterNumber).toBe(20);
+            expect(ch20.image).toBe(
+                "/assets/images/black-death-1347/mes/mes_ch_20.jpg",
+            );
+
+            // Case insensitivity check
+            const chaptersLower = await loadDossier("black-death-1347", "mes");
+            expect(chaptersLower?.length).toBe(20);
+
+            // Unknown sector returns null
+            const invalidSector = await loadDossier(
+                "black-death-1347",
+                "UNKNOWN",
+            );
+            expect(invalidSector).toBeNull();
+        });
+
+        it("loads complete 20-chapter dossier for Sector PAR via loadDossier", async () => {
+            const chapters = await loadDossier("black-death-1347", "PAR");
+            expect(chapters).not.toBeNull();
+            expect(chapters?.length).toBe(20);
+
+            // Chapter 1 integrity check
+            const ch1 = chapters![0];
+            expect(ch1.id).toBe("par-ch-01");
+            expect(ch1.chapterNumber).toBe(1);
+            expect(ch1.title.id).toBe(
+                "Metropolis di Tepi Sungai Seine: Paris Abad ke-14",
+            );
+            expect(ch1.title.en).toBe(
+                "Metropolis on the Seine: 14th-Century Paris",
+            );
+            expect(ch1.image).toBe(
+                "/assets/images/black-death-1347/par/par_ch_01.jpg",
+            );
+            expect(ch1.virusProfile.agent).toContain("Yersinia pestis");
+
+            // Chapter 20 integrity check
+            const ch20 = chapters![19];
+            expect(ch20.id).toBe("par-ch-20");
+            expect(ch20.chapterNumber).toBe(20);
+            expect(ch20.image).toBe(
+                "/assets/images/black-death-1347/par/par_ch_20.jpg",
+            );
+
+            // Case insensitivity check
+            const chaptersLower = await loadDossier("black-death-1347", "par");
+            expect(chaptersLower?.length).toBe(20);
+        });
+
+        it("loads complete 20-chapter dossier for Sector LON via loadDossier", async () => {
+            const chapters = await loadDossier("black-death-1347", "LON");
+            expect(chapters).not.toBeNull();
+            expect(chapters?.length).toBe(20);
+
+            // Chapter 1 integrity check
+            const ch1 = chapters![0];
+            expect(ch1.id).toBe("lon-ch-01");
+            expect(ch1.chapterNumber).toBe(1);
+            expect(ch1.title.id).toBe(
+                "Pendaratan di Melcombe Regis: Maut Menyeberangi Selat",
+            );
+            expect(ch1.title.en).toBe(
+                "Landfall at Melcombe Regis: Crossing the English Channel",
+            );
+            expect(ch1.image).toBe(
+                "/assets/images/black-death-1347/lon/lon_ch_01.jpg",
+            );
+            expect(ch1.virusProfile.agent).toContain("Yersinia pestis");
+
+            // Chapter 20 integrity check
+            const ch20 = chapters![19];
+            expect(ch20.id).toBe("lon-ch-20");
+            expect(ch20.chapterNumber).toBe(20);
+            expect(ch20.image).toBe(
+                "/assets/images/black-death-1347/lon/lon_ch_20.jpg",
+            );
+
+            // Case insensitivity check
+            const chaptersLower = await loadDossier("black-death-1347", "lon");
+            expect(chaptersLower?.length).toBe(20);
+        });
+
+        it("loads complete 16-chapter dossier for Sector KAF via loadDossier", async () => {
+            const chapters = await loadDossier("black-death-1347", "KAF");
+            expect(chapters).not.toBeNull();
+            expect(chapters?.length).toBe(16);
+
+            // Chapter 1 integrity check
+            const ch1 = chapters![0];
+            expect(ch1.id).toBe("kaf-ch-01");
+            expect(ch1.chapterNumber).toBe(1);
+            expect(ch1.title.id).toBe(
+                "Benteng Kaffa: Pos Terdepan Republik Genoa di Laut Hitam",
+            );
+            expect(ch1.title.en).toBe(
+                "Fortress of Kaffa: Genoa's Black Sea Outpost",
+            );
+            expect(ch1.image).toBe(
+                "/assets/images/black-death-1347/kaf/kaf_ch_01.jpg",
+            );
+            expect(ch1.virusProfile.agent).toContain("Yersinia pestis");
+
+            // Chapter 16 integrity check
+            const ch16 = chapters![15];
+            expect(ch16.id).toBe("kaf-ch-16");
+            expect(ch16.chapterNumber).toBe(16);
+            expect(ch16.image).toBe(
+                "/assets/images/black-death-1347/kaf/kaf_ch_16.jpg",
+            );
+
+            // Case insensitivity check
+            const chaptersLower = await loadDossier("black-death-1347", "kaf");
+            expect(chaptersLower?.length).toBe(16);
         });
     });
 

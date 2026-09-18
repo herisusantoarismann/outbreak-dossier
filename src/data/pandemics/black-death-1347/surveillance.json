@@ -1,86 +1,182 @@
 {
-    "IT": {
-        "iso2": "IT",
+    "FLR": {
+        "iso2": "FLR",
         "name": {
-            "id": "Italia (Kepulauan Sisilia & Semenanjung)",
-            "en": "Italy (Sicily & Peninsular States)"
+            "id": "Firenze (Republik Florence)",
+            "en": "Florence (Florentine Republic)"
         },
-        "continent": "Europe",
-        "confirmedCases": 3500000,
-        "fatalities": 2400000,
-        "recoveryRate": "31.4%",
-        "peakWave": { "id": "Musim Panas 1348", "en": "Summer 1348" }
+        "regionName": {
+            "id": "Firenze (Republik Florence)",
+            "en": "Florence (Florentine Republic)"
+        },
+        "continent": "Tuscany // Italy",
+        "coordinates": [43.7696, 11.2558],
+        "confirmedCases": 100000,
+        "fatalities": 70000,
+        "fatalitiesEstimate": "60.000 – 80.000 (≈ 65% Populasi)",
+        "recoveryRate": "≈ 35%",
+        "peakPeriod": "Maret – Juli 1348 M",
+        "peakWave": {
+            "id": "Maret – Juli 1348 M",
+            "en": "March – July 1348 AD"
+        },
+        "statusBadge": {
+            "id": "ARSIP DECAMERON BOCCACCIO // SANTA MARIA NOVELLA",
+            "en": "BOCCACCIO DECAMERON CHRONICLE // SANTA MARIA NOVELLA"
+        },
+        "notes": {
+            "id": "Latar belakang mahakarya Decameron karya Boccaccio; administrasi kota lumpuh total di tengah penumpukan jenazah di gereja Santa Maria Novella.",
+            "en": "Historical backdrop for Boccaccio's Decameron; municipal governance collapsed entirely amidst mass burials at Santa Maria Novella."
+        }
     },
-    "FR": {
-        "iso2": "FR",
+    "AVN": {
+        "iso2": "AVN",
         "name": {
-            "id": "Kerajaan Prancis & Avignon",
-            "en": "Kingdom of France & Avignon"
+            "id": "Avignon (Kediaman Paus)",
+            "en": "Avignon (Papal Enclave)"
         },
-        "continent": "Europe",
-        "confirmedCases": 7000000,
-        "fatalities": 4200000,
-        "recoveryRate": "40.0%",
-        "peakWave": { "id": "Musim Gugur 1348", "en": "Autumn 1348" }
+        "regionName": {
+            "id": "Avignon (Kediaman Paus)",
+            "en": "Avignon (Papal Enclave)"
+        },
+        "continent": "Rhône Valley // France",
+        "coordinates": [43.9493, 4.8055],
+        "confirmedCases": 80000,
+        "fatalities": 40000,
+        "fatalitiesEstimate": "≈ 50% Populasi Kota & Kuria",
+        "recoveryRate": "≈ 50%",
+        "peakPeriod": "Januari – April 1348 M",
+        "peakWave": {
+            "id": "Januari – April 1348 M",
+            "en": "January – April 1348 AD"
+        },
+        "statusBadge": {
+            "id": "DOKUMENTASI BEDAH GUY DE CHAULIAC // PAUS KLEMENS VI",
+            "en": "GUY DE CHAULIAC CLINICAL RECORD // PAPAL CURIA"
+        },
+        "notes": {
+            "id": "Paus Klemens VI menguduskan seluruh Sungai Rhône sebagai kuburan massal karena lahan pemakaman habis; dokter kepausan Guy de Chauliac mencatat pemisahan klinis pes bubonik dan pes paru.",
+            "en": "Pope Clement VI consecrated the entire Rhône River as a mass grave; papal physician Guy de Chauliac clinically distinguished bubonic from pneumonic plague."
+        }
     },
-    "GB": {
-        "iso2": "GB",
+    "VEN": {
+        "iso2": "VEN",
         "name": {
-            "id": "Kepulauan Britania & Irlandia",
-            "en": "British Isles & Ireland"
+            "id": "Venesia (Republik Maritim)",
+            "en": "Venice (Maritime Republic)"
         },
-        "continent": "Europe",
-        "confirmedCases": 3200000,
-        "fatalities": 1800000,
-        "recoveryRate": "43.7%",
-        "peakWave": { "id": "Musim Semi 1349", "en": "Spring 1349" }
+        "regionName": {
+            "id": "Venesia (Republik Maritim)",
+            "en": "Venice (Maritime Republic)"
+        },
+        "continent": "Adriatic // Italy",
+        "coordinates": [45.4408, 12.3155],
+        "confirmedCases": 150000,
+        "fatalities": 95000,
+        "fatalitiesEstimate": "≈ 90.000 – 100.000 (≈ 60% Populasi)",
+        "recoveryRate": "≈ 40%",
+        "peakPeriod": "Musim Panas 1348 M",
+        "peakWave": {
+            "id": "Musim Panas 1348 M",
+            "en": "Summer 1348 AD"
+        },
+        "statusBadge": {
+            "id": "PULAU KARANTINA PERTAMA // LAZZARETTO VECCHIO",
+            "en": "FIRST QUARANTINE ISLAND // LAZZARETTO VECCHIO"
+        },
+        "notes": {
+            "id": "Inovasi pertama pulau isolasi karantina (Lazzaretto Vecchio) dan sistem penahanan kapal 40 hari ('quaranta giorni').",
+            "en": "Pioneered the quarantine island (Lazzaretto Vecchio) and the formal 40-day vessel isolation policy ('quaranta giorni')."
+        }
     },
-    "DE": {
-        "iso2": "DE",
+    "KRA": {
+        "iso2": "KRA",
         "name": {
-            "id": "Kekaisaran Romawi Suci (Wilayah Jerman)",
-            "en": "Holy Roman Empire (Germanic Territories)"
+            "id": "Krakow & Kerajaan Polandia",
+            "en": "Krakow & Kingdom of Poland"
         },
-        "continent": "Europe",
-        "confirmedCases": 4500000,
-        "fatalities": 1900000,
-        "recoveryRate": "57.7%",
-        "peakWave": { "id": "Akhir 1349 - 1350", "en": "Late 1349 - 1350" }
+        "regionName": {
+            "id": "Krakow & Kerajaan Polandia",
+            "en": "Krakow & Kingdom of Poland"
+        },
+        "continent": "Central Europe",
+        "coordinates": [50.0647, 19.945],
+        "confirmedCases": 25000,
+        "fatalities": 5000,
+        "fatalitiesEstimate": "Relatif Rendah / Anomali Kantong Kebal",
+        "recoveryRate": "≈ 80%",
+        "peakPeriod": "1350 – 1351 M",
+        "peakWave": {
+            "id": "1350 – 1351 M",
+            "en": "1350 – 1351 AD"
+        },
+        "statusBadge": {
+            "id": "CORDON SANITAIRE PERBATASAN KAZIMIERZ III",
+            "en": "CASIMIR III ROYAL BORDER CORDON"
+        },
+        "notes": {
+            "id": "Raja Kazimierz III memberlakukan karantina perbatasan ketat dan isolasi desa, menjadikan Polandia salah satu dari sedikit wilayah yang selamat dari kepunahan massal.",
+            "en": "King Casimir III enforced aggressive border cordons and village isolations, creating an anomalous pocket of low mortality."
+        }
     },
-    "ES": {
-        "iso2": "ES",
+    "MOS": {
+        "iso2": "MOS",
         "name": {
-            "id": "Semenanjung Iberia (Kastilia & Aragon)",
-            "en": "Iberian Peninsula (Castile & Aragon)"
+            "id": "Moskwa (Keadipatian Agung Moskwa)",
+            "en": "Moscow (Grand Duchy of Moscow)"
         },
-        "continent": "Europe",
-        "confirmedCases": 3800000,
-        "fatalities": 2200000,
-        "recoveryRate": "42.1%",
-        "peakWave": { "id": "Musim Panas 1348", "en": "Summer 1348" }
+        "regionName": {
+            "id": "Moskwa (Keadipatian Agung Moskwa)",
+            "en": "Moscow (Grand Duchy of Moscow)"
+        },
+        "continent": "Eastern Europe",
+        "coordinates": [55.7558, 37.6173],
+        "confirmedCases": 120000,
+        "fatalities": 80000,
+        "fatalitiesEstimate": "50.000 – 80.000 (Termasuk Adipati Simeon yang Bangga)",
+        "recoveryRate": "≈ 33%",
+        "peakPeriod": "Musim Gugur 1352 – 1353 M",
+        "peakWave": {
+            "id": "Musim Gugur 1352 – 1353 M",
+            "en": "Autumn 1352 – 1353 AD"
+        },
+        "statusBadge": {
+            "id": "KRONIK RUSIA KUNO // KREMLIN AWAL",
+            "en": "OLD RUSSIAN CHRONICLES // EARLY KREMLIN"
+        },
+        "notes": {
+            "id": "Gelombang pes menyapu Rus Timur Laut, merenggut nyawa Adipati Agung Simeon dari Moskwa dan putra-putranya sebelum mereda di stepa utara.",
+            "en": "The wave of plague swept Northeast Rus, claiming Grand Duke Simeon of Moscow and his sons before receding in the northern steppes."
+        }
     },
-    "EG": {
-        "iso2": "EG",
+    "CAI": {
+        "iso2": "CAI",
         "name": {
-            "id": "Kesultanan Mamluk (Mesir & Syam)",
-            "en": "Mamluk Sultanate (Egypt & Levant)"
+            "id": "Kairo (Kesultanan Mamluk)",
+            "en": "Cairo (Mamluk Sultanate)"
         },
-        "continent": "Africa",
-        "confirmedCases": 3000000,
-        "fatalities": 1500000,
-        "recoveryRate": "50.0%",
-        "peakWave": { "id": "Musim Gugur 1348", "en": "Autumn 1348" }
-    },
-    "CN": {
-        "iso2": "CN",
-        "name": {
-            "id": "Dinasti Yuan (Tiongkok & Asia Tengah)",
-            "en": "Yuan Dynasty (China & Central Asia)"
+        "regionName": {
+            "id": "Kairo (Kesultanan Mamluk)",
+            "en": "Cairo (Mamluk Sultanate)"
         },
-        "continent": "Asia",
-        "confirmedCases": 18000000,
-        "fatalities": 13000000,
-        "recoveryRate": "27.7%",
-        "peakWave": { "id": "Dekade 1330 - 1340-an", "en": "1330s - 1340s" }
+        "continent": "North Africa // Egypt",
+        "coordinates": [30.0444, 31.2357],
+        "confirmedCases": 400000,
+        "fatalities": 200000,
+        "fatalitiesEstimate": "200.000+ (Mencapai 40% Populasi)",
+        "recoveryRate": "≈ 50%",
+        "peakPeriod": "Akhir 1348 – Awal 1349 M",
+        "peakWave": {
+            "id": "Akhir 1348 – Awal 1349 M",
+            "en": "Late 1348 – Early 1349 AD"
+        },
+        "statusBadge": {
+            "id": "KRONIK AL-MAQRIZI // KRISIS MILITER MAMLUK",
+            "en": "AL-MAQRIZI CHRONICLE // MAMLUK CRISIS"
+        },
+        "notes": {
+            "id": "Al-Maqrizi mencatat 20.000 kematian sehari pada puncaknya; keruntuhan dinasti militer Mamluk dan kelumpuhan sistem irigasi Nil.",
+            "en": "Al-Maqrizi recorded up to 20,000 deaths daily at peak; precipitated military crisis in the Mamluk sultanate."
+        }
     }
 }

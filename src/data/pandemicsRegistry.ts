@@ -67,6 +67,13 @@ export interface PandemicProfile {
     baseYear?: number;
     epicenters?: string[];
     primaryEpicenters?: string[];
+    surveillanceRegions?: string[];
+    haloHex?: string;
+    cameraInitialPosition?: {
+        lat: number;
+        lng: number;
+        altitude: number;
+    };
     defaultCameraPosition?: [number, number, number];
     clinicalProfile?: ClinicalProfile;
 }
@@ -163,32 +170,43 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
     {
         id: "black-death-1347",
         year: 1347,
-        eraLabel: "1346 – 1353 M",
-        name: { id: "Maut Hitam (Black Death)", en: "The Black Death" },
+        eraLabel: "1347 – 1353 M",
+        name: {
+            id: "Maut Hitam (1347 M)",
+            en: "The Black Death (1347 AD)",
+        },
         shortLabel: "1347 // BLACK DEATH",
-        pathogenName: "Yersinia pestis",
+        pathogenName: "Yersinia pestis (Galur Medievalis)",
         aboutTitle: {
-            id: "Mengenal Maut Hitam (1347)",
-            en: "Understanding The Black Death (1347)",
+            id: "Maut Hitam: Apokalips Abad Pertengahan (1347 – 1353 M)",
+            en: "The Black Death: The Medieval Apocalypse (1347 – 1353 AD)",
         },
         aboutOverview: {
-            id: "Pandemi pes bubonik paling mematikan dalam sejarah manusia, menyapu sepertiga hingga separuh populasi Eurasia dan Afrika Utara.",
-            en: "The deadliest bubonic plague pandemic in human history, wiping out an estimated 30% to 60% of the Eurasian and North African population.",
+            id: "Maut Hitam adalah bencana demografi terbesar dalam sejarah tertulis manusia. Bermula dari stepa Asia Tengah dan jalur perdagangan Pax Mongolica, bakteri pes meledak di Krimea sebelum menembus Mediterania lewat armada dagang Genoa. Pandemi ini meruntuhkan sistem ekonomi manor feodal, mengguncang otoritas absolut Gereja Katolik Roma, dan memicu restrukturisasi radikal atas upah buruh dan tatanan sosial Eropa.",
+            en: "The Black Death stands as the single most devastating demographic catastrophe in recorded human history. Originating in the Central Asian steppes along Pax Mongolica trade arteries, the pestilence erupted in Crimea before penetrating the Mediterranean via Genoese merchant galleys. The pandemic dismantled the feudal manorial economy, destabilized the absolute authority of the Roman Catholic Church, and catalyzed radical social restructuring.",
         },
         tickerExtremesFile: "black-death-1347/extremes.json",
         surveillanceFile: "black-death-1347/surveillance.json",
         themeColor: "#e11d48",
+        haloHex: "rgba(225, 29, 72, 0.4)",
         atmosphereHex: "#881337",
-        era: "1346 – 1353 M",
-        pathogen: "Yersinia pestis",
+        era: "1347 – 1353 M",
+        pathogen: "Yersinia pestis (Galur Medievalis)",
         globeAtmosphere: "#881337",
-        globalFatalities: "~75M - 200M",
-        status: "classified_archive",
+        globalFatalities:
+            "75.000.000 – 200.000.000 (≈ 30–60% Populasi Eurasia)",
+        status: "active",
+        cameraInitialPosition: {
+            lat: 45.0,
+            lng: 35.0,
+            altitude: 2.2,
+        },
+        defaultCameraPosition: [45.0, 35.0, 2.2],
         route: "/globe/black-death-1347",
         baseYear: 1347,
-        epicenters: ["it", "fr", "gb", "cn"],
-        primaryEpicenters: ["IT", "FR", "GB", "CN"],
-        defaultCameraPosition: [45, 15, 2.3],
+        epicenters: ["KAF", "MES", "LON", "PAR"],
+        primaryEpicenters: ["KAF", "MES", "LON", "PAR"],
+        surveillanceRegions: ["FLR", "AVN", "VEN", "KRA", "MOS", "CAI"],
         clinicalProfile: {
             classification: {
                 title: {
@@ -662,85 +680,97 @@ export const CHOLERA_1817_EPICENTERS: Record<string, EpicenterMetadata> = {
  * Historical epicenters for 1347 Black Death
  */
 export const BLACK_DEATH_EPICENTERS: Record<string, EpicenterMetadata> = {
-    IT: {
-        code: "IT",
-        iso3: "ITA",
+    KAF: {
+        code: "KAF",
+        iso3: "UKR",
         name: {
-            id: "Italia (Sisilia / Messina)",
-            en: "Italy (Sicily / Messina)",
+            id: "Kaffa / Theodosia (Krimea)",
+            en: "Kaffa / Theodosia (Crimea)",
         },
-        sectorCode: "SECTOR // ITA - MESSINA GROUND ZERO",
-        coordinates: { lat: 38.1938, lng: 15.554, altitude: 1.05 },
+        sectorCode: "SECTOR // CRI - KAFFA GROUND ZERO",
+        coordinates: { lat: 45.0344, lng: 35.3792, altitude: 1.05 },
         beaconColor: "#e11d48",
         status: {
-            id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
-            en: "CLASSIFIED ARCHIVE // DRAFTING",
+            id: "ARSIP AKTIF // DIDEKLASIFIKASI",
+            en: "ACTIVE DOSSIER // DECLASSIFIED",
         },
         synopsis: {
-            id: "Dua belas kapal dagang Genoa merapat di pelabuhan Messina membawa awak sekarat dan wabah pes bubonik.",
-            en: "Twelve Genoese merchant galleys docked at Messina harbor bearing dying crews and Yersinia pestis.",
+            id: "Pengepungan benteng Genoa oleh pasukan Mongol Jani Beg; katapel mayat pes memicu infeksi maritim pertama.",
+            en: "Siege of the Genoese citadel by Mongol Khan Jani Beg; catapulted plague corpses triggered the first maritime outbreak.",
         },
         timelinePeriod: {
-            id: "Oktober 1347 - 1348",
-            en: "October 1347 - 1348",
+            id: "1346 – 1347 M",
+            en: "1346 – 1347 AD",
         },
     },
-    FR: {
-        code: "FR",
-        iso3: "FRA",
-        name: { id: "Prancis (Marseille)", en: "France (Marseille)" },
-        sectorCode: "SECTOR // FRA - MARSEILLE MARITIME BREACH",
-        coordinates: { lat: 43.2965, lng: 5.3698, altitude: 1.05 },
-        beaconColor: "#8b5cf6",
+    MES: {
+        code: "MES",
+        iso3: "ITA",
+        name: {
+            id: "Messina (Sisilia / Italia)",
+            en: "Messina (Sicily / Italy)",
+        },
+        sectorCode: "SECTOR // ITA - MESSINA MARITIME BREACH",
+        coordinates: { lat: 38.1938, lng: 15.554, altitude: 1.05 },
+        beaconColor: "#be123c",
         status: {
-            id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
-            en: "CLASSIFIED ARCHIVE // DRAFTING",
+            id: "ARSIP AKTIF // DIDEKLASIFIKASI",
+            en: "ACTIVE DOSSIER // DECLASSIFIED",
         },
         synopsis: {
-            id: "Penyusupan pes melalui dermaga Mediterania menuju Rhone Valley dan Istana Kepausan Avignon.",
-            en: "Mediterranean port infiltration spreading inland through Rhône Valley to the Avignon Papacy.",
+            id: "Dua belas kapal dagang Genoa merapat di dermaga Sisilia membawa awak sekarat dan tikus terinfeksi, membuka gerbang pes ke Eropa.",
+            en: "Twelve Genoese trade galleys docked with dying crews and infected rats, unsealing the gates of plague into Europe.",
         },
         timelinePeriod: {
-            id: "November 1347 - 1349",
-            en: "November 1347 - 1349",
+            id: "Oktober 1347 – 1348 M",
+            en: "October 1347 – 1348 AD",
         },
     },
-    GB: {
-        code: "GB",
+    LON: {
+        code: "LON",
         iso3: "GBR",
         name: {
-            id: "Inggris (Melcombe Regis)",
-            en: "England (Melcombe Regis)",
+            id: "London (Kerajaan Inggris)",
+            en: "London (Kingdom of England)",
         },
-        sectorCode: "SECTOR // GBR - MELCOMBE REGIS",
-        coordinates: { lat: 50.6137, lng: -2.4576, altitude: 1.05 },
-        beaconColor: "#f59e0b",
+        sectorCode: "SECTOR // GBR - LONDON URBAN COLLAPSE",
+        coordinates: { lat: 51.5074, lng: -0.1278, altitude: 1.05 },
+        beaconColor: "#9f1239",
         status: {
-            id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
-            en: "CLASSIFIED ARCHIVE // DRAFTING",
+            id: "ARSIP AKTIF // DIDEKLASIFIKASI",
+            en: "ACTIVE DOSSIER // DECLASSIFIED",
         },
         synopsis: {
-            id: "Kedatangan kapal dagang di Melcombe Regis Dorset yang memicu kehancuran demografi di seluruh Britania.",
-            en: "Arrival of a Gascon vessel at Melcombe Regis, Dorset, sparking devastation across the British Isles.",
+            id: "Penyusupan pes melalui pelabuhan Thames memusnahkan separuh populasi kota dalam waktu 18 bulan.",
+            en: "Plague infiltration via the Thames wharves decimated half of London's population within 18 months.",
         },
-        timelinePeriod: { id: "Juni 1348 - 1350", en: "June 1348 - 1350" },
+        timelinePeriod: {
+            id: "Musim Gugur 1348 – 1350 M",
+            en: "Autumn 1348 – 1350 AD",
+        },
     },
-    CN: {
-        code: "CN",
-        iso3: "CHN",
-        name: { id: "Tiongkok (Jalur Sutra)", en: "China (Silk Road)" },
-        sectorCode: "SECTOR // CHN - CENTRAL ASIAN CARAVAN VECTOR",
-        coordinates: { lat: 34.3416, lng: 108.9398, altitude: 1.05 },
-        beaconColor: "#06b6d4",
+    PAR: {
+        code: "PAR",
+        iso3: "FRA",
+        name: {
+            id: "Paris (Kerajaan Prancis)",
+            en: "Paris (Kingdom of France)",
+        },
+        sectorCode: "SECTOR // FRA - PARIS ILE-DE-FRANCE",
+        coordinates: { lat: 48.8566, lng: 2.3522, altitude: 1.05 },
+        beaconColor: "#881337",
         status: {
-            id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
-            en: "CLASSIFIED ARCHIVE // DRAFTING",
+            id: "ARSIP AKTIF // DIDEKLASIFIKASI",
+            en: "ACTIVE DOSSIER // DECLASSIFIED",
         },
         synopsis: {
-            id: "Titik reservoir liar pes pada koloni marmot padang rumput Asia Tengah yang terbawa kafilah Jalur Sutra.",
-            en: "Wild marmot rodent reservoir vector transmitted westwards along Mongol Silk Road trade routes.",
+            id: "Kematian hingga 800 jiwa sehari di Hôtel-Dieu; keruntuhan demografi terbesar di lembah Sungai Seine.",
+            en: "Daily fatalities reached 800 at the Hôtel-Dieu; the greatest demographic collapse in the Seine valley.",
         },
-        timelinePeriod: { id: "1330-an - 1346", en: "1330s - 1346" },
+        timelinePeriod: {
+            id: "Musim Panas 1348 – 1349 M",
+            en: "Summer 1348 – 1349 AD",
+        },
     },
 };
 
@@ -949,6 +979,44 @@ const JUSTINIAN_TERRITORY_MAP: Record<
     JOR: { code: "LEV", type: "surveillance" },
 };
 
+const BLACK_DEATH_TERRITORY_MAP: Record<
+    string,
+    { code: string; type: "epicenter" | "surveillance" }
+> = {
+    // Primary Epicenters
+    KAF: { code: "KAF", type: "epicenter" },
+    UA: { code: "KAF", type: "epicenter" },
+    UKR: { code: "KAF", type: "epicenter" },
+    CRI: { code: "KAF", type: "epicenter" },
+
+    MES: { code: "MES", type: "epicenter" },
+    IT: { code: "MES", type: "epicenter" },
+    ITA: { code: "MES", type: "epicenter" },
+
+    LON: { code: "LON", type: "epicenter" },
+    GB: { code: "LON", type: "epicenter" },
+    GBR: { code: "LON", type: "epicenter" },
+    UK: { code: "LON", type: "epicenter" },
+
+    PAR: { code: "PAR", type: "epicenter" },
+    FR: { code: "PAR", type: "epicenter" },
+    FRA: { code: "PAR", type: "epicenter" },
+
+    // Secondary Surveillance Territories
+    FLR: { code: "FLR", type: "surveillance" },
+    AVN: { code: "AVN", type: "surveillance" },
+    VEN: { code: "VEN", type: "surveillance" },
+    KRA: { code: "KRA", type: "surveillance" },
+    PL: { code: "KRA", type: "surveillance" },
+    POL: { code: "KRA", type: "surveillance" },
+    MOS: { code: "MOS", type: "surveillance" },
+    RU: { code: "MOS", type: "surveillance" },
+    RUS: { code: "MOS", type: "surveillance" },
+    CAI: { code: "CAI", type: "surveillance" },
+    EG: { code: "CAI", type: "surveillance" },
+    EGY: { code: "CAI", type: "surveillance" },
+};
+
 /**
  * Strict Era-Based Interaction Resolver.
  * Guarantees zero data bleed: only returns interactions for territories
@@ -980,22 +1048,20 @@ export function getCountryInteraction(
     }
 
     if (pId === "black-death-1347") {
-        const epicenters = BLACK_DEATH_EPICENTERS;
-        const normalized = normalizeCountryCode(rawId).toUpperCase();
-        const epi = epicenters[normalized] || epicenters[rawId];
-        if (epi) {
-            return { type: "epicenter", code: epi.code, epicenter: epi };
+        const mapping = BLACK_DEATH_TERRITORY_MAP[rawId];
+        if (!mapping) return null;
+        if (mapping.type === "epicenter") {
+            const epicenter = BLACK_DEATH_EPICENTERS[mapping.code];
+            return epicenter
+                ? { type: "epicenter", code: mapping.code, epicenter }
+                : null;
+        } else {
+            const survCatalog = getSurveillanceForPandemic(pId);
+            const surveillance = survCatalog[mapping.code];
+            return surveillance
+                ? { type: "surveillance", code: mapping.code, surveillance }
+                : null;
         }
-        const survCatalog = getSurveillanceForPandemic(pId);
-        const surv = survCatalog[normalized] || survCatalog[rawId];
-        if (surv) {
-            return {
-                type: "surveillance",
-                code: surv.iso2,
-                surveillance: surv,
-            };
-        }
-        return null;
     }
 
     if (pId === "cholera-1817") {
@@ -1051,6 +1117,16 @@ export function getCountryInteraction(
             "BRI",
             "AFR",
             "LEV",
+            "KAF",
+            "MES",
+            "LON",
+            "PAR",
+            "FLR",
+            "AVN",
+            "VEN",
+            "KRA",
+            "MOS",
+            "CAI",
         ].includes(rawId)
     ) {
         return null;
@@ -1103,10 +1179,34 @@ export function normalizeCountryCode(countryCode: string): string {
     if (code === "bgd") return "bd";
     if (code === "omn") return "om";
     if (code === "irn") return "ir";
-    if (code === "cpx") return "cpx";
-    if (code === "pel") return "pel";
-    if (code === "sas") return "sas";
-    if (code === "rom") return "rom";
+    if (code === "ukr") return "ua";
+    if (code === "pol") return "pl";
+    if (code === "rus") return "ru";
+
+    // Historical 3-letter sectors & surveillance territories
+    const historicalCodes = [
+        "cpx",
+        "pel",
+        "sas",
+        "rom",
+        "gau",
+        "his",
+        "bri",
+        "afr",
+        "lev",
+        "kaf",
+        "mes",
+        "lon",
+        "par",
+        "flr",
+        "avn",
+        "ven",
+        "kra",
+        "mos",
+        "cai",
+    ];
+    if (historicalCodes.includes(code)) return code;
+
     return code.slice(0, 2);
 }
 
@@ -1147,6 +1247,41 @@ export async function loadDossier(
                 case "rom": {
                     const mod =
                         await import("@/data/pandemics/plague-of-justinian-541/rom.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                default:
+                    return null;
+            }
+        }
+
+        if (pId === "black-death-1347") {
+            switch (cCode) {
+                case "mes": {
+                    const mod =
+                        await import("@/data/pandemics/black-death-1347/mes.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "par": {
+                    const mod =
+                        await import("@/data/pandemics/black-death-1347/par.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "lon": {
+                    const mod =
+                        await import("@/data/pandemics/black-death-1347/lon.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "kaf": {
+                    const mod =
+                        await import("@/data/pandemics/black-death-1347/kaf.json");
                     const data = mod.default as unknown as
                         { chapters: Chapter[] } | Chapter[];
                     return Array.isArray(data) ? data : data.chapters;

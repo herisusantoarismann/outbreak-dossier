@@ -1,0 +1,41 @@
+{
+    "pandemicId": "black-death-1347",
+    "metrics": [
+        {
+            "key": "peak_mortality",
+            "value": "60%",
+            "label": {
+                "id": "Mortalitas Regional Tertinggi (Eropa Barat & Mediterania)",
+                "en": "Highest Regional Mortality (Western Europe & Mediterranean)"
+            },
+            "context": {
+                "id": "Kota-kota padat seperti Firenze dan Venesia kehilangan hingga 65% populasi dalam waktu kurang dari 18 bulan.",
+                "en": "Dense hubs like Florence and Venice lost up to 65% of their inhabitants within less than 18 months."
+            }
+        },
+        {
+            "key": "velocity",
+            "value": "2 – 4 km / Hari",
+            "label": {
+                "id": "Kecepatan Difusi Darat",
+                "en": "Overland Diffusion Velocity"
+            },
+            "context": {
+                "id": "Penyebaran melompat lebih cepat melalui rute galai maritim (hingga 40 km/hari) dibanding rute darat pejalan kaki.",
+                "en": "Spread accelerated along maritime galley routes (up to 40 km/day) compared to pedestrian carriage roads."
+            }
+        },
+        {
+            "key": "depopulation_recovery",
+            "value": "≈ 150 – 200 Tahun",
+            "label": {
+                "id": "Waktu Pemulihan Demografi Global",
+                "en": "Global Demographic Recovery Window"
+            },
+            "context": {
+                "id": "Populasi manusia di Eropa baru kembali ke level sebelum tahun 1347 pada awal abad ke-16.",
+                "en": "European human population only returned to pre-1347 levels by the early 16th century."
+            }
+        }
+    ]
+}

@@ -23,6 +23,7 @@ import justinianSurveillance from "@/data/pandemics/plague-of-justinian-541/surv
 import justinianAbout from "@/data/pandemics/plague-of-justinian-541/about.json";
 import blackDeathExtremes from "@/data/pandemics/black-death-1347/extremes.json";
 import blackDeathSurveillance from "@/data/pandemics/black-death-1347/surveillance.json";
+import blackDeathAbout from "@/data/pandemics/black-death-1347/about.json";
 import choleraExtremes from "@/data/pandemics/cholera-1817/extremes.json";
 import choleraSurveillance from "@/data/pandemics/cholera-1817/surveillance.json";
 import spanishFluExtremes from "@/data/pandemics/spanish-flu-1918/extremes.json";
@@ -320,6 +321,81 @@ export const PandemicProvider: React.FC<{
                 },
                 clinicalFeatures: justinianAbout.clinicalFeatures,
                 historicalImpact: justinianAbout.historicalImpact,
+            };
+        }
+
+        if (activePandemic.id === "black-death-1347") {
+            return {
+                title: blackDeathAbout.title,
+                subtitle: blackDeathAbout.subtitle,
+                overview: blackDeathAbout.historicalContext,
+                pathogenName: blackDeathAbout.pathogenProfile.scientificName,
+                clinical: activePandemic.clinicalProfile || {
+                    classification: {
+                        title: {
+                            id: "Klasifikasi Biologis",
+                            en: "Biological Classification",
+                        },
+                        text: {
+                            id: blackDeathAbout.pathogenProfile.strain,
+                            en: blackDeathAbout.pathogenProfile.strain,
+                        },
+                    },
+                    metrics: {
+                        incubation: {
+                            title: {
+                                id: "Masa Inkubasi",
+                                en: "Incubation Period",
+                            },
+                            value: blackDeathAbout.pathogenProfile
+                                .incubationPeriod,
+                            sub: {
+                                id: "Pes Bubonik",
+                                en: "Bubonic Plague",
+                            },
+                        },
+                        receptor: {
+                            title: {
+                                id: "Fatalitas Kasus",
+                                en: "Case Fatality",
+                            },
+                            value: "60 – 80%",
+                            sub: {
+                                id: "Tanpa Antibiotik",
+                                en: "Untreated",
+                            },
+                        },
+                        family: {
+                            title: {
+                                id: "Famili Bakteri",
+                                en: "Bacterial Family",
+                            },
+                            value: "Yersiniaceae",
+                            sub: {
+                                id: "Enterobacterales",
+                                en: "Enterobacterales",
+                            },
+                        },
+                    },
+                    transmission: {
+                        title: {
+                            id: "Vektor Transmisi",
+                            en: "Transmission Vectors",
+                        },
+                        text: blackDeathAbout.pathogenProfile
+                            .transmissionVectors[0],
+                    },
+                    symptoms: {
+                        title: {
+                            id: "Estimasi Kematian",
+                            en: "Estimated Deaths",
+                        },
+                        text: {
+                            id: blackDeathAbout.estimatedTotalDeaths,
+                            en: blackDeathAbout.estimatedTotalDeaths,
+                        },
+                    },
+                },
             };
         }
 

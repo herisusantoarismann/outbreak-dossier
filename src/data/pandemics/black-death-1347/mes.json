@@ -1,0 +1,575 @@
+{
+  "sectorId": "MES",
+  "sectorName": {
+    "id": "Sektor Messina (Sisilia & Pendaratan Galai Maut)",
+    "en": "Sector Messina (Sicily & The Ghost Galleys)"
+  },
+  "coordinates": [
+    38.1938,
+    15.554
+  ],
+  "timeRange": "Oktober 1347 – Awal 1348 M",
+  "estimatedFatalities": "150.000 – 200.000 (≈ 50–60% Populasi Pulau Sisilia)",
+  "chapters": [
+    {
+      "id": "mes-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Galai Hantu di Selat Messina",
+        "en": "The Ghost Galleys of the Strait"
+      },
+      "date": {
+        "id": "Awal Oktober 1347 M",
+        "en": "Early October 1347 AD"
+      },
+      "flash": {
+        "id": "Dua belas galai Genoa yang melarikan diri dari Kaffa merapat di pelabuhan Messina; sebagian besar awak telah tewas di bangku dayung dan sisanya sekarat karena racun pes.",
+        "en": "Twelve Genoese galleys fleeing Kaffa moor in Messina's harbor; most crewmen lie dead at oars and survivors writhe in terminal agony."
+      },
+      "virusProfile": {
+        "agent": "Yersinia pestis (Galur Medievalis Importasi)",
+        "vector": "Xenopsylla cheopis via Awak Kapal & Tikus Galai",
+        "incubation": "2 – 4 Hari",
+        "transmission": "Pendaratan langsung armada pembawa vektor dari Krimea"
+      },
+      "description": {
+        "id": "Pada awal Oktober 1347 M, dua belas galai dagang berbendera Genoa meluncur lambat memasuki perairan tenang pelabuhan Messina. Ketika kapal-kapal itu bersandar di dermaga batu, para petugas pelabuhan menyaksikan pemandangan yang membekukan darah: di atas dek kayu, mayat-mayat pelaut terbaring membusuk berdampingan dengan rekan mereka yang masih merintih sekarat. Mereka yang masih bernapas memiliki benjolan hitam sebesar telur di selangkangan dan ketiak yang mengeluarkan nanah berbau busuk.",
+        "en": "In early October 1347 AD, twelve Genoese merchant galleys glided into the calm waters of Messina harbor. As moorings were thrown to stone quays, harbor guards beheld a blood-curdling horror: on wooden decks, decomposing mariners lay tangled alongside comrades gasping their final breaths. Those still conscious exhibited blackened egg-sized tumors in groins and armpits weeping foul-smelling ichor."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_01.jpg"
+    },
+    {
+      "id": "mes-ch-02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Penjarahan Palka: Lompatan Vektor Pertama",
+        "en": "Pillaging the Holds: The Primary Vector Jump"
+      },
+      "date": {
+        "id": "Pekan Pertama Oktober 1347 M",
+        "en": "First Week of October 1347 AD"
+      },
+      "flash": {
+        "id": "Buruh pelabuhan dan penyelundup lokal menaiki kapal untuk menjarah muatan rempah dan sutra; kutu pes melompat ke inang baru di pesisir Sisilia.",
+        "en": "Local stevedores and scavengers board the galleys to plunder spices and raw silks; plague fleas transfer onto fresh Sicilian hosts."
+      },
+      "virusProfile": {
+        "agent": "Yersinia pestis (Transmisi Ektoparasit)",
+        "vector": "Biofilm Katup Proventrikulus Pinjal",
+        "incubation": "24 – 48 Jam",
+        "transmission": "Gigitan kutu kelaparan saat pembongkaran muatan kapal"
+      },
+      "description": {
+        "id": "Keserakahan mengalahkan kehati-hatian. Sebelum otoritas sempat memahami bahaya yang ada, para kuli pelabuhan dan penjarah menaiki kapal-kapal Genoa tersebut untuk membongkar peti-peti rempah berharga, kain sutra, dan minyak zaitun. Di dalam kegelapan palka kapal yang dipenuhi bangkai tikus mati, ribuan kutu pes yang kelaparan segera meloncat ke kain wol para penjarah. Dalam hitungan dua hari, para pemuda yang menaiki kapal itu mulai tumbang dengan demam membakar di rumah masing-masing.",
+        "en": "Cupidity eclipsed caution. Before magistrates comprehended the hazard, porters and opportunistic scavengers boarded the vessels to loot crates of pepper, damask silk, and grain. Inside the dark holds littered with rat carcasses, legions of starved fleas leaped onto the looters' woolen hose. Within forty-eight hours, the men who boarded the derelicts collapsed with raging fevers in their homes."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_02.jpg"
+    },
+    {
+      "id": "mes-ch-03",
+      "chapterNumber": 3,
+      "type": "side_story",
+      "title": {
+        "id": "Catatan Biarawan Michele da Piazza",
+        "en": "The Chronicle of Friar Michele da Piazza"
+      },
+      "date": {
+        "id": "Pertengahan Oktober 1347 M",
+        "en": "Mid-October 1347 AD"
+      },
+      "flash": {
+        "id": "Kesaksian primer biarawan Fransiskan Michele da Piazza mencatat pembengkakan bisul maut yang tak tersembuhkan dan ludah berdarah para korban.",
+        "en": "Primary eyewitness account of Franciscan friar Michele da Piazza documenting incurable deadly buboes and bloody sputum of the stricken."
+      },
+      "virusProfile": {
+        "agent": "Yersinia pestis (Bentuk Bubonik & Paru Simultan)",
+        "vector": "Dokumentasi Klinis Abad ke-14",
+        "incubation": "3 Hari",
+        "transmission": "Eksudat purulen dan droplet pernapasan berdarah"
+      },
+      "description": {
+        "id": "Michele da Piazza mencatat dengan ngeri dalam kronik sejarahnya: 'Penyakit ini membakar sumsum tulang mereka. Muncul pembengkakan sebesar kacang atau telur di ketiak atau selangkangan mereka, yang oleh penduduk disebut bisul maut (*ghiandole*). Jika bisul itu membusuk dan mengeluarkan nanah hitam, atau jika penderita mulai batuk memuntahkan darah, maka tidak ada obat di dunia yang dapat menyelamatkan mereka dari kematian dalam tiga hari.'",
+        "en": "Michele da Piazza penned with horror in his chronicle: 'The infection burned into their very marrow. Buboes the size of hazel nuts or eggs broke out in armpits and groins, known by locals as death-boils (*ghiandole*). When these abscesses turned black and discharged gore, or if the victim spat blood, no remedy in this world could preserve them from death within three days.'"
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_03.jpg"
+    },
+    {
+      "id": "mes-ch-04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Wabah di Distrik Nelayan: Lumpuhnya Pesisir",
+        "en": "Plague in the Fisherman's Ward: Coastal Collapse"
+      },
+      "date": {
+        "id": "Pekan Ketiga Oktober 1347 M",
+        "en": "Third Week of October 1347 AD"
+      },
+      "flash": {
+        "id": "Distrik pemukiman nelayan dan buruh kasar Messina lumpuh total; puluhan keluarga tewas di dalam bilik batu mereka tanpa sempat meminta pertolongan.",
+        "en": "The coastal quarters of fishermen and laborers collapse completely; dozens of families perish inside stone hovels without receiving aid."
+      },
+      "virusProfile": {
+        "agent": "Yersinia pestis (Klaster Domestik Padat)",
+        "vector": "Pinjal Domestik (Pulex irritans)",
+        "incubation": "2 Hari",
+        "transmission": "Kontak erat dalam hunian sempit tepi laut"
+      },
+      "description": {
+        "id": "Dari dermaga pelabuhan, wabah menjalar ke pemukiman nelayan di sepanjang garis pantai. Lorong-lorong sempit berbau garam berubah menjadi kuburan massal. Di rumah-rumah batu kecil yang tidak memiliki ventilasi, seluruh anggota keluarga tewas bersama di atas tikar jerami. Perahu-perahu nelayan dibiarkan terombang-ambing di pantai tanpa ada yang melaut, dan pasar ikan Messina yang biasanya ramai mendadak sunyi senyap.",
+        "en": "From the wharves, contagion surged into waterfront alleys. Salty corridors turned into an open-air charnel house. Inside unventilated stone shanties, entire families perished together on straw pallets. Fishing skiffs sat rocking idly on the surf, untended, while Messina's vibrant fish markets fell into deathly silence."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_04.jpg"
+    },
+    {
+      "id": "mes-ch-05",
+      "chapterNumber": 5,
+      "type": "standard",
+      "title": {
+        "id": "Eksodus Para Dokter: Runtuhnya Pelayanan Medis",
+        "en": "Exodus of Physicians: Collapse of Medical Care"
+      },
+      "date": {
+        "id": "Akhir Oktober 1347 M",
+        "en": "Late October 1347 AD"
+      },
+      "flash": {
+        "id": "Para dokter, tabib herbal, dan apoteker kota Messina mengunci toko mereka dan melarikan diri ke perbukitan, meninggalkan warga tanpa obat atau perawatan.",
+        "en": "Physicians, herbalists, and apothecaries shutter workshops and flee to the mountains, leaving citizens bereft of medicine or clinical care."
+      },
+      "virusProfile": {
+        "agent": "Keruntuhan Infrastruktur Medis",
+        "vector": "Ketiadaan Pengetahuan Etiologi Penyakit",
+        "incubation": "N/A",
+        "transmission": "Lumpuhnya seluruh fasilitas penanganan orang sakit"
+      },
+      "description": {
+        "id": "Melihat ramuan herbal dan prosedur pembedahan bisul tidak membuahkan hasil, para tabib terdidik Messina menyadari ketidakberdayaan mereka. Ketakutan akan tertular melenyapkan etika profesi mereka. Satu per satu, para dokter berkemas diam-diam di tengah malam dan melarikan diri menunggang keledai menuju desa-desa terpencil di Pegunungan Peloritani. Rumah sakit amal gereja ditinggalkan kosong, diisi oleh pasien-pasien sekarat yang merintih meminta seteguk air.",
+        "en": "Observing that theriac remedies and lancing produced no cures, educated physicians recognized their absolute impotence. Dread extinguished professional oaths. Under cover of night, doctors packed saddlebags and fled on mules into secluded mountain hamlets. Charitable hospices were abandoned to despair, echoing with the groans of dying patients begging for sips of water."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_05.jpg"
+    },
+    {
+      "id": "mes-ch-06",
+      "chapterNumber": 6,
+      "type": "milestone",
+      "title": {
+        "id": "Dekrit Pengusiran: Pengusiran Galai Genoa",
+        "en": "The Banishment Edict: Expulsion of the Galleys"
+      },
+      "date": {
+        "id": "Awal November 1347 M",
+        "en": "Early November 1347 AD"
+      },
+      "flash": {
+        "id": "Otoritas Messina menyadari sumber petaka dan mengusir galai-galai Genoa keluar dari pelabuhan di bawah ancaman anak panah, namun tindakan ini sudah terlambat.",
+        "en": "Messina's magistrates identify the source of ruin and expel the Genoese galleys under threat of archery, but the action comes too late."
+      },
+      "virusProfile": {
+        "agent": "Tindakan Karantina yang Terlambat",
+        "vector": "Endemisasi Lokal Bakteri Pes",
+        "incubation": "N/A",
+        "transmission": "Patogen telah mengakar di populasi tikus daratan Sisilia"
+      },
+      "description": {
+        "id": "Dalam keputusasaan yang terlambat, para penguasa kota Messina mengerahkan prajurit bersenjata panah ke dermaga. Mereka memerintahkan tali tambat galai Genoa dipotong dan mengancam akan membakar kapal jika para pelaut tidak segera mengangkat jangkar. Kapal-kapal maut itu akhirnya didorong keluar ke laut lepas. Namun pengusiran ini sia-sia: bakteri pes telah bersarang di dalam sarang-sarang tikus kota dan di dalam darah ribuan warga Messina.",
+        "en": "In tardy desperation, city magistrates marched crossbowmen to the wharves. They commanded mooring hawsers severed and threatened to set fire to the Genoese hulls unless they weighed anchor immediately. The death vessels were driven into open waters. But the measure was futile: the bacterium was already entrenched inside urban rat burrows and the bloodstreams of thousands."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_06.jpg"
+    },
+    {
+      "id": "mes-ch-07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Armada Pengelana Maut Menuju Benua",
+        "en": "Wandering Fleets of Doom Bound for the Continent"
+      },
+      "date": {
+        "id": "Pertengahan November 1347 M",
+        "en": "Mid-November 1347 AD"
+      },
+      "flash": {
+        "id": "Galai-galai yang diusir dari Messina berlayar tak menentu melintasi Laut Tyrrhenia, merapat di Genoa, Marseille, dan pulau-pulau sekitarnya, menyulut Maut Hitam di daratan Eropa.",
+        "en": "Expelled galleys drift erratically across the Tyrrhenian Sea, putting in at Genoa, Marseille, and islands, igniting the Black Death across mainland Europe."
+      },
+      "virusProfile": {
+        "agent": "Dispersi Maritim Sekunder",
+        "vector": "Galai Tanpa Pengemudi Sehat",
+        "incubation": "3 – 5 Hari",
+        "transmission": "Infeksi berantai di setiap pelabuhan singgah Mediterania"
+      },
+      "description": {
+        "id": "Pengusiran dari Messina justru mempercepat bencana kontinental. Galai-galai yang sarat mayat itu berlayar ke utara mencari pelabuhan yang mau menerima mereka. Beberapa kapal berhasil mencapai pelabuhan Genoa, yang lain terdampar di pantai Marseille di Kerajaan Prancis. Di setiap dermaga tempat kapal-kapal ini bersandar untuk mengisi air tawar, kutu-kutu pes melompat ke daratan, menyebarkan percikan api biologis yang segera melahap seluruh daratan Eropa Barat.",
+        "en": "Expulsion from Messina accelerated the continental doom. The corpse-laden galleys sailed north seeking any harbor willing to grant entry. Several made landfall in Genoa; others drifted ashore near Marseille in France. At every anchorage where desperate crews sought freshwater, plague fleas leaped ashore, igniting the conflagration that devoured Western Europe."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_07.jpg"
+    },
+    {
+      "id": "mes-ch-08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Bubo Bernanah & Racauan Hitam",
+        "en": "Suppurating Buboes & The Black Delirium"
+      },
+      "date": {
+        "id": "Akhir November 1347 M",
+        "en": "Late November 1347 AD"
+      },
+      "flash": {
+        "id": "Tingkat keparahan klinis meningkat drastis; penderita mengalami pembengkakan kelenjar hitam yang mengeluarkan cairan busuk disertai halusinasi demam ganas.",
+        "en": "Clinical severity peaks; sufferers experience blackened glandular swellings discharging fetid ichor accompanied by violent febrile hallucinations."
+      },
+      "virusProfile": {
+        "agent": "Yersinia pestis (Toksemia Masif)",
+        "vector": "Nekrosis Vaskular Ekstrem",
+        "incubation": "24 – 36 Jam",
+        "transmission": "Kematian cepat dalam 72 jam pasca timbulnya demam"
+      },
+      "description": {
+        "id": "Kota Messina tenggelam dalam mimpi buruk fisik yang mengerikan. Bisul-bisul bubo di selangkangan dan ketiak membengkak hingga seukuran buah apel, mengeras menjadi nodul hitam pekat sebelum akhirnya pecah mengeluarkan nanah berdarah yang berbau sangat busuk. Pasien kehilangan kesadaran, meracau dalam kegilaan, dan memohon agar tubuh mereka disiram air dingin untuk memadamkan sensasi terbakar di dalam daging mereka.",
+        "en": "Messina sank into an excruciating biological nightmare. Buboes in groins and armpits swelled to the size of apples, hardening into charred nodules before rupturing with purulent stench. Stricken citizens lost sanity, screaming in delirium and begging for buckets of cold water to quench the sensation of fire consuming their flesh."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_08.jpg"
+    },
+    {
+      "id": "mes-ch-09",
+      "chapterNumber": 9,
+      "type": "side_story",
+      "title": {
+        "id": "Dilema Romo Bartolomeo: Penolakan Sakramen Terakhir",
+        "en": "Dilemma of Father Bartolomeo: The Denied Viaticum"
+      },
+      "date": {
+        "id": "Awal Desember 1347 M",
+        "en": "Early December 1347 AD"
+      },
+      "flash": {
+        "id": "Kisah imam paroki Bartolomeo yang mengunci pintu kapelnya, menolak memberikan sakramen perminyakan terakhir kepada jemaatnya karena ketakutan tertular ludah berdarah.",
+        "en": "Account of parish priest Bartolomeo bolting his chapel gates, withholding extreme unction from parishioners out of terror of blood-spitting."
+      },
+      "virusProfile": {
+        "agent": "Runtuhnya Pelayanan Spiritual",
+        "vector": "Ketakutan akan Penularan Pes Paru",
+        "incubation": "N/A",
+        "transmission": "Krisis teologis akibat penolakan sakramen pengampunan dosa"
+      },
+      "description": {
+        "id": "Bagi masyarakat abad pertengahan, mati tanpa menerima sakramen pengakuan dosa terakhir adalah kutukan abadi ke neraka. Namun ketika Romo Bartolomeo melihat rekannya sesama imam tewas dalam waktu dua hari setelah mendengarkan pengakuan dosa seorang penderita pes paru, imannya goyah oleh ketakutan duniawi. Ia mengunci pintu besi kapel Santo Nikolas dari dalam, menolak membukanya meski para ibu memohon di depan pintu sambil menggendong anak-anak mereka yang sekarat.",
+        "en": "For medieval souls, expiring without extreme unction meant damnation. Yet when Father Bartolomeo witnessed fellow friars perish forty-eight hours after hearing confessions of coughing plague victims, terror shattered his pastoral resolve. He barred the iron gates of St. Nicholas chapel, refusing entry even as mothers knelt on paving stones outside cradling dying infants."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_09.jpg"
+    },
+    {
+      "id": "mes-ch-10",
+      "chapterNumber": 10,
+      "type": "milestone",
+      "title": {
+        "id": "Eksodus Panik Menuju Catania: Gelombang Pengungsi",
+        "en": "Panicked Flight to Catania: The Refugee Tide"
+      },
+      "date": {
+        "id": "Pertengahan Desember 1347 M",
+        "en": "Mid-December 1347 AD"
+      },
+      "flash": {
+        "id": "Ribuan warga Messina yang selamat mengemas harta benda dan melarikan diri ke selatan menuju kota Catania, menyebarkan spora wabah ke desa-desa pedalaman Sisilia.",
+        "en": "Thousands of surviving Messinese pack belongings and flee south toward Catania, scattering plague spores across inland Sicilian hamlets."
+      },
+      "virusProfile": {
+        "agent": "Yersinia pestis (Dispersi Pengungsi Massal)",
+        "vector": "Kutu pada Pakaian Wol & Selimut Pelarian",
+        "incubation": "2 – 4 Hari",
+        "transmission": "Penyebaran jalan kaki menyusuri pesisir timur Sisilia"
+      },
+      "description": {
+        "id": "Ketika aroma mayat membungkus seluruh penjuru kota, warga Messina kehilangan akal sehat. Mereka meninggalkan rumah-rumah mereka yang megah dan berbondong-bondong melarikan diri menyusuri jalan raya pesisir menuju Catania. Kereta keledai, gerobak tangan, dan pejalan kaki berdesakan di jalan sempit. Tanpa mereka sadari, di dalam lipatan selimut wol dan kantong kain yang mereka bawa, jutaan kutu pes ikut menumpang menuju kota perlindungan berikutnya.",
+        "en": "When the reek of putrefaction blanketed the town, citizens snapped. Abandoning stone mansions, they fled along the coastal highway toward Catania. Donkey carts, hand barrows, and foot travelers choked the road. Unbeknownst to them, nestled inside rolled bedding and saddlebags, millions of plague fleas hitched rides toward the next refuge."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_10.jpg"
+    },
+    {
+      "id": "mes-ch-11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Pintu Gerbang Catania Ditutup: Barikade Berdarah",
+        "en": "Catania's Gates Barred: The Bloody Barricades"
+      },
+      "date": {
+        "id": "Akhir Desember 1347 M",
+        "en": "Late December 1347 AD"
+      },
+      "flash": {
+        "id": "Warga Catania mendengar kabar petaka Messina; mereka membarikade gerbang kota dan menembakkan panah ke arah pengungsi yang memohon perlindungan.",
+        "en": "Citizens of Catania learn of Messina's doom; they barricade gates and loose arrows at refugees pleading for sanctuary outside."
+      },
+      "virusProfile": {
+        "agent": "Respons Penolakan Sanitasi Militer",
+        "vector": "Pengusiran Paksa di Gerbang Benteng",
+        "incubation": "N/A",
+        "transmission": "Kekerasan fisik antara penduduk lokal dan pengungsi"
+      },
+      "description": {
+        "id": "Berita mengenai kutukan maut di Messina mendahului kedatangan para pengungsi. Ketika ribuan warga Messina tiba di depan gerbang Catania, mereka mendapati jembatan angkat ditarik ke atas dan pintu kayu berlapis besi terkunci rapat. Para prajurit Catania berdiri di atas dinding benteng dengan busur terentang, mengancam akan membunuh siapa pun yang mencoba mendekat. Pengungsi yang kelelahan terpaksa mendirikan kemah darurat di parit luar benteng, di mana wabah pes meledak tanpa ampun.",
+        "en": "Reports of Messina's demonic affliction outpaced the refugees. When thousands reached Catania's gates, they found drawbridges hoisted and oak portals bolted. Catanese guards stood upon the ramparts with drawn bows, ordering anyone approaching shot dead. Exhausted refugees camped in roadside ditches outside the walls, where the contagion erupted with unbridled fury."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_11.jpg"
+    },
+    {
+      "id": "mes-ch-12",
+      "chapterNumber": 12,
+      "type": "side_story",
+      "title": {
+        "id": "Prosesi Kerudung Suci Santa Agata",
+        "en": "Procession of the Holy Veil of St. Agatha"
+      },
+      "date": {
+        "id": "Awal Januari 1348 M",
+        "en": "Early January 1348 AD"
+      },
+      "flash": {
+        "id": "Klerus Catania mengarak kerudung suci Santa Agata melintasi kota untuk menangkal kutukan pes; kerumunan peziarah justru memicu ledakan penularan aerosol.",
+        "en": "Catania's clergy parade the sacred veil of St. Agatha through the city; dense crowds of supplicants trigger a catastrophic aerosol outbreak."
+      },
+      "virusProfile": {
+        "agent": "Yersinia pestis (Amplifikasi Kerumunan Religius)",
+        "vector": "Droplet Aerosol di Tengah Prosesi Doa",
+        "incubation": "18 – 24 Jam",
+        "transmission": "Transmisi pes paru pada ribuan umat yang berdesakan"
+      },
+      "description": {
+        "id": "Demi menyelamatkan Catania dari murka ilahi, Uskup Geraldo memerintahkan peninggalan relikui paling suci di Sisilia—kerudung merah Santa Agata—dikeluarkan dari katedral. Ribuan warga berdesakan di jalanan sempit, menangis dan mencium peti relikui saat diarak. Namun doa massal ini menjadi malapetaka epidemiologis: beberapa warga yang telah terinfeksi pes paru menyebarkan jutaan droplet bakteri ke udara, membakar paru-paru ratusan jemaat di sekeliling mereka.",
+        "en": "Seeking deliverance from divine wrath, Bishop Geraldo commanded Sicily's holiest relic—the red veil of St. Agatha—borne out of the cathedral. Thousands crowded cobblestone squares, weeping and kissing the reliquary casket. But this collective litany was an epidemiological disaster: several harboring pneumonic infections coughed bacterial droplets into the dense press, condemning hundreds around them."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_12.jpg"
+    },
+    {
+      "id": "mes-ch-13",
+      "chapterNumber": 13,
+      "type": "standard",
+      "title": {
+        "id": "Runtuhnya Catania: Api di Kaki Gunung Etna",
+        "en": "The Fall of Catania: Fire at the Foot of Etna"
+      },
+      "date": {
+        "id": "Pertengahan Januari 1348 M",
+        "en": "Mid-January 1348 AD"
+      },
+      "flash": {
+        "id": "Benteng pertahanan Catania jebol secara biologis; lebih dari separuh warga Catania tewas dalam tiga pekan di bawah bayang-bayang Gunung Etna.",
+        "en": "Catania's defenses are breached biologically; over half the population perishes within three weeks beneath the shadow of Mount Etna."
+      },
+      "virusProfile": {
+        "agent": "Yersinia pestis (Mortalitas Urban Total)",
+        "vector": "Infiltrasi Tikus Melalui Saluran Air Benteng",
+        "incubation": "2 – 3 Hari",
+        "transmission": "Runtuhnya seluruh struktur administrasi kota Catania"
+      },
+      "description": {
+        "id": "Upaya menutup pintu benteng terbukti sia-sia karena tikus dan kutu menyusup melalui saluran pembuangan air kota. Dalam waktu dua puluh hari pasca prosesi relikui, Catania berubah menjadi neraka kedua setelah Messina. Uskup Geraldo sendiri tewas di kamarnya dengan leher membengkak hitam. Di kaki Gunung Etna yang mengeluarkan asap kelabu, parit-parit kuburan massal digali tergesa-gesa untuk menampung ratusan jasad yang diangkut dengan gerobak setiap senja.",
+        "en": "Barring the gates proved useless as rodents carrying fleas penetrated via city culverts. Within twenty days of the veil procession, Catania became a second charnel house. Bishop Geraldo himself expired in his quarters with blackened throat buboes. Beneath Mount Etna's smoking summit, mass burial ditches were gouged in haste to swallow hundreds of cartloads arriving at dusk."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_13.jpg"
+    },
+    {
+      "id": "mes-ch-14",
+      "chapterNumber": 14,
+      "type": "milestone",
+      "title": {
+        "id": "Runtuhnya Hukum & Anarki Penjarahan",
+        "en": "Dissolution of Law & The Reign of Pillage"
+      },
+      "date": {
+        "id": "Akhir Januari 1348 M",
+        "en": "Late January 1348 AD"
+      },
+      "flash": {
+        "id": "Para hakim, pengawal kota, dan pejabat kehakiman tewas; gerombolan penjarah bersenjata menjarah istana bangsawan dan gereja tanpa takut hukuman.",
+        "en": "Magistrates, bailiffs, and judicial officers succumb; armed gangs pillage patrician palazzi and churches with total impunity."
+      },
+      "virusProfile": {
+        "agent": "Disintegrasi Tatanan Sosial",
+        "vector": "Ketiadaan Penegak Hukum Sipil",
+        "incubation": "N/A",
+        "transmission": "Anarki total di pemukiman urban yang ditinggalkan"
+      },
+      "description": {
+        "id": "Keadilan dan hukum Romawi yang berusia ribuan tahun lenyap dari Sisilia. Dengan tewasnya para prefek dan kaburnya penjaga penjara, tahanan kriminal membakar sel mereka dan bergabung dengan penjarah jalanan. Mereka mendobrak pintu rumah-rumah orang kaya yang telah meninggal, merampas bejana perak, permata, dan kain sutra dari tangan mayat yang belum dingin. Tidak ada lagi polisi, pengadilan, atau penguasa; ketakutan akan kematian melahirkan anarki brutal.",
+        "en": "Centuries of Roman civil jurisprudence evaporated from Sicily. With judges dead and wardens fled, convicts fired their cells and joined street scavengers. Gangs smashed into the residences of departed patricians, stripping silver chalices, jewels, and silks from bodies yet uncooled. Police, tribunals, and sovereign authority ceased; impending mortality bred savage lawlessness."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_14.jpg"
+    },
+    {
+      "id": "mes-ch-15",
+      "chapterNumber": 15,
+      "type": "standard",
+      "title": {
+        "id": "Paranoia Peracunan Sumur: Mencari Kambing Hitam",
+        "en": "Well-Poisoning Paranoia: Hunting the Scapegoats"
+      },
+      "date": {
+        "id": "Februari 1348 M",
+        "en": "February 1348 AD"
+      },
+      "flash": {
+        "id": "Histeria apokaliptik melahirkan teori konspirasi; warga menuduh orang asing dan kaum minoritas menaburkan serbuk racun di sumur-sumur minum Sisilia.",
+        "en": "Apocalyptic hysteria births conspiracy theories; mobs accuse foreign travelers and minorities of sowing powdered poisons in public wells."
+      },
+      "virusProfile": {
+        "agent": "Histeria Psikologis Kolektif",
+        "vector": "Kekerasan Massa Berbasis Fitnah",
+        "incubation": "N/A",
+        "transmission": "Pemusnahan komunitas minoritas akibat histeria wabah"
+      },
+      "description": {
+        "id": "Karena tidak mampu memahami bagaimana sebuah kuman tak kasat mata dapat memusnahkan kota, akal sehat masyarakat abad pertengahan mencari musuh nyata untuk disalahkan. Rumor liar menyebar bahwa wabah ini disebabkan oleh serbuk racun yang ditaburkan para pedagang asing ke dalam sumur-sumur umum. Massa yang marah membawa obor dan kapak, menyeret orang-orang asing dan pengemis jalanan untuk dibakar hidup-hidup di alun-alun kota tanpa bukti apa pun.",
+        "en": "Incapable of comprehending an unseen pathogen destroying their world, the medieval psyche demanded visible culprits. Wild rumors insisted foreign traders and lepers were sowing powdered venoms into public cisterns. Enraged mobs seized torches and axes, dragging wanderers and beggars to be burned alive in public squares without semblance of trial."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_15.jpg"
+    },
+    {
+      "id": "mes-ch-16",
+      "chapterNumber": 16,
+      "type": "standard",
+      "title": {
+        "id": "Parit Kematian di Lereng Peloritani",
+        "en": "Death Trenches of the Peloritani"
+      },
+      "date": {
+        "id": "Pertengahan Februari 1348 M",
+        "en": "Mid-February 1348 AD"
+      },
+      "flash": {
+        "id": "Pemakaman Kristen ditiadakan sepenuhnya; ribuan jenazah ditimbun ke dalam parit kapur panjang di perbukitan Peloritani, ditutup tanah tipis.",
+        "en": "Christian interments cease entirely; thousands of corpses are bulldozed into long lime trenches along the Peloritani ridges under thin dirt."
+      },
+      "virusProfile": {
+        "agent": "Krisis Mortuaria Pulau",
+        "vector": "Dekomposisi Massal Tanpa Sanitasi",
+        "incubation": "N/A",
+        "transmission": "Anjing liar dan babi hutan membongkar parit kuburan"
+      },
+      "description": {
+        "id": "Di lereng Pegunungan Peloritani di belakang Messina, tanah digali membentuk parit-parit panjang sedalam beberapa meter. Tidak ada peti kayu, kain kafan, atau lonceng kematian. Mayat-mayat dilemparkan begitu saja bertumpuk seperti kayu bakar, disiram kapur tohor, lalu ditutup segelintir tanah merah. Angin kencang dan hujan lebat sering menyapu lapisan tanah tersebut, memperlihatkan tumpukan tangan dan wajah membiru yang menjadi mangsa kawanan anjing liar.",
+        "en": "Along the slopes of the Peloritani mountains behind Messina, trenches were gouged meters deep into limestone soil. There were no pine coffins, shrouds, or tolling bells. Bodies were tossed in strata like firewood, doused in quicklime, and covered by a skim of red earth. Torrents regularly washed the crust away, exposing blackened limbs to scavenging wild dogs."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_16.jpg"
+    },
+    {
+      "id": "mes-ch-17",
+      "chapterNumber": 17,
+      "type": "standard",
+      "title": {
+        "id": "Matinya Para Notaris: Punahnya Arsip Warisan",
+        "en": "Death of the Notaries: Extinction of Deeds"
+      },
+      "date": {
+        "id": "Akhir Februari 1348 M",
+        "en": "Late February 1348 AD"
+      },
+      "flash": {
+        "id": "Korps notaris publik Sisilia binasa; ribuan wasiat tanah, akta perkawinan, dan catatan silsilah lenyap, meruntuhkan struktur kepemilikan tanah feodal.",
+        "en": "The public notarial corps of Sicily perishes; thousands of land deeds, marriage contracts, and lineage scrolls vanish, shattering feudal tenure."
+      },
+      "virusProfile": {
+        "agent": "Penghapusan Memori Institusional",
+        "vector": "Kematian Kelas Literat Perkotaan",
+        "incubation": "Kronis",
+        "transmission": "Kekacauan sengketa tanah pasca-pandemi selama beberapa generasi"
+      },
+      "description": {
+        "id": "Notaris adalah tulang punggung peradaban hukum Sisilia, bertugas mencatat setiap peralihan tanah dan warisan emas. Namun karena mereka diwajibkan mendatangi rumah orang sekarat untuk menulis surat wasiat, para notaris terinfeksi dengan kecepatan luar biasa. Dalam beberapa pekan, hampir seluruh korps pencatat hukum Sisilia musnah. Buku-buku register berdebu ditinggalkan terbakar atau membusuk, menghapus garis keturunan dan batas kepemilikan tanah selama berabad-abad ke depan.",
+        "en": "Notaries formed the bedrock of Sicilian legal society, certifying land conveyances and estates. But mandated to attend the bedsides of the dying to transcribe testaments, scribes contracted pestilence with frightful velocity. Within weeks, Sicily's literate record-keepers were eradicated. Scriptoriums moldered unattended, dissolving centuries of cadastral bounds and lineage records."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_17.jpg"
+    },
+    {
+      "id": "mes-ch-18",
+      "chapterNumber": 18,
+      "type": "standard",
+      "title": {
+        "id": "Kebun-Kebun yang Membatu: Kelaparan Agraria",
+        "en": "Petrified Groves: Agrarian Starvation"
+      },
+      "date": {
+        "id": "Maret 1348 M",
+        "en": "March 1348 AD"
+      },
+      "flash": {
+        "id": "Perkebunan gandum, zaitun, dan jeruk Sisilia terbengkalai tanpa petani; panen membusuk di cabang pohon, memicu kelaparan hebat di kalangan penyintas.",
+        "en": "Sicilian wheat estates, olive orchards, and citrus groves stand abandoned; harvests rot on boughs, plunging survivors into acute famine."
+      },
+      "virusProfile": {
+        "agent": "Kelumpuhan Rantai Pangan Agraria",
+        "vector": "Ketiadaan Tenaga Kerja Panen",
+        "incubation": "Kronis",
+        "transmission": "Kelaparan sekunder yang melipatgandakan kematian pasca-wabah"
+      },
+      "description": {
+        "id": "Sisilia, yang sejak zaman Romawi kuno dijuluki sebagai lumbung pangan Mediterania, mendadak berubah menjadi tanah tandus yang kelaparan. Di desa-desa agrikultur lereng bukit, para budak tani dan petani merdeka tewas di dalam gubuk mereka. Buah-buah jeruk matang berjatuhan membusuk di tanah, gandum mengering tanpa disabit, dan kawanan lembu berkeliaran liar merusak saluran irigasi air. Mereka yang selamat dari pes kini menghadapi ancaman kelaparan yang tak kalah mematikan.",
+        "en": "Sicily, hailed since Roman antiquity as the granary of the Mediterranean, turned barren and starving. In hillside farming hamlets, serfs and yeomen lay dead inside stone cabins. Ripe citrus fruits dropped to rot in orchards, wheat withered uncut, and untended cattle wandered wild, trampling irrigation sluices. Survivors who dodged pestilence confronted lingering starvation."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_18.jpg"
+    },
+    {
+      "id": "mes-ch-19",
+      "chapterNumber": 19,
+      "type": "milestone",
+      "title": {
+        "id": "Invasi Melintasi Selat: Melompat ke Calabria",
+        "en": "Crossing the Strait: The Leap into Calabria"
+      },
+      "date": {
+        "id": "April 1348 M",
+        "en": "April 1348 AD"
+      },
+      "flash": {
+        "id": "Perahu-perahu penyelundup melintasi Selat Messina di malam hari menuju Calabria; pes menyeberangi perairan sempit dan menginfeksi daratan utama semenanjung Italia.",
+        "en": "Smuggler boats cross the Strait of Messina by night into Calabria; pestilence leaps the narrow channel into the Italian mainland."
+      },
+      "virusProfile": {
+        "agent": "Penyeberangan Selat Sempit",
+        "vector": "Penyelundupan Barang & Pengungsi Malam Hari",
+        "incubation": "24 Jam",
+        "transmission": "Infiltrasi jalur darat semenanjung Italia Selatan"
+      },
+      "description": {
+        "id": "Selat Messina yang hanya selebar tiga kilometer tidak mampu menjadi perisai bagi daratan Italia. Di bawah kegelapan malam, para pedagang gelap dan pengungsi kaya menyewa perahu dayung kecil dengan bayaran emas tinggi untuk menyeberang ke pantai Reggio Calabria. Bersama mereka, kutu pes yang bersembunyi di lipatan pakaian wol menembus daratan utama Eropa. Dari pantai selatan Calabria, wabah mulai merayap naik ke utara menuju Napoli, Roma, dan Firenze.",
+        "en": "The three-kilometer Strait of Messina proved no moat against contagion. Under veil of midnight, black marketeers and wealthy fugitives bribed skiff owners with gold coin to ferry them across to Reggio Calabria. With them, plague fleas concealed in wool garments reached mainland soil. From Calabria's beaches, the scourge crept north toward Naples, Rome, and Florence."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_19.jpg"
+    },
+    {
+      "id": "mes-ch-20",
+      "chapterNumber": 20,
+      "type": "summary",
+      "title": {
+        "id": "Epilog Sisilia: Gerbang Api Mediterania",
+        "en": "Epilogue: Sicily as the Mediterranean Portal of Ash"
+      },
+      "date": {
+        "id": "Mei 1348 M & Warisan Sejarah",
+        "en": "May 1348 AD & Historical Legacy"
+      },
+      "flash": {
+        "id": "Sisilia kehilangan separuh jiwanya; pelabuhan Messina selamanya tercatat sebagai gerbang terkutuk tempat Maut Hitam melangkah masuk untuk meremukkan Eropa.",
+        "en": "Sicily loses half its population; Messina harbor remains etched in history as the fatal portal through which the Black Death entered Europe."
+      },
+      "virusProfile": {
+        "agent": "Yersinia pestis (Keberhasilan Penetrasi Benua)",
+        "vector": "Rute Perdagangan Maritim Italia",
+        "incubation": "Penyebaran Global 1347 – 1353 M",
+        "transmission": "Evolusi dari krisis pelabuhan lokal menjadi keruntuhan benua"
+      },
+      "description": {
+        "id": "Dalam rentang waktu delapan bulan, Sisilia telah berubah dari pusat perdagangan maritim yang makmur menjadi pulau penuh nisan tanpa nama. Lebih dari dua ratus ribu jiwa melayang, menghancurkan tatanan sosial, ekonomi feodal, dan otoritas monarki Aragon di pulau tersebut. Namun penderitaan Sisilia hanyalah prolog dari malapetaka global: dari teluk Messina inilah dua belas galai maut telah mengirimkan bara api yang kelak menewaskan lima puluh juta manusia di seluruh benua Eropa.",
+        "en": "Within eight catastrophic months, Sicily shifted from a bustling maritime crossroad into an island of unmarked graves. Over two hundred thousand souls perished, shattering feudal labor, social structures, and the authority of the Crown of Aragon. Yet Sicily's agony was merely the prelude: from Messina's harbor, twelve death galleys cast the sparks that devoured fifty million lives across Europe."
+      },
+      "image": "/assets/images/black-death-1347/mes/mes_ch_20.jpg"
+    }
+  ]
+}
