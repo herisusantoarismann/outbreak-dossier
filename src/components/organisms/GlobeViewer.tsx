@@ -13,8 +13,9 @@ import { TelemetryTicker } from "./TelemetryTicker";
 import { PandemicSwitcher } from "./PandemicSwitcher";
 import { LocaleSwitcher } from "@/components/molecules/LocaleSwitcher";
 import { EpicenterMetadata, SupportedLocale } from "@/data/countriesConfig";
-import { getEpicentersForPandemic } from "@/data/pandemicsRegistry";
+import { getCountryInteraction } from "@/data/pandemicsRegistry";
 import { PandemicProvider, useActivePandemic } from "@/context/PandemicContext";
+import { PathogenHoloLoader } from "@/components/loading/PathogenHoloLoader";
 import { CountrySurveillanceData, GlobalExtremeRecord } from "@/types/journey";
 
 interface GeoJsonFeature {
@@ -45,6 +46,7 @@ interface GlobePoint {
     color: string;
     isEpicenter: boolean;
     epicenter?: EpicenterMetadata;
+    surveillance?: CountrySurveillanceData;
     feature?: GeoJsonFeature;
 }
 
@@ -196,130 +198,357 @@ const GlobeViewerInner: React.FC = () => {
     // Check if country is an epicenter for active pandemic
     const checkIsEpicenter = useCallback(
         (iso2: string, iso3: string): EpicenterMetadata | null => {
-            const epicenters = getEpicentersForPandemic(activePandemicId);
-            const u2 = iso2.toUpperCase();
-            const u3 = iso3.toUpperCase();
-            if (epicenters[u2]) return epicenters[u2];
-            if (epicenters[u3]) return epicenters[u3];
-            return (
-                Object.values(epicenters).find(
-                    (e) =>
-                        e.code.toUpperCase() === u2 ||
-                        e.iso3.toUpperCase() === u3 ||
-                        (e.code === "CPX" && (u2 === "TR" || u3 === "TUR")) ||
-                        (e.code === "PEL" && (u2 === "EG" || u3 === "EGY")) ||
-                        (e.code === "SAS" &&
-                            (u2 === "IR" ||
-                                u2 === "IQ" ||
-                                u2 === "SY" ||
-                                u3 === "IRN" ||
-                                u3 === "IRQ" ||
-                                u3 === "SYR")) ||
-                        (e.code === "ROM" && (u2 === "IT" || u3 === "ITA")),
-                ) || null
-            );
+            const interaction =
+                getCountryInteraction(activePandemicId, iso2) ||
+                getCountryInteraction(activePandemicId, iso3);
+            return interaction?.type === "epicenter" && interaction.epicenter
+                ? interaction.epicenter
+                : null;
         },
         [activePandemicId],
     );
 
-    // Handle country selection (direct click on polygon or beacon pin)
-    const handleSelectCountry = useCallback(
-        (feat: GeoJsonFeature | null, directEpicenter?: EpicenterMetadata) => {
+    // Dismiss all active modals & drawers
+    const dismissActiveModals = useCallback(() => {
+        setTacticalHUD({ isOpen: false, epicenterData: null });
+        setSurveillanceModal({ isOpen: false, data: null });
+        setIsInfoDrawerOpen(false);
+    }, []);
+
+    // Launch full Dossier Scrollytelling Reader for Tier-1 Primary Epicenters with camera warp
+    const openDossierJourney = useCallback(
+        (
+            regionId: string,
+            coordinates?: { lat: number; lng: number; altitude?: number },
+        ) => {
+            dismissActiveModals();
             if (activePandemic.status === "classified_archive") {
                 triggerEncryptedAlert();
-                if (directEpicenter && globeInstanceRef.current) {
-                    globeInstanceRef.current.pointOfView(
-                        directEpicenter.coordinates,
-                        1200,
-                    );
-                }
-                return;
             }
 
-            if (directEpicenter) {
-                if (globeInstanceRef.current) {
-                    globeInstanceRef.current.pointOfView(
-                        directEpicenter.coordinates,
-                        1200,
-                    );
-                }
-                setTacticalHUD({
-                    isOpen: true,
-                    epicenterData: directEpicenter,
-                });
-                return;
-            }
-
-            if (!feat) return;
-            const { iso2, iso3, name } = getFeatureCountryInfo(feat);
-            const epi = checkIsEpicenter(iso2, iso3);
-
-            if (epi) {
-                if (globeInstanceRef.current) {
-                    globeInstanceRef.current.pointOfView(epi.coordinates, 1200);
-                }
-                setTacticalHUD({
-                    isOpen: true,
-                    epicenterData: epi,
-                });
-            } else {
-                // Secondary Surveillance Nation - sourced from isolated active pandemic dataset
-                const survData = surveillanceData[iso2] || {
-                    iso2: iso2 || "XX",
-                    name: {
-                        id: name || "Wilayah Terpantau",
-                        en: name || "Monitored Territory",
+            if (globeInstanceRef.current && coordinates) {
+                globeInstanceRef.current.pointOfView(
+                    {
+                        lat: coordinates.lat,
+                        lng: coordinates.lng,
+                        altitude: coordinates.altitude ?? 1.15,
                     },
-                    continent: "Global",
-                    confirmedCases: 1250000,
-                    fatalities: 18400,
-                    recoveryRate: "98.5%",
-                    peakWave: {
-                        id: activePandemic.eraLabel,
-                        en: activePandemic.eraLabel,
-                    },
-                };
-                const centroid = getFeatureCentroid(feat);
-                if (centroid && globeInstanceRef.current) {
-                    globeInstanceRef.current.pointOfView(
-                        {
-                            lat: centroid.lat,
-                            lng: centroid.lng,
-                            altitude: 1.35,
-                        },
-                        1200,
-                    );
-                }
-                setSurveillanceModal({
-                    isOpen: true,
-                    data: survData,
-                });
+                    1100,
+                );
             }
+
+            if (typeof window !== "undefined") {
+                const currentUrl = new URL(window.location.href);
+                currentUrl.searchParams.set("sector", regionId.toLowerCase());
+                window.history.replaceState(null, "", currentUrl.toString());
+            }
+
+            setIsLoading(true);
+            setTimeout(() => {
+                router.push(
+                    `/dossier/${activePandemicId}/${regionId.toLowerCase()}`,
+                );
+                setIsLoading(false);
+            }, 1400);
         },
         [
-            activePandemic.eraLabel,
             activePandemic.status,
-            checkIsEpicenter,
-            getFeatureCentroid,
-            getFeatureCountryInfo,
-            surveillanceData,
+            activePandemicId,
+            dismissActiveModals,
+            router,
+            setIsLoading,
             triggerEncryptedAlert,
         ],
     );
 
-    // Launch full dossier for Epicenters
-    const handleInitializeDossier = useCallback(
-        (countryCode: string) => {
-            setTacticalHUD((prev) => ({ ...prev, isOpen: false }));
-            setIsLoading(true);
-            setTimeout(() => {
-                router.push(
-                    `/dossier/${activePandemicId}/${countryCode.toLowerCase()}`,
+    // Open Secondary Surveillance Telemetry Modal for Tier-2 Territories
+    const openSurveillanceModal = useCallback(
+        (
+            data: CountrySurveillanceData,
+            coordinates?: { lat: number; lng: number; altitude?: number },
+        ) => {
+            dismissActiveModals();
+            if (coordinates && globeInstanceRef.current) {
+                globeInstanceRef.current.pointOfView(
+                    {
+                        lat: coordinates.lat,
+                        lng: coordinates.lng,
+                        altitude: coordinates.altitude ?? 1.35,
+                    },
+                    1100,
                 );
-                setIsLoading(false);
-            }, 2400);
+            }
+            setSurveillanceModal({
+                isOpen: true,
+                data,
+            });
         },
-        [activePandemicId, router, setIsLoading],
+        [dismissActiveModals],
+    );
+
+    // Unified dynamic country selection handler with strict Era-Specific Raycast Guard
+    const handleSelectCountry = useCallback(
+        (feat: GeoJsonFeature | null, directEpicenter?: EpicenterMetadata) => {
+            if (directEpicenter) {
+                openDossierJourney(
+                    directEpicenter.code,
+                    directEpicenter.coordinates,
+                );
+                return;
+            }
+
+            if (!feat) {
+                dismissActiveModals();
+                return;
+            }
+
+            const { iso2, iso3 } = getFeatureCountryInfo(feat);
+            const interaction =
+                getCountryInteraction(activePandemicId, iso2) ||
+                getCountryInteraction(activePandemicId, iso3);
+
+            // Strict Era-Specific Raycast Guard (Zero Data Bleed):
+            // Unregistered countries return null and dismiss modals
+            if (!interaction) {
+                dismissActiveModals();
+                return;
+            }
+
+            const clickedRegionId = interaction.code.toUpperCase();
+            const activePrimaryIds = (
+                activePandemic.primaryEpicenters ||
+                activePandemic.epicenters ||
+                []
+            ).map((id) => id.toUpperCase());
+            const activeSurveillanceKeys = Object.keys(surveillanceData).map(
+                (k) => k.toUpperCase(),
+            );
+
+            if (
+                activePrimaryIds.includes(clickedRegionId) ||
+                interaction.type === "epicenter"
+            ) {
+                const centroid = feat ? getFeatureCentroid(feat) : null;
+                const coords =
+                    interaction.epicenter?.coordinates ||
+                    (centroid ? centroid : undefined);
+                openDossierJourney(clickedRegionId, coords);
+            } else if (
+                activeSurveillanceKeys.includes(clickedRegionId) ||
+                interaction.type === "surveillance"
+            ) {
+                const centroid = getFeatureCentroid(feat);
+                const surv =
+                    interaction.surveillance ||
+                    surveillanceData[clickedRegionId] ||
+                    surveillanceData[interaction.code];
+                if (surv) {
+                    openSurveillanceModal(
+                        surv,
+                        centroid
+                            ? {
+                                  lat: centroid.lat,
+                                  lng: centroid.lng,
+                                  altitude: 1.35,
+                              }
+                            : undefined,
+                    );
+                } else {
+                    dismissActiveModals();
+                }
+            } else {
+                dismissActiveModals();
+            }
+        },
+        [
+            activePandemic.epicenters,
+            activePandemic.primaryEpicenters,
+            activePandemicId,
+            dismissActiveModals,
+            getFeatureCentroid,
+            getFeatureCountryInfo,
+            openDossierJourney,
+            openSurveillanceModal,
+            surveillanceData,
+        ],
+    );
+
+    // Standardized Visual Styling Callbacks across all pandemics
+    const getPolygonAltitude = useCallback(
+        (f: GeoJsonFeature, targetFeat: GeoJsonFeature | null) => {
+            const { iso2, iso3 } = getFeatureCountryInfo(f);
+            const interaction =
+                getCountryInteraction(activePandemicId, iso2) ||
+                getCountryInteraction(activePandemicId, iso3);
+            if (!interaction) return 0.002;
+
+            const isTarget = !!targetFeat && f === targetFeat;
+            if (interaction.type === "epicenter") {
+                return isTarget ? 0.065 : 0.038;
+            }
+            // Tier-2 Surveillance
+            return isTarget ? 0.02 : 0.005;
+        },
+        [activePandemicId, getFeatureCountryInfo],
+    );
+
+    const getPolygonCapColor = useCallback(
+        (f: GeoJsonFeature, targetFeat: GeoJsonFeature | null) => {
+            const { iso2, iso3 } = getFeatureCountryInfo(f);
+            const interaction =
+                getCountryInteraction(activePandemicId, iso2) ||
+                getCountryInteraction(activePandemicId, iso3);
+            if (!interaction) return "rgba(0, 0, 0, 0)";
+
+            const isTarget = !!targetFeat && f === targetFeat;
+            const themeColor = activePandemic.themeColor;
+
+            if (interaction.type === "epicenter") {
+                const regionColor =
+                    interaction.epicenter?.beaconColor || themeColor;
+                // Tier-1: Solid fill in region's unique color. On hover: full opacity glow
+                return isTarget ? `${regionColor}ff` : `${regionColor}aa`;
+            }
+
+            // Tier-2: Transparent base (standard earth wireframe). On hover: subtle accent sheen
+            if (!isTarget) {
+                return "rgba(0, 0, 0, 0)";
+            }
+            return `${themeColor}26`;
+        },
+        [activePandemic.themeColor, activePandemicId, getFeatureCountryInfo],
+    );
+
+    const getPolygonSideColor = useCallback(
+        (f: GeoJsonFeature, targetFeat: GeoJsonFeature | null) => {
+            const { iso2, iso3 } = getFeatureCountryInfo(f);
+            const interaction =
+                getCountryInteraction(activePandemicId, iso2) ||
+                getCountryInteraction(activePandemicId, iso3);
+            if (!interaction) return "rgba(0, 0, 0, 0)";
+
+            const isTarget = !!targetFeat && f === targetFeat;
+            const themeColor = activePandemic.themeColor;
+
+            if (interaction.type === "epicenter") {
+                const regionColor =
+                    interaction.epicenter?.beaconColor || themeColor;
+                return isTarget ? `${regionColor}99` : `${regionColor}55`;
+            }
+
+            if (!isTarget) {
+                return "rgba(0, 0, 0, 0)";
+            }
+            return `${themeColor}33`;
+        },
+        [activePandemic.themeColor, activePandemicId, getFeatureCountryInfo],
+    );
+
+    const getPolygonStrokeColor = useCallback(
+        (f: GeoJsonFeature, targetFeat: GeoJsonFeature | null) => {
+            const { iso2, iso3 } = getFeatureCountryInfo(f);
+            const interaction =
+                getCountryInteraction(activePandemicId, iso2) ||
+                getCountryInteraction(activePandemicId, iso3);
+            // Unregistered: subtle wireframe border
+            if (!interaction) return "rgba(255, 255, 255, 0.05)";
+
+            const isTarget = !!targetFeat && f === targetFeat;
+            const themeColor = activePandemic.themeColor;
+
+            if (interaction.type === "epicenter") {
+                const regionColor =
+                    interaction.epicenter?.beaconColor || themeColor;
+                // Glowing borders in region's unique color
+                return isTarget ? "#ffffff" : regionColor;
+            }
+
+            // Tier-2: subtle wireframe border when resting; highlight outline in active era themeColor on hover
+            if (!isTarget) {
+                return "rgba(255, 255, 255, 0.05)";
+            }
+            return themeColor;
+        },
+        [activePandemic.themeColor, activePandemicId, getFeatureCountryInfo],
+    );
+
+    const getPolygonLabel = useCallback(
+        (feat: GeoJsonFeature) => {
+            const { iso2, iso3 } = getFeatureCountryInfo(feat);
+            const interaction =
+                getCountryInteraction(activePandemicId, iso2) ||
+                getCountryInteraction(activePandemicId, iso3);
+            if (!interaction) return ""; // Unregistered: no tooltip
+
+            const tc = activePandemic.themeColor;
+
+            if (interaction.type === "epicenter") {
+                const regionColor = interaction.epicenter?.beaconColor || tc;
+                const sectorCode =
+                    interaction.epicenter?.sectorCode ||
+                    `SECTOR // ${interaction.code}`;
+                const name =
+                    interaction.epicenter?.name[currentLocale] ||
+                    interaction.epicenter?.name.en ||
+                    interaction.code;
+                return `
+              <div style="
+                display: inline-flex;
+                align-items: center;
+                gap: 7px;
+                background: rgba(5, 7, 15, 0.95);
+                border: 1px solid ${regionColor};
+                border-radius: 4px;
+                padding: 5px 10px;
+                font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+                font-size: 11px;
+                font-weight: 700;
+                letter-spacing: 0.08em;
+                color: #ffffff;
+                box-shadow: 0 0 16px ${regionColor}88;
+                pointer-events: none;
+                white-space: nowrap;
+              ">
+                <span style="display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: ${regionColor}; box-shadow: 0 0 8px ${regionColor};"></span>
+                <span style="color: ${regionColor};">[ ${sectorCode} // ${name.toUpperCase()} ]</span>
+              </div>
+            `;
+            }
+
+            // Tier-2 Surveillance
+            const survName =
+                interaction.surveillance?.name[currentLocale] ||
+                interaction.surveillance?.name.en ||
+                interaction.code;
+            return `
+              <div style="
+                display: inline-flex;
+                align-items: center;
+                gap: 7px;
+                background: rgba(5, 7, 15, 0.95);
+                border: 1px solid ${tc}80;
+                border-radius: 4px;
+                padding: 5px 10px;
+                font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+                font-size: 11px;
+                font-weight: 700;
+                letter-spacing: 0.08em;
+                color: #ffffff;
+                box-shadow: 0 0 12px ${tc}50;
+                pointer-events: none;
+                white-space: nowrap;
+              ">
+                <span style="display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: ${tc};"></span>
+                <span style="color: #e2e8f0;">[ SURVEILLANCE // ${survName.toUpperCase()} ]</span>
+              </div>
+            `;
+        },
+        [
+            activePandemic.themeColor,
+            activePandemicId,
+            currentLocale,
+            getFeatureCountryInfo,
+        ],
     );
 
     // Intelligent Idle UX timer handler
@@ -353,45 +582,40 @@ const GlobeViewerInner: React.FC = () => {
         (record: GlobalExtremeRecord) => {
             resetIdleTimer();
             const coords = record.coordinates;
-            if (coords && globeInstanceRef.current) {
-                globeInstanceRef.current.pointOfView(
-                    {
-                        lat: coords.lat,
-                        lng: coords.lng,
-                        altitude: 1.35,
-                    },
-                    1400,
-                );
-            }
-
             const epi = checkIsEpicenter(record.iso2, record.iso2);
             if (epi) {
-                setTacticalHUD({
-                    isOpen: true,
-                    epicenterData: epi,
-                });
+                openDossierJourney(
+                    epi.code,
+                    coords
+                        ? {
+                              lat: coords.lat,
+                              lng: coords.lng,
+                              altitude: 1.15,
+                          }
+                        : epi.coordinates,
+                );
             } else {
-                const survData = surveillanceData[record.iso2] || {
-                    iso2: record.iso2,
-                    name: record.countryName,
-                    continent: "Global",
-                    confirmedCases: 1250000,
-                    fatalities: 18400,
-                    recoveryRate: "98.5%",
-                    peakWave: {
-                        id: activePandemic.eraLabel,
-                        en: activePandemic.eraLabel,
-                    },
-                };
-                setSurveillanceModal({
-                    isOpen: true,
-                    data: survData,
-                });
+                const survData =
+                    surveillanceData[record.iso2] ||
+                    surveillanceData[record.iso2.toUpperCase()];
+                if (survData) {
+                    openSurveillanceModal(
+                        survData,
+                        coords
+                            ? {
+                                  lat: coords.lat,
+                                  lng: coords.lng,
+                                  altitude: 1.35,
+                              }
+                            : undefined,
+                    );
+                }
             }
         },
         [
-            activePandemic.eraLabel,
             checkIsEpicenter,
+            openDossierJourney,
+            openSurveillanceModal,
             resetIdleTimer,
             surveillanceData,
         ],
@@ -436,121 +660,6 @@ const GlobeViewerInner: React.FC = () => {
             if (!isMounted || !containerRef.current) return;
             geoDataRef.current = geoData;
 
-            // Build initial rings & points for active pandemic
-            const epicenters = getEpicentersForPandemic(activePandemicId);
-            const epicenterRings: GlobeRing[] = Object.values(epicenters).map(
-                (e) => ({
-                    lat: e.coordinates.lat,
-                    lng: e.coordinates.lng,
-                    maxR: 4.8,
-                    propagationSpeed: 2.2,
-                    repeatPeriod: 1400,
-                    color: e.beaconColor,
-                }),
-            );
-
-            const pointsData: GlobePoint[] = [];
-            Object.values(epicenters).forEach((e) => {
-                pointsData.push({
-                    lat: e.coordinates.lat,
-                    lng: e.coordinates.lng,
-                    altitude: 0.05,
-                    radius: 0.6,
-                    color: e.beaconColor,
-                    isEpicenter: true,
-                    epicenter: e,
-                });
-            });
-
-            geoData.features.forEach((feat) => {
-                const { iso2, iso3 } = getFeatureCountryInfo(feat);
-                if (epicenters[iso2] || epicenters[iso3]) return;
-
-                const centroid = getFeatureCentroid(feat);
-                if (centroid) {
-                    pointsData.push({
-                        lat: centroid.lat,
-                        lng: centroid.lng,
-                        altitude: 0.012,
-                        radius: 0.22,
-                        color: activePandemic.atmosphereHex,
-                        isEpicenter: false,
-                        feature: feat,
-                    });
-                }
-            });
-
-            const getPolygonAltitude = (
-                f: GeoJsonFeature,
-                targetFeat: GeoJsonFeature | null,
-            ) => {
-                const { iso2, iso3 } = getFeatureCountryInfo(f);
-                const isEpi = Boolean(epicenters[iso2] || epicenters[iso3]);
-                const isTarget = !!targetFeat && f === targetFeat;
-                if (isEpi) return isTarget ? 0.08 : 0.035;
-                return isTarget ? 0.028 : 0.008;
-            };
-
-            const getPolygonCapColor = (
-                f: GeoJsonFeature,
-                targetFeat: GeoJsonFeature | null,
-            ) => {
-                const { iso2, iso3 } = getFeatureCountryInfo(f);
-                const epi = epicenters[iso2] || epicenters[iso3];
-                const isTarget = !!targetFeat && f === targetFeat;
-
-                if (epi) {
-                    if (isTarget) {
-                        return epi.beaconColor;
-                    }
-                    return "rgba(45, 10, 20, 0.92)";
-                }
-
-                if (isTarget) {
-                    return "rgba(56, 189, 248, 0.85)";
-                }
-                return "rgba(30, 41, 59, 0.72)";
-            };
-
-            const getPolygonSideColor = (
-                f: GeoJsonFeature,
-                targetFeat: GeoJsonFeature | null,
-            ) => {
-                const { iso2, iso3 } = getFeatureCountryInfo(f);
-                const epi = epicenters[iso2] || epicenters[iso3];
-                const isTarget = !!targetFeat && f === targetFeat;
-
-                if (epi) {
-                    return isTarget
-                        ? `${epi.beaconColor}dd`
-                        : "rgba(185, 28, 28, 0.4)";
-                }
-
-                if (isTarget) {
-                    return "rgba(56, 189, 248, 0.6)";
-                }
-                return "rgba(15, 23, 42, 0.35)";
-            };
-
-            const getPolygonStrokeColor = (
-                f: GeoJsonFeature,
-                targetFeat: GeoJsonFeature | null,
-            ) => {
-                const { iso2, iso3 } = getFeatureCountryInfo(f);
-                const epi = epicenters[iso2] || epicenters[iso3];
-                const isTarget = !!targetFeat && f === targetFeat;
-
-                if (epi) {
-                    if (isTarget) return "#ffffff";
-                    return epi.beaconColor || activePandemic.atmosphereHex;
-                }
-
-                if (isTarget) {
-                    return "rgba(56, 189, 248, 0.95)";
-                }
-                return "rgba(71, 85, 105, 0.55)";
-            };
-
             // Instantiate Globe
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             const globe = (GlobeFactory as any)()(containerRef.current)
@@ -564,48 +673,10 @@ const GlobeViewerInner: React.FC = () => {
                 .bumpImageUrl(
                     "//unpkg.com/three-globe/example/img/earth-topology.png",
                 )
-                .ringsData(epicenterRings)
-                .ringLat("lat")
-                .ringLng("lng")
-                // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                .ringColor((d: any) => (t: number) => {
-                    const hex = d.color || "#ef4444";
-                    const r = parseInt(hex.slice(1, 3), 16) || 239;
-                    const g = parseInt(hex.slice(3, 5), 16) || 68;
-                    const b = parseInt(hex.slice(5, 7), 16) || 68;
-                    return `rgba(${r}, ${g}, ${b}, ${Math.max(0, 1 - t)})`;
-                })
-                .ringMaxRadius("maxR")
-                .ringPropagationSpeed("propagationSpeed")
-                .ringRepeatPeriod("repeatPeriod")
-                .pointsData(pointsData)
-                .pointLat("lat")
-                .pointLng("lng")
-                .pointAltitude("altitude")
-                .pointRadius("radius")
-                .pointColor("color")
-                // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                .onPointClick((point: any) => {
-                    if (point.isEpicenter && point.epicenter) {
-                        handleSelectCountry(null, point.epicenter);
-                    } else if (point.feature) {
-                        handleSelectCountry(point.feature);
-                    }
-                })
-                // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                .onPointHover((point: any) => {
-                    if (point) {
-                        document.body.style.cursor = "pointer";
-                        if (containerRef.current) {
-                            containerRef.current.style.cursor = "pointer";
-                        }
-                    } else {
-                        document.body.style.cursor = "default";
-                        if (containerRef.current) {
-                            containerRef.current.style.cursor = "grab";
-                        }
-                    }
-                })
+                .lineHoverPrecision(0.08)
+                // Purge radius rings and point dots since regions already have colored polygons
+                .ringsData([])
+                .pointsData([])
                 .polygonsData(geoData.features)
                 .polygonsTransitionDuration(180)
                 .polygonAltitude((feat: GeoJsonFeature) =>
@@ -620,74 +691,37 @@ const GlobeViewerInner: React.FC = () => {
                 .polygonStrokeColor((feat: GeoJsonFeature) =>
                     getPolygonStrokeColor(feat, null),
                 )
-                .polygonLabel((feat: GeoJsonFeature) => {
-                    const { iso2, iso3 } = getFeatureCountryInfo(feat);
-                    const code = iso2 || iso3 || "XX";
-                    const epi = epicenters[iso2] || epicenters[iso3];
-
-                    if (epi) {
-                        const bc =
-                            epi.beaconColor || activePandemic.atmosphereHex;
-                        return `
-              <div style="
-                display: inline-flex;
-                align-items: center;
-                gap: 6px;
-                background: rgba(5, 7, 15, 0.94);
-                border: 1px solid ${bc};
-                border-radius: 4px;
-                padding: 4px 9px;
-                font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-                font-size: 11px;
-                font-weight: 700;
-                letter-spacing: 0.08em;
-                color: ${bc};
-                box-shadow: 0 0 14px ${bc}80;
-                pointer-events: none;
-                white-space: nowrap;
-              ">
-                <span style="display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: ${bc};"></span>
-                <span>[ ISO: ${code} // ${activePandemic.status === "classified_archive" ? "ARCHIVE ENCRYPTED" : "CLICK FOR DOSSIER"} ]</span>
-              </div>
-            `;
-                    }
-
-                    return `
-            <div style="
-              display: inline-flex;
-              align-items: center;
-              gap: 6px;
-              background: rgba(5, 7, 15, 0.94);
-              border: 1px solid #38bdf8;
-              border-radius: 4px;
-              padding: 4px 9px;
-              font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-              font-size: 11px;
-              font-weight: 700;
-              letter-spacing: 0.08em;
-              color: #38bdf8;
-              box-shadow: 0 0 14px rgba(56, 189, 248, 0.45);
-              pointer-events: none;
-              white-space: nowrap;
-            ">
-              <span style="display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #38bdf8;"></span>
-              <span>[ ISO: ${code} // CLICK FOR STATS ]</span>
-            </div>
-          `;
-                })
+                .polygonLabel((feat: GeoJsonFeature) => getPolygonLabel(feat))
                 .onPolygonHover((feat: GeoJsonFeature | null) => {
+                    let activeFeat: GeoJsonFeature | null = null;
                     if (feat) {
-                        document.body.style.cursor = "pointer";
-                        if (containerRef.current) {
-                            containerRef.current.style.cursor = "pointer";
+                        const { iso2, iso3 } = getFeatureCountryInfo(feat);
+                        const interaction =
+                            getCountryInteraction(activePandemicId, iso2) ||
+                            getCountryInteraction(activePandemicId, iso3);
+
+                        if (interaction) {
+                            activeFeat = feat;
+                            document.body.style.cursor = "pointer";
+                            if (containerRef.current) {
+                                containerRef.current.style.cursor = "pointer";
+                            }
+                            const name =
+                                interaction.epicenter?.name[currentLocale] ||
+                                interaction.surveillance?.name[currentLocale] ||
+                                interaction.code;
+                            setHoveredCountryName(name);
+                            setHoveredIsEpicenter(
+                                interaction.type === "epicenter",
+                            );
+                        } else {
+                            document.body.style.cursor = "default";
+                            if (containerRef.current) {
+                                containerRef.current.style.cursor = "grab";
+                            }
+                            setHoveredCountryName(null);
+                            setHoveredIsEpicenter(false);
                         }
-                        const { iso2, iso3, name } =
-                            getFeatureCountryInfo(feat);
-                        const isEpi = Boolean(
-                            epicenters[iso2] || epicenters[iso3],
-                        );
-                        setHoveredCountryName(name);
-                        setHoveredIsEpicenter(isEpi);
                     } else {
                         document.body.style.cursor = "default";
                         if (containerRef.current) {
@@ -699,20 +733,26 @@ const GlobeViewerInner: React.FC = () => {
 
                     globe
                         .polygonAltitude((f: GeoJsonFeature) =>
-                            getPolygonAltitude(f, feat),
+                            getPolygonAltitude(f, activeFeat),
                         )
                         .polygonCapColor((f: GeoJsonFeature) =>
-                            getPolygonCapColor(f, feat),
+                            getPolygonCapColor(f, activeFeat),
                         )
                         .polygonSideColor((f: GeoJsonFeature) =>
-                            getPolygonSideColor(f, feat),
+                            getPolygonSideColor(f, activeFeat),
                         )
                         .polygonStrokeColor((f: GeoJsonFeature) =>
-                            getPolygonStrokeColor(f, feat),
+                            getPolygonStrokeColor(f, activeFeat),
                         );
                 })
                 .onPolygonClick((feat: GeoJsonFeature) => {
                     handleSelectCountry(feat);
+                })
+                .onGlobeClick(() => {
+                    // Gracefully dismiss open HUDs/modals on clicking unmonitored areas
+                    setTacticalHUD({ isOpen: false, epicenterData: null });
+                    setSurveillanceModal({ isOpen: false, data: null });
+                    setIsInfoDrawerOpen(false);
                 });
 
             // Set initial camera view
@@ -774,6 +814,7 @@ const GlobeViewerInner: React.FC = () => {
                 globeInstanceRef.current._destructor();
             }
         };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [
         activePandemic,
         activePandemicId,
@@ -795,62 +836,58 @@ const GlobeViewerInner: React.FC = () => {
         // 1. Update atmosphere color (Cyan: #0e7490, Amber: #b45309, Crimson: #881337)
         globe.atmosphereColor(activePandemic.atmosphereHex);
 
-        // 2. Re-target epicenters & build rings for current pandemic
-        const epicenters = getEpicentersForPandemic(activePandemicId);
-        const newRings: GlobeRing[] = Object.values(epicenters).map((e) => ({
-            lat: e.coordinates.lat,
-            lng: e.coordinates.lng,
-            maxR: 4.8,
-            propagationSpeed: 2.2,
-            repeatPeriod: 1400,
-            color: e.beaconColor,
-        }));
-        globe.ringsData(newRings);
+        // 2. Clear rings & points since all primary epicenters have colored polygons
+        globe.ringsData([]);
+        globe.pointsData([]);
 
-        // 3. Rebuild pointsData
-        const newPoints: GlobePoint[] = [];
-        Object.values(epicenters).forEach((e) => {
-            newPoints.push({
-                lat: e.coordinates.lat,
-                lng: e.coordinates.lng,
-                altitude: 0.05,
-                radius: 0.6,
-                color: e.beaconColor,
-                isEpicenter: true,
-                epicenter: e,
-            });
-        });
+        // 4. Refresh polygon styling and labels for the new era
+        globe
+            .polygonAltitude((f: GeoJsonFeature) => getPolygonAltitude(f, null))
+            .polygonCapColor((f: GeoJsonFeature) => getPolygonCapColor(f, null))
+            .polygonSideColor((f: GeoJsonFeature) =>
+                getPolygonSideColor(f, null),
+            )
+            .polygonStrokeColor((f: GeoJsonFeature) =>
+                getPolygonStrokeColor(f, null),
+            )
+            .polygonLabel((f: GeoJsonFeature) => getPolygonLabel(f));
 
-        if (geoDataRef.current) {
-            geoDataRef.current.features.forEach((feat) => {
-                const { iso2, iso3 } = getFeatureCountryInfo(feat);
-                if (checkIsEpicenter(iso2, iso3)) return;
-
-                const centroid = getFeatureCentroid(feat);
-                if (centroid) {
-                    newPoints.push({
-                        lat: centroid.lat,
-                        lng: centroid.lng,
-                        altitude: 0.012,
-                        radius: 0.22,
-                        color: activePandemic.atmosphereHex,
-                        isEpicenter: false,
-                        feature: feat,
-                    });
+        // 5. Smooth camera orbit reset or URL sector fly-to
+        let targetedSector = false;
+        if (typeof window !== "undefined") {
+            const params = new URLSearchParams(window.location.search);
+            const sectorParam = params.get("sector");
+            if (sectorParam) {
+                const interaction = getCountryInteraction(
+                    activePandemicId,
+                    sectorParam,
+                );
+                if (
+                    interaction?.type === "epicenter" &&
+                    interaction.epicenter
+                ) {
+                    globe.pointOfView(interaction.epicenter.coordinates, 1400);
+                    targetedSector = true;
                 }
-            });
+            }
         }
-        globe.pointsData(newPoints);
 
-        // 4. Smooth camera orbit reset
-        const cam = activePandemic.defaultCameraPosition || [10, 100, 2.3];
-        globe.pointOfView(resolveCameraPOV(cam), 1600);
+        if (!targetedSector) {
+            const cam = activePandemic.defaultCameraPosition || [10, 100, 2.3];
+            globe.pointOfView(resolveCameraPOV(cam), 1600);
+        }
     }, [
         activePandemic,
         activePandemicId,
         checkIsEpicenter,
         getFeatureCentroid,
         getFeatureCountryInfo,
+        getPolygonAltitude,
+        getPolygonCapColor,
+        getPolygonLabel,
+        getPolygonSideColor,
+        getPolygonStrokeColor,
+        openDossierJourney,
     ]);
 
     return (
@@ -969,7 +1006,8 @@ const GlobeViewerInner: React.FC = () => {
                     setTacticalHUD({ isOpen: false, epicenterData: null })
                 }
                 epicenterData={tacticalHUD.epicenterData}
-                onInitializeDossier={handleInitializeDossier}
+                onInitializeDossier={(code) => openDossierJourney(code)}
+                pandemicId={activePandemicId}
             />
 
             {/* Compact Tactical HUD Modal (Tier 2 Secondary Surveillance) */}
@@ -980,6 +1018,9 @@ const GlobeViewerInner: React.FC = () => {
                 }
                 data={surveillanceModal.data}
             />
+
+            {/* 5-Epoch Context-Aware Pathogen Hologram Loader */}
+            <PathogenHoloLoader pandemicId={activePandemicId} />
         </div>
     );
 };

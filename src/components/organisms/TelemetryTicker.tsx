@@ -51,8 +51,9 @@ export const TelemetryTicker: React.FC<TelemetryTickerProps> = ({
                         <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-400" />
                     </span>
                     <span className="text-[9.5px] sm:text-[11px] font-bold tracking-widest text-amber-300 uppercase truncate">
-                        [● SURVEILLANCE TELEMETRY // ERA:{" "}
-                        {pandemicDisplayName.toUpperCase()} ARCHIVE ACTIVE]
+                        {locale === "id"
+                            ? `[● TELEMETRI SURVEILANS // ERA: ${pandemicDisplayName.toUpperCase()} ARSIP AKTIF]`
+                            : `[● SURVEILLANCE TELEMETRY // ERA: ${pandemicDisplayName.toUpperCase()} ARCHIVE ACTIVE]`}
                     </span>
                 </div>
             </div>
@@ -62,6 +63,7 @@ export const TelemetryTicker: React.FC<TelemetryTickerProps> = ({
     const currentRecord = effectiveRecords[currentIndex] || effectiveRecords[0];
     const countryName = t(currentRecord.countryName, locale);
     const label = t(currentRecord.label, locale);
+    const value = t(currentRecord.value, locale);
 
     // Dynamic accent color depending on metric type
     const getMetricAccent = (type: GlobalExtremeRecord["metricType"]) => {
@@ -104,8 +106,16 @@ export const TelemetryTicker: React.FC<TelemetryTickerProps> = ({
         >
             <button
                 onClick={() => onSelectRecord(currentRecord)}
-                title="Click to locate on 3D Globe"
-                aria-label={`Locate ${countryName} on Globe`}
+                title={
+                    locale === "id"
+                        ? "Klik untuk memfokuskan pada Bola Dunia 3D"
+                        : "Click to locate on 3D Globe"
+                }
+                aria-label={
+                    locale === "id"
+                        ? `Fokuskan ${countryName} di Bola Dunia`
+                        : `Locate ${countryName} on Globe`
+                }
                 className="group relative bg-black/85 border border-cyan-500/35 hover:border-cyan-400/80 text-[10.5px] sm:text-xs font-mono text-neutral-300 px-2.5 py-1 sm:px-4 sm:py-2 rounded-full backdrop-blur-md flex items-center gap-2 sm:gap-3.5 shadow-[0_0_20px_rgba(0,0,0,0.7)] hover:shadow-[0_0_25px_rgba(6,182,212,0.35)] transition-all duration-300 cursor-pointer max-w-[90vw] sm:max-w-2xl overflow-hidden active:scale-[0.98]"
             >
                 {/* Status Indicator Light */}
@@ -115,7 +125,9 @@ export const TelemetryTicker: React.FC<TelemetryTickerProps> = ({
                         <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-400" />
                     </span>
                     <span className="text-[9.5px] sm:text-[11px] font-bold tracking-widest text-cyan-400 uppercase hidden sm:inline">
-                        [● LIVE TELEMETRY]
+                        {locale === "id"
+                            ? "[● TELEMETRI LANGSUNG]"
+                            : "[● LIVE TELEMETRY]"}
                     </span>
                 </div>
 
@@ -150,7 +162,7 @@ export const TelemetryTicker: React.FC<TelemetryTickerProps> = ({
                             <span
                                 className={`font-black tracking-tight shrink-0 ${accent.value}`}
                             >
-                                {currentRecord.value}
+                                {value}
                             </span>
                         </motion.div>
                     </AnimatePresence>
@@ -159,7 +171,9 @@ export const TelemetryTicker: React.FC<TelemetryTickerProps> = ({
                 {/* Locate Action Prompt */}
                 <div className="hidden md:flex items-center gap-1 shrink-0 text-[10px] text-cyan-400/70 group-hover:text-cyan-300 transition-colors pl-1 border-l border-neutral-800">
                     <Crosshair className="w-3 h-3 group-hover:rotate-45 transition-transform duration-300" />
-                    <span className="tracking-wider">[LOCATE]</span>
+                    <span className="tracking-wider">
+                        {locale === "id" ? "[LOKASI]" : "[LOCATE]"}
+                    </span>
                 </div>
             </button>
         </div>
