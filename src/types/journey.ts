@@ -52,11 +52,16 @@ export interface CountrySurveillanceData {
     iso2: string;
     name: LocalizedContent;
     continent: string;
-    confirmedCases: number;
-    fatalities: number;
-    recoveryRate: string;
-    peakWave: LocalizedContent;
+    confirmedCases?: number | string;
+    fatalities?: number | string;
+    recoveryRate?: string;
+    peakWave?: LocalizedContent;
     statusBadge?: LocalizedContent;
+    regionName?: LocalizedContent;
+    coordinates?: [number, number];
+    fatalitiesEstimate?: string;
+    peakPeriod?: string;
+    notes?: LocalizedContent;
 }
 
 export interface GlobalExtremeRecord {

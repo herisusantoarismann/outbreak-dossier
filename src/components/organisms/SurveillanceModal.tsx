@@ -41,8 +41,14 @@ export const SurveillanceModal: React.FC<SurveillanceModalProps> = ({
 
     if (!isOpen || !data) return null;
 
-    const countryName = t(data.name, locale);
-    const peakWaveText = t(data.peakWave, locale);
+    const countryName = data.name
+        ? t(data.name, locale)
+        : data.regionName
+          ? t(data.regionName, locale)
+          : data.iso2;
+    const peakWaveText = data.peakWave
+        ? t(data.peakWave, locale)
+        : data.peakPeriod || "—";
 
     return (
         <AnimatePresence>
@@ -134,8 +140,10 @@ export const SurveillanceModal: React.FC<SurveillanceModalProps> = ({
                                         </span>
                                         <Users className="w-3.5 h-3.5 text-neutral-500" />
                                     </div>
-                                    <div className="text-base sm:text-lg font-mono font-black text-neutral-100 tracking-tight">
-                                        {data.confirmedCases.toLocaleString()}
+                                    <div className="text-base sm:text-lg font-mono font-black text-neutral-100 tracking-tight truncate">
+                                        {typeof data.confirmedCases === "number"
+                                            ? data.confirmedCases.toLocaleString()
+                                            : (data.confirmedCases ?? "—")}
                                     </div>
                                     <div className="text-[8px] font-mono text-neutral-500 mt-0.5">
                                         {locale === "id"
@@ -154,13 +162,16 @@ export const SurveillanceModal: React.FC<SurveillanceModalProps> = ({
                                         </span>
                                         <Skull className="w-3.5 h-3.5 text-red-500/80" />
                                     </div>
-                                    <div className="text-base sm:text-lg font-mono font-black text-red-400 tracking-tight">
-                                        {data.fatalities.toLocaleString()}
+                                    <div className="text-base sm:text-lg font-mono font-black text-red-400 tracking-tight truncate">
+                                        {data.fatalitiesEstimate ||
+                                            (typeof data.fatalities === "number"
+                                                ? data.fatalities.toLocaleString()
+                                                : (data.fatalities ?? "—"))}
                                     </div>
                                     <div className="text-[8px] font-mono text-neutral-500 mt-0.5">
                                         {locale === "id"
-                                            ? "Atribusi Resmi"
-                                            : "Official Attributed"}
+                                            ? "Estimasi Fatalitas"
+                                            : "Fatalities Estimate"}
                                     </div>
                                 </div>
 
@@ -175,7 +186,7 @@ export const SurveillanceModal: React.FC<SurveillanceModalProps> = ({
                                         <HeartPulse className="w-3.5 h-3.5 text-emerald-400" />
                                     </div>
                                     <div className="text-base sm:text-lg font-mono font-black text-emerald-400 tracking-tight">
-                                        {data.recoveryRate}
+                                        {data.recoveryRate ?? "—"}
                                     </div>
                                     <div className="text-[8px] font-mono text-neutral-500 mt-0.5">
                                         {locale === "id"
@@ -204,6 +215,18 @@ export const SurveillanceModal: React.FC<SurveillanceModalProps> = ({
                                     </div>
                                 </div>
                             </div>
+
+                            {/* Historical Tactical Notes (if available) */}
+                            {data.notes && (
+                                <div className="p-3 bg-neutral-900/60 border border-neutral-800/80 rounded-lg font-mono text-[11px] text-neutral-300 leading-relaxed">
+                                    <span className="text-red-400 font-bold uppercase tracking-wider block text-[9px] mb-1">
+                                        {locale === "id"
+                                            ? "// CATATAN HISTORIS REGIONAL"
+                                            : "// REGIONAL HISTORICAL CHRONICLE"}
+                                    </span>
+                                    {t(data.notes, locale)}
+                                </div>
+                            )}
 
                             {/* Dismiss / Close Action Button */}
                             <div className="pt-2">
