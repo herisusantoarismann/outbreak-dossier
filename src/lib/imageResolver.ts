@@ -21,22 +21,26 @@ export function resolveImagePath(
         return src;
     }
 
-    // Already correctly namespaced: /assets/images/covid-19/...
-    if (src.startsWith(`/assets/images/${pandemicSlug}/`)) {
-        return src;
-    }
-
-    // Migrate legacy /assets/images/XX... paths to namespaced subdirectories
+    // If already fully namespaced under /assets/images/ (e.g. /assets/images/plague-of-justinian-541/cpx/...
+    // or /assets/images/covid-19/id/...)
     if (src.startsWith("/assets/images/")) {
-        let filename = src.replace("/assets/images/", "");
+        const subpath = src.slice("/assets/images/".length);
+        const parts = subpath.split("/");
 
+        // Path already contains a namespaced directory structure ([pandemic]/[sector]/[file], etc.)
+        if (parts.length >= 2) {
+            return src;
+        }
+
+        // Migrate legacy flat filenames (e.g. /assets/images/id-01.jpg, /assets/images/01.jpg)
+        let filename = parts[0];
         if (filename.startsWith("cn-") || filename.startsWith("cn/")) {
-            filename = filename.replace(/^cn\//, "");
+            filename = filename.replace(/^cn[-/]/, "");
             return `/assets/images/${pandemicSlug}/cn/${filename}`;
         }
 
         if (filename.startsWith("id-") || filename.startsWith("id/")) {
-            filename = filename.replace(/^id\//, "");
+            filename = filename.replace(/^id[-/]/, "");
             return `/assets/images/${pandemicSlug}/id/${filename}`;
         }
 

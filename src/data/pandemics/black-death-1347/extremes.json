@@ -11,7 +11,10 @@
             "id": "Italia (Firenze)",
             "en": "Italy (Florence)"
         },
-        "value": "~60% - 75%",
+        "value": {
+            "id": "~60% – 75%",
+            "en": "~60% – 75%"
+        },
         "context": {
             "id": "Sekitar 60.000 dari 80.000 penduduk tewas dalam kurun waktu 4 bulan; didokumentasikan oleh Giovanni Boccaccio.",
             "en": "Over 60,000 of 80,000 citizens perished in 4 months, chronicled vividly by Giovanni Boccaccio in the Decameron."
@@ -30,7 +33,10 @@
             "id": "Italia (Sisilia / Messina)",
             "en": "Italy (Messina)"
         },
-        "value": "12 Galai Genoa",
+        "value": {
+            "id": "12 Galai Genoa",
+            "en": "12 Genoese Galleys"
+        },
         "context": {
             "id": "Oktober 1347: 12 kapal dagang Genoa merapat di dermaga Sisilia membawa kru sekarat dan menyebarkan kutu pes.",
             "en": "October 1347: 12 Genoese merchant galleys docked in Sicily carrying dying crews and plague fleas."
@@ -49,7 +55,10 @@
             "id": "Prancis (Avignon)",
             "en": "France (Avignon)"
         },
-        "value": "11.000 Jenazah / Pekan",
+        "value": {
+            "id": "11.000 Jenazah / Pekan",
+            "en": "11,000 Corpses / Week"
+        },
         "context": {
             "id": "Paus Klemens VI menyucikan Sungai Rhône agar jenazah korban pes dapat dibuang langsung karena pemakaman kota penuh.",
             "en": "Pope Clement VI consecrated the Rhône River so bodies could be buried immediately as cemeteries overflowed."
@@ -68,7 +77,10 @@
             "id": "Inggris (London)",
             "en": "United Kingdom (London)"
         },
-        "value": "~50% Total Populasi",
+        "value": {
+            "id": "~50% Total Populasi",
+            "en": "~50% Total Population"
+        },
         "context": {
             "id": "Musim gugur 1348 hingga 1350: Lebih dari 30.000 warga London dimakamkan di lubang massal Smithfield.",
             "en": "Autumn 1348 to 1350: Over 30,000 Londoners buried in emergency mass plague pits across East Smithfield."
@@ -87,7 +99,10 @@
             "id": "Tiongkok (Jalur Sutra)",
             "en": "China (Silk Road)"
         },
-        "value": "Trans-Eurasia",
+        "value": {
+            "id": "Trans-Eurasia",
+            "en": "Trans-Eurasia"
+        },
         "context": {
             "id": "Transmisi dari koloni marmot liar Asia Tengah menyeberang sepanjang pos perdagangan Kekaisaran Mongol.",
             "en": "Zoonotic reservoir in Central Asian steppe marmots propagated across Pax Mongolica trade arteries."

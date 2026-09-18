@@ -12,7 +12,10 @@
             "id": "Konstantinopel (Bizantium)",
             "en": "Constantinople (Byzantine Empire)"
         },
-        "value": "5.000 – 10.000 Jiwa / Hari",
+        "value": {
+            "id": "5.000 – 10.000 Jiwa / Hari",
+            "en": "5,000 – 10,000 Souls / Day"
+        },
         "context": {
             "id": "Pencatatan resmi prefek kota musim panas 542 M sebelum sistem pencatatan jenazah runtuh total.",
             "en": "Official tally recorded by imperial city magistrates in Summer 542 AD before civil registers collapsed."
@@ -35,7 +38,10 @@
             "id": "Pelusium (Delta Nil, Mesir)",
             "en": "Pelusium (Nile Delta, Egypt)"
         },
-        "value": "100% Armada Biji-bijian Terpapar",
+        "value": {
+            "id": "100% Armada Biji-bijian Terpapar",
+            "en": "100% Grain Fleets Exposed"
+        },
         "context": {
             "id": "Lumbung gandum Pelusium menjadi gerbang masuk tikus kapal pembawa pes menuju seluruh dermaga Mediterania.",
             "en": "Pelusium's imperial granaries became the vector funnel launching infected shipboard rodents across maritime trade lanes."
@@ -58,7 +64,10 @@
             "id": "Kekaisaran Bizantium",
             "en": "Byzantine Empire"
         },
-        "value": "-75% Basis Pajak Agrikultur",
+        "value": {
+            "id": "-75% Basis Pajak Agrikultur",
+            "en": "-75% Agricultural Tax Base"
+        },
         "context": {
             "id": "Lahan terbengkalai tanpa petani memicu hiperinflasi gandum dan pemotongan drastis anggaran garnisun legiun.",
             "en": "Widespread abandonment of tillable estates triggered grain hyperinflation and abrupt pay cuts across all imperial legions."
@@ -81,7 +90,10 @@
             "id": "Front Perbatasan Persia (Sasaniyah)",
             "en": "Sasanian Persian Frontier"
         },
-        "value": "Perang Dua Imperium Terhenti",
+        "value": {
+            "id": "Perang Dua Imperium Terhenti",
+            "en": "Imperial War Halted"
+        },
         "context": {
             "id": "Raja Khosrow I terpaksa menarik mundur tentara Persia dari wilayah Romawi setelah garnisun mereka ikut binasa.",
             "en": "King Khosrow I abruptly pulled Persian armies back from Syrian borderlands after plague eviscerated front-line divisions."

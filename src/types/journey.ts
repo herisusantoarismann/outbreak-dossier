@@ -13,11 +13,15 @@ export interface LocalizedContent {
 }
 
 export interface VirusProfile {
-    code: string;
-    mutationType: LocalizedContent;
-    r0: string;
-    threatLevel: LocalizedContent;
-    clinicalTarget: LocalizedContent;
+    code?: string;
+    mutationType?: LocalizedContent;
+    r0?: string;
+    threatLevel?: LocalizedContent;
+    clinicalTarget?: LocalizedContent;
+    agent?: string;
+    vector?: string;
+    incubation?: string;
+    transmission?: string;
 }
 
 export interface SocietalImpact {
@@ -28,11 +32,11 @@ export interface SocietalImpact {
 
 export interface Chapter {
     id: string;
-    chapterNumber: string;
+    chapterNumber: string | number;
     type: "standard" | "milestone" | "side_story";
     title: LocalizedContent;
     date: LocalizedContent;
-    strain: string;
+    strain?: string;
     flash: LocalizedContent;
     virusProfile: VirusProfile;
     societalImpact?: SocietalImpact;
@@ -62,7 +66,7 @@ export interface GlobalExtremeRecord {
     metricType: "mortality" | "survival" | "containment" | "density";
     label: LocalizedContent;
     countryName: LocalizedContent;
-    value: string;
+    value: LocalizedContent | string;
     context: LocalizedContent;
     coordinates?: {
         lat: number;

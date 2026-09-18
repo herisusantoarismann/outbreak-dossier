@@ -1,5 +1,11 @@
-import { Chapter } from "@/types/journey";
+import { Chapter, CountrySurveillanceData } from "@/types/journey";
 import { EPICENTER_REGISTRY, EpicenterMetadata } from "./countriesConfig";
+
+import justinianSurveillance from "@/data/pandemics/plague-of-justinian-541/surveillance.json";
+import blackDeathSurveillance from "@/data/pandemics/black-death-1347/surveillance.json";
+import choleraSurveillance from "@/data/pandemics/cholera-1817/surveillance.json";
+import spanishFluSurveillance from "@/data/pandemics/spanish-flu-1918/surveillance.json";
+import covidSurveillance from "@/data/pandemics/covid-19/global-surveillance.json";
 
 export interface ClinicalProfile {
     classification: {
@@ -60,6 +66,7 @@ export interface PandemicProfile {
     route?: string;
     baseYear?: number;
     epicenters?: string[];
+    primaryEpicenters?: string[];
     defaultCameraPosition?: [number, number, number];
     clinicalProfile?: ClinicalProfile;
 }
@@ -98,6 +105,7 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
         route: "/globe/plague-of-justinian-541",
         baseYear: 541,
         epicenters: ["CPX", "PEL", "SAS", "ROM"],
+        primaryEpicenters: ["CPX", "PEL", "SAS", "ROM"],
         defaultCameraPosition: [0.35, 1.2, 1.8],
         clinicalProfile: {
             classification: {
@@ -179,6 +187,7 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
         route: "/globe/black-death-1347",
         baseYear: 1347,
         epicenters: ["it", "fr", "gb", "cn"],
+        primaryEpicenters: ["IT", "FR", "GB", "CN"],
         defaultCameraPosition: [45, 15, 2.3],
         clinicalProfile: {
             classification: {
@@ -257,6 +266,7 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
         route: "/globe/cholera-1817",
         baseYear: 1817,
         epicenters: ["in", "bd", "id", "om"],
+        primaryEpicenters: ["IN", "BD", "ID", "OM"],
         defaultCameraPosition: [22, 88, 2.3],
         clinicalProfile: {
             classification: {
@@ -344,6 +354,7 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
         route: "/globe/spanish-flu-1918",
         baseYear: 1918,
         epicenters: ["us", "fr", "es", "gb"],
+        primaryEpicenters: ["US", "FR", "ES", "GB"],
         defaultCameraPosition: [40, -40, 2.3],
         clinicalProfile: {
             classification: {
@@ -428,6 +439,7 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
         route: "/globe/covid-19",
         baseYear: 2019,
         epicenters: ["id", "cn", "it", "us", "in"],
+        primaryEpicenters: ["ID", "US", "CN", "IN", "IT"],
         defaultCameraPosition: [10, 100, 2.3],
         clinicalProfile: {
             classification: {
@@ -484,6 +496,8 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
     },
 ];
 
+export const pandemics = PANDEMIC_REGISTRY;
+
 /**
  * Historical epicenters for 541 Plague of Justinian
  */
@@ -514,7 +528,7 @@ export const JUSTINIAN_EPICENTERS: Record<string, EpicenterMetadata> = {
         name: { id: "Mesir (Pelusium)", en: "Egypt (Pelusium)" },
         sectorCode: "SECTOR // EGY - PELUSIUM INGRESS",
         coordinates: { lat: 31.05, lng: 32.6, altitude: 1.05 },
-        beaconColor: "#a855f7",
+        beaconColor: "#eab308",
         status: {
             id: "ARSIP AKTIF // DIDEKLASIFIKASI",
             en: "ACTIVE DOSSIER // DECLASSIFIED",
@@ -534,7 +548,7 @@ export const JUSTINIAN_EPICENTERS: Record<string, EpicenterMetadata> = {
         },
         sectorCode: "SECTOR // SAS - CTESIPHON / MESOPOTAMIA",
         coordinates: { lat: 33.0936, lng: 44.5808, altitude: 1.05 },
-        beaconColor: "#a855f7",
+        beaconColor: "#ef4444",
         status: {
             id: "ARSIP AKTIF // DIDEKLASIFIKASI",
             en: "ACTIVE DOSSIER // DECLASSIFIED",
@@ -551,7 +565,7 @@ export const JUSTINIAN_EPICENTERS: Record<string, EpicenterMetadata> = {
         name: { id: "Italia (Roma / Ravenna)", en: "Italy (Rome / Ravenna)" },
         sectorCode: "SECTOR // ITA - RAVENNA EXARCHATE",
         coordinates: { lat: 41.8902, lng: 12.4922, altitude: 1.05 },
-        beaconColor: "#a855f7",
+        beaconColor: "#10b981",
         status: {
             id: "ARSIP AKTIF // DIDEKLASIFIKASI",
             en: "ACTIVE DOSSIER // DECLASSIFIED",
@@ -597,7 +611,7 @@ export const CHOLERA_1817_EPICENTERS: Record<string, EpicenterMetadata> = {
         },
         sectorCode: "SECTOR // IDN - BATAVIA HARBOR INGRESS",
         coordinates: { lat: -6.2088, lng: 106.8456, altitude: 1.05 },
-        beaconColor: "#10b981",
+        beaconColor: "#f97316",
         status: {
             id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
             en: "CLASSIFIED ARCHIVE // DRAFTING",
@@ -614,7 +628,7 @@ export const CHOLERA_1817_EPICENTERS: Record<string, EpicenterMetadata> = {
         name: { id: "Oman (Muskat)", en: "Oman (Muscat)" },
         sectorCode: "SECTOR // OMN - MUSCAT GULF TRANSIT",
         coordinates: { lat: 23.588, lng: 58.3829, altitude: 1.05 },
-        beaconColor: "#10b981",
+        beaconColor: "#eab308",
         status: {
             id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
             en: "CLASSIFIED ARCHIVE // DRAFTING",
@@ -631,7 +645,7 @@ export const CHOLERA_1817_EPICENTERS: Record<string, EpicenterMetadata> = {
         name: { id: "Persia (Bushehr)", en: "Persia (Bushehr)" },
         sectorCode: "SECTOR // IRN - BUSHEHR GULF HUB",
         coordinates: { lat: 28.9234, lng: 50.8385, altitude: 1.05 },
-        beaconColor: "#10b981",
+        beaconColor: "#06b6d4",
         status: {
             id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
             en: "CLASSIFIED ARCHIVE // DRAFTING",
@@ -677,7 +691,7 @@ export const BLACK_DEATH_EPICENTERS: Record<string, EpicenterMetadata> = {
         name: { id: "Prancis (Marseille)", en: "France (Marseille)" },
         sectorCode: "SECTOR // FRA - MARSEILLE MARITIME BREACH",
         coordinates: { lat: 43.2965, lng: 5.3698, altitude: 1.05 },
-        beaconColor: "#e11d48",
+        beaconColor: "#8b5cf6",
         status: {
             id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
             en: "CLASSIFIED ARCHIVE // DRAFTING",
@@ -700,7 +714,7 @@ export const BLACK_DEATH_EPICENTERS: Record<string, EpicenterMetadata> = {
         },
         sectorCode: "SECTOR // GBR - MELCOMBE REGIS",
         coordinates: { lat: 50.6137, lng: -2.4576, altitude: 1.05 },
-        beaconColor: "#e11d48",
+        beaconColor: "#f59e0b",
         status: {
             id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
             en: "CLASSIFIED ARCHIVE // DRAFTING",
@@ -717,7 +731,7 @@ export const BLACK_DEATH_EPICENTERS: Record<string, EpicenterMetadata> = {
         name: { id: "Tiongkok (Jalur Sutra)", en: "China (Silk Road)" },
         sectorCode: "SECTOR // CHN - CENTRAL ASIAN CARAVAN VECTOR",
         coordinates: { lat: 34.3416, lng: 108.9398, altitude: 1.05 },
-        beaconColor: "#e11d48",
+        beaconColor: "#06b6d4",
         status: {
             id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
             en: "CLASSIFIED ARCHIVE // DRAFTING",
@@ -740,7 +754,7 @@ export const SPANISH_FLU_EPICENTERS: Record<string, EpicenterMetadata> = {
         name: { id: "Amerika Serikat (Kansas)", en: "United States (Kansas)" },
         sectorCode: "SECTOR // USA - HASKELL / CAMP FUNSTON",
         coordinates: { lat: 39.0119, lng: -98.4842, altitude: 1.05 },
-        beaconColor: "#f59e0b",
+        beaconColor: "#3b82f6",
         status: {
             id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
             en: "CLASSIFIED ARCHIVE // DRAFTING",
@@ -760,7 +774,7 @@ export const SPANISH_FLU_EPICENTERS: Record<string, EpicenterMetadata> = {
         name: { id: "Prancis (Étaples)", en: "France (Étaples)" },
         sectorCode: "SECTOR // FRA - WESTERN FRONT / ÉTAPLES",
         coordinates: { lat: 50.5186, lng: 1.6397, altitude: 1.05 },
-        beaconColor: "#f59e0b",
+        beaconColor: "#ef4444",
         status: {
             id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
             en: "CLASSIFIED ARCHIVE // DRAFTING",
@@ -780,7 +794,7 @@ export const SPANISH_FLU_EPICENTERS: Record<string, EpicenterMetadata> = {
         name: { id: "Spanyol (Madrid)", en: "Spain (Madrid)" },
         sectorCode: "SECTOR // ESP - MADRID / UNCENSORED PRESS",
         coordinates: { lat: 40.4168, lng: -3.7038, altitude: 1.05 },
-        beaconColor: "#f59e0b",
+        beaconColor: "#eab308",
         status: {
             id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
             en: "CLASSIFIED ARCHIVE // DRAFTING",
@@ -797,7 +811,7 @@ export const SPANISH_FLU_EPICENTERS: Record<string, EpicenterMetadata> = {
         name: { id: "Britania Raya (London)", en: "United Kingdom (London)" },
         sectorCode: "SECTOR // GBR - FLEET TRANSMISSION",
         coordinates: { lat: 55.3781, lng: -3.436, altitude: 1.05 },
-        beaconColor: "#f59e0b",
+        beaconColor: "#8b5cf6",
         status: {
             id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
             en: "CLASSIFIED ARCHIVE // DRAFTING",
@@ -825,6 +839,238 @@ export function getEpicentersForPandemic(
     if (pId === "cholera-1817") return CHOLERA_1817_EPICENTERS;
     if (pId === "spanish-flu-1918") return SPANISH_FLU_EPICENTERS;
     return EPICENTER_REGISTRY;
+}
+
+/**
+ * Retrieve the isolated surveillance dataset catalog for an active pandemic.
+ */
+export function getSurveillanceForPandemic(
+    pandemicId: string,
+): Record<string, CountrySurveillanceData> {
+    const pId = pandemicId.toLowerCase();
+    if (pId === "plague-of-justinian-541") {
+        return justinianSurveillance as unknown as Record<
+            string,
+            CountrySurveillanceData
+        >;
+    }
+    if (pId === "black-death-1347") {
+        return blackDeathSurveillance as unknown as Record<
+            string,
+            CountrySurveillanceData
+        >;
+    }
+    if (pId === "cholera-1817") {
+        return choleraSurveillance as unknown as Record<
+            string,
+            CountrySurveillanceData
+        >;
+    }
+    if (pId === "spanish-flu-1918") {
+        return spanishFluSurveillance as unknown as Record<
+            string,
+            CountrySurveillanceData
+        >;
+    }
+    return covidSurveillance as unknown as Record<
+        string,
+        CountrySurveillanceData
+    >;
+}
+
+export interface CountryInteraction {
+    type: "epicenter" | "surveillance";
+    code: string;
+    epicenter?: EpicenterMetadata;
+    surveillance?: CountrySurveillanceData;
+}
+
+const JUSTINIAN_TERRITORY_MAP: Record<
+    string,
+    { code: string; type: "epicenter" | "surveillance" }
+> = {
+    // Primary Epicenters
+    CPX: { code: "CPX", type: "epicenter" },
+    TR: { code: "CPX", type: "epicenter" },
+    TUR: { code: "CPX", type: "epicenter" },
+    GR: { code: "CPX", type: "epicenter" },
+    GRC: { code: "CPX", type: "epicenter" },
+
+    PEL: { code: "PEL", type: "epicenter" },
+    EG: { code: "PEL", type: "epicenter" },
+    EGY: { code: "PEL", type: "epicenter" },
+
+    SAS: { code: "SAS", type: "epicenter" },
+    IR: { code: "SAS", type: "epicenter" },
+    IRN: { code: "SAS", type: "epicenter" },
+    IQ: { code: "SAS", type: "epicenter" },
+    IRQ: { code: "SAS", type: "epicenter" },
+
+    ROM: { code: "ROM", type: "epicenter" },
+    IT: { code: "ROM", type: "epicenter" },
+    ITA: { code: "ROM", type: "epicenter" },
+
+    // Secondary Surveillance Territories
+    GAU: { code: "GAU", type: "surveillance" },
+    FR: { code: "GAU", type: "surveillance" },
+    FRA: { code: "GAU", type: "surveillance" },
+    BE: { code: "GAU", type: "surveillance" },
+    BEL: { code: "GAU", type: "surveillance" },
+
+    HIS: { code: "HIS", type: "surveillance" },
+    ES: { code: "HIS", type: "surveillance" },
+    ESP: { code: "HIS", type: "surveillance" },
+    PT: { code: "HIS", type: "surveillance" },
+    PRT: { code: "HIS", type: "surveillance" },
+
+    BRI: { code: "BRI", type: "surveillance" },
+    GB: { code: "BRI", type: "surveillance" },
+    GBR: { code: "BRI", type: "surveillance" },
+    UK: { code: "BRI", type: "surveillance" },
+
+    AFR: { code: "AFR", type: "surveillance" },
+    TN: { code: "AFR", type: "surveillance" },
+    TUN: { code: "AFR", type: "surveillance" },
+    DZ: { code: "AFR", type: "surveillance" },
+    DZA: { code: "AFR", type: "surveillance" },
+    LY: { code: "AFR", type: "surveillance" },
+    LBY: { code: "AFR", type: "surveillance" },
+
+    LEV: { code: "LEV", type: "surveillance" },
+    SY: { code: "LEV", type: "surveillance" },
+    SYR: { code: "LEV", type: "surveillance" },
+    LB: { code: "LEV", type: "surveillance" },
+    LBN: { code: "LEV", type: "surveillance" },
+    IL: { code: "LEV", type: "surveillance" },
+    ISR: { code: "LEV", type: "surveillance" },
+    PS: { code: "LEV", type: "surveillance" },
+    PSE: { code: "LEV", type: "surveillance" },
+    JO: { code: "LEV", type: "surveillance" },
+    JOR: { code: "LEV", type: "surveillance" },
+};
+
+/**
+ * Strict Era-Based Interaction Resolver.
+ * Guarantees zero data bleed: only returns interactions for territories
+ * belonging to the active pandemic era. Non-relevant countries return null.
+ */
+export function getCountryInteraction(
+    pandemicId: string,
+    countryIdentifier: string,
+): CountryInteraction | null {
+    if (!countryIdentifier) return null;
+    const pId = pandemicId.toLowerCase();
+    const rawId = countryIdentifier.toUpperCase().trim();
+
+    if (pId === "plague-of-justinian-541") {
+        const mapping = JUSTINIAN_TERRITORY_MAP[rawId];
+        if (!mapping) return null;
+        if (mapping.type === "epicenter") {
+            const epicenter = JUSTINIAN_EPICENTERS[mapping.code];
+            return epicenter
+                ? { type: "epicenter", code: mapping.code, epicenter }
+                : null;
+        } else {
+            const survCatalog = getSurveillanceForPandemic(pId);
+            const surveillance = survCatalog[mapping.code];
+            return surveillance
+                ? { type: "surveillance", code: mapping.code, surveillance }
+                : null;
+        }
+    }
+
+    if (pId === "black-death-1347") {
+        const epicenters = BLACK_DEATH_EPICENTERS;
+        const normalized = normalizeCountryCode(rawId).toUpperCase();
+        const epi = epicenters[normalized] || epicenters[rawId];
+        if (epi) {
+            return { type: "epicenter", code: epi.code, epicenter: epi };
+        }
+        const survCatalog = getSurveillanceForPandemic(pId);
+        const surv = survCatalog[normalized] || survCatalog[rawId];
+        if (surv) {
+            return {
+                type: "surveillance",
+                code: surv.iso2,
+                surveillance: surv,
+            };
+        }
+        return null;
+    }
+
+    if (pId === "cholera-1817") {
+        const epicenters = CHOLERA_1817_EPICENTERS;
+        const normalized = normalizeCountryCode(rawId).toUpperCase();
+        const epi = epicenters[normalized] || epicenters[rawId];
+        if (epi) {
+            return { type: "epicenter", code: epi.code, epicenter: epi };
+        }
+        const survCatalog = getSurveillanceForPandemic(pId);
+        const surv = survCatalog[normalized] || survCatalog[rawId];
+        if (surv) {
+            return {
+                type: "surveillance",
+                code: surv.iso2,
+                surveillance: surv,
+            };
+        }
+        return null;
+    }
+
+    if (pId === "spanish-flu-1918") {
+        const epicenters = SPANISH_FLU_EPICENTERS;
+        const normalized = normalizeCountryCode(rawId).toUpperCase();
+        const epi = epicenters[normalized] || epicenters[rawId];
+        if (epi) {
+            return { type: "epicenter", code: epi.code, epicenter: epi };
+        }
+        const survCatalog = getSurveillanceForPandemic(pId);
+        const surv = survCatalog[normalized] || survCatalog[rawId];
+        if (surv) {
+            return {
+                type: "surveillance",
+                code: surv.iso2,
+                surveillance: surv,
+            };
+        }
+        return null;
+    }
+
+    // Default: COVID-19
+    const epicenters = EPICENTER_REGISTRY;
+    const normalized = normalizeCountryCode(rawId).toUpperCase();
+    // Historical custom sector codes must not match in covid-19
+    if (
+        [
+            "CPX",
+            "PEL",
+            "SAS",
+            "ROM",
+            "GAU",
+            "HIS",
+            "BRI",
+            "AFR",
+            "LEV",
+        ].includes(rawId)
+    ) {
+        return null;
+    }
+    const epi =
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        (epicenters as any)[normalized] || (epicenters as any)[rawId];
+    if (epi) {
+        return { type: "epicenter", code: epi.code, epicenter: epi };
+    }
+    const survCatalog = getSurveillanceForPandemic(pId);
+    const surv = survCatalog[normalized] || survCatalog[rawId];
+    if (surv) {
+        return {
+            type: "surveillance",
+            code: surv.iso2,
+            surveillance: surv,
+        };
+    }
+    return null;
 }
 
 /**
@@ -875,6 +1121,41 @@ export async function loadDossier(
     const cCode = normalizeCountryCode(countryCode);
 
     try {
+        if (pId === "plague-of-justinian-541") {
+            switch (cCode) {
+                case "cpx": {
+                    const mod =
+                        await import("@/data/pandemics/plague-of-justinian-541/cpx.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "pel": {
+                    const mod =
+                        await import("@/data/pandemics/plague-of-justinian-541/pel.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "sas": {
+                    const mod =
+                        await import("@/data/pandemics/plague-of-justinian-541/sas.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "rom": {
+                    const mod =
+                        await import("@/data/pandemics/plague-of-justinian-541/rom.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                default:
+                    return null;
+            }
+        }
+
         if (pId === "covid-19") {
             switch (cCode) {
                 case "id": {
