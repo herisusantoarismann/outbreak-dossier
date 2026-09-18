@@ -1,0 +1,460 @@
+{
+    "sectorId": "SAS",
+    "sectorName": {
+        "id": "Sektor Sasaniyah (Front Persia & Mesopotamia)",
+        "en": "Sector Sasanian (Persian Frontier & Mesopotamia)"
+    },
+    "coordinates": [33.0936, 44.5808],
+    "timeRange": "542 – 545 M",
+    "estimatedFatalities": "300.000 – 400.000 (Mesopotamia, Ctesiphon, & Dataran Tinggi Iran)",
+    "chapters": [
+        {
+            "id": "sas-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Ambisi Sang Shahanshah: Ofensif di Atas Sungai Efrat",
+                "en": "Ambition of the Shahanshah: Offensive on the Euphrates"
+            },
+            "date": {
+                "id": "Musim Panas 542 M",
+                "en": "Summer 542 AD"
+            },
+            "flash": {
+                "id": "Raja Persia Khosrow I Anushiruwan melancarkan invasi besar ke wilayah Suriah Bizantium, memanfaatkan kelumpuhan Konstantinopel tanpa menyadari bahaya biologis yang mengintai.",
+                "en": "Sasanian King Khosrow I Anushiruwan launches a massive invasion of Byzantine Syria, exploiting Constantinople's paralysis oblivious to the biological threat."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Front Lintas Batas)",
+                "vector": "Pinjal pada Ransum Rampasan Perang",
+                "incubation": "2 – 5 Hari",
+                "transmission": "Penularan antar pasukan melalui jarahan logistik gandum"
+            },
+            "description": {
+                "id": "Melihat musuh bebuyutannya di Konstantinopel lumpuh akibat wabah pes, Kaisar Sasaniyah Khosrow I memimpin pasukan berkuda terbesarnya menyeberangi Sungai Efrat. Tentara Persia bermaksud merebut seluruh provinsi Suriah dan memutus jalur perdagangan Romawi ke timur. Di bawah panji suci Drafsh Kaviani, barisan prajurit Savaran bergerak maju dengan keyakinan penuh bahwa kekaisaran Bizantium sedang berada di ambang keruntuhan total.",
+                "en": "Observing his archenemy in Constantinople crippled by pestilence, Sasanian King Khosrow I led his grand cavalry across the Euphrates. The Persian army intended to annex Syria and permanently sever Roman trade routes. Beneath the sacred Drafsh Kaviani banner, ranks of armored Savaran lancers advanced in supreme confidence that the Byzantine empire was on the verge of total dissolution."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_01.jpg"
+        },
+        {
+            "id": "sas-ch-02",
+            "chapterNumber": 2,
+            "type": "standard",
+            "title": {
+                "id": "Jarahan Beracun: Ransum Gandum Terkontaminasi",
+                "en": "The Poisoned Plunder: Contaminated Grain Stores"
+            },
+            "date": {
+                "id": "Akhir Musim Panas 542 M",
+                "en": "Late Summer 542 AD"
+            },
+            "flash": {
+                "id": "Pasukan garis depan Persia menjarah lumbung perbekalan Bizantium di perbatasan; karung-karung gandum jarahan membawa jutaan kutu pes lapar ke dalam barak tentara Sasaniyah.",
+                "en": "Persian vanguard units plunder abandoned Byzantine supply silos; captured grain sacks introduce millions of infected fleas into Sasanian encampments."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Infiltrasi Vektor Militer)",
+                "vector": "Xenopsylla cheopis via Karung Biji-bijian Romawi",
+                "incubation": "3 Hari",
+                "transmission": "Inokulasi langsung pada prajurit pembongkar jarahan"
+            },
+            "description": {
+                "id": "Kemenangan awal Khosrow berubah menjadi malapetaka terselubung. Di kota-kota perbatasan yang ditinggalkan garnisun Bizantium, tentara Persia menyita ribuan karung gandum dan jelai untuk mencukupi logistik pasukan mereka. Namun di dalam karung-karung tersebut, tikus-tikus telah mati membusuk dan ribuan kutu *Xenopsylla cheopis* meloncat ke jubah wol prajurit Persia. Dalam kurun waktu sepekan, prajurit-prajurit terbaik Sasaniyah mulai mengeluhkan demam menggigil.",
+                "en": "Khosrow's opening triumphs disguised fatal consequences. In frontier depots abandoned by Byzantine garrisons, Persian troops requisitioned thousands of sacks of grain to feed the army. Yet inside the cargo, dead rodents harbored starving *Xenopsylla cheopis* fleas that jumped onto Persian woolen tunics. Within a week, the elite vanguard of the Sasanian army developed shivering fevers."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_02.jpg"
+        },
+        {
+            "id": "sas-ch-03",
+            "chapterNumber": 3,
+            "type": "standard",
+            "title": {
+                "id": "Runtuhnya Pasukan Savaran: Bubo di Balik Baju Besi",
+                "en": "Fall of the Savaran: Buboes Beneath the Mail"
+            },
+            "date": {
+                "id": "September 542 M",
+                "en": "September 542 AD"
+            },
+            "flash": {
+                "id": "Kavaleri lapis baja legendaris Sasaniyah (Savaran) lumpuh; prajurit-prajurit berperisai baja jatuh dari pelana kuda akibat demam tinggi dan pembengkakan selangkangan.",
+                "en": "The legendary Sasanian heavy armored cavalry (Savaran) is incapacitated; armored lancers collapse from saddles with scorching fevers and groin buboes."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Bubo Inguinal Akut)",
+                "vector": "Kutu Pakaian Militer & Pelana Kuda",
+                "incubation": "2 – 4 Hari",
+                "transmission": "Penularan antar penunggang kavaleri di perkemahan perang"
+            },
+            "description": {
+                "id": "Kavaleri Savaran adalah kekuatan tempur paling ditakuti di dunia Timur Kuno, mampu menghancurkan legiun Romawi dengan serbuan tombak berat. Namun baju zirah baja dan rantai besi tidak mampu melindungi mereka dari gigitan kutu mikroskopis. Para ksatria bangsawan Persia terkapar tak berdaya di lantai tenda mereka, meracau dalam delirium sementara kelenjar getah bening di pangkal paha mereka membengkak hitam dan pecah berdarah. Barisan kavaleri kebanggaan Persia kehilangan sepertiga kekuatannya tanpa sempat bertarung.",
+                "en": "The Savaran cavalry was the most feared strike force of Late Antiquity, capable of shattering Roman lines with heavy lance charges. Yet plate armor and mail coifs offered no defense against microscopic parasites. Noble Persian cataphracts writhed in tent pavilions, delirious with pain as groin lymph nodes swelled black and ruptured. The pride of the Persian military lost a third of its strength without drawing bows."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_03.jpg"
+        },
+        {
+            "id": "sas-ch-04",
+            "chapterNumber": 4,
+            "type": "side_story",
+            "title": {
+                "id": "Dilema Tabib Borzouye di Tenda Diraja",
+                "en": "The Dilemma of Physician Borzouye"
+            },
+            "date": {
+                "id": "Akhir September 542 M",
+                "en": "Late September 542 AD"
+            },
+            "flash": {
+                "id": "Kisah rahasia Borzouye, tabib kepala istana Sasaniyah, yang menyadari bahwa penyakit ini bukan racun sihir Romawi, melainkan kutukan alami yang tak dapat disembuhkan oleh mantra zoroastrian.",
+                "en": "Confidential account of Borzouye, chief royal physician, recognizing the affliction was no Roman witchcraft, but a natural plague unyielding to Zoroastrian charms."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Kegagalan Medis Tradisional Persia)",
+                "vector": "Toksemia Bakterial Parah",
+                "incubation": "N/A",
+                "transmission": "Ketidakmampuan metode pengobatan kuno membendung infeksi"
+            },
+            "description": {
+                "id": "Tabib agung Borzouye, penerjemah kitab Panchatantra dan sarjana kedokteran terhebat di istana Ctesiphon, dipanggil ke tenda komandan perang. Para pendeta Zoroastrian menduga penyakit ini adalah sihir hitam (Ahriman) yang disebarkan mata-mata Romawi. Namun setelah memeriksa darah dan pembengkakan para perwira, Borzouye memperingatkan Khosrow: ini adalah maut hitam yang sama yang sedang membakar Konstantinopel, dan satu-satunya cara menyelamatkan sang raja adalah segera mundur dari tanah terinfeksi ini.",
+                "en": "The royal physician Borzouye, translator of the Panchatantra and greatest medical scholar in Ctesiphon, was summoned to the command tent. Zoroastrian magi claimed the affliction was dark sorcery (Ahrimanic deceit) unloosed by Roman agents. But upon examining the dark blood and necrotic swellings of fallen officers, Borzouye warned Khosrow: this was the very pestilence consuming Constantinople, and the king's only survival lay in immediate retreat."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_04.jpg"
+        },
+        {
+            "id": "sas-ch-05",
+            "chapterNumber": 5,
+            "type": "milestone",
+            "title": {
+                "id": "Pengepungan Benteng Dara yang Batal",
+                "en": "The Aborted Siege of Fortress Dara"
+            },
+            "date": {
+                "id": "Oktober 542 M",
+                "en": "October 542 AD"
+            },
+            "flash": {
+                "id": "Pengepungan benteng perbatasan terkuat Bizantium, Dara, ditinggalkan begitu saja; mesin-mesin kepung Persia ditinggalkan membusuk di parit benteng.",
+                "en": "The siege of Byzantium's strongest Mesopotamian bastion, Dara, is abruptly abandoned; Persian siege engines are left to rot in siege trenches."
+            },
+            "virusProfile": {
+                "agent": "Gencatan Senjata Epidemiologis Spontan",
+                "vector": "Kematian Massal Pasukan Zeni & Artileri",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Wabah di garis parit pengepungan"
+            },
+            "description": {
+                "id": "Benteng batu Dara adalah kunci pertahanan Bizantium di Mesopotamia. Pasukan Sasaniyah telah mendirikan menara pengepung kayu raksasa dan menggali terowongan tambang di bawah dinding benteng. Namun sebelum serangan umum dilancarkan, wabah pes menyapu perkemahan zeni Persia. Ratusan insinyur dan pemanah tewas setiap hari; parit-parit pengepungan dipenuhi mayat prajurit Sasaniyah. Khosrow I terpaksa memerintahkan pasukannya membakar mesin kepung mereka dan mundur melintasi perbatasan.",
+                "en": "The stone fortress of Dara anchored Byzantine defenses in Mesopotamia. Sasanian engineers had constructed massive wooden siege towers and sapped under the curtain walls. But before the general assault sounded, plague engulfed the Persian siege corps. Hundreds of sappers and archers died daily; entrenchments filled with corpses. Khosrow was forced to burn his siege towers and retreat across the border."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_05.jpg"
+        },
+        {
+            "id": "sas-ch-06",
+            "chapterNumber": 6,
+            "type": "standard",
+            "title": {
+                "id": "Kembalinya Pasukan ke Ctesiphon: Membawa Maut ke Ibukota",
+                "en": "Retreat to Ctesiphon: Bringing Death to the Capital"
+            },
+            "date": {
+                "id": "November 542 M",
+                "en": "November 542 AD"
+            },
+            "flash": {
+                "id": "Tentara Persia yang mundur membawa bakteri pes melintasi dataran Irak; wabah memasuki metropolis Ctesiphon di bawah kubah agung Taq Kasra.",
+                "en": "Retreating Persian legions carry plague bacteria across Iraqi plains; pestilence infiltrates the metropolis of Ctesiphon beneath the Taq Kasra vault."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Penetrasi Metropolis Tigris)",
+                "vector": "Tikus Sungai Tigris & Kafilah Pasukan Mundur",
+                "incubation": "3 Hari",
+                "transmission": "Eskalasi di kawasan istana dan pasar Ctesiphon"
+            },
+            "description": {
+                "id": "Alih-alih menyelamatkan kekaisaran, mundurnya tentara Khosrow justru membawa malapetaka ke jantung Sasaniyah. Ribuan prajurit yang terinfeksi berjalan pulang menuju Ctesiphon di tepi Sungai Tigris. Di kota metropolitan tempat kubah bata raksasa Taq Kasra berdiri megah, penyakit pes menyebar bagai api ditiup angin. Pasar sutra dan perunggu tutup, dan para bangsawan istana yang menyambut kepulangan tentara mendapati diri mereka terjangkit demam pembengkakan kelenjar.",
+                "en": "Far from saving the empire, Khosrow's retreat ferried doom straight into the Sasanian heartland. Thousands of infected troops marched home to Ctesiphon on the Tigris. In the imperial capital beneath the monumental vault of Taq Kasra, plague spread like wildfire. Silk bazaars closed, and court nobles welcoming the army found themselves afflicted with grotesque groin swellings."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_06.jpg"
+        },
+        {
+            "id": "sas-ch-07",
+            "chapterNumber": 7,
+            "type": "milestone",
+            "title": {
+                "id": "Menara Kematian Dakhma: Penuhnya Menara Keheningan",
+                "en": "Towers of Silence Overloaded: The Choked Dakhmas"
+            },
+            "date": {
+                "id": "Desember 542 M",
+                "en": "December 542 AD"
+            },
+            "flash": {
+                "id": "Ajaran Zoroastrian melarang mengubur jenazah di tanah atau membakarnya dengan api suci; Menara Keheningan (Dakhma) meluap penuh oleh puluhan ribu mayat pes.",
+                "en": "Zoroastrian doctrine forbids burying corpses in earth or burning them with sacred fire; Towers of Silence (Dakhmas) overflow with plague victims."
+            },
+            "virusProfile": {
+                "agent": "Krisis Mortuaria Religius Zoroastrian",
+                "vector": "Penumpukan Jenazah di Ketinggian Terbuka",
+                "incubation": "N/A",
+                "transmission": "Burung bangkai dan anjing liar menyebarkan patogen ke pemukiman"
+            },
+            "description": {
+                "id": "Tradisi pemakaman Sasaniyah menghadapi krisis teologis yang belum pernah terjadi. Agama Zoroastrian meyakini jenazah adalah najis (Nasu) dan tidak boleh mencemari tanah suci atau air. Jenazah harus diletakkan di atas menara batu tinggi (*Dakhma*) agar dimakan burung pemakan bangkai. Namun dalam kurun waktu beberapa pekan, populasi burung hering dan gagak di sekitar Ctesiphon tidak mampu lagi menghabiskan puluhan ribu mayat yang ditumpuk di atas menara. Bau pembusukan menyelimuti dataran Mesopotamia.",
+                "en": "Sasanian mortuary custom confronted an unprecedented theological crisis. Zoroastrian tenets held corpses were impure (Nasu) and must not contaminate sacred soil or water. The dead were placed atop high stone platforms (*Dakhmas*) to be consumed by carrion birds. Yet within weeks, vulture flocks around Ctesiphon were overwhelmed by tens of thousands of bodies piled on the parapets. Decaying flesh fouled the Mesopotamian air."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_07.jpg"
+        },
+        {
+            "id": "sas-ch-08",
+            "chapterNumber": 8,
+            "type": "standard",
+            "title": {
+                "id": "Perintah Sang Raja: Dekrit Isolasi Khosrow",
+                "en": "The Royal Decree: Khosrow's Isolation Mandates"
+            },
+            "date": {
+                "id": "Awal 543 M",
+                "en": "Early 543 AD"
+            },
+            "flash": {
+                "id": "Khosrow I mengunci diri di istana musim dinginnya di Dataran Tinggi Media, memerintahkan pemutusan rute pos kerajaan dan karantina distrik Ctesiphon.",
+                "en": "Khosrow I locks himself inside his Median highland retreat, ordering imperial post relays severed and districts of Ctesiphon quarantined."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Respon Mitigasi Otoriter)",
+                "vector": "Pemutusan Transportasi Kurir Berkuda (Chapar Khaneh)",
+                "incubation": "Kronis",
+                "transmission": "Isolasi wilayah kekaisaran tingkat provinsi"
+            },
+            "description": {
+                "id": "Melihat petaka di depan matanya, Khosrow bertindak pragmatis. Ia meninggalkan istana Ctesiphon dan memindahkan rombongan intinya ke dataran tinggi Media yang berhawa dingin. Sang raja mengeluarkan dekrit melarang pergerakan antar provinsi; stasiun pos kurir berkuda (*Chapar Khaneh*) ditutup untuk mencegah penyebaran berita dan penyakit. Siapa pun yang melanggar batas karantina militer diancam hukuman mati di ujung pedang.",
+                "en": "Faced with calamity, Khosrow acted with ruthless pragmatism. Vacating Ctesiphon, he relocated his inner court to the cooler Median highlands. The monarch issued decrees prohibiting travel between satrapies; royal courier stations (*Chapar Khaneh*) were shuttered to halt both disease and panic. Anyone breaching military cordons faced execution by the sword."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_08.jpg"
+        },
+        {
+            "id": "sas-ch-09",
+            "chapterNumber": 9,
+            "type": "standard",
+            "title": {
+                "id": "Antiokhia yang Ditinggalkan: Runtuhnya Kota Penaklukan",
+                "en": "Deserted Antioch: Collapse of the Plundered Jewel"
+            },
+            "date": {
+                "id": "Pertengahan 543 M",
+                "en": "Mid-543 AD"
+            },
+            "flash": {
+                "id": "Kota Antiokhia yang baru saja dihancurkan Persia ditinggalkan oleh garnisun pendudukan Sasaniyah; reruntuhan kota dipenuhi jenazah tanpa ada tentara yang menjaganya.",
+                "en": "Antioch, ravaged earlier by Persian forces, is evacuated by its Sasanian garrison; smoking ruins fill with corpses bereft of sentries."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Kehancuran Pasca-Penaklukan)",
+                "vector": "Kontaminasi Reruntuhan Urban Suriah",
+                "incubation": "2 – 4 Hari",
+                "transmission": "Wabah di antara tawanan perang dan pasukan garnisun"
+            },
+            "description": {
+                "id": "Antiokhia, permata peradaban Suriah yang dijarah Khosrow dua tahun sebelumnya, menjadi tanah tak bertuan. Pasukan pendudukan Sasaniyah yang ditempatkan di sana musnah terjangkit pes bersama para tawanan perang Yunani yang belum sempat dideportasi ke Persia. Dinding benteng marmer yang retak kini berdiri sunyi di tengah padang pasir; gerbang-gerbang perunggu kota terbuka lebar tanpa penjaga, membiarkan debu gurun menutupi mayat-mayat prajurit kedua imperium.",
+                "en": "Antioch, the jewel of Syria sacked by Khosrow two years prior, degenerated into no-man's-land. The Persian occupation garrison perished from plague alongside Greek captives awaiting deportation. Cracked marble ramparts stood silent; bronze gates hung open, allowing desert sands to drift over unburied soldiers of both warring empires."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_09.jpg"
+        },
+        {
+            "id": "sas-ch-10",
+            "chapterNumber": 10,
+            "type": "milestone",
+            "title": {
+                "id": "Sunyinya Bazar Seleucia: Lumpuhnya Jalur Sutra",
+                "en": "Silence in Seleucia's Bazaars: The Silk Road Severed"
+            },
+            "date": {
+                "id": "Akhir 543 M",
+                "en": "Late 543 AD"
+            },
+            "flash": {
+                "id": "Pusat perdagangan terbesar di Timur Dekat, Seleucia-Ctesiphon, lumpuh; kafilah sutra dari Sogdia dan Tiongkok berhenti datang karena ketakutan akan pes.",
+                "en": "The greatest trading hub of the Near East, Seleucia-Ctesiphon, flatlines; Sogdian and Chinese silk caravans halt traffic for fear of plague."
+            },
+            "virusProfile": {
+                "agent": "Disfungsi Jalur Perdagangan Benua",
+                "vector": "Terhentinya Arus Karavan Jalur Sutra",
+                "incubation": "Kronis",
+                "transmission": "Kolapsnya pendapatan bea cukai lintas benua Sasaniyah"
+            },
+            "description": {
+                "id": "Kota kembar Seleucia di seberang Ctesiphon adalah pasar dunia tempat sutra Tiongkok, rempah India, dan kaca Romawi diperdagangkan. Pada akhir tahun 543 M, lorong-lorong bazar tertutup rapat. Berita bahwa wabah pes menghabisi siapa pun yang singgah di kota itu menyebar ke Asia Tengah. Para pedagang Sogdia menghentikan kafilah unta mereka di gerbang gurun timur, memutus urat nadi ekonomi perdagangan Jalur Sutra darat selama bertahun-tahun.",
+                "en": "The twin city of Seleucia across the Tigris was the bazaar where Chinese silk, Indian spices, and Roman glassware were bartered. By late 543 AD, the arched souks were locked. Word that pestilence slaughtered anyone entering the hub reached Central Asia. Sogdian traders halted camel trains at eastern desert gateways, severing overland Silk Road arteries for years."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_10.jpg"
+        },
+        {
+            "id": "sas-ch-11",
+            "chapterNumber": 11,
+            "type": "standard",
+            "title": {
+                "id": "Api Suci yang Terancam Padam: Krisis Kuil Atar",
+                "en": "Threatened Sacred Flames: The Fire Temple Crisis"
+            },
+            "date": {
+                "id": "Awal 544 M",
+                "en": "Early 544 AD"
+            },
+            "flash": {
+                "id": "Para pendeta Zoroastrian (Mobadan) tewas di dalam kuil api; api suci abadi Atar terancam padam karena tiadanya klerus yang tersisa untuk memasok kayu gaharu.",
+                "en": "Zoroastrian priests (Mobads) succumb inside fire sanctuaries; the eternal flame of Atar risks dying out without clergy to feed sandalwood."
+            },
+            "virusProfile": {
+                "agent": "Disrupsi Religius-Institusional",
+                "vector": "Penularan Tertutup di Kompleks Kuil Api",
+                "incubation": "2 – 4 Hari",
+                "transmission": "Kematian beruntun kasta imamat Zoroastrian"
+            },
+            "description": {
+                "id": "Di kuil-kuil api agung Adur Farnbag dan Adur Gushnasp, api suci yang telah menyala tanpa henti selama ratusan tahun menghadapi ancaman kepunahan. Para pendeta *Mobad* yang bertugas menjaga api siang dan malam terinfeksi pes saat menerima warga yang datang mencari berkah perlindungan. Ketika abu perapian mulai dingin dan asap gaharu menipis, para relawan desa yang ketakutan terpaksa melemparkan kayu bakar dari kejauhan tanpa berani melangkahi tangga kuil yang dipenuhi jenazah para pendeta.",
+                "en": "Within the fire sanctuaries of Adur Farnbag and Adur Gushnasp, eternal flames tended for centuries faced extinction. The *Mobad* priesthood, bound to fuel altars day and night, contracted plague while blessing desperate supplicants. As altar embers cooled and incense waned, frightened villagers hurled sandalwood logs onto grates from outside, terrified to step over dead priests on the stairs."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_11.jpg"
+        },
+        {
+            "id": "sas-ch-12",
+            "chapterNumber": 12,
+            "type": "standard",
+            "title": {
+                "id": "Garis Depan Padang Pasir: Mundurnya Suku Lakhm",
+                "en": "The Desert Frontier: Retreat of the Lakhmids"
+            },
+            "date": {
+                "id": "Pertengahan 544 M",
+                "en": "Mid-544 AD"
+            },
+            "flash": {
+                "id": "Kerajaan boneka Arab Sasaniyah, Bani Lakhm dari Al-Hirah, menarik mundur pasukan kavaleri unta mereka dari perbatasan Suriah setelah pes melanda oasis mereka.",
+                "en": "Sasanian Arab vassal state, the Lakhmids of Al-Hirah, withdraw camel cavalry from Syrian borders after plague strikes oasis garrisons."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Penetrasi Oasis Gurun)",
+                "vector": "Kontak Perdagangan Kafilah Kurma",
+                "incubation": "3 Hari",
+                "transmission": "Penyebaran pinjal antar perkemahan nomaden Arab"
+            },
+            "description": {
+                "id": "Raja al-Mundhir III dari kaum Lakhm adalah sekutu militer terpenting Khosrow untuk mengganggu perbatasan Romawi di padang gurun. Namun oasis Al-Hirah tidak kebal terhadap maut hitam. Ketika para penunggang unta membawa penyakit dari barak tentara Persia ke perkemahan badui mereka, kematian massal memecah persatuan suku. Kaum Lakhm menarik pasukan mereka kembali jauh ke pedalaman jazirah Arab, mengakhiri ancaman penyerbuan terhadap perbatasan Bizantium.",
+                "en": "King al-Mundhir III of the Lakhmids was Khosrow's primary desert ally, raiding Roman borders at will. But the oasis capital of Al-Hirah proved vulnerable. When camel scouts transported infection from Persian camps into Bedouin bivouacs, rapid mortality shattered tribal solidarity. The Lakhmids pulled forces into the deep Arabian interior, extinguishing raids against Byzantine frontiers."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_12.jpg"
+        },
+        {
+            "id": "sas-ch-13",
+            "chapterNumber": 13,
+            "type": "milestone",
+            "title": {
+                "id": "Gencatan Senjata Biologis: Perjanjian Damai 545 M",
+                "en": "The Biological Truce: The Peace Treaty of 545 AD"
+            },
+            "date": {
+                "id": "Awal 545 M",
+                "en": "Early 545 AD"
+            },
+            "flash": {
+                "id": "Khosrow I dan Yustinianus I menyadari bahwa kedua imperium mereka sedang sekarat; utusan diplomatik menandatangani gencatan senjata lima tahun di perbatasan Mesopotamia.",
+                "en": "Khosrow I and Justinian I recognize both empires are bleeding to death; diplomatic envoys sign a five-year armistice on the Mesopotamian frontier."
+            },
+            "virusProfile": {
+                "agent": "Rekonsiliasi Geopolitik Terpaksa",
+                "vector": "Kehabisan Tenaga Tempur Kedua Imperium",
+                "incubation": "N/A",
+                "transmission": "Penghentian perang akibat ketiadaan tentara yang sehat"
+            },
+            "description": {
+                "id": "Di bawah tenda perundingan di perbatasan padang pasir yang sunyi, utusan diplomatik Romawi Petrus Patrikios bertemu dengan perwakilan agung Sasaniyah. Tidak ada pihak yang berada dalam posisi menuntut kemenangan. Baik kaisar di Konstantinopel maupun raja di Ctesiphon telah kehabisan uang, gandum, dan prajurit akibat pes. Kedua adidaya dunia kuno ini terpaksa menandatangani perjanjian damai lima tahun, bukan karena itikad baik diplomasi, melainkan karena mereka sama-sama tidak memiliki tentara yang tersisa untuk bertarung.",
+                "en": "Under a pavilion on the desolate frontier, Byzantine envoy Peter the Patrician met his Sasanian counterpart. Neither held bargaining leverage. Both autocrats in Constantinople and Ctesiphon had run out of treasure, grain, and manpower due to plague. The two superpowers concluded a five-year peace, compelled not by diplomatic goodwill, but because neither retained healthy soldiers to raise a spear."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_13.jpg"
+        },
+        {
+            "id": "sas-ch-14",
+            "chapterNumber": 14,
+            "type": "standard",
+            "title": {
+                "id": "Kanal Tigris yang Tersumbat: Krisis Pangan Babilonia",
+                "en": "Silting Tigris Canals: The Babylonian Famine"
+            },
+            "date": {
+                "id": "Pertengahan 545 M",
+                "en": "Mid-545 AD"
+            },
+            "flash": {
+                "id": "Sistem irigasi kanal kuno Mesopotamia tersumbat lumpur; tiadanya petani memicu kegagalan panen kurma dan gandum, melipatgandakan kematian akibat kelaparan.",
+                "en": "Mesopotamia's ancient canal networks silt up; absence of agrarian laborers triggers crop failures in barley and dates, multiplying famine deaths."
+            },
+            "virusProfile": {
+                "agent": "Kolaps Infrastruktur Agraria Mesopotamia",
+                "vector": "Sedimentasi Masif Kanal Al-Nahrawan",
+                "incubation": "Kronis",
+                "transmission": "Kelaparan sistemik di seluruh dataran hilir Irak"
+            },
+            "description": {
+                "id": "Kemakmuran Mesopotamia sejak zaman Sumeria bergantung pada pemeliharaan berkala atas tanggul dan kanal irigasi yang menghubungkan Sungai Tigris dan Efrat. Ketika para petani pedesaan musnah tersapu pes, lumpur sungai mengendap menyumbat kanal Nahrawan yang legendaris. Kebun-kebun kurma mengering menjadi ranting kayu, dan ladang jelai berubah menjadi tanah retak berbatu garam. Kelaparan massal melanda sisa-sisa penduduk pedesaan Babilonia.",
+                "en": "Mesopotamian fertility since Sumerian times rested upon constant maintenance of dykes between the Tigris and Euphrates. When rural labor was decimated by pestilence, silt choked the great Nahrawan canal. Date palm plantations withered, and barley plots degraded into cracked, saline hardpan. Secondary famine swept the surviving rural peasantry of Babylonia."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_14.jpg"
+        },
+        {
+            "id": "sas-ch-15",
+            "chapterNumber": 15,
+            "type": "standard",
+            "title": {
+                "id": "Benteng Pegunungan Zagros yang Terisolasi",
+                "en": "Garrisons of the Zagros: Highland Isolation"
+            },
+            "date": {
+                "id": "Akhir 545 M",
+                "en": "Late 545 AD"
+            },
+            "flash": {
+                "id": "Garnisun benteng Sasaniyah di celah pegunungan Zagros terputus total dari komando Ctesiphon; prajurit bertahan hidup dengan berburu binatang liar di tengah isolasi musim dingin.",
+                "en": "Sasanian mountain outposts in the Zagros passes are severed from Ctesiphon command; sentries survive on wild game amid winter quarantine."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Batas Hambatan Ketinggian)",
+                "vector": "Penurunan Aktivitas Pinjal pada Iklim Dingin Ekstrem",
+                "incubation": "N/A",
+                "transmission": "Kelangsungan hidup komunitas pegunungan terisolasi"
+            },
+            "description": {
+                "id": "Di benteng-benteng batu di celah Pegunungan Zagros menuju Dataran Tinggi Iran, udara dingin ekstrem menyelamatkan para prajurit garnisun. Suhu beku menghambat reproduksi kutu tikus pes, membuat kawasan dataran tinggi ini relatif aman dari pembantaian massal. Namun mereka terisolasi total; tidak ada perbekalan, gaji koin perak Drakhma, atau perintah militer yang tiba dari Ctesiphon. Para perwira terpaksa melepas kuda-kuda perang mereka dan hidup bercocok tanam sederhana demi bertahan hidup.",
+                "en": "In stone outposts guarding Zagros mountain passes into Iran, biting cold spared the garrison troops. Freezing temperatures curbed flea reproduction, rendering highlands safe from wholesale contagion. Yet they stood abandoned: no grain shipments, silver Drachms, or commands arrived from Ctesiphon. Officers turned cavalry mounts loose and farmed patches of terrace land simply to survive."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_15.jpg"
+        },
+        {
+            "id": "sas-ch-16",
+            "chapterNumber": 16,
+            "type": "summary",
+            "title": {
+                "id": "Epilog Sasaniyah: Fajar Senja Dua Imperium",
+                "en": "Epilogue: Twilight of Two Superpowers"
+            },
+            "date": {
+                "id": "546 M & Warisan Geopolitik",
+                "en": "546 AD & Historical Legacy"
+            },
+            "flash": {
+                "id": "Wabah Yustinianus melumpuhkan Persia dan Bizantium secara setara; kelemahan militer dan demografi kedua kekaisaran membuka jalan bagi kebangkitan peradaban Arab seabad kemudian.",
+                "en": "The Justinianic plague exhausted Persia and Byzantium equally; mutual demographical ruin opened the path for early Islamic expansions a century later."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Penentu Sejarah Timur Dekat)",
+                "vector": "Kekosongan Kekuasaan Permanen di Mesopotamia",
+                "incubation": "Warisan Berabad-abad (541 – 651 M)",
+                "transmission": "Runtuhnya Dinasti Sasaniyah secara permanen"
+            },
+            "description": {
+                "id": "Wabah Yustinianus di Front Persia adalah pengingat bahwa alam tidak mempedulikan batas imperium buatan manusia. Kekaisaran Sasaniyah berhasil bertahan, namun fondasi militer dan ekonominya retak tak terpulihkan. Baik Bizantium maupun Sasaniyah terus berperang dalam kondisi terluka parah selama beberapa dekade berikutnya, menghabiskan sisa-sisa kekuatan mereka. Ketika gelombang pasukan dari jazirah Arab bergerak maju pada awal abad ke-7, mereka mendapati kedua imperium raksasa itu hanyalah cangkang kosong yang rapuh akibat amukan pes seratus tahun sebelumnya.",
+                "en": "The plague on the Persian front proved pathogens ignore borders drawn by kings. The Sasanian Empire survived, yet its agrarian economy and military recruitment sustained irreparable fractures. Byzantium and Persia would continue clashing in wounded fury for decades, exhausting their remaining reserves. When Arab armies emerged from the peninsula in the 7th century, they found both titans mere hollow shells, weakened by the contagion a century before."
+            },
+            "image": "/assets/images/plague-of-justinian-541/sas/sas_ch_16.jpg"
+        }
+    ]
+}

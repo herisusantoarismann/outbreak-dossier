@@ -1,0 +1,516 @@
+{
+    "sectorId": "CPX",
+    "sectorName": {
+        "id": "Sektor Konstantinopel (Ibukota Kekaisaran Bizantium)",
+        "en": "Sector Constantinople (Byzantine Imperial Capital)"
+    },
+    "coordinates": [41.0082, 28.9784],
+    "timeRange": "542 – 544 M",
+    "estimatedFatalities": "250.000 – 300.000 (≈ 40–50% Populasi Kota)",
+    "chapters": [
+        {
+            "id": "cpx-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Armada Annona: Gandum Pembawa Maut",
+                "en": "The Annona Fleet: Grain Bearing Mortality"
+            },
+            "date": {
+                "id": "Maret – April 542 M",
+                "en": "March – April 542 AD"
+            },
+            "flash": {
+                "id": "Armada kapal gandum kekaisaran dari Alexandria merapat di pelabuhan Golden Horn, membawa komoditas pangan vital yang diam-diam terkontaminasi koloni kutu tikus pes lapar.",
+                "en": "The imperial grain convoy from Alexandria moors in the Golden Horn, delivering vital food stores secretly infested with colonies of starving plague fleas."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Galur Antiqua Abad ke-6)",
+                "vector": "Xenopsylla cheopis via Rattus rattus",
+                "incubation": "2 – 6 Hari",
+                "transmission": "Inokulasi kutu kapal saat pembongkaran palka gandum"
+            },
+            "description": {
+                "id": "Konstantinopel bergantung mutlak pada suplai tahunan annona civica—ribuan ton gandum dari Delta Nil untuk memberi makan setengah juta warganya. Ketika puluhan galai bertiang ganda bersandar di dermaga Neorion dan Eleutherios pada musim semi 542 M, para pejabat bea cukai hanya melihat kemakmuran. Namun di dasar lambung kayu yang basah dan gelap, ribuan bangkai tikus hitam terbaring membusuk, memaksa kutu Xenopsylla cheopis mencari inang mamalia baru pada tubuh para kuli panggul pelabuhan.",
+                "en": "Constantinople depended entirely on the annual annona civica grain fleets—thousands of tons hauled from the Nile Delta to feed its half-million residents. As freighters docked in Neorion and Eleutherios during spring 542 AD, customs quaestors saw only civic abundance. Yet within the dank holds, colonies of black rats lay decomposing, forcing famished Xenopsylla cheopis fleas onto dockside porters."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_01.jpg"
+        },
+        {
+            "id": "cpx-ch-02",
+            "chapterNumber": 2,
+            "type": "standard",
+            "title": {
+                "id": "Bangkai di Palka: Migrasi Vektor Tersembunyi",
+                "en": "Carcasses in the Hold: The Cryptic Vector Jump"
+            },
+            "date": {
+                "id": "Pertengahan April 542 M",
+                "en": "Mid-April 542 AD"
+            },
+            "flash": {
+                "id": "Populasi tikus palka kapal mati massal; fenomena kutu berpindah dari inang pengerat ke manusia memicu rantai penularan pertama di gudang penyimpanan pelabuhan.",
+                "en": "Mass mortality strikes shipboard rodents; the biological flea transfer from rodents to humans establishes the primary infection chains in coastal warehouses."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Blokade Proventrikulus)",
+                "vector": "Biofilm Bakterial pada Saluran Pencernaan Pinjal",
+                "incubation": "1 – 3 Hari Pasca-Gigitan",
+                "transmission": "Regurgitasi bakteri aktif ke pembuluh darah mangsa"
+            },
+            "description": {
+                "id": "Mekanisme infeksi berlangsung senyap namun mematikan. Bakteri Yersinia pestis membentuk biofilm yang menyumbat katup pencernaan kutu, membuatnya kelaparan ekstrem. Setiap kali kutu menggigit manusia untuk menghisap darah, darah yang terhalang dimuntahkan kembali bersama jutaan bakteri ke luka gigitan. Dalam hitungan hari, para pekerja pelabuhan mulai mengeluhkan luka gatal tak biasa di pergelangan kaki yang menghitam menjadi bintil bernanah.",
+                "en": "The infection mechanism operated with silent lethality. Yersinia pestis bacteria generated a dense biofilm blocking the flea's digestive tract, inducing starvation. When attempting to feed on human skin, blood refluxed against the plug, regurgitating millions of pathogens directly into the wound. Within days, dockhands complained of strange bites on ankles and wrists darkening into necrotic pustules."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_02.jpg"
+        },
+        {
+            "id": "cpx-ch-03",
+            "chapterNumber": 3,
+            "type": "side_story",
+            "title": {
+                "id": "Beban Terakhir Buruh Eleutherios",
+                "en": "The Last Load of Eleutherios"
+            },
+            "date": {
+                "id": "Akhir April 542 M",
+                "en": "Late April 542 AD"
+            },
+            "flash": {
+                "id": "Kisah mikro Leontios, kuli panggul karung gandum yang menjadi salah satu korban pertama di distrik Zeugma sebelum sifat wabah dipahami.",
+                "en": "Micro-dossier of Leontios, a grain porter who became an early casualty in the crowded tenement alleys of Zeugma before the contagion was recognized."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Bubo Inguinal Akut)",
+                "vector": "Inokulasi Kutaneus Ekstremitas Bawah",
+                "incubation": "48 Jam",
+                "transmission": "Paparan kerja langsung di dermaga gandum"
+            },
+            "description": {
+                "id": "Leontios menghabiskan hidupnya memanggul karung jerami dari perahu ke kereta dorong kota. Suatu petang yang lembap, ia pulang ke bilik kayunya di distrik Zeugma dengan tubuh menggigil hebat meski perapian menyala. Istrinya mendapati benjolan keras sebesar biji kenari di selangkangan kirinya yang terasa panas membakar. Menjelang fajar, racauan demam Leontios terdengar melintasi dinding tipis tetangganya; tiga hari kemudian, seluruh penghuni bilik itu terbujur kaku.",
+                "en": "Leontios spent his life lugging hemp sacks of grain from boat ramps to city carts. One damp evening, he returned to his timber room in Zeugma shivering violently despite an active fire. His wife discovered a walnut-sized knot in his groin, burning to the touch. By dawn, his delirious screams pierced the timber lath of adjacent tenements; three days later, every occupant of the room lay lifeless."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_03.jpg"
+        },
+        {
+            "id": "cpx-ch-04",
+            "chapterNumber": 4,
+            "type": "standard",
+            "title": {
+                "id": "Bubo di Pemukiman Kumuh: Penetrasi Insulae",
+                "en": "Buboes in the Slums: Infiltration of the Insulae"
+            },
+            "date": {
+                "id": "Awal Mei 542 M",
+                "en": "Early May 542 AD"
+            },
+            "flash": {
+                "id": "Wabah merayap dari kawasan dermaga masuk ke bangunan hunian bertingkat (insulae) kota; puluhan distrik padat mulai lumpuh serentak.",
+                "en": "The contagion creeps from waterfronts into multi-story residential blocks (insulae); dozens of congested city wards begin simultaneous collapse."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Limfadenitis Supuratif)",
+                "vector": "Endemik Pengerat Perkotaan",
+                "incubation": "2 – 5 Hari",
+                "transmission": "Rantai pinjal domestik antar ruangan hunian"
+            },
+            "description": {
+                "id": "Konstantinopel adalah rimba vertikal batu dan kayu, tempat ribuan keluarga miskin tinggal berdesakan di bangunan apartemen tinggi tanpa drainase memadai. Jalur got terbuka dan gudang bawah tanah menjadi jalan tol sempurna bagi koloni tikus kota. Dari distrik pelabuhan, wabah menjalar ke pasar-pasar daging, emperan toko roti, hingga ke serambi basilika. Pasien berjatuhan bukan secara terpisah, melainkan seluruh keluarga terhapus dalam waktu sepekan.",
+                "en": "Constantinople was a vertical labyrinth of stone and wood, housing dense working families in towering tenements lacking drainage. Open street gullies and basements offered prime conduits for urban rodent populations. From docks, the pathogen marched into meat markets, bakery arcades, and church stoops. Entire kinship units were wiped out within a single week."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_04.jpg"
+        },
+        {
+            "id": "cpx-ch-05",
+            "chapterNumber": 5,
+            "type": "standard",
+            "title": {
+                "id": "Kebuntuan Medis Galen: Runtuhnya Teori Miasma",
+                "en": "The Galenic Deadlock: Collapse of Miasma Theory"
+            },
+            "date": {
+                "id": "Pertengahan Mei 542 M",
+                "en": "Mid-May 542 AD"
+            },
+            "flash": {
+                "id": "Para dokter kekaisaran yang berpegang pada teks kuno Hippokrates dan Galen kebingungan; ramuan herbal dan pengeluaran darah justru mempercepat kematian penderita pes.",
+                "en": "Imperial physicians bound to ancient treatises of Hippocrates and Galen flounder; herbal fumigations and bloodletting only hasten septic shock in plague victims."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Kegagalan Respons Humoral)",
+                "vector": "Toksemia Masif & Nekrosis Vaskular",
+                "incubation": "N/A",
+                "transmission": "Kegagalan penanganan klinis era klasik"
+            },
+            "description": {
+                "id": "Korp medis Bizantium yang terdidik di Alexandria meyakini penyakit disebabkan ketidakseimbangan cairan tubuh akibat 'udara busuk' (miasma). Mereka membakar kemenyan di sudut jalan dan menorehkan pisau bedah pada bubo pasien untuk membuang cairan kotor. Tindakan ini memicu pendarahan tak terkendali dan syok septik fatal. Dokter yang menyentuh cairan infeksius terjangkit melalui luka mikroskopis di jemari mereka, memicu kematian beruntun para tabib kota.",
+                "en": "The Byzantine medical corps attributed the scourge to humoral imbalances caused by foul air or miasma. They burned frankincense at intersections and incised buboes to drain fluid, provoking uncontrollable hemorrhaging and fatal septic shock. Doctors handling purulent exudates contracted the pathogen through micro-abrasions, decimating city medical personnel."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_05.jpg"
+        },
+        {
+            "id": "cpx-ch-06",
+            "chapterNumber": 6,
+            "type": "milestone",
+            "title": {
+                "id": "Teror Penampakan Hantu & Paranoia Massal",
+                "en": "Spectral Terrors & Mass Paranoia"
+            },
+            "date": {
+                "id": "Akhir Mei 542 M",
+                "en": "Late May 542 AD"
+            },
+            "flash": {
+                "id": "Procopius mencatat histeria psikologis massal; warga mengklaim melihat sosok gaib menusuk tubuh mereka sesaat sebelum jatuh sakit demam tinggi.",
+                "en": "Procopius documents widespread psychic hysteria; residents report seeing apparition figures strike their bodies moments before collapsing into virulent fevers."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Ensefalopati Toksik)",
+                "vector": "Toksin Bakterial Melintasi Sawar Darah Otak",
+                "incubation": "24 – 48 Jam Sebelum Bubo Muncul",
+                "transmission": "Disfungsi neurologis akut akibat hipertermia septik"
+            },
+            "description": {
+                "id": "Sebelum demam fisik terasa, teror kejiwaan melanda kota. Warga mengunci diri di kamar karena takut bertemu bayangan hitam yang diyakini berkeliaran di jalanan. Mereka yang terinfeksi berhalusinasi melihat sosok iblis memukul dada atau selangkangan mereka. Demam tinggi yang membakar memicu racauan ganas; pasien mengamuk, menolak air minum, atau merangkak keluar rumah mencari laut untuk menenggelamkan rasa panas di tubuh mereka.",
+                "en": "Before physical fevers manifested, psychic terror seized the metropolis. Citizens bolted themselves inside chambers, terrified of encountering dark shadows believed to stalk the avenues. Those stricken experienced hallucinations of demons striking their bodies. High burning fevers induced violent delirium; patients screamed incoherently, rejected water, or crawled into the sea seeking to quench their burning agony."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_06.jpg"
+        },
+        {
+            "id": "cpx-ch-07",
+            "chapterNumber": 7,
+            "type": "standard",
+            "title": {
+                "id": "Pintu-Pintu yang Terpalang: Isolasi Primitif",
+                "en": "Bolted Portals: Primitive Quarantine"
+            },
+            "date": {
+                "id": "Awal Juni 542 M",
+                "en": "Early June 542 AD"
+            },
+            "flash": {
+                "id": "Ikatan kekerabatan runtuh; keluarga membarikade pintu rumah dari dalam, meninggalkan sanak saudara yang sekarat tanpa makanan maupun perawatan.",
+                "en": "Kinship bonds disintegrate; households barricade doors from within, abandoning dying relatives without sustenance or physical aid."
+            },
+            "virusProfile": {
+                "agent": "Dampak Perilaku Ekologi Manusia",
+                "vector": "Pengurungan Populasi dalam Ruang Tertutup",
+                "incubation": "N/A",
+                "transmission": "Eskalasi paparan pinjal di dalam rumah tertutup"
+            },
+            "description": {
+                "id": "Ketakutan menghancurkan nilai-nilai peradaban Romawi. Kasih sayang keluarga menguap: anak menolak memandikan jenazah ayahnya, dan ibu menjauhkan diri dari bayinya yang mulai membengkak lehernya. Warga yang sehat memaku balok kayu di pintu depan dan jendela rumah mereka. Namun tindakan mengurung diri ini menjadi jebakan maut: tikus yang terinfeksi terjebak bersama manusia di dalam rumah tertutup, mempercepat kematian seluruh anggota keluarga.",
+                "en": "Dread corroded Roman civic ethos. Familial compassion evaporated: adult children refused to touch deceased fathers, and mothers fled infants showing cervical swellings. Healthy families nailed timber beams across doors and shuttered windows. Yet self-isolation became an unintentional deathtrap: infected rodents trapped indoors intensified flea transfer, condemning entire households together."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_07.jpg"
+        },
+        {
+            "id": "cpx-ch-08",
+            "chapterNumber": 8,
+            "type": "side_story",
+            "title": {
+                "id": "Lilin Terakhir di Biara St. Polyeuktos",
+                "en": "The Last Candle at St. Polyeuktos"
+            },
+            "date": {
+                "id": "Pertengahan Juni 542 M",
+                "en": "Mid-June 542 AD"
+            },
+            "flash": {
+                "id": "Kisah Suster Anastasia yang bertahan di serambi basilika merawat orang-orang buangan yang sekarat di tangga gereja hingga lilin terakhir altar padam.",
+                "en": "Chronicle of Sister Anastasia remaining within basilica porticos to nurse castaway dying on church steps until the altar's final candle flickered out."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Beban Paparan Tinggi)",
+                "vector": "Kontak Erat dengan Eksudat Purulen Pasien",
+                "incubation": "3 Hari",
+                "transmission": "Penularan langsung pada perawat sukarela"
+            },
+            "description": {
+                "id": "Ketika rumah-rumah sakit gereja penuh sesak dan para pendeta melarikan diri ke perbukitan Bithynia, segelintir biarawati di basilika St. Polyeuktos menolak pergi. Suster Anastasia mengumpulkan puluhan anak yatim dan buruh miskin yang ditinggalkan di serambi marmer. Dengan kain lenan bekas dan cuka anggur, ia menyeka luka bubo mereka dan mendengarkan pengakuan dosa terakhir. Pada akhir pekan kedua Juni, nyanyian doa di basilika tersebut terhenti selamanya.",
+                "en": "When ecclesiastical hospices overflowed and priests fled toward the hills of Bithynia, a handful of consecrated sisters at St. Polyeuktos refused evacuation. Sister Anastasia gathered dozens of orphans and laborers abandoned along marble colonnades. Using vinegar and linen rags, she bathed weeping buboes and whispered final absolutions. By mid-June, the choir of prayers ceased entirely."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_08.jpg"
+        },
+        {
+            "id": "cpx-ch-09",
+            "chapterNumber": 9,
+            "type": "standard",
+            "title": {
+                "id": "Runtuhnya Senat & Matinya Hukum Perdata",
+                "en": "Fall of the Senate: Collapse of Civil Law"
+            },
+            "date": {
+                "id": "Akhir Juni 542 M",
+                "en": "Late June 542 AD"
+            },
+            "flash": {
+                "id": "Para hakim, senator, dan pejabat prefektur tewas massal; administrasi hukum Romawi yang berusia ribuan tahun lumpuh total di seluruh kota.",
+                "en": "Judges, senators, and praetorian scribes perish en masse; millennia of Roman civil administrative jurisprudence cease functioning city-wide."
+            },
+            "virusProfile": {
+                "agent": "Dampak Disrupsi Institusional",
+                "vector": "Kehancuran Birokrasi Sentral Pemerintahan",
+                "incubation": "N/A",
+                "transmission": "Lumpuhnya rantai komando kekaisaran"
+            },
+            "description": {
+                "id": "Aula senat di dekat Augusteion sunyi senyap. Meja-meja marmer tempat para hakim mengadili sengketa tanah dan perdagangan tertutup debu tebal. Arsip gulungan papirus tergeletak berserakan tanpa ada yang mencatat kepemilikan wasiat orang mati. Polisi kota (curatores) dan petugas pasar lenyap. Hukum tidak lagi ditegakkan melalui pengadilan, melainkan digantikan hukum alam: siapa yang paling kuat bertahan hidup adalah yang berkuasa.",
+                "en": "The curia hall near the Augusteion fell deathly quiet. Marble benches where magistrates adjudicated property disputes lay coated in thick dust. Papyrus deeds lay scattered without scribes to register successions of the dead. Urban wardens and marketplace overseers vanished. Roman law was no longer preserved through courts, superseded by raw survival."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_09.jpg"
+        },
+        {
+            "id": "cpx-ch-10",
+            "chapterNumber": 10,
+            "type": "milestone",
+            "title": {
+                "id": "Ambang Batas 5.000 Kematian Sehari",
+                "en": "The 5,000 Daily Casualties Threshold"
+            },
+            "date": {
+                "id": "Awal Juli 542 M",
+                "en": "Early July 542 AD"
+            },
+            "flash": {
+                "id": "Angka kematian harian menembus rekor 5.000 jiwa; pemakaman biasa ditiadakan sepenuhnya, gerobak keledai mengangkut mayat bertumpuk ke gerbang luar kota.",
+                "en": "Daily mortality crosses 5,000 souls; standard interments cease as mule carts haul heaps of unwashed dead toward peripheral fortifications."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Bentuk Paru Sekunder)",
+                "vector": "Inhalasi Droplet Pernapasan Pasien Fase Akhir",
+                "incubation": "18 – 24 Jam",
+                "transmission": "Eskalasi aerosol di tengah konsentrasi kerumunan penderita"
+            },
+            "description": {
+                "id": "Pada pekan pertama Juli, batas toleransi pemakaman kota hancur lebur. Tidak ada lagi peti mati kayu; jenazah dibungkus tikar usang atau sekadar diikat tali jerami. Gerobak-gerobak pengangkut batu kali beralih fungsi menjadi kereta jenazah darurat yang ditarik keledai menyusuri jalanan Mese. Mayat ditumpuk berlapis-lapis hingga terjatuh ke paving jalan saat roda gerobak menghantam batu trotoar yang rusak.",
+                "en": "During early July, all burial capacity disintegrated. Timber coffins were unavailable; bodies were bundled in mats or bound with hemp cords. Quarried-stone carts were repurposed as funeral wagons pulled by mules along the colonnaded Mese avenue. Corpses were stacked like cordwood, spilling onto paving stones when iron cartwheels struck uneven flags."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_10.jpg"
+        },
+        {
+            "id": "cpx-ch-11",
+            "chapterNumber": 11,
+            "type": "milestone",
+            "title": {
+                "id": "Puncak Pembantaian: 10.000 Jiwa Sehari",
+                "en": "The Mortality Apex: 10,000 Souls a Day"
+            },
+            "date": {
+                "id": "Pertengahan Juli 542 M",
+                "en": "Mid-July 542 AD"
+            },
+            "flash": {
+                "id": "Kematian mencapai puncaknya hingga 10.000 jiwa per hari; prefek kota kehilangan seluruh kapasitas sensus setelah angka melampaui 230.000 korban tewas.",
+                "en": "Mortality peaks at 10,000 deaths per day; imperial magistrates forfeit census registers after certified tallies surpass 230,000 corpses."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Kehancuran Epidemiologis Penuh)",
+                "vector": "Transmisi Multi-Vektor (Pinjal & Aerosol Bersamaan)",
+                "incubation": "24 Jam",
+                "transmission": "Tingkat fatalitas kasus mendekati 70% tanpa perawatan"
+            },
+            "description": {
+                "id": "Pertengahan Juli menjadi masa paling gelap dalam sejarah Konstantinopel. Bau busuk mayat menyengat dari setiap lorong dan serambi basilika. Prefek kota yang ditugaskan mencatat kematian akhirnya melepaskan pena dan membuang tablet lilinnya. Seluruh toko pangan tutup, roda ekonomi mati suri, dan anjing-anjing liar berkeliaran memakan sisa-sisa jenazah yang tertinggal di selokan jalanan kota.",
+                "en": "Mid-July marked the darkest abyss in Constantinople's memory. The stench of decay hung over every alley and colonnade. Magistrates assigned to tally the dead discarded their wax tablets. Bakeries bolted their ovens, economic circulation flatlined, and feral dogs scavenged uncollected remains in street gutters."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_11.jpg"
+        },
+        {
+            "id": "cpx-ch-12",
+            "chapterNumber": 12,
+            "type": "side_story",
+            "title": {
+                "id": "Menara Sycae: Bastion Penampung Mayat",
+                "en": "The Towers of Sycae: Bastions of Putrefaction"
+            },
+            "date": {
+                "id": "Akhir Juli 542 M",
+                "en": "Late July 542 AD"
+            },
+            "flash": {
+                "id": "Kisah rahasia Theodorus, pejabat yang diperintahkan mencopot atap menara benteng Sycae untuk menjejalkan ribuan jenazah ke dalamnya dari ketinggian.",
+                "en": "Confidential chronicle of Theodorus, commanded to strip roofs off Sycae defensive towers and stuff thousands of bodies inside from the ramparts."
+            },
+            "virusProfile": {
+                "agent": "Krisis Sanitasi & Dekomposisi Massal",
+                "vector": "Gas Pembusukan & Cairan Kadavrik Toksik",
+                "incubation": "N/A",
+                "transmission": "Paparan ekstrem bagi regu sanitasi paksa militer"
+            },
+            "description": {
+                "id": "Ketika lubang galian di luar Tembok Theodosius meluap penuh, pejabat istana Theodorus mengerahkan prajurit garnisun dan narapidana ke benteng Sycae di seberang pelabuhan. Mereka mencopot atap genteng dari menara-menara pengawas raksasa, lalu melemparkan mayat-mayat tanpa nama ke dalam rongga silinder benteng hingga terisi penuh membubung tinggi. Menara batu pertahanan kota berubah menjadi lumbung mayat raksasa yang tertutup terik matahari musim panas.",
+                "en": "When burial trenches beyond the Theodosian Walls overflowed, referendary Theodorus marshaled garrison soldiers and convicts across to the Sycae fortress. Stripping roof tiles from defensive watchtowers, work gangs pitched uncounted bodies into the hollow stonework, filling bastions to the battlements like grain silos under the baking summer heat."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_12.jpg"
+        },
+        {
+            "id": "cpx-ch-13",
+            "chapterNumber": 13,
+            "type": "standard",
+            "title": {
+                "id": "Bau Busuk di Istana: Ketakutan Kaum Bangsawan",
+                "en": "Stench in the Palace: Aristocratic Terror"
+            },
+            "date": {
+                "id": "Awal Agustus 542 M",
+                "en": "Early August 542 AD"
+            },
+            "flash": {
+                "id": "Angin utara membawa bau pembusukan menara benteng Sycae melintasi selat, menyelimuti aula marmer Istana Agung Blachernae.",
+                "en": "Northerly gales carry putrid air from the Sycae fortresses across the water, blanketing the marble terraces of the Great Palace."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Penetrasi Kelas Elite)",
+                "vector": "Kutu Tikus pada Karpet & Tirai Istana",
+                "incubation": "3 Hari",
+                "transmission": "Kegagalan perimeter sanitasi istana kekaisaran"
+            },
+            "description": {
+                "id": "Kemewahan dan benteng marmer tidak lagi mampu melindungi kaum bangsawan Bizantium. Ketika angin utara bertiup dari seberang Golden Horn, bau busuk dari menara Sycae menyusup ke kamar-kamar peristirahatan kaisar. Para bangsawan membasahi kain sutra mereka dengan minyak wangi mur dan lavender untuk bernapas, namun para pelayan kamar mulai berjatuhan satu demi satu, menandakan kutu pes telah melompat ke kasur-kasur empuk istana.",
+                "en": "Opulent marble palaces offered no refuge for Byzantine aristocracy. When north winds drifted across the Golden Horn, stench from the Sycae towers infiltrated imperial chambers. Patricians pressed myrrh-soaked silks to their faces to breathe, yet bedchamber servants collapsed one by one, proving plague fleas had breached palace tapestries."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_13.jpg"
+        },
+        {
+            "id": "cpx-ch-14",
+            "chapterNumber": 14,
+            "type": "standard",
+            "title": {
+                "id": "Tongkang-Tongkang Kematian di Laut Marmara",
+                "en": "Death Barges on the Marmara"
+            },
+            "date": {
+                "id": "Pertengahan Agustus 542 M",
+                "en": "Mid-August 542 AD"
+            },
+            "flash": {
+                "id": "Kekurangan lahan pemakaman daratan memaksa otoritas memuat ribuan mayat ke tongkang kayu tua untuk dihanyutkan dan ditenggelamkan di laut lepas.",
+                "en": "Exhaustion of terrestrial burial grounds forces magistrates to load thousands of corpses onto dilapidated barges to be drifted into open waters."
+            },
+            "virusProfile": {
+                "agent": "Krisis Sanitasi Perairan Terbuka",
+                "vector": "Pencemaran Pesisir Maritim",
+                "incubation": "N/A",
+                "transmission": "Pembuangan mayat massal di wilayah perairan laut"
+            },
+            "description": {
+                "id": "Sebagai upaya putus asa membersihkan kota, para komandan pelabuhan menyita kapal-kapal pengangkut kayu dan batu yang telah usang. Jenazah-jenazah dijejalkan ke atas dek hingga sarat air, lalu diderek oleh perahu dayung menuju perairan Laut Marmara sebelum dilepaskan mengikuti arus. Namun gelombang pasang kerap mengembalikan bangkai-bangkai tongkang tersebut ke pantai-pantai pemukiman, menciptakan pemandangan mengerikan di sepanjang garis pantai Mediterania.",
+                "en": "In desperate attempts to cleanse avenues, harbor prefects requisitioned decayed barges. Bodies were crammed onto decks until gunwales sat level with the waterline, towed out into the Marmara Sea, and cast adrift. Yet ocean tides washed many hulks back upon populated beaches, creating horrific scenes along the coastline."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_14.jpg"
+        },
+        {
+            "id": "cpx-ch-15",
+            "chapterNumber": 15,
+            "type": "milestone",
+            "title": {
+                "id": "Kaisar Jatuh Sakit: Tahta yang Terguncang",
+                "en": "The Emperor Stricken: The Throne in Peril"
+            },
+            "date": {
+                "id": "Akhir Agustus 542 M",
+                "en": "Late August 542 AD"
+            },
+            "flash": {
+                "id": "Kaisar Yustinianus sendiri terjangkit demam pes dan mengalami pembengkakan bubo inguinal; Permaisuri Theodora mengambil alih kendali darurat kekaisaran.",
+                "en": "Emperor Justinian himself contracts the bubonic pestilence; Empress Theodora assumes autocratic emergency rule as the monarch lies comatose."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Kasus Bubo Kepala Negara)",
+                "vector": "Gigitan Pinjal Kamar Tidur Kekaisaran",
+                "incubation": "3 Hari",
+                "transmission": "Inokulasi langsung di kediaman istana"
+            },
+            "description": {
+                "id": "Kepanikan mencapai puncaknya ketika Yustinianus terkapar demam tinggi dengan benjolan bubo membakar di selangkangannya. Sang otokrat koma berhari-hari di ranjang istana. Di tengah kevakuman kekuasaan, Permaisuri Theodora memegang kemudi kekaisaran dengan tangan besi. Ia menandatangani dekrit-dekrit kaisar, mengawasi para jenderal militer agar tidak melakukan kudeta, dan mengerahkan tabib terbaik untuk merawat luka bernanah suaminya hingga bubo sang kaisar akhirnya pecah secara ajaib.",
+                "en": "Panic crested when Justinian collapsed with burning inguinal buboes. The ruler lay semi-comatose for days. Amidst the void of authority, Empress Theodora seized state governance with unyielding resolve. Signing chrysobulls, holding commanders in check against rebellion, and directing physicians, she oversaw care until the emperor's abscess ruptured, sparing his life."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_15.jpg"
+        },
+        {
+            "id": "cpx-ch-16",
+            "chapterNumber": 16,
+            "type": "standard",
+            "title": {
+                "id": "Bisik Pengkhianatan di Garis Perang",
+                "en": "Whispers of Sedition at the Front"
+            },
+            "date": {
+                "id": "September 542 M",
+                "en": "September 542 AD"
+            },
+            "flash": {
+                "id": "Rumor kematian sang kaisar menyebar ke perbatasan Persia dan Italia; para komandan legiun mulai merencanakan suksesi sebelum dipadamkan oleh Theodora.",
+                "en": "Rumors of the autocrat's demise reach Syrian and Italian battlefronts; legion commanders weigh succession before Theodora suppresses the dissent."
+            },
+            "virusProfile": {
+                "agent": "Dampak Geopolitik Militer",
+                "vector": "Krisis Suksesi di Garis Perbatasan",
+                "incubation": "N/A",
+                "transmission": "Paralisis garis komando militer legiun Bizantium"
+            },
+            "description": {
+                "id": "Di tenda-tenda militer perbatasan Suriah dan Italia, berita burung menyebutkan Yustinianus telah mangkat. Para jenderal, termasuk Belisarius dan Buzes, berdiskusi bahwa mereka tidak akan menerima kaisar baru yang dipilih sepihak oleh istana tanpa persetujuan tentara. Namun mata-mata Theodora menangkap intrik ini. Begitu kaisar mulai pulih, sang permaisuri melucuti komando para jenderal tersebut dan menyita kekayaan mereka untuk kas negara.",
+                "en": "In command tents along Syrian and Italian fronts, rumors declared Justinian dead. Generals, including Belisarius and Buzes, debated refusing any imperial successor chosen without army assent. But Theodora's intelligence network intercepted the talk. As the emperor convalesced, the empress stripped commanders of authority and confiscated estates for the treasury."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_16.jpg"
+        },
+        {
+            "id": "cpx-ch-17",
+            "chapterNumber": 17,
+            "type": "milestone",
+            "title": {
+                "id": "Dekrit Epibole: Pemerasan Pajak atas Orang Mati",
+                "en": "The Epibole Edicts: Extorting the Dead"
+            },
+            "date": {
+                "id": "543 M",
+                "en": "543 AD"
+            },
+            "flash": {
+                "id": "Yustinianus memberlakukan dekrit fiskal kejam: pemilik tanah yang selamat diwajibkan membayar pajak tanah tetangga mereka yang tewas terkena pes.",
+                "en": "A recovered Justinian enacts draconian tax decrees: surviving landholders are legally mandated to pay arrears for deceased neighbors."
+            },
+            "virusProfile": {
+                "agent": "Trauma Sosio-Ekonomi Agraria",
+                "vector": "Krisis Finansial Pasca-Pandemi",
+                "incubation": "Kronis",
+                "transmission": "Kolapsnya basis pajak agrikultur kekaisaran"
+            },
+            "description": {
+                "id": "Saat terbangun dari sakitnya, Yustinianus mendapati kas kekaisaran kosong melompong sementara gaji legiun harus tetap dibayar. Alih-alih memberi keringanan pada rakyat yang selamat, ia menerapkan hukum epibole secara membabi buta. Warga desa yang masih bertahan dipaksa membayar kuota pajak hasil panen dari tanah-tanah terlantar di sebelah mereka. Kebijakan ini memicu gelombang kemiskinan ekstrem dan meruntuhkan ekonomi pedesaan Bizantium.",
+                "en": "Awakening to an empty fiscus while soldiers demanded back pay, Justinian enforced the epibole ruthlessly. Surviving farmers were forced to pay tax quotas for adjoining uncultivated lands whose owners had perished. This financial extortion destroyed agricultural viability and plunged the surviving peasantry into destitution."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_17.jpg"
+        },
+        {
+            "id": "cpx-ch-18",
+            "chapterNumber": 18,
+            "type": "summary",
+            "title": {
+                "id": "Padamnya Ambisi Renovatio Imperii",
+                "en": "The Extinguished Roman Renovation"
+            },
+            "date": {
+                "id": "544 M & Warisan Abadi",
+                "en": "544 AD & Historical Legacy"
+            },
+            "flash": {
+                "id": "Gelombang pertama mereda setelah melenyapkan separuh warga ibukota; impian Yustinianus untuk menyatukan kembali Imperium Romawi terkubur selamanya.",
+                "en": "The first wave subsides after eliminating half the capital; Justinian's grand ambition to restore the Roman Empire is permanently extinguished."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Warisan Sejarah Peradaban)",
+                "vector": "Fase Endemik Mediterania (Berulang Hingga 750 M)",
+                "incubation": "Dua Abad Gelombang Berkala",
+                "transmission": "Penetapan reservoir alami pengerat di tanah Eropa"
+            },
+            "description": {
+                "id": "Pada tahun 544 M, wabah di Konstantinopel mereda karena habisnya populasi rentan. Namun kota metropolitan terhebat di dunia itu tidak pernah pulih sepenuhnya. Ambisi menyatukan Romawi Barat dan Timur gagal karena ketiadaan tentara dan uang. Megahnya kubah Hagia Sophia kini memayungi sebuah kekaisaran yang lelah dan rapuh, membuka jalan bagi masa kemunduran panjang yang kelak mengubah peta peradaban abad pertengahan.",
+                "en": "By 544 AD, the plague in Constantinople burned out as susceptible hosts were exhausted. Yet the metropolis never regained its former zenith. The dream of reuniting the Roman world died from lack of men and gold. The grand dome of Hagia Sophia stood over an exhausted empire, marking the irreversible close of classical antiquity."
+            },
+            "image": "/assets/images/plague-of-justinian-541/cpx/cpx_ch_18.jpg"
+        }
+    ]
+}
