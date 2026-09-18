@@ -9,7 +9,7 @@ import React, {
 } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useParams } from "next/navigation";
 import Image from "next/image";
 import { useRouter } from "@/i18n/routing";
 import { Chapter, SupportedLocale } from "@/types/journey";
@@ -82,8 +82,8 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
         isMilestone &&
         (chapter.id.includes("vaccine") ||
             chapter.id.includes("cold-chain") ||
-            chapter.strain.toLowerCase().includes("vaksin") ||
-            chapter.strain.toLowerCase().includes("vaccine"));
+            Boolean(chapter.strain?.toLowerCase().includes("vaksin")) ||
+            Boolean(chapter.strain?.toLowerCase().includes("vaccine")));
 
     // Dynamic styles based on chapter.type
     let cardContainerStyle = "";
@@ -335,16 +335,25 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
                                 <span
                                     className={`text-[11px] font-mono font-bold tracking-wider uppercase truncate ${dossierAccentColor}`}
                                 >
-                                    {chapter.virusProfile.code}
+                                    {chapter.virusProfile.code ||
+                                        chapter.virusProfile.agent ||
+                                        "BIO-SURVEILLANCE DOSSIER"}
                                 </span>
                             </div>
                             <div className="flex items-center gap-2 shrink-0">
-                                <span className="text-[9px] font-mono px-2 py-0.5 rounded bg-black/60 text-neutral-300 border border-white/10 truncate max-w-[140px] sm:max-w-none">
-                                    {t(
-                                        chapter.virusProfile.threatLevel,
-                                        locale,
-                                    )}
-                                </span>
+                                {chapter.virusProfile.threatLevel ? (
+                                    <span className="text-[9px] font-mono px-2 py-0.5 rounded bg-black/60 text-neutral-300 border border-white/10 truncate max-w-[140px] sm:max-w-none">
+                                        {t(
+                                            chapter.virusProfile.threatLevel,
+                                            locale,
+                                        )}
+                                    </span>
+                                ) : chapter.virusProfile.incubation ? (
+                                    <span className="text-[9px] font-mono px-2 py-0.5 rounded bg-black/60 text-purple-300 border border-purple-500/20 truncate max-w-[140px] sm:max-w-none">
+                                        INKUBASI:{" "}
+                                        {chapter.virusProfile.incubation}
+                                    </span>
+                                ) : null}
                                 <ChevronDown
                                     className={`w-3.5 h-3.5 text-neutral-400 transition-transform duration-200 ${
                                         isDossierExpanded ? "rotate-180" : ""
@@ -361,46 +370,74 @@ const ChapterCard: React.FC<ChapterCardProps> = ({
                                         <Activity
                                             className={`w-3 h-3 ${dossierAccentColor}`}
                                         />
-                                        <span>TRANSMISSION / R₀</span>
+                                        <span>
+                                            {chapter.virusProfile.transmission
+                                                ? "TRANSMISI / RUTE"
+                                                : "TRANSMISSION / R₀"}
+                                        </span>
                                     </div>
                                     <div
-                                        className={`font-bold text-xs mt-0.5 ${dossierAccentColor}`}
+                                        className={`font-bold text-xs mt-0.5 ${dossierAccentColor} line-clamp-2`}
+                                        title={
+                                            chapter.virusProfile.r0 ||
+                                            chapter.virusProfile.transmission
+                                        }
                                     >
-                                        {chapter.virusProfile.r0}
+                                        {chapter.virusProfile.r0 ||
+                                            chapter.virusProfile.transmission ||
+                                            "-"}
                                     </div>
                                 </div>
                                 <div className="bg-black/60 p-2 rounded border border-neutral-800/80">
                                     <div className="text-neutral-500 uppercase">
-                                        MUTATION TYPE
+                                        {chapter.virusProfile.vector
+                                            ? "VEKTOR SPESIES"
+                                            : "MUTATION TYPE"}
                                     </div>
                                     <div
                                         className="text-neutral-300 font-medium text-[11px] mt-0.5 line-clamp-2"
-                                        title={t(
-                                            chapter.virusProfile.mutationType,
-                                            locale,
-                                        )}
+                                        title={
+                                            chapter.virusProfile.vector ||
+                                            t(
+                                                chapter.virusProfile
+                                                    .mutationType,
+                                                locale,
+                                            )
+                                        }
                                     >
-                                        {t(
-                                            chapter.virusProfile.mutationType,
-                                            locale,
-                                        )}
+                                        {chapter.virusProfile.vector ||
+                                            t(
+                                                chapter.virusProfile
+                                                    .mutationType,
+                                                locale,
+                                            ) ||
+                                            "-"}
                                     </div>
                                 </div>
                                 <div className="bg-black/60 p-2 rounded border border-neutral-800/80">
                                     <div className="text-neutral-500 uppercase">
-                                        CLINICAL TARGET
+                                        {chapter.virusProfile.agent
+                                            ? "PATOGEN / AGENT"
+                                            : "CLINICAL TARGET"}
                                     </div>
                                     <div
                                         className="text-neutral-300 font-medium text-[11px] mt-0.5 line-clamp-2"
-                                        title={t(
-                                            chapter.virusProfile.clinicalTarget,
-                                            locale,
-                                        )}
+                                        title={
+                                            chapter.virusProfile.agent ||
+                                            t(
+                                                chapter.virusProfile
+                                                    .clinicalTarget,
+                                                locale,
+                                            )
+                                        }
                                     >
-                                        {t(
-                                            chapter.virusProfile.clinicalTarget,
-                                            locale,
-                                        )}
+                                        {chapter.virusProfile.agent ||
+                                            t(
+                                                chapter.virusProfile
+                                                    .clinicalTarget,
+                                                locale,
+                                            ) ||
+                                            "-"}
                                     </div>
                                 </div>
                             </div>
@@ -584,12 +621,29 @@ const ScrollytellingLayoutContent: React.FC<ScrollytellingLayoutProps> = ({
     // 6. Sequential chapter asset preloader (N+1, N+2)
     useChapterPreloader(chapters, activeIndex);
 
+    const params = useParams();
+    const routePandemic =
+        (params?.pandemic as string) ||
+        (params?.pandemicId as string) ||
+        "covid-19";
+
+    // Synchronize active pandemic to localStorage for persistent state recovery
+    useEffect(() => {
+        if (routePandemic) {
+            try {
+                localStorage.setItem("outbreak_active_pandemic", routePandemic);
+            } catch {
+                // Ignore localStorage errors
+            }
+        }
+    }, [routePandemic]);
+
     // 7. Accessible hardware keyboard navigation (Arrows, PageUp/Down, Home, End, Escape)
     useDossierKeyboardNav({
         totalChapters: chapters.length,
         currentIndex: activeIndex,
         onNavigateChapter: scrollToChapter,
-        onEscape: () => router.push("/"),
+        onEscape: () => router.push(`/globe/${routePandemic}`),
     });
 
     const activeChapter = chapters[activeIndex] || chapters[0];

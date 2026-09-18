@@ -1,7 +1,6 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { CinematicLoading } from "@/components/organisms/CinematicLoading";
 
 const GlobeViewer = dynamic(
     () => import("@/components/organisms/GlobeViewer"),
@@ -25,11 +24,8 @@ export default function GlobePageClient({
 }) {
     return (
         <main className="relative w-screen h-screen overflow-hidden bg-[#050508] select-none">
-            {/* 3D Interactive Hub Globe with Era Initializer */}
+            {/* 3D Interactive Hub Globe with Era Initializer & Built-in Hologram Loader */}
             <GlobeViewer initialPandemicId={initialPandemicId} />
-
-            {/* Cinematic Full-screen Typewriter Loading Overlay */}
-            <CinematicLoading />
         </main>
     );
 }

@@ -23,22 +23,30 @@ interface DossierPageProps {
 
 export function generateStaticParams() {
     // Statically generate for all currently available dossiers across pandemics
-    const availablePandemics = ["covid-19"];
-    const countries = [
-        "id",
-        "idn",
-        "cn",
-        "chn",
-        "it",
-        "ita",
-        "us",
-        "usa",
-        "in",
-        "ind",
+    const availableDossiers: { pandemic: string; countries: string[] }[] = [
+        {
+            pandemic: "covid-19",
+            countries: [
+                "id",
+                "idn",
+                "cn",
+                "chn",
+                "it",
+                "ita",
+                "us",
+                "usa",
+                "in",
+                "ind",
+            ],
+        },
+        {
+            pandemic: "plague-of-justinian-541",
+            countries: ["cpx", "pel", "sas", "rom"],
+        },
     ];
 
     return routing.locales.flatMap((locale) =>
-        availablePandemics.flatMap((pandemic) =>
+        availableDossiers.flatMap(({ pandemic, countries }) =>
             countries.map((country) => ({
                 locale,
                 pandemic,
@@ -77,7 +85,7 @@ export default async function DossierPage({ params }: DossierPageProps) {
             {/* Fixed Navigation HUD */}
             <nav className="fixed top-4 left-4 sm:top-6 sm:left-6 z-50 flex items-center gap-3">
                 <Link
-                    href="/"
+                    href={`/globe/${pandemic}`}
                     className="group inline-flex items-center gap-2.5 px-3.5 py-2 rounded-lg bg-black/75 hover:bg-black/95 text-neutral-300 hover:text-white border border-neutral-800 hover:border-red-500/60 backdrop-blur-md font-mono text-xs tracking-wider transition-all duration-300 shadow-[0_0_20px_rgba(0,0,0,0.8)] hover:shadow-[0_0_20px_rgba(239,68,68,0.25)]"
                 >
                     <ArrowLeft className="w-3.5 h-3.5 text-red-500 transition-transform duration-200 group-hover:-translate-x-1" />

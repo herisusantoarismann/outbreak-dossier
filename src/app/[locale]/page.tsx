@@ -1,7 +1,6 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { CinematicLoading } from "@/components/organisms/CinematicLoading";
 
 // Dynamically import GlobeViewer with SSR disabled to prevent window object / WebGL crashes
 const GlobeViewer = dynamic(
@@ -22,11 +21,8 @@ const GlobeViewer = dynamic(
 export default function HomePage() {
     return (
         <main className="relative w-screen h-screen overflow-hidden bg-[#050508] select-none">
-            {/* 3D Interactive Hub Globe */}
+            {/* 3D Interactive Hub Globe with Built-in Hologram Loader */}
             <GlobeViewer />
-
-            {/* Cinematic Full-screen Typewriter Loading Overlay */}
-            <CinematicLoading />
         </main>
     );
 }

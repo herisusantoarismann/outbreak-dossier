@@ -120,7 +120,30 @@ export const PandemicProvider: React.FC<{
         (params?.pandemicId as string) || (params?.pandemic as string);
 
     const [selectedPandemicId, setSelectedPandemicId] = useState<string | null>(
-        null,
+        () => {
+            if (
+                typeof window !== "undefined" &&
+                !initialPandemicId &&
+                !routePandemicId
+            ) {
+                try {
+                    const saved = localStorage.getItem(
+                        "outbreak_active_pandemic",
+                    );
+                    if (
+                        saved &&
+                        getPandemicConfig(saved) &&
+                        getPandemicConfig(saved)?.status !==
+                            "classified_archive"
+                    ) {
+                        return saved;
+                    }
+                } catch {
+                    // Ignore storage errors
+                }
+            }
+            return null;
+        },
     );
     const [encryptedNotification, setEncryptedNotification] = useState<
         string | null
@@ -130,6 +153,44 @@ export const PandemicProvider: React.FC<{
         initialPandemicId ??
         routePandemicId ??
         "covid-19") as PandemicEraId;
+
+    // Sync state if initialPandemicId changes (e.g. Next.js route navigation)
+    useEffect(() => {
+        if (initialPandemicId && initialPandemicId !== selectedPandemicId) {
+            setSelectedPandemicId(initialPandemicId);
+        }
+    }, [initialPandemicId, selectedPandemicId]);
+
+    // Persist active pandemic into localStorage whenever it changes
+    useEffect(() => {
+        if (activePandemicId) {
+            try {
+                localStorage.setItem(
+                    "outbreak_active_pandemic",
+                    activePandemicId,
+                );
+            } catch {
+                // Ignore storage errors
+            }
+        }
+    }, [activePandemicId]);
+
+    // Synchronize state with browser forward/back buttons (popstate)
+    useEffect(() => {
+        const handlePopState = () => {
+            if (typeof window === "undefined") return;
+            const path = window.location.pathname;
+            const match = path.match(/\/globe\/([^/?#]+)/);
+            if (match && match[1]) {
+                const config = getPandemicConfig(match[1]);
+                if (config && config.status !== "classified_archive") {
+                    setSelectedPandemicId(config.id);
+                }
+            }
+        };
+        window.addEventListener("popstate", handlePopState);
+        return () => window.removeEventListener("popstate", handlePopState);
+    }, []);
 
     const triggerEncryptedAlert = useCallback(() => {
         setEncryptedNotification(
@@ -169,6 +230,11 @@ export const PandemicProvider: React.FC<{
             }
 
             setSelectedPandemicId(target.id);
+            try {
+                localStorage.setItem("outbreak_active_pandemic", target.id);
+            } catch {
+                // Ignore storage errors
+            }
 
             // Update browser URL without triggering a full page reload / WebGL scene destruction
             if (typeof window !== "undefined") {
