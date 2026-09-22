@@ -2194,13 +2194,78 @@ describe("Pandemic Era Isolation & Country Interaction Resolver", () => {
             );
             expect(brInteraction?.type).toBe("surveillance");
             expect(brInteraction?.code).toBe("BR");
+        });
 
-            // Non-relevant custom ancient codes (Justinian/Black Death/Cholera) return null
-            expect(getCountryInteraction("spanish-flu-1918", "CPX")).toBeNull();
-            expect(getCountryInteraction("spanish-flu-1918", "PEL")).toBeNull();
-            expect(getCountryInteraction("spanish-flu-1918", "KAF")).toBeNull();
-            expect(getCountryInteraction("spanish-flu-1918", "JES")).toBeNull();
-            expect(getCountryInteraction("spanish-flu-1918", "HAM")).toBeNull();
+        it("exhaustively resolves all 6 primary epicenters with valid coordinates and beacon colors", () => {
+            const primaryCodes = [
+                { iso2: "US", iso3: "USA", color: "#3b82f6", nameFragment: "Kansas" },
+                { iso2: "FR", iso3: "FRA", color: "#ef4444", nameFragment: "Étaples" },
+                { iso2: "ES", iso3: "ESP", color: "#eab308", nameFragment: "Madrid" },
+                { iso2: "GB", iso3: "GBR", color: "#8b5cf6", nameFragment: "London" },
+                { iso2: "IN", iso3: "IND", color: "#06b6d4", nameFragment: "Bombay" },
+                { iso2: "ID", iso3: "IDN", color: "#10b981", nameFragment: "Jawa" },
+            ];
+
+            for (const { iso2, iso3, color, nameFragment } of primaryCodes) {
+                // Test ISO-2 lookup
+                const res2 = getCountryInteraction("spanish-flu-1918", iso2);
+                expect(res2).not.toBeNull();
+                expect(res2?.type).toBe("epicenter");
+                expect(res2?.code).toBe(iso2);
+                expect(res2?.epicenter?.beaconColor).toBe(color);
+                expect(res2?.epicenter?.coordinates.lat).toBeTypeOf("number");
+                expect(res2?.epicenter?.coordinates.lng).toBeTypeOf("number");
+                expect(res2?.epicenter?.name.id).toContain(nameFragment);
+
+                // Test ISO-3 lookup
+                const res3 = getCountryInteraction("spanish-flu-1918", iso3);
+                expect(res3).not.toBeNull();
+                expect(res3?.type).toBe("epicenter");
+                expect(res3?.code).toBe(iso2);
+            }
+        });
+
+        it("exhaustively resolves all 9 secondary surveillance territories with valid telemetry data", () => {
+            const secondaryCodes = [
+                { iso2: "DE", iso3: "DEU", nameId: "Kekaisaran Jerman" },
+                { iso2: "IT", iso3: "ITA", nameId: "Kerajaan Italia" },
+                { iso2: "RU", iso3: "RUS", nameId: "Rusia" },
+                { iso2: "BR", iso3: "BRA", nameId: "Brasil" },
+                { iso2: "JP", iso3: "JPN", nameId: "Kekaisaran Jepang" },
+                { iso2: "ZA", iso3: "ZAF", nameId: "Uni Afrika Selatan" },
+                { iso2: "WS", iso3: "WSM", nameId: "Samoa Barat" },
+                { iso2: "NZ", iso3: "NZL", nameId: "Selandia Baru" },
+                { iso2: "CN", iso3: "CHN", nameId: "Tiongkok" },
+            ];
+
+            for (const { iso2, iso3, nameId } of secondaryCodes) {
+                // Test ISO-2 lookup
+                const res2 = getCountryInteraction("spanish-flu-1918", iso2);
+                expect(res2).not.toBeNull();
+                expect(res2?.type).toBe("surveillance");
+                expect(res2?.code).toBe(iso2);
+                expect(res2?.surveillance?.name.id).toContain(nameId);
+                expect(res2?.surveillance?.fatalities).toBeGreaterThan(0);
+                expect(res2?.surveillance?.notes.id).toBeDefined();
+
+                // Test ISO-3 lookup
+                const res3 = getCountryInteraction("spanish-flu-1918", iso3);
+                expect(res3).not.toBeNull();
+                expect(res3?.type).toBe("surveillance");
+                expect(res3?.code).toBe(iso2);
+            }
+        });
+
+        it("strictly enforces zero data bleed for unregistered territory codes in Spanish Flu era", () => {
+            const ancientAndForeignCodes = [
+                "CPX", "PEL", "SAS", "ROM", "GAU", "HIS", "BRI", "AFR", "LEV",
+                "KAF", "MES", "JES", "BAT", "BSO", "CAL", "MUS", "HAM", "ZAN",
+                "SAN", "PAP", "MAK", "HAR", "LMA", "YEM", "ZWE", "HTI", "PER",
+            ];
+
+            for (const code of ancientAndForeignCodes) {
+                expect(getCountryInteraction("spanish-flu-1918", code)).toBeNull();
+            }
         });
     });
 });

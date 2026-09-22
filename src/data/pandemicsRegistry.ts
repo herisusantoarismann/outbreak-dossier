@@ -1459,7 +1459,9 @@ export function getCountryInteraction(
     if (pId === "spanish-flu-1918") {
         const mapping =
             SPANISH_FLU_TERRITORY_MAP[rawId] ||
-            SPANISH_FLU_TERRITORY_MAP[normalizeCountryCode(rawId).toUpperCase()];
+            SPANISH_FLU_TERRITORY_MAP[
+                normalizeCountryCode(rawId).toUpperCase()
+            ];
         if (!mapping) return null;
         if (mapping.type === "epicenter") {
             const epicenter = SPANISH_FLU_EPICENTERS[mapping.code];
@@ -1598,6 +1600,12 @@ export function normalizeCountryCode(countryCode: string): string {
     if (code === "ukr") return "ua";
     if (code === "pol") return "pl";
     if (code === "rus") return "ru";
+    if (code === "deu") return "de";
+    if (code === "bra") return "br";
+    if (code === "jpn") return "jp";
+    if (code === "zaf") return "za";
+    if (code === "wsm") return "ws";
+    if (code === "nzl") return "nz";
 
     // Historical 3-letter sectors & surveillance territories
     const historicalCodes = [
