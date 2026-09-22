@@ -1,0 +1,412 @@
+{
+  "sectorId": "IND",
+  "waveIndex": 3,
+  "sectorName": {
+    "id": "Sektor IND (Anak Benua India: Bengal Delta, Kumbh Mela & Jalur Samudra Hindia 1846–1857)",
+    "en": "Sector IND (Indian Subcontinent: Bengal Delta, Kumbh Mela & Indian Ocean Networks 1846–1857)"
+  },
+  "coordinates": [
+    22.5726,
+    88.3639
+  ],
+  "timeRange": "1846 – 1857 M",
+  "estimatedFatalities": "1.000.000+ (Anak Benua India; Episentrum Delta Benggala)",
+  "description": {
+    "id": "Sebagai episentrum permanen dan reservoir biogeografis Vibrio cholerae di muara Delta Sundarbans, India memicu Gelombang Ketiga pada tahun 1846 setelah kegagalan monsun memicu kekeringan dan banjir salin. Festival ziarah akbar Kumbh Mela di Haridwar menjadi pemicu amplifikasi ke seluruh Asia Tengah dan Persia, sementara pengerahan resimen militer Perusahaan Hindia Timur Britania (EIC) menabur wabah di barak-barak kolonial hingga meletusnya Pemberontakan India 1857.",
+    "en": "As the permanent biogeographic reservoir of Vibrio cholerae in the mangrove estuaries of the Sundarbans Delta, India sparked the Third Pandemic in 1846 following monsoon failures, severe droughts, and saline inundations. The colossal Kumbh Mela pilgrimage at Haridwar acted as an epidemiological amplifier across Central Asia and Persia, while British East India Company (EIC) troop deployments seeded colonial cantonments leading up to the 1857 Indian Uprising."
+  },
+  "chapters": [
+    {
+      "id": "ind-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Reservoir Purba Sundarbans & Kebangkitan 1846",
+        "en": "The Sundarbans Reservoir & the 1846 Ignition"
+      },
+      "date": {
+        "id": "Musim Dingin – Musim Semi 1846 M",
+        "en": "Winter – Spring 1846 AD"
+      },
+      "flash": {
+        "id": "Ketidakseimbangan ekologis mangrove delta memicu lonjakan virulensi Vibrio cholerae.",
+        "en": "Ecological imbalances in delta mangroves trigger explosive surge of virulent Vibrio cholerae."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik Inherent Delta)",
+        "vector": "Muara payau, fitoplankton, dan kopepoda zooplankton estuari Gangga-Brahmaputra",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Konsumsi air payau dan krustasea estuarin di pemukiman nelayan delta"
+      },
+      "description": {
+        "id": "Di rawa-rawa mangrove Sundarbans dan muara labirin Gangga-Brahmaputra, Vibrio cholerae hidup sebagai flora mikroskopis alami yang menempel pada cangkang kitin zooplankton (kopepoda). Pada awal 1846, anomali iklim monsun yang ditandai kekeringan panjang diikuti banjir bandang pasang merusak salinitas estuari, memicu ledakan populasi fitoplankton dan alga biru-hijau. Lonjakan biomassa ini melipatgandakan kuman vibrio dalam skala triliunan. Dari pemukiman terpencil nelayan dan penebang kayu di Sundarbans, patogen menyusup ke tangki air tawar dan kanal-kanal pasang surut distrik 24 Parganas.",
+        "en": "Within the mangrove wilderness of the Sundarbans and the labyrinthine delta of the Ganges-Brahmaputra, Vibrio cholerae thrived as an indigenous marine microorganism attached to the chitinous carapaces of zooplankton (copepods). In early 1846, monsoon anomalies—prolonged drought punctuated by extreme storm surges—destabilized estuarine salinity, igniting explosive blooms of phytoplankton and blue-green cyanobacteria. This biomass surge multiplied vibrio populations by trillions. From isolated fishing villages and timber camps, the pathogen infiltrated domestic drinking tanks and tidal creeks across the 24 Parganas."
+      },
+      "image": "/assets/images/cholera/wave-3/ind/ind_ch_01.jpg"
+    },
+    {
+      "id": "ind-ch-02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Kolkata & Kanal Limbah Tolley's Nullah",
+        "en": "Calcutta & the Stagnation of Tolley's Nullah"
+      },
+      "date": {
+        "id": "Maret – Mei 1846 M",
+        "en": "March – May 1846 AD"
+      },
+      "flash": {
+        "id": "Pusat pemerintahan kolonial terbelah: Black Town tenggelam dalam wabah sementara White Town panik.",
+        "en": "Colonial capital fractured: 'Black Town' submerged in pestilence while 'White Town' panics."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Kanal buangan Tolley's Nullah dan tangki air tawar komunal (pukurs)",
+        "incubation": "6 – 24 Jam",
+        "transmission": "Fekal-oral melalui ritual mandi dan minum di tangki pemukiman padat"
+      },
+      "description": {
+        "id": "Memasuki musim panas 1846, epidemi melanda ibu kota imperial Inggris di Kolkata (Calcutta). Kota tersegregasi secara spasial: di 'Black Town' utara yang padat, puluhan ribu warga pribumi bergantung pada 'pukur' (kolam galian tanah) yang terkontaminasi limbah rumah tangga dan lumpur busuk kanal Tolley's Nullah. Kematian harian melesat melampaui ratusan jiwa. Mayat-mayat berjejer di ghat pembakaran tepi Hooghly, sementara otoritas medis British East India Company (EIC) tetap memperdebatkan apakah kolera disebabkan oleh pembusukan vegetasi tropis atau pengaruh listrik atmosfer.",
+        "en": "By the heat of mid-1846, epidemic fury gripped the British imperial capital of Calcutta. The city suffered deep racial and spatial segregation: in the congested northern 'Black Town', tens of thousands of indigenous inhabitants relied on stagnant excavated earth tanks ('pukurs') heavily contaminated with domestic nightsoil and the fetid sludge of Tolley's Nullah canal. Daily mortality climbed into the hundreds. Unclaimed corpses lined the burning ghats along the Hooghly River, while British East India Company (EIC) medical officers bickered over whether cholera stemmed from decaying tropical vegetation or atmospheric electric charges."
+      },
+      "image": "/assets/images/cholera/wave-3/ind/ind_ch_02.jpg"
+    },
+    {
+      "id": "ind-ch-03",
+      "chapterNumber": 3,
+      "type": "milestone",
+      "title": {
+        "id": "Kumbh Mela Haridwar 1847: Ledakan Epik",
+        "en": "The Haridwar Kumbh Mela of 1847: Epic Amplification"
+      },
+      "date": {
+        "id": "April 1847 M",
+        "en": "April 1847 AD"
+      },
+      "flash": {
+        "id": "Dua juta peziarah berkumpul di tepi hulu Sungai Gangga, memicu penyebaran lintas benua.",
+        "en": "Two million pilgrims congregate at the upper Ganges, igniting transcontinental dispersion."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air suci Brahmakund di Haridwar Ghat yang terinfiltrasi feses peziarah",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Ritual menelan air sungai suci dalam konsentrasi massa ekstrim"
+      },
+      "description": {
+        "id": "Pada April 1847, festival ziarah akbar Maha Kumbh Mela digelar di Haridwar, di kaki pegunungan Himalaya. Lebih dari dua juta peziarah dari seluruh penjuru Asia Selatan memadati tepian berbatu sempit untuk ritual pembersihan suci di kolam Brahmakund. Tanpa fasilitas sanitasi memadai, air suci Gangga hulu menjadi sup kental bakteri kolera. Ketika ritual mandi massal berakhir, jutaan peziarah yang terinfeksi bergerak pulang ke barat laut menuju Punjab, Kashmir, Afghanistan, dan perbatasan Persia, menyebarkan Gelombang Ketiga melintasi rute karavan kafilah Asia Tengah.",
+        "en": "In April 1847, the colossal Maha Kumbh Mela pilgrimage took place at Haridwar at the Himalayan foothills. Over two million pilgrims from across South Asia converged along narrow riverbanks for ritual immersion in the sacred Brahmakund pool. Devoid of sanitary infrastructure, the waters of the upper Ganges transformed into a concentrated slurry of cholera vibrios. As the pilgrimage concluded, millions of infected devotees marched home toward the Punjab, Kashmir, Afghanistan, and the Persian frontier, seeding the Third Pandemic along Central Asian caravan routes."
+      },
+      "image": "/assets/images/cholera/wave-3/ind/ind_ch_03.jpg"
+    },
+    {
+      "id": "ind-ch-04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Jalur Karavan Grand Trunk Road & Punjab",
+        "en": "The Grand Trunk Road Caravans & the Punjab"
+      },
+      "date": {
+        "id": "Pertengahan 1847 M",
+        "en": "Mid-1847 AD"
+      },
+      "flash": {
+        "id": "Arteri transportasi kuno Kekaisaran Mughal menjadi jalan tol transmisi biologis.",
+        "en": "The ancient Mughal artery transforms into a biological superhighway."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Sumur kafilah serai dan tempat peristirahatan musafir",
+        "incubation": "18 – 48 Jam",
+        "transmission": "Kontaminasi sumur singgah berantai sepanjang 1.500 mil"
+      },
+      "description": {
+        "id": "Melalui arteri jalan raya bersejarah Grand Trunk Road, kolera merambat dengan kecepatan konvoi gerobak lembu dan pawai infanteri. Setiap serai (tempat penginapan musafir) dan sumur singgah di sepanjang Delhi, Karnal, Umballa, dan Lahore menjadi titik amplifikasi berantai. Ketika musafir yang sakit mencuci pakaian berlumur tinja di sumur umum, mereka menjamin bahwa kafilah dagang berikutnya yang singgah akan meminum dosis infektif mematikan. Pada akhir 1847, seluruh dataran Punjab dan pos militer Khyber Pass telah terinfeksi.",
+        "en": "Along the historic artery of the Grand Trunk Road, cholera advanced at the precise velocity of bullock carts and infantry marching columns. Every roadside serai (caravanserai) and stepwell between Delhi, Karnal, Umballa, and Lahore operated as serial amplification hubs. When ailing travelers washed soiled garments in public wellheads, they guaranteed that the next arriving commercial caravan would ingest lethal infective doses. By late 1847, the entire Punjabi plain and the strategic Khyber Pass garrisons were infected."
+      },
+      "image": "/assets/images/cholera/wave-3/ind/ind_ch_04.jpg"
+    },
+    {
+      "id": "ind-ch-05",
+      "chapterNumber": 5,
+      "type": "side_story",
+      "title": {
+        "id": "Barak Sepoy & Resimen EIC di Cawnpore",
+        "en": "Sepoy Cantonments & EIC Regiments at Cawnpore"
+      },
+      "date": {
+        "id": "1848–1849 M",
+        "en": "1848–1849 AD"
+      },
+      "flash": {
+        "id": "Kantonemen militer kolonial Cawnpore dilanda kepanikan saat serdadu roboh di barak.",
+        "en": "Cawnpore colonial military cantonment engulfed in panic as soldiers collapse in barracks."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Penyedia air kantonemen (bhistis) dan kantong kulit kambing (mashaks)",
+        "incubation": "12 – 30 Jam",
+        "transmission": "Penyaluran air minum dari sumber terkontaminasi oleh pembawa air militer"
+      },
+      "description": {
+        "id": "Di garnisun-garnisun militer EIC seperti Cawnpore (Kanpur) dan Meerut, kolera menghantam batalion sepoy pribumi dan resimen kerajaan Inggris tanpa pandang bulu. Sistem distribusi air kantonemen mengandalkan para 'bhisti' (pembawa air tradisional) yang mengambil air dengan kantong kulit kambing ('mashak') dari sumur-sumur perimeter barak yang sering kali telah tercemar rembesan limbah parit. Kematian mendadak seorang serdadu tegap hanya enam jam setelah bertugas jaga malam memicu histeria takhayul dan ketegangan mendalam antara prajurit sepoy dan perwira kulit putih.",
+        "en": "In British East India Company military cantonments such as Cawnpore (Kanpur) and Meerut, cholera struck native sepoy battalions and British Crown regiments alike. Cantonment water logistics relied upon 'bhistis' (traditional water carriers) fetching supplies in goatskin bags ('mashaks') from perimeter wells frequently fouled by open trench seepage. The sudden death of a robust soldier within six hours of evening sentry duty ignited superstitious dread and deepened existing racial mistrust between Indian sepoys and their European officers."
+      },
+      "image": "/assets/images/cholera/wave-3/ind/ind_ch_05.jpg"
+    },
+    {
+      "id": "ind-ch-06",
+      "chapterNumber": 6,
+      "type": "standard",
+      "title": {
+        "id": "Bombay Docks & Armada Pelayaran Laut Arab",
+        "en": "Bombay Docks & the Arabian Sea Fleets"
+      },
+      "date": {
+        "id": "1849–1850 M",
+        "en": "1849–1850 AD"
+      },
+      "flash": {
+        "id": "Kapal uap dan dhow tradisional mentransfer patogen dari pelabuhan barat India ke Teluk Persia.",
+        "en": "Steamers and traditional dhows transfer the pathogen from Western Indian docks to the Persian Gulf."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Tong air kayu kapal dagang dan pelaut terinfeksi tanpa gejala",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Fekal-oral di ruang sempit palka kapal pelayaran antar-samudra"
+      },
+      "description": {
+        "id": "Pelabuhan Bombay (Mumbai) berfungsi sebagai stasiun pompa kedua bagi ekspansi global Gelombang Ketiga. Ratusan kapal layar layar dhow dagang kayu, kapal pengangkut garam, dan kapal uap pos reguler East India Marine bertolak dari galangan kapal Mazagon menuju Karachi, Muscat, Bushehr, dan Aden. Di atas kapal-kapal yang sesak penumpang ini, satu tong air kayu yang tercemar sudah cukup untuk mengubah seluruh palka menjadi kuburan terapung sebelum kapal berlabuh di pantai Semenanjung Arab.",
+        "en": "The burgeoning port of Bombay (Mumbai) served as the second marine engine of the Third Pandemic. Hundreds of merchant dhows, salt carriers, and regular East India Marine mail steamers departed Mazagon docks bound for Karachi, Muscat, Bushehr, and Aden. Aboard these densely crowded vessels, a single contaminated wooden water cask sufficed to transform the steerage holds into a floating sepulcher before anchor could be dropped in Arabian Peninsula harbors."
+      },
+      "image": "/assets/images/cholera/wave-3/ind/ind_ch_06.jpg"
+    },
+    {
+      "id": "ind-ch-07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Jemaah Haji Laut Hindia & Pelabuhan Aden",
+        "en": "Indian Ocean Pilgrims & the Coaling Station of Aden"
+      },
+      "date": {
+        "id": "1850–1852 M",
+        "en": "1850–1852 AD"
+      },
+      "flash": {
+        "id": "Rute pelayaran haji dari Gujarat dan Malabar membawa benih infeksi ke Laut Merah.",
+        "en": "Hajj maritime corridors from Gujarat and Malabar carry infectious seeds to the Red Sea."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Palka kapal peziarah haji dan depot batubara Aden",
+        "incubation": "24 – 48 Jam",
+        "transmission": "Air minum terbatas yang dijatah dan tercemar di laut lepas"
+      },
+      "description": {
+        "id": "Setiap musim haji, ribuan peziarah Muslim dari Gujarat, Malabar, dan Kepulauan Nusantara menaiki kapal-kapal layar di pelabuhan Bombay dan Surat menuju Jeddah. Pos pengisian batubara strategis Aden di ujung Yaman menjadi titik transit penting di mana suplai air tawar yang langka sering terkontaminasi oleh buangan kapal-kapal yang datang. Dengan cara ini, garis infeksi dari muara Benggala langsung terhubung dengan jantung Hijaz, memicu gelombang kematian massal berikutnya di Padang Arafah dan Mina.",
+        "en": "During each pilgrimage season, thousands of Muslim pilgrims from Gujarat, Malabar, and the East Indies embarked on sailing craft from Bombay and Surat bound for Jeddah. The strategic British coaling fortress of Aden at the tip of Yemen served as an inevitable transit choke point where scarce fresh water cisterns were repeatedly contaminated by incoming shipboard effluent. In this manner, infection chains from the Bengal delta directly linked to the heart of the Hijaz, triggering devastating outbreaks on the plains of Arafat and Mina."
+      },
+      "image": "/assets/images/cholera/wave-3/ind/ind_ch_07.jpg"
+    },
+    {
+      "id": "ind-ch-08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Penyebaran Lintas Himalaya ke Tibet & Asia Tengah",
+        "en": "Trans-Himalayan Spillover into Tibet & Central Asia"
+      },
+      "date": {
+        "id": "1852–1853 M",
+        "en": "1852–1853 AD"
+      },
+      "flash": {
+        "id": "Kafilah wol dan musafir pegunungan membawa kolera melintasi lintasan es ketinggian tinggi.",
+        "en": "Wool caravans and high-altitude travelers carry cholera across freezing mountain passes."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Aliran mata air peristirahatan kafilah di lembah glasial",
+        "incubation": "2 – 4 Hari",
+        "transmission": "Penggunaan sumber air cair musiman di koridor perdagangan trans-Himalaya"
+      },
+      "description": {
+        "id": "Meskipun sering dianggap sebagai penyakit tropis dataran rendah basah, Vibrio cholerae mampu bergerak melintasi celah gunung Himalaya melalui kafilah perdagangan pashmina wol dan musafir agama. Dari Assam dan Bengal utara, rute menanjak menuju Bhutan, Sikkim, dan Lhasa di Tibet. Meskipun kuman vibrio melambat dalam suhu beku, pemukiman di lembah-lembah sungai glasial dan pos peristirahatan tertutup dengan pemanas kotoran yak menjadi sarang penularan mikro saat feses penderita mencemari pasokan air lelehan es yang langka.",
+        "en": "Though conventionally regarded as a low-lying humid tropical affliction, Vibrio cholerae proved capable of traversing rugged Himalayan passes via pashmina wool traders and religious itinerants. From Assam and northern Bengal, trade trails ascended into Bhutan, Sikkim, and Lhasa in Tibet. While the vibrio's replication slowed in near-freezing temperatures, enclosed valley settlements and yak-dung-heated rest houses became potent micro-foci when human waste contaminated seasonal meltwater channels."
+      },
+      "image": "/assets/images/cholera/wave-3/ind/ind_ch_08.jpg"
+    },
+    {
+      "id": "ind-ch-09",
+      "chapterNumber": 9,
+      "type": "standard",
+      "title": {
+        "id": "Penyelidikan Medis Kolonial & Mitos 'Miasma Tropis'",
+        "en": "Colonial Medical Inquiry & the 'Tropical Miasma' Myth"
+      },
+      "date": {
+        "id": "1853–1854 M",
+        "en": "1853–1854 AD"
+      },
+      "flash": {
+        "id": "Dewan Medis Benggala menolak teori transmisi air dan menyalahkan uap tanah rawa lembap.",
+        "en": "Bengal Medical Board dismisses waterborne transmission, blaming decomposing marsh exhalations."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Dogma miasmatisme institusional Imperial Medical Service",
+        "incubation": "N/A (Kebutaan Paradigmatik)",
+        "transmission": "Pengabaian isolasi sumber air demi pembersihan vegetasi dan ventilasi barak"
+      },
+      "description": {
+        "id": "Laporan resmi Dewan Medis Benggala (Bengal Medical Board) pada tahun 1854 memperlihatkan kebingungan intelektual otoritas kolonial. Para dokter bedah kepresidenan seperti Dr. Kenneth Mackinnon berkeras bahwa kolera dipicu oleh 'terrestrial emanations' (uap tanah rawa yang membusuk) yang diperkuat oleh kelembapan monsun dan ketidakstabilan barometrik. Akibatnya, perintah resmi EIC justru difokuskan pada penebangan pohon rimbun di sekitar barak dan pembakaran belerang di jalanan, sementara tangki air minum yang penuh kotoran manusia dibiarkan tanpa klorinasi atau perlindungan fisik.",
+        "en": "The official reports of the Bengal Medical Board in 1854 exposed the profound intellectual confusion of the colonial regime. Presidential surgeons such as Dr. Kenneth Mackinnon insisted that cholera was generated by 'terrestrial emanations' from decomposing jungle soils, aggravated by monsoon humidity and barometric fluctuations. Consequently, official EIC sanitary directives ordered the clear-cutting of lush trees around cantonments and open-street sulfur burnings, while communal drinking tanks contaminated with human excreta remained unchlorinated and unprotected."
+      },
+      "image": "/assets/images/cholera/wave-3/ind/ind_ch_09.jpg"
+    },
+    {
+      "id": "ind-ch-10",
+      "chapterNumber": 10,
+      "type": "side_story",
+      "title": {
+        "id": "Bencana Jalur Kereta Api East Indian Railway",
+        "en": "The East Indian Railway Construction Catastrophe"
+      },
+      "date": {
+        "id": "1854–1855 M",
+        "en": "1854–1855 AD"
+      },
+      "flash": {
+        "id": "Puluhan ribu kuli pribumi di proyek jalur rel kereta api tewas di kamp kerja paksa terpencil.",
+        "en": "Tens of thousands of indigenous coolies on railway projects perish in remote work camps."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Kamp kerja buruh rel kereta api tanpa jamban di sepanjang Sungai Damodar",
+        "incubation": "8 – 24 Jam",
+        "transmission": "Pencemaran genangan galian tanah tanggul rel kereta api"
+      },
+      "description": {
+        "id": "Pembangunan jalur kereta api modern pertama oleh East Indian Railway Company antara Howrah dan Raniganj mengumpulkan konsentrasi tenaga kerja kuli pribumi terbesar dalam sejarah anak benua. Lebih dari empat puluh ribu buruh miskin dikerahkan menggali tanggul tanah dan jembatan di sepanjang lembah Sungai Damodar. Hidup di barak terpal darurat tanpa jamban, wabah kolera menyapu kamp-kamp kerja ini. Ribuan kuli melarikan diri dalam ketakutan, membawa basil kolera pulang ke desa-desa pedalaman Bihar dan Orissa yang sebelumnya terisolasi.",
+        "en": "The construction of the first modern railway line by the East Indian Railway Company connecting Howrah and Raniganj gathered the largest concentrations of indigenous coolie labor in the subcontinent's history. Over forty thousand impoverished laborers were assembled to dig railway embankments and bridge foundations along the Damodar River valley. Living in makeshift canvas bivouacs without privies, virulent cholera swept through the labor gangs. Thousands fled in terror, scattering the cholera bacillus into interior villages across Bihar and Orissa that had previously escaped exposure."
+      },
+      "image": "/assets/images/cholera/wave-3/ind/ind_ch_10.jpg"
+    },
+    {
+      "id": "ind-ch-11",
+      "chapterNumber": 11,
+      "type": "milestone",
+      "title": {
+        "id": "Kepanikan Sanitasi Menjelang Pemberontakan 1857",
+        "en": "Sanitary Dread on the Eve of the 1857 Rebellion"
+      },
+      "date": {
+        "id": "1856 – Awal 1857 M",
+        "en": "1856 – Early 1857 AD"
+      },
+      "flash": {
+        "id": "Kolera di barak Barrackpore dan Meerut memperdalam ketegangan eksistensial antara Sepoy dan Perwira Inggris.",
+        "en": "Cholera in Barrackpore and Meerut cantonments fuels existential tension between Sepoys and British officers."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Sumur kantonemen militer dan desas-desus pencemaran ritual kasta",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Penyebaran fokal di pos militer strategis Hindia Britania"
+      },
+      "description": {
+        "id": "Menjelang ledakan besar Pemberontakan India 1857 (Sepoy Mutiny), wabah kolera baru melanda garnisun Barrackpore dan Meerut. Di tengah kecurigaan atas selongsong peluru berlemak sapi dan babi yang menodai ritual keagamaan Hindu dan Muslim, kematian mendadak akibat kolera sering dicurigai prajurit sepoy sebagai racun yang sengaja disebar penguasa kolonial untuk memusnahkan kasta mereka. Ketakutan akan penyakit dan isolasi medis paksa mempercepat hilangnya legitimasi moral kekuasaan Kompeni Inggris di mata tentara pribumi.",
+        "en": "On the eve of the cataclysmic Indian Rebellion of 1857 (Sepoy Mutiny), fresh cholera waves struck the critical military garrisons at Barrackpore and Meerut. Amid boiling religious outrage over Enfield cartridge grease offending Hindu and Muslim rites, sudden deaths from cholera were darkly rumored among Indian soldiers to be deliberate imperial poisonings designed to break their caste purity. Fear of the disease and coercive colonial quarantine barracks accelerated the total collapse of British moral authority among the sepoy ranks."
+      },
+      "image": "/assets/images/cholera/wave-3/ind/ind_ch_11.jpg"
+    },
+    {
+      "id": "ind-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Pengepungan Lucknow & Delhi: Kematian di Balik Parit",
+        "en": "The Sieges of Lucknow & Delhi: Death in the Entrenchments"
+      },
+      "date": {
+        "id": "Mei – November 1857 M",
+        "en": "May – November 1857 AD"
+      },
+      "flash": {
+        "id": "Wabah kolera membunuh lebih banyak perwira dan serdadu kedua belah pihak daripada peluru meriam.",
+        "en": "Cholera claims more lives among both combatants behind barricades than artillery bombardments."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Sumur terkepung Residency Lucknow dan mayat membusuk di parit Delhi Ridge",
+        "incubation": "6 – 20 Jam",
+        "transmission": "Fekal-oral di kubu pertahanan terkepung tanpa sanitasi"
+      },
+      "description": {
+        "id": "Selama Pengepungan Residency Lucknow dan pertempuran berdarah di Delhi Ridge pada musim panas 1857, kolera menjadi jenderal ketiga yang tak terkalahkan. Di dalam perimeter Lucknow yang terkepung rapat, mayat manusia dan kuda membusuk di samping sumur air minum tunggal. Prajurit Inggris, loyalis Sikh, serta pejuang perlawanan India sama-sama tumbang oleh kram perut ganas dan dehidrasi kilat. Di kedua kubu, korban tewas akibat Vibrio cholerae jauh melampaui korban tewas akibat tembakan senapan musket dan pecahan kanon.",
+        "en": "During the grueling Siege of the Lucknow Residency and the ferocious battles along the Delhi Ridge in the monsoon of 1857, cholera served as an invincible third belligerent. Inside the besieged Lucknow compound, human corpses and slaughtered horse carcasses decomposed adjacent to the lone drinking wells. British defenders, loyal Sikh regiments, and Indian rebel sepoys alike collapsed from violent abdominal cramps and lightning dehydration. On both sides, fatalities from Vibrio cholerae far outstripped casualties from Enfield musket balls and cannon grapeshot."
+      },
+      "image": "/assets/images/cholera/wave-3/ind/ind_ch_12.jpg"
+    },
+    {
+      "id": "ind-ch-13",
+      "chapterNumber": 13,
+      "type": "standard",
+      "title": {
+        "id": "Bubarnya EIC & Berdirinya Komisi Sanitasi Kerajaan",
+        "en": "Dissolution of the EIC & the Royal Sanitary Commission"
+      },
+      "date": {
+        "id": "1858–1859 M",
+        "en": "1858–1859 AD"
+      },
+      "flash": {
+        "id": "Mahkota Britania mengambil alih kendali langsung dan membentuk Komisi Sanitasi Militer.",
+        "en": "The British Crown assumes direct control, instituting the Military Royal Sanitary Commission."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Reformasi tata kelola air dan pembuangan limbah militer imperial",
+        "incubation": "N/A (Restrukturisasi Kelembagaan)",
+        "transmission": "Pemisahan sistematis sumber air minum kantonemen dari parit limbah komunal"
+      },
+      "description": {
+        "id": "Kehancuran militer dan epidemi 1857 memaksa Parlemen Inggris membubarkan Perusahaan Hindia Timur dan memberlakukan kekuasaan langsung British Raj pada 1858. Ratu Victoria memerintahkan pembentukan Komisi Sanitasi Kerajaan untuk Angkatan Bersenjata India (Royal Commission on the Sanitary State of the Army in India). Penyelidikan komisi ini mengungkap bahwa tingkat kematian serdadu Inggris di India mencapai 69 per 1.000 orang per tahun—sebagian besar akibat kolera dan disentri—memicu pembangunan kantonemen model baru dengan pemisahan sumur air tertutup.",
+        "en": "The dual military and epidemiological catastrophes of 1857 compelled the British Parliament to dissolve the East India Company and establish direct Crown rule (the British Raj) in 1858. Queen Victoria ordered the establishment of the Royal Commission on the Sanitary State of the Army in India. The commission's shocking findings revealed an annual peacetime death rate of 69 per 1,000 British troops—overwhelmingly driven by cholera and dysentery—triggering the construction of standardized cantonment layouts featuring protected closed wells."
+      },
+      "image": "/assets/images/cholera/wave-3/ind/ind_ch_13.jpg"
+    },
+    {
+      "id": "ind-ch-14",
+      "chapterNumber": 14,
+      "type": "summary",
+      "title": {
+        "id": "Delta Abadi: Warisan Epidemiologis Gelombang Ketiga",
+        "en": "The Eternal Delta: Epidemiological Legacy of Wave 3"
+      },
+      "date": {
+        "id": "1860 M (Refleksi Sejarah)",
+        "en": "1860 AD (Historical Retrospective)"
+      },
+      "flash": {
+        "id": "Delta Sundarbans terbukti sebagai benteng genetik dan ekologis permanen Vibrio cholerae di bumi.",
+        "en": "The Sundarbans Delta confirmed as Earth's permanent genetic and ecological fortress for Vibrio cholerae."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Ekosistem perairan estuari delta Benggala",
+        "incubation": "Endemisitas Abadi",
+        "transmission": "Dinamika siklus musiman monsun dan pasang surut air laut"
+      },
+      "description": {
+        "id": "Ketika Gelombang Ketiga akhirnya mereda sekitar tahun 1860, India tetap menyisakan kenyataan mendasar: terlepas dari reformasi militer British Raj dan pembangunan infrastruktur kolonial, muara Delta Benggala adalah reservoir alami primordial yang tak dapat dimusnahkan. Keseimbangan ekologis antara pasang laut, zooplankton berkulit kitin, dan bakteri vibrio menjadikan wilayah ini titik awal yang tak terhindarkan bagi Gelombang Keempat yang akan meletus kembali hanya tiga tahun berselang pada 1863.",
+        "en": "When the Third Pandemic subsided around 1860, India left the world with an undeniable biological reality: irrespective of British Raj administrative reforms and sanitary public works, the Bengal mangrove delta remained an indestructible primordial natural reservoir. The delicate ecological equilibrium between marine tidal surges, chitinous zooplankton blooms, and vibrio bacteria ensured that the region would inevitably birth the Fourth Cholera Pandemic a mere three years later in 1863."
+      },
+      "image": "/assets/images/cholera/wave-3/ind/ind_ch_14.jpg"
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "sectorId": "RUS",
+  "waveIndex": 3,
+  "sectorName": {
+    "id": "Sektor RUS (Kekaisaran Rusia & Perang Krimea: Dari Volga hingga Benteng Sevastopol 1847–1856)",
+    "en": "Sector RUS (Russian Empire & Crimean War: Volga to the Siege of Sevastopol 1847–1856)"
+  },
+  "coordinates": [
+    44.6166,
+    33.5254
+  ],
+  "timeRange": "1847 – 1856 M",
+  "estimatedFatalities": "1.000.000+ (Kekaisaran Rusia 1847–1851; 50.000+ Korban Militer Perang Krimea)",
+  "description": {
+    "id": "Muncul kembali dari Laut Kaspia dan muara Volga pada 1847, kolera merenggut lebih dari satu juta nyawa di Kekaisaran Rusia sebelum menyapu kamp-kamp militer dan parit pengepungan Perang Krimea di Sevastopol.",
+    "en": "Re-emerging from the Caspian Sea and Volga basin in 1847, cholera claimed over one million lives in the Russian Empire before devastating Crimean War military camps and siege trenches at Sevastopol."
+  },
+  "chapters": [
+    {
+      "id": "rus-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Kebangkitan di Pesisir Kaspia: Ledakan Gelombang Ketiga",
+        "en": "Caspian Re-emergence: Inception of the Third Surge"
+      },
+      "date": {
+        "id": "Musim Panas 1847 M",
+        "en": "Summer 1847 AD"
+      },
+      "flash": {
+        "id": "Dari Persia dan Kaukasus, kolera kembali menembus muara Sungai Volga di Astrakhan, memicu gelombang pandemi paling mematikan dalam sejarah Rusia.",
+        "en": "Advancing from Persia and the Caucasus, cholera reinvaded the Volga delta at Astrakhan, igniting the deadliest epidemic wave in Russian history."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kapal Niaga Kaspia & Nelayan Delta Volga",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pencemaran jaringan air tawar muara Volga oleh awak kapal dagang dari perbatasan Persia"
+      },
+      "description": {
+        "id": "Pada musim panas 1847, tanda-tanda malapetaka baru mulai muncul di perbatasan selatan Kekaisaran Rusia. Setelah mereda selama hampir satu dekade pasca-gelombang kedua, varian baru Vibrio cholerae yang sangat virulen merayap dari Khorasan dan pelabuhan-pelabuhan Laut Kaspia. Pada bulan Juli 1847, kota pelabuhan muara Astrakhan dihantam ledakan kasus diare berdarah dan dehidrasi kilat. Dalam hitungan minggu, tongkang-tongkang gandum dan perahu nelayan menyebarkan bakteri ke hulu Sungai Volga, mengulang rute invasi klasik menuju Rusia Tengah.",
+        "en": "In summer 1847, omens of catastrophe reappeared on the southern frontier of the Russian Empire. Following a decade of relative lull, a ferocious strain of Vibrio cholerae advanced out of Khorasan and the Caspian coastline. In July 1847, the estuarine port of Astrakhan was overwhelmed by explosive purging and cyanosis. Within weeks, grain barges and fishing craft ferried the pathogen up the Volga River, re-enacting the classical invasion corridor toward Central Russia."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_01.jpg"
+    },
+    {
+      "id": "rus-ch-02",
+      "chapterNumber": 2,
+      "type": "milestone",
+      "title": {
+        "id": "Bencana Nasional: Satu Juta Jiwa di Tanah Tsar",
+        "en": "National Catastrophe: One Million Lives in the Tsarist Domain"
+      },
+      "date": {
+        "id": "1847 – 1851 M",
+        "en": "1847 – 1851 AD"
+      },
+      "flash": {
+        "id": "Selama empat tahun tanpa henti, kolera menyapu pedesaan dan kota-kota Rusia; lebih dari satu juta jiwa tewas dalam bencana demografis terbesar era Nicholas I.",
+        "en": "Over four relentless years, cholera engulfed Russian villages and metropolises; over one million perished in the greatest demographic blow of Nicholas I's reign."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Penyebaran Endemik Nasional Pedesaan & Barak Pabrik",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Pencemaran masif ribuan sumur desa dan sungai pedalaman di seluruh provinsi kekaisaran"
+      },
+      "description": {
+        "id": "Antara tahun 1847 dan 1851, Kekaisaran Rusia menderita kehilangan populasi yang mencengangkan. Berdasarkan catatan resmi Kementerian Dalam Negeri Tsar, lebih dari 2,5 juta warga terinfeksi dan lebih dari 1.000.000 jiwa meninggal dunia. Wabah ini tidak lagi terbatas pada pelabuhan dagang; ia merambah ke pondok-pondok petani (izba) di pedalaman pedesaan yang miskin, di mana air minum diambil dari kubangan salju mencair atau kolam desa yang bercampur kotoran ternak. Seluruh desa kehilangan separuh populasinya, melumpuhkan ekonomi pertanian Rusia selama bertahun-tahun.",
+        "en": "Between 1847 and 1851, the Russian Empire suffered staggering population loss. Imperial Ministry of Internal Affairs registries recorded over 2.5 million infections and more than 1,000,000 fatalities. The pathogen penetrated deep into rural peasant cabins (izbas), where drinking water came from melted snowdrifts or communal village ponds fouled by animal runoff. Entire agricultural communities lost half their inhabitants, crippling the imperial agrarian economy for years."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_02.jpg"
+    },
+    {
+      "id": "rus-ch-03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Api Perang Krimea: Ambisi Imperial & Spora Tersembunyi",
+        "en": "Crimean War Ignition: Imperial Ambition & Latent Spores"
+      },
+      "date": {
+        "id": "Oktober 1853 M",
+        "en": "October 1853 AD"
+      },
+      "flash": {
+        "id": "Pecahnya Perang Krimea antara Rusia melawan koalisi Utsmaniyah, Prancis, dan Britania Raya memobilisasi ratusan ribu tentara ke wilayah Laut Hitam yang endemik kolera.",
+        "en": "Outbreak of the Crimean War pitted Russia against an Ottoman, French, and British alliance, massing hundreds of thousands of troops into cholera-endemic Black Sea frontiers."
+      },
+      "virusProfile": {
+        "agent": "Mobilisasi Militer Skala Raksasa",
+        "vector": "Pasukan Ekspedisi Infanteri & Kavaleri",
+        "incubation": "N/A",
+        "transmission": "Pemusatan konsentrasi pasukan militer di benteng-benteng lembap muara Danube dan Laut Hitam"
+      },
+      "description": {
+        "id": "Pada Oktober 1853, sengketa diplomatik atas protektorat Kristen di Yerusalem dan ambisi Tsar Nicholas I terhadap Kekaisaran Utsmaniyah meletus menjadi Perang Krimea. Pasukan ekspedisi militer besar dari Prancis di bawah Kaisar Napoleon III dan Britania Raya di bawah Lord Raglan diberangkatkan ke perairan timur. Tanpa disadari oleh para jenderal sekutu, wilayah muara Danube, Dobruja, dan semenanjung Krimea adalah sarang endemik Vibrio cholerae yang sedang aktif. Keputusan militer untuk mendaratkan ratusan ribu prajurit di tanah rawa Laut Hitam membuka gerbang pembantaian biologis.",
+        "en": "In October 1853, geopolitical disputes over Ottoman holy sites and Nicholas I's imperial ambitions erupted into the Crimean War. Expeditionary forces from Napoleon III's France and Lord Raglan's Britain sailed east to reinforce Ottoman troops. Unbeknownst to Allied commanders, the lower Danube, Dobruja plains, and the Crimean Peninsula were active reservoirs of Vibrio cholerae. Landing hundreds of thousands of troops upon these coastal marshlands invited an inevitable biological bloodbath."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_03.jpg"
+    },
+    {
+      "id": "rus-ch-04",
+      "chapterNumber": 4,
+      "type": "milestone",
+      "title": {
+        "id": "Petaka Kamp Konsentrasi Varna: Pembantaian Sebelum Perang",
+        "en": "The Varna Staging Camp Disaster: Slain Before Battle"
+      },
+      "date": {
+        "id": "Juli – Agustus 1854 M",
+        "en": "July – August 1854 AD"
+      },
+      "flash": {
+        "id": "Di pelabuhan Varna (Bulgaria), kolera meledak di kamp perkemahan tentara Sekutu; ribuan prajurit elit Prancis dan Inggris tewas sebelum menembakkan satu peluru pun.",
+        "en": "At Varna, Bulgaria, cholera detonated within Allied encampments; thousands of French and British elite troops perished before firing a single musket."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Mata Air Tercemar & Barak Tenda Dobruja",
+        "incubation": "Beberapa Jam – 24 Jam",
+        "transmission": "Konsumsi air sumur payau Varna yang terkontaminasi limbah perkemahan 50.000 serdadu"
+      },
+      "description": {
+        "id": "Pada musim panas 1854, tentara Sekutu berkumpul di Varna di pantai barat Laut Hitam untuk mempersiapkan invasi ke Krimea. Di bawah terik matahari Balkan, kolera menyerang kamp-kamp perkemahan dengan keganasan yang tak tertandingi. Divisi Pertama Prancis yang dikirim untuk mengintai rawa-rawa Dobruja kehilangan 2.000 prajurit elit Zouave hanya dalam tempo lima hari, di mana para serdadu roboh di pelana kuda mereka dan muntah cairan abu-abu. Suasana di Varna berubah menjadi neraka: mayat-mayat tentara ditumpuk di dermaga dan gerobak pemakaman mondar-mandir siang malam.",
+        "en": "In summer 1854, the Allied army assembled at Varna on the western Black Sea coast to stage their Crimean invasion. Under brutal Balkan heat, cholera tore through encampments with ferocity. A French division sent into the Dobruja marshes lost 2,000 elite Zouaves in five days, with men collapsing from their saddles into convulsions. Varna became a pesthouse: corpses were stacked on wharves, funeral fifes wailed around the clock, and demoralization paralyzed military preparations."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_04.jpg"
+    },
+    {
+      "id": "rus-ch-05",
+      "chapterNumber": 5,
+      "type": "standard",
+      "title": {
+        "id": "Armada yang Sakit: Pelayaran Maut Melintasi Laut Hitam",
+        "en": "The Infected Armada: Death Voyage Across the Black Sea"
+      },
+      "date": {
+        "id": "Awal September 1854 M",
+        "en": "Early September 1854 AD"
+      },
+      "flash": {
+        "id": "Armada 400 kapal perang dan kapal angkut mengarungi Laut Hitam menuju Krimea; setiap pagi ratusan jasad prajurit yang tewas di geladak dilemparkan ke laut.",
+        "en": "An armada of 400 warships and transports crossed the Black Sea; each sunrise saw hundreds of corpses cast overboard from fever-racked decks."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Geladak Kapal Perang Berdesakan & Barel Air Kayu",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Pencemaran barel air minum kapal perang di tengah isolasi pelayaran laut terbuka"
+      },
+      "description": {
+        "id": "Untuk menyelamatkan pasukannya dari bencana Varna, para komandan Sekutu memutuskan untuk mempercepat pelayaran menuju Krimea. Pada awal September 1854, armada gabungan raksasa beranggotakan 400 kapal berlayar melintasi Laut Hitam. Namun kolera ikut berlayar di atas kapal. Di atas kapal perang HMS Britannia dan kapal-kapal transport Prancis, wabah mengamuk di ruang bawah geladak yang pengap dan gelap. Setiap fajar merekah, suara doa pemakaman pelaut dan ceburan jasad prajurit yang dibungkus terpal berbobot peluru meriam terdengar bersahut-sahutan di seluruh formasi armada.",
+        "en": "Desperate to extricate their men from Varna, Allied commanders accelerated the invasion sailing. In early September 1854, a 400-vessel fleet sailed across the Black Sea. But cholera sailed with them. Aboard flagship HMS Britannia and French transports, the microbe raged in suffocating, poorly ventilated holds. Each dawn, naval funeral rites and the splash of canvas-shrouded bodies weighted with cannonballs echoed across the fleet as hundreds were cast into the deep."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_05.jpg"
+    },
+    {
+      "id": "rus-ch-06",
+      "chapterNumber": 6,
+      "type": "milestone",
+      "title": {
+        "id": "Tumbangnya Panglima: Kematian Marsekal Saint-Arnaud",
+        "en": "Fall of the Commander: Death of Marshal Saint-Arnaud"
+      },
+      "date": {
+        "id": "29 September 1854 M",
+        "en": "September 29, 1854 AD"
+      },
+      "flash": {
+        "id": "Panglima Tertinggi Angkatan Darat Prancis, Marsekal Armand de Saint-Arnaud, tewas terserang kolera hanya beberapa hari setelah memimpin kemenangan di Pertempuran Alma.",
+        "en": "French Supreme Commander Marshal Armand de Saint-Arnaud died of cholera mere days after directing victory at the Battle of the Alma."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Tenda Komando Markas Besar Sekutu",
+        "incubation": "24 Jam",
+        "transmission": "Konsumsi pasokan air markas lapangan yang tercemar selama kampanye Sungai Alma"
+      },
+      "description": {
+        "id": "Setelah mendarat di Teluk Kalamita di Krimea, pasukan Sekutu memenangkan Pertempuran Alma pada 20 September 1854. Namun kemenangan militer ini dibayangi tragedi di markas komando tertinggi. Panglima Angkatan Darat Prancis, Marsekal Armand-Jacques Leroy de Saint-Arnaud, yang memimpin pertempuran dari atas kudanya sambil menahan sakit luar biasa, terserang kolera akut. Kondisinya memburuk dengan sangat cepat; ia menyerahkan tongkat komando kepada Jenderal Canrobert pada 26 September dan menghembuskan napas terakhir di atas kapal fregat Berthollet tiga hari kemudian.",
+        "en": "After landing at Kalamita Bay, Allied troops forced the Alma River on September 20, 1854. But military triumph was overshadowed by crisis in supreme command. The French commander-in-chief, Marshal Armand de Saint-Arnaud, who directed the battle on horseback while suffering agony, collapsed from fulminant cholera. His deterioration was rapid; he relinquished command to General Canrobert on September 26 and died aboard the frigate Berthollet three days later, shocking imperial Paris."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_06.jpg"
+    },
+    {
+      "id": "rus-ch-07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Parit Pengepungan Sevastopol: Neraca Lumpur dan Maut",
+        "en": "The Sevastopol Siege Trenches: Mud, Blood & Cholera"
+      },
+      "date": {
+        "id": "Musim Gugur 1854 – 1855 M",
+        "en": "Autumn 1854 – 1855 AD"
+      },
+      "flash": {
+        "id": "Di parit-parit pengepungan berbatu Sevastopol, infanteri tidur di atas lumpur berdarah; korban tewas akibat dehidrasi kolera melampaui korban peluru meriam Rusia.",
+        "en": "In Sevastopol's rocky siege trenches, infantry slept in frozen mud; cholera fatalities quickly eclipsed battlefield bullet and artillery wounds."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Parit Pengepungan Berlumpur & Genangan Air Terbuka",
+        "incubation": "6 – 24 Jam",
+        "transmission": "Pencemaran parit pertahanan oleh kotoran serdadu di tengah hujan dan dingin ekstrem"
+      },
+      "description": {
+        "id": "Pengepungan Sevastopol selama sebelas bulan adalah salah satu operasi militer paling berdarah di abad ke-19. Prajurit Inggris dan Prancis menggali parit di dataran tinggi berbatu Chersonese di bawah hujan lebat musim gugur. Ketiadaan sanitasi lapangan membuat parit-parit pertahanan digenangi oleh campuran air hujan, lumpur, dan kotoran manusia. Serdadu yang kelelahan meminum air dari kubangan parit. Setiap malam, puluhan prajurit di garis depan meregang nyawa bukan karena pecahan mortir benteng Malakoff, melainkan karena dehidrasi sianotik yang membekukan tubuh mereka.",
+        "en": "The eleven-month Siege of Sevastopol was among the grimmest sieges in modern warfare. British and French infantry excavated zigzag trenches across the rocky Chersonese plateau under freezing autumn downpours. Lacking sanitation, trenches flooded with rainwater, mud, and raw excrement. Exhausted soldiers scooped drinking water from ditch puddles. Every night, scores died on sentry duty not from Russian canister shot from the Malakoff, but from cyanotic spasms freezing their limbs."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_07.jpg"
+    },
+    {
+      "id": "rus-ch-08",
+      "chapterNumber": 8,
+      "type": "milestone",
+      "title": {
+        "id": "Rumah Sakit Barak Scutari: Kedatangan Florence Nightingale",
+        "en": "Scutari Barracks Hospital: Arrival of Florence Nightingale"
+      },
+      "date": {
+        "id": "4 November 1854 M",
+        "en": "November 4, 1854 AD"
+      },
+      "flash": {
+        "id": "Florence Nightingale tiba bersama 38 perawat di Barak Scutari, mendapati 4.000 prajurit sekarat terbaring di atas lantai berlumuran tinja kolera dan bangkai tikus.",
+        "en": "Florence Nightingale arrived with 38 nurses at Scutari Barracks, finding 4,000 dying soldiers lying upon floors coated with cholera feces and rotting rats."
+      },
+      "virusProfile": {
+        "agent": "Krisis Infeksi Nosokomial Barak Militer",
+        "vector": "Lantai Kotor & Saluran Limbah Tersumbat Scutari",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pencemaran pasokan air minum rumah sakit barak oleh saluran kotoran yang meluap di ruang bawah tanah"
+      },
+      "description": {
+        "id": "Prajurit Sekutu yang sakit diangkut dengan kapal melintasi Laut Hitam menuju Rumah Sakit Barak Scutari (Selimiye) di seberang Konstantinopel. Ketika Florence Nightingale tiba pada 4 November 1854, ia menemukan pemandangan mengerikan yang ia sebut 'Kerajaan Kematian'. Rumah sakit raksasa itu dibangun di atas saluran pembuangan kotoran yang rusak dan tersumbat bangkai kuda. Pasien kolera dibaringkan di atas lantai batu tanpa ranjang atau kain seprai bersih; air minum yang disuplai ke bangsal dialirkan melalui pipa timbal yang bocor di dekat septic tank, membunuh ribuan prajurit yang sedang memulihkan diri.",
+        "en": "Sick soldiers were transported across the stormy Black Sea to the Scutari Barracks Hospital opposite Constantinople. When Florence Nightingale arrived on November 4, 1854, she confronted what she branded the 'Kingdom of Death'. The colossal barrack sat atop decayed sewers blocked by dead horses. Cholera patients lay upon bare flagstones in their own excrement without clean shirts. Ward drinking water flowed through conduits leaking into subterranean cesspools, killing recovering wounded by the thousands."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_08.jpg"
+    },
+    {
+      "id": "rus-ch-09",
+      "chapterNumber": 9,
+      "type": "side_story",
+      "title": {
+        "id": "Mary Seacole: 'Hotel Musim Semi' di Garis Depan Krimea",
+        "en": "Mary Seacole: The British Hotel on the Crimean Front"
+      },
+      "date": {
+        "id": "Musim Semi 1855 M",
+        "en": "Spring 1855 AD"
+      },
+      "flash": {
+        "id": "Perawat berdarah Kreol Jamaika, Mary Seacole, mendirikan 'British Hotel' di Spring Hill dekat Balaclava, merawat prajurit kolera dengan ramuan herbal dan hidrasi.",
+        "en": "Jamaican Creole doctress Mary Seacole established the 'British Hotel' at Spring Hill near Balaclava, nursing cholera casualties with herbal broths and hydration."
+      },
+      "virusProfile": {
+        "agent": "Perawatan Suportif Herbal & Hidrasi Tradisional",
+        "vector": "Sup Hangat & Ramuan Kulit Kayu Mustard",
+        "incubation": "N/A",
+        "transmission": "Pengurangan angka kematian melalui perawatan hidrasi oral intensif dan kebersihan personal di garis depan"
+      },
+      "description": {
+        "id": "Setelah ditolak oleh Departemen Perang Inggris dan komite resmi di London karena warna kulitnya, Mary Seacole—seorang wanita berdarah campuran Jamaika-Skotlandia yang berpengalaman merawat kolera di Kingston dan Panama—membiayai perjalanannya sendiri ke Krimea. Di Spring Hill dekat Balaclava, hanya beberapa mil dari garis depan artileri, ia mendirikan 'British Hotel'. Di sana, ia menyajikan makanan bergizi, air hangat yang direbus bersih, dan ramuan rempah untuk ribuan serdadu yang terserang kolera dan disentri, mendapatkan julukan 'Mother Seacole' dari para prajurit garda depan.",
+        "en": "Rejected by the British War Office and Nightingale's committee because of her Creole heritage, Mary Seacole—a Jamaican doctress veteran of cholera outbreaks in Kingston and Panama—financed her own journey to the front. At Spring Hill near Balaclava, mere miles from Russian batteries, she built the 'British Hotel'. There she served hot nourishing stews, boiled clean waters, and herbal mustard remedies to thousands stricken by cholera and dysentery, earning the undying affection of frontline soldiers as 'Mother Seacole'."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_09.jpg"
+    },
+    {
+      "id": "rus-ch-10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Benteng Malakoff: Derita Garnisun Pembela Tsar",
+        "en": "The Malakoff Bastion: Agony of the Tsarist Defenders"
+      },
+      "date": {
+        "id": "Musim Panas 1855 M",
+        "en": "Summer 1855 AD"
+      },
+      "flash": {
+        "id": "Di dalam kota Sevastopol yang terkepung rapat, garnisun tentara Rusia dan warga sipil menghadapi pengeboman artileri tanpa henti bersamaan dengan amukan kolera.",
+        "en": "Inside besieged Sevastopol, Russian garrison troops and civilians endured relentless Allied bombardments while cholera consumed the casemates."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kubu Pertahanan Bawah Tanah & Penampungan Air Benteng",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pencemaran sumber air minum di dalam benteng Sevastopol yang terkepung total oleh pasukan Sekutu"
+      },
+      "description": {
+        "id": "Penderitaan akibat kolera di Krimea dialami sama beratnya oleh pihak Rusia di dalam benteng Sevastopol. Garnisun Tsar di bawah komando Laksamana Pavel Nakhimov bertahan di dalam bunker-bunker tanah sempit dan casemate berbatu di Redoubt Malakoff. Pasokan air bersih dari luar kota telah diputus oleh Sekutu, memaksa ribuan pembela benteng dan pengungsi sipil meminum dari sumur-sumur tua yang tercemar oleh kuburan massal prajurit yang gugur. Rumah sakit darurat di Gereja Santo Mikael dipenuhi oleh serdadu yang meraung kesakitan akibat kombinasi amputasi dan diare kolera.",
+        "en": "The cholera agony in Crimea weighed equally upon the Russian defenders within Sevastopol. The garrison under Admiral Pavel Nakhimov huddled inside claustrophobic earthen bunkers and stone casemates of the Malakoff redoubt. Fresh water aqueducts from the Belbek River had been severed by the Allies, compelling thousands of soldiers and civilians to drink from brackish wells contaminated by hastily dug shallow graves. Makeshift casualty stations at St. Michael's were jammed with men suffering simultaneously from gangrenous amputations and cholera."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_10.jpg"
+    },
+    {
+      "id": "rus-ch-11",
+      "chapterNumber": 11,
+      "type": "side_story",
+      "title": {
+        "id": "Badai Akbar Krimea & Keruntuhan Rantai Pasok",
+        "en": "The Great Crimean Hurricane & Supply Chain Collapse"
+      },
+      "date": {
+        "id": "14 November 1854 M",
+        "en": "November 14, 1854 AD"
+      },
+      "flash": {
+        "id": "Badai angin topan menghancurkan 30 kapal pengangkut Sekutu di lepas pantai Balaclava; persediaan pakaian musim dingin dan obat-obatan tenggelam, memicu gelombang kematian kolera sekunder.",
+        "en": "A colossal hurricane wrecked thirty Allied transports off Balaclava; winter coats and medical supplies sank, triggering a secondary wave of cholera deaths."
+      },
+      "virusProfile": {
+        "agent": "Hipotermia Ekstrem & Penurunan Daya Tahan Imun",
+        "vector": "Paparan Angin Salju dan Pakaian Basah",
+        "incubation": "N/A",
+        "transmission": "Prajurit yang mengalami hipotermia parah menjadi mangsa empuk bagi bakteri kolera yang mencemari air salju mencair"
+      },
+      "description": {
+        "id": "Pada tanggal 14 November 1854, badai topan berkecepatan 150 km/jam menghantam semenanjung Krimea. Di pelabuhan sempit Balaclava, lebih dari 30 kapal kargo Sekutu karam dan hancur di tebing karang, termasuk kapal uap uap 'Prince' yang memuat ribuan ton pakaian musim dingin, sepatu bot, obat-obatan, dan tenda. Kehilangan pasokan vital ini memaksa tentara Sekutu menghadapi musim dingin Krimea tanpa mantel pelindung di dalam parit yang membeku. Daya tahan tubuh prajurit runtuh; kolera dan demam parit membunuh lebih dari 8.000 serdadu Inggris dalam tempo dua bulan.",
+        "en": "On November 14, 1854, a hurricane packing 90 mph winds struck the Crimean coast. In the narrow haven of Balaclava, thirty Allied transports were pulverized against sea cliffs, including the steamship 'Prince' bearing winter uniforms, boots, medicines, and tents. The loss of supplies forced the Allied armies to face sub-zero blizzards in drenched cotton trousers. Immune defenses collapsed; cholera, typhus, and frostbite claimed over 8,000 British soldiers in two months."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_11.jpg"
+    },
+    {
+      "id": "rus-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Nikolay Pirogov: Bedah Lapangan & Triase Pertama Rusia",
+        "en": "Nikolay Pirogov: Battlefield Surgery & Russian Triage"
+      },
+      "date": {
+        "id": "1855 M",
+        "en": "1855 AD"
+      },
+      "flash": {
+        "id": "Bapak bedah lapangan Rusia Nikolay Pirogov memperkenalkan anestesi eter dan sistem triase pasien kolera di tengah kobaran artileri Sevastopol.",
+        "en": "The father of Russian field surgery, Nikolay Pirogov, pioneered ether anesthesia and systematic triage for cholera patients amidst Sevastopol's bombardment."
+      },
+      "virusProfile": {
+        "agent": "Sistem Triase Militer & Manajemen Pasien Kritis",
+        "vector": "Pemisahan Pasien Infeksius dari Pasien Bedah Trauma",
+        "incubation": "N/A",
+        "transmission": "Pemisahan bangsal bedah darurat dari bangsal kolera untuk mencegah penularan silang luka pasca-operasi"
+      },
+      "description": {
+        "id": "Di pihak Rusia, penyelamatan medis dipimpin oleh ahli bedah legendaris Nikolay Ivanovich Pirogov. Tiba di Sevastopol pada akhir 1854 bersama perawat wanita pertama Rusia dari Komunitas Pengangkatan Salib (Krestovozdvizhenskaya), Pirogov merevolusi perawatan medis militer. Ia menerapkan sistem triase lima kategori untuk memilah prajurit yang terluka dan memisahkan penderita kolera ke bangsal isolasi terpisah. Pirogov juga memelopori penggunaan pembalut gips untuk fraktur tulang dan penggunaan anestesi eter secara massal di garis depan perang.",
+        "en": "On the Russian side, medical salvation was spearheaded by the legendary surgeon Nikolay Ivanovich Pirogov. Arriving in Sevastopol in late 1854 accompanied by the Sisters of the Exaltation of the Cross—Russia's first military nurses—Pirogov transformed battlefield medicine. He instituted a five-tier triage system, systematically separating cholera cases from traumatic surgical patients to prevent cross-contamination. Pirogov also pioneered plaster casts for bone fractures and mass ether anesthesia under fire."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_12.jpg"
+    },
+    {
+      "id": "rus-ch-13",
+      "chapterNumber": 13,
+      "type": "milestone",
+      "title": {
+        "id": "Jatuhnya Sevastopol: Akhir Pengepungan Berdarah",
+        "en": "The Fall of Sevastopol: Climax of the Bloody Siege"
+      },
+      "date": {
+        "id": "8 – 9 September 1855 M",
+        "en": "September 8 – 9, 1855 AD"
+      },
+      "flash": {
+        "id": "Setelah 349 hari pengepungan brutal, benteng Malakoff direbut Prancis; tentara Rusia meledakkan gudang mesiu dan mundur melintasi jembatan ponton teluk.",
+        "en": "After 349 days of brutal siege, French forces stormed the Malakoff; Russian troops detonated their magazines and retreated across pontoon bridges."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Reruntuhan Kota Hancur & Evakuasi Ponton",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Penyebaran kolera di antara ribuan prajurit Rusia yang mundur ke utara Krimea"
+      },
+      "description": {
+        "id": "Pada tanggal 8 September 1855, korps infanteri Prancis di bawah Jenderal MacMahon melancarkan serbuan bayonet terakhir yang berhasil merebut kubu pertahanan Malakoff. Menyadari kota tidak dapat dipertahankan lagi, komandan Rusia Jenderal Gorchakov memerintahkan penghancuran fasilitas militer. Gudang-gudang mesiu diledakkan, kapal-kapal perang ditenggelamkan di mulut teluk, dan garnisun Rusia menyeberangi jembatan ponton apung ke sisi utara teluk. Sevastopol jatuh menjadi puing-puing berasap, namun kemenangan Sekutu harus dibayar dengan harga yang mengerikan: ribuan prajurit pemenang terjangkit kolera dari sumur-sumur reruntuhan kota.",
+        "en": "On September 8, 1855, French infantry under General MacMahon stormed the Malakoff redoubt. Recognizing the fortress was untenable, Russian commander General Gorchakov ordered the systematic demolition of military stores. Magazines were detonated, warships scuttled in the roadstead, and the Russian army withdrew across a floating pontoon bridge to the northern shore. Sevastopol fell as a smoking ruin, but victory cost dearly: thousands of victorious Allied troops contracted cholera from contaminated cisterns."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_13.jpg"
+    },
+    {
+      "id": "rus-ch-14",
+      "chapterNumber": 14,
+      "type": "standard",
+      "title": {
+        "id": "Keruntuhan Tentara Ekspedisi Prancis: Gelombang Akhir Musim Dingin",
+        "en": "Collapse of the French Expeditionary Force: The Final Winter"
+      },
+      "date": {
+        "id": "Musim Dingin 1855 – 1856 M",
+        "en": "Winter 1855 – 1856 AD"
+      },
+      "flash": {
+        "id": "Meski perang telah dimenangkan, tentara Prancis di Krimea dihantam wabah kolera dan tifus musim dingin yang menewaskan puluhan ribu prajurit di kamp-kamp pembongkaran.",
+        "en": "Though the war was won, the French army in Crimea was ravaged by winter typhus and cholera, claiming tens of thousands in demobilization camps."
+      },
+      "virusProfile": {
+        "agent": "Wabah Gabungan Kolera & Tifus Eksantematik",
+        "vector": "Kamp Demobilisasi Padat Kamiesch",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Penularan beruntun di kamp pelabuhan Kamiesch saat pasukan menunggu kapal pemulangan ke Prancis"
+      },
+      "description": {
+        "id": "Tragedi Perang Krimea tidak berakhir dengan jatuhnya Sevastopol. Pada musim dingin 1855–1856, sementara perundingan damai berlangsung di Paris, tentara Prancis yang menempati reruntuhan Krimea dihantam krisis sanitasi terburuk. Penyakit kolera dan tifus meledak di kamp-kamp pelabuhan Kamiesch. Lebih dari 24.000 prajurit Prancis tewas karena penyakit hanya dalam kurun waktu empat bulan pasca-pertempuran. Ketika Perjanjian Paris ditandatangani pada Maret 1856, militer Prancis mencatat total kematian lebih dari 95.000 orang, di mana lebih dari 75.000 di antaranya tewas akibat penyakit, bukan peluru musuh.",
+        "en": "The Crimean tragedy did not conclude with the fortress's fall. In the winter of 1855–1856, as peace talks convened in Paris, the French army occupying Crimean ruins suffered its worst sanitary collapse. Combined waves of cholera and typhus swept the port camps of Kamiesch. Over 24,000 French soldiers perished from disease within four post-combat months. When the Treaty of Paris was signed in March 1856, the French military counted 95,000 total dead, with over 75,000 felled by disease rather than enemy bullets."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_14.jpg"
+    },
+    {
+      "id": "rus-ch-15",
+      "chapterNumber": 15,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Kawah Candradimuka Krimea: Fajar Palang Merah & Reformasi",
+        "en": "Legacy of the Crimean Crucible: Birth of Modern Military Sanitation"
+      },
+      "date": {
+        "id": "Pasca-1856 M",
+        "en": "Post-1856 AD"
+      },
+      "flash": {
+        "id": "Dengan lebih dari 250.000 serdadu tewas akibat penyakit di Krimea, horor perang ini melahirkan profesi keperawatan modern, komisi sanitasi militer, dan cikal bakal Palang Merah.",
+        "en": "With over 250,000 soldiers lost to disease in Crimea, the catastrophe birthed modern nursing, military sanitation commissions, and the Red Cross."
+      },
+      "virusProfile": {
+        "agent": "Reformasi Institusional Higiene Militer Global",
+        "vector": "Komisi Sanitasi Kerajaan & Statistik Nightingale",
+        "incubation": "N/A",
+        "transmission": "Penerapan ventilasi udara, pemisahan limbah buangan, penyaringan air minum, dan kebersihan ranjang di seluruh rumah sakit militer dunia"
+      },
+      "description": {
+        "id": "Perang Krimea menjadi monumen paling mengerikan atas kegagalan logistik dan medis militer abad ke-19. Dari total sekitar 370.000 korban tewas dari semua pihak (Rusia, Prancis, Inggris, dan Utsmaniyah), lebih dari 80 persen tewas akibat penyakit infeksi, terutama kolera, tifus, dan disentri. Namun dari abu bencana ini lahir revolusi kesehatan publik. Laporan statistik Florence Nightingale dan diagram 'polar area' yang ia rancang memaksa Parlemen Inggris merestrukturisasi total administrasi medis militer. Pengalaman Krimea menjadi inspirasi langsung bagi Henry Dunant mendirikan Komite Internasional Palang Merah (ICRC) di Jenewa pada 1863.",
+        "en": "The Crimean War stands as the grimmest monument to nineteenth-century logistical and medical incompetence. Of approximately 370,000 soldiers who perished across Russian, French, British, and Ottoman ranks, over 80 percent succumbed to infectious disease—chiefly cholera, typhus, and dysentery. Yet from this devastation emerged a public health revolution. Florence Nightingale's statistical exhibits and pioneering polar-area diagrams forced Parliament to overhaul military healthcare. The Crimean crucible directly inspired Henry Dunant to establish the International Committee of the Red Cross in Geneva in 1863."
+      },
+      "image": "/assets/images/cholera/wave-3/rus/rus_ch_15.jpg"
+    }
+  ]
+}

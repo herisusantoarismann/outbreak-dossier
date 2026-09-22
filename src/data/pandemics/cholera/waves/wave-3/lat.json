@@ -1,0 +1,384 @@
+{
+  "sectorId": "LAT",
+  "waveIndex": 3,
+  "sectorName": {
+    "id": "Sektor LAT (Karibia & Amerika Tengah: Transito Panama, Kuba & Perang Filibuster Kosta Rika 1850–1856)",
+    "en": "Sector LAT (Caribbean & Central America: Panama Transit, Cuba & Costa Rican Filibuster War 1850–1856)"
+  },
+  "coordinates": [
+    9.9281,
+    -84.0907
+  ],
+  "timeRange": "1850 – 1856 M",
+  "estimatedFatalities": "100.000+ (Karibia & Amerika Tengah; 10% Populasi Kosta Rika)",
+  "description": {
+    "id": "Selama Gelombang Ketiga, kolera menghancurkan Karibia dan Amerika Latin melalui dua pemicu kolosal: jalur perlintasan Transito Panama yang dipadati pencari emas California, serta sistem perkebunan tebu berbasis perbudakan di Kuba. Puncaknya terjadi pada Perang Filibuster 1856 di Amerika Tengah, di mana pasukan tentara Kosta Rika pimpinan Presiden Juan Rafael Mora terinfeksi di medan tempur Rivas, membawa pulang kolera yang memusnahkan 10% populasi Republik Kosta Rika.",
+    "en": "During the Third Pandemic, cholera devastated the Caribbean and Latin America driven by two colossal catalysts: the Panama Transit route teeming with California Gold Rush Argonauts, and the brutal plantation slavery complex in Cuba. The crisis culminated in the 1856 Central American Filibuster War, where the Costa Rican army under President Juan Rafael Mora was infected at the Battle of Rivas, carrying home a cholera epidemic that eradicated 10% of Costa Rica's national population."
+  },
+  "chapters": [
+    {
+      "id": "lat-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Jalur Isthmus Panama: Demam Emas & Rute Chagres",
+        "en": "The Panama Isthmus: Gold Rush & the Chagres River"
+      },
+      "date": {
+        "id": "1849–1850 M",
+        "en": "1849–1850 AD"
+      },
+      "flash": {
+        "id": "Ribuan pencari emas menyeberangi hutan rimba Panama, membawa kolera ke Samudra Pasifik.",
+        "en": "Thousands of Gold Rush emigrants traverse the Panamanian jungle, funneling cholera into the Pacific."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Perahu kano bungo di Sungai Chagres dan sumur rawa di Gorgona",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Fekal-oral di kamp penyeberangan rimba tropis tanpa sanitasi"
+      },
+      "description": {
+        "id": "Penemuan emas di California pada tahun 1848 mengubah Tanah Genting Panama (Isthmus of Panama) menjadi koridor transit tersibuk di Belahan Bumi Barat. Ribuan 'Argonaut' asal New York dan New Orleans menaiki perahu dayung 'bungo' menyusuri Sungai Chagres yang berawa-rawa menuju Cruces atau Gorgona, sebelum melanjutkan dengan keledai ke Kota Panama di Pasifik. Di tengah kelembapan mencekik dan air sungai yang penuh kotoran, kolera meledak. Ratusan pelintas batas tewas di pinggir jalur hutan, sementara kapal uap Pacific Mail mentransfer kuman vibrio langsung ke San Francisco.",
+        "en": "The discovery of California gold in 1848 transformed the Isthmus of Panama into the busiest transit funnel in the Western Hemisphere. Tens of thousands of 'Argonauts' from New York and New Orleans ascended the swampy Chagres River in native dugout canoes ('bungos') to Gorgona or Cruces before riding mules to Panama City on the Pacific. Amidst suffocating humidity and fecal-choked waters, cholera exploded. Hundreds of gold seekers perished along jungle trails, while Pacific Mail steamships ferried the vibrio directly to San Francisco."
+      },
+      "image": "/assets/images/cholera/wave-3/lat/lat_ch_01.jpg"
+    },
+    {
+      "id": "lat-ch-02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Pembangunan Jalur Rel Kereta Api Panama Railroad",
+        "en": "Construction of the Panama Railroad"
+      },
+      "date": {
+        "id": "1850–1853 M",
+        "en": "1850–1853 AD"
+      },
+      "flash": {
+        "id": "Kematian massal ribuan kuli lintas benua di rawa Black Swamp yang penuh malaria dan kolera.",
+        "en": "Mass casualties among thousands of transcontinental laborers in the cholera-ridden Black Swamp."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Kamp kerja buruh Black Swamp dan genangan lumpur rawa bakau",
+        "incubation": "8 – 24 Jam",
+        "transmission": "Air minum payau yang terkontaminasi limbah ratusan kuli pekerja rel"
+      },
+      "description": {
+        "id": "Pembangunan Panama Railroad—jalur kereta api transkontinental pertama di dunia—menelan ribuan korban jiwa akibat kolera dan demam kuning. Perusahaan mempekerjakan kontingen kuli asal Tiongkok, Irlandia, Jamaika, dan Kolombia untuk memasang bantalan rel di atas rawa 'Black Swamp'. Kolera menyapu barak-barak kerja terisolasi; korban yang tewas begitu banyak sehingga perusahaan mengawetkan jenazah pekerja yang tidak teridentifikasi dalam tong acar asam cuka untuk dijual ke sekolah-sekolah kedokteran asing demi menutup biaya logistik.",
+        "en": "The construction of the Panama Railroad—the world's first transcontinental railway—exacted a horrific toll from cholera and yellow fever. The company imported contract laborers from China, Ireland, Jamaica, and Colombia to lay track through the notorious 'Black Swamp'. Cholera repeatedly swept through isolated work camps; so many perished that the railroad company pickled unidentified corpses in brine barrels to sell to overseas medical schools to defray logistical construction deficits."
+      },
+      "image": "/assets/images/cholera/wave-3/lat/lat_ch_02.jpg"
+    },
+    {
+      "id": "lat-ch-03",
+      "chapterNumber": 3,
+      "type": "milestone",
+      "title": {
+        "id": "Kuba: Bencana Perkebunan Tebu & Perbudakan",
+        "en": "Cuba: The Sugar Plantation Slave Catastrophe"
+      },
+      "date": {
+        "id": "1850–1852 M",
+        "en": "1850–1852 AD"
+      },
+      "flash": {
+        "id": "Kolera memusnahkan puluhan ribu budak Afrika di 'barracones' perkebunan tebu Matanzas.",
+        "en": "Cholera annihilates tens of thousands of enslaved Africans in Matanzas sugar plantation barracks."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Barak perbudakan (barracones) tertutup dan sumur dangkal pabrik tebu (ingenios)",
+        "incubation": "12 – 30 Jam",
+        "transmission": "Penularan berdensitas ekstrem di antara buruh budak yang kelaparan dan kelelahan"
+      },
+      "description": {
+        "id": "Di Kuba—koloni terkaya Spanyol di Karibia—kolera menghantam industri tebu dengan kebrutalan mengerikan. Di provinsi Matanzas dan Havana, para budak Afrika dikurung di dalam 'barracones' (bangsal batu berjeruji tanpa ventilasi) saat malam hari. Ketika Vibrio cholerae menyusup ke sumur air perkebunan tebu ('ingenios'), penyakit membantai budak dengan kecepatan mengerikan karena tubuh mereka telah lemah akibat kerja paksa 18 jam sehari. Lebih dari 30.000 budak tewas dalam dua tahun, melumpuhkan ekonomi gula kolonial Spanyol.",
+        "en": "In Cuba—Spain's wealthiest Caribbean colony—cholera struck the sugar boom with apocalyptic brutality. In the fertile provinces of Matanzas and Havana, enslaved Africans were locked nightly inside 'barracones' (unventilated, windowless stone barracoons). When Vibrio cholerae infiltrated plantation ('ingenio') wellheads, it tore through the enslaved workforce already physically ruined by 18-hour shifts of forced labor. Over 30,000 enslaved people perished within two years, crippling the Spanish colonial sugar economy."
+      },
+      "image": "/assets/images/cholera/wave-3/lat/lat_ch_03.jpg"
+    },
+    {
+      "id": "lat-ch-04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Pelabuhan Havana & Karantina Kolonial Spanyol",
+        "en": "Port of Havana & Spanish Colonial Quarantines"
+      },
+      "date": {
+        "id": "1852–1854 M",
+        "en": "1852–1854 AD"
+      },
+      "flash": {
+        "id": "Benteng San Carlos de la Cabaña mengawasi teluk yang dipenuhi kapal berbendera kuning karantina.",
+        "en": "San Carlos de la Cabaña fortress oversees a harbor filled with yellow quarantine flags."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Limbah dok pelabuhan Havana dan perdagangan budak ilegal trans-Atlantik",
+        "incubation": "18 – 48 Jam",
+        "transmission": "Pencemaran air pasokan kapal di dermaga Regla dan Casa Blanca"
+      },
+      "description": {
+        "id": "Teluk Havana menjadi simpul penularan yang mencemari jaringan maritim Teluk Meksiko dan Karibia. Kapal-kapal pengangkut budak ilegal yang melanggar traktat anti-perbudakan Inggris sering kali tiba dengan muatan manusia yang sekarat akibat kolera dan disentri. Meskipun Otoritas Kesehatan Kolonial Spanyol mengibarkan bendera kuning karantina di benteng La Cabaña dan El Morro, korupsi pejabat pelabuhan memungkinkan kapal-kapal dagang menyelundupkan barang dan penumpang terinfeksi langsung ke dermaga Regla.",
+        "en": "Havana Bay operated as the primary contagion nexus radiating throughout the Gulf of Mexico and the Caribbean basin. Illegal transatlantic slave vessels flouting British naval treaties repeatedly entered port carrying human cargoes decimated by cholera and acute dysentery. While Spanish colonial health inspectors flew the yellow quarantine jack over the fortress of La Cabaña and Castillo del Morro, endemic corruption among port officials allowed infected merchant craft to slip past cordons and offload passengers at Regla docks."
+      },
+      "image": "/assets/images/cholera/wave-3/lat/lat_ch_04.jpg"
+    },
+    {
+      "id": "lat-ch-05",
+      "chapterNumber": 5,
+      "type": "standard",
+      "title": {
+        "id": "Wabah Jamaika & Kehancuran Kota Kingston",
+        "en": "The Jamaica Epidemic & the Collapse of Kingston"
+      },
+      "date": {
+        "id": "1850–1851 M",
+        "en": "1850–1851 AD"
+      },
+      "flash": {
+        "id": "Sebelas persen populasi pulau Karibia Britania musnah dalam sepuluh bulan.",
+        "en": "Eleven percent of the British Caribbean island's total population perishes in ten months."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Sumur gali dangkal Kingston dan selokan terbuka tanpa penutup",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Pencemaran feses pada pasokan air masyarakat pasca-emansipasi perbudakan"
+      },
+      "description": {
+        "id": "Di koloni Jamaika Britania, kolera tiba pada akhir 1850 melalui kapal uap asal Chagres, Panama. Di Kingston dan Spanish Town, populasi kulit hitam bebas yang baru mengalami emansipasi hidup dalam kemiskinan ekstrem tanpa akses sanitasi dasar. Lebih dari 32.000 jiwa—kira-kira sepersepuluh dari seluruh populasi pulau—musnah hanya dalam hitungan bulan. Toko-toko tutup, gereja-gereja menghentikan lonceng kematian karena terlalu banyaknya korban, dan Dewan Majelis Kolonial melarikan diri meninggalkan pulau dalam kekacauan anarki.",
+        "en": "In the British colony of Jamaica, cholera struck in late 1850 via incoming steamers from Chagres, Panama. Across Kingston and Spanish Town, newly emancipated Black populations lived in extreme deprivation devoid of basic municipal sanitation. Over 32,000 souls—roughly one-tenth of the island's entire population—were wiped out in mere months. Commercial stores shuttered, churches ceased tolling bells due to the sheer volume of dead, and the colonial House of Assembly fled, leaving the island in administrative paralysis."
+      },
+      "image": "/assets/images/cholera/wave-3/lat/lat_ch_05.jpg"
+    },
+    {
+      "id": "lat-ch-06",
+      "chapterNumber": 6,
+      "type": "side_story",
+      "title": {
+        "id": "Ekspedisi William Walker & Tentara Filibuster",
+        "en": "William Walker's Expedition & the Filibuster Army"
+      },
+      "date": {
+        "id": "1855–1856 M",
+        "en": "1855–1856 AD"
+      },
+      "flash": {
+        "id": "Petualang militer Amerika menginvasi Nikaragua, memicu perang regional di tanah genting.",
+        "en": "American mercenary adventurers invade Nicaragua, igniting a regional war across the isthmus."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Pergerakan tentara bayaran Filibuster dan kapal uap Danau Nikaragua",
+        "incubation": "24 – 48 Jam",
+        "transmission": "Penyebaran lintas negara melalui pergerakan pasukan ekspedisioner bersenjata"
+      },
+      "description": {
+        "id": "Pada tahun 1855, petualang militer Amerika William Walker memimpin tentara bayaran swasta ('filibusters') merebut kekuasaan di Nikaragua dengan tujuan mendirikan republik pro-perbudakan dan menguasai rute transit antar-samudra Cornelius Vanderbilt. Tindakan agresi ini mengancam kemerdekaan seluruh negara Amerika Tengah. Republik Kosta Rika, di bawah kepemimpinan tegas Presiden Juan Rafael Mora Porras, menyatakan perang total terhadap para penyerbu filibuster dan memobilisasi tentara nasional menuju perbatasan utara.",
+        "en": "In 1855, American military adventurer William Walker led an army of private mercenaries ('filibusters') to seize dictatorial power in Nicaragua, intending to institute an enslaved empire and monopolize Cornelius Vanderbilt's trans-isthmian Transit route. This naked aggression threatened the independence of all Central American republics. The Republic of Costa Rica, under the decisive leadership of President Juan Rafael Mora Porras, declared total war against the filibusters, mobilizing its national army to the northern frontier."
+      },
+      "image": "/assets/images/cholera/wave-3/lat/lat_ch_06.jpg"
+    },
+    {
+      "id": "lat-ch-07",
+      "chapterNumber": 7,
+      "type": "milestone",
+      "title": {
+        "id": "Pertempuran Rivas & Jebakan Biologis",
+        "en": "The Second Battle of Rivas & the Biological Trap"
+      },
+      "date": {
+        "id": "11 April 1856 M",
+        "en": "April 11, 1856 AD"
+      },
+      "flash": {
+        "id": "Kemenangan heroik tentara Kosta Rika berubah menjadi mimpi buruk saat mayat dibuang ke sumur kota.",
+        "en": "Costa Rican heroic military triumph turns into a nightmare as combat corpses foul municipal wells."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Sumur kota Rivas yang tercemar mayat prajurit dan tinja kolera",
+        "incubation": "8 – 20 Jam",
+        "transmission": "Konsumsi air sumur oleh tentara Kosta Rika yang kehausan pasca-pertempuran sengit"
+      },
+      "description": {
+        "id": "Pada 11 April 1856, pertempuran berdarah meletus di kota Rivas, Nikaragua. Pasukan Kosta Rika berhasil mengusung kemenangan heroik setelah pahlawan nasional Juan Santamaría membakar markas 'Mesón de Guerra' tempat pasukan filibuster bertahan. Namun kemenangan militer tersebut berubah menjadi malapetaka epidemiologis. Walker telah membuang mayat prajurit yang tewas ke dalam sumur-sumur kota untuk mencemari pasokan air. Ribuan prajurit Kosta Rika yang kelelahan dan kehausan meminum air beracun tersebut, menginokulasi diri mereka dengan Vibrio cholerae.",
+        "en": "On April 11, 1856, ferocious urban warfare erupted in Rivas, Nicaragua. Costa Rican troops achieved heroic victory when national hero Juan Santamaría torched the filibuster stronghold at the 'Mesón de Guerra'. Yet battlefield triumph swiftly pivoted into epidemiological disaster. Walker's retreating forces had thrown corpses of dead soldiers directly into city wellheads to foul the water supply. Parched and exhausted Costa Rican infantry drank deeply from these tainted wells, inoculating themselves with lethal doses of Vibrio cholerae."
+      },
+      "image": "/assets/images/cholera/wave-3/lat/lat_ch_07.jpg"
+    },
+    {
+      "id": "lat-ch-08",
+      "chapterNumber": 8,
+      "type": "milestone",
+      "title": {
+        "id": "Retret Maut Mora: Eksodus Menuju Dataran Tinggi",
+        "en": "Mora's Retreat of Death: Exodus to the Highlands"
+      },
+      "date": {
+        "id": "Mei 1856 M",
+        "en": "May 1856 AD"
+      },
+      "flash": {
+        "id": "Presiden Mora memerintahkan penarikan mundur pasukan, tanpa sengaja membawa pulang wabah mematikan.",
+        "en": "President Mora orders army withdrawal, unwittingly marching the contagion into the heartland."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kolom infanteri tentara yang sakit sepanjang jalur Guanacaste menuju San José",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pencemaran sungai dan mata air di setiap pos perkemahan retret militer"
+      },
+      "description": {
+        "id": "Menyaksikan prajurit terbaiknya roboh satu demi satu karena muntah-muntah hebat dan diare tanpa henti, Presiden Mora terpaksa membatalkan pengejaran militer dan memerintahkan seluruh tentara mundur pulang ke Kosta Rika. Pawai retret melintasi dataran kering Guanacaste dan menaiki pegunungan terjal menuju Lembah Tengah (Valle Central) menjadi jalur kematian. Serdadu yang sekarat ditinggalkan di pinggir jalan berdebu; mereka yang selamat membawa basil kolera yang bersembunyi di usus mereka langsung ke ibu kota San José, Cartago, Alajuela, dan Heredia.",
+        "en": "Witnessing his finest riflemen collapse en masse from violent vomiting and unceasing watery purging, President Mora was forced to abandon the campaign and order an immediate retreat home to Costa Rica. The military withdrawal across the arid plains of Guanacaste and up the rugged volcanic cordilleras into the Central Valley (Valle Central) became an agonizing death march. Dying soldiers were abandoned beside dusty roads; asymptomatic survivors carried the cholera bacillus straight into the cities of San José, Cartago, Alajuela, and Heredia."
+      },
+      "image": "/assets/images/cholera/wave-3/lat/lat_ch_08.jpg"
+    },
+    {
+      "id": "lat-ch-09",
+      "chapterNumber": 9,
+      "type": "standard",
+      "title": {
+        "id": "Malapetaka Valle Central Kosta Rika",
+        "en": "The Valle Central Cataclysm in Costa Rica"
+      },
+      "date": {
+        "id": "Mei – Juli 1856 M",
+        "en": "May – July 1856 AD"
+      },
+      "flash": {
+        "id": "Sepuluh ribu warga tewas dalam hitungan minggu: satu dari setiap sepuluh orang Kosta Rika gugur.",
+        "en": "Ten thousand citizens perish in weeks: one out of every ten Costa Ricans dies."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Acequias (saluran irigasi terbuka) dan sungai-sungai Lembah Tengah Kosta Rika",
+        "incubation": "6 – 24 Jam",
+        "transmission": "Pencemaran sistem pengairan kopi komunal di pemukiman dataran tinggi"
+      },
+      "description": {
+        "id": "Dalam kurun waktu delapan minggu, kolera memorakporandakan Lembah Tengah Kosta Rika. Sistem air perkotaan yang bergantung pada 'acequias' (saluran parit terbuka yang mengalirkan air pegunungan melintasi halaman rumah warga) menjadi instrumen penularan massal kilat. Sebanyak hampir 10.000 jiwa tewas dari total populasi negara yang hanya berkisar 100.000 jiwa. Seluruh tatanan sosial runtuh: panen kopi telantar membusuk di ladang, penguburan massal digali tanpa peti mati di pemukiman El General, dan keluarga-keluarga punah dalam semalam.",
+        "en": "Within eight weeks, cholera shattered Costa Rica's Central Valley. Urban water systems reliant upon 'acequias' (open earthen aqueducts coursing through residential courtyards) became lethal delivery systems of mass contamination. Nearly 10,000 citizens perished out of a total national population of barely 100,000. The entire fabric of society disintegrated: lucrative coffee harvests rotted unpicked in fields, massive common trench graves were dug without coffins in El General, and entire lineages vanished overnight."
+      },
+      "image": "/assets/images/cholera/wave-3/lat/lat_ch_09.jpg"
+    },
+    {
+      "id": "lat-ch-10",
+      "chapterNumber": 10,
+      "type": "side_story",
+      "title": {
+        "id": "Kepanikan Rumah Sakit San Juan de Dios",
+        "en": "Panic at the Hospital San Juan de Dios"
+      },
+      "date": {
+        "id": "Juni 1856 M",
+        "en": "June 1856 AD"
+      },
+      "flash": {
+        "id": "Suster Karitas dan dokter sukarelawan merawat ribuan pasien dehidrasi tanpa antiseptik modern.",
+        "en": "Sisters of Charity and volunteer physicians tend thousands of dehydrated patients without antiseptics."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kain kasur dan linen terkontaminasi feses di bangsal rumah sakit",
+        "incubation": "12 – 24 Jam",
+        "transmission": "Kontak langsung dengan cairan tubuh pasien di bangsal sesak tanpa fasilitas cuci tangan"
+      },
+      "description": {
+        "id": "Di San José, Rumah Sakit San Juan de Dios yang baru dibangun menjadi medan perjuangan hidup dan mati. Dokter bedah nasional Dr. Carlos Durán dan biarawati ordo Sisters of Charity bekerja tanpa henti di tengah lautan kasur jerami yang basah oleh cairan muntah dan diare. Dengan ketiadaan infus cairan modern, para perawat berupaya merehidrasi pasien menggunakan ramuan kaldu ayam asin, air rebusan beras encer, dan teh herba mint. Meskipun angka kematian di rumah sakit melampaui 40%, dedikasi para suster meletakkan fondasi etika medis modern di Kosta Rika.",
+        "en": "In San José, the newly erected Hospital San Juan de Dios became the desperate bastion of humanitarian sacrifice. National surgeon Dr. Carlos Durán and religious Sisters of Charity labored incessantly amidst a sea of straw pallets soaked with cholera effluent. Lacking intravenous infusion technologies, nurses attempted oral rehydration utilizing salted chicken broths, thin rice water decoctions, and peppermint infusions. Though mortality rates exceeded 40%, the tireless devotion of the staff forged modern Costa Rican medical nursing ethics."
+      },
+      "image": "/assets/images/cholera/wave-3/lat/lat_ch_10.jpg"
+    },
+    {
+      "id": "lat-ch-11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Penyebaran ke El Salvador, Guatemala & Honduras",
+        "en": "Spillover into El Salvador, Guatemala & Honduras"
+      },
+      "date": {
+        "id": "Pertengahan – Akhir 1856 M",
+        "en": "Mid – Late 1856 AD"
+      },
+      "flash": {
+        "id": "Seluruh tanah genting Amerika Tengah terbakar oleh epidemi yang menewaskan lebih dari 50.000 jiwa.",
+        "en": "The entire Central American isthmus engulfed in an epidemic claiming over 50,000 lives."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Pasukan koalisi sekutu Amerika Tengah dan rute perdagangan pedalaman",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Penyebaran militer lintas batas selama pembebasan Nikaragua"
+      },
+      "description": {
+        "id": "Bencana biologis Rivas tidak berhenti di Kosta Rika. Pasukan koalisi dari Honduras, El Salvador, dan Guatemala yang tiba untuk melanjutkan perang melawan William Walker turut tertular di barak-barak Nikaragua. Ketika kontingen-kontingen militer ini ditarik pulang, kolera menyebar seperti api membakar semak kering melintasi kota San Salvador, Tegucigalpa, dan Kota Guatemala. Secara keseluruhan, perang dan epidemi Gelombang Ketiga di Amerika Tengah menelan korban lebih dari 50.000 jiwa, menjadikannya salah satu bencana demografis terbesar dalam sejarah kawasan.",
+        "en": "The biological calamity of Rivas did not halt at Costa Rica's borders. Allied coalition armies from Honduras, El Salvador, and Guatemala arriving to sustain the offensive against William Walker contracted the pathogen in Nicaraguan garrisons. As these allied contingents retreated homeward, cholera raced like wildfire across San Salvador, Tegucigalpa, and Guatemala City. In aggregate, the combination of warfare and the Third Pandemic across Central America claimed over 50,000 lives, marking one of the region's greatest demographic crises."
+      },
+      "image": "/assets/images/cholera/wave-3/lat/lat_ch_11.jpg"
+    },
+    {
+      "id": "lat-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Kekalahan Akhir William Walker",
+        "en": "The Ultimate Defeat of William Walker"
+      },
+      "date": {
+        "id": "1857–1860 M",
+        "en": "1857–1860 AD"
+      },
+      "flash": {
+        "id": "Epidemi melemahkan pertahanan filibuster, berujung pada eksekusi sang petualang di Honduras.",
+        "en": "Epidemic decimates filibuster defenses, leading to the mercenary's final execution in Honduras."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Garnisun filibuster Granada dan armada danau yang terisolasi",
+        "incubation": "N/A (Dampak Geopolitik)",
+        "transmission": "Pelemahan fisik total angkatan bersenjata petualang Amerika di Nikaragua"
+      },
+      "description": {
+        "id": "Meskipun telah merenggut puluhan ribu nyawa sekutu Amerika Tengah, kolera juga menghancurkan tentara bayaran Walker dari dalam. Perekrutan serdadu filibuster baru dari New Orleans terhenti karena ketakutan akan penyakit mematikan di Amerika Tengah. Dikelilingi oleh pasukan sekutu yang telah pulih dan terisolasi tanpa logistik, Walker akhirnya menyerah pada Mei 1857. Dalam upaya invasi ulang berikutnya pada tahun 1860 di Trujillo, Honduras, Walker ditangkap oleh Angkatan Laut Kerajaan Britania, diserahkan kepada otoritas Honduras, dan dieksekusi di depan regu tembak.",
+        "en": "Though it claimed tens of thousands of Central American allied soldiers, cholera also eroded Walker's mercenary army from within. New filibuster enlistments from New Orleans dried up as horrific tales of unstoppable tropical pestilence spread. Encircled by reconstituted Central American forces and deprived of supplies, Walker surrendered in May 1857. In a desperate subsequent invasion attempt in 1860 at Trujillo, Honduras, Walker was captured by the British Royal Navy, handed over to Honduran authorities, and executed by firing squad."
+      },
+      "image": "/assets/images/cholera/wave-3/lat/lat_ch_12.jpg"
+    },
+    {
+      "id": "lat-ch-13",
+      "chapterNumber": 13,
+      "type": "summary",
+      "title": {
+        "id": "Memori Kolektif & Penebusan Kedaulatan",
+        "en": "Collective Memory & the Crucible of Sovereignty"
+      },
+      "date": {
+        "id": "1860 M (Warisan Sejarah)",
+        "en": "1860 AD (Historical Legacy)"
+      },
+      "flash": {
+        "id": "Tragedi kolera 1856 membentuk identitas nasional dan sistem kesehatan publik Republik Kosta Rika.",
+        "en": "The 1856 cholera catastrophe forges the national identity and public health system of Costa Rica."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Transformasi sanitasi institusional republik Amerika Latin",
+        "incubation": "N/A (Evolusi Sosio-Politik)",
+        "transmission": "Pembangunan sistem akuaduk perpipaan modern menggantikan parit acequias"
+      },
+      "description": {
+        "id": "Wabah Kolera 1856—dikenal di Kosta Rika sebagai 'El Cólera Morbus'—diabadikan dalam ingatan kolektif sebagai pengorbanan martir terbesar bangsa demi mempertahankan kedaulatan dari imperialisme perbudakan. Tragedi hilangnya sepersepuluh populasi melahirkan kesadaran baru: Presiden Juan Rafael Mora dan para penerusnya segera menghapuskan sistem parit air terbuka 'acequias', menggantikannya dengan pipa besi tuang tertutup dan mendirikan Dewan Kebersihan Publik Nasional. Sektor Amerika Latin menegaskan bahwa krisis patogen mampu membentuk fondasi sebuah negara modern.",
+        "en": "The 1856 Cholera Outbreak—remembered in Costa Rica simply as 'El Cólera Morbus'—is enshrined in collective national memory as the supreme martyrdom borne to preserve sovereignty against predatory slavery expansionism. The catastrophic loss of one-tenth of the populace catalyzed deep institutional transformation: President Juan Rafael Mora and his successors dismantled the archaic open 'acequia' ditches, replacing them with sealed iron pipe aqueducts and instituting the National Council of Public Health. Sector LAT demonstrates how a biological crucible forged the modern nation-state."
+      },
+      "image": "/assets/images/cholera/wave-3/lat/lat_ch_13.jpg"
+    }
+  ]
+}
