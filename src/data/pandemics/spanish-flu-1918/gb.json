@@ -4,7 +4,10 @@
         "id": "Sektor GB (Britania Raya: Pangkalan Laut Scapa Flow, Pabrik Mesiu Midlands, & Krisis London // 1918–1919)",
         "en": "Sector GB (United Kingdom: Scapa Flow Grand Fleet, Midlands Munitions Works, & London Crisis // 1918–1919)"
     },
-    "coordinates": [55.3781, -3.436],
+    "coordinates": [
+        55.3781,
+        -3.436
+    ],
     "timeRange": "Mei 1918 – Pertengahan 1919",
     "estimatedFatalities": "228.000+ jiwa (Masyarakat sipil kepulauan Britania dan personel militer)",
     "chapters": [
@@ -209,8 +212,48 @@
             "image": "/assets/images/spanish-flu-1918/gb/gb_ch_05.jpg"
         },
         {
-            "id": "gb-ch-06",
+            "type": "standard",
+            "title": {
+                "id": "Kabut Asap Industri Midlands: Manchester & Birmingham dalam Cengkeraman Musim Dingin",
+                "en": "Industrial Smog of the Midlands: Manchester & Birmingham in the Winter Grip"
+            },
+            "date": {
+                "id": "Oktober – November 1918",
+                "en": "October – November 1918"
+            },
+            "flash": {
+                "id": "KABUT ASAP BATU BARA TEBAL BERCAMPUR VIRUS MEMBAKAR PARU-PARU PULUHAN RIBU BURUH TEKSTIL DAN PABRIK BAJA DI KAWASAN MIDLANDS INGGRIS.",
+                "en": "SULFUROUS INDUSTRIAL COAL SMOG COMBINES WITH H1N1 TO SEVERELY SCAR LUNGS OF TENS OF THOUSANDS OF TEXTILE AND STEEL WORKERS ACROSS THE MIDLANDS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Kombinasi Polusi Partikulat Berat & Patogen Virus)",
+                "vector": "Pabrik pemintalan kapas berdebu, bengkel peleburan logam, dan trem kota",
+                "incubation": "24 – 36 Jam",
+                "transmission": "Inhalasi aerosol diperparah oleh iritasi kronis sulfur dioksida dari cerobong pabrik",
+                "mutationType": {
+                    "id": "Sinergi Toksik Polutan Udara Industri dengan Nekrosis Epitelial Saluran Napas",
+                    "en": "Toxic Synergy of Industrial Atmospheric Particulates and Viral Epithelial Necrosis"
+                },
+                "threatLevel": {
+                    "id": "Sangat Tinggi (Angka Kematian Bronkopneumonia Melebihi Rata-Rata Nasional)",
+                    "en": "Very High (Bronchopneumonia Mortality Exceeding National Baselines)"
+                },
+                "clinicalTarget": {
+                    "id": "Buruh pabrik kapas Manchester, pekerja bengkel besi Birmingham, dan anak-anak buruh",
+                    "en": "Manchester cotton spinners, Birmingham metal foundry workers, and factory children"
+                }
+            },
+            "description": {
+                "id": "Di kawasan jantung industri Inggris—terbentang dari Manchester hingga Birmingham dan Sheffield—dampak gelombang kedua flu 1918 diperparah secara mengerikan oleh pencemaran udara. Cerobong-cerobong ribuan pabrik yang terus memuntahkan jelaga batu bara demi produksi perang menciptakan kabut asap belerang tebal yang dikenal sebagai *pea-souper*. Ketika virus influenza menyerang, saluran pernapasan para buruh yang sudah teriritasi kronis oleh debu kapas dan gas sulfur hancur seketika. Di Manchester, Rumah Sakit Royal Infirmary dipenuhi ribuan pasien yang megap-megap mencari udara di koridor-koridor bangsal. Seluruh pabrik tenun kapas terpaksa menghentikan mesin-mesin tenunnya karena tidak ada buruh yang cukup sehat untuk menyalakan ketel uap.",
+                "en": "Across the vast manufacturing basin stretching from Manchester through Birmingham to Sheffield, the fury of the autumn wave collided with catastrophic environmental degradation. Thousands of munitions and heavy engineering works poured incessant coal soot and sulfurous exhaust into the stagnant autumn air, generating choking 'pea-souper' smogs. For working-class populations whose respiratory tracts were already chronically scarred by cotton dust (*byssinosis*) and coal particulates, the viral invasion proved lethal within hours. At Manchester Royal Infirmary, suffocating textile hands spilled into drafty stairwells gasping for breath. Cotton weaving sheds and iron foundries stood eerily silent, their boilers cold because not enough able-bodied hands remained to feed the furnaces."
+            },
             "chapterNumber": 6,
+            "id": "gb-ch-06",
+            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_06.jpg"
+        },
+        {
+            "id": "gb-ch-07",
+            "chapterNumber": 7,
             "type": "standard",
             "title": {
                 "id": "Krisis Kayu Peti Mati & Makam Menggunung di East End",
@@ -246,11 +289,11 @@
                 "id": "Di kawasan kumuh East End London—Whitechapel, Shoreditch, dan Stepney—tingkat kematian melampaui segala daya tampung sosial. Karena kayu berkualitas telah dialokasikan militer untuk kotak amunisi dan parit di Prancis, terjadi kelangkaan parah kayu peti mati. Para pembuat peti terpaksa menggunakan kayu lapis tipis murahan atau papan kardus tebal. Di kapel-kapel pemakaman, peti mati bertumpuk hingga ke langit-langit karena sebagian besar penggali kubur ikut terinfeksi atau meninggal. Di rumah-rumah petak sempit tanpa ventilasi, jenazah anak-anak dan orang tua diletakkan di atas meja makan atau kolong tempat tidur selama berhari-hari, dikelilingi oleh anggota keluarga yang masih hidup yang terus menangis dalam kondisi menggigil demam.",
                 "en": "Across the impoverished tenement alleys of London's East End—Whitechapel, Shoreditch, and Stepney—mortality outstripped the city's coping mechanisms. Because seasoned timber was requisitioned by the Ministry of Munitions for shell crates and trench duckboards, a desperate shortage of coffin wood ensued. Undertakers were reduced to cobbling caskets out of unplaned deal boards, packing cases, and compressed cardboard. Inside cemetery mortuaries, coffins were stacked like cordwood to the rafters as municipal gravediggers succumbed in droves. Inside squalid, one-room tenements, corpses lay for days upon kitchen tables or underneath cots where surviving family members lay shivering in delirious fever."
             },
-            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_06.jpg"
+            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_07.jpg"
         },
         {
-            "id": "gb-ch-07",
-            "chapterNumber": 7,
+            "id": "gb-ch-08",
+            "chapterNumber": 8,
             "type": "side_story",
             "title": {
                 "id": "Penyelidikan Komite Riset Medis: Menembus Tabir 'Virus Tersaring'",
@@ -286,11 +329,51 @@
                 "id": "Di tengah kekacauan pandemi, ilmuwan di Medical Research Committee (MRC) Inggris dan Institut Lister di London melakukan eksperimen perintis yang kelak mengubah sejarah kedokteran. Dipimpin oleh Mayor C.J. Martin dan Dr. Leonard Hill, para peneliti mengumpulkan dahak dari paru-paru prajurit yang tewas di Rumah Sakit Militer Hampstead, lalu menyaringnya melalui filter porselen Chamberland yang sangat rapat untuk menyingkirkan seluruh bakteri yang diketahui, termasuk basil Pfeiffer. Ketika cairan steril tanpa bakteri tersebut disemprotkan ke hidung hewan primata percobaan, hewan tersebut tetap tertular gejala demam dan kerusakan paru akut yang sama. Eksperimen bersejarah ini menjadi bukti ilmiah terkuat pertama di dunia bahwa pembunuh 1918 adalah entitas 'virus tersaring' yang jauh lebih kecil daripada bakteri manapun.",
                 "en": "Amid the pandemonium, scientists attached to the British Medical Research Committee (MRC) and the Lister Institute in London conducted pioneering bench experiments that altered medical understanding. Led by Major C.J. Martin and Dr. Leonard Hill, researchers harvested tracheal mucus from deceased soldiers at the Hampstead Military Hospital, forcing the purulent aspirate through ultra-fine Chamberland porcelain filters designed to trap all cellular bacteria, including Pfeiffer's bacillus. When this bacteriologically sterile filtrate was atomized into the nostrils of test primates, the animals promptly developed the classic prostrating fever and hemorrhagic pulmonary congestion. This landmark study provided the earliest decisive proof that the 1918 scourge was caused by a sub-microscopic filterable virus."
             },
-            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_07.jpg"
+            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_08.jpg"
         },
         {
-            "id": "gb-ch-08",
-            "chapterNumber": 8,
+            "type": "side_story",
+            "title": {
+                "id": "Krisis Anak Yatim Piatu Flu Spanyol: Panti Asuhan Dr. Barnardo & Tragedi Keluarga Buruh",
+                "en": "The Spanish Flu Orphan Crisis: Dr. Barnardo's Homes & Devastation of Working-Class Families"
+            },
+            "date": {
+                "id": "November – Desember 1918",
+                "en": "November – December 1918"
+            },
+            "flash": {
+                "id": "KEMATIAN MENDADAK KEDUA ORANG TUA USIA 20–40 TAHUN MENINGGALKAN PULUHAN RIBU BALITA YATIM PIATU; PANTI ASUHAN DAN WORKHOUSE DIBANJIRI BAYI TERLANTAR.",
+                "en": "SUDDEN LOSS OF BOTH PARENTS AGED 20–40 LEAVES TENS OF THOUSANDS OF ORPHANS; DR. BARNARDO'S HOMES AND PARISH UNIONS INUNDATED WITH ABANDONED INFANTS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Dampak Sosio-Keluarga Tingkat Kematian Usia Produktif)",
+                "vector": "Kamar sewa sempit satu ruangan (slum tenements) di London Timur, Leeds, dan Glasgow",
+                "incubation": "24 Jam",
+                "transmission": "Penularan intrafamilial cepat yang melenyapkan kepala keluarga dan ibu rumah tangga dalam hitungan hari",
+                "mutationType": {
+                    "id": "Disrupsi Struktur Keluarga Inti Akibat Mortalitas Selektif Usia Muda Produktif",
+                    "en": "Disruption of Working-Class Nuclear Families from Prime-Age Selective Mortality"
+                },
+                "threatLevel": {
+                    "id": "Bencana Kemanusiaan (Krisis Kesejahteraan Anak Terburuk Sejak Era Victoria)",
+                    "en": "Humanitarian Crisis (Worst Child Welfare Emergency Since High Victorian Era)"
+                },
+                "clinicalTarget": {
+                    "id": "Bayi dan balita yang ditinggal mati kedua orang tuanya akibat kegagalan napas akut",
+                    "en": "Infants and young toddlers left destitute after double parental death"
+                }
+            },
+            "description": {
+                "id": "Karena virus flu 1918 secara selektif menargetkan orang dewasa berusia 20 hingga 40 tahun, dampak sosial yang paling menyedihkan di Britania adalah lahirnya puluhan ribu anak yatim piatu dalam sekejap mata. Di pemukiman kumuh East End London, Newcastle, dan Glasgow, tetangga sering kali menemukan anak-anak balita menangis histeris di samping tempat tidur tempat ayah dan ibu mereka telah kaku membiru berhari-hari. Organisasi amal anak terbesar Britania, *Dr. Barnardo's Homes*, bersama panti asuhan gereja dan *poor law workhouses*, kewalahan menerima gelombang anak-anak yang kehilangan keluarga. Tragedi ini memaksa parlemen Britania memperdebatkan pemberian tunjangan pensiun bagi janda dan anak-anak yatim piatu non-militer, menjadi fondasi bagi lahirnya sistem jaminan sosial modern Inggris.",
+                "en": "Because the 1918 virus uniquely targeted robust adults aged 20 to 40, its most wrenching social legacy across the United Kingdom was the sudden creation of tens of thousands of destitute orphans. In the crowded tenement districts of London's East End, Newcastle, and Glasgow, district visitors and neighbors frequently discovered terrified toddlers weeping over the cold corpses of their parents, both of whom had perished within forty-eight hours of each other. Dr. Barnardo's Homes, parish unions, and religious orphanages were overwhelmed by the influx of parentless infants. This civilian welfare catastrophe triggered passionate debates in the House of Commons, accelerating the eventual creation of state widows' and orphans' pensions and laying early groundwork for the British welfare state."
+            },
+            "chapterNumber": 9,
+            "id": "gb-ch-09",
+            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_09.jpg"
+        },
+        {
+            "id": "gb-ch-10",
+            "chapterNumber": 10,
             "type": "standard",
             "title": {
                 "id": "Kabut Asap London & Gencatan Senjata dalam Igauan Demam",
@@ -326,11 +409,11 @@
                 "id": "Hari Gencatan Senjata pada 11 November 1918 di London diselimuti oleh kontradiksi yang mengerikan. Sementara jutaan warga memadati Trafalgar Square dan Whitehall di tengah gerimis dingin untuk merayakan berakhirnya empat tahun pembantaian perang, kota London dicekik oleh kabut asap batu bara tebal (*pea-soup smog*) yang memerangkap jelaga beracun dan kuman penyakit di dekat permukaan tanah. Di antara sorak-sorai nyanyian *Rule, Britannia!*, banyak warga terlihat batuk berdarah di saputangan mereka. Para saksi mata mengingat pemandangan aneh para serdadu yang menari gembira di jalanan dengan wajah pucat kebiruan dan mata merah demam, merayakan perdamaian dunia hanya beberapa jam sebelum tubuh mereka roboh di kamar kos mereka.",
                 "en": "Armistice Day on November 11, 1918 in London unfolded under a surreal, apocalyptic atmosphere. While jubilant millions flooded Trafalgar Square, Piccadilly Circus, and Whitehall in a freezing drizzle to celebrate the cessation of four years of bloodletting, the metropolis was smothered by a noxious, sulphur-choked 'pea-souper' smog that trapped industrial soot and viral aerosols at street level. Amid roaring choruses of *Rule, Britannia!*, revelers coughed violently into blood-speckled handkerchiefs. Chroniclers recorded the eerie spectacle of doughboys and munition workers dancing in reckless delirium with mahogany-tinted lips and burning eyes, celebrating earthly peace mere hours before their lungs filled with transudate in lonely boarding houses."
             },
-            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_08.jpg"
+            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_10.jpg"
         },
         {
-            "id": "gb-ch-09",
-            "chapterNumber": 9,
+            "id": "gb-ch-11",
+            "chapterNumber": 11,
             "type": "side_story",
             "title": {
                 "id": "David Lloyd George di Balik Tabung Oksigen Manchester",
@@ -366,11 +449,51 @@
                 "id": "Pada September 1918, di tengah momen paling kritis perang, Perdana Menteri Britania Raya David Lloyd George berkunjung ke Manchester untuk menerima penghargaan kehormatan kota. Namun setibanya di sana, ia tersungkur pingsan dengan demam di atas 39°C dan sesak napas akut. Kamar tidurnya di Balai Kota Manchester disulap menjadi ruang rawat darurat militer. Selama sembilan hari, pemimpin perang Britania ini berada dalam kondisi kritis antara hidup dan mati, bernapas hanya dengan bantuan tabung oksigen murni yang diantar khusus dengan kereta api kilat dari London. Kabinet Perang memberlakukan sensor berita total untuk menyembunyikan kenyataan bahwa pemimpin tertinggi mereka sedang bertarung melawan asfiksia, sampai akhirnya sang Perdana Menteri secara ajaib berhasil melewati masa kritis.",
                 "en": "In September 1918, at the supreme turning point of the war, British Prime Minister David Lloyd George traveled to Manchester to receive the freedom of the city. Upon arrival, he collapsed into unconsciousness with a 104°F fever and acute respiratory failure. His quarters in Manchester Town Hall were instantaneously converted into an intensive military field ward. For nine agonizing days, the British Premier hovered between life and death, his breathing sustained solely by emergency cylinders of pure compressed oxygen rushed from London by special express train. The War Cabinet imposed an absolute press embargo, concealing from both the Allied public and the Kaiser that Britain's supreme political leader was fighting for air on the brink of suffocative collapse."
             },
-            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_09.jpg"
+            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_11.jpg"
         },
         {
-            "id": "gb-ch-10",
-            "chapterNumber": 10,
+            "type": "side_story",
+            "title": {
+                "id": "Runtuhnya Karantina Pulau Terpencil: Bencana Kepulauan Hebrides Luar & St. Kilda",
+                "en": "Breaching the Island Sanctuary: The Scourge of the Outer Hebrides & St. Kilda"
+            },
+            "date": {
+                "id": "Desember 1918 – Awal 1919",
+                "en": "December 1918 – Early 1919"
+            },
+            "flash": {
+                "id": "KOMUNITAS PETANI PULAU DI LEWIS, HARRIS, DAN ST. KILDA YANG TERISOLASI DIHANTAM BADAI FLU SETELAH KEPULANGAN PELAUT ANGKATAN LAUT KERAJAAN.",
+                "en": "ISOLATED GAELIC CROFTING COMMUNITIES IN LEWIS, HARRIS, AND REMOTE ST. KILDA RAVAGED AS RETURNING NAVAL RESERVISTS IMPORT THIRD WAVE."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Penyebaran ke Populasi Kepulauan Rentan / Imunologis Naif)",
+                "vector": "Kapal penangkap ikan haring, kapal pos pulau, dan serdadu cadangan AL yang dipulangkan",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Kontak rapat di dalam rumah tradisional beratap jerami tanpa cerobong (*blackhouses*)",
+                "mutationType": {
+                    "id": "Ledakan Epidemi pada Populasi Kepulauan yang Terisolasi Tanpa Imunitas Silang",
+                    "en": "Epidemic Explosion in Geographically Isolated Virgin-Soil Island Populations"
+                },
+                "threatLevel": {
+                    "id": "Kritis Ekologi Komunitas (Kepunahan Garis Keturunan Tertentu di Dusun Terpencil)",
+                    "en": "Community Critical (Severe Mortality in Small Crofter Hamlets Without Doctors)"
+                },
+                "clinicalTarget": {
+                    "id": "Keluarga penenun kain wol Harris Tweed dan nelayan berbahasa Gaelik",
+                    "en": "Gaelic-speaking crofters, Harris Tweed weavers, and coastal inshore fishermen"
+                }
+            },
+            "description": {
+                "id": "Bahkan pulau-pulau paling terpencil di lepas pantai barat laut Skotlandia tidak mampu membentengi diri dari jangkauan virus. Di Kepulauan Hebrides Luar—seperti Pulau Lewis, Harris, dan Barra—serta pos terjauh di St. Kilda, penduduk hidup dalam isolasi geografis yang ketat. Namun gelombang demobilisasi ribuan pelaut cadangan Angkatan Laut Kerajaan (*Royal Naval Reserve*) membawa virus langsung ke komunitas penenun kain wol ini. Di dalam rumah-rumah batu tradisional (*blackhouses*) yang dipanaskan dengan asap gambut tebal dan minim ventilasi jendela, virus menyebar seperti api membakar jerami kering. Di desa-desa terpencil yang tidak memiliki dokter maupun jalan darat, warga desa hanya dapat saling bergantung satu sama lain, menguburkan tetangga mereka di bukit-bukit pasir pesisir di bawah terpaan badai Samudra Atlantik.",
+                "en": "Even the windswept outer perimeter of the British archipelago proved porous to the airborne plague. In the Outer Hebrides—Lewis, Harris, North Uist—and the ultra-remote volcanic outpost of St. Kilda, Gaelic-speaking crofters had lived shielded by ocean barriers. But the repatriation of thousands of Royal Naval Reserve seamen aboard crowded inter-island ferries introduced the virulent pathogen into intimate crofting hamlets. Inside traditional stone 'blackhouses,' where peat smoke swirled beneath thatched roofs without chimneys, the virus spread with unstoppable velocity. With no resident physicians within forty miles of bog and sea, entire townships were bedridden simultaneously, leaving weakened elders to dig graves in sand dunes amidst furious winter Atlantic gales."
+            },
+            "chapterNumber": 12,
+            "id": "gb-ch-12",
+            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_12.jpg"
+        },
+        {
+            "id": "gb-ch-13",
+            "chapterNumber": 13,
             "type": "standard",
             "title": {
                 "id": "Gelombang Ketiga di Lembah Batubara Wales & Dataran Tinggi Skotlandia",
@@ -406,11 +529,11 @@
                 "id": "Pada awal 1919, gelombang ketiga yang dingin dan sunyi menyusup ke lembah-lembah tambang batu bara Wales Selatan, khususnya Lembah Rhondda. Para penambang batu bara yang paru-parunya telah mengalami kerusakan kronis akibat menghirup debu batu bara (*pneumokoniosis*) tidak memiliki pertahanan terhadap virus. Ketika infeksi menyerang lorong-lorong tambang bawah tanah yang sempit dan lift sangkar yang sesak, tingkat kematian di antara para penambang muda melonjak drastis. Di pemakaman lembah Wales, paduan suara pria (*male voice choirs*) yang terkenal di seluruh dunia kehilangan begitu banyak penyanyi intinya sehingga upacara pemakaman dilangsungkan dalam kebisuan total tanpa lantunan himne tradisional.",
                 "en": "In early 1919, a bitter third wave penetrated the narrow, sunless coal-mining valleys of South Wales, striking the Rhondda and Cynon basins with particular savagery. Generations of Welsh colliers whose bronchial tissues were riddled with anthracosis ('black lung') possessed zero physiological reserve to combat the viral invasion. When the infection penetrated the cramped pithead elevator cages and damp shafts, young miners died in droves. Across village chapels throughout the valleys, Wales's world-renowned male voice choirs were decimated, rendering burial services mute as entire baritone and tenor sections lay cold in communal churchyards."
             },
-            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_10.jpg"
+            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_13.jpg"
         },
         {
-            "id": "gb-ch-11",
-            "chapterNumber": 11,
+            "id": "gb-ch-14",
+            "chapterNumber": 14,
             "type": "summary",
             "title": {
                 "id": "Audit Epidemiologis Britania: 228.000 Korban Jiwa & Lahirnya UU Kementerian Kesehatan 1919",
@@ -446,7 +569,7 @@
                 "id": "Pandemi 1918–1919 merenggut lebih dari 228.000 jiwa di Britania Raya, meninggalkan luka mendalam pada tatanan sosial yang sudah compang-camping akibat empat tahun perang parit. Skandal kegagalan koordinasi antara Dewan Pemerintah Daerah dan otoritas militer menyadarkan para politisi Westminster bahwa sistem kesehatan publik Victoria yang terpencar-pencar telah usang. Pada Juni 1919, Parlemen mengesahkan undang-undang bersejarah *Ministry of Health Act 1919*, membubarkan badan-badan lama dan menunjuk Dr. Christopher Addison sebagai Menteri Kesehatan pertama Britania Raya. Pembentukan kementerian ini meletakkan fondasi terpusat bagi penelitian epidemiologi medis, standar sanitasi perumahan buruh, dan akhirnya memuncak pada kelahiran National Health Service (NHS) pasca-Perang Dunia II.",
                 "en": "The 1918–1919 pandemic claimed upwards of 228,000 British lives, leaving indelible scars upon a society already reeling from the carnage of the Somme and Passchendaele. The catastrophic failure of coordination between Sir Arthur Newsholme's localized boards and the military authorities exposed Britain's antiquated Victorian public health patchwork as dangerously unfit for the modern age. In June 1919, Parliament enacted the revolutionary *Ministry of Health Act 1919*, consolidating fragmented sanitarians under a unified cabinet department with Dr. Christopher Addison as Britain's inaugural Minister of Health. This reform established centralized disease notification, state-subsidized medical research under the MRC, and provided the administrative blueprint that would give birth to the National Health Service (NHS) three decades later."
             },
-            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_11.jpg"
+            "image": "/assets/images/spanish-flu-1918/gb/gb_ch_14.jpg"
         }
     ]
 }
