@@ -1,0 +1,408 @@
+{
+  "sectorId": "USA",
+  "waveIndex": 2,
+  "sectorName": {
+    "id": "Sektor USA (Amerika Utara: Quebec, Kanal Erie, New York, & Jalur Oregon 1832–1834)",
+    "en": "Sector USA (North America: Quebec, Erie Canal, New York, & Oregon Trail 1832–1834)"
+  },
+  "coordinates": [
+    40.7128,
+    -74.006
+  ],
+  "timeRange": "Juni 1832 – 1834 M",
+  "estimatedFatalities": "150.000+ (Amerika Serikat & Koloni Kanada Britania)",
+  "chapters": [
+    {
+      "id": "usa-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Pelayaran Transatlantik: Kapal Carricks & Grosse Île",
+        "en": "The Transatlantic Crossing: The Carricks & Grosse Île"
+      },
+      "date": {
+        "id": "April – Juni 1832 M",
+        "en": "April – June 1832 AD"
+      },
+      "flash": {
+        "id": "Kapal brig Irlandia 'Carricks' tiba di stasiun karantina Grosse Île di Sungai Saint Lawrence setelah membuang 42 jenazah korban kolera ke tengah Samudra Atlantik.",
+        "en": "The Irish brig 'Carricks' reached Grosse Île quarantine station on the Saint Lawrence after casting 42 cholera corpses into the Atlantic."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kapal Angkut Imigran Irlandia & Barel Air Samudra",
+        "incubation": "1 – 5 Hari",
+        "transmission": "Pencemaran air minum kapal layar selama 6 pekan pelayaran transatlantik yang sempit dan pengap"
+      },
+      "description": {
+        "id": "Pada musim semi 1832, ribuan imigran miskin Irlandia menaiki kapal-kapal kargo pengangkut kayu yang kembali ke Kanada. Salah satu kapal tersebut, brig 'Carricks' yang berlayar dari Dublin, dihantam wabah mengerikan di tengah samudra. Sebanyak 42 penumpang tewas bersimbah kotoran dan dilemparkan ke laut. Ketika kapal tiba di stasiun karantina pulau Grosse Île di Sungai Saint Lawrence pada awal Juni, fasilitas karantina darurat yang baru didirikan segera kewalahan. Kapal-kapal lain yang terinfeksi diizinkan melanjutkan pelayaran ke Quebec dan Montreal tanpa pemeriksaan menyeluruh.",
+        "en": "In spring 1832, thousands of destitute Irish emigrants boarded timber vessels returning empty to Canada. Among them, the brig 'Carricks' out of Dublin was struck by pestilence mid-ocean. Forty-two passengers died in agony and were consigned to the deep. When the vessel reached the newly designated quarantine island of Grosse Île in the Saint Lawrence River in early June, rudimentary isolation facilities collapsed immediately. Successive infected packet ships were permitted to proceed upriver toward Quebec and Montreal without adequate medical screening."
+      },
+      "image": "/assets/images/cholera/wave-2/usa/usa_ch_01.jpg"
+    },
+    {
+      "id": "usa-ch-02",
+      "chapterNumber": 2,
+      "type": "milestone",
+      "title": {
+        "id": "Pintu Masuk Benua: Bencana di Montreal & Quebec",
+        "en": "Continental Gateway: Catastrophe in Montreal & Quebec"
+      },
+      "date": {
+        "id": "Juni 1832 M",
+        "en": "June 1832 AD"
+      },
+      "flash": {
+        "id": "Kolera meledak di dermaga Montreal; ribuan imigran yang panik berdesakan menaiki kapal uap pedalaman menuju Danau Ontario dan perbatasan Amerika Serikat.",
+        "en": "Cholera erupted along Montreal wharves; thousands of panicked immigrants rushed onto inland steamships heading for Lake Ontario and the U.S. border."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kapal Uap Sungai Saint Lawrence",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Pencemaran sumber air minum pelabuhan sungai Montreal dan sanitasi kapal uap yang buruk"
+      },
+      "description": {
+        "id": "Pada tanggal 8 Juni 1832, kematian kolera pertama tercatat di Quebec City, dan keesokan harinya di Montreal. Kota pelabuhan sungai tersebut seketika lumpuh di bawah gelombang kematian yang merenggut hingga 200 jiwa per hari. Rumah sakit dipenuhi pasien membiru, sementara warga lokal menuduh para imigran membawa wabah maut. Ribuan pendatang yang ketakutan bergegas menaiki kapal-kapal uap sungai Saint Lawrence menuju Danau Ontario, tanpa sadar menyebarkan bakteri Vibrio cholerae ke pos-pos perbatasan Amerika Serikat.",
+        "en": "On June 8, 1832, the first cholera deaths were registered in Quebec City, and within twenty-four hours in Montreal. The river port collapsed under a lethal surge claiming up to 200 lives daily. Local hospitals overflowed with cyanotic victims, while French-Canadian locals blamed British immigrants for unleashing the plague. Thousands of terrified arrivals boarded Saint Lawrence steamboats bound for Lake Ontario, unwittingly ferrying Vibrio cholerae directly toward the northern frontiers of the United States."
+      },
+      "image": "/assets/images/cholera/wave-2/usa/usa_ch_02.jpg"
+    },
+    {
+      "id": "usa-ch-03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Koridor Danau Champlain: Menembus Perbatasan New York",
+        "en": "The Lake Champlain Corridor: Breaching New York's Border"
+      },
+      "date": {
+        "id": "Pertengahan Juni 1832 M",
+        "en": "Mid-June 1832 AD"
+      },
+      "flash": {
+        "id": "Melalui jalur air Sungai Richelieu dan Danau Champlain, patogen menembus negara bagian New York di Whitehall dan Albany dalam tempo kurang dari sepuluh hari.",
+        "en": "Via the Richelieu River and Lake Champlain water route, the pathogen breached New York State at Whitehall and Albany within ten days."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Perahu Danau & Kereta Kuda Jalur Lembah Hudson",
+        "incubation": "24 – 48 Jam",
+        "transmission": "Konsumsi air minum dari dermaga dan penginapan di sepanjang rute Danau Champlain"
+      },
+      "description": {
+        "id": "Para pejabat di New York State berupaya menutup pos perbatasan utara, namun koridor alami Danau Champlain terbukti mustahil diblokade. Kapal-kapal pengangkut kayu dan perahu danau berlayar ke selatan menyusuri Sungai Richelieu, membawa penumpang terinfeksi ke Whitehall, New York. Dari sana, jalur kereta kuda dan perahu kanal melaju cepat menuju Albany di tepi Sungai Hudson. Kota Albany mengonfirmasi kasus kolera pertamanya pada akhir Juni, menandai bahwa pertahanan utara negara bagian New York telah runtuh sepenuhnya.",
+        "en": "New York State authorities scrambled to seal northern border stations, but the Lake Champlain corridor proved impossible to blockade. Timber sloops and packet boats navigated south along the Richelieu River, depositing infected passengers at Whitehall, New York. From there, stagecoaches and early canal barges raced down the Hudson River valley to Albany. Albany confirmed its first cholera fatalities in late June, signaling the complete collapse of New York's northern sanitary perimeter."
+      },
+      "image": "/assets/images/cholera/wave-2/usa/usa_ch_03.jpg"
+    },
+    {
+      "id": "usa-ch-04",
+      "chapterNumber": 4,
+      "type": "milestone",
+      "title": {
+        "id": "Vektor Kanal Erie: Arteri Ekspres ke Midwest",
+        "en": "The Erie Canal Vector: Express Artery to the Midwest"
+      },
+      "date": {
+        "id": "Juni – Juli 1832 M",
+        "en": "June – July 1832 AD"
+      },
+      "flash": {
+        "id": "Kanal Erie yang baru selesai dibangun menjadi jalan tol biologis; perahu-perahu paket kanal menyebarkan kolera ke Buffalo, Cleveland, Detroit, dan Chicago.",
+        "en": "The newly completed Erie Canal became a biological superhighway; packet boats distributed cholera to Buffalo, Cleveland, Detroit, and Chicago."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Perahu Kanal Erie (Canal Packet Boats)",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pencemaran air kanal yang tenang oleh limbah perahu dan penggunaan air kanal untuk mencuci di stasiun pompa"
+      },
+      "description": {
+        "id": "Kanal Erie sepanjang 584 kilometer yang diresmikan pada 1825 adalah keajaiban rekayasa abad ke-19 yang menghubungkan Sungai Hudson dengan Danau-Danau Besar. Namun pada musim panas 1832, kanal ini berubah menjadi jalur penularan penyakit paling efisien di benua Amerika. Perahu-perahu sempit yang dipadati imigran dan pionir bergerak siang malam ditarik kuda di sepanjang kanal. Ketika seorang penumpang jatuh sakit, kotorannya dibuang ke air kanal yang tenang dan dangkal. Wabah melompat dari Syracuse dan Rochester ke Buffalo, lalu menyeberangi Danau Erie menuju Cleveland dan Detroit.",
+        "en": "The 363-mile Erie Canal, opened in 1825, was the engineering marvel linking the Hudson River with the Great Lakes. In the summer of 1832, it became North America's most efficient biological vector. Narrow packet boats crowded with emigrants and settlers moved day and night along the canal. When passengers fell sick, waste was cast into the sluggish, stagnant canal water. The epidemic leaped from Syracuse and Rochester into Buffalo, then boarded Great Lakes schooners bound for Cleveland, Detroit, and early frontier Chicago."
+      },
+      "image": "/assets/images/cholera/wave-2/usa/usa_ch_04.jpg"
+    },
+    {
+      "id": "usa-ch-05",
+      "chapterNumber": 5,
+      "type": "milestone",
+      "title": {
+        "id": "Manhattan dalam Bidikan: Pemukiman Kumuh Five Points",
+        "en": "Manhattan in the Crosshairs: Squalor of Five Points"
+      },
+      "date": {
+        "id": "26 Juni – Juli 1832 M",
+        "en": "June 26 – July 1832 AD"
+      },
+      "flash": {
+        "id": "Kasus perdana Manhattan ditemukan pada seorang imigran Irlandia di Cherry Street; kolera meletus bagai badai di kawasan kumuh terkenal 'Five Points' di Distrik Enam.",
+        "en": "Manhattan's initial case appeared in an Irish immigrant on Cherry Street; cholera exploded violently through the notorious 'Five Points' slum of the Sixth Ward."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Sumur Umum 'Tea Water' & Lubang Tinja Resapan",
+        "incubation": "Beberapa Jam – 24 Jam",
+        "transmission": "Infiltrasi tinja jutaan galon ke sumur dangkal kawasan padat Manhattan bawah"
+      },
+      "description": {
+        "id": "Pada tanggal 26 Juni 1832, seorang imigran Irlandia bernama Fitzgerald jatuh sakit di Cherry Street, Manhattan, dan meninggal dalam tempo sehari. Otoritas balai kota awalnya berusaha menyembunyikan kabar tersebut, namun pada awal Juli, kolera meletus tak terbendung di kawasan Five Points—permukiman kumuh paling padat di Amerika yang dihuni ribuan buruh imigran Irlandia dan warga Afro-Amerika bebas. Rumah-rumah petak reyot dibangun di atas bekas rawa Collect Pond yang tercemar; sumur-sumur pompa umum menyedot air tanah yang bercampur rembesan ribuan jamban pembuangan.",
+        "en": "On June 26, 1832, an Irish immigrant named Fitzgerald fell ill on Cherry Street in Lower Manhattan and died within hours. Civic leaders initially suppressed the diagnosis, but in early July cholera exploded uncontrollably throughout Five Points—America's most notorious slum, crowded with destitute Irish immigrants and free African Americans. Ramshackle wooden tenements sat atop the filled-in, foul-smelling Collect Pond; public pumps drew groundwater saturated with seepage from thousands of unlined privies."
+      },
+      "image": "/assets/images/cholera/wave-2/usa/usa_ch_05.jpg"
+    },
+    {
+      "id": "usa-ch-06",
+      "chapterNumber": 6,
+      "type": "standard",
+      "title": {
+        "id": "Kepanikan Raya New York: Eksodus Kaum Menengah",
+        "en": "The Great New York Panic: Middle-Class Exodus"
+      },
+      "date": {
+        "id": "Juli 1832 M",
+        "en": "July 1832 AD"
+      },
+      "flash": {
+        "id": "Lebih dari 100.000 warga—hampir separuh populasi New York City—melarikan diri meninggalkan kota hantu; Wall Street ditutup dan rumput tumbuh di Broadway.",
+        "en": "Over 100,000 citizens—nearly half the population of New York City—fled, leaving behind a ghost metropolis; Wall Street closed and grass sprouted on Broadway."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kereta Pelarian & Kapal Uap Sungai Hudson",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Penyebaran ke pedesaan Long Island, New Jersey, dan Connecticut oleh pengungsi kota"
+      },
+      "description": {
+        "id": "Ketika Dewan Kesehatan New York mengumumkan bahwa kolera telah menjadi endemik tak terkendali, gelombang kepanikan liar melanda kota. Pelabuhan feri dan stasiun kereta kuda diserbu lautan massa. Lebih dari 100.000 penduduk berkemampuan finansial melarikan diri ke pedesaan Greenwich Village, New Jersey, dan New England. Broadway yang biasanya ramai menjadi sunyi senyap; pertokoan dipaku rapat, bank-bank Wall Street tutup, dan hanya kereta pengangkut jenazah yang berlalu lalang di atas jalanan berdebu yang ditaburi kapur putih.",
+        "en": "When the New York Board of Health conceded that cholera was raging unchecked, unprecedented panic engulfed the metropolis. Ferries and stagecoach depots were besieged by desperate crowds. Over 100,000 residents with financial means fled northward into rural Greenwich Village, New Jersey, and Connecticut. Bustling Broadway fell eerily silent; shopfronts were boarded up, Wall Street financial houses shut their doors, and only the rumble of dead carts broke the stillness along cobblestones dusted with white lime."
+      },
+      "image": "/assets/images/cholera/wave-2/usa/usa_ch_06.jpg"
+    },
+    {
+      "id": "usa-ch-07",
+      "chapterNumber": 7,
+      "type": "milestone",
+      "title": {
+        "id": "Horor Rumah Sakit Bellevue & Pulau Blackwell",
+        "en": "Horror at Bellevue Hospital & Blackwell's Island"
+      },
+      "date": {
+        "id": "Juli – Agustus 1832 M",
+        "en": "July – August 1832 AD"
+      },
+      "flash": {
+        "id": "Kamar jenazah Rumah Sakit Bellevue meluap; ratusan narapidana dan fakir miskin di Pulau Blackwell (Roosevelt Island) meninggal tanpa perawatan.",
+        "en": "Bellevue Hospital's deadhouse overflowed; hundreds of inmates and destitute paupers on Blackwell's (Roosevelt) Island died unattended in squalor."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Penjara & Rumah Sakit Amal (Almshouse)",
+        "incubation": "Beberapa Jam",
+        "transmission": "Penularan beruntun di institusi publik padat tanpa sanitasi air bersih"
+      },
+      "description": {
+        "id": "Rumah Sakit Bellevue di tepi East River dan fasilitas pemasyarakatan di Blackwell's Island menjadi pemandangan neraka dunia. Pasien-pasien miskin yang dibawa oleh polisi ditempatkan di bangsal darurat tanpa ranjang yang cukup. Puluhan perawat dan dokter sukarelawan gugur terinfeksi. Di rumah penampungan orang miskin (almshouse), kolera membantai lebih dari sepertiga penghuni dalam tempo tiga pekan. Mayat-mayat tanpa nama diangkut dengan tongkang kayu melintasi teluk menuju Potter's Field di Hart Island untuk dikuburkan secara massal di parit dalam.",
+        "en": "Bellevue Hospital along the East River and municipal penal institutions on Blackwell's Island became scenes of unmitigated horror. Destitute patients dumped by police lay on bloodstained floors without bedding. Dozens of volunteer nurses and young physicians contracted the illness and died within days. In the public almshouse, cholera wiped out over a third of the inmates in three weeks. Unclaimed corpses were loaded onto scows and shipped across the harbor to mass Potter's Field trenches on Hart Island."
+      },
+      "image": "/assets/images/cholera/wave-2/usa/usa_ch_07.jpg"
+    },
+    {
+      "id": "usa-ch-08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Jenderal Winfield Scott & Wabah Perang Black Hawk",
+        "en": "General Winfield Scott & The Black Hawk War Outbreak"
+      },
+      "date": {
+        "id": "Juli 1832 M",
+        "en": "July 1832 AD"
+      },
+      "flash": {
+        "id": "Pasukan Angkatan Darat AS yang dikirim Jenderal Winfield Scott ke Perang Black Hawk terpapar kolera di atas kapal uap Danau-Danau Besar; ratusan prajurit tewas sebelum mencapai medan tempur.",
+        "en": "U.S. Army regulars dispatched under General Winfield Scott to the Black Hawk War were decimated by cholera aboard Great Lakes steamers before reaching battle."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kapal Uap Militer Danau-Danau Besar",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Kontaminasi barel air minum prajurit di atas kapal uap militer 'Sheldon Thompson'"
+      },
+      "description": {
+        "id": "Ketika Perang Black Hawk berkecamuk di Illinois dan Wisconsin, Presiden Andrew Jackson memerintahkan Jenderal Winfield Scott membawa empat resimen pasukan dari pesisir timur. Pasukan ini menaiki kapal uap di Buffalo melintasi Danau Erie dan Huron. Di tengah pelayaran, kolera meletus di atas kapal uap militer 'Sheldon Thompson'. Prajurit-prajurit berotot kuat roboh ke geladak; ratusan mayat dibuang ke danau. Ketika tiba di Fort Dearborn (cikal bakal kota Chicago), garnisun itu telah menjadi rumah sakit terapung yang lumpuh, membunuh lebih banyak prajurit dibanding senjata suku Indian Sauk.",
+        "en": "As the Black Hawk War raged across Illinois and Wisconsin, President Andrew Jackson ordered General Winfield Scott to rush four regiments from the Atlantic coast. The troops boarded steamboats at Buffalo heading across Lakes Erie and Huron. Mid-voyage, cholera flared aboard the military steamer 'Sheldon Thompson'. Robust infantrymen dropped to the decks in convulsions; scores of bodies were thrown overboard. By the time the convoy reached Fort Dearborn (modern Chicago), the army was a crippled floating hospital, suffering more casualties from Vibrio than Sauk muskets."
+      },
+      "image": "/assets/images/cholera/wave-2/usa/usa_ch_08.jpg"
+    },
+    {
+      "id": "usa-ch-09",
+      "chapterNumber": 9,
+      "type": "milestone",
+      "title": {
+        "id": "Kapal Uap Sungai Mississippi: Bencana New Orleans",
+        "en": "Mississippi River Steamboats: The New Orleans Crucible"
+      },
+      "date": {
+        "id": "Musim Gugur 1832 M",
+        "en": "Autumn 1832 AD"
+      },
+      "flash": {
+        "id": "Menunggangi arus Sungai Ohio dan Mississippi, kapal-kapal uap pedal roda membawa kolera ke New Orleans, di mana wabah bertabrakan dengan epidemi Demam Kuning.",
+        "en": "Riding the Ohio and Mississippi currents, paddle steamers ferried cholera into New Orleans, where the scourge collided directly with Yellow Fever."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae & Flavivirus (Demam Kuning)",
+        "vector": "Kapal Uap Roda Dayung & Rawa Delta Mississippi",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pencemaran sumber air minum tepi sungai dan air rawa dataran rendah Louisiana"
+      },
+      "description": {
+        "id": "Pada musim gugur 1832, kolera mencapai sistem sungai Mississippi melalui Pittsburgh, Cincinnati, dan Louisville. Kapal-kapal uap roda dayung (paddlewheel steamers) bertindak sebagai inkubator bergerak yang menurunkan penumpang terinfeksi di setiap dermaga sungai. Pada akhir Oktober 1832, kolera mendarat di pelabuhan New Orleans, bertepatan dengan puncak musim epidemi Demam Kuning. Kota semi-tropis di muara Mississippi ini menghadapi bencana ganda yang belum pernah tercatat: lebih dari 5.000 warga tewas dalam dua minggu di tengah genangan air rawa yang tak mampu mengubur peti mati.",
+        "en": "In autumn 1832, cholera penetrated the Mississippi basin via Pittsburgh, Cincinnati, and Louisville. Paddlewheel steamboats acted as mobile incubators, discharging infected passengers at every trading landing. In late October 1832, cholera made landfall in New Orleans, colliding head-on with the seasonal crest of Yellow Fever. The subtropical delta port faced an apocalyptic twin epidemic: over 5,000 citizens perished in a fortnight, where waterlogged cemetery ground forced gravediggers to weight wooden coffins with bricks to keep them submerged."
+      },
+      "image": "/assets/images/cholera/wave-2/usa/usa_ch_09.jpg"
+    },
+    {
+      "id": "usa-ch-10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Tragedi Perkebunan Budak di Deep South",
+        "en": "Tragedy on the Enslaved Plantations of the Deep South"
+      },
+      "date": {
+        "id": "1832 – 1833 M",
+        "en": "1832 – 1833 AD"
+      },
+      "flash": {
+        "id": "Di perkebunan kapas dan tebu di Louisiana dan Mississippi, ribuan budak Afro-Amerika yang diperbudak tewas dalam barak sempit tanpa akses air bersih.",
+        "en": "On cotton and sugar plantations across Louisiana and Mississippi, thousands of enslaved African Americans perished in cramped quarters without clean water."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Barak Budak & Parit Irigasi Perkebunan",
+        "incubation": "12 – 24 Jam",
+        "transmission": "Konsumsi air parit dan rawa perkebunan oleh buruh tani budak yang dipaksa bekerja di bawah terik matahari"
+      },
+      "description": {
+        "id": "Penyebaran kolera ke pedalaman Selatan membawa kehancuran ekstrem bagi populasi budak Afro-Amerika. Di perkebunan tebu dan kapas di sepanjang Sungai Mississippi, para budak tinggal di pondok-pondok kayu padat dengan sanitasi nol, meminum air langsung dari saluran irigasi atau sumur lumpur dangkal. Mandor perkebunan sering kali menganggap gejala awal kolera sebagai 'kemalasan pura-pura', memaksa budak yang dehidrasi tetap memanen di bawah terik matahari hingga mereka tewas pingsan di ladang. Ribuan jasad budak dimakamkan di parit tak bertanda di tepi rawa.",
+        "en": "Cholera's descent into the Deep South inflicted catastrophic devastation upon enslaved African Americans. On sprawling cotton and sugarcane plantations along the lower Mississippi, enslaved families lived packed in unventilated cabins lacking basic sanitation, drinking stagnant ditch water. Overseers frequently dismissed early cramps as feigned illness, forcing dehydrated laborers to toil under the searing sun until collapsing dead in the furrows. Thousands of enslaved souls were buried in unmarked swamp trenches."
+      },
+      "image": "/assets/images/cholera/wave-2/usa/usa_ch_10.jpg"
+    },
+    {
+      "id": "usa-ch-11",
+      "chapterNumber": 11,
+      "type": "side_story",
+      "title": {
+        "id": "Pembantaian Musim Panas di Lexington, Kentucky",
+        "en": "The Summer Slaughter of Lexington, Kentucky"
+      },
+      "date": {
+        "id": "Juni 1833 M",
+        "en": "June 1833 AD"
+      },
+      "flash": {
+        "id": "Kota makmur Lexington kehilangan lebih dari 500 warganya hanya dalam sepuluh hari; mayat-mayat dibiarkan membusuk di beranda rumah karena ketiadaan penggali kubur.",
+        "en": "The prosperous town of Lexington lost over 500 citizens in ten days; corpses rotted on porches as surviving gravediggers fled in horror."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Sumur Kapur Karst Pedalaman Kentucky",
+        "incubation": "Beberapa Jam – 24 Jam",
+        "transmission": "Infiltrasi air limbah septic pit melalui batuan kapur retak ke mata air minum kota"
+      },
+      "description": {
+        "id": "Pada Juni 1833, gelombang susulan kolera kedua menghantam pedalaman Kentucky. Kota Lexington, yang dikenal sebagai 'Athena dari Barat' karena kemakmuran budaya dan pendidikannya, berubah menjadi neraka dalam tempo seminggu. Formasi geologi batuan kapur karst yang berpori memungkinkan kotoran tinja dari lubang pembuangan merembes dengan mudah ke mata air minum kota. Lebih dari 500 dari 6.000 penduduknya tewas dalam sepuluh hari. Toko-toko ditutup, ternak berkeliaran di jalanan kosong, dan jasad-jasad membusuk di bawah terik matahari musim panas sebelum narapidana dipaksa menguburkannya.",
+        "en": "In June 1833, a second wave struck the interior of Kentucky. Lexington, renowned as the 'Athens of the West' for its cultured prosperity, turned into a charnel house in a week. Porous karst limestone geology allowed sewage from unlined privies to infiltrate municipal drinking springs with chilling speed. Over 500 of its 6,000 residents died in ten days. Shops shuttered, cattle wandered deserted streets, and corpses decayed on verandas in summer heat before chain gangs of convicts were coerced into digging trenches."
+      },
+      "image": "/assets/images/cholera/wave-2/usa/usa_ch_11.jpg"
+    },
+    {
+      "id": "usa-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Jalur Pionir Menuju Barat: Oregon & Santa Fe Trail",
+        "en": "Pioneer Wagon Trails: Oregon & Santa Fe Corridors"
+      },
+      "date": {
+        "id": "1833 – 1834 M",
+        "en": "1833 – 1834 AD"
+      },
+      "flash": {
+        "id": "Iring-iringan kereta kuda gerobak pionir (covered wagons) membawa kolera melintasi padang rumput Great Plains; kuburan dangkal menandai setiap mata air di sepanjang rute.",
+        "en": "Caravans of covered wagons carried cholera across the Great Plains; shallow graves marked every waterhole along the westward emigrant trails."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Iring-Iringan Gerobak Pionir (Covered Wagons)",
+        "incubation": "1 – 4 Hari",
+        "transmission": "Pencemaran mata air dan kubangan air padang rumput oleh kotoran rombongan perintis"
+      },
+      "description": {
+        "id": "Ambisi ekspansi Amerika ke arah barat menyediakan vektor baru bagi kolera. Para perintis dan pedagang yang berangkat dari Independence dan St. Louis, Missouri, membawa bakteri tersebut ke pedalaman padang rumput Great Plains. Di sepanjang Jalur Santa Fe dan rute awal Jalur Oregon, sumber-sumber air tawar alami yang langka digunakan secara berulang oleh ribuan manusia dan hewan ternak. Dalam beberapa hari, sumber air tersebut tercemar, mengubah oasis padang rumput menjadi kuburan massal. Di sepanjang tepi Sungai Platte, batu nisan kayu darurat menjadi pemandangan harian yang mengerikan.",
+        "en": "Westward expansion provided a new transcontinental vector for cholera. Pioneers and traders outfitting at Independence and St. Louis, Missouri, carried the pathogen into the vast Great Plains. Along the Santa Fe Trail and early branches of the Oregon Trail, scarce prairie waterholes were shared by thousands of migrants and draft oxen. Water sources were quickly contaminated, converting desert springs into graveyard sites. Along the banks of the Platte River, makeshift wooden crosses became grim mileposts marking the trail."
+      },
+      "image": "/assets/images/cholera/wave-2/usa/usa_ch_12.jpg"
+    },
+    {
+      "id": "usa-ch-13",
+      "chapterNumber": 13,
+      "type": "milestone",
+      "title": {
+        "id": "Bencana Bangsa Indian Dataran: Pawnee, Sioux, & Cheyenne",
+        "en": "Plains Indigenous Devastation: Pawnee, Sioux, & Cheyenne"
+      },
+      "date": {
+        "id": "1833 – 1834 M",
+        "en": "1833 – 1834 AD"
+      },
+      "flash": {
+        "id": "Kontak dengan iring-iringan pionir menularkan kolera ke suku-suku Pribumi Dataran; separuh populasi suku Pawnee binasa tanpa memiliki kekebalan maupun pemahaman tentang kuman.",
+        "en": "Encounters with pioneer wagons introduced cholera to Plains Indigenous nations; half the Pawnee nation vanished without immunity or knowledge of the microbe."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kontak Jalur Kafilah Pionir & Sumber Air Alami",
+        "incubation": "Beberapa Jam – 24 Jam",
+        "transmission": "Pencemaran sungai perkemahan tradisional suku pribumi oleh kafilah migran kulit putih"
+      },
+      "description": {
+        "id": "Bagi bangsa-bangsa Pribumi Amerika di Great Plains, kolera adalah bencana demografis yang belum pernah ada bandingannya. Suku Pawnee, Osage, Cheyenne, dan Dakota Sioux yang berpapasan dengan kafilah pionir atau meminum dari sungai yang sama tertular penyakit misterius ini. Tanpa pengetahuan mengenai transmisi air kotor dan menganggapnya sebagai kutukan roh jahat, para pejuang perkasa tewas dalam hitungan jam setelah meminum air sungai. Diperkirakan hampir separuh populasi bangsa Pawnee musnah antara tahun 1832 dan 1834, melemahkan perlawanan mereka terhadap ekspansi kolonial Amerika ke barat.",
+        "en": "For Plains Indigenous nations, cholera was a demographic apocalypse. The Pawnee, Osage, Cheyenne, and Dakota Sioux encountering pioneer wagon trains or sharing traditional stream crossings contracted the mysterious pathogen. With no immunological resistance and interpreting the sudden agonizing deaths as malevolent spirits, warriors died within hours of drinking from fouled streams. Approximately half the entire Pawnee nation perished between 1832 and 1834, crippling Indigenous sovereignty across the central plains."
+      },
+      "image": "/assets/images/cholera/wave-2/usa/usa_ch_13.jpg"
+    },
+    {
+      "id": "usa-ch-14",
+      "chapterNumber": 14,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Gelombang Amerika: Kelahiran Akueduk Croton",
+        "en": "Legacy of the American Wave: Birth of the Croton Aqueduct"
+      },
+      "date": {
+        "id": "1834 – 1842 M",
+        "en": "1834 – 1842 AD"
+      },
+      "flash": {
+        "id": "Dengan 150.000 korban tewas di Amerika Utara, trauma kolera 1832 memaksa New York membangun Akueduk Croton sepanjang 66 kilometer untuk mengalirkan air murni pedalaman.",
+        "en": "With 150,000 dead across North America, the trauma of 1832 compelled New York to build the 41-mile Croton Aqueduct to deliver pure upstate reservoir water."
+      },
+      "virusProfile": {
+        "agent": "Infrastruktur Rekayasa Air Bersih Skala Raksasa",
+        "vector": "Akueduk Croton Gravitasi Bebas Kontaminasi",
+        "incubation": "N/A",
+        "transmission": "Penghentian penggunaan sumur air tanah Manhattan yang terkontaminasi limbah manusia"
+      },
+      "description": {
+        "id": "Pandemi kolera 1832–1834 menghancurkan rasa superioritas Amerika yang percaya bahwa benua baru yang luas akan kebal dari penyakit dunia lama Eropa. Dengan lebih dari 150.000 korban tewas di seluruh Amerika Serikat dan Kanada, para pemimpin kota menyadari bahwa kota-kota modern tidak dapat bertahan tanpa pasokan air bersih independen. Di New York, trauma Five Points memicu referendum publik yang menyetujui proyek rekayasa terbesar pada masanya: pembangunan Akueduk Croton sepanjang 66 kilometer. Selesai pada 1842, akueduk ini mengalirkan jutaan galon air murni dari Westchester ke Manhattan, merevolusi kesehatan publik Amerika.",
+        "en": "The 1832–1834 cholera pandemic shattered American exceptionalism, disproving beliefs that a youthful republic was immune to old-world pestilence. With over 150,000 dead across the United States and British North America, civic leaders realized expanding commercial cities could not survive without pure water. In New York, the trauma of Five Points catalyzed public referendums authorizing the greatest civil engineering work of the era: the 41-mile Croton Aqueduct. Completed in 1842, it delivered millions of gallons of pristine upstate water, permanently transforming urban sanitary survival."
+      },
+      "image": "/assets/images/cholera/wave-2/usa/usa_ch_14.jpg"
+    }
+  ]
+}

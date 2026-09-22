@@ -1,0 +1,408 @@
+{
+  "sectorId": "MEK",
+  "waveIndex": 2,
+  "sectorName": {
+    "id": "Sektor MEK (Hijaz Utsmaniyah: Koridor Jamaah Haji Mekkah & Padang Arafah 1831 & 1846)",
+    "en": "Sector MEK (Ottoman Hijaz: Mecca Hajj Pilgrimage Corridors & Mount Arafat 1831 & 1846)"
+  },
+  "coordinates": [
+    21.4225,
+    39.8262
+  ],
+  "timeRange": "Musim Haji 1831 & 1846 M",
+  "estimatedFatalities": "60.000+ (Jamaah Haji Semenanjung Arab, Mesir, & Syam)",
+  "chapters": [
+    {
+      "id": "mek-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Koridor Dhow Laut Merah: Pelayaran dari Anak Benua",
+        "en": "Red Sea Dhow Corridors: Voyages from the Subcontinent"
+      },
+      "date": {
+        "id": "Maret – April 1831 M",
+        "en": "March – April 1831 AD"
+      },
+      "flash": {
+        "id": "Armada perahu layar tradisional dhow yang mengangkut ribuan calon jamaah haji dari Bombay dan Gujarat mengarungi Laut Arab menuju Selat Bab el-Mandeb.",
+        "en": "Fleets of traditional dhows transporting thousands of pilgrims from Bombay and Gujarat traversed the Arabian Sea toward the Bab el-Mandeb Strait."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Perahu Layar Dhow Samudra Hindia",
+        "incubation": "1 – 4 Hari",
+        "transmission": "Pencemaran barel air minum kayu kapal selama pelayaran panjang tanpa fasilitas sanitasi layak"
+      },
+      "description": {
+        "id": "Ibadah haji tahunan ke Mekkah mempertemukan ratusan ribu muslim dari seluruh penjuru dunia. Pada musim semi 1831, pelabuhan Bombay, Surat, dan Kalkuta di India memberangkatkan puluhan kapal layar kayu (dhow dan baghlah) yang sarat dengan ribuan jamaah. Di bawah terik matahari khatulistiwa dan kondisi geladak yang sangat berjejal, persediaan air tawar di dalam tong kayu tua cepat terkontaminasi. Ketika kapal-kapal ini melintasi Selat Bab el-Mandeb memasuki perairan Laut Merah, kematian akibat diare dehidrasi akut telah mulai terjadi di atas geladak.",
+        "en": "The annual pilgrimage to Mecca brought together hundreds of thousands of Muslims from every corner of the globe. In the spring of 1831, the Indian ports of Bombay, Surat, and Calcutta dispatched scores of wooden sailing craft (dhows and baghlahs) packed with pilgrims. Under the blistering equatorial sun and suffocating conditions between decks, freshwater barrels quickly grew foul. By the time these vessels passed through the Bab el-Mandeb Strait into the Red Sea, acute dehydration fatalities had already begun among the passengers."
+      },
+      "image": "/assets/images/cholera/wave-2/mek/mek_ch_01.jpg"
+    },
+    {
+      "id": "mek-ch-02",
+      "chapterNumber": 2,
+      "type": "milestone",
+      "title": {
+        "id": "Pendaratan di Pelabuhan Jeddah: Gerbang Laut Hijaz",
+        "en": "Landfall at the Port of Jeddah: Maritime Gate of the Hijaz"
+      },
+      "date": {
+        "id": "Awal Mei 1831 M",
+        "en": "Early May 1831 AD"
+      },
+      "flash": {
+        "id": "Dermaga karang Jeddah dijejali lebih dari 40.000 jamaah haji; sistem karantina Kesultanan Utsmaniyah yang rapuh runtuh di bawah lonjakan kedatangan kapal.",
+        "en": "Jeddah's coral quays were overwhelmed by 40,000 arriving pilgrims; rudimentary Ottoman quarantine stations collapsed under the influx."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Dermaga Kayu Jeddah & Sumur Pesisir",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Pencemaran tangki penampungan air tawar pesisir oleh pendatang yang tiba dari perairan India"
+      },
+      "description": {
+        "id": "Pelabuhan Jeddah adalah gerbang maritim utama menuju kota suci Mekkah. Pada awal Mei 1831, puluhan kapal merapat secara serentak di laguna karang dangkal Jeddah. Para pejabat bea cukai dan kesehatan Utsmaniyah tidak memiliki fasilitas isolasi yang memadai untuk menangani puluhan ribu jamaah yang tiba dalam waktu singkat. Jamaah yang kelelahan dan dehidrasi segera memadati pasar-pasar kota dan meminum air dari tangki-tangki penampungan umum pesisir, menabur benih infeksi ke dalam jaringan logistik kafilah gurun.",
+        "en": "The port of Jeddah served as the primary maritime gateway to holy Mecca. In early May 1831, dozens of vessels dropped anchor simultaneously within Jeddah's shallow coral lagoons. Ottoman customs and health officers possessed neither the facilities nor the authority to isolate tens of thousands of pilgrims arriving within days. Exhausted, parched arrivals crowded into shore caravanserais, drinking greedily from communal public cisterns, seeding the deadly bacillus into desert caravan supply networks."
+      },
+      "image": "/assets/images/cholera/wave-2/mek/mek_ch_02.jpg"
+    },
+    {
+      "id": "mek-ch-03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Jalur Kafilah Wadi Fatima: Sumur-Sumur Haus Gurun",
+        "en": "The Wadi Fatima Trail: Thirsty Desert Wells"
+      },
+      "date": {
+        "id": "Mei 1831 M",
+        "en": "May 1831 AD"
+      },
+      "flash": {
+        "id": "Iring-iringan ribuan unta melintasi lembah gersang Wadi Fatima; sumur-sumur oasis yang langka diperebutkan ribuan jamaah, menjadi titik penularan beruntun.",
+        "en": "Caravans of thousands of camels marched across arid Wadi Fatima; scarce oasis wells, fought over by parched travelers, became serial infection nodes."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Mata Air Oasis & Sumur Gali Terbuka",
+        "incubation": "6 – 24 Jam",
+        "transmission": "Penggunaan berulang ember kulit dan tali sumur yang terkontaminasi tinja penderita di sepanjang rute kafilah"
+      },
+      "description": {
+        "id": "Perjalanan sepanjang 75 kilometer dari Jeddah menuju Mekkah melintasi dataran gurun gersang dan celah pegunungan berbatu Wadi Fatima di bawah suhu melebihi 40 derajat Celsius. Ribuan jamaah yang berjalan kaki atau menunggang unta sangat bergantung pada segelintir sumur batu tradisional di sepanjang jalur. Ketika rombongan jamaah yang telah terinfeksi buang air di sekitar mulut sumur atau menggunakan ember kulit yang kotor, seluruh cadangan air sumur gurun tersebut tercemar. Para musafir berikutnya yang menimba air menenggak dosis mematikan Vibrio cholerae.",
+        "en": "The 45-mile trek from Jeddah to Mecca traversed barren desert expanses and rocky defiles through Wadi Fatima under scorching temperatures exceeding 40°C. Thousands of pilgrims trekking on foot or mounted on camels depended entirely on a handful of stone-lined wells along the trail. When infected travelers relieved themselves near well mouths or lowered contaminated leather skins, entire desert aquifer pockets were seeded. Subsequent travelers drinking from these wells ingested fatal concentrations of Vibrio cholerae."
+      },
+      "image": "/assets/images/cholera/wave-2/mek/mek_ch_03.jpg"
+    },
+    {
+      "id": "mek-ch-04",
+      "chapterNumber": 4,
+      "type": "milestone",
+      "title": {
+        "id": "Pertemuan Akbar di Masjidil Haram",
+        "en": "The Great Congregation at the Sacred Sanctuary"
+      },
+      "date": {
+        "id": "Pertengahan Mei 1831 M",
+        "en": "Mid-May 1831 AD"
+      },
+      "flash": {
+        "id": "Lebih dari 150.000 jamaah memadati pelataran Ka'bah untuk tawaf dan sa'i; kelelahan fisik ekstrem dan wudhu massal mempercepat penularan tanpa disadari.",
+        "en": "Over 150,000 pilgrims crowded the Kaaba courtyard for tawaf and sa'i; profound physical exhaustion and communal ablutions accelerated silent transmission."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kerumunan Massal Pelataran Masjidil Haram",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pencemaran kolam-kolam wudhu umum dan tempat istirahat padat di sekitar kompleks suci"
+      },
+      "description": {
+        "id": "Ketika jamaah tiba di Mekkah pada pertengahan Mei 1831, pelataran Ka'bah dan jalan-jalan sempit di sekitarnya dipenuhi oleh lautan manusia dari Afrika Utara, Anatolia, Persia, India, dan Nusantara. Di bawah panas terik siang hari, para jamaah melaksanakan thawaf dan sa'i dengan tenaga terakhir mereka. Tempat-tempat wudhu umum dan wadah air minum gerabah (zir) digunakan bersama oleh puluhan ribu orang. Di dalam kerumunan padat yang bernapas dalam doa, bakteri kolera diam-diam berkembang biak di saluran pencernaan ribuan jamaah yang belum menunjukkan gejala.",
+        "en": "As pilgrims poured into Mecca in mid-May 1831, the Kaaba courtyard and surrounding alleys were choked with worshippers from North Africa, Anatolia, Persia, India, and the Malay Archipelago. Under fierce noon heat, worshippers performed circumambulations and sa'i with the last reserves of physical stamina. Communal ablution basins and earthen drinking jars (zirs) were shared by tens of thousands. Amidst this dense press of humanity, the cholera bacterium silently multiplied within the intestines of thousands of asymptomatic hosts."
+      },
+      "image": "/assets/images/cholera/wave-2/mek/mek_ch_04.jpg"
+    },
+    {
+      "id": "mek-ch-05",
+      "chapterNumber": 5,
+      "type": "milestone",
+      "title": {
+        "id": "Lembah Mina: Lautan Tenda di Lembah Abu",
+        "en": "The Valley of Mina: Sea of Tents in the Valley of Ashes"
+      },
+      "date": {
+        "id": "19 – 21 Mei 1831 M (8 – 10 Dzulhijjah 1246 H)",
+        "en": "May 19 – 21, 1831 AD"
+      },
+      "flash": {
+        "id": "Lembah sempit berbatu Mina dijejali puluhan ribu tenda kain; sanitasi nol dan penyembelihan ribuan hewan kurban memicu ledakan kolera paling mematikan dalam sejarah haji.",
+        "en": "The narrow rocky gorge of Mina was packed with tens of thousands of cloth tents; zero sanitation and massive animal sacrifices triggered the deadliest cholera eruption in Hajj history."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Perkemahan Padat Mina & Darah Kurban",
+        "incubation": "Beberapa Jam – 12 Jam",
+        "transmission": "Kontaminasi ekstrem air dan tanah oleh limbah tinja diare bercampur darah penyembelihan di lembah tertutup"
+      },
+      "description": {
+        "id": "Pada hari Tarwiyah dan Idul Adha, seluruh jamaah berpindah ke lembah sempit Mina. Di celah bukit berbatu yang panas dan tidak memiliki sistem drainase ini, puluhan ribu tenda kain didirikan berhimpitan. Ketiadaan kakus yang memadai memaksa para jamaah buang air di lereng-lereng bukit terbuka. Pada tanggal 19 Mei 1831, wabah kolera meletus bagai letusan gunung berapi. Di tengah panas terik dan bau darah dari ribuan domba kurban, ribuan jamaah mendadak kolaps dengan muntah hebat dan diare putih beras. Jeritan minta tolong dalam puluhan bahasa memenuhi lembah Mina.",
+        "en": "On the days of Tarwiyah and Eid al-Adha, the entire pilgrim body moved into the narrow defile of Mina. In this rocky gorge devoid of drainage, tens of thousands of linen tents stood wall to wall. The absence of latrines forced pilgrims to relieve themselves on the exposed stony hillsides. On May 19, 1831, cholera exploded like a volcanic eruption. Amidst suffocating heat and the stench of blood from thousands of sacrificial sheep, thousands of pilgrims abruptly collapsed in violent purging and vomiting. Cries for mercy in dozens of languages resonated through the valley."
+      },
+      "image": "/assets/images/cholera/wave-2/mek/mek_ch_05.jpg"
+    },
+    {
+      "id": "mek-ch-06",
+      "chapterNumber": 6,
+      "type": "milestone",
+      "title": {
+        "id": "Padang Arafah: Hari Wukuf di Bawah Terik Maut",
+        "en": "Plains of Arafat: The Day of Standing Under Deadly Heat"
+      },
+      "date": {
+        "id": "20 Mei 1831 M (9 Dzulhijjah 1246 H)",
+        "en": "May 20, 1831 AD"
+      },
+      "flash": {
+        "id": "Di Padang Arafah di kaki Jabal Rahmah, ribuan jamaah roboh saat wukuf; dehidrasi kolera merenggut nyawa manusia dalam waktu kurang dari enam jam di tengah doa khusyuk.",
+        "en": "On the plains of Arafat at the foot of Mount Mercy, thousands collapsed during prayers; fulminant cholera dehydration claimed lives in under six hours amidst fervent devotion."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Paparan Panas Gurun Ekstrem & Kehilangan Elektrolit",
+        "incubation": "Sangat Singkat (< 6 Jam)",
+        "transmission": "Konsumsi air kantung kulit (qirbah) yang tercemar di tengah terik matahari 45°C"
+      },
+      "description": {
+        "id": "Puncak ibadah haji adalah Hari Arafah, di mana seluruh jamaah berkumpul di padang pasir terbuka dari tengah hari hingga terbenamnya matahari untuk berdoa memohon ampunan. Pada hari itu di tahun 1831, panas ekstrem mencapai 45 derajat Celsius. Kombinasi sengatan panas (heatstroke) dan dehidrasi masif akibat kolera menciptakan pembantaian yang memilukan. Ribuan orang yang sedang berdiri menengadahkan tangan tiba-tiba jatuh tersungkur dengan bibir membiru dan mata tenggelam. Ketika senja tiba, padang Arafah dipenuhi oleh ribuan jenazah yang belum sempat dimakamkan.",
+        "en": "The zenith of the Hajj is the Day of Arafat, where all pilgrims assemble upon the open desert plain from noon until sundown to beseech divine forgiveness. On that day in 1831, ambient temperatures touched 45°C. The fatal confluence of heatstroke and rapid cholera dehydration precipitated an unfathomable massacre. Thousands standing with outstretched hands abruptly collapsed with cyanotic blue lips and hollowed eyes. As twilight descended, the arid plain of Arafat was strewn with thousands of dead who could not be buried."
+      },
+      "image": "/assets/images/cholera/wave-2/mek/mek_ch_06.jpg"
+    },
+    {
+      "id": "mek-ch-07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Sumur Zamzam dan Mata Air Ayn Zubaydah",
+        "en": "The Well of Zamzam and Aqueduct of Ayn Zubaydah"
+      },
+      "date": {
+        "id": "Mei – Juni 1831 M",
+        "en": "May – June 1831 AD"
+      },
+      "flash": {
+        "id": "Para jamaah berebut meminum dan membawa pulang air suci Zamzam; saluran batu kuno Ayn Zubaydah tercemar di titik-titik rembesan tanah lembah.",
+        "en": "Pilgrims rushed to drink and bottle sacred Zamzam water; the ancient stone aqueduct of Ayn Zubaydah became contaminated at subterranean seepage points."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Saluran Akueduk Kuno & Timba Air Bersama",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Kontaminasi wadah air timba dan rembesan air limbah ke saluran akueduk batu terbuka"
+      },
+      "description": {
+        "id": "Mata air Zamzam di dalam Masjidil Haram dan akueduk bersejarah Ayn Zubaydah adalah dua sumber air utama kota Mekkah. Pada puncak kepanikan wabah, ribuan jamaah yang sekarat meyakini bahwa meminum air Zamzam dalam jumlah besar adalah obat penyembuh dari segala penyakit. Ribuan timba kayu dan tembaga diturunkan bergantian ke dalam sumur oleh tangan-tangan yang terpapar kotoran. Selain itu, saluran batu Ayn Zubaydah yang melintasi dataran rendah mengalami retakan dan tercemar oleh air banjir lumpur yang membawa kotoran manusia, menyebarkan patogen ke seluruh kran umum kota.",
+        "en": "The sacred Well of Zamzam within the Grand Mosque and the historic Ayn Zubaydah aqueduct were the twin lifelines of Mecca. In the height of epidemic terror, thousands of sick pilgrims believed consuming vast quantities of Zamzam was a cure for all affliction. Hundreds of wooden buckets and copper dippers were lowered repeatedly into the well mouth by hands coated in biological filth. Concurrently, the stone conduits of Ayn Zubaydah sustained fissures through which sewage-laden mud seeped, poisoning the public fountains across the holy city."
+      },
+      "image": "/assets/images/cholera/wave-2/mek/mek_ch_07.jpg"
+    },
+    {
+      "id": "mek-ch-08",
+      "chapterNumber": 8,
+      "type": "milestone",
+      "title": {
+        "id": "Gurun Kematian Hijaz: Barisan Jenazah Tanpa Kafan",
+        "en": "The Hijaz Desert of Death: Shroudless Caravan Paths"
+      },
+      "date": {
+        "id": "Juni 1831 M",
+        "en": "June 1831 AD"
+      },
+      "flash": {
+        "id": "Lebih dari 20.000 jamaah haji tewas di Hijaz dalam tempo tiga pekan; jalur gurun dipenuhi bangkai unta dan jasad musafir yang hanya ditutupi pasir kering.",
+        "en": "Over 20,000 pilgrims died in the Hijaz in three weeks; desert tracks were lined with dead camels and bodies lightly covered with arid sands."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kadaver Korban Dekomposisi di Bawah Terik Gurun",
+        "incubation": "N/A",
+        "transmission": "Pencemaran lingkungan ekstrem; lalat gurun dan debu mengeringkan cairan diare"
+      },
+      "description": {
+        "id": "Skala kematian di Mekkah dan sekitarnya melumpuhkan seluruh tatanan sosial. Para pemuka agama dan penggali kubur ikut menjadi korban, sehingga jenazah tidak lagi dapat dimandikan atau dikafani secara layak. Parit-parit makam massal digali di pemakaman Ma'la, namun parit-parit itu segera penuh. Di sepanjang jalur kepulangan menuju Jeddah dan Madinah, ratusan jamaah yang jatuh dari punggung unta ditinggalkan oleh rombongan kafilah yang panik. Angin gurun yang panas meniupkan pasir kering ke atas jasad-jasad membiru yang berjejer di tepi jalan karavan.",
+        "en": "The scale of mortality across Mecca collapsed all social infrastructure. Clerics and gravediggers succumbed in droves, making traditional ablutions and white shrouding impossible. Giant mass trenches at the historic Jannat al-Mu'alla cemetery filled rapidly. Along the retreat tracks to Jeddah and Medina, hundreds who fell from their camel saddles were abandoned by panicked companions racing to escape the contagion. Scouring desert winds blew stinging sand over the blue, contorted corpses lining the caravan routes."
+      },
+      "image": "/assets/images/cholera/wave-2/mek/mek_ch_08.jpg"
+    },
+    {
+      "id": "mek-ch-09",
+      "chapterNumber": 9,
+      "type": "standard",
+      "title": {
+        "id": "Dispersi Kafilah Syam: Rute Dar al-Hajj ke Damaskus",
+        "en": "The Syrian Caravan Dispersal: Dar al-Hajj to Damascus"
+      },
+      "date": {
+        "id": "Juni – Juli 1831 M",
+        "en": "June – July 1831 AD"
+      },
+      "flash": {
+        "id": "Kafilah Haji Damaskus (Dar al-Hajj) melarikan diri ke utara melintasi Madinah dan gurun Yordania, membawa patogen ke Yerusalem, Damaskus, dan Aleppo.",
+        "en": "The Damascus Pilgrimage Caravan (Dar al-Hajj) fled north through Medina and the Jordanian desert, seeding Jerusalem, Damascus, and Aleppo."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kafilah Raksasa Dar al-Hajj (30.000 Unta)",
+        "incubation": "1 – 4 Hari",
+        "transmission": "Pencemaran benteng persinggahan (qalat) dan tangki air di sepanjang jalur darat Syam"
+      },
+      "description": {
+        "id": "Kafilah Haji Suriah (Dar al-Hajj) adalah ekspedisi darat terbesar di Kekaisaran Utsmaniyah, beranggotakan puluhan ribu jamaah dan tentara pengawal Janissari yang dipimpin oleh Pasha Damaskus. Ketika kolera membantai rombongan di Mina, kafilah ini bubar dan bergegas melarikan diri ke arah utara. Di setiap benteng pemberhentian karavan di gurun Hijaz dan Yordania—seperti Al-Ula, Tabuk, dan Ma'an—mereka meninggalkan korban meninggal dan mencemari sumur-sumur benteng. Ketika kafilah tiba di Damaskus pada Juli 1831, kolera meletus di kota-kota Levant dan merambat ke Anatolia.",
+        "en": "The Syrian Hajj Caravan (Dar al-Hajj) was the grandest overland expedition in the Ottoman Empire, marshaling tens of thousands of pilgrims and Janissary escorts under the Pasha of Damascus. When cholera struck Mina, the convoy fractured into a frantic northern retreat. At every fortified desert waystation (qalat) across the Hijaz and Jordanian deserts—including Al-Ula, Tabuk, and Ma'an—they left corpses behind and contaminated deep well reservoirs. By the time stragglers reached Damascus in July 1831, cholera engulfed the Levant and reached southern Anatolia."
+      },
+      "image": "/assets/images/cholera/wave-2/mek/mek_ch_09.jpg"
+    },
+    {
+      "id": "mek-ch-10",
+      "chapterNumber": 10,
+      "type": "milestone",
+      "title": {
+        "id": "Kafilah Mesir & Jalur Laut Merah: Wabah Kairo",
+        "en": "The Egyptian Caravan & Red Sea Dhows: The Cairo Surge"
+      },
+      "date": {
+        "id": "Juli – Agustus 1831 M",
+        "en": "July – August 1831 AD"
+      },
+      "flash": {
+        "id": "Jamaah haji Mesir yang menyeberangi Teluk Suez dan rute darat Semenanjung Sinai membawa kolera langsung ke ibukota Kairo; 30.000 warga tewas di Delta Nil.",
+        "en": "Egyptian pilgrims crossing the Gulf of Suez and the Sinai overland trail brought cholera into Cairo; 30,000 citizens perished in the Nile Delta."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Perahu Laut Merah & Kafilah Sinai",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pencemaran pelabuhan Suez dan saluran irigasi Sungai Nil di sekitar Kairo"
+      },
+      "description": {
+        "id": "Kafilah Haji Mesir yang kembali melalui jalur Semenanjung Sinai dan kapal-kapal layar yang berlayar ke pelabuhan Suez membawa pulang bibit kolera ke Lembah Nil. Penguasa modern Mesir, Muhammad Ali Pasha, mencoba memberlakukan blokade sanitasi di Suez, namun ribuan jamaah berhasil menyelinap melalui rute padang pasir. Pada bulan Juli 1831, kolera meledak di Kairo. Di lorong-lorong kota tua dan pemukiman padat di tepi Sungai Nil, lebih dari 30.000 orang meninggal dalam tempo enam pekan, sebelum wabah menyapu Alexandria dan melompat ke pelabuhan-pelabuhan Mediterania.",
+        "en": "The returning Egyptian Hajj convoy crossing the Sinai Peninsula and dhows sailing into the port of Suez transported cholera into the Nile Valley. Egypt's modernizing ruler, Muhammad Ali Pasha, attempted to establish a sanitary cordon at Suez, but thousands of pilgrims slipped through unguarded desert tracks. In July 1831, cholera exploded across Cairo. In the narrow alleys of the medieval city and along Nile watercourses, over 30,000 citizens perished in six weeks before the epidemic engulfed Alexandria and leaped into the Mediterranean."
+      },
+      "image": "/assets/images/cholera/wave-2/mek/mek_ch_10.jpg"
+    },
+    {
+      "id": "mek-ch-11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Tragedi 1846: Pukulan Kedua di Musim Dingin",
+        "en": "The 1846 Catastrophe: Second Strike in the Winter Hajj"
+      },
+      "date": {
+        "id": "November 1846 M (Dzulhijjah 1262 H)",
+        "en": "November 1846 AD"
+      },
+      "flash": {
+        "id": "Lima belas tahun setelah tragedi 1831, kolera kembali menghantam musim haji November 1846; lebih dari 15.000 jamaah tewas di padang Arafah dan Mina.",
+        "en": "Fifteen years after the 1831 tragedy, cholera struck the November 1846 pilgrimage; over 15,000 pilgrims perished across Arafat and Mina."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kapal Layar Beruap Samudra Hindia",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Pengulangan kontaminasi air di lembah Mina dan sumur-sumur kota suci Mekkah"
+      },
+      "description": {
+        "id": "Meskipun sempat mereda selama beberapa tahun, gelombang kolera kedua kembali menunjukkan daya ledak biologisnya di Hijaz pada musim haji November 1846. Kali ini, kedatangan kapal-kapal uap komersial yang lebih cepat dari India memperpendek waktu tempuh, memungkinkan lebih banyak penderita dengan beban bakteri tinggi mendarat hidup-hidup di Jeddah. Siklus maut berulang: Mina dan Arafah kembali menjadi lautan penderitaan. Bencana kedua ini menyadarkan kekaisaran-kekaisaran dunia bahwa musim haji telah menjadi episentrum transmisi global yang tak terbendung tanpa reformasi sanitasi internasional.",
+        "en": "Although quiescent for several seasons, cholera demonstrated renewed biological fury in the Hijaz during the November 1846 Hajj. Faster commercial steamers from India had dramatically cut voyage times, allowing more infected passengers to arrive alive with high bacterial loads in Jeddah. The deadly cycle repeated: Mina and Arafat once again became theaters of agony. This second catastrophe convinced world empires that the annual pilgrimage had become an unstoppable global amplifier demanding international sanitary intervention."
+      },
+      "image": "/assets/images/cholera/wave-2/mek/mek_ch_11.jpg"
+    },
+    {
+      "id": "mek-ch-12",
+      "chapterNumber": 12,
+      "type": "side_story",
+      "title": {
+        "id": "Stasiun Karantina Pulau Kamaran & El Tor",
+        "en": "Quarantine Stations: Kamaran Island & El Tor"
+      },
+      "date": {
+        "id": "Akhir 1840-an M",
+        "en": "Late 1840s AD"
+      },
+      "flash": {
+        "id": "Kesultanan Utsmaniyah dan dewan kesehatan internasional mendirikan stasiun karantina pulau terisolasi di Kamaran (Yaman) dan El Tor (Sinai) untuk menahan kapal-kapal jamaah.",
+        "en": "The Ottoman Empire and international health councils established island quarantine lazarettos at Kamaran (Yemen) and El Tor (Sinai) to intercept pilgrim ships."
+      },
+      "virusProfile": {
+        "agent": "Protokol Karantina Maritim Laut Merah",
+        "vector": "Stasiun Barak Isolasi Pulau Terpencil",
+        "incubation": "10 – 15 Hari Masa Observasi",
+        "transmission": "Upaya memutus rantai penularan sebelum jamaah haji diizinkan memasuki perairan Jeddah atau Suez"
+      },
+      "description": {
+        "id": "Sebagai tanggapan atas desakan negara-negara Eropa, otoritas Utsmaniyah mendirikan pos karantina maritim di Pulau Kamaran di lepas pantai Yaman selatan untuk menyaring kapal-kapal yang datang dari Samudra Hindia. Kapal-kapal jamaah dipaksa berlabuh selama sepuluh hingga lima belas hari; pakaian mereka direndam air mendidih dan barel air minum mereka dibuang ke laut sebelum diisi ulang dengan air bersih yang diawasi. Di utara, stasiun karantina El Tor didirikan di pantai barat Sinai untuk memeriksa jamaah yang kembali menuju Mesir dan Mediterania.",
+        "en": "In response to urgent European pressure, Ottoman authorities established a maritime quarantine lazaretto on Kamaran Island off the coast of southern Yemen to intercept vessels arriving from the Indian Ocean. Pilgrim craft were detained for ten to fifteen days; clothing was boiled and contaminated bilge water dumped into the sea before tanks were refilled with supervised artesian water. In the north, the El Tor quarantine station was erected on the Sinai coast to inspect pilgrims returning toward Egypt and the Mediterranean."
+      },
+      "image": "/assets/images/cholera/wave-2/mek/mek_ch_12.jpg"
+    },
+    {
+      "id": "mek-ch-13",
+      "chapterNumber": 13,
+      "type": "standard",
+      "title": {
+        "id": "Reformasi Tanzimat: Dewan Kesehatan Konstantinopel",
+        "en": "Tanzimat Reforms: The Constantinople Superior Health Council"
+      },
+      "date": {
+        "id": "1840 – 1848 M",
+        "en": "1840 – 1848 AD"
+      },
+      "flash": {
+        "id": "Di bawah era reformasi Tanzimat, Sultan Abdulmejid I membentuk Dewan Tinggi Kesehatan di Konstantinopel yang beranggotakan dokter-dokter Utsmaniyah dan Eropa.",
+        "en": "Under the Tanzimat reforms, Sultan Abdulmejid I formed the Constantinople Superior Health Council, combining Ottoman and European medical delegates."
+      },
+      "virusProfile": {
+        "agent": "Modernisasi Sanitasi Birokrasi Utsmaniyah",
+        "vector": "Inspektorat Medis Pelabuhan & Surat Sehat (Patente de Santé)",
+        "incubation": "N/A",
+        "transmission": "Standardisasi sertifikasi kesehatan maritim di seluruh pelabuhan Utsmaniyah"
+      },
+      "description": {
+        "id": "Tragedi kolera di Mekkah mendorong modernisasi administrasi medis di Kekaisaran Utsmaniyah. Melalui dekrit reformasi Tanzimat, Sultan mendirikan Dewan Tinggi Kesehatan (Meclis-i Vâlâ-yı Sıhhiye) di Konstantinopel. Dewan ini menggabungkan pejabat kekaisaran dengan dokter perwakilan dari negara-negara Eropa. Mereka merancang peraturan karantina kekaisaran pertama, menempatkan dokter bersertifikat di Jeddah dan Mekkah, serta mewajibkan setiap kapal membawa surat keterangan kesehatan (patente de santé) untuk mencegah masuknya penyakit menular.",
+        "en": "The cholera tragedies in Mecca accelerated medical modernization across the Ottoman Empire. Through the Tanzimat reform edicts, the Sultan established the Superior Health Council (Meclis-i Vâlâ-yı Sıhhiye) in Constantinople, integrating imperial bureaucrats with physician delegates from European powers. The council drafted the first codified imperial quarantine regulations, stationed certified physicians in Jeddah and Mecca, and mandated health bills of health (patentes de santé) for all ships navigating imperial waters."
+      },
+      "image": "/assets/images/cholera/wave-2/mek/mek_ch_13.jpg"
+    },
+    {
+      "id": "mek-ch-14",
+      "chapterNumber": 14,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Episentrum Hijaz: Lahirnya Konferensi Sanitasi Paris 1851",
+        "en": "Legacy of the Hijaz Vector: Birth of the 1851 Paris Sanitary Conference"
+      },
+      "date": {
+        "id": "1851 M",
+        "en": "1851 AD"
+      },
+      "flash": {
+        "id": "Tragedi haji Mekkah 1831 dan 1846 menjadi dorongan utama diselenggarakannya Konferensi Sanitasi Internasional Pertama di Paris pada tahun 1851, cikal bakal berdirinya WHO.",
+        "en": "The Mecca pilgrimage tragedies of 1831 and 1846 were the primary impetus for the First International Sanitary Conference in Paris in 1851, forerunner of the WHO."
+      },
+      "virusProfile": {
+        "agent": "Diplomasi Kesehatan Global & Epidemiologi Internasional",
+        "vector": "Konvensi Sanitasi Multilateral",
+        "incubation": "N/A",
+        "transmission": "Penyatuan standar karantina maritim dan pengawasan epidemiologis global"
+      },
+      "description": {
+        "id": "Gelombang kolera kedua di Semenanjung Arab membuktikan bahwa mikroorganisme patogen tidak mengenal kedaulatan politik maupun batas agama. Kerentanan koridor haji dan ancaman penyebaran balik ke Eropa melalui Mesir memaksa kekuatan-kekuatan dunia untuk pertama kalinya duduk bersama merumuskan kerja sama kesehatan global. Pada tahun 1851, dua belas negara berkumpul di Paris untuk menggelar Konferensi Sanitasi Internasional Pertama. Peristiwa ini menandai lahirnya diplomasi kesehatan masyarakat modern dan meletakkan fondasi bagi berdirinya Organisasi Kesehatan Dunia (WHO) satu abad kemudian.",
+        "en": "The second cholera pandemic across the Arabian Peninsula proved that pathogenic microorganisms respect neither political sovereignty nor religious boundaries. The vulnerability of the Hajj corridors and the constant threat of reinfection into Europe through Egypt forced world powers to convene for the first time in history on global health cooperation. In 1851, twelve nations gathered in Paris for the First International Sanitary Conference. This watershed event inaugurated modern multilateral public health diplomacy and laid the philosophical cornerstone for the World Health Organization a century later."
+      },
+      "image": "/assets/images/cholera/wave-2/mek/mek_ch_14.jpg"
+    }
+  ]
+}
