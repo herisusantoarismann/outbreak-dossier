@@ -16,7 +16,7 @@
             "en": "12,000+ Dead (Oct 1918)"
         },
         "context": {
-            "id": "Pawai Liberty Loan memicu lonjakan infeksi katastropik; peti mati habis dan galian parit darurat menggunakan uap.",
+            "id": "Pawai Liberty Loan memicu lonjakan infeksi katastropik; peti mati habis dan galian parit darurat menggunakan sekop uap.",
             "en": "Liberty Loan parade ignited a catastrophic surge; coffins exhausted and steam shovels dug mass trenches."
         },
         "coordinates": { "lat": 39.9526, "lng": -75.1652 }
@@ -44,6 +44,28 @@
         "coordinates": { "lat": 39.0119, "lng": -98.4842 }
     },
     {
+        "id": "sf-camp-devens-cyanosis",
+        "iso2": "US",
+        "metricType": "mortality",
+        "label": {
+            "id": "Heliotrope Cyanosis Camp Devens",
+            "en": "Camp Devens Heliotrope Cyanosis"
+        },
+        "countryName": {
+            "id": "Amerika Serikat (Massachusetts)",
+            "en": "United States (Massachusetts)"
+        },
+        "value": {
+            "id": "100+ Kematian / Hari",
+            "en": "100+ Deaths / Day"
+        },
+        "context": {
+            "id": "September 1918: Dokter militer mencatat prajurit muda berotot membiru pekat akibat asfiksia edema paru berdarah dalam beberapa jam.",
+            "en": "September 1918: Army physicians documented muscular young soldiers turning blue from hemorrhagic pulmonary edema within hours."
+        },
+        "coordinates": { "lat": 42.5542, "lng": -71.6186 }
+    },
+    {
         "id": "sf-etaples-staging",
         "iso2": "FR",
         "metricType": "density",
@@ -60,10 +82,32 @@
             "en": "100,000 Soldiers / Day"
         },
         "context": {
-            "id": "Kombinasi gas beracun parit dan overcrowding barak mempercepat mutasi virus flu mematikan.",
+            "id": "Kombinasi gas beracun parit, peternakan babi, dan overcrowding barak mempercepat mutasi virus flu mematikan.",
             "en": "Overcrowded tents, pig farms, and mustard gas exposure accelerated respiratory vulnerability."
         },
         "coordinates": { "lat": 50.5186, "lng": 1.6397 }
+    },
+    {
+        "id": "sf-brest-troopship",
+        "iso2": "FR",
+        "metricType": "speed",
+        "label": {
+            "id": "Kapal Angkut Pasukan Brest",
+            "en": "Brest Troopship Floating Morgues"
+        },
+        "countryName": {
+            "id": "Prancis (Brest)",
+            "en": "France (Brest)"
+        },
+        "value": {
+            "id": "70+ Jenazah Dilarung / Pelayaran",
+            "en": "70+ Burials at Sea / Voyage"
+        },
+        "context": {
+            "id": "Kapal pengangkut USS Leviathan tiba di pelabuhan Brest dengan ratusan prajurit terinfeksi parah di tengah gelombang kedua.",
+            "en": "Troopship USS Leviathan arrived at Brest with hundreds dying of fulminant pneumonia mid-Atlantic."
+        },
+        "coordinates": { "lat": 48.3904, "lng": -4.4861 }
     },
     {
         "id": "sf-madrid-press-censorship",
@@ -88,6 +132,72 @@
         "coordinates": { "lat": 40.4168, "lng": -3.7038 }
     },
     {
+        "id": "sf-grand-fleet-paralysis",
+        "iso2": "GB",
+        "metricType": "containment",
+        "label": {
+            "id": "Kelumpuhan Armada Laut Scapa Flow",
+            "en": "Scapa Flow Grand Fleet Paralysis"
+        },
+        "countryName": {
+            "id": "Britania Raya (Scapa Flow)",
+            "en": "United Kingdom (Scapa Flow)"
+        },
+        "value": {
+            "id": "10.313 Pelaut Terkapar",
+            "en": "10,313 Sailors Incapacitated"
+        },
+        "context": {
+            "id": "Mei 1918: Gelombang pertama melumpuhkan kapal-kapal tempur utama Angkatan Laut Kerajaan Britania di pangkalan utara.",
+            "en": "May 1918: First wave swept through dreadnoughts and destroyers, temporarily immobilizing the Royal Navy."
+        },
+        "coordinates": { "lat": 58.8956, "lng": -3.0506 }
+    },
+    {
+        "id": "sf-bombay-catastrophe",
+        "iso2": "IN",
+        "metricType": "mortality",
+        "label": {
+            "id": "Katastrofe Demografi India (Bombay)",
+            "en": "India Demographic Catastrophe (Bombay)"
+        },
+        "countryName": {
+            "id": "Kemaharajaan Britania (India)",
+            "en": "British Raj (India)"
+        },
+        "value": {
+            "id": "17.500.000+ Tewas (~5% Populasi)",
+            "en": "17.5M+ Fatalities (~5% Population)"
+        },
+        "context": {
+            "id": "Masuk via kapal militer di Pelabuhan Bombay pada Mei 1918, menembus jaringan rel kereta api pedalaman dan menyumbat sungai suci dengan jenazah.",
+            "en": "Entering via Bombay harbor troop transports in May 1918, railways rapidly spread the virus, clogging rivers with uncremated dead."
+        },
+        "coordinates": { "lat": 18.922, "lng": 72.8347 }
+    },
+    {
+        "id": "sf-java-mortality",
+        "iso2": "ID",
+        "metricType": "mortality",
+        "label": {
+            "id": "Gugurnya Jutaan Jiwa di Tanah Jawa",
+            "en": "Java Island Pandemic Incursion"
+        },
+        "countryName": {
+            "id": "Hindia Belanda (Jawa & Madura)",
+            "en": "Dutch East Indies (Java & Madura)"
+        },
+        "value": {
+            "id": "1.500.000 – 3.000.000 Tewas",
+            "en": "1.5M – 3.0M Fatalities"
+        },
+        "context": {
+            "id": "November 1918: Kapal uap SS Singkep membawa gelombang kedua mematikan ke Surabaya dan Batavia, melumpuhkan pedesaan Jawa.",
+            "en": "November 1918: Steamer SS Singkep carried the lethal second wave into Surabaya and Batavia, ravaging agrarian villages."
+        },
+        "coordinates": { "lat": -7.2575, "lng": 112.7521 }
+    },
+    {
         "id": "sf-western-samoa-mortality",
         "iso2": "WS",
         "metricType": "mortality",
@@ -108,5 +218,49 @@
             "en": "Arrival of SS Talune without quarantine in Nov 1918 wiped out over a fifth of the island's entire population."
         },
         "coordinates": { "lat": -13.759, "lng": -172.1046 }
+    },
+    {
+        "id": "sf-brevig-mission-permafrost",
+        "iso2": "US",
+        "metricType": "speed",
+        "label": {
+            "id": "Permafrost Arktik Brevig Mission",
+            "en": "Brevig Mission Arctic Permafrost"
+        },
+        "countryName": {
+            "id": "Amerika Serikat (Alaska)",
+            "en": "United States (Alaska)"
+        },
+        "value": {
+            "id": "72 dari 80 Warga Tewas dlm 5 Hari",
+            "en": "72 of 80 Died in 5 Days"
+        },
+        "context": {
+            "id": "Sebuah desa suku Inuit punah dalam sepekan; lapisan es permafrost mengawetkan jaringan paru korban hingga RNA H1N1 berhasil diurutkan pada 1997.",
+            "en": "An isolated Inuit village was nearly eradicated; permafrost preserved lung tissue allowing the 1918 H1N1 RNA sequencing in 1997."
+        },
+        "coordinates": { "lat": 65.3344, "lng": -166.4889 }
+    },
+    {
+        "id": "sf-rio-de-janeiro-surge",
+        "iso2": "BR",
+        "metricType": "density",
+        "label": {
+            "id": "Krisis Jenazah Rio de Janeiro",
+            "en": "Rio de Janeiro Coffin Crisis"
+        },
+        "countryName": {
+            "id": "Brasil (Rio de Janeiro)",
+            "en": "Brazil (Rio de Janeiro)"
+        },
+        "value": {
+            "id": "30.000+ Tewas dlm Sebulan",
+            "en": "30,000+ Dead in One Month"
+        },
+        "context": {
+            "id": "Kapal uap SS Demerara membawa virus dari Dakar pada September 1918, melumpuhkan ibu kota dan memicu reformasi sanitasi Carlos Chagas.",
+            "en": "Steamship Demerara imported the virus from Dakar in Sept 1918, paralyzing Rio and inspiring Carlos Chagas' public health mobilization."
+        },
+        "coordinates": { "lat": -22.9068, "lng": -43.1729 }
     }
 ]

@@ -7,9 +7,14 @@
         "fatalities": 675000,
         "recoveryRate": "97.6%",
         "peakWave": {
-            "id": "Oktober - November 1918",
-            "en": "October - November 1918"
-        }
+            "id": "Oktober – November 1918",
+            "en": "October – November 1918"
+        },
+        "notes": {
+            "id": "Gelombang kedua memicu kolaps layanan pemakaman di kota-kota pesisir timur; penurunan angka harapan hidup nasional hingga 12 tahun.",
+            "en": "The second wave collapsed mortuary services in eastern cities; national life expectancy plummeted by 12 years."
+        },
+        "coordinates": [39.0119, -98.4842]
     },
     "FR": {
         "iso2": "FR",
@@ -18,7 +23,15 @@
         "confirmedCases": 12000000,
         "fatalities": 400000,
         "recoveryRate": "96.7%",
-        "peakWave": { "id": "Musim Gugur 1918", "en": "Autumn 1918" }
+        "peakWave": {
+            "id": "Musim Gugur 1918",
+            "en": "Autumn 1918"
+        },
+        "notes": {
+            "id": "Vektor transmisi masif di barak Étaples, pelabuhan Brest, dan parit-parit Front Barat Perang Dunia I.",
+            "en": "Massive transmission vector across Étaples barracks, Brest ports, and Western Front trench warfare."
+        },
+        "coordinates": [46.2276, 2.2137]
     },
     "GB": {
         "iso2": "GB",
@@ -27,7 +40,15 @@
         "confirmedCases": 9500000,
         "fatalities": 228000,
         "recoveryRate": "97.6%",
-        "peakWave": { "id": "November 1918", "en": "November 1918" }
+        "peakWave": {
+            "id": "Oktober – November 1918",
+            "en": "October – November 1918"
+        },
+        "notes": {
+            "id": "Melumpuhkan pabrik amunisi dan kapal-kapal Grand Fleet di pangkalan laut Scapa Flow.",
+            "en": "Paralyzed munitions factories and Royal Navy battleships across the Scapa Flow anchorage."
+        },
+        "coordinates": [55.3781, -3.436]
     },
     "ES": {
         "iso2": "ES",
@@ -37,9 +58,14 @@
         "fatalities": 260000,
         "recoveryRate": "96.8%",
         "peakWave": {
-            "id": "September - Oktober 1918",
-            "en": "September - October 1918"
-        }
+            "id": "September – Oktober 1918",
+            "en": "September – October 1918"
+        },
+        "notes": {
+            "id": "Karena netral dalam perang, pers Spanyol bebas memberitakan wabah tanpa sensor masa perang, mempopulerkan nama 'Flu Spanyol'.",
+            "en": "As a neutral state, Spanish press reported the epidemic without wartime censorship, coining the pandemic moniker."
+        },
+        "coordinates": [40.4168, -3.7038]
     },
     "DE": {
         "iso2": "DE",
@@ -48,7 +74,15 @@
         "confirmedCases": 11000000,
         "fatalities": 287000,
         "recoveryRate": "97.4%",
-        "peakWave": { "id": "Musim Gugur 1918", "en": "Autumn 1918" }
+        "peakWave": {
+            "id": "Juni – Juli & Oktober 1918",
+            "en": "June – July & October 1918"
+        },
+        "notes": {
+            "id": "Dikenal sebagai 'Blitzkatarrh'; infeksi massal di barisan tentara melemahkan Serangan Musim Semi Jenderal Ludendorff.",
+            "en": "Known as 'Blitzkatarrh'; severe outbreaks among frontline troops blunted General Ludendorff's 1918 Spring Offensive."
+        },
+        "coordinates": [51.1657, 10.4515]
     },
     "IN": {
         "iso2": "IN",
@@ -57,13 +91,18 @@
             "en": "British Raj (India)"
         },
         "continent": "Asia",
-        "confirmedCases": 120000000,
-        "fatalities": 17000000,
-        "recoveryRate": "85.8%",
+        "confirmedCases": 125000000,
+        "fatalities": 17500000,
+        "recoveryRate": "86.0%",
         "peakWave": {
-            "id": "Agustus - November 1918",
-            "en": "August - November 1918"
-        }
+            "id": "September – November 1918",
+            "en": "September – November 1918"
+        },
+        "notes": {
+            "id": "Kehilangan korban jiwa tertinggi di dunia; kekeringan dan kemiskinan kolonial memperparah kematian hingga sungai suci tersumbat jenazah.",
+            "en": "Highest national fatality toll globally; drought and colonial malnutrition compounded losses, choking holy rivers with bodies."
+        },
+        "coordinates": [20.5937, 78.9629]
     },
     "ID": {
         "iso2": "ID",
@@ -72,12 +111,159 @@
             "en": "Dutch East Indies (Indonesia)"
         },
         "continent": "Asia",
-        "confirmedCases": 15000000,
-        "fatalities": 1500000,
-        "recoveryRate": "90.0%",
+        "confirmedCases": 16000000,
+        "fatalities": 2000000,
+        "recoveryRate": "87.5%",
         "peakWave": {
-            "id": "November 1918 - Januari 1919",
-            "en": "November 1918 - January 1919"
-        }
+            "id": "November 1918 – Januari 1919",
+            "en": "November 1918 – January 1919"
+        },
+        "notes": {
+            "id": "Dikenal rakyat sebagai 'Pagebluk'; masuk lewat pelabuhan Surabaya dan Tanjung Priok, melenyapkan desa-desa tani di pedalaman Jawa dan Madura.",
+            "en": "Known locally as 'Pagebluk'; entered via Surabaya and Batavia harbors, decimating rural farming villages across Java and Madura."
+        },
+        "coordinates": [-2.5489, 118.0149]
+    },
+    "IT": {
+        "iso2": "IT",
+        "name": { "id": "Kerajaan Italia", "en": "Kingdom of Italy" },
+        "continent": "Europe",
+        "confirmedCases": 7000000,
+        "fatalities": 390000,
+        "recoveryRate": "94.4%",
+        "peakWave": {
+            "id": "Oktober – November 1918",
+            "en": "October – November 1918"
+        },
+        "notes": {
+            "id": "Membentang dari garis pertahanan Piave hingga desa-desa Mezzogiorno di selatan Italia.",
+            "en": "Struck the Piave defensive front lines and impoverished agrarian communes of the Mezzogiorno."
+        },
+        "coordinates": [41.8719, 12.5674]
+    },
+    "RU": {
+        "iso2": "RU",
+        "name": {
+            "id": "Rusia (Perang Saudara & Uni Soviet)",
+            "en": "Russia (Civil War & Soviet Russia)"
+        },
+        "continent": "Europe",
+        "confirmedCases": 10500000,
+        "fatalities": 450000,
+        "recoveryRate": "95.7%",
+        "peakWave": {
+            "id": "Musim Dingin 1918 – 1919",
+            "en": "Winter 1918 – 1919"
+        },
+        "notes": {
+            "id": "Penyebaran flu berpadu dengan tifus bercak di tengah amukan Perang Saudara Rusia dan kekacauan jalur kereta api.",
+            "en": "Influenza converged lethally with epidemic typhus amidst Russian Civil War turmoil and disrupted railways."
+        },
+        "coordinates": [61.524, 105.3188]
+    },
+    "BR": {
+        "iso2": "BR",
+        "name": { "id": "Brasil", "en": "Brazil" },
+        "continent": "South America",
+        "confirmedCases": 5000000,
+        "fatalities": 180000,
+        "recoveryRate": "96.4%",
+        "peakWave": {
+            "id": "Oktober – November 1918",
+            "en": "October – November 1918"
+        },
+        "notes": {
+            "id": "Kapal uap SS Demerara membawa gelombang ganas ke Rio de Janeiro dan São Paulo, bahkan merenggut nyawa Presiden terpilih Rodrigues Alves.",
+            "en": "The steamship Demerara sparked catastrophic urban surges in Rio and São Paulo, claiming the life of President-elect Rodrigues Alves."
+        },
+        "coordinates": [-14.235, -51.9253]
+    },
+    "JP": {
+        "iso2": "JP",
+        "name": { "id": "Kekaisaran Jepang", "en": "Empire of Japan" },
+        "continent": "Asia",
+        "confirmedCases": 23000000,
+        "fatalities": 390000,
+        "recoveryRate": "98.3%",
+        "peakWave": {
+            "id": "November 1918 & Januari 1920",
+            "en": "November 1918 & January 1920"
+        },
+        "notes": {
+            "id": "Dikenal sebagai 'Ryukan' (Flu Spanyol); penerapan pemakaian masker universal paling disiplin di dunia dipromosikan oleh polisi sanitasi.",
+            "en": "Known as 'Ryukan'; early widespread masking campaigns were rigorously enforced by national police hygiene authorities."
+        },
+        "coordinates": [36.2048, 138.2529]
+    },
+    "ZA": {
+        "iso2": "ZA",
+        "name": { "id": "Uni Afrika Selatan", "en": "Union of South Africa" },
+        "continent": "Africa",
+        "confirmedCases": 2600000,
+        "fatalities": 300000,
+        "recoveryRate": "88.5%",
+        "peakWave": {
+            "id": "Oktober 1918",
+            "en": "October 1918"
+        },
+        "notes": {
+            "id": "Dikenal sebagai 'Black October'; pekerja tambang emas Witwatersrand dan komunitas pedesaan pribumi mengalami mortalitas sangat tinggi.",
+            "en": "Known as 'Black October'; devastated Witwatersrand gold miners and segregated native communities."
+        },
+        "coordinates": [-30.5595, 22.9375]
+    },
+    "WS": {
+        "iso2": "WS",
+        "name": { "id": "Samoa Barat", "en": "Western Samoa" },
+        "continent": "Oceania",
+        "confirmedCases": 38000,
+        "fatalities": 8500,
+        "recoveryRate": "77.6%",
+        "peakWave": {
+            "id": "November – Desember 1918",
+            "en": "November – December 1918"
+        },
+        "notes": {
+            "id": "Kapal SS Talune tiba tanpa pemeriksaan karantina ketat, melenyapkan lebih dari 20% populasi dalam tragedi kemanusiaan Pasifik paling mengerikan.",
+            "en": "SS Talune docked without quarantine, eradicating over a fifth of the island's population in the Pacific's deadliest tragedy."
+        },
+        "coordinates": [-13.759, -172.1046]
+    },
+    "NZ": {
+        "iso2": "NZ",
+        "name": { "id": "Selandia Baru", "en": "New Zealand" },
+        "continent": "Oceania",
+        "confirmedCases": 850000,
+        "fatalities": 9000,
+        "recoveryRate": "98.9%",
+        "peakWave": {
+            "id": "November 1918",
+            "en": "November 1918"
+        },
+        "notes": {
+            "id": "Tiba lewat kapal RMS Niagara; kematian populasi suku Māori tercatat tujuh kali lebih tinggi dibanding populasi Pākehā (Eropa).",
+            "en": "Arrived on the RMS Niagara; Māori indigenous mortality was seven times higher than that of European Pākehā."
+        },
+        "coordinates": [-40.9006, 174.886]
+    },
+    "CN": {
+        "iso2": "CN",
+        "name": {
+            "id": "Tiongkok (Era Panglima Perang)",
+            "en": "China (Warlord Era)"
+        },
+        "continent": "Asia",
+        "confirmedCases": 32000000,
+        "fatalities": 1200000,
+        "recoveryRate": "96.2%",
+        "peakWave": {
+            "id": "Musim Gugur 1918",
+            "en": "Autumn 1918"
+        },
+        "notes": {
+            "id": "Penyebaran melalui koridor kereta api dan pelabuhan traktat, dengan dampak bervariasi di tengah fragmentasi politik faksi militer.",
+            "en": "Spread along treaty ports and railway lines amidst the political fragmentation of the Warlord Era."
+        },
+        "coordinates": [35.8617, 104.1954]
     }
 }
