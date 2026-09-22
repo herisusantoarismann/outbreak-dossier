@@ -1,0 +1,492 @@
+{
+    "sectorId": "FR",
+    "sectorName": {
+        "id": "Sektor FR (Prancis: Kamp Transit Étaples, Parit Front Barat, & Pendaratan Brest // 1918–1919)",
+        "en": "Sector FR (France: Étaples Staging Camp, Western Front Trenches, & Brest Landings // 1918–1919)"
+    },
+    "coordinates": [46.2276, 2.2137],
+    "timeRange": "April 1918 – Pertengahan 1919",
+    "estimatedFatalities": "400.000+ jiwa (Masyarakat sipil dan prajurit di sepanjang Front Barat)",
+    "chapters": [
+        {
+            "id": "fr-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Teka-teki Étaples: Prekursor Bronkitis Purulen 1916",
+                "en": "The Étaples Enigma: The Purulent Bronchitis Precursor of 1916"
+            },
+            "date": {
+                "id": "Musim Dingin 1916 – 1917",
+                "en": "Winter 1916 – 1917"
+            },
+            "flash": {
+                "id": "KAMP TRANSIT 100.000 PRAJURIT DI ÉTAPLES MENCATAT WABAH BRONKITIS PURULEN GANAS DUA TAHUN SEBELUM PANDEMI MELEDAK DI SELURUH DUNIA.",
+                "en": "MASSIVE 100,000-MAN ÉTAPLES STAGING CAMP RECORDS LETHAL PURULENT BRONCHITIS TWO YEARS PRIOR TO GLOBAL PANDEMIC DETONATION."
+            },
+            "virusProfile": {
+                "agent": "Prekursor Virus Influenza A (Galur Purulen Kamp Militer)",
+                "vector": "Kandang babi & unggas logistik bersebelahan dengan tenda-tenda prajurit",
+                "incubation": "2 – 3 Hari",
+                "transmission": "Aerosol pernapasan dalam tenda kanvas lembap dihuni 100.000 serdadu",
+                "mutationType": {
+                    "id": "Hipotesis Pusat Seleksi Mutasi Virulensi di Pangkalan Logistik PD I",
+                    "en": "WWI Logistic Cantonment Virulence Selection Epicenter Hypothesis"
+                },
+                "threatLevel": {
+                    "id": "Tinggi (Tanda Klinis Identik: Kerusakan Paru Akut dan Sianosis Heliotrope)",
+                    "en": "High (Identical Pathognomonic Lesions: Acute Lung Injury & Heliotrope Cyanosis)"
+                },
+                "clinicalTarget": {
+                    "id": "Serdadu infanteri Inggris, Kanada, dan korps buruh yang singgah di Étaples",
+                    "en": "British, Canadian infantrymen, and imperial labor corps transit personnel"
+                }
+            },
+            "description": {
+                "id": "Di pesisir utara Prancis, kamp raksasa Étaples menjadi pusat saraf logistik Kekaisaran Britania yang memproses 100.000 prajurit setiap harinya menuju parit-parit maut. Pada musim dingin 1916–1917, ahli patologi militer Inggris Dr. John Hammond mencatat wabah 'bronkitis purulen akut' yang menewaskan ratusan prajurit muda dengan gejala batuk dahak kental bernanah dan wajah membiru akibat mati lemas. Di sekitar kamp tersebut, ratusan kandang babi dipelihara untuk ransum tentara berdampingan dengan peternakan unggas air lokal. Sejarawan virologi modern John Oxford meyakini bahwa lingkungan padat, gas klorin yang mengikis paru prajurit, dan kedekatan ekstrem dengan hewan ternak di Étaples memicu mutasi awal virus influenza H1N1 jauh sebelum dunia menyadarinya.",
+                "en": "On the wind-scoured northern coast of France, the colossal Étaples staging depot channeled 100,000 Allied soldiers daily toward the meat grinder of the trenches. In the freezing winter of 1916–1917, British army pathologist Dr. John Hammond documented an outbreak of 'acute purulent bronchitis' that suffocated hundreds of vigorous recruits whose faces turned mahogany blue. Immediately adjacent to the sprawling canvas bivouacs stood massive piggeries maintained for rations, alongside domestic duck and goose farms. Eminent virologist John Oxford later argued that the toxic synergy of overcrowing, mustard gas-corroded bronchial linings, and close livestock contact at Étaples served as the primary evolutionary incubator for the 1918 H1N1 pathogen."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_01.jpg"
+        },
+        {
+            "id": "fr-ch-02",
+            "chapterNumber": 2,
+            "type": "milestone",
+            "title": {
+                "id": "Pendaratan Brest & Bordeaux: Gelombang Pertama Menembus Prancis",
+                "en": "The Brest & Bordeaux Ingress: First Wave Penetrates France"
+            },
+            "date": {
+                "id": "April – Mei 1918",
+                "en": "April – May 1918"
+            },
+            "flash": {
+                "id": "KAPAL ANGKUT PASUKAN AS MERAPAT DI BREST MEMBAWA RIBUAN PRAJURIT PEMBAWA VIRUS; INFLUENZA MENJALAR CEPAT KE JALUR LOGISTIK MILITER PRANCIS.",
+                "en": "AMERICAN TROOPSHIP LEVIATHAN UNLOADS THOUSANDS OF ASYMPTOMATIC CARRIERS AT BREST; VIRUS RADIATES ALONG FRENCH MILITARY SUPPLY ARTERIES."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Gelombang Musim Semi / Infeksi Ringan)",
+                "vector": "Palka kapal angkut prajurit berlayar dari pelabuhan New York",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Penyebaran droplet di barak transit pelabuhan Brest dan Saint-Nazaire",
+                "mutationType": {
+                    "id": "Transmisi Trans-Atlantik Melalui Jalur Logistik Pasukan Sekutu",
+                    "en": "Trans-Atlantic Ingress via Allied Wartime Military Logistic Corridors"
+                },
+                "threatLevel": {
+                    "id": "Sedang (Tingkat Kematian Masih Rendah namun Tingkat Serangan Sangat Tinggi)",
+                    "en": "Moderate (Low Case Fatality Rate but Extreme 40–50% Attack Velocity)"
+                },
+                "clinicalTarget": {
+                    "id": "Prajurit American Expeditionary Forces (AEF) dan awak dermaga Brittany",
+                    "en": "American Expeditionary Forces (AEF) and Brittany harbor dockworkers"
+                }
+            },
+            "description": {
+                "id": "Pada April 1918, kapal-kapal angkut raksasa membawa ratusan ribu prajurit Amerika Serikat (AEF) merapat di dermaga Brest dan Bordeaux. Bersama para serdadu muda tersebut, ikut mendarat virus influenza gelombang pertama yang sebelumnya berkobar di Camp Funston. Dalam hitungan hari, rumah sakit pangkalan di Brest dipenuhi prajurit yang menderita demam mendadak tiga hari, sakit kepala, dan radang tenggorokan. Meskipun gelombang musim semi ini hanya menewaskan sebagian kecil korban dan sering dianggap hanya sebagai 'demam tiga hari biasa', patogen ini menyebar seperti api membakar semak kering di sepanjang jalur kereta api logistik militer yang membentang dari pantai Brittany hingga ke garis depan pertempuran.",
+                "en": "In April 1918, colossal troopships ferrying the American Expeditionary Forces moored at the deepwater quays of Brest and Bordeaux. Accompanying the young doughboys was the first wave of the influenza agent that had flared across Kansas cantonments. Within days, base hospitals in Brest overflowed with recruits suffering sudden 103°F fevers, blinding headaches, and severe pharyngitis. Although this spring wave was relatively mild and frequently misdiagnosed as routine 'three-day fever', the pathogen spread like wild prairie fire along the military railways threading from the Brittany coast straight to the frontline trenches."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_02.jpg"
+        },
+        {
+            "id": "fr-ch-03",
+            "chapterNumber": 3,
+            "type": "standard",
+            "title": {
+                "id": "Lumpur, Gas, & Sputum: Neraka Parit Front Barat",
+                "en": "Mud, Gas, & Sputum: The Western Front Trench Crucible"
+            },
+            "date": {
+                "id": "Mei – Juni 1918",
+                "en": "May – June 1918"
+            },
+            "flash": {
+                "id": "PARIT LEMBAP PENUH TIKUS DAN PARU-PARU YANG RUSAK OLEH GAS MUSTARD MENGUBAH TRANSMISI MENJADI WABAH MASIF DI ANTARA KEDUA BELAH PIHAK.",
+                "en": "VERMIN-INFESTED, WATERLOGGED TRENCHES AND MUSTARD GAS-INJURED LUNGS ACCELERATE TRANSMISSION ACROSS BOTH OPPOSING ARMIES."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Kofaktor Kerusakan Epitel Saluran Napas Gas Kimia)",
+                "vector": "Bunker tanah bawah tanah tertutup tanpa sirkulasi udara",
+                "incubation": "24 Jam",
+                "transmission": "Berbagi cangkir ransum, rokok, dan desakan tubuh di lubang perlindungan sempit",
+                "mutationType": {
+                    "id": "Amplifikasi Virulensi Akibat Penurunan Daya Tahan Tubuh Prajurit Parit",
+                    "en": "Virulence Amplification Driven by Trench Hypothermia and Exhaustion"
+                },
+                "threatLevel": {
+                    "id": "Kritis Tempur (Melumpuhkan Seluruh Batalion Militer dalam Sepekan)",
+                    "en": "Combat Critical (Incapacitating Entire Infantry Battalions in Days)"
+                },
+                "clinicalTarget": {
+                    "id": "Serdadu Prancis (Poilus), pasukan ekspedisi Inggris, dan infantri Jerman",
+                    "en": "French frontline Poilus, British Tommies, and German trench stormtroopers"
+                }
+            },
+            "description": {
+                "id": "Kondisi fisik di Front Barat adalah neraka biologis yang sempurna bagi penyebaran virus pernapasan. Jutaan serdadu hidup berbulan-bulan di parit tanah becek setinggi lutut, dikelilingi bangkai kawan yang membusuk, tikus parit, dan kutu pakaian. Banyak di antara mereka yang paru-parunya telah mengalami luka parut permanen akibat paparan gas klorin dan fosgen. Di dalam lubang perlindungan bawah tanah (*dugout*) yang gelap dan berbau busuk, prajurit tidur berhimpitan untuk mencari kehangatan, berbagi sebatang rokok, dan batuk tanpa henti. Di sektor Aisne dan Marne, seluruh resimen Prancis mendadak lumpuh tempur bukan oleh peluru musuh, melainkan karena demam tinggi yang merobohkan lebih dari separuh pasukan dalam tempo 48 jam.",
+                "en": "Physical conditions across the Western Front represented a biological hell tailored for airborne respiratory amplification. Millions of troops endured months in knee-deep subterranean slime, enveloped by decaying corpses, trench rats, and lice. Countless soldiers harbored lungs permanently scarred by phosgene and mustard gas inhalation. Packed shoulder-to-shoulder inside suffocating dugouts to ward off hypothermia, men shared cigarette butts and coughed into each other's faces. In the Aisne and Marne sectors, entire frontline regiments suddenly dissolved into combat-ineffective invalids, felled not by artillery barrages but by debilitating fevers that incapacitated over half their complement within 48 hours."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_03.jpg"
+        },
+        {
+            "id": "fr-ch-04",
+            "chapterNumber": 4,
+            "type": "standard",
+            "title": {
+                "id": "Sensor Masa Perang: Menutupi 'La Grippe' di Paris",
+                "en": "Wartime Iron Curtain: Censoring 'La Grippe' in Paris"
+            },
+            "date": {
+                "id": "Juni – Juli 1918",
+                "en": "June – July 1918"
+            },
+            "flash": {
+                "id": "BADAN SENSOR MILITER PRANCIS MELARANG KETAT PEMBERITAAN WABAH INFLUENZA DEMI MENJAGA MORIL PERANG; SURAT KABAR HANYA MEMUAT KOLOM KOSONG.",
+                "en": "FRENCH MILITARY CENSORSHIP STRICTLY BARS EPIDEMIC COVERAGE TO SAFEGUARD MORALE; NEWSPAPERS LEAVE BLANK SPACES IN MORNING EDITIONS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Penekanan Informasi & Sensor Epidemiologis)",
+                "vector": "Kereta komuter Paris, pabrik amunisi Saint-Denis, dan bar umum",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Penyebaran diam-diam di kalangan sipil tanpa mitigasi kesehatan masyarakat",
+                "mutationType": {
+                    "id": "Penyebaran Terselubung Akibat Kehampaan Komunikasi Risiko Kesehatan",
+                    "en": "Covert Transmission Fostered by Complete Blackout of Public Health Risk"
+                },
+                "threatLevel": {
+                    "id": "Tinggi (Masyarakat Mengabaikan Penyakit Akibat Disinformasi Negara)",
+                    "en": "High (Public Disregards Symptoms Due to Official Denial and Disinformation)"
+                },
+                "clinicalTarget": {
+                    "id": "Buruh pabrik perempuan (Munitionnettes) dan masyarakat sipil Paris",
+                    "en": "Female munitions operatives (Munitionnettes) and Parisian urbanites"
+                }
+            },
+            "description": {
+                "id": "Di bawah undang-undang darurat perang 1914, Badan Sensor Militer Prancis memberlakukan sensor total terhadap segala hal yang dapat menurunkan semangat bangsa atau memberi petunjuk kepada tentara Jerman bahwa pertahanan Prancis melemah. Ketika influenza mulai menjangkiti ratusan ribu warga Paris dan buruh pabrik amunisi di pinggiran Saint-Denis pada Juni 1918, surat kabar dilarang keras menggunakan kata 'epidemi' atau melaporkan angka kematian. Redaksi koran seperti *Le Figaro* dan *Le Temps* terpaksa menerbitkan halaman depan dengan blok-blok putih kosong tempat artikel yang dipotong sensor militer seharusnya berada. Kebijakan pembungkaman ini mencegah otoritas kesehatan sipil mengeluarkan protokol pencegahan dini, membiarkan virus merayap tanpa hambatan ke seluruh penjuru ibu kota.",
+                "en": "Under the draconian 1914 state-of-siege laws, the French military press bureau exercised totalitarian censorship over all intelligence that might compromise national morale or signal vulnerability to the German High Command. When influenza incapacitated hundreds of thousands of Parisians and arms factory workers across Saint-Denis in June 1918, editors were categorically forbidden from using the word 'epidemic' or publishing casualty counts. Prominent dailies like *Le Figaro* and *Le Temps* were forced to go to press with glaring blank columns where censored medical reports had been expunged by military red pencils. This systematic suppression prevented municipal health boards from warning citizens or instituting preventive barriers, allowing the contagion to saturate the capital unhindered."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_04.jpg"
+        },
+        {
+            "id": "fr-ch-05",
+            "chapterNumber": 5,
+            "type": "milestone",
+            "title": {
+                "id": "Mutasi Gelombang Kedua: Kapal Pengangkut Maut di Brest",
+                "en": "The Second Wave Mutation: The Death Transports at Brest"
+            },
+            "date": {
+                "id": "Akhir Agustus – September 1918",
+                "en": "Late August – September 1918"
+            },
+            "flash": {
+                "id": "KAPAL ANGKUT PASUKAN AS LEVIATHAN TIBA DI BREST SEBAGAI PETI MATI TERAPUNG; MAYAT-MAYAT DENGAN PARU-PARU HANCUR DITURUNKAN KE DERMAGA.",
+                "en": "US TROOPSHIP USS LEVIATHAN DOCKS AT BREST AS A FLOATING CHARNEL HOUSE; CORPSE AFTER CORPSE WITH LIQUEFIED LUNGS OFF-LOADED AT MIDNIGHT."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 Mutan Ganas (Gelombang Kedua Musim Gugur 1918)",
+                "vector": "Palka dek tertutup kapal uap laut 9.000 serdadu",
+                "incubation": "12 – 24 Jam",
+                "transmission": "Inhalasi aerosol hiper-virulen di ruang sempit selama 7 hari pelayaran",
+                "mutationType": {
+                    "id": "Penyisipan Mutasi Hiper-Virulensi yang Membakar Alveolus Paru",
+                    "en": "Emergence of Hyper-Virulent Strain Inducing Acute Alveolar Hemorrhage"
+                },
+                "threatLevel": {
+                    "id": "Bencana Global (Titik Balik Pandemi Menjadi Bencana Kematian Massal)",
+                    "en": "Global Cataclysm (Tipping Point into Uncontrolled Mass Mortality)"
+                },
+                "clinicalTarget": {
+                    "id": "Prajurit infanteri muda yang berlayar dan perawat rumah sakit pangkalan",
+                    "en": "Fresh military replacements and base hospital nursing staff"
+                }
+            },
+            "description": {
+                "id": "Pada akhir Agustus 1918, alam mutasi patogen telah menyempurnakan keganasannya. Kapal angkut raksasa USS Leviathan tiba di pelabuhan Brest setelah pelayaran tujuh hari yang mengerikan dari Hoboken. Dari 9.000 serdadu dan awak di atas kapal, lebih dari 2.000 orang terkapar sakit parah dan hampir seratus orang meninggal di laut, mayat mereka ditumpuk di kamar dingin kapal. Ketika para penyintas yang sekarat ditandu turun ke dermaga batu Brest di bawah selubung malam kelam, para perawat Prancis terkesiap melihat wajah mereka yang menghitam keunguan dan darah yang mengucur dari hidung serta telinga. Gelombang kedua yang bermutasi ini segera merambah dari Brest ke seluruh jaringan garnisun Sekutu di Prancis, memicu ledakan kematian tanpa ampun.",
+                "en": "By late August 1918, viral evolution had synthesized an absolute terror. The colossal troop transport USS Leviathan steamed into Brest harbor following an apocalyptic seven-day passage from Hoboken. Among the 9,000 soldiers and crew packed below decks, over 2,000 had succumbed to violent illness, and nearly one hundred had died at sea, their remains stacked in shipboard cold storage. When stretcher crews unloaded the dying onto Brest's stone quays under cover of midnight darkness, French orderlies gasped at the sight of young men with ebony-violet faces and blood trickling from their noses and ears. This mutated second wave radiated instantly from Brest into the Allied military nervous system, inaugurating an era of slaughter."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_05.jpg"
+        },
+        {
+            "id": "fr-ch-06",
+            "chapterNumber": 6,
+            "type": "standard",
+            "title": {
+                "id": "Lumpuhnya Ofensif Ludendorff: Pandemi Menentukan Hasil Perang",
+                "en": "The Stall of Ludendorff's Offensive: How the Flu Shaped War History"
+            },
+            "date": {
+                "id": "Juli – Agustus 1918",
+                "en": "July – August 1918"
+            },
+            "flash": {
+                "id": "JENDERAL ERICH LUDENDORFF MENYALAHKAN FLU SPANYOL ATAS KEGAGALAN OFENSIF MUSIM SEMI JERMAN DI MARNE KARENA 500.000 SERDADU REBAH SAKIT.",
+                "en": "GENERAL ERICH LUDENDORFF BLAMES 'GRIPPE' FOR CRIPPLING THE GERMAN SPRING OFFENSIVE AS OVER 500,000 STORMTROOPERS FALL SICK."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Dampak Geopolitik & Operasi Militer)",
+                "vector": "Serbuan pasukan garis depan melintasi parit dan merebut ransum musuh",
+                "incubation": "24 Jam",
+                "transmission": "Kontak langsung antar-tentara yang kelelahan saat pertempuran jarak dekat",
+                "mutationType": {
+                    "id": "Pengaruh Epidemiologis Langsung Terhadap Runtuhnya Moril dan Logistik Militer",
+                    "en": "Direct Epidemiological Impairment of Frontline Military Logistics"
+                },
+                "threatLevel": {
+                    "id": "Militer Ekstrem (Mengubah Keseimbangan Kekuatan di Medan Perang Eropa)",
+                    "en": "Military Extreme (Altering Geopolitical Balance on European Battlefield)"
+                },
+                "clinicalTarget": {
+                    "id": "Pasukan penyerbu Jerman (Stoßtruppen) dan divisi cadangan Angkatan Darat Jerman",
+                    "en": "Elite German Stormtroopers (Stoßtruppen) and reserve divisions"
+                }
+            },
+            "description": {
+                "id": "Dalam memoar perangnya, Jenderal Jerman Erich Ludendorff secara terbuka mengakui bahwa influenza adalah salah satu faktor penentu runtuhnya serangan pamungkas Jerman (*Kaiserschlacht*) pada musim panas 1918. Lebih dari 500.000 prajurit Jerman terkapar demam tinggi di parit saat mereka bersiap menembus garis Sekutu di Sungai Marne. Pasukan penyerbu Jerman yang menderita malnutrisi akibat blokade laut Inggris tidak memiliki daya tahan melawan influenza. Di sisi lain, Sekutu yang juga terpukul hebat berhasil mendapatkan pasokan prajurit baru Amerika yang terus mengalir. Virus ini mempercepat keruntuhan militer Kekaisaran Jerman, membuktikan bahwa dinamika biologis mampu mendikte jalannya sejarah militer terbesar di dunia.",
+                "en": "In his post-war memoirs, German Quartermaster General Erich Ludendorff explicitly cited the influenza scourge as a primary reason for the collapse of Germany's decisive 1918 Spring Offensive (*Kaiserschlacht*). Upwards of 500,000 German soldiers were shivering with high fevers in forward staging trenches just as the army prepared to storm the Allied lines at the River Marne. Chronically malnourished due to the brutal British naval blockade, German troops lacked the physiological reserves to withstand infection. While the Allies were also devastated, their manpower was continuously replenished by fresh American reinforcements. The virus inexorably tilted the strategic balance, accelerating imperial Germany's battlefield implosion."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_06.jpg"
+        },
+        {
+            "id": "fr-ch-07",
+            "chapterNumber": 7,
+            "type": "side_story",
+            "title": {
+                "id": "Napas Terakhir Guillaume Apollinaire di Paris",
+                "en": "The Dying Breath of Guillaume Apollinaire: The Poet and the Crowd"
+            },
+            "date": {
+                "id": "9 November 1918",
+                "en": "November 9, 1918"
+            },
+            "flash": {
+                "id": "PENYAIR PELOPOR SUREALISME GUILLAUME APOLLINAIRE TEWAS DI PARIS DUA HARI SEBELUM GENCATAN SENJATA SAAT MASSA BERTERIAK 'GULINGKAN GUILLAUME!'.",
+                "en": "CELEBRATED POET GUILLAUME APOLLINAIRE EXPIRES IN PARIS TWO DAYS BEFORE ARMISTICE AS CROWDS CHANT 'DOWN WITH GUILLAUME!' OUTSIDE HIS SICKROOM."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Komplikasi Fatal pada Korban Perang yang Melemah)",
+                "vector": "Kontak perkotaan di apartemen Boulevard Saint-Germain, Paris",
+                "incubation": "24 Jam",
+                "transmission": "Inhalasi droplet aerosol diperparah trauma luka tembus kepala masa perang",
+                "mutationType": {
+                    "id": "Pneumonia Sekunder Mematikan pada Pasien Pasca-Trepanasi Tempur",
+                    "en": "Fatal Secondary Bacterial Pneumonia in Combat-Traumatized Host"
+                },
+                "threatLevel": {
+                    "id": "Kematian Kultural (Kehilangan Tokoh Kunci Gerakan Avant-Garde Dunia)",
+                    "en": "Cultural Casualty (Loss of Seminal Vanguard of European Modernism)"
+                },
+                "clinicalTarget": {
+                    "id": "Para seniman, sastrawan, dan veteran perang yang terluka di Paris",
+                    "en": "Wounded veteran artists, writers, and cultural luminaries in Paris"
+                }
+            },
+            "description": {
+                "id": "Salah satu korban paling tragis di Paris adalah penyair legendaris Guillaume Apollinaire, bapak pencipta istilah 'surealisme' yang pernah terluka parah di kepala oleh serpihan peluru meriam di garis depan pada 1916. Pada awal November 1918, tubuh Apollinaire yang lemah diserang oleh virus influenza gelombang kedua. Di apartemennya di Boulevard Saint-Germain, ia berjuang menarik napas terakhirnya pada 9 November 1918 di hadapan istrinya yang berduka. Ironi sejarah yang memilukan terjadi di luar jendelanya: massa rakyat Paris yang merayakan turun takhtanya Kaiser Wilhelm II dari Jerman berteriak riuh di jalanan: 'À bas Guillaume! À bas Guillaume!' ('Gulingkan Guillaume!'). Di tempat tidurnya yang sekarat, sang penyair mengira massa sedang menuntut kematiannya sendiri.",
+                "en": "Among the most poignant cultural casualties was celebrated vanguard poet Guillaume Apollinaire, who had coined the term 'surrealism' and survived a severe shrapnel head wound on the Western Front in 1916. In early November 1918, Apollinaire's compromised constitution was overwhelmed by the savage second wave. In his fourth-floor garret on Boulevard Saint-Germain, he gasped for breath as pulmonary edema drowned his lungs on November 9, 1918. A chilling tragic irony played out in the street below: Parisian crowds, ecstatic over the abdication of Kaiser Wilhelm II of Germany, surged past chanting furiously: 'À bas Guillaume! À bas Guillaume!' ('Down with William!'). In his terminal delirium, the dying poet whispered to his wife that the mob was clamoring for his own death."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_07.jpg"
+        },
+        {
+            "id": "fr-ch-08",
+            "chapterNumber": 8,
+            "type": "side_story",
+            "title": {
+                "id": "Biarawati, Minyak Kamper, & Larutan Garam Palang Merah Prancis",
+                "en": "Nuns, Camphor Oil, & Saline: The French Red Cross Emergency Response"
+            },
+            "date": {
+                "id": "Oktober 1918",
+                "en": "October 1918"
+            },
+            "flash": {
+                "id": "DI TENGAH KELANGKAAN OBAT, PERAWAT BIARAWATI BERJUANG MELAWAN ASFIKSIA PASIEN HANYA DENGAN INJEKSI MINYAK KAMPER DAN LARUTAN GARAM FAALI.",
+                "en": "FACING PHARMACEUTICAL DEPRIVATION, NURSING SISTERS COMBAT ASPHYXIATION WITH CRUDE CAMPHOR OIL INJECTIONS AND SUBCUTANEOUS SALINE."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Keterbatasan Farmakologis Era Pra-Antibiotik)",
+                "vector": "Kontaminasi nosokomial ruang bangsal rumah sakit militer darurat",
+                "incubation": "12 – 36 Jam",
+                "transmission": "Eksudat pernapasan saat menyeka bibir dan merawat pasien sianosis",
+                "mutationType": {
+                    "id": "Ketiadaan Terapi Antiviral Spesifik Era Kedokteran Awal Abad ke-20",
+                    "en": "Total Absence of Specific Antiviral Therapeutics in Early 20th Century Medicine"
+                },
+                "threatLevel": {
+                    "id": "Kritis Fasilitas (Tingkat Kematian Perawat Mencapai 20–30%)",
+                    "en": "Facility Critical (Healthcare Worker Infection and Mortality Surges)"
+                },
+                "clinicalTarget": {
+                    "id": "Biarawati Ordo Suster Belas Kasih (Soeurs de la Charité) dan sukarelawan",
+                    "en": "Sisters of Charity nursing nuns and French Red Cross volunteer aides"
+                }
+            },
+            "description": {
+                "id": "Rumah sakit militer darurat di seluruh Prancis kehabisan obat-obatan. Antibiotik belum ditemukan, dan vaksin influenza yang dibuat saat itu salah sasaran karena para ilmuwan masih mengira penyebabnya adalah bakteri basil Pfeiffer (*Haemophilus influenzae*). Para suster biarawati dan perawat Palang Merah Prancis hanya memiliki sarana perawatan suportif paling primitif: menyuntikkan minyak kamper dan eter untuk menstimulasi detak jantung yang melemah, meneteskan larutan garam fisiologis di bawah kulit, serta menyelimuti dada pasien dengan tapal biji sesawi panas. Banyak perawat dan dokter tertular dan meninggal di samping ranjang pasien yang mereka rawat, menjadi martir kemanusiaan di garis depan pertempuran biologis.",
+                "en": "Emergency military lazarettos across France faced total pharmacological destitution. Antibiotics lay a quarter-century in the future, and contemporary vaccines were worthless concoctions aimed erroneously at Pfeiffer's bacillus (*Haemophilus influenzae*). French Red Cross volunteers and Catholic nursing sisters of the Order of St. Vincent de Paul had only primitive palliative measures at hand: intramuscular injections of camphorated oil and ether to stimulate failing cardiac muscle, subcutaneous saline infusions, and blistering mustard plasters laid across chests. Unprotected by modern respirators, scores of devoted nurses contracted the infection and perished beside the very cots they attended."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_08.jpg"
+        },
+        {
+            "id": "fr-ch-09",
+            "chapterNumber": 9,
+            "type": "standard",
+            "title": {
+                "id": "Oktober Kelam Paris: Krisis Peti Mati & Kain Kafan Hitam",
+                "en": "The Somber October of Paris: Coffin Shortages & The Black Drape Crisis"
+            },
+            "date": {
+                "id": "Oktober – November 1918",
+                "en": "October – November 1918"
+            },
+            "flash": {
+                "id": "KEMATIAN MINGGUAN DI PARIS MENCAPAI 3.000 JIWA; KAIN KAFAN HITAM DAN KERETA JENAZAH KUDA HABIS DIGUNAKAN DI SELURUH PENJURU IBU KOTA.",
+                "en": "PARISIAN DEATH TALLIES HIT 3,000 PER WEEK; FUNERAL HEARSES AND BLACK FUNERARY CREPE EXHAUSTED ACROSS THE CAPITAL."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Puncak Kematian Perkotaan Musim Gugur 1918)",
+                "vector": "Metro bawah tanah Paris, pasar sentral Les Halles, dan antrean toko roti",
+                "incubation": "24 Jam",
+                "transmission": "Kepadatan ekstrem warga sipil yang berbelanja ransum dan menggunakan transportasi massal",
+                "mutationType": {
+                    "id": "Saturasi Epidemiologis di Kawasan Urban Berpenduduk Padat Tanpa Rencana Kontinjensi",
+                    "en": "Epidemiological Saturation of High-Density Urban Environment"
+                },
+                "threatLevel": {
+                    "id": "Kelumpuhan Sipil (Larangan Pemakaman Terbuka Demi Mencegah Histeria Publik)",
+                    "en": "Civil Paralysis (Mandatory Curtailment of Public Funerals to Avert Panic)"
+                },
+                "clinicalTarget": {
+                    "id": "Penduduk kawasan kumuh Belleville, Menilmontant, dan buruh kasar Paris",
+                    "en": "Working-class dwellers of Belleville, Menilmontant, and day laborers"
+                }
+            },
+            "description": {
+                "id": "Pada Oktober 1918, kematian di Paris melonjak hingga lebih dari 3.000 jiwa per pekan. Tradisi pemakaman Prancis yang megah dengan kereta kuda berhiaskan kain beledu hitam runtuh seketika. Seluruh persediaan kain kafan hitam habis terjual, dan kuda-kuda penarik kereta jenazah kelelahan atau mati. Otoritas kepolisian terpaksa melarang iring-iringan pemakaman umum karena pemandangan peti mati yang terus-menerus melintasi jalan raya memicu kepanikan warga. Jenazah dibawa tergesa-gesa langsung ke Pemakaman Pantin dan Père Lachaise dengan truk militer berpenutup terpal, tempat mereka dikubur tanpa nyanyian paduan suara gereja atau penghormatan terakhir keluarga.",
+                "en": "In October 1918, the death toll in Paris surged past 3,000 fatalities per week. The elaborate French tradition of ceremonial funerals—featuring ebony-plumed carriage hearses draped in black velvet—completely disintegrated. Haberdashers sold out of black funerary crepe, and draft horses hauling hearses dropped dead from exhaustion. Prefectural police banned public funeral processions altogether, recognizing that the sight of endless processions moving down the boulevards was inciting mass panic. Corpses were loaded into canvas-draped military trucks and rushed directly to Pantin, Thiais, and Père Lachaise cemeteries, deposited into common graves without choral requiems or family farewells."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_09.jpg"
+        },
+        {
+            "id": "fr-ch-10",
+            "chapterNumber": 10,
+            "type": "milestone",
+            "title": {
+                "id": "Pesta Kemenangan 11 November: Vektor Kerumunan Champs-Élysées",
+                "en": "The Armistice Concourse: Champs-Élysées Crowds as Super-Spreaders"
+            },
+            "date": {
+                "id": "11 November 1918",
+                "en": "November 11, 1918"
+            },
+            "flash": {
+                "id": "GENCATAN SENJATA MEMICU LAUTAN MANUSIA DI PARIS; JUTAAN WARGA SALING BERPELUKAN MENYALAKAN RESURGENSI VIRUS MUSIM DINGIN 1918–1919.",
+                "en": "ARMISTICE UNLEASHES MILLIONS ONTO PARIS STREETS; ECSTATIC EMBRACES IGNITE DEADLY WINTER RESURGENCE ACROSS FRANCE."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Super-Spreading Event Pascaperang)",
+                "vector": "Lautan jutaan manusia memadati Place de la Concorde dan Arc de Triomphe",
+                "incubation": "18 – 36 Jam",
+                "transmission": "Teriakan, nyanyian La Marseillaise, dan pelukan erat tanpa pembatasan",
+                "mutationType": {
+                    "id": "Lonjakan Sekunder Akibat Interaksi Kerumunan Massa Tanpa Masker",
+                    "en": "Secondary Surge Driven by Unrestricted Unmasked Mass Assembly"
+                },
+                "threatLevel": {
+                    "id": "Tinggi (Memperpanjang Masa Pandemi Hingga Musim Semi 1919)",
+                    "en": "High (Extending Epidemic Duration into Late Spring 1919)"
+                },
+                "clinicalTarget": {
+                    "id": "Warga sipil Paris, serdadu Sekutu yang merayakan kemenangan, dan diplomat",
+                    "en": "Celebrating Parisian civilians, Allied soldiers, and diplomatic attaches"
+                }
+            },
+            "description": {
+                "id": "Ketika sirine kota dan dentuman meriam mengumumkan penandatanganan Gencatan Senjata di Hutan Compiègne pada 11 November 1918, ketakutan terhadap penyakit influenza sekejap sirna tertelan luapan sukacita kemenangan. Lebih dari satu juta manusia tumpah ke Place de la Concorde, Champs-Élysées, dan sepanjang Sungai Seine. Orang-orang bernyanyi histeris mengumandangkan *La Marseillaise*, menari berputar-putar, serta memeluk dan mencium tentara asing dari berbagai belahan bumi. Bagi virus influenza yang masih aktif bersirkulasi, kerumunan tanpa batas ini adalah anugerah terbesar. Hanya berselang beberapa pekan setelah pesta pora tersebut, angka rawat inap kembali melonjak drastis, memicu gelombang ketiga yang mencengkeram Prancis sepanjang musim dingin yang beku.",
+                "en": "When factory sirens and blank artillery salvoes announced the signing of the Armistice in the Forest of Compiègne on November 11, 1918, terror of the contagion vanished in a tidal wave of patriotic ecstasy. Over one million people poured into the Place de la Concorde, the Champs-Élysées, and along the quays of the Seine. Strangers linked arms to belt out *La Marseillaise*, dancing wildly and planting fervent kisses upon Allied soldiers from across the globe. For the circulating H1N1 virus, this jubilant sea of humanity was the ultimate vector jackpot. Within three weeks of the armistice carnival, hospital admissions spiked dramatically, locking France in the lethal grip of a third winter wave."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_10.jpg"
+        },
+        {
+            "id": "fr-ch-11",
+            "chapterNumber": 11,
+            "type": "side_story",
+            "title": {
+                "id": "Vektor Demobilisasi: Pulangnya Poilus ke Pedesaan Prancis",
+                "en": "The Demobilization Wave: Returning Poilus and Rural Transmission"
+            },
+            "date": {
+                "id": "Desember 1918 – Musim Semi 1919",
+                "en": "December 1918 – Spring 1919"
+            },
+            "flash": {
+                "id": "PEMULANGAN JUTAAN SERDADU KE DESA-DESA PROVINSI MEMBAWA GELOMBANG KETIGA KE LEMBAH-LEMBAH TERPENCIL AUVERGNE DAN PYRENEES.",
+                "en": "DEMOBILIZATION OF MILLIONS TO PROVINCIAL HAMLETS TRANSPORTS THE THIRD WAVE INTO REMOTE VALLEYS OF AUVERGNE AND THE PYRENEES."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Dispersi Demobilisasi Pasca-Perang)",
+                "vector": "Kereta api kepulangan prajurit dan perayaan kepulangan pahlawan desa",
+                "incubation": "24 Jam",
+                "transmission": "Penularan keluarga intim saat menyambut serdadu yang pulang dari front",
+                "mutationType": {
+                    "id": "Perpindahan Patogen dari Koridor Militer ke Komunitas Agraris Terpencil",
+                    "en": "Pathogen Ingress from Military Hubs into Agrarian Rural Communes"
+                },
+                "threatLevel": {
+                    "id": "Sedang-Tinggi (Kekurangan Dokter Desa Akibat Wajib Militer)",
+                    "en": "Moderate-High (Acute Countryside Physician Depletion from War Draft)"
+                },
+                "clinicalTarget": {
+                    "id": "Orang tua, istri, dan anak-anak petani di wilayah pedesaan Prancis",
+                    "en": "Elderly parents, wives, and infants in rural French farming communities"
+                }
+            },
+            "description": {
+                "id": "Seiring dimulainya demobilisasi bertahap lima juta serdadu Prancis (*Poilus*), virus menyebar dari konsentrasi militer menuju desa-desa agraris terpencil di seluruh Prancis. Di wilayah pegunungan Auvergne, Massif Central, dan Pyrenees yang sebelumnya luput dari perang, para serdadu disambut dengan perjamuan keluarga di ruang makan sempit yang hangat. Namun beberapa hari setelah sang pahlawan tiba, orang tua renta, istri, dan anak-anak mereka mulai menderita demam berdarah yang mematikan. Tragedi ini diperparah oleh ketiadaan dokter desa, karena sebagian besar tenaga medis belum dipulangkan dari rumah sakit garis depan, meninggalkan keluarga-keluarga pedesaan merawat orang terkasih mereka dengan doa dan ramuan tradisional.",
+                "en": "As France gradually demobilized its five-million-man army, the infection dispersed from frontline garrisons into remote pastoral hamlets across the provinces. In mountainous redoubts like the Auvergne, Massif Central, and the Pyrenees that had escaped the ravages of artillery, returning poilus were embraced at festive kitchen tables in tight, draft-sealed farmhouses. Within days of their hero's return, aging parents, wives, and children collapsed with cyanotic fevers. The tragedy was compounded by an absolute absence of rural physicians, as military doctors remained locked in garrison service, leaving rural families to watch loved ones suffocate with only village priests to offer comfort."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_11.jpg"
+        },
+        {
+            "id": "fr-ch-12",
+            "chapterNumber": 12,
+            "type": "summary",
+            "title": {
+                "id": "Audit Epidemiologis Prancis: Generasi yang Hilang & Pembentukan Kementerian Kesehatan",
+                "en": "Epidemiological Audit of France: The Lost Generation & Creation of the Ministry of Health"
+            },
+            "date": {
+                "id": "1919 – 1920",
+                "en": "1919 – 1920"
+            },
+            "flash": {
+                "id": "LEBIH DARI 400.000 KEMATIAN MENGHANCURKAN DEMOGRAFI PRANCIS; PARLEMEN MEMBENTUK KEMENTERIAN KESEHATAN PERTAMA PADA TAHUN 1920.",
+                "en": "OVER 400,000 FATALITIES COMPOUND WARTIME DEMOGRAPHIC HOLLOW; FRENCH PARLIAMENT CREATES FIRST DEDICATED MINISTRY OF HEALTH IN 1920."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Dampak Struktural Jangka Panjang)",
+                "vector": "Endemisasi influenza musiman pasca-pandemi",
+                "incubation": "1 – 4 Hari",
+                "transmission": "Penurunan virulensi menjadi galur influenza musiman inter-pandemik",
+                "mutationType": {
+                    "id": "Integrasi Virus H1N1 ke Dalam Ekologi Pernapasan Manusia Abad ke-20",
+                    "en": "Establishment of H1N1 Enzootic and Seasonal Human Endemicity"
+                },
+                "threatLevel": {
+                    "id": "Audit Historis (Pembersihan Trauma Nasional Melalui Reformasi Kebijakan)",
+                    "en": "Historical Audit (National Reconstruction and Public Hygiene Overhaul)"
+                },
+                "clinicalTarget": {
+                    "id": "Struktur demografi nasional Prancis yang kehilangan jutaan pemuda",
+                    "en": "French national demographic pyramid devastated by dual war and pandemic"
+                }
+            },
+            "description": {
+                "id": "Bagi Prancis, flu 1918 bukanlah bencana yang berdiri sendiri, melainkan babak akhir yang menyempurnakan kehancuran satu generasi utuh. Digabungkan dengan 1,4 juta serdadu yang gugur di medan perang dan ratusan ribu lainnya yang cacat seumur hidup, kematian lebih dari 400.000 warga sipil dan prajurit akibat influenza meninggalkan piramida demografi Prancis berlubang secara permanen. Namun bencana ini menyadarkan para pemimpin politik bahwa kesehatan rakyat tidak lagi dapat diserahkan semata-mata pada inisiatif amal swasta. Pada April 1920, Parlemen Prancis membentuk *Ministère de l'Hygiène, de l'Assistance et de la Prévoyance Sociales*—Kementerian Kesehatan pertama dalam sejarah Republik Prancis—yang memodernisasi tata kelola sanitasi, karantina pelabuhan, dan pengawasan penyakit menular nasional.",
+                "en": "For France, the 1918 influenza was not an isolated tragedy, but the final hammer blow that completed the decimation of an entire generation. Superimposed upon the 1.4 million military fatalities of the trenches and hundreds of thousands maimed, the death of over 400,000 citizens from the flu permanently gouged the French demographic pyramid. Yet out of this grief arose a profound political awakening: public hygiene could no longer be relegated to disjointed municipal charities. In April 1920, the French Parliament established the *Ministère de l'Hygiène, de l'Assistance et de la Prévoyance Sociales*—the first dedicated Ministry of Health in the history of the Republic—initiating centralized port quarantine, compulsory disease notification, and scientific epidemiological administration."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_12.jpg"
+        }
+    ]
+}

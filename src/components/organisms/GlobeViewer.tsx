@@ -152,9 +152,11 @@ const GlobeViewerInner: React.FC = () => {
             else if (iso3 === "RUS" || name.includes("Russia")) iso2 = "RU";
             else if (iso3 === "BRA" || name.includes("Brazil")) iso2 = "BR";
             else if (iso3 === "JPN" || name.includes("Japan")) iso2 = "JP";
-            else if (iso3 === "ZAF" || name.includes("South Africa")) iso2 = "ZA";
+            else if (iso3 === "ZAF" || name.includes("South Africa"))
+                iso2 = "ZA";
             else if (iso3 === "WSM" || name.includes("Samoa")) iso2 = "WS";
-            else if (iso3 === "NZL" || name.includes("New Zealand")) iso2 = "NZ";
+            else if (iso3 === "NZL" || name.includes("New Zealand"))
+                iso2 = "NZ";
             else if (!iso2) iso2 = iso3.slice(0, 2);
 
             return { iso2, iso3, name };

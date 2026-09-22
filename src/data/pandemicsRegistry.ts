@@ -2439,6 +2439,62 @@ export async function loadDossier(
             }
         }
 
+        if (pId === "spanish-flu-1918") {
+            switch (cCode) {
+                case "us":
+                case "usa": {
+                    const mod =
+                        await import("@/data/pandemics/spanish-flu-1918/us.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "fr":
+                case "fra": {
+                    const mod =
+                        await import("@/data/pandemics/spanish-flu-1918/fr.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "es":
+                case "esp": {
+                    const mod =
+                        await import("@/data/pandemics/spanish-flu-1918/es.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "gb":
+                case "gbr":
+                case "uk": {
+                    const mod =
+                        await import("@/data/pandemics/spanish-flu-1918/gb.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "in":
+                case "ind": {
+                    const mod =
+                        await import("@/data/pandemics/spanish-flu-1918/in.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "id":
+                case "idn": {
+                    const mod =
+                        await import("@/data/pandemics/spanish-flu-1918/id.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                default:
+                    return null;
+            }
+        }
+
         return null;
     } catch (err) {
         console.error(

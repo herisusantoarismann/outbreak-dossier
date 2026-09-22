@@ -1,0 +1,532 @@
+{
+    "sectorId": "IN",
+    "sectorName": {
+        "id": "Sektor IN (Kemaharajaan Britania: Pelabuhan Bombay, Vektor Rel Kereta Api, & Tragedi 17,5 Juta Jiwa // 1918–1919)",
+        "en": "Sector IN (British Raj: Bombay Docks, Imperial Railway Vectors, & The 17.5 Million Catastrophe // 1918–1919)"
+    },
+    "coordinates": [18.922, 72.8347],
+    "timeRange": "Mei 1918 – Awal 1920",
+    "estimatedFatalities": "17.500.000 – 20.000.000+ jiwa (≈ 5% Total Populasi Anak Benua India)",
+    "chapters": [
+        {
+            "id": "in-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Pendaratan Alexandra Dock: Kapal Pasukan Tiba di Bombay",
+                "en": "The Alexandra Dock Ingress: Wartime Troopships at Bombay"
+            },
+            "date": {
+                "id": "29 Mei 1918",
+                "en": "May 29, 1918"
+            },
+            "flash": {
+                "id": "KAPAL ANGKUT MILITER DARI FRONT TIMUR TENGAH DAN EROPA MERAPAT DI BOMBAY; TUJUH POLISI PELABUHAN MENJADI KASUS TERCATAT PERTAMA DI ASIA.",
+                "en": "TROOPSHIPS RETURNING FROM MESOPOTAMIA AND FRANCE MOOR AT BOMBAY; SEVEN HARBOR POLICE CONSTABLES BECOME ASIA'S FIRST REGISTERED INFECTIONS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Lompatan Jalur Maritim Samudra Hindia)",
+                "vector": "Kapal angkut pasukan militer (troopship) berlayar dari Teluk Persia dan Suez",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Kontak langsung buruh pelabuhan dan polisi pabean saat debarkasi pasukan",
+                "mutationType": {
+                    "id": "Penetrasi Global ke Jaringan Pelabuhan Kolonial Terpadat di Asia Selatan",
+                    "en": "Global Penetration into the Most Densely Populated South Asian Maritime Gateway"
+                },
+                "threatLevel": {
+                    "id": "Tinggi (Gerbang Masuk Utama Menuju 300 Juta Jiwa Penduduk India)",
+                    "en": "High (Primary Gateway to 300 Million Inhabitants of Subcontinent)"
+                },
+                "clinicalTarget": {
+                    "id": "Polisi pelabuhan Bombay, buruh panggul dok (*coolies*), dan prajurit sepoy",
+                    "en": "Bombay harbor constables, dock coolies, and returning sepoy infantrymen"
+                }
+            },
+            "description": {
+                "id": "Pada tanggal 29 Mei 1918, sebuah armada kapal angkut pasukan militer yang membawa ribuan serdadu India (*sepoys*) dari kampanye perang di Mesopotamia dan Front Barat merapat di dermaga Alexandra Dock, Bombay. Tanpa disadari oleh otoritas karantina pelabuhan, para prajurit membawa virus influenza gelombang pertama di dalam saluran napas mereka. Kasus tercatat resmi pertama muncul pada 31 Mei, ketika tujuh polisi pelabuhan Bombay yang bertugas mengawasi debarkasi mendadak ambruk dengan demam tinggi. Dalam beberapa hari, penyakit ini menyusup ke perkampungan padat buruh pelabuhan di Mazagon dan Dongri, menandai awal dari babak paling mematikan dalam sejarah seluruh umat manusia.",
+                "en": "On May 29, 1918, naval transports ferrying thousands of Indian sepoy troops returning from the brutal campaigns in Mesopotamia and the Western Front steamed into Alexandra Dock, Bombay. Completely overlooked by colonial port health authorities, the returning soldiers harbored the incubating spring wave of H1N1. The official outbreak was recorded on May 31, when seven Indian harbor police constables assigned to baggage inspection suddenly collapsed with high fever and prostration. Within days, the contagion crept into the labyrinthine dockside chawls of Mazagon and Dongri, inaugurating what would become the single deadliest biological slaughter in recorded human history."
+            },
+            "image": "/assets/images/spanish-flu-1918/in/in_ch_01.jpg"
+        },
+        {
+            "id": "in-ch-02",
+            "chapterNumber": 2,
+            "type": "standard",
+            "title": {
+                "id": "Rel Kereta Api Great Indian Peninsula: Pembuluh Darah Penularan",
+                "en": "The Great Indian Peninsula Railway: Arteries of Contagion"
+            },
+            "date": {
+                "id": "Juni – Juli 1918",
+                "en": "June – July 1918"
+            },
+            "flash": {
+                "id": "GERBONG KELAS TIGA KERETA API DARI VICTORIA TERMINUS MEMBAWA RIBUAN PENUMPANG TERINFEKSI KE DATARAN DECCAN, PUNJAB, DAN LEMBAH GANGGA.",
+                "en": "PACKED THIRD-CLASS RAILWAY CARRIAGES FROM VICTORIA TERMINUS SPREAD INFECTION ACROSS THE DECCAN, PUNJAB, AND GANGES BASIN."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Amplifikasi Jalur Rel Kereta Kolonial)",
+                "vector": "Gerbong kayu kelas tiga berdesakan ribuan penumpang tanpa ventilasi",
+                "incubation": "18 – 36 Jam",
+                "transmission": "Perjalanan kereta 48–72 jam di mana penumpang batuk dalam jarak beberapa inci",
+                "mutationType": {
+                    "id": "Dispersi Kontinental Instan Menggunakan Jaringan Rel Kereta Terluas Asia",
+                    "en": "Instantaneous Continental Dispersal via Asia's Largest Railway Grid"
+                },
+                "threatLevel": {
+                    "id": "Kritis Ekstrem (Virus Menembus Ribuan Desa Pedalaman dalam Hitungan Pekan)",
+                    "en": "Extreme Critical (Penetrating Thousands of Interior Villages in Weeks)"
+                },
+                "clinicalTarget": {
+                    "id": "Penumpang kereta kelas tiga, pedagang keliling, dan keluarga pekerja migran",
+                    "en": "Third-class rail passengers, itinerant traders, and migrant worker households"
+                }
+            },
+            "description": {
+                "id": "Jaringan kereta api megah yang dibangun oleh pemerintah kolonial Inggris—yang dibanggakan sebagai simbol modernitas kekaisaran—menjadi instrumen sempurna bagi penyebaran virus. Dari stasiun megah Victoria Terminus di Bombay, ribuan buruh migran yang tertular berdesakan di dalam gerbong-gerbong kelas tiga yang sempit dan pengap menuju kampung halaman mereka di pedalaman. Kereta Great Indian Peninsula (GIPR) dan East Indian Railway (EIR) meluncur melintasi ribuan mil, menurunkan penumpang yang sedang dalam fase inkubasi di stasiun-stasiun persinggahan di Dataran Tinggi Deccan, Provinsi Tengah, hingga ke Punjab dan Lembah Gangga, menyebarkan wabah ke pedesaan yang belum memiliki fasilitas medis sama sekali.",
+                "en": "The colossal railway network engineered by the British Raj—vaunted as the supreme triumph of imperial technology—became the absolute catalyst of continental contagion. From the soaring Gothic arches of Victoria Terminus in Bombay, thousands of infected migrant laborers packed into stifling, unventilated third-class wooden carriages to flee the feverish coast. Locomotives of the Great Indian Peninsula and East Indian Railway lines rumbled day and night across thousands of miles, depositing incubating passengers at rural junctions across the Deccan plateau, the Central Provinces, Punjab, and the fertile Ganges basin, injecting the pathogen directly into defenseless agricultural hamlets devoid of dispensaries."
+            },
+            "image": "/assets/images/spanish-flu-1918/in/in_ch_02.jpg"
+        },
+        {
+            "id": "in-ch-03",
+            "chapterNumber": 3,
+            "type": "milestone",
+            "title": {
+                "id": "Musibah Ganda: Kegagalan Muson, Kelaparan, & Ledakan Gelombang Kedua",
+                "en": "The Dual Scourge: Monsoon Failure, Famine, & The Second Wave Detonation"
+            },
+            "date": {
+                "id": "September – Oktober 1918",
+                "en": "September – October 1918"
+            },
+            "flash": {
+                "id": "MUSON MUSIM PANAS GAGAL TOTAL MEMICU KEKERINGAN DAN KELAPARAN; GELOMBANG KEDUA MUTAN MENGHANTAM POPULASI YANG TIDAK MEMILIKI DAYA TAHAN TUBUH.",
+                "en": "SUMMER MONSOON FAILS UTTERLY, BREEDING DROUGHT AND FAMINE; MUTATED SECOND WAVE STRIKES EMACIATED, IMMUNOSUPPRESSED POPULATION."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 Mutan Gelombang Kedua (Sinergi Lethal Malnutrisi)",
+                "vector": "Aerosol pernapasan di tengah perkampungan desa yang dilanda kelaparan parah",
+                "incubation": "12 – 24 Jam",
+                "transmission": "Inhalasi kuman pada tubuh yang mengalami kakeksia (gizi buruk ekstrem)",
+                "mutationType": {
+                    "id": "Badai Sitokin dan Pneumonia Sekunder Cepat pada Populasi Malnutrisi Akut",
+                    "en": "Hyper-Virulent Alveolitis and Rapid Bacterial Pneumonia in Starving Hosts"
+                },
+                "threatLevel": {
+                    "id": "Bencana Demografis Terbesar (Kematian Massal Tak Tertandingi dalam Sejarah)",
+                    "en": "Demographic Megacatastrophe (Unmatched Mass Casualties in Global History)"
+                },
+                "clinicalTarget": {
+                    "id": "Petani miskin desa, kaum tak berkasta (*Dalit*), dan wanita muda pedesaan",
+                    "en": "Impoverished ryot peasants, Dalit landless laborers, and rural young mothers"
+                }
+            },
+            "description": {
+                "id": "Pada musim gugur 1918, sebuah konvergensi bencana biologis dan iklim yang paling mematikan dalam sejarah modern melanda India. Hujan muson musim panas gagal turun hampir di seluruh anak benua, memicu kekeringan parah, kegagalan panen serentak, dan lonjakan harga pangan yang mencekik. Puluhan juta petani miskin berada dalam kondisi malnutrisi akut dan kelaparan saat gelombang kedua influenza yang bermutasi ganas menyapu daratan pada September. Tubuh-tubuh kurus kering tanpa cadangan nutrisi dan sistem imun yang runtuh tidak memiliki daya tahan sama sekali. Di desa-desa, virus ini membunuh dalam hitungan 24 jam; orang-orang yang sarapan pagi dalam kondisi sehat telah menjadi jenazah dingin sebelum matahari terbenam.",
+                "en": "In the autumn of 1918, the most horrific convergence of climatic failure and microbial virulence in modern history inundated India. The southwest monsoon failed across the subcontinent, causing widespread drought, catastrophic harvest failure, and skyrocketing grain prices. Tens of millions of rural peasants were already severely emaciated and immunosuppressed when the mutated, hyper-virulent second wave of H1N1 struck in September. Depleted bodies possessed zero physiological reserve. In agrarian villages, the infection killed with terrifying speed: individuals who took their morning tea in apparent health lay cold, cyanotic corpses before nightfall, suffocating in their own alveolar blood."
+            },
+            "image": "/assets/images/spanish-flu-1918/in/in_ch_03.jpg"
+        },
+        {
+            "id": "in-ch-04",
+            "chapterNumber": 4,
+            "type": "milestone",
+            "title": {
+                "id": "Api Unggun Kematian Sungai Gangga: Krisis Kayu Bakar Kremasi",
+                "en": "The Burning Ghats of the Ganges: Firewood Depletion & River of Dead"
+            },
+            "date": {
+                "id": "Oktober – November 1918",
+                "en": "October – November 1918"
+            },
+            "flash": {
+                "id": "TEMPAT KREMASI DI VARANASI DAN SEPANJANG SUNGAI GANGGA KEHABISAN KAYU BAKAR; RIBUAN JENAZAH HANYA DILAPISI KAIN DAN DILARUNGKAN KE SUNGAI SUCI.",
+                "en": "BURNING GHATS AT VARANASI RUN OUT OF FIREWOOD; THOUSANDS OF HALF-CHARRED AND SHROUDED CORPSES CHOKE THE SACRED GANGES."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Kolaps Total Tradisi Pemulasaraan Jenazah Hindu)",
+                "vector": "Kerumunan massa di tepi sungai (*ghats*) dan rumah abu jenazah",
+                "incubation": "24 Jam",
+                "transmission": "Kontak langsung para pelayat dan keluarga yang membawa mayat tanpa henti",
+                "mutationType": {
+                    "id": "Kelumpuhan Rantai Pasokan Kayu Bakar Akibat Lonjakan Kematian Eksponensial",
+                    "en": "Complete Exhaustion of Fuelwood Supply Chains under Exponential Death Surge"
+                },
+                "threatLevel": {
+                    "id": "Katastropik Kemanusiaan (Sungai-Sungai Besar Menjadi Saluran Penampungan Jenazah)",
+                    "en": "Humanitarian Cataclysm (Major Rivers Becoming Open Conduits for Corpses)"
+                },
+                "clinicalTarget": {
+                    "id": "Keluarga pelayat, pembakar jenazah kasta Dom di Varanasi, dan peziarah suci",
+                    "en": "Bereaved families, Dom community cremation workers at Varanasi, and pilgrims"
+                }
+            },
+            "description": {
+                "id": "Di kota suci Varanasi (Benares) dan di sepanjang tepian Sungai Gangga, tradisi sakral kremasi Hindu (*antyesti*) runtuh total di bawah beban jutaan kematian. Persediaan kayu bakar habis dalam hitungan hari; harga seikat kayu melonjak hingga melampaui kemampuan keluarga miskin. Tempat pembakaran jenazah Manikarnika dan Harishchandra menyala siang dan malam tanpa henti, memuntahkan asap tebal yang membubung ke langit kelabu. Ketika kayu bakar benar-benar tidak dapat diperoleh lagi, para keluarga yang putus asa hanya mampu membakar sebagian wajah jenazah secara simbolis atau membungkus mayat dengan kain putih sebelum melarungkannya ke arus Sungai Gangga dan Yamuna. Para pelaut Inggris melaporkan bahwa kapal uap mereka terhalang oleh ribuan mayat yang mengapung di perairan hilir.",
+                "en": "At the holy city of Varanasi and along the banks of the Ganges, the sacred Hindu funerary rites of cremation (*antyesti*) collapsed under an avalanche of corpses. Fuelwood reserves vanished in days; the price of timber escalated beyond the reach of the impoverished peasantry. The funeral pyres at Manikarnika and Harishchandra Ghats burned day and night without pause, belching oily black smoke into the smog-choked air. When firewood was entirely exhausted, desperate families scorched the facial features of their dead symbolically with a bundle of straw, wrapped the bodies in white cloth, and pushed them directly into the currents of the Ganges, Yamuna, and Narmada. British riverboat captains reported steamships unable to maneuver as paddle wheels clogged with bloated human remains."
+            },
+            "image": "/assets/images/spanish-flu-1918/in/in_ch_04.jpg"
+        },
+        {
+            "id": "in-ch-05",
+            "chapterNumber": 5,
+            "type": "standard",
+            "title": {
+                "id": "Lumbung Pangan Menjadi Rumah Jagal: Kehancuran Total di Punjab",
+                "en": "The Granary as Charnel House: Total Devastation Across Punjab"
+            },
+            "date": {
+                "id": "Oktober – November 1918",
+                "en": "October – November 1918"
+            },
+            "flash": {
+                "id": "PUNJAB MENCATAT ANGKA KEMATIAN TERTINGGI DI INDIA; SELURUH DESA DI RAWAPILINDI DAN AMRITSAR MENJADI DESA MATI TANPA SATU PUN PENDUDUK HIDUP.",
+                "en": "PUNJAB RECORDS HIGHEST MORTALITY BURDEN IN ASIA; ENTIRE VILLAGES IN RAWALPINDI AND AMRITSAR VANISH INTO SILENT DESERTED GHOST TOWNS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Kematian Selektif Populasi Pekerja Agraris)",
+                "vector": "Komunitas desa terisolasi tanpa sumur air bersih atau dokter distrik",
+                "incubation": "12 – 24 Jam",
+                "transmission": "Inhalasi aerosol di dalam rumah tanah liat (*kucha houses*) yang tertutup rapat",
+                "mutationType": {
+                    "id": "Tingkat Kematian Menembus 8–10% dari Total Populasi Provinsi Punjab",
+                    "en": "Excess Mortality Surging Past 8–10% of Total Provincial Population"
+                },
+                "threatLevel": {
+                    "id": "Pembersihan Demografis (Kehancuran Tulang Punggung Agraris Kemaharajaan)",
+                    "en": "Demographic Decimation (Collapse of the Raj's Agrarian and Military Backbone)"
+                },
+                "clinicalTarget": {
+                    "id": "Petani gandum Sikh, Muslim, dan Hindu usia 20–40 tahun di pedesaan Punjab",
+                    "en": "Sikh, Muslim, and Hindu wheat cultivators aged 20–40 across rural Punjab"
+                }
+            },
+            "description": {
+                "id": "Provinsi Punjab—lumbung gandum anak benua dan sumber utama rekrutmen prajurit Angkatan Darat India-Inggris—mengalami salah satu tingkat kematian paling mengerikan di muka bumi. Di distrik-distrik seperti Gujranwala, Rawalpindi, dan Amritsar, tingkat kematian per kapita melampaui 80 per 1.000 penduduk. Seluruh desa berubah menjadi permukiman hantu. Di banyak tempat, tidak ada satu pun orang sehat yang tersisa untuk mengambil air dari sumur atau menanak nasi untuk mereka yang sekarat. Tanaman gandum musim gugur mengering dan mati di ladang karena tidak ada tangan yang memanennya. Para pejabat distrik kolonial yang berkeliling dengan kuda mencatat dalam buku harian mereka pemandangan desa-desa yang sunyi senyap, di mana satu-satunya suara adalah erangan penderita yang sekarat dan lolongan anjing kelaparan di samping mayat pemiliknya.",
+                "en": "The Punjab—breadbasket of the subcontinent and traditional recruiting reservoir for the British Indian Army—endured one of the most horrific per-capita mortality rates on Earth. In districts like Gujranwala, Rawalpindi, and Amritsar, excess death rates exceeded 80 per 1,000 inhabitants. Entire agricultural villages turned into desolate necropolises. In hamlet after hamlet, not a single able-bodied person survived to draw water from the village well or boil rice for the dying. Unharvested wheat rotted in the sun. Touring colonial revenue officers recorded in their journals the haunting silence of deserted settlements where the only sound was the low groaning of terminal patients and the snarling of wild pariah dogs feeding upon corpses in unlatched courtyards."
+            },
+            "image": "/assets/images/spanish-flu-1918/in/in_ch_05.jpg"
+        },
+        {
+            "id": "in-ch-06",
+            "chapterNumber": 6,
+            "type": "side_story",
+            "title": {
+                "id": "Pertarungan Hidup Mati Sang Mahatma di Sabarmati Ashram",
+                "en": "The Mahatma at Death's Door: Gandhi's Crisis at Sabarmati Ashram"
+            },
+            "date": {
+                "id": "Oktober 1918",
+                "en": "October 1918"
+            },
+            "flash": {
+                "id": "MAHATMA GANDHI AMBRUK SEKARAT DENGAN DISENTRI DAN DEMAM PARU DI AHMEDABAD; PENOLAKANNYA TERHADAP OBAT BARAT HAMPIR MENGUBAH NASIB KEMERDEKAAN INDIA.",
+                "en": "MAHATMA GANDHI COLLAPSES GRAVELY ILL WITH FEVER AND DYSENTERY AT AHMEDABAD; REFUSAL OF WESTERN DRUGS NEARLY ALTERS HISTORY OF INDIAN FREEDOM."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Infeksi Komorbiditas pada Tokoh Nasionalis Kunci)",
+                "vector": "Kampanye rekrutmen militer di desa-desa Gujarat yang padat penduduk",
+                "incubation": "24 Jam",
+                "transmission": "Inhalasi droplet saat berpidato di hadapan ribuan petani Kheda",
+                "mutationType": {
+                    "id": "Komplikasi Akut Tubuh yang Kelelahan Hebat Pasca-Tur Politik Nasional",
+                    "en": "Severe Acute Complication in Host Exhausted by Relentless Political Tours"
+                },
+                "threatLevel": {
+                    "id": "Sejarah Kritis (Potensi Kehilangan Pemimpin Moral Tertinggi Gerakan Kemerdekaan)",
+                    "en": "Historical Pivot (Potential Loss of Supreme Moral Leader of Independence)"
+                },
+                "clinicalTarget": {
+                    "id": "Mohandas Karamchand Gandhi dan para pengikutnya di Sabarmati Ashram",
+                    "en": "Mohandas Karamchand Gandhi and disciples at Sabarmati Ashram"
+                }
+            },
+            "description": {
+                "id": "Pada Oktober 1918, saat pandemi mencapai puncak pembantaiannya, Mahatma Gandhi terbaring sekarat di atas kasur lantai di Sabarmati Ashram dekat Ahmedabad. Kelelahan fisik luar biasa akibat berkeliling desa-desa Gujarat untuk merekrut sukarelawan telah meruntuhkan daya tahannya, membuatnya terserang disentri akut yang diperparah oleh infeksi influenza yang sedang merajalela. Gandhi, yang berpegang teguh pada prinsip pengobatan alami (*nature cure*), menolak keras meminum kaldu daging sapi atau obat-obatan kimia buatan Inggris yang diresepkan dokter dokter kolonial. Selama berminggu-minggu, sang pemimpin masa depan kemerdekaan India berada di ambang kematian, hingga istrinya, Kasturba, membujuknya untuk meminum susu kambing hangat yang akhirnya memulihkan tenaganya secara perlahan.",
+                "en": "In October 1918, at the very zenith of the subcontinent's mortality curve, Mahatma Gandhi lay hovering between life and death on a simple cotton mat at Sabarmati Ashram near Ahmedabad. Physical exhaustion from trudging through the heat of Gujarat to recruit volunteers had shattered his constitution, leaving him prey to acute dysentery complicated by the raging influenzal epidemic. Devoted to strict principles of dietary purity (*nature cure*), Gandhi adamantly refused beef tea broth, injections, and synthetic Western medicines prescribed by frantic colonial surgeons. For weeks, the future architect of Indian independence lingered on the threshold of the grave, until his wife Kasturba persuaded him to accept warm goat's milk, initiating an agonizingly slow convalescence."
+            },
+            "image": "/assets/images/spanish-flu-1918/in/in_ch_06.jpg"
+        },
+        {
+            "id": "in-ch-07",
+            "chapterNumber": 7,
+            "type": "side_story",
+            "title": {
+                "id": "Kesaksian Penyair Nirala: Sungai Mayat yang Menenggelamkan Keluarga",
+                "en": "The Chronicle of Poet Nirala: A River of Dead Kinsfolk"
+            },
+            "date": {
+                "id": "Akhir 1918",
+                "en": "Late 1918"
+            },
+            "flash": {
+                "id": "PENYAIR BESAR HINDI NIRALA MENYAKSIKAN SUNGAI GANGGA DIPENUHI MAYAT ISTRI, ANAK PEREMPUAN, DAN KERABATNYA TANPA SEBUTIR KAYU BAKAR UNTUK KREMASI.",
+                "en": "CELEBRATED HINDI POET NIRALA BEHOLDS THE GANGES SWOLLEN WITH CORPSES OF HIS WIFE, DAUGHTER, AND KIN AS FUNERAL TIMBER DISAPPEARS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Tragedi Kemanusiaan & Trauma Sastra)",
+                "vector": "Rumah keluarga pedesaan di distrik Unnao, Uttar Pradesh",
+                "incubation": "24 Jam",
+                "transmission": "Penyebaran keluarga intim di mana seluruh anggota keluarga terinfeksi serentak",
+                "mutationType": {
+                    "id": "Pemusnahan Garis Keturunan Keluarga dalam Satu Siklus Inkubasi Tunggal",
+                    "en": "Annihilation of Extended Family Lineages within a Single Incubation Cycle"
+                },
+                "threatLevel": {
+                    "id": "Trauma Budaya Mendalam (Terekam Abadi dalam Sastra Sastra Klasik Hindi)",
+                    "en": "Cultural Trauma (Immortalized in Classical 20th-Century Hindi Literature)"
+                },
+                "clinicalTarget": {
+                    "id": "Istri muda penyair, Manohara Devi, anak perempuan, paman, dan sepupunya",
+                    "en": "The poet's young wife Manohara Devi, his daughter, uncles, and cousins"
+                }
+            },
+            "description": {
+                "id": "Salah satu rekaman kesaksian sastra paling menyayat hati tentang flu 1918 ditulis oleh penyair besar Hindi, Suryakant Tripathi yang dikenal sebagai 'Nirala'. Di kampung halamannya di Dalmau, tepi Sungai Gangga, Nirala menyaksikan seluruh keluarganya lenyap dalam hitungan hari. Istri tercintanya, Manohara Devi, paman-pamannya, dan puluhan kerabat dekatnya meninggal hampir serempak. Dalam memoar monumentalnya *Kulli Bhaat*, Nirala menulis dengan kepedihan abadi: 'Sungai Gangga dipenuhi oleh mayat-mayat manusia yang membengkak mengapung. Ke mana pun mata memandang, hanya terlihat kepala-kepala manusia yang mengambang di air. Keluarga saya musnah di depan mata saya, dan tidak ada cukup kayu bakar di seluruh wilayah untuk membakar jenazah mereka satu per satu.'",
+                "en": "Among the most harrowing literary testimonies of the 1918 cataclysm was penned by the towering Hindi poet Suryakant Tripathi, celebrated by his pen name 'Nirala'. At his ancestral village of Dalmau on the Ganges, Nirala watched his entire domestic universe dissolve into nothingness within a matter of days. His beloved young wife, Manohara Devi, his daughter, uncles, and cousins died in rapid succession. In his haunting autobiographical work *Kulli Bhaat*, Nirala inscribed words that became an indelible epitaph for a generation: 'The river was swollen with the corpses of my kinsmen. Wherever I looked, I saw human heads floating upon the holy waters like dark timber. My family disappeared before my eyes, and there was not enough firewood in all the province to burn their bodies.'"
+            },
+            "image": "/assets/images/spanish-flu-1918/in/in_ch_07.jpg"
+        },
+        {
+            "id": "in-ch-08",
+            "chapterNumber": 8,
+            "type": "standard",
+            "title": {
+                "id": "Pengabaian Kolonial: Rekuisisi Gandum di Tengah Jutaan Kematian",
+                "en": "Imperial Indifference: Grain Requisitions Amid Millions of Funerals"
+            },
+            "date": {
+                "id": "Oktober – Desember 1918",
+                "en": "October – December 1918"
+            },
+            "flash": {
+                "id": "PEMERINTAH KOLONIAL INGGRIS TETAP MENGEKSPOR JUTAAN TON BERAS DAN GANDUM DARI PELABUHAN SAAT RAKYAT PEDESAAN SEKARAT KELAPARAN DAN DEMAM.",
+                "en": "BRITISH COLONIAL GOVERNMENT CONTINUES EXPORTING GRAIN FROM PORTS AS RURAL PEASANTRY PERISHES OF FEVER AND MALNUTRITION."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Faktor Kebijakan Ekstraktif Kolonial)",
+                "vector": "Jalur ekspor kargo gandum militer melalui pelabuhan Karachi dan Calcutta",
+                "incubation": "N/A (Kebijakan Sosio-Ekonomi Ekstraktif)",
+                "transmission": "Perampasan cadangan pangan pedesaan mempercepat kolaps daya tahan imunologi",
+                "mutationType": {
+                    "id": "Amplifikasi Tingkat Kematian Akibat Kebijakan Ketahanan Pangan Diskriminatif",
+                    "en": "Mortality Amplification via Coercive Colonial Food Requisitioning"
+                },
+                "threatLevel": {
+                    "id": "Katastropik Kebijakan (Kematian Massal yang Sebenarnya Dapat Dicegah)",
+                    "en": "Policy Catastrophe (Preventable Mass Mortality Compounded by Apathy)"
+                },
+                "clinicalTarget": {
+                    "id": "Masyarakat agraris pedesaan miskin di seluruh Kepresidenan Bombay dan Madras",
+                    "en": "Impoverished rural ryots across Bombay, Madras, and Bengal Presidencies"
+                }
+            },
+            "description": {
+                "id": "Di tengah jeritan duka jutaan rakyat yang sekarat, respon pemerintah kolonial Kemaharajaan Britania di New Delhi dinilai oleh para sejarawan sebagai bentuk kelalaian birokrasi yang mematikan. Alih-alih mengalokasikan anggaran darurat untuk bantuan medis, pemerintah kolonial tetap melanjutkan rekuisisi jutaan ton gandum dari pedesaan India untuk dikapalkan ke medan perang Eropa demi memenuhi komitmen perang Sekutu. Gerbong-gerbong kereta api diprioritaskan untuk mengangkut amunisi dan bahan mentah militer, bukan untuk mendistribusikan obat kina atau bantuan pangan ke distrik-distrik yang terisolasi. Otoritas sipil Inggris berkeras mempertahankan doktrin pasar bebas *laissez-faire*, melarang pengendalian harga gandum lokal dan membiarkan para spekulan menimbun beras di tengah wabah.",
+                "en": "Amid the agony of millions suffocating in rural mud huts, the response of the British Raj administration in New Delhi was characterized by historians as lethally indifferent. Rather than releasing emergency famine funds or mobilizing medical reserves, colonial administrators continued to enforce wartime export quotas, shipping millions of tons of Indian grain overseas to feed Allied armies in Europe and the Middle East. Rail priority was reserved exclusively for munitions and military freight, denying rolling stock for distributing quinine, camphor, or emergency grain to afflicted districts. Wedded to rigid Victorian *laissez-faire* dogmas, colonial governors refused to cap skyrocketing food prices, permitting hoarding cartels to profit while entire villages starved in their deathbeds."
+            },
+            "image": "/assets/images/spanish-flu-1918/in/in_ch_08.jpg"
+        },
+        {
+            "id": "in-ch-09",
+            "chapterNumber": 9,
+            "type": "side_story",
+            "title": {
+                "id": "Ayurveda, Hakim Unani, & Batas Pengobatan Barat Kolonial",
+                "en": "Ayurveda, Unani Hakims, & The Limits of Western Colonial Medicine"
+            },
+            "date": {
+                "id": "November 1918",
+                "en": "November 1918"
+            },
+            "flash": {
+                "id": "DOKTER BARAT KEHABISAN OBAT DAN MELARIKAN DIRI DARI BANGSAL; PRAKTISI AYURVEDA DAN HAKIM UNANI MENJADI BENTENG TERAKHIR PERAWATAN WARGA.",
+                "en": "WESTERN CLINICS RUN OUT OF QUININE AND SUPPLIES; AYURVEDIC VAIDYAS AND UNANI HAKIMS BECOME THE SOLE REFUGE FOR AFFLICTED MILLIONS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Respons Pengobatan Tradisional Pribumi)",
+                "vector": "Klinik-klinik darurat dharamsala dan apotek herbal tradisional di bazaar",
+                "incubation": "1 – 3 Hari",
+                "transmission": "Pemberian ramuan herbal suportif untuk meredakan demam dan inflamasi bronkus",
+                "mutationType": {
+                    "id": "Pemanfaatan Ramuan Botani Tradisional Kaya Fitokimia Imunomodulator",
+                    "en": "Deployment of Indigenous Botanical Formulations with Immunomodulating Compounds"
+                },
+                "threatLevel": {
+                    "id": "Sedang (Perawatan Suportif Paling Berharga di Luar Fasilitas Resmi Kolonial)",
+                    "en": "Moderate (Crucial Supportive Care Beyond Collapsed Colonial Dispensaries)"
+                },
+                "clinicalTarget": {
+                    "id": "Rakyat jelata perkotaan dan pedesaan yang tidak memiliki akses ke rumah sakit Barat",
+                    "en": "Urban and rural masses lacking access to European cantonment hospitals"
+                }
+            },
+            "description": {
+                "id": "Dengan hanya ada satu dokter berpendidikan Barat untuk setiap 40.000 penduduk India pada tahun 1918, sistem medis kolonial runtuh seketika pada pekan-pekan pertama gelombang kedua. Apotek rumah sakit pemerintah kehabisan kina, kalium iodida, dan digitalis. Di tengah kehampaan medis ini, para praktisi pengobatan tradisional India—para *Vaidya* Ayurveda dan *Hakim* Unani—tampil sebagai penyelamat jutaan rakyat. Mereka membagikan rebusan daun tulsi (*Ocimum sanctum*), lada hitam (*pippali*), jahe kering, dan madu hutan untuk melegakan saluran napas, serta mengoleskan pasta cendana dingin di dahi penderita untuk meredakan demam tinggi. Di bazaar-bazaar kota, para sukarelawan masyarakat mendirikan dapur umum dan membagikan ramuan herbal gratis kepada siapa pun yang membutuhkan tanpa memandang kasta atau agama.",
+                "en": "With merely one Western-trained physician for every 40,000 Indian subjects in 1918, the imperial medical service collapsed almost immediately upon the arrival of the second wave. Government dispensaries exhausted supplies of quinine, aspirin, and digitalis within forty-eight hours. In this desperate vacuum, indigenous medical practitioners—Ayurvedic *vaidyas* and Greco-Arab *hakims*—stepped forward as the sole barrier between the afflicted and the grave. In street stalls and courtyard dispensaries, they distributed decoctions of holy basil (*tulsi*), long pepper (*pippali*), dry ginger, and forest honey to ease bronchial agony, applying cooling sandalwood paste to burning foreheads. In city bazaars, volunteer civic committees established community kitchens, dispensing herbal decoctions to all sufferers irrespective of caste or creed."
+            },
+            "image": "/assets/images/spanish-flu-1918/in/in_ch_09.jpg"
+        },
+        {
+            "id": "in-ch-10",
+            "chapterNumber": 10,
+            "type": "standard",
+            "title": {
+                "id": "Penetrasi Selatan: Pabrik Kapas Madras & Pedesaan Tamil Nadu",
+                "en": "Southern Penetration: Madras Mills & Rural Tamil Nadu"
+            },
+            "date": {
+                "id": "November – Desember 1918",
+                "en": "November – December 1918"
+            },
+            "flash": {
+                "id": "PANDEMI MERAMBAH KE SELATAN MENUJU KEPRESIDENAN MADRAS DAN KERAJAAN MYSORE; PABRIK TEKSTIL COIMBATORE BERHENTI BERPUTAR KARENA RIBUAN BURUH TEWAS.",
+                "en": "PANDEMIC ROLLS SOUTH INTO MADRAS PRESIDENCY AND MYSORE STATE; COIMBATORE COTTON SPINDLES FALL SILENT AS WORKERS DIE EN MASSE."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Penetrasi Semenanjung Selatan India)",
+                "vector": "Jalur kereta api Madras and Southern Mahratta Railway (MSMR)",
+                "incubation": "24 Jam",
+                "transmission": "Kepadatan barak pekerja pabrik pemintalan kapas di Coimbatore dan Madurai",
+                "mutationType": {
+                    "id": "Adaptasi Transmisi di Wilayah Tropis Lembap Pesisir Koromandel",
+                    "en": "Climatic Adaptation to Humid Tropical Coromandel Coastal Climate"
+                },
+                "threatLevel": {
+                    "id": "Tinggi (Kelumpuhan Basis Industri Manufaktur Tekstil India Selatan)",
+                    "en": "High (Paralysis of South Indian Cotton and Textile Manufacturing Hubs)"
+                },
+                "clinicalTarget": {
+                    "id": "Buruh pabrik pemintalan kapas, penenun sari sutra, dan petani padi delta Cauvery",
+                    "en": "Cotton textile millhands, silk weavers, and Cauvery delta paddy farmers"
+                }
+            },
+            "description": {
+                "id": "Pada akhir November 1918, virus meluncur melintasi perbatasan selatan menuju Kepresidenan Madras dan wilayah Kerajaan Mysore. Di pusat industri kapas Coimbatore dan Madurai, ribuan buruh pemintalan kapas yang menghirup udara berdebu di dalam pabrik yang panas tertular serentak. Mesin-mesin pintal berhenti berputar karena tidak ada tenaga kerja yang tersisa. Di kawasan perdesaan delta Sungai Cauvery, para petani padi roboh di pematang sawah mereka di tengah musim tanam. Di kota Madras (Chennai), kamar mayat Rumah Sakit Umum dipenuhi jenazah hingga ke halaman; dewan kota terpaksa mengerahkan gerobak sampah ditarik sapi jantan untuk mengangkut mayat dari gang-gang George Town langsung ke tempat pembakaran pesisir Marina Beach.",
+                "en": "By late November 1918, the infection plunged into the southern extremities of the subcontinent, engulfing the Madras Presidency and the princely state of Mysore. In the burgeoning textile centers of Coimbatore and Madurai, thousands of cotton mill hands, their lungs already compromised by lint and humidified heat, succumbed in masses. Loom shuttles ceased their clatter as shifts dissolved into sick wards. In the rural rice paddies of the fertile Cauvery delta, peasants crumpled beside irrigation ditches during the critical planting season. In Madras city, the General Hospital morgue overflowed onto open lawns; municipal sanitary inspectors requisitioned bullock carts to drag corpses from the alleys of George Town directly to mass pyres blazing along Marina Beach."
+            },
+            "image": "/assets/images/spanish-flu-1918/in/in_ch_10.jpg"
+        },
+        {
+            "id": "in-ch-11",
+            "chapterNumber": 11,
+            "type": "standard",
+            "title": {
+                "id": "Gelombang Ketiga di Delta Benggala & Perbatasan Barat Laut",
+                "en": "The Third Wave in the Bengal Delta & The North-West Frontier"
+            },
+            "date": {
+                "id": "Januari – April 1919",
+                "en": "January – April 1919"
+            },
+            "flash": {
+                "id": "GELOMBANG KETIGA MENYUSUP KE BAZAAR-BAZAAR CALCUTTA DAN LEMBAH KHYBER; MENELAN RATUSAN RIBU KORBAN TAMBAHAN SEBELUM VIRUS MEREDA.",
+                "en": "THIRD WAVE INFILTRATES OVERCROWDED BAZAARS OF CALCUTTA AND THE KHYBER PASS, REAPING HUNDREDS OF THOUSANDS OF ADDITIONAL VICTIMS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Gelombang Ketiga Awal 1919 di Asia Selatan)",
+                "vector": "Bazaar padat Calcutta, perahu sungai delta Benggala, dan pos karavan Khyber",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Penyebaran di pemukiman kumuh (*bustees*) Calcutta dan pos perbatasan suku Pashtun",
+                "mutationType": {
+                    "id": "Penurunan Gradual Virulensi Seiring Tercapainya Kekebalan Kelompok Parsial",
+                    "en": "Gradual Attenuation of Virulence as Partial Population Immunity Builds"
+                },
+                "threatLevel": {
+                    "id": "Sedang-Tinggi (Menyerang Kantong Populasi yang Luput dari Gelombang Kedua)",
+                    "en": "Moderate-High (Harvesting Pockets That Escaped Second Wave Infection)"
+                },
+                "clinicalTarget": {
+                    "id": "Penduduk kawasan bustees Calcutta, pedagang karavan Khyber, dan buruh goni Benggala",
+                    "en": "Calcutta bustee slum dwellers, Khyber caravan traders, and Bengal jute millhands"
+                }
+            },
+            "description": {
+                "id": "Pada awal 1919, gelombang ketiga menyapu kantong-kantong wilayah timur dan barat laut anak benua yang belum sepenuhnya tersentuh oleh amukan musim gugur. Di Calcutta, ibu kota kedua Kemaharajaan, virus merayap melalui permukiman kumuh (*bustees*) yang luar biasa padat dan pabrik-pabrik pengolahan serat goni di sepanjang Sungai Hooghly. Pada saat yang sama, di perbatasan barat laut berbukit cadas, virus merambah pos-pos karavan di Celah Khyber dan lembah Peshawar di kalangan suku Pashtun dan Baloch. Meskipun virulensinya mulai menunjukkan tanda-tanda pelemahan dibandingkan dengan puncak mematikan Oktober 1918, gelombang ketiga ini tetap menelan ratusan ribu nyawa sebelum akhirnya mereda menjadi influenza musiman pada musim panas 1919.",
+                "en": "In early 1919, a lingering third wave harvested remaining vulnerable pockets across the eastern delta and the rugged northwestern frontier. In Calcutta, second city of the Empire, the contagion seeped through the suffocatingly dense *bustee* tenements and jute mills lining the Hooghly River. Simultaneously, along the jagged crags of the North-West Frontier, the virus infiltrated camel caravan sarais throughout the Khyber Pass and the Peshawar valley, afflicting fiercely independent Pashtun and Baloch tribesmen. While the strain demonstrated diminished lethality compared to the apocalyptic October peak, this final flare-up extinguished hundreds of thousands of additional lives before subsiding into seasonal endemicity by summer 1919."
+            },
+            "image": "/assets/images/spanish-flu-1918/in/in_ch_11.jpg"
+        },
+        {
+            "id": "in-ch-12",
+            "chapterNumber": 12,
+            "type": "side_story",
+            "title": {
+                "id": "Katalis Kemerdekaan: Amarah Rakyat & Kelahiran Gerakan Non-Kooperasi",
+                "en": "Catalyst of Swaraj: Popular Fury and the Birth of Non-Cooperation"
+            },
+            "date": {
+                "id": "1919 – 1920",
+                "en": "1919 – 1920"
+            },
+            "flash": {
+                "id": "KEMARAHAN ATAS PENGABAIAN KOLONIAL SAAT PANDEMI MENJADI BAHAN BAKAR PERLAWANAN RAKYAT; MEMICU DUKUNGAN MASSAL PADA GERAKAN SATYAGRAHA GANDHI.",
+                "en": "POPULAR RAGE OVER COLONIAL EPIDEMIC APATHY FUELS MASS RESISTANCE, SUPERCHARGING NATIONWIDE SUPPORT FOR GANDHI'S SATYAGRAHA."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Dampak Geopolitik Antikolonial)",
+                "vector": "Pertemuan rapat akbar Kongres Nasional India dan pamflet politik",
+                "incubation": "N/A (Transformasi Kesadaran Politik)",
+                "transmission": "Penyebaran rasa ketidakadilan moral yang melintasi sekat kasta dan agama",
+                "mutationType": {
+                    "id": "Transformasi Trauma Kesehatan Massal Menjadi Gerakan Politik Revolusioner",
+                    "en": "Transformation of Mass Health Trauma into Revolutionary Nationalist Mobilization"
+                },
+                "threatLevel": {
+                    "id": "Eksistensial Imperial (Meruntuhkan Legitimasi Moral Kemaharajaan Britania di India)",
+                    "en": "Imperial Existential (Dissolving Moral Legitimacy of the British Raj)"
+                },
+                "clinicalTarget": {
+                    "id": "Kekuasaan kolonial Inggris dan kesadaran politik jutaan rakyat India",
+                    "en": "British colonial hegemony and the political consciousness of the Indian masses"
+                }
+            },
+            "description": {
+                "id": "Kematian belasan juta rakyat tanpa bantuan memadai dari pemerintah kolonial menghancurkan mitos lama tentang 'pemerintahan Inggris yang beradab dan penuh kebajikan' (*Pax Britannica*). Ketidakpedulian para pejabat Inggris yang terus mengekspor gandum sementara rakyat mati kelaparan dan tercekik flu menyulut kemarahan mendalam di seluruh lapisan masyarakat India. Tragedi ini, yang segera disusul oleh Pembantaian Jallianwala Bagh di Amritsar pada April 1919, mengubah suasana politik secara radikal. Mahatma Gandhi dan Kongres Nasional India menemukan jutaan pengikut baru yang siap menentang kekuasaan Inggris. Pandemi flu 1918 menjadi katalis sosiologis tak terlihat yang mendorong jutaan rakyat India bergabung ke dalam Gerakan Non-Kooperasi (*Asahyog Andolan*), mempercepat perjalanan tak terhentikan menuju kemerdekaan India (*Swaraj*).",
+                "en": "The abandonment of nearly twenty million subjects in their hour of agony irrevocably shattered the ideological fiction of the 'benevolent' British Raj (*Pax Britannica*). The spectacle of colonial magistrates requisitioning grain for export while village wells were poisoned by rotting corpses ignited unquenchable fury across every stratum of Indian society. This profound psychological disillusionment, swiftly followed by the Jallianwala Bagh massacre in Amritsar in April 1919, radically transformed the nationalist landscape. Mahatma Gandhi and the Indian National Congress found millions of rural peasants receptive to radical defiance. The 1918 pandemic functioned as the subterranean sociological crucible that forged the Non-Cooperation Movement (*Asahyog Andolan*), permanently setting India upon the road to Swaraj."
+            },
+            "image": "/assets/images/spanish-flu-1918/in/in_ch_12.jpg"
+        },
+        {
+            "id": "in-ch-13",
+            "chapterNumber": 13,
+            "type": "summary",
+            "title": {
+                "id": "Audit Epidemiologis Anak Benua: 17,5–20 Juta Jiwa & Luka Abadi Imperium",
+                "en": "Epidemiological Audit of the Subcontinent: 17.5–20 Million Dead & The Imperial Scar"
+            },
+            "date": {
+                "id": "1919 – 1921",
+                "en": "1919 – 1921"
+            },
+            "flash": {
+                "id": "SENSUS KOLONIAL 1921 MENGUNGKAP ANJLOKNYA POPULASI HINGGA LEBIH DARI 17,5 JUTA JIWA; INDIA MENJADI TITIK NOL BENCANA KEMATIAN TERBESAR DI MUKA BUMI.",
+                "en": "THE 1921 CENSUS REVEALS THE DISAPPEARANCE OF OVER 17.5 MILLION SOULS; INDIA STANDS AS THE ABSOLUTE EPICENTER OF GLOBAL PANDEMIC MORTALITY."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Audit Demografis Historis Sensus 1921)",
+                "vector": "Endemisasi influenza musiman pasca-pandemi",
+                "incubation": "1 – 4 Hari",
+                "transmission": "Evolusi menjadi influenza endemik di dataran Asia Selatan",
+                "mutationType": {
+                    "id": "Kehilangan Hampir 5% Populasi Total Anak Benua dalam Kurun Waktu Kurang dari Dua Tahun",
+                    "en": "Extinction of Nearly 5% of Total Subcontinental Population in Under Two Years"
+                },
+                "threatLevel": {
+                    "id": "Audit Historis Global (Korban Terbanyak dari Seluruh Wilayah Dunia)",
+                    "en": "Global Historical Audit (Accounting for Over One-Third of Worldwide Casualties)"
+                },
+                "clinicalTarget": {
+                    "id": "Generasi perempuan muda dan pekerja produktif anak benua India",
+                    "en": "Young childbearing women and agrarian laborers of the Indian subcontinent"
+                }
+            },
+            "description": {
+                "id": "Ketika Sensus Penduduk Imperial 1921 dirilis, besarnya skala malapetaka di India akhirnya terungkap dalam angka statistik dingin yang membekukan darah. Untuk pertama dan satu-satunya kalinya dalam sejarah sensus modern India, populasi anak benua mengalami penurunan absolut antara tahun 1911 dan 1921. Analisis demografis modern oleh para sejarawan dan epidemiolog memperkirakan bahwa antara 17,5 hingga lebih dari 20 juta orang tewas di India saja—mewakili lebih dari sepertiga total korban jiwa Flu Spanyol di seluruh dunia. Yang paling tragis, tingkat kematian di kalangan wanita muda berusia 20–35 tahun mencapai dua kali lipat pria, karena peran mereka merawat orang sakit di rumah dan kerentanan fatal saat kehamilan. Tragedi ini tetap menjadi luka demografi terdalam dan paling sunyi dalam sejarah modern Asia Selatan.",
+                "en": "When the 1921 Imperial Census of India was finalized, the astronomical scale of the slaughter was laid bare in chilling, irrefutable statistics. For the first and only time in modern subcontinental demographic history, the decennial census recorded an absolute contraction in total population between 1911 and 1921. Modern historical epidemiologists estimate that between 17.5 and upwards of 20 million Indian human beings were annihilated in the span of months—accounting for well over one-third of the pandemic's worldwide death toll. Most tragically, mortality among young women aged 20–35 was nearly double that of men, driven by their societal duty of tending the dying and extreme susceptibility during pregnancy. It endures as the deepest, most sorrowful demographic scar in modern South Asian history."
+            },
+            "image": "/assets/images/spanish-flu-1918/in/in_ch_13.jpg"
+        }
+    ]
+}

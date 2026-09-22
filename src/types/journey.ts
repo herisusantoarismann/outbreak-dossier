@@ -33,7 +33,7 @@ export interface SocietalImpact {
 export interface Chapter {
     id: string;
     chapterNumber: string | number;
-    type: "standard" | "milestone" | "side_story";
+    type: "standard" | "milestone" | "side_story" | "summary";
     title: LocalizedContent;
     date: LocalizedContent;
     strain?: string;

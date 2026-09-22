@@ -1,0 +1,452 @@
+{
+    "sectorId": "ES",
+    "sectorName": {
+        "id": "Sektor ES (Spanyol: Madrid, Infeksi Raja Alfonso XIII, & Lahirnya Julukan 'Flu Spanyol' // 1918–1919)",
+        "en": "Sector ES (Spain: Madrid, King Alfonso XIII's Infection, & Birth of the 'Spanish Flu' Moniker // 1918–1919)"
+    },
+    "coordinates": [40.4168, -3.7038],
+    "timeRange": "Mei 1918 – Awal 1920",
+    "estimatedFatalities": "260.000+ jiwa (≈ 1,2% Total Populasi Kerajaan Spanyol)",
+    "chapters": [
+        {
+            "id": "es-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Festival San Isidro di Madrid: Ledakan Musim Semi",
+                "en": "The San Isidro Festivities: Madrid's Springtime Ingress"
+            },
+            "date": {
+                "id": "15 – 22 Mei 1918",
+                "en": "May 15 – 22, 1918"
+            },
+            "flash": {
+                "id": "RATUSAN RIBU WARGA MEMADATI PERAYAAN SANTO PELINDUNG MADRID; KERETA API DARI PRANCIS MEMBAWA PATOGEN KE JANTUNG IBU KOTA SPANYOL.",
+                "en": "HUNDREDS OF THOUSANDS MOBILIZE FOR PATRON SAINT FIESTAS; NIGHT TRAINS FROM FRANCE SEED THE PATHOGEN INTO MADRID'S URBAN HEART."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Galur Gelombang Pertama Musim Semi)",
+                "vector": "Kereta ekspres malam Paris-Madrid melintasi perbatasan Irun",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Kerumunan massa padat pada pekan perayaan San Isidro Labrador",
+                "mutationType": {
+                    "id": "Penyebaran Cepat di Luar Blok Perang Melalui Jalur Kereta Api Netral",
+                    "en": "Rapid Non-Belligerent Ingress via Cross-Border Neutral Rail Trunk Lines"
+                },
+                "threatLevel": {
+                    "id": "Sedang (Tingkat Kematian Masih Rendah namun Sangat Menular)",
+                    "en": "Moderate (Low Virulence Case Fatality but Exceptional Infectivity)"
+                },
+                "clinicalTarget": {
+                    "id": "Warga kota Madrid, pengunjung festival, pedagang kaki lima, dan pelayan kedai",
+                    "en": "Madrid urban citizens, festivalgoers, street vendors, and tavern staff"
+                }
+            },
+            "description": {
+                "id": "Pada pertengahan Mei 1918, kota Madrid bermandikan sinar matahari musim semi saat ratusan ribu warga tumpah ruah ke padang rumput San Isidro untuk merayakan pesta santo pelindung kota. Di antara tawa, tarian *chotis*, dan denting gitar, virus influenza yang dibawa oleh pekerja musiman dari Prancis menyelinap tanpa terdeteksi. Hanya dalam tempo sepekan setelah pesta usai, sepertiga penduduk Madrid jatuh sakit secara serentak. Trem jalanan berhenti beroperasi karena para masinis dan kondektur terkapar demam; kantor kementerian dan bank terpaksa tutup karena separuh pegawainya tidak dapat bangun dari tempat tidur.",
+                "en": "In mid-May 1918, Madrid basked in brilliant spring sunshine as hundreds of thousands crowded the meadows of San Isidro to celebrate the feast of the city's patron saint. Amid joyous dancing of the traditional *chotis*, wine-drinking, and guitar strumming, the influenza virus carried by seasonal farmhands returning from France slipped silently into the crowd. Within seven days of the festival's conclusion, an estimated one-third of Madrid's entire population fell acutely ill. Electric streetcars ground to a halt as motormen collapsed in their cabs; banks, post offices, and government ministries shuttered as clerks took to their beds with soaring fevers."
+            },
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_01.jpg"
+        },
+        {
+            "id": "es-ch-02",
+            "chapterNumber": 2,
+            "type": "milestone",
+            "title": {
+                "id": "Penyakit Sang Raja: Alfonso XIII Terkapar di Istana Kerajaan",
+                "en": "The King's Affliction: Alfonso XIII Stricken at the Palacio Real"
+            },
+            "date": {
+                "id": "27 Mei 1918",
+                "en": "May 27, 1918"
+            },
+            "flash": {
+                "id": "RAJA ALFONSO XIII, PERDANA MENTERI MAURA, DAN ANGGOTA KABINET JATUH SAKIT BERSAMAAN; PROTOKOL ISTANA DIBEKUKAN AKIBAT DEMAM TINGGI.",
+                "en": "KING ALFONSO XIII, PREMIER MAURA, AND KEY MINISTERS COLLAPSE SIMULTANEOUSLY; ROYAL PALACE FROZEN UNDER MEDICAL QUARANTINE."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Infeksi Lapisan Elit Monarki)",
+                "vector": "Kontak langsung staf istana, pelayan kerajaan, dan pengawal kehormatan",
+                "incubation": "24 Jam",
+                "transmission": "Inhalasi droplet dalam ruang audiensi tertutup Istana Kerajaan Madrid",
+                "mutationType": {
+                    "id": "Penetrasi Patogen ke Puncak Struktur Politik dan Monarki Negara",
+                    "en": "Penetration to the Pinnacle of National Governance and Royal Hierarchy"
+                },
+                "threatLevel": {
+                    "id": "Krisis Nasional (Penetralan Kepemimpinan Negara di Tengah Tekanan Perang)",
+                    "en": "National Crisis (Paralysis of State Leadership Amid Wartime Turmoil)"
+                },
+                "clinicalTarget": {
+                    "id": "Raja Alfonso XIII dari Spanyol, Perdana Menteri Antonio Maura, dan menteri kabinet",
+                    "en": "King Alfonso XIII of Spain, Premier Antonio Maura, and cabinet ministers"
+                }
+            },
+            "description": {
+                "id": "Pada 27 Mei 1918, istana Palacio Real di Madrid dilanda kepanikan ketika Raja Alfonso XIII yang baru berusia 32 tahun mendadak roboh dengan demam tinggi membakar, sesak napas, dan batuk kering menyakitkan. Dokter istana segera memberlakukan karantina ketat di kamar tidur sang raja. Pada saat yang sama, Perdana Menteri Antonio Maura, Menteri Perang, dan sejumlah pejabat tinggi kabinet dilaporkan terjangkit penyakit serupa. Rapat-rapat kenegaraan dibatalkan dan pengadilan ditangguhkan. Meskipun Raja Alfonso XIII akhirnya selamat setelah dua pekan dirawat intensif, berita sakitnya kepala negara Spanyol ini disiarkan secara terbuka oleh media ke seluruh penjuru dunia.",
+                "en": "On May 27, 1918, the royal apartments of the Palacio Real in Madrid were plunged into disarray when 32-year-old King Alfonso XIII suddenly collapsed with an alarming 104°F fever, acute chest constriction, and prostration. Royal physicians placed the sovereign under strict quarantine. Simultaneously, Prime Minister Antonio Maura, the Minister of War, and multiple senior cabinet officials were stricken by the same malady. Parliamentary debates were suspended, courts shut down, and royal guardsmen relieved. Though King Alfonso survived after a harrowing two-week convalescence, the unvarnished public announcements regarding his illness reverberated across international news agencies."
+            },
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_02.jpg"
+        },
+        {
+            "id": "es-ch-03",
+            "chapterNumber": 3,
+            "type": "milestone",
+            "title": {
+                "id": "Pers Bebas Negeri Netral: Mengapa Dinamai 'Flu Spanyol'?",
+                "en": "The Free Press of a Neutral Realm: Why the World Called It 'Spanish Flu'"
+            },
+            "date": {
+                "id": "Akhir Mei – Juni 1918",
+                "en": "Late May – June 1918"
+            },
+            "flash": {
+                "id": "KARENA SPANYOL NETRAL DAN TAK MEMILIKI SENSOR PERANG, KORAN MADRID MELAPORKAN WABAH DENGAN JUJUR; DUNIA SALAH MENGIRA SPANYOL ADALAH SUMBER PENYAKIT.",
+                "en": "AS A NEUTRAL STATE FREE OF WARTIME CENSORSHIP, SPANISH PAPERS REPORT FREELY; THE WORLD FALSELY INFERS SPAIN AS GROUND ZERO."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Fenomena Nomenklatur & Bias Media Massa)",
+                "vector": "Kabel telegraf internasional dan jaringan kantor berita Reuters-Havas",
+                "incubation": "N/A (Penyebaran Narasi Media)",
+                "transmission": "Pemberitaan pers bebas tanpa sensor di tengah sensor ketat negara sekutu/poros",
+                "mutationType": {
+                    "id": "Bias Persepsi Geografis Akibat Sensor Masa Perang Perang Dunia I",
+                    "en": "Geographical Attribution Bias Induced by WWI Wartime Censorship Asymmetry"
+                },
+                "threatLevel": {
+                    "id": "Stigmatisasi Internasional (Spanyol Diberi Label Sumber Pandemi Global)",
+                    "en": "International Stigmatization (Spain Brandished as Sole Origin of Pandemic)"
+                },
+                "clinicalTarget": {
+                    "id": "Pembaca pers internasional di Inggris, Prancis, Jerman, dan Amerika Serikat",
+                    "en": "International press readers across Britain, France, Germany, and the US"
+                }
+            },
+            "description": {
+                "id": "Di tengah kecamuk Perang Dunia I, Spanyol memilih bersikap netral. Akibatnya, Spanyol tidak memberlakukan sensor pers militer ketat seperti yang dijalankan di Inggris, Prancis, Jerman, dan Amerika Serikat. Ketika surat kabar Madrid seperti *El Sol*, *ABC*, dan *El Liberal* secara transparan melaporkan ribuan kasus demam dan kelumpuhan kota di halaman depan mereka, kantor-kantor berita luar negeri mengutip laporan tersebut tanpa menyebut bahwa prajurit di parit mereka sendiri sebenarnya sudah terinfeksi lebih dulu. Karena dunia luar hanya membaca tentang wabah yang berkobar di Madrid dan sakitnya Raja Spanyol, pers internasional menjuluki penyakit ini sebagai 'The Spanish Flu' (*La Gripe Española*)—sebuah kekeliruan sejarah yang mengaburkan asal usul virus yang sebenarnya.",
+                "en": "Amid the carnage of World War I, Spain remained neutral. Consequently, Spanish journalists were not shackled by the draconian military censorship boards that gagged the press in London, Paris, Berlin, and Washington. When leading Madrid broadsheets like *El Sol*, *ABC*, and *El Liberal* published detailed front-page dispatches documenting widespread sickness, shuttered shops, and royal illness, foreign wire services uncritically amplified the reports. In warring nations where domestic outbreaks were treasonously concealed, readers deduced that Spain was the unique epicenter of an exotic new pestilence. Thus was born the moniker 'The Spanish Flu' (*La Gripe Española*)—a historical misnomer born of journalistic honesty in an era of wartime propaganda."
+            },
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_03.jpg"
+        },
+        {
+            "id": "es-ch-04",
+            "chapterNumber": 4,
+            "type": "side_story",
+            "title": {
+                "id": "Teater Zarzuela & 'Prajurit dari Napoli': Satire Gelombang Pertama",
+                "en": "The Zarzuela Stage & 'The Soldier of Naples': Satirizing the Spring Wave"
+            },
+            "date": {
+                "id": "Juni 1918",
+                "en": "June 1918"
+            },
+            "flash": {
+                "id": "WARGA MADRID MENGANGGAP REMEH GELOMBANG PERTAMA DENGAN MENAMAINYA 'EL SOLDADO DE NÁPOLES', MENGUTIP LAGU OPERA POPULER YANG MUDAH MENULAR.",
+                "en": "MADRILENIANS LIGHTHEARTEDLY CHRISTEN MILD SPRING FLU 'EL SOLDADO DE NÁPOLES', AFTER AN OPERETTA TUNE AS CATCHY AS THE INFECTION."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Resonansi Budaya Populer Gelombang Pertama)",
+                "vector": "Gedung teater pertunjukan zarzuela yang padat penonton di Gran Vía",
+                "incubation": "24 – 36 Jam",
+                "transmission": "Inhalasi droplet aerosol saat tertawa dan bernyanyi bersama di teater",
+                "mutationType": {
+                    "id": "Toleransi Imunologis Relatif Sebelum Datangnya Mutasi Mematikan",
+                    "en": "Relative Immunological Tolerance Preceding the Lethal Autumn Mutation"
+                },
+                "threatLevel": {
+                    "id": "Rendah (Penyakit Dianggap Gangguan Ringan Sebanding Flu Musiman)",
+                    "en": "Low (Perceived as a Trivial Nuisance Comparable to Mild Seasonal Grippe)"
+                },
+                "clinicalTarget": {
+                    "id": "Penonton teater, seniman panggung, dan pecinta musik komedi musikal",
+                    "en": "Theatre audiences, stage actors, and musical operetta patrons"
+                }
+            },
+            "description": {
+                "id": "Pada musim semi 1918, tingkat kematian flu di Madrid masih sangat rendah, membuat masyarakat memperlakukannya dengan humor khas Spanyol. Di Teater Zarzuela di Gran Vía, operet musikal komedi *La Canción del Olvido* sedang meledak sukses besar, terutama lagu riang berjudul *El Soldado de Nápoles* ('Prajurit dari Napoli'). Karena lagu tersebut begitu populer dan 'mudah menempel' di ingatan setiap orang seperti halnya virus flu yang menular cepat dari satu orang ke orang lain, masyarakat Madrid dengan jenaka menjuluki penyakit demam itu sebagai 'Prajurit dari Napoli'. Para aktor panggung bahkan menyisipkan lelucon tentang bersin dan sakit kepala di tengah dialog mereka, tanpa menyadari bahwa mutasi maut sedang mengintai di balik musim panas.",
+                "en": "In the spring of 1918, the extraordinarily low mortality rate in Madrid prompted the public to treat the contagion with affectionate humor. At the Zarzuela theatre on the Gran Vía, the hit comic operetta *La Canción del Olvido* was captivating audiences, featuring a jaunty musical number titled *El Soldado de Nápoles* ('The Soldier of Naples'). Because the melody was so catchy and spread from ear to ear with the effortless contagion of the virus itself, Madrilenians affectionately nicknamed the malady 'The Soldier of Naples'. Comedians ad-libbed sneezing gags into their monologues to uproarious laughter, entirely oblivious to the apocalyptic evolutionary transformation maturing for the autumn."
+            },
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_04.jpg"
+        },
+        {
+            "id": "es-ch-05",
+            "chapterNumber": 5,
+            "type": "milestone",
+            "title": {
+                "id": "Tragedi Zamora: Doa Novena Uskup & Tingkat Kematian Tertinggi Eropa",
+                "en": "The Zamora Tragedy: The Bishop's Novenas & Europe's Deadliest Mortality Spike"
+            },
+            "date": {
+                "id": "September – Oktober 1918",
+                "en": "September – October 1918"
+            },
+            "flash": {
+                "id": "USKUP ZAMORA MENENTANG PERINTAH DOKTER KESEHATAN; MENGGELAR MISA MASSAL DAN MENYURUH JEMAAT MENCIUM RELIKUI SUCI HINGGA KOTA RUNTUH.",
+                "en": "BISHOP OF ZAMORA DEFIES SANITARY BANS; CALLS MASS NOVENAS TO KISS SAINT RELICS, CAUSING CONTINENTAL EUROPE'S HIGHEST MORTALITY RATE."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 Mutan Gelombang Kedua (Super-Spreader Agama)",
+                "vector": "Ribuan jemaat berdesakan mencium relikui Santo Rocco di Katedral Zamora",
+                "incubation": "12 – 24 Jam",
+                "transmission": "Droplet pernapasan aerosol pekat dan inokulasi fomite langsung lewat bibir jemaat",
+                "mutationType": {
+                    "id": "Transmisi Akselerasi Religius Akibat Penolakan Intervensi Ilmiah Modern",
+                    "en": "Religious Acceleration Vector Driven by Defiance of Modern Sanitary Orders"
+                },
+                "threatLevel": {
+                    "id": "Katastropik (Tingkat Kematian Menembus 10,1% dari Seluruh Populasi Kota)",
+                    "en": "Catastrophic (Mortality Rate Surges to 10.1% of Entire Urban Population)"
+                },
+                "clinicalTarget": {
+                    "id": "Jemaat Katolik taat, biarawati, anak-anak paduan suara, dan lansia Zamora",
+                    "en": "Devout Catholic parish congregations, nuns, choir boys, and city elders"
+                }
+            },
+            "description": {
+                "id": "Salah satu tragedi epidemiologis paling mencengangkan di Eropa terjadi di kota kuno Zamora, barat laut Spanyol. Ketika gelombang kedua yang mematikan tiba pada September 1918, otoritas sipil memerintahkan penutupan gereja dan larangan kerumunan. Namun Uskup Zamora, Antonio Álvaro y Ballano, secara terbuka membangkang dan mengecam para dokter: 'Murka Tuhan tidak dapat diatasi dengan menutup gereja, melainkan dengan bersujud memohon ampun!'. Sang Uskup memerintahkan novena sembilan hari berturut-turut di katedral yang penuh sesak, di mana ribuan jemaat antre berdesakan untuk mencium relikui Santo Rocco, pelindung wabah. Hasilnya mengerikan: Zamora mencatat angka kematian tertinggi di seluruh Eropa, dengan lebih dari 10% penduduk kotanya tewas dalam tempo sebulan; lonceng kematian berdentang siang malam hingga sang uskup sendiri terpaksa memohon penghentian peribadatan.",
+                "en": "Among the most harrowing epidemiological debacles in European history unfolded in the historic cathedral city of Zamora in northwestern Spain. When the ferocious second wave struck in September 1918, civil health inspectors ordered the closure of churches and ban on assemblies. The ultra-conservative Bishop of Zamora, Antonio Álvaro y Ballano, vehemently defied secular authorities, thundering: 'God's wrath cannot be placated by closing churches, but by fell repentance before the altar!'. The Bishop decreed a nine-day solemn novena inside the packed, unventilated cathedral, where thousands filed forward to press their lips against the wooden relic of Saint Roch, patron against plagues. The consequence was catastrophic: Zamora suffered the highest per-capita mortality spike in all of Europe, losing 10.1% of its entire population within five weeks until church bells cracked from round-the-clock death knells."
+            },
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_05.jpg"
+        },
+        {
+            "id": "es-ch-06",
+            "chapterNumber": 6,
+            "type": "standard",
+            "title": {
+                "id": "Karantina Pelabuhan & Pabrik Tekstil Barcelona",
+                "en": "Barcelona Under Siege: Industrial Mills & Port Quarantine"
+            },
+            "date": {
+                "id": "Oktober 1918",
+                "en": "October 1918"
+            },
+            "flash": {
+                "id": "PUSAT INDUSTRI KATALONIA LUMPUH TOTAL; PABRIK TEKSTIL DITUTUP PAKSA DAN PELABUHAN BARCELONA DITEMPELKAN BENDERA KUNING KARANTINA.",
+                "en": "CATALONIA'S INDUSTRIAL ENGINE PARALYZED; TEXTILE MILLS SHUTTERED AND YELLOW QUARANTINE FLAGS HOISTED OVER BARCELONA HARBOR."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Penetrasi Basis Buruh Manufaktur)",
+                "vector": "Lantai pabrik tenun tekstil yang sempit, panas, dan berdebu serat kapas",
+                "incubation": "24 Jam",
+                "transmission": "Inhalasi aerosol diperparah paparan partikel debu kapas industri (*byssinosis*)",
+                "mutationType": {
+                    "id": "Eksaserbasi Kematian Akibat Penyakit Paru Kerja di Kawasan Industri",
+                    "en": "Mortality Exacerbation via Occupational Lung Disease in Industrial Hubs"
+                },
+                "threatLevel": {
+                    "id": "Tinggi (Kelumpuhan Ekonomi Terbesar di Wilayah Pantai Mediterania Spanyol)",
+                    "en": "High (Economic Paralysis Across Spanish Mediterranean Industrial Arc)"
+                },
+                "clinicalTarget": {
+                    "id": "Buruh tenun perempuan, kuli pelabuhan, dan serikat pekerja anarko-sindikalis CNT",
+                    "en": "Female textile millhands, harbor stevedores, and CNT anarcho-syndicalist unionists"
+                }
+            },
+            "description": {
+                "id": "Di Barcelona, pusat industri dan pelabuhan tersibuk Spanyol, gelombang kedua menghantam dengan kekuatan melumpuhkan pada Oktober 1918. Di distrik pabrik Sants dan Poblenou, ribuan buruh tekstil perempuan yang menderita penyakit paru akibat debu kapas (*byssinosis*) langsung ambruk dengan komplikasi pneumonia hemoragik. Serikat pekerja anarko-sindikalis CNT menggelar aksi mogok menuntut penutupan pabrik demi keselamatan buruh. Dewan Kota Barcelona terpaksa mengibarkan bendera kuning karantina di pelabuhan, melarang kapal dagang merapat, dan menyita seluruh bangunan sekolah untuk dijadikan rumah sakit darurat di bawah penjagaan pasukan garda sipil bersenjata.",
+                "en": "In Barcelona, Spain's preeminent manufacturing metropolis and maritime gateway, the second wave struck with devastating economic violence in October 1918. Across the mill districts of Sants and Poblenou, thousands of textile workers whose respiratory systems were pre-damaged by cotton dust inhalation (*byssinosis*) succumbed immediately to acute hemorrhagic pneumonia. The powerful CNT anarcho-syndicalist union mobilized wildcat strikes, demanding industrial shutdowns to save workers' lives. The City Council was forced to hoist the yellow quarantine flag across Barcelona harbor, barring incoming shipping, while armed Civil Guards patrolled public schools expropriated as fever lazarettos."
+            },
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_06.jpg"
+        },
+        {
+            "id": "es-ch-07",
+            "chapterNumber": 7,
+            "type": "side_story",
+            "title": {
+                "id": "Perdebatan Akademi Kedokteran: Basil Pfeiffer atau 'Virus Tersaring'?",
+                "en": "The Royal Academy Debates: Pfeiffer's Bacillus or Filterable Virus?"
+            },
+            "date": {
+                "id": "Oktober – November 1918",
+                "en": "October – November 1918"
+            },
+            "flash": {
+                "id": "DOKTER TERKEMUKA AMALIO GIMENO BERDEBAT DI MADRID; KETIDAKMAMPUAN MIKROSKOP MENGUNGKAP VIRUS MEMBUAT PARA DOKTER SALAH MENDIAGNOSIS PENYEBAB WABAH.",
+                "en": "DR. AMALIO GIMENO LEADS MADRID SCIENTIFIC SESSIONS; MICROSCOPES FAIL TO REVEAL INVISIBLE VIRUS, FUELING BACTERIOLOGICAL CONTROVERSY."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Keterbatasan Epistemologi Ilmiah Awal Abad ke-20)",
+                "vector": "Laboratorium mikrobiologi Institut Alfonso XIII di Madrid",
+                "incubation": "N/A (Analisis Laboratorium)",
+                "transmission": "Eksperimen inokulasi sputum pasien ke hewan kelinci dan marmut",
+                "mutationType": {
+                    "id": "Ketidaktampakan Patogen Sub-Mikroskopis di Bawah Mikroskop Cahaya",
+                    "en": "Invisibility of Sub-Microscopic Ultravirus to Conventional Light Microscopy"
+                },
+                "threatLevel": {
+                    "id": "Frustrasi Ilmiah (Kegagalan Pembuatan Serum dan Vaksin Spesifik)",
+                    "en": "Scientific Impasse (Total Failure of Antibacterial Serums and Vaccines)"
+                },
+                "clinicalTarget": {
+                    "id": "Para profesor kedokteran, bakteriolog, dan dokter klinisi Spanyol",
+                    "en": "Spanish medical professors, bacteriologists, and clinical researchers"
+                }
+            },
+            "description": {
+                "id": "Di Real Academia Nacional de Medicina di Madrid, para dokter terpandang Spanyol dipimpin oleh mantan menteri Dr. Amalio Gimeno berdebat sengit mengenai hakikat sejati penyakit maut ini. Sebagian besar bakteriolog bersikeras bahwa penyakit ini disebabkan oleh basil influenza Pfeiffer (*Haemophilus influenzae*), sehingga mereka membuat vaksin dari kultur bakteri mati yang sama sekali tidak efektif melawan virus RNA. Beberapa ilmuwan visioner menduga adanya 'virus tersaring' (*virus filtrable*)—agen tak kasatmata yang mampu menembus pori-pori keramik filter Chamberland. Ketidakmampuan teknologi kedokteran saat itu melihat partikel virus berukuran nanometer membuat para dokter Spanyol merasa bertarung melawan musuh tak kasat mata dengan mata tertutup.",
+                "en": "Within the august halls of the Real Academia Nacional de Medicina in Madrid, Spain's foremost physicians, presided over by former cabinet minister Dr. Amalio Gimeno, engaged in impassioned intellectual combat regarding the true etiology of the epidemic. Orthodox bacteriologists insisted the culprit was Pfeiffer's bacillus (*Haemophilus influenzae*), manufacturing worthless bacterial bacterins that offered zero protection against an RNA virus. A minority of prescient researchers posited an ultra-microscopic 'filterable virus' capable of slipping through fine-grain Chamberland porcelain filters. Lacking electron microscopes to visualize nanometer-scale viral capsids, Spanish medicine fought an invisible phantom in absolute intellectual darkness."
+            },
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_07.jpg"
+        },
+        {
+            "id": "es-ch-08",
+            "chapterNumber": 8,
+            "type": "standard",
+            "title": {
+                "id": "Kehancuran Pedesaan: Ladang Zaitun & Gandum Terbengkalai",
+                "en": "Rural Devastation: Abandoned Olive Groves & Harvests"
+            },
+            "date": {
+                "id": "Oktober – Desember 1918",
+                "en": "October – December 1918"
+            },
+            "flash": {
+                "id": "DESA-DESA ANDALUSIA DAN EXTREMADURA KEHILANGAN SELURUH PETANI MUDA; BUAH ZAITUN MEMBUSUK DI POHON DAN TERJADI KELAPARAN PEDESAAN.",
+                "en": "ANDALUSIAN AND EXTREMADURAN HAMLETS STRIPPED OF FARM LABOR; OLIVES ROT ON BRANCHES AS RURAL FAMINE SETS IN."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Runtuhnya Rantai Ketahanan Pangan Agraris)",
+                "vector": "Keluarga petani miskin buruh harian (*jornaleros*) tanpa akses medis",
+                "incubation": "24 Jam",
+                "transmission": "Penyebaran di rumah-rumah batu pedesaan berdinding kapur putih",
+                "mutationType": {
+                    "id": "Sinergi Kematian Malnutrisi Kronis dan Infeksi Paru Hemoragik",
+                    "en": "Lethal Synergy of Chronic Agrarian Malnutrition and Pulmonary Hemorrhage"
+                },
+                "threatLevel": {
+                    "id": "Ekstrem Kemanusiaan (Desa-Desa Terpencil Terputus Sepenuhnya dari Bantuan)",
+                    "en": "Humanitarian Extreme (Remote Pueblos Completely Severed from Relief)"
+                },
+                "clinicalTarget": {
+                    "id": "Buruh tani miskin Andalusia, pemetik zaitun, dan peternak domba Extremadura",
+                    "en": "Impoverished Andalusian day laborers, olive pickers, and Extremaduran shepherds"
+                }
+            },
+            "description": {
+                "id": "Di wilayah pedesaan Andalusia dan Extremadura, dampak pandemi berubah menjadi bencana kelaparan. Ribuan buruh tani harian (*jornaleros*) yang hidup dalam kemiskinan ekstrem tumbang di gubuk-gubuk tanah mereka tanpa pernah dikunjungi dokter. Musim panen zaitun dan gandum musim gugur 1918 terbengkalai; buah zaitun berjatuhan membusuk di tanah karena tidak ada lagi tenaga pemetik yang hidup atau mampu berdiri. Di desa-desa terpencil seperti di pegunungan Sierra Morena, seluruh keluarga ditemukan tewas di atas kasur jerami mereka berhari-hari setelah meninggal, meninggalkan ternak kelaparan mengembara di jalan-jalan desa yang sunyi senyap.",
+                "en": "Across the sun-baked agrarian landscapes of Andalusia and Extremadura, the contagion catalyzed severe famine. Tens of thousands of impoverished rural day laborers (*jornaleros*) collapsed in whitewashed clay shanties without laying eyes on a doctor. The vital autumn 1918 olive and grain harvests collapsed completely; unpicked fruit fell and rotted into black sludge because no healthy laborers remained to climb the ladders. In mountain pueblos of the Sierra Morena, entire peasant families were discovered dead upon straw pallets days after suffocating, their starving goats and mules roaming through dead, silent streets."
+            },
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_08.jpg"
+        },
+        {
+            "id": "es-ch-09",
+            "chapterNumber": 9,
+            "type": "side_story",
+            "title": {
+                "id": "Membisukan Lonceng Kematian: Dekrit Larangan 'Toque de Difuntos'",
+                "en": "Silencing the Death Knell: The Banning of 'Toque de Difuntos'"
+            },
+            "date": {
+                "id": "November 1918",
+                "en": "November 1918"
+            },
+            "flash": {
+                "id": "GUBERNUR SIPIL MELARANG DENTANG LONCENG KEMATIAN DI SELURUH GEREJA SPANYOL DEMI MENYELAMATKAN KESEHATAN MENTAL DAN MORIL RAKYAT.",
+                "en": "CIVIL GOVERNORS BAN TRADITIONAL CHURCH FUNERAL BELLS TO PREVENT GENERAL NERVOUS BREAKDOWN AMONG CITIZENS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Dampak Psikososial & Trauma Akustik Massal)",
+                "vector": "Dentang lonceng gereja perunggu tanpa henti di setiap sudut kota dan desa",
+                "incubation": "N/A (Kesehatan Jiwa Komunitas)",
+                "transmission": "Suara lonceng maut 24 jam memicu depresi klinis dan keputusasaan massal",
+                "mutationType": {
+                    "id": "Intervensi Kebijakan Publik untuk Mencegah Histeria Kejiwaan Massal",
+                    "en": "Public Policy Intervention to Curb Catastrophic Civic Moral Collapse"
+                },
+                "threatLevel": {
+                    "id": "Psikologis Tinggi (Penduduk Hidup dalam Teror Kematian Akustik Konstan)",
+                    "en": "Psychological High (Citizens Living Under Constant Acoustic Death Terror)"
+                },
+                "clinicalTarget": {
+                    "id": "Warga kota, ibu rumah tangga yang berduka, dan pasien demam di tempat tidur",
+                    "en": "Urban households, grieving mothers, and convalescing fever patients"
+                }
+            },
+            "description": {
+                "id": "Di Spanyol, dentang lonceng kematian gereja (*toque de difuntos*) adalah tradisi sakral untuk mengiringi kepergian arwah orang yang meninggal. Namun pada puncak gelombang kedua musim gugur 1918, dentang lonceng gereja bergema tanpa henti dari pagi hingga fajar berikutnya di Madrid, Valencia, dan Sevilla, mengingatkan warga setiap lima menit bahwa ada tetangga mereka yang baru saja menghembuskan napas terakhir. Suara duka konstan ini menciptakan depresi psikologis massal dan histeria histeris di kalangan pasien demam. Gubernur Sipil di berbagai provinsi akhirnya mengeluarkan dekrit keras yang melarang seluruh gereja membunyikan lonceng kematian di bawah ancaman denda berat, menyelimuti kota-kota Spanyol dalam keheningan total yang mencekam.",
+                "en": "In Spain, the rhythmic clanging of church bells for the departed (*toque de difuntos*) was a sacred custom etched into everyday life. But during the cataclysmic peak of autumn 1918, church belfries in Madrid, Valencia, and Seville tolled incessantly from dawn to twilight and deep into the night, reminding citizens every few minutes that another neighbor had ceased to breathe. This persistent acoustic terror drove the fever-wracked populace into acute nervous hysteria and suicidal despair. Provincial civil governors finally intervened with emergency edicts strictly forbidding the tolling of funeral bells under pain of heavy fines, cloaking Spanish cities in an eerie, deathly quiet."
+            },
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_09.jpg"
+        },
+        {
+            "id": "es-ch-10",
+            "chapterNumber": 10,
+            "type": "standard",
+            "title": {
+                "id": "Gelombang Ketiga di Pesisir Utara: Negeri Basque & Galicia",
+                "en": "The Third Wave in the Green North: Basque Country & Galicia"
+            },
+            "date": {
+                "id": "Januari – Mei 1919",
+                "en": "January – May 1919"
+            },
+            "flash": {
+                "id": "HUJAN DINGIN DAN ANGIN ATLANTIK MENYULUT GELOMBANG KETIGA DI TELUK BISKAYA; DESA-DESA NELAYAN GALICIA KEHILANGAN SELURUH AWAK PERAHU.",
+                "en": "COLD RAINS AND ATLANTIC GALES REIGNITE THIRD WAVE ACROSS BAY OF BISCAY; GALICIAN FISHING VILLAGES LOSE ENTIRE CREWS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Gelombang Ketiga Pesisir Atlantik)",
+                "vector": "Perahu nelayan pesisir dan pasar lelang ikan pelabuhan Vigo dan Bilbao",
+                "incubation": "24 Jam",
+                "transmission": "Penyebaran di kabin sempit kapal penangkap ikan dan permukiman pesisir lembap",
+                "mutationType": {
+                    "id": "Resurgensi Musim Dingin pada Komunitas Maritim Pesisir Utara Spanyol",
+                    "en": "Winter Resurgence Penetrating Maritime Fishing Enclaves of Northern Spain"
+                },
+                "threatLevel": {
+                    "id": "Sedang-Tinggi (Tingkat Kematian Menurun namun Menyapu Komunitas Nelayan)",
+                    "en": "Moderate-High (Lower Fatality Rate but Wiping Out Coastal Fishing Fleets)"
+                },
+                "clinicalTarget": {
+                    "id": "Pelaut nelayan Galicia, pekerja galangan kapal Bilbao, dan keluarga penenun Basque",
+                    "en": "Galician sardine fishermen, Bilbao shipbuilders, and Basque weavers"
+                }
+            },
+            "description": {
+                "id": "Ketika wilayah tengah Spanyol mulai bernapas lega pada awal 1919, gelombang ketiga menghantam pesisir utara beriklim basah di Negeri Basque dan Galicia. Angin dingin Atlantik dan hujan musim dingin yang tak kunjung reda memaksa penduduk berkerumun di dalam rumah-rumah batu berdinding lembap. Di pelabuhan-pelabuhan nelayan seperti Vigo, La Coruña, dan Bermeo, para nelayan yang melaut di perairan dingin Teluk Biskaya tertular di atas kapal kayu sempit mereka. Banyak perahu kembali ke dermaga dengan nakhoda dan awaknya terbaring kaku kedinginan di lantai palka, membuktikan bahwa bahkan setelah mereda di kota-kota besar, virus ini terus memburu kantong-kantong populasi terpencil hingga musim panas 1919.",
+                "en": "Just as central Spain breathed a tentative sigh of relief in early 1919, a bitter third wave struck the rain-drenched northern Atlantic rim of the Basque Country and Galicia. Relentless gales and damp winter cold drove families indoors around smoking hearths in poorly ventilated stone cottages. In maritime fishing outposts like Vigo, La Coruña, and Bermeo, sardine crews fishing the icy waters of the Bay of Biscay fell violently ill at sea. Several vessels drifted back into port with captains and deckhands lying frozen and cyanotic on deckboards, demonstrating that even as the storm waned in Madrid, the pathogen continued to reap isolated maritime enclaves well into 1919."
+            },
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_10.jpg"
+        },
+        {
+            "id": "es-ch-11",
+            "chapterNumber": 11,
+            "type": "summary",
+            "title": {
+                "id": "Audit Epidemiologis Spanyol: 260.000 Jiwa & Paradoks Sebuah Nama",
+                "en": "Epidemiological Audit of Spain: 260,000 Deaths & The Paradox of a Name"
+            },
+            "date": {
+                "id": "1919 – 1920",
+                "en": "1919 – 1920"
+            },
+            "flash": {
+                "id": "LEBIH DARI 260.000 WARGA SPANYOL TEWAS; NEGERI YANG JUJUR MEMBERITAKAN WABAH DIABADIKAN SELAMANYA DALAM SEJARAH SEBAGAI NAMA PANDEMI.",
+                "en": "OVER 260,000 SPANIARDS PERISHED; THE ONE NATION HONEST ENOUGH TO REPORT THE SCOURGE IS IMMORTALIZED FOREVER IN ITS NAME."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Audit Komprehensif Semenanjung Iberia)",
+                "vector": "Endemisasi influenza musiman pasca-1920",
+                "incubation": "1 – 4 Hari",
+                "transmission": "Evolusi galur virus menuju varian H1N1 musiman jinak",
+                "mutationType": {
+                    "id": "Dampak Demografis 1,2% Kematian Terhadap Pertumbuhan Populasi Spanyol",
+                    "en": "Demographic Impairment of 1.2% Excess Mortality on Spanish Population Curve"
+                },
+                "threatLevel": {
+                    "id": "Audit Historis (Studi Kasus Transparansi Media versus Stigmatisasi Global)",
+                    "en": "Historical Audit (Case Study in Press Candor vs. Global Stigmatization)"
+                },
+                "clinicalTarget": {
+                    "id": "Struktur demografi generasi muda Spanyol di era pasca-kemaharajaan",
+                    "en": "Generational demographic cohorts across 20th-century post-imperial Spain"
+                }
+            },
+            "description": {
+                "id": "Pandemi 1918 merenggut lebih dari 260.000 nyawa di Spanyol, atau sekitar 1,2% dari total populasi semenanjung tersebut—angka kematian per kapita yang jauh lebih tinggi daripada rata-rata korban di Amerika Serikat atau Prancis. Pertumbuhan populasi alami Spanyol mengalami angka negatif pada tahun 1918 untuk pertama kalinya dalam sejarah pencatatan sipil. Namun paradoks terbesar dari tragedi ini adalah cap historis yang abadi: karena menjadi satu-satunya negara besar Eropa yang tidak menyensor pers dan secara jujur memberitahukan kebenaran wabah kepada dunia, Spanyol justru 'dihukum' dengan menyematkan namanya pada pandemi paling mematikan dalam sejarah modern peradaban manusia. Warisan ini menjadi pelajaran abadi tentang bagaimana kejujuran ilmiah dan jurnalisme sering kali terdistorsi oleh propaganda politik masa perang.",
+                "en": "The 1918 pandemic extinguished over 260,000 lives across Spain, representing approximately 1.2% of the nation's total population—a per-capita mortality burden significantly heavier than that suffered by the United States or Great Britain. Spain's net population growth turned negative in 1918 for the first time in modern demographic record-keeping. Yet the supreme historic paradox remains its perpetual branding: because Spain was the sole European power that refused to muzzle its press, truthfully sounding the alarm to a warring planet, it was indelibly punished by having its national identity forever affixed to the deadliest plague in modern human memory. This legacy endures as a profound historical cautionary tale: how scientific transparency and journalistic candor can be weaponized by wartime geopolitical propaganda."
+            },
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_11.jpg"
+        }
+    ]
+}

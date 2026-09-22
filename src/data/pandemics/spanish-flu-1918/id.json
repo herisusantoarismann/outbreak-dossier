@@ -1,0 +1,532 @@
+{
+    "sectorId": "ID",
+    "sectorName": {
+        "id": "Sektor ID (Hindia Belanda: Tanjung Perak Surabaya, Jalur Kereta Staatsspoorwegen, & Teror Pagebluk Jawa // 1918–1919)",
+        "en": "Sector ID (Dutch East Indies: Tanjung Perak Surabaya, Staatsspoorwegen Railway, & Java's Pagebluk Terror // 1918–1919)"
+    },
+    "coordinates": [-7.2575, 112.7521],
+    "timeRange": "Juli 1918 – Awal 1920",
+    "estimatedFatalities": "1.500.000 – 4.370.000+ jiwa (≈ 3–8% Total Populasi Kepulauan Nusantara)",
+    "chapters": [
+        {
+            "id": "id-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Pendaratan SS Singkep: Masuknya 'Flu Spanjool' di Tanjung Perak",
+                "en": "The SS Singkep Ingress: 'Flu Spanjool' Lands at Tanjung Perak"
+            },
+            "date": {
+                "id": "Juli 1918",
+                "en": "July 1918"
+            },
+            "flash": {
+                "id": "KAPAL UAP SS SINGKEP DARI SINGAPURA MERAPAT DI SURABAYA MEMBAWA AWAK DEMAM; DOKTER PELABUHAN MENGIRA HANYA PILEK BIASA SEBELUM WABAH MENYEBAR KE KOTA.",
+                "en": "STEAMER SS SINGKEP FROM SINGAPORE BERTHS AT SURABAYA WITH FEVERISH CREW; PORT MEDICAL OFFICERS MISDIAGNOSE MILD STRAIN BEFORE VIRUS ERUPTS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Galur Gelombang Pertama Masuk Hindia Belanda)",
+                "vector": "Kapal uap antarpulau Koninklijke Paketvaart-Maatschappij (KPM)",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Droplet pernapasan di antara kuli panggul pelabuhan dan petugas pabean",
+                "mutationType": {
+                    "id": "Penetrasi Jalur Perdagangan Maritim Selat Malaka Menuju Pulau Jawa",
+                    "en": "Malacca Strait Maritime Trade Penetration into the Island of Java"
+                },
+                "threatLevel": {
+                    "id": "Sedang (Awalnya Dianggap Enteng sebagai 'Demam Tiga Hari' Biasa)",
+                    "en": "Moderate (Initially Dismissed as Ordinary Ephemeral 'Three-Day Fever')"
+                },
+                "clinicalTarget": {
+                    "id": "Kuli panggul pelabuhan Tanjung Perak, buruh gudang pabean, dan kelasi kapal",
+                    "en": "Tanjung Perak coolies, customs warehousemen, and inter-island deckhands"
+                }
+            },
+            "description": {
+                "id": "Pada awal Juli 1918, kapal uap SS *Singkep* milik maskapai pelayaran kolonial KPM merapat di dermaga Tanjung Perak, Surabaya, setelah berlayar dari Singapura dan Penang. Di atas dek kapal, beberapa awak kapal dan penumpang bumiputera mengeluhkan demam mendadak, menggigil kedinginan, dan batuk kering. Otoritas karantina pelabuhan Belanda menganggap remeh gejala tersebut sebagai 'demam biasa' dan mengizinkan seluruh penumpang turun tanpa karantina. Dalam beberapa hari, penyakit yang oleh surat kabar berbahasa Melayu dijuluki 'Flu Spanjool' atau 'Pilek Spanyol' ini merebak dengan cepat di kalangan kuli pelabuhan, menyusup ke perkampungan padat Kalimas, Pabean, dan Pecinan Surabaya.",
+                "en": "In early July 1918, the steamer SS *Singkep* of the colonial Koninklijke Paketvaart-Maatschappij (KPM) line moored at Tanjung Perak harbor in Surabaya, having sailed from Singapore and Penang. Aboard, several crewmen and native deck passengers complained of shivering, sudden fevers, and racking coughs. Colonial harbor medical officers casually dismissed the symptoms as routine catarrh and granted unrestricted landing clearance. Within days, the contagion—dubbed 'Flu Spanjool' or 'Spanish Cold' in local Malay newspapers—raced through dockside coolie quarters, infiltrating the dense alleyways of Kalimas, Pabean, and Surabaya's Chinatown."
+            },
+            "image": "/assets/images/spanish-flu-1918/id/id_ch_01.jpg"
+        },
+        {
+            "id": "id-ch-02",
+            "chapterNumber": 2,
+            "type": "standard",
+            "title": {
+                "id": "Jalur Kereta Staatsspoorwegen: Tulang Punggung Penularan Jawa",
+                "en": "The Staatsspoorwegen Railway: Spine of the Javanese Contagion"
+            },
+            "date": {
+                "id": "Juli – Agustus 1918",
+                "en": "July – August 1918"
+            },
+            "flash": {
+                "id": "KERETA API NEGARA STAATSSPOORWEGEN MEMBAWA VIRUS DARI SURABAYA KE MADIUN, SURAKARTA, YOGYAKARTA, DAN BATAVIA HANYA DALAM WAKTU TIGA PEKAN.",
+                "en": "STAATSSPOORWEGEN RAILWAY CARRIES INFECTION FROM SURABAYA TO MADIUN, SURAKARTA, YOGYAKARTA, AND BATAVIA IN BARELY THREE WEEKS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Dispersi Rel Kereta Api Pulau Jawa)",
+                "vector": "Gerbong kelas tiga kereta api (*inlandsche wagens*) tanpa sekat jendela",
+                "incubation": "24 Jam",
+                "transmission": "Inhalasi aerosol di gerbong padat yang mengangkut buruh musiman dan pedagang",
+                "mutationType": {
+                    "id": "Penyebaran Geografis Cepat Melintasi Jalur Kereta Utama Pulau Jawa",
+                    "en": "Rapid Geographic Dispersal along Java's Trunk Railway Network"
+                },
+                "threatLevel": {
+                    "id": "Tinggi (Menghubungkan Pusat-Pusat Populasi Urban dan Pedesaan Jawa)",
+                    "en": "High (Linking Urban Commercial Centers to Agrarian Javanese Hinterlands)"
+                },
+                "clinicalTarget": {
+                    "id": "Penumpang pribumi kelas tiga, juru api lokomotif, dan pedagang pasar stasiun",
+                    "en": "Third-class indigenous passengers, locomotive stokers, and railway vendors"
+                }
+            },
+            "description": {
+                "id": "Jaringan kereta api *Staatsspoorwegen* (SS) yang membelah Pulau Jawa dari timur ke barat menjadi vektor penularan paling efektif. Dari stasiun Surabaya Gubeng dan Pasar Turi, ribuan pedagang dan buruh yang telah terpapar kuman menaiki gerbong-gerbong kayu kelas tiga yang padat berdesakan. Dalam tempo kurang dari tiga pekan, laporan kasus demam merebak berurutan di sepanjang stasiun persinggahan: Madiun, Surakarta, Yogyakarta, Purwokerto, hingga akhirnya mencapai ibu kota kolonial Batavia (Jakarta). Kereta api menurunkan virus langsung ke jantung pasar-pasar tradisional di dekat stasiun, tempat para pedagang membagikan kuman kepada para pembeli dari desa-desa sekitarnya.",
+                "en": "The *Staatsspoorwegen* (SS) state railway cutting across the spine of Java from east to west served as the supreme vector of contagion. From Surabaya's Gubeng and Pasar Turi stations, thousands of infected day laborers and traders boarded crowded third-class wooden carriages. Within three weeks, fever clusters flared in sequential lockstep along the junctions: Madiun, Surakarta, Yogyakarta, Purwokerto, terminating at the colonial capital of Batavia (Jakarta). Locomotives deposited the pathogen directly into bustling open-air station bazaars, where village market-goers inhaled the viral aerosol and carried it inland along footpaths to remote rural hamlets."
+            },
+            "image": "/assets/images/spanish-flu-1918/id/id_ch_02.jpg"
+        },
+        {
+            "id": "id-ch-03",
+            "chapterNumber": 3,
+            "type": "milestone",
+            "title": {
+                "id": "Gelombang Kedua Musim Gugur: Badai Maut di Tanjung Priok & Batavia",
+                "en": "The Autumn Maelstrom: Second Wave Detonates at Tanjung Priok & Batavia"
+            },
+            "date": {
+                "id": "Oktober – November 1918",
+                "en": "October – November 1918"
+            },
+            "flash": {
+                "id": "GELOMBANG KEDUA MUTAN GANAS MENGHANTAM BATAVIA; RUMAH SAKIT STOVIA PENUH SESAK, KULI-KULI TEWAS BERGELIMPANGAN DI PINGGIR KANAL KOTA.",
+                "en": "MUTATED HYPER-VIRULENT SECOND WAVE HITS BATAVIA; STOVIA CLINICS SATURATED, HARBOR COOLIES COLLAPSE AND SUFFOCATE ALONG CANALS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 Mutan Ganas (Gelombang Kedua Tropis)",
+                "vector": "Aerosol pernapasan di pemukiman padat Batavia, Tanjung Priok, dan Glodok",
+                "incubation": "12 – 24 Jam",
+                "transmission": "Inhalasi droplet pekat memicu edema paru hemoragik dan sianosis mendadak",
+                "mutationType": {
+                    "id": "Mutasi Letal Peningkatan Replikasi di Epitel Saluran Napas Bawah",
+                    "en": "Lethal Mutation Driving Explosive Lower Respiratory Replication and Hemorrhage"
+                },
+                "threatLevel": {
+                    "id": "Katastropik (Tingkat Fatalitas Kasus Melonjak Lebih dari Sepuluh Kali Lipat)",
+                    "en": "Catastrophic (Case Fatality Surges Over Tenfold Compared to Spring Wave)"
+                },
+                "clinicalTarget": {
+                    "id": "Penduduk pribumi dan Tionghoa miskin di Batavia, kuli panggul, dan sais delman",
+                    "en": "Impoverished indigenous and Chinese urban dwellers, dockers, and cart drivers"
+                }
+            },
+            "description": {
+                "id": "Pada Oktober 1918, gelombang kedua yang bermutasi tiba di pelabuhan Tanjung Priok, Batavia. Keganasan klinisnya membuat para dokter Eropa dan bumiputera terperangah. Pasien yang pagi hari masih segar bugar, pada siang hari mulai batuk memuntahkan dahak berdarah, dan sebelum tengah malam wajah mereka telah membiru kelam akibat asfiksia jaringan terminal. Rumah sakit militer di Weltevreden dan rumah sakit pendidikan CBZ (sekarang RSCM) tidak mampu lagi menampung pasien; lorong-lorong dan halaman rumput dipenuhi tandu darurat. Kuli-kuli pelabuhan di Tanjung Priok ambruk di pinggir kanal dan meninggal di tempat, memaksa Dewan Kotapraja Batavia mengerahkan gerobak sampah untuk memunguti mayat dari jalan raya setiap pagi.",
+                "en": "In October 1918, the mutated second wave crashed ashore at Tanjung Priok, Batavia. Its clinical ferocity stunned European and native physicians alike. Patients walking vigorously at dawn were coughing up bright blood by noon, their lips turning a deep plum black before midnight as pulmonary alveoli flooded with hemorrhagic transudate. The military lazaretto at Weltevreden and the CBZ teaching hospital (now RSCM) were overwhelmed within 48 hours; corridors and outdoor lawns were carpeted with emergency bamboo stretchers. Coolies in Tanjung Priok collapsed beside stagnant canal banks and died on the spot, compelling the Batavia municipality to deploy rubbish carts each morning to collect corpses from thoroughfares."
+            },
+            "image": "/assets/images/spanish-flu-1918/id/id_ch_03.jpg"
+        },
+        {
+            "id": "id-ch-04",
+            "chapterNumber": 4,
+            "type": "milestone",
+            "title": {
+                "id": "Teror 'Pagebluk' & Kentongan Rontek: Panik Gaib di Pedesaan Jawa",
+                "en": "The 'Pagebluk' Terror & The Kentongan Alarm: Spiritual Panic in Rural Java"
+            },
+            "date": {
+                "id": "Oktober – November 1918",
+                "en": "October – November 1918"
+            },
+            "flash": {
+                "id": "MASYARAKAT JAWA MEYAKINI WABAH SEBAGAI PAGEBLUK KUTUKAN GAIB; WARGA MEMUKUL KENTONGAN RONTEK SEPANJANG MALAM UNTUK MENGUSIR ROH LAMPOR.",
+                "en": "RURAL JAVANESE ATTRIBUTE DIE-OFF TO 'PAGEBLUK' SUPERNATURAL CURSE; BEATING BAMBOO SLIT-DRUMS ALL NIGHT TO DRIVE OFF 'LAMPOR' SPIRITS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Konteks Kultural Antropologis 'Pagebluk')",
+                "vector": "Komunitas desa agraris pedalaman Jawa Tengah dan Jawa Timur",
+                "incubation": "18 – 36 Jam",
+                "transmission": "Penyebaran di rumah-rumah bambu tertutup (*gedhek*) tanpa jendela",
+                "mutationType": {
+                    "id": "Kematian Massal Cepat Memicu Reaksi Budaya Kosmologis Nusantara",
+                    "en": "Rapid Mass Mortality Evoking Deep Traditional Cosmological Explanations"
+                },
+                "threatLevel": {
+                    "id": "Psikososial Ekstrem (Seluruh Desa Terkunci dalam Ketakutan Menjelang Senja)",
+                    "en": "Extreme Psychosocial (Entire Villages Paralyzed by Supernatural Terror at Dusk)"
+                },
+                "clinicalTarget": {
+                    "id": "Petani desa, pemuda desa usia produktif, dan keluarga petani di pelosok Jawa",
+                    "en": "Javanese peasant families, agrarian youth, and rural hamlet elders"
+                }
+            },
+            "description": {
+                "id": "Bagi masyarakat Jawa pedesaan, kematian massal yang datang begitu cepat dan misterius diidentifikasi sebagai *pagebluk*—wabah kutukan gaib terbesar yang merusak tatanan kosmos. Muncul ungkapan legendaris yang mengerikan: *'Esuk lara, sore mati; sore lara, esuk mati'* (Pagi sakit, sore mati; sore sakit, pagi mati). Di desa-desa Banyumas, Bagelen, dan Kediri, warga meyakini bahwa roh jahat *Lampor* dan *Wewe Gombel* sedang berpatroli menjelang magrib menculik nyawa manusia. Begitu senja tiba, pintu rumah kayu dikunci rapat, dan warga memukul *kentongan* bambu secara bersahut-sahutan sepanjang malam dalam ritual *rontek* untuk mengusir roh maut. Dupa dibakar di setiap sudut gang dan sesaji diletakkan di persimpangan jalan, sementara jenazah tetangga dikubur tergesa-gesa tanpa kain kafan yang layak.",
+                "en": "To rural Javanese villagers, the sudden, inexplicable slaughter was perceived through the cosmological lens of *pagebluk*—a catastrophic rupture in the metaphysical balance of the universe. The chilling proverb spread like wildfire across the archipelago: *'Esuk lara, sore mati; sore lara, esuk mati'* ('Sick in the morning, dead by dusk; sick at dusk, dead by dawn'). Across Banyumas, Bagelen, and Kediri, peasants believed the malevolent spirit host *Lampor* and infant-snatching demons were riding the evening winds to reap souls. At sundown, doors were barred and bamboo slit-drums (*kentongan*) were struck frantically in non-stop *rontek* alarms across adjacent villages to ward off unseen specters. Incense burned at crossroads and offerings were laid at shrines while neighbors were buried hastily without proper shroud cloths."
+            },
+            "image": "/assets/images/spanish-flu-1918/id/id_ch_04.jpg"
+        },
+        {
+            "id": "id-ch-05",
+            "chapterNumber": 5,
+            "type": "standard",
+            "title": {
+                "id": "Lumpuhnya Pabrik Gula & Perkebunan Karet: Krisis Tenaga Kerja Kolonial",
+                "en": "Paralysis of the Sugar Mills: The Colonial Labor Crisis"
+            },
+            "date": {
+                "id": "Oktober – Desember 1918",
+                "en": "October – December 1918"
+            },
+            "flash": {
+                "id": "PABRIK GULA RAWYALAN PASURUAN DAN KEDIRI BERHENTI BEROPERASI; RIBUAN KULI KONTRAK PERKEBUNAN TEBU DAN KARET TEWAS TERKAPAR DI BARAK.",
+                "en": "SUGAR MILLS ACROSS PASURUAN AND KEDIRI HALT OPERATIONS; THOUSANDS OF INDENTURED COOLIES EXPIRE IN ESTATE BARRACKS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Dampak pada Mesin Ekonomi Agro-Industri Kolonial)",
+                "vector": "Barak kuli kontrak perkebunan yang sempit dan minim ventilasi",
+                "incubation": "24 Jam",
+                "transmission": "Inhalasi aerosol di antara ratusan buruh yang tidur bersama di atas amben bambu",
+                "mutationType": {
+                    "id": "Kehancuran Kapasitas Produksi Komoditas Ekspor Utama Hindia Belanda",
+                    "en": "Decimation of Labor Force Driving the Primary Export Engine of the Indies"
+                },
+                "threatLevel": {
+                    "id": "Ekonomi Kolonial Kritis (Pabrik Gula Kehilangan Lebih dari 40% Buruh Inti)",
+                    "en": "Colonial Economic Critical (Sugar Factories Lose Over 40% of Labor Pool)"
+                },
+                "clinicalTarget": {
+                    "id": "Kuli tebang tebu, buruh pemotong getah karet, dan mandor perkebunan",
+                    "en": "Sugarcane harvesters, rubber tappers, and estate labor overseers"
+                }
+            },
+            "description": {
+                "id": "Perekonomian Hindia Belanda yang bertumpu pada perkebunan tebu, karet, dan tembakau dihantam kelumpuhan telak. Di kawasan perkebunan tebu raksasa di Pasuruan, Probolinggo, dan Kediri, musim giling tebu 1918 terhenti seketika. Cerobong-cerobong pabrik gula berhenti mengepulkan asap karena ribuan buruh tebang tebu dan operator mesin giling terkapar sakit atau meninggal di barak-barak mereka. Tebu yang siap dipanen mengering dan membusuk di ladang. Di perkebunan tembakau Deli, Sumatra Timur, kuli-kuli kontrak asal Jawa dan Tiongkok meninggal dalam jumlah yang begitu besar sehingga manajemen perkebunan kolonial terpaksa menghentikan produksi dan mengisolasi seluruh kompleks afdeling untuk mencegah pembangkangan buruh.",
+                "en": "The agrarian export machine of the Dutch East Indies—anchored by lucrative sugar cane, rubber, and tobacco plantations—was brought to a dead standstill. Across the immense sugar belt of Pasuruan, Probolinggo, and Kediri, the 1918 harvest campaign collapsed. Factory smokestacks ceased billowing as thousands of cane cutters and steam engine operatives lay dying in squalid estate barracks. Ripe sugar cane withered and spoiled in the fields. In the Deli tobacco estates of East Sumatra, indentured Javanese and Chinese coolies perished in such vast numbers that colonial plantation syndicates declared complete lockdowns of estate divisions, fearful that labor riots would erupt amid the pile of unburied corpses."
+            },
+            "image": "/assets/images/spanish-flu-1918/id/id_ch_05.jpg"
+        },
+        {
+            "id": "id-ch-06",
+            "chapterNumber": 6,
+            "type": "side_story",
+            "title": {
+                "id": "Dilema Dokter Jawa & STOVIA: Para Dokter Bumiputera di Garis Depan",
+                "en": "The STOVIA Frontline: Indigenous 'Dokter Jawa' in the Trenches"
+            },
+            "date": {
+                "id": "November 1918",
+                "en": "November 1918"
+            },
+            "flash": {
+                "id": "DOKTER EROPA MENGUNGSI KE VILA PEGUNUNGAN YANG DINGIN; LULUSAN DOKTER JAWA STOVIA BERJUANG SENDIRIAN MERAWAT PULUHAN RIBU PASIEN DI DESA-DESA.",
+                "en": "EUROPEAN PHYSICIANS FLEE TO COOL HILL STATIONS; INDIGENOUS STOVIA GRADUATES BATTLE ALONE IN RURAL VILLAGES WITHOUT RESOURCES."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Krisis Rasialisme Layanan Medis Kolonial)",
+                "vector": "Balai pengobatan darurat desa, gardu ronda, dan rumah kepala desa",
+                "incubation": "12 – 24 Jam",
+                "transmission": "Penularan nosokomial tinggi pada tenaga medis bumiputera yang bekerja tanpa APD",
+                "mutationType": {
+                    "id": "Pengorbanan Heroik Tenaga Medis Pribumi Menghadapi Diskriminasi Kolonial",
+                    "en": "Heroic Indigenous Medical Mobilization Confronting Colonial Apartheid Care"
+                },
+                "threatLevel": {
+                    "id": "Kritis Fasilitas Medis (Tingkat Kematian Dokter dan Mantri Bumiputera)",
+                    "en": "Healthcare Critical (High Morbidity and Mortality Among Native Medical Aides)"
+                },
+                "clinicalTarget": {
+                    "id": "Para dokter bumiputera lulusan STOVIA Batavia dan NIAS Surabaya serta mantri cacar",
+                    "en": "Indigenous STOVIA and NIAS medical graduates and rural vaccinators"
+                }
+            },
+            "description": {
+                "id": "Di tengah krisis yang memuncak, ketimpangan rasial sistem kolonial tampak sangat mencolok. Banyak dokter Belanda dan pejabat pemerintah kolonial memilih menyelamatkan diri ke vila-vila sejuk di pegunungan Malabar, Bandung, atau Tretes. Beban terberat penanganan wabah jatuh ke pundak para 'Dokter Djawa' lulusan STOVIA di Batavia dan NIAS di Surabaya. Tokoh-tokoh seperti Dr. Tjipto Mangoenkoesoemo, Dr. Soetomo, dan rekan-rekan dokter bumiputera lainnya menunggang kuda atau berjalan kaki menembus hutan untuk mencapai desa-desa terpencil. Berbekal obat yang sangat terbatas dan tanpa masker pelindung yang memadai, banyak mantri kesehatan dan dokter muda bumiputera yang gugur terinfeksi di samping pasien yang mereka rawat.",
+                "en": "Amid the unfolding tragedy, the racial fissures of the colonial caste system became glaringly evident. Many Dutch European doctors and senior civil servants retreated to cool, secluded mountain sanctuaries in Malabar, Bandung, or Tretes. The crushing burden of the crisis fell squarely upon the shoulders of indigenous 'Dokter Djawa' graduated from STOVIA in Batavia and NIAS in Surabaya. Luminaries like Dr. Tjipto Mangoenkoesoemo, Dr. Soetomo, and scores of young native doctors traveled on horseback and on foot into the deep interior, entering disease-ridden huts where European officers feared to tread. Armed with meager tinctures and unprotected by gauze masks, numerous young native physicians and rural dressers succumbed to the fatal virus beside their patients."
+            },
+            "image": "/assets/images/spanish-flu-1918/id/id_ch_06.jpg"
+        },
+        {
+            "id": "id-ch-07",
+            "chapterNumber": 7,
+            "type": "side_story",
+            "title": {
+                "id": "Jamu Tradisional & Ramuan Herbal: Benteng Terakhir Rakyat",
+                "en": "Traditional Jamu & Herbal Decoctions: The Peasantry's Last Bastion"
+            },
+            "date": {
+                "id": "November 1918",
+                "en": "November 1918"
+            },
+            "flash": {
+                "id": "DENGAN TIADANYA OBAT DARI PEMERINTAH BELANDA, WARGA BERTAHAN HIDUP DENGAN MEMINUM REBUSAN TEMULAWAK, JAHE MERAH, DAUN SIRIH, DAN MINYAK KAYU PUTIH.",
+                "en": "WITH ZERO COLONIAL MEDICINE AVAILABLE, VILLAGERS SURVIVE BY BREWING TEMULAWAK, RED GINGER, BETEL LEAVES, AND CAJUPUT ESSENCE."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Etnomedisin Nusantara & Jamu Suportif)",
+                "vector": "Dapur-dapur rumah tradisional dan pasar rempah desa",
+                "incubation": "N/A (Terapi Etnobotani)",
+                "transmission": "Konsumsi rebusan rimpang kaya kurkuminoid dan minyak atsiri antibakteri",
+                "mutationType": {
+                    "id": "Dukungan Imun Alami Menggunakan Keanekaragaman Hayati Hutan Tropis",
+                    "en": "Natural Immune Modulation via Tropical Rainforest Botanical Diversity"
+                },
+                "threatLevel": {
+                    "id": "Pertahanan Suportif (Satu-satunya Penawar Rasa Sakit Bagi Jutaan Rakyat Jelata)",
+                    "en": "Supportive Barrier (The Sole Source of Symptomatic Relief for Millions)"
+                },
+                "clinicalTarget": {
+                    "id": "Masyarakat jelata pedesaan Jawa dan Madura yang mengandalkan ramuan jamu",
+                    "en": "Rural Javanese and Madurese commoners relying on traditional herbalists"
+                }
+            },
+            "description": {
+                "id": "Ketika dinas kesehatan kolonial gagal menyediakan obat-obatan modern, kearifan lokal etnomedisin Nusantara menjadi penyelamat hidup jutaan orang. Di setiap pekarangan rumah, para ibu memetik rimpang temulawak (*Curcuma xanthorrhiza*), jahe merah, kencur, kunyit, dan daun meniran untuk direbus menjadi jamu penghangat tubuh. Minyak kayu putih dioleskan di dada penderita untuk melegakan pernapasan yang sesak, sementara daun sirih direbus untuk berkumur guna mencegah infeksi tenggorokan. Meskipun jamu tidak dapat membunuh virus influenza secara langsung, sifat anti-inflamasi dan antioksidan kuat dari kurkuminoid dan minyak atsiri rimpang lokal membantu meredakan badai sitokin dan mencegah infeksi bakteri sekunder, menyelamatkan ribuan nyawa dari maut.",
+                "en": "When the colonial state failed to dispense pharmaceutical remedies, the ancestral ethnobotanical wisdom of the archipelago served as a lifeline for millions. In village courtyards, mothers harvested wild rhizomes of *temulawak* (Java ginger), red ginger, galangal, turmeric, and phyllanthus herbs, boiling them into pungent, restorative tonics (*jamu*). Pungent cajuput oil (*minyak kayu putih*) was massaged onto feverish chests to ease constricted breathing, while astringent betel leaf infusions were gargled to cleanse purulent throats. While traditional herbal formulations could not neutralize the RNA virus itself, the potent anti-inflammatory and antioxidant properties of curcuminoids and essential oils softened the cytokine storm, pulling countless villagers back from the brink."
+            },
+            "image": "/assets/images/spanish-flu-1918/id/id_ch_07.jpg"
+        },
+        {
+            "id": "id-ch-08",
+            "chapterNumber": 8,
+            "type": "standard",
+            "title": {
+                "id": "Tragedi Pulau Bali: Runtuhnya Ritual Ngaben Massal",
+                "en": "The Tragedy of Bali: The Collapse of the Sacred Ngaben Rites"
+            },
+            "date": {
+                "id": "November – Desember 1918",
+                "en": "November – December 1918"
+            },
+            "flash": {
+                "id": "LEBIH DARI 20.000 WARGA BALI TEWAS DALAM BEBERAPA PEKAN; TRADISI KREMASI NGABEN TERPAKSA DITINGGALKAN DAN MAYAT DIKUBUR MASSAL SEMENTARA.",
+                "en": "OVER 20,000 BALINESE DIE IN WEEKS; SACRED NGABEN CREMATIONS COLLAPSE, COMPELING VILLAGERS TO BURY BODIES IN TEMPORARY COMMUNAUL TRENCHES."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Penetrasi Komunitas Kepulauan Nusa Tenggara)",
+                "vector": "Perahu jukung antarpulau dari Banyuwangi melintasi Selat Bali",
+                "incubation": "18 – 36 Jam",
+                "transmission": "Penyebaran di pemukiman desa adat (*banjar*) yang saling berdekatan",
+                "mutationType": {
+                    "id": "Dampak Ekstrem Terhadap Ritus Tradisional Siklus Hidup dan Kematian Bali",
+                    "en": "Catastrophic Impairment of Balinese Spiritual Life-Cycle Cremation Rites"
+                },
+                "threatLevel": {
+                    "id": "Tinggi (Tingkat Kematian di Beberapa Desa Adat Mencapai Lebih dari 10%)",
+                    "en": "High (Mortality Exceeding 10% in Densely Populated Traditional Banjar Enclaves)"
+                },
+                "clinicalTarget": {
+                    "id": "Masyarakat desa adat (*krama banjar*) di Gianyar, Klungkung, Badung, dan Buleleng",
+                    "en": "Balinese traditional banjar villagers across Gianyar, Klungkung, and Badung"
+                }
+            },
+            "description": {
+                "id": "Dari Jawa Timur, virus melompat menyeberangi Selat Bali melalui perahu-perahu tradisional nelayan. Di Pulau Dewata, dampak wabah menghancurkan struktur spiritual masyarakat adat. Dalam tempo dua bulan, lebih dari 20.000 warga Bali meninggal dunia. Di desa-desa adat (*banjar*) di Klungkung dan Gianyar, ritual suci pembakaran jenazah *Ngaben* tidak mungkin lagi dilaksanakan karena kelangkaan kayu cendana, minyak kelapa, dan ketidakmampuan para pendeta menyucikan ratusan jenazah yang datang bersamaan. Para tetua adat dengan berat hati terpaksa melanggar tradisi luhur mereka: jenazah-jenazah hanya dikuburkan sementara secara massal di area pemakaman desa (*setra*), dengan janji bahwa upacara pembakaran roh akan diselenggarakan bertahun-tahun kemudian ketika wabah telah berlalu.",
+                "en": "From eastern Java, the virus leaped across the narrow Bali Strait aboard traditional outrigger perahus. On the Island of the Gods, the pandemic shattered the delicate spiritual equilibrium of traditional communities. Within eight weeks, over 20,000 Balinese perished. In customary village *banjars* across Klungkung, Gianyar, and Badung, the sacred cremation rituals of *Ngaben* completely broke down due to the sheer volume of dead and the depletion of ceremonial wood, coconut oil, and holy water. Grieving priests and village elders were forced to make a profound spiritual compromise: corpses were buried hastily in mass communal graves within village *setra* (cemeteries), with sacred vows that bones would be exhumed for proper purification once the wrath of the unseen powers subsided."
+            },
+            "image": "/assets/images/spanish-flu-1918/id/id_ch_08.jpg"
+        },
+        {
+            "id": "id-ch-09",
+            "chapterNumber": 9,
+            "type": "side_story",
+            "title": {
+                "id": "Kegagalan 'Burgerlijke Geneeskundige Dienst': Pamflet Terlambat Hindia",
+                "en": "The BGD Debacle: Belated Pamphlets of the Colonial Health Service"
+            },
+            "date": {
+                "id": "November 1918",
+                "en": "November 1918"
+            },
+            "flash": {
+                "id": "KEPALA DINAS KESEHATAN KOLONIAL BGD MENGAKUI PEMERINTAH GAGAL MENGANTISIPASI WABAH; PAMFLET EDUKASI BERBAHASA JAWA DAN MELAYU BARU DICETAK SETELAH JUTAAN TEWAS.",
+                "en": "COLONIAL HEALTH SERVICE HEAD ADMITS UNPREPAREDNESS; HEALTH PAMPHLETS IN JAVANESE AND MALAY PRINTED ONLY AFTER MILLIONS ARE DEAD."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Audit Kegagalan Tata Kelola Birokrasi Kolonial)",
+                "vector": "Birokrasi lamban Dinas Kesehatan Sipil (*Burgerlijke Geneeskundige Dienst* / BGD)",
+                "incubation": "N/A (Kelalaian Administrasi)",
+                "transmission": "Ketiadaan protokol karantina pelabuhan antarpulau dan penolakan anggaran darurat",
+                "mutationType": {
+                    "id": "Kelumpuhan Birokrasi Sentralistik Batavia yang Terputus dari Realitas Pedesaan",
+                    "en": "Paralysis of Centralized Batavia Bureaucracy Severed from Rural Reality"
+                },
+                "threatLevel": {
+                    "id": "Kebijakan Kritis (Ketiadaan Mitigasi Kesehatan Awal Berdampak Fatal)",
+                    "en": "Policy Critical (Absence of Early Public Health Interventions Proves Fatal)"
+                },
+                "clinicalTarget": {
+                    "id": "Aparatur birokrasi kolonial BGD dan jutaan rakyat yang tidak terinformasikan",
+                    "en": "Colonial BGD administrative hierarchy and uninformed indigenous millions"
+                }
+            },
+            "description": {
+                "id": "Dinas Kesehatan Sipil Hindia Belanda (*Burgerlijke Geneeskundige Dienst* / BGD) yang dipimpin oleh Dr. W.Th. de Vogel terbukti lumpuh total menghadapi pandemi. BGD beroperasi dengan anggaran kesehatan yang sangat minim—kurang dari 2% dari total anggaran belanja kolonial. Ketika jutaan warga telah terinfeksi, pemerintah kolonial di Batavia baru mencetak pamflet-pamflet peringatan berbahasa Melayu dan Jawa beraksara Hanacaraka yang berisi nasihat dasar: jangan meludah di lantai, tidur dengan ventilasi cukup, dan memakai masker kain. Namun pamflet-pamflet tersebut tiba di desa-desa berbulan-bulan terlambat, ketika sebagian besar penduduk desa yang buta huruf telah meninggal dunia. Kegagalan BGD ini menjadi skandal besar yang disorot tajam dalam sidang-sidang parlemen Dewan Rakyat (*Volksraad*).",
+                "en": "The Dutch colonial Civil Health Service (*Burgerlijke Geneeskundige Dienst* / BGD), presided over by Dr. W.Th. de Vogel, proved utterly paralyzed before the onslaught. Operating on a shoestring budget that represented less than two percent of total colonial expenditures, the BGD had no contingency reserves. Only after millions had already fallen sick did the Batavia administration scramble to print educational circulars in Malay and Javanese Hanacaraka script, advising peasants not to spit on dirt floors, to open bamboo shutters, and to cover mouths with cotton cloth. But these pamphlets arrived months too late in illiterate hamlets where entire families had already perished, igniting scathing condemnation in the newly formed colonial parliament (*Volksraad*)."
+            },
+            "image": "/assets/images/spanish-flu-1918/id/id_ch_09.jpg"
+        },
+        {
+            "id": "id-ch-10",
+            "chapterNumber": 10,
+            "type": "standard",
+            "title": {
+                "id": "Penetrasi Tanah Seberang: Sumatra, Kalimantan, & Kepulauan Maluku",
+                "en": "Outer Island Ingress: Sumatra, Borneo, & The Spice Islands"
+            },
+            "date": {
+                "id": "Desember 1918 – Awal 1919",
+                "en": "December 1918 – Early 1919"
+            },
+            "flash": {
+                "id": "KAPAL-KAPAL POS KPM MENYEBARKAN PATOGEN KE TANAH SEBERANG; DARI MINANGKABAU HINGGA AMBON, DESA-DESA TERPENCIL DILANDA KEMATIAN MASSAL.",
+                "en": "KPM MAIL STEAMERS INJECT VIRUS INTO OUTER ISLANDS; FROM MINANGKABAU TO AMBON, REMOTE ARCHIPELAGIC COMMONS ARE DECIMATED."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Dispersi Maritim Kepulauan Terpencil)",
+                "vector": "Armada kapal uap pos reguler maskapai pelayaran KPM",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Penyebaran di dermaga transit Padang, Banjarmasin, Makassar, dan Manado",
+                "mutationType": {
+                    "id": "Penetrasi ke Komunitas Adat Terpencil dengan Akses Medis Nol",
+                    "en": "Penetration into Isolated Indigenous Enclaves with Zero Medical Access"
+                },
+                "threatLevel": {
+                    "id": "Tinggi (Tingkat Kematian Luar Jawa Mencapai Angka Signifikan)",
+                    "en": "High (Severe Outer Island Mortality Burden in North Sumatra, Dayak, and Maluku)"
+                },
+                "clinicalTarget": {
+                    "id": "Penduduk pedalaman Minangkabau, suku Dayak pedalaman Kalimantan, dan warga Ambon",
+                    "en": "Minangkabau highlanders, interior Dayak river communities, and Ambonese islanders"
+                }
+            },
+            "description": {
+                "id": "Meskipun Pulau Jawa menjadi pusat konsentrasi korban terbesar, pandemi tidak menyisakan Kepulauan Luar (*Buitengewesten*). Kapal-kapal pos KPM yang berlayar secara teratur menyebarkan virus ke pelabuhan-pelabuhan utama: Emmahaven di Padang, Banjarmasin di Kalimantan, Makassar di Sulawesi, hingga ke kepulauan Maluku. Di pedalaman Minangkabau, Sumatra Barat, rumah-rumah gadang berubah menjadi rumah duka; di sepanjang aliran Sungai Barito dan Mahakam di Kalimantan, suku Dayak menutup akses sungai dengan menebang pohon untuk membendung masuknya perahu pembawa kuman. Di pulau-pulau rempah Maluku seperti Banda dan Ambon, wabah menyapu seluruh keluarga pelaut dalam hitungan hari tanpa pernah ada dokter kolonial yang datang menolong.",
+                "en": "While Java bore the numerical brunt of the slaughter, the Outer Islands (*Buitengewesten*) were mercilessly harvested. KPM mail steamers operating scheduled lines seeded the infection into regional maritime ports: Emmahaven in Padang, Banjarmasin on the rivers of Borneo, Makassar in Celebes, and the Spice Islands of the Moluccas. In the Minangkabau highlands of West Sumatra, matrilineal *rumah gadang* longhouses became funerary halls. Along the Barito and Mahakam rivers of Borneo, Dayak chieftains felled colossal ironwood trees across river channels to physically blockade incoming craft carrying the fever. In Banda and Ambon, entire seafaring lineages were wiped out in days without a single European physician ever setting foot ashore."
+            },
+            "image": "/assets/images/spanish-flu-1918/id/id_ch_10.jpg"
+        },
+        {
+            "id": "id-ch-11",
+            "chapterNumber": 11,
+            "type": "standard",
+            "title": {
+                "id": "Gelombang Ketiga di Dataran Tinggi Priangan: Sisa-Sisa Api di Udara Dingin",
+                "en": "The Third Wave in the Priangan Highlands: Smoldering Embers in Mountain Air"
+            },
+            "date": {
+                "id": "Januari – April 1919",
+                "en": "January – April 1919"
+            },
+            "flash": {
+                "id": "UDARA DINGIN KEBUN TEH PRIANGAN MEMELIHARA GELOMBANG KETIGA; BURUH PEMETIK TEH GARUT DAN BANDUNG TUMBANG OLEH SISA-SISA INFLUENZA AWAL 1919.",
+                "en": "CHILLY PRIANGAN MOUNTAIN AIR HARBORS THE THIRD WAVE; TEA PLUCKERS OF GARUT AND BANDUNG CRUMPLE IN LATE RESURGENCE."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Gelombang Ketiga Dataran Tinggi Tropis)",
+                "vector": "Pemetik teh kebun pegunungan Priangan dan barak pemukiman buruh Sunda",
+                "incubation": "24 Jam",
+                "transmission": "Suhu dingin pegunungan 15–18°C meningkatkan stabilitas aerosol kuman di udara",
+                "mutationType": {
+                    "id": "Adaptasi Mikro-Klimatologi Dingin Tropis Dataran Tinggi Nusantara",
+                    "en": "Micro-Climatological Adaptation to Cool Tropical Highland Altitudes"
+                },
+                "threatLevel": {
+                    "id": "Sedang-Tinggi (Menyerang Kantong Komunitas Pegunungan yang Luput dari Gelombang Dua)",
+                    "en": "Moderate-High (Reaping Mountain Enclaves that Evaded the Autumn Apex)"
+                },
+                "clinicalTarget": {
+                    "id": "Buruh pemetik teh Sunda, petani sayur pegunungan Garut, dan kusir bendi Bandung",
+                    "en": "Sundanese tea pickers, Garut vegetable farmers, and Bandung carriage drivers"
+                }
+            },
+            "description": {
+                "id": "Pada awal 1919, ketika daratan rendah pesisir mulai melihat penurunan angka kematian, gelombang ketiga kembali berkobar di dataran tinggi sejuk Priangan, Jawa Barat. Udara dingin pegunungan berkabut di sekitar Bandung, Garut, dan Sukabumi menciptakan kondisi mikroklimat yang memperpanjang daya tahan hidup virus di udara. Ribuan buruh pemetik teh perempuan Sunda di perkebunan teh Malabar dan Pengalengan terkapar sakit demam tinggi di gubuk-gubuk perkebunan mereka. Meskipun tingkat fatalitasnya tidak lagi sehebat amukan Oktober 1918, gelombang ketiga ini tetap merenggut puluhan ribu nyawa tambahan di pelosok Jawa Barat sebelum akhirnya mereda sepenuhnya pada pertengahan 1919.",
+                "en": "In early 1919, as the scorched coastal lowlands finally witnessed a decline in daily burials, a persistent third wave flared across the misty highlands of the Priangan in West Java. The chilly, damp mountain air surrounding Bandung, Garut, and Sukabumi created optimal micro-climates that preserved viral aerosol stability. Thousands of Sundanese women plucking tea on the immense Malabar and Pengalengan estates collapsed with racking fevers in their valley dormitories. While the case fatality rate exhibited gradual biological attenuation compared to the October horror, this third wave nonetheless harvested tens of thousands of additional lives across West Java before extinguishing itself by mid-1919."
+            },
+            "image": "/assets/images/spanish-flu-1918/id/id_ch_11.jpg"
+        },
+        {
+            "id": "id-ch-12",
+            "chapterNumber": 12,
+            "type": "side_story",
+            "title": {
+                "id": "Suara 'Oetoesan Hindia': Kritik Pedas H.O.S. Tjokroaminoto & Sarekat Islam",
+                "en": "The Voice of 'Oetoesan Hindia': Tjokroaminoto's Indictment of Colonial Apathy"
+            },
+            "date": {
+                "id": "1919",
+                "en": "1919"
+            },
+            "flash": {
+                "id": "SURAT KABAR BUMIPUTERA 'OETOESAN HINDIA' MENGEBOM KELALAIAN PEMERINTAH BELANDA; TJOKROAMINOTO MENGHUBUNGKAN WABAH DENGAN KEMISKINAN STRUKTURAL.",
+                "en": "INDIGENOUS PAPER 'OETOESAN HINDIA' CONDEMNS COLONIAL DERELICTION; TJOKROAMINOTO LINKS DEADLY DEATH TOLLS TO ECONOMIC EXPLOITATION."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Katalis Pergerakan Nasionalis Hindia)",
+                "vector": "Surat kabar berbahasa Melayu bumiputera dan rapat akbar Sarekat Islam",
+                "incubation": "N/A (Kebangkitan Kesadaran Nasional)",
+                "transmission": "Penyebaran kritik politik antikolonial atas jutaan nyawa rakyat yang dikorbankan",
+                "mutationType": {
+                    "id": "Artikulasi Politik atas Bencana Kesehatan Massal Menjadi Tuntutan Kedaulatan",
+                    "en": "Political Articulation of Mass Health Catastrophe into Demands for Self-Rule"
+                },
+                "threatLevel": {
+                    "id": "Geopolitik Kolonial Kritis (Mempercepat Radikalisasi Gerakan Pergerakan Nasional)",
+                    "en": "Colonial Geopolitical Critical (Radicalizing Pre-Independence Nationalist Agitation)"
+                },
+                "clinicalTarget": {
+                    "id": "Pemerintah kolonial Gubernur Jenderal Van Limburg Stirum dan sistem eksploitasi",
+                    "en": "Governor-General Van Limburg Stirum's regime and colonial economic apparatus"
+                }
+            },
+            "description": {
+                "id": "Pandemi 1918 menjadi titik balik krusial dalam kebangkitan kesadaran politik nasionalis di Hindia Belanda. Melalui surat kabar *Oetoesan Hindia* di Surabaya, pemimpin besar Sarekat Islam, Hadji Oemar Said (H.O.S.) Tjokroaminoto, melancarkan kritik tajam tanpa ampun terhadap pemerintah kolonial. Tjokroaminoto menulis bahwa kematian jutaan rakyat bumiputera bukanlah semata-mata 'takdir Tuhan' atau 'kemarahan roh halus', melainkan akibat langsung dari kemiskinan struktural, kelaparan, dan ketiadaan fasilitas kesehatan yang disediakan oleh penjajah Belanda yang hanya mengeruk kekayaan tanah air. Kritik pedas ini menyulut kesadaran jutaan anggota Sarekat Islam dan organisasi pergerakan lainnya, mengubah duka lara pagebluk menjadi tekad baja untuk menuntut kemerdekaan dan keadilan sosial bagi bangsa Indonesia.",
+                "en": "The 1918 cataclysm proved a seminal watershed in the political radicalization of the Indonesian nationalist movement. Through the influential Malay-language daily *Oetoesan Hindia* in Surabaya, the revered leader of Sarekat Islam, Hadji Oemar Said (H.O.S.) Tjokroaminoto, unleashed a blistering indictment of the colonial order. Tjokroaminoto argued forcefully that the annihilation of millions of native lives was neither an inevitable 'act of God' nor a 'supernatural curse', but the direct consequence of systemic colonial impoverishment, chronic undernourishment, and criminal neglect by a regime that extracted fortunes while denying basic medicine. This impassioned critique resonated across the archipelago, transforming the grief of the *pagebluk* into an unyielding resolve for self-determination."
+            },
+            "image": "/assets/images/spanish-flu-1918/id/id_ch_12.jpg"
+        },
+        {
+            "id": "id-ch-13",
+            "chapterNumber": 13,
+            "type": "summary",
+            "title": {
+                "id": "Audit Epidemiologis Nusantara: Tragedi Terlupakan 1,5 Hingga 4,37 Juta Jiwa",
+                "en": "Epidemiological Audit of the Archipelago: The Forgotten 1.5 to 4.37 Million"
+            },
+            "date": {
+                "id": "1919 – 1921",
+                "en": "1919 – 1921"
+            },
+            "flash": {
+                "id": "RISET SEJARAWAN COLIN BROWN MENGUNGKAPKAN KORBAN TEWAS DI NUSANTARA MENCAPAI 1,5 HINGGA 4,37 JUTA JIWA; BENCANA DEMOGRAFIS TERBESAR DALAM SEJARAH INDONESIA.",
+                "en": "HISTORICAL RESEARCH BY COLIN BROWN REVEALS 1.5 TO 4.37 MILLION CASUALTIES IN INDONESIA; THE GREATEST DEMOGRAPHIC DISASTER IN ARCHIPELAGIC MEMORY."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Audit Demografis Historis Nusantara)",
+                "vector": "Endemisasi influenza musiman pasca-pandemi di wilayah tropis khatulistiwa",
+                "incubation": "1 – 4 Hari",
+                "transmission": "Evolusi virus menjadi galur influenza endemik di Asia Tenggara",
+                "mutationType": {
+                    "id": "Kehilangan Signifikan Populasi Usia Produktif Pulau Jawa dan Nusantara",
+                    "en": "Profound Depletion of Working-Age Cohorts across Java and Outer Islands"
+                },
+                "threatLevel": {
+                    "id": "Audit Historis Terbesar (Bencana Kematian Biologis Tertinggi dalam Sejarah Indonesia)",
+                    "en": "Greatest Historical Audit (Deadliest Single Biological Event in Indonesian History)"
+                },
+                "clinicalTarget": {
+                    "id": "Struktur demografi penduduk kepulauan Indonesia pada awal abad ke-20",
+                    "en": "Archipelagic demographic pyramid of early 20th-century Indonesia"
+                }
+            },
+            "description": {
+                "id": "Selama beberapa dekade, catatan kolonial Belanda mengecilkan jumlah korban flu 1918 di Hindia Belanda hanya sekitar 400.000 jiwa. Namun penelitian demografi historis modern yang dipelopori oleh sejarawan Colin Brown pada tahun 1987 dan diperdalam oleh para peneliti kontemporer merekonstruksi angka yang jauh lebih mengerikan: antara 1,5 juta hingga 4,37 juta jiwa penduduk Nusantara musnah akibat pandemi ini, dengan Pulau Jawa menanggung beban terbesar lebih dari 3 juta kematian. Angka ini menjadikan Hindia Belanda sebagai wilayah dengan jumlah kematian mutlak tertinggi kedua di seluruh dunia setelah India. Bencana demografis yang terlupakan ini mendesak pemerintah kolonial membentuk Dinas Pemberantasan Penyakit Menular dan memperluas pendidikan kedokteran bumiputera, meninggalkan warisan sejarah yang mendalam bagi sistem kesehatan masyarakat Indonesia modern.",
+                "en": "For decades, conservative Dutch colonial records minimized the 1918 pandemic death toll in the East Indies to a mere 400,000 souls. However, modern historical demographic scholarship—pioneered by historian Colin Brown in 1987 and expanded by contemporary epidemiologists—reconstructed the true, terrifying magnitude of the slaughter: between 1.5 million and an astonishing 4.37 million human beings were obliterated across the archipelago, with the island of Java alone enduring over three million deaths. This establishes colonial Indonesia as having suffered the second-highest absolute mortality burden in the entire world, surpassed only by British India. This colossal, long-neglected demographic catastrophe forced subsequent colonial health restructuring, expanded native medical training, and left an indelible imprint upon modern Indonesian public health memory."
+            },
+            "image": "/assets/images/spanish-flu-1918/id/id_ch_13.jpg"
+        }
+    ]
+}
