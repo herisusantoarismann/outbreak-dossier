@@ -40,6 +40,21 @@ export const PATHOGEN_LOADER_CONFIG: Record<string, PathogenConfig> = {
             en: "PATHOGEN PROFILE: YERSINIA PESTIS (BUBONIC PLAGUE VECTOR)",
         },
     },
+    "cholera-series": {
+        name: "Vibrio cholerae (7 Pandemi Global)",
+        morphology: "comma_flagellum",
+        assetKey: "vibrio_cholerae",
+        themeColor: "#06b6d4", // Waterborne Cyan
+        haloHex: "rgba(6, 182, 212, 0.4)",
+        label: {
+            id: "MEMPROSES TELEMETRI TUJUH PANDEMI KOLERA // 1817 – SEKARANG",
+            en: "PROCESSING SEVEN CHOLERA PANDEMICS TELEMETRY // 1817 – PRESENT",
+        },
+        sublabel: {
+            id: "PROFIL MIKROBA: VIBRIO CHOLERAE (BIOTIPE KLASIK & EL TOR)",
+            en: "PATHOGEN PROFILE: VIBRIO CHOLERAE (CLASSICAL & EL TOR BIOTYPES)",
+        },
+    },
     "cholera-1817": {
         name: "Vibrio cholerae",
         morphology: "comma_flagellum",

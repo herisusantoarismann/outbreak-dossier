@@ -10,6 +10,7 @@ import { PandemicInfoDrawer } from "./PandemicInfoDrawer";
 import { CountryTacticalHUD } from "./CountryTacticalHUD";
 import { SurveillanceModal } from "./SurveillanceModal";
 import { TelemetryTicker } from "./TelemetryTicker";
+import { CholeraWaveNav } from "./CholeraWaveNav";
 import { PandemicSwitcher } from "./PandemicSwitcher";
 import { LocaleSwitcher } from "@/components/molecules/LocaleSwitcher";
 import { EpicenterMetadata, SupportedLocale } from "@/data/countriesConfig";
@@ -38,27 +39,6 @@ interface CountriesGeoJson {
     features: GeoJsonFeature[];
 }
 
-interface GlobePoint {
-    lat: number;
-    lng: number;
-    altitude: number;
-    radius: number;
-    color: string;
-    isEpicenter: boolean;
-    epicenter?: EpicenterMetadata;
-    surveillance?: CountrySurveillanceData;
-    feature?: GeoJsonFeature;
-}
-
-interface GlobeRing {
-    lat: number;
-    lng: number;
-    maxR: number;
-    propagationSpeed: number;
-    repeatPeriod: number;
-    color: string;
-}
-
 const GEOJSON_REMOTE_URL =
     "https://raw.githubusercontent.com/vasturiano/globe.gl/master/example/datasets/ne_110m_admin_0_countries.geojson";
 const GEOJSON_LOCAL_FALLBACK = "/data/ne_110m_admin_0_countries.geojson";
@@ -67,14 +47,18 @@ const GEOJSON_LOCAL_FALLBACK = "/data/ne_110m_admin_0_countries.geojson";
 const resolveCameraPOV = (
     cam: [number, number, number],
 ): { lat: number; lng: number; altitude: number } => {
-    // If coords are normalized 3D Cartesian vectors (e.g. [0.35, 1.2, 1.8])
-    if (Math.abs(cam[0]) <= 2 && Math.abs(cam[1]) <= 2) {
+    // If values are large, it's Cartesian x,y,z - convert to spherical
+    if (
+        Math.abs(cam[0]) > 90 ||
+        Math.abs(cam[1]) > 180 ||
+        Math.abs(cam[2]) > 50
+    ) {
         const [x, y, z] = cam;
-        const r = Math.hypot(x, y, z);
-        const lat =
-            (Math.asin(Math.min(Math.max(y / r, -1), 1)) * 180) / Math.PI;
+        const r = Math.sqrt(x * x + y * y + z * z);
+        const lat = (Math.asin(y / r) * 180) / Math.PI;
         const lng = (Math.atan2(x, z) * 180) / Math.PI;
-        return { lat, lng, altitude: cam[2] };
+        const altitude = Math.max(1.5, Math.min(3.5, r / 100));
+        return { lat, lng, altitude };
     }
     return { lat: cam[0], lng: cam[1], altitude: cam[2] };
 };
@@ -93,10 +77,20 @@ const GlobeViewerInner: React.FC = () => {
     const {
         activePandemic,
         activePandemicId,
+        activeWaveIndex,
+        activeWave,
         surveillanceData,
         encryptedNotification,
         triggerEncryptedAlert,
     } = useActivePandemic();
+
+    const activePandemicIdRef = useRef(activePandemicId);
+    const activeWaveIndexRef = useRef(activeWaveIndex);
+
+    useEffect(() => {
+        activePandemicIdRef.current = activePandemicId;
+        activeWaveIndexRef.current = activeWaveIndex;
+    }, [activePandemicId, activeWaveIndex]);
 
     const tHub = useTranslations("hub");
 
@@ -199,13 +193,17 @@ const GlobeViewerInner: React.FC = () => {
     const checkIsEpicenter = useCallback(
         (iso2: string, iso3: string): EpicenterMetadata | null => {
             const interaction =
-                getCountryInteraction(activePandemicId, iso2) ||
-                getCountryInteraction(activePandemicId, iso3);
+                getCountryInteraction(
+                    activePandemicId,
+                    iso2,
+                    activeWaveIndex,
+                ) ||
+                getCountryInteraction(activePandemicId, iso3, activeWaveIndex);
             return interaction?.type === "epicenter" && interaction.epicenter
                 ? interaction.epicenter
                 : null;
         },
-        [activePandemicId],
+        [activePandemicId, activeWaveIndex],
     );
 
     // Dismiss all active modals & drawers
@@ -240,13 +238,23 @@ const GlobeViewerInner: React.FC = () => {
             if (typeof window !== "undefined") {
                 const currentUrl = new URL(window.location.href);
                 currentUrl.searchParams.set("sector", regionId.toLowerCase());
+                if (activePandemicId === "cholera-series") {
+                    currentUrl.searchParams.set(
+                        "wave",
+                        String(activeWaveIndex + 1),
+                    );
+                }
                 window.history.replaceState(null, "", currentUrl.toString());
             }
 
             setIsLoading(true);
             setTimeout(() => {
+                const waveSuffix =
+                    activePandemicId === "cholera-series"
+                        ? `?wave=${activeWaveIndex + 1}`
+                        : "";
                 router.push(
-                    `/dossier/${activePandemicId}/${regionId.toLowerCase()}`,
+                    `/dossier/${activePandemicId}/${regionId.toLowerCase()}${waveSuffix}`,
                 );
                 setIsLoading(false);
             }, 1400);
@@ -254,6 +262,7 @@ const GlobeViewerInner: React.FC = () => {
         [
             activePandemic.status,
             activePandemicId,
+            activeWaveIndex,
             dismissActiveModals,
             router,
             setIsLoading,
@@ -304,8 +313,12 @@ const GlobeViewerInner: React.FC = () => {
 
             const { iso2, iso3 } = getFeatureCountryInfo(feat);
             const interaction =
-                getCountryInteraction(activePandemicId, iso2) ||
-                getCountryInteraction(activePandemicId, iso3);
+                getCountryInteraction(
+                    activePandemicId,
+                    iso2,
+                    activeWaveIndex,
+                ) ||
+                getCountryInteraction(activePandemicId, iso3, activeWaveIndex);
 
             // Strict Era-Specific Raycast Guard (Zero Data Bleed):
             // Unregistered countries return null and dismiss modals
@@ -316,9 +329,11 @@ const GlobeViewerInner: React.FC = () => {
 
             const clickedRegionId = interaction.code.toUpperCase();
             const activePrimaryIds = (
-                activePandemic.primaryEpicenters ||
-                activePandemic.epicenters ||
-                []
+                activePandemicId === "cholera-series" && activeWave
+                    ? Object.keys(activeWave.primaryEpicenters)
+                    : activePandemic.primaryEpicenters ||
+                      activePandemic.epicenters ||
+                      []
             ).map((id) => id.toUpperCase());
             const activeSurveillanceKeys = Object.keys(surveillanceData).map(
                 (k) => k.toUpperCase(),
@@ -364,6 +379,8 @@ const GlobeViewerInner: React.FC = () => {
             activePandemic.epicenters,
             activePandemic.primaryEpicenters,
             activePandemicId,
+            activeWave,
+            activeWaveIndex,
             dismissActiveModals,
             getFeatureCentroid,
             getFeatureCountryInfo,
@@ -378,8 +395,12 @@ const GlobeViewerInner: React.FC = () => {
         (f: GeoJsonFeature, targetFeat: GeoJsonFeature | null) => {
             const { iso2, iso3 } = getFeatureCountryInfo(f);
             const interaction =
-                getCountryInteraction(activePandemicId, iso2) ||
-                getCountryInteraction(activePandemicId, iso3);
+                getCountryInteraction(
+                    activePandemicId,
+                    iso2,
+                    activeWaveIndex,
+                ) ||
+                getCountryInteraction(activePandemicId, iso3, activeWaveIndex);
             if (!interaction) return 0.002;
 
             const isTarget = !!targetFeat && f === targetFeat;
@@ -389,15 +410,19 @@ const GlobeViewerInner: React.FC = () => {
             // Tier-2 Surveillance
             return isTarget ? 0.02 : 0.005;
         },
-        [activePandemicId, getFeatureCountryInfo],
+        [activePandemicId, activeWaveIndex, getFeatureCountryInfo],
     );
 
     const getPolygonCapColor = useCallback(
         (f: GeoJsonFeature, targetFeat: GeoJsonFeature | null) => {
             const { iso2, iso3 } = getFeatureCountryInfo(f);
             const interaction =
-                getCountryInteraction(activePandemicId, iso2) ||
-                getCountryInteraction(activePandemicId, iso3);
+                getCountryInteraction(
+                    activePandemicId,
+                    iso2,
+                    activeWaveIndex,
+                ) ||
+                getCountryInteraction(activePandemicId, iso3, activeWaveIndex);
             if (!interaction) return "rgba(0, 0, 0, 0)";
 
             const isTarget = !!targetFeat && f === targetFeat;
@@ -416,15 +441,24 @@ const GlobeViewerInner: React.FC = () => {
             }
             return `${themeColor}26`;
         },
-        [activePandemic.themeColor, activePandemicId, getFeatureCountryInfo],
+        [
+            activePandemic.themeColor,
+            activePandemicId,
+            activeWaveIndex,
+            getFeatureCountryInfo,
+        ],
     );
 
     const getPolygonSideColor = useCallback(
         (f: GeoJsonFeature, targetFeat: GeoJsonFeature | null) => {
             const { iso2, iso3 } = getFeatureCountryInfo(f);
             const interaction =
-                getCountryInteraction(activePandemicId, iso2) ||
-                getCountryInteraction(activePandemicId, iso3);
+                getCountryInteraction(
+                    activePandemicId,
+                    iso2,
+                    activeWaveIndex,
+                ) ||
+                getCountryInteraction(activePandemicId, iso3, activeWaveIndex);
             if (!interaction) return "rgba(0, 0, 0, 0)";
 
             const isTarget = !!targetFeat && f === targetFeat;
@@ -441,15 +475,24 @@ const GlobeViewerInner: React.FC = () => {
             }
             return `${themeColor}33`;
         },
-        [activePandemic.themeColor, activePandemicId, getFeatureCountryInfo],
+        [
+            activePandemic.themeColor,
+            activePandemicId,
+            activeWaveIndex,
+            getFeatureCountryInfo,
+        ],
     );
 
     const getPolygonStrokeColor = useCallback(
         (f: GeoJsonFeature, targetFeat: GeoJsonFeature | null) => {
             const { iso2, iso3 } = getFeatureCountryInfo(f);
             const interaction =
-                getCountryInteraction(activePandemicId, iso2) ||
-                getCountryInteraction(activePandemicId, iso3);
+                getCountryInteraction(
+                    activePandemicId,
+                    iso2,
+                    activeWaveIndex,
+                ) ||
+                getCountryInteraction(activePandemicId, iso3, activeWaveIndex);
             // Unregistered: subtle wireframe border
             if (!interaction) return "rgba(255, 255, 255, 0.05)";
 
@@ -469,15 +512,24 @@ const GlobeViewerInner: React.FC = () => {
             }
             return themeColor;
         },
-        [activePandemic.themeColor, activePandemicId, getFeatureCountryInfo],
+        [
+            activePandemic.themeColor,
+            activePandemicId,
+            activeWaveIndex,
+            getFeatureCountryInfo,
+        ],
     );
 
     const getPolygonLabel = useCallback(
         (feat: GeoJsonFeature) => {
             const { iso2, iso3 } = getFeatureCountryInfo(feat);
             const interaction =
-                getCountryInteraction(activePandemicId, iso2) ||
-                getCountryInteraction(activePandemicId, iso3);
+                getCountryInteraction(
+                    activePandemicId,
+                    iso2,
+                    activeWaveIndex,
+                ) ||
+                getCountryInteraction(activePandemicId, iso3, activeWaveIndex);
             if (!interaction) return ""; // Unregistered: no tooltip
 
             const tc = activePandemic.themeColor;
@@ -546,6 +598,7 @@ const GlobeViewerInner: React.FC = () => {
         [
             activePandemic.themeColor,
             activePandemicId,
+            activeWaveIndex,
             currentLocale,
             getFeatureCountryInfo,
         ],
@@ -697,8 +750,16 @@ const GlobeViewerInner: React.FC = () => {
                     if (feat) {
                         const { iso2, iso3 } = getFeatureCountryInfo(feat);
                         const interaction =
-                            getCountryInteraction(activePandemicId, iso2) ||
-                            getCountryInteraction(activePandemicId, iso3);
+                            getCountryInteraction(
+                                activePandemicIdRef.current,
+                                iso2,
+                                activeWaveIndexRef.current,
+                            ) ||
+                            getCountryInteraction(
+                                activePandemicIdRef.current,
+                                iso3,
+                                activeWaveIndexRef.current,
+                            );
 
                         if (interaction) {
                             activeFeat = feat;
@@ -756,10 +817,18 @@ const GlobeViewerInner: React.FC = () => {
                 });
 
             // Set initial camera view
-            const initCam = activePandemic.defaultCameraPosition || [
-                10, 100, 2.3,
-            ];
-            globe.pointOfView(resolveCameraPOV(initCam));
+            if (activePandemicId === "cholera-series" && activeWave) {
+                globe.pointOfView({
+                    lat: activeWave.cameraPosition.lat,
+                    lng: activeWave.cameraPosition.lng,
+                    altitude: activeWave.cameraPosition.altitude,
+                });
+            } else {
+                const initCam = activePandemic.defaultCameraPosition || [
+                    10, 100, 2.3,
+                ];
+                globe.pointOfView(resolveCameraPOV(initCam));
+            }
 
             const controls = globe.controls();
             controls.autoRotate = true;
@@ -890,6 +959,49 @@ const GlobeViewerInner: React.FC = () => {
         openDossierJourney,
     ]);
 
+    // 6. Reactive camera repositioning & polygon refresh when activeWaveIndex changes (for cholera-series)
+    useEffect(() => {
+        if (
+            !globeInstanceRef.current ||
+            activePandemicId !== "cholera-series" ||
+            !activeWave
+        ) {
+            return;
+        }
+        const globe = globeInstanceRef.current;
+
+        // Smooth camera flight to wave's epicentral focal coordinates
+        globe.pointOfView(
+            {
+                lat: activeWave.cameraPosition.lat,
+                lng: activeWave.cameraPosition.lng,
+                altitude: activeWave.cameraPosition.altitude,
+            },
+            1600,
+        );
+
+        // Refresh polygon styling for the new wave
+        globe
+            .polygonAltitude((f: GeoJsonFeature) => getPolygonAltitude(f, null))
+            .polygonCapColor((f: GeoJsonFeature) => getPolygonCapColor(f, null))
+            .polygonSideColor((f: GeoJsonFeature) =>
+                getPolygonSideColor(f, null),
+            )
+            .polygonStrokeColor((f: GeoJsonFeature) =>
+                getPolygonStrokeColor(f, null),
+            )
+            .polygonLabel((f: GeoJsonFeature) => getPolygonLabel(f));
+    }, [
+        activePandemicId,
+        activeWave,
+        activeWaveIndex,
+        getPolygonAltitude,
+        getPolygonCapColor,
+        getPolygonLabel,
+        getPolygonSideColor,
+        getPolygonStrokeColor,
+    ]);
+
     return (
         <div className="relative w-full h-full overflow-hidden bg-[#050508]">
             {/* 3D WebGL Canvas Mount */}
@@ -961,10 +1073,44 @@ const GlobeViewerInner: React.FC = () => {
             {/* Mission Control Tactical Telemetry Ticker (Global Extremes) - Top Center (Parallel with Header on >1440px, Below on <=1440px) */}
             <div className="absolute top-16 sm:top-18 md:top-20 xl:top-20 hud-ticker-wide left-1/2 -translate-x-1/2 z-20 pointer-events-none">
                 <TelemetryTicker
-                    key={activePandemicId}
+                    key={`${activePandemicId}-${activeWaveIndex}`}
                     onSelectRecord={handleSelectRecord}
                 />
             </div>
+
+            {/* 7-Wave Cholera Timeline Sub-Navigation */}
+            {activePandemicId === "cholera-series" && (
+                <div className="absolute top-28 sm:top-32 md:top-36 xl:top-36 left-1/2 -translate-x-1/2 z-30 pointer-events-auto">
+                    <CholeraWaveNav
+                        onSectorSelect={(sectorId, coords) => {
+                            if (globeInstanceRef.current) {
+                                globeInstanceRef.current.pointOfView(
+                                    {
+                                        lat: coords.lat,
+                                        lng: coords.lng,
+                                        altitude: 1.25,
+                                    },
+                                    1400,
+                                );
+                            }
+                            const interaction = getCountryInteraction(
+                                "cholera-series",
+                                sectorId,
+                                activeWaveIndex,
+                            );
+                            if (
+                                interaction?.type === "epicenter" &&
+                                interaction.epicenter
+                            ) {
+                                setTacticalHUD({
+                                    isOpen: true,
+                                    epicenterData: interaction.epicenter,
+                                });
+                            }
+                        }}
+                    />
+                </div>
+            )}
 
             {/* Unified Responsive Pandemic Switcher & Bottom Dock */}
             <PandemicSwitcher onOpenInfo={() => setIsInfoDrawerOpen(true)} />
@@ -1008,6 +1154,7 @@ const GlobeViewerInner: React.FC = () => {
                 epicenterData={tacticalHUD.epicenterData}
                 onInitializeDossier={(code) => openDossierJourney(code)}
                 pandemicId={activePandemicId}
+                activeWaveIndex={activeWaveIndex}
             />
 
             {/* Compact Tactical HUD Modal (Tier 2 Secondary Surveillance) */}

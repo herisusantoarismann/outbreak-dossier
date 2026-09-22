@@ -67,6 +67,8 @@ export const PandemicSwitcher: React.FC<PandemicSwitcherProps> = ({
                 return "border-purple-500 text-purple-300 shadow-[0_0_14px_rgba(168,85,247,0.45)] bg-purple-950/50 font-bold";
             case "black-death-1347":
                 return "border-rose-600 text-rose-300 shadow-[0_0_14px_rgba(225,29,72,0.45)] bg-rose-950/50 font-bold";
+            case "cholera-series":
+                return "border-cyan-400 text-cyan-300 shadow-[0_0_14px_rgba(6,182,212,0.45)] bg-cyan-950/50 font-bold";
             case "cholera-1817":
                 return "border-emerald-500 text-emerald-300 shadow-[0_0_14px_rgba(16,185,129,0.45)] bg-emerald-950/50 font-bold";
             case "spanish-flu-1918":
@@ -84,6 +86,8 @@ export const PandemicSwitcher: React.FC<PandemicSwitcherProps> = ({
                 return "border-purple-500/50 bg-purple-950/60 text-purple-300 shadow-[0_0_10px_rgba(168,85,247,0.3)]";
             case "black-death-1347":
                 return "border-rose-600/50 bg-rose-950/60 text-rose-300 shadow-[0_0_10px_rgba(225,29,72,0.3)]";
+            case "cholera-series":
+                return "border-cyan-400/50 bg-cyan-950/60 text-cyan-300 shadow-[0_0_10px_rgba(6,182,212,0.3)]";
             case "cholera-1817":
                 return "border-emerald-500/50 bg-emerald-950/60 text-emerald-300 shadow-[0_0_10px_rgba(16,185,129,0.3)]";
             case "spanish-flu-1918":

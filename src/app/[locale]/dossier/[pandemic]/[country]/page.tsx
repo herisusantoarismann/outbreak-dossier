@@ -10,6 +10,10 @@ import {
     loadDossier,
     normalizeCountryCode,
 } from "@/data/pandemicsRegistry";
+import {
+    parseCholeraWaveParam,
+    inferWaveIndexFromSector,
+} from "@/data/pandemics/cholera/waves";
 import { t as tLocal } from "@/utils/i18n";
 import { SupportedLocale } from "@/types/journey";
 
@@ -19,6 +23,7 @@ interface DossierPageProps {
         pandemic: string;
         country: string;
     }>;
+    searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
 }
 
 export function generateStaticParams() {
@@ -43,6 +48,196 @@ export function generateStaticParams() {
             pandemic: "plague-of-justinian-541",
             countries: ["cpx", "pel", "sas", "rom"],
         },
+        {
+            pandemic: "black-death-1347",
+            countries: ["mes", "par", "lon", "kaf"],
+        },
+        {
+            pandemic: "cholera-series",
+            countries: [
+                "jes",
+                "bat",
+                "bso",
+                "cal",
+                "mus",
+                "rus",
+                "gbr",
+                "fra",
+                "usa",
+                "mek",
+                "mos",
+                "lon",
+                "par",
+                "nyc",
+                "mec",
+                "ita",
+                "ind",
+                "lat",
+                "sev",
+                "flo",
+                "pan",
+                "crc",
+                "egy",
+                "cai",
+                "alx",
+                "stp",
+                "zan",
+                "swa",
+                "sam",
+                "prg",
+                "arg",
+                "bra",
+                "ham",
+                "deu",
+                "aln",
+                "bng",
+                "bak",
+                "tsk",
+                "rom",
+                "mar",
+                "tln",
+                "jpn",
+                "tok",
+                "yok",
+                "ngs",
+            ],
+        },
+        {
+            pandemic: "cholera-1817",
+            countries: ["jes", "bat", "bso", "cal", "mus"],
+        },
+        {
+            pandemic: "cholera-1829",
+            countries: [
+                "rus",
+                "gbr",
+                "fra",
+                "usa",
+                "mek",
+                "mos",
+                "lon",
+                "par",
+                "nyc",
+                "mec",
+            ],
+        },
+        {
+            pandemic: "cholera-1854",
+            countries: [
+                "gbr",
+                "rus",
+                "usa",
+                "ita",
+                "ind",
+                "lat",
+                "lon",
+                "sev",
+                "nyc",
+                "flo",
+                "cal",
+                "pan",
+            ],
+        },
+        {
+            pandemic: "cholera-1863",
+            countries: [
+                "mek",
+                "egy",
+                "gbr",
+                "usa",
+                "rus",
+                "zan",
+                "sam",
+                "mec",
+                "cai",
+                "alx",
+                "lon",
+                "nyc",
+                "stp",
+                "swa",
+                "prg",
+                "arg",
+                "bra",
+            ],
+        },
+        {
+            pandemic: "cholera-1881",
+            countries: [
+                "ham",
+                "egy",
+                "ind",
+                "rus",
+                "ita",
+                "fra",
+                "jpn",
+                "usa",
+                "deu",
+                "aln",
+                "cai",
+                "alx",
+                "cal",
+                "bng",
+                "stp",
+                "bak",
+                "tsk",
+                "nap",
+                "rom",
+                "mar",
+                "par",
+                "tln",
+                "tok",
+                "yok",
+                "ngs",
+                "nyc",
+            ],
+        },
+        {
+            pandemic: "cholera-1899",
+            countries: [
+                "ind",
+                "rus",
+                "phl",
+                "mek",
+                "ita",
+                "jpn",
+                "cal",
+                "bng",
+                "pet",
+                "stp",
+                "man",
+                "tur",
+                "ist",
+                "mec",
+                "nap",
+                "eur",
+                "usa",
+                "nyc",
+                "tok",
+                "yok",
+            ],
+        },
+        {
+            pandemic: "cholera-1961",
+            countries: [
+                "idn",
+                "ind",
+                "per",
+                "zwe",
+                "hti",
+                "yem",
+                "mak",
+                "jak",
+                "bgd",
+                "dhk",
+                "cal",
+                "lma",
+                "sam",
+                "har",
+                "afr",
+                "pap",
+                "san",
+            ],
+        },
     ];
 
     return routing.locales.flatMap((locale) =>
@@ -56,8 +251,27 @@ export function generateStaticParams() {
     );
 }
 
-export default async function DossierPage({ params }: DossierPageProps) {
+export default async function DossierPage({
+    params,
+    searchParams,
+}: DossierPageProps) {
     const { locale, pandemic, country } = await params;
+    const resolvedSearchParams = searchParams ? await searchParams : undefined;
+    const rawWave = resolvedSearchParams?.wave;
+    const waveStr = Array.isArray(rawWave) ? rawWave[0] : rawWave;
+
+    let waveIndexToUse: number | undefined = undefined;
+    if (pandemic === "cholera-series") {
+        const parsedWave = parseCholeraWaveParam(waveStr);
+        if (parsedWave !== null) {
+            waveIndexToUse = parsedWave;
+        } else {
+            const inferred = inferWaveIndexFromSector(country);
+            if (inferred !== null) {
+                waveIndexToUse = inferred;
+            }
+        }
+    }
 
     if (!routing.locales.includes(locale as Locale)) {
         notFound();
@@ -68,7 +282,7 @@ export default async function DossierPage({ params }: DossierPageProps) {
         notFound();
     }
 
-    const chapters = await loadDossier(pandemic, country);
+    const chapters = await loadDossier(pandemic, country, waveIndexToUse);
     if (!chapters || chapters.length === 0) {
         notFound();
     }
@@ -80,12 +294,18 @@ export default async function DossierPage({ params }: DossierPageProps) {
     const pandemicName = tLocal(pandemicConfig.name, locale as SupportedLocale);
     const classificationBadge = `DECLASSIFIED INTELLIGENCE // ${pandemicName.toUpperCase()} — SECTOR [${normalizedCode}]`;
 
+    const waveQueryParam =
+        pandemic === "cholera-series" && waveIndexToUse !== undefined
+            ? `?wave=${waveIndexToUse + 1}`
+            : "";
+    const returnToGlobeHref = `/globe/${pandemic}${waveQueryParam}`;
+
     return (
         <div className="relative min-h-screen w-full bg-[#050508] text-neutral-100">
             {/* Fixed Navigation HUD */}
             <nav className="fixed top-4 left-4 sm:top-6 sm:left-6 z-50 flex items-center gap-3">
                 <Link
-                    href={`/globe/${pandemic}`}
+                    href={returnToGlobeHref}
                     className="group inline-flex items-center gap-2.5 px-3.5 py-2 rounded-lg bg-black/75 hover:bg-black/95 text-neutral-300 hover:text-white border border-neutral-800 hover:border-red-500/60 backdrop-blur-md font-mono text-xs tracking-wider transition-all duration-300 shadow-[0_0_20px_rgba(0,0,0,0.8)] hover:shadow-[0_0_20px_rgba(239,68,68,0.25)]"
                 >
                     <ArrowLeft className="w-3.5 h-3.5 text-red-500 transition-transform duration-200 group-hover:-translate-x-1" />

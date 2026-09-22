@@ -16,6 +16,11 @@ import {
     ClinicalProfile,
 } from "@/data/pandemicsRegistry";
 import { GlobalExtremeRecord, CountrySurveillanceData } from "@/types/journey";
+import {
+    CHOLERA_WAVES,
+    CholeraWave,
+    parseCholeraWaveParam,
+} from "@/data/pandemics/cholera/waves";
 
 // Pre-imported datasets for instantaneous zero-latency era switching
 import justinianExtremes from "@/data/pandemics/plague-of-justinian-541/extremes.json";
@@ -47,6 +52,7 @@ export interface AboutDrawerContent {
 export type PandemicEraId =
     | "plague-of-justinian-541"
     | "black-death-1347"
+    | "cholera-series"
     | "cholera-1817"
     | "spanish-flu-1918"
     | "covid-19"
@@ -56,6 +62,9 @@ export interface PandemicContextValue {
     activePandemic: PandemicProfile;
     activePandemicId: PandemicEraId;
     setActivePandemicId: (id: string) => void;
+    activeWaveIndex: number;
+    setActiveWaveIndex: (idx: number) => void;
+    activeWave: CholeraWave | null;
     allPandemics: PandemicProfile[];
     metadata: {
         era: string;
@@ -155,12 +164,100 @@ export const PandemicProvider: React.FC<{
         routePandemicId ??
         "covid-19") as PandemicEraId;
 
-    // Sync state if initialPandemicId changes (e.g. Next.js route navigation)
-    useEffect(() => {
-        if (initialPandemicId && initialPandemicId !== selectedPandemicId) {
-            setSelectedPandemicId(initialPandemicId);
+    const [activeWaveIndex, setActiveWaveIndexState] = useState<number>(() => {
+        if (typeof window !== "undefined") {
+            try {
+                // 1. Check URL query param ?wave= or ?w=
+                const params = new URLSearchParams(window.location.search);
+                const waveParam = params.get("wave") ?? params.get("w");
+                const parsed = parseCholeraWaveParam(waveParam);
+                if (parsed !== null) return parsed;
+
+                // 2. Check localStorage
+                const saved = localStorage.getItem("outbreak_active_wave");
+                if (saved !== null) {
+                    const parsedSaved = parseInt(saved, 10);
+                    if (
+                        !isNaN(parsedSaved) &&
+                        parsedSaved >= 0 &&
+                        parsedSaved < CHOLERA_WAVES.length
+                    ) {
+                        return parsedSaved;
+                    }
+                }
+            } catch {
+                // Ignore storage errors
+            }
         }
-    }, [initialPandemicId, selectedPandemicId]);
+        return 0;
+    });
+
+    const setActiveWaveIndex = useCallback((idx: number) => {
+        const clamped = Math.max(0, Math.min(CHOLERA_WAVES.length - 1, idx));
+        setActiveWaveIndexState(clamped);
+        if (typeof window !== "undefined") {
+            try {
+                localStorage.setItem("outbreak_active_wave", String(clamped));
+                const currentUrl = new URL(window.location.href);
+                currentUrl.searchParams.set("wave", String(clamped + 1));
+                window.history.replaceState(null, "", currentUrl.toString());
+            } catch {
+                // Ignore storage errors
+            }
+        }
+    }, []);
+
+    const [prevActivePandemicId, setPrevActivePandemicId] =
+        useState<PandemicEraId>(activePandemicId);
+
+    if (prevActivePandemicId !== activePandemicId) {
+        setPrevActivePandemicId(activePandemicId);
+        if (activePandemicId === "cholera-series") {
+            // Restore active wave from URL or localStorage when returning to cholera-series
+            if (typeof window !== "undefined") {
+                try {
+                    const params = new URLSearchParams(window.location.search);
+                    const waveParam = params.get("wave") ?? params.get("w");
+                    const parsed = parseCholeraWaveParam(waveParam);
+                    if (parsed !== null) {
+                        setActiveWaveIndexState(parsed);
+                    } else {
+                        const saved = localStorage.getItem(
+                            "outbreak_active_wave",
+                        );
+                        if (saved !== null) {
+                            const parsedSaved = parseInt(saved, 10);
+                            if (
+                                !isNaN(parsedSaved) &&
+                                parsedSaved >= 0 &&
+                                parsedSaved < CHOLERA_WAVES.length
+                            ) {
+                                setActiveWaveIndexState(parsedSaved);
+                            }
+                        }
+                    }
+                } catch {
+                    // Ignore storage errors
+                }
+            }
+        } else {
+            setActiveWaveIndexState(0);
+        }
+    }
+
+    const [prevInitialPandemicId, setPrevInitialPandemicId] =
+        useState(initialPandemicId);
+    if (initialPandemicId && prevInitialPandemicId !== initialPandemicId) {
+        setPrevInitialPandemicId(initialPandemicId);
+        setSelectedPandemicId(initialPandemicId);
+    }
+
+    const activeWave = useMemo(() => {
+        if (activePandemicId === "cholera-series") {
+            return CHOLERA_WAVES[activeWaveIndex] || CHOLERA_WAVES[0];
+        }
+        return null;
+    }, [activePandemicId, activeWaveIndex]);
 
     // Persist active pandemic into localStorage whenever it changes
     useEffect(() => {
@@ -176,6 +273,20 @@ export const PandemicProvider: React.FC<{
         }
     }, [activePandemicId]);
 
+    // Persist active wave index into localStorage whenever it changes
+    useEffect(() => {
+        if (activePandemicId === "cholera-series") {
+            try {
+                localStorage.setItem(
+                    "outbreak_active_wave",
+                    String(activeWaveIndex),
+                );
+            } catch {
+                // Ignore storage errors
+            }
+        }
+    }, [activePandemicId, activeWaveIndex]);
+
     // Synchronize state with browser forward/back buttons (popstate)
     useEffect(() => {
         const handlePopState = () => {
@@ -187,6 +298,13 @@ export const PandemicProvider: React.FC<{
                 if (config && config.status !== "classified_archive") {
                     setSelectedPandemicId(config.id);
                 }
+            }
+            // Synchronize wave from query params on browser history traversal
+            const params = new URLSearchParams(window.location.search);
+            const waveParam = params.get("wave") ?? params.get("w");
+            const parsed = parseCholeraWaveParam(waveParam);
+            if (parsed !== null) {
+                setActiveWaveIndexState(parsed);
             }
         };
         window.addEventListener("popstate", handlePopState);
@@ -252,18 +370,77 @@ export const PandemicProvider: React.FC<{
         [triggerEncryptedAlert],
     );
 
-    const metadata = useMemo(
-        () => ({
+    const metadata = useMemo(() => {
+        if (activePandemic.id === "cholera-series" && activeWave) {
+            return {
+                era: activeWave.yearRange,
+                pathogen: activeWave.pathogen,
+                deathToll:
+                    activePandemic.globalFatalities || "Puluhan Juta Jiwa",
+                themeColor: activeWave.themeColor,
+                atmosphereHex: activePandemic.atmosphereHex,
+            };
+        }
+        return {
             era: activePandemic.eraLabel,
             pathogen: activePandemic.pathogenName,
             deathToll: activePandemic.globalFatalities || "~7M+",
             themeColor: activePandemic.themeColor,
             atmosphereHex: activePandemic.atmosphereHex,
-        }),
-        [activePandemic],
-    );
+        };
+    }, [activePandemic, activeWave]);
 
     const aboutDrawerContent = useMemo((): AboutDrawerContent => {
+        if (activePandemic.id === "cholera-series") {
+            const wave = activeWave || CHOLERA_WAVES[0];
+            return {
+                title: wave.name,
+                subtitle: wave.subtitle,
+                overview: wave.historicalContext,
+                pathogenName: wave.pathogen,
+                clinical: activePandemic.clinicalProfile || {
+                    classification: {
+                        title: { id: "Klasifikasi", en: "Classification" },
+                        text: { id: wave.pathogen, en: wave.pathogen },
+                    },
+                    metrics: {
+                        incubation: {
+                            title: { id: "Inkubasi", en: "Incubation" },
+                            value: "2 Jam – 5 Hari",
+                            sub: { id: "Akut", en: "Acute" },
+                        },
+                        receptor: {
+                            title: { id: "Reseptor", en: "Receptor" },
+                            value: "GM1 Ganglioside",
+                            sub: { id: "Toksin Kolera", en: "Cholera Toxin" },
+                        },
+                        family: {
+                            title: { id: "Famili", en: "Family" },
+                            value: "Vibrionaceae",
+                            sub: {
+                                id: "Gammaproteobacteria",
+                                en: "Gammaproteobacteria",
+                            },
+                        },
+                    },
+                    transmission: {
+                        title: { id: "Transmisi", en: "Transmission" },
+                        text: {
+                            id: "Transmisi fekal-oral via air dan sanitasi tercemar.",
+                            en: "Fecal-oral transmission through contaminated water sources.",
+                        },
+                    },
+                    symptoms: {
+                        title: { id: "Gejala", en: "Symptoms" },
+                        text: {
+                            id: "Diare akut air cucian beras dan dehidrasi kilat.",
+                            en: "Acute rice-water diarrhea and rapid dehydration.",
+                        },
+                    },
+                },
+            };
+        }
+
         if (activePandemic.id === "plague-of-justinian-541") {
             return {
                 title: justinianAbout.title,
@@ -444,25 +621,34 @@ export const PandemicProvider: React.FC<{
                 },
             },
         };
-    }, [activePandemic]);
+    }, [activePandemic, activeWave]);
 
     const extremesData = useMemo(() => {
+        if (activePandemic.id === "cholera-series" && activeWave) {
+            return activeWave.metrics;
+        }
         return EXTREMES_CATALOG[activePandemic.id] || [];
-    }, [activePandemic.id]);
+    }, [activePandemic.id, activeWave]);
 
     const surveillanceData = useMemo(() => {
+        if (activePandemic.id === "cholera-series" && activeWave) {
+            return activeWave.surveillance;
+        }
         return (
             SURVEILLANCE_CATALOG[activePandemic.id] ||
             SURVEILLANCE_CATALOG["covid-19"] ||
             {}
         );
-    }, [activePandemic.id]);
+    }, [activePandemic.id, activeWave]);
 
     const value = useMemo(
         () => ({
             activePandemic,
             activePandemicId,
             setActivePandemicId,
+            activeWaveIndex,
+            setActiveWaveIndex,
+            activeWave,
             allPandemics: PANDEMIC_REGISTRY,
             metadata,
             aboutDrawerContent,
@@ -476,6 +662,9 @@ export const PandemicProvider: React.FC<{
             activePandemic,
             activePandemicId,
             setActivePandemicId,
+            activeWaveIndex,
+            setActiveWaveIndex,
+            activeWave,
             metadata,
             aboutDrawerContent,
             extremesData,
@@ -503,6 +692,9 @@ export function useActivePandemic(): PandemicContextValue {
             activePandemic: defaultPandemic,
             activePandemicId: defaultPandemic.id,
             setActivePandemicId: () => {},
+            activeWaveIndex: 0,
+            setActiveWaveIndex: () => {},
+            activeWave: null,
             allPandemics: PANDEMIC_REGISTRY,
             metadata: {
                 era: defaultPandemic.eraLabel,
