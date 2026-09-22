@@ -6,6 +6,7 @@ import blackDeathSurveillance from "@/data/pandemics/black-death-1347/surveillan
 import choleraSurveillance from "@/data/pandemics/cholera-1817/surveillance.json";
 import spanishFluSurveillance from "@/data/pandemics/spanish-flu-1918/surveillance.json";
 import covidSurveillance from "@/data/pandemics/covid-19/global-surveillance.json";
+import { CHOLERA_WAVES } from "@/data/pandemics/cholera/waves";
 
 export interface ClinicalProfile {
     classification: {
@@ -43,6 +44,7 @@ export interface PandemicProfile {
     id:
         | "plague-of-justinian-541"
         | "black-death-1347"
+        | "cholera-series"
         | "cholera-1817"
         | "spanish-flu-1918"
         | "covid-19"
@@ -258,61 +260,65 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
         },
     },
     {
-        id: "cholera-1817",
+        id: "cholera-series",
         year: 1817,
-        eraLabel: "1817 – 1824 M",
-        name: { id: "Pandemi Kolera Pertama", en: "First Cholera Pandemic" },
-        shortLabel: "1817 // CHOLERA",
-        pathogenName: "Vibrio cholerae",
+        eraLabel: "1817 – Sekarang",
+        name: {
+            id: "Pandemi Kolera (1817 – Sekarang)",
+            en: "The Cholera Pandemics (1817 – Present)",
+        },
+        shortLabel: "1817 – NOW // CHOLERA",
+        pathogenName: "Vibrio cholerae (7 Pandemi Global)",
         aboutTitle: {
-            id: "Mengenal Pandemi Kolera Pertama (1817)",
-            en: "Understanding the First Cholera Pandemic (1817)",
+            id: "Tujuh Pandemi Kolera: Sejarah Global (1817 – Sekarang)",
+            en: "The Seven Cholera Pandemics: A Global History (1817 – Present)",
         },
         aboutOverview: {
-            id: "Wabah kolera asiatik pertama yang meletus dari Delta Sungai Gangga di Jessore, menyebar melalui rute perdagangan tentara kolonial ke seluruh Asia dan Timur Tengah.",
-            en: "The first global Asiatic cholera pandemic emerging from the Ganges River Delta in Jessore, propagating along colonial trade and troop routes across Asia and the Middle East.",
+            id: "Selama lebih dari dua abad, Vibrio cholerae telah memicu tujuh pandemi global terpisah. Dari rawa-rawa Jessore pada 1817, penyelidikan revolusioner Dr. John Snow di London 1854, penemuan basil Robert Koch 1883, hingga munculnya mutasi El Tor di Sulawesi 1961 yang masih bertahan hingga kini, kolera terus menguji ketahanan sanitasi dan ketimpangan peradaban manusia.",
+            en: "Over more than two centuries, Vibrio cholerae has sparked seven distinct global pandemics. From the Jessore wetlands in 1817, Dr. John Snow's groundbreaking London 1854 investigation, Robert Koch's 1883 bacillus isolation, to the 1961 Sulawesi El Tor pandemic that persists today, cholera remains the ultimate litmus test of sanitation and human vulnerability.",
         },
-        tickerExtremesFile: "cholera-1817/extremes.json",
-        surveillanceFile: "cholera-1817/surveillance.json",
-        themeColor: "#10b981",
-        atmosphereHex: "#064e3b",
-        era: "1817 – 1824 M",
-        pathogen: "Vibrio cholerae",
-        globeAtmosphere: "#064e3b",
-        globalFatalities: "~1M - 2M+",
-        status: "classified_archive",
-        route: "/globe/cholera-1817",
+        tickerExtremesFile: "cholera/extremes.json",
+        surveillanceFile: "cholera/surveillance.json",
+        themeColor: "#06b6d4",
+        haloHex: "rgba(6, 182, 212, 0.4)",
+        atmosphereHex: "#083344",
+        era: "1817 – Sekarang",
+        pathogen: "Vibrio cholerae (Klasik & El Tor)",
+        globeAtmosphere: "#083344",
+        globalFatalities: "Puluhan Juta Jiwa (1817 – Sekarang)",
+        status: "active",
+        cameraInitialPosition: {
+            lat: 23.1687,
+            lng: 89.2173,
+            altitude: 2.2,
+        },
+        defaultCameraPosition: [23.1687, 89.2173, 2.2],
+        route: "/globe/cholera-series",
         baseYear: 1817,
-        epicenters: ["in", "bd", "id", "om"],
-        primaryEpicenters: ["IN", "BD", "ID", "OM"],
-        defaultCameraPosition: [22, 88, 2.3],
+        epicenters: ["JES", "BAT", "BSO"],
+        primaryEpicenters: ["JES", "BAT", "BSO"],
+        surveillanceRegions: ["BAG", "AST"],
         clinicalProfile: {
             classification: {
                 title: {
-                    id: "Klasifikasi Biologis & Struktur Patogen",
-                    en: "Biological Classification & Pathogen Structure",
+                    id: "Klasifikasi Biologis & Dua Biotipe Pandemi",
+                    en: "Biological Classification & Pandemic Biotypes",
                 },
                 text: {
-                    id: "Vibrio cholerae adalah bakteri Gram-negatif berbentuk koma dengan flagela tunggal polar. Patogen ini memproduksi toksin kolera (CTX) yang mengikat reseptor GM1 ganglioside di enterosit usus halus, memicu sekresi air dan elektrolit masif.",
-                    en: "Vibrio cholerae is a comma-shaped, highly motile Gram-negative bacterium with a single polar flagellum. It produces cholera enterotoxin (CTX) binding GM1 gangliosides, precipitating massive cyclic-AMP mediated intestinal fluid hypersecretion.",
+                    id: "Vibrio cholerae serogrup O1 terbagi menjadi dua biotipe utama: Klasik (penyebab Gelombang 1 hingga 6) dan El Tor (penyebab Gelombang 7 sejak 1961), memproduksi toksin kolera enteropatogenik.",
+                    en: "Vibrio cholerae O1 serogroup encompasses two major biotypes: Classical (responsible for Waves 1–6) and El Tor (driving Wave 7 since 1961), expressing potent enterotoxin (CTX).",
                 },
             },
             metrics: {
                 incubation: {
                     title: { id: "Masa Inkubasi", en: "Incubation Period" },
                     value: "2 Jam – 5 Hari",
-                    sub: {
-                        id: "Onset Dehidrasi Akut",
-                        en: "Acute Dehydration Onset",
-                    },
+                    sub: { id: "Median 1-2 Hari", en: "Median 1-2 Days" },
                 },
                 receptor: {
-                    title: { id: "Reseptor Seluler", en: "Target Receptor" },
+                    title: { id: "Reseptor Enterosit", en: "Target Receptor" },
                     value: "GM1 Ganglioside",
-                    sub: {
-                        id: "Toksin Kolera A-B",
-                        en: "A-B Cholera Enterotoxin",
-                    },
+                    sub: { id: "Hipersekresi cAMP", en: "cAMP Secretion" },
                 },
                 family: {
                     title: { id: "Famili Bakteri", en: "Bacterial Family" },
@@ -329,8 +335,8 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
                     en: "Transmission Vectors",
                 },
                 text: {
-                    id: "Rute fekal-oral melalui air minum, sungai, dan makanan yang terkontaminasi limbah tinja penderita. Diperparah oleh perpindahan batalion serdadu East India Company dan kafilah ziarah di lembah Benggala.",
-                    en: "Fecal-oral route through sewage-contaminated drinking water supplies and river estuaries, intensified by troop movements of the East India Company and regional pilgrim corridors.",
+                    id: "Penularan fekal-oral melalui air minum dan makanan yang terkontaminasi limbah tinja, estuaria payau, serta penyebaran maritim via air balas kapal niaga.",
+                    en: "Fecal-oral transmission through sewage-tainted drinking water, marine estuaries, and maritime ballast water transit.",
                 },
             },
             symptoms: {
@@ -339,8 +345,8 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
                     en: "Clinical Manifestations",
                 },
                 text: {
-                    id: "Diare cair tanpa nyeri menyerupai air cucian beras ('rice-water stool') hingga 20 liter per hari, muntah profus, kram otot parah, hipotensi cepat, sianosis asfiksia kering, dan syok hipovolemik fatal dalam hitungan jam.",
-                    en: "Painless voluminous watery diarrhea ('rice-water stools') up to 20 liters/day, profuse emesis, agonizing muscle cramps, sunken eyes, wrinkling washerwoman hands, and rapid terminal hypovolemic shock.",
+                    id: "Diare masif 'air cucian beras' (rice-water stools), muntah mendadak, kram otot ekstrem, dehidrasi hipovolemik kilat, dan asfiksia jaringan kering fatal dalam < 12 jam tanpa rehidrasi.",
+                    en: "Profuse painless 'rice-water' diarrhea, vomiting, severe muscle cramps, rapid hypovolemic collapse, and fatal dehydration in < 12 hours without rehydration.",
                 },
             },
         },
@@ -862,11 +868,175 @@ export const SPANISH_FLU_EPICENTERS: Record<string, EpicenterMetadata> = {
  */
 export function getEpicentersForPandemic(
     pandemicId: string,
+    waveIndex?: number,
 ): Record<string, EpicenterMetadata> {
     const pId = pandemicId.toLowerCase();
     if (pId === "plague-of-justinian-541") return JUSTINIAN_EPICENTERS;
     if (pId === "black-death-1347") return BLACK_DEATH_EPICENTERS;
     if (pId === "cholera-1817") return CHOLERA_1817_EPICENTERS;
+    if (pId === "cholera-1854") {
+        const wave = CHOLERA_WAVES[2];
+        return {
+            ...wave.primaryEpicenters,
+            LON: wave.primaryEpicenters.GBR,
+            CAL: wave.primaryEpicenters.IND,
+            PAR: wave.primaryEpicenters.ITA,
+            NYC: wave.primaryEpicenters.USA,
+        };
+    }
+    if (pId === "cholera-1863") {
+        const wave = CHOLERA_WAVES[3];
+        return {
+            ...wave.primaryEpicenters,
+            MEC: wave.primaryEpicenters.MEK,
+            CAI: wave.primaryEpicenters.EGY,
+            LON: wave.primaryEpicenters.GBR,
+            NYC: wave.primaryEpicenters.USA,
+            STP: wave.primaryEpicenters.RUS,
+            SWA: wave.primaryEpicenters.ZAN,
+            PRG: wave.primaryEpicenters.SAM,
+            ARG: wave.primaryEpicenters.SAM,
+        };
+    }
+    if (pId === "cholera-1881") {
+        const wave = CHOLERA_WAVES[4];
+        return {
+            ...wave.primaryEpicenters,
+            DEU: wave.primaryEpicenters.HAM,
+            ALN: wave.primaryEpicenters.HAM,
+            CAI: wave.primaryEpicenters.EGY,
+            ALX: wave.primaryEpicenters.EGY,
+            CAL: wave.primaryEpicenters.IND,
+            BNG: wave.primaryEpicenters.IND,
+            STP: wave.primaryEpicenters.RUS,
+            BAK: wave.primaryEpicenters.RUS,
+            TSK: wave.primaryEpicenters.RUS,
+            NAP: wave.primaryEpicenters.ITA,
+            ROM: wave.primaryEpicenters.ITA,
+            MAR: wave.primaryEpicenters.FRA,
+            PAR: wave.primaryEpicenters.FRA,
+            TLN: wave.primaryEpicenters.FRA,
+            TOK: wave.primaryEpicenters.JPN,
+            YOK: wave.primaryEpicenters.JPN,
+            NGS: wave.primaryEpicenters.JPN,
+            NYC: wave.primaryEpicenters.USA,
+        };
+    }
+    if (pId === "cholera-1899" || pId === "wave-6" || pId === "wave6") {
+        const wave = CHOLERA_WAVES[5];
+        return {
+            ...wave.primaryEpicenters,
+            CAL: wave.primaryEpicenters.IND,
+            BNG: wave.primaryEpicenters.IND,
+            MOS: wave.primaryEpicenters.RUS,
+            STP: wave.primaryEpicenters.RUS,
+            PET: wave.primaryEpicenters.RUS,
+            MAN: wave.primaryEpicenters.PHL,
+            IST: wave.primaryEpicenters.MEK,
+            MEC: wave.primaryEpicenters.MEK,
+            TUR: wave.primaryEpicenters.MEK,
+            EUR: wave.primaryEpicenters.ITA,
+            WAR: wave.primaryEpicenters.ITA,
+        };
+    }
+    if (pId === "cholera-1961" || pId === "wave-7" || pId === "wave7") {
+        const wave = CHOLERA_WAVES[6];
+        return {
+            ...wave.primaryEpicenters,
+            MAK: wave.primaryEpicenters.IDN,
+            JAK: wave.primaryEpicenters.IDN,
+            BGD: wave.primaryEpicenters.IND,
+            DHK: wave.primaryEpicenters.IND,
+            CAL: wave.primaryEpicenters.IND,
+            LMA: wave.primaryEpicenters.PER,
+            SAM: wave.primaryEpicenters.PER,
+            HAR: wave.primaryEpicenters.ZWE,
+            AFR: wave.primaryEpicenters.ZWE,
+            PAP: wave.primaryEpicenters.HTI,
+            SAN: wave.primaryEpicenters.YEM,
+        };
+    }
+    if (pId === "cholera-series") {
+        const wave = CHOLERA_WAVES[waveIndex ?? 0] ?? CHOLERA_WAVES[0];
+        if (wave.waveIndex === 2) {
+            return {
+                ...wave.primaryEpicenters,
+                LON: wave.primaryEpicenters.GBR,
+                CAL: wave.primaryEpicenters.IND,
+                PAR: wave.primaryEpicenters.ITA,
+                NYC: wave.primaryEpicenters.USA,
+            };
+        }
+        if (wave.waveIndex === 3) {
+            return {
+                ...wave.primaryEpicenters,
+                MEC: wave.primaryEpicenters.MEK,
+                CAI: wave.primaryEpicenters.EGY,
+                LON: wave.primaryEpicenters.GBR,
+                NYC: wave.primaryEpicenters.USA,
+                STP: wave.primaryEpicenters.RUS,
+                SWA: wave.primaryEpicenters.ZAN,
+                PRG: wave.primaryEpicenters.SAM,
+                ARG: wave.primaryEpicenters.SAM,
+            };
+        }
+        if (wave.waveIndex === 4) {
+            return {
+                ...wave.primaryEpicenters,
+                DEU: wave.primaryEpicenters.HAM,
+                ALN: wave.primaryEpicenters.HAM,
+                CAI: wave.primaryEpicenters.EGY,
+                ALX: wave.primaryEpicenters.EGY,
+                CAL: wave.primaryEpicenters.IND,
+                BNG: wave.primaryEpicenters.IND,
+                STP: wave.primaryEpicenters.RUS,
+                BAK: wave.primaryEpicenters.RUS,
+                TSK: wave.primaryEpicenters.RUS,
+                NAP: wave.primaryEpicenters.ITA,
+                ROM: wave.primaryEpicenters.ITA,
+                MAR: wave.primaryEpicenters.FRA,
+                PAR: wave.primaryEpicenters.FRA,
+                TLN: wave.primaryEpicenters.FRA,
+                TOK: wave.primaryEpicenters.JPN,
+                YOK: wave.primaryEpicenters.JPN,
+                NGS: wave.primaryEpicenters.JPN,
+                NYC: wave.primaryEpicenters.USA,
+            };
+        }
+        if (wave.waveIndex === 5) {
+            return {
+                ...wave.primaryEpicenters,
+                CAL: wave.primaryEpicenters.IND,
+                BNG: wave.primaryEpicenters.IND,
+                MOS: wave.primaryEpicenters.RUS,
+                STP: wave.primaryEpicenters.RUS,
+                PET: wave.primaryEpicenters.RUS,
+                MAN: wave.primaryEpicenters.PHL,
+                IST: wave.primaryEpicenters.MEK,
+                MEC: wave.primaryEpicenters.MEK,
+                TUR: wave.primaryEpicenters.MEK,
+                EUR: wave.primaryEpicenters.ITA,
+                WAR: wave.primaryEpicenters.ITA,
+            };
+        }
+        if (wave.waveIndex === 6) {
+            return {
+                ...wave.primaryEpicenters,
+                MAK: wave.primaryEpicenters.IDN,
+                JAK: wave.primaryEpicenters.IDN,
+                BGD: wave.primaryEpicenters.IND,
+                DHK: wave.primaryEpicenters.IND,
+                CAL: wave.primaryEpicenters.IND,
+                LMA: wave.primaryEpicenters.PER,
+                SAM: wave.primaryEpicenters.PER,
+                HAR: wave.primaryEpicenters.ZWE,
+                AFR: wave.primaryEpicenters.ZWE,
+                PAP: wave.primaryEpicenters.HTI,
+                SAN: wave.primaryEpicenters.YEM,
+            };
+        }
+        return wave.primaryEpicenters;
+    }
     if (pId === "spanish-flu-1918") return SPANISH_FLU_EPICENTERS;
     return EPICENTER_REGISTRY;
 }
@@ -876,6 +1046,7 @@ export function getEpicentersForPandemic(
  */
 export function getSurveillanceForPandemic(
     pandemicId: string,
+    waveIndex?: number,
 ): Record<string, CountrySurveillanceData> {
     const pId = pandemicId.toLowerCase();
     if (pId === "plague-of-justinian-541") {
@@ -895,6 +1066,10 @@ export function getSurveillanceForPandemic(
             string,
             CountrySurveillanceData
         >;
+    }
+    if (pId === "cholera-series") {
+        const wave = CHOLERA_WAVES[waveIndex ?? 0] ?? CHOLERA_WAVES[0];
+        return wave.surveillance;
     }
     if (pId === "spanish-flu-1918") {
         return spanishFluSurveillance as unknown as Record<
@@ -1025,6 +1200,7 @@ const BLACK_DEATH_TERRITORY_MAP: Record<
 export function getCountryInteraction(
     pandemicId: string,
     countryIdentifier: string,
+    waveIndex?: number,
 ): CountryInteraction | null {
     if (!countryIdentifier) return null;
     const pId = pandemicId.toLowerCase();
@@ -1062,6 +1238,78 @@ export function getCountryInteraction(
                 ? { type: "surveillance", code: mapping.code, surveillance }
                 : null;
         }
+    }
+
+    if (
+        pId === "cholera-series" ||
+        pId.startsWith("cholera-") ||
+        pId.startsWith("wave-") ||
+        pId.startsWith("wave")
+    ) {
+        let computedWaveIndex = waveIndex ?? 0;
+        if (pId === "cholera-1817" || pId === "wave-1" || pId === "wave1")
+            computedWaveIndex = 0;
+        else if (pId === "cholera-1829" || pId === "wave-2" || pId === "wave2")
+            computedWaveIndex = 1;
+        else if (pId === "cholera-1854" || pId === "wave-3" || pId === "wave3")
+            computedWaveIndex = 2;
+        else if (pId === "cholera-1863" || pId === "wave-4" || pId === "wave4")
+            computedWaveIndex = 3;
+        else if (pId === "cholera-1881" || pId === "wave-5" || pId === "wave5")
+            computedWaveIndex = 4;
+        else if (pId === "cholera-1899" || pId === "wave-6" || pId === "wave6")
+            computedWaveIndex = 5;
+        else if (pId === "cholera-1961" || pId === "wave-7" || pId === "wave7")
+            computedWaveIndex = 6;
+
+        const wave = CHOLERA_WAVES[computedWaveIndex] ?? CHOLERA_WAVES[0];
+        const mapping = wave.territoryMap[rawId];
+        if (mapping) {
+            if (mapping.type === "epicenter") {
+                const epicenter = wave.primaryEpicenters[mapping.code];
+                return epicenter
+                    ? { type: "epicenter", code: mapping.code, epicenter }
+                    : null;
+            } else {
+                const surveillance = wave.surveillance[mapping.code];
+                return surveillance
+                    ? { type: "surveillance", code: mapping.code, surveillance }
+                    : null;
+            }
+        }
+        const normalized = normalizeCountryCode(rawId).toUpperCase();
+        const normMapping = wave.territoryMap[normalized];
+        if (normMapping) {
+            if (normMapping.type === "epicenter") {
+                const epicenter = wave.primaryEpicenters[normMapping.code];
+                return epicenter
+                    ? { type: "epicenter", code: normMapping.code, epicenter }
+                    : null;
+            } else {
+                const surveillance = wave.surveillance[normMapping.code];
+                return surveillance
+                    ? {
+                          type: "surveillance",
+                          code: normMapping.code,
+                          surveillance,
+                      }
+                    : null;
+            }
+        }
+        const epi =
+            wave.primaryEpicenters[normalized] || wave.primaryEpicenters[rawId];
+        if (epi) {
+            return { type: "epicenter", code: epi.code, epicenter: epi };
+        }
+        const surv = wave.surveillance[normalized] || wave.surveillance[rawId];
+        if (surv) {
+            return {
+                type: "surveillance",
+                code: surv.iso2,
+                surveillance: surv,
+            };
+        }
+        return null;
     }
 
     if (pId === "cholera-1817") {
@@ -1127,6 +1375,33 @@ export function getCountryInteraction(
             "KRA",
             "MOS",
             "CAI",
+            "JES",
+            "CAL",
+            "BAT",
+            "MUS",
+            "BAG",
+            "AST",
+            "NYC",
+            "STP",
+            "BER",
+            "MON",
+            "HAM",
+            "MEC",
+            "TOK",
+            "NAP",
+            "ZAN",
+            "IST",
+            "VAL",
+            "ALN",
+            "PET",
+            "MAN",
+            "WAR",
+            "MAK",
+            "PAP",
+            "YEM",
+            "HAR",
+            "JAK",
+            "LMA",
         ].includes(rawId)
     ) {
         return null;
@@ -1155,9 +1430,25 @@ export function getCountryInteraction(
 export function getPandemicConfig(
     pandemicId: string,
 ): PandemicProfile | undefined {
-    return PANDEMIC_REGISTRY.find(
+    const p = PANDEMIC_REGISTRY.find(
         (p) => p.id.toLowerCase() === pandemicId.toLowerCase(),
     );
+    if (p) return p;
+
+    if (
+        pandemicId.toLowerCase().startsWith("cholera-") ||
+        pandemicId.toLowerCase().startsWith("wave-") ||
+        pandemicId.toLowerCase().startsWith("wave")
+    ) {
+        const base = PANDEMIC_REGISTRY.find((x) => x.id === "cholera-series");
+        if (base) {
+            return {
+                ...base,
+                id: pandemicId,
+            };
+        }
+    }
+    return undefined;
 }
 
 /**
@@ -1204,6 +1495,84 @@ export function normalizeCountryCode(countryCode: string): string {
         "kra",
         "mos",
         "cai",
+        "jes",
+        "cal",
+        "bat",
+        "bso",
+        "mus",
+        "bag",
+        "ast",
+        "nyc",
+        "stp",
+        "ber",
+        "mon",
+        "ham",
+        "deu",
+        "aln",
+        "mec",
+        "tok",
+        "nap",
+        "zan",
+        "ist",
+        "val",
+        "pet",
+        "man",
+        "war",
+        "mak",
+        "pap",
+        "yem",
+        "har",
+        "jak",
+        "lma",
+        "wave-1",
+        "wave1",
+        "rus",
+        "gbr",
+        "fra",
+        "usa",
+        "mek",
+        "wave-2",
+        "wave2",
+        "ita",
+        "ind",
+        "lat",
+        "sev",
+        "flo",
+        "pan",
+        "crc",
+        "cub",
+        "wave-3",
+        "wave3",
+        "egy",
+        "alx",
+        "swa",
+        "sam",
+        "prg",
+        "arg",
+        "bra",
+        "wave-4",
+        "wave4",
+        "bng",
+        "bak",
+        "tsk",
+        "mar",
+        "tln",
+        "jpn",
+        "yok",
+        "ngs",
+        "wave-5",
+        "wave5",
+        "phl",
+        "wave-6",
+        "wave6",
+        "bgd",
+        "dhk",
+        "per",
+        "zwe",
+        "hti",
+        "san",
+        "wave-7",
+        "wave7",
     ];
     if (historicalCodes.includes(code)) return code;
 
@@ -1216,6 +1585,7 @@ export function normalizeCountryCode(countryCode: string): string {
 export async function loadDossier(
     pandemicId: string,
     countryCode: string,
+    waveIndex?: number,
 ): Promise<Chapter[] | null> {
     const pId = pandemicId.toLowerCase();
     const cCode = normalizeCountryCode(countryCode);
@@ -1282,6 +1652,619 @@ export async function loadDossier(
                 case "kaf": {
                     const mod =
                         await import("@/data/pandemics/black-death-1347/kaf.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                default:
+                    return null;
+            }
+        }
+
+        if (
+            pId === "cholera-series" ||
+            pId === "cholera-1817" ||
+            pId === "cholera-1829" ||
+            pId === "cholera-1854" ||
+            pId === "cholera-1863" ||
+            pId === "cholera-1881" ||
+            pId === "cholera-1899" ||
+            pId === "cholera-1961" ||
+            pId === "wave-1" ||
+            pId === "wave-2" ||
+            pId === "wave-3" ||
+            pId === "wave-4" ||
+            pId === "wave-5" ||
+            pId === "wave-6" ||
+            pId === "wave-7" ||
+            pId === "wave1" ||
+            pId === "wave2" ||
+            pId === "wave3" ||
+            pId === "wave4" ||
+            pId === "wave5" ||
+            pId === "wave6" ||
+            pId === "wave7"
+        ) {
+            const isWave7 =
+                pId === "cholera-1961" ||
+                pId === "wave-7" ||
+                pId === "wave7" ||
+                (pId === "cholera-series" && waveIndex === 6);
+
+            if (isWave7) {
+                switch (cCode) {
+                    case "idn":
+                    case "id":
+                    case "mak":
+                    case "jak":
+                    case "wave-7":
+                    case "wave7": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-7/idn.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "ind":
+                    case "bgd":
+                    case "bd":
+                    case "dhk":
+                    case "cal":
+                    case "in": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-7/ind.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "per":
+                    case "pe":
+                    case "lma":
+                    case "sam": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-7/per.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "zwe":
+                    case "zw":
+                    case "har":
+                    case "afr": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-7/zwe.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "hti":
+                    case "ht":
+                    case "pap": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-7/hti.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "yem":
+                    case "ye":
+                    case "san": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-7/yem.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                }
+            }
+
+            const isWave6 =
+                pId === "cholera-1899" ||
+                pId === "wave-6" ||
+                pId === "wave6" ||
+                (pId === "cholera-series" && waveIndex === 5);
+
+            if (isWave6) {
+                switch (cCode) {
+                    case "ind":
+                    case "cal":
+                    case "bng":
+                    case "in":
+                    case "wave-6":
+                    case "wave6": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-6/ind.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "rus":
+                    case "ru":
+                    case "mos":
+                    case "stp":
+                    case "pet": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-6/rus.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "phl":
+                    case "ph":
+                    case "man": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-6/phl.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "mek":
+                    case "mec":
+                    case "tur":
+                    case "tr":
+                    case "ist":
+                    case "sa":
+                    case "sau": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-6/mek.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "ita":
+                    case "it":
+                    case "nap":
+                    case "eur":
+                    case "usa":
+                    case "us":
+                    case "nyc": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-6/ita.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "jpn":
+                    case "jp":
+                    case "tok":
+                    case "yok": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-6/jpn.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                }
+            }
+
+            const isWave5 =
+                pId === "cholera-1881" ||
+                pId === "wave-5" ||
+                pId === "wave5" ||
+                (pId === "cholera-series" && waveIndex === 4);
+
+            if (isWave5) {
+                switch (cCode) {
+                    case "ham":
+                    case "de":
+                    case "deu":
+                    case "aln":
+                    case "wave-5":
+                    case "wave5": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-5/ham.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "egy":
+                    case "cai":
+                    case "alx":
+                    case "eg": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-5/egy.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "ind":
+                    case "cal":
+                    case "bng":
+                    case "in": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-5/ind.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "rus":
+                    case "ru":
+                    case "mos":
+                    case "stp":
+                    case "bak":
+                    case "tsk": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-5/rus.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "ita":
+                    case "it":
+                    case "nap":
+                    case "rom": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-5/ita.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "fra":
+                    case "fr":
+                    case "mar":
+                    case "par":
+                    case "tln": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-5/fra.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "jpn":
+                    case "jp":
+                    case "tok":
+                    case "yok":
+                    case "ngs": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-5/jpn.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "usa":
+                    case "us":
+                    case "nyc": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-5/usa.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                }
+            }
+
+            const isWave4 =
+                pId === "cholera-1863" ||
+                pId === "wave-4" ||
+                pId === "wave4" ||
+                (pId === "cholera-series" && waveIndex === 3);
+
+            if (isWave4) {
+                switch (cCode) {
+                    case "mek":
+                    case "mec":
+                    case "sa":
+                    case "sau":
+                    case "wave-4":
+                    case "wave4": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-4/mek.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "egy":
+                    case "cai":
+                    case "alx":
+                    case "eg": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-4/egy.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "gbr":
+                    case "gb":
+                    case "uk":
+                    case "lon": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-4/gbr.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "usa":
+                    case "us":
+                    case "nyc": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-4/usa.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "rus":
+                    case "ru":
+                    case "mos":
+                    case "stp": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-4/rus.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "zan":
+                    case "swa":
+                    case "tz":
+                    case "tza": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-4/zan.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "sam":
+                    case "prg":
+                    case "arg":
+                    case "bra":
+                    case "py":
+                    case "ar":
+                    case "br": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-4/sam.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                }
+            }
+
+            const isWave3 =
+                pId === "cholera-1854" ||
+                pId === "wave-3" ||
+                pId === "wave3" ||
+                (pId === "cholera-series" && waveIndex === 2);
+
+            if (isWave3) {
+                switch (cCode) {
+                    case "gbr":
+                    case "gb":
+                    case "uk":
+                    case "lon":
+                    case "wave-3":
+                    case "wave3": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-3/gbr.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "rus":
+                    case "ru":
+                    case "mos":
+                    case "sev": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-3/rus.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "usa":
+                    case "us":
+                    case "nyc": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-3/usa.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "ita":
+                    case "it":
+                    case "flo":
+                    case "nap": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-3/ita.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "ind":
+                    case "in":
+                    case "cal": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-3/ind.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                    case "lat":
+                    case "crc":
+                    case "pan":
+                    case "cub":
+                    case "hav": {
+                        const mod =
+                            await import("@/data/pandemics/cholera/waves/wave-3/lat.json");
+                        const data = mod.default as unknown as
+                            { chapters: Chapter[] } | Chapter[];
+                        return Array.isArray(data) ? data : data.chapters;
+                    }
+                }
+            }
+
+            switch (cCode) {
+                // Wave 1 Sectors
+                case "jes":
+                case "cal": {
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-1/jes.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "bat": {
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-1/bat.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "bso":
+                case "mus": {
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-1/bso.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "wave-1":
+                case "wave1": {
+                    // Default Wave 1 sector fallback
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-1/jes.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+
+                // Wave 2 Sectors
+                case "rus":
+                case "ru":
+                case "mos": {
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-2/rus.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "gbr":
+                case "gb":
+                case "uk":
+                case "lon": {
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-2/gbr.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "fra":
+                case "fr":
+                case "par": {
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-2/fra.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "usa":
+                case "us":
+                case "nyc": {
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-2/usa.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "mek":
+                case "mec":
+                case "sa":
+                case "sau": {
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-2/mek.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "wave-2":
+                case "wave2": {
+                    // Default Wave 2 sector fallback
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-2/rus.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+
+                // Wave 3 Sectors
+                case "ita":
+                case "it":
+                case "flo":
+                case "nap": {
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-3/ita.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "ind":
+                case "in": {
+                    // Wave 3 Bengal & Indian Subcontinent
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-3/ind.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "lat":
+                case "crc":
+                case "pan":
+                case "cub":
+                case "hav": {
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-3/lat.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "sev": {
+                    // Sevastopol / Crimean War front in Wave 3
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-3/rus.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "wave-3":
+                case "wave3": {
+                    // Default Wave 3 sector fallback (Dr. John Snow GBR)
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-3/gbr.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+
+                // Wave 4 Sectors
+                case "egy":
+                case "cai":
+                case "alx": {
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-4/egy.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "zan":
+                case "swa": {
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-4/zan.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "sam":
+                case "prg":
+                case "arg":
+                case "bra": {
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-4/sam.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "wave-4":
+                case "wave4": {
+                    // Default Wave 4 sector fallback (Mecca Hajj MEK)
+                    const mod =
+                        await import("@/data/pandemics/cholera/waves/wave-4/mek.json");
                     const data = mod.default as unknown as
                         { chapters: Chapter[] } | Chapter[];
                     return Array.isArray(data) ? data : data.chapters;
