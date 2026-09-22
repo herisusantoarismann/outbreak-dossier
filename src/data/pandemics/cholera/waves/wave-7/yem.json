@@ -1,0 +1,256 @@
+{
+  "sectorId": "YEM",
+  "waveIndex": 7,
+  "sectorName": {
+    "id": "Sana'a & Al-Hudaydah (Perang Yaman & Wabah Terbesar Abad ke-21)",
+    "en": "Sana'a & Al-Hudaydah (Yemen War & 21st-Century Super-Outbreak)"
+  },
+  "coordinates": [
+    15.3694,
+    44.191
+  ],
+  "timeRange": "2016 – Sekarang",
+  "estimatedFatalities": "4,000+",
+  "chapters": [
+    {
+      "id": "yem_ch_01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Garis Tempur 2016: Hancurnya Utilitas Sana'a & Al-Hudaydah",
+        "en": "The 2016 Frontline: Annihilation of Sana'a & Al-Hudaydah Utilities"
+      },
+      "date": {
+        "id": "September – Oktober 2016",
+        "en": "September – October 2016"
+      },
+      "flash": {
+        "id": "Serangan udara dan blokade bahan bakar memutus aliran listrik ke pompa air kota Sana'a, memicu gelombang pertama kolera di tengah perang saudara yang berkecamuk.",
+        "en": "Airstrikes and fuel blockades sever electrical power to Sana'a's municipal water pumps, detonating the first wave of cholera amidst raging civil war."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1 biotype El Tor, serotype Ogawa (Sub-garis keturunan Afrika Timur)",
+        "vector": "Pipa air perkotaan yang hancur oleh bom, instalasi pengolahan limbah tanpa listrik, dan truk tangki air kotor",
+        "incubation": "12 – 48 jam",
+        "transmission": "Fekal-oral via air tanah yang tercemar oleh luapan limbah mentah di jalanan kota",
+        "mutationType": {
+          "id": "Sub-klade El Tor Afrika Timur Resisten Flurokuinolon",
+          "en": "Fluoroquinolone-Resistant East African El Tor Subclade"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Bencana Sanitasi Peperangan Modern",
+          "en": "Tier V - Modern Warfare Sanitary Catastrophe"
+        },
+        "clinicalTarget": {
+          "id": "Warga perkotaan Sana'a yang terkepung, anak-anak malnutrisi, dan pengungsi internal",
+          "en": "Besieged Sana'a urban residents, malnourished children, and internal refugees"
+        }
+      },
+      "description": {
+        "id": "Pada musim gugur 2016, Yaman telah terjerumus ke dalam salah satu perang saudara paling destruktif di zaman modern. Konflik bersenjata antara gerakan Houthi (Ansar Allah) dan koalisi pimpinan Arab Saudi melumpuhkan infrastruktur dasar negara termiskin di Timur Tengah itu. Pengeboman udara menghancurkan jembatan, jalan raya, dan jaringan listrik nasional. Di ibu kota Sana'a dan kota pelabuhan strategis Al-Hudaydah di Laut Merah, instalasi pengolahan air limbah dan stasiun pompa desalinasi berhenti beroperasi karena kehabisan bahan bakar diesel akibat blokade maritim dan udara yang ketat. Jutaan galon limbah tinja mentah meluap ke jalan-jalan berdebu dan meresap ke dalam sumur-sumur air tanah dangkal. Pada akhir September 2016, kasus-kasus kolera pertama mulai dikonfirmasi oleh laboratorium pusat di Sana'a, menandai dimulainya krisis kesehatan yang kelak berkembang menjadi wabah kolera terbesar yang pernah dicatat dalam sejarah epidemiologi modern.",
+        "en": "By the autumn of 2016, Yemen was engulfed in one of the most devastating armed conflicts of the 21st century. The war pitting the Houthi movement (Ansar Allah) against the Saudi-led international coalition methodically pulverized the fragile civic infrastructure of the Arab world's poorest nation. Aerial bombardments cratered highways, bridges, and the national power grid. In the mountainous capital of Sana'a and the critical Red Sea port of Al-Hudaydah, municipal wastewater treatment plants and desalination pumping stations seized up as diesel fuel supplies dried up under a punishing maritime and air blockade. Millions of gallons of raw municipal sewage spilled across urban thoroughfares, percolating directly into unlined shallow artesian aquifers. In late September 2016, the Central Public Health Laboratory in Sana'a confirmed the first positive cultures of Vibrio cholerae, signaling the genesis of what would become the largest outbreak in recorded human history."
+      },
+      "image": "/assets/images/cholera/wave-7/yem/yem_ch_01.jpg"
+    },
+    {
+      "id": "yem_ch_02",
+      "chapterNumber": 2,
+      "type": "milestone",
+      "title": {
+        "id": "Ledakan April 2017: Wabah Terbesar dalam Sejarah Modern",
+        "en": "The April 2017 Detonation: The Largest Outbreak in Modern History"
+      },
+      "date": {
+        "id": "April – Desember 2017",
+        "en": "April – December 2017"
+      },
+      "flash": {
+        "id": "Hujan lebat musim semi dan penumpukan sampah selama delapan bulan meledakkan gelombang kolera raksasa yang mencatat satu juta kasus dugaan hanya dalam delapan bulan.",
+        "en": "Torrential spring rains and an eight-month sanitation workers' strike trigger a colossal cholera tsunami logging one million suspected cases in just eight months."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae El Tor",
+        "vector": "Gunungan sampah kota yang membusuk, banjir lumpur musim semi, dan sumur bor yang tercemar",
+        "incubation": "6 – 24 jam",
+        "transmission": "Penyebaran hiper-eksplosif via air banjir yang mencemari seluruh jaringan air informal",
+        "mutationType": {
+          "id": "Ledakan Transmisi Eksponensial Terbesar Dunia",
+          "en": "World's Largest Exponential Transmission Surge"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Rekor Dunia Kasus Kolera Terbanyak",
+          "en": "Tier V - World Record Cholera Morbidity Crisis"
+        },
+        "clinicalTarget": {
+          "id": "Anak-anak balita malnutrisi akut berat (SAM), perempuan, dan lansia",
+          "en": "Severe acutely malnourished (SAM) toddlers, women, and the elderly"
+        }
+      },
+      "description": {
+        "id": "Setelah gelombang kecil mereda pada awal 2017, bencana sesungguhnya meledak pada 27 April 2017. Lebih dari 30.000 petugas kebersihan kota di Sana'a telah mogok kerja selama delapan bulan karena tidak menerima gaji dari bank sentral yang terpecah oleh perang. Ribuan ton sampah membusuk di setiap sudut jalan ibu kota. Ketika hujan lebat musim semi mengguyur lembah pegunungan Sana'a, air banjir menyapu tumpukan sampah dan kotoran manusia langsung ke dalam sumur-sumur bor yang menyuplai truk-truk tangki air swasta. Laju infeksi meledak secara astronomis: dari beberapa lusin kasus per hari menjadi 5.000 kasus baru setiap 24 jam. Bangsal Rumah Sakit Al-Sabeen dan Al-Thawra meluap hingga pasien anak-anak yang dehidrasi parah terpaksa dirawat di atas trotoar dan bagasi mobil di bawah terik matahari. Pada Desember 2017, jumlah kasus dugaan kolera melampaui angka satu juta—rekor tertinggi yang belum pernah disaksikan dalam sejarah kedokteran dunia.",
+        "en": "Following a deceptive lull, the cataclysm detonated on April 27, 2017. Over 30,000 municipal sanitation workers in Sana'a had been on strike for eight months following the non-payment of public sector salaries by a fractured central bank. Towering mountains of putrefying waste choked every urban crossroads. When violent spring cloudbursts inundated the Sana'a basin, flash floods flushed tons of uncollected garbage and human feces straight into the open boreholes supplying commercial tanker trucks. The infection rate escalated with horrifying mathematical velocity: from scores of cases daily to an astonishing 5,000 new admissions every single 24 hours. Al-Sabeen and Al-Thawra hospitals collapsed; pediatric wards overflowed onto sidewalks, with cyanotic children hooked to IV bags suspended from car antennas. By December 2017, the tally breached one million suspected cases—the largest single-country epidemic ever chronicled."
+      },
+      "image": "/assets/images/cholera/wave-7/yem/yem_ch_02.jpg"
+    },
+    {
+      "id": "yem_ch_03",
+      "chapterNumber": 3,
+      "type": "side_story",
+      "title": {
+        "id": "Sinergi Maut: Kolera Bersekutu dengan Malnutrisi Akut Berat (SAM)",
+        "en": "The Lethal Synergy: Cholera Colludes with Severe Acute Malnutrition"
+      },
+      "date": {
+        "id": "2017 – 2018",
+        "en": "2017 – 2018"
+      },
+      "flash": {
+        "id": "Anak-anak Yaman yang menderita kelaparan ekstrem (SAM) kehilangan daya tahan asam lambung, membuat dosis infeksi mikroskopis Vibrio cholerae menjadi vonis mati instan.",
+        "en": "Severely acutely malnourished (SAM) Yemeni children lose gastric acid defenses, turning microscopic bacterial doses into swift death sentences."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Atrofi mukosa usus halus dan hipoklorhidria akibat kelaparan kronis",
+        "incubation": "2 – 12 jam",
+        "transmission": "Sensitivitas ekstrem terhadap inokulum rendah pada anak-anak penderita kwashiorkor",
+        "mutationType": {
+          "id": "Amplifikasi Komorbiditas Malnutrisi Akut Berat",
+          "en": "Severe Acute Malnutrition Comorbidity Amplification"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Bencana Pediatrik Humaniter Gabungan",
+          "en": "Tier V - Compounded Pediatric Humanitarian Disaster"
+        },
+        "clinicalTarget": {
+          "id": "Anak-anak di bawah lima tahun penderita marasmus dan kwashiorkor di Kegubernuran Hajjah dan Al-Hudaydah",
+          "en": "Under-five children with marasmus and kwashiorkor across Hajjah and Al-Hudaydah"
+        }
+      },
+      "description": {
+        "id": "Hal yang membuat wabah kolera di Yaman begitu mematikan adalah perpaduannya yang tak terpisahkan dengan bencana kelaparan terburuk di dunia. Blokade pelabuhan Al-Hudaydah menghentikan masuknya pasokan gandum komersial dan bantuan pangan, menjerumuskan lebih dari 400.000 anak balita ke dalam kondisi Malnutrisi Akut Berat (SAM). Secara biologis, anak-anak yang kelaparan parah mengalami kondisi yang disebut hipoklorhidria: lambung mereka berhenti memproduksi asam klorida (HCl). Dalam kondisi normal, asam lambung adalah benteng pertahanan alami manusia yang mampu membunuh 99,9% bakteri Vibrio cholerae yang tertelan. Namun pada anak-anak Yaman yang kurus kering, bahkan segelas air yang hanya mengandung beberapa ratus sel vibrio dapat langsung lolos ke usus halus tanpa hambatan, memicu diare sekretorik yang menguras seluruh cairan tubuh mereka yang sudah sangat tipis dalam hitungan jam.",
+        "en": "The defining horror of Yemen's cholera epidemic was its catastrophic synergy with the 21st century's gravest famine. The commercial strangulation of Al-Hudaydah port arrested basic grain imports, plunging over 400,000 infants into Severe Acute Malnutrition (SAM). Pathophysiologically, starving children develop achlorhydria: their wasted bodies cease synthesizing protective gastric hydrochloric acid. In healthy humans, gastric acidity serves as an impenetrable physiological barrier that neutralizes 99.9% of ingested Vibrio cholerae. In wasted Yemeni toddlers, however, a minuscule bacterial inoculum that would normally prove harmless swept unobstructed into the small bowel, unleashing massive fluid shedding that liquidated their remaining circulatory volume in a matter of hours."
+      },
+      "image": "/assets/images/cholera/wave-7/yem/yem_ch_03.jpg"
+    },
+    {
+      "id": "yem_ch_04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Blokade Pelabuhan Al-Hudaydah: Pencekikan Garis Hidup Medis",
+        "en": "The Al-Hudaydah Port Blockade: Strangulation of the Medical Lifeline"
+      },
+      "date": {
+        "id": "November 2017 – 2018",
+        "en": "November 2017 – 2018"
+      },
+      "flash": {
+        "id": "Penutupan total pelabuhan Al-Hudaydah oleh koalisi militer menahan kapal-kapal pembawa jutaan saset ORS, tabung klorin, dan bahan bakar genset rumah sakit di lepas pantai.",
+        "en": "The total military blockade of Al-Hudaydah port strands ships laden with millions of ORS packets, chlorine drums, and hospital diesel offshore."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Blokade maritim kapal perang dan pertempuran garis pantai Laut Merah",
+        "incubation": "N/A (Pencekikan Logistik Medis Perang)",
+        "transmission": "Kelangkaan artifisial klorin dan bahan bakar pemurni air akibat pengepungan militer",
+        "mutationType": {
+          "id": "Eksaserbasi Blokade Militer Maritim Strategis",
+          "en": "Strategic Maritime Military Blockade Exacerbation"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Pelanggaran Hukum Humaniter Internasional",
+          "en": "Tier V - International Humanitarian Law Breach"
+        },
+        "clinicalTarget": {
+          "id": "Populasi 20 juta warga Yaman yang bergantung pada pasokan impor",
+          "en": "Twenty million Yemenis dependent on commercial maritime imports"
+        }
+      },
+      "description": {
+        "id": "Pada November 2017, menyusul peluncuran rudal balistik menuju Riyadh, koalisi militer memberlakukan penutupan total selama tiga minggu terhadap seluruh pelabuhan laut dan bandara di Yaman utara. Pelabuhan Al-Hudaydah, pintu masuk bagi 80% makanan, bahan bakar, dan obat-obatan negara itu, diblokade sepenuhnya. Kapal-kapal kargo PBB yang membawa ribuan ton cairan infus intravena, jutaan saset ORS, tablet klorin, dan generator diesel darurat terkatung-katung di perairan internasional. Tanpa bahan bakar untuk menjalankan generator cadangan, rantai dingin vaksin kolera di klinik-klinik lapangan rusak dan stasiun pompa air perkotaan berhenti menyaring air. Lembaga-lembaga hak asasi manusia internasional mengecam keras penggunaan kelaparan dan penghancuran fasilitas air sebagai senjata perang, menuduh pihak-pihak yang bertikai melanggar Konvensi Jenewa secara terang-terangan.",
+        "en": "In November 2017, following a missile launch toward Riyadh, the military coalition imposed a total, hermetic blockade on all seaports and airports across northern Yemen. The port of Al-Hudaydah—the arterial conduit through which 80% of the nation's food, commercial fuel, and medical relief entered—was padlocked by naval warships. UN aid freighters bearing thousands of metric tons of Ringer's lactate, millions of ORS sachets, water purification chlorine, and emergency generators were stranded in the Red Sea. Deprived of fuel to power backup hospital dynamos, cold-chain refrigeration for cholera vaccines spoiled and municipal pumps sputtered to a halt. International human rights organizations and the International Committee of the Red Cross denounced the weaponization of public waterworks and sanitation as a grave violation of the Geneva Conventions."
+      },
+      "image": "/assets/images/cholera/wave-7/yem/yem_ch_04.jpg"
+    },
+    {
+      "id": "yem_ch_05",
+      "chapterNumber": 5,
+      "type": "side_story",
+      "title": {
+        "id": "Pahlawan Tanpa Gaji: Perjuangan Tenaga Medis Yaman di Garis Depan",
+        "en": "Unpaid Heroes: The Struggle of Yemeni Healthcare Workers on the Frontline"
+      },
+      "date": {
+        "id": "2018 – 2019",
+        "en": "2018 – 2019"
+      },
+      "flash": {
+        "id": "Lebih dari 30.000 dokter dan perawat Yaman terus merawat jutaan pasien kolera selama bertahun-tahun tanpa digaji sepeser pun di tengah ancaman pengeboman udara.",
+        "en": "Over 30,000 Yemeni doctors and nurses treat millions of cholera patients for years without receiving a single paycheck amid the threat of airstrikes."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Pusat Perawatan Diare (DTC) dan Titik Rehidrasi Oral (ORP) darurat",
+        "incubation": "N/A (Ketahanan Dedikasi Tenaga Kesehatan)",
+        "transmission": "Penyelamatan jutaan jiwa melalui triase komunitas di bawah desingan peluru",
+        "mutationType": {
+          "id": "Dedikasi Klinis Ekstrem di Zona Perang Aktif",
+          "en": "Active War Zone Extreme Clinical Dedication"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Keberanian Humaniter Tenaga Medis Garis Depan",
+          "en": "Tier I - Frontline Healthcare Humanitarian Courage"
+        },
+        "clinicalTarget": {
+          "id": "Pasien dehidrasi kolera di pelosok pedesaan terpencil Yaman",
+          "en": "Dehydrated cholera victims across isolated rural Yemeni hamlets"
+        }
+      },
+      "description": {
+        "id": "Kisah wabah kolera Yaman tidak akan pernah lengkap tanpa mencatat kepahlawanan luar biasa para dokter, perawat, dan relawan kesehatan lokal Yaman. Meskipun lebih dari separuh fasilitas medis negara itu hancur atau rusak akibat pertempuran dan para pekerja kesehatan tidak menerima gaji pokok selama lebih dari dua tahun, mereka menolak meninggalkan bangsal. Bekerja sama dengan UNICEF, WHO, dan MSF yang memberikan sedikit uang saku insentif harian, para perawat mendirikan ribuan Titik Rehidrasi Oral (ORP) di masjid-masjid pedesaan dan sekolah-sekolah yang rusak. Mereka mengajar warga cara melarutkan garam rehidrasi, mendisinfeksi tangki air dengan kaporit, dan mendampingi pasien sekarat di lantai tanah di bawah cahaya lilin dan lampu senter. Dedikasi tanpa pamrih para tenaga medis lokal inilah yang mencegah angka kematian melonjak puluhan kali lipat di tengah epidemi terbesar di dunia.",
+        "en": "The narrative of the Yemeni catastrophe is fundamentally defined by the extraordinary valor of its indigenous physicians, nurses, and community sanitarians. Even as more than half of the nation's clinics were pulverized by airstrikes and medical personnel went over two consecutive years without a single paycheck, they refused to abandon their posts. Partnering with UNICEF, the WHO, and MSF—which provided modest operational stipends—local nurses established thousands of decentralized Oral Rehydration Points (ORPs) in village mosques and bombed-out schools. Working beneath the hum of overhead combat aircraft by candlelight and mobile phone torches, they continuously mixed oral salts, dosed village wells with calcium hypochlorite, and monitored collapsed patients on packed earth floors. This sheer local endurance prevented a horrific mortality surge from escalating into absolute demographic catastrophe."
+      },
+      "image": "/assets/images/cholera/wave-7/yem/yem_ch_05.jpg"
+    },
+    {
+      "id": "yem_ch_06",
+      "chapterNumber": 6,
+      "type": "summary",
+      "title": {
+        "id": "2,5 Juta Kasus: Dakwaan Moral Abad ke-21",
+        "en": "2.5 Million Cases: The Moral Indictment of the 21st Century"
+      },
+      "date": {
+        "id": "2020 – Sekarang",
+        "en": "2020 – Present"
+      },
+      "flash": {
+        "id": "Dengan akumulasi lebih dari 2,5 juta kasus dugaan dan 4.000 kematian, epidemi Yaman berdiri sebagai monumen memalukan keruntuhan peradaban akibat senjata perang modern.",
+        "en": "Accumulating over 2.5 million suspected cases and 4,000 fatalities, the Yemeni disaster stands as an enduring moral indictment of modern warfare and geopolitical complicity."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1 biotype El Tor",
+        "vector": "Perang proksi geopolitik internasional dan keruntuhan tatanan internasional",
+        "incubation": "N/A (Refleksi Geopolitik Pandemi)",
+        "transmission": "Demonstrasi bahwa kolera modern sepenuhnya merupakan produk kegagalan politik manusia",
+        "mutationType": {
+          "id": "Monumen Epidemiologis Pandemi Kolera Abad ke-21",
+          "en": "21st-Century Pandemic Epidemiological Monument"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Bencana Kegagalan Kemanusiaan Internasional Permanen",
+          "en": "Tier V - Permanent International Humanitarian System Failure"
+        },
+        "clinicalTarget": {
+          "id": "Populasi 30 juta rakyat Yaman dan kesadaran hukum internasional",
+          "en": "Thirty million Yemeni civilians and the conscience of international law"
+        }
+      },
+      "description": {
+        "id": "Pada awal dekade 2020-an, epidemi kolera di Yaman telah mencatatkan lebih dari 2,5 juta kasus terduga dan hampir 4.000 kematian, melampaui skala epidemi mana pun yang pernah didokumentasikan sejak pencatatan medis modern dimulai. Meskipun angka fatalitas kasus (CFR) berhasil ditekan rendah (sekitar 0,2%) berkat mobilisasi masif ORS dan cairan infus oleh badan-badan PBB, volume absolut penderitaan manusia di Yaman mencengangkan dunia. Epidemi Yaman membuktikan secara tak terbantahkan bahwa di abad ke-21, kolera bukan lagi bencana biologi murni, melainkan kejahatan perang struktural. Bakteri Vibrio cholerae tidak menyerang dengan kekuatan supernatural; ia masuk melalui celah yang dibuka sengaja oleh bom penghancur pipa air, blokade bahan bakar desalinasi, pemotongan gaji petugas sanitasi, dan kebisuan diplomasi global. Yaman menjadi pengingat paling mengerikan bahwa selama peradaban manusia memilih perang di atas kemanusiaan, kolera akan selalu menjadi hakim terakhir yang merenggut nyawa kaum yang paling tak berdaya.",
+        "en": "By the early 2020s, the cumulative toll of Yemen's cholera epidemic exceeded 2.5 million suspected cases and nearly 4,000 documented fatalities, dwarfing every outbreak cataloged since the dawn of modern bacteriology. While case fatality was kept remarkably low (approximately 0.2%) through the industrial mobilization of ORS by international agencies, the sheer volume of human agony remains staggering. The Yemeni disaster proved conclusively that in the modern era, cholera is no longer an enigmatic biological mystery; it is an entirely man-made crime of structural violence. Vibrio cholerae did not triumph through superior microbiological virulence; it marched through breaches carved open by deliberate airstrikes on water grids, naval blockades of water treatment fuel, the economic starvation of civil servants, and the cynicism of global realpolitik. Yemen stands as humanity's most sobering reminder that when civilization chooses war, ancient pestilence will inevitably serve as the final executioner of the vulnerable."
+      },
+      "image": "/assets/images/cholera/wave-7/yem/yem_ch_06.jpg"
+    }
+  ]
+}

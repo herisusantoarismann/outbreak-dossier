@@ -1,0 +1,296 @@
+{
+  "sectorId": "IND",
+  "waveIndex": 7,
+  "sectorName": {
+    "id": "Anak Benua India & Bangladesh (CRL Dhaka & Serotipe O139)",
+    "en": "Indian Subcontinent & Bangladesh (CRL Dhaka & Serotype O139)"
+  },
+  "coordinates": [
+    23.8103,
+    90.4125
+  ],
+  "timeRange": "1963 – 1993",
+  "estimatedFatalities": "85,000+",
+  "chapters": [
+    {
+      "id": "ind_ch_01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "El Tor Memasuki Benggala: Pertarungan Dua Biotipe",
+        "en": "El Tor Enters Bengal: The Clash of Two Biotypes"
+      },
+      "date": {
+        "id": "1963 – 1964",
+        "en": "1963 – 1964"
+      },
+      "flash": {
+        "id": "Biotipe El Tor mendarat di Delta Benggala, memulai perang perebutan ceruk ekologis melawan galur Kolera Klasik purba yang telah berkuasa ribuan tahun.",
+        "en": "The El Tor biotype penetrates the Bengal Delta, launching a fierce ecological competition against the ancestral Classical strain that ruled for millennia."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1 biotype El Tor vs. biotype Classical",
+        "vector": "Perairan pasang surut Sundarbans dan jaringan kanal Delta Gangga-Brahmaputra",
+        "incubation": "12 – 48 jam",
+        "transmission": "Fekal-oral via air sungai estuaria kaya fitoplankton dan zooplankton (kopepoda)",
+        "mutationType": {
+          "id": "Pergeseran Biotipe Dominan Delta Benggala",
+          "en": "Bengal Delta Biotype Dominance Shift"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Pergantian Ekologis Patogen Pandemik",
+          "en": "Tier V - Pandemic Pathogen Ecological Succession"
+        },
+        "clinicalTarget": {
+          "id": "Penduduk delta sungai, nelayan Sundarbans, dan warga permukiman padat Calcutta",
+          "en": "Riverine delta inhabitants, Sundarbans fishermen, and dense Calcutta slums"
+        }
+      },
+      "description": {
+        "id": "Pada tahun 1963, garis invasi biotipe El Tor akhirnya mencapai tanah air leluhur kolera: Delta Benggala. Selama lebih dari satu abad, seluruh enam gelombang pandemi kolera sebelumnya dipicu secara eksklusif oleh galur biotipe Klasik. Ketika El Tor masuk melalui pelabuhan Chittagong dan Kolkata, para ahli epidemiologi menyaksikan fenomena mikrobiologis yang luar biasa: biotipe El Tor yang lebih tahan lama di air tawar, mampu membentuk biofilm pada cangkang kopepoda kitin, dan memiliki rasio kasus tanpa gejala yang tinggi, secara bertahap mulai mendesak keluar galur Klasik dari habitat endemiknya. Meskipun galur Klasik sempat membalas pada awal 1980-an, El Tor menunjukkan keunggulan darwinian yang tak terbendung, mengubah dinamika epidemiologis di lembah Sungai Gangga dan Meghana untuk selamanya.",
+        "en": "In 1963, the advancing front of the El Tor biotype breached the historic cradle of Asiatic cholera: the vast Bengal Delta. For over a century, all six prior pandemics had been propelled exclusively by the Classical biotype. As El Tor penetrated via the ports of Chittagong and Calcutta, epidemiologists witnessed an unprecedented microbiological succession: the hardier El Tor strain, equipped with superior biofilm-forming capacity on chitinous zooplankton carapaces and elevated asymptomatic shedding, progressively displaced the classical organism from its ancestral estuarine niche. Though the Classical strain staged a temporary counter-resurgence in the early 1980s, El Tor displayed irreversible Darwinian dominance, fundamentally altering the pathogen dynamics of the Ganges-Meghna basin."
+      },
+      "image": "/assets/images/cholera/wave-7/ind/ind_ch_01.jpg"
+    },
+    {
+      "id": "ind_ch_02",
+      "chapterNumber": 2,
+      "type": "side_story",
+      "title": {
+        "id": "Laboratorium Riset Kolera Dhaka (CRL) & Penemuan Fisiologi ORS",
+        "en": "The Cholera Research Laboratory Dhaka (CRL) & The Physiology of ORS"
+      },
+      "date": {
+        "id": "1966 – 1968",
+        "en": "1966 – 1968"
+      },
+      "flash": {
+        "id": "Di laboratorium Mohakhali Dhaka, Dr. Dilip Mahalanabis, Dr. David Nalin, dan Dr. Richard Cash mengungkap mekanisme kotranspor natrium-glukosa yang merevolusi terapi rehidrasi.",
+        "en": "At Dhaka's Mohakhali laboratory, Drs. Dilip Mahalanabis, David Nalin, and Richard Cash unlock the sodium-glucose cotransport mechanism, transforming dehydration therapy."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Enterotoksin Kolera / CTX)",
+        "vector": "Saluran cerna manusia dan reseptor gangliosida GM1 usus halus",
+        "incubation": "N/A (Penelitian Terapeutik Molekuler)",
+        "transmission": "Penghentian dehidrasi fatal via absorpsi aktif glukosa-elektrolit oral",
+        "mutationType": {
+          "id": "Penemuan Fisiologis Terapi Rehidrasi Oral (ORT)",
+          "en": "Oral Rehydration Therapy (ORT) Physiological Discovery"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Tonggak Sejarah Terapi Kedokteran Dunia",
+          "en": "Tier I - World Medical Therapeutic Milestone"
+        },
+        "clinicalTarget": {
+          "id": "Pasien dehidrasi kolera akut di bangsal riset Mohakhali",
+          "en": "Acute cholera dehydration patients at the Mohakhali research ward"
+        }
+      },
+      "description": {
+        "id": "Di tengah ancaman konstan wabah di Pakistan Timur (kini Bangladesh), Laboratorium Riset Kolera SEATO di Mohakhali, Dhaka (kelak menjadi icddr,b) menjadi episentrum revolusi ilmiah terpenting dalam gastroenterologi modern. Para peneliti seperti David Nalin, Richard Cash, dan mitra-mitra Bengali mereka meneliti bagaimana toksin kolera mengaktifkan adenilat siklase di sel epitel usus halus, memompa keluar ion klorida dan air secara masif. Berdasarkan penelitian biokimia dasar Robert Crane tentang kotranspor natrium-glukosa, tim Dhaka membuktikan secara klinis bahwa pemberian larutan sederhana yang mengandung glukosa dan garam dengan perbandingan molar presisi mampu merangsang penyerapan kembali air dan elektrolit ke dalam aliran darah, bahkan ketika usus sedang diserang racun kolera hebat. Temuan ini membongkar dogma medis kuno yang menyatakan bahwa usus yang sedang diare harus diistirahatkan dari makanan dan cairan oral.",
+        "en": "Amidst constant epidemics in East Pakistan (modern Bangladesh), the SEATO Cholera Research Laboratory at Mohakhali, Dhaka (later icddr,b) became the epicenter of the most vital scientific revolution in modern gastroenterology. Clinical investigators David Nalin, Richard Cash, and their Bengali colleagues dissected how cholera toxin ADP-ribosylates the Gs alpha subunit to hyperactivate adenylate cyclase, pumping massive volumes of chloride and water into the gut lumen. Grounded in Robert Crane's basic research on sodium-glucose cotransport, the Dhaka team clinically demonstrated that an oral solution of equimolar glucose and electrolytes compelled the intestinal mucosa to absorb water into the vascular space, even during maximum secretory toxin onslaught. This breakthrough overturned decades of clinical dogma dictating that purging bowels must be rested from oral fluids."
+      },
+      "image": "/assets/images/cholera/wave-7/ind/ind_ch_02.jpg"
+    },
+    {
+      "id": "ind_ch_03",
+      "chapterNumber": 3,
+      "type": "milestone",
+      "title": {
+        "id": "Perang Kemerdekaan Bangladesh 1971 & Ujian Massal Bongaon",
+        "en": "The 1971 Bangladesh Liberation War & The Bongaon Refugee Crucible"
+      },
+      "date": {
+        "id": "Mei – September 1971",
+        "en": "May – September 1971"
+      },
+      "flash": {
+        "id": "Sepuluh juta pengungsi perang membanjiri perbatasan Benggala Barat saat kolera meletus di kamp Bongaon; Dr. Dilip Mahalanabis mengerahkan ORS darurat dan menyelamatkan puluhan ribu nyawa.",
+        "en": "Ten million war refugees flood West Bengal as cholera erupts at Bongaon; Dr. Dilip Mahalanabis deploys emergency ORS, slashing mortality from 30% to under 3%."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1 biotype El Tor",
+        "vector": "Kamp tenda pengungsi berlumpur, genangan air hujan monsun, dan jamban parit meluap",
+        "incubation": "6 – 24 jam",
+        "transmission": "Pencemaran fekal massal di kamp penampungan jutaan manusia tanpa sanitasi",
+        "mutationType": {
+          "id": "Strain Epidemi Humaniter Perang 1971",
+          "en": "1971 War Humanitarian Refugee Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Krisis Pengungsi & Epidemi Terbesar Pasca-PD II",
+          "en": "Tier V - Largest Post-WWII Refugee & Epidemic Crisis"
+        },
+        "clinicalTarget": {
+          "id": "Pengungsi perang Bangladesh, anak-anak malnutrisi, dan perempuan hamil",
+          "en": "Bangladeshi war refugees, malnourished children, and pregnant women"
+        }
+      },
+      "description": {
+        "id": "Pada musim semi 1971, Perang Kemerdekaan Bangladesh memicu eksodus kemanusiaan terbesar sejak Perang Dunia II. Lebih dari sepuluh juta pengungsi melarikan diri dari kekerasan tentara Pakistan menuju perbatasan Benggala Barat, India. Di kamp pengungsi Bongaon dekat perbatasan, hujan monsun lebat merendam tenda-tenda terpal dan meluapkan jamban parit ke sumber air minum. Vibrio cholerae meledak di tengah populasi yang kelaparan dan kelelahan; angka kematian melonjak hingga 30% karena stok cairan infus intravena habis total di seluruh India timur. Menghadapi bencana kepunahan massal, dokter India Dr. Dilip Mahalanabis mengambil keputusan heroik: ia memerintahkan pencampuran garam dapur meja, soda kue, dan gula tebu mentah ke dalam drum-drum air besar, lalu mendistribusikannya menggunakan cangkir kepada para pengungsi. Dalam beberapa pekan, angka kematian anjlok drastis menjadi di bawah 3%, membuktikan kepada dunia bahwa ORS adalah senjata massal paling ampuh dalam sejarah kedokteran bencana.",
+        "en": "In the spring of 1971, the Bangladesh Liberation War provoked the largest refugee exodus since World War II. Over ten million civilians fled across the border into West Bengal, India. At the squalid Bongaon refugee camp, torrential monsoon deluges washed trench latrines directly into communal drinking puddles. Vibrio cholerae detonated among the starving, traumatized multitudes; case fatality approached 30% as regional intravenous saline supplies completely evaporated across eastern India. Facing catastrophic slaughter, Indian pediatrician Dr. Dilip Mahalanabis enacted a daring, improvised public health gamble: he dissolved table salt, baking soda, and raw sugarcane molasses into giant domestic drums, training refugees and family members to ladle the solution continuously into purging mouths. Within weeks, mortality plummeted to under 3%, furnishing indisputable global proof that ORS was the definitive mass humanitarian weapon against cholera."
+      },
+      "image": "/assets/images/cholera/wave-7/ind/ind_ch_03.jpg"
+    },
+    {
+      "id": "ind_ch_04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Siklus Monsun Matlab & Ekologi Zooplankton Dr. Rita Colwell",
+        "en": "The Matlab Monsoon Cycles & Dr. Rita Colwell's Zooplankton Ecology"
+      },
+      "date": {
+        "id": "1975 – 1985",
+        "en": "1975 – 1985"
+      },
+      "flash": {
+        "id": "Stasiun Riset Lapangan Matlab di pedalaman Bangladesh dan mikrobiolog Dr. Rita Colwell membuktikan bahwa Vibrio cholerae hidup secara permanen sebagai simbion kopepoda laut.",
+        "en": "The Matlab Field Station and microbiologist Dr. Rita Colwell demonstrate that Vibrio cholerae survives indefinitely as a natural symbiont of aquatic zooplankton."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Bentuk Viable But Non-Culturable / VBNC)",
+        "vector": "Kopepoda laut (Acartia tonsa), fitoplankton mekar, dan suhu permukaan laut (SST)",
+        "incubation": "N/A (Reservoir Ekologis)",
+        "transmission": "Peningkatan populasi kopepoda pasca-monsun yang membawa muatan jutaan vibrio",
+        "mutationType": {
+          "id": "Penetapan Ekologis Reservoir Alami Muara",
+          "en": "Natural Estuarine Reservoir Ecological Paradigm"
+        },
+        "threatLevel": {
+          "id": "Tingkat II - Wawasan Ekologi Penyakit Menular Fundamental",
+          "en": "Tier II - Fundamental Infectious Disease Ecology Insight"
+        },
+        "clinicalTarget": {
+          "id": "Masyarakat pedesaan pengguna air kolam sungai (pukur) di Bangladesh",
+          "en": "Rural riverine pond water users (pukur) in Bangladesh"
+        }
+      },
+      "description": {
+        "id": "Di distrik terpencil Matlab di hilir Sungai Meghna, para ilmuwan icddr,b mengamati pola yang membingungkan: kolera selalu muncul dengan keteraturan jam biologis dua kali setahun—setelah monsun musim semi dan musim gugur—bahkan ketika tidak ada pasien indeks yang tiba dari luar. Misteri ini dipecahkan oleh ahli mikrobiologi kelautan Amerika Dr. Rita Colwell, yang membuktikan bahwa Vibrio cholerae bukanlah patogen manusia murni, melainkan penghuni alami ekosistem estuaria dan laut. Bakteri menempel pada cangkang berkitin kopepoda (zooplankton mikroskopis). Ketika suhu laut menghangat dan fitoplankton mekar setelah hujan monsun, populasi kopepoda meledak, masing-masing membawa hingga 10.000 sel vibrio. Ketika air sungai diminum tanpa disaring, kopepoda tertelan dan mengantarkan dosis infeksius ke usus manusia. Temuan ini membuktikan bahwa kolera tidak akan pernah bisa dimusnahkan total dari planet bumi karena ia merupakan bagian intrinsik dari biosfer akuatik.",
+        "en": "At the rural Matlab field station in the Meghna River estuary, icddr,b epidemiologists documented a perplexing phenomenon: cholera erupted with clockwork seasonality twice annually—following the spring and autumn monsoons—even in the complete absence of human index cases. This enigma was unraveled by American marine microbiologist Dr. Rita Colwell, who established that Vibrio cholerae is not primarily an obligate human pathogen, but an indigenous autochthonous inhabitant of aquatic ecosystems. The vibrios attach symbiotically to the chitinous carapaces and egg sacks of microscopic copepods. When ocean temperatures rise and monsoons trigger phytoplankton blooms, copepod populations explode, each carrying an infectious payload of 10,000 bacterial cells. Ingesting raw pond water delivers these hitchhiking vibrios straight into the human gut. This paradigm shift proved cholera could never be eradicated globally, as it is anchored in the aquatic biosphere."
+      },
+      "image": "/assets/images/cholera/wave-7/ind/ind_ch_04.jpg"
+    },
+    {
+      "id": "ind_ch_05",
+      "chapterNumber": 5,
+      "type": "side_story",
+      "title": {
+        "id": "Inovasi Sederhana Sari: Filtrasi Nilon Melipat Gandakan Keselamatan",
+        "en": "The Sari Cloth Filtration Breakthrough: Low-Cost Folk Nanotechnology"
+      },
+      "date": {
+        "id": "1988 – 1992",
+        "en": "1988 – 1992"
+      },
+      "flash": {
+        "id": "Dr. Rita Colwell dan perawat desa membuktikan bahwa menyaring air menggunakan kain sari bekas yang dilipat empat lapis menahan 99% kopepoda dan memangkas kolera hingga separuh.",
+        "en": "Dr. Rita Colwell and rural community health workers prove that folding old sari cloth four times filters out 99% of planktonic copepods, halving cholera rates."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae melekat pada kopepoda",
+        "vector": "Pori-pori serat kain katun sari bekas (ukuran pori 20 mikrometer)",
+        "incubation": "N/A (Pencegahan Primer Perilaku)",
+        "transmission": "Penyaringan fisik kopepoda sebelum air kolam dikonsumsi",
+        "mutationType": {
+          "id": "Intervensi Fisik Filtrasi Nilon Tradisional",
+          "en": "Traditional Sari Cloth Physical Filtration Intervention"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Intervensi Kesehatan Komunitas Berbiaya Nol",
+          "en": "Tier I - Zero-Cost Community Public Health Intervention"
+        },
+        "clinicalTarget": {
+          "id": "Perempuan pedesaan Bangladesh dan keluarga penimba air kolam",
+          "en": "Rural Bangladeshi women and household pond water collectors"
+        }
+      },
+      "description": {
+        "id": "Mengetahui bahwa Vibrio cholerae menempel pada kopepoda yang berukuran sekitar 150 mikrometer, para peneliti di Matlab mencari cara pencegahan yang murah dan dapat diterapkan oleh perempuan desa termiskin tanpa membutuhkan bahan kimia impor. Solusinya ditemukan dalam pakaian tradisional perempuan Asia Selatan: kain sari katun bekas. Serat katun sari yang telah dicuci berulang kali menjadi lebih rapat dan membentuk anyaman mikroskopis dengan ukuran pori sekitar 20 mikrometer jika dilipat empat hingga delapan kali. Dalam uji coba klinis lapangan di ratusan desa Bangladesh, para ibu diajarkan untuk mengikatkan kain sari di atas mulut tempayan air (kalash) sebelum menyiduk air kolam. Hasil uji laboratorium membuktikan kain sari menyaring 99% kopepoda yang membawa vibrio. Uji coba lapangan berskala besar menunjukkan insiden kolera turun hingga 48%, menjadi salah satu intervensi teknologi tepat guna paling elegan dan sukses dalam sejarah kesehatan masyarakat global.",
+        "en": "Recognizing that Vibrio cholerae travels inside the digestive tract and carapace of copepods measuring approximately 150 micrometers, researchers at Matlab devised an ingenious, accessible intervention for rural women lacking fuel to boil water or chlorine tablets: the folded cotton sari. Worn sari cloth, washed repeatedly, frays into dense microfibrils with pore diameters under 20 micrometers when folded four to eight times. In field trials across sixty-five villages in Bangladesh, women were trained to stretch folded sari cloth across the mouths of clay water collection jars (kalash) when skimming village ponds. Microbiological assays demonstrated that this filtration captured over 99% of planktonic copepods and their attached vibrio colonies. The randomized field trial demonstrated a staggering 48% reduction in clinical cholera incidence, celebrated globally as a masterpiece of low-cost, culturally integrated public health engineering."
+      },
+      "image": "/assets/images/cholera/wave-7/ind/ind_ch_05.jpg"
+    },
+    {
+      "id": "ind_ch_06",
+      "chapterNumber": 6,
+      "type": "milestone",
+      "title": {
+        "id": "Mutasi Bengal O139 (1992): Patahan Paradigma Serologis",
+        "en": "The 1992 Bengal O139 Emergence: Shattering Serological Dogma"
+      },
+      "date": {
+        "id": "Oktober 1992 – 1993",
+        "en": "October 1992 – 1993"
+      },
+      "flash": {
+        "id": "Di pelabuhan Madras dan pesisir Teluk Benggala, galur non-O1 baru berkapsul polisakarida—Vibrio cholerae O139 Bengal—muncul dan menginfeksi orang dewasa yang kebal O1.",
+        "en": "In Madras and across the Bay of Bengal, an encapsulated non-O1 strain—Vibrio cholerae O139 Bengal—emerges, evading pre-existing O1 herd immunity."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae serogroup O139 Bengal",
+        "vector": "Perairan pesisir Teluk Benggala dan jaringan air minum perkotaan",
+        "incubation": "12 – 36 jam",
+        "transmission": "Fekal-oral dengan kemampuan mengelabui kekebalan antibodi anti-O1",
+        "mutationType": {
+          "id": "Penyisipan Kapsul Polisakarida & Deplesi Gen O-Antigen (O139)",
+          "en": "Polysaccharide Capsule Insertion & O-Antigen Gene Deletion (O139)"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Potensi Pandemi Kolera Kedelapan Global",
+          "en": "Tier V - Potential Eighth Global Cholera Pandemic"
+        },
+        "clinicalTarget": {
+          "id": "Orang dewasa kebal O1, lansia, dan populasi urban India Selatan",
+          "en": "O1-immune adults, elderly, and South Indian urban populations"
+        }
+      },
+      "description": {
+        "id": "Pada Oktober 1992, dunia medis terguncang oleh kabar dari kota pelabuhan Madras (Chennai) di India Selatan dan Kolkata. Wabah kolera ganas meletus dengan kecepatan luar biasa, namun tes aglutinasi antiserum spesifik O1 standar memberikan hasil negatif. Dalam beberapa minggu, patogen misterius ini menyebar ke Bangladesh, menginfeksi lebih dari 100.000 orang dalam rentang enam bulan. Yang paling mengkhawatirkan, wabah ini menyerang orang dewasa yang sebelumnya telah kebal terhadap kolera O1 klasik maupun El Tor. Analisis genomik di Institut Kolera dan Penyakit Usus Nasional (NICED) Kolkata dan icddr,b Dhaka mengungkap bahwa bakteri ini adalah mutan El Tor yang telah membuang seluruh kluster gen biosintesis antigen-O dan menggantinya dengan gen pembentuk kapsul polisakarida baru, yang kemudian dinamai serogrup O139 'Bengal'. Para ilmuwan dunia sempat mengkhawatirkan dimulainya 'Pandemi Kolera Kedelapan', memicu perlombaan internasional untuk mendesain ulang vaksin kolera oral generasi baru.",
+        "en": "In October 1992, the global microbiological community was rocked by alarming dispatches from Madras (Chennai) and Calcutta. Explosive outbreaks of severe dehydrating cholera were detonating with frightening velocity, yet routine diagnostic agglutination tests with standard O1 antisera returned completely negative. Within months, this cryptic pathogen spilled across the border into southern Bangladesh, hospitalizing over 100,000 victims in six months. Critically, unlike typical endemic cholera which predominantly targets immunologically naive children, O139 decimated healthy adults who possessed lifelong immunity to O1 vibrios. Molecular sequencing at NICED in Calcutta and icddr,b revealed that an El Tor progenitor had deleted its O-antigen biosynthesis operon and acquired a novel polysaccharide capsule, designated serogroup O139 'Bengal.' Global public health authorities braced for the inception of the 'Eighth Cholera Pandemic,' prompting an urgent international race to formulate bivalent oral cholera vaccines."
+      },
+      "image": "/assets/images/cholera/wave-7/ind/ind_ch_06.jpg"
+    },
+    {
+      "id": "ind_ch_07",
+      "chapterNumber": 7,
+      "type": "summary",
+      "title": {
+        "id": "Warisan icddr,b: Episentrum Epistemologi Kolera Dunia",
+        "en": "The icddr,b Legacy: Global Epicenter of Cholera Epistemology"
+      },
+      "date": {
+        "id": "1993 – Sekarang",
+        "en": "1993 – Present"
+      },
+      "flash": {
+        "id": "Dari delta sungai yang dirundung wabah, ilmuwan Bangladesh dan India mengubah tanah air kolera menjadi mercusuar sains yang menyelamatkan lebih dari 50 juta jiwa di seluruh dunia.",
+        "en": "From pandemic-ravaged river deltas, Bangladeshi and Indian scientists transform cholera's ancestral cradle into a global scientific beacon saving over 50 million lives."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1 El Tor & O139 Bengal",
+        "vector": "Sistem surveilans genomik patogen enterik global",
+        "incubation": "N/A (Sintesis Epistemologi Sains)",
+        "transmission": "Pengembangan Vaksin Kolera Oral Bivalen (Shanchol/Euvichol)",
+        "mutationType": {
+          "id": "Pengawasan Molekuler & Vaksinologi Oral Modern",
+          "en": "Molecular Surveillance & Modern Oral Vaccinology"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Standar Emas Pengetahuan Sains Penyakit Menular",
+          "en": "Tier I - Gold Standard Infectious Disease Epistemology"
+        },
+        "clinicalTarget": {
+          "id": "Populasi rentan global dan sistem kesehatan publik internasional",
+          "en": "Global vulnerable populations and international public health systems"
+        }
+      },
+      "description": {
+        "id": "Kisah Pandemi Ketujuh di Anak Benua India dan Bangladesh mewakili salah satu babak paling membanggakan dalam sejarah kedokteran dunia ketiga. Kawasan yang selama berabad-abad distigmatisasi oleh penjajah barat sebagai 'sarang penyakit kotor' mentransformasi dirinya menjadi pusat keunggulan ilmiah dunia. Melalui kerja tanpa henti di icddr,b Dhaka, NICED Kolkata, dan ribuan kader kesehatan desa, kawasan ini menyumbangkan penemuan-penemuan terbesar dalam penanganan kolera: fisiologi kotranspor natrium-glukosa, produksi massal ORS, penemuan ekologi kopepoda Rita Colwell, filtrasi kain sari, pengurutan genomik mutan O139, hingga pengembangan vaksin kolera oral bivalen (OCV) yang murah dan stabil pada suhu kamar. Terapi rehidrasi oral yang disempurnakan di sini diperkirakan telah menyelamatkan lebih dari 50 juta jiwa manusia di seluruh dunia, membuktikan bahwa sains yang berakar pada empati dan penderitaan rakyat miskin mampu menaklukkan salah satu kutukan tertua umat manusia.",
+        "en": "The Seventh Pandemic saga across the Indian Subcontinent and Bangladesh represents one of the crowning triumphs of post-colonial medical science. A geographic region historically stigmatized by Western imperialists as a pestilential morass redeemed itself by becoming the undisputed global beacon of diarrheal disease epistemology. Through the tireless efforts of clinicians at icddr,b in Dhaka, NICED in Calcutta, and countless rural village health workers, this theater contributed the most formidable weapons in the anti-cholera arsenal: the physiology of glucose-sodium cotransport, the perfection and scaling of ORS, Rita Colwell's planktonic ecology paradigm, sari cloth nano-filtration, the genomic sequencing of O139 Bengal, and the formulation of cheap, heat-stable bivalent oral cholera vaccines (OCVs). The oral rehydration protocols perfected in Bengal have preserved an estimated 50 million lives worldwide, demonstrating that science rooted in human empathy can conquer ancient pestilence."
+      },
+      "image": "/assets/images/cholera/wave-7/ind/ind_ch_07.jpg"
+    }
+  ]
+}

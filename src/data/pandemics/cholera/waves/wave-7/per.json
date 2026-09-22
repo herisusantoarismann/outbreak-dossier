@@ -1,0 +1,296 @@
+{
+  "sectorId": "PER",
+  "waveIndex": 7,
+  "sectorName": {
+    "id": "Lima & Pesisir Pasifik Peru (Invasi Amerika Latin 1991)",
+    "en": "Lima & Peruvian Pacific Coast (1991 Latin American Incursion)"
+  },
+  "coordinates": [
+    -12.0464,
+    -77.0428
+  ],
+  "timeRange": "1991 – 1993",
+  "estimatedFatalities": "12,000+",
+  "chapters": [
+    {
+      "id": "per_ch_01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Invasi Kejutan Pasifik: Pendaratan Chancay & Chimbote",
+        "en": "The Pacific Surprise: Landfall at Chancay & Chimbote"
+      },
+      "date": {
+        "id": "23 – 30 Januari 1991",
+        "en": "January 23 – 30, 1991"
+      },
+      "flash": {
+        "id": "Setelah satu abad bebas kolera, Amerika Latin diinvasi secara mengejutkan saat Vibrio cholerae El Tor mendarat serentak di tiga kota pelabuhan pesisir Peru.",
+        "en": "After a century of freedom from cholera, Latin America is abruptly invaded as Vibrio cholerae El Tor strikes three coastal Peruvian port cities simultaneously."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1 biotype El Tor, serotype Inaba",
+        "vector": "Air balas kapal kargo Asia dan muara pelabuhan penangkapan ikan Chimbote",
+        "incubation": "12 – 48 jam",
+        "transmission": "Fekal-oral via air laut pelabuhan tercemar dan konsumsi ikan mentah",
+        "mutationType": {
+          "id": "Galur Pesisir Pasifik Amerika Latin C1-91",
+          "en": "Latin American Pacific Coastal Clade C1-91"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Invasi Benua Baru Pasca-Satu Abad Reses",
+          "en": "Tier V - Continental Incursion Ending a Century of Absence"
+        },
+        "clinicalTarget": {
+          "id": "Nelayan pelabuhan Chimbote, buruh pengalengan ikan, dan warga pesisir",
+          "en": "Chimbote fishermen, cannery workers, and coastal inhabitants"
+        }
+      },
+      "description": {
+        "id": "Pada akhir Januari 1991, di bawah terik musim panas belahan bumi selatan, keheningan epidemiologis selama seratus tahun di Benua Amerika berakhir secara dramatis. Di tiga kota pesisir Peru yang terpisah ratusan kilometer—Chancay, Chimbote, dan Piura—ratusan pasien tiba di rumah sakit umum dengan diare cair profus akut dan kolaps sirkulasi. Dokter-dokter muda Peru, yang belum pernah melihat kasus kolera seumur hidup mereka karena penyakit ini telah musnah dari Amerika Latin sejak 1895, awalnya mendiagnosis kasus tersebut sebagai keracunan makanan laut massal. Namun, analisis laboratorium di Institut Kedokteran Tropis Alexander von Humboldt di Lima mengonfirmasi temuan yang mengerikan: Vibrio cholerae O1 biotipe El Tor serotipe Inaba telah mendarat di benua itu. Penyelidikan epidemiologis menduga bakteri terbawa melalui pelepasan air balas (ballast water) kapal kargo kargo internasional dari Asia ke perairan kaya plankton di Teluk Chimbote.",
+        "en": "In late January 1991, beneath the scorching southern summer sun, a century of epidemiological immunity across the Americas was shattered without warning. Across three coastal Peruvian cities separated by hundreds of kilometers—Chancay, Chimbote, and Piura—hospitals were inundated by hundreds of patients presenting in sudden circulatory collapse and torrential watery diarrhea. Young Peruvian physicians, who had never encountered Asiatic cholera in their clinical careers since its eradication from the continent in 1895, initially suspected chemical food poisoning. However, rapid stool cultures plated at the Alexander von Humboldt Institute of Tropical Medicine in Lima returned a terrifying verdict: Vibrio cholerae O1 biotype El Tor, serotype Inaba, had breached the Western Hemisphere. Subsequent epidemiological modeling suggested the pathogen arrived via oceanic ballast water discharged by an Asian freighter into the plankton-rich waters of Chimbote Harbor."
+      },
+      "image": "/assets/images/cholera/wave-7/per/per_ch_01.jpg"
+    },
+    {
+      "id": "per_ch_02",
+      "chapterNumber": 2,
+      "type": "milestone",
+      "title": {
+        "id": "Krisis Ceviche: Budaya Kuliner Melawan Vektor Makanan Laut",
+        "en": "The Ceviche Dilemma: Culinary Heritage vs. Seafood Vector"
+      },
+      "date": {
+        "id": "Februari 1991",
+        "en": "February 1991"
+      },
+      "flash": {
+        "id": "Kementerian Kesehatan Peru melarang konsumsi hidangan nasional 'ceviche' (ikan mentah marinasi jeruk nipis), memicu konflik ekonomi dan keengganan publik.",
+        "en": "The Peruvian Health Ministry bans the national dish 'ceviche' (lime-marinated raw fish), triggering economic fallout and cultural resistance."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae El Tor",
+        "vector": "Ikan mentah laut, kerang, dan air perasan jeruk nipis tanpa pemasakan termal",
+        "incubation": "12 – 36 jam",
+        "transmission": "Konsumsi ikan laut mentah yang terkontaminasi vibrio pesisir",
+        "mutationType": {
+          "id": "Transmisi Pangan Tradisional Ikan Mentah",
+          "en": "Traditional Raw Seafood Foodborne Vector"
+        },
+        "threatLevel": {
+          "id": "Tingkat IV - Disrupsi Sosio-Ekonomi & Kebudayaan Nasional",
+          "en": "Tier IV - Socio-Economic & Cultural Disruption"
+        },
+        "clinicalTarget": {
+          "id": "Konsumen warung ceviche kaki lima, pedagang ikan pasar, dan nelayan kecil",
+          "en": "Street cevichería patrons, market fish vendors, and artisanal fishermen"
+        }
+      },
+      "description": {
+        "id": "Penularan kolera di Peru dengan cepat menemukan amplifikasi kultural yang mematikan melalui makanan kebanggaan nasional: ceviche—hidangan ikan laut mentah yang dimarinasi dalam air perasan jeruk nipis. Keyakinan populer masyarakat bahwa keasaman asam sitrat jeruk nipis mampu membunuh semua kuman ternyata tidak berlaku bagi Vibrio cholerae dalam dosis tinggi. Ribuan warga tertular setelah menyantap ceviche di warung-warung kaki lima yang mencuci peralatan menggunakan air ember mentah. Menteri Kesehatan Carlos Vidal Layseca mengambil langkah berani dengan melarang penjualan dan konsumsi ceviche di seluruh negeri serta mendesak warga hanya memakan ikan matang panas. Langkah ini memicu perlawanan sengit dari serikat nelayan dan bahkan Presiden Alberto Fujimori, yang tampil di televisi memakan ceviche untuk menenangkan kepanikan industri perikanan, menciptakan pertarungan terbuka antara kepentingan politik-ekonomi dan keselamatan sains medis.",
+        "en": "Epidemic propagation across Peru found an immediate, lethal cultural amplifier in the country's celebrated national dish: ceviche—raw marine fish marinated in lime juice. The deeply rooted popular belief that citric acid sterilized raw flesh proved catastrophically false against high-inoculum Vibrio cholerae. Thousands fell ill after eating ceviche prepared by street vendors using unchlorinated wash water. Health Minister Dr. Carlos Vidal Layseca took the bold step of banning the sale and consumption of raw seafood nationwide, urging citizens to boil all fish. This ignited fierce resistance from artisanal fishing guilds and even President Alberto Fujimori, who famously appeared on national television consuming ceviche to defend the multi-million-dollar fishing industry, illustrating the classic clash between economic statecraft and public health microbiology."
+      },
+      "image": "/assets/images/cholera/wave-7/per/per_ch_02.jpg"
+    },
+    {
+      "id": "per_ch_03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Sabuk Kemiskinan Pueblos Jóvenes: Keruntuhan Air Bersih Lima",
+        "en": "The Pueblos Jóvenes Poverty Belt: Collapse of Lima's Waterworks"
+      },
+      "date": {
+        "id": "Februari – April 1991",
+        "en": "February – April 1991"
+      },
+      "flash": {
+        "id": "Di perkampungan liar (pueblos jóvenes) di bukit-bukit gersang Lima, jutaan pengungsi internal membeli air kotor dari truk tangki swasta dengan harga selangit.",
+        "en": "Across Lima's arid hillside squatter settlements (pueblos jóvenes), millions of impoverished residents buy contaminated water from private tanker trucks."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae El Tor",
+        "vector": "Truk tangki air swasta (aguateros) dan drum penyimpanan air bekas silinder kimia",
+        "incubation": "12 – 48 jam",
+        "transmission": "Pencemaran air minum rumah tangga di drum terbuka tanpa klorinasi",
+        "mutationType": {
+          "id": "Amplifikasi Ketimpangan Sanitasi Perkotaan",
+          "en": "Urban Sanitary Inequity Amplified Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Bencana Sanitasi Megapolitan",
+          "en": "Tier V - Megacity Metropolitan Sanitary Crisis"
+        },
+        "clinicalTarget": {
+          "id": "Penghuni pueblos jóvenes, keluarga tanpa akses leding, dan anak-anak miskin",
+          "en": "Pueblos jóvenes squatters, unpiped households, and impoverished children"
+        }
+      },
+      "description": {
+        "id": "Ketika kolera merambah ibu kota Lima, kota metropolitan berpenduduk tujuh juta jiwa itu terbelah oleh ketimpangan infrastruktur ekstrem. Jutaan migran pedesaan yang melarikan diri dari teror gerilya Sendero Luminoso di Pegunungan Andes tinggal di pemukiman kumuh tak berpohon di lereng bukit (pueblos jóvenes) seperti Villa El Salvador dan San Juan de Lurigancho. Kawasan ini tidak memiliki jaringan pipa air minum maupun saluran pembuangan limbah. Warga membeli air dari truk-truk tangki swasta (aguateros) dengan harga sepuluh kali lipat lebih mahal daripada tarif air leding orang kaya di Miraflores. Air tersebut disimpan dalam drum-drum minyak bekas berkarat tanpa tutup, di mana tangan-tangan yang terkontaminasi mencelupkan gayung untuk minum. Dalam hitungan minggu, rumah sakit umum di Lima seperti Hospital Cayetano Heredia dan Dos de Mayo kehabisan tempat tidur; ribuan pasien dirawat di atas lantai koridor dan tenda militer yang didirikan di lapangan parkir.",
+        "en": "As cholera invaded metropolitan Lima, the capital of seven million inhabitants was fractured by extreme infrastructural apartheid. Millions of indigenous Andean migrants displaced by the brutal Maoist insurgency of the Shining Path (Sendero Luminoso) inhabited vast, sun-baked hillside shantytowns (pueblos jóvenes) like Villa El Salvador and San Juan de Lurigancho. These sprawling settlements completely lacked municipal piped water or sewerage networks. Impoverished families purchased raw river water from unregulated private tanker trucks (aguateros) at ten times the municipal rate paid by affluent residents in coastal Miraflores. The water was stored in unsealed oil drums where communal dippers continuously reinfected the domestic supply. Within weeks, flagship hospitals including Cayetano Heredia and Dos de Mayo collapsed under patient surges, forcing nurses to care for thousands of collapsed victims on concrete corridors and military triage tents."
+      },
+      "image": "/assets/images/cholera/wave-7/per/per_ch_03.jpg"
+    },
+    {
+      "id": "per_ch_04",
+      "chapterNumber": 4,
+      "type": "side_story",
+      "title": {
+        "id": "Kemenangan Terapi ORS: Rekor Fatalitas Kasus Terendah di Dunia",
+        "en": "The ORS Clinical Miracle: World's Lowest Case Fatality Rate"
+      },
+      "date": {
+        "id": "Maret – Juli 1991",
+        "en": "March – July 1991"
+      },
+      "flash": {
+        "id": "Meskipun mencatat 300.000 kasus dalam satu tahun, dokter dan perawat Peru menekan angka kematian di bawah 1% berkat mobilisasi cepat garam rehidrasi oral (ORS).",
+        "en": "Despite logging 300,000 cases in a single year, Peruvian clinicians compress case fatality below 1% through aggressive oral rehydration mobilization."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae El Tor",
+        "vector": "Sachet Garam Rehidrasi Oral (Suero Oral) dan bangsal rehidrasi darurat",
+        "incubation": "N/A (Tatalaksana Klinis Darurat)",
+        "transmission": "Pemberian cairan rehidrasi agresif sejak jam pertama timbulnya gejala",
+        "mutationType": {
+          "id": "Protokol Penyelamatan Hidrasi Triase Massal",
+          "en": "Mass Triage Hydration Resuscitation Protocol"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Standar Penyelamatan Klinis Tertinggi",
+          "en": "Tier I - Pinnacle of Global Clinical Resuscitation"
+        },
+        "clinicalTarget": {
+          "id": "Pasien dehidrasi kolera derajat berat dan syok hipovolemik akut",
+          "en": "Severe cholera dehydration and acute hypovolemic shock patients"
+        }
+      },
+      "description": {
+        "id": "Meskipun epidemi di Peru menjadi salah satu wabah kolera paling eksplosif dalam sejarah abad ke-20 dengan lebih dari 320.000 kasus terdaftar pada tahun 1991 saja, respon medis Peru mencatatkan prestasi yang dipuji dunia internasional. Belajar dari pengalaman Asia Selatan, Kementerian Kesehatan Peru tidak membuang waktu untuk menunggu pasokan cairan infus impor yang mahal. Mereka memobilisasi jutaan saset Garam Rehidrasi Oral ('Bolsitas Salvalac') dan mendirikan Unit Rehidrasi Oral Komunitas (URO) di setiap gereja, sekolah dasar, dan dapur umum (comedores populares). Pasien yang tiba di rumah sakit langsung diberi minum larutan oral berliter-liter; infus intravena hanya dikhususkan bagi mereka yang tidak sadarkan diri. Hasilnya spektakuler: angka fatalitas kasus (CFR) ditekan hingga di bawah 1% (tepatnya sekitar 0,9%), angka terendah yang pernah dicatat dalam epidemi kolera massal berskala nasional di dunia.",
+        "en": "Although Peru's 1991 epidemic was one of the most explosive cholera conflagrations of the 20th century, logging over 320,000 cases in a single year, the clinical response forged a world-class standard. Drawing upon protocols from South Asia, the Peruvian medical establishment discarded passive inpatient paradigms. They mobilized millions of ORS packets, christened 'Bolsitas Salvalac,' establishing Community Oral Rehydration Units (UROs) in Catholic parish halls, elementary schools, and neighborhood communal kitchens (comedores populares). Patients arriving in shock were immediately rehydrated orally under peer supervision; precious intravenous saline was strictly reserved for comatose patients. The clinical result was astonishing: Peru compressed case fatality below 1% (approximately 0.9%) across a massive national outbreak, establishing an enduring gold standard for emergency clinical epidemiology."
+      },
+      "image": "/assets/images/cholera/wave-7/per/per_ch_04.jpg"
+    },
+    {
+      "id": "per_ch_05",
+      "chapterNumber": 5,
+      "type": "standard",
+      "title": {
+        "id": "Tumpahan Lintas Benua: Menyeberang Pegunungan Andes ke Amazon",
+        "en": "The Continental Spillover: Crossing the Andes into the Amazon Basin"
+      },
+      "date": {
+        "id": "April – Desember 1991",
+        "en": "April – December 1991"
+      },
+      "flash": {
+        "id": "Kolera melintasi puncak Pegunungan Andes melalui bus penumpang dan menyusuri sungai-sungai Amazon, menjangkiti Ekuador, Kolombia, Bolivia, hingga ke Brasil.",
+        "en": "Cholera traverses the High Andes via long-distance buses and sweeps down Amazonian river networks, engulfing Ecuador, Colombia, Bolivia, and Brazil."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae El Tor",
+        "vector": "Perahu motor sungai Amazon dan bus antarkota lintas pegunungan",
+        "incubation": "12 – 48 jam",
+        "transmission": "Pencemaran sungai-sungai terpencil Amazon yang menjadi urat nadi masyarakat adat",
+        "mutationType": {
+          "id": "Difusi Benua Amerika Latin",
+          "en": "Continental Pan-Latin American Dispersal"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Pandemi Lintas Negara Amerika Latin",
+          "en": "Tier V - Transnational Pan-American Epidemic"
+        },
+        "clinicalTarget": {
+          "id": "Masyarakat adat Amazon, penambang emas liar, dan penduduk pedalaman Andes",
+          "en": "Indigenous Amazonian tribes, artisanal gold miners, and Andean villagers"
+        }
+      },
+      "description": {
+        "id": "Dari garis pesisir Pasifik Peru, Vibrio cholerae tidak membutuhkan waktu lama untuk menyeberangi rintangan geografis alam. Melalui jaringan bus penumpang antarkota yang padat, infeksi menaiki jalur terjal Pegunungan Andes hingga mencapai kota-kota dataran tinggi seperti Cusco dan Puno. Dari sana, patogen menuruni lereng timur Andes menuju lembah Sungai Amazon. Perahu-perahu motor kayu yang menyusuri Sungai Ucayali dan Marañón membawa bakteri ke Iquitos dan melintasi perbatasan ke Brasil, Ekuador, dan Kolombia. Di pedalaman hutan hujan tropis di mana komunitas adat mengandalkan air sungai mentah dan tidak memiliki fasilitas kesehatan modern, kolera menimbulkan dampak demografis yang tragis. Pada akhir tahun 1991, kolera telah menyebar ke 14 negara di Amerika Latin dan Karibia, membuktikan kegagalan batas negara dalam membendung patogen yang bergerak mengikuti aliran air benua.",
+        "en": "From the Peruvian coastline, Vibrio cholerae rapidly conquered colossal natural barriers. Carried aboard crowded long-distance passenger coaches, the vibrio climbed the vertiginous passes of the High Andes, seeding highland centers such as Cusco and Puno before cascading down eastern cloud forests into the Amazon Basin. Motorized dugouts navigating the Ucayali and Marañón rivers carried the pathogen into Iquitos, spilling across international frontiers into Brazil, Ecuador, and Colombia. Within indigenous rainforest villages where populations relied on untreated river water and lived days away from health outposts, the impact was harrowing. By late 1991, cholera had metastasized across fourteen Latin American nations, exposing the complete futility of national borders against a waterborne pathogen flowing through continental riverine basins."
+      },
+      "image": "/assets/images/cholera/wave-7/per/per_ch_05.jpg"
+    },
+    {
+      "id": "per_ch_06",
+      "chapterNumber": 6,
+      "type": "side_story",
+      "title": {
+        "id": "Boikot Ekspor & Kerugian Ekonomi: Biaya Finansial Sebuah Wabah",
+        "en": "Export Embargoes & Trade Penalties: The Economic Toll of an Outbreak"
+      },
+      "date": {
+        "id": "1991 – 1992",
+        "en": "1991 – 1992"
+      },
+      "flash": {
+        "id": "Negara-negara tetangga dan Uni Eropa memblokir impor ikan, udang, dan sayuran dari Peru, menyebabkan kerugian lebih dari satu miliar dolar bagi ekonomi yang sedang rapuh.",
+        "en": "Neighboring states and the European Community slap trade embargoes on Peruvian seafood and agricultural exports, costing over $1 billion in economic damages."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kargo ekspor ikan beku, udang, dan produk pertanian segar",
+        "incubation": "N/A (Analisis Ekonomi Politik)",
+        "transmission": "Pemberlakuan pembatasan perdagangan maritim internasional yang berlebihan",
+        "mutationType": {
+          "id": "Konsekuensi Embargo Komersial Internasional",
+          "en": "International Commercial Embargo Consequences"
+        },
+        "threatLevel": {
+          "id": "Tingkat III - Disrupsi Keuangan & Perdagangan Global",
+          "en": "Tier III - Global Trade & Financial Disruption"
+        },
+        "clinicalTarget": {
+          "id": "Industri perikanan Peru, petani ekspor, dan pekerja sektor pariwisata",
+          "en": "Peruvian fishing fleets, export farmers, and tourism workers"
+        }
+      },
+      "description": {
+        "id": "Dampak epidemi kolera 1991 di Peru tidak hanya diukur dari korban jiwa manusia, melainkan juga kehancuran finansial yang melumpuhkan ekonomi negara yang sedang berjuang keluar dari krisis utang. Meskipun WHO secara resmi mengeluarkan pedoman bahwa makanan olahan dan beku dari negara terinfeksi tidak membawa risiko penularan kolera jika diproses dengan benar, negara-negara tetangga di Amerika Latin, Amerika Serikat, dan Masyarakat Ekonomi Eropa memberlakukan larangan impor yang sewenang-wenang terhadap ikan, tepung ikan, udang, buah, dan sayuran segar Peru. Pelancong internasional membatalkan penerbangan ke Machu Picchu, melumpuhkan sektor pariwisata. Bank Dunia dan PAHO memperkirakan Peru menderita kerugian lebih dari satu miliar dolar AS hanya dalam tahun pertama wabah—jumlah yang sebenarnya lebih dari cukup untuk membangun sistem pipa air bersih dan saluran pembuangan limbah modern bagi seluruh kota di Peru.",
+        "en": "The toll of Peru's 1991 epidemic extended far beyond clinical wards into devastating economic devastation. Although the WHO issued explicit guidance stating that commercially processed and frozen commodities from infected nations posed negligible risks of cholera transmission, neighboring Latin American governments, the United States, and the European Community instituted sweeping, panic-driven embargoes against Peruvian fishmeal, shrimp, canned seafood, and fresh agricultural produce. International arrivals plummeted, devastating tourism around Machu Picchu. Joint assessments by the World Bank and the Pan American Health Organization estimated that Peru suffered commercial losses exceeding $1 billion in 1991 alone—an economic sum far greater than the capital required to install modern municipal waterworks across every major city in Peru."
+      },
+      "image": "/assets/images/cholera/wave-7/per/per_ch_06.jpg"
+    },
+    {
+      "id": "per_ch_07",
+      "chapterNumber": 7,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Sanitasi Amerika Latin: Bangkit Menuju Klorinasi Universal",
+        "en": "Latin America's Sanitary Awakening: The Push for Universal Chlorination"
+      },
+      "date": {
+        "id": "1993 – 2000",
+        "en": "1993 – 2000"
+      },
+      "flash": {
+        "id": "Trauma kolera 1991 mendorong reformasi struktural air minum di Amerika Latin, memicu investasi miliaran dolar untuk klorinasi dan pengawasan air bersih.",
+        "en": "The trauma of the 1991 epidemic catalyzes structural water reforms across Latin America, unleashing billions in municipal chlorination and sanitary surveillance."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Pemberian klorinasi terpusat pada sistem distribusi air minum perkotaan",
+        "incubation": "N/A (Pemberantasan Regional Benua)",
+        "transmission": "Pencegahan total melalui klorinasi residu pipa dan desinfeksi sumur",
+        "mutationType": {
+          "id": "Eradikasi Berbasis Rekayasa Infrastruktur Pasca-Wabah",
+          "en": "Post-Outbreak Infrastructure Engineering Eradication"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Pengawasan Lingkungan Berkelanjutan Berhasil",
+          "en": "Tier I - Successful Sustained Environmental Surveillance"
+        },
+        "clinicalTarget": {
+          "id": "Populasi perkotaan Amerika Latin dan jaringan air leding kota",
+          "en": "Latin American urban populations and municipal tap grids"
+        }
+      },
+      "description": {
+        "id": "Krisis kolera 1991 menjadi peringatan keras bagi seluruh Amerika Latin bahwa kemajuan ekonomi semu tanpa investasi sanitasi mendasar adalah ilusi yang rapuh. Dipimpin oleh Organisasi Kesehatan Pan Amerika (PAHO), negara-negara kawasan melancarkan 'Dekade Air Bersih dan Sanitasi'. Di Peru, undang-undang baru mewajibkan klorinasi residu pada semua jaringan air pipa kota dan melarang penggunaan air limbah mentah untuk menyiram sayuran di lembah pantai. Program desinfeksi air rumah tangga menggunakan larutan natrium hipoklorit (klorin cair tetes) diperkenalkan di jutaan rumah tanpa sambungan pipa. Berkat reformasi masif ini, penularan kolera epidemik di Peru perlahan mereda dan akhirnya lenyap total pada awal dekade 2000-an. Pengalaman tragis ini membuktikan bahwa pertahanan terbaik melawan penyakit menular bukanlah isolasi perbatasan, melainkan keadilan akses terhadap air minum yang bersih dan mengalir.",
+        "en": "The 1991 cholera catastrophe served as a brutally uncompromising awakening for Latin America, demonstrating that macroeconomic growth without foundational public sanitary infrastructure is a perilous illusion. Orchestrated by the Pan American Health Organization (PAHO), governments across the region mobilized sweeping potable water and sanitation mandates. In Peru, statutory codes were enacted requiring continuous residual chlorination across municipal grids and prohibiting the use of raw sewage for agricultural irrigation in coastal valleys. Household water chlorination kits utilizing sodium hypochlorite were distributed to millions of peri-urban dwellings lacking plumbing. Propelled by these aggressive engineering interventions, epidemic cholera transmission collapsed, fully vanishing from Peru by the early 2000s and affirming that the ultimate defense against contagion is equitable access to clean, chlorinated water."
+      },
+      "image": "/assets/images/cholera/wave-7/per/per_ch_07.jpg"
+    }
+  ]
+}
