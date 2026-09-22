@@ -1,0 +1,408 @@
+{
+    "sectorId": "MEK",
+    "waveIndex": 4,
+    "sectorName": {
+        "id": "Sektor MEK (Hijaz Utsmaniyah: Tragedi Haji Mekkah & Dispersi Kapal Uap 1865)",
+        "en": "Sector MEK (Ottoman Hijaz: Mecca Hajj Catastrophe & Steamship Dispersal 1865)"
+    },
+    "coordinates": [
+        21.3891,
+        39.8262
+    ],
+    "timeRange": "1865 – 1866 M",
+    "estimatedFatalities": "30.000+ (Hijaz; Sepertiga dari 90.000 Peziarah Haji Gugur)",
+    "chapters": [
+        {
+            "id": "mek-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Konvergensi Akbar: 90.000 Peziarah di Bawah Terik Hijaz",
+                "en": "The Grand Convergence: 90,000 Pilgrims Beneath the Hejaz Sun"
+            },
+            "date": {
+                "id": "April – Mei 1865 M",
+                "en": "April – May 1865 AD"
+            },
+            "flash": {
+                "id": "Pertemuan terbesar umat beriman di tanah suci bertepatan dengan suhu ekstrem 45°C dan sanitasi yang rapuh.",
+                "en": "The largest sacred gathering converged under 45°C desert heat and primitive sanitary infrastructure."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Mata Air & Sumur Komunal Tercemar Tinja",
+                "incubation": "12 – 48 Jam",
+                "transmission": "Fekal-oral via air minum dan bejana bersama di perkemahan padang pasir"
+            },
+            "description": {
+                "id": "Pada musim semi 1865, sekitar 90.000 peziarah Muslim dari anak benua India, Hindia Belanda, Persia, Mesir, dan Afrika Utara berkumpul di Mekkah untuk menunaikan ibadah haji. Berbeda dengan dekade-dekade sebelumnya ketika perjalanan darat memakan waktu berbulan-bulan melintasi gurun, kehadiran armada kapal uap modern di Samudra Hindia dan Laut Merah telah memangkas waktu tempuh secara radikal. Akselerasi mekanis ini memungkinkan peziarah yang membawa Vibrio cholerae dalam masa inkubasi tiba di pelabuhan Jeddah dalam kondisi tampak sehat, menyelundupkan patogen langsung ke jantung lembah suci tanpa melewati filter karantina alamiah yang biasanya mengeliminasi pembawa penyakit di tengah gurun.",
+                "en": "In the spring of 1865, approximately 90,000 Muslim pilgrims from the Indian subcontinent, the Dutch East Indies, Persia, Egypt, and North Africa converged upon Mecca for the annual Hajj. Unlike prior decades when grueling overland camel treks spanned months, modern steamship fleets across the Indian Ocean and Red Sea radically compressed transit times. This mechanical velocity allowed travelers carrying incubating Vibrio cholerae to disembark at Jeddah appearing asymptomatic, smuggling the pathogen straight into the arid basin without undergoing the natural quarantine that desert exhaustion previously imposed."
+            },
+            "image": "/assets/images/cholera/wave-4/mek/mek_ch_01.jpg"
+        },
+        {
+            "id": "mek-ch-02",
+            "chapterNumber": 2,
+            "type": "standard",
+            "title": {
+                "id": "Mata Air Ain Zubaida: Vektor Tak Kasat Mata di Lembah Mekkah",
+                "en": "Ain Zubaida Aqueduct: The Invisible Conduit Across Mecca's Basin"
+            },
+            "date": {
+                "id": "2 Mei 1865 M",
+                "en": "May 2, 1865 AD"
+            },
+            "flash": {
+                "id": "Saluran air kuno yang mengalirkan air ke kota suci terkontaminasi limbah perkemahan ribuan peziarah.",
+                "en": "The historic stone aqueduct supplying Mecca was overwhelmed by human waste from hillside encampments."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Pasokan Air Gravitasi Terbuka",
+                "incubation": "6 – 24 Jam",
+                "transmission": "Infiltrasi tinja ke akuifer permukaan dan bak penampungan batu kapur"
+            },
+            "description": {
+                "id": "Pasokan air utama Mekkah bertumpu pada saluran air batu kuno Ain Zubaida yang dibangun pada masa Kekhalifahan Abbasiyah. Dengan lonjakan populasi mendadak di lembah sempit yang dikelilingi perbukitan tandus, ribuan tenda didirikan tepat di atas jalur aliran dan resapan air. Ketiadaan jamban kedap air menyebabkan rembesan tinja ribuan peziarah merembes ke saluran terbuka dan kolam-kolam wudhu. Begitu bakteri Vibrio cholerae masuk ke dalam jaringan hidrologis Ain Zubaida, air yang diminum dan digunakan untuk bersuci oleh puluhan ribu orang berubah menjadi media penularan massal berkecepatan eksponensial.",
+                "en": "Mecca's primary water supply relied upon the historic stone aqueduct of Ain Zubaida, constructed during the Abbasid Caliphate. With the sudden population surge packing the narrow canyon framed by arid crags, thousands of encampments were pitched directly over aquifer catchments. The absence of sealed latrines caused effluent to seep into surface channels and communal ablution basins. Once Vibrio cholerae penetrated Ain Zubaida's hydraulic veins, the water consumed and used for ritual ablution by tens of thousands transformed into an exponential vector of mass intoxication."
+            },
+            "image": "/assets/images/cholera/wave-4/mek/mek_ch_02.jpg"
+        },
+        {
+            "id": "mek-ch-03",
+            "chapterNumber": 3,
+            "type": "milestone",
+            "title": {
+                "id": "Padang Arafat: Meletusnya Badai Diare Sianotik",
+                "en": "The Plain of Arafat: Outbreak of the Cyanotic Diarrheal Storm"
+            },
+            "date": {
+                "id": "4 Mei 1865 M",
+                "en": "May 4, 1865 AD"
+            },
+            "flash": {
+                "id": "Saat wukuf dimulai, ribuan jemaah tersungkur akibat dehidrasi akut dan muntah profus di bawah terik matahari.",
+                "en": "As the Day of Standing commenced, thousands collapsed from violent dehydration and vomiting under scorching sun."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Bejana Air Kulit & Wadah Terkontaminasi",
+                "incubation": "12 – 36 Jam",
+                "transmission": "Kontak erat perkemahan padat dan air minum terinfeksi"
+            },
+            "description": {
+                "id": "Puncak ritual haji di Padang Arafat pada tanggal 9 Zulhijah 1281 H berubah menjadi pemandangan apokaliptik. Di tengah suhu yang menembus 46°C, diare seperti air cucian beras mulai melanda ribuan peziarah secara serempak. Tubuh-tubuh yang sehat pada pagi hari mendadak mengalami kram otot hebat, kehilangan hingga 15% berat tubuh dalam beberapa jam, dan berubah menjadi dingin serta sianotik kebiruan. Tenda-tenda darurat tidak mampu menampung luapan korban, dan para tabib Utsmaniyah yang minim peralatan hanya bisa menyaksikan dehidrasi fatal merenggut ratusan nyawa setiap jamnya.",
+                "en": "The spiritual zenith of the Hajj on the Plain of Arafat on the 9th of Dhu al-Hijjah 1281 AH morphed into an apocalyptic tableau. Amid searing temperatures exceeding 46°C, rice-water diarrhea struck thousands simultaneously. Pilgrims robust at dawn suffered agonizing muscle cramps, shedding up to 15% of body weight in hours, their skin turning frigid and cyanotic blue. Improvised medical tents were overwhelmed, while Ottoman physicians lacking saline rehydration could only watch as hypovolemic shock claimed hundreds of lives per hour."
+            },
+            "image": "/assets/images/cholera/wave-4/mek/mek_ch_03.jpg"
+        },
+        {
+            "id": "mek-ch-04",
+            "chapterNumber": 4,
+            "type": "standard",
+            "title": {
+                "id": "Lembah Mina & Pembantaian Hewan Kurban: Titik Nadir Sanitasi",
+                "en": "The Valley of Mina & Animal Sacrifice: Sanitary Nadir"
+            },
+            "date": {
+                "id": "5 – 7 Mei 1865 M",
+                "en": "May 5 – 7, 1865 AD"
+            },
+            "flash": {
+                "id": "Penyembelihan puluhan ribu hewan kurban bercampur kotoran dan jenazah di lembah sempit Mina.",
+                "en": "Sacrifice of tens of thousands of livestock intermingled with carcasses and effluent in narrow Mina."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Limbah Organik & Pembusukan Massal",
+                "incubation": "6 – 18 Jam",
+                "transmission": "Kontaminasi tanah dan air limpasan di lembah sempit berbatu"
+            },
+            "description": {
+                "id": "Ketika peziarah bergerak ke lembah sempit Mina untuk melempar jumrah dan menyembelih puluhan ribu domba serta unta kurban, krisis sanitasi mencapai titik nadir yang tak tertahankan. Darah hewan, jeroan yang membusuk di bawah terik matahari, dan kotoran manusia bercampur di jalanan berbatu yang sempit. Lalat beterbangan dalam jumlah miliaran, sementara bau busuk menyelimuti seluruh lembah. Di tengah tumpukan bangkai hewan kurban, jenazah peziarah yang tewas akibat kolera mulai menumpuk di sisi-sisi jalan karena para penggali kubur melarikan diri atau jatuh sakit.",
+                "en": "As the multitude advanced into the cramped canyon of Mina to cast stones and perform ritual sacrifices, sanitation collapsed into an unimaginable abyss. The blood and entrails of tens of thousands of slaughtered sheep and camels decayed beneath the blistering sun, mixing with human excreta along narrow alleys. Swarms of flies engulfed the gorge while putrid stench choked the air. Beside rotting animal remains, the corpses of cholera victims accumulated along roadsides as gravediggers either fled or succumbed to dehydration."
+            },
+            "image": "/assets/images/cholera/wave-4/mek/mek_ch_04.jpg"
+        },
+        {
+            "id": "mek-ch-05",
+            "chapterNumber": 5,
+            "type": "milestone",
+            "title": {
+                "id": "Kuburan Massal Al-Ma'la: 30.000 Nyawa Terkubur Kapur",
+                "en": "Mass Trenches of Al-Ma'la: 30,000 Souls Entombed in Lime"
+            },
+            "date": {
+                "id": "8 – 15 Mei 1865 M",
+                "en": "May 8 – 15, 1865 AD"
+            },
+            "flash": {
+                "id": "Sepertiga populasi peziarah wafat; makam bersejarah Jannat al-Mu'alla dipenuhi parit massal berkapur tohor.",
+                "en": "One-third of all pilgrims perished; historic Jannat al-Mu'alla was carved into massive lime-dusted trenches."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Kontak Mayat & Tanah Resapan",
+                "incubation": "12 – 48 Jam",
+                "transmission": "Pemakaman tergesa-gesa tanpa dekontaminasi memicu penyebaran residual"
+            },
+            "description": {
+                "id": "Dalam kurun waktu kurang dari dua pekan, diperkirakan lebih dari 30.000 peziarah tewas di Mekkah, Mina, dan rute menuju Jeddah—mewakili mortalitas sebesar 33% dari total populasi jemaah. Pemakaman kuno Jannat al-Mu'alla tidak lagi mampu menampung liang lahad individual. Tentara garnisun Utsmaniyah dikerahkan untuk menggali parit-parit massal raksasa, di mana puluhan jasad ditumpuk bertingkat-tingkat dan disiram kapur tohor untuk meredam bau dan pembusukan. Ratusan jenazah tak teridentifikasi ditinggalkan di tepi jalur kafilah, menjadi santapan burung bangkai di padang gurun.",
+                "en": "Within less than a fortnight, over 30,000 pilgrims perished across Mecca, Mina, and the desert tracks toward Jeddah—a catastrophic mortality rate of 33%. The ancient cemetery of Jannat al-Mu'alla could no longer accommodate individual graves. Ottoman garrison troops were conscripted to excavate immense communal trenches, stacking corpses layer upon layer and coating them with quicklime to suppress putrefaction. Hundreds of unidentified victims lay abandoned along caravan arteries, exposed to desert scavengers."
+            },
+            "image": "/assets/images/cholera/wave-4/mek/mek_ch_05.jpg"
+        },
+        {
+            "id": "mek-ch-06",
+            "chapterNumber": 6,
+            "type": "side_story",
+            "title": {
+                "id": "Eksodus Panik ke Pelabuhan Jeddah: Perlombaan Menuju Kapal Uap",
+                "en": "The Panic Exodus to Port Jeddah: The Race for Steamship Berths"
+            },
+            "date": {
+                "id": "16 – 22 Mei 1865 M",
+                "en": "May 16 – 22, 1865 AD"
+            },
+            "flash": {
+                "id": "Puluhan ribu penyintas membanjiri pelabuhan Jeddah, memperebutkan tiket kapal uap untuk kabur dari neraka Hijaz.",
+                "en": "Tens of thousands of survivors flooded Jeddah's port, battling for steamship tickets to escape the Hejaz inferno."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Kepadatan Dermaga & Air Tawar Pelabuhan",
+                "incubation": "12 – 36 Jam",
+                "transmission": "Kepadatan manusia di pelabuhan tanpa fasilitas karantina"
+            },
+            "description": {
+                "id": "Penyintas yang berhasil menyelesaikan ritual haji berhamburan dalam kepanikan menuju kota pelabuhan Jeddah di tepi Laut Merah. Jalur gurun sejauh 70 kilometer dipenuhi peziarah yang sekarat, koper yang ditinggalkan, dan bangkai unta. Di Jeddah, dermaga dipadati lebih dari 40.000 orang yang berebut menaiki kapal uap Inggris, Prancis, Mesir, dan Utsmaniyah. Konsul-konsul Eropa menyaksikan dengan ngeri bagaimana nakhoda kapal yang serakah menjual tiket melebihi kapasitas kabin, memasukkan ratusan orang yang sudah memperlihatkan gejala diare ke dalam palka yang pengap dan panas membara.",
+                "en": "Survivors who completed the rites fled in blind terror toward the port city of Jeddah on the Red Sea. The 70-kilometer desert route was littered with dying pilgrims, abandoned baggage, and dead camels. In Jeddah, the quays swelled with over 40,000 frantic refugees competing for berths aboard British, French, Egyptian, and Ottoman steamers. European consuls watched with horror as avaricious shipmasters oversold deck capacity, packing hundreds of passengers exhibiting early diarrheal symptoms into suffocating, sweltering cargo holds."
+            },
+            "image": "/assets/images/cholera/wave-4/mek/mek_ch_06.jpg"
+        },
+        {
+            "id": "mek-ch-07",
+            "chapterNumber": 7,
+            "type": "standard",
+            "title": {
+                "id": "Palka Kapal Uap: Inkubator Terapung Menyeberangi Laut Merah",
+                "en": "Steamship Holds: Floating Incubators Crossing the Red Sea"
+            },
+            "date": {
+                "id": "23 – 30 Mei 1865 M",
+                "en": "May 23 – 30, 1865 AD"
+            },
+            "flash": {
+                "id": "Kapal uap modern melipatgandakan kecepatan penularan: peziarah terinfeksi tiba di muara Suez hanya dalam 4 hari.",
+                "en": "Modern steam vessels turbocharged dispersal: infected pilgrims traversed to Suez in just 4 days."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Tangki Air Kapal & Ruang Tertutup Palka",
+                "incubation": "12 – 24 Jam",
+                "transmission": "Kontaminasi air minum kapal dan muntahan di dek tertutup"
+            },
+            "description": {
+                "id": "Revolusi transportasi uap yang dibanggakan peradaban abad ke-19 bertransformasi menjadi mimpi buruk epidemiologi. Kapal uap seperti *North America* dan kapal-kapal bendera Inggris lainnya mengangkut antara 1.000 hingga 1.500 peziarah dalam satu pelayaran. Tanpa ventilasi memadai dan fasilitas pembuangan tinja yang terisolasi, kotoran penderita kolera merembes ke celah-celah papan dek dan mencemari persediaan air tawar kapal. Perjalanan yang dulunya memakan waktu tiga pekan dengan kapal layar kini ditempuh hanya dalam waktu 96 jam, memastikan bakteri mendarat di muara Terusan Suez dan pelabuhan Alexandria dalam kondisi vitalitas biologis tertinggi.",
+                "en": "The steam propulsion revolution hailed by 19th-century industrial powers transformed into an epidemiological catastrophe. Vessels such as the *North America* and British-flagged steamers crammed 1,000 to 1,500 pilgrims into single voyages. Lacking adequate ventilation or segregated latrines, choleraic effluent seeped through deck planks, tainting freshwater casks. The maritime journey that previously took three weeks by sailing dhow now concluded in a blistering 96 hours, ensuring that bacteria disembarked at Suez and Alexandria at peak biological virulence."
+            },
+            "image": "/assets/images/cholera/wave-4/mek/mek_ch_07.jpg"
+        },
+        {
+            "id": "mek-ch-08",
+            "chapterNumber": 8,
+            "type": "side_story",
+            "title": {
+                "id": "Stasiun Karantina Al-Wajh: Pos Terdepan yang Runtuh",
+                "en": "Al-Wajh Lazaretto: The Collapsed Frontier Quarantine"
+            },
+            "date": {
+                "id": "Juni 1865 M",
+                "en": "June 1865 AD"
+            },
+            "flash": {
+                "id": "Pos karantina di pesisir Laut Merah kekurangan air bersih, makanan, dan obat, berubah menjadi kuburan massal.",
+                "en": "The coastal Red Sea lazaretto lacked water, rations, and medicine, devolving into an open graveyard."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Kekurangan Air Bersih di Karantina",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Penumpukan ribuan orang di pesisir pantai tanpa infrastruktur sanitasi"
+            },
+            "description": {
+                "id": "Pemerintah Utsmaniyah dan Dewan Karantina Alexandria berupaya mendirikan stasiun karantina darurat di Al-Wajh, sebuah pelabuhan kecil di pantai timur Laut Merah. Namun, ribuan peziarah yang diturunkan paksa dari kapal mendapati bahwa pos karantina tersebut hanyalah hamparan pasir terik tanpa pasokan air bersih yang memadai dan tanpa dokter yang terlatih. Dalam hitungan hari, keputusasaan memicu kerusuhan; para peziarah terpaksa meminum air payau yang terkontaminasi. Ratusan orang tewas di pantai berpasir, sementara kapal-kapal lain menerobos blokade dan berlayar langsung ke Suez tanpa surat izin kesehatan.",
+                "en": "The Ottoman administration and Alexandria Quarantine Board attempted to erect an emergency quarantine station at Al-Wajh on the eastern Red Sea coast. However, thousands of pilgrims forcibly disembarked found only a sun-baked expanse devoid of sufficient freshwater or qualified medical personnel. Within days, desperation ignited mutinies; pilgrims drank brackish, contaminated groundwater. Hundreds died upon the barren shore, while other vessels bypassed the blockade entirely, steaming directly toward Suez without bills of health."
+            },
+            "image": "/assets/images/cholera/wave-4/mek/mek_ch_08.jpg"
+        },
+        {
+            "id": "mek-ch-09",
+            "chapterNumber": 9,
+            "type": "standard",
+            "title": {
+                "id": "Kafilah Darah ke Damaskus & Baghdad: Jalur Darat Menangis",
+                "en": "The Blood Caravans to Damascus & Baghdad: The Desert Weeps"
+            },
+            "date": {
+                "id": "Juni – Juli 1865 M",
+                "en": "June – July 1865 AD"
+            },
+            "flash": {
+                "id": "Kafilah haji darat membawa kolera melintasi gurun Suriah dan Mesopotamia, menyebarkan maut ke oasis pedalaman.",
+                "en": "Overland camel caravans carried cholera across the Syrian and Mesopotamian deserts, seeding oasis towns."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Sumur Kafilah Gurun",
+                "incubation": "24 – 72 Jam",
+                "transmission": "Penggunaan sumber air sumur oasis bersama oleh peziarah yang terinfeksi"
+            },
+            "description": {
+                "id": "Sementara jalur laut menyebarkan wabah ke barat, kafilah darat yang bergerak ke utara menuju Damaskus, Yerusalem, dan Baghdad meninggalkan jejak mayat di sepanjang rute padang pasir. Setiap sumur peristirahatan kafilah di gurun An-Nafud dan lembah Yordania tercemar oleh peziarah yang sakit. Di Damaskus, berita kedatangan kafilah haji memicu kepanikan warga kota; pintu-pintu gerbang ditutup, namun bakteri telah menyusup bersama barang bawaan dan pakaian peziarah yang terinfeksi, memicu wabah yang menewaskan lebih dari 5.000 warga Suriah dalam tempo satu bulan.",
+                "en": "While maritime corridors hurled contagion west, overland caravans trekking north toward Damascus, Jerusalem, and Baghdad left trails of unburied dead across the desert sands. Every waystation well across the An-Nafud desert and Jordan Valley was tainted by stricken travelers. In Damascus, news of the returning caravan provoked sheer panic; municipal gates were barred, yet the vibrio had already entered via soiled fabrics and luggage, sparking an outbreak that claimed over 5,000 Syrian lives within a month."
+            },
+            "image": "/assets/images/cholera/wave-4/mek/mek_ch_09.jpg"
+        },
+        {
+            "id": "mek-ch-10",
+            "chapterNumber": 10,
+            "type": "side_story",
+            "title": {
+                "id": "Kesaksian Dokter Konsuler: Catatan Horor Dr. Buez",
+                "en": "Consular Medical Testimony: Dr. Buez's Harrowing Dispatches"
+            },
+            "date": {
+                "id": "Juli 1865 M",
+                "en": "July 1865 AD"
+            },
+            "flash": {
+                "id": "Laporan medis konsul Prancis mendokumentasikan skala bencana dan kelalaian pengawasan maritim di Laut Merah.",
+                "en": "French consular medical reports exposed catastrophic negligence and maritime monitoring failures."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Laporan Epidemiologi & Audit Lapangan",
+                "incubation": "N/A",
+                "transmission": "Dokumentasi klinis kegagalan sanitasi perkapalan"
+            },
+            "description": {
+                "id": "Dr. Buez, seorang dokter medis yang ditugaskan oleh konsulat Prancis di Jeddah, menyusun salah satu laporan epidemiologi paling kritis mengenai malapetaka 1865. Dalam catatannya ke Paris, ia mendeskripsikan jalanan Mekkah yang dipenuhi cairan muntahan dan tinja yang mengering menjadi debu beracun, serta bau daging busuk yang tercium hingga bermil-mil di luar kota. Buez secara tajam mengecam otoritas pelayaran komersial yang memeras peziarah miskin dan membiarkan kapal-kapal berlayar tanpa dokter ataupun desinfektan, memperingatkan bahwa Eropa akan segera membayar harga mahal atas kelalaian tersebut.",
+                "en": "Dr. Buez, a French consular physician stationed at Jeddah, authored one of the most blistering epidemiological critiques of the 1865 catastrophe. In dispatches to Paris, he chronicled streets coated in diarrheal matter drying into toxic dust, and the scent of putrefaction carrying miles beyond city walls. Buez fiercely condemned commercial steamship operators who extorted impoverished pilgrims and dispatched uninspected vessels without doctors or disinfectants, warning that Europe would imminently pay a devastating price for this imperial negligence."
+            },
+            "image": "/assets/images/cholera/wave-4/mek/mek_ch_10.jpg"
+        },
+        {
+            "id": "mek-ch-11",
+            "chapterNumber": 11,
+            "type": "standard",
+            "title": {
+                "id": "Invasi Teluk Persia & Basra: Gelombang Balik ke Timur",
+                "en": "Persian Gulf & Basra Ingress: The Reverse Wave to the East"
+            },
+            "date": {
+                "id": "Agustus – September 1865 M",
+                "en": "August – September 1865 AD"
+            },
+            "flash": {
+                "id": "Peziarah Syiah yang kembali dari Hijaz membawa patogen menyusuri Shatt al-Arab ke Najaf dan Karbala.",
+                "en": "Shiite pilgrims returning from Hejaz ferried the pathogen through Shatt al-Arab to Najaf and Karbala."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Pelayaran Pesisir Teluk & Sungai Tigris",
+                "incubation": "12 – 48 Jam",
+                "transmission": "Kontak perahu kayu di muara Shatt al-Arab dan ziarah makam suci"
+            },
+            "description": {
+                "id": "Selain menyebar ke Laut Merah dan Mediterania, kepulangan jemaah dari Persia dan Irak memicu gelombang balik kolera ke Teluk Persia. Perahu-perahu layar dhow yang mendarat di pelabuhan Basra membawa peziarah yang terinfeksi menyusuri muara Sungai Shatt al-Arab. Dari Basra, penyakit ini merambat cepat ke kota-kota suci ziarah Najaf dan Karbala, sebelum menembus perbatasan Persia menuju Isfahan dan Teheran. Ribuan peziarah yang bermaksud menyempurnakan ibadah justru membawa kematian bagi sanak keluarga di pedalaman Iran.",
+                "en": "Beyond the westward thrust into the Red Sea, returning pilgrims from Persia and Ottoman Iraq ignited a violent eastern surge into the Persian Gulf. Dhows docking at Basra transported infected travelers up the Shatt al-Arab waterway. From Basra, cholera raced into the holy shrine cities of Najaf and Karbala, eventually breaching Persian frontiers toward Isfahan and Tehran. Thousands who sought spiritual absolution inadvertently ferried death to families across inland Iran."
+            },
+            "image": "/assets/images/cholera/wave-4/mek/mek_ch_11.jpg"
+        },
+        {
+            "id": "mek-ch-12",
+            "chapterNumber": 12,
+            "type": "summary",
+            "title": {
+                "id": "Dampak Geopolitik Hijaz: Bangkitnya Rezim Karantina Utsmaniyah",
+                "en": "Geopolitical Repercussions: Dawn of the Ottoman Quarantine Regime"
+            },
+            "date": {
+                "id": "Akhir 1865 M",
+                "en": "Late 1865 AD"
+            },
+            "flash": {
+                "id": "Tragedi 1865 memaksa Istanbul merombak total administrasi kesehatan haji dan mendirikan dewan sanitasi permanen.",
+                "en": "The catastrophe forced Istanbul to overhaul Hajj health administration and establish permanent sanitary boards."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Reformasi Sanitasi Publik Kekaisaran",
+                "incubation": "N/A",
+                "transmission": "Kebijakan inspeksi medis wajib dan pembangunan lazaretto modern"
+            },
+            "description": {
+                "id": "Bencana kolera 1865 mengguncang legitimasi Kekaisaran Utsmaniyah sebagai pelindung dua kota suci. Di bawah tekanan diplomatik hebat dari kekuatan-kekuatan Eropa yang ketakutan, Sultan Abdulaziz memerintahkan reformasi radikal terhadap penyelenggaraan haji. Sebuah dewan kesehatan permanen dibentuk di Jeddah, regulasi ketat mengenai kapasitas muatan kapal uap peziarah diterbitkan, dan rencana pembangunan stasiun karantina pulau modern di Kepulauan Kamaran serta Tor mulai dirancang. Tragedi ini menandai berakhirnya era perjalanan haji tanpa regulasi medis.",
+                "en": "The 1865 disaster shook the Ottoman Empire's imperial prestige as Guardian of the Holy Sanctuaries. Under fierce diplomatic pressure from alarmed European capitals, Sultan Abdulaziz enacted sweeping sanitary reforms across the Hajj pilgrimage. A permanent health council was instituted in Jeddah, stringent passenger limits on pilgrim steamers were codified, and blueprints for state-of-the-art island lazarettos at Kamaran and Tor were commissioned, ending the era of unregulated pilgrimage travel."
+            },
+            "image": "/assets/images/cholera/wave-4/mek/mek_ch_12.jpg"
+        },
+        {
+            "id": "mek-ch-13",
+            "chapterNumber": 13,
+            "type": "standard",
+            "title": {
+                "id": "Warisan Ketakutan: Mekkah Sebagai Episentrum Pandemi Global",
+                "en": "Legacy of Dread: Mecca as the Global Pandemic Epicenter"
+            },
+            "date": {
+                "id": "1865 – 1866 M",
+                "en": "1865 – 1866 AD"
+            },
+            "flash": {
+                "id": "Dunia Barat memandang ibadah haji bukan lagi semata ritual spiritual, melainkan ancaman biologis transnasional.",
+                "en": "Western powers reframed the Hajj not merely as a pilgrimage, but as an existential transnational biothreat."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Persepsi Kolonial & Biopolitik",
+                "incubation": "N/A",
+                "transmission": "Stigmatisasi rute peziarahan dalam wacana kedokteran tropis imperialis"
+            },
+            "description": {
+                "id": "Tragedi haji 1865 secara fundamental mengubah cara pandang komunitas medis internasional terhadap epidemiologi kolera. Mekkah tidak lagi dipandang sekadar sebagai lokasi ibadah terpencil di gurun pasir, melainkan sebagai 'kawah candradimuka' tempat bertemunya berbagai galur penyakit dari Asia dan Afrika yang kemudian disebarkan ke seluruh benua melalui teknologi uap modern. Laporan-laporan medis Barat mulai menggunakan istilah biopolitik yang menuntut agar jalur haji dikontrol ketat di bawah pengawasan internasional, menjadi pemicu utama diselenggarakannya Konferensi Sanitasi Internasional Konstantinopel 1866.",
+                "en": "The 1865 calamity fundamentally altered how the international medical fraternity analyzed cholera epidemiology. Mecca was no longer viewed as an isolated desert sanctuary, but as a continental biopolitical crucible where pathogen strains from Asia and Africa amalgamated before radiating globally via steam propulsion. Western medical publications adopted increasingly interventionist rhetoric, demanding international oversight of pilgrimage routes and setting the stage for the landmark 1866 Constantinople International Sanitary Conference."
+            },
+            "image": "/assets/images/cholera/wave-4/mek/mek_ch_13.jpg"
+        },
+        {
+            "id": "mek-ch-14",
+            "chapterNumber": 14,
+            "type": "summary",
+            "title": {
+                "id": "Audit Epidemiologis Sektor MEK: Fajar Pengawasan Global",
+                "en": "Epidemiological Audit of Sector MEK: Dawn of Global Surveillance"
+            },
+            "date": {
+                "id": "1866 M",
+                "en": "1866 AD"
+            },
+            "flash": {
+                "id": "Sektor MEK membuktikan bahwa percepatan mobilitas manusia tanpa revolusi sanitasi adalah resep katastrofe global.",
+                "en": "Sector MEK proved that accelerating human mobility without sanitation is a recipe for global catastrophe."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Sintesis Sejarah Epidemiologi",
+                "incubation": "12 – 48 Jam",
+                "transmission": "Konektivitas uap global mempercepat penularan melampaui masa inkubasi alami"
+            },
+            "description": {
+                "id": "Sektor MEK (Mekkah & Hijaz 1865) berdiri dalam historiografi kedokteran sebagai studi kasus paling dramatis mengenai benturan antara kecepatan teknologi transportasi modern dan keterbelakangan sanitasi abad ke-19. Dengan memangkas waktu perjalanan dari berminggu-minggu menjadi hitungan hari, kapal uap telah melumpuhkan pertahanan karantina alamiah gurun. Kematian 30.000 peziarah di lembah Mekkah menjadi tumbal yang memaksa bangsa-bangsa dunia untuk pertama kalinya menyadari bahwa patogen tidak mengenal kedaulatan politik ataupun batas agama, melahirkan fajar koordinasi kesehatan masyarakat global.",
+                "en": "Sector MEK (Mecca & Hejaz 1865) stands in medical history as the ultimate case study of the collision between modern transportation velocity and antiquated 19th-century sanitation. By compressing journeys from weeks to mere days, steam technology dismantled the desert's natural sanitary barriers. The loss of 30,000 pilgrims in Mecca's valley forced global powers to realize that deadly pathogens acknowledge neither political sovereignty nor religious frontiers, initiating the dawn of modern international public health coordination."
+            },
+            "image": "/assets/images/cholera/wave-4/mek/mek_ch_14.jpg"
+        }
+    ]
+}

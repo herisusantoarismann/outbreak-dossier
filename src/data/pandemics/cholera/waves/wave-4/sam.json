@@ -1,0 +1,358 @@
+{
+  "sectorId": "SAM",
+  "waveIndex": 4,
+  "sectorName": {
+    "id": "Sektor SAM (Amerika Selatan: Perang Aliansi Tiga, Lembah Río de la Plata & Paraguay // 1867–1869)",
+    "en": "Sector SAM (South America: War of the Triple Alliance, Río de la Plata & Paraguay // 1867–1869)"
+  },
+  "coordinates": [
+    -27.24,
+    -58.59
+  ],
+  "timeRange": {
+    "id": "April 1867 – Mei 1869",
+    "en": "April 1867 – May 1869"
+  },
+  "estimatedFatalities": {
+    "id": "60.000+ korban jiwa di seluruh cekungan Río de la Plata (termasuk puluhan ribu tentara Brasil, Argentina, dan Paraguay di garis depan Humaitá serta ribuan warga sipil di Buenos Aires dan Rosario)",
+    "en": "60,000+ deaths across the Río de la Plata basin (including tens of thousands of Brazilian, Argentine, and Paraguayan troops at the Humaitá front and thousands of civilians in Buenos Aires and Rosario)"
+  },
+  "chapters": [
+    {
+      "id": "sam-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Arteri Militer Sungai Paraná: Pendaratan Pasukan Sekutu di Corrientes",
+        "en": "The Paraná River Military Artery: Allied Troop Disembarkation at Corrientes"
+      },
+      "date": {
+        "id": "April 1867",
+        "en": "April 1867"
+      },
+      "flash": {
+        "id": "Kapal uap militer pembawa bala bantuan Brasil dari Rio de Janeiro membuang sauh di Corrientes; kasus kolera fatal meledak di garis belakang logistik Perang Paraguay.",
+        "en": "Military steamers transporting Brazilian troop reinforcements from Rio de Janeiro dock at Corrientes; fatal cholera cases detonate in the Paraguayan War logistics rear."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air tangki kapal perang besi dan kargo perbekalan pasukan ekspedisi Brasil",
+        "incubation": "12 – 48 jam",
+        "transmission": "Pencemaran fekal-oral di dermaga logistik kayu sempit Sungai Paraná"
+      },
+      "description": {
+        "id": "Pada awal April 1867, di tengah kecamuk Perang Aliansi Tiga (Guerra de la Triple Alianza)—perang antaranegara paling berdarah dalam sejarah Amerika Selatan—kapal-kapal uap militer Brasil yang membawa ribuan serdadu bala bantuan dari Rio de Janeiro berlabuh di pelabuhan sungai Corrientes, Argentina. Bersama dengan mortir dan amunisi, kapal-kapal tersebut membawa musuh tak terlihat yang telah menginfeksi awak kapal selama pelayaran melintasi muara Río de la Plata. Dalam hitungan hari setelah pasukan mendarat, puluhan serdadu ambruk dengan diare cair berwarna cucian beras dan kram otot parah. Pangkalan logistik Corrientes yang padat seketika berubah menjadi sarang penularan, melepaskan gelombang bakteri maut ke hulu sungai tempat ratusan ribu tentara sedang bertempur di parit-parit berlumpur.",
+        "en": "In early April 1867, amidst the savage fury of the War of the Triple Alliance—the bloodiest interstate conflict in South American history—Brazilian military steam transports carrying thousands of fresh troop reinforcements from Rio de Janeiro docked at the Argentine river port of Corrientes. Alongside siege mortars and rifle cartridges, these vessels delivered an unseen adversary that had incubated aboard ship during the transit through the Río de la Plata estuary. Within days of disembarkation, dozens of recruits collapsed with violent rice-water diarrhea and agonized muscle spasms. The congested logistics hub of Corrientes was instantly transformed into a vector hotbed, launching a devastating pathogenic surge upstream toward trench lines where hundreds of thousands of combatants clashed in pestilential mud."
+      },
+      "image": "/assets/images/cholera/wave-4/sam/sam_ch_01.jpg"
+    },
+    {
+      "id": "sam-ch-02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Bivak Berlumpur Paso de Patria: Wabah di Pertemuan Dua Sungai",
+        "en": "The Muddy Bivouacs of Paso de Patria: Epidemic at the River Confluence"
+      },
+      "date": {
+        "id": "Mei 1867",
+        "en": "May 1867"
+      },
+      "flash": {
+        "id": "Lebih dari 40.000 serdadu Brasil, Argentina, dan Uruguay berjejal di perkemahan Paso de Patria; kolera merenggut 4.000 nyawa tentara sekutu dalam tiga minggu.",
+        "en": "Over 40,000 Brazilian, Argentine, and Uruguayan troops cram into Paso de Patria encampments; cholera claims 4,000 allied soldiers in three weeks."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air mentah pertemuan Sungai Paraná dan Paraguay yang jenuh tinja bivak militer",
+        "incubation": "6 – 24 jam",
+        "transmission": "Pengambilan air minum langsung dari tepi sungai di dekat saluran pembuangan jamban darurat pasukan"
+      },
+      "description": {
+        "id": "Di perkemahan raksasa Paso de Patria, yang terletak persis di pertemuan strategis Sungai Paraná dan Paraguay, lebih dari 40.000 serdadu tentara Aliansi Tiga berkumpul di bawah tenda-tenda kanvas yang basah kuyup oleh hujan tropis. Tidak adanya sistem sanitasi militer yang terorganisir membuat ribuan kakus darurat meluap langsung ke tepian sungai tempat para prajurit mencuci piring dan mengisi tabung air minum mereka. Ledakan kolera terjadi dengan intensitas seismik. Dalam tempo kurang dari satu bulan, lebih dari 4.000 serdadu Aliansi tewas; jeritan kesakitan para korban di dalam tenda rumah sakit lapangan mengubur suara tembakan meriam musuh. Operasi militer ofensif terhenti total karena para jenderal kehilangan kompi-kompi tempur utuh dalam semalam.",
+        "en": "At the colossal encampment of Paso de Patria, situated precisely at the strategic confluence of the Paraná and Paraguay rivers, over 40,000 soldiers of the Triple Alliance gathered beneath waterlogged canvas pavilions drenched by equatorial rains. The utter lack of military sanitation allowed thousands of field latrines to overflow directly into the riverbanks where soldiers cleansed mess kits and replenished drinking canteens. Cholera detonated with seismic velocity. Within less than a month, over 4,000 Allied soldiers perished; the shrieks of agonizing men within field lazarettos drowned out the roar of distant enemy artillery. Offensive maneuvers ground to an absolute halt as commanding generals witnessed entire frontline companies obliterated overnight without firing a shot."
+      },
+      "image": "/assets/images/cholera/wave-4/sam/sam_ch_02.jpg"
+    },
+    {
+      "id": "sam-ch-03",
+      "chapterNumber": 3,
+      "type": "milestone",
+      "title": {
+        "id": "Pengepungan Benteng Humaitá: Maut di Balik Benteng Rawa Marshal López",
+        "en": "The Siege of Humaitá: Mortality Behind Marshal López's Marshland Bastion"
+      },
+      "date": {
+        "id": "Juni – Agustus 1867",
+        "en": "June – August 1867"
+      },
+      "flash": {
+        "id": "Benteng Humaitá yang tak tertembus dikepung oleh kapal besi dan kolera; ribuan prajurit Paraguay tewas di dalam benteng rawa Esteros de Ñeembucú.",
+        "en": "The impregnable fortress of Humaitá is besieged by ironclads and cholera; thousands of Paraguayan soldiers perish in the Ñeembucú marsh ramparts."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air payau rawa Esteros de Ñeembucú dan bangkai ternak konsumsi garnisun",
+        "incubation": "12 – 36 jam",
+        "transmission": "Pengepungan total memutus pasokan air segar, memaksa garnisun meminum air rawa tergenang yang tercemar"
+      },
+      "description": {
+        "id": "Di seberang parit pertahanan, pasukan Paraguay yang dipimpin oleh Mariscal Francisco Solano López bertahan di dalam benteng raksasa Humaitá—yang dijuluki 'Gibraltar Amerika Selatan'. Dikelilingi oleh rawa-rawa Esteros de Ñeembucú yang dipenuhi lintah dan nyamuk, benteng ini terisolasi dari dunia luar. Ketika basil kolera merembes melintasi garis pertempuran melalui tawanan dan perairan sungai yang mengalir ke hulu, garnisun Paraguay menghadapi siksaan tanpa tandingan. Blokade kapal perang berlapis besi Brasil memutus pasokan logistik dan obat-obatan. Di balik tembok benteng tanah liat, ribuan prajurit Paraguay yang kurus dan setia mati tergeletak di lumpur, tubuh mereka membiru dalam pelukan maut kolera sebelum musuh sempat meluncurkan serangan infanteri.",
+        "en": "Across the forward trench lines, the Paraguayan army commanded by Marshal Francisco Solano López occupied the colossal fortress of Humaitá—famed as the 'Gibraltar of South America'. Girdled by the treacherous, leech-infested swamps of the Esteros de Ñeembucú, the stronghold was virtually inaccessible. When Vibrio cholerae leaked across the battlefront via captured outposts and eddying river currents, the garrison endured unmatched agony. Brazilian ironclads blockading the Paraguay River throttled medical supplies and provisions. Behind earthen ramparts, thousands of emaciated, unyielding Paraguayan soldiers died in the black marsh mud, their collapsed bodies turning cyanotic in cholera's lethal grip long before enemy infantry could breach the line."
+      },
+      "image": "/assets/images/cholera/wave-4/sam/sam_ch_03.jpg"
+    },
+    {
+      "id": "sam-ch-04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Dilema Jenderal Mitre: Evakuasi Pasukan dan Penularan Garis Belakang",
+        "en": "General Mitre's Dilemma: Troop Evacuations and Rearguard Infiltration"
+      },
+      "date": {
+        "id": "September – Oktober 1867",
+        "en": "September – October 1867"
+      },
+      "flash": {
+        "id": "Presiden Argentina Bartolomé Mitre terpaksa menghentikan kampanye militer dan mengevakuasi ribuan serdadu sakit ke hilir, tanpa sengaja mengalirkan wabah ke Rosario.",
+        "en": "Argentine President Bartolomé Mitre halts offensives to evacuate thousands of sick troops downriver, inadvertently unleashing the plague upon Rosario."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Tongkang evakuasi medis dan pakaian kotor prajurit yang dipulangkan",
+        "incubation": "24 – 48 jam",
+        "transmission": "Pendaratan perwira dan prajurit terinfeksi di kota-kota pelabuhan hilir tanpa fasilitas karantina"
+      },
+      "description": {
+        "id": "Jenderal Bartolomé Mitre, yang merangkap sebagai Presiden Argentina dan Panglima Tertinggi Pasukan Sekutu, menghadapi dilema kemanusiaan dan strategis yang mustahil. Dengan sepertiga tentaranya lumpuh oleh dehidrasi dan muntah, Mitre tidak punya pilihan selain menunda serangan umum terhadap Humaitá dan memerintahkan evakuasi besar-besaran tentara yang sakit menggunakan tongkang uap ke arah hilir. Namun keputusan medis darurat ini berakibat fatal bagi keamanan dalam negeri. Kapal-kapal tongkang yang penuh dengan prajurit sekarat singgah di kota pelabuhan Rosario dan San Nicolás, menurunkan serdadu yang masih mengerang kesakitan. Kurangnya fasilitas karantina di daratan mengubah kota-kota transit ini menjadi episentrum baru penularan sekunder yang dahsyat.",
+        "en": "General Bartolomé Mitre, concurrently serving as President of Argentina and Supreme Commander of Allied Forces, confronted an agonizing humanitarian and strategic crisis. With a third of his infantry incapacitated by dehydration and violent emesis, Mitre was forced to freeze the offensive against Humaitá and authorize the mass evacuation of invalid soldiers downriver aboard steam barges. Yet this emergency evacuation produced catastrophic consequences for civilian stability. Barges crowded with dying conscripts pulled into the busy river ports of Rosario and San Nicolás, landing groaning, infected troops directly onto public piers. The total absence of terrestrial lazarettos transformed these commercial transit towns into explosive secondary epicenters."
+      },
+      "image": "/assets/images/cholera/wave-4/sam/sam_ch_04.jpg"
+    },
+    {
+      "id": "sam-ch-05",
+      "chapterNumber": 5,
+      "type": "side_story",
+      "title": {
+        "id": "Kepahlawanan Dr. Francisco Muñiz: Pengorbanan Korps Medis Militer",
+        "en": "Heroism of Dr. Francisco Muñiz: The Military Medical Corps' Sacrifice"
+      },
+      "date": {
+        "id": "Oktober – November 1867",
+        "en": "October – November 1867"
+      },
+      "flash": {
+        "id": "Dokter bedah legendaris Argentina Dr. Francisco Javier Muñiz memimpin perlawanan medis di barak lapangan Corrientes dengan infus garam dan dekrit kebersihan tegas.",
+        "en": "Legendary Argentine surgeon Dr. Francisco Javier Muñiz directs clinical resistance in Corrientes field barracks with saline infusions and strict hygienic decrees."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kelelahan ekstrem tenaga medis dan keterbatasan asam karbolat serta air steril",
+        "incubation": "12 – 24 jam",
+        "transmission": "Kontak langsung saat menangani muntahan dan feses prajurit di bangsal bedah terbuka"
+      },
+      "description": {
+        "id": "Di garis depan rumah sakit militer Corrientes, dokter bedah veteran Dr. Francisco Javier Muñiz (yang kelak gugur sebagai martir medis pada wabah demam kuning 1871) menunjukkan dedikasi luar biasa di usia senjanya. Menolak untuk mengungsi ke Buenos Aires, Muñiz mendirikan bangsal isolasi tenda darurat dan melatih para prajurit muda untuk merebus air minum dan memisahkan perlengkapan tempat tidur korban kolera. Menghadapi kekurangan obat-obatan yang akut akibat blokade perang, Muñiz mempraktikkan terapi infus larutan garam sederhana untuk mencegah syok hipovolemik pada para serdadu yang ambruk. Integritas dan kepemimpinannya menyelamatkan ratusan nyawa prajurit dan meletakkan standar pertama penanganan sanitasi militer dalam sejarah kedokteran perang Argentina.",
+        "en": "At the military base hospital in Corrientes, veteran surgeon Dr. Francisco Javier Muñiz (who would later perish as a martyr during the 1871 yellow fever epidemic) displayed extraordinary gallantry in his twilight years. Categorically refusing to evacuate to Buenos Aires, Muñiz erected canvas isolation pavilions and trained orderly units to boil all drinking water and segregate patient bedding. In the face of acute drug shortages exacerbated by war logistics, Muñiz pioneered the administration of basic saline solutions to arrest hypovolemic shock in collapsed infantrymen. His unyielding clinical resolve rescued hundreds of soldiers and established the earliest operational protocols for military sanitation in Argentine armed forces history."
+      },
+      "image": "/assets/images/cholera/wave-4/sam/sam_ch_05.jpg"
+    },
+    {
+      "id": "sam-ch-06",
+      "chapterNumber": 6,
+      "type": "milestone",
+      "title": {
+        "id": "Pengepungan Buenos Aires: Teror di San Telmo dan Montserrat",
+        "en": "Siege of Buenos Aires: Terror in San Telmo and Montserrat"
+      },
+      "date": {
+        "id": "Desember 1867 – Januari 1868",
+        "en": "December 1867 – January 1868"
+      },
+      "flash": {
+        "id": "Kapal uap dari medan perang membawa kolera ke muara Río de la Plata; lebih dari 3.000 warga Buenos Aires tewas di distrik padat San Telmo dan Montserrat.",
+        "en": "River steamers from the war front convey cholera into the Río de la Plata estuary; over 3,000 Buenos Aires citizens die in San Telmo and Montserrat."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air sumur gali rumah petak (conventillos) dan selokan terbuka tepi Río de la Plata",
+        "incubation": "12 – 36 jam",
+        "transmission": "Pencemaran fekal-oral sumur dangkal di pemukiman imigran padat Italia dan Spanyol"
+      },
+      "description": {
+        "id": "Pada akhir Desember 1867, hantu kolera akhirnya mengetuk pintu ibu kota Argentina, Buenos Aires. Kapal-kapal sungai yang mengangkut perwira yang cuti dan barang dagangan perang membawa bakteri maut ke dermaga Boca dan pelabuhan kota. Wabah menyambar pemukiman padat rumah petak sewa (conventillos) di distrik San Telmo, Balvanera, dan Montserrat, tempat para imigran Italia dan Spanyol miskin tinggal berdesakan. Sistem sumur gali dangkal yang bersisian dengan tangki pembuangan tinja (pozos ciegos) mencemari pasokan air minum ribuan keluarga. Dalam kurun waktu dua bulan, lebih dari 3.000 warga tewas. Jalanan kota menjadi lengang; toko-toko ditutup, dan bau asap belerang serta ter yang dibakar di persimpangan jalan menyelimuti kota dalam atmosfer kiamat.",
+        "en": "In late December 1867, the specter of cholera breached the maritime doorstep of the Argentine capital, Buenos Aires. River transports conveying furloughed officers and military baggage delivered the pathogen to the Boca quays and municipal wharves. The contagion ignited within the hyper-congested immigrant tenements (conventillos) of San Telmo, Balvanera, and Montserrat, housing thousands of newly arrived Italian and Spanish laborers. Fragile shallow yard wells adjoining cesspool pits (pozos ciegos) poisoned the drinking water of entire neighborhoods. Over 3,000 citizens perished in two months. City avenues emptied as commerce shut down, while the suffocating reek of burning pitch and sulfur barrels at intersections shrouded the capital in an apocalyptic gloom."
+      },
+      "image": "/assets/images/cholera/wave-4/sam/sam_ch_06.jpg"
+    },
+    {
+      "id": "sam-ch-07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Perjalanan ke Pedalaman Pampa: Wabah di Rosario, Córdoba, dan Santa Fe",
+        "en": "Inland March across the Pampas: Outbreaks in Rosario, Córdoba, and Santa Fe"
+      },
+      "date": {
+        "id": "Januari – April 1868",
+        "en": "January – April 1868"
+      },
+      "flash": {
+        "id": "Jalur gerobak lembu dan kereta api Central Argentine membawa kolera melintasi dataran pampa ke Córdoba dan Santa Fe, menewaskan ribuan warga pedalaman.",
+        "en": "Ox-cart trails and the Central Argentine Railway convey cholera across the pampas into Córdoba and Santa Fe, killing thousands in the interior."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Mata air perhentian pos posada gerobak dan air sumur kapur kota kolonial pedalaman",
+        "incubation": "24 – 48 jam",
+        "transmission": "Penyebaran lintas wilayah melalui pengemudi gerobak kargo (carreteros) dan penumpang kereta api"
+      },
+      "description": {
+        "id": "Dari pelabuhan sungai Rosario, infeksi meluncur ke arah barat menuju jantung dataran pampa Argentina. Pembukaan jalur rel Central Argentine Railway yang menghubungkan Rosario ke pedalaman mempercepat pergerakan manusia dan patogen. Para pengemudi gerobak lembu (carreteros) yang mengangkut wol dan gandum menularkan penyakit ini ke stasiun-stasiun pos peristirahatan di provinsi Santa Fe dan Córdoba. Di kota kolonial kuno Córdoba, yang memiliki populasi religius konservatif, gereja-gereja dipenuhi oleh ribuan jemaat yang berdoa memohon pengampunan dosa, tanpa menyadari bahwa air bejana baptis komunal dan sumur biara yang tercemar justru mempercepat penularan. Ribuan penduduk provinsi pedalaman meninggal sebelum wabah mereda pada musim dingin 1868.",
+        "en": "From the river entrepôt of Rosario, the affliction surged westward across the fertile Argentine pampas. The nascent Central Argentine Railway linking Rosario toward the interior radically accelerated human and microbial transit. Ox-cart teamsters (carreteros) transporting wool and hides seeded stage-post waterholes across Santa Fe and Córdoba provinces. In the historic colonial city of Córdoba, possessing a deeply devout population, churches overflowed with terrified citizens praying for divine deliverance, unaware that holy water fonts and cloistered monastery cisterns saturated with sewage were multiplying the carnage. Thousands of interior provincials died before winter chills quieted the contagion in mid-1868."
+      },
+      "image": "/assets/images/cholera/wave-4/sam/sam_ch_07.jpg"
+    },
+    {
+      "id": "sam-ch-08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Benteng Karantina Isla de Flores: Pertahanan Maritim Montevideo",
+        "en": "The Isla de Flores Lazaretto: Maritime Bastion of Montevideo"
+      },
+      "date": {
+        "id": "Desember 1867 – Maret 1868",
+        "en": "December 1867 – March 1868"
+      },
+      "flash": {
+        "id": "Pemerintah Uruguay mendirikan stasiun karantina ketat di pulau karang Isla de Flores, mencegat kapal-kapal terinfeksi dan melindungi Montevideo dari kehancuran total.",
+        "en": "Uruguayan authorities enforce strict quarantine on the rocky outcrop of Isla de Flores, intercepting infected vessels and sparing Montevideo total collapse."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Pakaian kotor dan air lambung kapal dari kapal dagang penyeberangan Río de la Plata",
+        "incubation": "1 – 3 hari",
+        "transmission": "Pencegahan penularan melalui penahanan wajib 14 hari bagi seluruh kapal dari Buenos Aires"
+      },
+      "description": {
+        "id": "Di seberang muara Río de la Plata, Republik Uruguay mengambil langkah paling drastis dan berhasil dalam pencegahan wabah di Amerika Selatan. Otoritas Dewan Kesehatan Montevideo memanfaatkan stasiun karantina kepulauan di Isla de Flores—sebuah pulau karang terpencil di lepas pantai pelabuhan. Setiap kapal uap dan perahu layar yang datang dari Buenos Aires atau Corrientes diwajibkan membuang sauh di perairan pulau tersebut selama empat belas hari penuh. Penumpang yang sakit dipindahkan ke bangsal batu karantina, sementara seluruh surat dan barang bawaan difumigasi dengan uap belerang. Berkat ketegasan barikade maritim Isla de Flores, korban jiwa di kota Montevideo berhasil ditekan di bawah 300 orang, kontras tajam dengan ribuan kematian di seberang sungai di Buenos Aires.",
+        "en": "Across the Río de la Plata estuary, the Republic of Uruguay instituted the most resolute and triumphant preventive regime in South America. The Board of Health of Montevideo mobilized the offshore lazaretto at Isla de Flores—a barren rocky islet lying in the harbor approaches. Every steam packet and schooner arriving from Buenos Aires or Corrientes was subjected to an unyielding fourteen-day maritime embargo. Sick passengers were quarantined in stone hospital pavilions, while all cargo, postal dispatches, and luggage underwent rigorous sulfur fumigation. Thanks to the absolute enforcement of the Isla de Flores barrier, fatalities in Montevideo were held below 300, presenting a stark contrast to the devastation across the estuary in Buenos Aires."
+      },
+      "image": "/assets/images/cholera/wave-4/sam/sam_ch_08.jpg"
+    },
+    {
+      "id": "sam-ch-09",
+      "chapterNumber": 9,
+      "type": "side_story",
+      "title": {
+        "id": "Tragedi 'Voluntários da Pátria': Nasib Tragis Serdadu Kulit Hitam Brasil",
+        "en": "Tragedy of the 'Voluntários da Pátria': Fate of Enslaved Afro-Brazilian Soldiers"
+      },
+      "date": {
+        "id": "1867 – 1868",
+        "en": "1867 – 1868"
+      },
+      "flash": {
+        "id": "Batalion budak Afrika-Brasil 'Voluntários da Pátria' dijanjikan kebebasan tetapi tewas massal akibat kolera di barak rawa terasing Corrientes tanpa perawatan.",
+        "en": "Enslaved Afro-Brazilian 'Voluntários da Pátria' battalions promised emancipation perish en masse from cholera in segregated swamp lazarettos without care."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kondisi fisik malnutrisi berat dan diskriminasi rasial pasokan obat-obatan militer",
+        "incubation": "6 – 18 jam",
+        "transmission": "Fekal-oral di barak penampungan batalion budak yang paling dekat dengan pembuangan limbah"
+      },
+      "description": {
+        "id": "Kisah paling menyayat hati dalam epidemi kolera di teater Perang Paraguay adalah nasib para prajurit Afro-Brasil dari korps 'Voluntários da Pátria'. Puluhan ribu budak kulit hitam dikirim oleh para pemilik tanah Brasil ke garis depan dengan janji emansipasi setelah perang usai. Namun di medan perang rawa Corrientes dan Humaitá, batalion-batalion kulit hitam ini ditempatkan di bivak-bivak paling berlumpur di hilir aliran limbah perkemahan tentara reguler. Ketika kolera meledak, mereka menerima jatah makanan paling sedikit dan hampir tidak mendapat akses ke dokter atau obat-obatan. Ribuan budak yang berjuang demi meraih kemerdekaan mereka tewas dalam kesakitan di lantai tanah rawa, dimakamkan di kuburan massal tanpa nama di tepi Sungai Paraná.",
+        "en": "The most heart-wrenching human tragedy of the cholera epidemic in the Paraguayan War was the fate of Afro-Brazilian soldiers enrolled in the 'Voluntários da Pátria' corps. Tens of thousands of enslaved men were sent to the frontlines by Brazilian oligarchs with the solemn pledge of post-war emancipation. Yet in the pestilential marshes of Corrientes and Humaitá, these segregated Black regiments were relegated to the muddiest bivouacs downstream of encampment latrines. When cholera erupted, they received the meagerest rations and virtually zero access to medical officers or medicines. Thousands of men who had marched to earn their freedom expired in agony upon the marsh sod, dumped into anonymous trench graves along the banks of the Paraná."
+      },
+      "image": "/assets/images/cholera/wave-4/sam/sam_ch_09.jpg"
+    },
+    {
+      "id": "sam-ch-10",
+      "chapterNumber": 10,
+      "type": "milestone",
+      "title": {
+        "id": "Manuver Pikysyry dan Jatuhnya Asunción: Kota Hantu di Tepi Sungai",
+        "en": "The Pikysyry Campaign & Fall of Asunción: A Ghost Capital on the River"
+      },
+      "date": {
+        "id": "Desember 1868 – Januari 1869",
+        "en": "December 1868 – January 1869"
+      },
+      "flash": {
+        "id": "Pasukan Aliansi menaklukkan benteng pertahanan terakhir Paraguay di Pikysyry dan memasuki ibu kota Asunción yang kosong ditinggalkan dan dihantui kolera.",
+        "en": "Allied armies pierce Paraguay's final defenses at Pikysyry and enter an evacuated, cholera-haunted capital of Asunción."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Mayat tentara yang membusuk di parit Lomas Valentinas dan sumur kota Asunción yang telantar",
+        "incubation": "12 – 48 jam",
+        "transmission": "Pencemaran sumber air minum ibu kota yang ditinggalkan oleh populasi pengungsi yang melarikan diri ke cordillera"
+      },
+      "description": {
+        "id": "Setelah jatuhnya Humaitá pada pertengahan 1868, sisa-sisa tentara Paraguay mundur ke utara menuju garis pertahanan Sungai Pikysyry. Di bawah komando Mariscal López yang semakin paranoid, anak-anak dan orang tua dipersenjatai untuk melawan mesin perang Aliansi. Dalam Pertempuran Lomas Valentinas (Desember 1868), ribuan prajurit Paraguay dibantai di parit yang dipenuhi kotoran dan jenazah korban kolera. Pada tanggal 5 Januari 1869, pasukan Brasil menduduki ibu kota Asunción, hanya untuk mendapati kota metropolitan tersebut telah berubah menjadi kota hantu yang sunyi senyap. Seluruh penduduk telah diungsikan paksa ke pegunungan cordillera, meninggalkan sumur-sumur kota yang berbau busuk dan anjing-anjing liar berkeliaran di antara gedung-gedung pemerintahan yang dijarah.",
+        "en": "Following the capitulation of Humaitá in mid-1868, the remnants of the Paraguayan army retreated northward to defensive positions along the Pikysyry River. Under an increasingly desperate Marshal López, child-soldiers and elderly conscripts were armed with wooden rifles to oppose the Allied war machine. During the catastrophic Battle of Lomas Valentinas (December 1868), thousands of defenders were slaughtered in trenches strewn with putrefying corpses and cholera vomit. On January 5, 1869, Brazilian divisions entered the capital city of Asunción, finding a desolate, spectral metropolis. The entire civilian population had been forcibly evacuated into the Cordillera mountains, leaving foul, stagnant wells and feral dogs roaming looted ministries."
+      },
+      "image": "/assets/images/cholera/wave-4/sam/sam_ch_10.jpg"
+    },
+    {
+      "id": "sam-ch-11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Kepanikan Lintas Andes: Barikade Sanitasi di Celah Pegunungan Chili dan Bolivia",
+        "en": "Trans-Andean Alarm: Sanitary Barricades across Chilean and Bolivian Mountain Passes"
+      },
+      "date": {
+        "id": "1868 – 1869",
+        "en": "1868 – 1869"
+      },
+      "flash": {
+        "id": "Pemerintah Chili dan Bolivia menempatkan penjaga militer bersenjata di celah pegunungan Andes (Uspallata) untuk menembak pengungsi yang melarikan diri dari kolera Argentina.",
+        "en": "Chilean and Bolivian governments deploy armed cordons along high Andean passes (Uspallata) to repel refugees fleeing cholera in Argentina."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kafilah bagal kargo tekstil dan pengungsi perang dari Mendoza dan San Juan",
+        "incubation": "24 – 72 jam",
+        "transmission": "Pencegahan penularan antar benua melalui blokade militer di celah ketinggian 3.800 meter di atas permukaan laut"
+      },
+      "description": {
+        "id": "Kabar tentang kehancuran di lembah Río de la Plata memicu gelombang teror melintasi dinding raksasa Pegunungan Andes. Di Santiago dan Valparaíso, pemerintah Chili mengesahkan dekrit darurat militer yang menutup perbatasan timur. Pasukan infanteri Chili ditempatkan di celah gunung bersalju Paso de Uspallata pada ketinggian 3.800 meter dengan perintah tegas untuk menolak semua kafilah bagal dan pengungsi yang datang dari provinsi Mendoza di Argentina. Di utara, Bolivia memberlakukan karantina serupa di perbatasan dataran tinggi Altiplano. Berkat ketinggian ekstrem, udara kering beku pegunungan Andes, dan barikade militer tanpa kompromi ini, kawasan pesisir Pasifik Amerika Selatan berhasil terhindar dari cengkeraman Gelombang Keempat.",
+        "en": "Reports of apocalyptic ruin in the Río de la Plata basin ignited panics across the granite barrier of the Andes Mountains. In Santiago and Valparaíso, the Chilean government enacted emergency decrees sealing the eastern mountain frontier. Chilean infantry detachments were deployed to the snowbound Paso de Uspallata at an elevation of 3,800 meters, bearing strict orders to turn back all mule trains and refugees fleeing Argentina's Mendoza province. To the north, Bolivia imposed matching quarantine barriers across the high Altiplano. Thanks to high-altitude freezing winds, arid mountain air, and uncompromising military pickets, the Pacific coastline of South America was successfully shielded from the Fourth Pandemic."
+      },
+      "image": "/assets/images/cholera/wave-4/sam/sam_ch_11.jpg"
+    },
+    {
+      "id": "sam-ch-12",
+      "chapterNumber": 12,
+      "type": "summary",
+      "title": {
+        "id": "Pelajaran Perang dan Kelahiran Reformasi Sanitasi Río de la Plata",
+        "en": "Lessons of War and the Birth of Río de la Plata Sanitary Reforms"
+      },
+      "date": {
+        "id": "1869 – 1871",
+        "en": "1869 – 1871"
+      },
+      "flash": {
+        "id": "Lebih dari 60.000 jiwa melayang akibat kolera di lembah Río de la Plata; bencana ini mendorong pembangunan jaringan pipa air minum dan pembuangan modern pertama Buenos Aires.",
+        "en": "Over 60,000 lives lost to cholera in the Río de la Plata basin; the catastrophe compels the construction of Buenos Aires' first modern running water and sewage network."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kajian epidemiologi gabungan militer-sipil pasca Perang Aliansi Tiga",
+        "incubation": "N/A (Sintesis Sejarah & Transformasi Infrastruktur Perkotaan)",
+        "transmission": "Kemenangan teori sanitasi hidrolik John Snow dan pembangunan saluran air minum bawah tanah"
+      },
+      "description": {
+        "id": "Perang Aliansi Tiga berakhir dengan kehancuran total negara Paraguay, namun catatan sejarah medis mencatat bahwa peluru dan bayonet membunuh jauh lebih sedikit manusia dibandingkan dengan Vibrio cholerae. Lebih dari 60.000 tentara dan warga sipil tewas akibat kolera di Argentina, Brasil, Uruguay, dan Paraguay antara tahun 1867 dan 1869. Tragedi ganda perang dan kolera (yang disusul oleh wabah demam kuning 1871) memaksa para pemimpin Argentina untuk melakukan revolusi infrastruktur. Presiden Domingo Faustino Sarmiento menunjuk insinyur Inggris John F. Bateman untuk merancang sistem air bersih dan terowongan saluran pembuangan modern pertama di Buenos Aires. Pelajaran berdarah dari rawa-rawa Humaitá dan pemukiman kumuh San Telmo akhirnya melahirkan era modern kesehatan masyarakat di kawasan Kerucut Selatan.",
+        "en": "The War of the Triple Alliance culminated in the near-total demographic annihilation of the Paraguayan nation, yet historical medical records reveal that bullets and bayonets slew far fewer humans than Vibrio cholerae. More than 60,000 soldiers and civilians succumbed to cholera across Argentina, Brazil, Uruguay, and Paraguay between 1867 and 1869. The compound horrors of war and cholera (followed closely by the catastrophic yellow fever outbreak of 1871) forced Argentine political leadership into a transformative infrastructure revolution. President Domingo Faustino Sarmiento commissioned renowned British engineer John F. Bateman to design Buenos Aires' first modern underground waterworks and collector sewer system. The blood-bought lessons of Humaitá's swamps and San Telmo's conventillos inaugurated the modern era of public hygiene across the Southern Cone."
+      },
+      "image": "/assets/images/cholera/wave-4/sam/sam_ch_12.jpg"
+    }
+  ]
+}
