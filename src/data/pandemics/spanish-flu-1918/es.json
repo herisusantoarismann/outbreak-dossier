@@ -4,7 +4,10 @@
         "id": "Sektor ES (Spanyol: Madrid, Infeksi Raja Alfonso XIII, & Lahirnya Julukan 'Flu Spanyol' // 1918–1919)",
         "en": "Sector ES (Spain: Madrid, King Alfonso XIII's Infection, & Birth of the 'Spanish Flu' Moniker // 1918–1919)"
     },
-    "coordinates": [40.4168, -3.7038],
+    "coordinates": [
+        40.4168,
+        -3.7038
+    ],
     "timeRange": "Mei 1918 – Awal 1920",
     "estimatedFatalities": "260.000+ jiwa (≈ 1,2% Total Populasi Kerajaan Spanyol)",
     "chapters": [
@@ -169,8 +172,48 @@
             "image": "/assets/images/spanish-flu-1918/es/es_ch_04.jpg"
         },
         {
-            "id": "es-ch-05",
+            "type": "standard",
+            "title": {
+                "id": "Pelabuhan Valencia & Vektor Maritim Mediterania: Penetrasi Levant Spanyol",
+                "en": "The Port of Valencia & The Mediterranean Maritime Vector: Virulent Ingress to the Spanish Levant"
+            },
+            "date": {
+                "id": "September – Oktober 1918",
+                "en": "September – October 1918"
+            },
+            "flash": {
+                "id": "KAPAL DAGANG DAN ARMADA NELAYAN MEMBAWA GELOMBANG KEDUA KE PELABUHAN VALENCIA DAN ALICANTE; LAZARETTO PESISIR DIPENUHI PELAUT BERWAJAH BIRU.",
+                "en": "MERCHANTMEN AND FISHING FLOTILLAS DELIVER THE SAVAGE SECOND WAVE TO VALENCIA AND ALICANTE; COASTAL LAZARETTOS COLLAPSE UNDER BLUE-LIPPED SAILORS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Vektor Maritim Levant Mediterania)",
+                "vector": "Kapal uap barang pesisir, perahu nelayan pukat, dan stasiun kereta barang Grao",
+                "incubation": "24 – 36 Jam",
+                "transmission": "Kontak erat awak kapal di palka sempit dan bongkar muat jeruk di pelabuhan",
+                "mutationType": {
+                    "id": "Introduksi Galur Mematikan dari Rute Pelayaran Afrika Utara dan Prancis Selatan",
+                    "en": "Introduction of Lethal Phenotype via North African and Southern French Sea Lanes"
+                },
+                "threatLevel": {
+                    "id": "Tinggi (Kelumpuhan Ekspor Pertanian dan Karantina Maritim)",
+                    "en": "High (Paralysis of Agrarian Citrus Exports and Coastal Quarantine Failure)"
+                },
+                "clinicalTarget": {
+                    "id": "Buruh pelabuhan Grao, pelaut pedagang, dan buruh pemetik jeruk di huerta Valencia",
+                    "en": "Grao stevedores, coastal merchant seamen, and citrus orchard pickers of the huerta"
+                }
+            },
+            "description": {
+                "id": "Saat musim gugur 1918 tiba, virus influenza bermutasi menjadi pembunuh ganas yang menghantam pesisir timur Spanyol melalui pelabuhan Valencia, Alicante, dan Cartagena. Kapal-kapal dagang yang berlayar dari Marseille dan pelabuhan Afrika Utara merapat dengan awak yang sekarat di atas geladak. Lazaretto karantina pesisir langsung kewalahan menampung ratusan pelaut berwajah lebam kebiruan. Dari dermaga Grao, infeksi merambat cepat ke pedalaman huerta—kawasan perkebunan jeruk yang subur. Ribuan pemetik buah jeruk jatuh sakit di tengah musim panen raya, membiarkan buah-buah emas membusuk di dahan-dahan pohon, sementara gerbong-gerbong kereta api yang seharusnya mengangkut komoditas pangan berubah fungsi menjadi pengangkut peti mati darurat menuju kuburan massal di luar batas kota.",
+                "en": "As autumn 1918 descended, the mutated, highly lethal strain struck Spain's Mediterranean flank through the bustling maritime hubs of Valencia, Alicante, and Cartagena. Merchant freighters arriving from Marseille and North African ports pulled alongside the quays with dead sailors lying on the hatch covers. The port lazarettos were overwhelmed within days by delirious crewmen exhibiting terminal cyanosis. From the docks of Grao, the contagion sprinted inland across the fertile citrus plains of the *huerta*. Tens of thousands of agricultural workers collapsed during peak harvest, leaving golden oranges to rot upon the boughs, while freight cars designated for agrarian commerce were hastily requisitioned to haul stacks of plain pine coffins to newly dug trench graves outside the city."
+            },
             "chapterNumber": 5,
+            "id": "es-ch-05",
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_05.jpg"
+        },
+        {
+            "id": "es-ch-06",
+            "chapterNumber": 6,
             "type": "milestone",
             "title": {
                 "id": "Tragedi Zamora: Doa Novena Uskup & Tingkat Kematian Tertinggi Eropa",
@@ -206,11 +249,11 @@
                 "id": "Salah satu tragedi epidemiologis paling mencengangkan di Eropa terjadi di kota kuno Zamora, barat laut Spanyol. Ketika gelombang kedua yang mematikan tiba pada September 1918, otoritas sipil memerintahkan penutupan gereja dan larangan kerumunan. Namun Uskup Zamora, Antonio Álvaro y Ballano, secara terbuka membangkang dan mengecam para dokter: 'Murka Tuhan tidak dapat diatasi dengan menutup gereja, melainkan dengan bersujud memohon ampun!'. Sang Uskup memerintahkan novena sembilan hari berturut-turut di katedral yang penuh sesak, di mana ribuan jemaat antre berdesakan untuk mencium relikui Santo Rocco, pelindung wabah. Hasilnya mengerikan: Zamora mencatat angka kematian tertinggi di seluruh Eropa, dengan lebih dari 10% penduduk kotanya tewas dalam tempo sebulan; lonceng kematian berdentang siang malam hingga sang uskup sendiri terpaksa memohon penghentian peribadatan.",
                 "en": "Among the most harrowing epidemiological debacles in European history unfolded in the historic cathedral city of Zamora in northwestern Spain. When the ferocious second wave struck in September 1918, civil health inspectors ordered the closure of churches and ban on assemblies. The ultra-conservative Bishop of Zamora, Antonio Álvaro y Ballano, vehemently defied secular authorities, thundering: 'God's wrath cannot be placated by closing churches, but by fell repentance before the altar!'. The Bishop decreed a nine-day solemn novena inside the packed, unventilated cathedral, where thousands filed forward to press their lips against the wooden relic of Saint Roch, patron against plagues. The consequence was catastrophic: Zamora suffered the highest per-capita mortality spike in all of Europe, losing 10.1% of its entire population within five weeks until church bells cracked from round-the-clock death knells."
             },
-            "image": "/assets/images/spanish-flu-1918/es/es_ch_05.jpg"
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_06.jpg"
         },
         {
-            "id": "es-ch-06",
-            "chapterNumber": 6,
+            "id": "es-ch-07",
+            "chapterNumber": 7,
             "type": "standard",
             "title": {
                 "id": "Karantina Pelabuhan & Pabrik Tekstil Barcelona",
@@ -246,11 +289,51 @@
                 "id": "Di Barcelona, pusat industri dan pelabuhan tersibuk Spanyol, gelombang kedua menghantam dengan kekuatan melumpuhkan pada Oktober 1918. Di distrik pabrik Sants dan Poblenou, ribuan buruh tekstil perempuan yang menderita penyakit paru akibat debu kapas (*byssinosis*) langsung ambruk dengan komplikasi pneumonia hemoragik. Serikat pekerja anarko-sindikalis CNT menggelar aksi mogok menuntut penutupan pabrik demi keselamatan buruh. Dewan Kota Barcelona terpaksa mengibarkan bendera kuning karantina di pelabuhan, melarang kapal dagang merapat, dan menyita seluruh bangunan sekolah untuk dijadikan rumah sakit darurat di bawah penjagaan pasukan garda sipil bersenjata.",
                 "en": "In Barcelona, Spain's preeminent manufacturing metropolis and maritime gateway, the second wave struck with devastating economic violence in October 1918. Across the mill districts of Sants and Poblenou, thousands of textile workers whose respiratory systems were pre-damaged by cotton dust inhalation (*byssinosis*) succumbed immediately to acute hemorrhagic pneumonia. The powerful CNT anarcho-syndicalist union mobilized wildcat strikes, demanding industrial shutdowns to save workers' lives. The City Council was forced to hoist the yellow quarantine flag across Barcelona harbor, barring incoming shipping, while armed Civil Guards patrolled public schools expropriated as fever lazarettos."
             },
-            "image": "/assets/images/spanish-flu-1918/es/es_ch_06.jpg"
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_07.jpg"
         },
         {
-            "id": "es-ch-07",
-            "chapterNumber": 7,
+            "type": "side_story",
+            "title": {
+                "id": "Persaudaraan Belas Kasih Sevilla: Menggotong Keranda di Bawah Terik Andalusia",
+                "en": "The Confraternities of Mercy in Seville: Bearing the Dead Beneath the Andalusian Sun"
+            },
+            "date": {
+                "id": "Oktober 1918",
+                "en": "October 1918"
+            },
+            "flash": {
+                "id": "KETIKA KUSIR KERETA JENAZAH DAN PENGGALI KUBUR SEVILLA MENINGGAL, PERSAUDARAAN KEAGAMAAN MENGARAK RATUSAN PETI MATI DENGAN KERANDA KAYU SEDERHANA.",
+                "en": "AS SEVILLIAN HEARSE DRIVERS AND SEXTONS EXPIRE, RELIGIOUS CONFRATERNITIES SHOULDER BARE WOODEN BIERS THROUGH NARROW COBBLESTONE ALLEYS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Krisis Layanan Pemakaman Andalusia)",
+                "vector": "Prosesi keranda jenazah dan perhimpunan persaudaraan Katolik di gang-gang sempit",
+                "incubation": "24 Jam",
+                "transmission": "Paparan droplet saat memandikan jenazah korban dan mengusung keranda bersama-sama",
+                "mutationType": {
+                    "id": "Kolaps Infrastruktur Sanitasi Perkotaan di Wilayah Selatan Spanyol",
+                    "en": "Collapse of Urban Mortuary Infrastructure in Southern Spain"
+                },
+                "threatLevel": {
+                    "id": "Kritis Sosial (Mobilisasi Relawan Sipil-Religius Menggantikan Aparat Pemakaman)",
+                    "en": "Social Critical (Religious Volunteer Mobilization Replacing Decimated City Undertakers)"
+                },
+                "clinicalTarget": {
+                    "id": "Anggota persaudaraan (cofradías), pemuda relawan, dan keluarga miskin di distrik Triana",
+                    "en": "Brotherhood penitents (cofrades), volunteer youths, and working-class families of Triana"
+                }
+            },
+            "description": {
+                "id": "Di Sevilla dan kota-kota Andalusia lainnya, terik matahari musim gugur berpadu dengan kengerian wabah yang melumpuhkan seluruh aparatur pemakaman. Para penggali kubur resmi di Pemakaman San Fernando tewas atau melarikan diri karena dicekam teror. Menghadapi ratusan jenazah yang menumpuk di rumah-rumah petak kawasan miskin Triana dan Macarena, persaudaraan keagamaan kuno (*cofradías*) bangkit mengorganisasi evakuasi jenazah. Para pria muda mengenakan kain penutup wajah sederhana, memikul keranda-keranda kayu kasar di pundak mereka, dan berbaris dalam keheningan total melintasi gang-gang berbatu sempit. Tindakan pengorbanan ini menyelamatkan kota dari ancaman krisis pembusukan jenazah, namun dibayar mahal dengan gugurnya puluhan pemuda anggota persaudaraan yang tertular saat menjalankan tugas suci mereka.",
+                "en": "In Seville and across the Andalusian basin, unseasonal autumn heat accelerated the decomposition of corpses as municipal burial services collapsed entirely. At the vast Cementerio de San Fernando, municipal gravediggers perished or fled into the countryside in sheer terror. With hundreds of decomposing bodies trapped in the sweltering tenements of Triana and Macarena, ancient religious brotherhoods (*cofradías*) stepped into the breach. Young lay penitents donned simple linen masks, hoisted raw pine coffins onto their shoulders, and filed solemnly down cobblestone alleys singing whispered psalms. This heroic civilian mobilization prevented epidemic typhus from igniting alongside the flu, but exacted a grievous toll: scores of young brotherhood bearers contracted acute pneumonia and perished within days of their processions."
+            },
+            "chapterNumber": 8,
+            "id": "es-ch-08",
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_08.jpg"
+        },
+        {
+            "id": "es-ch-09",
+            "chapterNumber": 9,
             "type": "side_story",
             "title": {
                 "id": "Perdebatan Akademi Kedokteran: Basil Pfeiffer atau 'Virus Tersaring'?",
@@ -286,11 +369,11 @@
                 "id": "Di Real Academia Nacional de Medicina di Madrid, para dokter terpandang Spanyol dipimpin oleh mantan menteri Dr. Amalio Gimeno berdebat sengit mengenai hakikat sejati penyakit maut ini. Sebagian besar bakteriolog bersikeras bahwa penyakit ini disebabkan oleh basil influenza Pfeiffer (*Haemophilus influenzae*), sehingga mereka membuat vaksin dari kultur bakteri mati yang sama sekali tidak efektif melawan virus RNA. Beberapa ilmuwan visioner menduga adanya 'virus tersaring' (*virus filtrable*)—agen tak kasatmata yang mampu menembus pori-pori keramik filter Chamberland. Ketidakmampuan teknologi kedokteran saat itu melihat partikel virus berukuran nanometer membuat para dokter Spanyol merasa bertarung melawan musuh tak kasat mata dengan mata tertutup.",
                 "en": "Within the august halls of the Real Academia Nacional de Medicina in Madrid, Spain's foremost physicians, presided over by former cabinet minister Dr. Amalio Gimeno, engaged in impassioned intellectual combat regarding the true etiology of the epidemic. Orthodox bacteriologists insisted the culprit was Pfeiffer's bacillus (*Haemophilus influenzae*), manufacturing worthless bacterial bacterins that offered zero protection against an RNA virus. A minority of prescient researchers posited an ultra-microscopic 'filterable virus' capable of slipping through fine-grain Chamberland porcelain filters. Lacking electron microscopes to visualize nanometer-scale viral capsids, Spanish medicine fought an invisible phantom in absolute intellectual darkness."
             },
-            "image": "/assets/images/spanish-flu-1918/es/es_ch_07.jpg"
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_09.jpg"
         },
         {
-            "id": "es-ch-08",
-            "chapterNumber": 8,
+            "id": "es-ch-10",
+            "chapterNumber": 10,
             "type": "standard",
             "title": {
                 "id": "Kehancuran Pedesaan: Ladang Zaitun & Gandum Terbengkalai",
@@ -326,11 +409,51 @@
                 "id": "Di wilayah pedesaan Andalusia dan Extremadura, dampak pandemi berubah menjadi bencana kelaparan. Ribuan buruh tani harian (*jornaleros*) yang hidup dalam kemiskinan ekstrem tumbang di gubuk-gubuk tanah mereka tanpa pernah dikunjungi dokter. Musim panen zaitun dan gandum musim gugur 1918 terbengkalai; buah zaitun berjatuhan membusuk di tanah karena tidak ada lagi tenaga pemetik yang hidup atau mampu berdiri. Di desa-desa terpencil seperti di pegunungan Sierra Morena, seluruh keluarga ditemukan tewas di atas kasur jerami mereka berhari-hari setelah meninggal, meninggalkan ternak kelaparan mengembara di jalan-jalan desa yang sunyi senyap.",
                 "en": "Across the sun-baked agrarian landscapes of Andalusia and Extremadura, the contagion catalyzed severe famine. Tens of thousands of impoverished rural day laborers (*jornaleros*) collapsed in whitewashed clay shanties without laying eyes on a doctor. The vital autumn 1918 olive and grain harvests collapsed completely; unpicked fruit fell and rotted into black sludge because no healthy laborers remained to climb the ladders. In mountain pueblos of the Sierra Morena, entire peasant families were discovered dead upon straw pallets days after suffocating, their starving goats and mules roaming through dead, silent streets."
             },
-            "image": "/assets/images/spanish-flu-1918/es/es_ch_08.jpg"
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_10.jpg"
         },
         {
-            "id": "es-ch-09",
-            "chapterNumber": 9,
+            "type": "side_story",
+            "title": {
+                "id": "Para Martir Medis Pedesaan: Gugurnya Dokter Desa di Garis Depan Castile",
+                "en": "The Rural Medical Martyrs: Death of Country Doctors Across the Castilian Steppe"
+            },
+            "date": {
+                "id": "Oktober – November 1918",
+                "en": "October – November 1918"
+            },
+            "flash": {
+                "id": "PULUHAN DOKTER DESA (*MÉDICOS TITULARES*) MENINGGAL AKIBAT KELELAHAN EKSTREM DAN INFEKSI SETELAH MENUNGGANG KELEDAI SIANG MALAM MERAWAT WARGA DUSUN TERPENCIL.",
+                "en": "DOZENS OF RURAL TITULAR PHYSICIANS DIE OF SHEER EXHAUSTION AND CYANOSIS AFTER RIDING MULES ACROSS REMOTE PLATEAUS TO ATTEND SICK PEASANTS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Kematian Tenaga Medis Garis Depan Pedesaan)",
+                "vector": "Kunjungan rumah ke rumah di dusun-dusun terisolasi dataran tinggi Meseta",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Kontak langsung terus-menerus dengan pasien demam tanpa alat pelindung diri",
+                "mutationType": {
+                    "id": "Kehancuran Garis Pertahanan Pertama Kesehatan Masyarakat Pedesaan",
+                    "en": "Annihilation of Primary Rural Healthcare Practitioner Infrastructure"
+                },
+                "threatLevel": {
+                    "id": "Kritis Pelayanan (Banyak Desa Sama Sekali Kehilangan Akses Medis)",
+                    "en": "Service Critical (Entire Rural Pueblos Left Without Any Professional Medical Care)"
+                },
+                "clinicalTarget": {
+                    "id": "Dokter desa (*médicos titulares*), praktisi pengobatan lokal, dan perawat komunitas",
+                    "en": "Rural titular village doctors (*médicos titulares*), local apothecaries, and community nurses"
+                }
+            },
+            "description": {
+                "id": "Di dataran tinggi Castile yang gersang dan pegunungan terpencil Galicia, dokter-dokter desa yang dikenal sebagai *médicos titulares* menjadi pahlawan yang terlupakan dalam tragedi flu 1918. Menghadapi desa-desa berpenduduk ribuan jiwa dengan jarak puluhan kilometer tanpa jalan beraspal, seorang dokter harus menunggang keledai atau kuda siang dan malam melintasi angin dingin pegunungan. Tanpa masker kasa, tanpa sarung tangan karet, dan hanya bersenjatakan larutan kina serta minyak kamper, mereka merawat ratusan pasien setiap hari di kamar-kamar tidur yang gelap dan pengap. Kelelahan ekstrem merusak sistem imun mereka; *Colegio Oficial de Médicos* mencatat lebih dari 150 dokter pedesaan gugur dalam hitungan pekan, sering kali roboh dan menghembuskan napas terakhir di atas punggung pelana saat menempuh perjalanan menuju pasien berikutnya.",
+                "en": "Across the arid windswept plateaus of Old Castile and the roadless gorges of Galicia, municipal country physicians—designated *médicos titulares*—served as forgotten front-line martyrs of the 1918 holocaust. Responsible for scattered poblaciones spanning dozens of square leagues, a single doctor had to ride mules through sub-zero mountain winds day and night to answer frantic sick calls. Equipped with neither surgical masks nor rubber gloves, possessing only useless quinine tablets and camphor drops, these practitioners tended hundreds of suffocating villagers in drafty stone cottages. Exhaustion annihilated their defenses. The Spanish Royal College of Physicians documented over 150 country doctors who perished within eight weeks, many collapsing directly from their saddles onto rocky tracks while riding toward yet another dying household."
+            },
+            "chapterNumber": 11,
+            "id": "es-ch-11",
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_11.jpg"
+        },
+        {
+            "id": "es-ch-12",
+            "chapterNumber": 12,
             "type": "side_story",
             "title": {
                 "id": "Membisukan Lonceng Kematian: Dekrit Larangan 'Toque de Difuntos'",
@@ -366,11 +489,11 @@
                 "id": "Di Spanyol, dentang lonceng kematian gereja (*toque de difuntos*) adalah tradisi sakral untuk mengiringi kepergian arwah orang yang meninggal. Namun pada puncak gelombang kedua musim gugur 1918, dentang lonceng gereja bergema tanpa henti dari pagi hingga fajar berikutnya di Madrid, Valencia, dan Sevilla, mengingatkan warga setiap lima menit bahwa ada tetangga mereka yang baru saja menghembuskan napas terakhir. Suara duka konstan ini menciptakan depresi psikologis massal dan histeria histeris di kalangan pasien demam. Gubernur Sipil di berbagai provinsi akhirnya mengeluarkan dekrit keras yang melarang seluruh gereja membunyikan lonceng kematian di bawah ancaman denda berat, menyelimuti kota-kota Spanyol dalam keheningan total yang mencekam.",
                 "en": "In Spain, the rhythmic clanging of church bells for the departed (*toque de difuntos*) was a sacred custom etched into everyday life. But during the cataclysmic peak of autumn 1918, church belfries in Madrid, Valencia, and Seville tolled incessantly from dawn to twilight and deep into the night, reminding citizens every few minutes that another neighbor had ceased to breathe. This persistent acoustic terror drove the fever-wracked populace into acute nervous hysteria and suicidal despair. Provincial civil governors finally intervened with emergency edicts strictly forbidding the tolling of funeral bells under pain of heavy fines, cloaking Spanish cities in an eerie, deathly quiet."
             },
-            "image": "/assets/images/spanish-flu-1918/es/es_ch_09.jpg"
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_12.jpg"
         },
         {
-            "id": "es-ch-10",
-            "chapterNumber": 10,
+            "id": "es-ch-13",
+            "chapterNumber": 13,
             "type": "standard",
             "title": {
                 "id": "Gelombang Ketiga di Pesisir Utara: Negeri Basque & Galicia",
@@ -406,11 +529,11 @@
                 "id": "Ketika wilayah tengah Spanyol mulai bernapas lega pada awal 1919, gelombang ketiga menghantam pesisir utara beriklim basah di Negeri Basque dan Galicia. Angin dingin Atlantik dan hujan musim dingin yang tak kunjung reda memaksa penduduk berkerumun di dalam rumah-rumah batu berdinding lembap. Di pelabuhan-pelabuhan nelayan seperti Vigo, La Coruña, dan Bermeo, para nelayan yang melaut di perairan dingin Teluk Biskaya tertular di atas kapal kayu sempit mereka. Banyak perahu kembali ke dermaga dengan nakhoda dan awaknya terbaring kaku kedinginan di lantai palka, membuktikan bahwa bahkan setelah mereda di kota-kota besar, virus ini terus memburu kantong-kantong populasi terpencil hingga musim panas 1919.",
                 "en": "Just as central Spain breathed a tentative sigh of relief in early 1919, a bitter third wave struck the rain-drenched northern Atlantic rim of the Basque Country and Galicia. Relentless gales and damp winter cold drove families indoors around smoking hearths in poorly ventilated stone cottages. In maritime fishing outposts like Vigo, La Coruña, and Bermeo, sardine crews fishing the icy waters of the Bay of Biscay fell violently ill at sea. Several vessels drifted back into port with captains and deckhands lying frozen and cyanotic on deckboards, demonstrating that even as the storm waned in Madrid, the pathogen continued to reap isolated maritime enclaves well into 1919."
             },
-            "image": "/assets/images/spanish-flu-1918/es/es_ch_10.jpg"
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_13.jpg"
         },
         {
-            "id": "es-ch-11",
-            "chapterNumber": 11,
+            "id": "es-ch-14",
+            "chapterNumber": 14,
             "type": "summary",
             "title": {
                 "id": "Audit Epidemiologis Spanyol: 260.000 Jiwa & Paradoks Sebuah Nama",
@@ -446,7 +569,7 @@
                 "id": "Pandemi 1918 merenggut lebih dari 260.000 nyawa di Spanyol, atau sekitar 1,2% dari total populasi semenanjung tersebut—angka kematian per kapita yang jauh lebih tinggi daripada rata-rata korban di Amerika Serikat atau Prancis. Pertumbuhan populasi alami Spanyol mengalami angka negatif pada tahun 1918 untuk pertama kalinya dalam sejarah pencatatan sipil. Namun paradoks terbesar dari tragedi ini adalah cap historis yang abadi: karena menjadi satu-satunya negara besar Eropa yang tidak menyensor pers dan secara jujur memberitahukan kebenaran wabah kepada dunia, Spanyol justru 'dihukum' dengan menyematkan namanya pada pandemi paling mematikan dalam sejarah modern peradaban manusia. Warisan ini menjadi pelajaran abadi tentang bagaimana kejujuran ilmiah dan jurnalisme sering kali terdistorsi oleh propaganda politik masa perang.",
                 "en": "The 1918 pandemic extinguished over 260,000 lives across Spain, representing approximately 1.2% of the nation's total population—a per-capita mortality burden significantly heavier than that suffered by the United States or Great Britain. Spain's net population growth turned negative in 1918 for the first time in modern demographic record-keeping. Yet the supreme historic paradox remains its perpetual branding: because Spain was the sole European power that refused to muzzle its press, truthfully sounding the alarm to a warring planet, it was indelibly punished by having its national identity forever affixed to the deadliest plague in modern human memory. This legacy endures as a profound historical cautionary tale: how scientific transparency and journalistic candor can be weaponized by wartime geopolitical propaganda."
             },
-            "image": "/assets/images/spanish-flu-1918/es/es_ch_11.jpg"
+            "image": "/assets/images/spanish-flu-1918/es/es_ch_14.jpg"
         }
     ]
 }
