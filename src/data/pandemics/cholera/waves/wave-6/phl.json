@@ -1,0 +1,536 @@
+{
+  "sectorId": "PHL",
+  "waveIndex": 6,
+  "sectorName": {
+    "id": "Sektor PHL (Kepulauan Filipina: Manila, Kebakaran Farola, Sungai Pasig, & Transisi Kolonial Amerika // 1902–1904)",
+    "en": "Sector PHL (Philippine Islands: Manila, Farola Inferno, Pasig River, & American Colonial Transition // 1902–1904)"
+  },
+  "coordinates": [
+    14.5995,
+    120.9842
+  ],
+  "timeRange": "1902–1904",
+  "estimatedFatalities": "100.000–200.000+ jiwa (Luzon, Manila, Kepulauan Visayas, Cebu, Iloilo, & Panay)",
+  "chapters": [
+    {
+      "id": "phl-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Pendaratan Kapal Uap SS Diamante & Jebolnya Karantina Teluk Manila",
+        "en": "Landing of Steamship SS Diamante & Breach of Manila Bay Quarantine"
+      },
+      "date": {
+        "id": "Awal Maret 1902",
+        "en": "Early March 1902"
+      },
+      "flash": {
+        "id": "KAPAL UAP SS DIAMANTE DARI KANTON MEMBAWA SAYURAN SAWI TERCEMAR KE MANILA; BENDERA KARANTINA GAGAL MENGHENTIKAN PENYELUNDUPAN MAKANAN.",
+        "en": "STEAMSHIP SS DIAMANTE FROM CANTON TRANSPORTS TAINTED CABBAGE TO MANILA; QUARANTINE FLAGS FAIL TO HALT SMUGGLED CARGO."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik O1",
+        "vector": "Sayuran sawi segar dan perahu tongkang (cascos) Sungai Pasig",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Fekal-oral melalui penyelundupan sayuran mentah dari kapal karantina ke pasar Tondo",
+        "mutationType": {
+          "id": "Penetrasi Maritim Jalur Dagang Laut Cina Selatan ke Pintu Gerbang Pasifik",
+          "en": "South China Sea Maritime Trade Route Ingress into Pacific Gateway"
+        },
+        "threatLevel": {
+          "id": "Kritis (Penyusupan ke Populasi yang Rentan Pasca-Perang Filipina-Amerika)",
+          "en": "Critical (Breach into Vulnerable Post-Philippine-American War Populace)"
+        },
+        "clinicalTarget": {
+          "id": "Buruh bongkar muat dok Manila, pedagang pasar Tondo, dan pelaut perahu casco",
+          "en": "Manila stevedores, Tondo market vendors, and casco barge boatmen"
+        }
+      },
+      "description": {
+        "id": "Pada tanggal 3 Maret 1902, kapal uap dagang Inggris SS Diamante tiba di Teluk Manila setelah berlayar dari Kanton dan Hong Kong, tempat kolera Asia tengah berkecamuk. Meskipun Stasiun Karantina Mariveles milik Angkatan Darat Amerika Serikat melarang pendaratan komoditas segar, sejumlah peti sayuran sawi hijau dan kubis yang disiram air kotoran manusia di Tiongkok diam-diam diselundupkan di malam hari menggunakan perahu kayu kecil (banca). Sayuran tersebut mendarat di pasar basah distrik Tondo. Dalam waktu kurang dari dua pekan, para kuli pelabuhan dan keluarga pembuat perahu tongkang (cascos) di muara Sungai Pasig mulai tumbang dengan diare cair akut dan dehidrasi sianotik, menandai pecahnya salah satu epidemi paling mematikan dalam sejarah kepulauan Pasifik.",
+        "en": "On March 3, 1902, the British merchant steamer SS Diamante steamed into Manila Bay from Canton and Hong Kong, where Asiatic cholera was raging. Although the US Army Maritime Quarantine Station at Mariveles prohibited the discharge of perishable produce, crates of raw Chinese cabbage and greens—fertilized with human nightsoil in Guangdong—were illicitly offloaded at midnight aboard native timber canoes ('bancas'). The contraband reached the crowded wet markets of Tondo. Within a fortnight, stevedores and barge boatmen inhabiting cascos at the mouth of the Pasig River collapsed in violent purging and cyanotic collapse, detonating one of the deadliest epidemics in Pacific colonial history."
+      },
+      "image": "/assets/images/cholera/wave-6/phl/phl_ch_01.jpg"
+    },
+    {
+      "id": "phl-ch-02",
+      "chapterNumber": 2,
+      "type": "milestone",
+      "title": {
+        "id": "Titik Nol Distrik Farola: Kebakaran Sanitasi & Eksodus Nipa",
+        "en": "Ground Zero at Farola District: The Sanitary Arson & Nipa Exodus"
+      },
+      "date": {
+        "id": "20–28 Maret 1902",
+        "en": "March 20–28, 1902"
+      },
+      "flash": {
+        "id": "DEWAN KESEHATAN MILITER AS MEMBAKAR HANGUS RATUSAN GUBUK NIPA DI DISTRIK FAROLA UNTUK MEMBASMI WABAH; 2.500 WARGA PRIBUMI KEHILANGAN TEMPAT TINGGAL.",
+        "en": "US MILITARY HEALTH BOARD RAZES HUNDREDS OF NIPA HUTS IN FAROLA SLUMS; 2,500 FILIPINO CIVILIANS BURNED OUT OF HOMES."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Gubuk bambu-nipa lembap tanpa jamban di delta lumpur pasang-surut Farola",
+        "incubation": "8 – 24 Jam",
+        "transmission": "Penyebaran masif di permukiman padat kumuh dengan air tanah payau terkontaminasi",
+        "mutationType": {
+          "id": "Pemusnahan Api Radikal dan Dislokasi Populasi Komunal Terinfeksi",
+          "en": "Radical Fire Destruction & Infected Communal Population Dislocation"
+        },
+        "threatLevel": {
+          "id": "Sangat Kritis (Tindakan Represif Militeristik Membakar Kemarahan Warga Pribumi)",
+          "en": "Extremely Critical (Militarized Sanitary Coercion Fueling Anti-Colonial Backlash)"
+        },
+        "clinicalTarget": {
+          "id": "Keluarga nelayan Farola, buruh palka Tagalog, dan kaum miskin perkotaan Manila",
+          "en": "Farola fishing clans, Tagalog lightermen, and Manila urban destitute"
+        }
+      },
+      "description": {
+        "id": "Titik ledakan pertama teridentifikasi di Farola, permukiman gubuk nipa yang sangat padat di dekat mercusuar muara Sungai Pasig. Dipimpin oleh Mayor Louis Mervin Maus dan Komisaris Dean C. Worcester, Dewan Kesehatan Militer AS mengambil tindakan represif yang brutal. Setelah mengungsikan paksa ribuan penghuni ke tenda karantina darurat, serdadu Amerika menyiram minyak tanah ke ratusan gubuk bambu dan menyulutnya hingga hangus terbakar menjadi abu demi 'membakar sarang kuman'. Meskipun otoritas militer memberikan kompensasi uang kecil, tindakan bumi hangus ini memicu trauma dan kemarahan mendalam di kalangan penduduk Filipina yang baru saja ditundukkan dalam Perang Filipina-Amerika, memicu ketidakpercayaan masif terhadap seluruh program sanitasi penjajah.",
+        "en": "Ground zero was identified at Farola, a claustrophobic squatter colony of thatched nipa huts hugging the lighthouse at the Pasig estuary. Commanded by Major Louis Mervin Maus and Commissioner Dean C. Worcester, the US Military Board of Health executed drastic martial measures. After forcibly cordoning thousands of Tagalog inhabitants into emergency tent compounds, American infantry drenched hundreds of bamboo shacks in kerosene and burned the entire district to ashes to 'cauterize the microbial seedbed.' While modest financial compensation was tendered, this scorched-earth intervention ignited bitter fury among Filipinos recently subjugated in the Philippine-American War, crippling trust in colonial medicine."
+      },
+      "image": "/assets/images/cholera/wave-6/phl/phl_ch_02.jpg"
+    },
+    {
+      "id": "phl-ch-03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Vektor Sungai Pasig: Labirin Estero, Perahu Casco, & Air Baku Carriedo",
+        "en": "The Pasig River Vector: Estero Maze, Casco Houseboats, & Carriedo Water"
+      },
+      "date": {
+        "id": "April 1902",
+        "en": "April 1902"
+      },
+      "flash": {
+        "id": "SUNGAI PASIG DAN 30 KANAL ESTERO MENJADI JALUR UTAMA PENULARAN; 15.000 WARGA PERAHU CASCO MEMBUANG DAN MEMINUM AIR DARI SUNGAI YANG SAMA.",
+        "en": "THE PASIG RIVER AND 30 ESTERO CANALS BECOME CHOLERA HIGHWAYS; 15,000 CASCO BOAT DWELLERS DRINK FROM FOUL WATERS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Air Sungai Pasig pasang surut, kanal estero kota, dan armada perahu casco",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Fekal-oral melalui buang air besar langsung ke sungai dari buritan perahu dan konsumsi air yang sama",
+        "mutationType": {
+          "id": "Transmisi Hidrologis Kanal Estero dan Komunitas Mengapung Perahu Casco",
+          "en": "Estero Canal Hydrological Transmission & Floating Casco Community Vector"
+        },
+        "threatLevel": {
+          "id": "Maksimal (Penyebaran Cepat Menembus Setiap Distrik Kota Manila)",
+          "en": "Maximum (Rapid Dispersal Piercing Every Urban District of Manila)"
+        },
+        "clinicalTarget": {
+          "id": "Keluarga pengemudi perahu casco, pencuci pakaian di estero, dan pemukim tepi air",
+          "en": "Casco boat dwellers, estero washerwomen, and waterfront tenement settlers"
+        }
+      },
+      "description": {
+        "id": "Manila adalah kota air yang dibelah oleh Sungai Pasig dan terhubung oleh labirin lebih dari 30 kanal alami yang disebut 'esteros'. Di sepanjang perairan ini hidup lebih dari 15.000 jiwa di atas perahu kayu beratap melengkung yang dikenal sebagai 'cascos'. Tanpa ada jamban darat, seluruh kotoran dibuang langsung ke air tempat anak-anak berenang dan ibu-ibu mencuci beras. Sistem air minum kota, Carriedo Waterworks, menyedot air dari Sungai Mariquina di San Mateo yang hulu sungainya dipenuhi kamp-kamp pedesaan yang terinfeksi. Petugas kesehatan Amerika terperangah mendapati bahwa air keran kota dan air kanal sama-sama positif mengandung basil koma, mengubah seluruh ibu kota kepulauan menjadi inkubator raksasa.",
+        "en": "Manila was an amphibious capital bisected by the tidal Pasig River and crisscrossed by a labyrinth of over thirty tidal canals designated 'esteros.' Over 15,000 people lived permanently aboard arched timber houseboats termed 'cascos.' Lacking terrestrial latrines, domestic nightsoil dropped directly into the sluggish currents where children bathed and vegetables were rinsed. Compounding the disaster, the municipal Carriedo waterworks pumped intake water from the Mariquina River at San Mateo, whose upper banks were lined with infected peasant hamlets. American sanitarians were horrified to discover both tap mains and estero currents swarming with comma vibriones, converting the entire archipelago capital into an active pathogen incubator."
+      },
+      "image": "/assets/images/cholera/wave-6/phl/phl_ch_03.jpg"
+    },
+    {
+      "id": "phl-ch-04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Barikade Militer & Patroli Bersenjata: Inspeksi Sanitasi Rumah ke Rumah",
+        "en": "Military Barricades & Armed Patrols: House-to-House Sanitary Raids"
+      },
+      "date": {
+        "id": "Mei 1902",
+        "en": "May 1902"
+      },
+      "flash": {
+        "id": "SERDADU AMERIKA BERSERAGAM KHAKI DENGAN BAYONET MENYISIR RUMAH PRIBUMI; MAYAT KORBAN KOLERA DILUMURI ASAM KARBOLAT DAN DIKUBUR DALAM KAPUR.",
+        "en": "KHAKI-UNIFORMED US TROOPS COMB HOMES WITH FIXED BAYONETS; CHOLERA CORPSES DRENCHED IN CARBOLIC ACID AND BURIED IN QUICKLIME."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kain pakaian basah kotoran, tikar tidur petate, dan lantai bambu rumah tinggal",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Disinfeksi paksa menggunakan semprotan asam karbolat 5% dan bubuk kapur klorida",
+        "mutationType": {
+          "id": "Pengawasan Biomedis Militeristik dan Desinfeksi Kimiawi Paksa",
+          "en": "Militarized Biomedical Surveillance & Forced Chemical Disinfection"
+        },
+        "threatLevel": {
+          "id": "Sangat Kritis (Penyembunyian Pasien Sakit Akibat Takut Ditangkap Polisi)",
+          "en": "Extremely Critical (Concealment of Victims Fueling Hidden Household Clusters)"
+        },
+        "clinicalTarget": {
+          "id": "Rumah tangga keluarga Tagalog, kontak erat penderita, dan jenazah korban",
+          "en": "Tagalog family households, close domestic contacts, and victim cadavers"
+        }
+      },
+      "description": {
+        "id": "Pemerintah Militer AS membagi Manila menjadi 12 distrik inspeksi kesehatan yang dipimpin oleh perwira medis tentara dengan pengawalan serdadu bersenjata senapan Krag-Jørgensen. Setiap pagi, patroli militer mendobrak pintu-pintu rumah warga pribumi untuk mencari orang sakit atau mayat yang disembunyikan. Jika ditemukan kasus kolera, pasien diseret paksa di atas tandu kanvas menuju Rumah Sakit San Lazaro, sementara perabotan, tikar tidur, dan pakaian penderita dibakar di halaman. Dinding dan lantai rumah disemprot larutan asam karbolat dan kapur tohor. Jenazah korban dibungkus kain kafan yang direndam bichloride of mercury dan dikubur dalam peti mati berkapur tebal tanpa upacara pemakaman tradisional Katolik, menimbulkan kepedihan spiritual yang luar biasa bagi keluarga yang berduka.",
+        "en": "The US Military Government carved Manila into twelve inspection quadrants commanded by army surgeons backed by squads bearing Krag-Jørgensen rifles. Each morning, armed patrols forced entry into native residences searching for concealed sick or unburied corpses. If a case was discovered, the victim was dragged away on canvas litters to the San Lazaro isolation compound, while bedding, sleeping mats ('petates'), and clothing were burned in the street. Walls and floors were saturated with 5% carbolic acid and quicklime. Deceased victims were wrapped in shrouds soaked in corrosive bichloride of mercury and buried in lime-filled trenches without traditional Catholic wakes, inflicting unbearable spiritual agony upon grieving families."
+      },
+      "image": "/assets/images/cholera/wave-6/phl/phl_ch_04.jpg"
+    },
+    {
+      "id": "phl-ch-05",
+      "chapterNumber": 5,
+      "type": "side_story",
+      "title": {
+        "id": "Pemberontakan Batin Rakyat: Mitos 'Dokter Racun' & Teror Rumah Sakit San Lazaro",
+        "en": "The Inward Rebellion: The 'Poison Doctor' Rumor & San Lazaro Terror"
+      },
+      "date": {
+        "id": "Juni 1902",
+        "en": "June 1902"
+      },
+      "flash": {
+        "id": "RUMOR MENYEBAR BAHWA DOKTER PENJAJAH SENGAJA MERACUNI SUMUR UNTUK MEMUSNAHKAN BANGSA FILIPINA; KELUARGA MENYEMBUNYIKAN PASIEN DI KOLONG RUMAH.",
+        "en": "RUMORS SPREAD THAT OCCUPIERS POISON WELLS TO EXTERMINATE FILIPINOS; FAMILIES CONCEAL DYING KIN BENEATH FLOORBOARDS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Penyembunyian penderita di bawah lantai panggung bambu dan sumur tersembunyi",
+        "incubation": "8 – 24 Jam",
+        "transmission": "Penularan intrafamilial rahasia akibat ketakutan terhadap isolasi militer di San Lazaro",
+        "mutationType": {
+          "id": "Resistensi Sosiopsikologis Klandestin Melawan Rezim Medis Kolonial",
+          "en": "Clandestine Sociopsychological Resistance Against Colonial Medical Regimes"
+        },
+        "threatLevel": {
+          "id": "Tinggi (Kematian Tersembunyi Tanpa Perawatan Medis Meningkat Tajam)",
+          "en": "High (Surging Hidden Household Mortality Beyond Official Notification)"
+        },
+        "clinicalTarget": {
+          "id": "Pasien kolera tersembunyi, kerabat yang merawat diam-diam, dan tabib tradisional (hilot)",
+          "en": "Concealed cholera patients, clandestine caregivers, and traditional healers (hilots)"
+        }
+      },
+      "description": {
+        "id": "Kekerasan sanitasi militer memicu fenomena penolakan sosial yang dramatis. Di mata rakyat Filipina, Rumah Sakit Karantina San Lazaro bukanlah tempat penyembuhan melainkan 'kamar mayat satu arah' di mana siapa pun yang masuk tidak akan pernah kembali hidup-hidup. Rumor liar menyebar cepat di lorong-lorong kota bahwa para dokter Amerika ('Kano') sengaja memasukkan bubuk racun ke dalam sumur-sumur pribumi untuk memusnahkan populasi dan menguasai tanah mereka. Keluarga-keluarga menyembunyikan kerabat yang diare di dalam kolong rumah panggung atau mengangkut mereka ke rawa-rawa di luar kota dengan gerobak kerbau di tengah malam. Mayat-mayat dibuang diam-diam ke Sungai Pasig saat air pasang agar tidak disita tentara, mempercepat siklus pencemaran air secara tragis.",
+        "en": "Militarized sanitary violence ignited profound sociopsychological resistance. To ordinary Filipinos, the San Lazaro isolation hospital was viewed not as a sanctuary of healing, but as a 'one-way slaughterhouse' where patients entered only to emerge in lime coffins. Terrifying rumors circulated through alleyways that American ('Kano') physicians were deliberately pouring poison powders into native wells to depopulate the islands and seize fertile soil. Families hid vomiting relatives beneath elevated bamboo floorboards or smuggled them into mangrove swamps in carabao carts under cover of darkness. Cadavers were shoved into the Pasig River on outgoing tides to evade police confiscation, ironically accelerating the waterborne transmission cycle."
+      },
+      "image": "/assets/images/cholera/wave-6/phl/phl_ch_05.jpg"
+    },
+    {
+      "id": "phl-ch-06",
+      "chapterNumber": 6,
+      "type": "side_story",
+      "title": {
+        "id": "Diplomasi Jesuit Pastor Algué: Observatorium Manila & Dapur Air Matang",
+        "en": "Jesuit Diplomacy of Father Algué: Manila Observatory & Boiled-Water Kitchens"
+      },
+      "date": {
+        "id": "Juli 1902",
+        "en": "July 1902"
+      },
+      "flash": {
+        "id": "PASTOR JESUIT JOSÉ ALGUÉ MENJEMBATANI AMERIKA DAN GEREJA KATOLIK; PAROKI MEMBUKA STASIUN AIR MATANG DAN MEREDAKAN KEPANIKAN UMAT.",
+        "en": "JESUIT FATHER JOSÉ ALGUÉ BRIDGES OCCUPIERS AND CATHOLIC CHURCH; PARISHES OPEN BOILED-WATER KITCHENS TO CALM THE FLOCK."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Ketel tembaga besar untuk merebus air minum di halaman paroki gereja",
+        "incubation": "N/A (Intervensi Sosio-Keagamaan Berbasis Edukasi Sains)",
+        "transmission": "Inaktivasi termal total kuman kolera melalui perebusan air mendidih 100°C selama 15 menit",
+        "mutationType": {
+          "id": "Mediasi Kultural-Religius Katolik dan Edukasi Higiene Perebusan Air",
+          "en": "Catholic Cultural-Religious Mediation & Thermal Water Purification Education"
+        },
+        "threatLevel": {
+          "id": "Terkendali Lokal (Pemulihan Kepercayaan Publik Melalui Tokoh Gereja)",
+          "en": "Locally Controlled (Restoration of Public Trust via Clerical Leadership)"
+        },
+        "clinicalTarget": {
+          "id": "Umat paroki Katolik, jemaah gereja Intramuros, dan biarawati perawat",
+          "en": "Catholic parish congregations, Intramuros worshippers, and nursing nuns"
+        }
+      },
+      "description": {
+        "id": "Menyadari bahwa senapan dan barikade tidak akan mampu menghentikan kolera jika rakyat menolak bekerja sama, Komisaris Worcester meminta bantuan Pastor José Algué, Direktur Observatorium Manila dari ordo Jesuit yang sangat dihormati oleh rakyat Filipina. Pastor Algué dan Uskup Agung Manila mengeluarkan surat pastoral yang dibacakan di setiap misa Minggu, meyakinkan umat bahwa air rebusan adalah pelindung ilahi dan bahwa kuman kolera mati oleh panas api. Paroki-paroki Katolik mendirikan kuali-kuali tembaga raksasa di halaman gereja untuk merebus air minum dan membagikannya secara gratis kepada warga miskin. Pendekatan pastoral berbasis empati ini berhasil meredakan ketegangan politik dan meyakinkan ribuan keluarga untuk merebus air minum mereka sendiri di rumah.",
+        "en": "Recognizing that bayonets could never conquer cholera while the populace remained actively hostile, Commissioner Worcester solicited the intervention of Father José Algué, the revered Jesuit director of the Manila Observatory. Father Algué and the Manila Archbishop issued an urgent pastoral letter read from every parish pulpit, assuring the faithful that boiled water was a divine shield and that the pathogen was completely destroyed by flame. Catholic parishes installed massive copper caldrons in church courtyards, boiling thousands of gallons of potable water daily to distribute freely to the poor. This culturally grounded, compassionate intervention eased civic rebellion, persuading thousands of families to voluntarily boil drinking water at home."
+      },
+      "image": "/assets/images/cholera/wave-6/phl/phl_ch_06.jpg"
+    },
+    {
+      "id": "phl-ch-07",
+      "chapterNumber": 7,
+      "type": "milestone",
+      "title": {
+        "id": "Kobaran Api di Kepulauan Visayas: Tragedi Maritim Cebu, Panay, & Iloilo",
+        "en": "Conflagration in the Visayas: Maritime Tragedy of Cebu, Panay, & Iloilo"
+      },
+      "date": {
+        "id": "Juli–Desember 1902",
+        "en": "July–December 1902"
+      },
+      "flash": {
+        "id": "PERAHU LAYAR PARAW MELARIKAN WABAH MELINTASI LAUT SIBUYAN; 75.000 WARGA VISAYAS TEWAS DENGAN TINGKAT KEMATIAN KASUS MENCAPAI 75%.",
+        "en": "NATIVE PARAW SCHOONERS CARRY CHOLERA ACROSS SIBUYAN SEA; 75,000 VISAYANS PERISH WITH CASE FATALITY REACHING 75%."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Perahu layar cadik antarpulau (paraws) dan tangki air minum kayu kelapa",
+        "incubation": "8 – 24 Jam",
+        "transmission": "Pelayaran maritim antarpulau tanpa pengawasan sanitasi ke pelabuhan terbuka Visayas",
+        "mutationType": {
+          "id": "Difusi Maritim Antarpulau Kepulauan Tropis Skala Penuh",
+          "en": "Full-Scale Tropical Archipelagic Inter-Island Maritime Diffusion"
+        },
+        "threatLevel": {
+          "id": "Bencana Katastropik Absolut (Ketiadaan Fasilitas Medis di Kepulauan Luar)",
+          "en": "Absolute Catastrophic Disaster (Total Absence of Clinical Care in Outer Islands)"
+        },
+        "clinicalTarget": {
+          "id": "Petani tebu Iloilo dan Negros, nelayan pesisir Cebu, dan penduduk pedalaman Panay",
+          "en": "Iloilo and Negros sugarcane hands, Cebu coastal fisherfolk, and Panay villagers"
+        }
+      },
+      "description": {
+        "id": "Sementara pertahanan di Manila mulai diperketat, bencana yang jauh lebih mengerikan meletus di Kepulauan Visayas. Ratusan perahu layar cadik kecil (paraws) yang melarikan diri dari karantina Teluk Manila membawa penumpang yang terinfeksi melintasi Laut Sibuyan menuju pulau-pulau tengah. Di Cebu, Iloilo, dan perkebunan tebu Negros, kolera meledak tanpa hambatan. Berbeda dengan Manila yang memiliki rumah sakit, di pulau-pulau Visayas tidak ada dokter atau pasokan obat modern. Desa-desa pesisir musnah seluruhnya; mayat-mayat dibiarkan membusuk di dalam gubuk karena seluruh keluarga meninggal bersamaan. Tingkat kematian kasus melonjak hingga 75% hingga 80%. Antara Juli dan Desember 1902, lebih dari 75.000 warga Visayas tewas dalam kesendirian yang memilukan.",
+        "en": "While defenses were reinforced around Manila, a vastly greater holocaust detonated across the central Visayan archipelago. Hundreds of native outrigger sailboats ('paraws') escaping Manila's naval blockade carried incubating passengers across the Sibuyan Sea into the central islands. In Cebu, Iloilo, and the vast sugar haciendas of Negros, the infection ripped through populations unimpeded. Unlike Manila, the outer provinces possessed virtually no hospitals, western doctors, or rehydration supplies. Entire fishing hamlets were wiped out; corpses putrefied inside dwellings where whole families perished concurrently. Case fatality rates soared to a horrifying 75% to 80%. Between July and December 1902, over 75,000 Visayan souls died in agonizing isolation."
+      },
+      "image": "/assets/images/cholera/wave-6/phl/phl_ch_07.jpg"
+    },
+    {
+      "id": "phl-ch-08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Laboratorium Penjara Bilibid: Eksperimen Serum Aglutinasi Dr. Richard Strong",
+        "en": "Bilibid Prison Laboratory: Dr. Richard Strong's Serum Agglutination Studies"
+      },
+      "date": {
+        "id": "Agustus–Desember 1902",
+        "en": "August–December 1902"
+      },
+      "flash": {
+        "id": "PENJARA BILIBID BERISI 3.000 TAHANAN DISERANG KOLERA; DR. RICHARD STRONG MENGUJI SERUM IMUNOLOGI DAN MIKROSKOP BAKTERIOLOGI DI BANGSAL ISOLASI.",
+        "en": "BILIBID PRISON HOUSING 3,000 INMATES STRUCK BY CHOLERA; DR. RICHARD STRONG CONDUCTS BACTERIOLOGICAL & SERUM TRIALS IN QUARANTINE."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Jamban ember komunal di sel-sel penjara batu Bilibid dan tangki air cuci",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Penyebaran cepat di blok tahanan yang terkunci dengan ventilasi minimal",
+        "mutationType": {
+          "id": "Penelitian Patologi Eksperimental dan Uji Aglutinasi Serum Bakteriologis",
+          "en": "Experimental Pathology Research & Bacteriological Serum Agglutination Assays"
+        },
+        "threatLevel": {
+          "id": "Kritis Nosokomial Institusional (Ancaman Kematian Massal 3.000 Narapidana)",
+          "en": "Institutional Nosocomial Critical (Mass Mortality Threat Across 3,000 Inmates)"
+        },
+        "clinicalTarget": {
+          "id": "Narapidana Penjara Bilibid, gerilyawan insurgen yang ditahan, dan sipir penjara",
+          "en": "Bilibid Prison inmates, captured insurgent guerrillas, and wardens"
+        }
+      },
+      "description": {
+        "id": "Pada bulan Agustus 1902, kolera menyusup ke balik tembok batu tebal Penjara Bilibid di Manila, tempat lebih dari 3.000 narapidana dan tahanan perang gerilyawan revolusioner dikurung dalam sel-sel yang padat. Dalam seminggu, ratusan tahanan kejang-kejang di lantai batu. Dr. Richard P. Strong, Direktur Laboratorium Biologi Pemerintah yang baru dibentuk (Bureau of Government Laboratories), segera mengambil alih kendali medis penjara. Strong mendirikan laboratorium darurat di bangsal isolasi Bilibid, melakukan tes aglutinasi serum darah, dan mengisolasi biakan vibrio murni dari mukosa usus kadaver narapidana. Strong menerapkan desinfeksi uap bertekanan tinggi pada seluruh pakaian penjara dan mewajibkan narapidana hanya meminum teh panas mendidih, berhasil menghentikan penyebaran wabah di dalam penjara dalam waktu tiga pekan.",
+        "en": "In August 1902, cholera breached the imposing stone bastions of Bilibid Prison in Manila, where over 3,000 convicts and captured revolutionary guerrillas were incarcerated in crowded cells. Within a week, hundreds of inmates were convulsing upon stone flags. Dr. Richard P. Strong, director of the newly established Bureau of Government Laboratories, seized command of the prison wards. Strong erected a field laboratory in Bilibid's isolation pavilion, performing blood serum agglutination assays and isolating pure vibrio cultures from cadaveric intestinal scrapings. Strong enforced pressurized steam sterilization of all prison uniforms and mandated that inmates drink exclusively piping-hot boiled tea, miraculously halting transmission inside the prison within three weeks."
+      },
+      "image": "/assets/images/cholera/wave-6/phl/phl_ch_08.jpg"
+    },
+    {
+      "id": "phl-ch-09",
+      "chapterNumber": 9,
+      "type": "side_story",
+      "title": {
+        "id": "Dr. Victor Heiser Mengambil Alih: Dari Senjata Militer Menuju Edukasi Publik",
+        "en": "Dr. Victor Heiser Takes Command: From Military Guns to Public Education"
+      },
+      "date": {
+        "id": "1903",
+        "en": "1903"
+      },
+      "flash": {
+        "id": "DOKTER VICTOR G. HEISER DITUNJUK MENJADI KEPALA KESEHATAN; MENGHENTIKAN PEMBAKARAN GUBUK DAN MERANGKUL TOKOH MASYARAKAT FILIPINA.",
+        "en": "DR. VICTOR G. HEISER APPOINTED CHIEF HEALTH COMMISSIONER; ABANDONS ARSON, EMBRACING FILIPINO CIVIC LEADERSHIP."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Eskalasi penolakan sipil yang diredam melalui kerja sama dengan pemimpin lokal (barrio lieutenants)",
+        "incubation": "N/A (Restrukturisasi Kebijakan Kesehatan Masyarakat Kolonial)",
+        "transmission": "Edukasi sanitasi keluarga langsung di pemukiman barrio dan pembagian disinfektan gratis",
+        "mutationType": {
+          "id": "Transformasi Paradigma Sanitasi dari Kekerasan Militer Menuju Kesehatan Masyarakat Sipil",
+          "en": "Sanitary Paradigm Shift from Martial Violence to Collaborative Civil Health"
+        },
+        "threatLevel": {
+          "id": "Terkendali Signifikan (Penurunan Drastis Kasus Harian Manila)",
+          "en": "Significantly Controlled (Dramatic Collapse in Manila Daily Caseloads)"
+        },
+        "clinicalTarget": {
+          "id": "Pemimpin barrio desa (tenientes del barrio), ibu rumah tangga, dan anak-anak sekolah",
+          "en": "Barrio village lieutenants, Filipino mothers, and primary school children"
+        }
+      },
+      "description": {
+        "id": "Menyadari bahwa pendekatan kekerasan militer telah gagal dan memicu perlawanan rakyat, pemerintah sipil menunjuk Dr. Victor G. Heiser dari US Public Health Service sebagai Kepala Petugas Karantina dan Direktur Kesehatan Filipina pada tahun 1903. Heiser segera merombak total doktrin penanganan wabah: ia melarang pembakaran gubuk nipa, menarik serdadu bersenjata dari patroli rumah tangga, dan menggantinya dengan tim pemeriksa kesehatan sipil berpakaian putih yang didampingi oleh tokoh masyarakat lokal (tenientes del barrio). Heiser membagikan ember kapur tohor dan sabun gratis kepada setiap rumah tangga, melatih perawat pribumi, dan membuka stasiun rehidrasi di setiap distrik. Di bawah kepemimpinan Heiser yang humanis dan terstruktur, angka penularan kolera di Manila berhasil ditekan hingga ke level terendah.",
+        "en": "Recognizing that martial brutality had alienated the population and amplified casualties, the civil administration appointed Dr. Victor G. Heiser of the US Public Health Service as Chief Quarantine Officer and Director of Health in 1903. Heiser executed a sweeping revolution in epidemiological doctrine: he banned the burning of nipa homes, withdrew armed infantry from residential inspections, and replaced them with white-clad civilian sanitary squads accompanied by respected local village leaders ('tenientes del barrio'). Heiser distributed free tubs of quicklime and soap to every dwelling, trained native nurses, and opened neighborhood rehydration stations. Under Heiser's methodical, empathetic leadership, cholera transmission across Manila plummeted."
+      },
+      "image": "/assets/images/cholera/wave-6/phl/phl_ch_09.jpg"
+    },
+    {
+      "id": "phl-ch-10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Revolusi Sumur Artesis & Pembangunan Waduk Montalban 1903–1904",
+        "en": "The Artesian Well Revolution & Montalban Reservoir Construction (1903–1904)"
+      },
+      "date": {
+        "id": "1903–1904",
+        "en": "1903–1904"
+      },
+      "flash": {
+        "id": "PENGEBORAN SUMUR ARTESIS DALAM MENEMBUS BATU VULKANIK MENGHASILKAN AIR MURNI BEBAS KUMAN; KASUS KOLERA DI PEDESAAN LUZON ANJLOK 90%.",
+        "en": "DEEP ARTESIAN DRILLING PIERCES BASALT TO TAP PURE AQUIFERS; RURAL LUZON CHOLERA MORTALITY PLUMMETS BY 90%."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Sumur gali tanah dangkal tercemar digantikan oleh sumur artesis pipa besi bertekanan",
+        "incubation": "N/A (Eradikasi Vektor Air Baku Melalui Rekayasa Hidrologi Bawah Tanah)",
+        "transmission": "Penyediaan air minum bawah tanah murni dari kedalaman 100–300 meter yang bebas bakteri",
+        "mutationType": {
+          "id": "Rekayasa Hidraulik Pengeboran Akuifer Dalam Menembus Lapisan Kedap Air",
+          "en": "Deep Aquifer Hydraulic Drilling Piercing Confining Impermeable Strata"
+        },
+        "threatLevel": {
+          "id": "Terkendali Permanen (Pemberantasan Sumber Air Tercemar Tradisional)",
+          "en": "Permanently Controlled (Eradication of Traditional Contaminated Water Sources)"
+        },
+        "clinicalTarget": {
+          "id": "Penduduk kota-kota provinsi Luzon: Bulacan, Pampanga, Batangas, dan Laguna",
+          "en": "Provincial Luzon municipalities: Bulacan, Pampanga, Batangas, and Laguna"
+        }
+      },
+      "description": {
+        "id": "Heiser menyadari bahwa satu-satunya cara menghentikan kolera di pedesaan Filipina adalah menyediakan alternatif nyata bagi sumur gali dangkal yang tercemar tinja. Pada akhir 1903, Biro Kesehatan meluncurkan program pengeboran sumur artesis massal. Mesin bor uap dikirim ke kota-kota pedesaan di Bulacan, Pampanga, dan Laguna untuk mengebor lapisan batu vulkanik hingga kedalaman 100 hingga 300 meter, menyedot air artesis murni yang terproteksi alami dari kontaminasi permukaan. Hasilnya bagaikan mukjizat: di kota-kota yang sumur artesisnya mulai mengalirkan air, kasus kolera anjlok hingga 90% dalam semalam. Secara paralel di Manila, pembangunan Waduk Montalban dipercepat untuk menggantikan intake Sungai Mariquina dengan sumber air pegunungan yang terisolasi ketat dari pemukiman manusia.",
+        "en": "Heiser understood that the only lasting defense against cholera in provincial towns was providing a viable alternative to shallow dug wells saturated with fecal seepage. In late 1903, the Bureau of Health launched a monumental artesian well drilling campaign. Steam-powered rigs were deployed across Bulacan, Pampanga, and Laguna, boring through basalt strata down to 100 to 300 meters to tap pristine artesian aquifers sealed from surface pollution. The outcome was nothing short of miraculous: in municipalities where artesian fountains began flowing, cholera mortality plunged by over 90% virtually overnight. Concurrently in Manila, construction was rushed on the Montalban Reservoir to replace the contaminated Mariquina intake with pristine mountain springhead catchments."
+      },
+      "image": "/assets/images/cholera/wave-6/phl/phl_ch_10.jpg"
+    },
+    {
+      "id": "phl-ch-11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Resurgensi Garis Belakang: Krisis Mindanao, Jolo, & Adat Pemakaman Moro",
+        "en": "Rearguard Resurgence: The Mindanao, Jolo Crisis & Moro Funeral Rites"
+      },
+      "date": {
+        "id": "1904",
+        "en": "1904"
+      },
+      "flash": {
+        "id": "KOLERA MENYUSUP KE KEPULAUAN SULU DAN MINDANAO; PEJABAT KESEHATAN MENYESUAIKAN PROTOKOL ISOLASI DENGAN HUKUM ADAT ISLAM MORO.",
+        "en": "CHOLERA INFILTRATES SULU ARCHIPELAGO AND MINDANAO; HEALTH OFFICERS ADAPT ISOLATION TO ISLAMIC MORO CUSTOMS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Ritual memandikan jenazah muslim secara tradisional di permukiman panggung tepi laut",
+        "incubation": "8 – 24 Jam",
+        "transmission": "Kontak langsung dengan air cucian jenazah kolera dalam upacara pemakaman adat",
+        "mutationType": {
+          "id": "Penyesuaian Protokol Biomedis Karantina dengan Syariat dan Adat Lokal",
+          "en": "Biomedical Quarantine Protocol Harmonization with Islamic Sharia & Adat"
+        },
+        "threatLevel": {
+          "id": "Substansial (Risiko Pemberontakan Bersenjata Baru di Wilayah Konflik Moro)",
+          "en": "Substantial (Risk of Reigniting Armed Insurgency in Volatile Moro Province)"
+        },
+        "clinicalTarget": {
+          "id": "Masyarakat Muslim Moro di Jolo, Zamboanga, Danau Lanao, dan Kesultanan Sulu",
+          "en": "Moro Muslim communities of Jolo, Zamboanga, Lake Lanao, and Sulu Sultanate"
+        }
+      },
+      "description": {
+        "id": "Pada tahun 1904, sisa-sisa gelombang wabah menyusup ke selatan kepulauan: Provinsi Moro di Mindanao dan Kepulauan Sulu. Di sana, petugas kesehatan Amerika menghadapi tantangan sensitif yang berpotensi memicu kembali perang berdarah: ritual memandikan jenazah muslim sebelum pemakaman, di mana keluarga memandikan tubuh jenazah korban kolera dengan tangan telanjang tanpa pelindung. Belajar dari kesalahan fatal di Manila, Gubernur Militer Jenderal Leonard Wood dan petugas kesehatan mendekati para Datu dan ulama setempat. Melalui musyawarah adat, para pemimpin agama setuju bahwa pemandian jenazah kolera dilakukan dengan menambahkan larutan antiseptik sublimate ke dalam air dan dipimpin oleh petugas medis muslim bersarung tangan. Fleksibilitas kultural ini berhasil meredam wabah di selatan tanpa meletuskan kerusuhan bersenjata.",
+        "en": "In 1904, the tail of the pandemic swept into the southern archipelago: the Moro Province across Mindanao and the Sulu chain. Here, American health officers confronted a delicate cultural faultline capable of rekindling armed insurrection: Islamic burial rites requiring the meticulous manual washing of deceased kin. In cholera deaths, contact with corpse fluids inevitably infected mourners. Learning from the disastrous heavy-handedness of 1902 in Manila, Military Governor General Leonard Wood and health officials directly engaged local Datus and Kali judges. Through respectful consultation, Islamic scholars agreed that ritual washing of cholera victims could incorporate antiseptic mercurial rinses administered by gloved Muslim medical orderlies. This cultural pragmatism suppressed the southern outbreak without firing a single shot."
+      },
+      "image": "/assets/images/cholera/wave-6/phl/phl_ch_11.jpg"
+    },
+    {
+      "id": "phl-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Kelahiran Biro Kesehatan & Sekolah Kedokteran Filipina 1905",
+        "en": "Birth of the Bureau of Health & Philippine Medical School (1905)"
+      },
+      "date": {
+        "id": "1905–1906",
+        "en": "1905–1906"
+      },
+      "flash": {
+        "id": "DARI ABU BENCANA LAHIR BIRO KESEHATAN SIPIL DAN FAKULTAS KEDOKTERAN FILIPINA; MEMBANGUN KORPS DOKTER DAN SANITARIAN PRIBUMI PERTAMA.",
+        "en": "FROM THE ASHES ARISES THE CIVIL BUREAU OF HEALTH AND PHILIPPINE MEDICAL SCHOOL; FORGING THE ARCHIPELAGO'S FIRST INDIGENOUS SANITARY CORPS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Pendidikan kurikulum bakteriologi laboratorium dan epidemiologi tropis modern",
+        "incubation": "N/A (Institusionalisasi Pendidikan Medis Nasional)",
+        "transmission": "Pelatihan dokter pribumi untuk memimpin dinas kesehatan provinsi mandiri",
+        "mutationType": {
+          "id": "Institusionalisasi Pendidikan Kedokteran Tropis dan Kepemimpinan Medis Pribumi",
+          "en": "Institutionalization of Tropical Medical Education & Indigenous Healthcare Leadership"
+        },
+        "threatLevel": {
+          "id": "Terkendali Permanen (Pembangunan Kapasitas Medis Nasional Jangka Panjang)",
+          "en": "Permanently Controlled (Long-Term National Medical Capacity Construction)"
+        },
+        "clinicalTarget": {
+          "id": "Mahasiswa kedokteran Filipina, dokter lulusan baru, dan perawat komunitas",
+          "en": "Filipino medical students, graduating physicians, and community nurses"
+        }
+      },
+      "description": {
+        "id": "Pelajaran paling mendasar dari bencana 1902–1904 adalah bahwa kesehatan masyarakat tidak dapat ditegakkan oleh tentara asing, melainkan harus dipimpin oleh tenaga medis profesional pribumi. Pada tahun 1905, pemerintah mendirikan 'Philippine Medical School' (yang kelak bertransformasi menjadi University of the Philippines College of Medicine) dan merestrukturisasi Dewan Kesehatan menjadi Biro Kesehatan Sipil yang permanen. Kurikulum sekolah kedokteran baru ini berfokus secara intensif pada bakteriologi terapan, sanitasi air minum, dan pengendalian penyakit tropis. Lulusan-lulusan dokter muda Filipina pertama segera ditempatkan sebagai kepala kesehatan distrik di seluruh provinsi kepulauan, meletakkan fondasi bagi sistem kesehatan masyarakat nasional Filipina modern.",
+        "en": "The enduring lesson of the 1902–1904 agony was that public health could never be sustained by foreign bayonets, but demanded trained indigenous professionals. In 1905, the civil administration enacted legislation establishing the Philippine Medical School (later the University of the Philippines College of Medicine) and reorganized the military board into a permanent civil Bureau of Health. The curriculum was intensively centered upon applied bacteriology, municipal water purification, and tropical epidemic control. The first cohorts of Filipino physicians were immediately dispatched to command provincial health directorships across the islands, laying the bedrock of modern Philippine national public health."
+      },
+      "image": "/assets/images/cholera/wave-6/phl/phl_ch_12.jpg"
+    },
+    {
+      "id": "phl-ch-13",
+      "chapterNumber": 13,
+      "type": "summary",
+      "title": {
+        "id": "Audit Epidemiologis Bencana Filipina: Transformasi Menuju Negara Higiene Pasifik",
+        "en": "Epidemiological Audit of the Philippine Disaster: Transformation to Pacific Hygiene Titan"
+      },
+      "date": {
+        "id": "1906–1910",
+        "en": "1906–1910"
+      },
+      "flash": {
+        "id": "109.461 KEMATIAN TERCATAT RESMI SELAMA 1902–1904; DARI MALAPETAKA LAHIR REVOLUSI SANITASI PASIFIK YANG MELENYAPKAN KOLERA DARI MANILA.",
+        "en": "109,461 OFFICIAL FATALITIES LOGGED DURING 1902–1904; FROM RUIN SPRANG A PACIFIC SANITARY REVOLUTION BANISHING CHOLERA FROM MANILA."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik O1",
+        "vector": "Sintesis sejarah kolonialisme medis dan evolusi kesehatan masyarakat tropis",
+        "incubation": "N/A (Analisis Historiografi Epidemiologi Global)",
+        "transmission": "Evolusi dari represi militer menuju rekayasa hidrolik sumur artesis dan sanitasi partisipatif",
+        "mutationType": {
+          "id": "Konsolidasi Paradigma Rekayasa Air Bersih Akuifer Dalam dan Sanitasi Sipil Kolaboratif",
+          "en": "Consolidation of Deep Aquifer Engineering Paradigm & Collaborative Civil Sanitation"
+        },
+        "threatLevel": {
+          "id": "Terkendali Permanen (Eradikasi Bertahap Kolera Endemik dari Wilayah Perkotaan Filipina)",
+          "en": "Permanently Controlled (Systematic Eradication of Endemic Cholera in Urban Centers)"
+        },
+        "clinicalTarget": {
+          "id": "Seluruh populasi 8 juta rakyat Kepulauan Filipina dari Luzon hingga Sulu",
+          "en": "Entire population of 8 million inhabitants across the Philippine archipelago"
+        }
+      },
+      "description": {
+        "id": "Wabah Kolera 1902–1904 di Kepulauan Filipina tercatat sebagai salah satu tragedi epidemiologi terbesar dalam sejarah kawasan Pasifik. Catatan resmi pemerintah kolonial mencatat 166.252 kasus dengan 109.461 kematian, meskipun sejarawan modern memperkirakan korban riil melampaui 200.000 jiwa akibat banyaknya kasus yang tidak terlaporkan di pulau-pulau luar. Bencana ini menjadi titik balik sejarah: membongkar kelemahan fatal pendekatan sanitasi represif militeristik dan membuktikan bahwa pertahanan biosekuriti sejati hanya dapat dicapai melalui infrastruktur fisik air bersih (sumur artesis dan perpipaan tertutup) yang dipadukan dengan partisipasi bermartabat masyarakat pribumi. Melalui transformasi ini, Filipina melompat dari wilayah jajahan yang rentan menjadi salah satu pusat rujukan kesehatan masyarakat tropis paling maju di Asia pada awal abad ke-20.",
+        "en": "The 1902–1904 cholera outbreak in the Philippine Islands stands as one of the titanic epidemiological tragedies in Pacific history. Official colonial registries documented 166,252 cases and 109,461 deaths, though modern demographic historians estimate the true mortality exceeded 200,000 souls due to unrecorded village fatalities across the outer Visayan islands. The catastrophe served as a monumental historical turning point: it exposed the utter bankruptcy of martial, coercive sanitization and demonstrated that true biosecurity could only be forged through durable physical infrastructure (deep artesian wells and sealed mountain gravity pipelines) wedded to the dignified political participation of the indigenous populace. Through this crucible, the Philippines evolved from a devastated colony into Asia's premier laboratory of modern tropical public health."
+      },
+      "image": "/assets/images/cholera/wave-6/phl/phl_ch_13.jpg"
+    }
+  ]
+}

@@ -1,0 +1,576 @@
+{
+  "sectorId": "IND",
+  "waveIndex": 6,
+  "sectorName": {
+    "id": "Sektor IND (Kemaharajaan Britania: Delta Benggala, Ziarah Kumbh Mela, Infus Salin Leonard Rogers, & Bakteriofag // 1899–1923)",
+    "en": "Sector IND (British Raj: Bengal Delta, Kumbh Mela Pilgrimages, Leonard Rogers' Hypertonic Saline, & Bacteriophage // 1899–1923)"
+  },
+  "coordinates": [
+    22.5726,
+    88.3639
+  ],
+  "timeRange": "1899–1923",
+  "estimatedFatalities": "800.000–1.500.000+ jiwa (Anak Benua India, Delta Benggala & Lembah Gangga-Brahmaputra)",
+  "chapters": [
+    {
+      "id": "ind-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Resurgensi Delta Benggala & Letupan Awal Gelombang Keenam",
+        "en": "Bengal Delta Resurgence & Ignition of the Sixth Wave"
+      },
+      "date": {
+        "id": "1899–1900",
+        "en": "1899–1900"
+      },
+      "flash": {
+        "id": "VIBRIO CHOLERAE BIOTIPE KLASIK MELEDAK KEMBALI DI DELTA BENGGALA; RATUSAN RIBU WARGA PEDESAAN TUMBANG DI TENGAH KEGAGALAN SISTEM SANITASI KOLONIAL.",
+        "en": "CLASSICAL VIBRIO CHOLERAE DETONATES ANEW ACROSS BENGAL DELTA; HUNDREDS OF THOUSANDS OF PEASANTS COLLAPSE AMIDST COLONIAL SANITARY COLLAPSE."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik (serogrup O1)",
+        "vector": "Kolam air komunal (pukur) dan limpasan banjir monsun Delta Gangga",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Fekal-oral melalui konsumsi air kolam tercemar dan makanan yang disiapkan di permukiman padat bustee",
+        "mutationType": {
+          "id": "Galur Endemik Delta Gangga: Vibrio cholerae Biotipe Klasik Virulensi Penuh",
+          "en": "Ganges Delta Endemic Reservoir: High-Virulence Classical Biotype Vibrio cholerae"
+        },
+        "threatLevel": {
+          "id": "Bencana Katastropik (Reservoir Alami Endemik Terbesar di Muka Bumi)",
+          "en": "Catastrophic Disaster (Earth's Largest Natural Endemic Reservoir)"
+        },
+        "clinicalTarget": {
+          "id": "Petani pedesaan Benggala, buruh harian Kalkuta, dan keluarga nelayan Sundarbans",
+          "en": "Rural Bengal peasants, Calcutta day laborers, and Sundarbans fisherfolk"
+        }
+      },
+      "description": {
+        "id": "Pada pengujung abad ke-19, ketika dunia Barat meyakini bahwa bakteriologi modern telah menundukkan kolera, tanah rawa-rawa Delta Benggala kembali mendidih. Antara tahun 1899 dan 1900, galur klasik Vibrio cholerae meledak dari distrik-distrik basah Jessore, Khulna, dan Bakarganj, menandai dimulainya Pandemi Kolera Keenam. Pemerintah kolonial British Raj, yang terikat pada doktrin penghematan anggaran belanja dan prioritas ekonomi perkebunan, gagal menyediakan infrastruktur air bersih pipa bagi populasi pribumi. Di ribuan desa terpencil, kolam tanah terbuka ('pukur') berfungsi ganda sebagai tempat mencuci piring, memandikan kerbau, dan sumber air minum keluarga. Dalam dua tahun pertama letupan, lebih dari 300.000 nyawa melayang tanpa pernah tersentuh bantuan medis Barat.",
+        "en": "At the twilight of the 19th century, as Western powers celebrated the containment of cholera through modern bacteriology, the estuarine marshes of the Bengal Delta boiled anew. Between 1899 and 1900, virulent classical strains of Vibrio cholerae surged from the saturated districts of Jessore, Khulna, and Bakarganj, inaugurating the Sixth Cholera Pandemic. The British Raj administration, tethered to laissez-faire fiscal austerity and commercial plantation priorities, had failed to extend piped drinking water beyond European cantonments. Across thousands of rural villages, open excavated water tanks ('pukurs') served interchangeably for washing utensils, bathing livestock, and domestic drinking. In the first two years alone, over 300,000 peasants perished beyond the reach of Western medical stations."
+      },
+      "image": "/assets/images/cholera/wave-6/ind/ind_ch_01.jpg"
+    },
+    {
+      "id": "ind-ch-02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Diaspora Buruh Perkebunan Teh Assam & Koridor Sungai Brahmaputra",
+        "en": "Assam Tea Coolie Diaspora & The Brahmaputra River Corridor"
+      },
+      "date": {
+        "id": "1900–1902",
+        "en": "1900–1902"
+      },
+      "flash": {
+        "id": "PENGIRIMAN PULUHAN RIBU KULI KONTRAK KE PERKEBUNAN TEH ASSAM MENGUBAH KAPAL UAP BRAHMAPUTRA MENJADI PERANGKAP MAUT KOLERA.",
+        "en": "MASS TRANSIT OF INDENTURED COOLIES TO ASSAM TEA ESTATES TURNS BRAHMAPUTRA STEAMSHIPS INTO FLOATING CHOLERA COFFINS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Palka kapal uap sungai tertutup dan depot transit buruh Goalundo",
+        "incubation": "8 – 24 Jam",
+        "transmission": "Penyebaran cepat di palka kapal padat tanpa ventilasi dan air minum sungai mentah",
+        "mutationType": {
+          "id": "Vektor Migrasi Tenaga Kerja Kontrak Kolonial Arteri Sungai Pedalaman",
+          "en": "Colonial Indentured Labor Migration Vector Along Inland River Arteries"
+        },
+        "threatLevel": {
+          "id": "Sangat Kritis (Mortalitas 25–40% di Atas Kapal Pengangkut Buruh)",
+          "en": "Extremely Critical (25–40% Mortality Aboard Labor Transport Steamers)"
+        },
+        "clinicalTarget": {
+          "id": "Kuli kontrak suku Adivasi, buruh petik teh, dan awak kapal dayung sungai",
+          "en": "Adivasi tribal indentured coolies, tea pluckers, and river barge crews"
+        }
+      },
+      "description": {
+        "id": "Permintaan global akan teh Assam mendorong perekrutan paksa jutaan kuli kontrak miskin dari Bihar dan Chota Nagpur oleh sindikat perkebunan Inggris. Para buruh digiring melalui depot transit Goalundo Ghat menuju kapal-kapal uap sungai yang menyusuri Sungai Brahmaputra. Di palka kapal yang panas, pengap, dan tanpa jamban terpisah, diare cair kolera meletus bagai kobaran api. Ribuan kuli sekarat dalam hitungan jam; mayat mereka dilemparkan ke Sungai Brahmaputra tanpa pencatatan nama untuk menghindari kewajiban ganti rugi pemilik kapal. Mereka yang berhasil bertahan hidup membawa kuman kolera ke lembah-lembah terpencil Assam, menulari pemukiman terisolasi yang belum pernah terpapar sebelumnya.",
+        "en": "Global demand for Assam tea fueled the aggressive recruitment of hundreds of thousands of impoverished indentured coolies from Bihar and Chota Nagpur by British planter syndicates. Laborers were funneled through the sweltering railhead transit depots of Goalundo Ghat onto flat-bottomed river steamers plying the Brahmaputra. In the stifling, unventilated holds lacking sanitation, choleraic purging ignited like wildfire. Thousands died within hours; their corpses were dumped overboard into the Brahmaputra without passenger log entries to shield shipping agents from indemnities. Those surviving the passage carried the pathogen into remote valley tea gardens, seeding virgin populations across upper Assam."
+      },
+      "image": "/assets/images/cholera/wave-6/ind/ind_ch_02.jpg"
+    },
+    {
+      "id": "ind-ch-03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Ziarah Akbar Haridwar 1903 & Jaringan Rel Kereta Api Cepat",
+        "en": "The 1903 Haridwar Kumbh Mela & The Imperial Railway Grid"
+      },
+      "date": {
+        "id": "Maret–April 1903",
+        "en": "March–April 1903"
+      },
+      "flash": {
+        "id": "SETENGAH JUTA PEZIARAH HINDU BERKUMPUL DI TEPI SUNGAI GANGGA; JALUR KERETA API IMPERIAL MENYEBARKAN WABAH KE SELURUH PENJURU INDIA.",
+        "en": "HALF A MILLION HINDU PILGRIMS CONGREGATE AT HARIDWAR; IMPERIAL RAIL TRUNKS DISPERSE CHOLERA TO EVERY CORNER OF INDIA."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air suci Gangga di Haridwar dan gerbong kereta api kelas tiga padat",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Konsumsi air sungai saat mandi suci massal dan penularan berantai di stasiun persimpangan rel",
+        "mutationType": {
+          "id": "Eksplosi Multi-Sentris Berbasis Ziarah Keagamaan dan Rel Lokomotif Uap",
+          "en": "Pilgrimage-Driven Multi-Centric Dispersal via Steam Railway Network"
+        },
+        "threatLevel": {
+          "id": "Kritis Nasional (Penyebaran Antar-Provinsi dalam Hitungan 48 Jam)",
+          "en": "National Critical (Inter-Provincial Diffusion within 48 Hours)"
+        },
+        "clinicalTarget": {
+          "id": "Peziarah Kumbh Mela, musafir kereta api, dan penduduk kota-kota transit rel",
+          "en": "Kumbh Mela pilgrims, third-class rail passengers, and railway junction towns"
+        }
+      },
+      "description": {
+        "id": "Pada bulan April 1903, perayaan Kumbh Mela di Haridwar menarik lebih dari 400.000 peziarah dari seantero anak benua untuk menyucikan diri di Sungai Gangga hulu. Meskipun debit air mengalir deras, ritual mandi suci massal dan konsumsi air sungai oleh jutaan orang yang berkemah di tepian pasir tanpa jamban menciptakan ledakan penularan kolera. Berbeda dengan era sebelum rel kereta api di mana peziarah berjalan kaki berminggu-minggu dan mereka yang sakit tewas di jalan, jaringan kereta api Great Indian Peninsula Railway dan East Indian Railway kini mengangkut peziarah yang terinfeksi pulang ke Punjab, Rajasthan, dan Bombay dalam hitungan 24 hingga 48 jam—sebelum masa inkubasi selesai. Ratusan stasiun kereta api berubah menjadi pusat penyebaran sekunder yang melipatgandakan kurva kematian nasional.",
+        "en": "In April 1903, the Kumbh Mela festival at Haridwar drew over 400,000 pilgrims from every quarter of the subcontinent for ritual ablutions in the upper Ganges. Despite swift alpine currents, the congregation of hundreds of thousands camping along sand flats without latrines triggered explosive cholera seeding. Unlike pre-railway eras when pilgrims traveled on foot for weeks—allowing outbreaks to burn out along wilderness trails—the East Indian and Great Indian Peninsula railways now whisked incubating carriers back to Punjab, Rajasthan, and Bombay in 24 to 48 hours. Intermediary junctions became secondary epidemic centers, detonating outbreaks across the length and breadth of India."
+      },
+      "image": "/assets/images/cholera/wave-6/ind/ind_ch_03.jpg"
+    },
+    {
+      "id": "ind-ch-04",
+      "chapterNumber": 4,
+      "type": "side_story",
+      "title": {
+        "id": "Benteng Laboratorium Parel Bombay: Dedikasi & Kekecewaan Waldemar Haffkine",
+        "en": "Parel Laboratory Fortress: Waldemar Haffkine's Ordeal & Legacy"
+      },
+      "date": {
+        "id": "1904–1905",
+        "en": "1904–1905"
+      },
+      "flash": {
+        "id": "DOKTER WALDEMAR HAFFKINE MEMPRODUKSI JUTAAN DOSIS VAKSIN KOLERA DI BOMBAY SEBELUM DIJATUHKAN SKANDAL TETANUS MULKOWAL.",
+        "en": "DR. WALDEMAR HAFFKINE BREWS MILLIONS OF CHOLERA DOSES IN BOMBAY BEFORE THE TRAGIC MULKOWAL TETANUS INTRIGUE."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Kultur cair pepton autoklaf di Laboratorium Parel Bombay",
+        "incubation": "N/A (Pengembangan Vaksin Profilaksis)",
+        "transmission": "Inokulasi subkutan vaksin bakteri teratenuasi panas untuk memicu antibodi mukosa",
+        "mutationType": {
+          "id": "Produksi Massal Vaksin Profilaksis Biakan Kolera Terinaktivasi Panas",
+          "en": "Mass Production of Heat-Inactivated Prophylactic Whole-Cell Cholera Vaccine"
+        },
+        "threatLevel": {
+          "id": "Substansial (Kontroversi Kontaminasi Botol dan Sengketa Birokrasi Medis Kolonial)",
+          "en": "Substantial (Vial Contamination Controversy and Colonial Medical Bureaucracy Feud)"
+        },
+        "clinicalTarget": {
+          "id": "Populasi pekerja pabrik Bombay, buruh tambang batu bara, dan serdadu sepoi",
+          "en": "Bombay mill hands, coal miners, and Indian sepoy garrisons"
+        }
+      },
+      "description": {
+        "id": "Di bekas Istana Gubernur Parel di Bombay, ahli mikrobiologi Yahudi-Rusia Waldemar Haffkine mendirikan benteng sains bakteriologi termaju di Asia. Bekerja 16 jam sehari di tengah uap kaldu pepton dan api bunsen, Haffkine memproduksi jutaan botol vaksin kolera dan pes. Namun, hierarki aristokrat perwira medis Inggris (Indian Medical Service / IMS) membenci Haffkine karena statusnya sebagai warga asing dan non-militer. Ketika tragedi pencemaran botol tetanus Mulkowal meletus pada 1902 akibat tutup botol yang terkontaminasi di Punjab, para pejabat kolonial menjadikannya kambing hitam dan mencopotnya dari jabatannya. Meskipun kelak dibebaskan dari tuduhan oleh komisi independen di London pada 1907 berkat pembelaan Ronald Ross, Haffkine terluka secara mendalam, namun laboratorium Parel rintisannya tetap berdiri tegak sebagai Institut Haffkine hingga hari ini.",
+        "en": "Inside the Old Government House at Parel, Bombay, the brilliant Russian-Jewish microbiologist Waldemar Haffkine forged Asia's foremost bacteriological research fortress. Laboring 16 hours daily amidst boiling peptone vats and Bunsen burners, Haffkine manufactured millions of doses of cholera and plague vaccines. Yet the aristocratic cadre of the British Indian Medical Service (IMS) harbored intense jealousy toward this foreign, civilian savant. When the 1902 Mulkowal disaster occurred—in which nineteen villagers died of tetanus traced to a contaminated forceps in Punjab—colonial authorities scapegoated Haffkine, suspending him from service. Though completely exonerated in 1907 by an independent inquiry led by Ronald Ross, Haffkine was deeply wounded; nonetheless, his Parel bastion endured, evolving into the world-renowned Haffkine Institute."
+      },
+      "image": "/assets/images/cholera/wave-6/ind/ind_ch_04.jpg"
+    },
+    {
+      "id": "ind-ch-05",
+      "chapterNumber": 5,
+      "type": "milestone",
+      "title": {
+        "id": "Revolusi Patologi Leonard Rogers: Membongkar Mekanisme Syok Dehidrasi",
+        "en": "Leonard Rogers' Pathological Revolution: Unraveling Hypovolemic Shock"
+      },
+      "date": {
+        "id": "1906",
+        "en": "1906"
+      },
+      "flash": {
+        "id": "KAPTEN LEONARD ROGERS MENEMUKAN BAHWA KORBAN KOLERA WAFAT KARENA SYOK HIPOVOLEMIK KILAT AKIBAT KEHILANGAN DUA PERTIGA PLASMA DARAH.",
+        "en": "CAPTAIN LEONARD ROGERS DISCOVERS CHOLERA VICTIMS DIE OF RAPID HYPOVOLEMIC SHOCK FROM LOSING TWO-THIRDS OF BLOOD PLASMA."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Toksin enteropatogenik stimulasi cAMP)",
+        "vector": "Mukosa usus halus ileum manusia dengan hipersekresi cairan masif",
+        "incubation": "6 – 18 Jam",
+        "transmission": "Ekskresi air cucian beras mencapai 1 liter per jam menuju dehidrasi fatal",
+        "mutationType": {
+          "id": "Hipersekresi Elektrolit Akut Mukosa Usus Halus dan Hemokonsentrasi Ekstrem",
+          "en": "Acute Small Intestine Mucosal Hypersecretion and Extreme Hemoconcentration"
+        },
+        "threatLevel": {
+          "id": "Maksimal (Kolaps Kardiovaskular Fulminan dalam Waktu Kurang dari 12 Jam)",
+          "en": "Maximum (Fulminant Cardiovascular Collapse in Under 12 Hours)"
+        },
+        "clinicalTarget": {
+          "id": "Sirkulasi vaskular sistemik, ginjal (nekrosis tubular akut), dan perfusi otak",
+          "en": "Systemic vascular volume, renal tubular perfusion, and cerebral circulation"
+        }
+      },
+      "description": {
+        "id": "Di Rumah Sakit Medical College Kalkuta, Kapten Leonard Rogers, seorang perwira IMS muda yang memiliki kehausan ilmiah tak tertandingi, menolak kepasrahan medis yang telah berlangsung satu abad. Saat itu, tingkat kematian pasien kolera yang dirawat di rumah sakit mencapai 60% hingga 70%; dokter hanya memberikan opium, calomel beracun, dan menolak memberi minum karena mitos bahwa cairan akan memicu muntah lebih lanjut. Rogers melakukan autopsi dan analisis darah segar penderita, menemukan kenyataan fisiologis yang mengejutkan: toksin vibrio tidak merusak dinding usus secara permanen melainkan memicu kebocoran masif air dan garam. Darah pasien menjadi begitu kental seperti tar hitam pekat, kehilangan 60% cairan plasmanya, sehingga jantung tidak mampu lagi memompa darah dan ginjal mengalami gagal total akibat asfiksia.",
+        "en": "At the Calcutta Medical College Hospital, Captain Leonard Rogers of the IMS broke with a century of fatalistic clinical neglect. At the time, hospitalized cholera patients suffered staggering 60% to 70% mortality rates; surgeons administered astringent opium, toxic calomel, and withheld drinking water under the superstitious conviction that liquids fueled emesis. Rogers conducted rigorous autopsies and hematological assays on moribund patients, uncovering a startling physiological truth: the vibrio enterotoxin did not slough intestinal tissue, but provoked a catastrophic osmotic outflow of water and salts. The patient's circulating blood turned thick as black tar, losing up to two-thirds of its plasma fluid, causing cardiac failure and complete renal collapse from vascular suffocation."
+      },
+      "image": "/assets/images/cholera/wave-6/ind/ind_ch_05.jpg"
+    },
+    {
+      "id": "ind-ch-06",
+      "chapterNumber": 6,
+      "type": "milestone",
+      "title": {
+        "id": "Mukjizat Infus Salin Hipertonik Rogers: Mortalitas Anjlok dari 60% ke 18%",
+        "en": "The Miracle of Rogers' Hypertonic Saline: Mortality Plummets from 60% to 18%"
+      },
+      "date": {
+        "id": "1907–1908",
+        "en": "1907–1908"
+      },
+      "flash": {
+        "id": "DENGAN MENYUNTIKKAN LARUTAN GARAM PEKAT 1,35% DAN NATRIUM BIKARBONAT SECARA INTRAVENA, ROGERS MEMBANGKITKAN RIBUAN PASIEN DARI GERBANG MAUT.",
+        "en": "INFUSING 1.35% HYPERTONIC SALINE AND SODIUM BICARBONATE INTRAVENOUSLY, ROGERS RESURRECTS THOUSANDS FROM DEATH'S THRESHOLD."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Cairan infus salin hipertonik intravena (NaCl 1,35% + NaHCO3)",
+        "incubation": "N/A (Terapi Rehidrasi Resusitasi Darurat)",
+        "transmission": "Pemulihan volume intravaskular cepat dan koreksi asidosis laktat metabolik",
+        "mutationType": {
+          "id": "Intervensi Farmakologi Hidrodinamik Resusitasi Salin Hipertonik Intravena",
+          "en": "Intravenous Hypertonic Saline & Alkali Hydrodynamic Resuscitation Intervention"
+        },
+        "threatLevel": {
+          "id": "Terkendali (Penurunan Mortalitas Kasus Terbesar dalam Sejarah Medis Abad ke-20)",
+          "en": "Controlled (Greatest Case Fatality Reduction in 20th-Century Clinical Medicine)"
+        },
+        "clinicalTarget": {
+          "id": "Vena mediana kubiti lengan, osmolalitas plasma, dan filtrasi glomerulus ginjal",
+          "en": "Median cubital vein access, plasma osmolality, and glomerular filtration"
+        }
+      },
+      "description": {
+        "id": "Rogers menyadari bahwa infus larutan garam isotonik biasa (0,9%) gagal menahan cairan di dalam pembuluh darah karena terserap keluar kembali ke rongga usus. Pada tahun 1907, Rogers merancang formula revolusioner: 'Hypertonic Saline' berkonsentrasi 1,35% (120 butir NaCl per pint air suling) yang secara osmotik menarik air dari jaringan kembali ke dalam sirkulasi darah. Untuk memantau dosis, Rogers menciptakan tes berat jenis darah menggunakan tetesan gliserin di bangsal. Ditambah dengan pemberian larutan alkali natrium bikarbonat untuk mengatasi asidosis ginjal dan kalium permanganat per oral untuk menetralkan endotoksin usus, keajaiban terjadi di bangsal Kalkuta: pasien yang sudah dingin membeku, tanpa denyut nadi, dan hampir mati bangkit kembali berbicara dalam tempo 30 menit setelah dialiri 3–4 liter cairan salin. Angka kematian di bangsal Rogers anjlok dari 60% menjadi hanya 18%—sebuah tonggak paling cemerlang dalam sejarah terapi rehidrasi modern.",
+        "en": "Rogers grasped that standard isotonic saline (0.9%) failed because it rapidly leaked from compromised vessels back into the gut lumen. In 1907, he synthesized a revolutionary formulation: 'Hypertonic Saline' at 1.35% concentration (120 grains of sodium chloride per pint), osmotically drawing extravasated fluids back into the vascular bed. To tailor infusion volumes precisely, Rogers devised a bedside blood specific gravity test using calibrated glycerin droplets. Adding intravenous alkaline sodium bicarbonate to reverse lethal uremic acidosis and oral potassium permanganate to neutralize endotoxins, a clinical miracle unfolded at Calcutta: cyanotic, pulseless patients on the verge of rigor mortis regained consciousness and color within thirty minutes as three to four liters were infused. Ward mortality plummeted from 60% to 18%—marking the single greatest therapeutic triumph in cholera history."
+      },
+      "image": "/assets/images/cholera/wave-6/ind/ind_ch_06.jpg"
+    },
+    {
+      "id": "ind-ch-07",
+      "chapterNumber": 7,
+      "type": "side_story",
+      "title": {
+        "id": "Disinfeksi Kalium Permanganat & Perang Melawan Kolam Pukur Pedesaan",
+        "en": "Potassium Permanganate Well Disinfection & The War on Village Pukurs"
+      },
+      "date": {
+        "id": "1909–1910",
+        "en": "1909–1910"
+      },
+      "flash": {
+        "id": "DOKTER KELILING MENETESKAN KRISTAL UNGU KALIUM PERMANGANAT KE RIBUAN SUMUR DESA; LANGKAH SANITASI DARURAT PERTAMA SEBELUM KLORIN.",
+        "en": "MOBILE SANITARY SURGEONS DROP PURPLE POTASSIUM PERMANGANATE CRYSTALS INTO THOUSANDS OF WELLS AS PRE-CHLORINE DEFENSE."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Sumur gali batu bata pedesaan dan kolam tanah pukur",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Oksidasi kuman vibrio menggunakan senyawa permanganat alkali kalium",
+        "mutationType": {
+          "id": "Disinfeksi Oksidatif Sumber Air Minum Pedesaan Skala Komunal",
+          "en": "Communal-Scale Oxidative Disinfection of Rural Potable Wellheads"
+        },
+        "threatLevel": {
+          "id": "Moderat (Metode Praktis Lapangan Menekan Angka Kuman di Air Terbuka)",
+          "en": "Moderate (Field Intervention Suppressing Bacterial Loads in Open Water)"
+        },
+        "clinicalTarget": {
+          "id": "Sumur air minum kasta rendah, tangki kuil, dan sumber mata air desa",
+          "en": "Village drinking wells, temple stepped ponds, and rural springheads"
+        }
+      },
+      "description": {
+        "id": "Sebelum klorinasi massal diperkenalkan di India, dinas kesehatan militer dan sipil melancarkan kampanye 'permanganatisasi' sumur air pedesaan. Tim asisten dokter medis pribumi (Sub-Assistant Surgeons) berkeliling dengan tas kulit berisi kristal ungu kalium permanganat (KMnO4). Satu ons kristal dilarutkan ke dalam ember dan dituangkan ke setiap sumur desa hingga air berubah warna menjadi merah muda pucat; warga dilarang mengambil air selama 24 jam sampai senyawa tersebut mengendapkan materi organik dan mengoksidasi bakteri vibrio. Meskipun tidak membunuh 100% spora bakteri lain, permanganatisasi terbukti memutus rantai transmisi kolera akut di desa-desa Benggala dan United Provinces, menjadi senjata desinfeksi paling populer di pedesaan Asia Selatan selama dua dekade.",
+        "en": "Before municipal chlorination penetrated the Indian heartland, public health departments mounted a sweeping rural 'permanganatization' campaign. Squads of Indian Sub-Assistant Surgeons traversed countryside trails equipped with satchels of purple potassium permanganate crystals (KMnO4). Dissolving an ounce into water buckets, they poured the reagent into village wells until the water attained a faint roseate hue; villagers were barred from drawing water for 24 hours while the chemical oxidized organic debris and annihilated swarming vibriones. While unable to sterilize bacterial spores, permanganatization repeatedly checked acute localized outbreaks across Bengal and the United Provinces, standing as the primary chemical barrier in South Asian rural defense for two decades."
+      },
+      "image": "/assets/images/cholera/wave-6/ind/ind_ch_07.jpg"
+    },
+    {
+      "id": "ind-ch-08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Sinergi Malapetaka: Gagal Monsun & Gelombang Kelaparan Punjab-UP",
+        "en": "Synergistic Catastrophe: Monsoon Failures & Punjab-UP Famine Waves"
+      },
+      "date": {
+        "id": "1911–1912",
+        "en": "1911–1912"
+      },
+      "flash": {
+        "id": "KEKERINGAN HEBAT MEMATIKAN PANEN DI UNITED PROVINCES DAN PUNJAB; KORBAN KELAPARAN YANG MEMINUM AIR LUMPUR RESAPAN HABIS DITERJANG KOLERA.",
+        "en": "SEVERE DROUGHT CRIPPLES CROPS ACROSS UNITED PROVINCES AND PUNJAB; FAMINE VICTIMS DRINKING RESIDUAL SLUDGE ARE DECIMATED BY CHOLERA."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Genangan lumpur sisa dasar sumur yang mengering akibat kemarau",
+        "incubation": "6 – 18 Jam",
+        "transmission": "Konsumsi air berlumpur kental berkonsentrasi kuman tinggi oleh tubuh yang mengalami atrofi malnutrisi",
+        "mutationType": {
+          "id": "Konsentrasi Patogen Ekstrem pada Titik Air Kemarau dan Atrofi Imunitas Mukosa",
+          "en": "Extreme Pathogen Concentration in Depleted Drought Wells & Mucosal Achlorhydria"
+        },
+        "threatLevel": {
+          "id": "Katastropik (Kombinasi Fatal Kelaparan Massal dan Toksikosis Bakteri)",
+          "en": "Catastrophic (Fatal Conjunction of Mass Famine and Bacterial Toxicosis)"
+        },
+        "clinicalTarget": {
+          "id": "Petani miskin, kaum kasta Dalit tanpa tanah, dan buruh bantuan kelaparan",
+          "en": "Pauperized peasants, landless Dalit laborers, and famine relief camp workers"
+        }
+      },
+      "description": {
+        "id": "Pada tahun 1911 dan 1912, monsun barat daya gagal memberikan curah hujan yang cukup di kawasan utara dan tengah India, memicu kekeringan dan kelaparan hebat di United Provinces (kini Uttar Pradesh), Punjab, dan Rajputana. Puluhan ribu sumur desa mengering hingga ke dasar berlumpur. Warga yang kehausan terpaksa mengeruk sisa air lumpur pekat di mana bakteri kolera terkonsentrasi dalam kepadatan mengerikan. Pada saat yang sama, malnutrisi berat menyebabkan hilangnya asam lambung (aklorhidria), meruntuhkan barier pertahanan alami tubuh terhadap infeksi bakteri oral. Di kamp-kamp kerja paksa bantuan kelaparan (famine relief works) yang didirikan pemerintah kolonial, kolera membantai buruh-buruh pemecah batu yang lemas dengan kecepatan mencengangkan; lebih dari 200.000 jiwa tewas dalam kurun waktu delapan belas bulan.",
+        "en": "In 1911 and 1912, the southwest monsoon faltered across northern and central India, unleashing devastating agrarian drought across the United Provinces, Punjab, and Rajputana. Tens of thousands of agricultural wells dried down to fetid puddles of mud. Thirst-maddened villagers dredged the remaining sediment, which teemed with concentrated colonies of Vibrio cholerae. Simultaneously, severe famine-induced malnutrition produced hypochlorhydria (loss of gastric stomach acid), dissolving the human body's primary chemical barrier against ingested enteric pathogens. Inside colonial famine relief encampments where starving laborers broke stones for starvation wages, cholera swept through barracks with terrifying speed, cutting down over 200,000 victims in eighteen months."
+      },
+      "image": "/assets/images/cholera/wave-6/ind/ind_ch_08.jpg"
+    },
+    {
+      "id": "ind-ch-09",
+      "chapterNumber": 9,
+      "type": "milestone",
+      "title": {
+        "id": "Mobilisasi Perang Dunia I: Tentara Ekspedisi India & Benteng Biosekuriti Bombay",
+        "en": "World War I Mobilization: Indian Expeditionary Forces & Bombay Biosecurity"
+      },
+      "date": {
+        "id": "1914–1917",
+        "en": "1914–1917"
+      },
+      "flash": {
+        "id": "SATU JUTA TENTARA INDIA DIKIRIM KE MEDAN PERANG EROPA DAN TIMUR TENGAH; VAKSINASI KOLERA WAJIB DIBERLAKUKAN DI PELABUHAN BOMBAY.",
+        "en": "ONE MILLION INDIAN SOLDIERS DISPATCHED OVERSEAS; COMPULSORY CHOLERA VACCINATION INSTITUTED AT BOMBAY EMBARKATION DOCKS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kapal angkut pasukan militer (troopships) menuju Teluk Persia dan Prancis",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Skrining medis ketat dan inokulasi wajib sebelum keberangkatan armada perang",
+        "mutationType": {
+          "id": "Biosekuriti Militeristik Tingkat Kekaisaran dan Inokulasi Wajib Armada Perang",
+          "en": "Imperial Military Biosecurity Protocols & Mandatory Fleet Inoculation"
+        },
+        "threatLevel": {
+          "id": "Terkendali (Pencegahan Wabah Masif di Kapal Angkut Pasukan Samudra)",
+          "en": "Controlled (Prevention of Catastrophic Outbreaks Aboard Ocean Transports)"
+        },
+        "clinicalTarget": {
+          "id": "Prajurit infanteri Indian Army, resimen Gurkha, dan tenaga logistik pelabuhan",
+          "en": "Indian Army infantry, Gurkha regiments, and dockside logistical coolies"
+        }
+      },
+      "description": {
+        "id": "Ketika Perang Dunia I meletus pada Agustus 1914, Kemaharajaan Britania mengerahkan lebih dari satu juta prajurit dan tenaga logistik India (Indian Expeditionary Forces / IEF) ke medan perang Prancis, Mesopotamia, Gallipoli, dan Afrika Timur. Mengingat pengalaman kelam abad ke-19 di mana armada pasukan militer selalu menjadi pemicu pandemi global, Direktur Jenderal IMS memberlakukan protokol biosekuriti modern tanpa kompromi. Di pelabuhan embarkasi Bombay dan Karachi, setiap prajurit diwajibkan menjalani isolasi pra-keberangkatan dan menerima suntikan vaksin kolera dua dosis yang diproduksi Institut Haffkine. Pasukan IEF 'D' yang bertempur di rawa-rawa Sungai Tigris di Mesopotamia sempat menghadapi letupan kolera lokal, namun berkat penyediaan tablet purifikasi klorin halazone dan salin hipertonik Rogers di rumah sakit lapangan, bencana epidemi skala raksasa berhasil dihindari.",
+        "en": "When World War I erupted in August 1914, the British Raj mobilized over one million Indian combatants and logistical laborers (Indian Expeditionary Forces / IEF) for theaters in France, Mesopotamia, Gallipoli, and East Africa. Haunted by 19th-century history where troop movements invariably sparked worldwide pandemics, the Director-General of the IMS instituted stringent biosecurity protocols. At Bombay and Karachi embarkation piers, every recruit underwent pre-embarkation detention and mandatory two-dose cholera inoculation supplied by the Haffkine Institute. While IEF 'D' forces operating amidst the marshes of the Tigris in Mesopotamia faced localized cholera outbreaks, the deployment of halazone water-purification tablets and Rogers' hypertonic saline field kits averted catastrophic troop mortality."
+      },
+      "image": "/assets/images/cholera/wave-6/ind/ind_ch_09.jpg"
+    },
+    {
+      "id": "ind-ch-10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Bencana Ganda 1918: Badai Flu Spanyol Bertemu Kolera Endemik",
+        "en": "The Compound Disaster of 1918: Spanish Flu Meets Endemic Cholera"
+      },
+      "date": {
+        "id": "1918–1919",
+        "en": "1918–1919"
+      },
+      "flash": {
+        "id": "INDIA DICENGKERAM APOCALYPSE BIOLOGIS KEMBAR: FLU SPANYOL MEMBUNUH 14 JUTA JIWA SEMENTARA KOLERA TERUS MERENGGUT RATUSAN RIBU NYAWA.",
+        "en": "INDIA CONFRONTS DUAL BIOLOGICAL APOCALYPSE: SPANISH FLU SLAUGHTERS 14 MILLION AS CHOLERA PERSISTS IN PARALLEL."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae beriringan dengan Virus Influenza A H1N1 1918",
+        "vector": "Penularan ganda: aerosol pernapasan virus flu dan air minum fekal kuman kolera",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Runtuhnya total layanan rumah sakit dan penumpukan jutaan jenazah di tepi sungai",
+        "mutationType": {
+          "id": "Koinfeksi Sindemik Patogen Pernapasan dan Enterik di Tengah Kolaps Total Pelayanan Kesehatan",
+          "en": "Syndemic Co-Circulation of Respiratory and Enteric Pathogens Amidst Health System Collapse"
+        },
+        "threatLevel": {
+          "id": "Bencana Demografis Terbesar dalam Sejarah Modern India",
+          "en": "Greatest Demographic Calamity in Modern South Asian History"
+        },
+        "clinicalTarget": {
+          "id": "Seluruh populasi 300 juta jiwa di pedesaan dan perkotaan India",
+          "en": "Entire 300-million population across rural and urban Indian provinces"
+        }
+      },
+      "description": {
+        "id": "Pada paruh kedua tahun 1918, malapetaka terdahsyat dalam sejarah kesehatan masyarakat menimpa India. Pandemi Flu Spanyol (Influenza A H1N1) menyusup lewat kapal pengangkut serdadu yang pulang ke Bombay dan membakar seantero negeri dengan keganasan yang tak tertandingi, merenggut antara 14 hingga 17 juta jiwa hanya dalam beberapa bulan. Di tengah kolapsnya sistem pemakaman dan tumpukan jenazah di sepanjang tepian Sungai Gangga dan Yamuna, kolera tidak menghilang melainkan terus menyergap populasi yang telah lumpuh oleh virus paru-paru. Air sungai dipenuhi jasad yang membusuk, menaikkan kadar kontaminasi bakteri kolera ke tingkat rekor. Dokter dan perawat berguguran; apotek kehabisan pasokan garam rehidrasi dan kain perban. Musim dingin 1918 dikenang sebagai musim di mana 'kayu bakar di seluruh India habis untuk mengkremasi orang mati'.",
+        "en": "In late 1918, the deadliest biological apocalypse in demographic history engulfed India. The Spanish Influenza pandemic swept in through troopships returning to Bombay and burned across the subcontinent with unmatched fury, slaughtering between 14 and 17 million souls in months. Amidst the total collapse of civic infrastructure and corpses lining the banks of the Ganges and Yamuna, cholera did not recede but preyed upon populations already incapacitated by respiratory necrosis. River waters were choked with floating cadavers, elevating enteric pathogen contamination to historic peaks. Physicians and nurses fell in their tracks; dispensaries ran out of saline salts and cots. The winter of 1918 was remembered as the season when 'all the timber in India was consumed cremating the dead.'"
+      },
+      "image": "/assets/images/cholera/wave-6/ind/ind_ch_10.jpg"
+    },
+    {
+      "id": "ind-ch-11",
+      "chapterNumber": 11,
+      "type": "side_story",
+      "title": {
+        "id": "Misteri Air Suci Gangga Félix d'Hérelle: Penemuan Bakteriofag",
+        "en": "Félix d'Hérelle's Ganges Mystery: The Discovery of Bacteriophage"
+      },
+      "date": {
+        "id": "1920–1921",
+        "en": "1920–1921"
+      },
+      "flash": {
+        "id": "ILMUWAN PRANCIS-KANADA FÉLIX D'HÉRELLE MENELITI KHASIAT MISTERIUS AIR GANGGA; MENEMUKAN VIRUS BAKTERIOFAG PEMAKAN VIBRIO CHOLERAE.",
+        "en": "FRENCH-CANADIAN SCIENTIST FÉLIX D'HÉRELLE PROBES GANGES WATER; DISCOVERS BACTERIOPHAGE VIRUSES CONSUMING VIBRIO CELLS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae dimangsa oleh Vibriophage (Bakteriofag Litik)",
+        "vector": "Air permukaan alami Sungai Gangga di hilir tempat pembuangan kadaver",
+        "incubation": "Siklus litik replikasi virus 20 – 40 Menit",
+        "transmission": "Lisis enzimatik membran sel bakteri kolera oleh partikel virus bakteriofag alami",
+        "mutationType": {
+          "id": "Predasi Biologis Alami: Siklus Lisis Bakteriofag Terhadap Galur Kolera Klasik",
+          "en": "Natural Biological Predation: Lytic Bacteriophage Cycles Against Classical Vibrio"
+        },
+        "threatLevel": {
+          "id": "Terapeutik Eksperimental (Evolusi Pengobatan Antibakteri Biologis Pertama Dunia)",
+          "en": "Experimental Therapeutic (Genesis of World's First Biological Phage Therapy)"
+        },
+        "clinicalTarget": {
+          "id": "Dinding sel peptidoglikan dan reseptor membran luar Vibrio cholerae",
+          "en": "Peptidoglycan cell wall and outer membrane receptors of Vibrio cholerae"
+        }
+      },
+      "description": {
+        "id": "Selama berabad-abad, para pelancong Eropa dibuat terheran-heran oleh fenomena aneh: mengapa para peziarah yang meminum air Sungai Gangga yang dipenuhi bangkai kadaver kolera tidak semuanya musnah? Pada tahun 1920, ahli mikrobiologi Prancis-Kanada Félix d'Hérelle—penemu independen bakteriofag di Institut Pasteur Paris—melakukan perjalanan ilmiah ke Kalkuta dan Benares untuk menguji hipotesisnya. D'Hérelle menyaring air Sungai Gangga dan feses pasien kolera yang sembuh melalui filter porselen Chamberland. Ketika cairan bebas bakteri ini diteteskan ke biakan keruh Vibrio cholerae, cairan seketika berubah jernih: virus mikroskopis alami pemakan kuman (bakteriofag) telah meledakkan sel-sel bakteri dari dalam. D'Hérelle membuktikan bahwa fluktuasi epidemi kolera di India diatur oleh perang biologis abadi antara vibrio dan bakteriofag alami, membuka pintu bagi era terapi fag global.",
+        "en": "For generations, European observers were baffled by a biological enigma: why didn't every pilgrim drinking from the cadaver-strewn waters of the Ganges perish of cholera? In 1920, the visionary French-Canadian microbiologist Félix d'Hérelle—co-discoverer of the bacteriophage at the Pasteur Institute—traveled to Calcutta and Benares to test his hypothesis. D'Hérelle filtered Ganges river samples and stools of convalescent cholera survivors through unglazed Chamberland porcelain candles. When this sterile filtrate was inoculated into turbid broth cultures of Vibrio cholerae, the tubes cleared miraculously overnight: microscopic lytic viral predators (bacteriophages) had ruptured the bacterial cells from within. D'Hérelle demonstrated that cholera epidemic waves in India were governed by an eternal biological war between the vibrio and its co-evolving viral phage, pioneering the frontiers of phage therapy."
+      },
+      "image": "/assets/images/cholera/wave-6/ind/ind_ch_11.jpg"
+    },
+    {
+      "id": "ind-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Kritik Sanitasi Mahatma Gandhi & Gerakan Non-Kooperasi 1921",
+        "en": "Mahatma Gandhi's Sanitary Critique & The 1921 Non-Cooperation Movement"
+      },
+      "date": {
+        "id": "1921–1922",
+        "en": "1921–1922"
+      },
+      "flash": {
+        "id": "MAHATMA GANDHI MENGHUBUNGKAN SANITASI DENGAN KEMERDEKAAN (SWARAJ); SUKARELAWAN KONGRES MENGORGANISASI PEMBERSIHAN DESA MANDIRI.",
+        "en": "MAHATMA GANDHI BINDS SANITATION TO FREEDOM (SWARAJ); CONGRESS VOLUNTEERS MOBILIZE INDEPENDENT VILLAGE CLEANLINESS BRIGADES."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Jamban kering pedesaan dan penanganan tinja manual tanpa sarung tangan",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pembersihan tinja mandiri dengan penguburan tanah kompos (metode sanitasi Ashram)",
+        "mutationType": {
+          "id": "Transformasi Sosiopolitik Higiene Komunal dan Dekonstruksi Tabu Kasta",
+          "en": "Sociopolitical Communal Hygiene Transformation & Caste Taboo Deconstruction"
+        },
+        "threatLevel": {
+          "id": "Substansial (Konflik Ideologis Antara Sanitasi Militer Kolonial vs Gerakan Rakyat)",
+          "en": "Substantial (Ideological Friction: Colonial Military Police vs Grassroots Action)"
+        },
+        "clinicalTarget": {
+          "id": "Masyarakat pedesaan Gujarat, peziarah ashram, dan relawan pemuda Swaraj",
+          "en": "Rural Gujarat villages, ashram disciples, and Swaraj youth volunteer corps"
+        }
+      },
+      "description": {
+        "id": "Ketika Gerakan Non-Kooperasi (Asahayog Andolan) meledak pada tahun 1921, perlawanan terhadap imperialisme Inggris merambah ke bidang kesehatan masyarakat. Mahatma Gandhi menyatakan secara terbuka bahwa 'Sanitasi lebih penting daripada kemerdekaan politik'. Gandhi mengecam kemunafikan pemerintah kolonial yang menghabiskan anggaran raksasa untuk garnisun tentara tetapi menolak memasang pipa air di desa-desa pribumi. Pada saat yang sama, Gandhi menentang sistem kasta yang membebankan pembersihan tinja hanya kepada kaum 'Untouchable' (Dalit), memicu praktik buang air besar sembarangan di kalangan kasta atas. Di ashram-ashramnya, Gandhi mewajibkan setiap pengikutnya menggali jamban kompos tertutup sendiri. Sukarelawan Partai Kongres mulai diterjunkan ke desa-desa saat wabah kolera melanda, mendistribusikan disinfektan dan mengajari warga merebus air minum tanpa bergantung pada aparat kepolisian kolonial.",
+        "en": "As the Non-Cooperation Movement erupted in 1921, the struggle against British imperial rule extended directly into the public health sphere. Mahatma Gandhi famously proclaimed that 'Sanitation is more important than independence.' Gandhi fiercely condemned colonial duplicity for allocating massive budgets to military cantonments while refusing to pipe clean water into indigenous villages. Concurrently, he attacked deep-seated caste taboos that relegated fecal handling solely to 'Untouchables' (Dalits), which fostered widespread open defecation among upper castes. In his ashrams, Gandhi mandated that every disciple manually dig and manage closed trench latrines. Congress volunteers deployed into epidemic zones, distributing disinfectants and training villagers in water purification independent of colonial police enforcement."
+      },
+      "image": "/assets/images/cholera/wave-6/ind/ind_ch_12.jpg"
+    },
+    {
+      "id": "ind-ch-13",
+      "chapterNumber": 13,
+      "type": "standard",
+      "title": {
+        "id": "Vaksinasi Massal & Pembentukan Direktorat Kesehatan Masyarakat Provinsi 1923",
+        "en": "Mass Vaccination & Establishment of Provincial Public Health Directorates (1923)"
+      },
+      "date": {
+        "id": "1923",
+        "en": "1923"
+      },
+      "flash": {
+        "id": "REFORMASI MONTAGU-CHELMSFORD MENYERAHKAN URUSAN KESEHATAN KEPADA MENTERI PRIBUMI; VAKSINASI MASAL MENJANGKAU JUTAAN PETANI BENGGALA.",
+        "en": "MONTAGU-CHELMSFORD REFORMS TRANSFER HEALTH TO INDIAN MINISTERS; SYSTEMATIC VACCINATION DRIVES REACH MILLIONS OF PEASANTS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Vaksin kolera teratenuasi gliserin dosis ganda",
+        "incubation": "N/A (Imunisasi Massal Skala Provinsi)",
+        "transmission": "Penyuntikan subkutan massal di pasar mingguan dan stasiun kereta api pedesaan",
+        "mutationType": {
+          "id": "Institusionalisasi Sistem Kesehatan Masyarakat Sipil Tingkat Provinsi",
+          "en": "Institutionalization of Provincial Civil Public Health Governance"
+        },
+        "threatLevel": {
+          "id": "Terkendali Bertahap (Pembangunan Kekebalan Imunologis Komunal Jangka Panjang)",
+          "en": "Gradually Controlled (Long-Term Communal Herd Immunity Construction)"
+        },
+        "clinicalTarget": {
+          "id": "Masyarakat pedesaan Benggala, anak-anak sekolah distrik, dan pedagang pasar",
+          "en": "Bengal rural communities, district schoolchildren, and weekly market traders"
+        }
+      },
+      "description": {
+        "id": "Berdasarkan Undang-Undang Pemerintah India 1919 (Sistem Diarki Montagu-Chelmsford), urusan kesehatan masyarakat akhirnya dialihkan dari birokrasi militer Inggris ke tangan menteri-menteri terpilih India pada awal 1920-an. Di Benggala, Menteri Kesehatan Sir Surendranath Banerjee dan Direktur Kesehatan Masyarakat Dr. C.A. Bentley mendirikan unit-unit kesehatan bergerak permanen di setiap distrik. Vaksin kolera suntik yang diproduksi di Laboratorium Kalkuta disebarkan secara cuma-cuma ke pasar-pasar mingguan (haat). Lebih dari dua juta warga desa divaksinasi dalam kampanye tahun 1923. Untuk pertama kalinya dalam sejarah anak benua, kurva kematian akibat kolera mulai melandai secara permanen, membuktikan bahwa sains mikrobiologi hanya akan efektif jika dipadukan dengan partisipasi politik dan pemberdayaan masyarakat lokal.",
+        "en": "Under the Government of India Act 1919 (the Montagu-Chelmsford dyarchy reforms), public health administration was formally transferred from British military control to elected Indian ministers in the early 1920s. In Bengal, Minister of Local Self-Government Sir Surendranath Banerjee and Public Health Director Dr. C.A. Bentley instituted permanent rural mobile health units across every district. Cholera vaccines manufactured at the Calcutta laboratory were distributed free of charge at rural weekly markets ('haats'). Over two million peasants were inoculated during the 1923 campaign. For the first time in South Asian history, annual cholera mortality curves initiated a permanent downward descent, proving modern microbiology required indigenous political leadership to achieve enduring success."
+      },
+      "image": "/assets/images/cholera/wave-6/ind/ind_ch_13.jpg"
+    },
+    {
+      "id": "ind-ch-14",
+      "chapterNumber": 14,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Pandemi Keenam di India: Dari Kuburan Massal Menuju Terapi Rehidrasi Global",
+        "en": "Legacy of the Sixth Pandemic in India: From Mass Graves to Global Rehydration"
+      },
+      "date": {
+        "id": "1924–1926",
+        "en": "1924–1926"
+      },
+      "flash": {
+        "id": "LEBIH DARI SATU JUTA JIWA WAFAT SELAMA DUA DEKADE GELOMBANG KEENAM; DARI KANCAH MAUT BENGGALA LAHIR PROTOKOL INFUS SALIN YANG MENYELAMATKAN JUTAAN NYAWA DUNIA.",
+        "en": "OVER ONE MILLION SOULS PERISHED ACROSS TWO DECADES; FROM BENGAL'S AGONY AROSE SALINE PROTOCOLS THAT SAVED MILLIONS WORLDWIDE."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik O1",
+        "vector": "Sintesis sejarah kedokteran tropis dan fisiologi rehidrasi modern",
+        "incubation": "N/A (Analisis Historiografi Klinis Jangka Panjang)",
+        "transmission": "Transformasi paradigma medis dari pengobatan simptomatik beracun menuju resusitasi cairan ilmiah",
+        "mutationType": {
+          "id": "Kanonisasi Terapi Cairan Intravena dan Fisiologi Keseimbangan Elektrolit Manusia",
+          "en": "Canonization of Intravenous Fluid Resuscitation & Human Electrolyte Physiology"
+        },
+        "threatLevel": {
+          "id": "Terkendali Permanen (Evolusi Menuju Terapi Oralit Abad ke-20)",
+          "en": "Permanently Controlled (Evolution Toward 20th-Century Oral Rehydration Salts)"
+        },
+        "clinicalTarget": {
+          "id": "Seluruh populasi dunia yang rentan terhadap penyakit diare dehidrasi akut",
+          "en": "The entire global population vulnerable to acute diarrheal dehydration"
+        }
+      },
+      "description": {
+        "id": "Gelombang Keenam Kolera (1899–1923) menorehkan luka demografis yang amat dalam bagi anak benua India, dengan total korban jiwa diperkirakan melampaui 1,5 juta jiwa. Namun, dari laboratorium dan bangsal rumah sakit Kalkuta yang penuh duka, lahir revolusi terbesar dalam kedokteran klinis modern. Penemuan infus salin hipertonik dan terapi alkali oleh Sir Leonard Rogers tidak hanya menyelamatkan puluhan ribu pasien kolera di India, melainkan meletakkan fondasi ilmiah bagi seluruh terapi cairan intravena dan resusitasi syok di seluruh dunia. Pengalaman berharga dari Gelombang Keenam ini kelak menjadi batu pijakan bagi para peneliti di Kalkuta dan Dhaka empat dekade kemudian untuk menciptakan Terapi Rehidrasi Oral (Oral Rehydration Salts / ORS)—paket garam sederhana yang diakui UNICEF dan WHO sebagai penemuan medis paling banyak menyelamatkan nyawa anak-anak dalam sejarah umat manusia.",
+        "en": "The Sixth Cholera Pandemic (1899–1923) carved an agonizing demographic wound across the Indian subcontinent, taking more than 1.5 million lives. Yet from the sorrowful wards of Calcutta Medical College emerged the greatest revolution in modern clinical therapeutics. Sir Leonard Rogers' pioneering development of hypertonic saline and intravenous alkaline therapy did not merely save tens of thousands in India; it laid the unassailable physiological foundation for all modern intravenous fluid resuscitation and shock management worldwide. The hard-won clinical insights of the Sixth Wave served four decades later as the direct stepping stone for researchers in Calcutta and Dhaka to develop Oral Rehydration Salts (ORS)—hailed by UNICEF and the WHO as the most lifesaving medical breakthrough of the 20th century."
+      },
+      "image": "/assets/images/cholera/wave-6/ind/ind_ch_14.jpg"
+    }
+  ]
+}
