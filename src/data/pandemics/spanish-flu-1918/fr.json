@@ -4,7 +4,10 @@
         "id": "Sektor FR (Prancis: Kamp Transit Étaples, Parit Front Barat, & Pendaratan Brest // 1918–1919)",
         "en": "Sector FR (France: Étaples Staging Camp, Western Front Trenches, & Brest Landings // 1918–1919)"
     },
-    "coordinates": [46.2276, 2.2137],
+    "coordinates": [
+        46.2276,
+        2.2137
+    ],
     "timeRange": "April 1918 – Pertengahan 1919",
     "estimatedFatalities": "400.000+ jiwa (Masyarakat sipil dan prajurit di sepanjang Front Barat)",
     "chapters": [
@@ -253,6 +256,86 @@
             "chapterNumber": 7,
             "type": "side_story",
             "title": {
+                "id": "Dr. Fernand Widal & Uji Terapi Salpêtrière: Ikhtiar Kamper Intravena",
+                "en": "Dr. Fernand Widal & The Salpêtrière Trials: The Frantic Search for an Antiserum"
+            },
+            "date": {
+                "id": "Oktober 1918",
+                "en": "October 1918"
+            },
+            "flash": {
+                "id": "DOKTER TERNAMA FERNAND WIDAL MEMIMPIN UJI COBA KLINIS DARURAT DI SALPÊTRIÈRE MENGGUNAKAN SERUM DARAH KUDA DAN MINYAK KAMPER INTRAVENA UNTUK MELAWAN SIANOSIS AKUT.",
+                "en": "ACCLAIMED CLINICIAN FERNAND WIDAL DIRECTS EMERGENCY CLINICAL TRIALS AT SALPÊTRIÈRE DEPLOYING ANTIMICROBIAL SERA AND INTRAVENOUS CAMPHOR AGAINST FULMINANT CYANOSIS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Eksperimen Terapi Darurat Pra-Antibiotik)",
+                "vector": "Bangsal isolasi darurat Rumah Sakit Salpêtrière dan Hôpital Laennec, Paris",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Kontak nosokomial droplet di bangsal penelitian eksperimental",
+                "mutationType": {
+                    "id": "Eksplorasi Imunoterapi Pasif dan Terapi Suportif Kardiovaskular Darurat",
+                    "en": "Exploration of Passive Immunotherapy and Emergency Cardiovascular Support"
+                },
+                "threatLevel": {
+                    "id": "Kritis Riset (Tingkat Kegagalan Tinggi Akibat Agen Penyebab Belum Diketahui Pasti)",
+                    "en": "Research Critical (High Failure Rates Driven by Misidentified Pathogen)"
+                },
+                "clinicalTarget": {
+                    "id": "Pasien prajurit muda dengan kegagalan napas akut di bangsal Salpêtrière",
+                    "en": "Young military recruits suffering fulminant pulmonary collapse at Salpêtrière"
+                }
+            },
+            "description": {
+                "id": "Di Rumah Sakit Pitié-Salpêtrière yang bersejarah di Paris, Dr. Fernand Widal—ilmuwan pencipta uji diagnostik demam tifoid terkemuka—menghadapi gelombang pasien yang paru-parunya terisi cairan berbusa merah muda. Karena mengira infeksi dipicu atau diperparah oleh basil Pfeiffer dan streptokokus, Widal menguji berbagai serum antibakteri, injeksi minyak kamper intravena, dan bahkan pemberian oksigen murni melalui sungkup primitif. Meskipun upaya heroik ini mendokumentasikan secara rinci fenomena badai sitokin dan kolaps kardiopulmoner, para dokter Paris dipaksa mengakui keterbatasan sains mereka: tanpa pemahaman tentang partikel virus sub-mikroskopis, mereka bertarung melawan musuh yang tak kasat mata.",
+                "en": "Within the cavernous wards of Paris's historic Pitié-Salpêtrière Hospital, Dr. Fernand Widal—internationally celebrated for developing the Widal typhoid serodiagnosis—confronted waves of young men suffocating under bloody pulmonary froth. Convinced that Pfeiffer's bacillus and secondary streptococci drove the carnage, Widal directed frantic bedside experiments: injecting experimental antistreptococcal horse sera, administering intravenous camphorated oil to stabilize failing myocardium, and trialing crude oxygen inhalers. While Widal's exhaustive clinical records provided early documentation of cytokine storm pathology, the trial proved heartbreakingly futile: early 20th-century medicine was utterly blind to the submicroscopic filterable virus ravaging their patients."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_07.jpg"
+        },
+        {
+            "id": "fr-ch-08",
+            "chapterNumber": 8,
+            "type": "side_story",
+            "title": {
+                "id": "Surat-Surat Marcel Proust dari Balik Gabus: Isolasi di Boulevard Haussmann",
+                "en": "Marcel Proust's Letters from Isolation: The Reclusive Author in His Cork-Lined Boudoir"
+            },
+            "date": {
+                "id": "Musim Gugur 1918",
+                "en": "Autumn 1918"
+            },
+            "flash": {
+                "id": "DARI KAMAR BERLAPIS GABUS DI BOULEVARD HAUSSMANN, NOVELIS MARCEL PROUST MENCATAT KETAKUTAN TERHADAP INFLUENZA DALAM KORESPONDENSI PRIBADI DENGAN SAHABAT-SAHABATNYA.",
+                "en": "FROM HIS CORK-LINED BEDROOM ON BOULEVARD HAUSSMANN, NOVELIST MARCEL PROUST CHRONICLES HYPOCHONDRIAC TERROR OF THE GRIPPE IN INTIMATE LETTERS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Dampak Psikososial Kaum Intelektual Paris)",
+                "vector": "Korespondensi pos, pelayan pribadi, dan suplai makanan ke apartemen kedap udara",
+                "incubation": "24 Jam",
+                "transmission": "Ketakutan penularan aerosol yang memicu pengurungan diri total bagi penderita asma kronis",
+                "mutationType": {
+                    "id": "Trauma Neuropsikiatri dan Isolasi Sukarela Kaum Rentan Medis",
+                    "en": "Neuropsychiatric Dread and Voluntary Shielding of Medically Vulnerable Elite"
+                },
+                "threatLevel": {
+                    "id": "Sedang-Tinggi (Kerapuhan Respiratorik Parah pada Penderita Asma)",
+                    "en": "Moderate-High (Extreme Vulnerability Among Chronic Asthmatics)"
+                },
+                "clinicalTarget": {
+                    "id": "Kaum borjuis rentan, seniman, dan penderita gangguan paru kronis di Paris",
+                    "en": "Vulnerable bourgeois aesthetes, artists, and chronic pulmonary invalids in Paris"
+                }
+            },
+            "description": {
+                "id": "Di apartemennya yang termasyhur di Boulevard Haussmann nomor 102, pengarang legendaris Marcel Proust—yang menderita asma bronkial parah—mengunci diri rapat-rapat di dalam kamar tidurnya yang dilapisi gabus kedap suara. Mengetahui bahwa wabah 'la grippe' sedang membantai ribuan warga Paris di luar jendela apartemennya, Proust hidup dalam paranoia intens. Ia mewajibkan pelayannya, Céleste Albaret, membakar bubuk fumigasi Legras dan mendisinfeksi semua surat serta paket yang masuk. Dalam surat-surat yang ditulisnya dengan tangan gemetar kepada teman-temannya seperti Walter Berry dan Daniel Halévy, Proust melukiskan suasana kota Paris yang mencekam, di mana setiap batuk di jalanan terdengar seperti vonis hukuman mati bagi orang-orang yang rapuh paru-parunya.",
+                "en": "At 102 Boulevard Haussmann, celebrated novelist Marcel Proust—plagued his entire adult life by incapacitating bronchial asthma—barricaded himself inside his famous cork-lined, hermetically sealed bedroom. Fully aware that 'la grippe espagnole' was devouring thousands across Paris, Proust operated under suffocating dread. He instructed his devoted housekeeper, Céleste Albaret, to fumigate the corridors with pungent Legras powders and handle correspondence with chemical disinfectants. In feverish late-night letters to confidants like Walter Berry and Daniel Halévy, Proust penned haunting vignettes of a paralyzed capital where any passing cough seemed an inescapable death sentence for vulnerable lungs."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_08.jpg"
+        },
+        {
+            "id": "fr-ch-09",
+            "chapterNumber": 9,
+            "type": "side_story",
+            "title": {
                 "id": "Napas Terakhir Guillaume Apollinaire di Paris",
                 "en": "The Dying Breath of Guillaume Apollinaire: The Poet and the Crowd"
             },
@@ -286,11 +369,11 @@
                 "id": "Salah satu korban paling tragis di Paris adalah penyair legendaris Guillaume Apollinaire, bapak pencipta istilah 'surealisme' yang pernah terluka parah di kepala oleh serpihan peluru meriam di garis depan pada 1916. Pada awal November 1918, tubuh Apollinaire yang lemah diserang oleh virus influenza gelombang kedua. Di apartemennya di Boulevard Saint-Germain, ia berjuang menarik napas terakhirnya pada 9 November 1918 di hadapan istrinya yang berduka. Ironi sejarah yang memilukan terjadi di luar jendelanya: massa rakyat Paris yang merayakan turun takhtanya Kaiser Wilhelm II dari Jerman berteriak riuh di jalanan: 'À bas Guillaume! À bas Guillaume!' ('Gulingkan Guillaume!'). Di tempat tidurnya yang sekarat, sang penyair mengira massa sedang menuntut kematiannya sendiri.",
                 "en": "Among the most poignant cultural casualties was celebrated vanguard poet Guillaume Apollinaire, who had coined the term 'surrealism' and survived a severe shrapnel head wound on the Western Front in 1916. In early November 1918, Apollinaire's compromised constitution was overwhelmed by the savage second wave. In his fourth-floor garret on Boulevard Saint-Germain, he gasped for breath as pulmonary edema drowned his lungs on November 9, 1918. A chilling tragic irony played out in the street below: Parisian crowds, ecstatic over the abdication of Kaiser Wilhelm II of Germany, surged past chanting furiously: 'À bas Guillaume! À bas Guillaume!' ('Down with William!'). In his terminal delirium, the dying poet whispered to his wife that the mob was clamoring for his own death."
             },
-            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_07.jpg"
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_09.jpg"
         },
         {
-            "id": "fr-ch-08",
-            "chapterNumber": 8,
+            "id": "fr-ch-10",
+            "chapterNumber": 10,
             "type": "side_story",
             "title": {
                 "id": "Biarawati, Minyak Kamper, & Larutan Garam Palang Merah Prancis",
@@ -326,11 +409,11 @@
                 "id": "Rumah sakit militer darurat di seluruh Prancis kehabisan obat-obatan. Antibiotik belum ditemukan, dan vaksin influenza yang dibuat saat itu salah sasaran karena para ilmuwan masih mengira penyebabnya adalah bakteri basil Pfeiffer (*Haemophilus influenzae*). Para suster biarawati dan perawat Palang Merah Prancis hanya memiliki sarana perawatan suportif paling primitif: menyuntikkan minyak kamper dan eter untuk menstimulasi detak jantung yang melemah, meneteskan larutan garam fisiologis di bawah kulit, serta menyelimuti dada pasien dengan tapal biji sesawi panas. Banyak perawat dan dokter tertular dan meninggal di samping ranjang pasien yang mereka rawat, menjadi martir kemanusiaan di garis depan pertempuran biologis.",
                 "en": "Emergency military lazarettos across France faced total pharmacological destitution. Antibiotics lay a quarter-century in the future, and contemporary vaccines were worthless concoctions aimed erroneously at Pfeiffer's bacillus (*Haemophilus influenzae*). French Red Cross volunteers and Catholic nursing sisters of the Order of St. Vincent de Paul had only primitive palliative measures at hand: intramuscular injections of camphorated oil and ether to stimulate failing cardiac muscle, subcutaneous saline infusions, and blistering mustard plasters laid across chests. Unprotected by modern respirators, scores of devoted nurses contracted the infection and perished beside the very cots they attended."
             },
-            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_08.jpg"
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_10.jpg"
         },
         {
-            "id": "fr-ch-09",
-            "chapterNumber": 9,
+            "id": "fr-ch-11",
+            "chapterNumber": 11,
             "type": "standard",
             "title": {
                 "id": "Oktober Kelam Paris: Krisis Peti Mati & Kain Kafan Hitam",
@@ -366,11 +449,51 @@
                 "id": "Pada Oktober 1918, kematian di Paris melonjak hingga lebih dari 3.000 jiwa per pekan. Tradisi pemakaman Prancis yang megah dengan kereta kuda berhiaskan kain beledu hitam runtuh seketika. Seluruh persediaan kain kafan hitam habis terjual, dan kuda-kuda penarik kereta jenazah kelelahan atau mati. Otoritas kepolisian terpaksa melarang iring-iringan pemakaman umum karena pemandangan peti mati yang terus-menerus melintasi jalan raya memicu kepanikan warga. Jenazah dibawa tergesa-gesa langsung ke Pemakaman Pantin dan Père Lachaise dengan truk militer berpenutup terpal, tempat mereka dikubur tanpa nyanyian paduan suara gereja atau penghormatan terakhir keluarga.",
                 "en": "In October 1918, the death toll in Paris surged past 3,000 fatalities per week. The elaborate French tradition of ceremonial funerals—featuring ebony-plumed carriage hearses draped in black velvet—completely disintegrated. Haberdashers sold out of black funerary crepe, and draft horses hauling hearses dropped dead from exhaustion. Prefectural police banned public funeral processions altogether, recognizing that the sight of endless processions moving down the boulevards was inciting mass panic. Corpses were loaded into canvas-draped military trucks and rushed directly to Pantin, Thiais, and Père Lachaise cemeteries, deposited into common graves without choral requiems or family farewells."
             },
-            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_09.jpg"
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_11.jpg"
         },
         {
-            "id": "fr-ch-10",
-            "chapterNumber": 10,
+            "id": "fr-ch-12",
+            "chapterNumber": 12,
+            "type": "standard",
+            "title": {
+                "id": "Departemen Utara yang Luluh Lantak: Flu di Reruntuhan Ruang Bawah Tanah Lille",
+                "en": "The Scorched North: Devastated Departments & Ruined Cellars of Lille"
+            },
+            "date": {
+                "id": "November – Desember 1918",
+                "en": "November – December 1918"
+            },
+            "flash": {
+                "id": "KETIKA TENTARA JERMAN MUNDUR, RATUSAN RIBU WARGA LILLE DAN ROUBAIX YANG KELAPARAN DAN TINGGAL DI RUANG BAWAH TANAH LEMBAP DIHANTAM BADAI INFLUENZA MUSIM DINGIN.",
+                "en": "AS OCCUPYING GERMAN TROOPS RETREAT, MALNOURISHED RESIDENTS IN RUINED CELLARS OF LILLE AND ROUBAIX ARE SAVAGED BY WINTER FLU EPIDEMIC."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Kombinasi Mematikan Malnutrisi Pascaperang dan Cuaca Beku)",
+                "vector": "Ruang bawah tanah berjamur, barak pengungsian, dan sumur air yang tercemar di Prancis Utara",
+                "incubation": "18 – 36 Jam",
+                "transmission": "Aerosol di antara ribuan pengungsi yang berdesakan di reruntuhan bangunan tanpa pemanas",
+                "mutationType": {
+                    "id": "Eksaserbasi Kematian Akibat Defisiensi Imunitas Karena Malnutrisi Ekstrem",
+                    "en": "Lethal Compounding of Cachexia, Hypothermia, and Secondary Bacterial Pneumonia"
+                },
+                "threatLevel": {
+                    "id": "Sangat Tinggi (Mortalitas Berlipat Ganda pada Populasi yang Bertahan di Zona Perang)",
+                    "en": "Very High (Compounded Mortality in Depleted Post-Occupation Populations)"
+                },
+                "clinicalTarget": {
+                    "id": "Anak-anak, wanita, dan lansia korban empat tahun pendudukan Jerman di utara Prancis",
+                    "en": "Malnourished women, children, and elderly survivors of German military occupation"
+                }
+            },
+            "description": {
+                "id": "Ketika pasukan Sekutu membebaskan kota industri Lille, Roubaix, dan Tourcoing di departemen Nord pada akhir Oktober 1918, mereka mendapati pemandangan yang menyayat hati. Selama empat tahun pendudukan militer Jerman, penduduk setempat telah diperas tenaganya, mengalami krisis gizi buruk yang kronis, dan ribuan orang terpaksa berlindung di ruang bawah tanah basah yang remang-remang karena rumah mereka dihancurkan artileri. Saat gelombang kedua flu influenza menerjang di tengah hawa dingin musim gugur yang menusuk, populasi yang kekurangan gizi ini tidak berdaya. Di Lille, seluruh keluarga ditemukan meninggal berjejer di atas tikar jerami tanpa kayu bakar untuk penghangat, memicu operasi darurat Palang Merah untuk menyalurkan ransum sup hangat dan kain selimut wol tebal.",
+                "en": "When British and French divisions liberated the great industrial conurbations of Lille, Roubaix, and Tourcoing in late October 1918, they encountered an apocalyptic civilian nightmare. Four long years of harsh German military occupation, near-starvation rations, and forced factory labor had reduced the civilian population to emaciated wraiths sheltering in dank, flooded cellars beneath pulverized ruins. When the savage second influenza wave slammed into these damp subterranean refuges amidst early frosts, immune resistance was non-existent. Entire families suffocated together on straw pallets with no coal for fires, prompting desperate emergency relief convoys delivering hot broth and wool blankets to stave off demographic extinction."
+            },
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_12.jpg"
+        },
+        {
+            "id": "fr-ch-13",
+            "chapterNumber": 13,
             "type": "milestone",
             "title": {
                 "id": "Pesta Kemenangan 11 November: Vektor Kerumunan Champs-Élysées",
@@ -406,11 +529,11 @@
                 "id": "Ketika sirine kota dan dentuman meriam mengumumkan penandatanganan Gencatan Senjata di Hutan Compiègne pada 11 November 1918, ketakutan terhadap penyakit influenza sekejap sirna tertelan luapan sukacita kemenangan. Lebih dari satu juta manusia tumpah ke Place de la Concorde, Champs-Élysées, dan sepanjang Sungai Seine. Orang-orang bernyanyi histeris mengumandangkan *La Marseillaise*, menari berputar-putar, serta memeluk dan mencium tentara asing dari berbagai belahan bumi. Bagi virus influenza yang masih aktif bersirkulasi, kerumunan tanpa batas ini adalah anugerah terbesar. Hanya berselang beberapa pekan setelah pesta pora tersebut, angka rawat inap kembali melonjak drastis, memicu gelombang ketiga yang mencengkeram Prancis sepanjang musim dingin yang beku.",
                 "en": "When factory sirens and blank artillery salvoes announced the signing of the Armistice in the Forest of Compiègne on November 11, 1918, terror of the contagion vanished in a tidal wave of patriotic ecstasy. Over one million people poured into the Place de la Concorde, the Champs-Élysées, and along the quays of the Seine. Strangers linked arms to belt out *La Marseillaise*, dancing wildly and planting fervent kisses upon Allied soldiers from across the globe. For the circulating H1N1 virus, this jubilant sea of humanity was the ultimate vector jackpot. Within three weeks of the armistice carnival, hospital admissions spiked dramatically, locking France in the lethal grip of a third winter wave."
             },
-            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_10.jpg"
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_13.jpg"
         },
         {
-            "id": "fr-ch-11",
-            "chapterNumber": 11,
+            "id": "fr-ch-14",
+            "chapterNumber": 14,
             "type": "side_story",
             "title": {
                 "id": "Vektor Demobilisasi: Pulangnya Poilus ke Pedesaan Prancis",
@@ -446,11 +569,11 @@
                 "id": "Seiring dimulainya demobilisasi bertahap lima juta serdadu Prancis (*Poilus*), virus menyebar dari konsentrasi militer menuju desa-desa agraris terpencil di seluruh Prancis. Di wilayah pegunungan Auvergne, Massif Central, dan Pyrenees yang sebelumnya luput dari perang, para serdadu disambut dengan perjamuan keluarga di ruang makan sempit yang hangat. Namun beberapa hari setelah sang pahlawan tiba, orang tua renta, istri, dan anak-anak mereka mulai menderita demam berdarah yang mematikan. Tragedi ini diperparah oleh ketiadaan dokter desa, karena sebagian besar tenaga medis belum dipulangkan dari rumah sakit garis depan, meninggalkan keluarga-keluarga pedesaan merawat orang terkasih mereka dengan doa dan ramuan tradisional.",
                 "en": "As France gradually demobilized its five-million-man army, the infection dispersed from frontline garrisons into remote pastoral hamlets across the provinces. In mountainous redoubts like the Auvergne, Massif Central, and the Pyrenees that had escaped the ravages of artillery, returning poilus were embraced at festive kitchen tables in tight, draft-sealed farmhouses. Within days of their hero's return, aging parents, wives, and children collapsed with cyanotic fevers. The tragedy was compounded by an absolute absence of rural physicians, as military doctors remained locked in garrison service, leaving rural families to watch loved ones suffocate with only village priests to offer comfort."
             },
-            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_11.jpg"
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_14.jpg"
         },
         {
-            "id": "fr-ch-12",
-            "chapterNumber": 12,
+            "id": "fr-ch-15",
+            "chapterNumber": 15,
             "type": "summary",
             "title": {
                 "id": "Audit Epidemiologis Prancis: Generasi yang Hilang & Pembentukan Kementerian Kesehatan",
@@ -486,7 +609,7 @@
                 "id": "Bagi Prancis, flu 1918 bukanlah bencana yang berdiri sendiri, melainkan babak akhir yang menyempurnakan kehancuran satu generasi utuh. Digabungkan dengan 1,4 juta serdadu yang gugur di medan perang dan ratusan ribu lainnya yang cacat seumur hidup, kematian lebih dari 400.000 warga sipil dan prajurit akibat influenza meninggalkan piramida demografi Prancis berlubang secara permanen. Namun bencana ini menyadarkan para pemimpin politik bahwa kesehatan rakyat tidak lagi dapat diserahkan semata-mata pada inisiatif amal swasta. Pada April 1920, Parlemen Prancis membentuk *Ministère de l'Hygiène, de l'Assistance et de la Prévoyance Sociales*—Kementerian Kesehatan pertama dalam sejarah Republik Prancis—yang memodernisasi tata kelola sanitasi, karantina pelabuhan, dan pengawasan penyakit menular nasional.",
                 "en": "For France, the 1918 influenza was not an isolated tragedy, but the final hammer blow that completed the decimation of an entire generation. Superimposed upon the 1.4 million military fatalities of the trenches and hundreds of thousands maimed, the death of over 400,000 citizens from the flu permanently gouged the French demographic pyramid. Yet out of this grief arose a profound political awakening: public hygiene could no longer be relegated to disjointed municipal charities. In April 1920, the French Parliament established the *Ministère de l'Hygiène, de l'Assistance et de la Prévoyance Sociales*—the first dedicated Ministry of Health in the history of the Republic—initiating centralized port quarantine, compulsory disease notification, and scientific epidemiological administration."
             },
-            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_12.jpg"
+            "image": "/assets/images/spanish-flu-1918/fr/fr_ch_15.jpg"
         }
     ]
 }
