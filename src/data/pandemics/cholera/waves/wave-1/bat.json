@@ -1,0 +1,517 @@
+{
+    "sectorId": "BAT",
+    "waveIndex": 1,
+    "sectorName": {
+        "id": "Sektor Batavia & Pulau Jawa (Tragedi Kali Besar & Jalan Raya Pos 1821)",
+        "en": "Sector Batavia & Java (Kali Besar & The Great Post Road 1821)"
+    },
+    "coordinates": [-6.2088, 106.8456],
+    "timeRange": "April 1821 – Akhir 1822 M",
+    "estimatedFatalities": "100.000 – 125.000 (Pulau Jawa & Madura)",
+    "chapters": [
+        {
+            "id": "bat-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Pendaratan Maut di Muara Sunda Kelapa",
+                "en": "Fatal Ingress at Sunda Kelapa Harbor"
+            },
+            "date": {
+                "id": "April 1821 M",
+                "en": "April 1821 AD"
+            },
+            "flash": {
+                "id": "Kapal dagang bertiang layar dari Selat Malaka merapat di muara Ciliwung, membawa awak kapal yang terinfeksi dan memicu wabah kolera pertama di Hindia Belanda.",
+                "en": "A masted merchantman from the Malacca Strait berths at the Ciliwung estuary, carrying infected crewmen and igniting the first cholera outbreak in the Dutch East Indies."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+                "vector": "Awak Kapal Niaga & Air Balas Terkontaminasi",
+                "incubation": "Beberapa Jam – 5 Hari",
+                "transmission": "Kontak langsung kuli pelabuhan dengan muatan kapal dan pembuangan air got kapal ke muara"
+            },
+            "description": {
+                "id": "Pada minggu ketiga April 1821, sebuah kapal dagang kayu berbendera sewaan berlayar memasuki perairan teluk Batavia setelah menempuh pelayaran niaga dari Penang dan Malaka. Di atas geladak, beberapa awak pribumi dan kelasi Tionghoa telah terserang diare hebat dan kejang otot ekstrem. Saat kapal membuang jangkar di pangkalan luar Sunda Kelapa, air bilga dan kotoran penderita dibuang langsung ke muara Sungai Ciliwung. Kuli-kuli panggul pelabuhan yang membongkar muatan sutra, candu, dan perkakas besi terpapar oleh droplet tinja kering dan air muara yang terkontaminasi. Dalam waktu kurang dari empat puluh delapan jam, kasus-kasus mual mendadak dan kematian kolaps mulai dilaporkan di permukiman nelayan Luar Batang dan gudang-gudang rempah peninggalan VOC.",
+                "en": "During the third week of April 1821, a wooden merchant vessel chartered from Penang and Malacca entered the roadstead of Batavia. Aboard the decks, several native sailors and Chinese crewmen were in the throes of watery diarrhea and agonizing muscle spasms. When the ship dropped anchor at the outer anchorage of Sunda Kelapa, contaminated bilge water and patient waste were discharged directly into the mouth of the Ciliwung River. Harbor coolies unloading cargoes of silk, opium, and ironware were exposed to dry aerosolized fecal matter and brackish estuarine water. Within forty-eight hours, acute prostrations and sudden mortalities erupted among the fishermen of Luar Batang and the waterfront spice warehouses of the former VOC."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_01.jpg"
+        },
+        {
+            "id": "bat-ch-02",
+            "chapterNumber": 2,
+            "type": "standard",
+            "title": {
+                "id": "Sedimentasi Maut Kanal Kali Besar Batavia Lama",
+                "en": "The Stagnant Sediments of Kali Besar Canal"
+            },
+            "date": {
+                "id": "April – Mei 1821 M",
+                "en": "April – May 1821 AD"
+            },
+            "flash": {
+                "id": "Kanal-kanal Batavia Lama yang dangkal dan tersumbat sedimentasi lumpur vulkanik menjadi inkubator bakteri raksasa di bawah terik khatulistiwa.",
+                "en": "The shallow canals of Old Batavia, clogged with volcanic silt and organic refuse, became a colossal incubator under the equatorial heat."
+            },
+            "virusProfile": {
+                "agent": "Enterotoksin Kolera (Choleragen)",
+                "vector": "Air Kanal Terstagnasi & Endapan Lumpur Organik",
+                "incubation": "12 – 48 Jam",
+                "transmission": "Penggunaan air kanal Kali Besar untuk mandi, mencuci bahan pangan, dan minum warga kota bawah"
+            },
+            "description": {
+                "id": "Batavia Lama (Oud Batavia) dirancang pada abad ke-17 menyerupai kota-kota kanal di Belanda, namun iklim tropis khatulistiwa menjadikannya jebakan maut ekologis. Sejak letusan Gunung Salak tahun 1699, aliran Kali Besar mengalami pendangkalan hebat akibat endapan lahar dingin dan tanah lempung vulkanik. Arus air melambat menjadi kubangan lumpur hitam yang pekat. Ribuan penduduk kelas bawah, buruh budak, dan pedagang pasar memanfaatkan air kanal Kali Besar untuk segala keperluan harian: membuang kotoran jamban gantung, mencuci beras dan sayuran, hingga mengambil air masak. Ketika kuman Vibrio cholerae masuk ke dalam hidrologi tertutup ini, air yang hangat dan kaya bahan organik bertindak sebagai media biakan mikrobiologis tanpa batas, menciptakan paparan berulang dengan dosis infektif masif bagi seluruh warga di bantaran kanal.",
+                "en": "Old Batavia was engineered in the seventeenth century in the architectural image of Dutch canal towns, but the tropical climate turned the grid into a lethal ecological sink. Ever since Mount Salak erupted in 1699, the broad channel of Kali Besar suffered severe siltation from volcanic clays and detritus, reducing its current to a sluggish black slurry. Thousands of lower-class inhabitants, bonded laborers, and market vendors relied entirely upon Kali Besar for daily survival: discharging overhanging latrines, rinsing vegetables, and drawing water for domestic consumption. Once Vibrio cholerae penetrated this stagnant hydrological network, warm organic-rich waters served as an optimal culture medium, delivering massive infective bacterial loads to every household drawing from the riverbanks."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_02.jpg"
+        },
+        {
+            "id": "bat-ch-03",
+            "chapterNumber": 3,
+            "type": "standard",
+            "title": {
+                "id": "Teror Dehidrasi di Bilik Bambu Ciliwung",
+                "en": "The Terror of Dehydration in Ciliwung's Bamboo Shacks"
+            },
+            "date": {
+                "id": "Mei 1821 M",
+                "en": "May 1821 AD"
+            },
+            "flash": {
+                "id": "Kematian menyerang dengan kecepatan kilat; diare encer 'cucian beras' merenggut cairan tubuh warga kampung dalam hitungan jam hingga membiru.",
+                "en": "Death struck with ferocious speed; profuse 'rice-water' stool drained villagers' bodily fluids within hours, turning limbs cyanotic and sunken."
+            },
+            "virusProfile": {
+                "agent": "Asidosis Metabolik & Kolaps Sirkulasi",
+                "vector": "Ekskreta Penderita di Jamban Terbuka",
+                "incubation": "6 – 24 Jam",
+                "transmission": "Kontaminasi silang sumur dangkal kampung oleh rembesan jamban bantaran sungai"
+            },
+            "description": {
+                "id": "Di perkampungan padat pribumi seperti Kampung Bandan, Kampung Melayu, dan Penjaringan, wabah menunjukkan keganasan klinis yang belum pernah disaksikan sebelumnya. Korban yang saat fajar masih tampak bugar dan bekerja di pasar mendadak terserang mulas hebat sebelum tengah hari. Evakuasi cairan usus berbentuk cucian beras (rice-water stools) berlangsung tanpa henti hingga mencapai belasan liter dalam sehari. Korban mengalami kram betis yang luar biasa menyakitkan, bola mata cekung ke dalam rongga tengkorak (facies cholerica), dan kulit jari-jemari mengerut seperti tangan pencuci pakaian akibat dehidrasi berat. Kehilangan volume plasma darah yang drastis memicu syok hipovolemik dan asidosis fatal; denyut nadi melemah hingga tak teraba, dan tubuh korban membiru dingin (algitic phase) sebelum henti jantung merenggut nyawa mereka sebelum senja tiba.",
+                "en": "In crowded native kampungs such as Kampung Bandan, Kampung Melayu, and Penjaringan, the pathogen manifested clinical virulence unlike anything previously recorded in the archipelago. Villagers healthy at dawn collapsed by midday under sudden explosive diarrhea. Incessant watery evacuations resembling rice water drained ten to twenty liters of vital bodily fluids in a single day. Sufferers endured agonizing muscular spasms in the calves, profound orbital sunkenness (facies cholerica), and shriveled 'washerwoman's hands' from catastrophic fluid depletion. The precipitously falling plasma volume induced hypovolemic shock and metabolic acidosis; pulses became impalpable, skin turned ashen-blue and ice-cold in the dreaded algid stage, and circulatory collapse extinguished life before sunset."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_03.jpg"
+        },
+        {
+            "id": "bat-ch-04",
+            "chapterNumber": 4,
+            "type": "side_story",
+            "title": {
+                "id": "Etnomedisin Kampung: Jamu, Dukun, dan Air Kelapa Hijau",
+                "en": "Kampung Ethnomedicine: Herbal Decoctions and Green Coconut Water"
+            },
+            "date": {
+                "id": "Mei – Juni 1821 M",
+                "en": "May – June 1821 AD"
+            },
+            "flash": {
+                "id": "Di tengah ketiadaan bantuan medis kolonial, penduduk pribumi berpaling ke dukun, ramuan rempah temulawak, dan air kelapa hijau yang secara tak sengaja menyelamatkan nyawa berkat elektrolit alaminya.",
+                "en": "Deprived of colonial medical aid, native inhabitants turned to traditional healers, herbal tonics, and green coconut water—an accidental life-saving electrolyte solution."
+            },
+            "virusProfile": {
+                "agent": "Kehilangan Elektrolit Masif (K+, Na+, HCO3-)",
+                "vector": "Respon Imun & Intervensi Etnomedisin",
+                "incubation": "N/A (Terapi Simptomatik)",
+                "transmission": "Pemberian cairan per oral berbasis air kelapa hijau kaya kalium dan rebusan rimpang"
+            },
+            "description": {
+                "id": "Ketika rumah sakit militer kolonial hanya melayani prajurit Eropa dan pejabat pemerintah, jutaan rakyat jelata di kampung-kampung Jawa mengandalkan kearifan lokal untuk bertahan hidup. Para dukun dan tetua adat membakar dupa dan meracik jamu tolak bala dari rebusan temulawak, kunyit, lempuyang, dan jahe merah. Proses perebusan rimpang-rimpang ini secara tidak disengaja mensterilkan air minum dari bakteri Vibrio. Lebih penting lagi, keluarga pasien yang kehausan kerap memberikan air buah kelapa cengkir atau kelapa hijau muda. Tanpa disadari oleh siapapun saat itu, air kelapa muda mengandung komposisi alami kalium, natrium, glukosa, dan klorida yang mendekati formula larutan rehidrasi oral (oral rehydration salts) modern. Praktik etnomedisin ini secara dramatis meningkatkan peluang bertahan hidup bagi sebagian pasien dengan mengompensasi hilangnya elektrolit esensial dan mencegah gagal ginjal akut.",
+                "en": "With colonial military hospitals closed to the indigenous masses, millions of villagers across Java relied on indigenous medicine for survival. Healers and village herbalists burned aromatic resins and prepared medicinal broths of boiled Javanese turmeric (temulawak), ginger, and galangal. Boiling these herbal infusions inadvertently pasteurized contaminated drinking water. Crucially, relatives caring for parched victims administered the water of young green coconuts (kelapa hijau). Unbeknownst to contemporary medicine, young coconut water contains a natural balance of potassium, sodium, glucose, and trace minerals mimicking modern oral rehydration salts. This empirical indigenous intervention preserved extracellular volume and mitigated renal failure, saving countless sufferers who would otherwise have succumbed to lethal electrolyte collapse."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_04.jpg"
+        },
+        {
+            "id": "bat-ch-05",
+            "chapterNumber": 5,
+            "type": "standard",
+            "title": {
+                "id": "Duka dan Asap Hio di Pecinan Glodok",
+                "en": "Sorrow and Incense at Glodok Chinatown"
+            },
+            "date": {
+                "id": "Juni 1821 M",
+                "en": "June 1821 AD"
+            },
+            "flash": {
+                "id": "Ruko-ruko Glodok mengunci pintu rapat; dupa hio dan kertas sembahyang dibakar siang malam di depan Kelenteng Jin De Yuan memohon perlindungan dari roh jahat penyakit.",
+                "en": "Glodok shophouses shuttered tightly; incense and joss paper burned incessantly before the Jin De Yuan Temple, pleading for deliverance from malignant disease spirits."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae Strain Tropis",
+                "vector": "Air Sumur Komunal Pasar & Sanitasi Padat Penduduk",
+                "incubation": "1 – 3 Hari",
+                "transmission": "Penularan antar-anggota keluarga di rumah petak padat dan pasar basah Glodok"
+            },
+            "description": {
+                "id": "Kawasan Pecinan Glodok dan Petak Sembilan, yang menjadi jantung perniagaan komersial Batavia, berubah menjadi labirin sunyi yang dicekam teror. Ruko-ruko kayu bertingkat dua merapatkan daun pintunya, sementara lonceng kelenteng berdentang muram tanpa henti. Di pelataran Kelenteng Jin De Yuan (Kelenteng Kim Tek Ie), gumpalan asap hio tebal mengepul membubung ke langit kelabu. Komunitas Tionghoa menggelar ritual tolak bala, membakar gunungan uang kertas emas dan persembahan vegetarian untuk menenangkan Wen Shen (dewa wabah) dan roh-roh kelaparan yang diyakini berkeliaran di selokan. Kerapatan hunian di mana puluhan buruh tinggal dalam satu rumah petak sempit dengan sumur air komunal mempercepat siklus amplifikasi kuman. Dalam tempo tiga pekan, lebih dari dua ribu warga Glodok tewas, melumpuhkan pasar-pasar kelontong dan peredaran uang logam di seluruh kota.",
+                "en": "The Chinese merchant quarter of Glodok and Petak Sembilan, commercial nucleus of Batavia, devolved into a silent labyrinth gripped by mortal dread. Two-story timber shophouses bolted their doors while temple gongs tolled a continuous funeral lament. In the courtyard of Jin De Yuan (Kim Tek Ie Temple), thick coils of sandalwood incense billowed into the humid air. The Chinese community conducted urgent rituals, burning effigies, talismanic scrolls, and joss paper to appease Wen Shen, the celestial deity of pestilence, and wandering hungry ghosts blamed for the blight. High domestic crowding, with dozens of workers sharing confined tenements and shallow courtyard wells, triggered explosive transmission. Within three weeks, over two thousand residents of Glodok perished, freezing the marketplace and paralyzing coastal financial exchanges."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_05.jpg"
+        },
+        {
+            "id": "bat-ch-06",
+            "chapterNumber": 6,
+            "type": "milestone",
+            "title": {
+                "id": "Eksodus Kolonial: Pelarian ke Istana Buitenzorg",
+                "en": "Colonial Exodus: Flight to Buitenzorg Palace"
+            },
+            "date": {
+                "id": "Juni – Juli 1821 M",
+                "en": "June – July 1821 AD"
+            },
+            "flash": {
+                "id": "Saat kematian merayap ke kawasan elit Molenvliet, Gubernur Jenderal Van der Capellen dan para petinggi Raad van Indië melarikan diri ke udara sejuk perbukitan Buitenzorg, menelantarkan administrasi ibu kota.",
+                "en": "As corpses accumulated along Molenvliet, Governor-General Van der Capellen and colonial elites fled to the cool highlands of Buitenzorg, abandoning the administrative machinery of the capital."
+            },
+            "virusProfile": {
+                "agent": "Disrupsi Sistemik Tata Kelola Kolonial",
+                "vector": "Mobilitas Birokrat & Rombongan Kereta Kuda",
+                "incubation": "N/A",
+                "transmission": "Pelarian massal pejabat dan orang kaya Eropa membawa carrier asimtomatik ke pedalaman"
+            },
+            "description": {
+                "id": "Ketika aroma busuk mayat dan kepanikan mulai menembus pemukiman mewah orang Eropa di sepanjang terusan Molenvliet (kini Jalan Hayam Wuruk dan Gajah Mada), tatanan pemerintahan kolonial kolaps. Gubernur Jenderal Baron Godert Alexander Gerard Philip van der Capellen bersama anggota Dewan Hindia (Raad van Indië) memutuskan untuk segera mengungsi ke Istana Peristirahatan Buitenzorg (kini Istana Kepresidenan Bogor) di kaki Gunung Salak. Iring-iringan kereta kuda bangsawan Belanda bergerak terburu-buru meninggalkan Batavia Lama yang dijuluki 'Kuburan Orang Eropa'. Di ibu kota, kantor-kantor catatan sipil, pengadilan Raad van Justitie, dan jawatan cukai ditutup rapat karena para juru tulis Eropa dan mandor lokal telah melarikan diri atau meninggal dunia. Kekosongan kekuasaan ini memicu penjarahan rumah-rumah kosong dan meninggalkan jutaan warga pribumi tanpa arahan maupun perlindungan medis resmi.",
+                "en": "As the stench of decomposition and panic crossed the elite European enclave along the Molenvliet canal, colonial governance dissolved. Governor-General Baron Godert van der Capellen, accompanied by senior members of the Council of the Indies (Raad van Indië), evacuated to the highland sanctuary of Buitenzorg Palace nestled beneath Mount Salak. A frantic cavalcade of carriages swept the colonial aristocracy away from Old Batavia, historically cursed as the 'Graveyard of the European'. Behind them, municipal registries, the High Court of Justice, and customs warehouses shuttered as staff fell sick or fled. This administrative desertion fostered widespread looting of abandoned estates, leaving the native and bonded populations entirely without governmental direction or medical relief."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_06.jpg"
+        },
+        {
+            "id": "bat-ch-07",
+            "chapterNumber": 7,
+            "type": "standard",
+            "title": {
+                "id": "Kebocoran Pos Cordon Meester Cornelis",
+                "en": "Breach of the Meester Cornelis Cordon Sanitaire"
+            },
+            "date": {
+                "id": "Juli 1821 M",
+                "en": "July 1821 AD"
+            },
+            "flash": {
+                "id": "Barikade militer KNIL di pos Meester Cornelis gagal membendung arus pengungsi; ribuan warga Batavia meloloskan diri melalui pematang sawah dan jalur tikus malam hari.",
+                "en": "KNIL military pickets at Meester Cornelis failed to contain the fleeing populace; thousands circumvented roadblocks through muddy rice paddies and nocturnal trails."
+            },
+            "virusProfile": {
+                "agent": "Eksodus Carrier Asimtomatik",
+                "vector": "Pengungsi Sipil Melintasi Jalur Pedesaan",
+                "incubation": "1 – 5 Hari",
+                "transmission": "Penyebaran kuman oleh pengungsi yang membuang hajat di parit-parit irigasi persawahan"
+            },
+            "description": {
+                "id": "Dalam upaya putus asa untuk mengisolasi epidemi agar tidak merembes ke pedalaman pulau Jawa, komando militer kolonial mendirikan pos pemeriksaan sanitasi bersenjata (cordon sanitaire) di Meester Cornelis (kini Jatinegara). Pasukan infanteri kolonial bersenapan lontak dan bayonet diperintahkan untuk menembak siapa saja yang mencoba keluar dari zona terinfeksi Batavia tanpa surat jalan bebas penyakit. Namun, perimeter militer ini segera runtuh menghadapi keputusasaan ribuan pengungsi. Penduduk kota yang kelaparan merayap melintasi rawa-rawa gelagah, pematang sawah basah, dan rute hutan bambu di bawah kegelapan malam. Bersama para pelarian ini, terbawa pula ratusan pembawa kuman asimtomatik (carrier) dan penderita stadium awal yang mencemari parit-parit irigasi desa dan sumber mata air di sepanjang jalan menuju Bekasi dan Karawang.",
+                "en": "In a desperate bid to wall off the infection from penetrating Java's agrarian interior, the colonial military command established an armed sanitary cordon at Meester Cornelis (modern Jatinegara). Musket-bearing infantry battalions received orders to shoot any civilians attempting to breach the perimeter without certified health passes. However, the cordon proved utterly porous against the desperation of thousands. Fleeing townspeople traversed marshlands, muddy paddy dykes, and nocturnal bamboo trails beyond the garrison's sightlines. Dispersing among the refugee columns were hundreds of asymptomatic carriers and incubating patients, who defiled rural drainage channels, farm ditches, and wayside watering spots along the eastward roads toward Bekasi and Karawang."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_07.jpg"
+        },
+        {
+            "id": "bat-ch-08",
+            "chapterNumber": 8,
+            "type": "milestone",
+            "title": {
+                "id": "De Grote Postweg: Jalan Cepat Kematian",
+                "en": "The Great Post Road: Expressway of Pestilence"
+            },
+            "date": {
+                "id": "Juli – Agustus 1821 M",
+                "en": "July – August 1821 AD"
+            },
+            "flash": {
+                "id": "Jalan Raya Pos sepanjang 1.000 km karya Daendels bertransformasi menjadi koridor penularan supersonik era pra-industri; kereta pos dan stasiun pos kuda melesatkan bakteri hingga 70 km per hari.",
+                "en": "Daendels' 1,000-kilometer Great Post Road became a pre-industrial epidemiological highway; post carriages and relay stations propelled the pathogen up to 70 kilometers a day."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae Jalur Cepat Darat",
+                "vector": "Kusir Pos, Penumpang Kereta, & Air Palungan Kuda",
+                "incubation": "12 – 72 Jam",
+                "transmission": "Penggunaan fasilitas singgah bersama, air minum pos relay, dan pergerakan pedagang kilat"
+            },
+            "description": {
+                "id": "De Grote Postweg (Jalan Raya Pos) sepanjang seribu kilometer dari Anyer hingga Panarukan, yang dibangun dengan darah ribuan pekerja paksa di bawah Gubernur Jenderal Herman Willem Daendels pada 1808, menjadi instrumen utama percepatan epidemiologis di Pulau Jawa. Infrastruktur modern yang dirancang untuk mempercepat komunikasi militer dan pos pos kolonial ini kini berfungsi sebagai jalur ekspres penularan patogen. Kereta-kereta pos pos kilat yang ditarik empat ekor kuda berhenti di halte-halte pergantian kuda (posthuis) setiap sembilan hingga lima belas kilometer. Kusir pos, perwira militer, dan pedagang keliling berbagi ember air minum, sumur pos, dan warung makan yang sama di sepanjang rute. Bakteri Vibrio melaju dengan kecepatan 50 hingga 70 kilometer per hari melintasi tanah Priangan, Cirebon, hingga ke perbatasan Jawa Tengah, melompati rintangan geografis alam yang sebelumnya membatasi wabah kuno.",
+                "en": "The Great Post Road (De Grote Postweg), built at tremendous human cost under Governor-General Herman Willem Daendels in 1808 across 1,000 kilometers from Anyer to Panarukan, transformed into an unprecedented epidemiological vector. Engineered to expedite colonial troop mobilization and state correspondence, the highway now accelerated bacterial dissemination across the island. Four-horse postal coaches halted at staging posts (posthuis) spaced every nine to fifteen kilometers. Postillions, military couriers, and merchants drank from the same communal well buckets, washbasins, and roadside stalls. Vibrio cholerae advanced along the macadamized corridor at speeds of 50 to 70 kilometers daily through Priangan and Cirebon into Central Java, effortlessly leapfrogging natural mountain ridges and river barriers."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_08.jpg"
+        },
+        {
+            "id": "bat-ch-09",
+            "chapterNumber": 9,
+            "type": "standard",
+            "title": {
+                "id": "Tragedi Muara Sukalila di Pesisir Cirebon",
+                "en": "Coastal Catastrophe at the Sukalila Estuary in Cirebon"
+            },
+            "date": {
+                "id": "Agustus 1821 M",
+                "en": "August 1821 AD"
+            },
+            "flash": {
+                "id": "Gelombang wabah menerjang Pelabuhan Cirebon; perahu-perahu nelayan terapung tanpa awak dan Sungai Sukalila dipenuhi mayat yang tak sempat dikubur.",
+                "en": "The plague engulfed the Port of Cirebon; fishing proas drifted unmanned and the Sukalila River became choked with unburied corpses."
+            },
+            "virusProfile": {
+                "agent": "Proliferasi di Muara Payau Hipersalin",
+                "vector": "Hasil Laut Mentah & Air Muara Tercemar",
+                "incubation": "1 – 3 Hari",
+                "transmission": "Konsumsi kerang, udang tangkapan muara, dan air tawar payau pesisir Cirebon"
+            },
+            "description": {
+                "id": "Pada awal Agustus 1821, episentrum maut mencapai pesisir Kesultanan Cirebon melalui jalur laut dan Jalan Raya Pos. Pelabuhan Cirebon dan muara Sungai Sukalila menjadi saksi pemandangan apokaliptik. Komunitas nelayan pesisir yang menggantungkan hidup pada tangkapan udang dan kerang di muara terhantam gelombang kolera beruntun. Bakteri Vibrio berkembang biak secara masif pada cangkang kitin kepiting dan mikroplankton di perairan muara yang payau dan hangat. Puluhan perahu nelayan (perahu mayang) ditemukan terapung tanpa arah di Laut Jawa dengan awak yang telah terbujur kaku membiru di atas tumpukan jaring. Di daratan, tepian Sungai Sukalila dan parit kota dipenuhi jenazah yang membusuk karena penduduk desa terlalu lemah atau terlalu takut untuk menyelenggarakan pemakaman, memaksa residen Belanda memerintahkan pembakaran massal perahu-perahu nelayan yang terkontaminasi.",
+                "en": "In early August 1821, the epidemic vortex struck the coastal Sultanate of Cirebon via both maritime traffic and the Great Post Road. The roadstead of Cirebon and the estuary of the Sukalila River became scenes of apocalyptic despair. The coastal fishing populace, reliant upon estuarine shrimp and mollusks, was ravaged. Vibrio cholerae colonized the chitinous shells of crustaceans and zooplankton in the warm, brackish delta waters. Dozens of traditional fishing outriggers drifted aimlessly across the Java Sea, their crews lying stiff and cyanotic upon coils of rope. On shore, the muddy banks of Kali Sukalila were littered with decaying bodies as surviving kin grew too feeble or terrified to conduct interments, prompting the colonial resident to order the burning of infected fishing crafts."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_09.jpg"
+        },
+        {
+            "id": "bat-ch-10",
+            "chapterNumber": 10,
+            "type": "standard",
+            "title": {
+                "id": "Kelumpuhan Kota Lama Semarang dan Ekspor Gula",
+                "en": "Collapse of Outstadt Semarang and the Sugar Trade"
+            },
+            "date": {
+                "id": "Agustus – September 1821 M",
+                "en": "August – September 1821 AD"
+            },
+            "flash": {
+                "id": "Pusat logistik perdagangan gula Jawa di Kota Lama Semarang lumpuh total; ratusan kuli panggul pelabuhan roboh di dermaga Kali Semarang di samping tumpukan karung gula.",
+                "en": "Central Java's sugar trade capital at Semarang's Outstadt ground to a halt; hundreds of dock coolies collapsed along Kali Semarang beside mounds of unexported sugar."
+            },
+            "virusProfile": {
+                "agent": "Biofilm Bakteri pada Air Tawar Dermaga",
+                "vector": "Air Minum Barak Buruh & Jamban Kali Semarang",
+                "incubation": "12 – 48 Jam",
+                "transmission": "Fekal-oral di pemukiman padat buruh pelabuhan dan gudang rempah Oude Stad"
+            },
+            "description": {
+                "id": "Semarang adalah urat nadi perekonomian Jawa Tengah, pusat pergudangan ekspor gula tebu, tembakau, dan nila bagi kapal-kapal dagang internasional. Namun ketika kolera menerjang kawasan Kota Lama (Oude Stad) pada akhir Agustus 1821, seluruh aktivitas ekonomi terhenti seketika. Di sepanjang dermaga Kali Semarang, ratusan kuli panggul dan kuli gudang tumbang satu demi satu di samping tumpukan karung gula pasir yang menunggu dikapalkan. Barak-barak penampungan kuli yang lembap dan minim ventilasi menjadi sarang penularan tak terkendali. Para nakhoda kapal dagang Inggris, Belanda, dan Amerika menolak merapat ke dermaga dan membuang sauh jauh di lepas pantai karena ngeri melihat perahu-perahu pandu pelabuhan dipenuhi mayat. Lonceng Gereja Blenduk berdentang setiap jam menyertai iring-iringan pedati jenazah menuju pemakaman di perbukitan Candi.",
+                "en": "Semarang served as the commercial artery of Central Java, housing vast warehouses of cane sugar, tobacco, and indigo destined for global markets. When cholera struck the European quarter (Oude Stad) in late August 1821, commerce froze instantly. Along the quays of Kali Semarang, hundreds of dock coolies collapsed in spasms beside towering stacks of unexported sugar sacks. Damp, unventilated labor barracks became cauldrons of cross-contamination. Foreign skippers from Dutch, British, and American merchantmen refused to approach the inner wharves, dropping anchor miles offshore after observing harbor pilot boats littered with corpses. The bronze bell of the domed Blenduk Church tolled hour after hour as heavy wooden carts conveyed rows of bodies to burial grounds on the hills of Candi."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_10.jpg"
+        },
+        {
+            "id": "bat-ch-11",
+            "chapterNumber": 11,
+            "type": "milestone",
+            "title": {
+                "id": "Penetrasi Vorstenlanden: Doa Tolak Bala di Kraton Surakarta dan Yogyakarta",
+                "en": "Penetration into Vorstenlanden: Rituals of Apotropaic Defense at the Javanese Courts"
+            },
+            "date": {
+                "id": "September – Oktober 1821 M",
+                "en": "September – October 1821 AD"
+            },
+            "flash": {
+                "id": "Kolera menembus benteng tradisi Vorstenlanden; Sultan Hamengkubuwana IV dan Sunan Pakubuwana V menggelar kirab pusaka Kyai Tunggul Wulung keliling benteng untuk mengusir pagebluk.",
+                "en": "Cholera breached the heartland of the Principalities; royal courts paraded sacred heirlooms including Kyai Tunggul Wulung around palace walls to ward off the pagebluk."
+            },
+            "virusProfile": {
+                "agent": "Transmisi Kerumunan Ritual Tolak Bala",
+                "vector": "Pergerakan Massa Peziarah & Abdi Dalem",
+                "incubation": "1 – 4 Hari",
+                "transmission": "Kontak erat dan penggunaan air sumur keramat bersama selama prosesi kirab tolak bala"
+            },
+            "description": {
+                "id": "Dari dataran pantai utara, wabah berbelok ke selatan menembus celah lembah subur Vorstenlanden—jantung kebudayaan feodal Jawa di Kasunanan Surakarta dan Kasultanan Yogyakarta. Masyarakat Jawa memandang malapetaka ini sebagai 'pagebluk', tanda kemurkaan kosmis dan hilangnya harmoni jagad cilik dan jagad gede. Menghadapi kematian ratusan abdi dalem dan pangeran setiap hari, Sultan Hamengkubuwana IV di Yogyakarta dan Sunan Pakubuwana V di Surakarta memerintahkan kirab pusaka keramat keliling cepuri keraton pada tengah malam tanpa alas kaki. Panji pusaka Kanjeng Kyai Tunggul Wulung yang terbuat dari kiswah Ka'bah diarak bersama tombak dan keris pusaka tolak bala, diiringi pembacaan bait-bait doa Islam dan mantra kejawen. Namun, kerumunan ribuan abdi dalem dan peziarah yang berdesak-desakan tanpa sanitasi justru menciptakan klaster penularan super, mempercepat kematian di dalam benteng istana.",
+                "en": "From the northern littoral, the pestilence pivoted south into the fertile river basins of the Vorstenlanden—the feudal heartland of the Surakarta Sunanate and Yogyakarta Sultanate. The Javanese populace recognized the horror as a supreme 'pagebluk', signaling a cosmological rupture between microcosm and macrocosm. With royal courtiers and peasants dying by the hundreds, Sultan Hamengkubuwana IV of Yogyakarta and Sunan Pakubuwana V of Surakarta decreed midnight barefoot processions around the palace battlements. The sacred royal battle-standard, Kanjeng Kyai Tunggul Wulung, woven from holy textiles, was carried alongside heirlooms, accompanied by continuous chanting of Islamic supplications and ancient Javanese incantations. Tragically, the dense processions and communal sharing of sacred ablution pools created massive superspreading clusters within the palace enclosures."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_11.jpg"
+        },
+        {
+            "id": "bat-ch-12",
+            "chapterNumber": 12,
+            "type": "side_story",
+            "title": {
+                "id": "Mitos Lampor: Gemerincing Kereta Gaib Pencabut Nyawa",
+                "en": "The Myth of Lampor: The Phantom Chariot of Death"
+            },
+            "date": {
+                "id": "Oktober – November 1821 M",
+                "en": "October – November 1821 AD"
+            },
+            "flash": {
+                "id": "Di pedalaman Jawa Tengah, derap malam gaib 'Lampor' diyakini menyapu jiwa warga desa; suara kentongan dipukul bersahut-sahutan sementara ribuan keluarga mengungsi ke lereng Merapi dan Lawu.",
+                "en": "Across rural Central Java, the supernatural clamor of 'Lampor' was believed to harvest sleeping villagers; slit-drums sounded in frantic vigilance as families fled towards volcanic slopes."
+            },
+            "virusProfile": {
+                "agent": "Histeria Massal & Eksodus Pengungsi Pedesaan",
+                "vector": "Migrasi Komunitas Terpapar ke Ketinggian",
+                "incubation": "12 Jam – 3 Hari",
+                "transmission": "Penyebaran air tercemar di sumber-sumber mata air pegunungan oleh rombongan pengungsi"
+            },
+            "description": {
+                "id": "Di desa-desa terpencil lereng Gunung Merapi, Merbabu, dan Lawu, kematian yang datang membabi buta melahirkan histeria mistis tentang Lampor—barisan pasukan gaib dan kereta kencana pencabut nyawa utusan Ratu Kidul. Penduduk percaya bahwa suara derap roda di udara malam dan angin kencang bergemuruh membawa maut; siapa pun yang tertidur lelap saat Lampor lewat akan bangun dalam keadaan muntah berak dan meninggal sebelum fajar. Sepanjang malam, desa-desa terjaga dalam kegelapan tanpa pelita, memukul kentongan bambu (thethok) secara bersahut-sahutan untuk mengusir roh jahat. Pintu-pintu gubuk dilumuri tanda silang kapur sirih merah. Didorong kepanikan mutlak, ribuan warga meninggalkan rumah dan sawah mereka, mendaki lereng-lereng gunung terjal untuk mencari perlindungan, tanpa sadar membawa kuman Vibrio ke mata air pegunungan yang jernih.",
+                "en": "Throughout the isolated villages flanking Mount Merapi, Merbabu, and Lawu, unaccountable sudden deaths fueled widespread mystical panic surrounding 'Lampor'—the invisible phantom army and aerial chariot of the spirit world sent to harvest human souls. Villagers believed that nocturnal winds and rumbling aerial sounds marked the passage of the dread procession; anyone sleeping soundly would awake purging fluid and die before cockcrow. Through nights of terror, entire hamlets stayed awake in pitch darkness, beating wooden slit-drums (thethok) in deafening cadences to banish malignant entities. House portals were daubed with red betel-lime crosses. Driven by unreasoning fear, entire clans abandoned ancestral homes, trekking up rugged volcanic slopes for refuge and unwittingly polluting pristine mountain springs along their route."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_12.jpg"
+        },
+        {
+            "id": "bat-ch-13",
+            "chapterNumber": 13,
+            "type": "standard",
+            "title": {
+                "id": "Runtuhnya Tata Ritus Kematian: Parit Massal Tanah Merah",
+                "en": "Collapse of Mortuary Rites: Mass Trenches in Volcanic Soil"
+            },
+            "date": {
+                "id": "November – Desember 1821 M",
+                "en": "November – December 1821 AD"
+            },
+            "flash": {
+                "id": "Persediaan kain kafan mori habis di seluruh pasar; tradisi memandikan jenazah secara adat menjadi pintu maut baru bagi sanak keluarga sebelum liang parit massal digali buru-buru.",
+                "en": "White burial cloth vanished from bazaars; customary ritual washing of the dead became a fatal contamination point before bodies were piled into hurried trench graves."
+            },
+            "virusProfile": {
+                "agent": "Beban Kuman Ekstrem pada Cairan Tubuh Kadavar",
+                "vector": "Air Bekas Memandikan Jenazah & Kontak Langsung",
+                "incubation": "Beberapa Jam – 48 Jam",
+                "transmission": "Paparan air bilasan jenazah penderita kolera yang belum terdekontaminasi"
+            },
+            "description": {
+                "id": "Menjelang akhir tahun 1821, kematian mencapai skala yang menghancurkan seluruh tatanan adat dan ritus kematian Islam di pedesaan Jawa. Persediaan kain mori putih untuk kafan lenyap dari pasar-pasar batik; jenazah terpaksa dibungkus dengan anyaman tikar pandan tua atau karung goni bekas beras. Yang paling mematikan adalah kewajiban agama memandikan jenazah (fardhu kifayah). Keluarga dan modin desa membasuh jasad yang masih dipenuhi miliaran bakteri hidup; air cucian jenazah mengalir ke parit terbuka dan meresap ke dalam sumur tetangga, menulari para pemandi jenazah yang meninggal satu atau dua hari kemudian. Para penggali kubur desa tak lagi sanggup membuat liang lahat tunggal. Parit-parit massal sepanjang puluhan meter digali terburu-buru di tanah liat merah perbukitan, di mana puluhan mayat ditumpuk tanpa nisan dan ditaburi abu kapur tohor.",
+                "en": "By late 1821, mortality attained dimensions that shattered traditional funerary customs and Islamic mortuary obligations across Java. Bolt stocks of white unbleached cotton (mori) vanished from markets; the deceased were wrapped in coarse pandanus mats or used jute sacks. The most lethal vector proved to be the religious mandate to ritually wash the dead. Relatives and village clerics sponged bodies heavily contaminated with viable vibrios; wastewater drained directly into unlined yard ditches and seeped into shallow wells, infecting caretakers who perished days later. Gravediggers could no longer fashion individual resting places. Mass trenches dozens of meters long were hurriedly excavated into the red volcanic clay, where scores of corpses were interred collectively without headstones under showers of slaked lime."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_13.jpg"
+        },
+        {
+            "id": "bat-ch-14",
+            "chapterNumber": 14,
+            "type": "standard",
+            "title": {
+                "id": "Sawah yang Ditinggalkan: Ancaman Kelaparan Sekunder",
+                "en": "Abandoned Paddies: The Specter of Secondary Famine"
+            },
+            "date": {
+                "id": "Januari – Februari 1822 M",
+                "en": "January – February 1822 AD"
+            },
+            "flash": {
+                "id": "Petani tewas atau kabur mengungsi; sawah padi mengering tak terawat dan kebun kopi kolonial terbengkalai, memicu krisis pangan hebat di Jawa bagian tengah dan timur.",
+                "en": "Farmers dead or fled; terraced rice paddies choked with weeds and colonial coffee estates lay abandoned, triggering severe secondary agrarian famine."
+            },
+            "virusProfile": {
+                "agent": "Malnutrisi Akut & Kerentanan Imun Sekunder",
+                "vector": "Gagal Panen & Runtuhnya Pasokan Pangan Regional",
+                "incubation": "N/A",
+                "transmission": "Penurunan daya tahan tubuh populasi akibat kelaparan memperparah mortalitas serangan kolera berulang"
+            },
+            "description": {
+                "id": "Memasuki awal musim tanam 1822, dampak tidak langsung dari wabah kolera mulai menampakkan ancaman yang jauh lebih luas: kelaparan agraris massal. Di distrik-distrik lumbung beras seperti Kedu, Bagelen, Demak, dan Madiun, sebagian besar petani produktif telah meninggal atau melarikan diri ke hutan belantara. Saluran irigasi subak dan bendungan tanah tradisional jebol tanpa ada yang memperbaiki. Hewan ternak kerbau pembajak berkeliaran liar di pematang sawah yang mengering dan ditumbuhi ilalang tinggi. Perkebunan kopi paksa dan kebun nila milik pemerintah kolonial terbengkalai, menyebabkan ekspor komoditas anjlok drastis. Kelangkaan beras melonjakkan harga pangan hingga sepuluh kali lipat, memaksa rakyat jelata memakan umbi gadung beracun dan batang pisang, yang memicu malnutrisi akut dan membuat sisa populasi semakin rentan terhadap serangan patogen.",
+                "en": "Entering the planting cycle of early 1822, the indirect aftermath of the epidemic unleashed an agrarian catastrophe: widespread secondary famine. Across core rice-producing districts such as Kedu, Bagelen, Demak, and Madiun, agricultural laborers were decimated or scattered in deep forests. Earthen irrigation dams and bamboo channels collapsed without maintenance. Draft water buffalo wandered untended through weed-choked fields. Colonial compulsory coffee groves and indigo works lay untended, devastating export receipts. Rice scarcity drove staple prices up tenfold, compelling destitute peasants to consume toxic wild yams and banana pith. Resulting protein-calorie malnutrition compromised herd immunity, intensifying case-fatality rates among surviving communities."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_14.jpg"
+        },
+        {
+            "id": "bat-ch-15",
+            "chapterNumber": 15,
+            "type": "milestone",
+            "title": {
+                "id": "Ujung Timur Surabaya dan Lonjakan Selat Madura",
+                "en": "Surabaya Terminal and the Madura Strait Leap"
+            },
+            "date": {
+                "id": "Maret – April 1822 M",
+                "en": "March – April 1822 AD"
+            },
+            "flash": {
+                "id": "Kalimas Surabaya menjadi koridor maut ujung timur Jawa; perahu tambang tradisional membawa kuman menyeberangi Selat Madura hingga merembes ke pelabuhan pesisir Bali.",
+                "en": "Surabaya's Kalimas became the eastern killing corridor; traditional ferry proas ferried the pathogen across Madura Strait, leaking into the ports of Madura and Bali."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae Diseminasi Maritim Timur",
+                "vector": "Perahu Tambang Pesisir & Nelayan Selat",
+                "incubation": "1 – 4 Hari",
+                "transmission": "Pelayaran feri tradisional perahu layar mengangkut pengungsi dan air minum gentong tercemar"
+            },
+            "description": {
+                "id": "Pada Maret 1822, gelombang wabah mencapai terminus timur Jawa di Surabaya, kota pelabuhan militer dan galangan kapal terbesar di Hindia Belanda. Sepanjang aliran Sungai Kalimas, mulai dari Jembatan Merah hingga pangkalan angkatan laut di Ujung, air sungai dipenuhi tinja dan bangkai. Kuli galangan kapal VOC dan pengrajin tembaga roboh bergelimpangan di jalanan berbatu. Namun malapetaka tidak berhenti di pesisir Surabaya. Ratusan perahu tambang tradisional yang mengangkut pengungsi menyeberangi Selat Madura menuju pelabuhan Kamal dan Bangkalan, menularkan kuman ke pulau Madura yang berbatu kapur dan miskin sumber air tawar bersih. Dari Madura, armada perahu dagang Bugis dan Madura membawa bibit kolera melintasi Selat Bali menuju pelabuhan Buleleng di Bali utara, menyebarkan pandemi ke seluruh Kepulauan Sunda Kecil.",
+                "en": "In March 1822, the epidemic reached the eastern terminus of Java at Surabaya, the naval station and commercial bastion of the colony. Along the winding course of the Kalimas River from the Red Bridge (Jembatan Merah) to the naval arsenal at Ujung, the river was thick with refuse and human flotsam. Shipwrights and copper artisans collapsed in the thoroughfares. The maritime barrier of the Madura Strait failed to arrest the contagion. Hundreds of small ferry proas laden with terrified refugees crossed the narrow waters to Kamal and Bangkalan, igniting devastating outbreaks across the arid limestone landscapes of Madura. From there, native Bugis and Madurese prahus carried the bacillus past the Bali Strait into Buleleng in northern Bali, carrying the first pandemic wave into the Lesser Sunda archipelago."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_15.jpg"
+        },
+        {
+            "id": "bat-ch-16",
+            "chapterNumber": 16,
+            "type": "standard",
+            "title": {
+                "id": "Bedah Otopsi di Weltevreden: Darah Tar dan Usus Berair",
+                "en": "Weltevreden Post-Mortems: Tar-Like Blood and Bleached Intestines"
+            },
+            "date": {
+                "id": "Mei – Juni 1822 M",
+                "en": "May – June 1822 AD"
+            },
+            "flash": {
+                "id": "Di barak militer Weltevreden, dokter bedah kolonial membedah jasad prajurit; mendapati mukosa usus memutih pucat dan darah yang mengental pekat seperti ter hitam akibat dehidrasi ekstrem.",
+                "en": "In Weltevreden military infirmaries, colonial surgeons autopsied dead soldiers; finding denuded, bleached intestinal linings and venous blood thick as black tar from terminal dehydration."
+            },
+            "virusProfile": {
+                "agent": "Patologi Klinis: Hemokonsentrasi Ekstrem",
+                "vector": "Deskuamasi Epitel Usus & Syok Toksik",
+                "incubation": "Pascamerta",
+                "transmission": "Observasi histopatologis pra-bakteriologis oleh perwira medis militer kolonial"
+            },
+            "description": {
+                "id": "Di rumah sakit garnisun militer Weltevreden di selatan Batavia, para perwira medis Militaire Geneeskundige Dienst (MGD) melakukan serangkaian otopsi klinis terhadap jasad prajurit Eropa dan serdadu sewaan bumiputera yang tewas dalam hitungan jam. Catatan medis dokter bedah mencatat temuan patologis yang mencengangkan bagi sains abad ke-19: darah vena di dalam ventrikel jantung dan pembuluh besar telah berubah menjadi massa hitam pekat, kental menyerupai ter cair, dan gagal mengalir saat pembuluh disayat akibat hemokonsentrasi ekstrem. Seluruh mukosa usus halus tampak memutih pucat, terkikis, dan terisi oleh berliter-liter cairan keruh berbau manis amarah tanpa empedu. Kandung kemih ditemukan menciut total dan kosong dari urine, membuktikan terjadinya gagal ginjal anuria akibat syok sirkulasi. Laporan-laporan otopsi Batavia ini menjadi salah satu dokumentasi patologi kolera terlengkap di dunia sebelum era Robert Koch.",
+                "en": "At the Weltevreden military garrison hospital south of Batavia, surgeons of the Military Medical Service (MGD) performed meticulous post-mortem dissections on deceased European soldiers and native conscripts. Their medical logbooks documented anatomical lesions that bewildered early nineteenth-century medicine: venous blood within cardiac ventricles and major arteries had thickened into a black, tar-like coagulum that refused to flow when incised, the result of terminal hemoconcentration. The mucosal lining of the small intestine was pale, stripped, and submerged under liters of murky, rice-water fluid completely devoid of bile. Urinary bladders were contracted to the size of walnuts and entirely anuric, demonstrating acute renal failure from circulatory collapse. These Weltevreden clinical autopsies formed some of the earliest systematic anatomical records of cholera pathology prior to Robert Koch's bacteriological revolution."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_16.jpg"
+        },
+        {
+            "id": "bat-ch-17",
+            "chapterNumber": 17,
+            "type": "standard",
+            "title": {
+                "id": "Redupnya Badai: Habisnya Inang Rentan dan Angin Muson",
+                "en": "Subsiding Tempest: Depletion of Susceptible Hosts and Dry Monsoon"
+            },
+            "date": {
+                "id": "Juli – Oktober 1822 M",
+                "en": "July – October 1822 AD"
+            },
+            "flash": {
+                "id": "Memasuki akhir tahun 1822, laju kematian melandai; sebagian besar inang rentan perkotaan telah tewas atau memiliki imunitas sementara, diiringi pergantian angin muson timur yang mengeringkan rawa.",
+                "en": "Entering late 1822, mortality curves plateaued; susceptible urban hosts had been decimated or developed transient immunity, aided by the dry east monsoon desiccating standing pools."
+            },
+            "virusProfile": {
+                "agent": "Imunitas Populasi Parsial & Desikasi Lingkungan",
+                "vector": "Penurunan Densitas Bakteri di Saluran Air Mengering",
+                "incubation": "N/A",
+                "transmission": "Penurunan dramatis frekuensi penularan fekal-oral karena berkurangnya inang aktif dan penyusutan genangan air"
+            },
+            "description": {
+                "id": "Setelah mengamuk selama hampir delapan belas bulan dan merenggut lebih dari seratus ribu nyawa dari ujung barat Anyer hingga ujung timur Banyuwangi, amukan wabah kolera berangsur-angsur mereda di paruh kedua tahun 1822. Kurva mortalitas melandai bukan karena intervensi medis kolonial, melainkan karena dinamika alamiah epidemiologi: sebagian besar populasi perkotaan yang rentan telah tewas atau memperoleh kekebalan mukosa usus sementara pasca-infeksi subklinis. Pada saat yang sama, datangnya angin muson timur yang kering menyusutkan genangan air rawa, mengeringkan parit-parit lumpur di tepi jalan, dan meningkatkan salinitas muara sungai hingga menekan proliferasi bakteri Vibrio di air tawar. Pasar-pasar desa mulai dibuka kembali, dan para petani yang selamat perlahan kembali mencangkul sawah-sawah mereka yang telah lama terlantar.",
+                "en": "Following eighteen months of devastation that claimed upwards of one hundred thousand lives from Anyer to Banyuwangi, the fury of the cholera outbreak gradually waned during late 1822. The epidemiological decline owed little to colonial therapeutics, resulting instead from ecological exhaustion: the vast pool of susceptible urban hosts had been decimated or possessed transient mucosal immunity following subclinical exposure. Concurrently, the prevailing dry east monsoon lowered water tables, desiccated sluggish roadside ditches, and increased estuarine salinity, curbing the ecological niches favoring Vibrio proliferation in freshwater sources. Rural markets gradually reopened, and surviving peasants trickled back to reclaim terraced paddies that had lain fallow through months of terror."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_17.jpg"
+        },
+        {
+            "id": "bat-ch-18",
+            "chapterNumber": 18,
+            "type": "summary",
+            "title": {
+                "id": "Epilog Gelombang Pertama Jawa: Warisan Tata Kota dan Sanitasi Weltevreden",
+                "en": "Epilogue of the First Java Wave: Urban Decentralization and Weltevreden's Sanitarium Legacy"
+            },
+            "date": {
+                "id": "Akhir 1822 M – Refleksi Sejarah",
+                "en": "Late 1822 AD – Historical Legacy"
+            },
+            "flash": {
+                "id": "Bencana kolera 1821 memvonis mati Batavia Lama; percepatan migrasi pusat pemerintahan ke Weltevreden meletakkan batu pertama pembangunan jaringan air bersih dan reformasi kesehatan Hindia Belanda.",
+                "en": "The 1821 disaster sounded the final death knell for Old Batavia; accelerated relocation to Weltevreden laid the foundation for piped artesian water and public health reforms in the East Indies."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Residivis Endemik Baru)",
+                "vector": "Arsip Epidemiologi & Infrastruktur Sanitasi Modern",
+                "incubation": "Permanen (Menjadi Patogen Endemik Nusantara)",
+                "transmission": "Transformasi pencegahan dari isolasi militeristik ke pembangunan sumur artesis dan sistem perpipaan higienis"
+            },
+            "description": {
+                "id": "Bencana kolera 1821 di Pulau Jawa meninggalkan jejak permanen pada sejarah tata ruang, demografi, dan kesehatan masyarakat Hindia Belanda. Tragedi ini secara definitif mengakhiri masa depan Batavia Lama sebagai pusat pemukiman; kastil VOC dihancurkan dan kanal-kanal yang berbau busuk diuruk atau ditinggalkan. Pemerintah kolonial secara resmi memindahkan pusat administrasi, markas militer, dan hunian sipil ke kawasan dataran tinggi Weltevreden (kini Lapangan Banteng dan Medan Merdeka) yang memiliki sirkulasi udara lebih sehat dan jauh dari muara berawa. Malapetaka ini juga membuka mata para penguasa kolonial bahwa isolasi militeristik tanpa perbaikan sanitasi adalah kesia-siaan belaka. Dua dekade kemudian, Hindia Belanda mulai mengebor sumur-sumur artesis dalam pertama di Batavia (1843) dan merancang jaringan air minum perpipaan (waterleiding), mengubah selamanya paradigma pengelolaan kesehatan masyarakat di Nusantara.",
+                "en": "The 1821 cholera catastrophe across Java left an indelible imprint upon the urban morphology, demographics, and public health architecture of the Dutch East Indies. It decisively sealed the doom of Old Batavia as a viable capital; the old VOC castle was dismantled and its pestilential canals were gradually backfilled or abandoned. The colonial government permanently transferred its administrative bureaucracy, military headquarters, and elite residences inland to the elevated suburb of Weltevreden (modern Lapangan Banteng and Medan Merdeka), benefiting from fresh air and superior drainage. The catastrophe also demonstrated the futility of armed sanitary cordons without environmental sanitation. Two decades later, the colony initiated deep artesian well drilling in Batavia (1843) and pioneered piped drinking water infrastructure (waterleiding), permanently transforming environmental health paradigms in the Indonesian archipelago."
+            },
+            "image": "/assets/images/cholera/wave-1/bat/bat_ch_18.jpg"
+        }
+    ]
+}
