@@ -1,0 +1,582 @@
+{
+  "sectorId": "RUS",
+  "waveIndex": 5,
+  "sectorName": {
+    "id": "Sektor RUS (Kekaisaran Rusia & Asia Tengah: Rel Transkaspia, Baku, Volga & St. Petersburg // 1892–1893)",
+    "en": "Sector RUS (Russian Empire & Central Asia: Transcaspian Rail, Baku, Volga & St. Petersburg // 1892–1893)"
+  },
+  "coordinates": [
+    40.4093,
+    49.8671
+  ],
+  "timeRange": {
+    "id": "Mei 1892 – November 1893",
+    "en": "May 1892 – November 1893"
+  },
+  "estimatedFatalities": {
+    "id": "267.000+ korban jiwa di seluruh Kekaisaran Rusia (termasuk puluhan ribu di ladang minyak Baku, lembah Volga, dan kematian komponis Tchaikovsky di St. Petersburg)",
+    "en": "267,000+ deaths across the Russian Empire (including tens of thousands in Baku oilfields, the Volga basin, and the death of composer Tchaikovsky in St. Petersburg)"
+  },
+  "chapters": [
+    {
+      "id": "rus-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Infiltrasi Jalur Rel Transkaspia: Menerobos Perbatasan Persia",
+        "en": "Transcaspian Railway Infiltration: Breaching the Persian Frontier"
+      },
+      "date": {
+        "id": "Mei – Juni 1892",
+        "en": "May – June 1892"
+      },
+      "flash": {
+        "id": "Kolera dari Mashhad (Persia) menerobos perbatasan gurun menuju Ashgabat, menaiki jalur kereta api militer Transkaspia dengan kecepatan 500 km per pekan.",
+        "en": "Cholera from Mashhad (Persia) breaches the desert frontier into Ashgabat, riding the Transcaspian military railway at 500 km per week."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Gerbong kereta api militer Transkaspia dan kafilah peziarah Persia",
+        "incubation": "12 – 36 jam",
+        "transmission": "Penyebaran kecepatan tinggi di sepanjang arteri transportasi rel strategis Asia Tengah",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Gerbong kereta api militer Transkaspia dan kafilah peziarah ",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Gerbong kereta api militer Transkaspia dan kafilah peziarah "
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Gerbong kereta api militer Transkaspia dan kafilah peziarah Persia",
+          "en": "Target population and vector: Gerbong kereta api militer Transkaspia dan kafilah peziarah Persia"
+        }
+      },
+      "description": {
+        "id": "Pada awal Mei 1892, benteng pertahanan sanitasi Kekaisaran Rusia di Asia Tengah runtuh. Setelah melanda kota suci Mashhad di Persia, basil kolera menyeberangi perbatasan gurun Karakum dan mencapai pos militer Ashgabat. Penyakit ini tidak lagi bergerak lambat mengikuti langkah unta, melainkan menunggangi jalur kereta api militer Transkaspia (Transcaspian Railway) yang baru saja rampung dibangun oleh Jenderal Annenkov. Lokomotif uap mengangkut pasukan, pedagang kapas, dan buruh rel yang terinfeksi melintasi Samarkand hingga ke Tashkent hanya dalam waktu hitungan hari. Dalam tempo kurang dari tiga pekan, seluruh wilayah Turkestan Rusia terbakar oleh wabah, menyulut kepanikan massal di kalangan otoritas militer kekaisaran.",
+        "en": "In early May 1892, the Tsarist sanitary defenses across Central Asia disintegrated. Having devastated the Persian holy city of Mashhad, the cholera vibrion breached the Karakum desert frontier into the frontier garrison of Ashgabat. The contagion no longer crawled at camel pace; it seized the throttle of the newly completed Transcaspian Military Railway engineered by General Annenkov. Express steam trains conveyed infected Cossack troops, cotton merchants, and rail workers past Samarkand into Tashkent within days. In less than three weeks, the entirety of Russian Turkestan was ablaze with virulent purging, igniting profound panic across imperial military headquarters."
+      },
+      "image": "/assets/images/cholera/wave-5/rus/rus_ch_01.jpg"
+    },
+    {
+      "id": "rus-ch-02",
+      "chapterNumber": 2,
+      "type": "milestone",
+      "title": {
+        "id": "Kerusuhan Kolera Tashkent: Amukan Massa Melawan Barikade Karantina",
+        "en": "The Tashkent Cholera Riot: Mob Fury Against Quarantine Cordons"
+      },
+      "date": {
+        "id": "24 Juni 1892",
+        "en": "June 24, 1892"
+      },
+      "flash": {
+        "id": "Warga Muslim Tashkent memberontak melawan larangan pemakaman tradisional dan barikade sanitasi militer; balai kota diserbu sebelum dipadamkan oleh tembakan infanteri.",
+        "en": "Tashkent's Muslim populace revolts against traditional burial bans and military cordons; city hall is stormed before infantry fire suppresses the riot."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Ketegangan kolonial dan benturan antara syariat pemakaman Islam vs dekrit sanitasi Tsar",
+        "incubation": "N/A (Pemberontakan Sosial Politik)",
+        "transmission": "Penolakan pelaporan kasus dan pemakaman jenazah rahasia di dalam rumah warga",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Ketegangan kolonial dan benturan antara syariat pemakaman Is",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Ketegangan kolonial dan benturan antara syariat pemakaman Is"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Ketegangan kolonial dan benturan antara syariat pemakaman Islam vs dekrit sanitasi Tsar",
+          "en": "Target population and vector: Ketegangan kolonial dan benturan antara syariat pemakaman Islam vs dekrit sanita"
+        }
+      },
+      "description": {
+        "id": "Pada tanggal 24 Juni 1892, petaka kolera di Tashkent meledak menjadi pemberontakan berdarah (Kholernyi Bunt). Otoritas militer Rusia yang panik memberlakukan aturan keras: melarang pemakaman tradisional secara Islam, menutup pemakaman kuno di dalam kota, dan memerintahkan desinfeksi paksa rumah-rumah penduduk pribumi oleh tentara berseragam. Terprovokasi oleh rumor bahwa pemerintah Tsar sengaja mengubur warga Muslim hidup-hidup dengan kapur tohor, ribuan massa bersenjatakan tongkat dan pisau menyerbu kantor administrasi kota, memukuli wakil gubernur, dan membakar pos-pos sanitasi. Pemberontakan ini baru dapat dipadamkan setelah resimen infanteri Rusia menembakkan salvo peluru ke arah kerumunan, menewaskan lebih dari delapan puluh warga sipil di jalanan berdebu.",
+        "en": "On June 24, 1892, the cholera crisis in Tashkent detonated into a ferocious insurrection (Kholernyi Bunt). Panicked Russian military authorities had enacted draconian regulations: outlawing traditional Islamic ablutions, shuttering historic intramural cemeteries, and mandating compulsory chemical disinfections by armed soldiers. Incensed by rumors that imperial physicians were burying Muslim victims alive in quicklime, thousands of furious citizens armed with staves and daggers stormed the municipal headquarters, beating the deputy governor and burning health barracks. The uprising was quelled only after Russian infantry battalions unleashed repeated volleys of rifle fire, leaving over eighty civilians dead in the dusty thoroughfares."
+      },
+      "image": "/assets/images/cholera/wave-5/rus/rus_ch_02.jpg"
+    },
+    {
+      "id": "rus-ch-03",
+      "chapterNumber": 3,
+      "type": "milestone",
+      "title": {
+        "id": "Neraka Hitam Minyak Baku: Amukan di Semenanjung Apsheron",
+        "en": "Black Hell of the Baku Oilfields: Fury on the Apsheron Peninsula"
+      },
+      "date": {
+        "id": "Juni – Juli 1892",
+        "en": "June – July 1892"
+      },
+      "flash": {
+        "id": "Kapal uap dari Krasnovodsk menyeberangi Laut Kaspia membawa kolera ke Baku; ribuan kuli minyak tewas di barak-barak becek distrik kilang 'Black City'.",
+        "en": "Steamers crossing the Caspian from Krasnovodsk deliver cholera to Baku; thousands of oilfield laborers perish in squalid 'Black City' refinery barracks."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air sumur payau berbau minyak tanah dan saluran got terbuka pemukiman kuli minyak",
+        "incubation": "12 – 36 jam",
+        "transmission": "Fekal-oral di barak-barak buruh migran tanpa sistem saluran air bersih atau toilet",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Air sumur payau berbau minyak tanah dan saluran got terbuka ",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Air sumur payau berbau minyak tanah dan saluran got terbuka "
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Air sumur payau berbau minyak tanah dan saluran got terbuka pemukiman kuli minyak",
+          "en": "Target population and vector: Air sumur payau berbau minyak tanah dan saluran got terbuka pemukiman kuli minya"
+        }
+      },
+      "description": {
+        "id": "Dari pelabuhan Krasnovodsk di pantai timur Kaspia, penyakit ini menyeberangi laut menaiki kapal feri uap menuju Baku, ibu kota industri minyak Kekaisaran Rusia yang sedang booming di Semenanjung Apsheron. Di distrik penyulingan minyak yang dijuluki 'Black City' (Cherny Gorod), lebih dari 40.000 buruh migran asal Persia, Azerbaijan, Armenia, dan Rusia tinggal berdesakan di barak-barak kayu reyot di atas tanah yang jenuh dengan jelaga dan minyak mentah. Pasokan air tawar sangat langka; buruh meminum air payau yang dibeli dari tongkang-tongkang kotor. Ketika kolera meletus pada pertengahan Juni, pemukiman minyak berubah menjadi neraka. Lebih dari 10.000 buruh dan keluarganya tewas dalam tempo empat pekan; rig-rig pengeboran minyak ditinggalkan dan para pekerja melarikan diri secara massal ke hulu Sungai Volga.",
+        "en": "From the Caspian port of Krasnovodsk, the contagion crossed the inland sea aboard steam ferries directly into Baku, the booming petroleum capital of the Russian Empire on the Apsheron Peninsula. In the refinery district grimly known as 'Black City' (Cherny Gorod), over 40,000 migrant laborers from Persia, Azerbaijan, Armenia, and Russia lived crammed in ramshackle shacks atop soil saturated with soot and petroleum sludge. Potable water was a luxury; workers consumed brackish water peddled from filthy tank barges. When cholera detonated in mid-June, the oil hub became an inferno. Over 10,000 laborers and dependents perished within four weeks; drilling derricks were abandoned as panic-stricken workers fled en masse toward the Volga River."
+      },
+      "image": "/assets/images/cholera/wave-5/rus/rus_ch_03.jpg"
+    },
+    {
+      "id": "rus-ch-04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Jalan Raya Kematian Sungai Volga: Gelombang Menuju Astrakhan dan Samara",
+        "en": "The Volga Highway of Death: The Surge toward Astrakhan and Samara"
+      },
+      "date": {
+        "id": "Juli – Agustus 1892",
+        "en": "July – August 1892"
+      },
+      "flash": {
+        "id": "Kapal-kapal uap penumpang dan tongkang ikan menyebarkan kolera menyusuri Sungai Volga sejauh 3.500 km, menghantam Astrakhan, Saratov, Samara, dan Kazan.",
+        "en": "Steam passenger packets and sturgeon barges ferry cholera 3,500 km up the Volga, engulfing Astrakhan, Saratov, Samara, and Kazan."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air Sungai Volga mentah yang diminum langsung oleh jutaan penumpang kapal uap",
+        "incubation": "24 – 48 jam",
+        "transmission": "Pencemaran tinja masif dari jamban gantung kapal uap yang jatuh langsung ke arus sungai",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Air Sungai Volga mentah yang diminum langsung oleh jutaan pe",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Air Sungai Volga mentah yang diminum langsung oleh jutaan pe"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Air Sungai Volga mentah yang diminum langsung oleh jutaan penumpang kapal uap",
+          "en": "Target population and vector: Air Sungai Volga mentah yang diminum langsung oleh jutaan penumpang kapal uap"
+        }
+      },
+      "description": {
+        "id": "Muara Sungai Volga di Astrakhan menjadi corong raksasa yang menyedot Vibrio cholerae dari Laut Kaspia dan memompakannya ke jantung peradaban Rusia. Arteri air terpanjang di Eropa ini dilayari oleh ratusan kapal uap pengangkut minyak, gandum, dan ikan sturgeon. Toilet-toilet kapal yang tergantung di sisi luar lambung membuang tinja penderita langsung ke arus sungai. Di setiap dermaga persinggahan—dari Saratov hingga Samara, Simbirsk, dan Nizhny Novgorod—para penumpang yang sakit turun dan mencemari sumur-sumur kota transit. Lebih dari 100.000 kematian tercatat di sepanjang lembah Volga pada musim panas 1892, mengubah sungai kebanggaan bangsa Rusia tersebut menjadi jalan raya kematian mikroskopis.",
+        "en": "The Volga delta at Astrakhan acted as a colossal hydraulic funnel, siphoning Vibrio cholerae from the Caspian Sea and pumping it into the heart of European Russia. Europe's longest river was plied by hundreds of steam packets transporting grain, oil, and sturgeon caviar. Overhanging shipboard latrines discharged infected excreta directly into the river currents. At every river landing—from Saratov to Samara, Simbirsk, and Nizhny Novgorod—disembarking convalescents contaminated municipal wells. Over 100,000 fatalities were recorded along the Volga basin during the blistering summer of 1892, turning Russia's iconic waterway into an uninterrupted conveyor of microscopic mortality."
+      },
+      "image": "/assets/images/cholera/wave-5/rus/rus_ch_04.jpg"
+    },
+    {
+      "id": "rus-ch-05",
+      "chapterNumber": 5,
+      "type": "side_story",
+      "title": {
+        "id": "Kemurkaan Petani dan Pembunuhan Dokter: Tragedi di Saratov dan Don",
+        "en": "Peasant Fury and Physician Murders: Tragedy in Saratov and the Don"
+      },
+      "date": {
+        "id": "Juli 1892",
+        "en": "July 1892"
+      },
+      "flash": {
+        "id": "Di provinsi Saratov, petani bersenjatakan sabit menyerang dokter rumah sakit lapangan; Dr. Molchanov dipukuli hingga tewas akibat tuduhan meracuni sumur desa.",
+        "en": "In Saratov province, scythe-wielding peasants assault mobile lazarettos; Dr. Molchanov is bludgeoned to death over accusations of poisoning village wells."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Histeria psikososial massa pedesaan dan takhayul abad pertengahan",
+        "incubation": "N/A (Patologi Sosial Krisis)",
+        "transmission": "Penghancuran fasilitas karantina dan penolakan disinfeksi kapur klorida",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Histeria psikososial massa pedesaan dan takhayul abad perten",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Histeria psikososial massa pedesaan dan takhayul abad perten"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Histeria psikososial massa pedesaan dan takhayul abad pertengahan",
+          "en": "Target population and vector: Histeria psikososial massa pedesaan dan takhayul abad pertengahan"
+        }
+      },
+      "description": {
+        "id": "Di pedesaan Saratov dan wilayah Kazak Don, wabah membangkitkan kembali hantu kegelapan psikologis abad pertengahan. Para petani buta huruf (muzhik) memandang dokter-dokter berjas putih dan petugas sanitasi kekaisaran sebagai agen iblis. Ketika melihat petugas menyemprotkan bubuk kapur putih ke jamban dan memasukkan mayat ke dalam peti berisi kapur tohor, rumor liar meledak bahwa pemerintah dan kaum bangsawan sengaja mengirim dokter untuk membunuh kaum miskin dan mengubur mereka hidup-hidup. Di kota Khvalynsk, kerumunan massa bersenjata sabit dan kapak menyerbu rumah sakit darurat, menyeret dokter distrik Dr. A.M. Molchanov ke jalan berbatu dan memukulinya hingga tewas di depan umum, memaksa kavaleri Cossack turun tangan dengan pedang terhunus.",
+        "en": "Across rural Saratov and the Don Cossack lands, the pestilence reawakened the dark psychological terrors of the Middle Ages. Illiterate peasant farmers (muzhiks) viewed white-coated physicians and sanitary dressers as demonic conspirators. Watching teams sprinkle white bleaching powder into privies and encase corpses in quicklime, frantic rumors spread that aristocrats had ordered doctors to poison peasants and bury them alive. In the town of Khvalynsk, a scythe-wielding mob stormed the isolation lazaretto, dragged district physician Dr. A.M. Molchanov onto the cobblestones, and bludgeoned him to death in broad daylight, forcing mounted Cossack squadrons to suppress the terror with drawn sabers."
+      },
+      "image": "/assets/images/cholera/wave-5/rus/rus_ch_05.jpg"
+    },
+    {
+      "id": "rus-ch-06",
+      "chapterNumber": 6,
+      "type": "standard",
+      "title": {
+        "id": "Tambang Batu Bara Donbass: Pembakaran Barak di Yuzovka",
+        "en": "The Donbass Coalfields: Burning of the Yuzovka Barracks"
+      },
+      "date": {
+        "id": "Agustus 1892",
+        "en": "August 1892"
+      },
+      "flash": {
+        "id": "Di pusat industri tambang Yuzovka (Donetsk), ribuan buruh batu bara membakar barak karantina dan menjarah toko; 180 perusuh tewas oleh tembakan militer.",
+        "en": "In the mining hub of Yuzovka (Donetsk), thousands of coal miners burn quarantine barracks and loot stores; 180 rioters killed by military fusillades."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air parit tambang batu bara bawah tanah dan barak buruh kumuh Donbass",
+        "incubation": "12 – 48 jam",
+        "transmission": "Penyebaran air tanah tercemar di pemukiman industri padat tanpa fasilitas medis",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Air parit tambang batu bara bawah tanah dan barak buruh kumu",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Air parit tambang batu bara bawah tanah dan barak buruh kumu"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Air parit tambang batu bara bawah tanah dan barak buruh kumuh Donbass",
+          "en": "Target population and vector: Air parit tambang batu bara bawah tanah dan barak buruh kumuh Donbass"
+        }
+      },
+      "description": {
+        "id": "Di cekungan batu bara Donbass di Ukraina timur, kolera menyusup ke pemukiman industri Yuzovka (kini Donetsk). Didirikan oleh industrialis Inggris John Hughes, kota ini dipadati oleh puluhan ribu pekerja tambang yang hidup dalam kondisi brutal di gubuk-gubuk tanah liat sempit. Ketika kematian akibat kolera mulai merenggut puluhan buruh setiap hari, kemarahan kelas pekerja meletus. Pada tanggal 2–3 Agustus 1892, ribuan buruh tambang yang bersenjatakan linggis membakar barak isolasi kolera, menghancurkan apotek, dan menjarah toko-toko milik pedagang kaya. Pasukan militer reguler yang didatangkan dengan kereta api menembaki para perusuh tanpa ampun, menewaskan lebih dari 180 orang sebelum ketertiban militer berhasil dipulihkan di atas puing-puing kota yang terbakar.",
+        "en": "In the Donbass coal basin of eastern Ukraine, cholera infiltrated the industrial boomtown of Yuzovka (now Donetsk). Founded by Welsh industrialist John Hughes, the town was crammed with tens of thousands of coal miners enduring brutal subterranean labor and living in squalid hovels. When cholera fatalities mounted daily, smoldering proletarian rage erupted. On August 2–3, 1892, thousands of miners armed with iron crowbars set fire to cholera lazarettos, wrecked pharmacies, and ransacked merchant warehouses. Regular imperial infantry deployed via railway fired directly into the rioters, killing more than 180 miners before order was re-established over the smoldering ruins of the settlement."
+      },
+      "image": "/assets/images/cholera/wave-5/rus/rus_ch_06.jpg"
+    },
+    {
+      "id": "rus-ch-07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Guncangan Ganda: Bencana Kelaparan Raya 1891–1892 dan Kolera",
+        "en": "The Compound Catastrophe: The Great Famine of 1891–1892 and Cholera"
+      },
+      "date": {
+        "id": "Musim Panas 1892",
+        "en": "Summer 1892"
+      },
+      "flash": {
+        "id": "Kolera menghantam populasi yang telah hancur oleh Kelaparan Raya Rusia 1891–1892; tubuh jutaan petani yang kekurangan gizi tidak memiliki daya tahan imunologis.",
+        "en": "Cholera collides with a population already devastated by the Great Famine of 1891–1892; malnourished peasant bodies possess zero immunological resistance."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Malnutrisi berat (hipoproteinemia) dan atrofi mukosa usus akibat kelaparan",
+        "incubation": "6 – 18 jam",
+        "transmission": "Kematian fulminan dalam hitungan jam pada populasi yang mengonsumsi 'roti kelaparan' (rumput liar dan kulit pohon)",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Malnutrisi berat (hipoproteinemia) dan atrofi mukosa usus ak",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Malnutrisi berat (hipoproteinemia) dan atrofi mukosa usus ak"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Malnutrisi berat (hipoproteinemia) dan atrofi mukosa usus akibat kelaparan",
+          "en": "Target population and vector: Malnutrisi berat (hipoproteinemia) dan atrofi mukosa usus akibat kelaparan"
+        }
+      },
+      "description": {
+        "id": "Keganasan luar biasa Gelombang Kelima di Rusia tidak dapat dilepaskan dari bencana yang mendahuluinya: Kelaparan Raya 1891–1892 yang melanda 17 provinsi di tanah hitam (chernozem) Rusia. Jutaan petani telah menghabiskan waktu setahun memakan 'roti kelaparan' (lebeda) yang terbuat dari biji gulma, kulit pohon, dan tanah liat. Tubuh mereka yang kurus kering, menderita skorbut dan hipoproteinemia, memiliki asam lambung yang sangat rendah dan epitel usus yang rusak. Ketika Vibrio cholerae menyapu desa-desa yang dilanda kelaparan ini, infeksi berlangsung fulminan: penderita roboh dan tewas dalam waktu kurang dari enam jam setelah gejala pertama, melipatgandakan angka kematian di atas rekor pandemi-pandemi sebelumnya.",
+        "en": "The apocalyptic mortality of the Fifth Pandemic across Russia was inextricably linked to the catastrophe preceding it: the Great Famine of 1891–1892, which laid waste to 17 central black-earth (chernozem) provinces. Millions of peasants had survived for a year eating 'famine bread' (lebeda) fabricated from weed chaff, tree bark, and dirt. Their emaciated bodies, afflicted by scurvy and hypoproteinemia, possessed virtually zero gastric acid defenses and compromised intestinal barriers. When Vibrio cholerae struck these famine-scorched villages, the clinical course was fulminant: sufferers collapsed and expired in under six hours, driving the mortality rate to unprecedented heights."
+      },
+      "image": "/assets/images/cholera/wave-5/rus/rus_ch_07.jpg"
+    },
+    {
+      "id": "rus-ch-08",
+      "chapterNumber": 8,
+      "type": "side_story",
+      "title": {
+        "id": "Dokter Anton Chekhov di Melikhovo: Pengabdian Senyap Sastrawan Agung",
+        "en": "Dr. Anton Chekhov at Melikhovo: The Great Author's Silent Ministry"
+      },
+      "date": {
+        "id": "Juli – Oktober 1892",
+        "en": "July – October 1892"
+      },
+      "flash": {
+        "id": "Penulis drama legendaris Dr. Anton Chekhov menjadi dokter penanggung jawab 25 desa di distrik Serpukhov, bekerja tanpa bayaran mendirikan barak isolasi.",
+        "en": "Legendary playwright Dr. Anton Chekhov serves as volunteer physician for 25 villages in Serpukhov district, working without pay to erect isolation huts."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kunjungan medis berkuda melintasi desa-desa pedalaman terisolasi",
+        "incubation": "N/A (Pengabdian Medis Humaniter)",
+        "transmission": "Pencegahan penularan melalui edukasi perebusan air dan sanitasi rumah pedesaan",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Kunjungan medis berkuda melintasi desa-desa pedalaman teriso",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Kunjungan medis berkuda melintasi desa-desa pedalaman teriso"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Kunjungan medis berkuda melintasi desa-desa pedalaman terisolasi",
+          "en": "Target population and vector: Kunjungan medis berkuda melintasi desa-desa pedalaman terisolasi"
+        }
+      },
+      "description": {
+        "id": "Di tengah keputusasaan nasional, sastrawan besar Rusia Anton Chekhov—yang juga seorang dokter medis yang berdedikasi—menunjukkan kepahlawanan kemanusiaan sejati. Dari tanah perkebunannya di Melikhovo, Chekhov menerima penunjukan sukarela sebagai dokter penanggung jawab sektor sanitasi distrik Serpukhov, mencakup 25 desa, empat pabrik, dan sebuah biara kuno. Chekhov berkendara dengan kereta kuda sederhana melintasi lumpur dan debu, mendatangi gubuk-gubuk petani, mengumpulkan dana dari tuan tanah kaya untuk membeli disinfektan, dan membangun barak isolasi kayu darurat. Dalam surat-suratnya, Chekhov mencatat kelelahan fisiknya yang ekstrem namun juga kebanggaannya: berkat kerja keras tanpa henti dan sanitasi ketat, tidak ada satu pun kasus kematian kolera yang terjadi di wilayah 25 desa yang berada di bawah pengawasannya.",
+        "en": "Amidst national desolation, the preeminent Russian playwright Anton Chekhov—a proud practicing physician—exemplified heroic civic dedication. From his country estate in Melikhovo, Chekhov volunteered as head sanitary physician for the Serpukhov district, assuming responsibility for 25 peasant villages, four textile mills, and an ancient monastery. Traversing rutted mud tracks in a humble horse carriage, Chekhov visited impoverished izbas, coerced reluctant landowners into financing disinfectants, and erected timber isolation wards. In his personal letters, Chekhov chronicled crushing exhaustion alongside quiet triumph: through rigorous boiling protocols and grassroots vigilance, not a single cholera fatality occurred across the 25 villages under his personal charge."
+      },
+      "image": "/assets/images/cholera/wave-5/rus/rus_ch_08.jpg"
+    },
+    {
+      "id": "rus-ch-09",
+      "chapterNumber": 9,
+      "type": "milestone",
+      "title": {
+        "id": "Infiltrasi Ibu Kota Neva: Pengepungan Pabrik-Pabrik St. Petersburg",
+        "en": "Infiltration of the Neva Capital: Siege of St. Petersburg's Factory Quarters"
+      },
+      "date": {
+        "id": "Musim Panas 1892 – 1893",
+        "en": "Summer 1892 – 1893"
+      },
+      "flash": {
+        "id": "Kolera menyusup ke ibu kota kekaisaran St. Petersburg; air Sungai Neva yang tercemar limbah pabrik merenggut ribuan nyawa di distrik buruh Vyborg.",
+        "en": "Cholera infiltrates imperial capital St. Petersburg; factory-polluted Neva River water claims thousands in the proletarian Vyborg district."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air pipa penyalur Sungai Neva mentah tanpa filtrasi pasir",
+        "incubation": "12 – 48 jam",
+        "transmission": "Penyusupan fekal ke instalasi air minum kota tua di hilir pembuangan limbah industri",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Air pipa penyalur Sungai Neva mentah tanpa filtrasi pasir",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Air pipa penyalur Sungai Neva mentah tanpa filtrasi pasir"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Air pipa penyalur Sungai Neva mentah tanpa filtrasi pasir",
+          "en": "Target population and vector: Air pipa penyalur Sungai Neva mentah tanpa filtrasi pasir"
+        }
+      },
+      "description": {
+        "id": "Pada musim panas 1892, kolera berhasil menembus barikade karantina dan menyusup ke St. Petersburg, ibu kota megah Tsar Alexander III. Di kota yang berdiri di atas rawa muara Sungai Neva ini, kesenjangan sosial tercermin langsung dalam sistem air minumnya. Sementara istana kekaisaran Winter Palace dan kawasan bangsawan di Vasilyevsky Island memiliki sistem penyaringan air pribadi, ratusan ribu buruh industri pabrik kain dan baja di distrik Vyborg meminum air langsung dari pipa keran yang menyedot air Sungai Neva mentah tanpa disinfeksi. Ribuan buruh tewas di bangsal-bangsal rumah sakit Obukhov dan Alexander. Bau belerang dan asam karbolat kembali menyelimuti jembatan-jembatan Sungai Neva, menciptakan suasana mencekam di jantung kekuasaan monarki Romanov.",
+        "en": "In the summer of 1892, cholera breached outer cordons and penetrated St. Petersburg, the glittering capital of Tsar Alexander III. Built across the soggy islands of the Neva delta, the metropolis mirrored its stark class divide in its hydraulic infrastructure. While the Winter Palace and aristocratic salons on Vasilyevsky Island enjoyed boiled and private filtered water, hundreds of thousands of metallurgical and textile workers in the Vyborg quarter drank unfiltered municipal tap water drawn from the polluted lower Neva. Thousands of laborers perished in the overflowing wards of Obukhov and Alexander hospitals. The acrid stench of sulfur and carbolic acid once again drifted across Neva bridges, casting a pall over the Romanov autocracy."
+      },
+      "image": "/assets/images/cholera/wave-5/rus/rus_ch_09.jpg"
+    },
+    {
+      "id": "rus-ch-10",
+      "chapterNumber": 10,
+      "type": "milestone",
+      "title": {
+        "id": "Kematian Tragis Pyotr Ilyich Tchaikovsky: Gelas Air Mentah di Restoran Leiner",
+        "en": "The Tragic Death of Pyotr Ilyich Tchaikovsky: Unboiled Water at Leiner's"
+      },
+      "date": {
+        "id": "2 – 6 November 1893",
+        "en": "November 2 – 6, 1893"
+      },
+      "flash": {
+        "id": "Komponis agung Pyotr Ilyich Tchaikovsky menenggak segelas air keran mentah di restoran Leiner St. Petersburg; wafat empat hari kemudian dalam kesakitan kolera dahsyat.",
+        "en": "Master composer Pyotr Ilyich Tchaikovsky drinks a glass of unboiled tap water at Leiner's restaurant; dies four days later in agonizing cholera spasms."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Segelas air keran Sungai Neva yang tidak direbus di restoran elit St. Petersburg",
+        "incubation": "24 jam",
+        "transmission": "Ingesti oral air minum terkontaminasi oleh tokoh budaya dunia",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Segelas air keran Sungai Neva yang tidak direbus di restoran",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Segelas air keran Sungai Neva yang tidak direbus di restoran"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Segelas air keran Sungai Neva yang tidak direbus di restoran elit St. Petersburg",
+          "en": "Target population and vector: Segelas air keran Sungai Neva yang tidak direbus di restoran elit St. Petersburg"
+        }
+      },
+      "description": {
+        "id": "Kematian paling terkenal dan mengguncang dunia dalam sejarah Pandemi Kelima terjadi pada awal November 1893 di St. Petersburg. Sembilan hari setelah memimpin pemutaran perdana Simfoni Keenamnya ('Pathétique') yang monumental, komponis agung Pyotr Ilyich Tchaikovsky bersantap malam bersama saudaranya Modest di restoran mewah Leiner di Nevsky Prospekt. Di tengah makan malam, Tchaikovsky memesan segelas air minum. Ketika pelayan memberitahu bahwa air matang telah habis, Tchaikovsky dengan acuh tak acuh meminta air keran mentah biasa. Keesokan paginya, gejala kolera fulminan menyerangnya dengan dahsyat: diare tanpa henti, kram otot yang meremukkan tubuh, dan kegagalan ginjal. Pada tanggal 6 November 1893, maestro musik dunia tersebut menghembuskan napas terakhirnya di usia 53 tahun, menenggelamkan dunia seni internasional dalam duka mendalam.",
+        "en": "The most celebrated and internationally shocking casualty of the Fifth Pandemic unfolded in early November 1893 in St. Petersburg. Nine days after conducting the premiere of his monumental Sixth Symphony ('Pathétique'), master composer Pyotr Ilyich Tchaikovsky dined with his brother Modest at the fashionable Leiner's restaurant on Nevsky Prospekt. During the meal, Tchaikovsky requested a glass of water. When the waiter replied that boiled water had run out, the composer nonchalantly insisted on unboiled municipal tap water. By next morning, violent cholera symptoms struck: unyielding purging, agonizing muscular spasms, and anuria. On November 6, 1893, the 53-year-old musical titan succumbed, plunging the international cultural community into profound mourning."
+      },
+      "image": "/assets/images/cholera/wave-5/rus/rus_ch_10.jpg"
+    },
+    {
+      "id": "rus-ch-11",
+      "chapterNumber": 11,
+      "type": "side_story",
+      "title": {
+        "id": "Kontroversi Bunuh Diri vs Bukti Bakteriologis: Sidang Medis Dokter Bertenson",
+        "en": "The Suicide Controversy vs. Bacteriological Proof: The Bertenson Inquest"
+      },
+      "date": {
+        "id": "November 1893",
+        "en": "November 1893"
+      },
+      "flash": {
+        "id": "Rumor bunuh diri paksa pengadilan kehormatan bangsawan merebak di salon-salon St. Petersburg; namun dokter kekaisaran Bertenson mengonfirmasi diagnosis klinis murni kolera.",
+        "en": "Rumors of court-of-honor forced suicide swirl in aristocratic salons; but imperial physicians Bertenson confirm the unambiguous clinical diagnosis of cholera."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Perawatan klinis intensif: rendaman air hangat, infus subkutan minyak kamper, dan kateterisasi",
+        "incubation": "N/A (Debat Sejarah Medis)",
+        "transmission": "Diagnosis diferensial definitif antara keracunan arsenik vs infeksi bakteri kolera",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Perawatan klinis intensif: rendaman air hangat, infus subkut",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Perawatan klinis intensif: rendaman air hangat, infus subkut"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Perawatan klinis intensif: rendaman air hangat, infus subkutan minyak kamper, dan kateterisasi",
+          "en": "Target population and vector: Perawatan klinis intensif: rendaman air hangat, infus subkutan minyak kamper, da"
+        }
+      },
+      "description": {
+        "id": "Kematian mendadak Tchaikovsky segera memicu salah satu teori konspirasi paling tahan lama dalam sejarah musik. Rumor berbisik di kalangan aristokrasi bahwa sang komponis diperintahkan meminum racun arsenik oleh 'pengadilan kehormatan' alumni Sekolah Hukum Kekaisaran untuk menutupi skandal homoseksualitas dengan seorang bangsawan muda. Namun catatan klinis terperinci yang dibuat oleh empat dokter yang merawatnya—termasuk dokter pribadi Tsar, Dr. Vasily Bertenson dan saudaranya Lev—membantah keras rumor tersebut. Gejala klinis Tchaikovsky: diare cucian beras yang khas, suara serak parau yang lenyap, kebiruan pada kuku dan ujung hidung, serta asidosis ekstrem merupakan tanda tak terbantahkan dari infeksi Vibrio cholerae murni, bukan keracunan arsenik yang memiliki gambaran klinis berbeda.",
+        "en": "Tchaikovsky's sudden demise instantly ignited one of the most enduring conspiracy controversies in cultural historiography. Whispers rippled through St. Petersburg salons alleging that the composer had been coerced into taking arsenic by a clandestine 'court of honor' of Imperial School of Jurisprudence alumni to avert a homosexual scandal involving nobility. However, exhaustive clinical logs compiled by the four attending physicians—including imperial doctors Vasily and Lev Bertenson—conclusively rebutted the suicide myth. Tchaikovsky's classical clinical signs: characteristic rice-water discharges, vanished pulse, shriveled cyanotic extremities, and complete renal shutdown represented an unmistakable case of acute Vibrio cholerae infection, inconsistent with arsenic poisoning."
+      },
+      "image": "/assets/images/cholera/wave-5/rus/rus_ch_11.jpg"
+    },
+    {
+      "id": "rus-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Dormansi Musim Dingin dan Ledakan 1893: Kebangkitan di Podolia dan Polandia",
+        "en": "Winter Dormancy and the 1893 Resurgence: Rebirth in Podolia and Poland"
+      },
+      "date": {
+        "id": "Desember 1892 – Musim Panas 1893",
+        "en": "December 1892 – Summer 1893"
+      },
+      "flash": {
+        "id": "Bakteri bertahan di jamban beku dan meletus kembali pada musim semi 1893, menyapu provinsi Podolia, Kiev, dan Polandia dengan 100.000 korban tambahan.",
+        "en": "The vibrio overwinters in frozen cesspools and erupts anew in spring 1893, ravaging Podolia, Kiev, and Poland with 100,000 additional fatalities."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Limpasan air mencair musim semi (rasputitsa) yang membawa bakteri dorman ke sumur desa",
+        "incubation": "24 – 48 jam",
+        "transmission": "Siklus transmisi gelombang sekunder di provinsi-provinsi barat kekaisaran",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Limpasan air mencair musim semi (rasputitsa) yang membawa ba",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Limpasan air mencair musim semi (rasputitsa) yang membawa ba"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Limpasan air mencair musim semi (rasputitsa) yang membawa bakteri dorman ke sumur desa",
+          "en": "Target population and vector: Limpasan air mencair musim semi (rasputitsa) yang membawa bakteri dorman ke sumu"
+        }
+      },
+      "description": {
+        "id": "Suhu beku musim dingin Rusia 1892–1893 sempat memberikan ilusi bahwa wabah telah usai. Namun Vibrio cholerae memiliki kemampuan adaptasi luar biasa, bertahan hidup dalam kondisi semi-dorman di dasar lumpur sungai dan tangki kotoran beku. Ketika salju musim semi mencair (rasputitsa) pada April 1893, air limpasan membawa miliaran kuman hidup kembali ke sistem pasokan air pedesaan. Gelombang sekunder meledak dengan dahsyat di provinsi-provinsi barat: Podolia, Volhynia, Kiev, dan wilayah Polandia Rusia. Lebih dari 100.000 nyawa melayang pada gelombang kedua tahun 1893 ini, membuktikan bahwa tanpa pembangunan instalasi filtrasi air modern dan sanitasi permanen, kolera akan terus bangkit kembali setiap musim panas.",
+        "en": "The sub-zero freezes of the 1892–1893 Russian winter offered a transient illusion of deliverance. Yet Vibrio cholerae possessed extraordinary environmental resilience, surviving in semi-dormant states within benthic river silts and frozen cesspool sediments. With the catastrophic spring thaw (rasputitsa) of April 1893, torrents of melted snow flushed billions of viable bacteria into rural aquifers. A devastating secondary wave erupted across the western governorates: Podolia, Volhynia, Kiev, and Congress Poland. Over 100,000 additional lives were extinguished in the 1893 resurgence, demonstrating that absent modern slow-sand filtration and sanitary sewers, the contagion would cyclically regenerate each summer."
+      },
+      "image": "/assets/images/cholera/wave-5/rus/rus_ch_12.jpg"
+    },
+    {
+      "id": "rus-ch-13",
+      "chapterNumber": 13,
+      "type": "standard",
+      "title": {
+        "id": "Mobilisasi Medis Dewan Zemstvo: Garda Terdepan Dokter Rakyat",
+        "en": "Zemstvo Medical Mobilization: The Vanguard of the People's Physicians"
+      },
+      "date": {
+        "id": "1893 – 1894",
+        "en": "1893 – 1894"
+      },
+      "flash": {
+        "id": "Korps dokter pedesaan Zemstvo membuktikan diri sebagai pahlawan sejati; mendirikan laboratorium bakteriologis keliling dan sistem pemetaan epidemi modern.",
+        "en": "Zemstvo rural medical corps prove themselves true heroes; establishing mobile bacteriological stations and modern epidemiological spot-mapping."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Penyebaran sains bakteriologi terapan ke pelosok pedalaman Rusia",
+        "incubation": "N/A (Organisasi Kesehatan Masyarakat Mandiri)",
+        "transmission": "Penetralan sumber air desa dengan klorinasi kapur dan inspeksi bakteriologis sumur",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Penyebaran sains bakteriologi terapan ke pelosok pedalaman R",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Penyebaran sains bakteriologi terapan ke pelosok pedalaman R"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Penyebaran sains bakteriologi terapan ke pelosok pedalaman Rusia",
+          "en": "Target population and vector: Penyebaran sains bakteriologi terapan ke pelosok pedalaman Rusia"
+        }
+      },
+      "description": {
+        "id": "Di tengah kelumpuhan dan kegagapan birokrasi kementerian kekaisaran di St. Petersburg, satu-satunya institusi yang berhasil menyelamatkan jutaan nyawa rakyat jelata adalah dewan pemerintahan daerah Zemstvo. Korps dokter Zemstvo (Zemskie vrachi)—yang terdiri dari dokter-dokter idealis, mahasiswa, dan perawat—bekerja tanpa pamrih mendirikan jaringan pos desinfeksi keliling di ribuan desa. Mereka menerapkan metode bakteriologi Koch secara masif: memeriksa sampel kotoran di bawah mikroskop portabel, menandai sumur-sumur yang tercemar pada peta desa, dan mendistribusikan tong-tong kayu air matang secara teratur. Dedikasi dokter-dokter rakyat ini meletakkan fondasi sistem kedokteran preventif Rusia yang kelak diakui dunia.",
+        "en": "Amidst the bureaucratic paralysis of imperial ministries in St. Petersburg, the sole institution that preserved millions of peasant lives was the Zemstvo provincial self-government network. The Zemstvo medical corps (Zemskie vrachi)—comprising idealistic physicians, medical students, and nurses—labored heroically erecting mobile disinfection stations across thousands of hamlets. They operationalized Koch's bacteriological methodology at scale: screening stool cultures beneath portable field microscopes, mapping infected village wells, and dispensing inspected water casks. The grassroots dedication of these 'people's physicians' forged the architectural bedrock of Russian preventive medicine."
+      },
+      "image": "/assets/images/cholera/wave-5/rus/rus_ch_13.jpg"
+    },
+    {
+      "id": "rus-ch-14",
+      "chapterNumber": 14,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Demografi dan Benih Revolusi: Runtuhnya Kepercayaan pada Autokrasi",
+        "en": "Demographic Reckoning and Seeds of Revolution: Collapse of Faith in Autocracy"
+      },
+      "date": {
+        "id": "1894 – 1896",
+        "en": "1894 – 1896"
+      },
+      "flash": {
+        "id": "Lebih dari 267.000 korban tewas di Rusia; ketidakmampuan rezim Tsar menangani bencana kelaparan dan kolera menyalakan benih radikalisasi Revolusi 1905 dan 1917.",
+        "en": "Over 267,000 dead in Russia; the Tsarist autocracy's catastrophic failure in famine and cholera ignites the political radicalization leading to 1905 and 1917."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Analisis demografi dan konsekuensi sosio-historis jangka panjang",
+        "incubation": "N/A (Analisis Historiografi Geopolitik)",
+        "transmission": "Pelemahan legitimasi monarki mutlak Romanov dan kebangkitan gerakan revolusioner rakyat",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Analisis demografi dan konsekuensi sosio-historis jangka pan",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Analisis demografi dan konsekuensi sosio-historis jangka pan"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Analisis demografi dan konsekuensi sosio-historis jangka panjang",
+          "en": "Target population and vector: Analisis demografi dan konsekuensi sosio-historis jangka panjang"
+        }
+      },
+      "description": {
+        "id": "Ketika kabut epidemi akhirnya mereda pada akhir tahun 1893, catatan resmi Departemen Medis Kementerian Dalam Negeri mencatat angka mengerikan: lebih dari 267.000 rakyat Kekaisaran Rusia tewas akibat kolera hanya dalam kurun waktu delapan belas bulan. Namun dampak politis dan sosialnya jauh lebih dahsyat. Kombinasi mematikan antara Kelaparan Raya 1891–1892 dan amukan kolera menghancurkan kepercayaan rakyat terhadap mitos 'Tsar Bapa Pelindung' yang suci. Kaum intelektual, dokter, dan generasi muda—termasuk Vladimir Lenin muda yang saat itu berpraktik hukum di Samara—menyaksikan langsung kebobrokan birokrasi otokrasi yang korup dan tidak peduli pada penderitaan rakyat. Dari genangan air tercemar Volga dan kuburan massal Tashkent, benih-benih kemarahan sosial disemai yang kelak meletus dalam Revolusi Rusia 1905 dan 1917.",
+        "en": "When the epidemic fog finally lifted in late 1893, official registers of the Imperial Ministry of the Interior tallied an appalling total: over 267,000 Russian subjects had perished from cholera in eighteen months. Yet the socio-political fallout proved even more catastrophic for the Romanov dynasty. The twin hammer-blows of the Great Famine and the cholera scourge permanently shattered popular faith in the mythical benevolence of the 'Little Father' Tsar. Intellectuals, Zemstvo physicians, and a radicalized rising generation—including a young Vladimir Lenin practicing law in Samara during the height of the epidemic—witnessed firsthand the grotesque incompetence and callousness of the autocratic bureaucracy. From the contaminated mud of the Volga and mass graves of Tashkent, the revolutionary seeds were sown that would erupt in 1905 and 1917."
+      },
+      "image": "/assets/images/cholera/wave-5/rus/rus_ch_14.jpg"
+    }
+  ]
+}

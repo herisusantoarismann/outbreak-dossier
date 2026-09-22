@@ -1,0 +1,542 @@
+{
+  "sectorId": "ITA",
+  "waveIndex": 5,
+  "sectorName": {
+    "id": "Sektor ITA (Kerajaan Italia: Napoli, Pemukiman Fondaci & Proyek Risanamento // 1884–1885)",
+    "en": "Sector ITA (Kingdom of Italy: Naples, Fondaci Slums & The Risanamento // 1884–1885)"
+  },
+  "coordinates": [
+    40.8518,
+    14.2681
+  ],
+  "timeRange": {
+    "id": "Agustus 1884 – Desember 1885",
+    "en": "August 1884 – December 1885"
+  },
+  "estimatedFatalities": {
+    "id": "14.000+ korban jiwa di Italia (7.000+ tewas di Napoli hanya dalam 40 hari; ribuan lainnya di Genoa, Palermo, dan Sisilia)",
+    "en": "14,000+ deaths across Italy (7,000+ in Naples alone within 40 days; thousands across Genoa, Palermo, and Sicily)"
+  },
+  "chapters": [
+    {
+      "id": "ita-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Penyeberangan Alpen Maritim: Dari Pelabuhan Genoa ke Teluk Napoli",
+        "en": "Maritime Alpine Crossing: From Genoa Port to the Bay of Naples"
+      },
+      "date": {
+        "id": "Juli – Agustus 1884",
+        "en": "July – August 1884"
+      },
+      "flash": {
+        "id": "Kolera melompati perbatasan Prancis dari Toulon dan Marseille menuju pelabuhan Genoa, lalu terbawa ke selatan menaiki kapal feri menuju Napoli.",
+        "en": "Cholera leaps the French border from Toulon and Marseille into Genoa, shuttled south aboard coastal ferries into Naples."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Pakaian pengungsi Italia yang melarikan diri dari Marseille dan pelaut kapal dagang Liguria",
+        "incubation": "12 – 48 jam",
+        "transmission": "Fekal-oral melalui kontak erat di kapal uap pesisir dan pelabuhan padat",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Pakaian pengungsi Italia yang melarikan diri dari Marseille ",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Pakaian pengungsi Italia yang melarikan diri dari Marseille "
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Pakaian pengungsi Italia yang melarikan diri dari Marseille dan pelaut kapal dagang Liguria",
+          "en": "Target population and vector: Pakaian pengungsi Italia yang melarikan diri dari Marseille dan pelaut kapal dag"
+        }
+      },
+      "description": {
+        "id": "Pada musim panas 1884, wabah kolera yang meletus di pangkalan angkatan laut Prancis di Toulon dan Marseille segera meluber melintasi perbatasan Riviera Italia. Puluhan ribu buruh migran Italia yang kehilangan pekerjaan di Prancis selatan melarikan diri pulang melintasi perbatasan Liguria. Meskipun pemerintah Italia berusaha mendirikan barikade karantina darurat, ribuan pengungsi berhasil menyusup ke pelabuhan Genoa dan menaiki kapal-kapal uap penumpang menuju selatan. Pada pertengahan Agustus 1884, basil kolera mendarat di pelabuhan Napoli, kota terpadat di Italia dengan lebih dari 500.000 penduduk, siap meledakkan salah satu krisis kemanusiaan paling mengerikan dalam sejarah Semenanjung Italia.",
+        "en": "In the sweltering summer of 1884, the cholera outbreak detonating in the French naval bases of Toulon and Marseille rapidly breached the Ligurian frontier. Tens of thousands of impoverished Italian migrant workers thrown out of work across southern France fled homeward over the mountain passes. Although Rome attempted to establish military quarantine barriers along the border, thousands infiltrated the port of Genoa and boarded coastal passenger packets bound southward. In mid-August 1884, the vibrion disembarked at the port of Naples, Italy's most congested metropolis housing over 500,000 souls, igniting one of the grimmest human catastrophes in Mediterranean history."
+      },
+      "image": "/assets/images/cholera/wave-5/ita/ita_ch_01.jpg"
+    },
+    {
+      "id": "ita-ch-02",
+      "chapterNumber": 2,
+      "type": "milestone",
+      "title": {
+        "id": "Labirin Bawah Tanah Fondaci: Kepadatan Ekstrem Distrik Porto dan Mercato",
+        "en": "Subterranean Maze of the Fondaci: Hyper-Congestion in Porto and Mercato"
+      },
+      "date": {
+        "id": "Agustus 1884",
+        "en": "August 1884"
+      },
+      "flash": {
+        "id": "Di distrik kumuh Porto dan Pendino, lebih dari 300.000 warga miskin berjejal di 'fondaci'—kamar gua bawah tanah tanpa jendela, ventilasi, atau jamban.",
+        "en": "In the Porto and Pendino slums, over 300,000 poor huddle in 'fondaci'—cavernous windowless basement dens devoid of ventilation or latrines."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Limbah kotoran manusia yang menggenangi lantai gua batu tufa (fondaci) dan bassi",
+        "incubation": "6 – 24 jam",
+        "transmission": "Penularan kontak langsung masif di pemukiman dengan kepadatan lebih dari 1.000 jiwa per hektar",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Limbah kotoran manusia yang menggenangi lantai gua batu tufa",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Limbah kotoran manusia yang menggenangi lantai gua batu tufa"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Limbah kotoran manusia yang menggenangi lantai gua batu tufa (fondaci) dan bassi",
+          "en": "Target population and vector: Limbah kotoran manusia yang menggenangi lantai gua batu tufa (fondaci) dan bassi"
+        }
+      },
+      "description": {
+        "id": "Kondisi perkotaan Napoli pada tahun 1884 adalah bom waktu sanitasi. Di distrik-distrik tertua di tepi laut—Porto, Pendino, dan Mercato—kepadatan penduduk melampaui 1.400 orang per hektar, tertinggi di seluruh Eropa. Ratusan ribu kaum proletar miskin (lazzaroni) tinggal di 'fondaci' dan 'bassi': ruangan bawah tanah mirip gua yang digali ke dalam batu tufa vulkanik, tanpa jendela, tanpa saluran udara, dan tanpa toilet. Seluruh keluarga tidur bersama hewan ternak di atas lantai tanah yang basah kuyup oleh rembesan air kotoran. Ketika Vibrio cholerae menyusup ke lorong-lorong gelap ini, penyakit itu menyebar seperti kobaran api di padang jerami kering, menularkan seluruh penghuni blok rumah petak hanya dalam semalam.",
+        "en": "The urban fabric of Naples in 1884 was a ticking sanitary time bomb. In the historic waterfront quarters—Porto, Pendino, and Mercato—population density exceeded 1,400 inhabitants per hectare, the highest in Europe. Hundreds of thousands of impoverished proletarians (lazzaroni) lived crammed in 'fondaci' and 'bassi': windowless subterranean dens carved into porous volcanic tufa rock, lacking chimneys, ventilation, or sanitary latrines. Entire families slept on earthen floors alongside swine and poultry atop soil saturated with sewage seepage. When Vibrio cholerae penetrated these damp catacombs, it detonated like a spark in tinder, infecting entire tenement blocks in a single night."
+      },
+      "image": "/assets/images/cholera/wave-5/ita/ita_ch_02.jpg"
+    },
+    {
+      "id": "ita-ch-03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Akuaduk Maut: Rembesan Septik ke Saluran Kuno Bolla dan Carmignano",
+        "en": "Aqueduct of Death: Septic Seepage into Ancient Bolla and Carmignano Conduits"
+      },
+      "date": {
+        "id": "Agustus – September 1884",
+        "en": "August – September 1884"
+      },
+      "flash": {
+        "id": "Saluran air minum kuno Acquedotto della Bolla yang terbuat dari batu tufa berpori merembeskan tinja dari 40.000 tangki kotoran langsung ke keran publik.",
+        "en": "The ancient porous tufa Acquedotto della Bolla conduits absorb sewage seepage from 40,000 leaking cesspools directly into public fountains."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air pipa gravitasi kuno Acquedotto della Bolla dan Acquedotto di Carmignano",
+        "incubation": "12 – 36 jam",
+        "transmission": "Pencemaran silang masif antara sumur resapan tinja (pozzi neri) dan saluran air minum kota",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Air pipa gravitasi kuno Acquedotto della Bolla dan Acquedott",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Air pipa gravitasi kuno Acquedotto della Bolla dan Acquedott"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Air pipa gravitasi kuno Acquedotto della Bolla dan Acquedotto di Carmignano",
+          "en": "Target population and vector: Air pipa gravitasi kuno Acquedotto della Bolla dan Acquedotto di Carmignano"
+        }
+      },
+      "description": {
+        "id": "Penyebab utama dari kecepatan penularan yang mencengangkan di Napoli adalah sistem hidroliknya yang bobrok. Kota ini masih mengandalkan akuaduk kuno zaman Romawi dan Renaisans—Acquedotto della Bolla dan Acquedotto di Carmignano—yang mengalirkan air melalui terowongan batu tufa vulkanik yang sangat berpori dan retak-retak di bawah jalanan kota. Tepat di atas terowongan-terowongan ini, terdapat lebih dari 40.000 tangki pembuangan tinja tanpa dasar (pozzi neri) yang merembeskan jutaan liter cairan kotoran setiap hari. Ketika tinja penderita kolera merembes ke dalam tanah tufa, basil koma tersedot langsung ke dalam aliran air minum kota, mendistribusikan kuman hidup ke air mancur umum di seluruh penjuru Napoli.",
+        "en": "The primary engine of Naples' astonishing epidemic velocity lay in its decrepit hydraulic infrastructure. The metropolis still depended on ancient subterranean Roman and Renaissance conduits—the Acquedotto della Bolla and Acquedotto di Carmignano—hewn from porous, fractured volcanic tufa beneath city avenues. Directly above these drinking channels lay over 40,000 unlined cesspools (pozzi neri) leaking millions of liters of raw sewage daily into the substrata. When cholera evacuations soaked into the fractured tufa bedrock, live vibrios were sucked directly into drinking streams, discharging lethal bacteria through public ornamental fountains throughout the city."
+      },
+      "image": "/assets/images/cholera/wave-5/ita/ita_ch_03.jpg"
+    },
+    {
+      "id": "ita-ch-04",
+      "chapterNumber": 4,
+      "type": "milestone",
+      "title": {
+        "id": "September Hitam 1884: 7.000 Kematian dalam 40 Hari dan Gerobak Poggioreale",
+        "en": "Black September of 1884: 7,000 Deaths in 40 Days and Poggioreale Carts"
+      },
+      "date": {
+        "id": "September 1884",
+        "en": "September 1884"
+      },
+      "flash": {
+        "id": "Lebih dari 7.000 warga Napoli tewas dalam tempo empat puluh hari; lonceng gereja dilarang berdentang dan gerobak mayat melintas tanpa henti menuju Poggioreale.",
+        "en": "Over 7,000 Neapolitans perish within forty days; church bells are silenced as death carts rattle endlessly toward Poggioreale Cemetery."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air mancur publik piazza dan dehidrasi masif",
+        "incubation": "6 – 18 jam",
+        "transmission": "Ledakan kasus eksplosif menembus 1.000 kematian per hari pada puncak 10–12 September",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Air mancur publik piazza dan dehidrasi masif",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Air mancur publik piazza dan dehidrasi masif"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Air mancur publik piazza dan dehidrasi masif",
+          "en": "Target population and vector: Air mancur publik piazza dan dehidrasi masif"
+        }
+      },
+      "description": {
+        "id": "Bulan September 1884 tercatat dalam sejarah Napoli sebagai 'Settembre Nero' (September Hitam). Pada puncak wabah antara tanggal 10 dan 12 September, lebih dari 1.000 orang meninggal dunia setiap dua puluh empat jam. Suara dentang lonceng kematian di ratusan gereja dilarang oleh pemerintah kota karena memicu histeria massal. Ratusan gerobak datar yang ditarik keledai melintasi jalanan berbatu yang sepi, mengangkut tumpukan jenazah yang hanya dibungkus kain terpal menuju Pemakaman Poggioreale. Di sana, para penggali kubur menggali parit raksasa (fossa comune dei colerosi) untuk menguburkan ratusan mayat sekaligus dengan taburan berton-ton kapur tohor, sementara toko-toko ditutup dan kehidupan ekonomi kota lumpuh total.",
+        "en": "September 1884 entered Neapolitan annals as 'Settembre Nero' (Black September). At the climax of the scourge between September 10 and 12, over 1,000 citizens perished every twenty-four hours. The tolling of church funeral bells was prohibited by municipal edict to prevent collective insanity. Mule-drawn flatbed wagons rattled incessantly over cobblestones, ferrying piles of corpses wrapped in rough tarpaulins toward Poggioreale Cemetery. There, exhausted gravediggers excavated cavernous mass trenches (fossa dei colerosi) to inter hundreds of bodies simultaneously under tons of quicklime, while commercial shutters slammed shut and municipal life ceased."
+      },
+      "image": "/assets/images/cholera/wave-5/ita/ita_ch_04.jpg"
+    },
+    {
+      "id": "ita-ch-05",
+      "chapterNumber": 5,
+      "type": "side_story",
+      "title": {
+        "id": "Kunjungan Berani Raja Umberto I: 'Di Napoli Orang Sekarat, Saya Pergi ke Napoli'",
+        "en": "King Umberto I's Gallant Visit: 'In Naples They Are Dying, I Go to Naples'"
+      },
+      "date": {
+        "id": "8 – 12 September 1884",
+        "en": "September 8 – 12, 1884"
+      },
+      "flash": {
+        "id": "Raja Umberto I menolak menghadiri pesta di Pordenone dan memilih mendatangi bangsal kolera Rumah Sakit San Gennaro di Napoli, menggenggam tangan pasien sekarat.",
+        "en": "King Umberto I cancels a gala in Pordenone, declaring 'In Naples they are dying; I go to Naples', and visits moribund patients in San Gennaro Hospital."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kunjungan bangsal infeksi rumah sakit penampungan kolera akut",
+        "incubation": "N/A (Kepemimpinan Moral dan Keberanian Sipil)",
+        "transmission": "Teladan keberanian pribadi monarki meredakan kepanikan dan menumbuhkan solidaritas nasional",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Kunjungan bangsal infeksi rumah sakit penampungan kolera aku",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Kunjungan bangsal infeksi rumah sakit penampungan kolera aku"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Kunjungan bangsal infeksi rumah sakit penampungan kolera akut",
+          "en": "Target population and vector: Kunjungan bangsal infeksi rumah sakit penampungan kolera akut"
+        }
+      },
+      "description": {
+        "id": "Di tengah keputusasaan Napoli, Raja Umberto I dari Italia melakukan tindakan kepahlawanan moral yang menggetarkan seluruh benua Eropa. Ketika diundang menghadiri festival pacuan kuda megah di Pordenone, sang Raja mengirimkan telegram balasan yang terkenal: 'A Pordenone si fa festa, a Napoli si muore; io vado a Napoli' ('Di Pordenone orang berpesta, di Napoli orang sekarat; saya pergi ke Napoli'). Tiba di Napoli pada puncak kematian tanggal 8 September tanpa pengawalan militer berlebihan, Umberto I melangkah langsung ke bangsal-bangsal maut Rumah Sakit San Gennaro dan gubuk-gubuk fondaci, menggenggam tangan para penderita yang menggigil dan mencium kening anak-anak yang sekarat. Keberanian sang Raja memulihkan martabat kemanusiaan kota yang terluka dan menyatukan rakyat Italia di belakang penanganan krisis.",
+        "en": "Amidst Naples' desolation, King Umberto I performed an act of moral gallantry that electrified Europe. Invited to attend an aristocratic equestrian gala in Pordenone, the monarch transmitted a legendary telegraphic reply: 'A Pordenone si fa festa, a Napoli si muore; io vado a Napoli' ('At Pordenone there is celebration; in Naples they are dying; I go to Naples'). Arriving without ostentatious military escort on September 8 at the very height of mortality, Umberto I walked directly into the infected wards of San Gennaro Hospital and into the subterranean fondaci, grasping the cold, cyanotic hands of dying laborers and comforting orphaned children. The King's personal courage restored human dignity to a traumatized populace and galvanized national solidarity."
+      },
+      "image": "/assets/images/cholera/wave-5/ita/ita_ch_05.jpg"
+    },
+    {
+      "id": "ita-ch-06",
+      "chapterNumber": 6,
+      "type": "side_story",
+      "title": {
+        "id": "Brigade Palang Putih Dr. Bozzolo: Ambulans Kemanusiaan di Tengah Histeria",
+        "en": "Dr. Bozzolo's White Cross Brigade: Humanitarian Ambulances in the Crucible"
+      },
+      "date": {
+        "id": "September – Oktober 1884",
+        "en": "September – October 1884"
+      },
+      "flash": {
+        "id": "Organisasi sukarela Croce Bianca pimpinan Dr. Camillo Bozzolo mengoperasikan 50 kereta ambulans darurat, menyelamatkan ribuan pasien miskin dari gubuk fondaci.",
+        "en": "The volunteer Croce Bianca under Dr. Camillo Bozzolo operates 50 emergency ambulances, rescuing thousands of impoverished patients from fondaci cellars."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Penyelamatan medis garis depan di lorong-lorong kota tua Napoli",
+        "incubation": "6 – 12 jam",
+        "transmission": "Pemberian cairan rehidrasi oral dini dan pemindahan steril ke rumah sakit lapangan",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Penyelamatan medis garis depan di lorong-lorong kota tua Nap",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Penyelamatan medis garis depan di lorong-lorong kota tua Nap"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Penyelamatan medis garis depan di lorong-lorong kota tua Napoli",
+          "en": "Target population and vector: Penyelamatan medis garis depan di lorong-lorong kota tua Napoli"
+        }
+      },
+      "description": {
+        "id": "Bersama dengan kehadiran Raja, para relawan kemanusiaan dari organisasi Palang Putih (Croce Bianca) pimpinan dokter terkemuka Dr. Camillo Bozzolo dan Dr. Tommaso Senise menjadi benteng pertahanan sipil Napoli. Mengoperasikan lebih dari lima puluh kereta ambulans bertanda palang putih, ratusan mahasiswa kedokteran dan warga sipil sukarelawan menyusuri lorong-lorong paling berbahaya di distrik Porto. Mereka mendobrak pintu gubuk-gubuk bawah tanah yang terkunci, memberikan larutan asam laktat dan air panas untuk menghangatkan tubuh pasien yang hipotermia, dan memindahkan para korban ke rumah sakit isolasi khusus. Pengorbanan para sukarelawan Croce Bianca—banyak di antaranya yang gugur tertular kuman—membuktikan bahwa solidaritas sipil mampu berdiri kokoh di hadapan kepanikan maut.",
+        "en": "Alongside the monarch, humanitarians of the volunteer White Cross (Croce Bianca), directed by prominent clinician Dr. Camillo Bozzolo and Dr. Tommaso Senise, formed Naples' civil shield. Operating over fifty custom horse-drawn ambulance wagons bearing the white cross ensign, hundreds of student volunteers penetrated the most perilous recesses of the Porto quarter. They broke down doors of abandoned basements, administered oral warm broths and lactic acid solutions to hypotonic patients, and conveyed victims to field clinics. The selfless sacrifice of the Croce Bianca—many of whom perished of the infection they fought—demonstrated that grassroots civic fraternity could stand firm against panic."
+      },
+      "image": "/assets/images/cholera/wave-5/ita/ita_ch_06.jpg"
+    },
+    {
+      "id": "ita-ch-07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Prosesi San Gennaro dan Takhayul Racun: Benturan Iman dan Epidemiologi",
+        "en": "Processions of San Gennaro and Poison Panics: Faith Clashes with Epidemiology"
+      },
+      "date": {
+        "id": "September 1884",
+        "en": "September 1884"
+      },
+      "flash": {
+        "id": "Puluhan ribu warga memadati katedral memohon mukjizat darah Santo Januarius; kerumunan massa justru mempercepat penularan basil di tengah histeria racun sumur.",
+        "en": "Tens of thousands crowd the cathedral pleading for the liquefaction of Saint Januarius's blood; the religious throngs inadvertently multiply transmission."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kerumunan massal prosesi keagamaan dan bejana air suci gereja",
+        "incubation": "12 – 48 jam",
+        "transmission": "Fekal-oral di kerumunan rapat tanpa fasilitas sanitasi di bawah terik matahari",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Kerumunan massal prosesi keagamaan dan bejana air suci gerej",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Kerumunan massal prosesi keagamaan dan bejana air suci gerej"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Kerumunan massal prosesi keagamaan dan bejana air suci gereja",
+          "en": "Target population and vector: Kerumunan massal prosesi keagamaan dan bejana air suci gereja"
+        }
+      },
+      "description": {
+        "id": "Di tengah teror kematian, benturan tragis antara keyakinan religius kuno dan hukum epidemiologi modern terlihat jelas di jalanan Napoli. Ribuan warga miskin yang panik menolak bantuan dokter dan malah berkumpul dalam prosesi keagamaan raksasa, mengarak patung Santo Januarius (San Gennaro) melintasi kota untuk memohon mukjizat pencairan darah suci sang santo pelindung. Di dalam katedral yang sesak dan pengap, ribuan jemaat mencium bejana relikui yang sama, tanpa sengaja menyebarkan kuman ke ratusan keluarga baru. Pada saat yang sama, histeria 'untori' (penyebar racun) meledak: para perawat yang menyemprotkan asam karbolat dituduh sebagai pembunuh bayaran pemerintah, memicu kerusuhan dan serangan fisik terhadap petugas kesehatan.",
+        "en": "Amidst mortal terror, a tragic confrontation between ancient piety and epidemiological reality played out in the streets. Thousands of terrified citizens refused medical aid, gathering instead in colossal penitential processions bearing the silver reliquary of Saint Januarius (San Gennaro) through the streets to pray for the liquefaction of his sacred blood. Inside packed, unventilated basilicas, thousands kissed the same reliquary glass, inadvertently igniting hundreds of fresh infection clusters. Concurrently, medieval 'untori' (poisoner) panics erupted: sanitation workers spraying carbolic acid were accused of being hired assassins poisoning wells, provoking violent assaults on public health workers."
+      },
+      "image": "/assets/images/cholera/wave-5/ita/ita_ch_07.jpg"
+    },
+    {
+      "id": "ita-ch-08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Penularan ke Mezzogiorno: Palermo, Sisilia, dan Pesisir Calabria",
+        "en": "Spread Across the Mezzogiorno: Palermo, Sicily, and the Calabrian Coast"
+      },
+      "date": {
+        "id": "Musim Gugur 1884 – 1885",
+        "en": "Autumn 1884 – 1885"
+      },
+      "flash": {
+        "id": "Ribuan pengungsi melarikan diri dari Napoli membawa kolera ke selatan menyeberangi Selat Messina menuju Palermo, merenggut ribuan nyawa di Sisilia.",
+        "en": "Thousands fleeing Naples spread cholera south across the Strait of Messina into Palermo, claiming thousands of lives across Sicily."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Perahu nelayan dan kapal dagang pelarian dari Teluk Napoli",
+        "incubation": "24 – 48 jam",
+        "transmission": "Pencemaran air sumur gali di kota-kota pelabuhan Sisilia dan Calabria",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Perahu nelayan dan kapal dagang pelarian dari Teluk Napoli",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Perahu nelayan dan kapal dagang pelarian dari Teluk Napoli"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Perahu nelayan dan kapal dagang pelarian dari Teluk Napoli",
+          "en": "Target population and vector: Perahu nelayan dan kapal dagang pelarian dari Teluk Napoli"
+        }
+      },
+      "description": {
+        "id": "Meskipun pemerintah memberlakukan blokade laut di sekitar Teluk Napoli, ribuan warga kaya dan pedagang menyewa perahu-perahu layar kecil untuk melarikan diri ke selatan. Pelarian ini membawa Vibrio cholerae menyeberangi Selat Messina menuju pulau Sisilia dan provinsi-provinsi pedalaman Calabria. Di Palermo, wabah meledak di distrik pelabuhan La Kalsa dan pasar Vucciria yang padat sesak, menewaskan lebih dari 3.000 jiwa dalam beberapa minggu. Di desa-desa pegunungan Sisilia yang terisolasi, penduduk setempat membarikade jalan masuk dengan tumpukan batu dan senapan berburu, mengancam akan menembak siapa saja yang datang dari Napoli demi melindungi desa mereka dari kutukan maut.",
+        "en": "Despite naval blockades ringing the Bay of Naples, thousands of affluent citizens and merchants chartered small fishing schooners to escape southward. This flight carried Vibrio cholerae across the Strait of Messina into Sicily and the mountainous Calabrian interior. In Palermo, the contagion exploded within the congested harbor quarter of La Kalsa and the bustling Vucciria market, claiming over 3,000 lives in weeks. In isolated Sicilian mountain hamlets, villagers erected stone barricades across mule tracks manned by armed hunters, threatening to shoot anyone arriving from Naples on sight to protect their communities."
+      },
+      "image": "/assets/images/cholera/wave-5/ita/ita_ch_08.jpg"
+    },
+    {
+      "id": "ita-ch-09",
+      "chapterNumber": 9,
+      "type": "side_story",
+      "title": {
+        "id": "Misi Eksperimen Dr. Jaime Ferrán: Langkah Awal Vaksinasi Kolera Hidup",
+        "en": "Dr. Jaime Ferrán's Experimental Mission: Dawn of Live Cholera Vaccination"
+      },
+      "date": {
+        "id": "Musim Gugur 1884 – 1885",
+        "en": "Autumn 1884 – 1885"
+      },
+      "flash": {
+        "id": "Dokter Spanyol Jaime Ferrán mempelajari wabah di Toulon dan Napoli, mengembangkan vaksin kolera hidup pertama di dunia sebelum uji coba massal di Valencia 1885.",
+        "en": "Spanish physician Jaime Ferrán investigates outbreaks in Toulon and Naples, formulating the world's first live cholera vaccine before Valencia 1885 trials."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae vaksin Ferrán (biakan hidup kaldu kaldu pepton)",
+        "vector": "Inokulasi subkutan lengan atas pada manusia",
+        "incubation": "N/A (Imunisasi Profilaksis Eksperimental)",
+        "transmission": "Percobaan vaksinasi pencegahan pertama sebelum pandemi menyebar ke Spanyol",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae vaksin Ferrán (biakan hidup kaldu kaldu pepton) // Vektor: Inokulasi subkutan lengan atas pada manusia",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Inokulasi subkutan lengan atas pada manusia"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Inokulasi subkutan lengan atas pada manusia",
+          "en": "Target population and vector: Inokulasi subkutan lengan atas pada manusia"
+        }
+      },
+      "description": {
+        "id": "Krisis di Mediterania barat pada tahun 1884 menarik perhatian seorang dokter dan bakteriolog Spanyol yang berani: Dr. Jaime Ferrán y Clúa. Dikirim oleh pemerintah kota Barcelona untuk mempelajari wabah di Toulon dan Napoli, Ferrán berhasil mendapatkan sampel isolat murni Vibrio cholerae. Sekembalinya ke laboratoriumnya di Tortosa, Ferrán mengembangkan vaksin kolera manusia pertama di dunia menggunakan biakan kuman hidup yang dilemahkan. Ketika Gelombang Kelima melanda Valencia pada tahun 1885 dan menewaskan lebih dari 120.000 warga Spanyol, Ferrán memvaksinasi lebih dari 30.000 orang secara massal. Meskipun metodenya memicu perdebatan sengit di kalangan akademisi Eropa, langkah Ferrán meletakkan tonggak sejarah imunisasi aktif pertama melawan kolera.",
+        "en": "The Mediterranean crisis of 1884 galvanized a courageous Spanish bacteriologist: Dr. Jaime Ferrán y Clúa. Dispatched by the municipality of Barcelona to investigate the outbreaks in Toulon and Naples, Ferrán obtained pure cultures of Vibrio cholerae directly from clinical subjects. Returning to his laboratory in Tortosa, Ferrán formulated the world's first live attenuated anticholera vaccine for humans. When the Fifth Pandemic struck Valencia in 1885, claiming over 120,000 Spanish lives, Ferrán inoculated more than 30,000 citizens in the earliest mass immunization campaign. While his living vaccine ignited fierce academic controversies, Ferrán's pioneering work established the historical foundation for cholera vaccinology."
+      },
+      "image": "/assets/images/cholera/wave-5/ita/ita_ch_09.jpg"
+    },
+    {
+      "id": "ita-ch-10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Redanya Badai Sanitasi: Hujan Musim Gugur dan Klorinasi Sumur",
+        "en": "Abatement of the Sanitary Storm: Autumn Deluges and Well Chlorination"
+      },
+      "date": {
+        "id": "Oktober – November 1884",
+        "en": "October – November 1884"
+      },
+      "flash": {
+        "id": "Hujan lebat musim gugur menggelontor selokan kota dan klorinasi asam karbolat massal memadamkan penularan; wabah mereda pada akhir Oktober.",
+        "en": "Torrential autumn rains flush city sewers and massive chemical neutralization extinguishes transmission; the epidemic subsides in late October."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Pembersihan hidrolik alami saluran kota dan desinfeksi kimiawi masif",
+        "incubation": "24 – 48 jam",
+        "transmission": "Pemutusan transmisi fekal melalui penutupan sumur-sumur terkontaminasi di distrik Porto",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Pembersihan hidrolik alami saluran kota dan desinfeksi kimia",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Pembersihan hidrolik alami saluran kota dan desinfeksi kimia"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Pembersihan hidrolik alami saluran kota dan desinfeksi kimiawi masif",
+          "en": "Target population and vector: Pembersihan hidrolik alami saluran kota dan desinfeksi kimiawi masif"
+        }
+      },
+      "description": {
+        "id": "Memasuki pertengahan Oktober 1884, kombinasi antara intervensi medis darurat dan perubahan cuaca alamiah berhasil memadamkan amukan kolera di Napoli. Hujan lebat musim gugur mengguyur teluk, membilas saluran pembuangan dan mengencerkan konsentrasi kuman di akuifer kota. Pada saat yang sama, dinas kesehatan kota menyita dan menyegel ribuan sumur publik yang terbukti tercemar, mendistribusikan disinfektan kapur klorida secara gratis ke setiap rumah tangga. Pada akhir Oktober, angka kematian harian merosot hingga mendekati nol. Badai telah berlalu, namun meninggalkan luka demografi yang mendalam: lebih dari 7.000 warga Napoli tewas hanya dalam waktu kurang dari enam pekan, memaksa negara Italia mengambil tindakan radikal.",
+        "en": "By mid-October 1884, emergency medical mobilization combined with seasonal weather shifts arrested the scourge in Naples. Torrential autumn downpours battered the bay, scouring open gutters and diluting bacterial concentrations in the porous tufa. Simultaneously, municipal health boards condemned and sealed thousands of contaminated public wells, distributing free chlorinated lime to every tenement. By late October, daily fatalities plummeted toward zero. The storm had passed, but left an agonizing demographic toll: over 7,000 Neapolitans had died in fewer than six weeks, compelling the Italian nation to demand radical structural transformation."
+      },
+      "image": "/assets/images/cholera/wave-5/ita/ita_ch_10.jpg"
+    },
+    {
+      "id": "ita-ch-11",
+      "chapterNumber": 11,
+      "type": "milestone",
+      "title": {
+        "id": "Undang-Undang Risanamento 1885: 'Napoli Harus Dibongkar Sampai ke Ususnya!'",
+        "en": "The Risanamento Act of 1885: 'Naples Must Be Gutted to Its Core!'"
+      },
+      "date": {
+        "id": "15 Januari 1885",
+        "en": "January 15, 1885"
+      },
+      "flash": {
+        "id": "Perdana Menteri Agostino Depretis berseru di parlemen: 'Bisogna sventrare Napoli!'; undang-undang khusus mengucurkan 100 juta lira untuk merombak total kota Napoli.",
+        "en": "Prime Minister Agostino Depretis proclaims in parliament: 'Bisogna sventrare Napoli!'; historic law allocates 100 million lire to reconstruct the city."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Perombakan tata ruang perkotaan dan legislasi sanitasi nasional Italia",
+        "incubation": "N/A (Kebijakan Publik Struktural)",
+        "transmission": "Pencegahan epidemi permanen melalui pemusnahan pemukiman kumuh tak layak huni",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Perombakan tata ruang perkotaan dan legislasi sanitasi nasio",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Perombakan tata ruang perkotaan dan legislasi sanitasi nasio"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Perombakan tata ruang perkotaan dan legislasi sanitasi nasional Italia",
+          "en": "Target population and vector: Perombakan tata ruang perkotaan dan legislasi sanitasi nasional Italia"
+        }
+      },
+      "description": {
+        "id": "Tragedi 1884 menjadi titik balik politik bagi Kerajaan Italia. Di hadapan parlemen di Roma, Perdana Menteri Agostino Depretis menyampaikan pidato bersejarah yang mengguncang kesadaran bangsa: 'Bisogna sventrare Napoli!' ('Napoli harus dibongkar sampai ke usus-ususnya!'). Pada tanggal 15 Januari 1885, parlemen mengesahkan 'Legge per il Risanamento della città di Napoli'—undang-undang pembaruan kota paling monumental di Eropa abad ke-19. Negara mengalokasikan dana fantastis sebesar 100 juta lira emas untuk membiayai pembongkaran pemukiman kumuh, pembangunan terowongan limbah modern, dan penyediaan jaringan air minum pegunungan murni yang terisolasi total dari pencemaran tinja.",
+        "en": "The 1884 tragedy proved an epochal political turning point for the Kingdom of Italy. Addressing parliament in Rome, Prime Minister Agostino Depretis delivered a historic address that electrified the nation: 'Bisogna sventrare Napoli!' ('Naples must be gutted to its core!'). On January 15, 1885, parliament enacted the 'Legge per il Risanamento della città di Napoli'—the most monumental urban renewal statute in nineteenth-century Europe. The state authorized an unprecedented 100 million gold lire to finance the wholesale demolition of slum quarters, the construction of modern collector sewers, and the introduction of pristine mountain aqueducts completely isolated from sewage contamination."
+      },
+      "image": "/assets/images/cholera/wave-5/ita/ita_ch_11.jpg"
+    },
+    {
+      "id": "ita-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Pembangunan Megah Corso Umberto dan Akuaduk Serino: Wajah Baru Napoli",
+        "en": "Construction of Corso Umberto and Serino Aqueduct: A Reborn Metropolis"
+      },
+      "date": {
+        "id": "1885 – 1889",
+        "en": "1885 – 1889"
+      },
+      "flash": {
+        "id": "Ratusan fondaci dihancurkan untuk membangun bulevar megah Corso Umberto I; Akuaduk Serino mengalirkan air pegunungan murni sejauh 60 km langsung ke rumah warga.",
+        "en": "Hundreds of fondaci are razed for the grand Corso Umberto I boulevard; the Serino Aqueduct channels pure mountain spring water 60 km into city taps."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Sistem air minum pegunungan terlindung Acquedotto del Serino",
+        "incubation": "N/A (Teknologi Infrastruktur Hidrolik)",
+        "transmission": "Eliminasi total ketergantungan pada sumur tanah tufa tercemar melalui air mata air murni pegunungan",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Sistem air minum pegunungan terlindung Acquedotto del Serino",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Sistem air minum pegunungan terlindung Acquedotto del Serino"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Sistem air minum pegunungan terlindung Acquedotto del Serino",
+          "en": "Target population and vector: Sistem air minum pegunungan terlindung Acquedotto del Serino"
+        }
+      },
+      "description": {
+        "id": "Proyek Risanamento mengubah topografi kota Napoli secara radikal. Ratusan fondaci dan bassi yang terkutuk diratakan dengan tanah oleh ribuan pekerja konstruksi. Di atas puing-puing bekas sarang wabah tersebut, dibangun bulevar lurus selebar 30 meter yang dinamai Corso Umberto I (dikenal warga sebagai 'Rettifilo'), diapit oleh gedung-gedung bergaya neoklasik yang megah dengan ventilasi cahaya penuh. Pada tanggal 10 Mei 1885, mahakarya sesungguhnya diresmikan: Acquedotto del Serino, sistem perpipaan besi bertekanan modern yang mengalirkan air mata air murni dari Pegunungan Apennini di Avellino sejauh 60 kilometer langsung ke rumah-rumah penduduk, membebaskan Napoli dari ketergantungan pada sumur-sumur tufa beracun untuk selamanya.",
+        "en": "The Risanamento project radically altered Naples' topography. Hundreds of cursed fondaci and bassi were leveled by armies of demolition laborers. Over the rubble of the former plague pits, engineers carved a straight 30-meter-wide grand boulevard named Corso Umberto I (popularly christened 'Rettifilo'), lined with stately neoclassical facades engineered for light and ventilation. On May 10, 1885, the true hydraulic masterpiece commenced operations: the Acquedotto del Serino, a modern pressurized cast-iron conduit channeling pristine spring water from the Apennine Mountains in Avellino 60 kilometers directly into domestic taps, permanently liberating Naples from toxic tufa wells."
+      },
+      "image": "/assets/images/cholera/wave-5/ita/ita_ch_12.jpg"
+    },
+    {
+      "id": "ita-ch-13",
+      "chapterNumber": 13,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Abadi Risanamento: Dari Sarang Wabah Menjadi Pelajaran Urbanisme Dunia",
+        "en": "Enduring Legacy of Risanamento: From Plague Vortex to Global Urban Paradigm"
+      },
+      "date": {
+        "id": "1889",
+        "en": "1889"
+      },
+      "flash": {
+        "id": "Napoli membuktikan bahwa pembaruan infrastruktur air dan tata kota dapat mengakhiri kutukan kolera; model Risanamento menjadi rujukan dunia bagi modernisasi kota kuno.",
+        "en": "Naples proves that water infrastructure and urban redevelopment can eradicate cholera; the Risanamento becomes a global model for ancient city renewal."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Sintesis sejarah urbanisme sanitasi dan evolusi kesehatan publik Eropa",
+        "incubation": "N/A (Warisan Peradaban Perkotaan)",
+        "transmission": "Pemberantasan permanen kolera endemik di Italia selatan melalui integrasi rekayasa hidrolik dan pembaruan tata ruang",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Sintesis sejarah urbanisme sanitasi dan evolusi kesehatan pu",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Sintesis sejarah urbanisme sanitasi dan evolusi kesehatan pu"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Sintesis sejarah urbanisme sanitasi dan evolusi kesehatan publik Eropa",
+          "en": "Target population and vector: Sintesis sejarah urbanisme sanitasi dan evolusi kesehatan publik Eropa"
+        }
+      },
+      "description": {
+        "id": "Tragedi kolera 1884 di Napoli dan proyek Risanamento yang mengikutinya meninggalkan warisan abadi bagi sejarah peradaban perkotaan modern. Napoli membuktikan kepada dunia bahwa penyakit menular mematikan bukanlah takdir geografis yang tak terelakkan, melainkan akibat langsung dari ketidakadilan infrastruktur dan sanitasi yang buruk. Melalui keberanian politik, pengorbanan para sukarelawan kemanusiaan, dan pembangunan jaringan air bersih modern, kota di kaki Gunung Vesuvius ini berhasil memutus siklus wabah yang telah menghantuinya selama berabad-abad. Pelajaran berharga dari Napoli menginspirasi gelombang perombakan tata kota dan pembangunan sanitasi di seluruh dunia, menegaskan bahwa hak atas air bersih dan udara sehat adalah fondasi mutlak dari martabat manusia.",
+        "en": "The 1884 cholera tragedy in Naples and the ensuing Risanamento left an immortal imprint upon modern urban civilization. Naples proved to the international community that devastating epidemics were neither inescapable geographical curses nor divine judgments, but the direct product of infrastructural neglect and squalid sanitation. Through political resolve, the heroism of humanitarian volunteers, and the engineering of modern clean waterworks, the metropolis in the shadow of Vesuvius severed the ancient cycle of pestilence. The hard-won lessons of Naples inspired urban sanitary overhauls worldwide, enshrining the truth that access to clean water and hygienic housing forms the indispensable foundation of human dignity."
+      },
+      "image": "/assets/images/cholera/wave-5/ita/ita_ch_13.jpg"
+    }
+  ]
+}

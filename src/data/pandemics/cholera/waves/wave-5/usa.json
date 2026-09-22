@@ -1,0 +1,496 @@
+{
+  "sectorId": "USA",
+  "waveIndex": 5,
+  "sectorName": {
+    "id": "Sektor USA (Amerika Serikat: Pelabuhan New York, Swinburne Island, & Laboratorium Dr. Hermann Biggs // 1892–1893)",
+    "en": "Sector USA (United States: New York Harbor, Swinburne Island, & Dr. Hermann Biggs's Laboratory // 1892–1893)"
+  },
+  "coordinates": [
+    40.7128,
+    -74.006
+  ],
+  "timeRange": "1892–1893",
+  "estimatedFatalities": "Kurang dari 300 jiwa (Terisolasi total di kapal uap & pulau karantina Pelabuhan New York)",
+  "chapters": [
+    {
+      "id": "usa_ch_01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Kedatangan Kapal Uap Moravia: 22 Jenazah Dilarung di Samudra Atlantik",
+        "en": "Arrival of the Steamship Moravia: 22 Bodies Cast into the Atlantic"
+      },
+      "date": {
+        "id": "31 Agustus 1892",
+        "en": "August 31, 1892"
+      },
+      "flash": {
+        "id": "KAPAL UAP MORAVIA DARI HAMBURG MEMASUKI THE NARROWS NEW YORK; NAKHODA MELAPORKAN 22 KEMATIAN MISTERIUS DI KELAS GELADAK PENUMPANG.",
+        "en": "STEAMSHIP MORAVIA FROM HAMBURG ENTERS NEW YORK'S NARROWS; CAPTAIN REPORTS 22 MYSTERIOUS DEATHS AMONG STEERAGE PASSENGERS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Imigran miskin kelas geladak asal Rusia, Jerman, dan Hungaria",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Penetrasi Transatlantik Galur Vibrio Elbe Melalui Kapal Imigran Geladak",
+        "mutationType": {
+          "id": "Penetrasi Transatlantik Galur Vibrio Elbe Melalui Kapal Imigran Geladak",
+          "en": "Transatlantic Penetration of Elbe Vibrio Strain via Steerage Emigrant Liners"
+        },
+        "threatLevel": {
+          "id": "Kritis Nasional (Ancaman Penetrasi Langsung ke Gerbang Utama Amerika)",
+          "en": "National Critical (Threat of Direct Breach into America's Primary Gateway)"
+        },
+        "clinicalTarget": {
+          "id": "Imigran miskin kelas geladak asal Rusia, Jerman, dan Hungaria",
+          "en": "Impoverished Russian, German, and Hungarian steerage emigrants"
+        }
+      },
+      "description": {
+        "id": "Pada senja hari tanggal 31 Agustus 1892, kapal uap Moravia milik maskapai Hamburg-America Line menurunkan jangkarnya di perairan The Narrows, gerbang masuk Pelabuhan New York. Ketika kapal patroli kesehatan pelabuhan mendekat, Kapten Barends mengibarkan bendera kuning karantina dan menyerahkan catatan perjalanan yang mengerikan: selama penyeberangan Samudra Atlantik dari Hamburg, 24 penumpang geladak bawah terserang muntah dan diare hebat; 22 di antaranya tewas dan jenazahnya langsung dilempar ke laut dalam bungkusan terpal kanvas. Moravia membawa 385 imigran kelas geladak yang sebagian besar melarikan diri dari pogrom di Kekaisaran Rusia dan kelaparan Eropa Timur. Kolera Hamburg resmi tiba di ambang pintu Amerika Serikat.",
+        "en": "At twilight on August 31, 1892, the Hamburg-America liner Moravia dropped anchor in the Narrows, the maritime gateway to New York Harbor. As the port quarantine tug pulled alongside, Captain Barends hoisted the yellow quarantine flag and handed over a horrifying manifest: during the transatlantic crossing from Hamburg, 24 steerage passengers had collapsed with violent purging; 22 had died and were buried at sea wrapped in weighted canvas. The Moravia carried 385 impoverished steerage migrants, many fleeing pogroms in the Russian Empire and famine in Eastern Europe. Hamburg's virulent cholera had officially arrived at the gilded threshold of the United States."
+      },
+      "image": "/assets/images/cholera/wave-5/usa/usa_ch_01.jpg"
+    },
+    {
+      "id": "usa_ch_02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Armada Maut Hamburg: Normannia, Rugia, & Scandia di Teluk Bawah",
+        "en": "The Hamburg Death Fleet: Normannia, Rugia, & Scandia in Lower Bay"
+      },
+      "date": {
+        "id": "3–5 September 1892",
+        "en": "September 3–5, 1892"
+      },
+      "flash": {
+        "id": "TIGA KAPAL UAP RAKSASA LAINNYA TIBA MEMBAWA RATUSAN KORBAN SEKARAT; PETUGAS KESEHATAN PELABUHAN DR. JENKINS MENGUNCI RAPAT TELUK NEW YORK.",
+        "en": "THREE MORE OCEAN LINERS ARRIVE BEARING HUNDREDS OF DYING PASSENGERS; PORT HEALTH OFFICER DR. JENKINS SEALS LOWER NEW YORK BAY."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "1.200 penumpang kelas geladak, awak palka, dan penumpang kabin kelas satu",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Akumulasi Kluster Infeksi Massal di Ruang Palka Kapal Bawah Laut",
+        "mutationType": {
+          "id": "Akumulasi Kluster Infeksi Massal di Ruang Palka Kapal Bawah Laut",
+          "en": "Mass Infection Clustering in Unventilated Steerage Hold Compartments"
+        },
+        "threatLevel": {
+          "id": "Maksimal (Risiko Penularan Silang ke Penumpang Kabin Mewah)",
+          "en": "Maximum (Cross-Transmission Threat to First-Class Cabin Passengers)"
+        },
+        "clinicalTarget": {
+          "id": "1.200 penumpang kelas geladak, awak palka, dan penumpang kabin kelas satu",
+          "en": "1,200 steerage passengers, stokehold crews, and first-class cabin guests"
+        }
+      },
+      "description": {
+        "id": "Dalam rentang empat puluh delapan jam berikutnya, tiga kapal uap raksasa lainnya—Normannia, Rugia, dan Scandia—tiba di Teluk Bawah New York menyusul Moravia. Di atas kapal Normannia saja, tercatat puluhan korban tewas selama pelayaran. Dr. William T. Jenkins, Petugas Kesehatan Pelabuhan New York, mengambil langkah tanpa kompromi: tidak seorang pun diizinkan menjejakkan kaki di Manhattan atau Brooklyn. Lebih dari seribu penumpang geladak yang kelelahan dan ketakutan dikurung di atas kapal di bawah terik matahari musim panas akhir, sementara bau feses dan disinfektan fenol menyengat memenuhi geladak bawah. Kepanikan merambat ke kelas satu, tempat para jutawan, senator, dan seniman terkenal Amerika terjebak di kabin mewah mereka, hanya beberapa mil dari dermaga rumah mereka sendiri.",
+        "en": "Within forty-eight hours, three more massive liners—the Normannia, the Rugia, and the Scandia—steamed into New York's Lower Bay in the wake of the Moravia. Aboard the Normannia alone, dozens had perished in agony mid-Atlantic. Dr. William T. Jenkins, Health Officer of the Port of New York, issued an uncompromising decree: not a single passenger or crewman would set foot in Manhattan or Brooklyn. Over a thousand exhausted, terrified steerage passengers were locked aboard their vessels under the scorching late-summer sun, the air thick with the stench of ricewater discharges and phenol disinfectants. Terror rapidly spread to the upper decks, where American millionaires, senators, and celebrated artists found themselves trapped in luxury staterooms, tantalizingly close to their home docks."
+      },
+      "image": "/assets/images/cholera/wave-5/usa/usa_ch_02.jpg"
+    },
+    {
+      "id": "usa_ch_03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Benteng Karantina: Pulau Hoffman & Swinburne di Garis Depan",
+        "en": "The Quarantine Fortresses: Hoffman & Swinburne Islands on the Frontline"
+      },
+      "date": {
+        "id": "September 1892",
+        "en": "September 1892"
+      },
+      "flash": {
+        "id": "DUA PULAU BUATAN DI TELUK NEW YORK MENJADI TITIK PEMISAH HIDUP DAN MATI; SWINBURNE MENAMPUNG PASIEN TERMINAL, HOFFMAN MENJADI ZONA MANDI DISINFEKSI.",
+        "en": "TWO ARTIFICIAL ISLETS IN NEW YORK BAY BECOME THE LINE OF LIFE AND DEATH; SWINBURNE FOR TERMINAL CASUALTIES, HOFFMAN FOR DISINFECTION BATHS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Pasien kolera aktif dehidrasi, kontak erat terduga, dan perawat karantina",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Triase Klinis Maritim dan Kremasi Bertekanan Tinggi di Lepas Pantai",
+        "mutationType": {
+          "id": "Triase Klinis Maritim dan Kremasi Bertekanan Tinggi di Lepas Pantai",
+          "en": "Maritime Clinical Triage and High-Temperature Offshore Incineration"
+        },
+        "threatLevel": {
+          "id": "Sangat Kritis (Pemusatan Total Ratusan Kasus Positif Vibrio)",
+          "en": "Extremely Critical (Total Concentration of Hundreds of Active Vibrio Cases)"
+        },
+        "clinicalTarget": {
+          "id": "Pasien kolera aktif dehidrasi, kontak erat terduga, dan perawat karantina",
+          "en": "Dehydrated active cholera patients, suspect close contacts, and nurses"
+        }
+      },
+      "description": {
+        "id": "Pertahanan maritim New York bertumpu pada dua pulau buatan kecil di lepas pantai Staten Island: Pulau Hoffman dan Pulau Swinburne. Sistem triase ketat diberlakukan: Pulau Swinburne, yang dilengkapi rumah sakit isolasi dan krematorium berbahan bakar batu bara, menerima seluruh imigran yang menunjukkan gejala diare dan muntah aktif. Jenazah korban yang meninggal segera dikremasi untuk mencegah pencemaran perairan teluk. Sementara itu, Pulau Hoffman difungsikan untuk 'orang sehat yang terpapar': seluruh penumpang ditelanjangi, dimandikan dengan larutan merkuri klorida, dan pakaian mereka dipanaskan dalam autoklaf uap bersuhu 110°C. Barak-barak kayu di Hoffman dipadati ribuan imigran yang menunggu masa inkubasi selama lima hari sebelum diizinkan menjalani pemeriksaan lebih lanjut.",
+        "en": "New York's maritime defense hinged upon two tiny artificial islands dredged off the coast of Staten Island: Hoffman Island and Swinburne Island. A ruthless triage protocol was instituted: Swinburne Island, outfitted with pavilion isolation wards and a coal-fired crematorium, received all immigrants displaying active vomiting or collapse. Cadavers were incinerated without delay to prevent any contamination of harbor waters. Meanwhile, Hoffman Island served as the detention barracks for the 'exposed well': passengers were stripped, scrubbed in mercuric chloride baths, and had their luggage blasted in 110°C pressurized steam autoclaves. Hoffman's timber dormitories were crammed with thousands of anxious immigrants awaiting their five-day incubation clearance before receiving further screening."
+      },
+      "image": "/assets/images/cholera/wave-5/usa/usa_ch_03.jpg"
+    },
+    {
+      "id": "usa_ch_04",
+      "chapterNumber": 4,
+      "type": "milestone",
+      "title": {
+        "id": "Dr. Hermann Biggs: Laboratorium Bakteriologi Kota Pertama di Dunia",
+        "en": "Dr. Hermann Biggs: The World's First Municipal Bacteriological Laboratory"
+      },
+      "date": {
+        "id": "September 1892",
+        "en": "September 1892"
+      },
+      "flash": {
+        "id": "DR. HERMANN BIGGS MENDIRIKAN LABORATORIUM BAKTERIOLOGI DINAS KESEHATAN KOTA NEW YORK; MIKROSKOP MEMUTUSKAN NASIB PENUMPANG KAPAL DALAM 24 JAM.",
+        "en": "DR. HERMANN BIGGS ESTABLISHES NYC HEALTH DEPARTMENT BACTERIOLOGICAL LAB; MICROSCOPES DECIDE FATE OF PASSENGERS IN 24 HOURS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Sampel apus rektal imigran, air minum tangki kapal, dan kultur laboratorium",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Identifikasi Kultur Agar Pepton Koloni Vibrio cholerae Koch",
+        "mutationType": {
+          "id": "Identifikasi Kultur Agar Pepton Koloni Vibrio cholerae Koch",
+          "en": "Peptone Agar Culture Identification of Koch's Vibrio cholerae Colonies"
+        },
+        "threatLevel": {
+          "id": "Revolusioner (Transformasi Diagnostik Empiris Menjadi Sains Presisi)",
+          "en": "Revolutionary (Transformation of Empirical Diagnosis into Precision Science)"
+        },
+        "clinicalTarget": {
+          "id": "Sampel apus rektal imigran, air minum tangki kapal, dan kultur laboratorium",
+          "en": "Immigrant rectal swab specimens, ship water tank cultures, and lab media"
+        }
+      },
+      "description": {
+        "id": "Di tengah krisis yang membara, seorang dokter patologi muda berusia 32 tahun, Dr. Hermann M. Biggs, meyakinkan Dewan Kesehatan Kota New York untuk mengambil langkah revolusioner: mendirikan laboratorium diagnosis bakteriologi munisipal pertama di dunia. Biggs, yang pernah belajar langsung di Jerman di bawah bimbingan Robert Koch, merekrut Dr. William H. Park. Setiap pagi, perahu uap kecil mengantarkan tabung-tabung sampel tinja dari Pulau Swinburne dan Hoffman ke dermaga East 16th Street. Di laboratorium barunya, Biggs dan Park menanam sampel pada medium pepton basa; dalam 24 jam, pertumbuhan koloni melengkung vibrio yang bergerak aktif di bawah mikroskop memberikan kepastian mutlak apakah seorang pasien menderita kolera sejati atau sekadar diare biasa, menggantikan tebakan klinis kuno.",
+        "en": "In the crucible of the harbor crisis, a 32-year-old pathologist, Dr. Hermann M. Biggs, convinced the New York City Health Department to take a historic leap: establish the world's first municipal bacteriological diagnostic laboratory. Biggs, who had trained in Germany under Robert Koch, enlisted Dr. William H. Park. Each dawn, a police harbor tug shuttled glass vials of fecal specimens from Swinburne and Hoffman Islands to the East 16th Street pier laboratory. In their laboratory, Biggs and Park plated cultures onto alkaline peptone agar; within 24 hours, the microscopic identification of swarming comma vibriones provided infallible confirmation whether a patient harbored true Asiatic cholera or benign gastroenteritis, forever supplanting antiquated clinical guesswork."
+      },
+      "image": "/assets/images/cholera/wave-5/usa/usa_ch_04.jpg"
+    },
+    {
+      "id": "usa_ch_05",
+      "chapterNumber": 5,
+      "type": "side_story",
+      "title": {
+        "id": "Pengepungan Hotel Surf Fire Island: Amukan Massa Penduduk Pesisir",
+        "en": "The Fire Island Surf Hotel Siege: Mob Fury of the Coastal Baymen"
+      },
+      "date": {
+        "id": "11–12 September 1892",
+        "en": "September 11–12, 1892"
+      },
+      "flash": {
+        "id": "GUBERNUR FLOWER MEMBELI HOTEL SURF FIRE ISLAND UNTUK PENUMPANG KELAS SATU; NELAYAN LOKAL BERSENJATA BEDIL MEMBARIKADE DERMAGA.",
+        "en": "GOVERNOR FLOWER PURCHASES FIRE ISLAND SURF HOTEL FOR CABIN PASSENGERS; ARMED LOCAL BAYMEN BARRICADE THE FERRY DOCK."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Penumpang kabin kapal Normannia, juru kemudi kapal feri, dan polisi negara",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Histeria Kelas Sosial dan Konflik Komunal Menolak Fasilitas Karantina",
+        "mutationType": {
+          "id": "Histeria Kelas Sosial dan Konflik Komunal Menolak Fasilitas Karantina",
+          "en": "Class Hysteria and Communal Armed Backlash Against Quarantine Influx"
+        },
+        "threatLevel": {
+          "id": "Tinggi (Ancaman Baku Tembak dan Kekerasan Bersenjata Sipil)",
+          "en": "High (Threat of Armed Shootout and Violent Civilian Insurgency)"
+        },
+        "clinicalTarget": {
+          "id": "Penumpang kabin kapal Normannia, juru kemudi kapal feri, dan polisi negara",
+          "en": "Normannia cabin passengers, ferry pilots, and state troopers"
+        }
+      },
+      "description": {
+        "id": "Setelah seminggu terkurung di atas kapal Normannia yang pengap, para penumpang kabin kelas satu yang kaya—termasuk konduktor orkestra kenamaan Anton Seidl dan senator New York—membuat petisi putus asa. Menanggapi protes elit tersebut, Gubernur New York Roswell P. Flower mengeluarkan dana $210.000 dari kas negara untuk membeli Surf Hotel di Fire Island, sebuah resor terpencil di lepas pantai Long Island, sebagai tempat karantina mewah. Namun, ketika kapal feri Cepheus tiba membawa para penumpang, ratusan nelayan tiram dan penduduk lokal Fire Island (para 'baymen') yang bersenjatakan senapan berburu, parang, dan dayung kayu membarikade dermaga Babylone. Mereka berteriak bahwa mereka lebih baik membakar hotel daripada membiarkan 'wabah maut New York' menginjakkan kaki di tanah mereka.",
+        "en": "After a grueling week trapped aboard the stifling Normannia, affluent first-class cabin passengers—including celebrated Philharmonic conductor Anton Seidl and former New York senators—issued desperate public appeals. Yielding to elite outrage, New York Governor Roswell P. Flower authorized $210,000 in state funds to purchase the Surf Hotel on Fire Island, a secluded sandbar resort off Long Island, as a quarantine retreat. But when the state ferry Cepheus steamed toward the pier carrying the weary travelers, hundreds of local oyster fishermen and coastal baymen armed with double-barreled shotguns, pitchforks, and boat oars barricaded the Babylon dock. Screaming in fury, the mob vowed to burn the hotel to ashes rather than permit 'New York's pestilence' to contaminate their shores."
+      },
+      "image": "/assets/images/cholera/wave-5/usa/usa_ch_05.jpg"
+    },
+    {
+      "id": "usa_ch_06",
+      "chapterNumber": 6,
+      "type": "standard",
+      "title": {
+        "id": "Milisi Angkatan Laut & Meriam Kapal St. Mary's Membuka Dermaga",
+        "en": "Naval Militia & The Cannons of the St. Mary's Force Open the Pier"
+      },
+      "date": {
+        "id": "13 September 1892",
+        "en": "13 September 1892"
+      },
+      "flash": {
+        "id": "GUBERNUR MENGERAHKAN MILISI ANGKATAN LAUT BERSENJATA BAYONET; KAPAL PERANG ST. MARY'S BERLAYAR MENGAWAL PENDARATAN PENUMPANG.",
+        "en": "GOVERNOR MOBILIZES FIXED-BAYONET NAVAL MILITIA; WARSHIP ST. MARY'S ESCORTS THE LANDING OF EXHAUSTED PASSENGERS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Dermaga Fire Island, garis demarkasi pantai, dan perimeter Hotel Surf",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pengawalan Militeristik Terhadap Pemindahan Populasi Karantina",
+        "mutationType": {
+          "id": "Pengawalan Militeristik Terhadap Pemindahan Populasi Karantina",
+          "en": "Militarized Enforcement of Quarantine Population Relocation"
+        },
+        "threatLevel": {
+          "id": "Terkendali (Intervensi Militer Mengakhiri Pengepungan Sipil)",
+          "en": "Controlled (Military Intervention Terminating Civilian Blockade)"
+        },
+        "clinicalTarget": {
+          "id": "Dermaga Fire Island, garis demarkasi pantai, dan perimeter Hotel Surf",
+          "en": "Fire Island dock, beach demarcation lines, and Surf Hotel perimeter"
+        }
+      },
+      "description": {
+        "id": "Menolak tunduk pada anarki bersenjata massa lokal, Gubernur Flower memerintahkan pengerahan Batalion Pertama Milisi Angkatan Laut New York dan mengirim kapal perang latih St. Mary's ke perairan Great South Bay. Dipimpin oleh Komandan J.W. Miller, puluhan marinir berseragam putih dengan senapan berbayonet terhunus melompat ke dermaga Fire Island, memecah barisan massa pembangkang dan merebut kembali kendali dermaga. Feri Cepheus akhirnya dapat merapat di bawah todongan senjata. Para penumpang kelas satu yang kelaparan dan kelelahan, termasuk wanita dan anak-anak, diantar masuk ke Hotel Surf melewati caci maki penduduk yang berkerumun di garis pantai. Garis penjagaan militer dipasang permanen di sekeliling pulau hingga masa karantina usai tanpa satupun kasus kolera sekunder.",
+        "en": "Refusing to capitulate to armed mob anarchy, Governor Flower ordered the immediate mobilization of the First Battalion, New York Naval Militia, and dispatched the naval training ship St. Mary's into the waters of Great South Bay. Under Commander J.W. Miller, dozens of white-uniformed marines with fixed bayonets leaped onto the Fire Island pier, scattering the defiant vigilantes and resecuring the landing. The ferry Cepheus finally docked under military cover. Starving and trembling cabin passengers, including women and infants, were escorted into the Surf Hotel past jeering crowds held back at bayonet point. An armed perimeter cordoned the hotel until quarantine expired, without a single secondary transmission occurring on the island."
+      },
+      "image": "/assets/images/cholera/wave-5/usa/usa_ch_06.jpg"
+    },
+    {
+      "id": "usa_ch_07",
+      "chapterNumber": 7,
+      "type": "milestone",
+      "title": {
+        "id": "Proklamasi 20 Hari Presiden Benjamin Harrison: Penutupan Pintu Imigrasi",
+        "en": "President Benjamin Harrison's 20-Day Proclamation: Closing Immigration Doors"
+      },
+      "date": {
+        "id": "1 September 1892",
+        "en": "September 1, 1892"
+      },
+      "flash": {
+        "id": "PRESIDEN HARRISON MENGELUARKAN PERINTAH EKSEKUTIF MEWAJIBKAN KARANTINA 20 HARI BAGI SELURUH KAPAL IMIGRAN DI SETIAP PELABUHAN AS.",
+        "en": "PRESIDENT HARRISON ISSUES EXECUTIVE ORDER MANDATING 20-DAY QUARANTINE FOR ALL IMMIGRANT SHIPS ACROSS ALL US PORTS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Seluruh armada kapal uap penumpang Eropa menuju New York, Boston, dan Philadelphia",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Moratorium Administratif Imigrasi Maritim Federal Skala Penuh",
+        "mutationType": {
+          "id": "Moratorium Administratif Imigrasi Maritim Federal Skala Penuh",
+          "en": "Full-Scale Federal Maritime Immigration Administrative Moratorium"
+        },
+        "threatLevel": {
+          "id": "Kritis Nasional (Penetapan Batas Pertahanan Biosekuriti Seluruh Garis Pantai)",
+          "en": "National Critical (Establishment of Coastal-Wide Biosecurity Perimeter)"
+        },
+        "clinicalTarget": {
+          "id": "Seluruh armada kapal uap penumpang Eropa menuju New York, Boston, dan Philadelphia",
+          "en": "All European passenger steamship lines heading to New York, Boston, and Philadelphia"
+        }
+      },
+      "description": {
+        "id": "Di Gedung Putih, Presiden Benjamin Harrison menyadari bahwa Pelabuhan New York tidak akan mampu menampung puluhan kapal uap lagi yang sedang melaju melintasi Samudra Atlantik membawa ribuan imigran dari pelabuhan Eropa yang tertular. Pada tanggal 1 September 1892, Harrison menandatangani Proklamasi Kepresidenan yang mewajibkan seluruh kapal penumpang asing yang membawa imigran kelas geladak untuk menjalani masa karantina minimal 20 hari di luar batas pelabuhan Amerika Serikat. Kebijakan drastis ini secara efektif melumpuhkan bisnis maskapai pelayaran transatlantic dan menghentikan arus imigrasi dalam semalam. Para pemilik kapal uap di Hamburg, Liverpool, dan Le Havre terpaksa membatalkan tiket ribuan calon imigran di pelabuhan keberangkatan, memotong pasokan inang baru bagi vibrio kolera.",
+        "en": "In the White House, President Benjamin Harrison recognized that New York Harbor would swiftly buckle if dozens more steamships steaming across the Atlantic bearing thousands of European migrants were allowed to drop anchor. On September 1, 1892, Harrison signed an extraordinary Presidential Proclamation mandating that any vessel carrying steerage immigrants must submit to an absolute minimum 20-day quarantine outside any United States port. This sweeping federal decree virtually paralyzed the transatlantic shipping industry overnight. Steamship syndicates in Hamburg, Liverpool, and Le Havre abruptly cancelled passenger bookings at points of embarkation, choking off the continuous supply of human hosts required by the cholera vibrio."
+      },
+      "image": "/assets/images/cholera/wave-5/usa/usa_ch_07.jpg"
+    },
+    {
+      "id": "usa_ch_08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Inspeksi Tenement Lower East Side: Pertahanan Rumah Susun Manhattan",
+        "en": "Lower East Side Tenement Inspections: Manhattan's Tenement Defense"
+      },
+      "date": {
+        "id": "September–Oktober 1892",
+        "en": "September–October 1892"
+      },
+      "flash": {
+        "id": "INSPEKTUR HIGIENE MENYISIR RIBUAN RUMAH SUSUN DI LOWER EAST SIDE; SELEBARAN TIGA BAHASA MEWAJIBKAN WARGA MEREBUS AIR DAN MEMASAK MAKANAN.",
+        "en": "SANITARY INSPECTORS COMB THOUSANDS OF LOWER EAST SIDE TENEMENTS; TRILINGUAL CIRCULARS ORDER CITIZENS TO BOIL WATER AND COOK FOOD."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Pipa saluran pembuangan, toilet komunal halaman belakang, dan sumur pompa",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pengawasan Lingkungan Urban Padat Penduduk Berisiko Tinggi",
+        "mutationType": {
+          "id": "Pengawasan Lingkungan Urban Padat Penduduk Berisiko Tinggi",
+          "en": "High-Risk Dense Urban Environment Surveillance and Sanitization"
+        },
+        "threatLevel": {
+          "id": "Tinggi (Kepadatan Penduduk 800 Jiwa per Acre di Distrik Imigran)",
+          "en": "High (Density of 800 Inhabitants per Acre in Immigrant Enclaves)"
+        },
+        "clinicalTarget": {
+          "id": "Pipa saluran pembuangan, toilet komunal halaman belakang, dan sumur pompa",
+          "en": "Plumbing soil stacks, backyard communal privies, and pump heads"
+        }
+      },
+      "description": {
+        "id": "Sementara teluk pelabuhan dibarikade, bahaya laten mengintai di dalam kota: kawasan tenement Lower East Side Manhattan, distrik terpadat di muka bumi dengan kepadatan mencapai 800 jiwa per acre. Jika vibrio lolos ke kawasan ini, ledakan korban tak akan terbendung. Presiden Dewan Kesehatan Kota New York, Charles G. Wilson, mengerahkan 100 dokter inspektur khusus. Bekerja sama dengan tokoh komunitas Yahudi, Jerman, dan Italia, dinas kesehatan membagikan ratusan ribu selebaran dalam bahasa Yiddish, Jerman, Italia, dan Inggris. Warga diwajibkan membersihkan halaman tenement, mengapur dinding lorong dengan kapur tohor, dan merebus seluruh air minum. Petugas sanitasi memeriksa toilet komunal setiap 12 jam dan menyemprotkan berton-ton bubuk klorida di setiap gang sempit.",
+        "en": "While the harbor bay was barricaded, an insidious peril lurked within Manhattan: the Lower East Side tenement wards, the densest residential grid on earth packed with over 800 souls per acre. Had the vibrio slipped into these tenements, catastrophic slaughter was inevitable. NYC Health Board President Charles G. Wilson deployed 100 emergency physician-inspectors. Collaborating with Jewish, German, and Italian civic leaders, health authorities distributed hundreds of thousands of circulars printed in Yiddish, German, Italian, and English. Residents were instructed to clear tenement courtyards, whitewash dark corridors with quicklime, and boil all water. Sanitary police inspected rear-yard privy vaults every twelve hours, dusting tons of chloride of lime into every alley."
+      },
+      "image": "/assets/images/cholera/wave-5/usa/usa_ch_08.jpg"
+    },
+    {
+      "id": "usa_ch_09",
+      "chapterNumber": 9,
+      "type": "side_story",
+      "title": {
+        "id": "Percikan Tunggal di East 46th Street: Pelacakan Kontak Cepat Dr. Biggs",
+        "en": "The Lone Spark on East 46th Street: Dr. Biggs's Rapid Contact Tracing"
+      },
+      "date": {
+        "id": "Pertengahan September 1892",
+        "en": "Mid-September 1892"
+      },
+      "flash": {
+        "id": "SEORANG BURUH PENGEPAK DAGING MENINGGAL MENDADAK AKIBAT KOLERA DI SEBUAH LOSMEN MANHATTAN; TIM BIGGS MENGISOLASI RUMAH DALAM DUA JAM.",
+        "en": "A MEATPACKING LABORER DIES SUDDENLY OF CHOLERA IN MANHATTAN BOARDING HOUSE; BIGGS'S SQUAD SEALS RESIDENCE WITHIN TWO HOURS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Penghuni losmen East 46th Street, pipa limbah gedung, dan tempat kerja jagal",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pemadaman Presisi Kluster Infeksi Primer Sporadis",
+        "mutationType": {
+          "id": "Pemadaman Presisi Kluster Infeksi Primer Sporadis",
+          "en": "Precision Extinction of Sporadic Primary Infection Clusters"
+        },
+        "threatLevel": {
+          "id": "Kritis (Kasus Tunggal Lolos yang Berpotensi Membakar Seluruh Metropolis)",
+          "en": "Critical (Escaped Lone Case Threatening to Ignite Entire Metropolis)"
+        },
+        "clinicalTarget": {
+          "id": "Penghuni losmen East 46th Street, pipa limbah gedung, dan tempat kerja jagal",
+          "en": "East 46th Street boarding house tenants, drainpipes, and slaughterhouses"
+        }
+      },
+      "description": {
+        "id": "Pada pertengahan September, alarm merah berbunyi di markas Dewan Kesehatan di Mulberry Street: seorang buruh pengepakan daging bernama Charles Rubin yang tinggal di rumah kontrakan di East 46th Street mendadak kolaps dan tewas dalam waktu 18 jam dengan gejala sianosis khas kolera. Dr. Biggs segera bergegas ke lokasi, mengambil spesimen usus, dan memastikan isolasi vibrio di bawah mikroskop. Dalam tempo kurang dari dua jam, seluruh bangunan disegel oleh polisi bersenjata. Sebanyak 22 penghuni losmen diisolasi di Rumah Sakit Willard Parker; seluruh perabotan, kasur, dan pakaian almarhum dibakar di tempat; dan pipa pembuangan disiram asam karbolat mendidih. Berkat intervensi kilat ini, penularan terhenti sepenuhnya pada korban pertama—percikan api berhasil dipadamkan sebelum menjadi kebakaran besar.",
+        "en": "In mid-September, red alert sounded at the Health Board headquarters on Mulberry Street: a meatpacker named Charles Rubin, lodging in an East 46th Street boarding house, had collapsed and perished within 18 hours in typical cyanotic collapse. Dr. Biggs rushed to the scene, secured intestinal specimens, and confirmed the vibrio under his microscope. Within two hours, the entire tenement was cordoned by armed police. All 22 residents were moved into isolation at Willard Parker Hospital; every piece of furniture, mattress, and clothing in the victim's room was incinerated on site; and plumbing traps were flooded with boiling carbolic acid. Thanks to this instantaneous bacteriological strike, transmission was snuffed out at patient zero—a spark extinguished before turning into a wildfire."
+      },
+      "image": "/assets/images/cholera/wave-5/usa/usa_ch_09.jpg"
+    },
+    {
+      "id": "usa_ch_10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Patroli Bersenjata Akueduk Croton: Menjaga Suplai Air Murni Manhattan",
+        "en": "Armed Patrols of the Croton Aqueduct: Guarding Manhattan's Pure Water"
+      },
+      "date": {
+        "id": "September–November 1892",
+        "en": "September–November 1892"
+      },
+      "flash": {
+        "id": "PENGAWAL BERSENJATA MENJAGA DANAU RESERVOIR CROTON SEPANJANG 50 MIL UNTUK MENCEGAH SABOTASE ATAU PENCEMARAN SUMBER AIR MINUM KOTA.",
+        "en": "ARMED GUARDS PATROL 50 MILES OF CROTON RESERVOIR DAMS TO PREVENT SABOTAGE OR CONTAMINATION OF CITY'S DRINKING SOURCE."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Waduk Croton Baru, Waduk Central Park, dan pipa distribusi utama Manhattan",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Proteksi Hulu Terhadap Waduk Aliran Gravitasi Kota Terpusat",
+        "mutationType": {
+          "id": "Proteksi Hulu Terhadap Waduk Aliran Gravitasi Kota Terpusat",
+          "en": "Headwater Defense of Centralized Gravity-Fed Municipal Reservoirs"
+        },
+        "threatLevel": {
+          "id": "Moderat (Pengamanan Fisik Militeristik Terhadap Jalur Pipa Air Utama)",
+          "en": "Moderate (Militarized Physical Security of Primary Water Trunk Lines)"
+        },
+        "clinicalTarget": {
+          "id": "Waduk Croton Baru, Waduk Central Park, dan pipa distribusi utama Manhattan",
+          "en": "New Croton Reservoir, Central Park Receiving Reservoir, and trunk mains"
+        }
+      },
+      "description": {
+        "id": "Tragedi Hamburg mengajarkan para insinyur New York bahwa satu tetes air sungai tercemar dapat menewaskan sepuluh ribu orang dalam dua minggu. Beruntung, New York tidak meminum air dari Sungai Hudson atau East River yang tercemar limbah, melainkan mengandalkan sistem Akueduk Croton yang menyalurkan air pegunungan dari Westchester County. Wali Kota Hugh J. Grant memerintahkan pengamanan militer di sepanjang koridor akueduk sepanjang 50 mil. Polisi khusus berpatroli siang dan malam di sekeliling Waduk Croton, bendungan Quaker Bridge, dan Waduk Central Park untuk mencegah perkemahan tunawisma, pencemaran hewan ternak, atau potensi sabotase. Pengujian bakteriologis harian di laboratorium Biggs memastikan bahwa air keran New York tetap 100% bebas dari vibrio.",
+        "en": "Hamburg's agony taught New York engineers that a single droplet of tainted municipal water could slaughter ten thousand souls in a fortnight. Fortuitously, New York did not drink from the sewage-laden Hudson or East Rivers, but relied on the monumental Croton Aqueduct system channeling mountain waters from Westchester County. Mayor Hugh J. Grant ordered armed patrols along the entire 50-mile aqueduct corridor. Mounted police guarded the perimeters of the Croton dams, Quaker Bridge sluices, and the Central Park Receiving Reservoir around the clock, barring squatters, livestock, or saboteurs from approaching the shoreline. Daily bacteriological plating at Biggs's laboratory confirmed that New York's municipal taps remained 100% free of pathogenic vibriones."
+      },
+      "image": "/assets/images/cholera/wave-5/usa/usa_ch_10.jpg"
+    },
+    {
+      "id": "usa_ch_11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Undang-Undang Karantina Nasional 1893: Lahirnya Layanan Kesehatan Publik AS",
+        "en": "The National Quarantine Act of 1893: Birth of the US Public Health Service"
+      },
+      "date": {
+        "id": "Februari 1893",
+        "en": "February 1893"
+      },
+      "flash": {
+        "id": "KONGRES MENGESAHKAN UNDANG-UNDANG KARANTINA NASIONAL 1893; MENGALIHKAN WEWENANG NEGARA BAGIAN KE TANGAN MARINE HOSPITAL SERVICE.",
+        "en": "CONGRESS PASSES NATIONAL QUARANTINE ACT OF 1893; SHIFTING ISOLATION POWERS FROM STATE BOARDS TO MARINE HOSPITAL SERVICE."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Seluruh pelabuhan samudra, perbatasan darat Kanada/Meksiko, dan konsulat AS",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Sentralisasi Yuridis Federal Pengawasan Biosekuriti dan Karantina Maritim",
+        "mutationType": {
+          "id": "Sentralisasi Yuridis Federal Pengawasan Biosekuriti dan Karantina Maritim",
+          "en": "Federal Juridical Centralization of Biosecurity & Maritime Quarantine"
+        },
+        "threatLevel": {
+          "id": "Terkendali Permanen (Sistem Ketahanan Perbatasan Terpadu Nasional)",
+          "en": "Permanently Controlled (Integrated National Border Defense Architecture)"
+        },
+        "clinicalTarget": {
+          "id": "Seluruh pelabuhan samudra, perbatasan darat Kanada/Meksiko, dan konsulat AS",
+          "en": "All ocean ports of entry, Canadian/Mexican borders, and US foreign consulates"
+        }
+      },
+      "description": {
+        "id": "Kekacauan sengketa yurisdiksi antara otoritas Pelabuhan New York, pemerintah Negara Bagian New York, dan pemerintah federal selama krisis musim gugur 1892 mendorong Kongres Amerika Serikat bertindak tegas. Pada 15 Februari 1893, Presiden Harrison menandatangani 'National Quarantine Act of 1893'. Undang-undang monumental ini secara resmi mengalihkan kekuasaan karantina dari dewan kota dan negara bagian yang terpecah-pecah ke tangan pengawasan tunggal federal di bawah Marine Hospital Service (cikal bakal United States Public Health Service / USPHS) yang dipimpin Surgeon General Walter Wyman. Untuk pertama kalinya dalam sejarah Amerika, petugas medis federal ditempatkan di konsulat-konsulat luar negeri di Hamburg, Napoli, dan Liverpool untuk memeriksa kesehatan imigran sebelum mereka menaiki kapal.",
+        "en": "The chaotic jurisdictional clashes between New York Harbor officials, Albany state authorities, and Washington during the autumn 1892 crisis spurred the United States Congress into decisive legislative action. On February 15, 1893, President Harrison signed the landmark 'National Quarantine Act of 1893.' This statute systematically stripped fragmented state and municipal boards of independent quarantine authority, centralizing jurisdiction under the federal Marine Hospital Service (the direct forerunner of the United States Public Health Service / USPHS) commanded by Surgeon General Walter Wyman. For the first time in American history, federal medical officers were stationed overseas at consulates in Hamburg, Naples, and Liverpool to screen emigrants before boarding."
+      },
+      "image": "/assets/images/cholera/wave-5/usa/usa_ch_11.jpg"
+    },
+    {
+      "id": "usa_ch_12",
+      "chapterNumber": 12,
+      "type": "summary",
+      "title": {
+        "id": "Mukjizat Pelabuhan New York: Kemenangan Mutlak Bakteriologi Modern",
+        "en": "The Miracle of New York Harbor: Absolute Triumph of Modern Bacteriology"
+      },
+      "date": {
+        "id": "1894–1896",
+        "en": "1894–1896"
+      },
+      "flash": {
+        "id": "AMERIKA SERIKAT BERHASIL MENGHENTIKAN PANDEMI KOLERA KELIMA DI TEPI SAMUDRA TANPA SATU PUN WABAH SEKUNDER DI DARATAN UTAMA.",
+        "en": "THE UNITED STATES HALTS THE FIFTH CHOLERA PANDEMIC AT THE WATER'S EDGE WITHOUT A SINGLE SECONDARY MAINLAND OUTBREAK."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Seluruh populasi 65 juta warga Amerika Serikat dari pesisir hingga pedalaman",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Kemenangan Doktrin Germ Theory dan Laboratorium Mikrobiologi Terapan",
+        "mutationType": {
+          "id": "Kemenangan Doktrin Germ Theory dan Laboratorium Mikrobiologi Terapan",
+          "en": "Triumph of Germ Theory Doctrine and Applied Microbiological Laboratory"
+        },
+        "threatLevel": {
+          "id": "Eradikasi Mutlak di Garis Pantai (Kematian Domestik Ditekan Mendekati Nol)",
+          "en": "Absolute Coastal Eradication (Domestic Deaths Suppressed to Near Zero)"
+        },
+        "clinicalTarget": {
+          "id": "Seluruh populasi 65 juta warga Amerika Serikat dari pesisir hingga pedalaman",
+          "en": "The entire 65-million population of the United States from coast to heartland"
+        }
+      },
+      "description": {
+        "id": "Krisis musim gugur 1892 di Pelabuhan New York dikenang dalam sejarah kesehatan masyarakat global sebagai 'Mukjizat Pelabuhan New York'. Berbeda dengan Pandemi Kolera Kedua (1832), Ketiga (1849), dan Keempat (1866) yang menewaskan ratusan ribu warga Amerika di sepanjang Sungai Mississippi dan Jalur Oregon, Pandemi Kelima berhasil dihentikan sepenuhnya di garis pantai Samudra Atlantik. Kurang dari 300 orang tewas, hampir seluruhnya adalah penumpang kapal yang terinfeksi di Eropa dan diisolasi di Pulau Swinburne. Amerika Serikat membuktikan kepada dunia bahwa dengan kombinasi laboratorium bakteriologi presisi di bawah Dr. Hermann Biggs, air minum murni terproteksi, karantina maritim federal yang tegas, dan pelacakan kontak ilmiah, sebuah negara dapat sepenuhnya mematahkan kutukan salah satu pembunuh paling mematikan dalam sejarah manusia.",
+        "en": "The autumn 1892 crisis in New York Harbor is celebrated in global epidemiological history as the 'Miracle of New York Harbor.' Unlike the Second (1832), Third (1849), and Fourth (1866) Pandemics that slaughtered hundreds of thousands of Americans along the Erie Canal, Mississippi River, and Oregon Trail, the Fifth Pandemic was halted stone-cold at the Atlantic coastline. Fewer than 300 lives were lost, almost exclusively passengers infected in Europe and quarantined at Swinburne Island. The United States demonstrated to the world that through the fusion of precision laboratory bacteriology under Dr. Hermann Biggs, protected municipal gravity aqueducts, decisive federal maritime quarantine, and relentless contact tracing, a modern civilization could permanently break the curse of one of humanity's deadliest epidemic scourges."
+      },
+      "image": "/assets/images/cholera/wave-5/usa/usa_ch_12.jpg"
+    }
+  ]
+}

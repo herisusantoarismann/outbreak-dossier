@@ -1,0 +1,536 @@
+{
+  "sectorId": "JPN",
+  "waveIndex": 5,
+  "sectorName": {
+    "id": "Sektor JPN (Kekaisaran Jepang Meiji: Nagasaki, Yokohama, Tokyo, & Revolusi Sanitasi Eisei // 1882–1895)",
+    "en": "Sector JPN (Meiji Japan: Nagasaki, Yokohama, Tokyo, & The Eisei Sanitary Revolution // 1882–1895)"
+  },
+  "coordinates": [
+    35.4437,
+    139.638
+  ],
+  "timeRange": "1882–1895",
+  "estimatedFatalities": "150.000–180.000 jiwa (Epidemi Besar Meiji 1882, 1886, 1890, & 1895)",
+  "chapters": [
+    {
+      "id": "jpn_ch_01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Penyusupan Maritim Shanghai-Nagasaki & Gelombang Awal 1882",
+        "en": "The Shanghai-Nagasaki Maritime Incursion & The Early 1882 Wave"
+      },
+      "date": {
+        "id": "Mei–November 1882",
+        "en": "May–November 1882"
+      },
+      "flash": {
+        "id": "KAPAL UAP DARI PELABUHAN SHANGHAI MEMBAWA KOLERA KE NAGASAKI; WABAH MELETUS KE SELURUH KYUSHU DENGAN 33.000 KORBAN JIWA.",
+        "en": "STEAMSHIPS FROM SHANGHAI INTRODUCE CHOLERA INTO NAGASAKI; OUTBREAK DETONATES ACROSS KYUSHU CLAIMING 33,000 LIVES."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Pelaut pabean, buruh tambang batu bara Miike, dan penduduk pesisir Kyushu",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Penetrasi Maritim Jalur Dagang Laut Cina Timur ke Pintu Gerbang Kyushu",
+        "mutationType": {
+          "id": "Penetrasi Maritim Jalur Dagang Laut Cina Timur ke Pintu Gerbang Kyushu",
+          "en": "Maritime Penetration of East China Sea Trade Routes into Kyushu Ports"
+        },
+        "threatLevel": {
+          "id": "Kritis (Epidemi Skala Nasional Pertama pada Era Transisi Meiji)",
+          "en": "Critical (First National-Scale Epidemic of Meiji Transition Era)"
+        },
+        "clinicalTarget": {
+          "id": "Pelaut pabean, buruh tambang batu bara Miike, dan penduduk pesisir Kyushu",
+          "en": "Customs seamen, Miike coal miners, and coastal Kyushu populations"
+        }
+      },
+      "description": {
+        "id": "Pada akhir musim semi tahun 1882, kapal dagang uap yang berlayar bolak-balik antara Shanghai dan Nagasaki menyelundupkan vibrio kolera ke pelabuhan barat Jepang. Nagasaki, yang selama berabad-abad menjadi jendela maritim perdagangan luar negeri, menjadi titik ledakan infeksi yang segera merembes ke seluruh Prefektur Fukuoka, Kumamoto, dan tambang batu bara Miike. Para penambang dan kuli pelabuhan yang tinggal di barak padat dengan jamban tanah primitif menjadi santapan empuk patogen. Dari Kyushu, kolera melompat ke Laut Pedalaman Seto menuju Osaka dan Kobe. Sepanjang tahun 1882, tercatat 51.631 warga Jepang terinfeksi dengan 33.784 kematian—sebuah tamparan keras bagi rezim Meiji yang baru mencanangkan program modernisasi nasional.",
+        "en": "In late spring 1882, merchant steamers plying routes between Shanghai and Nagasaki smuggled the cholera vibrio into western Japanese treaty ports. Nagasaki, for centuries the nation's maritime trade window, became the detonator for an infection that rapidly swept across Fukuoka, Kumamoto, and the Miike coal mining basins. Laborers and dockers dwelling in cramped communal dormitories with primitive pit latrines were decimated. From Kyushu, cholera crossed the Seto Inland Sea toward Osaka and Kobe. Throughout 1882, a staggering 51,631 Japanese contracted the illness, resulting in 33,784 deaths—a devastating shock to the young Meiji administration in the midst of its national modernization drive."
+      },
+      "image": "/assets/images/cholera/wave-5/jpn/jpn_ch_01.jpg"
+    },
+    {
+      "id": "jpn_ch_02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Nagayo Sensai & Konsep 'Eisei': Kelahiran Biro Sanitasi Pusat",
+        "en": "Nagayo Sensai & The Concept of 'Eisei': Birth of Central Sanitary Bureau"
+      },
+      "date": {
+        "id": "1883–1884",
+        "en": "1883–1884"
+      },
+      "flash": {
+        "id": "DOKTER NAGAYO SENSAI MENCIPTAKAN KATA 'EISEI' UNTUK KESEHATAN PUBLIK DAN MENDIRIKAN BIRO SANITASI DI BAWAH KEMENTERIAN DALAM NEGERI.",
+        "en": "DR. NAGAYO SENSAI COINS THE WORD 'EISEI' FOR PUBLIC HEALTH AND FOUNDS THE CENTRAL SANITARY BUREAU UNDER HOME MINISTRY."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Struktur administrasi prefektur, dewan kesehatan kota, dan korps dokter distrik",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Konstruksi Arsitektur Kebijakan Sanitasi dan Birokrasi Medis Negara",
+        "mutationType": {
+          "id": "Konstruksi Arsitektur Kebijakan Sanitasi dan Birokrasi Medis Negara",
+          "en": "State Sanitary Policy and Medical Bureaucracy Structural Construction"
+        },
+        "threatLevel": {
+          "id": "Substansial (Restrukturisasi Kelembagaan Menghadapi Ancaman Endemik)",
+          "en": "Substantial (Institutional Restructuring Against Endemic Threats)"
+        },
+        "clinicalTarget": {
+          "id": "Struktur administrasi prefektur, dewan kesehatan kota, dan korps dokter distrik",
+          "en": "Prefectural administrative systems, city health boards, and district physicians"
+        }
+      },
+      "description": {
+        "id": "Terpukul oleh malapetaka tahun 1882, pemerintah Meiji menugaskan Dr. Nagayo Sensai, seorang dokter berlatar belakang Rangaku (ilmu Belanda) dan alumni Misi Iwakura ke Barat, untuk merombak total sistem ketahanan kesehatan kekaisaran. Nagayo menciptakan istilah baru dalam bahasa Jepang—'Eisei' (衛生), yang diambil dari teks klasik filsafat kuno Zhuangzi yang berarti 'melindungi kehidupan'. Di bawah Kementerian Dalam Negeri (Naimushō), Nagayo membentuk Biro Sanitasi Pusat (Eiseikyoku). Berbeda dengan sistem Barat yang mengandalkan dokter sipil independen, Nagayo mengintegrasikan pengawasan kesehatan langsung dengan struktur kekuasaan kepolisian negara, meyakini bahwa hanya dengan disiplin otoriter militeristik sebuah negara berkembang dapat menahan serbuan pandemi kolera.",
+        "en": "Shaken by the carnage of 1882, the Meiji leadership entrusted Dr. Nagayo Sensai, a Rangaku-trained (Dutch studies) physician and alumnus of the 1871 Iwakura Mission, with overhauling the empire's health defense apparatus. Nagayo coined a revolutionary Japanese term—'Eisei' (衛生), drawn from the classical Zhuangzi phrase meaning 'guarding vitality.' Under the Ministry of Home Affairs (Naimushō), Nagayo established the Central Sanitary Bureau (Eiseikyoku). Diverging from Anglo-American civilian models, Nagayo wedded public health directly to the centralized national police force, convinced that only through state-enforced administrative discipline could a developing empire withstand recurring cholera incursions."
+      },
+      "image": "/assets/images/cholera/wave-5/jpn/jpn_ch_02.jpg"
+    },
+    {
+      "id": "jpn_ch_03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Kitasato Shibasaburo di Berlin: Berguru pada Robert Koch",
+        "en": "Kitasato Shibasaburo in Berlin: Apprenticed to Robert Koch"
+      },
+      "date": {
+        "id": "1885–1886",
+        "en": "1885–1886"
+      },
+      "flash": {
+        "id": "DOKTER MUDA KITASATO DIKIRIM KE JERMAN; MENGUASAI METODE KULTUR MURNI DAN POSTULAT BAKTERIOLOGI LANGSUNG DARI SANG PENEMU VIBRIO.",
+        "en": "YOUNG PHYSICIAN KITASATO SENT TO GERMANY; MASTERS PURE CULTURE METHODS AND BACTERIOLOGY POSTULATES DIRECTLY UNDER KOCH."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Isolat Vibrio cholerae, media agar gelatin, dan kultur anaerobik patogen",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Penguasaan Metodologi Kultur Murni Bakteriologis Koch",
+        "mutationType": {
+          "id": "Penguasaan Metodologi Kultur Murni Bakteriologis Koch",
+          "en": "Mastery of Koch's Pure Bacteriological Culture Methodologies"
+        },
+        "threatLevel": {
+          "id": "Pendidikan Strategis (Transfer Teknologi Laboratorium Tingkat Tinggi)",
+          "en": "Strategic Education (Advanced Laboratory Technology Transfer)"
+        },
+        "clinicalTarget": {
+          "id": "Isolat Vibrio cholerae, media agar gelatin, dan kultur anaerobik patogen",
+          "en": "Vibrio cholerae isolates, gelatin agar media, and anaerobic pathogen cultures"
+        }
+      },
+      "description": {
+        "id": "Atas rekomendasi Nagayo Sensai, Kementerian Pendidikan mengirim dokter muda lulusan Universitas Kekaisaran Tokyo, Kitasato Shibasaburo, ke Berlin pada tahun 1885. Kitasato bergabung dengan Institut Higiene Universitas Berlin di bawah bimbingan langsung Profesor Robert Koch. Di laboratorium Koch, Kitasato menunjukkan ketelitian mikroskopis yang luar biasa, menguasai teknik isolasi plat gelatin dan pewarnaan anilin untuk membedakan galur vibrio kolera dari bakteri air lainnya. Reputasi Kitasato melesat ketika ia berhasil mengisolasi basil tetanus dalam biakan murni anaerob pertama di dunia dan bersama Emil von Behring menemukan antitoksin difteri. Pengalaman di laboratorium Berlin ini membekali Kitasato dengan keahlian ilmiah kelas dunia yang kelak mengubah Jepang menjadi raksasa bakteriologi Asia.",
+        "en": "Upon Nagayo Sensai's urgent recommendation, the Ministry of Education dispatched a brilliant Tokyo Imperial University graduate, Kitasato Shibasaburo, to Berlin in 1885. Kitasato entered the Hygienic Institute of the University of Berlin under the direct tutelage of Professor Robert Koch. In Koch's laboratory, Kitasato displayed extraordinary microscopic precision, mastering gelatin plating techniques and aniline staining to differentiate cholera vibriones from aquatic saprophytes. Kitasato's fame skyrocketed when he achieved the world's first pure anaerobic culture of Clostridium tetani and co-discovered diphtheria antitoxin with Emil von Behring. This rigorous Berlin schooling armed Kitasato with world-class bacteriological expertise destined to transform Japan into an Asian laboratory powerhouse."
+      },
+      "image": "/assets/images/cholera/wave-5/jpn/jpn_ch_03.jpg"
+    },
+    {
+      "id": "jpn_ch_04",
+      "chapterNumber": 4,
+      "type": "milestone",
+      "title": {
+        "id": "Malapetaka Meiji 19: Ledakan 108.000 Kematian Tahun 1886",
+        "en": "The Calamity of Meiji 19: The 108,000-Fatality Explosion of 1886"
+      },
+      "date": {
+        "id": "Mei–Oktober 1886",
+        "en": "May–October 1886"
+      },
+      "flash": {
+        "id": "EPIDEMI KOLERA TERBURUK ERA MEIJI MELEDAK DARI OSAKA DAN YOKOHAMA; 155.000 WARGA TERTULAR DAN LEBIH DARI 108.000 JIWA MELAYANG.",
+        "en": "DEADLIEST CHOLERA EPIDEMIC OF THE MEIJI ERA DETONATES IN OSAKA AND YOKOHAMA; 155,000 INFECTED AND OVER 108,000 PERISH."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Masyarakat urban Osaka, buruh sutra Yokohama, dan warga perkampungan Tokyo",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Eksplosi Multi-Sentris Nasional Melalui Pelabuhan Perdagangan Perjanjian",
+        "mutationType": {
+          "id": "Eksplosi Multi-Sentris Nasional Melalui Pelabuhan Perdagangan Perjanjian",
+          "en": "National Multi-Centric Explosion via Treaty Commercial Harbours"
+        },
+        "threatLevel": {
+          "id": "Bencana Katastropik (Tingkat Kematian Kasus 70% di Seluruh Negeri)",
+          "en": "Catastrophic Disaster (70% Case Fatality Rate Across the Nation)"
+        },
+        "clinicalTarget": {
+          "id": "Masyarakat urban Osaka, buruh sutra Yokohama, dan warga perkampungan Tokyo",
+          "en": "Osaka urban populace, Yokohama silk laborers, and Tokyo tenement dwellers"
+        }
+      },
+      "description": {
+        "id": "Tahun 1886 (tahun Meiji ke-19) tercatat dalam sejarah Jepang sebagai tahun bencana nasional kolera paling mengerikan. Wabah masuk secara simultan melalui kapal uap asing ke pelabuhan Osaka dan Yokohama pada bulan Mei. Di Osaka, kota kanal dengan ratusan jembatan kayu, warga mencuci beras dan pakaian di kanal-kanal yang sama yang dipenuhi feses penderita. Dalam hitungan minggu, ribuan jenazah menumpuk di krematorium Sennichimae dan Abeno hingga cerobong asap membara tanpa henti siang dan malam. Epidemi menyebar ke 43 dari 47 prefektur Jepang. Total kasus mencapai angka mencengangkan 155.923 jiwa dengan 108.405 kematian—angka fatalitas mengerikan mencapai 70%. Bencana ini membuktikan bahwa modernisasi politik Meiji belum mampu mengimbangi kerentanan sanitasi biologis warganya.",
+        "en": "The year 1886 (Meiji 19) is etched into Japanese history as the nation's most apocalyptic cholera catastrophe. The pathogen entered concurrently via foreign steamships docking at Osaka and Yokohama in May. In Osaka, a city of crisscrossing canals, inhabitants washed rice and vegetables in the very waterways receiving the ricewater waste of the sick. Within weeks, corpses piled high at the Sennichimae and Abeno crematoria until smokestacks glowed cherry-red around the clock. The pestilence swept through 43 of Japan's 47 prefectures. Total cases reached an appalling 155,923 with 108,405 fatalities—a terrifying 70% case fatality rate. This massacre proved that Meiji political centralization remained precariously vulnerable to biological contamination."
+      },
+      "image": "/assets/images/cholera/wave-5/jpn/jpn_ch_04.jpg"
+    },
+    {
+      "id": "jpn_ch_05",
+      "chapterNumber": 5,
+      "type": "standard",
+      "title": {
+        "id": "Eisei Keisatsu: Polisi Sanitasi, Palang Bambu, & Rumah Sakit Hinanjo",
+        "en": "Eisei Keisatsu: The Sanitary Police, Bamboo Barriers, & Hinanjo Wards"
+      },
+      "date": {
+        "id": "Juli–September 1886",
+        "en": "July–September 1886"
+      },
+      "flash": {
+        "id": "POLISI BERSERAGAM MERAZIA RUMAH WARGA, MEMASANG PALANG BAMBU DAN MENYEMPROT KAPUR TOHOR; PASIEN DIANGKUT PAKSA KE BARAK ISOLASI HINANJO.",
+        "en": "UNIFORMED POLICE RAID TENEMENTS, ERECT BAMBOO BARRICADES AND SPRAY QUICKLIME; VICTIMS FORCIBLY CONVOYED TO HINANJO ISOLATION BARRACKS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Rumah tangga penderita, sumur pemukiman, dan kontak erat keluarga",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Karantina Paksa dan Disinfeksi Kimiawi Tingkat Militer",
+        "mutationType": {
+          "id": "Karantina Paksa dan Disinfeksi Kimiawi Tingkat Militer",
+          "en": "Forced Quarantine and Military-Grade Chemical Disinfection"
+        },
+        "threatLevel": {
+          "id": "Sangat Kritis (Tindakan Represif Kepolisian Menghadapi Kedaruratan)",
+          "en": "Extremely Critical (Repressive Police Enforcement During Emergency)"
+        },
+        "clinicalTarget": {
+          "id": "Rumah tangga penderita, sumur pemukiman, dan kontak erat keluarga",
+          "en": "Infected family dwellings, domestic wellheads, and close household contacts"
+        }
+      },
+      "description": {
+        "id": "Menghadapi amukan wabah 1886, Biro Sanitasi mengerahkan 'Eisei Keisatsu' (Polisi Sanitasi). Ribuan polisi berseragam dan bersenjata pedang menyisir setiap permukiman di Tokyo, Osaka, dan Kyoto. Begitu seorang warga dicurigai menderita diare atau muntah, polisi segera memaku palang bambu bersilang di depan pintu rumahnya dan menaburkan bubuk kapur tohor (quicklime) serta asam karbolat di sekeliling pekarangan. Pasien diseret paksa di atas tandu tertutup menuju 'Hinanjo'—barak isolasi darurat yang didirikan di luar batas kota. Barang-barang pribadi, tikar tatami, dan pakaian penderita dibakar di tengah jalan. Bagi rakyat jelata, kedatangan polisi sanitasi terasa seperti hukuman mati kriminal daripada penyelamatan medis.",
+        "en": "Faced with the 1886 fury, the Sanitary Bureau unleashed the 'Eisei Keisatsu' (Sanitary Police). Thousands of saber-bearing officers swept every tenement quarter of Tokyo, Osaka, and Kyoto. The moment a resident was suspected of choleraic vomiting, police nailed crossed bamboo staves across the doorways and dusted thick rings of quicklime and carbolic powder around the perimeter. Victims were forcibly hauled away on covered stretchers to 'Hinanjo'—makeshift isolation barracks pitched outside city limits. Personal bedding, tatami mats, and clothing were incinerated in public thoroughfares. To ordinary citizens, the arrival of the sanitary police resembled a punitive criminal raid far more than a compassionate medical intervention."
+      },
+      "image": "/assets/images/cholera/wave-5/jpn/jpn_ch_05.jpg"
+    },
+    {
+      "id": "jpn_ch_06",
+      "chapterNumber": 6,
+      "type": "side_story",
+      "title": {
+        "id": "Kerusuhan 'Korera-bō': Mitos Racun Dokter & Pemberontakan Petani",
+        "en": "The 'Korera-bō' Riots: Poison Doctor Rumors & Peasant Uprisings"
+      },
+      "date": {
+        "id": "Agustus–September 1886",
+        "en": "August–September 1886"
+      },
+      "flash": {
+        "id": "PETANI PEDESAAN MENYERANG POS POLISI DAN DOKTER SANITASI KARENA TERHASUT RUMOR BAHWA RUMAH SAKIT ADALAH TEMPAT MEMBUNUH RAKYAT MISKIN.",
+        "en": "RURAL PEASANTS ATTACK POLICE POSTS AND SANITARY DOCTORS, DRIVEN BY RUMORS THAT HOSPITALS ARE SLAUGHTERHOUSES FOR THE POOR."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Dokter karantina prefektur, pos pemeriksaan polisi, dan barak Hinanjo",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Hambatan Sosiologis dan Perlawanan Massa Terhadap Intervensi Medis",
+        "mutationType": {
+          "id": "Hambatan Sosiologis dan Perlawanan Massa Terhadap Intervensi Medis",
+          "en": "Sociological Resistance and Mass Mob Backlash Against Medical Police"
+        },
+        "threatLevel": {
+          "id": "Tinggi (Kerusuhan Sipil dan Pembakaran Fasilitas Karantina Publik)",
+          "en": "High (Civil Insurgency and Arson Against Public Lazarettos)"
+        },
+        "clinicalTarget": {
+          "id": "Dokter karantina prefektur, pos pemeriksaan polisi, dan barak Hinanjo",
+          "en": "Prefectural quarantine doctors, police outposts, and Hinanjo compounds"
+        }
+      },
+      "description": {
+        "id": "Tindakan represif kepolisian memicu perlawanan berdarah di pedesaan Jepang. Di Prefektur Mie, Niigata, dan Fukushima, meletus kerusuhan yang dikenal sebagai 'Korera-bō' (Pemberontakan Kolera). Rumor liar menyebar bahwa dokter pemerintah sengaja meracuni sumur-sumur warga dan menyuntikkan racun ke pasien di Hinanjo untuk mengambil organ tubuh serta lemak mereka guna diekspor ke Barat. Ratusan petani bersenjatakan bambu runcing dan sabit menyerang pos-pos polisi, membebaskan kerabat mereka dari bangsal karantina, dan membakar fasilitas desinfeksi hingga rata dengan tanah. Beberapa dokter sanitasi dipukuli hingga tewas di jalan. Tragedi sosiologis ini memaksa pemerintah Meiji menyadari bahwa higienisme modern tidak dapat dipaksakan hanya dengan moncong senjata tanpa edukasi masyarakat.",
+        "en": "Heavy-handed police coercion ignited violent rural uprisings across Japan. In Mie, Niigata, and Fukushima prefectures, peasant revolts known as 'Korera-bō' erupted. Wild rumors circulated that government physicians were poisoning village wells and administering lethal injections inside Hinanjo wards to harvest internal organs and fats for export to Western empires. Mobs of farmers armed with bamboo spears and scythes stormed police posts, liberated quarantined relatives, and burned disinfection centers to the ground. Several sanitary doctors were beaten to death on country roads. This sociological rebellion brutally demonstrated to Meiji officials that modern hygiene could not succeed by bayonet point alone without public enlightenment."
+      },
+      "image": "/assets/images/cholera/wave-5/jpn/jpn_ch_06.jpg"
+    },
+    {
+      "id": "jpn_ch_07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Pipa Besi Palmer & Revolusi Filtrasi Pasir Lambat Yokohama",
+        "en": "Palmer's Cast Iron Pipes & The Yokohama Slow Sand Filtration Revolution"
+      },
+      "date": {
+        "id": "1887–1889",
+        "en": "1887–1889"
+      },
+      "flash": {
+        "id": "INSINYUR INGGRIS HENRY SPENCER PALMER MEMBANGUN SISTEM AIR BERSIH PERTAMA JEPANG DENGAN PIPA BESI COR DAN FILTER PASIR LAMBAT DI YOKOHAMA.",
+        "en": "BRITISH ENGINEER HENRY SPENCER PALMER BUILDS JAPAN'S FIRST CLEAN WATER GRID WITH CAST IRON PIPES AND SLOW SAND FILTERS IN YOKOHAMA."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Suplai air Sungai Dōshi, reservoir Nogeyama, dan kran umum pelabuhan Yokohama",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Eradikasi Vektor Air Baku Melalui Filtrasi Pasir Lambat dan Perpipaan Tertutup",
+        "mutationType": {
+          "id": "Eradikasi Vektor Air Baku Melalui Filtrasi Pasir Lambat dan Perpipaan Tertutup",
+          "en": "Raw Water Vector Eradication via Slow Sand Filtration and Sealed Piping"
+        },
+        "threatLevel": {
+          "id": "Terkendali (Revolusi Infrastruktur Hidrolik Publik Modern)",
+          "en": "Controlled (Modern Public Hydraulic Engineering Breakthrough)"
+        },
+        "clinicalTarget": {
+          "id": "Suplai air Sungai Dōshi, reservoir Nogeyama, dan kran umum pelabuhan Yokohama",
+          "en": "Dōshi River intake, Nogeyama reservoir, and Yokohama municipal taps"
+        }
+      },
+      "description": {
+        "id": "Setelah malapetaka 1886, pemerintah menyadari bahwa sumur tanah dan saluran pipa kayu kuno (tamagawa jōsui) adalah sarang utama penularan vibrio. Prefektur Kanagawa menyewa Mayor-Jenderal Henry Spencer Palmer, seorang insinyur Kerajaan Inggris, untuk merancang sistem penyediaan air modern pertama di Jepang. Palmer membangun instalasi intake di Sungai Dōshi di Prefektur Yamanashi, menyalurkan air sejauh 44 kilometer melalui pipa besi cor bertekanan tinggi menuju instalasi pengolahan air Nogeyama di Yokohama. Di Nogeyama, Palmer membangun kolam filtrasi pasir lambat Inggris yang secara efektif menyaring 99% bakteri. Ketika sistem air bersih ini dibuka pada Oktober 1887, angka kasus kolera di distrik-distrik yang tersambung langsung anjlok mendekati nol, menjadi cetak biru bagi pembangunan air bersih Tokyo dan Osaka.",
+        "en": "Following the 1886 massacre, authorities acknowledged that shallow dug wells and antiquated wooden aqueducts (tamagawa jōsui) were prime incubators for the vibrio. Kanagawa Prefecture hired Major-General Henry Spencer Palmer, a British Royal Engineer, to design Japan's first modern waterworks. Palmer engineered an intake on the pristine Dōshi River in Yamanashi Prefecture, carrying water 44 kilometers through pressurized cast-iron conduits to the Nogeyama waterworks overlooking Yokohama. At Nogeyama, Palmer constructed English slow sand filter beds capable of trapping 99% of bacterial contaminants. When this system was inaugurated in October 1887, cholera rates across piped municipal quarters plummeted to near zero, providing a triumphant blueprint for Tokyo and Osaka."
+      },
+      "image": "/assets/images/cholera/wave-5/jpn/jpn_ch_07.jpg"
+    },
+    {
+      "id": "jpn_ch_08",
+      "chapterNumber": 8,
+      "type": "milestone",
+      "title": {
+        "id": "Resurgensi Musim Panas 1890: Uji Coba Laboratorium Universitas Kekaisaran",
+        "en": "Summer 1890 Resurgence: Imperial University Laboratory Field Tests"
+      },
+      "date": {
+        "id": "Juni–November 1890",
+        "en": "June–November 1890"
+      },
+      "flash": {
+        "id": "KOLERA KEMBALI DENGAN 46.000 KASUS; PROFESOR OGATA MASANORI MENGGUNAKAN BAKTERIOLOGI KOCH UNTUK MELACAK SUMBER AIR DI TOKYO.",
+        "en": "CHOLERA RETURNS WITH 46,000 CASES; PROFESSOR OGATA MASANORI EMPLOYS KOCH'S BACTERIOLOGY TO TRACE TOKYO WATER RESERVOIRS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Kanal Kanda, sumur distrik Fukagawa dan Honjo, serta pedagang ikan",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Transmisi Musiman Terbatas dengan Pelacakan Laboratorium Terpadu",
+        "mutationType": {
+          "id": "Transmisi Musiman Terbatas dengan Pelacakan Laboratorium Terpadu",
+          "en": "Localized Seasonal Recurrence with Integrated Laboratory Tracking"
+        },
+        "threatLevel": {
+          "id": "Kritis (46.000 Kasus dan 35.000 Fatalitas di Seluruh Wilayah)",
+          "en": "Critical (46,000 Infections and 35,000 Deaths Nationwide)"
+        },
+        "clinicalTarget": {
+          "id": "Kanal Kanda, sumur distrik Fukagawa dan Honjo, serta pedagang ikan",
+          "en": "Kanda Canal, Fukagawa and Honjo district wells, and fish mongers"
+        }
+      },
+      "description": {
+        "id": "Musim panas tahun 1890 membawa gelombang wabah baru yang masuk kembali lewat kapal dagang dari daratan Asia. Kali ini, kolera menginfeksi 46.013 jiwa dan menewaskan 35.227 orang di seluruh Jepang. Namun, respons ilmiah kali ini jauh lebih terorganisir. Di Fakultas Kedokteran Universitas Kekaisaran Tokyo, Profesor Ogata Masanori—yang juga pernah belajar di bawah Koch dan Pettenkofer di Jerman—mendirikan stasiun pengujian bakteriologis keliling pertama. Ogata dan timnya mengumpulkan sampel air dari ratusan sumur di distrik dataran rendah Fukagawa dan Honjo, menumbuhkan kultur pada plat gelatin, dan membuktikan kontaminasi fekal sebelum warga menunjukkan gejala klinis. Metode isolasi dini ini berhasil mencegah eskalasi wabah melampaui skala tahun 1886.",
+        "en": "Summer 1890 brought a fresh wave introduced by merchant vessels arriving from continental Asia. This recurrence infected 46,013 citizens, claiming 35,227 lives across Japan. Yet the scientific response was fundamentally transformed. At Tokyo Imperial University's Faculty of Medicine, Professor Ogata Masanori—who had also trained under Koch and Pettenkofer in Germany—established Japan's first mobile bacteriological testing squad. Ogata and his staff sampled hundreds of wells across low-lying working-class wards like Fukagawa and Honjo, culturing specimens on gelatin plates to identify contamination before full clinical outbreaks occurred. This early microbiological detection prevented the pathogen from matching the slaughter of 1886."
+      },
+      "image": "/assets/images/cholera/wave-5/jpn/jpn_ch_08.jpg"
+    },
+    {
+      "id": "jpn_ch_09",
+      "chapterNumber": 9,
+      "type": "side_story",
+      "title": {
+        "id": "Kepulangan Kitasato & Pendirian Institut Penyakit Menular Shiba Park",
+        "en": "Kitasato's Return & The Founding of Shiba Park Infectious Disease Institute"
+      },
+      "date": {
+        "id": "November 1892",
+        "en": "November 1892"
+      },
+      "flash": {
+        "id": "FUKUZAWA YUKICHI MENYUMBANG TANAH DAN DANA PRIBADI KEPADA KITASATO UNTUK MENDIRIKAN INSTITUT PENYAKIT MENULAR SWASTA DI TAMAN SHIBA.",
+        "en": "FUKUZAWA YUKICHI DONATES PRIVATE LAND AND FUNDS TO KITASATO TO ESTABLISH PRIVATE INFECTIOUS DISEASE INSTITUTE IN SHIBA PARK."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Vaksin kolera eksperimental, isolasi kuman pes bubonik, dan terapi serum",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Institusionalisasi Riset Bakteriologi dan Imunoterapi Independen",
+        "mutationType": {
+          "id": "Institusionalisasi Riset Bakteriologi dan Imunoterapi Independen",
+          "en": "Institutionalization of Independent Bacteriological & Serum Therapy Research"
+        },
+        "threatLevel": {
+          "id": "Strategis Nasional (Kelahiran Episentrum Riset Patogen Terbesar Asia)",
+          "en": "National Strategic (Birth of Asia's Foremost Pathogen Research Citadel)"
+        },
+        "clinicalTarget": {
+          "id": "Vaksin kolera eksperimental, isolasi kuman pes bubonik, dan terapi serum",
+          "en": "Experimental cholera vaccines, plague bacillus isolation, and serum therapies"
+        }
+      },
+      "description": {
+        "id": "Ketika Kitasato Shibasaburo kembali ke Jepang pada akhir tahun 1892 dengan reputasi internasional sebagai penemu antitoksin, ia menghadapi permusuhan birokratis dan penolakan dari para profesor Universitas Kekaisaran Tokyo yang iri akan ketenarannya. Melihat bakat besar sang ilmuwan terancam disia-siakan, pemikir terkemuka era Meiji, Fukuzawa Yukichi, turun tangan secara pribadi. Fukuzawa mendanai pembangunan laboratorium dan menyumbangkan sebidang tanah miliknya di Taman Shiba, Tokyo. Di sanalah didirikan 'Densenbyō Kenkyūjo' (Institut Penelitian Penyakit Menular). Di bawah kepemimpinan Kitasato, lembaga ini menjadi benteng pertahanan ilmiah Jepang dalam memproduksi serum diagnostik kolera, menguji vaksin, dan melatih generasi dokter muda dalam perang melawan kuman.",
+        "en": "When Kitasato Shibasaburo returned to Japan in late 1892 bearing international acclaim as the co-discoverer of antitoxin therapy, he met bureaucratic hostility and academic jealousy from Tokyo Imperial University elites. Witnessing the national danger of sidelining this scientific genius, Meiji intellectual luminary Fukuzawa Yukichi stepped in privately. Fukuzawa financed construction and donated his own land plot at Shiba Park in Tokyo. There arose the 'Densenbyō Kenkyūjo' (Institute for Infectious Diseases). Under Kitasato's directorship, this institute became Japan's unassailable scientific fortress, manufacturing diagnostic cholera reagents, evaluating vaccines, and training a generation of elite medical researchers to combat epidemic invaders."
+      },
+      "image": "/assets/images/cholera/wave-5/jpn/jpn_ch_09.jpg"
+    },
+    {
+      "id": "jpn_ch_10",
+      "chapterNumber": 10,
+      "type": "milestone",
+      "title": {
+        "id": "Krisis Repatriasi Perang Sino-Jepang: Ancaman 230.000 Prajurit",
+        "en": "Sino-Japanese War Repatriation Crisis: Threat of 230,000 Returning Troops"
+      },
+      "date": {
+        "id": "Mei–Juli 1895",
+        "en": "May–July 1895"
+      },
+      "flash": {
+        "id": "SELESAI PERANG DI SEMENANJUNG LIAODONG, RIBUAN PRAJURIT TERTULAR KOLERA ASIA; REPATRIASI MASSAL MENGANCAM MENENGGELAMKAN JEPANG KE DALAM BENCANA.",
+        "en": "VICTORIOUS SINO-JAPANESE WAR FORCES IN LIAODONG INFECTED WITH CHOLERA; MASS REPATRIATION THREATENS TO SUBMERGE JAPAN IN BIOLOGICAL DISASTER."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "230.000 prajurit Angkatan Darat Kekaisaran, kelasi armada laut, dan buruh logistik",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Vektor Militeristik Pasukan Repatriasi Perang Skala Raksasa",
+        "mutationType": {
+          "id": "Vektor Militeristik Pasukan Repatriasi Perang Skala Raksasa",
+          "en": "Militaristic Vector of Massive War Repatriation Troop Transports"
+        },
+        "threatLevel": {
+          "id": "Eksistensial (Potensi Ledakan Pandemi Terbesar Menghantam Kepulauan)",
+          "en": "Existential (Potential for the Deadliest Pandemic Explosion in Island History)"
+        },
+        "clinicalTarget": {
+          "id": "230.000 prajurit Angkatan Darat Kekaisaran, kelasi armada laut, dan buruh logistik",
+          "en": "230,000 Imperial Army soldiers, naval crews, and logistical coolies"
+        }
+      },
+      "description": {
+        "id": "Pada musim semi 1895, Jepang meraih kemenangan dalam Perang Sino-Jepang Pertama (Nisshin Sensō), merebut Semenanjung Liaodong dan Taiwan. Namun, di kamp-kamp militer di Manchuria dan Pelabuhan Lushun (Port Arthur), kolera Asia meletus dengan keganasan tak terkendali. Lebih dari seribu tentara tewas di medan perang bukan oleh peluru musuh, melainkan oleh kuman diare air cucian beras. Sekitar 230.000 prajurit infanteri dan logistik kini dijadwalkan dipulangkan dengan ratusan kapal transpor uap menuju pulau utama Jepang melalui pelabuhan Ujina di Hiroshima. Jika armada yang terkontaminasi ini dibiarkan mendarat tanpa saringan, seluruh kepulauan Jepang akan terjerumus ke dalam kobaran api pandemi kolera yang tak terbayangkan.",
+        "en": "In spring 1895, Japan celebrated victory in the First Sino-Japanese War (Nisshin Sensō), securing the Liaodong Peninsula and Taiwan. But across military encampments in southern Manchuria and Port Arthur (Lüshun), Asiatic cholera erupted with uncontrollable fury. More than a thousand soldiers perished not from enemy artillery, but from ricewater dehydration. Approximately 230,000 returning combatants and logistical laborers were scheduled for immediate repatriation aboard hundreds of packed transport ships into Ujina port at Hiroshima. If these pathogen-laden vessels were permitted to discharge their men into civilian railway terminals, the entire Japanese homeland would be submerged in an apocalyptic biological conflagration."
+      },
+      "image": "/assets/images/cholera/wave-5/jpn/jpn_ch_10.jpg"
+    },
+    {
+      "id": "jpn_ch_11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Karantina Ninoshima Gotō Shinpei: Operasi Desinfeksi Terbesar di Dunia",
+        "en": "Gotō Shinpei's Ninoshima Quarantine: The World's Largest Disinfection Feat"
+      },
+      "date": {
+        "id": "Juli–September 1895",
+        "en": "July–September 1895"
+      },
+      "flash": {
+        "id": "DOKTER GOTŌ SHINPEI MEMBANGUN TIGA STASIUN KARANTINA RAKSASA DALAM WAKTU DUA BULAN, MENDESINFEKSI 232.000 TENTARA DI PULAU NINOSHIMA.",
+        "en": "DR. GOTŌ SHINPEI BUILDS THREE TITANIC QUARANTINE STATIONS IN TWO MONTHS, DISINFECTING 232,000 TROOPS AT NINOSHIMA ISLAND."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Seragam serdadu, ransel militer, feses prajurit, dan lambung kapal transpor",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Intersepsi Maritim Total Berbasis Teknologi Otomatisasi Uap Tekanan Tinggi",
+        "mutationType": {
+          "id": "Intersepsi Maritim Total Berbasis Teknologi Otomatisasi Uap Tekanan Tinggi",
+          "en": "Total Maritime Interception via Industrial High-Pressure Steam Autoclaves"
+        },
+        "threatLevel": {
+          "id": "Sangat Kritis (Skrining Lapangan Terbesar dalam Sejarah Medis Abad ke-19)",
+          "en": "Extremely Critical (Largest Field Screening in 19th-Century Medical History)"
+        },
+        "clinicalTarget": {
+          "id": "Seragam serdadu, ransel militer, feses prajurit, dan lambung kapal transpor",
+          "en": "Soldier uniforms, military knapsacks, fecal samples, and transport ship hulls"
+        }
+      },
+      "description": {
+        "id": "Menteri Perang menunjuk Dr. Gotō Shinpei, seorang pejabat medis muda yang brilian dan penuh determinasi, sebagai Kepala Biro Karantina Angkatan Darat Sementara. Dalam tempo rekor hanya dua bulan, Gotō memobilisasi ribuan pekerja untuk mendirikan tiga stasiun karantina maritim raksasa di Pulau Ninoshima (Teluk Hiroshima), Dairi (Moji), dan Wada Misaki (Kobe). Di Ninoshima, setiap kapal perang yang tiba diwajibkan lego jangkar. Gotō memasang puluhan boiler uap raksasa yang mampu mensterilkan seragam dan ransel 6.000 prajurit per hari pada suhu 100°C. Seluruh 232.346 tentara diperiksa secara klinis dan feses mereka diuji; 1.488 penderita kolera diisolasi dan dirawat di bangsal pulau. Berkat benteng baja Ninoshima ini, kolera berhasil ditahan di pulau karantina tanpa pernah menembus masyarakat sipil di daratan utama.",
+        "en": "The War Ministry appointed Dr. Gotō Shinpei, a relentlessly determined young medical administrator, as Chief of the Temporary Army Quarantine Bureau. In a record two months, Gotō mobilized thousands of carpenters and engineers to erect three monumental maritime lazarettos at Ninoshima Island (Hiroshima Bay), Dairi (Moji), and Wada Misaki (Kobe). At Ninoshima, every troopship was halted offshore. Gotō installed massive industrial steam boilers capable of sterilizing the kits and uniforms of 6,000 soldiers per day at 100°C. All 232,346 returning soldiers underwent clinical screening and fecal testing; 1,488 active cholera cases were isolated in island wards. Thanks to Gotō's iron bastion at Ninoshima, the epidemic was utterly intercepted without penetrating the mainland civilian population."
+      },
+      "image": "/assets/images/cholera/wave-5/jpn/jpn_ch_11.jpg"
+    },
+    {
+      "id": "jpn_ch_12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Hukum Pencegahan Penyakit Menular 1897: Kodifikasi Hukum Modern",
+        "en": "The Infectious Disease Prevention Law of 1897: Modern Legal Codification"
+      },
+      "date": {
+        "id": "1896–1897",
+        "en": "1896–1897"
+      },
+      "flash": {
+        "id": "PARLEMEN JEPANG MENGESAHKAN UNDANG-UNDANG PENCEGAHAN PENYAKIT MENULAR; MENGUBAH DISIPLIN MILITER NINOSHIMA MENJADI HUKUM PERMANEN KEKAYSARAAN.",
+        "en": "THE JAPANESE DIET ENACTS THE INFECTIOUS DISEASE PREVENTION LAW; TRANSLATING NINOSHIMA'S MILITARY TRIUMPH INTO PERMANENT CIVIL CODE."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Delapan penyakit menular utama kekaisaran termasuk kolera, tifus, dan pes",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Kodifikasi Yuridis Nasional Kewajiban Karantina dan Pelaporan Mikrobiologis",
+        "mutationType": {
+          "id": "Kodifikasi Yuridis Nasional Kewajiban Karantina dan Pelaporan Mikrobiologis",
+          "en": "National Juridical Codification of Mandatory Quarantine and Microbial Reporting"
+        },
+        "threatLevel": {
+          "id": "Terkendali Permanen (Sistem Ketahanan Epidemi Negara Hukum Modern)",
+          "en": "Permanently Controlled (Modern Constitutional Epidemic Defense Architecture)"
+        },
+        "clinicalTarget": {
+          "id": "Delapan penyakit menular utama kekaisaran termasuk kolera, tifus, dan pes",
+          "en": "Eight designated imperial epidemic diseases including cholera, typhus, and plague"
+        }
+      },
+      "description": {
+        "id": "Keberhasilan spektakuler operasi karantina Ninoshima menjadi dasar bagi Parlemen Meiji (Teikoku Gikai) untuk mengesahkan undang-undang monumental: 'Densenbyō Yobōhō' (Undang-Undang Pencegahan Penyakit Menular) pada tahun 1897. Undang-undang ini menetapkan kolera sebagai penyakit menular resmi kategori pertama, mewajibkan setiap dokter melapor dalam 24 jam, memberikan wewenang hukum bagi isolasi medis, dan mewajibkan setiap prefektur mendirikan laboratorium pengujian bakteriologis standar. Pelanggaran terhadap peraturan karantina dikenai sanksi pidana berat. Hukum tahun 1897 ini menandai transisi penting: pengelolaan wabah tidak lagi bergantung pada kebijakan darurat ad-hoc polisi, melainkan menjadi pilar birokrasi negara hukum berbasis sains mikrobiologi.",
+        "en": "The spectacular triumph of the Ninoshima operation formed the legislative foundation for the Meiji Imperial Diet to pass a landmark statute: the 'Densenbyō Yobōhō' (Infectious Disease Prevention Law) of 1897. This law codified cholera as a designated Class-1 infectious threat, requiring mandatory physician reporting within 24 hours, legalizing compulsory hospitalization, and obligating every prefecture to maintain standardized bacteriological testing facilities. Violations of quarantine protocols were penalized with severe criminal sanctions. The 1897 Act marked a pivotal transition: epidemic management was no longer governed by arbitrary ad-hoc police fiat, but became an institutionalized pillar of a constitutional state grounded in microbiological science."
+      },
+      "image": "/assets/images/cholera/wave-5/jpn/jpn_ch_12.jpg"
+    },
+    {
+      "id": "jpn_ch_13",
+      "chapterNumber": 13,
+      "type": "summary",
+      "title": {
+        "id": "Kemenangan Meiji atas Vibrio: Dari Keterbelakangan Menuju Raksasa Higiene Asia",
+        "en": "Meiji's Triumph over the Vibrio: From Vulnerability to Asia's Hygiene Titan"
+      },
+      "date": {
+        "id": "1898–1900",
+        "en": "1898–1900"
+      },
+      "flash": {
+        "id": "DALAM WAKTU TIGA DEKADE, JEPANG MEUBAH NEGERINYA DARI SASARAN EMPUK KOLERA MENJADI KEKUATAN SANITASI DAN BAKTERIOLOGI TERMAJU DI ASIA.",
+        "en": "WITHIN THREE DECADES, JAPAN TRANSFORMS FROM A HELPLESS CHOLERA PREY INTO THE FOREMOST SANITARY AND BACTERIOLOGICAL CITADEL OF ASIA."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Seluruh populasi Kekaisaran Jepang dan perlindungan kesehatan generasi penerus",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Konsolidasi Paradigma Bakteriologi Modern dan Rekayasa Tata Kota Bersih",
+        "mutationType": {
+          "id": "Konsolidasi Paradigma Bakteriologi Modern dan Rekayasa Tata Kota Bersih",
+          "en": "Consolidation of Modern Bacteriology Paradigm and Clean Urban Engineering"
+        },
+        "threatLevel": {
+          "id": "Eradikasi Bertahap (Proteksi Penuh Perbatasan dan Sanitasi Perkotaan)",
+          "en": "Systematic Eradication (Full Border Quarantine and Urban Sanitation Security)"
+        },
+        "clinicalTarget": {
+          "id": "Seluruh populasi Kekaisaran Jepang dan perlindungan kesehatan generasi penerus",
+          "en": "The entire populace of Imperial Japan and protection of future generations"
+        }
+      },
+      "description": {
+        "id": "Gelombang Kelima Kolera (1881–1896) menjadi ujian terberat sekaligus pembaptisan api bagi modernisasi Jepang era Meiji. Dari kepanikan tahun 1882 dan malapetaka berdarah 1886 dengan lebih dari 108.000 kematian, Jepang belajar dengan kecepatan luar biasa. Kolaborasi tritunggal antara visi birokrasi Nagayo Sensai, kepemimpinan operasional Gotō Shinpei di Ninoshima, dan kejeniusan laboratorium Kitasato Shibasaburo berhasil memutus siklus wabah. Dengan menggabungkan teknologi pipa air bersih bertekanan, isolasi karantina berbasis mikroskop, dan penegakan hukum sanitasi terpadu, Jepang memasuki abad ke-20 bukan lagi sebagai korban kolera yang tak berdaya, melainkan sebagai salah satu pelopor kesehatan masyarakat paling tangguh di panggung dunia.",
+        "en": "The Fifth Cholera Pandemic (1881–1896) served as both the sternest crucible and the baptism by fire for Meiji Japan's modernization. From the terror of 1882 and the tragic slaughter of 1886 with over 108,000 dead, the Japanese state learned at breathtaking velocity. The tripartite alliance uniting Nagayo Sensai's bureaucratic vision, Gotō Shinpei's operational mastery at Ninoshima, and Kitasato Shibasaburo's microbiological brilliance severed the recurrent cycle of devastation. By integrating pressurized clean water pipelines, microscope-guided quarantine barriers, and constitutional sanitary rule of law, Japan stepped into the 20th century no longer a helpless victim of Asiatic cholera, but as one of the world's most disciplined and formidable public health powers."
+      },
+      "image": "/assets/images/cholera/wave-5/jpn/jpn_ch_13.jpg"
+    }
+  ]
+}

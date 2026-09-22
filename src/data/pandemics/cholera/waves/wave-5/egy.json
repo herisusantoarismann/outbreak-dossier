@@ -1,0 +1,542 @@
+{
+  "sectorId": "EGY",
+  "waveIndex": 5,
+  "sectorName": {
+    "id": "Sektor EGY (Mesir: Damietta, Iskandariyah & Perlombaan Bakteriologi // 1883)",
+    "en": "Sector EGY (Egypt: Damietta, Alexandria & The Bacteriological Race // 1883)"
+  },
+  "coordinates": [
+    31.2001,
+    29.9187
+  ],
+  "timeRange": {
+    "id": "Juni – Desember 1883",
+    "en": "June – December 1883"
+  },
+  "estimatedFatalities": {
+    "id": "60.000+ korban jiwa di seluruh Mesir (termasuk ribuan di Damietta, Kairo, dan Iskandariyah)",
+    "en": "60,000+ deaths across Egypt (including thousands in Damietta, Cairo, and Alexandria)"
+  },
+  "chapters": [
+    {
+      "id": "egy-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Ledakan di Muara Damietta: Pesta Pekan Raya Maulid 1883",
+        "en": "Outbreak at Damietta Estuary: The 1883 Mawlid Fair Explosion"
+      },
+      "date": {
+        "id": "22 – 25 Juni 1883",
+        "en": "June 22 – 25, 1883"
+      },
+      "flash": {
+        "id": "Wabah kolera meletus di kota pelabuhan Nil Damietta saat 15.000 peziarah berkumpul di pekan raya Maulid, menewaskan ratusan orang dalam semalam.",
+        "en": "Cholera erupts in the Nile port city of Damietta as 15,000 pilgrims congregate for the Mawlid festival, killing hundreds overnight."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air muara cabang Nil Damietta yang tergenang akibat bendungan tanah darurat",
+        "incubation": "12 – 36 jam",
+        "transmission": "Fekal-oral melalui air minum dan pemandian komunal di dekat makam sufi Syekh al-Basyuni",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Air muara cabang Nil Damietta yang tergenang akibat bendunga",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Air muara cabang Nil Damietta yang tergenang akibat bendunga"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Air muara cabang Nil Damietta yang tergenang akibat bendungan tanah darurat",
+          "en": "Target population and vector: Air muara cabang Nil Damietta yang tergenang akibat bendungan tanah darurat"
+        }
+      },
+      "description": {
+        "id": "Pada tanggal 22 Juni 1883, malapetaka Gelombang Kelima menghantam Mesir di kota pelabuhan delta Nil, Damietta. Lebih dari 15.000 peziarah dan pedagang berkumpul di bawah terik matahari musim panas untuk merayakan festival keagamaan Maulid Syekh al-Basyuni. Di tengah kepadatan ekstrem, para peziarah meminum air dari cabang sungai Nil yang arusnya terhambat oleh bendungan tanah musiman, jenuh dengan kotoran manusia dan bangkai ternak. Dalam waktu 48 jam, ratusan orang roboh serentak dengan kram perut hebat dan muntaber putih pucat. Sistem kesehatan lokal lumpuh seketika; pasar-pasar ditinggalkan dan kepanikan massal melanda Delta Nil saat ribuan peziarah melarikan diri, menyebarkan bakteri maut ke pedalaman Kairo dan Iskandariyah.",
+        "en": "On June 22, 1883, the Fifth Pandemic struck Egypt at the Nile Delta port city of Damietta. Over 15,000 pilgrims and merchants gathered beneath the sweltering summer sun for the religious fair of Mawlid Sheikh al-Basyuni. Amidst intense congestion, attendees consumed drinking water drawn from a Nile branch stagnated by seasonal earthen dikes, heavily polluted by human sewage and livestock carcasses. Within 48 hours, hundreds collapsed simultaneously with excruciating cramps and pale watery purging. Local health authorities were instantly overwhelmed; market stalls were abandoned and frantic panics swept the delta as fleeing pilgrims carried the fatal vibrio into Cairo and Alexandria."
+      },
+      "image": "/assets/images/cholera/wave-5/egy/egy_ch_01.jpg"
+    },
+    {
+      "id": "egy-ch-02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Penyangkalan Kolonial Inggris: Tarik-Ulur Karantina Terusan Suez",
+        "en": "British Colonial Denial: The Suez Canal Quarantine Feud"
+      },
+      "date": {
+        "id": "Juli 1883",
+        "en": "July 1883"
+      },
+      "flash": {
+        "id": "Pemerintah pendudukan Inggris di Mesir membantah keberadaan kolera Asiatik demi mencegah karantina yang mengancam pelayaran Terusan Suez.",
+        "en": "British occupation officials in Egypt dispute the diagnosis of Asiatic cholera to prevent quarantine regulations disrupting Suez Canal commerce."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kapal uap militer dan kargo batu bara di Terusan Suez",
+        "incubation": "1 – 3 hari",
+        "transmission": "Kepentingan geopolitik imperial menghambat deklarasi darurat karantina laut",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Kapal uap militer dan kargo batu bara di Terusan Suez",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Kapal uap militer dan kargo batu bara di Terusan Suez"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Kapal uap militer dan kargo batu bara di Terusan Suez",
+          "en": "Target population and vector: Kapal uap militer dan kargo batu bara di Terusan Suez"
+        }
+      },
+      "description": {
+        "id": "Hanya setahun setelah tentara Britania Raya menduduki Mesir pada 1882, wabah kolera memicu krisis diplomasi internasional. Otoritas kolonial Inggris di bawah Lord Cromer dan Kepala Staf Medis Surgeon-General Guyer Hunter bersikeras bahwa penyakit di Damietta hanyalah 'kolera endemik lokal' biasa akibat sanitasi buruk orang Mesir, bukan kolera Asiatik impor. Sikap penyangkalan ini bermotif ekonomi: deklarasi resmi kolera Asiatik akan memicu karantina wajib dari kekuatan Eropa terhadap seluruh kapal yang melintasi Terusan Suez, yang 80 persen di antaranya berbendera Inggris. Penundaan deklarasi karantina ini membiarkan penyakit menyebar bebas tanpa hambatan ke seluruh lembah Nil.",
+        "en": "Barely a year following the 1882 British military occupation of Egypt, the epidemic provoked an acute geopolitical crisis. British colonial administrators under Lord Cromer and Surgeon-General Guyer Hunter vehemently maintained that the Damietta outbreak was merely 'endemic non-Asiatic cholera' produced by local filth, rather than imported contagion. This denial was driven by cold commercial calculation: an official declaration of Asiatic cholera would force European nations to impose mandatory quarantines on all shipping navigating the Suez Canal, 80 percent of which was British. This self-serving bureaucratic obfuscation allowed the pathogen to disperse unchecked across the entire Nile valley."
+      },
+      "image": "/assets/images/cholera/wave-5/egy/egy_ch_02.jpg"
+    },
+    {
+      "id": "egy-ch-03",
+      "chapterNumber": 3,
+      "type": "milestone",
+      "title": {
+        "id": "Mobilisasi Dua Raksasa Sains: Ekspedisi Prancis dan Jerman",
+        "en": "Mobilization of Two Scientific Titans: French and German Expeditions"
+      },
+      "date": {
+        "id": "Agustus 1883",
+        "en": "August 1883"
+      },
+      "flash": {
+        "id": "Louis Pasteur di Paris dan Kanselir Bismarck di Berlin mengirimkan komisi bakteriologi ke Alexandria dalam perlombaan ilmiah terbesar abad ke-19.",
+        "en": "Louis Pasteur in Paris and Chancellor Bismarck in Berlin dispatch rival bacteriological missions to Alexandria in the 19th century's greatest scientific race."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Peralatan mikroskopis canggih dan media kultur agar padat",
+        "incubation": "N/A (Metodologi Penelitian Lapangan)",
+        "transmission": "Investigasi patologi anatomi dan isolasi mikroorganisme dari mukosa usus pasien",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Peralatan mikroskopis canggih dan media kultur agar padat",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Peralatan mikroskopis canggih dan media kultur agar padat"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Peralatan mikroskopis canggih dan media kultur agar padat",
+          "en": "Target population and vector: Peralatan mikroskopis canggih dan media kultur agar padat"
+        }
+      },
+      "description": {
+        "id": "Melihat ancaman kolera yang mendekati gerbang Eropa, dua kekuatan ilmiah terbesar di dunia bertindak cepat. Di Paris, Louis Pasteur membentuk Komisi Prancis yang terdiri dari murid-murid paling cemerlangnya: Émile Roux, Isidore Straus, Edmond Nocard, dan ilmuwan muda berbakat Louis Thuillier. Di Berlin, Kanselir Otto von Bismarck menugaskan Robert Koch—penemu basil antraks dan tuberkulosis yang legendaris—memimpin Komisi Kolera Kekaisaran Jerman bersama Georg Gaffky dan Bernhard Fischer. Pada pertengahan Agustus 1883, kedua tim mendarat di pelabuhan Iskandariyah (Alexandria), membawa peti-peti mikroskop Zeiss, inkubator pemanas, dan hewan uji laboratorium dalam duel prestise nasional untuk menemukan kuman penyebab kolera.",
+        "en": "Appalled by the epidemic creeping toward Europe's Mediterranean doorstep, the world's two foremost scientific superpowers mobilized. In Paris, Louis Pasteur organized the French Commission staffed by his most brilliant disciples: Émile Roux, Isidore Straus, Edmond Nocard, and promising young prodigy Louis Thuillier. In Berlin, Chancellor Otto von Bismarck commissioned Robert Koch—the celebrated discoverer of anthrax and tuberculosis bacilli—to lead the German Imperial Cholera Commission alongside Georg Gaffky and Bernhard Fischer. In mid-August 1883, both delegations disembarked at the port of Alexandria, unloading crates of Zeiss microscopes, culture incubators, and laboratory animals in an epic duel of national prestige to identify the causative microbe."
+      },
+      "image": "/assets/images/cholera/wave-5/egy/egy_ch_03.jpg"
+    },
+    {
+      "id": "egy-ch-04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Laboratorium Rumah Sakit Yunani Alexandria: Koch dan Mikroskop Zeiss",
+        "en": "The Greek Hospital Laboratory of Alexandria: Koch and the Zeiss Microscope"
+      },
+      "date": {
+        "id": "24 Agustus – September 1883",
+        "en": "August 24 – September 1883"
+      },
+      "flash": {
+        "id": "Robert Koch mendirikan laboratorium di Rumah Sakit Yunani Alexandria, melakukan autopsi korban kolera dan menemukan basil berbentuk koma.",
+        "en": "Robert Koch establishes his laboratory at Alexandria's Greek Hospital, performing autopsies and identifying a distinctive comma-shaped bacillus."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Basil Koma)",
+        "vector": "Mukosa dinding usus halus dan cairan usus korban meninggal",
+        "incubation": "6 – 24 jam",
+        "transmission": "Kolonisasi masif bakteri berbentuk koma pada epitel vili usus penderita",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae (Basil Koma) // Vektor: Mukosa dinding usus halus dan cairan usus korban meninggal",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Mukosa dinding usus halus dan cairan usus korban meninggal"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Mukosa dinding usus halus dan cairan usus korban meninggal",
+          "en": "Target population and vector: Mukosa dinding usus halus dan cairan usus korban meninggal"
+        }
+      },
+      "description": {
+        "id": "Di Rumah Sakit Yunani di Alexandria, Robert Koch dan Georg Gaffky bekerja siang malam di laboratorium darurat yang dipenuhi bau asam karbolat dan uap formalin. Koch melakukan autopsi pada lebih dari lima belas jenazah korban kolera segar dalam hitungan menit setelah kematian. Di bawah lensa mikroskop Zeiss perbesaran tinggi dengan teknik pewarnaan anilin biru metilen, Koch secara konsisten menemukan mikroorganisme unik yang belum pernah didokumentasikan sebelumnya: basil berbentuk batang melengkung seperti tanda koma yang berkerumun dalam jumlah jutaan pada lapisan mukosa usus halus penderita. Koch mencatat bahwa basil koma ini tidak pernah ditemukan pada orang sehat atau korban penyakit usus lainnya.",
+        "en": "At the Greek Hospital in Alexandria, Robert Koch and Georg Gaffky labored day and night in a makeshift laboratory pervaded by the scent of carbolic acid and formalin vapors. Koch performed meticulous autopsies on more than fifteen cholera victims within minutes of death. Beneath the high-magnification immersion lenses of his Zeiss microscope, utilizing methylene blue aniline staining techniques, Koch consistently observed a unique microorganism never before documented in official pathology: tiny, curved rod-shaped bacilli resembling typographical commas teeming in millions upon the mucosal lining of the small intestine. Koch noted that these comma bacilli were strictly absent in healthy cadavers or victims of other intestinal ailments."
+      },
+      "image": "/assets/images/cholera/wave-5/egy/egy_ch_04.jpg"
+    },
+    {
+      "id": "egy-ch-05",
+      "chapterNumber": 5,
+      "type": "side_story",
+      "title": {
+        "id": "Martir Sains Prancis: Gugurnya Louis Thuillier di Usia 27 Tahun",
+        "en": "Martyr of French Science: The Fall of 27-Year-Old Louis Thuillier"
+      },
+      "date": {
+        "id": "19 September 1883",
+        "en": "September 19, 1883"
+      },
+      "flash": {
+        "id": "Louis Thuillier, peneliti muda andalan Louis Pasteur, tertular kolera saat meneliti di Rumah Sakit Eropa dan wafat di Alexandria; Koch hadir meletakkan karangan bunga.",
+        "en": "Louis Thuillier, Pasteur's brilliant 27-year-old protégé, contracts cholera during laboratory trials and dies in Alexandria; Koch attends his funeral with laurels."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kontaminasi laboratorium saat membedah organ usus pasien kolera",
+        "incubation": "12 jam",
+        "transmission": "Inokulasi tidak sengaja melalui tangan atau peralatan bedah bangsal infeksi",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Kontaminasi laboratorium saat membedah organ usus pasien kol",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Kontaminasi laboratorium saat membedah organ usus pasien kol"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Kontaminasi laboratorium saat membedah organ usus pasien kolera",
+          "en": "Target population and vector: Kontaminasi laboratorium saat membedah organ usus pasien kolera"
+        }
+      },
+      "description": {
+        "id": "Di tengah perlombaan ilmiah yang sengit, tragedi menyayat hati melanda tim Prancis. Louis Thuillier, fisikawan dan ahli biologi muda berusia 27 tahun yang sangat dicintai Pasteur atas jasanya mengembangkan vaksin antraks, jatuh sakit secara tiba-tiba pada 17 September setelah berhari-hari menangani organ penderita kolera di Rumah Sakit Eropa. Meskipun rekan-rekannya, Émile Roux dan Edmond Nocard, merawatnya tanpa henti dengan infus dan pemanasan tubuh, Thuillier menghembuskan napas terakhirnya pada pagi hari 19 September 1883. Dalam momen kemanusiaan yang mengharukan melampaui batas persaingan bangsa, Robert Koch dan delegasi Jerman hadir dalam upacara pemakaman di pemakaman Kristen Alexandria, meletakkan karangan bunga salam berhiaskan pita warna bendera Jerman sebagai penghormatan kepada martir ilmu pengetahuan.",
+        "en": "Amidst intense scientific rivalry, heartbreaking tragedy struck the French delegation. Louis Thuillier, a brilliant 27-year-old physicist-biologist beloved by Pasteur for his breakthroughs with anthrax vaccines, fell suddenly ill on September 17 after days handling infected viscera at the European Hospital. Despite desperate around-the-clock ministrations by Émile Roux and Edmond Nocard using subcutaneous stimulants and heated bricks, Thuillier expired on the morning of September 19, 1883. In a touching moment of international fraternity transcending geopolitical enmity, Robert Koch and the entire German Commission attended the funeral at Alexandria's Christian cemetery, laying laurel wreaths bound in German colors in honor of a fallen scientific martyr."
+      },
+      "image": "/assets/images/cholera/wave-5/egy/egy_ch_05.jpg"
+    },
+    {
+      "id": "egy-ch-06",
+      "chapterNumber": 6,
+      "type": "standard",
+      "title": {
+        "id": "Kegagalan Hewan Uji: Misteri Penularan Tanpa Model Hewan",
+        "en": "The Failure of Animal Models: An Inoculation Conundrum"
+      },
+      "date": {
+        "id": "September – Oktober 1883",
+        "en": "September – October 1883"
+      },
+      "flash": {
+        "id": "Baik Koch maupun tim Prancis gagal menularkan kolera pada hewan percobaan (monyet, kelinci, anjing), karena asam lambung hewan membunuh basil koma.",
+        "en": "Both Koch and the French team fail to reproduce cholera in animal models (monkeys, rabbits, dogs), as high gastric acidity destroys the comma vibrios."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Suntikan biakan kuman ke kelinci, marmot, kera, dan merpati",
+        "incubation": "N/A (Hambatan Eksperimental Postulat Koch)",
+        "transmission": "Ketidakmampuan basil bertahan hidup melintasi barier asam lambung mamalia percobaan",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Suntikan biakan kuman ke kelinci, marmot, kera, dan merpati",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Suntikan biakan kuman ke kelinci, marmot, kera, dan merpati"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Suntikan biakan kuman ke kelinci, marmot, kera, dan merpati",
+          "en": "Target population and vector: Suntikan biakan kuman ke kelinci, marmot, kera, dan merpati"
+        }
+      },
+      "description": {
+        "id": "Untuk memenuhi Postulat Koch yang dirumuskannya sendiri—bahwa suatu kuman harus diisolasi dalam kultur murni dan dapat menimbulkan penyakit yang sama pada hewan uji—Koch dan timnya mencoba menginokulasi basil koma ke lusinan monyet, kelinci, tikus, marmot, dan burung dara yang dibeli di pasar Alexandria. Namun semua hewan percobaan tetap sehat bugar. Tim Prancis di bawah Roux juga mengalami kegagalan serupa. Pada masa itu, para ilmuwan belum memahami bahwa asam lambung hewan uji normal membunuh Vibrio cholerae dalam sekejap, dan bahwa kolera merupakan patogen obligat manusia yang sangat spesifik terhadap saluran cerna manusia. Kegagalan membuktikan penularan pada hewan memaksa Koch menyadari bahwa penelitian definitif harus dilanjutkan di tanah asal penyakit tersebut.",
+        "en": "To satisfy Koch's own rigorous postulates—demanding that an isolated pathogen be grown in pure culture and reproduce identical clinical disease in experimental animals—Koch and his assistants attempted to inoculate comma bacilli into dozens of monkeys, rabbits, guinea pigs, and pigeons purchased in Alexandrian bazaars. Yet every animal subject remained obstinately healthy. The French mission under Roux met with identical frustration. At that time, scientists did not comprehend that high gastric acid barriers in non-human animals instantly neutralized Vibrio cholerae, and that cholera was an obligate human pathogen exquisitely adapted to human intestinal ecology. This impasse convinced Koch that definitive proof required tracking the scourge back to its ancestral cradle."
+      },
+      "image": "/assets/images/cholera/wave-5/egy/egy_ch_06.jpg"
+    },
+    {
+      "id": "egy-ch-07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Kepanikan Eksodus Eropa: 35.000 Ekspatriat Melarikan Diri dari Iskandariyah",
+        "en": "European Exodus Panic: 35,000 Expats Flee Alexandria Harbor"
+      },
+      "date": {
+        "id": "Juli – Agustus 1883",
+        "en": "July – August 1883"
+      },
+      "flash": {
+        "id": "Kepanikan melanda komunitas ekspatriat; lebih dari 35.000 warga Eropa memadati kapal-kapal uap komersial melarikan diri dari Alexandria menuju Eropa selatan.",
+        "en": "Terror grips the foreign community; over 35,000 Europeans crowd merchant steamships fleeing Alexandria for Mediterranean ports."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Penyebaran maritim oleh kapal penumpang ekspatriat",
+        "incubation": "24 – 48 jam",
+        "transmission": "Penerobosan pos karantina pelabuhan Mediterania oleh pengungsi berstatus sosial tinggi",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Penyebaran maritim oleh kapal penumpang ekspatriat",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Penyebaran maritim oleh kapal penumpang ekspatriat"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Penyebaran maritim oleh kapal penumpang ekspatriat",
+          "en": "Target population and vector: Penyebaran maritim oleh kapal penumpang ekspatriat"
+        }
+      },
+      "description": {
+        "id": "Ketika kabar tentang jatuhnya korban kolera pertama di Kairo dan Alexandria tersebar pada bulan Juli, kepanikan massal melanda komunitas pedagang dan diplomat Eropa. Lebih dari 35.000 warga asing—kebanyakan warga Yunani, Italia, Prancis, dan Inggris—berlomba-lomba memadati dermaga pelabuhan Alexandria, menyuap kapten kapal uap komersial untuk membawa mereka keluar dari Mesir. Eksodus maritim massal tanpa karantina ini mengancam akan membawa basil kolera langsung ke pelabuhan-pelabuhan Eropa selatan. Italia, Yunani, dan Turki segera menyatakan status darurat maritim dan memberlakukan karantina 21 hari dengan pengawalan kapal perang bersenjata di seluruh pintu masuk laut mereka.",
+        "en": "When confirmation of the earliest cholera fatalities in Cairo and Alexandria leaked in July, uncontrollable panic seized the foreign merchant and diplomatic enclave. Over 35,000 European expatriates—predominantly Greek, Italian, French, and British nationals—stormed the Alexandrian quays, bribing steamship captains to carry them away from Egyptian soil. This unmonitored maritime evacuation threatened to seed the pathogen directly into southern European harbors. Italy, Greece, and the Ottoman Empire instantly declared maritime emergencies, imposing 21-day armed naval quarantines on all shipping clearing the Egyptian littoral."
+      },
+      "image": "/assets/images/cholera/wave-5/egy/egy_ch_07.jpg"
+    },
+    {
+      "id": "egy-ch-08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Tragedi Lembah Fellahin: Amukan Wabah di Desa-Desa Pedalaman Nil",
+        "en": "Tragedy of the Fellahin: Epidemic Ravages Nile Peasant Villages"
+      },
+      "date": {
+        "id": "Agustus – Oktober 1883",
+        "en": "August – October 1883"
+      },
+      "flash": {
+        "id": "Wabah merayap ke hulu Nil menuju Asyut dan Luxor; para petani miskin (fellahin) tewas massal di desa-desa lumpur tanpa akses ke dokter atau obat.",
+        "en": "Outbreak crawls up the Nile toward Asyut and Luxor; impoverished peasants (fellahin) perish en masse in mud hamlets devoid of doctors or care."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air kanal irigasi Nil dan sumur dangkal lumpur desa",
+        "incubation": "12 – 36 jam",
+        "transmission": "Pengambilan air minum langsung dari kanal tempat mencuci pakaian korban dan memandikan jenazah",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Air kanal irigasi Nil dan sumur dangkal lumpur desa",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Air kanal irigasi Nil dan sumur dangkal lumpur desa"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Air kanal irigasi Nil dan sumur dangkal lumpur desa",
+          "en": "Target population and vector: Air kanal irigasi Nil dan sumur dangkal lumpur desa"
+        }
+      },
+      "description": {
+        "id": "Sementara para ilmuwan Eropa berdebat di laboratorium Alexandria, korban terbesar diderita oleh kaum petani pribumi Mesir (fellahin) di sepanjang lembah Sungai Nil. Dari Mansoura dan Tanta di delta utara hingga Asyut dan Qena di Mesir Hulu, kolera menyapu ribuan desa gubuk tanah liat. Para petani yang tidak memiliki akses ke air bersih meminum langsung air kanal irigasi yang tenang tempat para keluarga mencuci pakaian penderita dan membersihkan jenazah korban sebelum pemakaman. Lebih dari 60.000 jiwa rakyat Mesir melayang dalam kurun waktu lima bulan. Di banyak desa, seluruh anggota keluarga tewas tanpa ada orang tersisa yang mampu menggali kubur, meninggalkan mayat membusuk di dalam rumah.",
+        "en": "While European savants debated in Alexandrian clinics, the crushing human toll fell upon the indigenous peasantry (fellahin) along the Nile basin. From Mansoura and Tanta in the northern delta upriver to Asyut and Qena in Upper Egypt, cholera devastated thousands of sun-baked mud-brick villages. Lacking clean water infrastructure, villagers quenched their thirst from irrigation canals where families washed contaminated bedding and performed funeral ablutions. More than 60,000 Egyptians perished within five months. In scores of hamlets, entire households were extinguished without survivors left to dig graves, leaving decomposed remains inside sealed dwellings."
+      },
+      "image": "/assets/images/cholera/wave-5/egy/egy_ch_08.jpg"
+    },
+    {
+      "id": "egy-ch-09",
+      "chapterNumber": 9,
+      "type": "side_story",
+      "title": {
+        "id": "Telegram Bersejarah ke Berlin: Laporan Pertama Penemuan Basil Koma",
+        "en": "The Historic Berlin Telegram: First Report of the Comma Bacillus Discovery"
+      },
+      "date": {
+        "id": "17 September 1883",
+        "en": "September 17, 1883"
+      },
+      "flash": {
+        "id": "Robert Koch mengirimkan kawat telegraf rahasia ke Kantor Kesehatan Kekaisaran di Berlin, melaporkan bahwa basil berbentuk koma adalah tersangka utama penyebab kolera.",
+        "en": "Robert Koch cables a confidential report to the Imperial Health Office in Berlin, identifying the comma bacillus as the prime suspect of cholera."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Laporan telegraf ilmiah resmi antar negara",
+        "incubation": "N/A (Diseminasi Informasi Sains)",
+        "transmission": "Pengumuman publik pertama identifikasi mikroorganisme patogen kolera modern",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Laporan telegraf ilmiah resmi antar negara",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Laporan telegraf ilmiah resmi antar negara"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Laporan telegraf ilmiah resmi antar negara",
+          "en": "Target population and vector: Laporan telegraf ilmiah resmi antar negara"
+        }
+      },
+      "description": {
+        "id": "Pada tanggal 17 September 1883, Robert Koch mengirimkan kawat telegraf resmi ke Berlin kepada Dr. Struck, Direktur Kantor Kesehatan Kekaisaran (Reichsgesundheitsamt). Dalam laporan berkala keempatnya yang sangat hati-hati namun revolusioner, Koch menyatakan bahwa ia telah menemukan sejenis bakteri berbentuk batang bengkok—yang ia sebut 'Kommabazillus'—secara konstan di setiap autopsi korban kolera di Alexandria. Koch menekankan bahwa basil ini tidak ditemukan pada dinding usus penderita disentri, tifus, atau radang usus lainnya. Publikasi kawat telegraf ini di surat kabar Jerman dan Eropa mengguncang komunitas medis dunia, menandai awal dari runtuhnya spekulasi takhayul tentang miasma dan gas beracun tanah.",
+        "en": "On September 17, 1883, Robert Koch transmitted a historic official cable to Berlin addressed to Dr. Struck, Director of the Imperial Health Office (Reichsgesundheitsamt). In this fourth interim report, framed with rigorous scientific caution, Koch declared that he had discovered a distinctive curved rod-shaped bacterium—which he christened the 'Kommabazillus'—invariably present in every cholera autopsy performed in Alexandria. Koch emphasized that these vibrios were completely absent in dysentery, typhoid, or normal intestinal tissues. The release of this telegram across European broadsheets electrified the global scientific community, marking the decisive unraveling of miasmatic dogma."
+      },
+      "image": "/assets/images/cholera/wave-5/egy/egy_ch_09.jpg"
+    },
+    {
+      "id": "egy-ch-10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Meredanya Epidemi di Alexandria: Mandeknya Kasus Baru Musim Dingin",
+        "en": "Abatement in Alexandria: Winter Decline of Clinical Material"
+      },
+      "date": {
+        "id": "Oktober – November 1883",
+        "en": "October – November 1883"
+      },
+      "flash": {
+        "id": "Wabah mereda di Mesir seiring datangnya musim dingin; Koch kehabisan pasien baru dan jenazah autopsi untuk menyelesaikan pembuktian laboratorium.",
+        "en": "The epidemic burns out in Egypt with onset of winter; Koch exhausts active clinical cases and autopsy subjects to finalize proof."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Penurunan penularan alami akibat habisnya populasi rentan di delta Nil",
+        "incubation": "24 – 48 jam",
+        "transmission": "Penghentian siklus transmisi musiman di Mesir",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Penurunan penularan alami akibat habisnya populasi rentan di",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Penurunan penularan alami akibat habisnya populasi rentan di"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Penurunan penularan alami akibat habisnya populasi rentan di delta Nil",
+          "en": "Target population and vector: Penurunan penularan alami akibat habisnya populasi rentan di delta Nil"
+        }
+      },
+      "description": {
+        "id": "Memasuki akhir Oktober 1883, wabah kolera di Mesir mulai mereda secara alami setelah membakar habis populasi yang rentan di kota-kota pelabuhan. Di Alexandria, rumah sakit-rumah sakit tidak lagi menerima pasien baru, dan autopsi jenazah segar menjadi langka. Bagi Koch dan timnya, meredanya wabah justru menjadi hambatan ilmiah: mereka belum berhasil membiakkan kuman tersebut dalam kultur murni yang stabil atau menemukan media agar yang sempurna untuk mempelajari sporulasi dan toksinnya. Menyadari bahwa penelitian tidak dapat diselesaikan di Mesir yang kini telah bersih dari wabah, Koch mengambil keputusan berani untuk tidak pulang ke Berlin, melainkan membawa ekspedisinya melintasi samudra ke India.",
+        "en": "Entering late October 1883, the Egyptian epidemic began to decline naturally having exhausted susceptible hosts in the coastal hubs. In Alexandria, hospitals admitted few new patients, and fresh post-mortem subjects vanished. For Koch and Gaffky, the epidemic's retreat posed an unforeseen scientific impediment: they had not yet succeeded in obtaining stable, continuous pure cultures on gelatin nutrient media to analyze toxin production. Recognizing that their investigation could not be concluded in a sanitized Egypt, Koch resolved not to return to Berlin, but to petition Bismarck for permission to follow the scourge across the Indian Ocean to its perennial endemic source."
+      },
+      "image": "/assets/images/cholera/wave-5/egy/egy_ch_10.jpg"
+    },
+    {
+      "id": "egy-ch-11",
+      "chapterNumber": 11,
+      "type": "milestone",
+      "title": {
+        "id": "Izin Kanselir Bismarck: Perintah Berlayar Menuju Delta Gangga",
+        "en": "Chancellor Bismarck's Sanction: Sailing Orders for the Ganges Delta"
+      },
+      "date": {
+        "id": "November 1883",
+        "en": "November 1883"
+      },
+      "flash": {
+        "id": "Otto von Bismarck menyetujui permohonan telegraf Koch; Komisi Jerman diperintahkan berlayar melintasi Terusan Suez menuju sarang endemik utama kolera di Kolkata.",
+        "en": "Otto von Bismarck grants Koch's telegraphic petition; the German Commission is ordered to transit Suez for cholera's permanent cradle in Kolkata."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Kapal uap ekspedisi ilmiah trans-samudra",
+        "incubation": "N/A (Logistik Misi Ilmiah Internasional)",
+        "transmission": "Perpindahan markas penelitian bakteriologi dari pos wabah sementara ke pusat endemik abadi dunia",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Kapal uap ekspedisi ilmiah trans-samudra",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Kapal uap ekspedisi ilmiah trans-samudra"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Kapal uap ekspedisi ilmiah trans-samudra",
+          "en": "Target population and vector: Kapal uap ekspedisi ilmiah trans-samudra"
+        }
+      },
+      "description": {
+        "id": "Di Berlin, Kanselir Besi Otto von Bismarck membaca laporan telegraf Koch dengan penuh kekaguman. Mengakui bahwa kemenangan ilmiah Jerman atas Prancis dan Inggris akan mendongkrak supremasi Kekaisaran Jerman di kancah internasional, Bismarck secara pribadi menandatangani otorisasi anggaran kekaisaran dan mengirim kawat singkat: 'Lanjutkan ke India!'. Pada akhir November 1883, Koch, Gaffky, dan Fischer mengemasi mikroskop dan peralatan kaca mereka, menaiki kapal uap di Terusan Suez, dan berlayar melintasi Laut Merah dan Samudra Hindia menuju delta Sungai Gangga di Kolkata—sarang suci tempat kolera bersemayam tanpa henti sejak awal peradaban manusia.",
+        "en": "In Berlin, the Iron Chancellor Otto von Bismarck read Koch's telegraphic petitions with immense enthusiasm. Realizing that a decisive scientific triumph over French and British faculties would bolster the global prestige of the German Empire, Bismarck personally sanctioned additional imperial funds, telegraphing back a crisp mandate: 'Proceed to India!'. In late November 1883, Koch, Gaffky, and Fischer packed their Zeiss optics and glassware, boarded a steamer in the Suez Canal, and sailed down the Red Sea and across the Indian Ocean toward the Ganges Delta at Kolkata—the primordial sanctuary where cholera had festered since antiquity."
+      },
+      "image": "/assets/images/cholera/wave-5/egy/egy_ch_11.jpg"
+    },
+    {
+      "id": "egy-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Reformasi Dewan Sanitasi Iskandariyah: Pembentukan Barikade El-Tor",
+        "en": "Alexandrian Sanitary Reforms: Fortification of the El-Tor Lazaretto"
+      },
+      "date": {
+        "id": "1884",
+        "en": "1884"
+      },
+      "flash": {
+        "id": "Guncangan wabah 1883 memaksa Dewan Karantina Maritim Alexandria memperkuat stasiun karantina El-Tor di Semenanjung Sinai dengan laboratorium bakteriologis.",
+        "en": "The 1883 shock compels the Maritime Quarantine Board of Alexandria to fortify the El-Tor station in Sinai with modern bacteriological labs."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Stasiun karantina maritim kepulangan peziarah haji Sinai",
+        "incubation": "1 – 5 hari",
+        "transmission": "Pemeriksaan kultur bakteriologis feses peziarah sebelum diizinkan melintasi Terusan Suez",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Stasiun karantina maritim kepulangan peziarah haji Sinai",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Stasiun karantina maritim kepulangan peziarah haji Sinai"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Stasiun karantina maritim kepulangan peziarah haji Sinai",
+          "en": "Target population and vector: Stasiun karantina maritim kepulangan peziarah haji Sinai"
+        }
+      },
+      "description": {
+        "id": "Bencana 1883 menyadarkan Dewan Sanitasi, Maritim, dan Karantina Mesir di Alexandria bahwa pertahanan kuno berbasis observasi visual semata sudah usang. Dengan pendanaan internasional, stasiun karantina El-Tor di pesisir barat Semenanjung Sinai dirombak total menjadi instalasi karantina paling modern di Timur Tengah. Setiap kapal peziarah haji yang kembali dari Hejaz diwajibkan singgah di El-Tor untuk menjalani disinfeksi uap bertekanan tinggi terhadap seluruh pakaian, serta pemeriksaan feses oleh dokter bersenjata mikroskop. Fasilitas El-Tor inilah yang kelak pada tahun 1905 menjadi tempat penemuan galur Vibrio cholerae biotipe El Tor yang mendominasi Pandemi Ketujuh di abad kedua puluh.",
+        "en": "The 1883 shockwave demonstrated to the Egyptian Maritime Sanitary and Quarantine Board in Alexandria that antiquated visual screening protocols were dangerously obsolete. With international funding, the El-Tor quarantine station on the Sinai coast was rebuilt into the most advanced maritime lazaretto in the Levant. Pilgrim ships returning from the Hejaz were compelled to anchor at El-Tor for pressurized steam disinfection of baggage and microscopic fecal examinations. It was at this very El-Tor station that researchers in 1905 would isolate the legendary El Tor biotype of Vibrio cholerae that would later trigger the Seventh Pandemic in the twentieth century."
+      },
+      "image": "/assets/images/cholera/wave-5/egy/egy_ch_12.jpg"
+    },
+    {
+      "id": "egy-ch-13",
+      "chapterNumber": 13,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Sejarah: Titik Tolak Revolusi Mikrobiologi Medis Global",
+        "en": "Historical Legacy: Launchpad of the Global Medical Microbiology Revolution"
+      },
+      "date": {
+        "id": "1884 – 1885",
+        "en": "1884 – 1885"
+      },
+      "flash": {
+        "id": "Ekspedisi Mesir 1883 mengubah mikrobiologi dari teori laboratorium abstrak menjadi senjata kesehatan masyarakat internasional yang menentukan nasib bangsa-bangsa.",
+        "en": "The 1883 Egyptian Expedition transforms microbiology from abstract theory into an international public health weapon determining geopolitics."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Sintesis sejarah epidemiologi abad kesembilan belas",
+        "incubation": "N/A (Sintesis Historiografi)",
+        "transmission": "Pengakuan universal bahwa identifikasi mikroskopis spesifik adalah prasyarat mutlak pertahanan karantina internasional",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Sintesis sejarah epidemiologi abad kesembilan belas",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Sintesis sejarah epidemiologi abad kesembilan belas"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Sintesis sejarah epidemiologi abad kesembilan belas",
+          "en": "Target population and vector: Sintesis sejarah epidemiologi abad kesembilan belas"
+        }
+      },
+      "description": {
+        "id": "Wabah Mesir tahun 1883 dan persaingan sengit antara misi Robert Koch dan delegasi Pasteur menandai kelahiran era baru dalam peradaban manusia: era epidemiologi berbasis laboratorium mikrobiologi. Kematian tragis Louis Thuillier di Alexandria dan pengamatan teliti Koch terhadap basil koma membuktikan kepada dunia bahwa penyakit menular bukanlah kutukan udara atau miasma misterius, melainkan organisme biologis spesifik yang dapat dilihat, diisolasi, dan dimusnahkan. Dari laboratorium darurat di Rumah Sakit Yunani Alexandria, sains melangkah pasti menuju kemenangan ilmiah yang akan diformalkan di Kolkata beberapa bulan kemudian, mengubah takdir kesehatan global untuk selama-lamanya.",
+        "en": "The 1883 Egyptian outbreak and the rivalry between Robert Koch's mission and Pasteur's delegation marked the dawn of a new epoch in human civilization: the era of laboratory-grounded field epidemiology. Louis Thuillier's heroic martyrdom in Alexandria and Koch's keen identification of the comma bacillus proved to the international community that epidemic contagions were neither atmospheric curses nor soil vapors, but tangible biological entities subject to microscopic identification and chemical eradication. From that makeshift laboratory in Alexandria's Greek Hospital, medical science took its decisive leap toward the ultimate proof achieved in Kolkata months later, permanently altering the destiny of global public health."
+      },
+      "image": "/assets/images/cholera/wave-5/egy/egy_ch_13.jpg"
+    }
+  ]
+}
