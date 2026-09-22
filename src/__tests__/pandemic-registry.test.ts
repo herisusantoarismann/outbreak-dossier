@@ -2381,14 +2381,14 @@ describe("Pandemic Era Isolation & Country Interaction Resolver", () => {
             expect(getSpanishFluSector("NONEXISTENT")).toBeNull();
         });
 
-        it("validates organic chapter count across all 6 sectors totaling exactly 73 chapters", () => {
+        it("validates organic chapter count across all 6 sectors totaling exactly 96 chapters", () => {
             const sectorExpectedCounts: Record<string, number> = {
-                US: 13,
-                FR: 12,
-                ES: 11,
-                GB: 11,
-                IN: 13,
-                ID: 13,
+                US: 18,
+                FR: 15,
+                ES: 14,
+                GB: 14,
+                IN: 18,
+                ID: 17,
             };
 
             let grandTotalChapters = 0;
@@ -2401,10 +2401,10 @@ describe("Pandemic Era Isolation & Country Interaction Resolver", () => {
                 grandTotalChapters += sector.chapters.length;
             }
 
-            expect(grandTotalChapters).toBe(73);
+            expect(grandTotalChapters).toBe(96);
         });
 
-        it("strictly enforces chapter schema, type diversity, and bilingual parity across all 73 chapters", () => {
+        it("strictly enforces chapter schema, type diversity, and bilingual parity across all 96 chapters", () => {
             const sectorCodes = ["US", "FR", "ES", "GB", "IN", "ID"];
             const validTypes = [
                 "milestone",
@@ -2474,19 +2474,19 @@ describe("Pandemic Era Isolation & Country Interaction Resolver", () => {
 
         it("loads Spanish Flu sector dossiers via loadDossier seamlessly with alias resolution", async () => {
             const testCases = [
-                { query: "us", expectedFirstId: "us-ch-01", count: 13 },
-                { query: "usa", expectedFirstId: "us-ch-01", count: 13 },
-                { query: "fr", expectedFirstId: "fr-ch-01", count: 12 },
-                { query: "fra", expectedFirstId: "fr-ch-01", count: 12 },
-                { query: "es", expectedFirstId: "es-ch-01", count: 11 },
-                { query: "esp", expectedFirstId: "es-ch-01", count: 11 },
-                { query: "gb", expectedFirstId: "gb-ch-01", count: 11 },
-                { query: "gbr", expectedFirstId: "gb-ch-01", count: 11 },
-                { query: "uk", expectedFirstId: "gb-ch-01", count: 11 },
-                { query: "in", expectedFirstId: "in-ch-01", count: 13 },
-                { query: "ind", expectedFirstId: "in-ch-01", count: 13 },
-                { query: "id", expectedFirstId: "id-ch-01", count: 13 },
-                { query: "idn", expectedFirstId: "id-ch-01", count: 13 },
+                { query: "us", expectedFirstId: "us-ch-01", count: 18 },
+                { query: "usa", expectedFirstId: "us-ch-01", count: 18 },
+                { query: "fr", expectedFirstId: "fr-ch-01", count: 15 },
+                { query: "fra", expectedFirstId: "fr-ch-01", count: 15 },
+                { query: "es", expectedFirstId: "es-ch-01", count: 14 },
+                { query: "esp", expectedFirstId: "es-ch-01", count: 14 },
+                { query: "gb", expectedFirstId: "gb-ch-01", count: 14 },
+                { query: "gbr", expectedFirstId: "gb-ch-01", count: 14 },
+                { query: "uk", expectedFirstId: "gb-ch-01", count: 14 },
+                { query: "in", expectedFirstId: "in-ch-01", count: 18 },
+                { query: "ind", expectedFirstId: "in-ch-01", count: 18 },
+                { query: "id", expectedFirstId: "id-ch-01", count: 17 },
+                { query: "idn", expectedFirstId: "id-ch-01", count: 17 },
             ];
 
             for (const { query, expectedFirstId, count } of testCases) {
