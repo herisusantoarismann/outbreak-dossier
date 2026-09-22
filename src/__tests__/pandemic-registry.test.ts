@@ -2084,4 +2084,123 @@ describe("Pandemic Era Isolation & Country Interaction Resolver", () => {
             expect(yemSeriesW7![0].image).toContain("wave-7");
         });
     });
+
+    describe("Spanish Flu 1918 (H1N1) - Telemetry, Surveillance & Intelligence Brief", () => {
+        it("registers spanish-flu-1918 with active status, theme color #f59e0b, and rich clinical profile", () => {
+            const spanishFlu = pandemics.find(
+                (p: PandemicProfile) => p.id === "spanish-flu-1918",
+            );
+            expect(spanishFlu).toBeDefined();
+            expect(spanishFlu?.status).toBe("active");
+            expect(spanishFlu?.themeColor).toBe("#f59e0b");
+            expect(spanishFlu?.haloHex).toBe("rgba(245, 158, 11, 0.45)");
+            expect(spanishFlu?.name.en).toContain("Spanish Flu");
+            expect(spanishFlu?.name.id).toContain("Flu Spanyol");
+            expect(spanishFlu?.pathogenName).toContain("H1N1");
+            expect(spanishFlu?.cameraInitialPosition).toBeDefined();
+            expect(spanishFlu?.globalFatalities).toContain("50.000.000");
+
+            // Clinical Profile
+            expect(spanishFlu?.clinicalProfile).toBeDefined();
+            const clinical = spanishFlu!.clinicalProfile!;
+            expect(clinical.classification.text.id).toContain(
+                "Orthomyxoviridae",
+            );
+            expect(clinical.classification.text.en).toContain("Hemagglutinin");
+            expect(clinical.metrics.incubation.value).toBe("1 – 4 Hari");
+            expect(clinical.metrics.receptor.value).toBe("Sialic Acid");
+            expect(clinical.symptoms.text.id).toContain("heliotrope cyanosis");
+            expect(clinical.symptoms.text.en).toContain("heliotrope cyanosis");
+        });
+
+        it("defines all 6 primary epicenters with unique differentiated beacon colors", () => {
+            const epicenters = getEpicentersForPandemic("spanish-flu-1918");
+            expect(Object.keys(epicenters).length).toBeGreaterThanOrEqual(6);
+
+            const primaryKeys = ["US", "FR", "ES", "GB", "IN", "ID"];
+            primaryKeys.forEach((key) => {
+                expect(epicenters[key]).toBeDefined();
+                expect(epicenters[key].status.en).toBe(
+                    "ACTIVE DOSSIER // DECLASSIFIED",
+                );
+                expect(epicenters[key].coordinates.lat).toBeTypeOf("number");
+                expect(epicenters[key].coordinates.lng).toBeTypeOf("number");
+            });
+
+            // Distinct beacon colors check
+            const colors = primaryKeys.map((k) => epicenters[k].beaconColor);
+            const uniqueColors = new Set(colors);
+            expect(uniqueColors.size).toBe(primaryKeys.length);
+        });
+
+        it("resolves global surveillance catalog for Spanish Flu (15 territories)", () => {
+            const surv = getSurveillanceForPandemic("spanish-flu-1918");
+            expect(Object.keys(surv).length).toBeGreaterThanOrEqual(15);
+
+            expect(surv.US).toBeDefined();
+            expect(surv.FR).toBeDefined();
+            expect(surv.GB).toBeDefined();
+            expect(surv.ES).toBeDefined();
+            expect(surv.DE).toBeDefined();
+            expect(surv.IN).toBeDefined();
+            expect(surv.ID).toBeDefined();
+            expect(surv.IT).toBeDefined();
+            expect(surv.RU).toBeDefined();
+            expect(surv.BR).toBeDefined();
+            expect(surv.JP).toBeDefined();
+            expect(surv.ZA).toBeDefined();
+            expect(surv.WS).toBeDefined();
+            expect(surv.NZ).toBeDefined();
+            expect(surv.CN).toBeDefined();
+
+            expect(surv.WS.fatalities).toBe(8500);
+            expect(surv.IN.fatalities).toBe(17500000);
+        });
+
+        it("resolves territory interaction without data bleed for Spanish Flu era", () => {
+            // Primary Epicenters
+            const usInteraction = getCountryInteraction(
+                "spanish-flu-1918",
+                "US",
+            );
+            expect(usInteraction?.type).toBe("epicenter");
+            expect(usInteraction?.code).toBe("US");
+
+            const usaInteraction = getCountryInteraction(
+                "spanish-flu-1918",
+                "USA",
+            );
+            expect(usaInteraction?.type).toBe("epicenter");
+            expect(usaInteraction?.code).toBe("US");
+
+            const inInteraction = getCountryInteraction(
+                "spanish-flu-1918",
+                "IN",
+            );
+            expect(inInteraction?.type).toBe("epicenter");
+            expect(inInteraction?.code).toBe("IN");
+
+            // Secondary Surveillance
+            const deInteraction = getCountryInteraction(
+                "spanish-flu-1918",
+                "DE",
+            );
+            expect(deInteraction?.type).toBe("surveillance");
+            expect(deInteraction?.code).toBe("DE");
+
+            const brInteraction = getCountryInteraction(
+                "spanish-flu-1918",
+                "BRA",
+            );
+            expect(brInteraction?.type).toBe("surveillance");
+            expect(brInteraction?.code).toBe("BR");
+
+            // Non-relevant custom ancient codes (Justinian/Black Death/Cholera) return null
+            expect(getCountryInteraction("spanish-flu-1918", "CPX")).toBeNull();
+            expect(getCountryInteraction("spanish-flu-1918", "PEL")).toBeNull();
+            expect(getCountryInteraction("spanish-flu-1918", "KAF")).toBeNull();
+            expect(getCountryInteraction("spanish-flu-1918", "JES")).toBeNull();
+            expect(getCountryInteraction("spanish-flu-1918", "HAM")).toBeNull();
+        });
+    });
 });
