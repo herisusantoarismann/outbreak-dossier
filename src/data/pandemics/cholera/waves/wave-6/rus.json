@@ -1,0 +1,616 @@
+{
+  "sectorId": "RUS",
+  "waveIndex": 6,
+  "sectorName": {
+    "id": "Sektor RUS (Kekaisaran Rusia & Soviet: Wabah Petrograd, Front Parit PD I, Perang Saudara Merah-Putih, & Kelaparan Volga // 1908–1922)",
+    "en": "Sector RUS (Russian Empire & Soviet Union: Petrograd Outbreak, WWI Trenches, Red-White Civil War, & Volga Famine // 1908–1922)"
+  },
+  "coordinates": [
+    59.9343,
+    30.3351
+  ],
+  "timeRange": "1908–1922",
+  "estimatedFatalities": "500.000–800.000+ jiwa (St. Petersburg, Front Timur PD I, Lembah Volga, Donbass, & Ukraina)",
+  "chapters": [
+    {
+      "id": "rus-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Wabah Akbar St. Petersburg 1908: Pipa Kayu Sungai Neva & Barak Vasilievsky",
+        "en": "The Great St. Petersburg Outbreak of 1908: Neva Wooden Mains & Vasilievsky Barracks"
+      },
+      "date": {
+        "id": "Juli–November 1908",
+        "en": "July–November 1908"
+      },
+      "flash": {
+        "id": "KOLERA MENYUSUP KE IBU KOTA TSAR; AIR SUNGAI NEVA TANPA PENYARING MENGINFEKSI 15.000 WARGA DAN MEMENUHI BARAK DARURAT PULAU VASILIEVSKY.",
+        "en": "CHOLERA INFILTRATES TSARIST CAPITAL; UNFILTERED NEVA WATER INFECTS 15,000 CITIZENS, PACKING VASILIEVSKY ISLAND EMERGENCY BARRACKS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik O1",
+        "vector": "Air pipa distribusi Sungai Neva mentah tanpa instalasi filter pasir",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Fekal-oral melalui konsumsi air ledeng kota yang bercampur rembesan selokan saluran pembuangan",
+        "mutationType": {
+          "id": "Kontaminasi Masif Jaringan Pipa Air Minum Perkotaan Metropolis Imperial",
+          "en": "Mass Contamination of Imperial Metropolis Municipal Water Distribution Grid"
+        },
+        "threatLevel": {
+          "id": "Kritis Ekstrem (Epidemi Langsung di Jantung Pemerintahan Kekaisaran Rusia)",
+          "en": "Extreme Critical (Direct Epidemic Threat at Heart of Russian Imperial Governance)"
+        },
+        "clinicalTarget": {
+          "id": "Buruh pabrik Pulau Vasilievsky, keluarga miskin distrik Vyborg, dan kusir kereta kuda",
+          "en": "Vasilievsky Island factory laborers, Vyborg slum dwellers, and draymen"
+        }
+      },
+      "description": {
+        "id": "Pada musim panas 1908, aib terbesar Kekaisaran Rusia meledak di ibu kota megah St. Petersburg. Meskipun menjadi kota metropolis berpenduduk hampir 2 juta jiwa dengan istana-istana marmer mewah, St. Petersburg masih menggunakan sistem perpipaan air minum kayu kuno yang menyedot air langsung dari Sungai Neva di hilir pembuangan kotoran pabrik. Kasus pertama muncul di kalangan buruh pabrik tekstil di Pulau Vasilievsky pada awal Juli. Dalam hitungan pekan, infeksi meledak liar menembus 15.600 kasus dengan 6.800 kematian. Rumah Sakit Obukhov dan Aleksandrovskaya dibanjiri pasien yang bergelimpangan di lantai; Dewan Kota terpaksa mendirikan ratusan barak kayu darurat yang dipanaskan tungku batu bara di lapangan terbuka untuk menampung penderita yang sekarat dalam kondisi tubuh membiru dan kaku.",
+        "en": "In the summer of 1908, the Tsarist empire's deepest municipal shame erupted within its glittering capital of St. Petersburg. Despite boasting nearly two million inhabitants and grandiose neoclassical palaces, the metropolis still relied on antiquated subterranean water conduits that pumped raw, unsterilized water directly from the River Neva downstream from industrial sewage outlets. The infection first flared among textile mill operatives on Vasilievsky Island in early July. Within weeks, the epidemic raged out of control, claiming over 15,600 infections and 6,800 deaths. Obukhov and Aleksandrovskaya hospitals were overwhelmed, victims groaning on bare flagstones; the municipal Duma was forced to construct vast wooden emergency pavilions warmed by coal stoves across public squares to shelter patients shivering in cyanotic collapse."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_01.jpg"
+    },
+    {
+      "id": "rus-ch-02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Perdagangan Balok Es Kanal & Peringatan Laboratorium Dr. Gamaleia",
+        "en": "The Canal Ice Trade & Dr. Gamaleia's Microbiological Warnings"
+      },
+      "date": {
+        "id": "1909",
+        "en": "1909"
+      },
+      "flash": {
+        "id": "BALOK ES YANG DIPANEN DARI KANAL MOIKA TERCEMAR DIJUAL KE RESTORAN ELIT DAN RUMAH TANGGA, MENYEBARKAN KUMAN DI TENGAH MUSIM PANAS.",
+        "en": "ICE BLOCKS HARVESTED FROM FOUL MOIKA CANAL SOLD TO RESTAURANTS AND HOMES, SPREADING PATHOGEN AT THE HEIGHT OF SUMMER."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Balok es alami kanal Fontanka dan Moika yang disimpan di ruang bawah tanah",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pencairan balok es terkontaminasi dalam minuman dingin, kvas, dan penyimpanan daging",
+        "mutationType": {
+          "id": "Preservasi Kuman Kolera dalam Suhu Beku dan Rantai Dingin Pangan Tradisional",
+          "en": "Cryogenic Preservation of Vibrio in Natural Ice & Traditional Food Cold Chains"
+        },
+        "threatLevel": {
+          "id": "Tinggi (Transmisi Lintas Kelas Menjangkau Restoran Mewah dan Bangsawan)",
+          "en": "High (Cross-Class Vector Infiltrating Luxury Establishments and Aristocracy)"
+        },
+        "clinicalTarget": {
+          "id": "Pelanggan restoran Nevsky Prospekt, pedagang es keliling, dan keluarga borjuis",
+          "en": "Nevsky Prospekt restaurant patrons, itinerant ice peddlers, and bourgeois households"
+        }
+      },
+      "description": {
+        "id": "Penyelidikan epidemiologis oleh ahli bakteriologi terkemuka Dr. Nikolai Gamaleia mengungkap vektor penularan yang mencengangkan: perdagangan es alami St. Petersburg. Setiap musim dingin, ribuan ton balok es dipotong langsung dari Kanal Fontanka, Moika, dan Sungai Catherine yang dipenuhi tinja kota, lalu disimpan di ruang bawah tanah (lednik) untuk dijual pada musim panas. Warga mencampurkan pecahan es kotor ini langsung ke dalam teko kvas, vodka, dan susu dingin. Gamaleia membuktikan di laboratorium bahwa Vibrio cholerae mampu bertahan hidup dalam kondisi beku di dalam balok es selama berbulan-bulan tanpa kehilangan virulensinya. Peringatan keras Gamaleia memicu razia polisi ke gudang-gudang es, namun praktik pemanenan es ilegal tetap berlangsung sembunyi-sembunyi demi keuntungan finansial.",
+        "en": "Epidemiological inquiries spearheaded by acclaimed bacteriologist Dr. Nikolai Gamaleia unmasked a startling transmission conduit: St. Petersburg's natural ice commerce. Each winter, commercial ice cutters harvested thousands of tons of frozen slabs directly from the heavily polluted Fontanka and Moika canals, packing them into subterranean cellar vaults ('ledniks') for summer retail. Citizens dropped crushed ice directly into pitchers of kvas, beer, and cold milk. Gamaleia proved in his laboratory that Vibrio cholerae endured inside frozen ice blocks for months without forfeiting its lethal toxicity. Gamaleia's blistering exposés forced police raids against private ice cellars, yet the lucrative trade continued covertly, flouting public health warnings."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_02.jpg"
+    },
+    {
+      "id": "rus-ch-03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Eksplosi Lembah Volga & Donbass 1910: 100.000 Kematian dalam Satu Musim Panas",
+        "en": "Volga Valley & Donbass Explosion of 1910: 100,000 Deaths in One Summer"
+      },
+      "date": {
+        "id": "Mei–Oktober 1910",
+        "en": "May–October 1910"
+      },
+      "flash": {
+        "id": "EPIDEMI MELEDAK DI SEPANJANG SUNGAI VOLGA DAN KAWASAN TAMBANG BATU BARA DONBASS; LEBIH DARI 230.000 TERTULAR DAN 100.000 JIWA MELAYANG.",
+        "en": "EPIDEMIC EXPLODES ALONG VOLGA RIVER AND DONBASS COAL BASINS; OVER 230,000 INFECTED AND 100,000 PERISH IN A SINGLE SUMMER."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Air buangan tambang batu bara, jamban gantung kapal uap, dan barak buruh kumuh",
+        "incubation": "8 – 24 Jam",
+        "transmission": "Fekal-oral masif di pemukiman industri padat dan pelabuhan bongkar muat sungai",
+        "mutationType": {
+          "id": "Eksplosi Industri Berat dan Jalur Transportasi Sungai Terpadu Skala Benua",
+          "en": "Continental Heavy Industry & Integrated River Navigation Mega-Explosion"
+        },
+        "threatLevel": {
+          "id": "Bencana Nasional Katastropik (Tingkat Kematian Kasus Melampaui 45%)",
+          "en": "Catastrophic National Disaster (Case Fatality Exceeding 45% Across Provinces)"
+        },
+        "clinicalTarget": {
+          "id": "Buruh tambang Donbass, kuli angkut pelabuhan Volga (burlaki), dan keluarga petani",
+          "en": "Donbass coal miners, Volga barge haulers (burlaks), and peasant homesteads"
+        }
+      },
+      "description": {
+        "id": "Tahun 1910 menyaksikan ledakan kolera terbesar dalam sejarah Kekaisaran Rusia pada abad ke-20. Dari muara Astrakhan, wabah merambat cepat menyusuri 3.500 kilometer arteri Sungai Volga menuju Saratov, Samara, dan Nizhny Novgorod. Secara simultan, infeksi menyusup ke cekungan industri tambang batu bara Donbass di Yuzovka (kini Donetsk). Puluhan ribu penambang yang tinggal di barak tanah beratap seng tanpa sanitasi atau air bersih terjangkit secara serentak. Kurangnya dokter dan obat-obatan menyebabkan angka kematian melambung tinggi. Sepanjang musim panas 1910, Rusia mencatat 230.232 kasus kolera resmi dengan 100.999 kematian—menjadikannya tahun paling berdarah sebelum malapetaka Perang Dunia Pertama.",
+        "en": "The year 1910 witnessed the 20th century's deadliest cholera eruption across the Russian Empire. Originating in the Caspian delta of Astrakhan, the pathogen surged up the 3,500-kilometer spine of the Volga River, sweeping through Saratov, Samara, and Nizhny Novgorod. Simultaneously, it detonated across the heavy-industry coal belt of the Donbass around Yuzovka (modern Donetsk). Tens of thousands of miners packed into subterranean turf huts lacking wells or latrines were struck down en masse. A catastrophic shortage of zemstvo physicians sent case fatalities soaring. Throughout that apocalyptic summer, Tsarist authorities logged 230,232 confirmed infections and 100,999 deaths—the bloodiest single season prior to World War I."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_03.jpg"
+    },
+    {
+      "id": "rus-ch-04",
+      "chapterNumber": 4,
+      "type": "side_story",
+      "title": {
+        "id": "Pengorbanan Rumah Sakit Obukhov & Vaksin Sel Mati Dr. Gamaleia",
+        "en": "The Sacrifice of Obukhov Hospital & Dr. Gamaleia's Inactivated Vaccine"
+      },
+      "date": {
+        "id": "1911",
+        "en": "1911"
+      },
+      "flash": {
+        "id": "DOKTER DAN PERAWAT OBUKHOV BERTARUNG TANPA TIDUR MERAWAT RIBUAN KORBAN; UJI COBA VAKSIN SEL MATI PERTAMA RUSIA MEMBUKTIKAN KEBERHASILAN.",
+        "en": "OBUKHOV DOCTORS AND NURSES BATTLE EXHAUSTION TENDING THOUSANDS; RUSSIA'S FIRST HEAT-KILLED VACCINE TRIALS GAIN GROUND."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Vaksin bakteri sel utuh terinaktivasi panas (kultur Gamaleia)",
+        "incubation": "N/A (Imunoterapi dan Profilaksis Nosokomial)",
+        "transmission": "Inokulasi subkutan untuk melindungi staf medis rumah sakit dan kontak erat",
+        "mutationType": {
+          "id": "Perlindungan Imunologis Tenaga Kesehatan Rumah Sakit Garis Depan",
+          "en": "Immunological Shielding of Frontline Nosocomial Healthcare Personnel"
+        },
+        "threatLevel": {
+          "id": "Terkendali Lokal (Penekanan Infeksi Silang Staf Medis Bangsal)",
+          "en": "Locally Controlled (Suppression of Nosocomial Staff Cross-Infection)"
+        },
+        "clinicalTarget": {
+          "id": "Perawat Palang Merah Rusia, mahasiswa kedokteran sukarelawan, dan staf sanitasi",
+          "en": "Russian Red Cross nurses, student medical volunteers, and sanitary orderlies"
+        }
+      },
+      "description": {
+        "id": "Di bangsal kolera Rumah Sakit Obukhov St. Petersburg, para dokter muda dan biarawati perawat (Sestry Miloserdiya) mengorbankan nyawa mereka merawat ribuan penderita yang muntah dan diare tanpa henti. Puluhan tenaga medis tertular dan gugur akibat kelelahan ekstrem. Melihat tingginya korban di kalangan tenaga perawat, Dr. Nikolai Gamaleia memproduksi formula vaksin kolera sel utuh yang dimatikan dengan panas di laboratorium bakteriologinya. Vaksin disuntikkan secara massal kepada seluruh staf rumah sakit, mahasiswa sukarelawan, dan pengemudi kereta mayat. Hasilnya sangat spektakuler: tingkat penularan di kalangan perawat yang divaksinasi anjlok hingga 85%, membuktikan bahwa vaksin bakteri mati adalah perisai pelindung yang aman bagi pekerja garda depan.",
+        "en": "Inside the isolated cholera wards of St. Petersburg's Obukhov Hospital, young physicians and nursing sisters (Sestry Miloserdiya) imperiled their lives caring for thousands of convulsing patients. Dozens of medical orderlies succumbed to exhaustion and secondary contamination. Witnessing this slaughter of frontline personnel, Dr. Nikolai Gamaleia synthesized a heat-inactivated whole-cell cholera vaccine in his laboratory. Inoculations were administered across the hospital staff, university volunteers, and cemetery gravediggers. The statistical outcome was undeniable: infection rates among inoculated nurses dropped by 85%, conclusively validating heat-killed bacterial vaccines as an indispensable shield for emergency healthcare corps."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_04.jpg"
+    },
+    {
+      "id": "rus-ch-05",
+      "chapterNumber": 5,
+      "type": "standard",
+      "title": {
+        "id": "Pertarungan Politik Duma: Tarik-Ulur Instalasi Filter Ozon & Sand-Filter 1912",
+        "en": "Duma Political Battles: Stalling of Ozone & Sand Filtration Plants (1912)"
+      },
+      "date": {
+        "id": "1912–1913",
+        "en": "1912–1913"
+      },
+      "flash": {
+        "id": "DEBAT PANAS PARLEMEN DUMA MEMBONGKAR KORUPSI ANGGARAN AIR BERSIH; PEMERINTAH TSAR MENUNDA PROYEK FILTER AIR KARENA DEFISIT PERANG.",
+        "en": "FIERCE DUMA SESSIONS EXPOSE CORRUPTION IN MUNICIPAL WATERWORKS; TSARIST REGIME DEFERS FILTRATION GRID TO FUND MILITARY SPENDING."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Keterlambatan pemasangan instalasi penjernihan ozon dan filter pasir lambat",
+        "incubation": "N/A (Analisis Kebijakan Infrastruktur Perkotaan)",
+        "transmission": "Kegagalan pemurnian air minum perkotaan akibat penundaan politis belanja publik",
+        "mutationType": {
+          "id": "Kegagalan Sistemik Rekayasa Sanitasi akibat Intervensi Korupsi Birokrasi",
+          "en": "Systemic Municipal Engineering Stalling Induced by Bureaucratic Corruption"
+        },
+        "threatLevel": {
+          "id": "Substansial (Kerentanan Menahun Infrastruktur Air Minum Ibu Kota)",
+          "en": "Substantial (Chronic Vulnerability of Imperial Capital's Drinking Supply)"
+        },
+        "clinicalTarget": {
+          "id": "Populasi sipil St. Petersburg dan kredibilitas tata kelola kota kekaisaran",
+          "en": "St. Petersburg civilian populace and administrative credibility of Tsarist regime"
+        }
+      },
+      "description": {
+        "id": "Bencana berturut-turut tahun 1908 dan 1910 memicu perdebatan sengit di parlemen Kekaisaran Rusia (Gosudarstvennaya Duma). Fraksi progresif dan para dokter menuntut alokasi 30 juta rubel untuk membangun instalasi filtrasi pasir lambat dan sterilisasi ozon mutakhir bagi seluruh air minum St. Petersburg. Namun, kelompok birokrat konservatif dan spekulan tanah Dewan Kota sengaja mengulur-ulur waktu, memperdebatkan paten teknologi Prancis vs Jerman demi mendapatkan komisi suap. Pada saat yang sama, Kementerian Keuangan mengalihkan dana sanitasi untuk mempercepat program persenjataan militer menghadapi ancaman perang di Eropa. Akibat penundaan fatal ini, instalasi filter modern tidak pernah terwujud tepat waktu, membiarkan gerbang ibu kota tetap terbuka lebar bagi kuman patogen saat perang besar meletus.",
+        "en": "The recurrent catastrophes of 1908 and 1910 sparked furious confrontations within the State Duma. Progressive deputies and medical delegates demanded an emergency appropriation of 30 million rubles to construct comprehensive slow sand filtration beds and state-of-the-art ozone disinfection plants for St. Petersburg. However, entrenched conservative factions and municipal land speculators deliberately stalled proceedings, wrangling over competing French and German technological patents to extract graft. Simultaneously, the Imperial Finance Ministry diverted municipal infrastructure funds to rearm the army ahead of anticipated European war. This fatal paralysis left the capital's water grid dangerously defenseless when the global storm broke."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_05.jpg"
+    },
+    {
+      "id": "rus-ch-06",
+      "chapterNumber": 6,
+      "type": "milestone",
+      "title": {
+        "id": "Agustus 1914: Mobilisasi Perang Dunia I & Gelombang Infeksi Front Timur",
+        "en": "August 1914: WWI Mobilization & The Eastern Front Infection Surge"
+      },
+      "date": {
+        "id": "Agustus–Desember 1914",
+        "en": "August–December 1914"
+      },
+      "flash": {
+        "id": "5 JUTA SERDADU RUSIA DIMOBILISASI MENUJU FRONT TIMUR; GERBONG MILITER MENGANGKUT VIBRIO KE MEDAN TEMPUR GALISIA DAN POLANDIA.",
+        "en": "5 MILLION RUSSIAN TROOPS MOBILIZED TO EASTERN FRONT; MILITARY TRAINS FERRY VIBRIO INTO GALICIAN AND POLISH BATTLEGROUNDS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Gerbong logistik militer 'teplushka' padat dan sumur medan perang tercemar artileri",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Konsumsi air kawah bom dan sumur desa yang tercemar tinja prajurit selama mobilisasi kilat",
+        "mutationType": {
+          "id": "Vektor Logistik Militer Skala Raksasa dan Kerusakan Ekologis Medan Pertempuran",
+          "en": "Colossal Military Troop Mobilization Vector & Battlefield Ecological Destruction"
+        },
+        "threatLevel": {
+          "id": "Kritis Nasional (Ancaman Kelumpuhan Komando Tempur Tentara Kekaisaran)",
+          "en": "National Critical (Threat of Operational Paralysis Across Imperial Combat Field)"
+        },
+        "clinicalTarget": {
+          "id": "Prajurit infanteri Front Barat Daya, korps artileri, dan penduduk desa perbatasan",
+          "en": "Southwestern Front infantrymen, artillery corps, and border village populations"
+        }
+      },
+      "description": {
+        "id": "Pada bulan Agustus 1914, genderang Perang Dunia Pertama membahana. Kekaisaran Rusia memobilisasi lebih dari lima juta serdadu dalam tempo beberapa pekan. Ribuan gerbong kereta api ternak ('teplushka') yang dipadati prajurit bergerak tanpa henti dari pedalaman Rusia menuju garis depan di Polandia dan Galisia. Di tengah kekacauan logistik militer, disiplin sanitasi runtuh sepenuhnya. Prajurit meminum air dari parit berlumpur dan kawah ledakan peluru artileri yang tercemar tinja. Begitu tentara Rusia melancarkan ofensif ke Galisia (Austria-Hungaria), kolera meletus di sepanjang garis pertahanan Lemberg (Lviv) dan Przemyśl. Rumah sakit militer lapangan kewalahan menerima puluhan ribu serdadu yang ambruk bukan oleh peluru Jerman melainkan oleh dehidrasi sianotik kolera.",
+        "en": "In August 1914, the drums of World War I shattered European peace. The Russian Empire mobilized over five million soldiers in weeks. Thousands of cramped boxcars ('teplushkas') crammed with recruits rumbled incessantly from the Eurasian hinterlands toward combat sectors in Poland and Galicia. Amidst logistical chaos, battlefield sanitary discipline disintegrated. Troops drank from muddy trenches and artillery craters contaminated with fecal runoff. As the Russian army drove into Austro-Hungarian Galicia, cholera erupted along the fortified lines of Lemberg (Lviv) and Przemyśl. Field hospitals were inundated not by German shrapnel, but by tens of thousands of infantrymen collapsing from cyanotic dehydration."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_06.jpg"
+    },
+    {
+      "id": "rus-ch-07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Medan Pembantaian Karpatia: Pasukan Tsar & Austria Bertarung Melawan Maut",
+        "en": "Carpathian Slaughterground: Tsarist & Austrian Armies Locked in Agony"
+      },
+      "date": {
+        "id": "Musim Dingin–Semi 1915",
+        "en": "Winter–Spring 1915"
+      },
+      "flash": {
+        "id": "DI PARIT BEKU PEGUNUNGAN KARPATIA, SERDADU RUSIA DAN AUSTRIA-HUNGARIA TEWAS BERDAMPINGAN AKIBAT DIARE AIR CUCIAN BERAS.",
+        "en": "IN FROZEN CARPATHIAN TRENCHES, RUSSIAN AND AUSTRO-HUNGARIAN TROOPS PERISH SIDE BY SIDE FROM RICEWATER COLLAPSE."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Parit salju mencair yang tercemar kotoran manusia dan bangkai kuda perang",
+        "incubation": "8 – 24 Jam",
+        "transmission": "Kontaminasi silang antar-parit musuh melalui salju lelehan dan aliran sungai pegunungan",
+        "mutationType": {
+          "id": "Transmisi Parit Statis Musim Dingin Ekstrem Berkelanjutan",
+          "en": "Sustained Extreme Winter Static Trench Transmission"
+        },
+        "threatLevel": {
+          "id": "Sangat Kritis (Mortalitas Tempur Berlipat Ganda Akibat Dehidrasi Hipotermik)",
+          "en": "Extremely Critical (Compounded Battlefield Fatalities via Hypothermic Dehydration)"
+        },
+        "clinicalTarget": {
+          "id": "Serdadu parit garis depan kedua belah pihak, dokter militer, dan tawanan perang",
+          "en": "Frontline trench infantry on both sides, regimental surgeons, and POWs"
+        }
+      },
+      "description": {
+        "id": "Pertempuran Pegunungan Karpatia pada awal tahun 1915 berubah menjadi neraka biologis. Di parit-parit bersalju setinggi dada, serdadu Angkatan Darat Kekaisaran Rusia dan Tentara Austria-Hungaria saling berhadapan dalam jarak beberapa puluh meter. Ketika musim semi mencairkan salju, parit pertahanan terendam sup lumpur bercampur feses dan mayat kuda yang membusuk. Kuman kolera tidak membedakan seragam militer: ribuan serdadu di kedua belah pihak ambruk dengan kram otot yang menyiksa. Dokter militer tidak memiliki cukup infus salin di garis depan; banyak prajurit membeku hingga tewas di dalam parit karena dehidrasi menurunkan suhu tubuh mereka hingga 34°C. Kolera membunuh lebih banyak perwira dan prajurit di sektor Karpatia daripada serangan senapan mesin musuh.",
+        "en": "The Carpathian Mountain campaign of early 1915 devolved into a biological inferno. In chest-deep snowy trenches, Russian Imperial regiments and Austro-Hungarian forces faced each other across yards of frozen no-man's-land. As spring thawed the slopes, trenches filled with a foul sludge of human waste and decaying horses. The cholera vibrio recognized no imperial allegiance: thousands of soldiers on both sides collapsed in excruciating muscular spasms. Regimental doctors possessed neither sterile needles nor saline at the front; hypothermic dehydration plunged soldiers' body temperatures below 34°C, freezing them in place. Cholera claimed more lives in the Carpathian passes than enemy machine-gun salvos."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_07.jpg"
+    },
+    {
+      "id": "rus-ch-08",
+      "chapterNumber": 8,
+      "type": "side_story",
+      "title": {
+        "id": "Kemunduran Akbar 1915: Eksodus 3 Juta Pengungsi & Karavan Kematian",
+        "en": "The Great Retreat of 1915: 3 Million Refugees & The Caravans of Death"
+      },
+      "date": {
+        "id": "Mei–September 1915",
+        "en": "May–September 1915"
+      },
+      "flash": {
+        "id": "TENTARA TSAR MEMBAKAR DESA-DESA DALAM TAKTIK BUMI HANGUS; TIGA JUTA PENGUNGSI MENYEBARKAN KOLERA KE JANTUNG RUSIA.",
+        "en": "TSARIST ARMIES RAZE PROVINCES IN SCORCHED-EARTH RETREAT; THREE MILLION REFUGEES DISPERSE CHOLERA DEEP INTO RUSSIA."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Karavan gerobak kuda pengungsi, sumur pinggir jalan pedesaan, dan kamp tenda darurat",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Eksodus sipil massal tanpa air bersih di sepanjang jalur kereta api Brest-Litovsk ke Moskow",
+        "mutationType": {
+          "id": "Difusi Pengungsi Perang Skala Raksasa Berbasis Kebijakan Bumi Hangus Militer",
+          "en": "Massive War Refugee Diffusion Driven by Military Scorched-Earth Decrees"
+        },
+        "threatLevel": {
+          "id": "Kritis Nasional (Penyebaran Patogen Tak Terkendali ke Seluruh Provinsi Pedalaman)",
+          "en": "National Critical (Uncontrolled Pathogen Ingress into All Interior Governorates)"
+        },
+        "clinicalTarget": {
+          "id": "Keluarga pengungsi Yahudi, Polandia, Belarusia, dan anak-anak yatim piatu",
+          "en": "Jewish, Polish, and Belarusian refugee families, and displaced war orphans"
+        }
+      },
+      "description": {
+        "id": "Ketika pertahanan Rusia runtuh di Gorlice-Tarnów pada Mei 1915, Komando Tinggi Militer Tsar memerintahkan 'Kemunduran Akbar' (Velikoe Otstuplenie) dengan taktik bumi hangus. Lebih dari tiga juta warga sipil—orang Polandia, Yahudi, Lithuania, dan Belarusia—dipaksa meninggalkan rumah mereka yang dibakar tentara. Karavan pengungsi membentang ratusan kilometer di sepanjang jalan raya tanah menuju Moskow dan Nizhny Novgorod. Di tengah debu musim panas dan ketiadaan air bersih, kolera menyusup ke setiap perkemahan pengungsi di pinggir jalan. Ibu-ibu terpaksa meninggalkan anak-anak mereka yang sekarat di tepi parit jalan raya karena gerobak tidak boleh berhenti. Eksodus tragis ini membawa kuman kolera menembus ke provinsi-provinsi pedalaman Rusia yang sebelumnya steril.",
+        "en": "When the Russian front ruptured at Gorlice-Tarnów in May 1915, the Tsarist High Command decreed the 'Great Retreat' (Velikoe Otstuplenie) accompanied by ruthless scorched-earth destruction. Over three million civilians—Poles, Jews, Lithuanians, and Belarusians—were forcibly evacuated as their ancestral villages were burned behind them. Refugee wagon columns stretched for hundreds of versts along dusty roads toward Moscow and Nizhny Novgorod. In blistering summer heat without sanitation, cholera infiltrated every roadside encampment. Desperate mothers were forced to abandon dying children in drainage ditches as wagon convoys pressed forward under cavalry whips. This catastrophic civilian diaspora swept virulent vibriones deep into previously uninfected interior governorates."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_08.jpg"
+    },
+    {
+      "id": "rus-ch-09",
+      "chapterNumber": 9,
+      "type": "milestone",
+      "title": {
+        "id": "Revolusi Bolshevik 1917: Runtuhnya Sanitasi Ibu Kota & Air Mentah Neva",
+        "en": "Bolshevik Revolution of 1917: Urban Sanitary Collapse & Raw Neva Water"
+      },
+      "date": {
+        "id": "1917–1918",
+        "en": "1917–1918"
+      },
+      "flash": {
+        "id": "REVOLUSI OKTOBER MENUMBANGKAN TSAR TETAPI MELUMPUHKAN INFRASTRUKTUR; BAHAN BAKAR POMPA AIR HABIS, WARGA MEMINUM AIR SELOKAN SUNGAI.",
+        "en": "OCTOBER REVOLUTION TOPPLES TSAR BUT PARALYZES CITY GRIDS; PUMPING ENGINES RUN DRY, RESIDENTS DRINK RAW SEWAGE RIVER RUNOFF."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Pipa air perkotaan Petrograd yang mati total dan air comberan beku",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Pengambilan air minum ember langsung dari kanal Petrograd yang dipenuhi limbah cair",
+        "mutationType": {
+          "id": "Keruntuhan Total Infrastruktur Utilitas Kota Akibat Pergolakan Revolusi Politik",
+          "en": "Total Municipal Infrastructure Failure Induced by Revolutionary Upheaval"
+        },
+        "threatLevel": {
+          "id": "Maksimal (Kolaps Sanitasi Metropolis di Tengah Musim Dingin dan Kelaparan)",
+          "en": "Maximum (Metropolitan Sanitary Collapse Amidst Subzero Famine)"
+        },
+        "clinicalTarget": {
+          "id": "Warga proletar Petrograd, Pengawal Merah (Krasnaya Gvardiya), dan kaum intelektual",
+          "en": "Petrograd proletariat, Red Guards (Krasnaya Gvardiya), and intelligentsia"
+        }
+      },
+      "description": {
+        "id": "Revolusi Oktober 1917 membawa kaum Bolshevik di bawah pimpinan Vladimir Lenin ke tampuk kekuasaan, namun perang saudara dan blokade ekonomi seketika melumpuhkan seluruh urat nadi perkotaan. Di Petrograd (nama baru St. Petersburg), stasiun pompa air kehabisan batu bara dan kayu bakar; pipa-pipa air besi pecah membeku di musim dingin ekstrem 1917–1918. Pasokan air ledeng mati total di apartemen-apartemen bertingkat. Jutaan warga terpaksa melubangi es di Kanal Moika dan Sungai Neva dengan kapak untuk menimba air yang telah tercemar oleh feses yang meluap dari saluran toilet yang mampet. Pada musim panas 1918, kolera meledak kembali di Petrograd dengan keganasan tak terkendali, menginfeksi lebih dari 10.000 warga dalam waktu dua bulan di tengah kelaparan dahsyat.",
+        "en": "The October Revolution of 1917 vaulted Vladimir Lenin's Bolsheviks to power, but civil war and foreign naval blockade swiftly paralyzed municipal infrastructure. In Petrograd (the renamed capital), central waterworks ran out of coal; subterranean mains burst in subzero freezes during the brutal winter of 1917–1918. Tap water ceased flowing across tenement flats. Millions of citizens hacked holes in the ice of the Moika and Neva with axes to bucket water heavily contaminated by raw sewage backing up from frozen sewer traps. By summer 1918, cholera erupted across Petrograd with untamed ferocity, infecting over 10,000 citizens in eight weeks amidst rampant urban starvation."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_09.jpg"
+    },
+    {
+      "id": "rus-ch-10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Kereta Api Lapis Baja Perang Saudara: Vektor Kematian Tentara Merah vs Putih",
+        "en": "Civil War Armored Trains: The Lethal Vector of Red vs. White Armies"
+      },
+      "date": {
+        "id": "1919–1920",
+        "en": "1919–1920"
+      },
+      "flash": {
+        "id": "PERANG SAUDARA BERDARAH MELAHIRKAN KERETA API MAUT; KERETA LAPIS BAJA MENTRANSPORTASIKAN KOLERA SEPANJANG TRANS-SIBERIA DAN UKRAINA.",
+        "en": "BLOODY CIVIL WAR SPAWNS ARMORED PLAGUE TRAINS; ROLLING LOCOMOTIVES DISPERSE CHOLERA ACROSS TRANS-SIBERIA AND UKRAINE."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Kereta api militer lapis baja, stasiun transit gerilya, dan barak kavaleri",
+        "incubation": "8 – 24 Jam",
+        "transmission": "Perpindahan ribuan serdadu kavaleri dan infanteri tanpa pasokan disinfektan melintasi jarak ribuan kilometer",
+        "mutationType": {
+          "id": "Transmisi Militer Kontinental Berkecepatan Tinggi via Jaringan Rel Perang Saudara",
+          "en": "High-Velocity Continental Military Rail Transmission Across Civil War Grid"
+        },
+        "threatLevel": {
+          "id": "Kritis Nasional (Ancaman Pemusnahan Divisi Militer di Garis Belakang)",
+          "en": "National Critical (Threat of Obliteration of Frontline Divisions via Rear Echelons)"
+        },
+        "clinicalTarget": {
+          "id": "Kavaleri Tentara Merah, Resimen Tentara Putih Denikin & Kolchak, dan petani desa",
+          "en": "Red Army cavalry, White Army regiments (Denikin & Kolchak), and rural peasants"
+        }
+      },
+      "description": {
+        "id": "Perang Saudara Rusia (1918–1922) adalah perang rel kereta api. Tentara Merah Bolshevik dan Tentara Putih kontra-revolusioner mengerahkan puluhan kereta api lapis baja bersenjatakan meriam dan senapan mesin di sepanjang jalur rel Trans-Siberia, Ural, dan Kaukasus. Namun, musuh paling mematikan bagi kedua belah pihak bukanlah peluru artileri, melainkan kolera dan tifus yang hidup berdampingan di gerbong-gerbong militer. Pasukan Kavaleri Pertama Budyonny di Tentara Merah kehilangan ribuan penunggang kuda dalam beberapa minggu akibat kolera saat bermanuver di Ukraina selatan. Ketika Tentara Putih Jenderal Denikin mundur ke Krimea, ribuan perwira dan prajurit terkapar di lantai stasiun Kharkov dan Rostov, sekarat karena diare air cucian beras tanpa ada perawat yang tersisa untuk membersihkan jasad mereka.",
+        "en": "The Russian Civil War (1918–1922) was fought along railroad tracks. Bolshevik Red forces and counter-revolutionary White armies deployed heavily armed armored locomotives across the Trans-Siberian, Ural, and Caucasian rail corridors. Yet the deadliest adversary facing both camps was not enemy artillery, but cholera and typhus co-circulating inside troop wagons. Semyon Budyonny's legendary 1st Cavalry Army lost thousands of mounted troopers in weeks as cholera tore through its ranks across southern Ukraine. When General Denikin's White forces retreated toward Crimea, thousands of soldiers and officers collapsed across station platforms in Kharkov and Rostov, dying in pools of ricewater stools without a single orderly left to bury them."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_10.jpg"
+    },
+    {
+      "id": "rus-ch-11",
+      "chapterNumber": 11,
+      "type": "side_story",
+      "title": {
+        "id": "Komisariat Rakyat Nikolai Semashko: Dekrit Lenin Melawan Kuman",
+        "en": "Nikolai Semashko's People's Commissariat: Lenin's War on Microbes"
+      },
+      "date": {
+        "id": "1919–1920",
+        "en": "1919–1920"
+      },
+      "flash": {
+        "id": "NIKOLAI SEMASHKO MENDIRIKAN KEMENTERIAN KESEHATAN TERPUSAT PERTAMA DI DUNIA; DENGAN DEKRIT MILITER, PEMERINTAH BOLSHEVIK MEMVAKSINASI 10 JUTA PRAJURIT.",
+        "en": "NIKOLAI SEMASHKO FOUNDS WORLD'S FIRST CENTRAL HEALTH MINISTRY; BY MILITARY DECREE, BOLSHEVIKS VACCINATE 10 MILLION RECRUITS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Vaksinasi suntik kolera-tifus tetravaksin (kombinasi kolera, tifoid, paratifoid A & B)",
+        "incubation": "N/A (Sistem Kesehatan Masyarakat Terpusat Sosialis)",
+        "transmission": "Inokulasi terpusat wajib negara dan pos karantina sanitasi rel kereta api",
+        "mutationType": {
+          "id": "Sentralisasi Total Birokrasi Kesehatan Negara Sosialis dan Mobilisasi Medis Darurat",
+          "en": "Total Socialist State Health Centralization & Emergency Medical Mobilization"
+        },
+        "threatLevel": {
+          "id": "Strategis Nasional (Pertarungan Eksistensial Kelangsungan Rezim Soviet)",
+          "en": "National Strategic (Existential Defense of the Nascent Soviet State)"
+        },
+        "clinicalTarget": {
+          "id": "Seluruh prajurit Tentara Merah, buruh pabrik munisi, dan anak-anak panti asuhan",
+          "en": "All Red Army recruits, munitions plant workers, and state orphanage wards"
+        }
+      },
+      "description": {
+        "id": "Menghadapi ancaman biologis yang nyaris meruntuhkan revolusi, Lenin menunjuk Dr. Nikolai Semashko sebagai Komisaris Rakyat untuk Kesehatan (Narkomzdrav)—mendirikan kementerian kesehatan publik terpadu dan gratis pertama di dunia. Lenin mengeluarkan seruan terkenal yang disiarkan di seluruh stasiun radio: 'Entah kutu dan kolera mengalahkan sosialisme, atau sosialisme mengalahkan kutu dan kolera!' Semashko memobilisasi dokter-dokter bekas rezim Tsar di bawah komando darurat, mendirikan pos pemeriksaan sanitasi (Sanpropusknik) di setiap stasiun persimpangan rel kereta api, dan memberlakukan vaksinasi wajib tetravaksin (kolera, tifus, paratifoid A dan B). Lebih dari 10 juta tentara dan pekerja industri divaksinasi paksa antara 1919 dan 1920, membuktikan bahwa komando terpusat mampu membangun pertahanan biologis di tengah kekacauan perang saudara.",
+        "en": "Confronting an epidemic wave that threatened to extinguish the revolution, Lenin appointed Dr. Nikolai Semashko as People's Commissar for Health (Narkomzdrav)—creating the world's first centralized, universally free public health ministry. Lenin issued his famous radio proclamation: 'Either the louse and cholera defeat socialism, or socialism defeats the louse and cholera!' Semashko mobilized thousands of physicians under military discipline, constructed disinfection checkpoints ('Sanpropuskniks') at every major rail junction, and decreed mandatory tetravaccine inoculations (protecting against cholera, typhus, and paratyphoid A and B). Over 10 million soldiers and workers were inoculated between 1919 and 1920, demonstrating the power of centralized state command in waging biological defense."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_11.jpg"
+    },
+    {
+      "id": "rus-ch-12",
+      "chapterNumber": 12,
+      "type": "milestone",
+      "title": {
+        "id": "Bencana Kelaparan Volga 1921: 5 Juta Jiwa Menghadapi Maut & Kolera",
+        "en": "The 1921 Volga Famine Catastrophe: 5 Million Starving Amidst Cholera"
+      },
+      "date": {
+        "id": "1921",
+        "en": "1921"
+      },
+      "flash": {
+        "id": "KEKERINGAN TOTAL DAN KEBIJAKAN PENYITAAN GANDUM MEMICU KELAPARAN MAHASIK DI LEMBAH VOLGA; KOLERA MEMBANTAI RATUSAN RIBU KORBAN YANG MAKAN RUMPUT.",
+        "en": "TOTAL DROUGHT AND GRAIN REQUISITIONS UNLEASH FAMINE ACROSS VOLGA; CHOLERA SLAUGHTERS HUNDREDS OF THOUSANDS SUBSISTING ON CLAY."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Air sungai berlumpur bangkai dan makanan tercemar di kamp pengungsi kelaparan",
+        "incubation": "6 – 18 Jam",
+        "transmission": "Eksplosi infeksi fulminan pada populasi yang mengalami ketiadaan asam lambung akibat kelaparan ekstrem",
+        "mutationType": {
+          "id": "Sinergi Sempurna Antara Kelaparan Massal (Famine) dan Toksin Diare Maut",
+          "en": "Lethal Synergy Between Mass Agrarian Starvation and Enterotoxin Dehydration"
+        },
+        "threatLevel": {
+          "id": "Katastropik Ekstrem (Kematian Massal 200.000 Jiwa dalam Kurun Waktu 6 Bulan)",
+          "en": "Extreme Catastrophic (Over 200,000 Cholera Deaths in Six Months)"
+        },
+        "clinicalTarget": {
+          "id": "Keluarga petani Samara, Saratov, Simbirsk, Kazan, dan anak-anak jalanan tak berdaya",
+          "en": "Peasant families of Samara, Saratov, Simbirsk, and destitute street children"
+        }
+      },
+      "description": {
+        "id": "Tahun 1921 membawa malapetaka tergelap dalam sejarah modern Rusia: Bencana Kelaparan Volga (Golod v Povolzhe). Akibat kekeringan dahsyat yang diperparah oleh kebijakan penyitaan gandum paksa (Prodrazvyorstka), lebih dari 30 juta orang terancam kelaparan di sepanjang cekungan Sungai Volga dan Ural. Warga memakan rumput liar, kulit kayu, lumpur liat, dan bangkai hewan; keputusasaan memicu insiden kanibalisme yang mengerikan. Di tengah tubuh-tubuh manusia yang hanya tinggal tulang dibalut kulit tanpa imunitas seluler, kolera menyapu bagai badai gurun. Di Samara, Saratov, dan Kazan, mayat-mayat menumpuk di stasiun kereta api dan halaman gereja tanpa dapat dikubur karena penggali kubur telah tewas terlebih dahulu. Antara Mei dan Oktober 1921, lebih dari 200.000 korban kelaparan tewas secara mengenaskan akibat dehidrasi kolera.",
+        "en": "The year 1921 unleashed the darkest apocalyptic chapter in modern Russian history: the great Volga Famine (Golod v Povolzhe). Triggered by severe drought compounded by brutal Bolshevik grain requisitions (Prodrazvyorstka), over 30 million souls starved across the Volga and Ural basins. Peasants subsisted on wild weeds, tree bark, clay mud, and dead draft horses; unimaginable horrors of cannibalism erupted. Across populations reduced to walking skeletons with collapsed mucosal immunity, cholera struck like a desert storm. In Samara, Saratov, and Kazan, cadavers piled high at railway platforms and churchyards, left unburied because gravediggers had already perished. Between May and October 1921, over 200,000 famine victims perished in agony from cholera."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_12.jpg"
+    },
+    {
+      "id": "rus-ch-13",
+      "chapterNumber": 13,
+      "type": "standard",
+      "title": {
+        "id": "Misi Kemanusiaan ARA Herbert Hoover: Bantuan Medis & Disinfeksi Skala Masif",
+        "en": "Herbert Hoover's ARA Humanitarian Mission: Medical Relief & Mass Disinfection"
+      },
+      "date": {
+        "id": "Musim Gugur 1921–1922",
+        "en": "Autumn 1921–1922"
+      },
+      "flash": {
+        "id": "AMERICAN RELIEF ADMINISTRATION MEMOMPA JUTAAN JATAH MAKANAN DAN TON DISINFEKTAN KE RUSIA; KERJA SAMA MEDIS MENYELAMATKAN JUTAAN NYAWA.",
+        "en": "AMERICAN RELIEF ADMINISTRATION SUPPLIES MILLIONS OF MEALS AND CHEMICAL DISINFECTANTS; TRANSATLANTIC AID RESCUES MILLIONS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Bantuan obat-obatan klorin, kalium permanganat, dan vaksin ARA Amerika",
+        "incubation": "N/A (Operasi Kemanusiaan Internasional Skala Raksasa)",
+        "transmission": "Penyaluran rehidrasi, makanan bersih bergizi, dan klorinasi sumber air Volga",
+        "mutationType": {
+          "id": "Intervensi Logistik Kemanusiaan Lintas-Ideologi dan Sanitasi Darurat Global",
+          "en": "Cross-Ideological Global Humanitarian Logistics & Emergency Sanitation"
+        },
+        "threatLevel": {
+          "id": "Terkendali Signifikan (Penyelamatan 10 Juta Jiwa dari Kelaparan dan Epidemi)",
+          "en": "Significantly Controlled (Rescuing 10 Million Souls from Famine & Epidemics)"
+        },
+        "clinicalTarget": {
+          "id": "Anak-anak sekolah dapur umum ARA, pasien rumah sakit lapangan, dan pengungsi Volga",
+          "en": "ARA communal kitchen children, field hospital patients, and Volga refugees"
+        }
+      },
+      "description": {
+        "id": "Menghadapi kehancuran demografis total, penulis Maxim Gorky mengeluarkan seruan internasional kepada dunia. Herbert Hoover, Direktur American Relief Administration (ARA), menanggapi dengan mengorganisir operasi bantuan kemanusiaan terbesar dalam sejarah. Mengesampingkan permusuhan ideologis antara kapitalisme Amerika dan komunisme Soviet, ARA mengirimkan kapal-kapal uap berisi jutaan ton jagung, gandum, susu kaleng, serta pasokan medis darurat: klorin kapur, kalium permanganat, dan jarum suntik. Divisi Medis ARA yang dipimpin Dr. Henry Beeuwkes mendirikan 18.000 dapur umum dan stasiun medis di sepanjang Sungai Volga, memvaksinasi lebih dari 8 juta warga Soviet terhadap kolera dan tifus serta mensterilkan ribuan sumur desa. Bantuan masif ini mematahkan cengkeraman pandemi dan menyelamatkan jutaan nyawa rakyat Rusia dari kepunahan.",
+        "en": "Confronting total demographic ruin, author Maxim Gorky issued an agonizing appeal to the civilized world. Herbert Hoover, director of the American Relief Administration (ARA), responded by mobilizing the largest humanitarian relief operation in human history. Setting aside ideological hostilities between American capitalism and Soviet communism, the ARA dispatched cargo armadas laden with millions of tons of grain, condensed milk, and emergency pharmaceuticals: chlorinated lime, potassium permanganate, and hypodermic needles. The ARA Medical Division, commanded by Dr. Henry Beeuwkes, established 18,000 communal feeding kitchens and clinics across the Volga, inoculating over eight million Soviet citizens against cholera and typhus while disinfecting thousands of village wells. This titanic effort broke the back of the pandemic, saving millions from extinction."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_13.jpg"
+    },
+    {
+      "id": "rus-ch-14",
+      "chapterNumber": 14,
+      "type": "standard",
+      "title": {
+        "id": "Klorinasi Petrograd & Dekrit Sanitasi Soviet 1923: Padamnya Api Gelombang Keenam",
+        "en": "Petrograd Chlorination & The 1923 Soviet Sanitary Decrees: Snuffing the Sixth Wave"
+      },
+      "date": {
+        "id": "1922–1923",
+        "en": "1922–1923"
+      },
+      "flash": {
+        "id": "PEMERINTAH SOVIET MEMASANG INSTALASI KLORINASI CAIR DI INSTALASI AIR GLAVNY PETROGRAD; KASUS KOLERA TURUN DRASTIS KE ANGKA NOL.",
+        "en": "SOVIET AUTHORITIES INSTALL CONTINUOUS LIQUID CHLORINATION AT PETROGRAD WATERWORKS; INDIGENOUS CHOLERA COLLAPSES TO ZERO."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik",
+        "vector": "Instalasi klorinasi gas cair bertekanan di instalasi pengolahan air Glavny Petrograd",
+        "incubation": "N/A (Eradikasi Patogen Kimiawi Permanen)",
+        "transmission": "Penghancuran seketika DNA dan membran sel vibrio oleh residu klorin bebas",
+        "mutationType": {
+          "id": "Eradikasi Kimiawi Total Melalui Klorinasi Pipa Air Minum Perkotaan Terpusat",
+          "en": "Total Chemical Eradication via Centralized Municipal Water Chlorination"
+        },
+        "threatLevel": {
+          "id": "Eradikasi Mutlak di Perkotaan (Pemutusan Rantai Penularan Endemik Sejak 1829)",
+          "en": "Absolute Urban Eradication (Severing the Endemic Cycle Dating Back to 1829)"
+        },
+        "clinicalTarget": {
+          "id": "Seluruh konsumen air ledeng Leningrad, Moskow, Kiev, dan kota industri Soviet",
+          "en": "Entire municipal tap water consumers in Leningrad, Moscow, Kiev, and industrial hubs"
+        }
+      },
+      "description": {
+        "id": "Ketika Perang Saudara berakhir pada akhir 1922, kepemimpinan Soviet memusatkan seluruh kekuatan rekayasa untuk menuntaskan masalah air bersih yang telah membunuh jutaan rakyat selama satu abad. Di Petrograd (segera dinamai Leningrad), Narkomzdrav mengimpor silinder klorin gas cair bertekanan tinggi dan memasangnya di Instalasi Pengolahan Air Glavny dan Pulau Penjara. Air Sungai Neva yang keruh kini disuntik klorin bebas secara kontinu sebelum dipompa ke pipa-pipa perumahan kota. Efeknya instan dan permanen: pada musim panas 1923, untuk pertama kalinya dalam 15 tahun, tidak ada satu pun kematian kolera yang dilaporkan di Leningrad. Di Moskow dan kota-kota industri lainnya, klorinasi dan filtrasi pasir menjadi standar wajib hukum Soviet. Api kolera yang menyala sejak 1908 akhirnya padam sepenuhnya.",
+        "en": "As civil war ended in late 1922, Soviet leadership concentrated its state engineering power on permanently resolving the drinking water contamination that had plagued Russia since 1829. In Petrograd (soon rechristened Leningrad), Narkomzdrav imported pressurized liquid chlorine gas cylinders and installed continuous dosing apparatus at the Glavny Central Waterworks. Raw Neva water was treated with continuous free chlorine before pumping into residential pipes. The result was instantaneous and decisive: by summer 1923, for the first time in fifteen years, zero indigenous cholera fatalities were recorded in Leningrad. Across Moscow, Kiev, and Soviet industrial centers, chlorination became non-negotiable state law, definitively extinguishing the fire that had raged since 1908."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_14.jpg"
+    },
+    {
+      "id": "rus-ch-15",
+      "chapterNumber": 15,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Pandemi Keenam di Rusia: Kelahiran Model Kesehatan Semashko",
+        "en": "Legacy of the Sixth Pandemic in Russia: Birth of the Semashko Healthcare Model"
+      },
+      "date": {
+        "id": "1924–1925",
+        "en": "1924–1925"
+      },
+      "flash": {
+        "id": "DARI TRAUMA 800.000 KEMATIAN LAHIR SISTEM KESEHATAN TERPUSAT TERBESAR ABAD KE-20: MODEL SEMASHKO DENGAN KLINIK DAN SANITASI GRATIS UNTUK SELURUH RAKYAT.",
+        "en": "FROM THE TRAUMA OF 800,000 DEATHS AROSE THE 20TH CENTURY'S TITANIC HEALTHCARE GRID: THE SEMASHKO MODEL OF UNIVERSAL FREE STATE MEDICINE."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotipe klasik O1",
+        "vector": "Sintesis sejarah institusional kedokteran negara dan epidemiologi sosialis",
+        "incubation": "N/A (Warisan Tata Kelola Kesehatan Masyarakat Abad ke-20)",
+        "transmission": "Evolusi dari kedokteran darurat represif Tsaris menuju sistem preventif terpadu universil",
+        "mutationType": {
+          "id": "Konsolidasi Doktrin Kedokteran Pencegahan Universal Berbasis Kontrol Negara Terpusat",
+          "en": "Consolidation of Universal Preventive Medicine Doctrine Under Centralized State Control"
+        },
+        "threatLevel": {
+          "id": "Terkendali Permanen (Eradikasi Kolera Endemik dari Wilayah Uni Soviet)",
+          "en": "Permanently Controlled (Systematic Eradication of Endemic Cholera Across USSR)"
+        },
+        "clinicalTarget": {
+          "id": "Seluruh 150 juta warga Uni Republik Sosialis Soviet dari Baltik hingga Pasifik",
+          "en": "The entire 150-million citizenry of the Soviet Union from Baltic to Pacific"
+        }
+      },
+      "description": {
+        "id": "Gelombang Keenam Kolera (1908–1922) di Rusia adalah kisah tentang tragedi kemanusiaan kolosal sekaligus kebangkitan sistemik kedokteran negara. Dengan estimasi total korban mencapai antara 500.000 hingga 800.000 jiwa melintasi kancah Perang Dunia I, Revolusi, dan Perang Saudara, kolera membuktikan bahwa kekuasaan Tsar yang rapuh runtuh sebagian akibat ketidakmampuannya melindungi rakyat jelata dari penyakit kotoran. Trauma mendalam ini melahirkan 'Sistem Semashko'—model kesehatan masyarakat pertama di dunia yang sepenuhnya dibiayai negara, menyediakan layanan dokter dan rumah sakit gratis bagi setiap warga negara, mewajibkan pemeriksaan epidemiologi berkala di sekolah dan pabrik, serta memadukan pengawasan sanitasi dengan aparat hukum. Melalui model ini, Uni Soviet tidak pernah lagi mengalami pandemi kolera massal di wilayah perkotaannya, menjadi studi kasus global tentang bagaimana krisis eksistensial melahirkan fondasi negara kesejahteraan modern.",
+        "en": "The Sixth Cholera Pandemic (1908–1922) in Russia is a chronicle of colossal human agony entwined with the systemic birth of modern state medicine. With total deaths estimated between 500,000 and 800,000 across World War I, Revolution, and Civil War, cholera demonstrated that Tsarist autocracy collapsed in part from its criminal failure to protect its working masses from preventable waterborne filth. This profound trauma forged the 'Semashko Model'—the world's first fully state-funded, universally free healthcare infrastructure providing doctors, hospitals, and routine epidemiological screening across factories and schools. Through this comprehensive architectural transformation, the Soviet Union eradicated endemic urban cholera for decades, providing a global case study of how existential disaster can catalyze the architecture of modern public welfare."
+      },
+      "image": "/assets/images/cholera/wave-6/rus/rus_ch_15.jpg"
+    }
+  ]
+}

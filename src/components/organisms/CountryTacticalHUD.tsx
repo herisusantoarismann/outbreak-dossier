@@ -28,6 +28,7 @@ export interface CountryTacticalHUDProps {
     surveillanceData?: SurveillanceData | null;
     onInitializeDossier?: (countryCode: string) => void;
     pandemicId?: string;
+    activeWaveIndex?: number;
 }
 
 export const CountryTacticalHUD: React.FC<CountryTacticalHUDProps> = ({
@@ -37,6 +38,7 @@ export const CountryTacticalHUD: React.FC<CountryTacticalHUDProps> = ({
     surveillanceData,
     onInitializeDossier,
     pandemicId = "covid-19",
+    activeWaveIndex,
 }) => {
     const router = useRouter();
     const currentLocale = useLocale() as SupportedLocale;
@@ -58,7 +60,11 @@ export const CountryTacticalHUD: React.FC<CountryTacticalHUDProps> = ({
         if (onInitializeDossier) {
             onInitializeDossier(code);
         } else {
-            router.push(`/dossier/${pandemicId}/${code}`);
+            const waveQuery =
+                pandemicId === "cholera-series" && activeWaveIndex !== undefined
+                    ? `?wave=${activeWaveIndex + 1}`
+                    : "";
+            router.push(`/dossier/${pandemicId}/${code}${waveQuery}`);
         }
     };
 

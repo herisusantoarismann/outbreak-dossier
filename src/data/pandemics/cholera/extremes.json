@@ -1,0 +1,90 @@
+[
+    {
+        "id": "ch-jessore-origin",
+        "iso2": "BD",
+        "metricType": "containment",
+        "label": {
+            "id": "Titik Nol Delta Benggala di Jessore",
+            "en": "Jessore Bengal Delta Ground Zero"
+        },
+        "countryName": {
+            "id": "Benggala (Jessore / Delta Gangga)",
+            "en": "Bengal (Jessore / Ganges Delta)"
+        },
+        "value": {
+            "id": "Agustus 1817",
+            "en": "August 1817"
+        },
+        "context": {
+            "id": "Curah hujan monsun ekstrem dan gagal panen beras memicu ledakan kolera asiatik pertama yang menyebar ke Calcutta.",
+            "en": "Excessive monsoon flooding and rice harvest failure triggered the first Asiatic cholera wave spreading to Calcutta."
+        },
+        "coordinates": { "lat": 23.1667, "lng": 89.2167 }
+    },
+    {
+        "id": "ch-calcutta-troops",
+        "iso2": "IN",
+        "metricType": "mortality",
+        "label": {
+            "id": "Kematian Pasukan Marquis Hastings",
+            "en": "Marquis of Hastings Army Losses"
+        },
+        "countryName": {
+            "id": "India (Benggala / Calcutta)",
+            "en": "India (Bengal / Calcutta)"
+        },
+        "value": {
+            "id": "10.000+ Serdadu Tewas",
+            "en": "10,000+ Troops Fallen"
+        },
+        "context": {
+            "id": "Dalam kampanye Perang Pindari, ribuan tentara British East India Company tumbang dalam hitungan hari akibat kontaminasi air kemah.",
+            "en": "During the Third Anglo-Maratha campaign, thousands of British East India Company troops collapsed within days from fouled water."
+        },
+        "coordinates": { "lat": 22.5726, "lng": 88.3639 }
+    },
+    {
+        "id": "ch-java-maritime",
+        "iso2": "ID",
+        "metricType": "density",
+        "label": {
+            "id": "Penyusupan Maritim Pulau Jawa",
+            "en": "Java Island Maritime Incursion"
+        },
+        "countryName": {
+            "id": "Hindia Belanda (Batavia / Jawa)",
+            "en": "Dutch East Indies (Java / Batavia)"
+        },
+        "value": {
+            "id": "100.000+ Korban Jiwa",
+            "en": "100,000+ Fatalities"
+        },
+        "context": {
+            "id": "April 1821: Kapal dagang membawa bibit kolera dari Penang ke Batavia; menyapu pesisir utara Jawa hingga pedalaman keraton.",
+            "en": "April 1821: Trading ships brought cholera from Penang to Batavia, sweeping Java's north coast to royal capitals."
+        },
+        "coordinates": { "lat": -6.2088, "lng": 106.8456 }
+    },
+    {
+        "id": "ch-muscat-gulf",
+        "iso2": "OM",
+        "metricType": "mortality",
+        "label": {
+            "id": "Penetrasi Teluk Persia di Muskat",
+            "en": "Persian Gulf Ingress at Muscat"
+        },
+        "countryName": {
+            "id": "Oman (Muskat)",
+            "en": "Oman (Muscat)"
+        },
+        "value": {
+            "id": "10.000 Meninggal / 10 Hari",
+            "en": "10,000 Perished / 10 Days"
+        },
+        "context": {
+            "id": "Pelabuhan transit Muskat kehilangan sepertiga populasinya dalam waktu singkat setelah kapal pengangkut beras dari Bombay merapat.",
+            "en": "The port city lost a third of its population within ten days after merchant rice ships docked from Bombay."
+        },
+        "coordinates": { "lat": 23.588, "lng": 58.3829 }
+    }
+]

@@ -1,0 +1,256 @@
+{
+  "sectorId": "ZWE",
+  "waveIndex": 7,
+  "sectorName": {
+    "id": "Harare & Afrika Sub-Sahara (Keruntuhan Infrastruktur 2008)",
+    "en": "Harare & Sub-Saharan Africa (2008 Municipal Infrastructure Collapse)"
+  },
+  "coordinates": [
+    -17.8252,
+    31.0335
+  ],
+  "timeRange": "2008 – 2009",
+  "estimatedFatalities": "4,288+",
+  "chapters": [
+    {
+      "id": "zwe_ch_01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Runtuhnya Pipa Morton Jaffray: Ibu Kota Tanpa Air Bersih",
+        "en": "The Morton Jaffray Waterworks Collapse: A Capital Left Dry"
+      },
+      "date": {
+        "id": "Agustus 2008",
+        "en": "August 2008"
+      },
+      "flash": {
+        "id": "Di tengah hiperinflasi jutaan persen, instalasi air Morton Jaffray di Harare kehabisan bahan kimia klorin, memutus pasokan air bagi jutaan penduduk.",
+        "en": "Amidst multi-million percent hyperinflation, Harare's Morton Jaffray treatment works runs out of chlorine chemicals, leaving millions without potable water."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1 biotype El Tor",
+        "vector": "Pipa air perkotaan yang kosong bertekanan negatif dan saluran pembuangan limbah pecah",
+        "incubation": "12 – 48 jam",
+        "transmission": "Penyedotan air limbah mentah ke dalam pipa air minum kosong saat pemadaman",
+        "mutationType": {
+          "id": "Strain El Tor Sub-Sahara Keruntuhan Utilitas Perkotaan",
+          "en": "Sub-Saharan Urban Utility Collapse El Tor Lineage"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Keruntuhan Sistemik Infrastruktur Air Ibu Kota",
+          "en": "Tier V - Systemic Capital Water Infrastructure Collapse"
+        },
+        "clinicalTarget": {
+          "id": "Warga permukiman padat Harare, anak-anak, dan keluarga miskin perkotaan",
+          "en": "Harare high-density township residents, children, and urban poor"
+        }
+      },
+      "description": {
+        "id": "Pada Agustus 2008, Republik Zimbabwe berada di titik nadir krisis ekonomi dan politik terburuk dalam sejarah pascakolonialnya. Hiperinflasi yang melampaui jutaan persen melumpuhkan perbendaharaan negara dan Otoritas Air Nasional Zimbabwe (ZINWA). Tanpa devisa untuk mengimpor aluminium sulfat dan gas klorin, Instalasi Pengolahan Air Morton Jaffray—yang memasok air minum bagi lebih dari dua juta penduduk di ibu kota Harare dan kota satelit Chitungwiza—berhenti beroperasi. Keran-keran air di seluruh kota mengering selama berbulan-bulan. Ketika pompa mati, tekanan di dalam pipa distribusi bawah tanah berubah menjadi negatif, menyedot air limbah mentah dari saluran selokan kuno yang bocor di sampingnya. Warga yang kehausan mulai menggali sumur-sumur dangkal tanpa pelindung di halaman rumah mereka, hanya beberapa meter dari lubang jamban yang meluap.",
+        "en": "By August 2008, Zimbabwe had reached the nadir of an unprecedented socio-economic and political collapse. Hyperinflation exceeding millions of percent decimated the state treasury and paralyzed the Zimbabwe National Water Authority (ZINWA). Stripped of foreign currency to import essential aluminum sulfate and liquid chlorine gas, the Morton Jaffray Water Treatment Works—responsible for supplying two million residents across Harare and Chitungwiza—ceased functioning. Taps ran dry for months on end. When water pressure plummeted, underground distribution mains developed negative pressure, sucking raw sewage from fractured municipal sewers running parallel to the conduits. Parched residents had no choice but to dig shallow, unlined hand-dug wells in their backyards, often situated mere meters from overflowing pit latrines."
+      },
+      "image": "/assets/images/cholera/wave-7/zwe/zwe_ch_01.jpg"
+    },
+    {
+      "id": "zwe_ch_02",
+      "chapterNumber": 2,
+      "type": "milestone",
+      "title": {
+        "id": "Episentrum Budiriro: Ledakan di Kota Satelit Padat",
+        "en": "The Budiriro Epicenter: Explosion in High-Density Townships"
+      },
+      "date": {
+        "id": "September – November 2008",
+        "en": "September – November 2008"
+      },
+      "flash": {
+        "id": "Di pemukiman padat Budiriro dan Glen View di pinggiran Harare, kasus kolera meledak secara eksponensial di tengah tumpukan sampah yang tak terangkut.",
+        "en": "In Harare's densely packed suburbs of Budiriro and Glen View, cholera cases surge exponentially amid uncollected refuse and rivers of sewage."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae El Tor",
+        "vector": "Sumur gali dangkal halaman rumah dan genangan selokan terbuka di jalanan",
+        "incubation": "12 – 36 jam",
+        "transmission": "Fekal-oral via air sumur bor terkontaminasi tinja limbah perkotaan",
+        "mutationType": {
+          "id": "Amplifikasi Kepadatan Pemukiman Urban Budiriro",
+          "en": "Budiriro Urban High-Density Amplification Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Krisis Humaniter Darurat Perkotaan",
+          "en": "Tier V - Emergency Urban Humanitarian Crisis"
+        },
+        "clinicalTarget": {
+          "id": "Warga permukiman Glen View dan Budiriro, wanita, dan lansia",
+          "en": "Glen View and Budiriro residents, women, and the elderly"
+        }
+      },
+      "description": {
+        "id": "Titik api wabah pertama kali menyala di Budiriro dan Glen View, kawasan pemukiman berkepadatan tinggi (high-density townships) di barat daya Harare. Di lingkungan ini, ketiadaan layanan pengangkutan sampah kota selama bertahun-tahun menyebabkan tumpukan sampah menggunung di sudut-sudut jalan, sementara selokan yang tersumbat meluapkan tinja cair ke halaman rumah warga. Pada September 2008, kasus-kasus diare cair akut mulai berdatangan ke Poliklinik Budiriro. Dalam beberapa pekan, ratusan warga tumbang setiap hari. Sumur gali dangkal yang digali warga secara swadaya ternyata telah terkontaminasi penuh oleh bakteri Vibrio cholerae. Jerami dan ember yang digunakan bergantian untuk menimba air mempercepat penularan ke seluruh keluarga di lingkungan tersebut.",
+        "en": "The primary outbreak flashpoint crystallized in Budiriro and Glen View, dense working-class townships southwest of central Harare. In these districts, the breakdown of municipal waste management had left uncollected refuse accumulating in the streets, while blocked sewer lines discharged raw effluent across domestic courtyards. In September 2008, acute watery diarrhea cases arrived at Budiriro Polyclinic. Within weeks, hundreds of patients collapsed daily. Microbiological testing confirmed that virtually every shallow residential well had been contaminated with Vibrio cholerae from adjacent subsoil sewage seepage. Shared buckets and manual rope winches transmitted the lethal inoculum from one household to the next."
+      },
+      "image": "/assets/images/cholera/wave-7/zwe/zwe_ch_02.jpg"
+    },
+    {
+      "id": "zwe_ch_03",
+      "chapterNumber": 3,
+      "type": "side_story",
+      "title": {
+        "id": "Mogok Dokter & Runtuhnya Layanan Rumah Sakit Parirenyatwa",
+        "en": "The Doctors' Strike & The Fall of Parirenyatwa Hospital"
+      },
+      "date": {
+        "id": "November – Desember 2008",
+        "en": "November – December 2008"
+      },
+      "flash": {
+        "id": "Gaji dokter yang tak berharga akibat hiperinflasi memicu pemogokan massal tenaga medis; rumah sakit rujukan terbesar Zimbabwe menutup pintunya di puncak wabah.",
+        "en": "Doctor salaries rendered worthless by hyperinflation spark nationwide medical strikes; Zimbabwe's premier hospital closes its gates at the peak of the epidemic."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Bangsal isolasi tanpa perawat, kekurangan cairan infus, dan ketiadaan sarung tangan",
+        "incubation": "N/A (Keruntuhan Sistem Kesehatan)",
+        "transmission": "Penolakan pasien di gerbang rumah sakit akibat ketiadaan staf medis",
+        "mutationType": {
+          "id": "Eksaserbasi Akibat Mogok Kerja Medis Nasional",
+          "en": "National Healthcare Strike Exacerbated Lineage"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Kelumpuhan Total Infrastruktur Pelayanan Medis",
+          "en": "Tier V - Total Paralyzation of Clinical Care Systems"
+        },
+        "clinicalTarget": {
+          "id": "Pasien kolera sekarat yang ditolak di gerbang rumah sakit",
+          "en": "Dying cholera patients turned away at hospital gates"
+        }
+      },
+      "description": {
+        "id": "Tragedi kolera di Zimbabwe mencapai klimaks paling memilukan ketika sistem rumah sakit publik negara itu runtuh total dari dalam. Dengan inflasi harian yang mencapai ratusan persen, gaji bulanan dokter dan perawat bahkan tidak cukup untuk membeli sepotong roti atau membayar ongkos bus ke tempat kerja. Pada November 2008, Asosiasi Dokter Rumah Sakit Zimbabwe melancarkan mogok kerja massal. Rumah Sakit Umum Parirenyatwa di Harare dan Rumah Sakit Pusat Harare—dua institusi medis terbesar di negara itu—menutup bangsal rawat inap dan mengunci gerbang mereka. Pasien kolera yang tiba dengan gerobak dorong atau digendong oleh keluarga yang putus asa dibiarkan terbaring sekarat di atas rumput halaman rumah sakit tanpa infus, tanpa antibiotik, dan tanpa bantuan medis, menciptakan krisis kemanusiaan yang mengguncang nurani internasional.",
+        "en": "The cholera disaster reached an agonizing crescendo as Zimbabwe's public hospital infrastructure disintegrated from within. With hyperinflation running at historic world records, the monthly wages of state doctors and nurses could not purchase a loaf of bread or cover daily bus fare to work. In November 2008, the Zimbabwe Hospital Doctors Association launched an indefinite strike. Parirenyatwa Central Hospital and Harare Central Hospital—the twin flagships of national healthcare—padlocked their admission wards. Dying cholera victims transported in wooden wheelbarrows or carried on the backs of frantic relatives were abandoned on the parched lawns outside clinic perimeters, deprived of intravenous saline, gloves, or medical oversight, precipitating a catastrophic human rights and healthcare vacuum."
+      },
+      "image": "/assets/images/cholera/wave-7/zwe/zwe_ch_03.jpg"
+    },
+    {
+      "id": "zwe_ch_04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Tumpahan Sungai Limpopo: Melintasi Perbatasan ke Afrika Selatan",
+        "en": "The Limpopo River Spillover: Crossing the Border into South Africa"
+      },
+      "date": {
+        "id": "Desember 2008 – Januari 2009",
+        "en": "December 2008 – January 2009"
+      },
+      "flash": {
+        "id": "Ribuan pengungsi Zimbabwe yang terinfeksi menyeberangi Sungai Limpopo menuju Musina, menyebarkan kolera ke Afrika Selatan, Mozambik, dan Zambia.",
+        "en": "Thousands of infected Zimbabwean asylum seekers ford the Limpopo River toward Musina, exporting cholera into South Africa, Mozambique, and Zambia."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae El Tor",
+        "vector": "Perlintasan perbatasan darat Beitbridge dan air Sungai Limpopo",
+        "incubation": "12 – 48 jam",
+        "transmission": "Penyeberangan sungai perbatasan dan kamp penampungan imigran Musina",
+        "mutationType": {
+          "id": "Eskalasi Transnasional Afrika Bagian Selatan",
+          "en": "Southern African Transnational Escalation Clade"
+        },
+        "threatLevel": {
+          "id": "Tingkat IV - Krisis Pengungsi dan Epidemi Regional SADC",
+          "en": "Tier IV - SADC Regional Refugee & Epidemic Crisis"
+        },
+        "clinicalTarget": {
+          "id": "Pencari suaka Zimbabwe, komunitas perbatasan Musina, dan buruh tani",
+          "en": "Zimbabwean asylum seekers, Musina border community, and farmhands"
+        }
+      },
+      "description": {
+        "id": "Dengan layanan kesehatan yang lumpuh dan kelaparan yang meluas, eksodus massal warga Zimbabwe menuju perbatasan selatan tak terbendung. Ribuan orang menyeberangi Sungai Limpopo setiap minggu, baik melalui pos perbatasan resmi Beitbridge maupun menyelinap melintasi kawat berduri ke kota perbatasan Afrika Selatan, Musina. Banyak di antara mereka yang sedang menginkubasi Vibrio cholerae atau mengalami gejala aktif. Rumah Sakit Musina di Provinsi Limpopo segera dibanjiri pasien yang kolaps; tenda-tenda darurat Doctors Without Borders (MSF) didirikan di dekat stasiun kereta api perbatasan. Epidemi segera merembet ke kota metropolitan Johannesburg dan provinsi Mpumalanga, serta melintasi perbatasan utara dan timur menuju Mozambik, Zambia, dan Botswana, mengubah krisis internal Zimbabwe menjadi darurat kesehatan regional Komunitas Pembangunan Afrika Bagian Selatan (SADC).",
+        "en": "Fleeing social collapse and starvation, an unstoppable human exodus surged toward Zimbabwe's southern frontier. Thousands of desperate migrants forded the crocodile-infested Limpopo River weekly, passing through the Beitbridge border post or cutting through barbed-wire fences into Musina, South Africa. Scores arrived actively purging or incubating the vibrio. Musina Hospital in Limpopo Province was overwhelmed; Médecins Sans Frontières (MSF) pitched emergency rehydration tents near the border railway siding. The epidemic quickly leaped along transport corridors into the townships of Johannesburg and Mpumalanga, while simultaneously radiating across northern frontiers into Mozambique, Zambia, and Botswana, transforming Zimbabwe's domestic crisis into a regional public health emergency across Southern Africa."
+      },
+      "image": "/assets/images/cholera/wave-7/zwe/zwe_ch_04.jpg"
+    },
+    {
+      "id": "zwe_ch_05",
+      "chapterNumber": 5,
+      "type": "milestone",
+      "title": {
+        "id": "Intervensi Darurat Internasional: MSF & Palang Merah Masuk",
+        "en": "International Emergency Intervention: MSF & Red Cross Mobilization"
+      },
+      "date": {
+        "id": "Januari – Maret 2009",
+        "en": "January – March 2009"
+      },
+      "flash": {
+        "id": "Pemerintah Zimbabwe akhirnya menyatakan keadaan darurat nasional, mengizinkan konvoi kemanusiaan global membawa ribuan ton cairan infus, klorin, dan tim medis asing.",
+        "en": "Zimbabwe's government formally declares a national emergency, opening humanitarian corridors for thousands of tons of IV fluids, chlorine, and foreign medical teams."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Pusat Perawatan Kolera (CTC) tenda lapangan dan distribusi tablet klorin WaterMaker",
+        "incubation": "N/A (Operasi Bantuan Kemanusiaan)",
+        "transmission": "Pemberantasan transmisi melalui klorinasi massal sumur bor dan terapi rehidrasi",
+        "mutationType": {
+          "id": "Penahanan Krisis Kompleks Humaniter Internasional",
+          "en": "International Complex Humanitarian Containment"
+        },
+        "threatLevel": {
+          "id": "Tingkat III - Intervensi Kemanusiaan Skala Penuh PBB",
+          "en": "Tier III - Full-Scale UN Humanitarian Intervention"
+        },
+        "clinicalTarget": {
+          "id": "Populasi perkotaan dan pedesaan di 10 provinsi Zimbabwe",
+          "en": "Urban and rural populations across all 10 provinces of Zimbabwe"
+        }
+      },
+      "description": {
+        "id": "Setelah berbulan-bulan menyangkal tingkat keparahan krisis, pemerintah Zimbabwe akhirnya menyatakan Darurat Bencana Nasional pada Desember 2008 dan meminta bantuan darurat internasional. Organisasi-organisasi kemanusiaan seperti Médecins Sans Frontières (MSF), UNICEF, Federasi Internasional Palang Merah (IFRC), dan WHO melancarkan operasi logistik raksasa. Pesawat-pesawat kargo mendarat di Bandara Harare membawa ratusan ribu kantong infus Ringer Laktat, tenda rumah sakit lapangan, dan jutaan tablet disinfeksi air WaterMaker. MSF mendirikan lebih dari 50 Pusat Perawatan Kolera (CTC) di seluruh negeri, melatih relawan lokal untuk melakukan triase rehidrasi, dan memulihkan pasokan bahan kimia pengolahan air untuk instalasi Morton Jaffray. Operasi darurat terpadu ini berhasil mematahkan kurva epidemi, menyelamatkan puluhan ribu nyawa sebelum musim kemarau tiba.",
+        "en": "Following months of institutional denial, the Zimbabwean government formally declared a National Health Emergency in December 2008, appealing for global humanitarian aid. International relief agencies including Médecins Sans Frontières, UNICEF, the International Red Cross, and the WHO launched a colossal logistics airlift. Cargo charters touched down at Harare International Airport laden with hundreds of thousands of Ringer's lactate infusion bags, cholera bed cots, and water purification sachets. MSF erected over fifty specialized Cholera Treatment Centers (CTCs) across all ten provinces, training community volunteers to administer ORS and restoring chemical deliveries to the Morton Jaffray plant. This massive humanitarian surge flattened the epidemic curve, stemming fatal casualties before the dry winter season."
+      },
+      "image": "/assets/images/cholera/wave-7/zwe/zwe_ch_05.jpg"
+    },
+    {
+      "id": "zwe_ch_06",
+      "chapterNumber": 6,
+      "type": "summary",
+      "title": {
+        "id": "Audit Sanitasi 2009: Peringatan Kerapuhan Negara Modern",
+        "en": "The 2009 Sanitary Audit: Warning on Modern State Fragility"
+      },
+      "date": {
+        "id": "Juli 2009",
+        "en": "July 2009"
+      },
+      "flash": {
+        "id": "Wabah berakhir setelah menelan 4.288 korban jiwa dan 98.500 kasus, meninggalkan pelajaran pahit bahwa kolera dapat melumpuhkan kota modern dalam hitungan pekan jika utilitas publik runtuh.",
+        "en": "The epidemic terminates after claiming 4,288 lives and 98,500 cases, leaving a sobering lesson that utility collapse can resurrect medieval pestilence in modern metropolises."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Infrastruktur perkotaan yang direhabilitasi dan pengawasan air sumur bor",
+        "incubation": "N/A (Audit Akhir Epidemi)",
+        "transmission": "Pemulihan pasokan klorin kota dan pemantauan kualitas air sumur",
+        "mutationType": {
+          "id": "Eradikasi Melalui Stabilisasi Politik dan Utilitas Publik",
+          "en": "Political Stabilization & Utility Restoration Eradication"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Pemulihan dan Pengawasan Pasca-Bencana",
+          "en": "Tier I - Post-Disaster Reconstruction & Surveillance"
+        },
+        "clinicalTarget": {
+          "id": "Sistem pemerintahan kota Harare dan populasi nasional Zimbabwe",
+          "en": "Harare municipal government and Zimbabwean national population"
+        }
+      },
+      "description": {
+        "id": "Ketika wabah kolera Zimbabwe secara resmi dinyatakan berakhir pada Juli 2009, statistik akhirnya mencatat 98.591 kasus terdaftar dan 4.288 kematian—menjadikannya wabah kolera paling mematikan di benua Afrika dalam kurun waktu lima belas tahun. Pembentukan Pemerintah Persatuan Nasional pada awal 2009 dan adopsi dolar AS sebagai mata uang resmi membantu menstabilkan ekonomi dan memulihkan layanan dasar air kota. Namun, epidemi Harare meninggalkan warisan analitis yang mendalam bagi sosiologi kesehatan dunia: kolera bukan sekadar penyakit kemiskinan kuno, melainkan cermin kerapuhan sistemik peradaban modern. Ketika institusi publik gagal, jaringan pipa air leding abad ke-20 dapat berubah kembali menjadi saluran penularan mematikan hanya dalam hitungan minggu.",
+        "en": "When the Zimbabwean epidemic was declared officially contained in July 2009, the final toll stood at 98,591 reported cases and 4,288 deaths, ranking it as the deadliest cholera disaster in Africa in over a generation. The formation of a coalition Government of National Unity and the dollarization of the economy stabilized fiscal flows, enabling the restoration of basic municipal chlorination. Yet the Harare catastrophe bequeathed an urgent geopolitical lesson to the global public health community: cholera is not merely an archaic relic of underdeveloped societies, but a terrifying barometer of modern state breakdown. When municipal waterworks and civic infrastructure disintegrate, a 21st-century metropolis can be plunged back into medieval microbiological vulnerability overnight."
+      },
+      "image": "/assets/images/cholera/wave-7/zwe/zwe_ch_06.jpg"
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "sectorId": "GBR",
+  "waveIndex": 2,
+  "sectorName": {
+    "id": "Sektor GBR (Britania Raya: Pelabuhan Sunderland, Newcastle, & Sungai Thames 1831–1832)",
+    "en": "Sector GBR (Great Britain: Port of Sunderland, Newcastle, & River Thames 1831–1832)"
+  },
+  "coordinates": [
+    54.9069,
+    -1.3838
+  ],
+  "timeRange": "Oktober 1831 – 1832 M",
+  "estimatedFatalities": "55.000+ (Inggris, Skotlandia, Wales, & Irlandia)",
+  "chapters": [
+    {
+      "id": "gbr-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Pelabuhan Batubara Sunderland: Pendaratan Baltik",
+        "en": "Sunderland Coal Port: The Baltic Landfall"
+      },
+      "date": {
+        "id": "Oktober 1831 M",
+        "en": "October 1831 AD"
+      },
+      "flash": {
+        "id": "Kapal-kapal pengangkut batubara (colliers) yang kembali dari pelabuhan Laut Baltik merapat di muara Sungai Wear, membawa air ballast dan kru yang terpapar kolera.",
+        "en": "Colliers returning from Baltic ports docked at the mouth of the River Wear, bearing contaminated ballast water and exposed crews."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kapal Dagang Batubara & Kru Dermaga",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pencemaran sumber air minum tepi dermaga oleh kru kapal yang baru tiba dari Riga dan Hamburg"
+      },
+      "description": {
+        "id": "Pada musim gugur 1831, Sunderland di pesisir timur laut Inggris adalah salah satu pelabuhan ekspor batubara tersibuk di dunia. Kapal-kapal dagang bolak-balik menghubungkan dermaga Sungai Wear dengan pelabuhan-pelabuhan Baltik seperti Riga dan Danzig yang sedang diamuk kolera. Pemerintah Inggris memberlakukan karantina maritim di muara Humber, namun kapal-kapal batubara pesisir berhasil mengelak dari pemeriksaan ketat. Melalui tongkang-tongkang kecil dan pergaulan pelaut di kedai minum tepi dermaga, mikroorganisme Vibrio cholerae menembus benteng kepulauan Britania Raya.",
+        "en": "In autumn 1831, Sunderland on England's northeast coast was among the world's most bustling coal-exporting ports. Fleets of colliers plied back and forth between the River Wear and Baltic ports like Riga and Danzig where cholera raged. Although the British government ordered quarantine anchorages in the Humber, coastal coal craft frequently evaded rigid inspection. Through lighter barges and tavern fraternization along the wharves, the Vibrio cholerae bacterium breached the maritime sanctuary of the British Isles."
+      },
+      "image": "/assets/images/cholera/wave-2/gbr/gbr_ch_01.jpg"
+    },
+    {
+      "id": "gbr-ch-02",
+      "chapterNumber": 2,
+      "type": "milestone",
+      "title": {
+        "id": "Pasien Nol Sunderland: Kematian William Sproat",
+        "en": "Sunderland Patient Zero: The Death of William Sproat"
+      },
+      "date": {
+        "id": "26 Oktober 1831 M",
+        "en": "October 26, 1831 AD"
+      },
+      "flash": {
+        "id": "Seorang buruh kapal tongkang berusia 60 tahun tewas setelah muntah cairan cucian beras dan sianosis hebat; kasus kolera asiatik resmi pertama di Britania.",
+        "en": "A 60-year-old keelboatman perished following violent rice-water vomiting and cyanosis; the first confirmed Asiatic cholera fatality on British soil."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Buruh Tongkang Sungai Wear",
+        "incubation": "Kurang dari 24 Jam",
+        "transmission": "Konsumsi air minum dari saluran pipa kayu tepi dermaga yang terkontaminasi limbah perahu"
+      },
+      "description": {
+        "id": "William Sproat, seorang buruh perahu tongkang (keelboatman) yang bekerja memuat batubara di muara Sungai Wear, jatuh sakit parah pada 23 Oktober 1831. Tiga hari kemudian, ia menghembuskan napas terakhir dengan gejala mengerikan: kram otot ekstrem, mata cekung, kulit membiru keabu-abuan, dan dehidrasi kilat. Dr. James Butler Clanny dan Dr. William Reid Clanny segera mengenali gejala tersebut sebagai 'Cholera Morbus Asiatik'. Kematian Sproat menandai titik balik sejarah medis Inggris: wabah misterius dari delta Gangga telah resmi mendarat di tanah Britania.",
+        "en": "William Sproat, a veteran keelboatman loading coal on the River Wear, fell violently ill on October 23, 1831. Within three days he succumbed to terrifying symptoms: agonizing muscle spasms, sunken eyes, ashen-blue skin, and catastrophic fluid loss. Dr. James Butler Clanny immediately recognized the hallmarks of 'Asiatic Cholera Morbus'. Sproat's death marked a grim turning point in British medical history: the dreaded scourge of the Ganges delta had officially planted itself on English soil."
+      },
+      "image": "/assets/images/cholera/wave-2/gbr/gbr_ch_02.jpg"
+    },
+    {
+      "id": "gbr-ch-03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Konspirasi Penolakan Para Saudagar Kapal",
+        "en": "The Merchants' Conspiracy of Denial"
+      },
+      "date": {
+        "id": "November 1831 M",
+        "en": "November 1831 AD"
+      },
+      "flash": {
+        "id": "Para pemilik tambang batubara dan pemilik kapal di Sunderland melobi keras menyangkal keberadaan kolera demi menghindari karantina pelabuhan yang merugikan bisnis.",
+        "en": "Sunderland coal barons and shipowners intensely lobbied to deny the cholera diagnosis to stave off commercially ruinous port quarantines."
+      },
+      "virusProfile": {
+        "agent": "Penyangkalan Krisis Berbasis Kepentingan Ekonomi",
+        "vector": "Tekanan Politik Pemilik Kapal & Media Lokal",
+        "incubation": "N/A",
+        "transmission": "Penundaan protokol isolasi pelabuhan mempercepat penyebaran tanpa hambatan ke kota-kota tetangga"
+      },
+      "description": {
+        "id": "Ketika kabar kematian Sproat menyebar, kepanikan ekonomi melanda kalangan elit Sunderland. Pengumuman status wabah berarti pelabuhan Sunderland akan dikenakan karantina total oleh London, yang akan melumpuhkan perdagangan batubara bernilai jutaan pound. Para saudagar kaya, pemilik kapal, dan sejumlah dokter yang dipengaruhi menggelar pertemuan umum di mana mereka mendeklarasikan bahwa penyakit tersebut hanyalah 'kolera biasa akibat cuaca dingin' dan sama sekali tidak menular. Penolakan bermotif ekonomi ini menunda langkah-langkah sanitasi darurat selama berminggu-minggu berharga.",
+        "en": "News of Sproat's death sparked immediate economic terror among Sunderland's commercial elite. A declared epidemic meant the Port of Sunderland would be subjected to total quarantine by London, paralyzing a lucrative coal trade. Prominent merchants, shipowners, and sympathetic doctors convened public meetings to brazenly declare the illness merely 'common English cholera from seasonal cold'. This commercially motivated denial delayed containment measures for vital weeks while infections multiplied silently."
+      },
+      "image": "/assets/images/cholera/wave-2/gbr/gbr_ch_03.jpg"
+    },
+    {
+      "id": "gbr-ch-04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Malam Natal Berdarah di Gateshead & Newcastle",
+        "en": "Christmas Eve Horror in Gateshead & Newcastle"
+      },
+      "date": {
+        "id": "Desember 1831 M",
+        "en": "December 1831 AD"
+      },
+      "flash": {
+        "id": "Pada Malam Natal 1831, kolera menyapu lorong-lorong kumuh Pipewellgate di Gateshead; puluhan warga tewas mendadak di tengah perayaan malam kudus.",
+        "en": "On Christmas Eve 1831, cholera exploded through the squalid Pipewellgate tenements of Gateshead; dozens died abruptly amidst holiday celebrations."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Lorong Pemukiman Padat Pipewellgate",
+        "incubation": "Beberapa Jam – 24 Jam",
+        "transmission": "Pencemaran sumur sempit dan selokan terbuka di tepi tebing Sungai Tyne"
+      },
+      "description": {
+        "id": "Dari Sunderland, kolera merayap ke hulu menyusuri lembah industri menuju Newcastle dan Gateshead di tepi Sungai Tyne. Pada malam tanggal 24 Desember 1831, sebuah ledakan klinis yang mengerikan menghantam Pipewellgate—gang sempit kumuh di Gateshead tempat para buruh tambang dan pembuat botol tinggal berjejal. Dalam waktu kurang dari 36 jam selama liburan Natal, lebih dari 60 warga yang sehat bugar tewas bersimbah cairan dehidrasi. Mayat-mayat terpaksa ditumpuk di gerobak salju karena gereja paroki kehabisan liang lahat.",
+        "en": "From Sunderland, cholera crept upriver through industrial valleys toward Newcastle and Gateshead along the River Tyne. On the night of December 24, 1831, an explosive outbreak struck Pipewellgate—a claustrophobic alleyway packed with glassworkers and pitmen. In under thirty-six hours over the Christmas holiday, more than sixty previously robust citizens died of violent dehydration. Corpses were stacked on open carts in the freezing snow as parish graveyards ran out of dug graves."
+      },
+      "image": "/assets/images/cholera/wave-2/gbr/gbr_ch_04.jpg"
+    },
+    {
+      "id": "gbr-ch-05",
+      "chapterNumber": 5,
+      "type": "standard",
+      "title": {
+        "id": "Skotlandia Terkepung: Pemukiman Tenement Glasgow",
+        "en": "Scotland Besieged: Glasgow's High-Density Tenements"
+      },
+      "date": {
+        "id": "Januari – Februari 1832 M",
+        "en": "January – February 1832 AD"
+      },
+      "flash": {
+        "id": "Kolera menunggangi kereta pos ke Edinburgh dan Glasgow; blok hunian bertingkat (tenement) tanpa sanitasi di Gorbals berubah menjadi jebakan maut.",
+        "en": "Cholera rode mail coaches to Edinburgh and Glasgow; unsanitized multi-story tenements in Gorbals turned into lethal biological traps."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Gedung Tenement Padat & Tangki Air Bersama",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Penggunaan tangki air kotor bersama dan pembuangan ember tinja dari jendela lantai atas"
+      },
+      "description": {
+        "id": "Pada Januari 1832, kolera menembus perbatasan Skotlandia di Haddington sebelum menerjang kota industri Glasgow yang berkembang pesat. Di distrik Gorbals dan Saltmarket, ribuan keluarga buruh pabrik tenun tinggal berdesakan di gedung-gedung bertingkat enam tanpa saluran pipa air bersih. Praktik membuang kotoran tinja langsung ke lorong sempit (closes) dan air sumur umum yang tercemar rembesan septic pit menciptakan kondisi penularan eksplosif. Lebih dari 3.000 warga Glasgow meregang nyawa dalam hitungan minggu pertama.",
+        "en": "By January 1832, cholera crossed the Scottish border at Haddington before besieging the textile metropolis of Glasgow. In the Gorbals and Saltmarket districts, thousands of weaver families were crammed into six-story tenement buildings lacking running water. The practice of tossing sewage directly into narrow alleyways ('closes') and drawing drinking water from wells contaminated by seepage created explosive infection vectors. Over 3,000 Glaswegians perished in the initial onslaught."
+      },
+      "image": "/assets/images/cholera/wave-2/gbr/gbr_ch_05.jpg"
+    },
+    {
+      "id": "gbr-ch-06",
+      "chapterNumber": 6,
+      "type": "standard",
+      "title": {
+        "id": "Dewan Kesehatan Pusat: Kalsium Karbonat & Doa Nasional",
+        "en": "Central Board of Health: Whitewash & National Fasting"
+      },
+      "date": {
+        "id": "Januari 1832 M",
+        "en": "January 1832 AD"
+      },
+      "flash": {
+        "id": "Pemerintah Privy Council membentuk Dewan Kesehatan Pusat; perintah melumuri rumah dengan kapur putih dan deklarasi Hari Doa Nasional gagal meredam wabah.",
+        "en": "The Privy Council established the Central Board of Health; decrees for lime whitewashing and a National Day of Fasting failed to halt the pathogen."
+      },
+      "virusProfile": {
+        "agent": "Intervensi Miasmatis Tradisional",
+        "vector": "Disinfektan Kapur & Asap Belerang",
+        "incubation": "N/A",
+        "transmission": "Kegagalan mengidentifikasi transmisi berbasis air membuat protokol pengapuran dinding tidak efektif"
+      },
+      "description": {
+        "id": "Menghadapi ancaman kolera yang kian mendekati ibukota, Dewan Pertimbangan Kerajaan (Privy Council) mendirikan Dewan Kesehatan Pusat (Central Board of Health). Karena masih terkungkung teori miasma kuno, dewan menginstruksikan dewan kesehatan paroki setempat untuk membakar ter dan belerang di persimpangan jalan serta melabur dinding gubuk-gubuk warga miskin dengan kapur putih (whitewash). Parlemen bahkan menetapkan 'Hari Puasa dan Doa Nasional' pada Maret 1832. Namun, karena tidak ada intervensi terhadap pasokan air minum yang tercemar tinja, langkah-langkah ini terbukti sia-sia.",
+        "en": "With cholera inexorably approaching the capital, the Privy Council established the Central Board of Health in London. Firmly anchored in miasma dogma, the board instructed local parish boards to burn tar and sulphur barrels at street intersections and whitewash the hovels of the poor with quicklime. Parliament even decreed a 'National Day of General Fasting and Humiliation' in March 1832. Because none of these measures addressed the contamination of domestic water supplies, the pathogen continued its relentless advance unimpeded."
+      },
+      "image": "/assets/images/cholera/wave-2/gbr/gbr_ch_06.jpg"
+    },
+    {
+      "id": "gbr-ch-07",
+      "chapterNumber": 7,
+      "type": "milestone",
+      "title": {
+        "id": "Invasi London: Penetrasi Dermaga Rotherhithe",
+        "en": "London Breached: The Rotherhithe Riverfront Ingress"
+      },
+      "date": {
+        "id": "10 – 14 Februari 1832 M",
+        "en": "February 10 – 14, 1832 AD"
+      },
+      "flash": {
+        "id": "Kolera akhirnya mencapai jantung kerajaan; kasus terkonfirmasi di kapal yang berlabuh di Rotherhithe, merambat cepat ke perkampungan kumuh tepi Sungai Thames.",
+        "en": "Cholera finally breached the heart of the empire; cases erupted aboard vessels moored at Rotherhithe, radiating rapidly through riverside slums."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Perkapalan Pesisir Sungai Thames",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Pencemaran lumpur pasang surut Sungai Thames dan air minum dermaga Southwark"
+      },
+      "description": {
+        "id": "Pada tanggal 10 Februari 1832, ketakutan terbesar warga London menjadi kenyataan. Kasus kolera pertama di metropolis dikonfirmasi di atas kapal yang berlabuh di Rotherhithe, di tepi selatan Sungai Thames. Dalam beberapa hari, penyakit itu menyeberang ke Limehouse, Southwark, dan Bermondsey. London saat itu dihuni lebih dari 1,5 juta jiwa tanpa sistem saluran pembuangan terpadu. Ribuan lubang tinja terbuka merembes langsung ke dalam lapisan tanah atau dibuang ke kanal-kanal pasang surut yang sama di mana perusahaan air minum swasta memompa air untuk warga kota.",
+        "en": "On February 10, 1832, London's worst nightmare unfolded. The first metropolitan cases were confirmed aboard ships anchored off Rotherhithe on the southern bank of the River Thames. Within days, the disease jumped to Limehouse, Southwark, and Bermondsey. London then held over 1.5 million inhabitants with no centralized sewerage infrastructure. Tens of thousands of overflowing cesspools seeped directly into surrounding groundwaters or emptied into tidal reaches where private water companies drew residential supplies."
+      },
+      "image": "/assets/images/cholera/wave-2/gbr/gbr_ch_07.jpg"
+    },
+    {
+      "id": "gbr-ch-08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Kawasan Kumuh Metropolis: St. Giles Rookery & Jacob's Island",
+        "en": "Metropolitan Slums: St. Giles Rookery & Jacob's Island"
+      },
+      "date": {
+        "id": "Musim Semi 1832 M",
+        "en": "Spring 1832 AD"
+      },
+      "flash": {
+        "id": "Di labirin kumuh St. Giles dan parit pembuangan pasang surut Jacob's Island di Bermondsey, laju kematian meledak di tengah kemiskinan ekstrem.",
+        "en": "In the labyrinthine rookeries of St. Giles and the tidal sewage ditch of Jacob's Island, mortality soared amidst squalid poverty."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Parit Pasang Surut Folly Ditch & Sumur Dangkal",
+        "incubation": "6 – 24 Jam",
+        "transmission": "Konsumsi langsung air dari parit pembuangan tinja oleh warga termiskin London"
+      },
+      "description": {
+        "id": "Kawasan 'Rookery of St. Giles' di pusat London dan 'Jacob's Island' di Bermondsey adalah lambang horor industrial. Di Jacob's Island, rumah-rumah kayu reyot bertengger di atas parit berlumpur yang dikenal sebagai Folly Ditch. Parit ini berfungsi sekaligus sebagai jamban umum dan satu-satunya sumber air minum bagi ribuan buruh miskin dan imigran Irlandia. Ketika seorang warga terinfeksi, seluruh parit menjadi sarang biakan Vibrio cholerae. Ratusan warga meregang nyawa di atas kasur jerami basah dalam kegelapan kamar-kamar sewaan yang lembap.",
+        "en": "The 'Rookery of St. Giles' in central London and 'Jacob's Island' in Bermondsey epitomized industrial misery. At Jacob's Island, ramshackle tenements leaned over a tidal mud ditch known as Folly Ditch, which served simultaneously as an open privy and the sole water source for thousands of impoverished laborers. Once seeded with cholera, the entire ditch became a churning reservoir of Vibrio cholerae. Hundreds died on sodden straw pallets inside windowless basement rooms."
+      },
+      "image": "/assets/images/cholera/wave-2/gbr/gbr_ch_08.jpg"
+    },
+    {
+      "id": "gbr-ch-09",
+      "chapterNumber": 9,
+      "type": "milestone",
+      "title": {
+        "id": "Kerusuhan Kolera Inggris: Teror Penculikan Mayat",
+        "en": "The British Cholera Riots: Anatomical Burking Terrors"
+      },
+      "date": {
+        "id": "Maret – Mei 1832 M",
+        "en": "March – May 1832 AD"
+      },
+      "flash": {
+        "id": "Massa pekerja di Liverpool, London, dan Manchester menyerang rumah sakit kolera, meyakini para dokter membunuh pasien miskin untuk dijual sebagai bahan bedah anatomi.",
+        "en": "Working-class mobs in Liverpool, London, and Manchester attacked cholera hospitals, convinced doctors were murdering the poor for anatomical dissection."
+      },
+      "virusProfile": {
+        "agent": "Keruntuhan Kepercayaan Publik & Kerusuhan Sosial",
+        "vector": "Kepanikan Histeria Pencuri Mayat (Burkers)",
+        "incubation": "N/A",
+        "transmission": "Penyerbuan ambulans dan pengangkutan paksa pasien kolera kembali ke rumah-rumah padat"
+      },
+      "description": {
+        "id": "Munculnya wabah kolera bertepatan dengan perdebatan sengit mengenai Undang-Undang Anatomi 1832 (Anatomy Act) dan skandal penculikan mayat Burke dan Hare. Ketakutan mendalam merasuki kelas buruh: mereka percaya bahwa rumah sakit kolera didirikan bukan untuk menyembuhkan, melainkan untuk 'membunuh' (burking) orang miskin agar dokter bedah memiliki pasokan kadaver untuk pembedahan. Di Liverpool, meletus delapan hari kerusuhan besar; ambulans kolera dihancurkan di jalanan, dokter dipukuli, dan pasien yang sekarat diselamatkan paksa oleh keluarga mereka, memicu gelombang infeksi baru.",
+        "en": "The cholera onslaught coincided with heated debates over the 1832 Anatomy Act and fresh memories of the Burke and Hare body-snatching scandals. Deep-seated class terror convinced laborers that cholera hospitals were slaughterhouses where doctors murdered the destitute to secure anatomical subjects. In Liverpool, eight days of violent riots erupted; cholera ambulances were smashed in the streets, medical men assaulted, and dying patients forcibly dragged back into crowded tenements, unleashing secondary transmission waves."
+      },
+      "image": "/assets/images/cholera/wave-2/gbr/gbr_ch_09.jpg"
+    },
+    {
+      "id": "gbr-ch-10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Pemakaman Kilat dan Kuburan Massal Kapur Sirih",
+        "en": "Quicklime Interments and Midnight Trench Burials"
+      },
+      "date": {
+        "id": "Musim Panas 1832 M",
+        "en": "Summer 1832 AD"
+      },
+      "flash": {
+        "id": "Otoritas paroki melarang tradisi melayat jenazah (wakes); penguburan cepat dalam peti berisi kapur tohor memicu kemarahan mendalam keluarga berduka.",
+        "en": "Parish authorities banned traditional wakes; rushed burials in coffins drenched with caustic quicklime stoked profound grief and popular rage."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kadaver Korban Dekomposisi Cepat",
+        "incubation": "N/A",
+        "transmission": "Kontak langsung dengan cairan tubuh mayat selama pembersihan jenazah tradisional"
+      },
+      "description": {
+        "id": "Untuk mencegah penularan dari jenazah yang membusuk sangat cepat di musim panas 1832, Dewan Paroki melarang upacara persemayaman dan pembacaan doa semalam suntuk (traditional wakes) yang lazim di kalangan komunitas imigran. Jenazah korban kolera diperintahkan untuk dikuburkan dalam waktu kurang dari 24 jam dengan peti mati disiram kapur tohor (quicklime) pekat di parit-parit makam massal tanpa nisan. Bagi masyarakat yang memegang teguh tradisi Kristen mengenai kebangkitan jasmani, pemakaman terburu-buru ini dianggap sebagai penistaan jiwa, memicu bentrokan berulang di gerbang pemakaman gereja.",
+        "en": "To forestall contagion from corpses that decomposed with unnatural speed in the summer heat of 1832, parish boards forbade traditional wake viewings common among immigrant communities. Cholera victims had to be buried within twenty-four hours in wooden boxes flooded with caustic quicklime and lowered into unmarked mass trenches. To a population fiercely committed to Christian rituals of bodily resurrection, these secretive, desanctified burials were viewed as spiritual sacrilege, sparking frequent scuffles at churchyard gates."
+      },
+      "image": "/assets/images/cholera/wave-2/gbr/gbr_ch_10.jpg"
+    },
+    {
+      "id": "gbr-ch-11",
+      "chapterNumber": 11,
+      "type": "side_story",
+      "title": {
+        "id": "Jurnal Kolera Exeter: Dokumentasi Dr. Thomas Shapter",
+        "en": "The Exeter Cholera Journal: Dr. Thomas Shapter's Record"
+      },
+      "date": {
+        "id": "Juli – Agustus 1832 M",
+        "en": "July – August 1832 AD"
+      },
+      "flash": {
+        "id": "Di kota Exeter di Devon, Dr. Thomas Shapter menyusun catatan epidemiologis bergambar pertama, memetakan korelasi antara topografi lembah, limbah, dan infeksi.",
+        "en": "In the Devon city of Exeter, Dr. Thomas Shapter compiled the first illustrated epidemiological record, mapping correlations between valley topography and disease."
+      },
+      "virusProfile": {
+        "agent": "Pencatatan Spasial Epidemiologi Awal",
+        "vector": "Distribusi Geografis Korban",
+        "incubation": "N/A",
+        "transmission": "Konsentrasi kasus di sepanjang saluran air kotor dataran rendah Exeter"
+      },
+      "description": {
+        "id": "Ketika kolera menyerang kota katedral Exeter di barat daya Inggris pada bulan Juli 1832, seorang dokter muda bernama Thomas Shapter mencatat setiap kematian dengan ketelitian ilmiah luar biasa. Ia mengamati bahwa korban kolera terkonsentrasi di dataran rendah dekat Sungai Exe dan saluran pembuangan limbah rumah potong hewan, sementara warga di perbukitan tinggi relatif selamat. Meskipun Shapter masih menafsirkan datanya melalui kacamata miasma udara lembah, peta dan grafik spasial yang ia terbitkan menjadi tonggak perintis yang kelak menginspirasi studi epidemiologi modern.",
+        "en": "When cholera assaulted the cathedral city of Exeter in southwest England in July 1832, a young physician named Thomas Shapter chronicled every casualty with meticulous scientific discipline. He observed that victims concentrated heavily in low-lying quarters near the River Exe and slaughterhouse runoff channels, while residents on elevated gravel hills remained unmolested. Although Shapter interpreted his data through valley miasma theories, his published spot maps and spatial charts became seminal precursors inspiring modern spatial epidemiology."
+      },
+      "image": "/assets/images/cholera/wave-2/gbr/gbr_ch_11.jpg"
+    },
+    {
+      "id": "gbr-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Jebakan Pasang Surut Sungai Thames: Perusahaan Air Swasta",
+        "en": "The Thames Tidal Trap: Private Waterworks Monopolies"
+      },
+      "date": {
+        "id": "Agustus – Oktober 1832 M",
+        "en": "August – October 1832 AD"
+      },
+      "flash": {
+        "id": "Perusahaan air swasta Southwark dan Lambeth memompa air pasang surut Sungai Thames yang penuh limbah tinja langsung ke pipa rumah tangga warga London.",
+        "en": "Private Southwark and Lambeth waterworks pumped tidal River Thames water, choked with raw sewage, straight into residential pipes across London."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Pipa Distribusi Air Perusahaan Swasta",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Penyaluran air sungai mentah tercemar tinja ke ribuan rumah tangga London Selatan"
+      },
+      "description": {
+        "id": "Pada paruh kedua tahun 1832, mortalitas di London selatan melonjak dua kali lipat dibanding wilayah utara. Penyebab yang tidak disadari pada saat itu adalah intake pipa perusahaan air swasta seperti Southwark Water Company dan Lambeth Waterworks. Mereka menyedot air dari Sungai Thames di titik-titik pasang surut yang berjarak hanya beberapa meter dari mulut saluran pembuangan kotoran kota. Air keruh kecokelatan yang disalurkan ke keran-keran rumah tangga dan tong air kayu di halaman belakang mengalirkan Vibrio cholerae dalam dosis infeksius tinggi langsung ke dapur warga.",
+        "en": "During the latter half of 1832, mortality in South London soared to twice that of the north. The unrecognized catalyst was the intake apparatus of commercial water monopolists like Southwark Water Company and Lambeth Waterworks. They pumped water from the tidal Thames only yards away from major metropolitan sewer outfalls. The brownish, foul-smelling fluid delivered through lead pipes into household cisterns and courtyard butts delivered heavy infectious doses of Vibrio cholerae directly into family larders."
+      },
+      "image": "/assets/images/cholera/wave-2/gbr/gbr_ch_12.jpg"
+    },
+    {
+      "id": "gbr-ch-13",
+      "chapterNumber": 13,
+      "type": "milestone",
+      "title": {
+        "id": "Batu Loncatan Irlandia: Kapal Emigran Atlantik",
+        "en": "The Irish Springboard: Transatlantic Emigrant Fleets"
+      },
+      "date": {
+        "id": "Musim Semi – Panas 1832 M",
+        "en": "Spring – Summer 1832 AD"
+      },
+      "flash": {
+        "id": "Dari Belfast, Dublin, dan Cork, kolera menyapu pulau Irlandia dan menaiki kapal-kapal emigran layar yang bersiap menyeberangi Samudra Atlantik menuju Quebec.",
+        "en": "From Belfast, Dublin, and Cork, cholera ravaged Ireland and boarded sailing emigrant ships preparing to traverse the Atlantic toward Quebec."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kapal Angkut Emigran Atlantik & Dermaga Irlandia",
+        "incubation": "1 – 5 Hari",
+        "transmission": "Pengangkutan penumpang dan barel air minum terinfeksi melintasi rute samudra ke Amerika Utara"
+      },
+      "description": {
+        "id": "Pada Maret 1832, kolera menyeberangi Laut Irlandia dan meletus di Belfast dan Dublin sebelum merambat ke Cork dan pelabuhan-pelabuhan barat. Kemiskinan ekstrem dan sistem kepemilikan tanah feodal di Irlandia membuat jutaan petani penyewa hidup dalam kondisi gizi buruk parah. Puluhan ribu warga Irlandia yang putus asa membeli tiket murah untuk menaiki kapal-kapal kargo kayu (emigrant packet ships) menuju Amerika Utara. Di dermaga Cork dan Derry, penumpang yang telah terpapar kolera menaiki kapal bersama tong-tong air minum pelabuhan, siap membawa pandemi melintasi Samudra Atlantik.",
+        "en": "In March 1832, cholera leaped the Irish Sea, striking Belfast and Dublin before spreading to Cork and western ports. Grinding rural poverty and absentee landlordism left tenant farmers severely malnourished. Tens of thousands of desperate Irish emigrants purchased steerage passage on timber packet ships bound for North America. At the quays of Cork and Derry, passengers incubating the bacillus boarded with port water barrels, ready to ferry the pandemic across the vast expanse of the Atlantic Ocean."
+      },
+      "image": "/assets/images/cholera/wave-2/gbr/gbr_ch_13.jpg"
+    },
+    {
+      "id": "gbr-ch-14",
+      "chapterNumber": 14,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Wabah 1831–32: Fajar Reformasi Sanitasi",
+        "en": "Legacy of the 1831–32 Epidemic: Dawn of Sanitary Reform"
+      },
+      "date": {
+        "id": "Akhir 1832 M",
+        "en": "End of 1832 AD"
+      },
+      "flash": {
+        "id": "Dengan 55.000 korban tewas di Britania Raya, bencana kolera mengguncang tatanan politik dan melahirkan cikal bakal reformasi kesehatan masyarakat modern.",
+        "en": "With 55,000 dead across Great Britain, the cholera shock destabilized political complacency and catalyzed the modern public health movement."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Penyebaran Skala Nasional Britania",
+        "incubation": "Beberapa Jam – 5 Hari",
+        "transmission": "Kebutuhan mendesak akan infrastruktur pipa air bersih dan pembuangan limbah terpusat"
+      },
+      "description": {
+        "id": "Ketika gelombang pertama kolera di Britania mereda pada akhir tahun 1832, tercatat lebih dari 55.000 warga Inggris, Skotlandia, dan Irlandia tewas. Wabah ini menyingkapkan kenyataan mengerikan dari urbanisasi tak terkendali dan kegagalan kapitalisme industri dalam menyediakan kebutuhan sanitasi dasar bagi kelas pekerja. Meskipun penyebab bakteriologis belum terungkap selama dua dekade berikutnya, trauma nasional tahun 1832 membuka jalan bagi Laporan Sanitasi Edwin Chadwick tahun 1842, Pembentukan Dewan Kesehatan Umum, dan akhirnya penyelidikan legendaris Dr. John Snow pada tahun 1854.",
+        "en": "When the first wave of cholera in Britain subsided in late 1832, over 55,000 citizens across England, Scotland, and Ireland were dead. The epidemic cruelly exposed the squalor of unregulated industrial urbanization and the failure of commercial enterprise to provide basic sanitation for the working class. Although the true bacteriological culprit remained veiled for another two decades, the profound national trauma of 1832 laid the groundwork for Edwin Chadwick's 1842 Sanitary Report, the Public Health Act, and ultimately Dr. John Snow's breakthrough in 1854."
+      },
+      "image": "/assets/images/cholera/wave-2/gbr/gbr_ch_14.jpg"
+    }
+  ]
+}

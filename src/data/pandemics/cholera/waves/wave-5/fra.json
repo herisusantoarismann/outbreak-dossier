@@ -1,0 +1,496 @@
+{
+  "sectorId": "FRA",
+  "waveIndex": 5,
+  "sectorName": {
+    "id": "Sektor FRA (Prancis & Mediterania Barat: Toulon, Marseille, Paris, & Revolusi Bakteriologi Pasteur // 1884–1893)",
+    "en": "Sector FRA (France & Western Mediterranean: Toulon, Marseille, Paris, & Pasteur's Bacteriological Revolution // 1884–1893)"
+  },
+  "coordinates": [
+    43.1242,
+    5.928
+  ],
+  "timeRange": "1884–1893",
+  "estimatedFatalities": "15,000–25,000 jiwa (Toulon, Marseille, Paris, & Lembah Seine)",
+  "chapters": [
+    {
+      "id": "fra_ch_01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Kapal Transpor La Sarthe & Penyusupan Pangkalan Angkatan Laut Toulon",
+        "en": "Naval Transport La Sarthe & The Infiltration of Toulon Dockyards"
+      },
+      "date": {
+        "id": "Juni 1884",
+        "en": "June 1884"
+      },
+      "flash": {
+        "id": "KOLERA ASIA MENEROBOS PRANCIS MELALUI ARMADA ANGKATAN LAUT TOULON DARI TONKIN; DOKTER MILITER AWALNYA MEMBANTAH SEBAGAI KOLIK MUSIM PANAS BIASA.",
+        "en": "ASIATIC CHOLERA BREACHES FRANCE ABOARD NAVAL FLEET FROM TONKIN; NAVAL SURGEONS INITIALLY DENY PATHOGEN AS HARMLESS SUMMER COLIC."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Pelaut angkatan laut, buruh galangan dok Toulon, dan barak artileri",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Penetrasi Maritim Vibrio cholerae Melalui Transpor Pasukan Kolonial",
+        "mutationType": {
+          "id": "Penetrasi Maritim Vibrio cholerae Melalui Transpor Pasukan Kolonial",
+          "en": "Maritime Penetration of Vibrio cholerae via Colonial Troop Transports"
+        },
+        "threatLevel": {
+          "id": "Sangat Kritis (Zona Barikade Militer & Pangkalan Armada Laut)",
+          "en": "Extremely Critical (Military Dockyards & Fleet Naval Base)"
+        },
+        "clinicalTarget": {
+          "id": "Pelaut angkatan laut, buruh galangan dok Toulon, dan barak artileri",
+          "en": "Naval sailors, Toulon shipyard laborers, and artillery barracks"
+        }
+      },
+      "description": {
+        "id": "Pada tanggal 4 Juni 1884, kapal transpor militer Angkatan Laut Prancis La Sarthe merapat di pelabuhan militer Toulon setelah berlayar pulang dari kancah Perang Tonkin (Indochina Prancis). Selama pelayaran melintasi Samudra Hindia dan Laut Merah, sejumlah kelasi terserang diare cair hebat, namun dokter militer kapal menolak mencatatnya sebagai kolera demi menghindari karantina panjang yang merugikan. Ketika kapal berlabuh, air got kapal dan pakaian kotor para serdadu dibersihkan di galangan kapal dok Saint-Mandrier. Dalam waktu kurang dari dua pekan, para pelaut di Rumah Sakit Angkatan Laut Sainte-Anne mulai berjatuhan dengan dehidrasi sianotik akut. Otoritas maritim dan Dewan Kesehatan Toulon awalnya bersikeras melabeli wabah sebagai 'choléra nostras' (kolik musiman jinak), menolak mengakui bahwa galur mematikan Asia telah mendarat di tanah Prancis.",
+        "en": "On June 4, 1884, French Navy transport vessel La Sarthe docked at the Toulon naval arsenal following its voyage from the Tonkin War theater in French Indochina. During its crossing through the Indian Ocean and the Red Sea, multiple seamen had suffered violent watery diarrhea, yet naval ship surgeons refused to log cholera to avert crippling quarantines. Upon dropping anchor, bilge washings and soiled sailors' linens were discharged into the Saint-Mandrier dockyards. Within a fortnight, sailors admitted to the Sainte-Anne Naval Hospital collapsed into acute cyanotic dehydration. Toulon's maritime authorities and Health Board stubbornly classified the outbreak as 'choléra nostras' (benign seasonal colic), refusing to admit that the deadly Asiatic scourge had penetrated the soil of France."
+      },
+      "image": "/assets/images/cholera/wave-5/fra/fra_ch_01.jpg"
+    },
+    {
+      "id": "fra_ch_02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Eksodus Kereta PLM & Teror Sepanjang Jalur Paris-Lyon-Méditerranée",
+        "en": "The PLM Railway Exodus & Terror Along the Paris-Lyon-Méditerranée Trunk"
+      },
+      "date": {
+        "id": "Awal Juli 1884",
+        "en": "Early July 1884"
+      },
+      "flash": {
+        "id": "50.000 WARGA MARSEILLE DAN TOULON MEMBANJIRI GERBONG KERETA API MENUJU UTARA; KOTA-KOTA PROVENÇAL MENDIRIKAN KOTAK PENGASAPAN ASAM KARBOLAT.",
+        "en": "50,000 CITIZENS OF MARSEILLE AND TOULON SWARM NORTHBOUND TRAINS; PROVENÇAL TOWNS ERECT CARBOLIC ACID FUMIGATION CUBICLES."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Penumpang kereta api kelas tiga, keluarga pengungsi, dan petugas stasiun",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Vektor Lokomotif Uap Jalur Cepat Rel Paris-Lyon-Méditerranée",
+        "mutationType": {
+          "id": "Vektor Lokomotif Uap Jalur Cepat Rel Paris-Lyon-Méditerranée",
+          "en": "Steam Locomotive Rapid-Transit Vector on Paris-Lyon-Méditerranée Trunk"
+        },
+        "threatLevel": {
+          "id": "Kritis (Penyebaran Masif Antar-Kota Tanpa Karantina Efektif)",
+          "en": "Critical (Mass Intercity Dispersion Without Effective Containment)"
+        },
+        "clinicalTarget": {
+          "id": "Penumpang kereta api kelas tiga, keluarga pengungsi, dan petugas stasiun",
+          "en": "Third-class rail passengers, refugee families, and station attendants"
+        }
+      },
+      "description": {
+        "id": "Ketika kematian harian di Toulon menembus 40 jiwa per hari dan kabar infeksi merembes ke pelabuhan tetangga Marseille, gelombang kepanikan liar meledak. Stasiun kereta api Marseille-Saint-Charles diserbu puluhan ribu warga kaya dan kelas menengah yang berebut tiket menuju Paris, Lyon, dan Swiss. Jalur rel legendaris Compagnie du PLM (Paris-Lyon-Méditerranée) bertransformasi menjadi koridor penularan massal berkecepatan tinggi. Di stasiun-stasiun perantara seperti Avignon, Arles, dan Valence, penduduk lokal yang ketakutan memasang barikade di peron. Penumpang dipaksa masuk ke dalam kotak kayu sempit untuk 'disinfeksi' dengan asap belerang dan uap asam karbolat yang membakar mata serta tenggorokan—sebuah ilusi higienis abad ke-19 yang sama sekali tidak mampu membunuh vibrio di dalam lumen usus para pembawa asimtomatik.",
+        "en": "As daily fatalities in Toulon crossed 40 and news of infection crept into the neighboring metropolis of Marseille, wild terror detonated across the coast. Marseille-Saint-Charles railway station was mobbed by tens of thousands of affluent and middle-class residents fighting for tickets north toward Paris, Lyon, and Switzerland. The trunk line of the Compagnie du PLM (Paris-Lyon-Méditerranée) became an express transmission conduit. At intermediary stops like Avignon, Arles, and Valence, terrified local inhabitants barricaded station platforms. Passengers were herded into claustrophobic wooden chambers to be 'disinfected' with sulfur smoke and boiling carbolic acid fumes that scorched eyes and throats—a 19th-century sanitary illusion powerless against the vibriones multiplying inside the intestinal lumens of asymptomatic carriers."
+      },
+      "image": "/assets/images/cholera/wave-5/fra/fra_ch_02.jpg"
+    },
+    {
+      "id": "fra_ch_03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Kantung Kematian Marseille: Vieux-Port, Hôpital du Pharo, & Api Belerang",
+        "en": "Marseille's Death Pocket: Vieux-Port, Hôpital du Pharo, & Sulfur Bonfires"
+      },
+      "date": {
+        "id": "Juli–Agustus 1884",
+        "en": "July–August 1884"
+      },
+      "flash": {
+        "id": "LEBIH DARI 1.800 JIWA TUMBANG DI GANG SEMPIT MARSEILLE; API BELERANG MENYALA SIANG MALAM DI TEPI VIEUX-PORT MENUTUPI BAU MAUT.",
+        "en": "OVER 1,800 LIVES PERISH IN MARSEILLE'S ALLEYWAYS; SULFUR BONFIRES BURN DAY AND NIGHT ALONG VIEUX-PORT TO MASK THE ODOR OF DEATH."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Buruh pelabuhan, pembuat sabun, nelayan Vieux-Port, dan kaum papa",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Transmisi Urban Fekal-Oral Melalui Got Terbuka dan Sumur Tercemar",
+        "mutationType": {
+          "id": "Transmisi Urban Fekal-Oral Melalui Got Terbuka dan Sumur Tercemar",
+          "en": "Fecal-Oral Urban Transmission via Open Gutters and Tainted Wellheads"
+        },
+        "threatLevel": {
+          "id": "Maksimal (Kolaps Sanitasi Pelabuhan Mediterania)",
+          "en": "Maximum (Sanitary Collapse of Mediterranean Port Capital)"
+        },
+        "clinicalTarget": {
+          "id": "Buruh pelabuhan, pembuat sabun, nelayan Vieux-Port, dan kaum papa",
+          "en": "Dockworkers, soapers, Vieux-Port fishermen, and the urban destitute"
+        }
+      },
+      "description": {
+        "id": "Di Marseille, kolera menghantam labirin gang sempit distrik Panier dan perumahan padat buruh pelabuhan di sekitar Vieux-Port. Kanal Marseille yang mengalirkan air Sungai Durance tercemar oleh rembesan kotoran manusia, sementara got-got terbuka mengalirkan muntahan penderita langsung ke laut pelabuhan. Rumah Sakit Hôpital du Pharo dan Hôpital de la Conception dibanjiri ratusan pasien yang kejang-kejang setiap hari; lorong rumah sakit diubah menjadi bangsal darurat bertilam jerami berlumuran feses air cucian beras. Menghadapi kepanikan publik, Dewan Kota membakar berton-ton belerang di setiap persimpangan jalan dan menembakkan meriam artileri ke udara dengan harapan 'menggetarkan dan memurnikan atmosfer miasma'. Antara Juli dan September 1884, Marseille menguburkan 1.777 korban jiwa dalam kuburan massal Saint-Pierre.",
+        "en": "In Marseille, cholera pulverized the cramped alleyways of the Panier district and the crowded tenements around the Vieux-Port. The Canal de Marseille, ferrying Durance River water into city fountains, was contaminated by cesspool seepage, while open street gutters channeled ricewater emesis straight into the harbour basin. The Hôpital du Pharo and Hôpital de la Conception were overwhelmed by hundreds of convulsing patients daily; corridors were converted into makeshift wards lined with feces-soaked straw mattresses. In a futile bid to quell public hysteria, the municipal council ignited tons of sulfur at street corners and fired naval artillery into the sky to 'disrupt and purify atmospheric miasmas.' Between July and September 1884, Marseille buried 1,777 victims in the mass lime pits of Saint-Pierre Cemetery."
+      },
+      "image": "/assets/images/cholera/wave-5/fra/fra_ch_03.jpg"
+    },
+    {
+      "id": "fra_ch_04",
+      "chapterNumber": 4,
+      "type": "side_story",
+      "title": {
+        "id": "Misi Institut Pasteur: Roux, Straus, & Nocard di Rumah Sakit Toulon",
+        "en": "The Pasteur Institute Mission: Roux, Straus, & Nocard at Toulon Hospitals"
+      },
+      "date": {
+        "id": "Agustus 1884",
+        "en": "August 1884"
+      },
+      "flash": {
+        "id": "LOUIS PASTEUR MENGUTUS TIGA MURID UTAMANYA KE MEDAN MAUT TOULON DENGAN MIKROSKOP DAN KALDU BIAKAN UNTUK MENANTANG POSTULAT KOCH.",
+        "en": "LOUIS PASTEUR DISPATCHES THREE CHIEF DISCIPLES TO TOULON'S DEATH ZONE ARMED WITH MICROSCOPES AND BOUILLON TO TEST KOCH'S POSTULATES."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Biopsi mukosa ileum, darah vena, dan cairan peritoneum kadaver",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Investigasi Laboratorium Lapangan Bakteriologi Komparatif",
+        "mutationType": {
+          "id": "Investigasi Laboratorium Lapangan Bakteriologi Komparatif",
+          "en": "Comparative Bacteriological Field Laboratory Investigation"
+        },
+        "threatLevel": {
+          "id": "Tinggi (Paparan Infeksi Laboratorium Otopsi Mandiri)",
+          "en": "High (Direct Autopsy Exposure and In-Vitro Pathogen Handling)"
+        },
+        "clinicalTarget": {
+          "id": "Biopsi mukosa ileum, darah vena, dan cairan peritoneum kadaver",
+          "en": "Ileal mucosal biopsies, venous blood, and peritoneal fluids of cadavers"
+        }
+      },
+      "description": {
+        "id": "Di Paris, Louis Pasteur yang terbakar rasa penasaran ilmiah sekaligus persaingan sengit dengan Robert Koch segera membentuk komisi investigasi. Tiga peneliti muda berbakat—Émile Roux, Isidore Straus, dan dokter hewan Edmond Nocard—dikirim ke medan wabah di Toulon dan Marseille membawa mikroskop Reichert, oven sterilisasi, dan tabung kaldu pepton. Di kamar mayat Rumah Sakit Sainte-Anne yang mencekam, mereka melakukan puluhan otopsi beruntun. Straus dan Roux berulang kali menemukan basil melengkung yang persis dideskripsikan Koch di Mesir dan India di dalam mukosa usus. Kendati Pasteur awalnya berharap menemukan agen kolera di dalam peredaran darah, pengamatan langsung Roux dan Straus membuktikan bahwa kuman ini hidup secara lokal di lumen usus manusia, mengukuhkan kebenaran penemuan Koch di mata komunitas ilmiah Prancis.",
+        "en": "In Paris, Louis Pasteur, spurred by scientific fervor and fierce national rivalry with Robert Koch, organized an emergency laboratory commission. Three brilliant young researchers—Émile Roux, Isidore Straus, and veterinary scientist Edmond Nocard—were dispatched to the plague zones of Toulon and Marseille equipped with Reichert microscopes, sterilizing autoclaves, and peptone broths. Inside the sweltering autopsy rooms of Sainte-Anne Hospital, they performed dozens of rapid autopsies. Straus and Roux repeatedly identified the comma-shaped bacillus precisely matching Koch's discoveries in Egypt and India within intestinal scrapings. Although Pasteur had initially hypothesized a bloodborne septic pathogen, Roux and Straus's direct microscopic observations proved the vibrio colonized the intestinal mucosa locally, confirming Koch's triumph before the French scientific establishment."
+      },
+      "image": "/assets/images/cholera/wave-5/fra/fra_ch_04.jpg"
+    },
+    {
+      "id": "fra_ch_05",
+      "chapterNumber": 5,
+      "type": "milestone",
+      "title": {
+        "id": "Serangan Musim Dingin Paris: Salpêtrière, Saint-Denis, & Paul Brouardel",
+        "en": "Paris Winter Siege: Salpêtrière, Saint-Denis, & Paul Brouardel"
+      },
+      "date": {
+        "id": "November 1884",
+        "en": "November 1884"
+      },
+      "flash": {
+        "id": "KOLERA MENYUSUP KE IBU KOTA LEWAT KANAL DAN BARAK PEKERJA; PROFESOR BROUARDEL MEMIMPIN MOBILISASI HIGIENE PUBLIK.",
+        "en": "CHOLERA SLIPS INTO CAPITAL THROUGH CANALS AND SLUMS; PROFESSOR BROUARDEL HEADS PUBLIC HYGIENE MOBILIZATION."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Pasien psikiatri Salpêtrière, pemulung Saint-Denis, dan pekerja kanal",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Kluster Nosokomial dan Pemukiman Kumuh Tepian Sungai Seine",
+        "mutationType": {
+          "id": "Kluster Nosokomial dan Pemukiman Kumuh Tepian Sungai Seine",
+          "en": "Nosocomial Clusters and Riparian Slums Along the River Seine"
+        },
+        "threatLevel": {
+          "id": "Kritis (Ancaman Penularan Luas di Ibu Kota Berpenduduk 2,2 Juta)",
+          "en": "Critical (Epidemic Threat Across Capital of 2.2 Million Inhabitants)"
+        },
+        "clinicalTarget": {
+          "id": "Pasien psikiatri Salpêtrière, pemulung Saint-Denis, dan pekerja kanal",
+          "en": "Salpêtrière psychiatric wards, Saint-Denis ragpickers, and barge workers"
+        }
+      },
+      "description": {
+        "id": "Meskipun musim gugur membawa pendinginan cuaca, pada awal November 1884 vibrio berhasil menyusup ke jantung Paris. Kasus pertama muncul di asilum psikiatri Salpêtrière dan kawasan industri Saint-Denis di mana ribuan pekerja tinggal di gubuk tanpa sanitasi di tepi Kanal Saint-Martin. Profesor Paul Brouardel, Dekan Fakultas Kedokteran Paris dan Presiden Komite Konsultatif Higiene Publik Prancis, bertindak cepat. Menolak metode karantina abad pertengahan yang terbukti gagal, Brouardel memerintahkan pengawasan mikrobiologis terhadap seluruh reservoir air kota, melarang konsumsi air Sungai Seine yang tidak direbus, dan mendirikan stasiun disinfeksi uap bertekanan tinggi Geneste-Herscher di setiap arondisemen. Berkat tindakan cepat ini, wabah Paris 1884 berhasil diredam pada angka 960 kematian—jauh lebih rendah dibanding gelombang-gelombang dahsyat sebelumnya.",
+        "en": "Despite autumn chills, early November 1884 saw the vibrio slip into the core of Paris. The first virulent clusters erupted inside the female psychiatric wards of the Salpêtrière Hospital and the industrial tenements of Saint-Denis, where thousands of laborers lived without plumbing along the Saint-Martin Canal. Professor Paul Brouardel, Dean of the Paris Faculty of Medicine and President of the Consultative Committee of Public Hygiene, took command. Rejecting medieval cordons that had demonstrably failed, Brouardel ordered microbiological surveillance of municipal reservoirs, prohibited unboiled Seine tap water, and installed Geneste-Herscher pressurized steam autoclaves across every arrondissement. Thanks to rapid containment, Paris's 1884 outbreak was halted at 960 fatalities—a dramatic contrast to the catastrophic tolls of earlier pandemics."
+      },
+      "image": "/assets/images/cholera/wave-5/fra/fra_ch_05.jpg"
+    },
+    {
+      "id": "fra_ch_06",
+      "chapterNumber": 6,
+      "type": "standard",
+      "title": {
+        "id": "Krisis Valencia & Evaluasi Vaksin Ferrán oleh Delegasi Prancis",
+        "en": "The Valencia Crisis & Evaluation of Ferrán's Vaccine by French Mission"
+      },
+      "date": {
+        "id": "Juli 1885",
+        "en": "July 1885"
+      },
+      "flash": {
+        "id": "DOKTER SPANYOL JAIME FERRÁN MENGKLAIM MENCIPTAKAN VAKSIN KOLERA PERTAMA DI DUNIA; BROUARDEL MEMIMPIN INVESTIGASI KRITIS KE VALENCIA.",
+        "en": "SPANISH PHYSICIAN JAIME FERRÁN CLAIMS WORLD'S FIRST CHOLERA VACCINE; BROUARDEL LEADS CRITICAL SCIENTIFIC MISSION TO VALENCIA."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Populasi sipil Spanyol yang divaksinasi dan kelinci percobaan laboratorium",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Kultur Kaldu Hidup Vibrio cholerae untuk Imunisasi Eksperimental",
+        "mutationType": {
+          "id": "Kultur Kaldu Hidup Vibrio cholerae untuk Imunisasi Eksperimental",
+          "en": "Live Vibrio cholerae Broth Cultures for Experimental Inoculation"
+        },
+        "threatLevel": {
+          "id": "Substansial (Kontroversi Reaksi Toksik dan Standardisasi Dosis)",
+          "en": "Substantial (Controversy over Toxic Inoculation Reactions & Dosing)"
+        },
+        "clinicalTarget": {
+          "id": "Populasi sipil Spanyol yang divaksinasi dan kelinci percobaan laboratorium",
+          "en": "Inoculated Spanish civilian populations and laboratory test animals"
+        }
+      },
+      "description": {
+        "id": "Pada musim panas 1885, kolera meledak di Semenanjung Iberia, merenggut lebih dari 100.000 jiwa di Spanyol. Dari Valencia, seorang dokter muda bernama Dr. Jaime Ferrán mengguncang dunia medis internasional dengan mengumumkan bahwa ia telah mengembangkan vaksin kolera hidup pertama di dunia dengan menyuntikkan biakan vibrio murni ke 30.000 sukarelawan. Pemerintah Prancis segera mengirim delegasi resmi yang dipimpin Profesor Paul Brouardel untuk memverifikasi klaim tersebut. Brouardel tiba di Valencia dan meminta memeriksa biakan Ferrán, namun sang dokter Spanyol menolak mengungkap teknik pelemahan kumannya dengan alasan kerahasiaan paten. Brouardel menerbitkan laporan pedas di Paris yang mengecam kurangnya standarisasi bakteriologis dan kemunculan abses parah pada pasien, memicu perdebatan sengit tentang etika uji klinis vaksin di seluruh Eropa.",
+        "en": "In summer 1885, cholera detonated across the Iberian Peninsula, taking over 100,000 lives in Spain. From Valencia, a young Catalan physician, Dr. Jaime Ferrán, startled the medical world by announcing the first human live cholera vaccine, having inoculated over 30,000 citizens with attenuated vibrio broth. The French government dispatched an official delegation led by Professor Paul Brouardel to audit the claims. Brouardel arrived in Valencia demanding to examine Ferrán's pure cultures, but the Spanish doctor refused to disclose his precise attenuation formula, citing intellectual secrecy. Brouardel published a scathing critique in Paris denouncing the lack of bacteriological standardization and the frequency of agonizing phlegmons and abscesses, igniting a fiery European debate over vaccine ethics and methodology."
+      },
+      "image": "/assets/images/cholera/wave-5/fra/fra_ch_06.jpg"
+    },
+    {
+      "id": "fra_ch_07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Transformasi Air Paris: Jaringan Ganda Eugène Belgrand & Akueduk Avre",
+        "en": "Paris Water Transformation: Belgrand's Dual Network & Avre Aqueduct"
+      },
+      "date": {
+        "id": "1886–1891",
+        "en": "1886–1891"
+      },
+      "flash": {
+        "id": "INSINYUR PARIS MEMBANGUN JARINGAN AIR DUA KELAS: AIR MATA AIR PEGUNUNGAN UNTUK DIMINUM DAN AIR SUNGAI SEINE UNTUK PEMBERSIH KOTA.",
+        "en": "PARIS ENGINEERS EXPAND TWO-TIER WATER GRID: PRISTINE MOUNTAIN SPRING WATER FOR DRINKING AND RAW SEINE WATER FOR STREET CLEANING."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Reservoir Montsouris, Menilmontant, dan sistem pipa perumahan warga Paris",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pemisahan Mutlak Hidrolik Air Baku Konsumsi vs. Air Teknis Kota",
+        "mutationType": {
+          "id": "Pemisahan Mutlak Hidrolik Air Baku Konsumsi vs. Air Teknis Kota",
+          "en": "Absolute Hydraulic Segregation of Potable Springs vs. Industrial Raw Water"
+        },
+        "threatLevel": {
+          "id": "Terkendali (Pencegahan Rekayasa Infrastruktur Sanitasi Modern)",
+          "en": "Controlled (Preventative Modern Sanitary Infrastructure Engineering)"
+        },
+        "clinicalTarget": {
+          "id": "Reservoir Montsouris, Menilmontant, dan sistem pipa perumahan warga Paris",
+          "en": "Montsouris and Menilmontant reservoirs, and domestic plumbing feeds"
+        }
+      },
+      "description": {
+        "id": "Belajar dari wabah 1884, Dewan Kota Paris dan Prefektur Seine mengalokasikan puluhan juta franc untuk menuntaskan visi almarhum insinyur Eugène Belgrand: pemisahan mutlak antara air minum ('eau de source') dan air industri pembersih jalan ('eau de rivière'). Pembangunan Akueduk Avre sepanjang 102 kilometer dipercepat untuk menyalurkan mata air murni dari perbukitan Normandia langsung ke reservoir tertutup Montretout di Saint-Cloud. Namun, kelemahan fatal sistem ganda ini tetap mengintai: jika musim kemarau mengeringkan debit mata air, operator saluran kota diam-diam memutar katup darurat, memompa air Sungai Seine atau Marne yang tercemar limbah ke dalam pipa rumah tangga—sebuah jebakan mikrobiologis yang sewaktu-waktu siap meledak.",
+        "en": "Drawing hard lessons from 1884, the Paris Municipal Council and the Seine Prefecture invested tens of millions of francs to finalize the visionary infrastructure of late engineer Eugène Belgrand: absolute segregation between potable spring water ('eau de source') and industrial street-cleaning water ('eau de rivière'). Construction of the 102-kilometer Avre Aqueduct was accelerated to channel pristine subterranean springs from Normandy hills directly into covered reservoirs at Saint-Cloud. Yet a fatal flaw haunted this dual grid: whenever summer droughts depleted spring supplies, municipal engineers covertly turned emergency bypass sluices, pumping raw sewage-tainted Seine or Marne water into residential household taps—a microbial time bomb awaiting detonation."
+      },
+      "image": "/assets/images/cholera/wave-5/fra/fra_ch_07.jpg"
+    },
+    {
+      "id": "fra_ch_08",
+      "chapterNumber": 8,
+      "type": "milestone",
+      "title": {
+        "id": "Wabah Musim Semi 1892: Penjara Nanterre & Ladang Pembuangan Tinja Gennevilliers",
+        "en": "Spring 1892 Outbreak: Nanterre Prison & Gennevilliers Sewage Fields"
+      },
+      "date": {
+        "id": "April 1892",
+        "en": "April 1892"
+      },
+      "flash": {
+        "id": "KOLERA MUNCUL KEMBALI DI HULU DAN HILIR SEINE; PENJARA NANTERRE MENJADI TITIK NOL PENYEBARAN DENGAN 50 KEMATIAN MENDADAK.",
+        "en": "CHOLERA RESURFACES UPSTREAM AND DOWNSTREAM SEINE; NANTERRE PRISON BECOMES GROUND ZERO WITH 50 SUDDEN FATALITIES."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Tahanan penjara Nanterre, petani Gennevilliers, dan pemukim pinggiran barat",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Kontaminasi Aluvial Airtanah Akibat Irigasi Tinja Kasar Paris",
+        "mutationType": {
+          "id": "Kontaminasi Aluvial Airtanah Akibat Irigasi Tinja Kasar Paris",
+          "en": "Alluvial Groundwater Contamination via Raw Urban Sewage Irrigation"
+        },
+        "threatLevel": {
+          "id": "Sangat Kritis (Penyebaran Agresif di Komunitas Lembah Seine Bawah)",
+          "en": "Extremely Critical (Aggressive Spread in Lower Seine Valley Communes)"
+        },
+        "clinicalTarget": {
+          "id": "Tahanan penjara Nanterre, petani Gennevilliers, dan pemukim pinggiran barat",
+          "en": "Nanterre prison inmates, Gennevilliers farmers, and western suburbs"
+        }
+      },
+      "description": {
+        "id": "Pada awal April 1892, beberapa bulan sebelum tragedi Hamburg meletus, kolera diam-diam menyala di pinggiran barat Paris. Titik ledakan pertama adalah Maison de Répression de Nanterre—penjara dan asilum penampung ribuan tunawisma dan pengemis. Dalam waktu 48 jam, 50 narapidana meninggal dalam kondisi tubuh membiru dan kaku. Penyelidikan mengungkapkan bahwa sumur penjara menyedot air dari lapisan akuifer yang bersinggungan langsung dengan ladang irigasi tinja mentah Gennevilliers, tempat seluruh air limbah toilet kota Paris disemprotkan ke tanah pertanian. Dari Nanterre, infeksi merembes ke sepanjang belokan Sungai Seine: Asnières, Argenteuil, dan Saint-Denis. Sekali lagi, Paris dihadapkan pada kenyataan bahwa air sungai kebanggaannya adalah sup bakteri yang mematikan.",
+        "en": "In early April 1892, months before the Hamburg catastrophe erupted, cholera ignited silently in Paris's western suburbs. Ground zero was the Maison de Répression de Nanterre—a vast prison and shelter housing thousands of vagrants and paupers. Within 48 hours, 50 inmates died in cyanotic agony. Epidemiological probes revealed the prison's deep wells tapped an alluvial aquifer saturated by runoff from the Gennevilliers sewage fields, where millions of gallons of Paris's untreated wastewater were sprayed onto farm fields. From Nanterre, infection trickled along the serpentine loops of the Seine: Asnières, Argenteuil, and Saint-Denis. Once again, Paris confronted the bitter truth that its celebrated river was a lethal microbial soup."
+      },
+      "image": "/assets/images/cholera/wave-5/fra/fra_ch_08.jpg"
+    },
+    {
+      "id": "fra_ch_09",
+      "chapterNumber": 9,
+      "type": "standard",
+      "title": {
+        "id": "Konspirasi Bahasa 'Cholerine' & Penyangkalan Prefektur Seine",
+        "en": "The 'Cholerine' Semantic Conspiracy & Prefectural Denial"
+      },
+      "date": {
+        "id": "Juli–September 1892",
+        "en": "July–September 1892"
+      },
+      "flash": {
+        "id": "OTORITAS PRANCIS MENOLAK KATA 'CHOLÉRA' DEMI MELINDUNGI PERDAGANGAN DAN PARIWISATA, MEMAKAI ISTILAH EFEFEMISTIK 'CHOLÉRINE'.",
+        "en": "FRENCH AUTHORITIES CENSOR THE WORD 'CHOLÉRA' TO SHIELD COMMERCE AND TOURISM, ENFORCING THE EUPHEMISM 'CHOLÉRINE'."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Konsumen air minum kota, pengunjung restoran, dan kaum proletar Paris",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Penyangkalan Diagnostik Klinis Berbasis Kepentingan Ekonomi Politik",
+        "mutationType": {
+          "id": "Penyangkalan Diagnostik Klinis Berbasis Kepentingan Ekonomi Politik",
+          "en": "Politico-Economic Diagnostic Suppression and Misclassification"
+        },
+        "threatLevel": {
+          "id": "Tinggi (Ketiadaan Kewaspadaan Publik Mengakibatkan Kematian Tersembunyi)",
+          "en": "High (Suppression of Public Warnings Fueling Hidden Mortality)"
+        },
+        "clinicalTarget": {
+          "id": "Konsumen air minum kota, pengunjung restoran, dan kaum proletar Paris",
+          "en": "Municipal tap water consumers, restaurant patrons, and Parisian proletariat"
+        }
+      },
+      "description": {
+        "id": "Ketika ratusan warga Paris mulai tewas akibat diare dehidrasi hebat pada musim panas 1892, Prefek Polisi dan Kementerian Dalam Negeri melarang rumah sakit dan pers menggunakan istilah 'choléra asiatique'. Mereka memaksakan penggunaan eufemisme medis 'cholérine' atau 'catarrhe gastro-intestinal aigu' demi melindungi perdagangan ritel, hotel, dan reputasi internasional ibu kota menjelang pameran dagang. Di laboratorium mikroskopis Rumah Sakit Necker dan Hôtel-Dieu, para dokter muda memeriksa feses pasien dan dengan jelas mengamati basil koma yang berenang aktif, namun sertifikat kematian tetap dipalsukan atas instruksi birokrasi. Baru ketika Hamburg hancur lebur pada akhir Agustus 1892, pers independen seperti Le Figaro membongkar konspirasi kebohongan ini, memaksa pemerintah mengakui bahwa Paris tengah dicengkeram epidemi kolera sejati.",
+        "en": "As hundreds of Parisians succumbed to violent dehydrating diarrhea in the blistering summer of 1892, the Police Prefect and the Interior Ministry strictly barred hospitals and the press from uttering 'choléra asiatique.' They enforced the medical euphemism 'cholérine' or 'acute gastro-intestinal catarrh' to shield department store commerce, grand hotels, and national prestige ahead of planned expositions. In microscopic laboratories at Necker and Hôtel-Dieu hospitals, young clinicians examined stool samples and clearly witnessed swarming comma vibriones, yet death certificates were systematically falsified under administrative decree. Only when Hamburg collapsed in late August 1892 did independent dailies like Le Figaro shatter the official silence, forcing authorities to admit Paris was in the grip of authentic Asiatic cholera."
+      },
+      "image": "/assets/images/cholera/wave-5/fra/fra_ch_09.jpg"
+    },
+    {
+      "id": "fra_ch_10",
+      "chapterNumber": 10,
+      "type": "side_story",
+      "title": {
+        "id": "Laboratorium Rue Dutot: Haffkine, Metchnikoff, & Flora Usus",
+        "en": "Rue Dutot Laboratories: Haffkine, Metchnikoff, & Intestinal Flora"
+      },
+      "date": {
+        "id": "Juli 1892",
+        "en": "July 1892"
+      },
+      "flash": {
+        "id": "DI INSTITUT PASTEUR PARIS, WALDEMAR HAFFKINE MENGUJI VAKSIN PADA TUBUHNYA SENDIRI SEMENTARA METCHNIKOFF MEMINUM SUSPENSI BAKTERI.",
+        "en": "AT PARIS'S PASTEUR INSTITUTE, WALDEMAR HAFFKINE INOCULATES HIS OWN BODY WHILE METCHNIKOFF SWALLOWS VIBRIO SUSPENSIONS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Jaringan subkutan sukarelawan laboratorium dan sistem imunitas mukosa",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pengembangan Vaksin Kolera Hidup Teratenuasi Dua Tahap Haffkine",
+        "mutationType": {
+          "id": "Pengembangan Vaksin Kolera Hidup Teratenuasi Dua Tahap Haffkine",
+          "en": "Two-Stage Attenuated Live Cholera Vaccine Development by Haffkine"
+        },
+        "threatLevel": {
+          "id": "Eksperimental Ekstrem (Uji Coba Auto-Inokulasi Diri Sendiri)",
+          "en": "Extremely Experimental (Heroic Self-Inoculation Auto-Trials)"
+        },
+        "clinicalTarget": {
+          "id": "Jaringan subkutan sukarelawan laboratorium dan sistem imunitas mukosa",
+          "en": "Subcutaneous tissue of laboratory volunteers and mucosal immunity"
+        }
+      },
+      "description": {
+        "id": "Di gedung megah Institut Pasteur di Rue Dutot, para perintis mikrobiologi melancarkan perlawanan ilmiah paling dramatis abad ke-19. Élie Metchnikoff, pelopor teori fagositosis, meminum kultur cair kolera bersama asistennya untuk meneliti mengapa beberapa individu terinfeksi fatal sementara yang lain kebal—menemukan bahwa mikroflora usus normal memegang peranan krusial dalam menekan kolonisasi patogen. Di laboratorium sebelahnya, Waldemar Haffkine, imigran muda jenius asal Odessa, berhasil menyempurnakan vaksin kolera hidup dua tahap yang dilemahkan dengan aliran udara panas. Pada 18 Juli 1892, tanpa memberitahu Pasteur, Haffkine menyuntikkan dosis masif vaksin tersebut ke jaringan bawah kulitnya sendiri. Mengalami demam tinggi dan nyeri parah selama enam hari namun berhasil bertahan hidup dengan antibodi protektif, Haffkine membuktikan keamanan vaksin yang kelak akan menyelamatkan puluhan ribu nyawa di India.",
+        "en": "Inside the grand brick laboratories of the Pasteur Institute on Rue Dutot, microbiological pioneers staged the most daring scientific defense of the 19th century. Élie Metchnikoff, pioneer of phagocytosis, swallowed live cholera cultures alongside his assistants to investigate why certain hosts perished while others showed no symptoms—discovering that normal intestinal microflora plays a crucial role in suppressing pathogenic colonization. In an adjoining lab, Waldemar Haffkine, a brilliant young émigré from Odessa, perfected a two-stage live cholera vaccine attenuated by heated airflow. On July 18, 1892, without informing Pasteur, Haffkine injected a massive dose of the living vaccine into his own subcutaneous tissue. Enduring six days of soaring fevers and acute inflammation before emerging fully immune, Haffkine proved the safety of the vaccine that would soon protect tens of thousands in India."
+      },
+      "image": "/assets/images/cholera/wave-5/fra/fra_ch_10.jpg"
+    },
+    {
+      "id": "fra_ch_11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Benteng Maritim Henri Monod & Barikade Pelabuhan Le Havre",
+        "en": "Henri Monod's Maritime Bastion & The Le Havre Port Barricades"
+      },
+      "date": {
+        "id": "1892–1893",
+        "en": "1892–1893"
+      },
+      "flash": {
+        "id": "DIREKTUR KESEHATAN HENRI MONOD MENDIRIKAN SISTEM PENGAWASAN BAKTERIOLOGI PELABUHAN; KAPAL DARI LAUT BALTIK DAN ELBE DIISOLASI KETAT.",
+        "en": "PUBLIC HEALTH DIRECTOR HENRI MONOD ERECTS BACTERIOLOGICAL HARBOUR DEFENSE; SHIPS FROM BALTIC AND ELBE RIGIDLY QUARANTINED."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Kelasi kapal kargo Jerman, imigran transit, dan buruh dok Le Havre",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Skrining Laboratorium Air Ballas dan Saluran Buang Kapal Uap Trans-Atlantik",
+        "mutationType": {
+          "id": "Skrining Laboratorium Air Ballas dan Saluran Buang Kapal Uap Trans-Atlantik",
+          "en": "Bacteriological Screening of Ballast Water and Bilges on Transatlantic Liners"
+        },
+        "threatLevel": {
+          "id": "Moderat (Intersepsi Ketat di Pintu Masuk Maritim Normandia)",
+          "en": "Moderate (Rigid Interception at Normandy Maritime Gateways)"
+        },
+        "clinicalTarget": {
+          "id": "Kelasi kapal kargo Jerman, imigran transit, dan buruh dok Le Havre",
+          "en": "German freight crews, transit emigrants, and Le Havre dockers"
+        }
+      },
+      "description": {
+        "id": "Ketika malapetaka Hamburg 1892 mengguncang Eropa, Direktur Bantuan dan Higiene Publik Prancis, Henri Monod, mengambil alih kendali perbatasan maritim. Di pelabuhan utama Samudra Atlantik seperti Le Havre, Rouen, dan Bordeaux, Monod menempatkan dokter-dokter terlatih bakteriologi Pasteur langsung di stasiun karantina pelabuhan. Setiap kapal uap yang tiba dari Sungai Elbe atau Laut Baltik dilarang membuang air ballas ke perairan pelabuhan. Air minum kapal diuji dengan kultur gelatin sebelum penumpang diizinkan mendarat; barang bawaan disterilkan dalam ruang uap bersuhu 115°C. Ketika ratusan kasus kolera sempat meletus di permukiman buruh pelabuhan Le Havre pada Agustus 1892, intervensi Monod yang menyediakan pasokan air suling gratis dan desinfeksi kimiawi cepat berhasil memutus rantai penularan dalam tempo tiga pekan.",
+        "en": "When the 1892 Hamburg catastrophe sent shockwaves across Europe, France's Director of Public Assistance and Hygiene, Henri Monod, took direct charge of maritime borders. At key Atlantic deep-water ports like Le Havre, Rouen, and Bordeaux, Monod stationed Pasteur-trained bacteriologists at harbour quarantine lazarettos. Every steamship arriving from the Elbe River or Baltic ports was prohibited from discharging ballast water into coastal basins. Onboard drinking tanks were sampled on gelatin plates before disembarkation; passengers' luggage was processed through 115°C steam autoclaves. When a localized cluster of cholera flared among Le Havre dockers in August 1892, Monod's aggressive deployment of free distilled drinking water and rapid chemical disinfection crushed the transmission chain within three weeks."
+      },
+      "image": "/assets/images/cholera/wave-5/fra/fra_ch_11.jpg"
+    },
+    {
+      "id": "fra_ch_12",
+      "chapterNumber": 12,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Pandemi Kelima: Dari Sanitasi Empiris Menuju Hukum Kesehatan Publik 1902",
+        "en": "Legacy of the Fifth Pandemic: From Empirical Sanitary Police to the 1902 Public Health Act"
+      },
+      "date": {
+        "id": "1894–1902",
+        "en": "1894–1902"
+      },
+      "flash": {
+        "id": "PANDEMI KELIMA MEMAKSA REPUBLIK KETIGA MENINGGALKAN TEORI MIASMA; HUKUM KESEHATAN PUBLIK 1902 MEWAJIBKAN FILTRASI AIR DAN VAKSINASI NASIONAL.",
+        "en": "THE FIFTH PANDEMIC FORCES THE THIRD REPUBLIC TO ABANDON MIASMA; THE 1902 PUBLIC HEALTH LAW MANDATES WATER FILTRATION AND NATIONAL SANITATION."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Seluruh populasi sipil Republik Prancis Ketiga dan tata ruang kota",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Institusionalisasi Hukum dan Rekayasa Kesehatan Masyarakat Modern",
+        "mutationType": {
+          "id": "Institusionalisasi Hukum dan Rekayasa Kesehatan Masyarakat Modern",
+          "en": "Institutionalization of Public Health Law and Environmental Sanitation"
+        },
+        "threatLevel": {
+          "id": "Terkendali Permanen (Eradikasi Bertahap Kolera Endemik Prancis)",
+          "en": "Permanently Controlled (Systematic Eradication of Endemic Cholera in France)"
+        },
+        "clinicalTarget": {
+          "id": "Seluruh populasi sipil Republik Prancis Ketiga dan tata ruang kota",
+          "en": "The entire civilian populace of the French Third Republic and urban planning"
+        }
+      },
+      "description": {
+        "id": "Gelombang Kelima Kolera (1884–1893) menjadi lonceng kematian bagi pendekatan miasma kuno di Prancis dan melahirkan era kedokteran preventif modern. Total korban di seluruh Prancis selama satu dekade diperkirakan antara 15.000 hingga 25.000 jiwa—sebuah penurunan spektakuler dibanding 140.000 korban pada tahun 1854. Tragedi Toulon, Marseille, dan Paris membuktikan bahwa kuman tidak membedakan status sosial dan pertahanan terbaik adalah infrastruktur air minum murni serta bakteriologi terapan. Puncak dari perjuangan satu dekade ini adalah disahkannya 'Loi du 15 février 1902 relative à la protection de la santé publique'—undang-undang monumental yang mewajibkan seluruh kota di Prancis menyambungkan rumah ke sistem pipa air bersih yang teruji bakteriologis, mewajibkan pelaporan penyakit menular, dan meletakkan dasar bagi sistem kesehatan masyarakat modern Prancis abad ke-20.",
+        "en": "The Fifth Cholera Pandemic (1884–1893) sounded the final death knell for outdated miasmatic doctrine across France and gave birth to modern preventive state medicine. The total death toll across France throughout the decade was estimated between 15,000 and 25,000—a dramatic decline from the 140,000 slaughter of 1854. The trials of Toulon, Marseille, and Paris proved pathogens recognize no social rank and that the ultimate defense lies in uncontaminated drinking water engineering and applied bacteriology. The culmination of this decade of struggle was the landmark enactment of the 'Loi du 15 février 1902 relative à la protection de la santé publique'—a monumental statute mandating that every French municipality connect homes to bacteriologically verified clean water, enforce compulsory infectious disease reporting, and establish the bedrock of 20th-century French public health."
+      },
+      "image": "/assets/images/cholera/wave-5/fra/fra_ch_12.jpg"
+    }
+  ]
+}

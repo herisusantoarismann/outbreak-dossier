@@ -1,0 +1,542 @@
+{
+  "sectorId": "IND",
+  "waveIndex": 5,
+  "sectorName": {
+    "id": "Sektor IND (India: Kolkata, Kultur Murni Koch & Vaksin Haffkine // 1883–1896)",
+    "en": "Sector IND (India: Kolkata, Koch's Pure Culture & Haffkine Vaccine // 1883–1896)"
+  },
+  "coordinates": [
+    22.5726,
+    88.3639
+  ],
+  "timeRange": {
+    "id": "Desember 1883 – Desember 1896",
+    "en": "December 1883 – December 1896"
+  },
+  "estimatedFatalities": {
+    "id": "150.000+ korban jiwa per tahun di anak benua India (jutaan korban sepanjang Gelombang Kelima, terkonsentrasi di delta Gangga dan jalur ziarah)",
+    "en": "150,000+ deaths annually across the Indian subcontinent (millions over the Fifth Pandemic, concentrated in the Ganges delta and pilgrimage corridors)"
+  },
+  "chapters": [
+    {
+      "id": "ind-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Pendaratan di Kolkata: Laboratorium Medical College Hospital 1883",
+        "en": "Disembarkation at Kolkata: The Medical College Hospital Lab 1883"
+      },
+      "date": {
+        "id": "11 Desember 1883",
+        "en": "December 11, 1883"
+      },
+      "flash": {
+        "id": "Robert Koch dan Georg Gaffky tiba di Kolkata, mendirikan laboratorium bakteriologi modern di Medical College Hospital di jantung endemik kolera dunia.",
+        "en": "Robert Koch and Georg Gaffky arrive in Kolkata, establishing a modern bacteriological laboratory at the Medical College Hospital in the world's cholera cradle."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Saluran cerna penderita kolera aktif di bangsal rumah sakit kolonial Kolkata",
+        "incubation": "12 – 48 jam",
+        "transmission": "Pencemaran air minum sungai Hooghly dan sumur pompa kota tropis",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Saluran cerna penderita kolera aktif di bangsal rumah sakit ",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Saluran cerna penderita kolera aktif di bangsal rumah sakit "
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Saluran cerna penderita kolera aktif di bangsal rumah sakit kolonial Kolkata",
+          "en": "Target population and vector: Saluran cerna penderita kolera aktif di bangsal rumah sakit kolonial Kolkata"
+        }
+      },
+      "description": {
+        "id": "Pada tanggal 11 Desember 1883, kapal uap yang membawa Robert Koch, Georg Gaffky, dan Bernhard Fischer membuang sauh di Sungai Hooghly, Kolkata—ibu kota Kemaharajaan Britania di India. Meninggalkan Mesir di mana wabah telah mereda, Koch datang ke episentrum abadi tempat kolera bersemayam tanpa henti sejak fajar sejarah. Diterima oleh otoritas medis kolonial dengan rasa ingin tahu bercampur kecurigaan, tim Jerman segera mendirikan laboratorium di lantai dasar Medical College Hospital Kolkata. Di sini, bangsal-bangsal rumah sakit tidak pernah kehabisan pasien muntaber akut, menyediakan Koch bahan klinis segar tanpa batas yang ia butuhkan untuk membuktikan identitas kuman penyebab kolera kepada dunia.",
+        "en": "On December 11, 1883, the steamer conveying Robert Koch, Georg Gaffky, and Bernhard Fischer docked along the Hooghly River in Kolkata—the imperial capital of British India. Leaving an Egypt where the epidemic had abated, Koch arrived in the primordial sanctuary where cholera had festered uninterrupted since antiquity. Received by colonial medical authorities with mixed curiosity and defensive skepticism, the German commission immediately organized a field laboratory within the Medical College Hospital. Here, public wards were never devoid of acute rice-water purging patients, offering Koch an inexhaustible supply of fresh clinical material to definitively establish the microbial etiology of the disease."
+      },
+      "image": "/assets/images/cholera/wave-5/ind/ind_ch_01.jpg"
+    },
+    {
+      "id": "ind-ch-02",
+      "chapterNumber": 2,
+      "type": "milestone",
+      "title": {
+        "id": "Terobosan Kultur Murni: Isolasi Definitif Vibrio cholerae",
+        "en": "The Pure Culture Breakthrough: Definitive Isolation of Vibrio cholerae"
+      },
+      "date": {
+        "id": "Januari – Februari 1884",
+        "en": "January – February 1884"
+      },
+      "flash": {
+        "id": "Koch berhasil membiakkan basil koma dalam kultur murni di atas lempeng agar gelatin; bakteri menunjukkan motilitas aktif dengan flagela kutub tunggal.",
+        "en": "Koch successfully cultures the comma bacillus in pure gelatin plates; the bacterium demonstrates vigorous motility powered by a single polar flagellum."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Medium biakan gelatin nutrisi netral dan kaldu pepton alkalis",
+        "incubation": "24 – 36 jam",
+        "transmission": "Karakteristik biologis: gram-negatif, mencairkan gelatin, motil cepat seperti kawanan ikan terbang",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Medium biakan gelatin nutrisi netral dan kaldu pepton alkali",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Medium biakan gelatin nutrisi netral dan kaldu pepton alkali"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Medium biakan gelatin nutrisi netral dan kaldu pepton alkalis",
+          "en": "Target population and vector: Medium biakan gelatin nutrisi netral dan kaldu pepton alkalis"
+        }
+      },
+      "description": {
+        "id": "Pada awal Januari 1884 di Kolkata, terobosan ilmiah terbesar abad ke-19 terwujud. Menggunakan teknik piring kaca datar temuannya yang dilumuri gelatin nutrisi daging, Robert Koch berhasil mengisolasi koloni-koloni murni dari basil berbentuk koma yang sebelumnya ia lihat di Alexandria. Di bawah mikroskop, koloni-koloni ini tampak seperti butiran kaca kecil berkilau yang perlahan mencairkan gelatin di sekitarnya. Koch mengamati bahwa setiap sel bakteri memiliki satu flagela cambuk di salah satu ujungnya yang berputar kencang, membuat kuman melesat cepat dalam tetesan air seperti kawanan ikan kecil. Tidak ada keraguan lagi: mikroorganisme spesifik ini, yang kelak dinamai Vibrio cholerae, adalah biang keladi tunggal di balik seluruh malapetaka kolera dunia.",
+        "en": "In early January 1884 in Kolkata, the supreme microbiological milestone of the nineteenth century was achieved. Employing his poured-plate technique with nutrient gelatin on glass slides, Robert Koch succeeded in isolating glistening pure colonies of the curved comma bacilli first glimpsed in Alexandria. Beneath the lens, these colonies appeared as minute, sparkling glass beads slowly liquefying the surrounding gelatin matrix. Koch observed that each microbial body possessed a single polar flagellum rotating at high velocity, propelling the vibrios across hanging-drop mounts like a darting shoal of minnows. Scientific doubt evaporated: this specific curved rod, christened Vibrio cholerae, was the sole microbial architect of global pandemic devastation."
+      },
+      "image": "/assets/images/cholera/wave-5/ind/ind_ch_02.jpg"
+    },
+    {
+      "id": "ind-ch-03",
+      "chapterNumber": 3,
+      "type": "milestone",
+      "title": {
+        "id": "Misteri Kolam Desa Pukur: Isolasi Langsung Patogen dari Air Terbuka",
+        "en": "Mystery of the Village Pukur: Direct Pathogen Isolation from Open Water"
+      },
+      "date": {
+        "id": "Februari 1884",
+        "en": "February 1884"
+      },
+      "flash": {
+        "id": "Koch mengambil sampel air dari kolam desa (pukur) di pinggiran Kolkata tempat warga mencuci dan minum, berhasil mengisolasi basil koma langsung dari air alami.",
+        "en": "Koch samples communal village ponds (pukurs) outside Kolkata used for washing and drinking, isolating live comma bacilli directly from natural water."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air kolam galian komunal (pukur) tempat mencuci pakaian penderita kolera",
+        "incubation": "12 – 48 jam",
+        "transmission": "Fekal-oral langsung melalui konsumsi air kolam terbuka tanpa perebusan",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Air kolam galian komunal (pukur) tempat mencuci pakaian pend",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Air kolam galian komunal (pukur) tempat mencuci pakaian pend"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Air kolam galian komunal (pukur) tempat mencuci pakaian penderita kolera",
+          "en": "Target population and vector: Air kolam galian komunal (pukur) tempat mencuci pakaian penderita kolera"
+        }
+      },
+      "description": {
+        "id": "Bagi para skeptis yang masih berpendapat bahwa basil koma hanyalah akibat sampingan pembusukan usus dan bukan penyebab penularan melalui air, Koch memberikan bukti pamungkas di sebuah desa kecil dekat Kolkata. Di desa tersebut, sebuah kolam penampungan air terbuka (pukur) digunakan bersama oleh puluhan keluarga untuk mencuci pakaian pasien yang sakit, memandikan ternak, sekaligus mengambil air minum sehari-hari. Tak lama setelah seorang wanita mencuci sprei berlumuran tinja kolera di kolam tersebut, wabah eksplosif menewaskan belasan warga. Koch mengambil sampel air dari kolam itu dan memasukkannya ke dalam tabung biakan. Untuk pertama kalinya dalam sejarah sains, bakteri kolera hidup berhasil diisolasi langsung dari sumber air minum alami di luar tubuh manusia, membuktikan kebenaran teori air John Snow secara mikrobiologis.",
+        "en": "For skeptics still insisting the comma bacillus was a harmless post-mortem byproduct rather than a waterborne agent, Koch delivered unassailable field proof in a rural hamlet bordering Kolkata. In this village, an open earthen reservoir (pukur) served several dozen peasant households simultaneously for laundry, bathing, cattle watering, and domestic drinking. Shortly after a woman rinsed cholera-soiled linens at the water's edge, an explosive cluster claimed multiple lives around the perimeter. Koch gathered water samples from the stagnant pond into test tubes. For the first time in scientific history, living Vibrio cholerae was cultivated directly from an open natural drinking water reservoir, microscopically canonizing John Snow's waterborne transmission paradigm."
+      },
+      "image": "/assets/images/cholera/wave-5/ind/ind_ch_03.jpg"
+    },
+    {
+      "id": "ind-ch-04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Kepulangan Akbar ke Berlin: Sambutan Pahlawan dan Bintang Elang Merah",
+        "en": "Grand Return to Berlin: Hero's Welcome and Order of the Red Eagle"
+      },
+      "date": {
+        "id": "Mei 1884",
+        "en": "May 1884"
+      },
+      "flash": {
+        "id": "Koch kembali ke Jerman disambut sebagai pahlawan nasional; Kaisar Wilhelm I menganugerahkan Order of the Red Eagle dan hadiah 100.000 mark emas.",
+        "en": "Koch returns to Germany acclaimed as a national hero; Kaiser Wilhelm I confers the Order of the Red Eagle and a 100,000 gold mark prize."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Dokumentasi monografi ilmiah Konferensi Kolera Berlin 1884",
+        "incubation": "N/A (Pengakuan Akademik Dunia)",
+        "transmission": "Kodifikasi hukum bakteriologi dalam regulasi kesehatan masyarakat Eropa",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Dokumentasi monografi ilmiah Konferensi Kolera Berlin 1884",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Dokumentasi monografi ilmiah Konferensi Kolera Berlin 1884"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Dokumentasi monografi ilmiah Konferensi Kolera Berlin 1884",
+          "en": "Target population and vector: Dokumentasi monografi ilmiah Konferensi Kolera Berlin 1884"
+        }
+      },
+      "description": {
+        "id": "Pada bulan Mei 1884, Robert Koch dan timnya kembali ke Berlin dan disambut dengan perayaan kenegaraan yang meriah. Kaisar Wilhelm I secara pribadi menganugerahkan bintang kehormatan Order of the Red Eagle Kelas Dua kepada Koch, sementara Reichstag menyetujui hibah hadiah luar biasa sebesar 100.000 mark emas atas jasanya menyelamatkan kemanusiaan. Pada Konferensi Kolera Berlin pertama pada Juli 1884, Koch mempresentasikan temuan lengkapnya di hadapan ratusan ilmuwan terkemuka dari seluruh Eropa. Dengan slide mikroskop dan biakan agar gelatin yang memikat, Koch meyakinkan mayoritas komunitas medis bahwa perang melawan kolera kini memiliki musuh yang nyata, teridentifikasi, dan dapat dihancurkan dengan disinfeksi dan kebersihan air.",
+        "en": "In May 1884, Robert Koch and his commission returned to Berlin to a triumphant state reception. Kaiser Wilhelm I personally conferred the prestigious Order of the Red Eagle Second Class upon Koch, while the Reichstag voted an extraordinary national honorarium of 100,000 gold marks for his monumental service to civilization. At the First Berlin Cholera Conference in July 1884, Koch presented his comprehensive findings before hundreds of eminent European scientists. Demonstrating hanging-drop mounts and pure gelatin cultures, Koch convinced the vast majority of the medical fraternity that the war against cholera now possessed a tangible, microscopically verifiable target that could be vanquished through water sanitation and chemical antisepsis."
+      },
+      "image": "/assets/images/cholera/wave-5/ind/ind_ch_04.jpg"
+    },
+    {
+      "id": "ind-ch-05",
+      "chapterNumber": 5,
+      "type": "side_story",
+      "title": {
+        "id": "Perlawanan Kolonial Terakhir: Penolakan Keras Surgeon-Major Cuningham",
+        "en": "Last Colonial Redoubt: Surgeon-Major Cuningham's Stubborn Resistance"
+      },
+      "date": {
+        "id": "1884 – 1888",
+        "en": "1884 – 1888"
+      },
+      "flash": {
+        "id": "Surgeon-Major J.M. Cuningham, Kepala Sanitasi Kemaharajaan India, menolak temuan Koch dan terus menganggap kolera tidak menular demi melindungi anggaran kolonial.",
+        "en": "Surgeon-Major J.M. Cuningham, Sanitary Commissioner with the Government of India, fiercely rejects Koch's vibrio, denying contagion to protect colonial commerce."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Penyangkalan dogmatis institusi militer-kolonial British Raj",
+        "incubation": "N/A (Sosiologi Ilmu Pengetahuan)",
+        "transmission": "Penolakan karantina pelabuhan India demi kelancaran ekspor gandum dan teh kolonial",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Penyangkalan dogmatis institusi militer-kolonial British Raj",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Penyangkalan dogmatis institusi militer-kolonial British Raj"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Penyangkalan dogmatis institusi militer-kolonial British Raj",
+          "en": "Target population and vector: Penyangkalan dogmatis institusi militer-kolonial British Raj"
+        }
+      },
+      "description": {
+        "id": "Meskipun seluruh dunia menyambut penemuan Koch, perlawanan paling keras dan sengit justru datang dari pejabat medis tertinggi di India sendiri: Surgeon-Major James McNabb Cuningham, Komisaris Sanitasi Pemerintah India. Berpegang teguh pada doktrin lama bahwa kolera dipicu oleh kondisi atmosfer dan tanah lokal yang kotor (filth theory), Cuningham menerbitkan traktat resmi yang menyatakan bahwa basil koma Koch hanyalah bakteri pembusuk yang tidak berbahaya dan kolera sama sekali tidak menular dari orang ke orang. Sikap keras kepala ini bukan semata kebodohan ilmiah, melainkan kalkulasi ekonomi kolonial: mengakui bahwa kolera menular berarti mewajibkan karantina atas kapal-kapal ekspor Inggris yang meninggalkan Kolkata dan Mumbai, sebuah langkah yang dianggap akan melumpuhkan perdagangan kekaisaran Britania.",
+        "en": "While world science embraced Koch's vibrio, the fiercest resistance was mounted by the paramount medical official in India: Surgeon-Major James McNabb Cuningham, Sanitary Commissioner with the Government of India. Fanatically wedded to the imperial dogma that cholera was generated by local atmospheric effluvia and soil filth, Cuningham issued official memoranda declaring Koch's comma bacillus a harmless saprophyte and maintaining that cholera was utterly non-contagious from person to person. This intransigence was grounded in cold imperial economics: conceding communicability meant conceding the necessity of maritime quarantines on British shipping departing Kolkata and Mumbai, an outcome Whitehall feared would throttle the financial lifeblood of the Empire."
+      },
+      "image": "/assets/images/cholera/wave-5/ind/ind_ch_05.jpg"
+    },
+    {
+      "id": "ind-ch-06",
+      "chapterNumber": 6,
+      "type": "standard",
+      "title": {
+        "id": "Kutukan Rawa Sundarbans: Endemisitas Abadi Jalur Ziarah Puri dan Gangasagar",
+        "en": "Curse of the Sundarbans: Perennial Endemicity on Puri and Gangasagar Routes"
+      },
+      "date": {
+        "id": "1885 – 1892",
+        "en": "1885 – 1892"
+      },
+      "flash": {
+        "id": "Setiap musim kemarau, kolera membakar delta Gangga; ratusan ribu peziarah kuil Jagannath di Puri menyebarkan bakteri ke seluruh pedalaman India.",
+        "en": "Every dry season, cholera ravages the Ganges delta; hundreds of thousands of pilgrims to Jagannath Temple in Puri diffuse vibrios across interior India."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air payau hutan bakau Sundarbans dan sumur perhentian peziarah dharamsala",
+        "incubation": "12 – 36 jam",
+        "transmission": "Pencemaran sumber air minum di sepanjang jalur kereta peziarah Jagannath Express",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Air payau hutan bakau Sundarbans dan sumur perhentian peziar",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Air payau hutan bakau Sundarbans dan sumur perhentian peziar"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Air payau hutan bakau Sundarbans dan sumur perhentian peziarah dharamsala",
+          "en": "Target population and vector: Air payau hutan bakau Sundarbans dan sumur perhentian peziarah dharamsala"
+        }
+      },
+      "description": {
+        "id": "Di luar benteng perdebatan ilmiah para dokter Eropa, rakyat jelata anak benua India terus membayar harga yang mengerikan. Rawa-rawa payau hutan bakau Sundarbans di muara Gangga dan Brahmaputra adalah reservoir alami sempurna tempat Vibrio cholerae hidup bersimbiosis dengan zooplankton dan alga mikroskopis. Setiap musim semi dan gugur, ketika suhu air menghangat dan air sungai surut, bakteri berkembang biak secara masif. Festival keagamaan raksasa seperti festival kereta Jagannath di Puri, Odisha, dan pemandian suci di Pulau Gangasagar mengumpulkan jutaan jemaat yang berdesakan di penginapan peziarah (dharamsala) tanpa sanitasi. Lebih dari 150.000 rakyat India tewas setiap tahunnya, menyebarkan patogen ke pelosok Punjab, Madras, dan Bombay.",
+        "en": "Far beyond the debating halls of European faculties, the millions of the Indian subcontinent continued to pay a harrowing demographic ransom. The brackish mangrove estuaries of the Sundarbans at the mouth of the Ganges and Brahmaputra formed the ultimate natural reservoir where Vibrio cholerae persisted in environmental symbiosis with copepods and aquatic flora. Every spring and autumn, as river flows receded and water temperatures climbed, vibrio populations exploded. Staggering religious assemblies, such as the Rath Yatra at Jagannath Temple in Puri and holy immersions at Gangasagar Island, gathered millions of devout pilgrims in squalid rest-houses (dharamsalas). Over 150,000 Indians perished annually, carrying the affliction to the outermost limits of Punjab, Madras, and Bombay."
+      },
+      "image": "/assets/images/cholera/wave-5/ind/ind_ch_06.jpg"
+    },
+    {
+      "id": "ind-ch-07",
+      "chapterNumber": 7,
+      "type": "milestone",
+      "title": {
+        "id": "Kedatangan Waldemar Haffkine: Menaklukkan Basil dengan Vaksin Hidup 1893",
+        "en": "Arrival of Waldemar Haffkine: Conquering the Vibrio with Live Vaccines 1893"
+      },
+      "date": {
+        "id": "Maret 1893",
+        "en": "March 1893"
+      },
+      "flash": {
+        "id": "Murid Louis Pasteur keturunan Yahudi-Rusia, Waldemar Haffkine, tiba di Kolkata membawa vaksin kolera hidup pertama di dunia untuk uji coba klinis lapangan.",
+        "en": "Louis Pasteur's Russian-Jewish protégé, Waldemar Haffkine, arrives in Kolkata carrying the world's first viable live cholera vaccine for field trials."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae vaksin hidup teratenuasi (strain dilemahkan dan dieksaltasi)",
+        "vector": "Inokulasi subkutan dua tahap pada lengan atas manusia",
+        "incubation": "N/A (Imunoprofilaksis Aktif)",
+        "transmission": "Induksi antibodi protektif serum spesifik melawan endotoksin kolera",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae vaksin hidup teratenuasi (strain dilemahkan dan dieksaltasi) // Vektor: Inokulasi subkutan dua tahap pada lengan atas manusia",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Inokulasi subkutan dua tahap pada lengan atas manusia"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Inokulasi subkutan dua tahap pada lengan atas manusia",
+          "en": "Target population and vector: Inokulasi subkutan dua tahap pada lengan atas manusia"
+        }
+      },
+      "description": {
+        "id": "Pada Maret 1893, seorang tokoh visioner tiba di dermaga Kolkata untuk memulai babak baru dalam sejarah kedokteran: Dr. Waldemar Mordecai Haffkine. Lahir di Odessa dan sempat mengalami diskriminasi di Kekaisaran Rusia, Haffkine menjadi peneliti brilian di Institut Pasteur Paris. Di bawah bimbingan Pasteur dan Metchnikov, Haffkine berhasil mengembangkan vaksin kolera dua tahap: suntikan pertama berupa kultur kuman yang dilemahkan dengan aliran udara panas, disusul seminggu kemudian oleh suntikan kuman yang dieksaltasi keganasannya melalui pasase serial pada kelinci. Dengan dukungan mantan Duta Besar Inggris untuk Prancis Lord Dufferin, Haffkine melangkah ke India untuk membuktikan bahwa basil pembunuh temuan Koch dapat dijinakkan menjadi perisai pelindung bagi manusia.",
+        "en": "In March 1893, a visionary scientist arrived at the Kolkata quays to inaugurate a revolutionary chapter in medical history: Dr. Waldemar Mordecai Haffkine. Born in Odessa and having endured severe Tsarist persecution, Haffkine rose to prominence as a brilliant researcher at the Pasteur Institute in Paris. Mentored by Pasteur and Metchnikov, Haffkine engineered the world's first two-stage anticholera vaccine: an initial subcutaneous injection of vibrios attenuated by aeration at 39°C, followed eight days later by a reinforced dose of an 'exalted' strain maintained through serial passage in guinea pigs. Backed by former Viceroy Lord Dufferin, Haffkine set foot in India to prove that Koch's lethal vibrion could be transmuted into an immunological shield."
+      },
+      "image": "/assets/images/cholera/wave-5/ind/ind_ch_07.jpg"
+    },
+    {
+      "id": "ind-ch-08",
+      "chapterNumber": 8,
+      "type": "side_story",
+      "title": {
+        "id": "Uji Nyali di Paris: Pengorbanan Diri Haffkine Sebelum Berlayar",
+        "en": "The Paris Trial of Courage: Haffkine's Self-Experimentation"
+      },
+      "date": {
+        "id": "18 Juli 1892",
+        "en": "July 18, 1892"
+      },
+      "flash": {
+        "id": "Sebelum menyuntikkan vaksin kepada warga India, Haffkine menyuntik dirinya sendiri dan rekan-rekannya di Paris dengan dosis letal untuk membuktikan keamanannya.",
+        "en": "Before administering his vaccine to Indian subjects, Haffkine inoculates himself and fellow scientists in Paris with lethal doses to prove safety."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae vaksin Haffkine",
+        "vector": "Inokulasi eksperimental sukarela pada manusia sehat",
+        "incubation": "6 – 12 jam (Reaksi Demam Sistemik)",
+        "transmission": "Reaksi lokal nyeri lengan dan demam transien tanpa gejala gastrointestinal",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae vaksin Haffkine // Vektor: Inokulasi eksperimental sukarela pada manusia sehat",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Inokulasi eksperimental sukarela pada manusia sehat"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Inokulasi eksperimental sukarela pada manusia sehat",
+          "en": "Target population and vector: Inokulasi eksperimental sukarela pada manusia sehat"
+        }
+      },
+      "description": {
+        "id": "Sebelum melangkahkan kaki ke anak benua India, Haffkine menunjukkan integritas moral dan keberanian ilmiah tertinggi. Pada 18 Juli 1892 di laboratorium Institut Pasteur, Haffkine menyingsingkan lengan bajunya dan meminta rekannya menyuntikkan dosis masif vaksin kolera eksperimental langsung ke bawah kulit panggulnya. Selama enam hari berikutnya, Haffkine mencatat dengan teliti rasa sakit lokal, pembengkakan kelenjar, dan demam tinggi 38,5 derajat yang ia alami secara rahasia di kamar kosnya. Setelah membuktikan bahwa vaksin tersebut tidak menyebabkan diare atau kematian, tiga rekan ilmuwan Rusia dan Prancis lainnya bersedia disuntik. Tindakan heroik pengorbanan diri ini membungkam kritik para peragu dan memberikan legitimasi etis mutlak bagi uji coba lapangan di Asia.",
+        "en": "Prior to venturing to India, Haffkine demonstrated the highest standard of scientific courage and bioethical integrity. On July 18, 1892, in his Pasteur Institute laboratory, Haffkine rolled up his sleeve and instructed colleagues to inject a massive dose of the experimental live cholera vaccine subcutaneously into his flank. Over the following six days, Haffkine recorded his agonizing local swelling, lymphadenitis, and 38.5°C fever in isolation in his Paris garret. Having verified that the inoculations provoked transient pyrexia without inducing lethal purging, three fellow Russian and French scientists submitted to vaccination. This heroic act of self-experimentation silenced critics and conferred unshakeable ethical authority on his Asian mission."
+      },
+      "image": "/assets/images/cholera/wave-5/ind/ind_ch_08.jpg"
+    },
+    {
+      "id": "ind-ch-09",
+      "chapterNumber": 9,
+      "type": "milestone",
+      "title": {
+        "id": "Uji Klinis Lapangan Raksasa Pertama di Dunia: Slum Bustees dan Kebun Assam",
+        "en": "World's First Mass Clinical Field Trial: Bustee Slums and Assam Tea Estates"
+      },
+      "date": {
+        "id": "1893 – 1895",
+        "en": "1893 – 1895"
+      },
+      "flash": {
+        "id": "Haffkine berjalan kaki menyusuri pemukiman kumuh bustees Kolkata dan perkebunan teh Assam, memvaksinasi lebih dari 42.000 jiwa di tengah wabah aktif.",
+        "en": "Haffkine marches through Kolkata's bustee slums and remote Assam tea plantations, inoculating over 42,000 souls amidst raging outbreaks."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Jarum suntik spuit Pravaz kaca dan pemanas alkohol portabel",
+        "incubation": "N/A (Uji Lapangan Imunologi Skala Besar)",
+        "transmission": "Pemberian proteksi kekebalan seluler dan humoral di lingkungan transmisi hiper-endemik",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Jarum suntik spuit Pravaz kaca dan pemanas alkohol portabel",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Jarum suntik spuit Pravaz kaca dan pemanas alkohol portabel"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Jarum suntik spuit Pravaz kaca dan pemanas alkohol portabel",
+          "en": "Target population and vector: Jarum suntik spuit Pravaz kaca dan pemanas alkohol portabel"
+        }
+      },
+      "description": {
+        "id": "Antara tahun 1893 dan 1895, Haffkine melakukan uji klinis vaksin terbesar dan paling revolusioner dalam sejarah kedokteran dunia. Berjalan kaki di bawah terik khatulistiwa dan hujan monsun lebat, Haffkine menyusuri lorong-lorong becek perkampungan kumuh (bustees) di Kolkata, barak tentara di Agra, penjara Gaya, hingga perkebunan teh terpencil di lembah Assam. Membawa kotak kayu berisi spuit suntik Pravaz dan kompor pemanas alkohol untuk mensterilkan jarum di tempat, Haffkine secara pribadi memvaksinasi lebih dari 42.000 buruh, petani, dan tahanan. Di setiap lokasi, Haffkine secara ketat membandingkan angka kematian antara kelompok yang divaksinasi dan yang tidak divaksinasi di lingkungan rumah tangga yang sama persis.",
+        "en": "Between 1893 and 1895, Haffkine conducted the largest and most revolutionary field clinical vaccine trial in medical annals. Trekking under blistering heat and torrential monsoon downpours, Haffkine penetrated the labyrinthine mud alleys of Kolkata's bustee slums, military cantonments in Agra, Gaya jail barracks, and remote Assam tea estates. Bearing timber field kits fitted with Pravaz glass syringes and spirit lamps for flame-sterilization, Haffkine personally inoculated over 42,000 coolies, peasant farmers, and prisoners. At every site, he instituted rigorous comparative epidemiological audits, tracking mortality rates between vaccinated individuals and unvaccinated controls sharing the exact same household environments."
+      },
+      "image": "/assets/images/cholera/wave-5/ind/ind_ch_09.jpg"
+    },
+    {
+      "id": "ind-ch-10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Mengikis Prasangka dan Takut: Diplomasi Jarum di Tengah Kecurigaan",
+        "en": "Eroding Fear and Suspicion: Needle Diplomacy amidst Colonial Mistrust"
+      },
+      "date": {
+        "id": "1894",
+        "en": "1894"
+      },
+      "flash": {
+        "id": "Menghadapi rumor bahwa jarum suntik berisi racun Inggris untuk membunuh kasta rendah, Haffkine selalu menyuntik dirinya sendiri terlebih dahulu di depan para tetua desa.",
+        "en": "Confronting rumors that syringes contained British poison to exterminate low-caste natives, Haffkine publicly injects himself first before village elders."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Hambatan kultural dan trauma sejarah kolonialisme",
+        "incubation": "N/A (Dinamika Sosial Imunisasi Massal)",
+        "transmission": "Membangun kepercayaan publik melalui keteladanan demonstratif dan kerja sama tokoh pribumi",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Hambatan kultural dan trauma sejarah kolonialisme",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Hambatan kultural dan trauma sejarah kolonialisme"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Hambatan kultural dan trauma sejarah kolonialisme",
+          "en": "Target population and vector: Hambatan kultural dan trauma sejarah kolonialisme"
+        }
+      },
+      "description": {
+        "id": "Tantangan terbesar Haffkine bukanlah sains, melainkan ketakutan dan kecurigaan sosial masyarakat pribumi terhadap penguasa kolonial Inggris. Ketika Haffkine memasuki perkampungan bustees, rumor menyebar cepat bahwa para dokter asing datang membawa jarum racun untuk mengebiri kaum pria atau menyuntikkan penyakit mematikan atas perintah Ratu Victoria. Di beberapa desa, penduduk mengancam akan merajam tim medis dengan batu. Menghadapi situasi genting ini, Haffkine menunjukkan kesabaran luar biasa. Ia mengumpulkan para pandit Hindu dan ulama Muslim, menyingsingkan lengan bajunya di hadapan kerumunan, dan menyuntikkan jarum ke tubuhnya sendiri berkali-kali untuk membuktikan bahwa obat tersebut tidak berbahaya, perlahan meluluhkan kecurigaan warga.",
+        "en": "Haffkine's most daunting obstacle was not biological, but the deep cultural mistrust harbored by colonially subjugated populations toward British authorities. As Haffkine approached the bustees, hysterical rumors spread that foreign physicians were wielding venomous needles to sterilize males or assassinate low-caste laborers on orders from Queen Victoria. In several hamlets, angry mobs armed with bamboo lathis threatened to stone the medical party. In the face of mortal danger, Haffkine deployed exceptional empathy: he gathered Hindu pandits and Muslim imams, rolled up his sleeves before the crowd, and calmly plunged the syringe into his own flesh repeatedly, transforming terrified hostility into reverent trust."
+      },
+      "image": "/assets/images/cholera/wave-5/ind/ind_ch_10.jpg"
+    },
+    {
+      "id": "ind-ch-11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Kemenangan Statistik Vaksinasi: Reduksi Angka Kematian Sebesar 80%",
+        "en": "Statistical Vindication: 80% Reduction in Epidemic Case-Fatality"
+      },
+      "date": {
+        "id": "1895 – 1896",
+        "en": "1895 – 1896"
+      },
+      "flash": {
+        "id": "Data statistik resmi Kolkata membuktikan vaksin Haffkine menurunkan angka kematian akibat kolera hingga 80%, membungkam seluruh oposisi korps medis kolonial.",
+        "en": "Official Kolkata municipal registries prove Haffkine's vaccine slashes cholera mortality by over 80%, completely silencing colonial medical opposition."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Evaluasi biostatistik epidemiologi komparatif kohort besar",
+        "incubation": "N/A (Validasi Imunologi Lapangan)",
+        "transmission": "Penurunan dramatis serangan klinis fulminan pada populasi yang divaksinasi lengkap dua dosis",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Evaluasi biostatistik epidemiologi komparatif kohort besar",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Evaluasi biostatistik epidemiologi komparatif kohort besar"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Evaluasi biostatistik epidemiologi komparatif kohort besar",
+          "en": "Target population and vector: Evaluasi biostatistik epidemiologi komparatif kohort besar"
+        }
+      },
+      "description": {
+        "id": "Hasil uji coba klinis Haffkine yang dipublikasikan pada 1895 menggemparkan dunia ilmiah internasional. Data resmi dari Penjara Gaya menunjukkan bahwa di antara narapidana yang tidak divaksinasi, terjadi puluhan kematian, sementara di antara kelompok yang menerima vaksin Haffkine, angka kematian turun lebih dari 80 persen. Di perkebunan teh Assam, dokter-dokter Inggris yang awalnya sinis terpaksa mengakui bahwa buruh yang divaksinasi tetap sehat dan produktif di tengah amukan wabah yang membunuh rekan-rekan mereka yang menolak suntikan. Bahkan korps medis militer Britania yang paling konservatif akhirnya terpaksa mengakui kemenangan metode Haffkine, menandai kelahiran era imunisasi massal modern untuk penyakit bakteri usus.",
+        "en": "The biostatistical outcomes of Haffkine's trials published in 1895 sent shockwaves through international medical academies. Rigorous data from Gaya Jail revealed that while dozens perished among unvaccinated inmates, mortality collapsed by more than 80 percent among cohorts inoculated with Haffkine's regimen. Across Assam tea estates, once-cynical British estate surgeons conceded that vaccinated laborers remained robust and productive while neighboring unvaccinated workers were decimated. Even the deeply conservative Indian Medical Service was compelled to acknowledge the triumph of Haffkine's immunology, marking the historic inauguration of mass bacterial immunization."
+      },
+      "image": "/assets/images/cholera/wave-5/ind/ind_ch_11.jpg"
+    },
+    {
+      "id": "ind-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Kelahiran Institut Haffkine: Transformasi Laboratorium Riset Bombay",
+        "en": "Birth of the Haffkine Institute: Evolution of the Bombay Research Laboratory"
+      },
+      "date": {
+        "id": "1896 – 1899",
+        "en": "1896 – 1899"
+      },
+      "flash": {
+        "id": "Keberhasilan vaksin kolera mendorong pemerintah kolonial menugaskan Haffkine melawan Pes di Bombay, mendirikan laboratorium yang kelak menjadi Haffkine Institute.",
+        "en": "Cholera vaccine triumphs lead colonial authorities to task Haffkine against Bombay Plague, founding the laboratory that became the Haffkine Institute."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae dan Yersinia pestis",
+        "vector": "Fasilitas produksi biologis massal vaksin bakteri di Istana Pemerintah Tua Parel Bombay",
+        "incubation": "N/A (Infrastruktur Bioteknologi Tropis)",
+        "transmission": "Pengembangan pabrik vaksin terbesar di Asia untuk perlindungan jutaan warga terhadap penyakit menular",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae dan Yersinia pestis // Vektor: Fasilitas produksi biologis massal vaksin bakteri di Istana ",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Fasilitas produksi biologis massal vaksin bakteri di Istana "
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Fasilitas produksi biologis massal vaksin bakteri di Istana Pemerintah Tua Parel Bombay",
+          "en": "Target population and vector: Fasilitas produksi biologis massal vaksin bakteri di Istana Pemerintah Tua Parel"
+        }
+      },
+      "description": {
+        "id": "Kemenangan spektakuler Haffkine dalam memerangi kolera membuat reputasinya meroket di seluruh Kemaharajaan Britania. Ketika epidemi Pes Bubonik (Black Death) melanda Bombay pada tahun 1896, pemerintah kolonial segera memanggil Haffkine untuk merancang vaksin baru dalam waktu kurang dari tiga bulan. Beroperasi di sebuah ruangan kecil di Grant Medical College dan kemudian pindah ke istana tua Government House di Parel, Bombay, laboratorium penelitian Haffkine berkembang menjadi pabrik vaksin dan pusat penelitian mikrobiologi terbesar di seluruh benua Asia. Lembaga legendaris ini kelak secara resmi dinamai 'Haffkine Institute' pada tahun 1925 untuk menghormati ilmuwan yang telah menyelamatkan jutaan nyawa di anak benua India.",
+        "en": "Haffkine's spectacular triumphs against cholera elevated him to supreme renown throughout the British Empire. When the Third Plague Pandemic struck Bombay in 1896, colonial authorities summoned Haffkine to formulate an emergency plague vaccine, which he accomplished in under three months. Operating initially out of a single room at Grant Medical College before expanding into the abandoned Old Government House in Parel, Bombay, Haffkine's research facility evolved into Asia's premier vaccine manufacturing citadel. This world-renowned research center was officially christened the 'Haffkine Institute' in 1925, paying perpetual homage to the researcher who preserved millions of lives across the Indian subcontinent."
+      },
+      "image": "/assets/images/cholera/wave-5/ind/ind_ch_12.jpg"
+    },
+    {
+      "id": "ind-ch-13",
+      "chapterNumber": 13,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Abadi Delta Gangga: Dari Sumber Teror Menjadi Kawah Candradimuka Sains",
+        "en": "Eternal Legacy of the Ganges Delta: From Vortex of Terror to Crucible of Science"
+      },
+      "date": {
+        "id": "1896",
+        "en": "1896"
+      },
+      "flash": {
+        "id": "India bertransformasi dari 'sarang kutukan kolera' menjadi laboratorium global tempat isolasi bakteriologis Koch dan vaksinasi massal Haffkine menaklukkan penyakit.",
+        "en": "India transforms from 'the cursed cradle of cholera' into the global proving ground where Koch's bacteriology and Haffkine's vaccines vanquished disease."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Sintesis epistemologi sejarah kedokteran tropis dan mikrobiologi terapan",
+        "incubation": "N/A (Warisan Sejarah Peradaban)",
+        "transmission": "Kemenangan mutlak sains modern atas fatalisme mistis penularan penyakit menular air",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Sintesis epistemologi sejarah kedokteran tropis dan mikrobio",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Sintesis epistemologi sejarah kedokteran tropis dan mikrobio"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Sintesis epistemologi sejarah kedokteran tropis dan mikrobiologi terapan",
+          "en": "Target population and vector: Sintesis epistemologi sejarah kedokteran tropis dan mikrobiologi terapan"
+        }
+      },
+      "description": {
+        "id": "Sepanjang Gelombang Kelima, delta Sungai Gangga mengalami metamorfosis historis paling mendalam. Wilayah yang selama hampir seabad dicap oleh kekuatan kolonial Eropa sebagai sumber kutukan mistis dan sarang maut tak terjamah berhasil ditransformasikan menjadi panggung kemenangan tertinggi sains modern. Di Kolkata, Robert Koch berhasil mengisolasi dan membuktikan wujud fisik kuman penyebab kolera di piring gelatin; di tempat yang sama satu dekade kemudian, Waldemar Haffkine membuktikan bahwa tubuh manusia dapat dipersenjatai dengan kekebalan buatan untuk melawan bakteri mematikan tersebut. Warisan abadi dari tanah Benggala ini tidak hanya membebaskan jutaan manusia dari ketakutan purba, tetapi juga meletakkan fondasi bagi seluruh disiplin imunologi dan vaksinologi modern yang dinikmati dunia hari ini.",
+        "en": "Throughout the Fifth Pandemic, the Ganges Delta underwent an epochal historical metamorphosis. The territory branded for nearly a century by European imperialists as a mystic cradle of pestilence was transformed into the supreme proving ground of modern clinical science. In Kolkata, Robert Koch unmasked the microscopic physical entity driving global devastation; in that exact theater a decade later, Waldemar Haffkine demonstrated that human biology could be weaponized with artificial immunity against microbial slaughter. The immortal scientific legacy forged upon Bengal's soil not only liberated humanity from primeval fatalism, but established the very foundations of modern vaccinology and preventive epidemiology enjoyed worldwide today."
+      },
+      "image": "/assets/images/cholera/wave-5/ind/ind_ch_13.jpg"
+    }
+  ]
+}

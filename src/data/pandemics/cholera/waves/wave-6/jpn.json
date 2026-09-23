@@ -1,0 +1,499 @@
+{
+  "sectorId": "JPN",
+  "waveIndex": 6,
+  "sectorName": {
+    "id": "Kekaisaran Jepang & Lingkar Pasifik Timur",
+    "en": "Empire of Japan & East Pacific Rim"
+  },
+  "coordinates": [
+    35.6762,
+    139.6503
+  ],
+  "timeRange": {
+    "start": "1902",
+    "end": "1922"
+  },
+  "estimatedFatalities": "22,000+",
+  "chapters": [
+    {
+      "id": "jpn_ch_01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Epidemi Musim Panas 1902: Serbuan Pelabuhan Yokohama & Teluk Tokyo",
+        "en": "The 1902 Summer Epidemic: Incursion via Yokohama & Tokyo Bay"
+      },
+      "date": {
+        "id": "Mei – Oktober 1902",
+        "en": "May – October 1902"
+      },
+      "flash": {
+        "id": "Vibrio cholerae menyusup melalui kapal dagang dari Tiongkok Selatan, memicu lebih dari 13.000 kasus di seluruh prefektur pesisir Jepang dan menguji doktrin kebersihan nasional (Eisei).",
+        "en": "Vibrio cholerae breaches defenses via southern Chinese trade vessels, detonating over 13,000 cases across Japan's coastal prefectures and testing national hygiene doctrine."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1 Classical",
+        "vector": "Kapal dagang uap maritim dan pasar ikan pesisir Teluk Tokyo",
+        "incubation": "12 – 48 jam",
+        "transmission": "Konsumsi makanan laut pesisir mentah dan kontaminasi air sumur dangkal",
+        "mutationType": {
+          "id": "Strain Pandemi Keenam Pesisir Yokohama-Tokyo",
+          "en": "Yokohama-Tokyo Coastal Sixth Wave Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat IV - Krisis Epidemiologis Maritim Nasional",
+          "en": "Tier IV - National Maritime Epidemiological Crisis"
+        },
+        "clinicalTarget": {
+          "id": "Buruh pelabuhan, pedagang ikan, dan penduduk distrik bantaran sungai",
+          "en": "Dock laborers, fishmongers, and riverside tenement dwellers"
+        }
+      },
+      "description": {
+        "id": "Pada awal musim panas 1902, Kekaisaran Jepang dikejutkan oleh ledakan kolera terbesarnya sejak awal era modernisasi Meiji. Infeksi diperkenalkan ke pelabuhan internasional Yokohama melalui kapal dagang yang tiba dari Shanghai dan Hong Kong. Dari distrik pelabuhan, bakteri dengan cepat menyebar melintasi jaringan kanal ke Tokyo, Osaka, dan Kobe. Di ibu kota kekaisaran, pemukiman padat di sepanjang Sungai Sumida dan saluran air Fukagawa menjadi titik api utama penularan fekal-oral karena masyarakat masih mengandalkan air sumur gali dangkal yang mudah tercemar rembesan jamban. Biro Sanitasi Kementerian Dalam Negeri (Eiseikyoku) segera mengaktifkan undang-undang pencegahan penyakit menular darurat, mengerahkan polisi sanitasi bersenjata untuk mengisolasi seluruh blok lingkungan permukiman, dan mendirikan rumah sakit penampungan kolera (hinanbyōin) di pinggiran Tokyo.",
+        "en": "In the early summer of 1902, the Empire of Japan was confronted by its most severe cholera outbreak since the dawn of the Meiji modernization era. The pathogen was imported into Yokohama's bustling international docks aboard merchant steamers arriving from Shanghai and Hong Kong. From the harbor, vibrios swept along dense canal networks into Tokyo, Osaka, and Kobe. Within the imperial capital, squalid tenement districts along the Sumida River and Fukagawa canals became explosive epicenters of fecal-oral transmission, as residents relied on shallow dug wells vulnerable to cesspool seepage. The Home Ministry's Sanitary Bureau (Eiseikyoku) activated emergency infectious disease statutes, mobilizing sword-bearing sanitary police to quarantine entire urban wards and establishing provisional isolation hospitals (hinanbyōin) on Tokyo's periphery."
+      },
+      "image": "/assets/images/cholera/wave-6/jpn/jpn_ch_01.jpg"
+    },
+    {
+      "id": "jpn_ch_02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Institut Kitasato & Benteng Bakteriologis Imperial",
+        "en": "The Kitasato Institute & The Imperial Bacteriological Citadel"
+      },
+      "date": {
+        "id": "1902 – 1903",
+        "en": "1902 – 1903"
+      },
+      "flash": {
+        "id": "Dr. Kitasato Shibasaburō dan para muridnya memobilisasi sains laboratorium Jerman untuk memproduksi antiserum dan mengisolasi galur kolera dengan presisi mikroskopis.",
+        "en": "Dr. Kitasato Shibasaburō and his disciples mobilize German laboratory science to manufacture diagnostic antisera and isolate cholera strains with microscopic precision."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Laboratorium mikrobiologi dan cawan petri isolasi agar pepton",
+        "incubation": "N/A (Analisis Laboratorium)",
+        "transmission": "Standardisasi diagnostik bakteriologis kultur tinja",
+        "mutationType": {
+          "id": "Profilaksis Laboratorium & Pengawasan Serologis",
+          "en": "Laboratory Prophylaxis & Serological Surveillance"
+        },
+        "threatLevel": {
+          "id": "Tingkat II - Penelitian Ilmiah & Pengendalian Standar",
+          "en": "Tier II - Scientific Research & Standardized Containment"
+        },
+        "clinicalTarget": {
+          "id": "Sampel klinis pasien kolera dan bakteriolog lapangan",
+          "en": "Clinical patient specimens and field bacteriologists"
+        }
+      },
+      "description": {
+        "id": "Di garda depan pertempuran ilmiah melawan kolera berdirilah Institut Penyakit Menular Imperial (Denken) di bawah kepemimpinan dokter dan bakteriolog terkemuka, Kitasato Shibasaburō—murid langsung Robert Koch. Kitasato menolak pendekatan karantina kuno yang pasif dan menggantikannya dengan intervensi mikrobiologis agresif. Laboratoriumnya memproduksi antiserum aglutinasi spesifik dalam jumlah besar yang didistribusikan ke setiap kantor prefektur, memungkinkan identifikasi bakteriologis Vibrio cholerae dalam waktu kurang dari enam jam dari sampel tinja pasien. Kitasato juga melatih ratusan dokter polisi dalam teknik isolasi aseptik dan disinfeksi kimiawi formalin. Presisi laboratorium ini memungkinkan otoritas Jepang membedakan secara instan antara diare biasa dengan kolera Asia sejati, mencegah kepanikan ekonomi yang tidak perlu di pelabuhan-pelabuhan ekspor.",
+        "en": "At the vanguard of the empire's scientific defense stood the Imperial Institute for Infectious Diseases (Denken), directed by the world-renowned bacteriologist Dr. Kitasato Shibasaburō—a direct protege of Robert Koch. Kitasato discarded passive quarantine approaches in favor of aggressive microbiological intervention. His laboratories synthesized industrial quantities of specific diagnostic agglutinating antisera distributed to prefectural health boards, enabling confirmation of Vibrio cholerae within six hours from patient stool specimens. Kitasato also trained hundreds of sanitary police physicians in aseptic isolation techniques and chemical formalin disinfection. This rigorous diagnostic apparatus permitted Japanese authorities to discriminate immediately between benign summer diarrhea and true Asiatic cholera, averting catastrophic economic blockades of commercial export harbors."
+      },
+      "image": "/assets/images/cholera/wave-6/jpn/jpn_ch_02.jpg"
+    },
+    {
+      "id": "jpn_ch_03",
+      "chapterNumber": 3,
+      "type": "milestone",
+      "title": {
+        "id": "Perang Rusia-Jepang 1904–1905: Kemenangan Biosekuriti Militer",
+        "en": "The Russo-Japanese War 1904–1905: A Triumph of Military Biosecurity"
+      },
+      "date": {
+        "id": "Februari 1904 – September 1905",
+        "en": "February 1904 – September 1905"
+      },
+      "flash": {
+        "id": "Untuk pertama kalinya dalam sejarah peperangan modern, korban jiwa militer akibat pertempuran melampaui korban akibat penyakit menular berkat biosekuriti tentara yang ketat.",
+        "en": "For the first time in modern military history, battle casualties exceed disease deaths thanks to ruthless frontline sanitary discipline and water boiling orders."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae & Salmonella typhi",
+        "vector": "Sungai berawa Manchuria, sumur desa Tiongkok, dan ransum tentara",
+        "incubation": "12 – 48 jam",
+        "transmission": "Pencegahan mutlak melalui perebusan air wajib dan uji sumur bergerak",
+        "mutationType": {
+          "id": "Penahanan Garis Tempur Manchuria",
+          "en": "Manchurian Battlefield Sanitary Containment"
+        },
+        "threatLevel": {
+          "id": "Tingkat III - Pengendalian Sanitasi Front Perang Strategis",
+          "en": "Tier III - Strategic Wartime Sanitary Containment"
+        },
+        "clinicalTarget": {
+          "id": "Tentara Angkatan Darat Kekaisaran Jepang dan tawanan perang Rusia",
+          "en": "Imperial Japanese Army soldiers and Russian prisoners of war"
+        }
+      },
+      "description": {
+        "id": "Ketika Perang Rusia-Jepang meletus di dataran Manchuria yang keras pada tahun 1904, para pengamat militer barat memprediksi tentara Jepang akan dilumpuhkan oleh kolera, tifus, dan disentri sebagaimana perang-perang masa lalu. Namun, Angkatan Darat Kekaisaran Jepang merevolusi kedokteran militer di bawah bimbingan Kepala Medis Koike Masanao. Setiap peleton didampingi perwira sanitasi yang bertugas menguji setiap sumur dan aliran air di desa-desa Manchuria sebelum prajurit diizinkan minum; sumur yang terkontaminasi dipasangi tanda larangan dengan tiang bambu. Prajurit diwajibkan meminum air teh mendidih dan dilarang keras menyentuh air mentah. Pelanggaran aturan minum dianggap sebagai kejahatan pengkhianatan militer. Hasilnya sangat mencengangkan: sementara tentara Tsar menderita puluhan ribu korban penyakit usus, rasio korban infeksi di tentara Jepang hanya sebagian kecil dari korban peluru, mencatatkan tonggak sejarah biosekuriti global.",
+        "en": "When the Russo-Japanese War erupted across the harsh plains of Manchuria in 1904, Western military observers predicted that Japanese forces would be decimated by cholera, typhoid, and dysentery, as had plagued all prior large-scale conflicts. Instead, the Imperial Japanese Army revolutionized military medicine under Surgeon General Koike Masanao. Every frontline unit was preceded by medical reconnaissance squads tasked with testing Manchurian village wells; water sources testing positive for coliforms were marked with warning placards. Troops were issued strict orders to consume only boiled water or hot green tea from their aluminum canteens; drinking raw groundwater was punished as an act of military subversion. The strategic outcome was unprecedented: while Russian forces suffered widespread enteric morbidity, Japanese combat deaths far exceeded disease mortalities—a historic first in the annals of warfare."
+      },
+      "image": "/assets/images/cholera/wave-6/jpn/jpn_ch_03.jpg"
+    },
+    {
+      "id": "jpn_ch_04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Stasiun Karantina Pulau Ninoshima: Penyaring Raksasa Hiroshima",
+        "en": "Ninoshima Island Quarantine Station: Hiroshima's Giant Sanitary Sieve"
+      },
+      "date": {
+        "id": "1905 – 1906",
+        "en": "1905 – 1906"
+      },
+      "flash": {
+        "id": "Stasiun karantina maritim terbesar di dunia di Ninoshima memeriksa dan mendesinfeksi lebih dari 900.000 prajurit dan tawanan yang kembali dari front Manchuria tanpa kebocoran kolera.",
+        "en": "The world's largest maritime quarantine complex at Ninoshima inspects and disinfects over 900,000 returning soldiers and prisoners, preventing any cholera leaks."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kapal transport militer dan seragam tentara yang kotor",
+        "incubation": "24 – 72 jam",
+        "transmission": "Desinfeksi uap bertekanan tinggi dan isolasi bakteriologis massal",
+        "mutationType": {
+          "id": "Intersepsi Maritim Pasca-Perang Ninoshima",
+          "en": "Ninoshima Post-War Maritime Interception"
+        },
+        "threatLevel": {
+          "id": "Tingkat II - Filtrasi Sanitasi Skala Raksasa Berhasil",
+          "en": "Tier II - Successful Large-Scale Sanitary Filtration"
+        },
+        "clinicalTarget": {
+          "id": "Veteran perang yang kembali, awak kapal angkut, dan logistik militer",
+          "en": "Repatriating war veterans, transport crews, and military cargo"
+        }
+      },
+      "description": {
+        "id": "Ujian terberat bagi sistem kesehatan publik Jepang terjadi pada akhir 1905 ketika ratusan kapal angkut bersiap memulangkan hampir satu juta prajurit dan puluhan ribu tawanan perang Rusia dari daratan Asia ke pulau-pulau utama Jepang. Sadar bahwa kepulangan ini dapat memicu pandemi kolera dahsyat di dalam negeri, pemerintah menunjuk Gotō Shinpei untuk merancang operasi karantina maritim terbesar di dunia di Pulau Ninoshima, Teluk Hiroshima. Kompleks Ninoshima dilengkapi dengan instalasi desinfeksi uap raksasa, ratusan kamar mandi air panas berklorin, barak karantina berkapasitas puluhan ribu orang, dan krematorium khusus. Setiap prajurit diwajibkan mandi, seragam mereka dimasukkan ke dalam bejana uap bertekanan, dan mereka diobservasi secara ketat selama masa inkubasi. Operasi kolosal ini berhasil menyaring jutaan manusia tanpa ada satu pun wabah kolera yang bocor ke daratan Jepang.",
+        "en": "The ultimate trial of Japan's public health infrastructure came in late 1905 with the impending demobilization of nearly one million soldiers and tens of thousands of Russian prisoners from mainland Asia. Recognizing that this vast human movement could spark a catastrophic domestic epidemic, the Meiji government commissioned civil administrator Gotō Shinpei to organize the world's largest maritime quarantine station on Ninoshima Island in Hiroshima Bay. The island complex was outfitted with colossal steam autoclaves, mass chlorinated shower facilities, isolation barracks accommodating tens of thousands, and dedicated incinerators. Every soldier was subjected to bathing, their wool uniforms were sterilized under pressurized steam, and they were monitored through the full incubation window. This monumental logistical achievement repatriated an entire army without seeding a single secondary cholera epidemic on the home islands."
+      },
+      "image": "/assets/images/cholera/wave-6/jpn/jpn_ch_04.jpg"
+    },
+    {
+      "id": "jpn_ch_05",
+      "chapterNumber": 5,
+      "type": "side_story",
+      "title": {
+        "id": "Polisi Sanitasi Meiji (Eisei Keisatsu) & Disiplin Rumah Tangga",
+        "en": "Meiji Sanitary Police (Eisei Keisatsu) & Domestic Hygiene Discipline"
+      },
+      "date": {
+        "id": "1907 – 1910",
+        "en": "1907 – 1910"
+      },
+      "flash": {
+        "id": "Di bawah doktrin biopolitik negara, polisi sanitasi bersenjata pedang memeriksa kebersihan dapur, mengapur dinding, dan menghukum warga yang tidak merebus air minum.",
+        "en": "Under state biopolitical doctrine, sword-bearing sanitary police inspect household kitchens, whitewash alleys, and fine citizens who fail to boil drinking water."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Peralatan dapur rumah tangga, sumur halaman, dan tong penampung tinja",
+        "incubation": "24 – 48 jam",
+        "transmission": "Penegakan hukum higienis wajib di tingkat lingkungan (chōnaikai)",
+        "mutationType": {
+          "id": "Regulasi Biopolitik Sanitasi Domestik",
+          "en": "Domestic Sanitary Biopolitical Regulation"
+        },
+        "threatLevel": {
+          "id": "Tingkat II - Penegakan Hukum Kebersihan Sipil",
+          "en": "Tier II - Civil Hygiene Law Enforcement"
+        },
+        "clinicalTarget": {
+          "id": "Kepala keluarga perkotaan, pedagang makanan kaki lima, dan pemilik sewa",
+          "en": "Urban household heads, street food vendors, and landlords"
+        }
+      },
+      "description": {
+        "id": "Ciri paling khas dari respons Jepang terhadap kolera selama Pandemi Keenam adalah keterlibatan mendalam aparat kepolisian dalam kehidupan sehari-hari warga. Lembaga 'Polisi Sanitasi' (Eisei Keisatsu) memiliki wewenang hukum yang hampir tak terbatas untuk memasuki rumah-rumah pribadi tanpa surat perintah guna memeriksa kebersihan dapur, jamban, dan tempat penyimpanan makanan. Dua kali setahun, operasi 'Pembersihan Besar Rumah Tangga' (Ōsōji) diwajibkan oleh undang-undang: perabotan rumah tangga dikeluarkan ke jalanan, lantai jerami tatami dijemur di bawah sinar matahari, dan dinding rumah disemprot dengan kapur tohor dan asam karbol. Pedagang kaki lima yang menjual semangka potong atau es serut yang rentan terkontaminasi ditangkap di tempat. Pendekatan otoriter ini, meskipun membatasi privasi warga, berhasil menanamkan budaya higiene nasional yang sangat ketat yang menekan penularan penyakit menular.",
+        "en": "The hallmark of Meiji Japan's defense against cholera was the pervasive intrusion of state police power into domestic routine. The Sanitary Police (Eisei Keisatsu) possessed sweeping legal mandates to enter private domiciles without warrants to inspect kitchen pantries, privies, and cisterns. Twice annually, mandatory 'Great Household Cleanings' (Ōsōji) were enforced by law: household furniture was dragged into the open air, tatami mats were sun-baked to destroy microbial spores, and wooden siding was whitewashed with slaked lime and carbolic acid. Street peddlers selling sliced melons or crushed ice susceptible to contamination were summarily arrested. While deeply coercive and intrusive, this militarized hygiene apparatus cultivated an exceptionally disciplined domestic hygiene culture that effectively suppressed enteric transmission pathways."
+      },
+      "image": "/assets/images/cholera/wave-6/jpn/jpn_ch_05.jpg"
+    },
+    {
+      "id": "jpn_ch_06",
+      "chapterNumber": 6,
+      "type": "milestone",
+      "title": {
+        "id": "Instalasi Pengolahan Air Yodobashi: Era Klorinasi Kota Tokyo",
+        "en": "Yodobashi Water Purification Plant: Tokyo's Modern Chlorination Dawn"
+      },
+      "date": {
+        "id": "1911 – 1914",
+        "en": "1911 – 1914"
+      },
+      "flash": {
+        "id": "Penyelesaian filter pasir lambat dan sistem klorinasi modern di Instalasi Air Yodobashi memutus ketergantungan Tokyo pada sumur tercemar dan melenyapkan reservoir urban kolera.",
+        "en": "The expansion of slow sand filtration and modern chlorination at Yodobashi Waterworks severs Tokyo's reliance on tainted wells, eliminating urban cholera reservoirs."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Jaringan pipa air minum Sungai Tama dan waduk air kota Yodobashi",
+        "incubation": "N/A (Disinfeksi Air Bersih)",
+        "transmission": "Penyaringan pasir lambat dan injeksi senyawa klorin",
+        "mutationType": {
+          "id": "Penghalang Infrastruktur Rekayasa Air Minum",
+          "en": "Water Engineering Infrastructural Barrier"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Standar Emas Penyediaan Air Minum Modern",
+          "en": "Tier I - Modern Potable Water Gold Standard"
+        },
+        "clinicalTarget": {
+          "id": "Populasi metropolitan Tokyo dan distrik industri sekitarnya",
+          "en": "Tokyo metropolitan population and surrounding industrial wards"
+        }
+      },
+      "description": {
+        "id": "Kunci pembebasan permanen Tokyo dari cengkeraman kolera terletak pada modernisasi radikal infrastruktur air minum kota. Instalasi Pengolahan Air Yodobashi (Yodobashi Jōsuijō), yang mulai beroperasi penuh dengan teknologi filter pasir lambat yang mengambil air bersih dari Sungai Tama, terus diperluas hingga mencakup sistem klorinasi kimiawi pada awal dekade 1910-an. Pipa-pipa besi cor modern menggantikan saluran kayu kuno era Edo (Kanda dan Tamagawa Jōsui) yang rawan kebocoran dan kontaminasi silang dengan selokan. Rumah-rumah penduduk secara bertahap dihubungkan dengan sambungan air leding bertekanan yang steril. Dengan pasokan air minum yang terjamin bebas kuman, wabah kolera air berskala luas di Tokyo berhasil dipadamkan, mengubah ibu kota kekaisaran menjadi salah satu kota metropolitan paling higienis di Asia.",
+        "en": "The permanent emancipation of Tokyo from recurrent cholera lay in the radical overhaul of municipal water engineering. The Yodobashi Water Purification Plant, drawing raw water from the upper Tama River, expanded its modern slow sand filtration beds and integrated chemical chlorination by the early 1910s. Modern cast-iron mains replaced archaic wooden water ducts dating back to the Edo period (the Kanda and Tamagawa aqueducts), which were notorious for fractures and cross-contamination from adjacent sewage. Domestic dwellings were progressively linked to pressurized, sterilized municipal tap networks. With the guarantee of pathogen-free drinking water, broad waterborne cholera explosions in Tokyo were extinguished, establishing the imperial capital as one of the cleanest metropolises in Asia."
+      },
+      "image": "/assets/images/cholera/wave-6/jpn/jpn_ch_06.jpg"
+    },
+    {
+      "id": "jpn_ch_07",
+      "chapterNumber": 7,
+      "type": "milestone",
+      "title": {
+        "id": "Resurgensi Maritim 1916: Ujian Wabah Jalur Pelayaran Pasifik",
+        "en": "The 1916 Maritime Resurgence: Testing Pacific Shipping Lanes"
+      },
+      "date": {
+        "id": "Juli – November 1916",
+        "en": "July – November 1916"
+      },
+      "flash": {
+        "id": "Wabah maritim mendadak menghantam pelabuhan Osaka, Kobe, dan Shimonoseki di tengah lonjakan perdagangan ekspor Perang Dunia I, memicu operasi pencegatan armada laut.",
+        "en": "A sudden maritime outbreak strikes Osaka, Kobe, and Shimonoseki amid a World War I export boom, triggering massive naval interception operations."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1",
+        "vector": "Kapal uap barang Samudra Hindia dan pelaut jalur Asia Timur",
+        "incubation": "12 – 48 jam",
+        "transmission": "Fekal-oral di pemukiman buruh pabrik tekstil dan pelabuhan industri Osaka",
+        "mutationType": {
+          "id": "Galur Maritim Perang Dunia I Pasifik",
+          "en": "World War I Pacific Maritime Lineage"
+        },
+        "threatLevel": {
+          "id": "Tingkat IV - Resurgensi Pelabuhan Industri Nasional",
+          "en": "Tier IV - National Industrial Port Resurgence"
+        },
+        "clinicalTarget": {
+          "id": "Buruh pabrik kapas Osaka, pelaut niaga, dan buruh bongkar muat",
+          "en": "Osaka textile millhands, merchant mariners, and stevedores"
+        }
+      },
+      "description": {
+        "id": "Pada musim panas 1916, di tengah lonjakan ekonomi Perang Dunia I ketika pabrik-pabrik Jepang bekerja tanpa henti untuk memenuhi pesanan barang ekspor dunia, kolera kembali menyerang dari laut. Patogen masuk melalui kapal uap kargo dari Hindia Belanda dan Tiongkok Selatan, mendarat di pelabuhan industri Osaka dan Kobe. Dalam hitungan minggu, lebih dari 10.000 kasus tercatat di seluruh wilayah Kansai. Pabrik-pabrik tekstil raksasa dan asrama buruh perempuan yang padat di Osaka menjadi medan penyebaran yang berbahaya. Menghadapi ancaman kelumpuhan industri nasional, pemerintah mengerahkan kapal-kapal patroli karantina Angkatan Laut untuk menghentikan setiap kapal niaga di Selat Kii dan Selat Shimonoseki. Operasi disinfeksi skala pabrik dilakukan siang dan malam, membatasi wabah dalam waktu empat bulan dan membuktikan kesiapan reaksi cepat biosekuriti Jepang.",
+        "en": "In the summer of 1916, during the frantic industrial boom of World War I as Japanese factories operated around the clock to supply global wartime markets, cholera struck once more from the sea. The pathogen arrived aboard merchant freighters from the Dutch East Indies and southern China, making landfall in the industrial twin ports of Osaka and Kobe. Within weeks, over 10,000 cases were registered across the Kansai industrial corridor. Giant cotton-spinning mills and dense female worker dormitories in Osaka became perilous transmission nodes. Facing industrial paralysis, the imperial cabinet deployed naval patrol vessels to intercept all commercial shipping at the Kii and Shimonoseki Straits. Rigorous factory-wide disinfections and quarantine cordons contained the outbreak within four months, showcasing Japan's industrial biosecurity readiness."
+      },
+      "image": "/assets/images/cholera/wave-6/jpn/jpn_ch_07.jpg"
+    },
+    {
+      "id": "jpn_ch_08",
+      "chapterNumber": 8,
+      "type": "side_story",
+      "title": {
+        "id": "Epidemiologi Kolonial: Sanitasi Ketat di Taiwan & Semenanjung Korea",
+        "en": "Colonial Epidemiology: Iron Discipline in Taiwan & Chosen"
+      },
+      "date": {
+        "id": "1910 – 1920",
+        "en": "1910 – 1920"
+      },
+      "flash": {
+        "id": "Pemerintah Kolonial Jepang memberlakukan model kedokteran sanitasi polisi di Taiwan dan Korea, menekan kolera dengan efisiensi tinggi namun sarat kontrol otoriter.",
+        "en": "Japanese colonial authorities implement police-sanitary governance across Taiwan and Korea, suppressing cholera with clinical precision backed by authoritarian rule."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Desa-desa agraris pesisir dan pelabuhan feri Selat Tsushima",
+        "incubation": "24 – 48 jam",
+        "transmission": "Penerapan sistem tanggung jawab bersama warga (hoko/paomei) dan isolasi paksa",
+        "mutationType": {
+          "id": "Regulasi Kedokteran Kolonial Asia Timur",
+          "en": "East Asian Colonial Medical Governance"
+        },
+        "threatLevel": {
+          "id": "Tingkat III - Intervensi Kolonial Otoriter Terkoordinasi",
+          "en": "Tier III - Coordinated Authoritarian Colonial Intervention"
+        },
+        "clinicalTarget": {
+          "id": "Populasi petani Taiwan, buruh Korea, dan komunitas pesisir",
+          "en": "Taiwanese farming communities, Korean laborers, and coastal towns"
+        }
+      },
+      "description": {
+        "id": "Di wilayah koloninya di Taiwan dan Semenanjung Korea, Jepang menerapkan model administrasi kesehatan masyarakat yang sangat ketat dan terpusat. Di Taiwan, di bawah bimbingan Gotō Shinpei dan penasihat medis Jerman, Kantor Gubernur Jenderal (Sōtokufu) mengintegrasikan jaringan polisi kolonial dengan sistem tradisional pengawasan bersama (Hoko). Jika satu kasus kolera terdeteksi di sebuah desa, seluruh komunitas diisolasi, sumur-sumur dikapur, dan penduduk diwajibkan menjalani pemeriksaan tinja berkala. Di Semenanjung Korea, jalur kereta api Busan-Seoul dijaga ketat oleh pos karantina militer untuk mencegah penularan dari perbatasan Manchuria. Meskipun metode ini memicu ketegangan sosial dan resistensi dari penduduk lokal, angka kematian akibat kolera berhasil ditekan ke tingkat terendah yang belum pernah tercapai di kawasan Asia Timur sebelumnya.",
+        "en": "Across its colonial territories in Taiwan and the Korean Peninsula (Chōsen), Japan instituted a militarized, highly centralized public health paradigm. In Taiwan, under the administrative blueprint of Gotō Shinpei, the Governor-General's Office integrated the colonial police with the traditional mutual-surveillance apparatus (Hōkō). When a single cholera case appeared in a village, the entire hamlet was quarantined behind barbed-wire cordons, wells were sealed with slaked lime, and residents underwent mandatory fecal cultures. In Korea, the Busan-Seoul railway corridor was rigorously policed by military sanitarians to sever transmission chains originating from Manchuria. While provoking severe social resentment against colonial authoritarianism, this aggressive regime achieved historically unprecedented reductions in cholera mortality across the region."
+      },
+      "image": "/assets/images/cholera/wave-6/jpn/jpn_ch_08.jpg"
+    },
+    {
+      "id": "jpn_ch_09",
+      "chapterNumber": 9,
+      "type": "standard",
+      "title": {
+        "id": "Gelombang Terakhir 1920: Epilog Pandemi Keenam di Kepulauan Jepang",
+        "en": "The 1920 Final Wave: Epilogue of the Sixth Pandemic in the Archipelago"
+      },
+      "date": {
+        "id": "Agustus – Desember 1920",
+        "en": "August – December 1920"
+      },
+      "flash": {
+        "id": "Gelombang kolera terakhir dari Pandemi Keenam mencatatkan 4.900 kasus sebelum berhasil dipadamkan total oleh sistem deteksi laboratorium terintegrasi.",
+        "en": "The final significant outbreak of the Sixth Pandemic logs 4,900 cases before being completely extinguished by Japan's integrated laboratory surveillance network."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Perahu nelayan pesisir dan pasar grosir ikan Tsukiji lama (Nihonbashi)",
+        "incubation": "24 – 48 jam",
+        "transmission": "Kontaminasi es pengawet ikan mentah di pasar grosir tradisional",
+        "mutationType": {
+          "id": "Galur Pesisir Terminal 1920",
+          "en": "1920 Terminal Coastal Lineage"
+        },
+        "threatLevel": {
+          "id": "Tingkat III - Wabah Penutup Pandemi Terlokalisir",
+          "en": "Tier III - Localized Terminal Pandemic Outbreak"
+        },
+        "clinicalTarget": {
+          "id": "Pedagang pasar ikan Nihonbashi, kuli angkut es, dan keluarga nelayan",
+          "en": "Nihonbashi fish market merchants, ice haulers, and fishing families"
+        }
+      },
+      "description": {
+        "id": "Pada akhir musim panas 1920, Jepang menghadapi gelombang kolera signifikan terakhirnya dalam Pandemi Keenam. Wabah ini berpusat di pasar grosir ikan bersejarah Nihonbashi di Tokyo dan pasar ikan pedalaman Osaka. Vektor penularan dilacak pada es batang pengawet ikan yang diproduksi dari air sungai yang tercemar di pinggiran kota. Meskipun sempat menimbulkan kepanikan di kalangan pedagang makanan laut, respons otoritas kesehatan kali ini berlangsung sangat cepat dan terorganisir. Dalam 48 jam, seluruh pasokan es di Tokyo disita dan dimusnahkan, pasar ikan disemprot disinfektan uap, dan ribuan pedagang serta pembeli diwajibkan menjalani tes kultur bakteriologis. Angka fatalitas kasus ditekan di bawah 25% berkat terapi infus salin hipertonik yang telah diadopsi luas dari metode Sir Leonard Rogers. Pada Desember 1920, wabah berhasil dipadamkan sepenuhnya.",
+        "en": "In the late summer of 1920, Japan faced its final major cholera episode of the Sixth Pandemic. The outbreak crystallized around the historic Nihonbashi fish market in Tokyo and regional fish distributions in Osaka. The transmission chain was traced to commercial block ice utilized to pack fresh seafood, which had been manufactured from polluted canal water on the urban fringes. In contrast to past panics, the public health apparatus responded with clinical dispatch. Within 48 hours, Tokyo's commercial ice stocks were impounded and melted with boiling water, markets underwent thorough steam sterilization, and thousands of vendors underwent mandatory bacteriological screening. Case fatality plummeted below 25% due to the widespread clinical adoption of Sir Leonard Rogers' intravenous hypertonic saline therapy. By December 1920, the outbreak was entirely snuffed out."
+      },
+      "image": "/assets/images/cholera/wave-6/jpn/jpn_ch_09.jpg"
+    },
+    {
+      "id": "jpn_ch_10",
+      "chapterNumber": 10,
+      "type": "side_story",
+      "title": {
+        "id": "Gempa Besar Kantō 1923: Ketahanan Sanitasi di Tengah Kehancuran",
+        "en": "The Great Kantō Earthquake 1923: Sanitary Resilience Amid Ruin"
+      },
+      "date": {
+        "id": "September – November 1923",
+        "en": "September – November 1923"
+      },
+      "flash": {
+        "id": "Ketika gempa bumi dahsyat menghancurkan Tokyo dan Yokohama menjadi abu dan reruntuhan, disiplin kesehatan publik mencegah meletusnya wabah kolera sekunder.",
+        "en": "When a catastrophic earthquake levels Tokyo and Yokohama into ash and debris, disciplined emergency sanitation successfully averts a secondary cholera holocaust."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae & Salmonella enterica",
+        "vector": "Pipa air minum kota yang hancur dan genangan reruntuhan gempa",
+        "incubation": "N/A (Pencegahan Bencana Sekunder)",
+        "transmission": "Distribusi air bersih darurat berklorinasi tinggi dan tablet pemurni air",
+        "mutationType": {
+          "id": "Profilaksis Bencana Alam Kantō 1923",
+          "en": "1923 Kantō Disaster Prophylaxis"
+        },
+        "threatLevel": {
+          "id": "Tingkat II - Ketahanan Sanitasi Darurat Pasca-Bencana",
+          "en": "Tier II - Post-Disaster Emergency Sanitary Resilience"
+        },
+        "clinicalTarget": {
+          "id": "Dua juta pengungsi tanpa tempat tinggal di Tokyo dan Yokohama",
+          "en": "Two million homeless earthquake refugees in Tokyo and Yokohama"
+        }
+      },
+      "description": {
+        "id": "Pada 1 September 1923, Gempa Besar Kantō berkekuatan 7,9 meratakan Tokyo dan Yokohama, menewaskan lebih dari 140.000 jiwa dalam badai api dahsyat. Sistem perpipaan air minum Yodobashi hancur, ribuan jasad manusia dan kuda membusuk di bawah terik matahari, dan dua juta pengungsi berkemah di ruang terbuka taman Ueno dan Hibiya. Para ahli medis internasional mengkhawatirkan terjadinya bencana kolera sekunder yang tak terelakkan. Namun, Departemen Medis Darurat Jepang dan Korps Zeni Angkatan Darat bertindak dengan kecepatan luar biasa. Truk tangki air militer membawa air steril berklorinasi tinggi ke kamp-kamp pengungsi, sumur-sumur darurat diberi disinfektan kapur klorida secara masif, dan serbuk pemutih ditaburkan di seluruh reruntuhan kota. Berkat disiplin sanitasi yang telah ditempa selama dua dekade, tidak ada satu pun wabah kolera yang meletus di puing-puing Tokyo.",
+        "en": "On September 1, 1923, the Great Kantō Earthquake struck the Tokyo-Yokohama metropolitan basin, extinguishing over 140,000 lives in firestorms and collapsing masonry. The Yodobashi water distribution system was shattered, thousands of decomposing corpses choked ruined thoroughfares, and two million refugees huddled in parks like Ueno and Hibiya. Global medical authorities warned that a catastrophic secondary cholera disaster was inevitable. However, Japan's Emergency Sanitary Directorate and Army Engineering units mobilized with exceptional speed. Military water trucks hauled heavily chlorinated potable supplies directly to refugee encampments, field wells were dosed with bleaching powder, and carbolic acid was broadcast over ruins. Thanks to the civic hygiene discipline forged over two decades of anti-cholera campaigns, not a single secondary cholera epidemic erupted from the ashes."
+      },
+      "image": "/assets/images/cholera/wave-6/jpn/jpn_ch_10.jpg"
+    },
+    {
+      "id": "jpn_ch_11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Modernisasi Industri Farmasi & Kemandirian Salin Intravena",
+        "en": "Pharmaceutical Modernization & Intravenous Saline Autarky"
+      },
+      "date": {
+        "id": "1921 – 1923",
+        "en": "1921 – 1923"
+      },
+      "flash": {
+        "id": "Perusahaan farmasi Jepang seperti Takeda dan Daiichi memproduksi cairan infus steril dan ampul salin secara massal, mendemokratisasi terapi dehidrasi modern di Asia.",
+        "en": "Japanese pharmaceutical conglomerates mass-produce sterile infusion fluids and glass saline ampoules, democratizing modern dehydration therapy across Asia."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Peralatan terapi cairan intravena dan pabrik farmasi modern",
+        "incubation": "N/A (Intervensi Terapeutik Klinis)",
+        "transmission": "Rehidrasi intravena cepat larutan salin steril dan bikarbonat",
+        "mutationType": {
+          "id": "Standar Terapeutik Farmasi Industri",
+          "en": "Industrial Pharmaceutical Therapeutic Standard"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Keberhasilan Terapeutik Farmasi Massal",
+          "en": "Tier I - Mass Pharmaceutical Therapeutic Efficacy"
+        },
+        "clinicalTarget": {
+          "id": "Pasien dehidrasi kolera akut dan syok hipovolemik",
+          "en": "Acute cholera dehydration and hypovolemic shock patients"
+        }
+      },
+      "description": {
+        "id": "Keberhasilan penanganan kolera di Jepang tidak hanya bertumpu pada pencegahan, melainkan juga revolusi industri farmasi dalam memproduksi terapi kuratif. Terinspirasi oleh protokol infus salin hipertonik Leonard Rogers di India, perusahaan-perusahaan farmasi nasional seperti Takeda Pharmaceutical dan Daiichi Seiyaku mengembangkan lini produksi botol kaca steril bertekanan dan ampul larutan salin fisiologis serta natrium bikarbonat. Jika sebelumnya terapi cairan intravena merupakan prosedur langka dan rumit yang hanya dapat dilakukan di rumah sakit universitas terkemuka, pada awal dekade 1920-an peralatan infus portabel telah tersedia di setiap pos kesehatan prefektur dan kapal karantina maritim. Pasien yang tiba dalam keadaan pingsan dengan denyut nadi tak teraba dapat diselamatkan dalam hitungan jam dengan infus cepat beberapa liter salin steril.",
+        "en": "Japan's triumph over cholera relied not merely on preventative cordons, but on the industrialization of curative therapeutic regimens. Inspired by Leonard Rogers' pioneering hypertonic saline protocols in Calcutta, domestic pharmaceutical leaders such as Takeda and Daiichi established sterile manufacturing lines for pressurized glass infusion sets containing physiological saline and sodium bicarbonate solutions. Previously, intravenous fluid resuscitation was an exotic, risky procedure restricted to imperial university hospitals; by the early 1920s, standardized mobile infusion kits were stockpiled across prefectural clinics and maritime quarantine tenders. Patients presenting in profound cyanotic shock and undetectable pulses could be revived within hours via rapid infusion of sterile saline, driving clinical mortality down to historic lows."
+      },
+      "image": "/assets/images/cholera/wave-6/jpn/jpn_ch_11.jpg"
+    },
+    {
+      "id": "jpn_ch_12",
+      "chapterNumber": 12,
+      "type": "summary",
+      "title": {
+        "id": "Model Keberhasilan Higiene Asia Timur: Warisan Pandemi Keenam",
+        "en": "The East Asian Hygiene Paradigm: Legacy of the Sixth Pandemic"
+      },
+      "date": {
+        "id": "1923",
+        "en": "1923"
+      },
+      "flash": {
+        "id": "Dengan memadukan bakteriologi canggih, rekayasa air leding perkotaan, dan kepatuhan masyarakat, Jepang membuktikan bahwa kolera dapat dikalahkan di Asia.",
+        "en": "By fusing advanced bacteriology, municipal tap waterworks, and civic compliance, Japan demonstrates that cholera can be vanquished in Asia."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Sistem kesehatan publik terpadu dan jaringan karantina maritim permanen",
+        "incubation": "N/A (Pemberantasan Pandemik Selesai)",
+        "transmission": "Pemutusan permanen transmisi fekal-oral di seluruh wilayah kepulauan",
+        "mutationType": {
+          "id": "Eradikasi Kepulauan Terpadu",
+          "en": "Integrated Archipelagic Eradication"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Pengawasan Pasca-Pandemi Tingkat Tinggi",
+          "en": "Tier I - High-Level Post-Pandemic Surveillance"
+        },
+        "clinicalTarget": {
+          "id": "Populasi Kekaisaran Jepang dan rute perdagangan maritim global",
+          "en": "Imperial Japanese citizenry and global maritime trade routes"
+        }
+      },
+      "description": {
+        "id": "Pada penutupan Pandemi Keenam pada tahun 1923, Kekaisaran Jepang telah bertransformasi dari negara kepulauan yang rentan terhadap wabah menjadi benteng biosekuriti paling tangguh di benua Asia. Di tengah dunia yang masih menganggap kolera sebagai penyakit tak terhindarkan di kawasan tropis dan Timur Jauh, Jepang membuktikan bahwa perpaduan antara sains mikrobiologi modern (yang dirintis oleh Kitasato), rekayasa sanitasi air minum kota Yodobashi, karantina maritim raksasa Ninoshima, dan kepatuhan masyarakat yang terdidik mampu membasmi patogen dari lingkungan hidup manusia. Pengalaman berharga selama empat dekade pertempuran melawan kolera ini tidak hanya meletakkan dasar bagi sistem asuransi kesehatan nasional dan umur panjang masyarakat Jepang modern, melainkan juga menetapkan standar emas bagi penanganan darurat penyakit menular di seluruh kawasan Asia-Pasifik.",
+        "en": "At the conclusion of the Sixth Pandemic in 1923, the Empire of Japan stood transformed from a vulnerable archipelagic nation into Asia's most resilient biosecurity fortress. While contemporary Western observers often framed cholera as an intractable environmental inevitability in the Orient, Japan decisively demonstrated that modern bacteriological science (championed by Kitasato), advanced municipal water purification, monumental maritime quarantine sieves like Ninoshima, and an extraordinarily disciplined public could completely banish the pathogen. The formidable public health mechanisms forged through four decades of anti-cholera struggles laid the foundational bedrock for Japan's modern national health insurance system, renowned longevity, and provided a global benchmark for infectious disease management across the Pacific Rim."
+      },
+      "image": "/assets/images/cholera/wave-6/jpn/jpn_ch_12.jpg"
+    }
+  ]
+}

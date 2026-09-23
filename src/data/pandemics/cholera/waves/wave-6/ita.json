@@ -1,0 +1,499 @@
+{
+  "sectorId": "ITA",
+  "waveIndex": 6,
+  "sectorName": {
+    "id": "Italia Selatan & Koridor Atlantik Barat",
+    "en": "Southern Italy & Western Atlantic Corridor"
+  },
+  "coordinates": [
+    40.8518,
+    14.2681
+  ],
+  "timeRange": {
+    "start": "1910",
+    "end": "1912"
+  },
+  "estimatedFatalities": "18,000+",
+  "chapters": [
+    {
+      "id": "ita_ch_01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Ledakan Teluk Napoli: Resurgensi Kolera di Mezzogiorno",
+        "en": "Outbreak in the Bay of Naples: Resurgence in the Mezzogiorno"
+      },
+      "date": {
+        "id": "Agustus – September 1910",
+        "en": "August – September 1910"
+      },
+      "flash": {
+        "id": "Setelah satu dekade bebas kolera, Vibrio cholerae meletus kembali di teluk Napoli dan desa-desa pesisir Apulia melalui jalur perdagangan kerang mentah.",
+        "en": "After a decade of respite, Vibrio cholerae erupts across the Bay of Naples and Apulian fishing villages, propagated through the raw shellfish trade."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1 Classical",
+        "vector": "Kerang mentah (frutti di mare), limbah muara pelabuhan, dan sumur air asin",
+        "incubation": "12 – 48 jam",
+        "transmission": "Konsumsi kerang laut mentah dan air minum tercemar limbah pemukiman",
+        "mutationType": {
+          "id": "Vibrio cholerae Strain Mezzogiorno-Napoli",
+          "en": "Mezzogiorno-Naples Classical Vibrio Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat IV - Resurgensi Mediterania Regional",
+          "en": "Tier IV - Regional Mediterranean Resurgence"
+        },
+        "clinicalTarget": {
+          "id": "Nelayan teluk, buruh pelabuhan, dan komunitas kumuh bassi",
+          "en": "Bay fishermen, dock workers, and tenement bassi inhabitants"
+        }
+      },
+      "description": {
+        "id": "Pada akhir musim panas 1910, bayang-bayang kelam kolera kembali menyelimuti Italia Selatan (Mezzogiorno). Di Napoli, kota terpadat di semenanjung Italia, kasus-kasus diare profus akut pertama kali dilaporkan di antara para nelayan di distrik pelabuhan Santa Lucia dan barak-barak pemukiman bawah tanah (bassi). Vektor utama penyebaran teridentifikasi sebagai budidaya dan konsumsi tiram serta kerang mentah (frutti di mare) yang dipanen langsung dari perairan Teluk Napoli yang terkontaminasi oleh pembuangan limbah kota tanpa pengolahan. Pada saat yang sama, wabah meledak di kota-kota pelabuhan Apulia seperti Barletta dan Bari, yang dibawa oleh pelaut dari Laut Hitam. Rumah Sakit Cotugno dipenuhi pasien yang berada dalam kondisi sianotik, menghidupkan kembali trauma kolektif epidemi besar tahun 1884 yang pernah meluluhlantakkan kota tersebut.",
+        "en": "In the late summer of 1910, the dark specter of cholera returned to haunt the Italian Mezzogiorno. In Naples, the peninsula's most densely packed metropolis, cases of violent watery diarrhea first emerged among fishermen in the Santa Lucia harbor district and inhabitants of the subterranean basement tenements known as bassi. The primary epidemiological vector was traced to raw shellfish (frutti di mare) harvested from coastal shallows receiving raw municipal sewage. Concurrently, outbreaks detonated in Apulian port towns such as Barletta and Bari, introduced by sailors arriving from the Black Sea. The Cotugno Contagious Diseases Hospital was inundated with patients collapsed in cyanotic shock, violently resurrecting the traumatic collective memory of the devastating 1884 epidemic that had crippled the city."
+      },
+      "image": "/assets/images/cholera/wave-6/ita/ita_ch_01.jpg"
+    },
+    {
+      "id": "ita_ch_02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Kerahasiaan Negara & Ancaman Terhadap Pameran Internasional 1911",
+        "en": "State Secrecy & Threat to the 1911 International Exposition"
+      },
+      "date": {
+        "id": "September – November 1910",
+        "en": "September – November 1910"
+      },
+      "flash": {
+        "id": "Pemerintahan Perdana Menteri Luigi Luzzatti memberlakukan sensor pers ketat atas wabah kolera demi melindungi persiapan Pameran Internasional Turin dan Roma 1911.",
+        "en": "Prime Minister Luigi Luzzatti's government imposes strict press censorship on cholera reports to protect preparations for the 1911 Turin and Rome International Expositions."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kerahasiaan birokrasi dan keterlambatan pelaporan medis resmi",
+        "incubation": "24 – 72 jam",
+        "transmission": "Penyebaran tersembunyi antarkota akibat ketiadaan peringatan publik",
+        "mutationType": {
+          "id": "Penularan Terselubung Sensor Kebijakan",
+          "en": "Policy-Censored Cryptic Transmission"
+        },
+        "threatLevel": {
+          "id": "Tingkat III - Hambatan Regulasi & Manipulasi Informasi",
+          "en": "Tier III - Regulatory Obstruction & Information Suppression"
+        },
+        "clinicalTarget": {
+          "id": "Masyarakat umum yang tidak waspada dan pelancong domestik",
+          "en": "Unwarned general public and domestic travelers"
+        }
+      },
+      "description": {
+        "id": "Ketika berita tentang kolera di Napoli mulai bocor, pemerintah Italia di Roma dilanda kepanikan politik dan ekonomi. Italia sedang mempersiapkan perayaan akbar ulang tahun ke-50 unifikasi nasional (Cinquantenario), dengan menggelar Pameran Internasional megah di Roma dan Turin pada tahun 1911 yang ditargetkan menarik jutaan wisatawan kaya Eropa dan Amerika. Di bawah instruksi rahasia Kementerian Dalam Negeri, sensor ketat diberlakukan terhadap surat kabar; kata 'kolera' dilarang dan digantikan dengan istilah eufemistis seperti 'gangguan pencernaan musiman' atau 'gastroenteritis akut'. Para prefek dan pejabat sanitasi dilarang menerbitkan statistik kematian harian. Namun, penyangkalan resmi ini justru menjadi bumerang fatal: tanpa peringatan publik yang jelas, warga Napoli terus mengonsumsi makanan laut mentah dan bepergian tanpa pembatasan, menyebarkan vibrio ke seluruh wilayah semenanjung.",
+        "en": "As reports of cholera in Naples trickled into the press, the Italian government in Rome entered political and economic panic. The kingdom was preparing for the monumental 50th anniversary of national unification (Cinquantenario), organizing lavish World's Fairs in Turin and Rome slated for 1911 to attract millions of affluent international tourists. Under secret directives from the Ministry of the Interior, draconian censorship was slapped onto newspapers; the dreaded word 'cholera' was banned and replaced with deceptive euphemisms such as 'seasonal digestive upset' or 'acute gastroenteritis.' Provincial prefects were ordered to suppress daily mortality tallies. This institutional denial proved disastrous: deprived of truthful epidemiological warnings, civilians continued consuming contaminated seafood and traveling unhindered, silently seeding the vibrio across mainland Italy."
+      },
+      "image": "/assets/images/cholera/wave-6/ita/ita_ch_02.jpg"
+    },
+    {
+      "id": "ita_ch_03",
+      "chapterNumber": 3,
+      "type": "side_story",
+      "title": {
+        "id": "Pemberontakan Sanitasi Apulia: Kerusuhan Anti-Disinfeksi",
+        "en": "Apulian Sanitary Rebellions: Anti-Disinfection Riots"
+      },
+      "date": {
+        "id": "Oktober 1910",
+        "en": "October 1910"
+      },
+      "flash": {
+        "id": "Di kota-kota terpencil Apulia, petani dan buruh miskin menyerang tim medis dan membakar pos karantina karena mencurigai dokter meracuni sumur publik.",
+        "en": "In isolated Apulian hamlets, impoverished peasants assault medical brigades and torch lazarettos, suspecting municipal doctors of poisoning public wells."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Penyemprot karbol disinfektan dan isolasi paksa pasien",
+        "incubation": "24 – 48 jam",
+        "transmission": "Penolakan isolasi dan penyembunyian jasad korban di rumah",
+        "mutationType": {
+          "id": "Transmisi Komunitas Akibat Resistensi Sosial",
+          "en": "Social Resistance Amplified Community Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat IV - Kerusuhan Sipil & Resistensi Publik Terbuka",
+          "en": "Tier IV - Civil Unrest & Public Health Insurgency"
+        },
+        "clinicalTarget": {
+          "id": "Petani miskin Apulia, petugas karantina, dan dokter publik",
+          "en": "Impoverished Apulian contadini, quarantine guards, and doctors"
+        }
+      },
+      "description": {
+        "id": "Di wilayah pedesaan Apulia yang miskin dan buta huruf, ketidakpercayaan mendalam terhadap pemerintah Roma memicu ledakan kekerasan sosial. Ketika brigade sanitasi bersenjata tiba untuk menyemprot rumah-rumah dengan larutan asam karbol yang berbau menyengat dan secara paksa membawa anggota keluarga yang sakit ke barak isolasi terpencil, rumor mengerikan menyebar cepat di antara kaum tani (contadini). Mereka meyakini bahwa dokter pemerintah sengaja menyebarkan racun untuk mengurangi populasi orang miskin. Di kota Andria, Canosa, dan Cerignola, massa yang marah bersenjatakan sabit dan batu menyerang balai kota, memukuli dokter karantina, dan membakar gudang disinfektan. Jasad korban kolera disembunyikan di balik dinding batu atau dikubur diam-diam di bawah lantai rumah, memperparah penularan fekal-oral di lingkungan keluarga.",
+        "en": "Across the impoverished and illiterate rural landscapes of Apulia, profound mistrust of northern authority ignited violent social revolts. When armed sanitary brigades arrived to douse domestic hearths with noxious carbolic acid and forcibly drag sick kin to quarantined lazarettos, terrifying rumors swept through the peasantry (contadini). The populace believed municipal doctors were deliberately poisoning wells and administering lethal potions to cull the poor. In towns such as Andria, Canosa, and Cerignola, enraged mobs wielding scythes and stones ransacked municipal halls, assaulted quarantine physicians, and set fire to disinfection depots. Grieving families concealed the bodies of cholera victims behind plaster walls or buried them secretly beneath floorboards, drastically accelerating household transmission chains."
+      },
+      "image": "/assets/images/cholera/wave-6/ita/ita_ch_03.jpg"
+    },
+    {
+      "id": "ita_ch_04",
+      "chapterNumber": 4,
+      "type": "milestone",
+      "title": {
+        "id": "Eksodus Atlantik: Kapal Uap Emigran & Vektor Bawah Geladak",
+        "en": "The Atlantic Exodus: Emigrant Steamships & Steerage Vectors"
+      },
+      "date": {
+        "id": "September – Oktober 1910",
+        "en": "September – October 1910"
+      },
+      "flash": {
+        "id": "Ribuan emigran Italia Selatan berlayar menuju New York dengan kapal uap transatlantik, membawa Vibrio cholerae tanpa gejala di ruang kelas tiga (steerage) yang sesak.",
+        "en": "Thousands of southern Italian emigrants board transatlantic liners bound for New York, carrying asymptomatic Vibrio cholerae inside crowded third-class steerage quarters."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1",
+        "vector": "Kompartemen geladak bawah (steerage) kapal uap transatlantik",
+        "incubation": "2 – 5 hari (diperpanjang pada carrier asimtomatik)",
+        "transmission": "Toilet bersama di kapal dan tangki air tawar pelayaran samudra",
+        "mutationType": {
+          "id": "Garis Keturunan Transatlantik Napoli-New York",
+          "en": "Naples-New York Transatlantic Steerage Lineage"
+        },
+        "threatLevel": {
+          "id": "Tingkat IV - Vektor Maritim Lintas Samudera",
+          "en": "Tier IV - Transoceanic Maritime Vector"
+        },
+        "clinicalTarget": {
+          "id": "Emigran kelas tiga, anak-anak emigran, dan buruh kapal",
+          "en": "Third-class steerage emigrants, immigrant children, and crew"
+        }
+      },
+      "description": {
+        "id": "Meskipun wabah kolera berkecamuk di pelabuhan Napoli dan Palermo, gelombang emigrasi massal rakyat Italia ke Benua Amerika tidak terhenti. Ribuan keluarga miskin yang melarikan diri dari kemiskinan dan bencana gempa bumi Messina 1908 terus membeli tiket murah di ruang kelas tiga (steerage) kapal uap milik jalur pelayaran Lloyd Italiano dan Navigazione Generale Italiana. Kapal-kapal seperti *San Giorgio*, *Santa Anna*, dan *Moltke* memuat hingga 1.500 penumpang di kompartemen bawah geladak yang pengap, berlantai kayu, dan memiliki ventilasi minimal. Fasilitas sanitasi di kapal sangat minim; beberapa jamban bersama melayani ratusan orang. Di lingkungan tertutup inilah Vibrio cholerae bertransmisi secara senyap di antara para pembawa tanpa gejala (healthy carriers) selama pelayaran 12 hari melintasi Samudra Atlantik.",
+        "en": "Despite cholera ravaging the ports of Naples and Palermo, the monumental tide of Italian emigration to the United States could not be stemmed. Thousands of destitute families fleeing economic ruin and the aftermath of the 1908 Messina earthquake secured cheap third-class steerage tickets on steamships operated by Lloyd Italiano and Navigazione Generale Italiana. Ocean liners such as the *San Giorgio*, *Santa Anna*, and *Moltke* embarked up to 1,500 steerage passengers in stifling, poorly ventilated compartments deep below the waterline. Communal sanitary facilities were primitive, with a handful of unplumbed latrines serving hundreds. In this humid, sealed micro-environment, Vibrio cholerae circulated silently among asymptomatic carriers during the arduous twelve-day passage across the Atlantic Ocean."
+      },
+      "image": "/assets/images/cholera/wave-6/ita/ita_ch_04.jpg"
+    },
+    {
+      "id": "ita_ch_05",
+      "chapterNumber": 5,
+      "type": "milestone",
+      "title": {
+        "id": "Pulau Hoffman & Swinburne: Benteng Karantina Pelabuhan New York",
+        "en": "Hoffman & Swinburne Islands: New York Harbor's Quarantine Citadel"
+      },
+      "date": {
+        "id": "September – November 1910",
+        "en": "September – November 1910"
+      },
+      "flash": {
+        "id": "Pejabat Karantina Kesehatan Pelabuhan New York, Dr. Alvah H. Doty, menahan kapal emigran Italia di Lower Bay dan mendirikan laboratorium skrining bakteriologis canggih.",
+        "en": "New York Port Health Health Officer Dr. Alvah H. Doty halts Italian emigrant liners in the Lower Bay, establishing advanced bacteriological carrier screening laboratories."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kapal uap SS San Giorgio dan bangsal karantina pulau terisolasi",
+        "incubation": "24 – 72 jam",
+        "transmission": "Penahanan maritim ketat dan isolasi bakteriologis tinja",
+        "mutationType": {
+          "id": "Deteksi Pembawa Kuman Asimtomatik",
+          "en": "Asymptomatic Carrier Laboratory Detection"
+        },
+        "threatLevel": {
+          "id": "Tingkat III - Intersepsi Perbatasan Maritim Internasional",
+          "en": "Tier III - International Maritime Border Interception"
+        },
+        "clinicalTarget": {
+          "id": "Emigran Italia yang tiba di Pelabuhan New York",
+          "en": "Italian steerage arrivals at the Port of New York"
+        }
+      },
+      "description": {
+        "id": "Ketika kapal uap *SS San Giorgio* berlayar ke Pelabuhan New York pada September 1910 membawa tiga mayat di geladak, Kepala Karantina Pelabuhan New York, Dr. Alvah H. Doty, segera memberlakukan protokol pertahanan biologis tingkat tinggi. Menyadari bahwa pemerintah Italia telah menyembunyikan fakta wabah, Doty menolak memberikan izin sandar ke Manhattan. Seluruh penumpang steerage dievakuasi ke dua pulau buatan di Teluk Bawah: Pulau Hoffman untuk observasi dan karantina, serta Pulau Swinburne untuk rumah sakit isolasi menular. Doty menolak mengandalkan sekadar pemeriksaan suhu tubuh atau mata; ia mendirikan laboratorium bakteriologis terapung di kapal karantina untuk mengambil sampel usap rektal dan kultur tinja dari setiap imigran. Langkah revolusioner ini berhasil mendeteksi puluhan 'healthy carrier' yang membawa bakteri hidup tanpa pernah jatuh sakit, mencegah patogen menyusup ke Manhattan.",
+        "en": "When the ocean liner *SS San Giorgio* steamed into New York Harbor in September 1910 bearing three bodies aboard, New York Health Officer of the Port Dr. Alvah H. Doty initiated an unprecedented biosafety cordon. Aware that Italian authorities were obfuscating the epidemic's severity, Doty refused docking clearance at Manhattan quays. All steerage passengers were transferred to two artificial quarantine fortresses in the Lower Bay: Hoffman Island for detention and surveillance, and Swinburne Island for contagious hospitalization. Doty discarded superficial visual inspections, instituting mandatory rectal swabbing and fecal culture plating on agar media for every immigrant. This pioneering bacteriological screening identified dozens of completely asymptomatic carriers shedding viable vibrios, successfully preventing the lethal pathogen from penetrating Manhattan's tenements."
+      },
+      "image": "/assets/images/cholera/wave-6/ita/ita_ch_05.jpg"
+    },
+    {
+      "id": "ita_ch_06",
+      "chapterNumber": 6,
+      "type": "standard",
+      "title": {
+        "id": "Ujian Gelombang Kedua 1911: Wabah Musim Panas & Gelombang Kasus NYC",
+        "en": "The 1911 Second Wave: Summer Relapse & NYC Island Infiltrations"
+      },
+      "date": {
+        "id": "Juni – Agustus 1911",
+        "en": "June – August 1911"
+      },
+      "flash": {
+        "id": "Gelombang kolera kedua yang lebih ganas menyapu Italia pada musim panas 1911, menewaskan puluhan imigran di stasiun karantina New York dan menguji sistem pertahanan Amerika.",
+        "en": "A virulent second cholera wave sweeps Italy in the summer of 1911, killing dozens in New York quarantine stations and testing the American sanitary perimeter."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kapal uap *Moltke*, *Berlin*, dan *Sant'Anna*",
+        "incubation": "12 – 48 jam",
+        "transmission": "Transmisi infeksi sekunder di barak karantina pulau",
+        "mutationType": {
+          "id": "Galur Musim Panas 1911 Teluk Napoli",
+          "en": "1911 Summer Bay of Naples Virulent Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat IV - Krisis Karantina Imigrasi Nasional",
+          "en": "Tier IV - National Immigration Quarantine Crisis"
+        },
+        "clinicalTarget": {
+          "id": "Imigran tertahan di Hoffman Island dan staf medis karantina",
+          "en": "Detained immigrants on Hoffman Island and quarantine personnel"
+        }
+      },
+      "description": {
+        "id": "Kekhawatiran para ahli epidemiologi menjadi kenyataan pada musim panas 1911 ketika kolera meletus kembali di Italia dengan intensitas dua kali lipat, menginfeksi lebih dari 30 provinsi dari Sisilia hingga Venesia. Di New York, stasiun karantina Dr. Doty menghadapi ujian terberatnya saat belasan kapal uap tiba hampir bersamaan dengan puluhan kasus kolera fulminan di atas kapal. Meskipun penyaringan laboratorium dilakukan secara agresif, dua imigran yang lolos pemeriksaan awal kemudian meninggal karena kolera di Brooklyn dan Auburn, memicu kepanikan luas di media cetak Amerika Serikat. Presiden William Howard Taft memerintahkan Korps Medis Angkatan Laut dan US Public Health Service untuk memperkuat pengawasan perbatasan maritim. Di Pulau Swinburne, lebih dari dua puluh imigran Italia meninggal dunia, namun disiplin isolasi yang tak kenal ampun berhasil mengurung wabah di pulau karantina tanpa pernah menjadi epidemi kota.",
+        "en": "Epidemiological fears materialized in the summer of 1911 when cholera reignited across Italy with doubled virulence, engulfing over thirty provinces from Sicily to Venice. In New York, Dr. Doty's quarantine apparatus faced its ultimate trial as multiple immigrant liners arrived simultaneously carrying active, fulminant cases. Despite aggressive bacteriological plating, two travelers who passed initial screenings subsequently succumbed to cholera in Brooklyn and upstate Auburn, igniting intense national media hysteria. President William Howard Taft directed the US Public Health and Marine Hospital Service to reinforce the maritime perimeter. On Swinburne Island, over twenty Italian immigrants perished, yet ruthless isolation discipline successfully confined the lethal outbreak to the quarantine islands, preventing a wider urban wildfire."
+      },
+      "image": "/assets/images/cholera/wave-6/ita/ita_ch_06.jpg"
+    },
+    {
+      "id": "ita_ch_07",
+      "chapterNumber": 7,
+      "type": "milestone",
+      "title": {
+        "id": "Revolusi Klorinasi Air Bersih: Jersey City & Bubbly Creek",
+        "en": "The Chlorination Revolution: Jersey City & Bubbly Creek"
+      },
+      "date": {
+        "id": "1908 – 1911",
+        "en": "1908 – 1911"
+      },
+      "flash": {
+        "id": "John L. Leal dan George A. Johnson membuktikan bahwa klorinasi air minum skala massal membasmi bakteri patogen secara instan, mendirikan perisai permanen Amerika dari kolera.",
+        "en": "John L. Leal and George A. Johnson demonstrate that municipal water chlorination instantly eradicates waterborne pathogens, forging America's permanent shield against cholera."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae & Salmonella typhi",
+        "vector": "Reservoir air minum perkotaan dan pasokan air kota industri",
+        "incubation": "N/A (Disinfeksi Kimiawi)",
+        "transmission": "Inaktivasi patogen melalui oksidasi kalsium hipoklorit (klorin)",
+        "mutationType": {
+          "id": "Eradikasi Kimiawi Melalui Klorinasi Masal",
+          "en": "Chemical Eradication via Mass Chlorination"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Terobosan Rekayasa Sanitasi Revolusioner",
+          "en": "Tier I - Revolutionary Sanitary Engineering Breakthrough"
+        },
+        "clinicalTarget": {
+          "id": "Populasi perkotaan Amerika Serikat dan konsumen air leding",
+          "en": "Urban US populations and municipal tap water consumers"
+        }
+      },
+      "description": {
+        "id": "Sementara Eropa dan Karibia masih berjuang melawan wabah kolera menggunakan karantina abad pertengahan, sebuah revolusi teknologi di Amerika Serikat mengubah jalannya sejarah sanitasi global. Pada akhir 1908 di Boonton Reservoir Jersey City, Dr. John L. Leal dan insinyur George A. Johnson secara diam-diam membangun instalasi klorinasi air minum pertama di dunia yang menggunakan kalsium hipoklorit (bleaching powder). Ketika dibawa ke pengadilan oleh otoritas kota yang menuduh mereka meracuni air, Johnson membuktikan secara ilmiah bahwa dosis mikroskopis klorin (0,2 hingga 0,5 bagian per juta) membunuh 99,9% bakteri patogen termasuk Vibrio cholerae dan Salmonella typhi tanpa membahayakan manusia. Pada saat yang sama di Chicago, Johnson mengaplikasikan teknologi klorinasi pada saluran air limbah paling tercemar di dunia di Rumah Pemotongan Bubbly Creek. Keberhasilan ini membuat kota-kota di Amerika Serikat mengadopsi klorinasi massal pada 1911–1912, membangun benteng kekebalan infrastruktur yang membuat kolera mustahil menyebar lagi di tanah Amerika.",
+        "en": "While Southern Europe and the Mediterranean relied on archaic quarantine cordons, an engineering revolution in the United States altered the course of global public health. In late 1908 at the Boonton Reservoir serving Jersey City, Dr. John L. Leal and sanitary engineer George A. Johnson constructed the world's first continuous municipal water chlorination plant using calcium hypochlorite. Hauled into court by municipal authorities alleging they were poisoning the citizenry, Johnson proved through rigorous bacteriological trials that microscopic chlorination dosages (0.2 to 0.5 ppm) wiped out 99.9% of bacterial pathogens—including Vibrio cholerae and Salmonella typhi—with complete physiological safety. Concurrently in Chicago, Johnson chlorinated the infamously putrid Bubbly Creek stockyard runoff. The triumph of Jersey City spurred nationwide municipal adoption of continuous chlorination by 1911–1912, constructing an unbreachable infrastructural shield that permanently banished cholera from American soil."
+      },
+      "image": "/assets/images/cholera/wave-6/ita/ita_ch_07.jpg"
+    },
+    {
+      "id": "ita_ch_08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Runtuhnya Mitos Miasma di Mediterania: Reformasi Higiene Italia",
+        "en": "Collapse of Mediterranean Miasma: Italian Hygiene Reforms"
+      },
+      "date": {
+        "id": "1911 – 1913",
+        "en": "1911 – 1913"
+      },
+      "flash": {
+        "id": "Epidemi 1910–1911 memaksa parlemen Italia mengalokasikan dana darurat untuk membongkar distrik kumuh dan membangun sistem saluran pembuangan modern di Napoli dan Bari.",
+        "en": "The 1910–1911 epidemic compels the Italian parliament to enact emergency appropriations, demolishing squalid tenements and funding modern sewers in Naples and Bari."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Selokan terbuka perkotaan dan perumahan kumuh bassi",
+        "incubation": "24 – 48 jam",
+        "transmission": "Rekonstruksi infrastruktur air minum perpipaan dan sanitasi bawah tanah",
+        "mutationType": {
+          "id": "Eradikasi Infrastruktur Sanitasi Perkotaan",
+          "en": "Urban Sanitary Infrastructure Eradication"
+        },
+        "threatLevel": {
+          "id": "Tingkat II - Pemulihan dan Rekonstruksi Sanitasi Sipil",
+          "en": "Tier II - Civil Sanitary Reconstruction & Recovery"
+        },
+        "clinicalTarget": {
+          "id": "Warga perkotaan kelas pekerja dan penghuni permukiman padat",
+          "en": "Working-class urban citizens and tenement dwellers"
+        }
+      },
+      "description": {
+        "id": "Skandal sensor pemerintah dan kematian ribuan warga akibat kolera pada 1910–1911 memicu krisis politik besar di Roma yang menjatuhkan kredibilitas kementerian. Parlemen Italia akhirnya dipaksa mengesahkan undang-undang sanitasi komprehensif baru (Legge Speciale per Napoli e le Puglie). Dana jutaan lira digelontorkan untuk membongkar ribuan 'bassi'—ruang bawah tanah lembap tanpa jendela tempat keluarga miskin hidup berdesakan—dan merelokasi penghuninya ke perumahan rakyat baru yang berventilasi baik. Di Apulia, proyek ambisius Saluran Air Apulia (Acquedotto Pugliese), salah satu saluran air terpanjang di dunia yang mengalirkan air pegunungan bersih dari Campania melintasi Pegunungan Apennine ke desa-desa kering, dipercepat penyelesaiannya. Larangan permanen juga diberlakukan terhadap budidaya kerang di muara pelabuhan yang tercemar, mengakhiri transmisi makanan laut mentah yang menjadi biang keladi wabah.",
+        "en": "The explosive censorship scandal and the preventable deaths of thousands during 1910–1911 precipitated a major political crisis in Rome, shattering public faith in the sanitary administration. Under fierce civic pressure, the Italian parliament passed comprehensive emergency sanitary statutes (Special Laws for Naples and Apulia). Millions of lire were appropriated to demolish thousands of squalid 'bassi' tenements, relocating impoverished families into hygienic municipal housing projects. In arid Apulia, work was accelerated on the monumental Acquedotto Pugliese—one of the world's longest aqueducts, channeling pristine subterranean mountain spring water from Campania through the Apennines to parched eastern villages. Concurrently, strict decrees banned raw shellfish aquaculture across urbanized harbor mouths, decisively severing the foodborne transmission loop."
+      },
+      "image": "/assets/images/cholera/wave-6/ita/ita_ch_08.jpg"
+    },
+    {
+      "id": "ita_ch_09",
+      "chapterNumber": 9,
+      "type": "side_story",
+      "title": {
+        "id": "Gas Klorin Silinder 1913: Standardisasi Pengolahan Air Dunia",
+        "en": "Cylinder Chlorine Gas 1913: Global Water Treatment Standardization"
+      },
+      "date": {
+        "id": "1912 – 1914",
+        "en": "1912 – 1914"
+      },
+      "flash": {
+        "id": "Mayor Carl Darnall dan Wallace & Tiernan menyempurnakan injeksi gas klorin cair terkompresi, mengubah disinfeksi air menjadi teknologi yang murah dan dapat diterapkan di seluruh dunia.",
+        "en": "Major Carl Darnall alongside Wallace & Tiernan perfect compressed liquid chlorine gas injection, transforming water disinfection into a scalable global safeguard."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Pipa distribusi air minum bertekanan",
+        "incubation": "N/A (Netralisasi Bakteriologis Kimia)",
+        "transmission": "Pemberian dosis klorin gas cair presisi tinggi otomatis",
+        "mutationType": {
+          "id": "Teknologi Klorinasi Gas Terkompresi Presisi",
+          "en": "Precision Compressed Liquefied Gas Chlorination"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Standar Emas Rekayasa Kesehatan Lingkungan",
+          "en": "Tier I - Gold Standard Environmental Sanitary Engineering"
+        },
+        "clinicalTarget": {
+          "id": "Jaringan air perpipaan kota metropolitan di seluruh dunia",
+          "en": "Global municipal water networks and industrial cities"
+        }
+      },
+      "description": {
+        "id": "Meskipun kalsium hipoklorit efektif, penggunaannya dalam skala besar sulit dikendalikan karena bubuk tersebut cepat kehilangan potensi dan meninggalkan residu kapur yang menyumbat pipa. Solusi definitif ditemukan oleh Mayor Carl Darnall dari Korps Medis Angkatan Darat AS, yang merancang chlorinator pertama yang menggunakan gas klorin cair yang dimurnikan dan disimpan dalam silinder baja bertekanan. Penemuan ini disempurnakan secara komersial oleh Charles F. Wallace dan Martin F. Tiernan pada tahun 1913 dengan menciptakan 'chlorinator' presisi otomatis yang mampu menyuntikkan gas klorin langsung ke pipa air utama kota. Inovasi ini memungkinkan kota-kota metropolitan seperti New York, London, Paris, dan Roma untuk mensterilkan ratusan juta galon air setiap hari dengan biaya pecahan sen per kapita, menghapus Vibrio cholerae dari pasokan air minum dunia Barat untuk selamanya.",
+        "en": "While calcium hypochlorite powder proved effective, its bulk handling was hazardous, corrosive, and prone to rapid degradation. The definitive mechanical breakthrough was conceived by Major Carl Darnall of the US Army Medical Corps, who invented the first apparatus utilizing compressed liquid chlorine gas housed in standardized steel cylinders. This breakthrough was industrialized in 1913 by entrepreneurs Charles F. Wallace and Martin F. Tiernan, who engineered a precision direct-feed chlorinator that automatically dosed gas directly into municipal water mains. This reliable technology enabled major cities—including New York, London, Paris, and Rome—to continuously sterilize hundreds of millions of gallons of drinking water daily at minuscule per capita costs, permanently erasing Vibrio cholerae from the municipal water grids of the Western hemisphere."
+      },
+      "image": "/assets/images/cholera/wave-6/ita/ita_ch_09.jpg"
+    },
+    {
+      "id": "ita_ch_10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Front Isonzo Perang Dunia I: Perang Parit & Pertahanan Sanitasi Italia",
+        "en": "World War I Isonzo Front: Alpine Trench Warfare & Italian Biosecurity"
+      },
+      "date": {
+        "id": "Mei 1915 – November 1917",
+        "en": "May 1915 – November 1917"
+      },
+      "flash": {
+        "id": "Di sepanjang Sungai Isonzo dan dataran tinggi Karst yang berdarah, Korps Medis Militer Italia mengerahkan desinfeksi klorin dan vaksinasi untuk mencegah bencana kolera di parit pertahanan.",
+        "en": "Along the bloody Isonzo River and the Karst plateau, the Italian Military Medical Corps deploys chlorination wagons and mandatory vaccination to avert trench epidemics."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Sungai Isonzo, parit karst berbatu, dan genangan air hujan alpine",
+        "incubation": "12 – 48 jam",
+        "transmission": "Penggunaan unit pemurni air bergerak militer dan vaksinasi prajurit",
+        "mutationType": {
+          "id": "Strain Garis Depan Pegunungan Isonzo",
+          "en": "Isonzo Alpine Frontline Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat III - Pengendalian Sanitasi Medan Tempur Aktif",
+          "en": "Tier III - Active Battlefield Sanitary Containment"
+        },
+        "clinicalTarget": {
+          "id": "Prajurit infanteri Regio Esercito dan tawanan perang Austria-Hongaria",
+          "en": "Regio Esercito infantry and Austro-Hungarian prisoners"
+        }
+      },
+      "description": {
+        "id": "Ketika Kerajaan Italia memasuki Perang Dunia I pada Mei 1915, ratusan ribu prajurit dikirim ke medan perang pegunungan di sepanjang Sungai Isonzo dan Dataran Tinggi Karst yang gersang dan berbatu. Ancaman kolera sangat nyata: tentara Austria-Hongaria yang mundur dari Front Timur Galicia telah terinfeksi bakteri dari parit Rusia. Di lingkungan Karst di mana air langka dan mudah tercemar oleh mayat tentara serta kotoran parit, risiko penularan sangat kritis. Menyadari ancaman ini, Direktur Jenderal Kesehatan Militer Italia mewajibkan inokulasi vaksin kolera bagi seluruh prajurit garis depan dan mengerahkan gerobak pemurni air bergerak yang dilengkapi tablet klorin dan filter pasir. Meskipun terjadi wabah lokal sporadis di antara tawanan perang, pertahanan biosekuriti modern Italia berhasil mencegah kolera melumpuhkan garis tempur mereka sebagaimana yang terjadi pada tentara Rusia dan Utsmaniyah.",
+        "en": "When Italy entered World War I in May 1915, hundreds of thousands of conscripts were funneled into brutal alpine warfare along the Isonzo River and the arid, limestone Karst plateau. The cholera threat was acute: Austro-Hungarian divisions redeployed from the Russian front brought endemic vibrios from Galicia. In the porous Karst terrain where natural springs were scarce and easily polluted by rotting corpses and frontline latrines, explosive outbreaks were imminent. In response, the Italian Military Health Directorate instituted mandatory cholera vaccinations for all frontline troops and deployed mobile water-purification wagons equipped with chlorination kits and rapid sand filters. Although localized outbreaks flared among Austro-Hungarian prisoners, modern military biosecurity successfully insulated Italian lines from the devastating microbial debacles suffered by Russian and Ottoman armies."
+      },
+      "image": "/assets/images/cholera/wave-6/ita/ita_ch_10.jpg"
+    },
+    {
+      "id": "ita_ch_11",
+      "chapterNumber": 11,
+      "type": "side_story",
+      "title": {
+        "id": "Dilema Etis Karantina Imigrasi: Warisan Pulau Ellis & Hoffman",
+        "en": "Ethical Dilemmas of Immigration Quarantine: The Hoffman & Ellis Legacy"
+      },
+      "date": {
+        "id": "1912 – 1921",
+        "en": "1912 – 1921"
+      },
+      "flash": {
+        "id": "Pemeriksaan bakteriologis agresif terhadap imigran Italia memicu perdebatan sengit tentang hak asasi, diskriminasi etis, dan batasan kekuasaan sanitasi maritim.",
+        "en": "Aggressive bacteriological swabbing of Italian immigrants ignites fierce debates surrounding civil liberties, ethnic profiling, and maritime sanitary power."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Pemeriksaan laboratorium tinja wajib dan stigmatisasi etnis",
+        "incubation": "N/A (Prosedur Diagnostik Etis)",
+        "transmission": "Pengambilan sampel biologis invasif pada populasi rentan",
+        "mutationType": {
+          "id": "Protokol Skrining Mikrobiologis Perbatasan",
+          "en": "Border Microbiological Screening Protocol"
+        },
+        "threatLevel": {
+          "id": "Tingkat II - Ketegangan Etika dan Hak-Hak Sipil",
+          "en": "Tier II - Ethical & Civil Rights Contestation"
+        },
+        "clinicalTarget": {
+          "id": "Komunitas emigran Italia, aktivis hak asasi, dan pers transatlantik",
+          "en": "Italian immigrant diaspora, civil liberties advocates, and press"
+        }
+      },
+      "description": {
+        "id": "Keberhasilan spektakuler Dr. Doty dalam menghentikan kolera di Teluk New York menyimpan dimensi sosial yang kontroversial. Komunitas imigran Italia dan pers berbahasa Italia di Amerika, seperti *Il Progresso Italo-Americano*, melancarkan protes keras terhadap apa yang mereka pandang sebagai diskriminasi etnis yang merendahkan martabat. Sementara penumpang kabin kelas satu yang kaya diizinkan melenggang bebas tanpa pemeriksaan usap rektal, para emigran miskin kelas tiga di Pulau Hoffman ditahan selama berminggu-minggu, dipaksa menjalani prosedur medis invasif, dan distigmatisasi sebagai pembawa penyakit kotor. Perdebatan ini berujung pada pencopotan Dr. Doty oleh Gubernur New York Dix pada akhir 1911 menyusul investigasi politik, namun metode ilmiahnya tentang deteksi 'pembawa asimtomatik' menjadi fondasi regulasi karantina internasional modern di bawah Liga Bangsa-Bangsa.",
+        "en": "Dr. Doty's celebrated interception of cholera in New York Harbor carried painful socio-ethical repercussions. The burgeoning Italian-American community and foreign-language newspapers such as *Il Progresso Italo-Americano* launched fierce campaigns denouncing what they perceived as humiliating ethnic profiling. While affluent first- and second-cabin passengers were granted immediate shore clearance without invasive physical checks, impoverished steerage emigrants were detained for weeks on Hoffman Island, subjected to mandatory rectal swabbing, and stigmatized in the sensationalist press as pestilential vectors. The political firestorm culminated in Dr. Doty's dismissal by New York Governor John Alden Dix in late 1911 following an official inquest, yet his bacteriological protocols for asymptomatic carrier tracking permanently codified modern maritime border biosecurity under the League of Nations."
+      },
+      "image": "/assets/images/cholera/wave-6/ita/ita_ch_11.jpg"
+    },
+    {
+      "id": "ita_ch_12",
+      "chapterNumber": 12,
+      "type": "summary",
+      "title": {
+        "id": "Kemenangan Permanen Dunia Barat: Akhir Era Kolera di Atlantik",
+        "en": "Permanent Western Victory: The End of the Atlantic Cholera Era"
+      },
+      "date": {
+        "id": "1923",
+        "en": "1923"
+      },
+      "flash": {
+        "id": "Sinergi klorinasi air massal, biologi mikrobial laboratorium, dan infrastruktur sanitasi modern menghapus Vibrio cholerae dari Eropa Barat dan Benua Amerika untuk selamanya.",
+        "en": "The convergence of municipal chlorination, laboratory carrier detection, and modern sewer engineering banishes epidemic cholera from the West forever."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Infrastruktur air perkotaan modern terdesinfeksi penuh",
+        "incubation": "N/A (Eradikasi Regional Sempurna)",
+        "transmission": "Pemberantasan rantai penularan fekal-oral secara permanen",
+        "mutationType": {
+          "id": "Eradikasi Hemisfer Barat Total",
+          "en": "Total Western Hemisphere Eradication"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Pengawasan Permanen Pasca-Eradikasi",
+          "en": "Tier I - Permanent Post-Eradication Surveillance"
+        },
+        "clinicalTarget": {
+          "id": "Populasi umum Italia, Amerika Serikat, dan Eropa Barat",
+          "en": "General populations of Italy, the United States, and Western Europe"
+        }
+      },
+      "description": {
+        "id": "Tahun 1923 menandai berakhirnya secara resmi Pandemi Keenam di belahan bumi barat. Resurgensi 1910–1911 di Italia dan insiden di Pelabuhan New York menjadi lonceng kematian terakhir bagi penularan kolera massal di Eropa Barat dan Amerika Utara. Melalui kombinasi revolusioner antara klorinasi pasokan air minum kota, pembangunan jaringan pembuangan limbah tertutup, penutupan tambak kerang yang tercemar, dan pengawasan bakteriologis pelabuhan, siklus fekal-oral yang telah meneror kemanusiaan selama berabad-abad akhirnya terputus secara permanen di dunia industri. Kolera tidak lagi menjadi momok tak kasat mata yang meruntuhkan kota-kota metropolitan, melainkan patogen yang dapat diprediksi, dicegah, dan dimusnahkan oleh rekayasa sains modern. Meskipun Vibrio cholerae terus bertahan di delta sungai Asia dan Afrika, Atlantik telah menjadi benteng kebal yang tak tertembus.",
+        "en": "The year 1923 marked the definitive closure of the Sixth Pandemic across the Western Hemisphere. The 1910–1911 flare-ups in Italy and New York Harbor stood as the historical swan song for epidemic cholera in Western Europe and North America. Through an unprecedented convergence of municipal water chlorination, comprehensive subterranean sewerage, scientific shellfish regulation, and laboratory border surveillance, the ancient fecal-oral pathway was permanently severed across the industrialized world. Cholera ceased to be an enigmatic apocalyptic terror capable of paralyzing Western capitals; it was reduced to a thoroughly understood pathogen completely preventable through environmental engineering. While Vibrio cholerae retreated into its endemic reservoirs in the river deltas of Asia and Africa, the Atlantic had been forged into an impenetrable sanitary citadel."
+      },
+      "image": "/assets/images/cholera/wave-6/ita/ita_ch_12.jpg"
+    }
+  ]
+}

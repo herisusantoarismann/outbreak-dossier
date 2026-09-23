@@ -1,0 +1,380 @@
+{
+    "sectorId": "EGY",
+    "waveIndex": 4,
+    "sectorName": {
+        "id": "Sektor EGY (Mesir: Muara Terusan Suez, Alexandria & Konferensi Konstantinopel 1865–1866)",
+        "en": "Sector EGY (Egypt: Suez Gateway, Alexandria Seaport & Constantinople Conference 1865–1866)"
+    },
+    "coordinates": [
+        31.2001,
+        29.9187
+    ],
+    "timeRange": "1865 – 1866 M",
+    "estimatedFatalities": "60.000+ (Mesir; 4.000+ di Alexandria & 12.000+ di Kairo)",
+    "chapters": [
+        {
+            "id": "egy-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Pendaratan di Suez: Kereta Api Trans-Isthmus Membawa Maut",
+                "en": "Suez Ingress: The Trans-Isthmian Railway Ferries Contagion"
+            },
+            "date": {
+                "id": "19 – 22 Mei 1865 M",
+                "en": "May 19 – 22, 1865 AD"
+            },
+            "flash": {
+                "id": "Kapal uap dari Jeddah merapat di Suez; ribuan peziarah langsung dinaikkan ke gerbong kereta menuju Alexandria.",
+                "en": "Steamers from Jeddah docked at Suez; pilgrims were loaded directly into rail cars headed for Alexandria."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Gerbong Kereta Api Uap Tertutup",
+                "incubation": "12 – 36 Jam",
+                "transmission": "Fekal-oral via kontak erat di gerbong tertutup dan stasiun transit"
+            },
+            "description": {
+                "id": "Pada akhir Mei 1865, kapal uap pengangkut peziarah haji dari Jeddah mulai merapat di pelabuhan Suez di ujung utara Laut Merah. Sebelum pembangunan Terusan Suez selesai, rute tercepat melintasi tanah genting Mesir adalah jalur kereta api uap Suez–Kairo–Alexandria. Otoritas Mesir yang enggan menampung peziarah sakit di Suez segera memindahkan ribuan orang langsung dari dermaga ke gerbong-gerbong kereta api. Dalam hitungan jam, kereta uap melesat melintasi Delta Nil, membawa ratusan penderita kolera aktif yang muntah dan membuang air di sepanjang lintasan rel, mendistribusikan patogen ke Alexandria dalam waktu kurang dari 24 jam.",
+                "en": "In late May 1865, pilgrim steamships from Jeddah began docking at Suez at the northern tip of the Red Sea. Prior to the completion of the Suez Canal, the overland crossing across Egypt's isthmus was operated by the Suez–Cairo–Alexandria railway. Eager to clear sick arrivals from Suez, Egyptian authorities herded thousands directly from ship decks into sealed passenger carriages. In mere hours, steam locomotives raced across the Nile Delta, transporting active cholera cases vomiting and shedding effluent along the tracks, depositing the pathogen in Alexandria within 24 hours."
+            },
+            "image": "/assets/images/cholera/wave-4/egy/egy_ch_01.jpg"
+        },
+        {
+            "id": "egy-ch-02",
+            "chapterNumber": 2,
+            "type": "milestone",
+            "title": {
+                "id": "Kasus Indeks Alexandria: Pasien Nol di Kafe Pelabuhan",
+                "en": "Alexandria Index Case: Patient Zero in the Seaport Cafe"
+            },
+            "date": {
+                "id": "11 Juni 1865 M",
+                "en": "June 11, 1865 AD"
+            },
+            "flash": {
+                "id": "Seorang peziarah yang kembali dari Mekkah jatuh pingsan di distrik pelabuhan Alexandria, memicu krisis Mediterania.",
+                "en": "A pilgrim returning from Mecca collapsed in Alexandria's port district, triggering a Mediterranean crisis."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Kran Air Minum Pelabuhan",
+                "incubation": "6 – 18 Jam",
+                "transmission": "Pencemaran sumber air minum umum di permukiman padat pelabuhan"
+            },
+            "description": {
+                "id": "Pada 11 Juni 1865, kematian pertama akibat kolera secara resmi dikonfirmasi di Alexandria: seorang peziarah haji yang baru tiba mengalami diare masif dan meninggal dalam hitungan jam di sebuah kafe dekat dermaga kapal Eropa. Dalam beberapa hari berikutnya, kasus-kasus serupa meledak di distrik pelabuhan dan kawasan kumuh permukiman pekerja Mesir di sekitar Kanal Mahmoudiyah. Saluran air Kanal Mahmoudiyah yang memasok kebutuhan minum Alexandria tercemar oleh pembuangan tinja kapal-kapal peziarah, menyulap pasokan air minum kota menjadi racun mematikan.",
+                "en": "On June 11, 1865, the first cholera death was officially recorded in Alexandria: a newly disembarked Hajj pilgrim suffered violent collapse and expired within hours at a waterfront cafe near European docks. Within days, parallel cases erupted across the docklands and overcrowded Egyptian tenements flanking the Mahmoudiyah Canal. The canal waters, serving as Alexandria's municipal water source, were polluted by effluent from anchored pilgrim ships, transforming the city's drinking supply into lethal poison."
+            },
+            "image": "/assets/images/cholera/wave-4/egy/egy_ch_02.jpg"
+        },
+        {
+            "id": "egy-ch-03",
+            "chapterNumber": 3,
+            "type": "standard",
+            "title": {
+                "id": "Kepanikan Besar Alexandria: Eksodus 35.000 Warga Asing",
+                "en": "The Great Panic of Alexandria: Exodus of 35,000 Foreigners"
+            },
+            "date": {
+                "id": "15 – 30 Juni 1865 M",
+                "en": "June 15 – 30, 1865 AD"
+            },
+            "flash": {
+                "id": "Komunitas ekspatriat Eropa panik melarikan diri menggunakan kapal komersial, membawa kolera ke seluruh penjuru Mediterania.",
+                "en": "The European expatriate community fled aboard commercial steamers, dispersing cholera across the Mediterranean."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Kapal Penumpang Komersial Mediterania",
+                "incubation": "12 – 48 Jam",
+                "transmission": "Pelarian massal warga pelabuhan tanpa karantina ke Italia, Prancis, Malta, dan Yunani"
+            },
+            "description": {
+                "id": "Ketika angka kematian di Alexandria melonjak melebihi 200 jiwa per hari, kepanikan liar melanda komunitas internasional kota tersebut. Lebih dari 35.000 warga Eropa—terdiri dari saudagar Yunani, Italia, Prancis, dan Inggris—berebut menaiki setiap kapal uap penumpang yang bersiap angkat jangkar. Konsul-konsul asing menerbitkan surat jalan darurat tanpa inspeksi medis yang ketat. Eksodus massal ini menjadi vektor penyebaran sekunder yang dahsyat: kapal-kapal yang mengangkut para pengungsi dari Alexandria tiba di Marseille, Ancona, Napoli, Trieste, Malta, dan Konstantinopel, menyalakan api pandemi di seluruh pesisir Eropa selatan.",
+                "en": "As daily mortalities in Alexandria surged past 200, unbridled hysteria seized the city's cosmopolitan quarter. Over 35,000 European residents—comprising Greek merchants, Italian shippers, French bankers, and British officials—scrambled aboard any departing passenger vessel. Foreign consuls issued emergency exit visas without rigorous medical screening. This panic exodus catalyzed a massive secondary dispersal: ships bearing refugees from Alexandria steamed into Marseille, Ancona, Naples, Trieste, Malta, and Constantinople, igniting pandemic fires across southern Europe."
+            },
+            "image": "/assets/images/cholera/wave-4/egy/egy_ch_03.jpg"
+        },
+        {
+            "id": "egy-ch-04",
+            "chapterNumber": 4,
+            "type": "standard",
+            "title": {
+                "id": "Penyebaran Menyusuri Sungai Nil: Kairo & Desa-Desa Fellahin",
+                "en": "The Nile River Dispersion: Cairo & The Fellahin Villages"
+            },
+            "date": {
+                "id": "Juli – Agustus 1865 M",
+                "en": "July – August 1865 AD"
+            },
+            "flash": {
+                "id": "Gelombang kolera merambat ke hulu Sungai Nil, menewaskan lebih dari 12.000 warga Kairo dan 40.000 petani di Delta.",
+                "en": "Cholera surged up the Nile, killing over 12,000 citizens in Cairo and 40,000 agrarian Fellahin in the Delta."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Aliran Utama Sungai Nil & Kanal Irigasi",
+                "incubation": "12 – 36 Jam",
+                "transmission": "Penggunaan air sungai Nil untuk minum, memasak, dan sanitasi komunal"
+            },
+            "description": {
+                "id": "Dari Alexandria, kolera merambat ke pedalaman mengikuti aliran Sungai Nil dan jaringan kanal irigasi. Di Kairo, wabah meledak di pemukiman-pemukiman padat di kaki Benteng Saladin dan distrik Bulaq, merenggut lebih dari 12.000 nyawa dalam tempo enam pekan. Namun, korban paling mengenaskan dialami oleh kaum fellahin (petani pedesaan) di Delta Nil. Di desa-desa terpencil tanpa akses dokter ataupun obat-obatan, seluruh keluarga musnah di dalam gubuk-gubuk lumpur. Sungai Nil yang menjadi sumber kehidupan rakyat Mesir sekaligus menjadi kuburan air yang menghanyutkan ribuan jenazah.",
+                "en": "From Alexandria, cholera swept inland along the Nile and its vast labyrinth of irrigation arteries. In Cairo, the contagion detonated through crowded slums flanking the Saladin Citadel and Bulaq port, claiming over 12,000 lives in six weeks. The most brutal devastation, however, fell upon the fellahin (rural peasantry) of the Nile Delta. In remote hamlets devoid of physicians or medicine, entire lineages perished inside mud-brick dwellings. The Nile, lifeline of Egyptian civilization, became a flowing cemetery carrying unburied corpses to the sea."
+            },
+            "image": "/assets/images/cholera/wave-4/egy/egy_ch_04.jpg"
+        },
+        {
+            "id": "egy-ch-05",
+            "chapterNumber": 5,
+            "type": "side_story",
+            "title": {
+                "id": "Kanal Suez & Barak Buruh Corvée: Kordon Ferdinand de Lesseps",
+                "en": "The Suez Dig & Corvée Barracks: Ferdinand de Lesseps' Sanitary Cordons"
+            },
+            "date": {
+                "id": "Agustus 1865 M",
+                "en": "August 1865 AD"
+            },
+            "flash": {
+                "id": "Puluhan ribu kuli kerja paksa di proyek Terusan Suez terancam punah; de Lesseps memberlakukan isolasi militer.",
+                "en": "Tens of thousands of corvée laborers on the Suez Canal faced decimation; de Lesseps imposed military cordons."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Kamp Buruh Kerja Paksa Tanah Genting",
+                "incubation": "12 – 24 Jam",
+                "transmission": "Kepadatan barak pekerja galian tanpa sumber air tawar alami"
+            },
+            "description": {
+                "id": "Di tanah genting Suez, proyek rekayasa terbesar abad ke-19 sedang berlangsung: penggalian Terusan Suez yang dipimpin oleh insinyur Prancis Ferdinand de Lesseps. Puluhan ribu buruh Mesir yang diwajibkan kerja paksa (corvée) tinggal di perkemahan-perkemahan sempit di tengah padang pasir yang tandus. Ketika kabar wabah kolera mendekat, de Lesseps menyadari bahwa jika penyakit masuk ke barak buruh, seluruh mega-proyek akan kolaps. Ia memerintahkan pembentukan kordon militer bersenjata, membakar barak yang dicurigai terkontaminasi, dan mengimpor air suling dari stasiun desalinasi Port Said untuk menyelamatkan tenaga kerja.",
+                "en": "Across the Isthmus of Suez, the 19th century's grandest engineering endeavor hung in the balance: the excavation of the Suez Canal, orchestrated by French diplomat Ferdinand de Lesseps. Tens of thousands of Egyptian corvée laborers were packed into austere desert work camps. As cholera marched across the Delta, de Lesseps recognized that an outbreak inside the labor camps would collapse the entire imperial enterprise. He instituted armed cordons, incinerated suspect barracks, and imported distilled water from Port Said condenseries to shield his workforce."
+            },
+            "image": "/assets/images/cholera/wave-4/egy/egy_ch_05.jpg"
+        },
+        {
+            "id": "egy-ch-06",
+            "chapterNumber": 6,
+            "type": "standard",
+            "title": {
+                "id": "Dewan Karantina Alexandria: Pertarungan Kedaulatan & Perdagangan",
+                "en": "The Alexandria Quarantine Board: Sovereignty versus Free Trade"
+            },
+            "date": {
+                "id": "September – November 1865 M",
+                "en": "September – November 1865 AD"
+            },
+            "flash": {
+                "id": "Dewan Karantina Maritim Alexandria menjadi medan benturan kepentingan antara dokter Prancis dan pedagang Inggris.",
+                "en": "The Alexandria Quarantine Board became a battleground between French sanitarians and British commerce."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Politik Regulasi Maritim Internasional",
+                "incubation": "N/A",
+                "transmission": "Kebijakan karantina vs kebebasan navigasi kapal uap imperialis"
+            },
+            "description": {
+                "id": "Conseil Sanitaire Maritime et Quarantenaire d'Egypte yang berkedudukan di Alexandria mendadak menjadi lembaga paling disorot di panggung dunia. Terdiri dari konsul dan dokter perwakilan kekuatan-kekuatan Eropa serta pejabat Utsmaniyah-Mesir, dewan ini terbelah secara ideologis. Delegasi Inggris dengan gigih menentang karantina ketat karena mengancam kelancaran armada dagang dan komunikasi pos ke India, berdalih menggunakan teori miasma bahwa kolera disebabkan oleh udara kotor. Sebaliknya, delegasi Prancis menuntut karantina besi dan inspeksi wajib bagi semua kapal yang melintasi Laut Merah.",
+                "en": "The Conseil Sanitaire Maritime et Quarantenaire d'Egypte, seated in Alexandria, was thrust into the global diplomatic cockpit. Comprising consuls and medical attachés from European empires alongside Ottoman-Egyptian governors, the board fractured ideologically. British delegates fiercely resisted rigorous quarantines, asserting they choked commercial maritime arteries to India and citing outdated miasma dogmas that cholera was airborne. Conversely, French authorities demanded ironclad maritime quarantines and mandatory inspections of all Red Sea traffic."
+            },
+            "image": "/assets/images/cholera/wave-4/egy/egy_ch_06.jpg"
+        },
+        {
+            "id": "egy-ch-07",
+            "chapterNumber": 7,
+            "type": "milestone",
+            "title": {
+                "id": "Panggilan Paris: Inisiatif Napoleon III Menggelar Konferensi",
+                "en": "The Paris Summons: Napoleon III Calls the International Conference"
+            },
+            "date": {
+                "id": "Desember 1865 M",
+                "en": "December 1865 AD"
+            },
+            "flash": {
+                "id": "Kaisar Prancis menyerukan konferensi diplomatik internasional di Konstantinopel untuk menghentikan kolera di sumbernya.",
+                "en": "The French Emperor convened an international summit in Constantinople to strangle cholera at its source."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Diplomasi Kesehatan Transnasional",
+                "incubation": "N/A",
+                "transmission": "Konsensus ilmiah antarnegara melawan ancaman bioteror alami"
+            },
+            "description": {
+                "id": "Teror wabah di Marseille dan Paris yang menewaskan ribuan orang meyakinkan Kaisar Napoleon III bahwa Eropa tidak akan pernah aman selama titik transit Timur Tengah dibiarkan tanpa pengawasan sanitasi terpadu. Pada akhir 1865, pemerintah Prancis mengedarkan nota diplomatik ke seluruh kekuatan besar dunia, mengusulkan diadakannya konferensi sanitasi internasional di Konstantinopel, ibu kota Kesultanan Utsmaniyah. Tujuannya adalah merumuskan undang-undang sanitasi maritim internasional pertama dalam sejarah untuk mencekik penyebaran kolera di Laut Merah sebelum patogen sempat menyentuh pelabuhan-pelabuhan Eropa.",
+                "en": "The terror of outbreaks in Marseille and Paris claiming thousands convinced Emperor Napoleon III that Europe would never remain secure while Middle Eastern transit nodes lacked unified sanitary surveillance. In late 1865, the French Foreign Ministry circulated diplomatic communiqués to all major powers, proposing an international sanitary conference in Constantinople, capital of the Ottoman Empire. The objective was formulating the first unified maritime sanitary treaty in history to strangle cholera in the Red Sea before it touched European soil."
+            },
+            "image": "/assets/images/cholera/wave-4/egy/egy_ch_07.jpg"
+        },
+        {
+            "id": "egy-ch-08",
+            "chapterNumber": 8,
+            "type": "milestone",
+            "title": {
+                "id": "Konferensi Konstantinopel 1866: Sidang Akbar 17 Negara",
+                "en": "Constantinople Conference 1866: The Grand Summit of 17 Nations"
+            },
+            "date": {
+                "id": "13 Februari – 26 September 1866 M",
+                "en": "February 13 – September 26, 1866 AD"
+            },
+            "flash": {
+                "id": "17 negara bersidang selama 7 bulan di tepi Selat Bosporus, mendebatkan hakikat penularan kolera dan hukum karantina.",
+                "en": "17 sovereign nations convened for 7 months on the Bosphorus, debating contagion mechanics and quarantine law."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Debat Teori Miasma vs Kontagionisme",
+                "incubation": "N/A",
+                "transmission": "Penyusunan perjanjian protokol kesehatan global pertama di dunia"
+            },
+            "description": {
+                "id": "Dibuka pada 13 Februari 1866 di Istana Utsmaniyah di tepi Selat Bosporus, Konferensi Sanitasi Internasional Ketiga ini dihadiri oleh diplomat dan ilmuwan medis terkemuka dari 17 negara, termasuk Inggris, Prancis, Kekaisaran Rusia, Austria, Prusia, Spanyol, Italia, dan Utsmaniyah. Selama tujuh bulan perdebatan sengit, konferensi ini menjadi ajang pertarungan intelektual bersejarah. Untuk pertama kalinya, mayoritas mutlak ilmuwan internasional secara resmi menolak teori miasma kuno dan mendeklarasikan bahwa kolera adalah penyakit menular yang dibawa oleh manusia dan disebarkan melalui air dan makanan yang tercemar kotoran.",
+                "en": "Inaugurated on February 13, 1866, at an Ottoman palace overlooking the Bosphorus, the Third International Sanitary Conference united leading diplomats and physicians from 17 nations, including Britain, France, Russia, Austria, Prussia, Spain, Italy, and the Ottoman Empire. Over seven months of fierce deliberation, the assembly staged a monumental scientific duel. For the first time, an overwhelming majority of international experts officially discarded ancient miasma theories, declaring that cholera was an exclusively transmissible pathogen carried by human vectors and disseminated via fecally tainted water and food."
+            },
+            "image": "/assets/images/cholera/wave-4/egy/egy_ch_08.jpg"
+        },
+        {
+            "id": "egy-ch-09",
+            "chapterNumber": 9,
+            "type": "side_story",
+            "title": {
+                "id": "Kesaksian Dr. Fauvel: Arsitek Pertahanan Sanitasi Laut Merah",
+                "en": "Dr. Fauvel's Testimony: Architect of the Red Sea Barrier"
+            },
+            "date": {
+                "id": "April 1866 M",
+                "en": "April 1866 AD"
+            },
+            "flash": {
+                "id": "Dokter Prancis Antoine Fauvel membuktikan bahwa kolera berasal dari India dan harus dihadang di gerbang Bab-el-Mandeb.",
+                "en": "French physician Antoine Fauvel demonstrated that cholera originated in India and must be halted at Bab-el-Mandeb."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Epidemiologi Geografis & Kartografi Maritim",
+                "incubation": "N/A",
+                "transmission": "Pemetaan rute kapal uap dari India menuju Laut Merah"
+            },
+            "description": {
+                "id": "Tokoh paling berpengaruh dalam konferensi 1866 adalah Dr. Antoine Fauvel, seorang dokter epidemiolog Prancis yang telah bertahun-tahun bertugas di Konstantinopel. Dengan menyajikan data statistik yang tak terbantahkan mengenai pelayaran kapal uap India ke Hijaz pada 1865, Fauvel membuktikan bahwa kolera bukanlah penyakit bawaan tanah Arab, melainkan penyakit impor dari Delta Benggala. Fauvel mengusulkan strategi pertahanan garis depan: mendirikan stasiun pengawasan sanitasi dan karantina ketat di Selat Bab-el-Mandeb dan Pulau Kamaran sebelum kapal diizinkan memasuki perairan Laut Merah.",
+                "en": "The towering intellectual figure of the 1866 conference was Dr. Antoine Fauvel, a French epidemiologist who had served decades in Constantinople. Armed with irrefutable maritime logs of Indian steamship sailings to Hejaz in 1865, Fauvel proved that cholera was not indigenous to Arabian soil, but an imported invader from the Bengal Delta. Fauvel championed a forward-defense doctrine: establishing robust quarantine stations at the Bab-el-Mandeb strait and Kamaran Island to intercept infected vessels before they penetrated the Red Sea."
+            },
+            "image": "/assets/images/cholera/wave-4/egy/egy_ch_09.jpg"
+        },
+        {
+            "id": "egy-ch-10",
+            "chapterNumber": 10,
+            "type": "standard",
+            "title": {
+                "id": "Traktat Konstantinopel: Protokol Karantina Global Pertama",
+                "en": "The Constantinople Treaty: The World's First Global Quarantine Code"
+            },
+            "date": {
+                "id": "26 September 1866 M",
+                "en": "September 26, 1866 AD"
+            },
+            "flash": {
+                "id": "Penandatanganan konvensi yang mewajibkan inspeksi medis, disinfeksi uap, dan karantina isolasi di Laut Merah.",
+                "en": "Signing of the historic convention mandating maritime inspection, steam disinfection, and Red Sea lazarettos."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Hukum Internasional & Regulasi Maritim",
+                "incubation": "N/A",
+                "transmission": "Pemberlakuan sertifikat kesehatan pelayaran (Bill of Health) internasional"
+            },
+            "description": {
+                "id": "Pada penutupan konferensi tanggal 26 September 1866, para delegasi menandatangani laporan akhir monumental setebal ratusan halaman yang menjadi cetak biru hukum kesehatan internasional modern. Dokumen ini menetapkan bahwa masa karantina kolera ditetapkan selama 8 hingga 10 hari—sesuai dengan masa inkubasi alami penyakit. Kapal-kapal peziarah diwajibkan membawa dokter bersertifikat, menjalani inspeksi wajib di stasiun karantina Pulau Tor dan Kamaran, serta melakukan disinfeksi pakaian dan barang bawaan menggunakan uap panas dan karbolik acid.",
+                "en": "At the conference's conclusion on September 26, 1866, delegates endorsed a monumental report spanning hundreds of pages that served as the founding blueprint of modern international health law. The accord established that cholera quarantine duration be fixed at 8 to 10 days—mirroring the pathogen's natural incubation window. Pilgrim vessels were legally mandated to carry certified physicians, submit to compulsory inspections at Tor and Kamaran lazarettos, and disinfect soiled linens using pressurized steam and carbolic acid."
+            },
+            "image": "/assets/images/cholera/wave-4/egy/egy_ch_10.jpg"
+        },
+        {
+            "id": "egy-ch-11",
+            "chapterNumber": 11,
+            "type": "side_story",
+            "title": {
+                "id": "Stasiun Karantina Pulau Tor: Benteng Sanitasi di Kaki Sinai",
+                "en": "El-Tor Lazaretto: The Sanitary Fortress at the Foot of Sinai"
+            },
+            "date": {
+                "id": "1867 – 1868 M",
+                "en": "1867 – 1868 AD"
+            },
+            "flash": {
+                "id": "Pembangunan stasiun karantina raksasa di pesisir barat Semenanjung Sinai untuk memfilter semua peziarah yang kembali ke barat.",
+                "en": "Construction of the colossal lazaretto on the Sinai coast to screen all westbound returning pilgrims."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Infrastruktur Isolasi Medis Modern",
+                "incubation": "8 – 10 Hari (Periode Pengamatan)",
+                "transmission": "Pemisahan ketat penumpang sehat, suspek, dan pasien bergejala"
+            },
+            "description": {
+                "id": "Sebagai tindak lanjut dari Konferensi Konstantinopel, pemerintah Mesir dan Dewan Sanitasi Alexandria membangun stasiun karantina raksasa di El-Tor, sebuah teluk terlindung di pantai barat Semenanjung Sinai. Stasiun ini dirancang dengan standar ilmiah mutakhir: dermaga desinfeksi terisolasi, rumah sakit bangsal dengan ventilasi silang, instalasi air bersih hasil distilasi uap, serta fasilitas sterilisasi barang penumpang. Selama beberapa dekade berikutnya, El-Tor bertindak sebagai perisai biologis paling kokoh yang berulang kali menahan invasi kolera agar tidak menyeberang ke benua Eropa.",
+                "en": "As direct implementation of the Constantinople accords, the Egyptian government and Alexandria Sanitary Board constructed a vast quarantine fortress at El-Tor, a sheltered bay on the Sinai Peninsula's western shore. Built to state-of-the-art scientific specifications, El-Tor featured isolated disinfection piers, cross-ventilated pavillion wards, steam condensation drinking works, and industrial laundry autoclaves. For generations, El-Tor functioned as the world's most formidable biological bulwark, repeatedly repelling cholera incursions before they breached Europe."
+            },
+            "image": "/assets/images/cholera/wave-4/egy/egy_ch_11.jpg"
+        },
+        {
+            "id": "egy-ch-12",
+            "chapterNumber": 12,
+            "type": "summary",
+            "title": {
+                "id": "Pembukaan Terusan Suez 1869: Ujian Nyata Perisai Karantina",
+                "en": "Inauguration of the Suez Canal 1869: Acid Test of the Sanitary Shield"
+            },
+            "date": {
+                "id": "17 November 1869 M",
+                "en": "November 17, 1869 AD"
+            },
+            "flash": {
+                "id": "Terusan Suez resmi dibuka; kapal-kapal dunia kini melintasi Mesir tanpa henti di bawah pengawasan karantina ketat.",
+                "en": "The Suez Canal officially opened; global maritime fleets traversed Egypt under strict quarantine oversight."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Arteri Maritim Global Tanpa Batas",
+                "incubation": "N/A",
+                "transmission": "Integrasi sistem kesehatan internasional ke dalam infrastruktur perdagangan dunia"
+            },
+            "description": {
+                "id": "Pada November 1869, Terusan Suez dibuka secara megah, menghubungkan Laut Merah langsung dengan Laut Mediterania dan memotong rute pelayaran Eropa–Asia hingga ribuan mil. Keberhasilan mempertahankan jalur ini dari malapetaka kolera yang berulang membuktikan efektivitas sistem karantina yang dirumuskan di Konstantinopel. Meskipun kapal-kapal uap kini melintasi Mesir dengan frekuensi yang belum pernah terjadi sebelumnya, jaringan pos karantina, telegraf medis internasional, dan inspeksi wajib berhasil mencegah terulangnya bencana Alexandria 1865.",
+                "en": "In November 1869, the Suez Canal opened in imperial splendor, uniting the Red Sea directly with the Mediterranean and slashing thousands of miles from the Euro-Asian maritime highway. That this artery operated without unleashing catastrophic recurring epidemics vindicated the quarantine protocols forged in Constantinople. Though steam traffic surged to unprecedented volumes, the interlocking web of lazarettos, telegraphic disease reporting, and mandatory inspections successfully shielded the West from a reprise of the 1865 Alexandria catastrophe."
+            },
+            "image": "/assets/images/cholera/wave-4/egy/egy_ch_12.jpg"
+        },
+        {
+            "id": "egy-ch-13",
+            "chapterNumber": 13,
+            "type": "summary",
+            "title": {
+                "id": "Audit Epidemiologis Sektor EGY: Tonggak Tata Kelola Kesehatan Global",
+                "en": "Epidemiological Audit of Sector EGY: The Cornerstone of Global Health Governance"
+            },
+            "date": {
+                "id": "1870 M",
+                "en": "1870 AD"
+            },
+            "flash": {
+                "id": "Sektor EGY mentransformasikan pandemi dari kepanikan nasional menjadi koordinasi institusional multilateral permanen.",
+                "en": "Sector EGY transformed pandemic response from national hysteria into permanent multilateral governance."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Sintesis Kebijakan Kesehatan Masyarakat",
+                "incubation": "N/A",
+                "transmission": "Pondasi lahirnya World Health Organization (WHO) dan International Health Regulations (IHR)"
+            },
+            "description": {
+                "id": "Sektor EGY (Alexandria, Suez & Konstantinopel 1865–1866) merupakan batu penjuru dalam sejarah tata kelola kesehatan global. Malapetaka 60.000 korban jiwa di Mesir dan eksodus panik dari Alexandria membuktikan bahwa isolasi kedaulatan nasional tidak berdaya menghadapi kecepatan kapal uap. Dari abu krisis ini lahir Konferensi Konstantinopel 1866 yang meletakkan dasar-dasar pertama bagi pengawasan penyakit menular lintas batas, standardisasi karantina ilmiah, dan diplomasi multilateral yang kelak berevolusi menjadi Organisasi Kesehatan Dunia (WHO) dan Regulasi Kesehatan Internasional (IHR).",
+                "en": "Sector EGY (Alexandria, Suez & Constantinople 1865–1866) constitutes the true cornerstone of global health governance. The sacrifice of 60,000 Egyptian lives and the panic flight from Alexandria demonstrated that national isolation was powerless against steam propulsion velocity. From the crucible of this crisis emerged the 1866 Constantinople accords, establishing the earliest foundations of transnational disease surveillance, standardized scientific quarantine, and multilateral health diplomacy that ultimately evolved into the World Health Organization (WHO) and the modern International Health Regulations (IHR)."
+            },
+            "image": "/assets/images/cholera/wave-4/egy/egy_ch_13.jpg"
+        }
+    ]
+}

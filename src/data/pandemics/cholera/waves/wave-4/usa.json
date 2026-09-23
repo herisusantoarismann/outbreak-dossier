@@ -1,0 +1,414 @@
+{
+  "sectorId": "USA",
+  "waveIndex": 4,
+  "sectorName": {
+    "id": "Sektor USA (Amerika Serikat & Frontier Barat: New York, Lembah Mississippi & Transkontinental // 1865–1873)",
+    "en": "Sector USA (United States & Western Frontier: New York, Mississippi Valley & Transcontinental // 1865–1873)"
+  },
+  "coordinates": [
+    40.7128,
+    -74.006
+  ],
+  "timeRange": {
+    "id": "November 1865 – Oktober 1873",
+    "en": "November 1865 – October 1873"
+  },
+  "estimatedFatalities": {
+    "id": "50.000+ korban jiwa di seluruh Amerika Utara (termasuk 3.500+ di St. Louis, 1.400+ di Cincinnati, dan ribuan di garnisun militer perbatasan)",
+    "en": "50,000+ deaths across North America (including 3,500+ in St. Louis, 1,400+ in Cincinnati, and thousands across western frontier military posts)"
+  },
+  "chapters": [
+    {
+      "id": "usa-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Sauh Karantina di Teluk Bawah: Kedatangan Kapal Uap Atalanta",
+        "en": "Quarantine Anchorage in the Lower Bay: Arrival of the Steamship Atalanta"
+      },
+      "date": {
+        "id": "3 November 1865",
+        "en": "November 3, 1865"
+      },
+      "flash": {
+        "id": "Kapal uap transatlantik Atalanta berlabuh di Lower New York Bay mengibarkan bendera kuning karantina dengan 60 kasus kolera aktif dan 15 jenazah dilempar ke laut.",
+        "en": "Transatlantic steamship Atalanta drops anchor in Lower New York Bay flying the yellow quarantine flag with 60 active cholera cases and 15 bodies cast into the sea."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (serogroup O1, serotype Inaba)",
+        "vector": "Air lambung kapal dan pakaian terkontaminasi penumpang imigran dari Le Havre dan London",
+        "incubation": "12 – 48 jam",
+        "transmission": "Kontaminasi air minum kapal dan kontak erat di dek kelas tiga (steerage) yang padat tanpa ventilasi"
+      },
+      "description": {
+        "id": "Pada tanggal 3 November 1865, kapal uap Atalanta meluncur melintasi selat The Narrows dan membuang sauh di perairan karantina Lower New York Bay, membawa tanda bahaya paling ditakuti: bendera kuning bendera wabah. Bertolak dari Le Havre dengan persinggahan di London, kapal ini mengangkut lebih dari 600 imigran Eropa miskin yang berjejal di ruang steerage bawah air. Lima belas penumpang telah tewas dan dibuang ke Samudra Atlantik selama penyeberangan, sementara enam puluh lainnya tergeletak di kasur jerami basah dalam kondisi dehidrasi hebat dan sianosis. Masuknya kapal ini menandai lonceng pertama invasi Gelombang Keempat ke belahan bumi barat, menguji kesiapsiagaan kota metropolitan New York yang baru saja keluar dari kecamuk Perang Saudara Amerika.",
+        "en": "On November 3, 1865, the steamship Atalanta glided past The Narrows and dropped anchor in the quarantine grounds of Lower New York Bay, hoisting the most dreaded maritime signal: the yellow plague jack. Having departed Le Havre with an intermediate call in London, the vessel carried over 600 impoverished European immigrants crammed into the windowless steerage hold. Fifteen passengers had perished and been committed to the Atlantic deep during the passage, while sixty more lay on soaked straw pallets in advanced stages of dehydration and algid cyanosis. The ship's arrival rang the opening bell of the Fourth Pandemic's assault on the Western Hemisphere, testing the defense readiness of a New York metropolitan hub still reeling from the aftermath of the American Civil War."
+      },
+      "image": "/assets/images/cholera/wave-4/usa/usa_ch_01.jpg"
+    },
+    {
+      "id": "usa-ch-02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Barikade Maritim Dr. Swinburne: Fumigasi dan Pengawasan Pelabuhan",
+        "en": "Dr. Swinburne's Maritime Barricade: Fumigation and Port Surveillance"
+      },
+      "date": {
+        "id": "November – Desember 1865",
+        "en": "November – December 1865"
+      },
+      "flash": {
+        "id": "Petugas Kesehatan Pelabuhan Dr. John Swinburne menerapkan protokol disinfeksi sulfur ketat dan memindahkan pasien ke kapal rumah sakit Falcon.",
+        "en": "Port Health Officer Dr. John Swinburne implements rigorous sulfur disinfection protocols and transfers victims to the hospital ship Falcon."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Pakaian kotor, barang bawaan tekstil imigran, dan kargo lambung kapal",
+        "incubation": "1 – 3 hari",
+        "transmission": "Percikan aerosol muntahan saat pembongkaran muatan dan kontak sanitasi kapal karantina"
+      },
+      "description": {
+        "id": "Dr. John Swinburne, Petugas Kesehatan Pelabuhan New York yang bertindak cepat dan tanpa kompromi, menolak memberikan izin pendaratan (pratique) bagi Atalanta. Menggunakan kapal rumah sakit terapung Falcon dan kapal karantina Illinois, Swinburne memisahkan penumpang yang sehat dari korban sekarat di tengah gelombang musim dingin teluk yang membeku. Seluruh pakaian kotor, linen, dan koper penumpang dimasukkan ke dalam ruang fumigasi uap belerang (sulfur dioxide) dan klorin cair berkonsentrasi tinggi. Berkat ketegasan barikade maritim ini, gelombang pertama infeksi berhasil diredam di batas teluk luar, menunda penetrasi Vibrio cholerae ke daratan New York selama musim dingin 1865–1866.",
+        "en": "Dr. John Swinburne, the decisive and uncompromising Health Officer of the Port of New York, categorically refused pratique to the Atalanta. Utilizing the floating hospital hulk Falcon and quarantine tender Illinois, Swinburne segregated healthy passengers from moribund victims amidst the freezing winter swell of the outer harbor. Every article of soiled clothing, baggage, and bedding was subjected to high-pressure sulfur dioxide steam chambers and concentrated chlorinated washes. Thanks to this resolute maritime blockade, the primary wave of infection was throttled at the water's edge, buying precious months and keeping Vibrio cholerae from establishing an inland foothold during the harsh winter of 1865–1866."
+      },
+      "image": "/assets/images/cholera/wave-4/usa/usa_ch_02.jpg"
+    },
+    {
+      "id": "usa-ch-03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Retakan di Castle Garden: Penetrasi Tenement Manhattan dan Ward's Island",
+        "en": "Breaches at Castle Garden: Manhattan Tenements and Ward's Island Penetration"
+      },
+      "date": {
+        "id": "April – Mei 1866",
+        "en": "April – May 1866"
+      },
+      "flash": {
+        "id": "Kedatangan kapal uap Virginia memicu kebocoran karantina; kasus kolera fatal meletup di permukiman kumuh Five Points dan rumah penampungan Ward's Island.",
+        "en": "Arrival of the steamship Virginia breaches outer quarantine; fatal cholera clusters ignite in the Five Points tenements and Ward's Island migrant asylum."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air sumur pompa dangkal dan saluran pembuangan komunal permukiman padat",
+        "incubation": "12 – 36 jam",
+        "transmission": "Fekal-oral melalui rembesan kakus umum ke instalasi pipa timbal rumah susun kota"
+      },
+      "description": {
+        "id": "Pertahanan musim dingin runtuh pada musim semi 1866 dengan tibanya armada kapal imigran baru, khususnya kapal uap Virginia yang mencatat puluhan kematian di laut. Meskipun karantina diperketat di Castle Garden, pembawa tanpa gejala (asimtomatik) dan pakaian tercemar berhasil lolos ke kawasan tenement terpadat di Lower East Side dan distrik kumuh legendaris Five Points. Pada 18 April 1866, seorang wanita imigran miskin di Mulberry Street roboh dengan diare profus dan meninggal dalam hitungan jam. Tak lama kemudian, fasilitas suaka dan barak imigran di Ward's Island mencatat ledakan wabah yang merenggut puluhan nyawa setiap pekan, membuktikan bahwa basil maut telah mengakar di jantung kota.",
+        "en": "The winter defense collapsed in the spring of 1866 with the arrival of a fresh flotilla of immigrant steamships, most notably the Virginia, which recorded dozens of deaths at sea. Despite stepped-up screening at Castle Garden, asymptomatic incubators and laundered rags slipped past inspection into the teeming tenements of the Lower East Side and the notorious Five Points slum. On April 18, 1866, an impoverished immigrant woman on Mulberry Street collapsed with profuse rice-water purging and expired within hours. Shortly thereafter, the immigrant refuge barracks on Ward's Island erupted with a catastrophic cluster claiming scores of lives weekly, confirming that the lethal vibrion was now firmly seeded in the municipal core."
+      },
+      "image": "/assets/images/cholera/wave-4/usa/usa_ch_03.jpg"
+    },
+    {
+      "id": "usa-ch-04",
+      "chapterNumber": 4,
+      "type": "milestone",
+      "title": {
+        "id": "Pembentukan Metropolitan Board of Health: Revolusi Sanitasi Dr. Stephen Smith",
+        "en": "Creation of the Metropolitan Board of Health: Dr. Stephen Smith's Sanitary Revolution"
+      },
+      "date": {
+        "id": "Maret – Juni 1866",
+        "en": "March – June 1866"
+      },
+      "flash": {
+        "id": "Legislatif New York membentuk Metropolitan Board of Health dengan kewenangan quasi-militer untuk menyemprotkan asam karbolat dan membersihkan 20.000 kandang kuda dan jamban liar.",
+        "en": "New York Legislature charters the Metropolitan Board of Health with quasi-military authority to deploy carbolic acid and cleanse 20,000 horse stables and cesspools."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Limbah kotoran manusia dan bangkai hewan di jalanan kota",
+        "incubation": "24 – 48 jam",
+        "transmission": "Penyebaran air tanah dan lalat vektor di tumpukan pupuk kandang perkotaan"
+      },
+      "description": {
+        "id": "Menghadapi momok wabah nasional, badan legislatif negara bagian New York mengesahkan undang-undang bersejarah pada awal 1866 yang mendirikan Metropolitan Board of Health. Dipimpin oleh visioner kesehatan masyarakat Dr. Stephen Smith dan ilmuwan sanitasi Dr. Elisha Harris, dewan ini diberi wewenang polisi darurat yang belum pernah ada sebelumnya. Mereka mengerahkan brigade sanitasi berseragam yang menyusuri gang-gang kumuh, mengosongkan ribuan tangki kotoran tinja, melarang pemotongan hewan liar di jalanan, dan menyemprotkan ribuan galon disinfektan asam karbolat serta kapur klorida ke setiap saluran air. Langkah agresif berbasis sains ini menjadi tonggak sejarah kesehatan masyarakat modern di Amerika Serikat.",
+        "en": "Confronted by the specter of a nationwide contagion, the New York State Legislature enacted landmark legislation in early 1866 establishing the Metropolitan Board of Health. Spearheaded by public health visionary Dr. Stephen Smith and sanitarian Dr. Elisha Harris, this agency was invested with unprecedented quasi-military police powers. Uniformed sanitary squads fanned out across congested alleyways, systematically emptying thousands of overflowing privy vaults, outlawing illicit street slaughterhouses, and saturating gutters with tens of thousands of gallons of carbolic acid and chloride of lime. This aggressive, science-grounded municipal mobilization became a watershed moment in the genesis of modern American public health administration."
+      },
+      "image": "/assets/images/cholera/wave-4/usa/usa_ch_04.jpg"
+    },
+    {
+      "id": "usa-ch-05",
+      "chapterNumber": 5,
+      "type": "side_story",
+      "title": {
+        "id": "Tenda Isolasi Blackwell's Island: Saline Infusion di Garis Depan Bellevue",
+        "en": "Blackwell's Island Isolation Pavilions: Saline Infusions on the Bellevue Frontline"
+      },
+      "date": {
+        "id": "Juli – Agustus 1866",
+        "en": "July – August 1866"
+      },
+      "flash": {
+        "id": "Tenaga medis Rumah Sakit Bellevue bertarung merawat pasien sekarat di tenda isolasi Blackwell's Island dengan infus garam fisiologis dan isolasi bangsal ketat.",
+        "en": "Bellevue Hospital medical staff battle to save moribund victims in Blackwell's Island isolation tents using physiological saline infusions and rigid ward quarantine."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Dehidrasi fulminan dan kehilangan cairan elektrolit masif",
+        "incubation": "6 – 24 jam",
+        "transmission": "Kontak langsung antar bangsal dan pencemaran sprei linen rumah sakit"
+      },
+      "description": {
+        "id": "Di tengah Sungai East, pulau sempit Blackwell's Island (kini Roosevelt Island) disulap menjadi benteng pertahanan medis terakhir Kota New York. Pasien kolera dari Bellevue Hospital dan bangsal umum diangkut menggunakan tongkang terisolasi menuju deretan paviliun tenda berventilasi tinggi yang dirancang untuk mencegah stagnasi udara. Dokter-dokter muda dan biarawati ordo Sisters of Charity bekerja siang dan malam mempraktikkan terapi eksperimental: infus saline intravena langsung ke pembuluh darah vena yang kolaps untuk mengembalikan turgor kulit dan denyut nadi yang hilang. Berkat disinfeksi ketat terhadap linen tempat tidur dan penanganan feses menggunakan asam karbol murni, tingkat kematian rumah sakit berhasil ditekan jauh di bawah rekor tragis epidemi 1849.",
+        "en": "Situated in the East River, the narrow sliver of Blackwell's Island (now Roosevelt Island) was transformed into New York City's ultimate clinical redoubt. Cholera victims from Bellevue Hospital and public almshouses were conveyed via quarantined barges to rows of high-ridge canvas pavilion tents engineered to prevent air stagnation. Young resident physicians alongside dedicated nuns from the Sisters of Charity worked round the clock administering experimental protocols: direct intravenous saline infusions into collapsed veins to restore lost skin turgor and imperceptible pulses. Through meticulous boiling of soiled bedding and instantaneous chemical neutralization of stools with raw carbolic acid, hospital case-fatality rates were kept far below the grim carnage of the 1849 scourge."
+      },
+      "image": "/assets/images/cholera/wave-4/usa/usa_ch_05.jpg"
+    },
+    {
+      "id": "usa-ch-06",
+      "chapterNumber": 6,
+      "type": "standard",
+      "title": {
+        "id": "Vektor Rel Besi: Penyebaran Jalur Pennsylvania dan New York Central",
+        "en": "The Iron Rail Vector: Dispersion via Pennsylvania and New York Central Lines"
+      },
+      "date": {
+        "id": "Juni – Juli 1866",
+        "en": "June – July 1866"
+      },
+      "flash": {
+        "id": "Kereta api uap berkecepatan tinggi menyebarkan pembawa kolera ke pedalaman Amerika melintasi Pittsburgh, Cleveland, dan Indianapolis hanya dalam waktu 48 jam.",
+        "en": "High-speed steam locomotives transport incubative cholera carriers into the American heartland across Pittsburgh, Cleveland, and Indianapolis within 48 hours."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Toilet kereta api terbuka (hopper toilets) yang membuang tinja langsung ke bantalan rel",
+        "incubation": "24 – 48 jam",
+        "transmission": "Pencemaran sumber air stasiun dan persilangan rel di dekat reservoir kota pedalaman"
+      },
+      "description": {
+        "id": "Jika pada gelombang-gelombang sebelumnya kolera merayap mengikuti kecepatan lambat kapal layar dan kafilah kuda, pada tahun 1866 penyakit ini menunggangi revolusi lokomotif uap. Jaringan rel Pennsylvania Railroad dan New York Central Railroad yang baru saja terkonsolidasi mengangkut puluhan ribu imigran dan veteran perang ke pedalaman barat setiap minggunya. Toilet kereta api zaman itu berupa corong terbuka (hopper toilet) yang langsung menjatuhkan kotoran penumpang ke bantalan rel dan jembatan sungai yang dilintasi. Ketika kereta melaju melintasi Pennsylvania dan Ohio menuju barat, residu tinja mencemari cekungan drainase kota-kota transit seperti Pittsburgh dan Cleveland, memicu wabah sekunder dengan kecepatan yang mengejutkan otoritas kesehatan setempat.",
+        "en": "Whereas in previous pandemics cholera had crawled at the deliberate pace of sailing sloops and pack-mule caravans, in 1866 the contagion rode the iron throttle of the steam locomotive. The newly consolidated trunk networks of the Pennsylvania Railroad and New York Central carried tens of thousands of westward immigrants and demobilized Union veterans each week. Rail carriages of that era utilized open hopper toilets that discharged human waste directly onto track ballast, cross-ties, and river bridge crossings. As express trains thundered through Pennsylvania and Ohio, untreated fecal matter drained directly into watershed tributaries supplying rail-depot towns like Pittsburgh and Cleveland, sparking lightning secondary flare-ups."
+      },
+      "image": "/assets/images/cholera/wave-4/usa/usa_ch_06.jpg"
+    },
+    {
+      "id": "usa-ch-07",
+      "chapterNumber": 7,
+      "type": "milestone",
+      "title": {
+        "id": "Bencana Queen City: 1.400 Kematian di Cincinnati dan Sungai Ohio",
+        "en": "The Queen City Catastrophe: 1,400 Deaths in Cincinnati and the Ohio River Basin"
+      },
+      "date": {
+        "id": "Agustus 1866",
+        "en": "August 1866"
+      },
+      "flash": {
+        "id": "Sungai Ohio menjadi saluran kematian; Cincinnati mencatat 1.400 korban jiwa dalam satu bulan akibat sumur kota tercemar rembesan limbah industri dan jamban.",
+        "en": "The Ohio River turns into a conduit of death; Cincinnati logs 1,400 fatalities in a single month as municipal wells are poisoned by industrial and cesspool seepage."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air sumur gali pemukiman padat distrik Over-the-Rhine dan limbah pabrik bir",
+        "incubation": "12 – 48 jam",
+        "transmission": "Fekal-oral melalui rembesan tangki kotoran ke jaringan akuifer batu kapur kota"
+      },
+      "description": {
+        "id": "Memasuki bulan Agustus 1866 yang panas terik, petaka menghantam Cincinnati, kota berjuluk 'Queen City of the West'. Sebagai pusat industri daging dan tempat bermukimnya komunitas imigran Jerman yang masif di distrik Over-the-Rhine, kota ini memiliki ribuan sumur gali dangkal yang berada hanya beberapa meter dari kakus tinja dan saluran pembuangan pabrik pengolahan babi. Vibrio cholerae mencemari lapisan akuifer kapur kota, mengakibatkan ledakan epidemi eksplosif. Lebih dari 1.400 warga tewas dalam waktu kurang dari empat minggu. Gereja-gereja membunyikan lonceng kematian tiada henti, dan dewan kota terpaksa membakar drum-drum aspal di sudut-sudut jalan dalam upaya putus asa mengusir miasma yang keliru diyakini sebagai penyebab wabah.",
+        "en": "Entering the scorching heat of August 1866, tragedy struck Cincinnati, the acclaimed 'Queen City of the West'. As a titanic meatpacking hub housing a dense German immigrant community in the Over-the-Rhine district, the city depended on thousands of shallow dug wells situated inches away from cesspools and slaughterhouse runoff. Vibrio cholerae rapidly infiltrated the fractured limestone aquifer, detonating an explosive municipal outbreak. More than 1,400 citizens perished in under four weeks. Church bells tolled incessantly for funeral corteges, while municipal authorities ignited open barrels of coal tar at street intersections in a futile, antiquated attempt to disperse the miasmatic vapors they still blamed for the catastrophe."
+      },
+      "image": "/assets/images/cholera/wave-4/usa/usa_ch_07.jpg"
+    },
+    {
+      "id": "usa-ch-08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Armada Kapal Uap Mississippi: Koridor Penularan New Orleans ke Utara",
+        "en": "The Mississippi Steamboat Flotilla: Vector Corridor from New Orleans Northward"
+      },
+      "date": {
+        "id": "Juli – September 1866",
+        "en": "July – September 1866"
+      },
+      "flash": {
+        "id": "Kapal-kapal roda kayuh Mississippi menjadi sarang terapung basil kolera, mengangkut infeksi dari pelabuhan New Orleans ke Memphis, Vicksburg, dan Natchez.",
+        "en": "Mississippi paddlewheel steamboats become floating incubation chambers, carrying infection from New Orleans northward to Memphis, Vicksburg, and Natchez."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air Sungai Mississippi mentah yang dipompa langsung ke ketel dan teko air minum kapal",
+        "incubation": "1 – 2 hari",
+        "transmission": "Pengambilan air minum langsung dari arus sungai di hilir saluran pembuangan kapal"
+      },
+      "description": {
+        "id": "Di selatan, pelabuhan New Orleans yang sibuk menerima infeksi kolera dari kapal-kapal dagang Karibia dan Teluk Meksiko. Dari muara delta, penyakit ini menyebar ke hulu melalui armada kapal uap roda kayuh (paddlewheelers) yang melayani arteri perdagangan Sungai Mississippi. Para kelasi dan penumpang kapal secara rutin meminum air sungai mentah yang berlumpur tanpa filtrasi, sementara limbah toilet kapal dibuang langsung ke air tepat di depan titik hisap pompa kapal berikutnya. Kota-kota tepi sungai seperti Vicksburg, Natchez, dan Memphis disapu gelombang kepanikan ketika kapal-kapal uap menurunkan mayat dan penumpang yang menggeliat kesakitan di dermaga kayu levee.",
+        "en": "To the south, the bustling port of New Orleans absorbed cholera infections from Caribbean and Gulf trade routes. From the delta mouth, the disease churned upstream aboard the majestic paddlewheel steamboats navigating the vital artery of the Mississippi River. Deck passengers and crew routinely scooped and drank raw river water without filtration, while onboard latrines emptied directly into the current, frequently upstream of downstream engine intake pipes. Riverfront ports such as Vicksburg, Natchez, and Memphis were gripped by terror as arriving steamers deposited corpses alongside writhing, dehydrated travelers directly onto muddy levee wharves."
+      },
+      "image": "/assets/images/cholera/wave-4/usa/usa_ch_08.jpg"
+    },
+    {
+      "id": "usa-ch-09",
+      "chapterNumber": 9,
+      "type": "milestone",
+      "title": {
+        "id": "Neraka di Levee St. Louis: 3.500 Nyawa Hilang di Gerbang Barat",
+        "en": "Hell on the St. Louis Levee: 3,500 Lives Claimed at the Gateway to the West"
+      },
+      "date": {
+        "id": "Agustus – September 1866",
+        "en": "August – September 1866"
+      },
+      "flash": {
+        "id": "St. Louis menjadi episentrum paling mematikan di Amerika Utara; 3.500 warga tewas dalam satu bulan saat limbah pelabuhan mencemari asupan air minum kota.",
+        "en": "St. Louis becomes North America's deadliest epicenter; 3,500 citizens die within a single month as harbor sewage poisons the municipal intake pipes."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Sistem intake pipa air minum St. Louis Water Works di hilir dermaga levee",
+        "incubation": "12 – 36 jam",
+        "transmission": "Pencemaran silang masif antara limbah kapal uap dan jaringan pipa distribusi air minum kota"
+      },
+      "description": {
+        "id": "Pertemuan antara vektor jalur kereta api dari timur dan armada kapal uap dari selatan meledakkan bencana kemanusiaan di St. Louis, Missouri. Dikenal sebagai 'Gerbang Menuju Barat', kota ini dipadati oleh puluhan ribu migran, buruh industri, dan pedagang. Petaka mencapai puncaknya pada bulan Agustus 1866 ketika asupan pipa pompa St. Louis Water Works yang terletak tepat di hilir dermaga levee mengisap air sungai yang jenuh dengan tinja kolera dari lusinan kapal yang berlabuh. Dalam tempo tiga puluh hari, lebih dari 3.500 penduduk tewas—rekor kematian bulanan terparah di Amerika Serikat selama Gelombang Keempat. Gerobak mayat melintas tanpa henti di jalanan berbatu menuju pemakaman Bellefontaine dan Calvary, meninggalkan sepertiga kota dalam keadaan lumpuh total.",
+        "en": "The confluence of rail corridors from the East and steamboat networks from the South triggered a devastating humanitarian catastrophe in St. Louis, Missouri. Heralded as the 'Gateway to the West', the city swelled with tens of thousands of transient pioneers, factory workers, and river merchants. The crisis culminated in August 1866 when the intake pumps of the St. Louis Water Works, situated disastrously downstream from the levee wharves, sucked in raw river water saturated with fecal effluvia from dozens of anchored vessels. Within thirty days, more than 3,500 residents perished—the grimmest single-month death toll in the United States during the Fourth Pandemic. Death carts rattled ceaselessly over cobblestones toward Bellefontaine and Calvary cemeteries, bringing municipal commerce to an absolute standstill."
+      },
+      "image": "/assets/images/cholera/wave-4/usa/usa_ch_09.jpg"
+    },
+    {
+      "id": "usa-ch-10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Garnisun Militer Garis Depan: Penularan Pos Angkatan Darat di Kansas",
+        "en": "Frontier Military Outposts: Infection of Army Garrisons across Kansas"
+      },
+      "date": {
+        "id": "Juli 1866 – Agustus 1867",
+        "en": "July 1866 – August 1867"
+      },
+      "flash": {
+        "id": "Resimen kavaleri dan infanteri Angkatan Darat AS membawa kolera ke benteng-benteng terpencil di sepanjang Jalur Santa Fe dan Smoky Hill.",
+        "en": "US Army cavalry and infantry regiments carry cholera into isolated garrisons along the Santa Fe and Smoky Hill trails."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Pakaian kotor tentara rekrutan baru dan kantong air minum kanvas militer",
+        "incubation": "24 – 48 jam",
+        "transmission": "Pencemaran sumber air sumur dangkal pos militer dan kubangan air padang rumput"
+      },
+      "description": {
+        "id": "Setelah berakhirnya Perang Saudara, pemerintah federal merelokasi ribuan tentara reguler ke garis perbatasan barat untuk mengamankan pembangunan jalur kereta api transkontinental. Mobilisasi ini menjadi kendaraan utama penyebaran Vibrio cholerae ke pedalaman padang rumput prairi. Batalion yang dikirim dari stasiun transit di Missouri membawa bibit penyakit ke pos-pos militer garis depan seperti Fort Riley, Fort Harker, dan Fort Leavenworth di Kansas. Di benteng-benteng kayu terpencil ini, sanitasi sangat primitif; prajurit minum dari anak-anak sungai keruh yang menjadi tempat mandi kuda dan pembuangan kakus barak, memicu kematian massal di kalangan tentara dan buruh rel kereta api.",
+        "en": "Following the conclusion of the Civil War, the federal government redeployed thousands of regular troops to the western frontier to secure transcontinental railroad construction corridors. This mobilization served as the primary conveyance carrying Vibrio cholerae into the heart of the Great Plains. Battalions dispatched from staging depots in Missouri introduced the pathogen to frontline military garrisons such as Fort Riley, Fort Harker, and Fort Leavenworth in Kansas. In these isolated wooden stockades, sanitary infrastructure was virtually nonexistent; soldiers quenched their thirst from murky creeks serving simultaneously as horse paddocks and latrine drains, sparking catastrophic mortality among enlistees and railway work crews."
+      },
+      "image": "/assets/images/cholera/wave-4/usa/usa_ch_10.jpg"
+    },
+    {
+      "id": "usa-ch-11",
+      "chapterNumber": 11,
+      "type": "side_story",
+      "title": {
+        "id": "Tragedi Buffalo Soldiers: Resimen Infanteri ke-38 di Padang Gersang",
+        "en": "Tragedy of the Buffalo Soldiers: The 38th Infantry in the Parched Plains"
+      },
+      "date": {
+        "id": "Juni – Juli 1867",
+        "en": "June – July 1867"
+      },
+      "flash": {
+        "id": "Resimen kulit hitam ke-38 menghadapi amukan kolera di Fort Harker tanpa dokter atau pasokan medis memadai, kehilangan puluhan prajurit dalam hitungan hari.",
+        "en": "The Black 38th Infantry confronts raging cholera at Fort Harker without doctors or adequate supplies, losing dozens of enlisted men in days."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Muntahan dan diare prajurit di tenda barak sempit di bawah terik matahari musim panas",
+        "incubation": "12 – 24 jam",
+        "transmission": "Pencemaran sumur barak terisolasi dan kurangnya fasilitas isolasi medis"
+      },
+      "description": {
+        "id": "Di Fort Harker, Kansas, pada musim panas 1867, para prajurit Afrika-Amerika dari Resimen Infanteri ke-38 (cikal bakal resimen Buffalo Soldiers yang legendaris) menghadapi musuh tak kasat mata yang jauh lebih mematikan daripada peluru musuh. Dikirim untuk berpatroli di bawah terik matahari prairie tanpa perlindungan sanitasi dasar, peleton ini dihantam kolera yang dibawa oleh rekrutan baru dari St. Louis. Dokter bedah pos jatuh sakit dan meninggal, meninggalkan para prajurit kulit hitam ini berjuang sendirian merawat rekan-rekan mereka yang kejang dan membiru. Terlepas dari diskriminasi institusional dan ketiadaan obat-obatan esensial, para prajurit menunjukkan ketabahan luar biasa, menguburkan rekan mereka dengan penghormatan militer penuh di tanah prairi yang tandus.",
+        "en": "At Fort Harker, Kansas, in the sweltering summer of 1867, African American troops of the 38th Infantry Regiment (precursors to the famed Buffalo Soldiers) faced an invisible adversary far deadlier than enemy fire. Deployed to patrol railway lines across the arid plains with zero sanitary provisions, the regiment was struck down by cholera carried by newly arrived recruits from St. Louis. The post surgeon himself succumbed, leaving the Black infantrymen to care for writhing, cyanotic comrades without medicine or professional guidance. Despite entrenched institutional neglect, the soldiers demonstrated extraordinary fortitude, nursing one another in stifling canvas tents and according full military honors to their fallen brothers beneath the prairie sod."
+      },
+      "image": "/assets/images/cholera/wave-4/usa/usa_ch_11.jpg"
+    },
+    {
+      "id": "usa-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Luka Pasca-Perang Selatan: Kamp Pengungsi dan Kehancuran Rekonstruksi",
+        "en": "Post-War Scars in the South: Refugee Camps and Reconstruction Desolation"
+      },
+      "date": {
+        "id": "Musim Gugur 1866 – 1867",
+        "en": "Autumn 1866 – 1867"
+      },
+      "flash": {
+        "id": "Kolera menyapu kamp-kamp pengungsi kaum mantan budak (freedmen) dan kota-kota selatan yang hancur seperti Atlanta, Mobile, dan Galveston.",
+        "en": "Cholera ravages freedmen refugee encampments and war-shattered Southern towns including Atlanta, Mobile, and Galveston."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air kubangan dan sanitasi hancur pasca perang saudara",
+        "incubation": "24 – 48 jam",
+        "transmission": "Fekal-oral di kamp-kamp penampungan tanpa fasilitas air bersih atau sistem limbah"
+      },
+      "description": {
+        "id": "Di wilayah Amerika Serikat bagian Selatan, Perang Saudara telah meninggalkan infrastruktur kota dalam puing-puing kehancuran. Ratusan ribu budak yang baru dibebaskan (freedmen) berkumpul di kamp-kamp pengungsian darurat yang didirikan oleh Freedmen's Bureau di sekitar kota-kota seperti Richmond, Atlanta, Mobile, dan Galveston. Tanpa akses terhadap air minum yang aman, saluran pembuangan, atau makanan yang memadai, populasi rentan ini menjadi sasaran empuk bagi Vibrio cholerae. Ribuan orang Afrika-Amerika tewas dalam kesenyapan, menjadi korban ganda dari kekerasan perbudakan masa lalu dan kegagalan total sistem kesehatan publik di era awal Rekonstruksi.",
+        "en": "Across the American South, the Civil War had left urban infrastructure in smoldering ruins. Hundreds of thousands of newly emancipated freedmen gathered in makeshift refugee camps administered by the Freedmen's Bureau around shattered hubs like Richmond, Atlanta, Mobile, and Galveston. Lacking potable water, drainage systems, or adequate nutrition, these vulnerable communities became defenseless prey for Vibrio cholerae. Thousands of African Americans succumbed in tragic obscurity, falling victim to the compound horrors of historical bondage and the catastrophic absence of sanitary investment during the chaotic early dawn of Reconstruction."
+      },
+      "image": "/assets/images/cholera/wave-4/usa/usa_ch_12.jpg"
+    },
+    {
+      "id": "usa-ch-13",
+      "chapterNumber": 13,
+      "type": "milestone",
+      "title": {
+        "id": "Rekurensi Terakhir 1873: Amukan Kolera Terakhir di Lembah Sungai Pedalaman",
+        "en": "The Final Recurrence of 1873: The Last Great Interior River Outbreak"
+      },
+      "date": {
+        "id": "April – November 1873",
+        "en": "April – November 1873"
+      },
+      "flash": {
+        "id": "Wabah kolera skala nasional terakhir menghantam Amerika Serikat pada 1873, menewaskan lebih dari 1.000 jiwa di Nashville dan menyusup ke Chicago.",
+        "en": "The final nationwide cholera epidemic sweeps the United States in 1873, claiming over 1,000 lives in Nashville and infiltrating Chicago."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air minum sumur publik dan saluran pipa kayu kota pedalaman",
+        "incubation": "12 – 48 jam",
+        "transmission": "Penyusupan fekal melalui luapan banjir musim semi di lembah sungai Mississippi-Ohio"
+      },
+      "description": {
+        "id": "Tahun 1873 menjadi saksi pertempuran besar terakhir antara masyarakat Amerika Serikat dan kolera epidemik skala penuh. Berawal dari kasus misterius di New Orleans pada bulan April, penyakit ini melesat ke utara menaiki kapal uap dan jalur rel kereta api, menerobos Tennessee, Kentucky, Ohio, hingga mencapai Chicago dan Minneapolis. Kota Nashville, Tennessee, menjadi korban paling terpukul: lebih dari 1.000 warganya tewas dalam dua bulan di mana air sumur kapur kota jenuh oleh rembesan feses. Namun tidak seperti epidemi sebelumnya, masyarakat kini dipersenjatai dengan pemahaman ilmiah tentang air sebagai media penularan, memicu perlawanan sanitasi sipil terorganisir di seluruh negara bagian barat tengah.",
+        "en": "The year 1873 witnessed the final titanic confrontation between American society and nationwide epidemic cholera. Igniting from insidious cases in New Orleans in April, the contagion vaulted northward aboard steamboats and locomotive tenders, penetrating Tennessee, Kentucky, and Ohio before reaching Chicago and Minneapolis. Nashville, Tennessee, emerged as the most grievously wounded metropolis: over 1,000 citizens perished in two months as fractured limestone town wells became saturated with sewage seepage. Yet unlike earlier visitations, the public was now armed with empirical comprehension of waterborne vectors, catalyzing aggressive, organized municipal sanitary resistance across the Midwest."
+      },
+      "image": "/assets/images/cholera/wave-4/usa/usa_ch_13.jpg"
+    },
+    {
+      "id": "usa-ch-14",
+      "chapterNumber": 14,
+      "type": "summary",
+      "title": {
+        "id": "Laporan Woodworth 1875: Lahirnya Layanan Kesehatan Masyarakat Modern AS",
+        "en": "The Woodworth Report of 1875: Birth of the Modern U.S. Public Health Service"
+      },
+      "date": {
+        "id": "1874 – 1875",
+        "en": "1874 – 1875"
+      },
+      "flash": {
+        "id": "Kongres AS menerbitkan investigasi monumental Dr. John M. Woodworth setebal 1.000 halaman tentang epidemi kolera 1873, mentransformasi Marine Hospital Service menjadi USPHS.",
+        "en": "US Congress publishes Dr. John M. Woodworth's monumental 1,000-page report on the 1873 cholera epidemic, transforming the Marine Hospital Service into the USPHS."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Evaluasi epidemiologi retrospektif seluruh jalur transmisi rel, sungai, dan maritim nasional",
+        "incubation": "N/A (Laporan Epidemiologi & Reformasi Institusi)",
+        "transmission": "Pengakuan definitif penularan fekal-oral berbasis air dan undang-undang karantina federal nasional"
+      },
+      "description": {
+        "id": "Guncangan epidemi 1873 memaksa Kongres Amerika Serikat untuk bertindak secara permanen di tingkat federal. Dipimpin oleh Supervising Surgeon General pertama, Dr. John Maynard Woodworth, pemerintah federal menyusun penyelidikan epidemiologi terlengkap dalam sejarah bangsa: buku laporan tahun 1875 setebal 1.025 halaman berjudul 'The Cholera Epidemic of 1873 in the United States'. Laporan monumental ini memetakan setiap kasus, jalur rel kereta api, dan sumur tercemar dengan presisi ilmiah mutlak, secara definitif membuktikan kebenaran teori penularan air John Snow di benua Amerika. Pengesahan National Quarantine Act tahun 1878 dan transformasi Marine Hospital Service menjadi United States Public Health Service (USPHS) modern berakar langsung dari pelajaran berdarah yang dipetik selama Gelombang Keempat ini.",
+        "en": "The shockwave of the 1873 epidemic compelled the United States Congress to take permanent institutional action at the federal level. Guided by the first Supervising Surgeon General, Dr. John Maynard Woodworth, the federal government authored the most exhaustive epidemiological post-mortem in American history: the landmark 1,025-page 1875 congressional volume titled 'The Cholera Epidemic of 1873 in the United States'. This monumental inquiry mapped every documented case, railroad trunk, and contaminated well with meticulous precision, definitively canonizing John Snow's waterborne transmission paradigm on American soil. The passage of the National Quarantine Act of 1878 and the structural metamorphosis of the Marine Hospital Service into the modern United States Public Health Service (USPHS) stemmed directly from the hard-bought lessons of the Fourth Pandemic."
+      },
+      "image": "/assets/images/cholera/wave-4/usa/usa_ch_14.jpg"
+    }
+  ]
+}

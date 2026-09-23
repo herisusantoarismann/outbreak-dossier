@@ -1,0 +1,386 @@
+{
+  "sectorId": "RUS",
+  "waveIndex": 4,
+  "sectorName": {
+    "id": "Sektor RUS (Kekaisaran Rusia & Eropa Tengah: Bohemia, Warsawa, Volga & St. Petersburg // 1866–1873)",
+    "en": "Sector RUS (Russian Empire & Central Europe: Bohemia, Warsaw, Volga & St. Petersburg // 1866–1873)"
+  },
+  "coordinates": [
+    59.9343,
+    30.3351
+  ],
+  "timeRange": {
+    "id": "Juli 1866 – November 1873",
+    "en": "July 1866 – November 1873"
+  },
+  "estimatedFatalities": {
+    "id": "230.000+ korban jiwa di seluruh Kekaisaran Rusia & wilayah Habsburg (termasuk puluhan ribu korban di medan perang Bohemia, Warsawa, dan lembah Sungai Volga)",
+    "en": "230,000+ deaths across the Russian Empire & Habsburg territories (including tens of thousands across Bohemian battlefields, Warsaw, and the Volga river basin)"
+  },
+  "chapters": [
+    {
+      "id": "rus-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Kancah Perang Bohemia: Pertempuran Königgrätz dan Ledakan Bivak",
+        "en": "The Bohemian Crucible: The Battle of Königgrätz and Bivouac Outbreaks"
+      },
+      "date": {
+        "id": "Juli 1866",
+        "en": "July 1866"
+      },
+      "flash": {
+        "id": "Pertempuran Königgrätz meletus dengan 400.000 prajurit; kolera meletup di bivak Prussia dan Austria, menewaskan 6.400 tentara dan 10.000 warga sipil Bohemia.",
+        "en": "Battle of Königgrätz rages with 400,000 troops; cholera erupts in Prussian and Austrian bivouacs, killing 6,400 soldiers and 10,000 Bohemian civilians."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air parit berlumpur dan bangkai kuda di medan perang Königgrätz (Sadowa)",
+        "incubation": "12 – 36 jam",
+        "transmission": "Pencemaran air minum bivak militer oleh tinja prajurit yang terinfeksi di sepanjang Sungai Elbe dan Bistritz"
+      },
+      "description": {
+        "id": "Pada tanggal 3 Juli 1866, lebih dari 400.000 prajurit Kerajaan Prussia dan Kekaisaran Austria bertabrakan di bukit-bukit berdarah Königgrätz (Sadowa), Bohemia, dalam pertempuran penentu Perang Tujuh Minggu. Di tengah hujan peluru dan asap mesiu, musuh tak kasat mata menyusup ke barisan bivak. Kolera, yang sebelumnya membara di Silesia, meledak dengan keganasan tak terkendali di antara pasukan Prussia yang kelelahan dan terpaksa meminum air sungai Bistritz yang keruh bercampur darah dan kotoran. Dalam waktu dua minggu setelah kemenangan Prussia, basil kolera merenggut lebih dari 6.400 tentara Jerman—lebih banyak daripada korban tewas akibat peluru meriam Austria. Ketika tentara yang terluka dan tawanan perang bergerak mundur, mereka membawa penyakit ini ke ratusan desa Bohemia, menewaskan lebih dari 10.000 warga sipil tak berdosa.",
+        "en": "On July 3, 1866, over 400,000 soldiers of the Prussian and Austrian empires collided on the blood-soaked hills of Königgrätz (Sadowa), Bohemia, in the climactic clash of the Seven Weeks' War. Amidst shrieking artillery shells and acrid powder smoke, an unseen adversary infiltrated the bivouacs. Cholera, simmering in Silesia, detonated with uncontrollable ferocity among exhausted Prussian regiments compelled to drink from the Bistritz and Elbe rivers, clouded with blood, carcass rot, and raw human excrement. Within two weeks of Prussia's tactical victory, the vibrion had slaughtered more than 6,400 German troops—surpassing the regiment casualties inflicted by Austrian cannon fire. As victorious columns, wounded convoys, and prisoners retreated, they sowed the pathogen across Bohemian villages, claiming over 10,000 civilian lives."
+      },
+      "image": "/assets/images/cholera/wave-4/rus/rus_ch_01.jpg"
+    },
+    {
+      "id": "rus-ch-02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Pawai Kemenangan Beracun: Penetrasi Berlin dan Kerajaan Prussia",
+        "en": "A Tainted Victory March: Penetration of Berlin and the Prussian Kingdom"
+      },
+      "date": {
+        "id": "Agustus – September 1866",
+        "en": "August – September 1866"
+      },
+      "flash": {
+        "id": "Resimen Prussia yang berbaris pulang membawa kolera ke Berlin, memicu 5.000 kasus fatal di kawasan padat buruh di luar Gerbang Brandenburg.",
+        "en": "Prussian regiments returning home carry cholera into Berlin, sparking 5,000 fatal cases in the dense working-class districts beyond the Brandenburg Gate."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Saluran got terbuka dan sistem selokan Spree di pemukiman buruh Berlin",
+        "incubation": "24 – 48 jam",
+        "transmission": "Pencemaran air sumur gali oleh rembesan kotoran barak militer perkotaan"
+      },
+      "description": {
+        "id": "Kepulangan resimen-resimen tentara Prussia yang menyanyikan kidung kemenangan di bawah Gerbang Brandenburg diiringi oleh kutukan mematikan. Di balik seragam biru kehormatan, para serdadu membawa infeksi kolera asimtomatik yang segera berpindah ke sanak famili mereka di Berlin. Pada bulan Agustus 1866, kota metropolitan yang sedang berkembang pesat ini mencatat lonjakan kasus eksplosif di distrik-distrik buruh industri di sepanjang tepi Sungai Spree. Saluran selokan terbuka yang meluap dan sumur gali dangkal yang tercemar rembesan kotoran merenggut lebih dari 5.000 jiwa di Berlin sebelum suhu musim gugur mendingin, membuktikan bahwa kemajuan militeristik Otto von Bismarck tidak mampu melindungi warganya dari serangan mikroba mikroskopis.",
+        "en": "The celebratory return of victorious Prussian regiments marching beneath the Brandenburg Gate carried a fatal undercurrent. Beneath their decorated blue uniforms, returning soldiers harbored incubative cholera infections that immediately jumped to civilian households in Berlin. In August 1866, the booming industrial capital experienced an explosive surge across proletarian tenements bordering the Spree River. Overflowing open cess-gutters and shallow yard wells contaminated by privy runoff claimed over 5,000 lives in Berlin before autumn chills suppressed the outbreak, demonstrating that Otto von Bismarck's iron military triumphs offered zero defense against the incursions of a microscopic pathogen."
+      },
+      "image": "/assets/images/cholera/wave-4/rus/rus_ch_02.jpg"
+    },
+    {
+      "id": "rus-ch-03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Retret Lembah Danube: Wabah di Pinggiran Wina dan Kanal Donau",
+        "en": "Danubian Retreat: Outbreaks across Vienna Suburbs and the Donau Canal"
+      },
+      "date": {
+        "id": "Juli – Oktober 1866",
+        "en": "July – October 1866"
+      },
+      "flash": {
+        "id": "Pasukan Austria yang mundur mengalirkan kolera ke Wina; lebih dari 3.000 warga tewas di distrik pinggiran sepanjang Donaukanal.",
+        "en": "Retreating Austrian forces funnel cholera into Vienna; more than 3,000 citizens perish in peripheral districts along the Donaukanal."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air keruh Kanal Donau dan sistem selokan kuno perkotaan Wina",
+        "incubation": "1 – 3 hari",
+        "transmission": "Pengambilan air domestik dari anak sungai Danube yang menerima limbah rumah sakit militer"
+      },
+      "description": {
+        "id": "Bagi Kekaisaran Austria, kekalahan militer di Königgrätz disusul oleh malapetaka sanitasi. Ribuan prajurit yang terluka parah diangkut dengan tongkang kayu dan kereta api kembali ke ibu kota kekaisaran di Wina. Di rumah sakit militer darurat yang didirikan di distrik Leopoldstadt dan sepanjang Donaukanal, limbah medis dan kotoran pasien kolera dibuang langsung ke aliran air tanpa perlakuan apapun. Penduduk pinggiran kota yang bergantung pada sumur-sumur rembesan tepi sungai segera tertular. Lebih dari 3.000 penduduk Wina tewas dalam waktu tiga bulan, memicu debat panas di kalangan akademisi medis Wina antara penganut teori penularan kontak kontagionisme dan pendukung teori miasma Max von Pettenkofer.",
+        "en": "For the Austrian Empire, military catastrophe at Königgrätz was swiftly followed by sanitary devastation. Thousands of mutilated, febrile soldiers were evacuated via river barges and trains back to the imperial capital of Vienna. In makeshift military lazarettos established in the Leopoldstadt district and along the Donaukanal, hospital slops and diarrheal bedpans were discharged directly into the waterway without neutralization. Suburban populations reliant on riverside seepage wells were rapidly infected. Over 3,000 Viennese citizens died in three months, inflaming furious scholarly clashes within Vienna's medical faculties between strict contagionists and Max von Pettenkofer's localist ground-water theorists."
+      },
+      "image": "/assets/images/cholera/wave-4/rus/rus_ch_03.jpg"
+    },
+    {
+      "id": "rus-ch-04",
+      "chapterNumber": 4,
+      "type": "milestone",
+      "title": {
+        "id": "Koridor Polandia dan Galisia: Tragedi Shtetl Warsawa dan Kraków",
+        "en": "The Polish Corridor & Galicia: Tragedy of Warsaw Shtetls and Kraków"
+      },
+      "date": {
+        "id": "Agustus 1866 – 1867",
+        "en": "August 1866 – 1867"
+      },
+      "flash": {
+        "id": "Kolera melintasi perbatasan Galisia menghantam Warsawa dan Kraków, merenggut 20.000 nyawa di kawasan kumuh berjejal dan pemukiman Yahudi terasing.",
+        "en": "Cholera breaches Galician frontiers striking Warsaw and Kraków, claiming 20,000 lives across congested slums and impoverished Jewish shtetls."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air Sungai Vistula dan sumur halaman sempit permukiman Yahudi Pale of Settlement",
+        "incubation": "12 – 48 jam",
+        "transmission": "Fekal-oral di pemukiman dengan kepadatan ekstrem tanpa pasokan air ledeng"
+      },
+      "description": {
+        "id": "Dari medan perang Bohemia dan Silesia, gelombang kolera meluber ke arah timur menuju wilayah Galisia di bawah kendali Austria dan Kerajaan Polandia yang dikuasai Kekaisaran Rusia. Di kota Warsawa dan Kraków, serta puluhan kota kecil (shtetl) di kawasan Pale of Settlement, penyakit ini menemukan kondisi ideal untuk berkembang biak. Komunitas Yahudi dan buruh Polandia yang hidup terisolasi dalam kepadatan ekstrem di rumah-rumah petak kayu tanpa sanitasi menderita kehilangan yang luar biasa. Lebih dari 20.000 jiwa melayang di seluruh Polandia dalam rentang tahun 1866 hingga 1867. Sungai Vistula menjadi sabuk transmisi yang mengalirkan bakteri ke hilir, memicu ketakutan massal di pos-pos perbatasan Kekaisaran Tsar.",
+        "en": "From the battle zones of Bohemia and Silesia, the cholera tide spilled eastward into Austrian-controlled Galicia and the Russian-ruled Congress Kingdom of Poland. In Warsaw, Kraków, and dozens of Jewish market towns (shtetls) across the Pale of Settlement, the pathogen discovered optimum conditions for transmission. Impoverished Jewish families and Polish laborers confined to hyper-congested timber tenements devoid of running water or sewage systems suffered staggering casualties. Over 20,000 souls perished across Poland between 1866 and 1867. The Vistula River functioned as a virulent transmission conveyor, floating the bacteria downstream toward the border garrisons of the Tsarist Empire."
+      },
+      "image": "/assets/images/cholera/wave-4/rus/rus_ch_04.jpg"
+    },
+    {
+      "id": "rus-ch-05",
+      "chapterNumber": 5,
+      "type": "standard",
+      "title": {
+        "id": "Infiltrasi Kereta Api Tsar: Jalur Warsawa–Brest–Kiev",
+        "en": "Tsarist Railway Infiltration: The Warsaw–Brest–Kiev Trunk Line"
+      },
+      "date": {
+        "id": "Musim Gugur 1866 – Musim Semi 1867",
+        "en": "Autumn 1866 – Spring 1867"
+      },
+      "flash": {
+        "id": "Jaringan rel kereta api kekaisaran yang baru dibangun menghubungkan Warsawa ke Kiev, mentransfer kolera melintasi Benteng Brest-Litovsk ke Ukraina.",
+        "en": "The newly constructed imperial railway network links Warsaw to Kiev, shuttling cholera past the Brest-Litovsk Fortress into Ukraine."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Gerbong kereta penumpang kelas empat dan sanitasi stasiun militer",
+        "incubation": "24 – 48 jam",
+        "transmission": "Penyebaran lintas benua cepat melalui penumpang bergejala ringan dan serdadu dinas kekaisaran"
+      },
+      "description": {
+        "id": "Berbeda dengan wabah tahun 1830 dan 1848 yang membutuhkan waktu berbulan-bulan untuk merangkak melintasi rawa-rawa Pripet dengan kereta kuda, Gelombang Keempat melaju di atas bantalan rel baja. Jalur kereta api kekaisaran yang baru saja rampung menghubungkan Warsawa langsung dengan benteng militer Brest-Litovsk dan ibu kota kuno Kiev. Gerbong kelas empat yang padat dengan petani miskin, pedagang gandum, dan garnisun tentara reguler Tsar menjadi vektor penyebaran cepat. Penumpang yang terinfeksi di Warsawa dapat turun di Kiev hanya dalam waktu 36 jam, membawa basil hidup sebelum gejala klinis penuh sempat terdeteksi oleh pos pemeriksaan sanitasi kekaisaran.",
+        "en": "Unlike the visitations of 1830 and 1848, which required arduous months to crawl across the Pripet marshes aboard horse-drawn post chaises, the Fourth Pandemic rode on steel rail corridors. Newly completed imperial railway trunk lines connected Warsaw directly to the massive fortress hub of Brest-Litovsk and the historic Ukrainian metropolis of Kiev. Fourth-class passenger carriages packed with peasant day-laborers, grain traders, and Tsarist conscripts served as high-speed vectors. An individual infected in Warsaw could disembark in Kiev in under 36 hours, shedding live vibrios days before symptoms could be intercepted by imperial frontier quarantine cordons."
+      },
+      "image": "/assets/images/cholera/wave-4/rus/rus_ch_05.jpg"
+    },
+    {
+      "id": "rus-ch-06",
+      "chapterNumber": 6,
+      "type": "side_story",
+      "title": {
+        "id": "Pemberontakan 'Choleraturn': Ketakutan Petani dan Fitnah Racun Sumur",
+        "en": "The 'Choleraturn' Uprisings: Peasant Hysteria and Well-Poisoning Rumors"
+      },
+      "date": {
+        "id": "Musim Panas 1867",
+        "en": "Summer 1867"
+      },
+      "flash": {
+        "id": "Petani Rusia di desa-desa pedalaman menyerang dokter kekaisaran dan membakar barak karantina, percaya rumor bahwa dokter meracuni sumur atas perintah Tsar.",
+        "en": "Russian serfs in rural villages attack imperial physicians and burn quarantine huts, consumed by rumors that doctors are poisoning wells on the Tsar's orders."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kepanikan psikososial dan air sumur komunal desa",
+        "incubation": "N/A (Dinamika Sosial Wabah)",
+        "transmission": "Penolakan isolasi medis dan penggunaan air terkontaminasi secara sembunyi-sembunyi"
+      },
+      "description": {
+        "id": "Di pedalaman Ukraina dan provinsi-provinsi selatan Rusia, wabah memicu kembali histeria massal yang dikenal sebagai kerusuhan kolera (Choleraturn). Para petani (muzhik) yang baru beberapa tahun dibebaskan dari perbudakan (emansipasi 1861) memandang curiga dokter dan petugas medis kekaisaran (feldscher) yang mengenakan jubah putih dan membawa bubuk kapur disinfektan. Rumor menyebar dari gubuk ke gubuk bahwa kaum bangsawan dan dokter sengaja menyebarkan racun ke dalam sumur desa untuk mengurangi jumlah penduduk miskin. Di sejumlah distrik, massa bersenjata sabit menyerbu pos kesehatan, membakar barak isolasi, dan memukuli dokter yang bertugas hingga tewas, memaksa gubernur militer mengerahkan pasukan kavaleri Cossack untuk meredakan amuk massa.",
+        "en": "In the Ukrainian hinterlands and southern Russian governorates, the epidemic rekindled the dreaded social hysteria known as cholera riots (Choleraturn). The peasantry (muzhiks), only recently emancipated from serfdom in 1861, viewed imperial physicians and rural dressers (feldschers) in white smocks carrying chloride bags with mortal suspicion. Rumors flashed between thatched izbas that aristocrats and alien doctors were systematically poisoning village wells to cull the agrarian poor. In several districts, scythe-wielding mobs stormed quarantine lazarettos, burned disinfection shelters, and bludgeoned physicians to death, forcing military governors to deploy mounted Cossack squadrons to suppress the hysteria."
+      },
+      "image": "/assets/images/cholera/wave-4/rus/rus_ch_06.jpg"
+    },
+    {
+      "id": "rus-ch-07",
+      "chapterNumber": 7,
+      "type": "milestone",
+      "title": {
+        "id": "Episentrum Sungai Dnieper: Runtuhnya Pelabuhan Gandum Odessa",
+        "en": "The Dnieper River Epicenter: Collapse of the Grain Port of Odessa"
+      },
+      "date": {
+        "id": "1867 – 1869",
+        "en": "1867 – 1869"
+      },
+      "flash": {
+        "id": "Tongkang gandum menyebarkan kolera menyusuri Sungai Dnieper hingga ke Laut Hitam; Odessa mencatat 4.000 kematian saat ekspor gandum lumpuh.",
+        "en": "Grain barges float cholera down the Dnieper River to the Black Sea; Odessa records 4,000 fatalities as maritime wheat exports stall."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air muara Sungai Dnieper dan sumur payau pemukiman kuli pelabuhan Odessa",
+        "incubation": "12 – 48 jam",
+        "transmission": "Pencemaran air minum kuli panggul gandum dan kelasi kapal dagang Laut Hitam"
+      },
+      "description": {
+        "id": "Sungai Dnieper yang megah menjadi jalan raya maut yang mengalirkan Vibrio cholerae dari pedalaman Kiev menuju muara Laut Hitam. Tongkang-tongkang pengangkut gandum yang dikayuh oleh ribuan buruh musiman (burlaki) mencemari setiap perhentian di Ekaterinoslav dan Nikolaev. Pada tahun 1867, infeksi meledak di Odessa, pelabuhan ekspor gandum terbesar Kekaisaran Rusia. Di distrik pelabuhan Moldavanka yang padat, ribuan kuli panggul dan imigran miskin ambruk di atas tumpukan karung gandum. Lebih dari 4.000 warga Odessa tewas, memicu embargo karantina ketat dari kapal-kapal dagang Inggris, Prancis, dan Ottoman yang menolak mendekati dermaga, menghancurkan perekonomian gandum kekaisaran selama berbulan-bulan.",
+        "en": "The majestic Dnieper River transformed into a fatal waterway channeling Vibrio cholerae from Kiev down to the Black Sea littoral. Flat-bottomed grain barges crewed by thousands of seasonal boat-haulers (burlaks) seeded river landings at Ekaterinoslav and Nikolaev. In 1867, the contagion erupted across Odessa, the paramount grain export metropolis of the Tsarist Empire. In the teeming port quarter of Moldavanka, dock laborers and impoverished migrants collapsed across mountains of wheat sacks. Over 4,000 Odessa residents died, prompting draconian quarantines by British, French, and Ottoman merchant vessels refusing to load cargoes, choking imperial grain revenues for months."
+      },
+      "image": "/assets/images/cholera/wave-4/rus/rus_ch_07.jpg"
+    },
+    {
+      "id": "rus-ch-08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Pengepungan Sungai Neva: St. Petersburg dan Rawa Gambut Baltik",
+        "en": "Siege of the Neva: St. Petersburg and Baltic Peat Bog Outbreaks"
+      },
+      "date": {
+        "id": "1866 – 1871",
+        "en": "1866 – 1871"
+      },
+      "flash": {
+        "id": "Ibu kota kekaisaran St. Petersburg menghadapi gelombang musiman berulang; air Sungai Neva yang tidak disaring menewaskan 8.000 buruh industri pabrik kain.",
+        "en": "Imperial capital St. Petersburg endures recurrent summer waves; unfiltered Neva River water claims 8,000 factory workers and textile laborers."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air Sungai Neva yang terkontaminasi limbah industri dan rembesan rawa gambut",
+        "incubation": "24 – 48 jam",
+        "transmission": "Pipa distribusi kayu kuno yang menghisap air Neva mentah di dekat titik pembuangan selokan kota"
+      },
+      "description": {
+        "id": "Di utara, St. Petersburg, ibu kota megah Tsar Alexander II, mengalami serbuan kolera yang berulang setiap musim panas dari tahun 1866 hingga 1871. Dibangun di atas rawa gambut muara Sungai Neva yang dingin, kota ini memiliki sistem sanitasi yang sangat rapuh. Sementara istana-istana bangsawan di Nevsky Prospekt menikmati air yang dimasak dan disaring, ratusan ribu buruh pabrik tekstil dan metal di distrik Vyborg meminum air langsung dari Sungai Neva dan kanal-kanal yang bau busuk. Selama periode ini, lebih dari 8.000 warga ibu kota meninggal dunia. Wabah ini mendorong ilmuwan medis Rusia seperti Dr. Nikolay Pirogov untuk menuntut perombakan total instalasi pengolahan air minum ibu kota dengan saringan pasir lambat modern.",
+        "en": "To the north, St. Petersburg, the glittering capital of Tsar Alexander II, endured cyclical summer onslaughts from 1866 through 1871. Constructed atop the chilly peat marshes of the Neva delta, the city possessed extraordinarily vulnerable sanitary infrastructure. While aristocratic salons along Nevsky Prospekt consumed boiled and filtered water, hundreds of thousands of textile and metal factory workers in the Vyborg quarter drank directly from the foul Neva canals. Across this protracted siege, over 8,000 capital residents perished. The epidemic prompted prominent Russian medical figures, including Dr. Nikolay Pirogov, to demand the comprehensive overhaul of imperial municipal waterworks with modern slow-sand filtration."
+      },
+      "image": "/assets/images/cholera/wave-4/rus/rus_ch_08.jpg"
+    },
+    {
+      "id": "rus-ch-09",
+      "chapterNumber": 9,
+      "type": "side_story",
+      "title": {
+        "id": "Garda Depan Medis Pedesaan: Reformasi Kesehatan Dewan Zemstvo",
+        "en": "Rural Medical Vanguard: Health Reforms of the Zemstvo Councils"
+      },
+      "date": {
+        "id": "1868 – 1872",
+        "en": "1868 – 1872"
+      },
+      "flash": {
+        "id": "Dewan daerah Zemstvo memelopori sistem dokter pedesaan pertama di dunia, mendistribusikan tong air bersih dan merebus pakaian di ribuan desa terpencil.",
+        "en": "Zemstvo district councils pioneer the world's first rural public health network, deploying clean water barrels and boiling stations across thousands of villages."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air minum sumur jerami desa dan penolakan sabun sanitasi",
+        "incubation": "1 – 2 hari",
+        "transmission": "Penggunaan cangkir komunal di gereja dan tempat pemandian umum (banya)"
+      },
+      "description": {
+        "id": "Di tengah ancaman kepunahan pedesaan, lembaga pemerintahan lokal yang baru lahir—Zemstvo—menjadi pahlawan tak terduga. Dewan distrik Zemstvo mengorganisasi sistem pelayanan kesehatan pedesaan publik pertama di dunia. Para dokter muda idealis dan bidan berkeliling dengan gerobak kuda di tengah salju dan lumpur, mendirikan pos-pos desinfeksi keliling. Mereka mengajarkan petani pentingnya merebus air minum, mendistribusikan tong-tong air kayu yang terlindung, dan menyita sprei korban meninggal untuk direbus dengan abu gosok dan sabun belerang. Upaya dokter-dokter Zemstvo ini berhasil memotong rantai penularan di ribuan desa yang sebelumnya dianggap tidak terjangkau oleh peradaban modern.",
+        "en": "Amidst severe rural devastation, the nascent local administrative councils—the Zemstvos—emerged as unexpected public health innovators. The Zemstvo boards organized the world's first comprehensive tax-funded rural medical service. Idealistic young physicians and midwives traversed rural mud tracks in horse-drawn sleighs, erecting mobile disinfection detachments. They educated suspicious villagers on water boiling, distributed covered wooden drinking casks, and collected contaminated linens for high-temperature scouring with wood ash and sulfur lye. The grassroots dedication of these Zemstvo doctors severed transmission chains in thousands of remote hamlets previously abandoned to epidemic fatalism."
+      },
+      "image": "/assets/images/cholera/wave-4/rus/rus_ch_09.jpg"
+    },
+    {
+      "id": "rus-ch-10",
+      "chapterNumber": 10,
+      "type": "milestone",
+      "title": {
+        "id": "Pusaran Raksasa Pekan Raya Volga: Ledakan Nizhny Novgorod 1870–1872",
+        "en": "The Giant Volga Trade Vortex: Nizhny Novgorod Explosion 1870–1872"
+      },
+      "date": {
+        "id": "Juli 1870 – September 1872",
+        "en": "July 1870 – September 1872"
+      },
+      "flash": {
+        "id": "Pekan Raya Makariev di Nizhny Novgorod mempertemukan 200.000 pedagang; kolera meledak di dermaga Volga dan menewaskan 100.000 jiwa di sepanjang sungai 3.500 km.",
+        "en": "Makariev Trade Fair at Nizhny Novgorod gathers 200,000 merchants; cholera explodes on the Volga wharves, claiming 100,000 lives along the 3,500-km river."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air Sungai Volga mentah yang diminum oleh armada buruh kapal burlaki",
+        "incubation": "12 – 36 jam",
+        "transmission": "Pencemaran fekal skala besar di dermaga bazar pasar bebas tepi sungai Volga"
+      },
+      "description": {
+        "id": "Puncak paling mengerikan dari Gelombang Keempat di Rusia meletus di Pekan Raya Nizhny Novgorod (Makariev Fair) antara tahun 1870 dan 1872. Setiap musim panas, lebih dari 200.000 pedagang, kafilah sutra Persia, saudagar gandum, dan ribuan buruh kapal berkumpul di pertemuan Sungai Oka dan Volga. Pada Juli 1870, basil kolera menyusup ke penginapan kayu dan tenda-tenda bazar yang padat sesak. Ketika pekan raya usai, ratusan kapal uap dan ribuan tongkang berlayar ke hulu dan hilir, menyebarkan bakteri maut ke seluruh bentang Sungai Volga sepanjang 3.500 kilometer. Dari Kostroma hingga Kazan, Samara, Saratov, Tsaritsyn (kini Volgograd), dan Astrakhan di muara Kaspia, air sungai menjadi racun mematikan yang merenggut lebih dari 100.000 nyawa dalam dua musim panas berturut-turut.",
+        "en": "The most cataclysmic climax of the Fourth Pandemic in Russia ignited at the great Nizhny Novgorod Makariev Fair between 1870 and 1872. Each summer, over 200,000 merchants, Persian silk traders, grain syndicates, and thousands of dockers congregated at the confluence of the Oka and Volga rivers. In July 1870, the vibrion penetrated the congested boarding huts and bazaar tents. When the fair disbanded, hundreds of steamers and barges dispersed upstream and down, distributing the pathogen along the entire 3,500-kilometer expanse of the Volga River. From Kostroma to Kazan, Samara, Saratov, Tsaritsyn (now Volgograd), and Astrakhan on the Caspian delta, the river became liquid venom, claiming upwards of 100,000 lives across two consecutive scorching summers."
+      },
+      "image": "/assets/images/cholera/wave-4/rus/rus_ch_10.jpg"
+    },
+    {
+      "id": "rus-ch-11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Endemisitas Musim Dingin Izba: Kelangsungan Hidup Bakteri di Bawah Salju",
+        "en": "Winter Izba Endemicity: Bacterial Survival beneath the Snowpack"
+      },
+      "date": {
+        "id": "Desember 1871 – Maret 1872",
+        "en": "December 1871 – March 1872"
+      },
+      "flash": {
+        "id": "Vibrio cholerae bertahan hidup di gubuk izba kayu yang panas oleh perapian dan tanah beku jamban, meletup kembali setiap kali salju musim semi mencair.",
+        "en": "Vibrio cholerae survives inside hearth-heated peasant izbas and frozen latrine soils, reigniting each spring as the snowpack melts."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air ember di dalam rumah izba dan rembesan jamban beku yang mencair",
+        "incubation": "24 – 72 jam",
+        "transmission": "Kontak erat dalam ruangan tertutup rapat tanpa ventilasi selama musim dingin ekstrem Rusia"
+      },
+      "description": {
+        "id": "Salah satu misteri epidemiologis terbesar Gelombang Keempat di Rusia adalah kemampuannya bertahan melintasi musim dingin Arktik yang membekukan. Para dokter kekaisaran mengamati bahwa meskipun sungai-sungai membeku menjadi lapisan es tebal, kasus kolera sporadis terus bermunculan di dalam gubuk kayu tradisional petani (izba). Di ruangan sempit yang dipanaskan oleh tungku batu bata pechka, seluruh keluarga tidur berdekatan dengan hewan ternak untuk bertahan dari suhu minus 30 derajat Celsius. Bakteri bertahan hidup dalam ember air minum yang ditaruh di dekat perapian hangat dan dalam tinja beku di halaman. Ketika musim semi tiba dan lapisan es mencair (rasputitsa), limpasan air membawa jutaan kuman hidup kembali ke sumur-sumur desa, memicu siklus epidemi tahunan yang baru.",
+        "en": "One of the profound epidemiological enigmas of the Fourth Pandemic in Russia was its resilience through freezing Arctic winters. Imperial observers noted that while massive waterways froze solid, sporadic fatal cases persisted within traditional peasant timber cottages (izbas). In sealed single-room huts heated by brick masonry pechka stoves, entire families slept crammed alongside poultry and calves to survive minus-30-degree blizzards. The vibrio persisted inside warm indoor water buckets and dormant in frozen privy heaps. With the arrival of the spring thaw (rasputitsa), torrents of melting snow flushed millions of dormant bacteria into village wells, automatically regenerating a new cycle of summer devastation."
+      },
+      "image": "/assets/images/cholera/wave-4/rus/rus_ch_11.jpg"
+    },
+    {
+      "id": "rus-ch-12",
+      "chapterNumber": 12,
+      "type": "milestone",
+      "title": {
+        "id": "Dataran Raya Hungaria dan Pest 1872–1873: Amukan di Cekungan Karpatia",
+        "en": "The Hungarian Great Plain & Pest 1872–1873: Fury in the Carpathian Basin"
+      },
+      "date": {
+        "id": "September 1872 – Oktober 1873",
+        "en": "September 1872 – October 1873"
+      },
+      "flash": {
+        "id": "Wabah melanda kota kembar Buda dan Pest yang baru bersatu serta dataran alföld Hungaria, menewaskan lebih dari 30.000 jiwa di cekungan Karpatia.",
+        "en": "Outbreak sweeps the newly unified twin cities of Buda and Pest and the Hungarian alföld, claiming over 30,000 lives across the Carpathian basin."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air sumur gali berkapur di dataran alföld dan limbah domestik di tepi sungai Danube",
+        "incubation": "12 – 48 jam",
+        "transmission": "Penyebaran air tanah di pemukiman padat buruh gandum dan pekerja kapal Danube"
+      },
+      "description": {
+        "id": "Pada musim gugur tahun 1872, saat kota kembar Buda dan Pest bersiap untuk menyatukan diri menjadi ibu kota modern Budapest, gelombang kolera dari Galisia dan delta Danube menyapu Cekungan Karpatia. Di dataran luas alföld Hungaria, para buruh tani pemanen gandum dan penunggang kuda csikós tersungkur di ladang-ladang jagung. Di Pest, air sumur pompa yang bersinggungan langsung dengan tanah berkapur jenuh air tinja memicu ribuan kematian dalam hitungan minggu. Lebih dari 30.000 warga Hungaria tewas antara akhir 1872 dan musim gugur 1873. Bencana ini menjadi pendorong utama pemerintah kota Budapest yang baru dibentuk untuk membangun sistem terowongan limbah bawah tanah raksasa dan jaringan pipa air minum pegunungan Buda yang modern.",
+        "en": "In the autumn of 1872, as the twin cities of Buda and Pest prepared for historic municipal unification into modern Budapest, a cholera wave from Galicia and the Danube delta rolled over the Carpathian Basin. Across the vast Hungarian alföld plains, grain harvesters and pastoral csikós collapsed in their fields. In Pest, shallow pump wells dug directly into porous limestone saturated with privy drainage caused thousands of fatalities within weeks. More than 30,000 Hungarian citizens perished between late 1872 and autumn 1873. This traumatic catastrophe catalyzed the newly minted municipal government of Budapest to construct massive underground collector sewers and a hygienic mountain-fed aqueduct network from the Buda hills."
+      },
+      "image": "/assets/images/cholera/wave-4/rus/rus_ch_12.jpg"
+    },
+    {
+      "id": "rus-ch-13",
+      "chapterNumber": 13,
+      "type": "summary",
+      "title": {
+        "id": "Pelajaran Demografi dan Fondasi Laboratorium Bakteriologi Rusia",
+        "en": "Demographic Reckoning and Foundations of Russian Bacteriology"
+      },
+      "date": {
+        "id": "1874 – 1875",
+        "en": "1874 – 1875"
+      },
+      "flash": {
+        "id": "Kekaisaran Rusia menghitung 230.000 korban jiwa; krisis ini mendorong pendirian Institut Medis Eksperimental dan stasiun filtrasi modern di Moscow dan St. Petersburg.",
+        "en": "Russian Empire tallies 230,000 fatalities; the crisis prompts the creation of the Institute of Experimental Medicine and modern municipal filtration plants in Moscow and St. Petersburg."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Analisis statistik epidemiologi komparatif seluruh provinsi kekaisaran Tsar",
+        "incubation": "N/A (Sintesis Ilmiah dan Rekonstruksi Sanitasi)",
+        "transmission": "Penerimaan teori kuman dan modernisasi instalasi pengolahan air bersih perkotaan Rusia"
+      },
+      "description": {
+        "id": "Ketika kabut Gelombang Keempat akhirnya mereda pada akhir tahun 1873, catatan resmi Departemen Medis Kementerian Dalam Negeri Kekaisaran Rusia mencatat angka mengerikan: lebih dari 230.000 warganya telah tewas oleh kolera dalam kurun waktu delapan tahun. Namun, luka mendalam ini melahirkan lompatan besar dalam ilmu kedokteran Rusia. Ketidakberdayaan metode pengobatan lama memicu generasi dokter baru—yang kelak melahirkan tokoh-tokoh seperti Ilya Metchnikov dan Nikolay Gamaleya—untuk berpaling ke laboratorium bakteriologi modern. Kota Moscow dan St. Petersburg segera mengalokasikan jutaan rubel untuk membangun stasiun penyaringan air modern, mengakhiri era sumur terbuka dan meletakkan dasar bagi sistem kesehatan masyarakat Rusia di abad kedua puluh.",
+        "en": "When the fog of the Fourth Pandemic finally receded in late 1873, official registers of the Imperial Ministry of the Interior confirmed a staggering toll: over 230,000 citizens had fallen to cholera across an eight-year trial. Yet this profound national trauma spurred an unprecedented leap in Russian scientific medicine. The obvious bankruptcy of archaic humoral doctrines compelled a brilliant rising generation of physicians—soon to include figures like Ilya Metchnikov and Nikolay Gamaleya—to embrace modern laboratory bacteriology. Moscow and St. Petersburg allocated millions of gold rubles to construct state-of-the-art municipal filtration works, terminating reliance on untreated river intakes and laying the foundations of twentieth-century Russian epidemiological infrastructure."
+      },
+      "image": "/assets/images/cholera/wave-4/rus/rus_ch_13.jpg"
+    }
+  ]
+}

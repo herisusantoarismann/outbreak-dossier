@@ -1,0 +1,408 @@
+{
+  "sectorId": "FRA",
+  "waveIndex": 2,
+  "sectorName": {
+    "id": "Sektor FRA (Prancis: Karnaval Mi-Carême Paris, Sungai Seine, & Kejatuhan Casimir Périer 1832)",
+    "en": "Sector FRA (France: Paris Mi-Carême Carnival, River Seine, & Fall of Casimir Périer 1832)"
+  },
+  "coordinates": [
+    48.8566,
+    2.3522
+  ],
+  "timeRange": "Maret – Oktober 1832 M",
+  "estimatedFatalities": "100.000+ (Kerajaan Prancis; 20.000+ di Kota Paris)",
+  "chapters": [
+    {
+      "id": "fra-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Penetrasi Selat Inggris: Pendaratan Calais & Dieppe",
+        "en": "The English Channel Ingress: Calais & Dieppe Landfall"
+      },
+      "date": {
+        "id": "Maret 1832 M",
+        "en": "March 1832 AD"
+      },
+      "flash": {
+        "id": "Kapal feri penyeberangan dari pelabuhan London dan Dover menyeberangi Selat Dover, membawa pelaut dan penumpang terinfeksi ke pelabuhan pantai utara Prancis.",
+        "en": "Packet ferries from London and Dover crossed the English Channel, landing infected mariners and travelers in northern French coastal ports."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kapal Feri Selat & Kereta Pos Antar-Kota",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pencemaran barel air dermaga Calais dan stasiun pos kereta kuda menuju Paris"
+      },
+      "description": {
+        "id": "Meskipun pemerintah monarki Juli di bawah Raja Louis-Philippe mendirikan pos pemeriksaan karantina di sepanjang pantai Selat Inggris, arus perdagangan dan lalu lintas penumpang antara Inggris dan Prancis tidak dapat dibendung total. Pada awal Maret 1832, kapal-kapal feri uap dari muara Thames mendarat di Calais, Boulogne, dan Dieppe. Para pelancong yang tampak sehat namun sedang menginkubasi basil kolera segera menaiki kereta kuda pos (malle-poste) berkecepatan tinggi menuju Paris, membawa bibit petaka langsung ke jantung peradaban Eropa.",
+        "en": "Despite quarantine cordons established by King Louis-Philippe's July Monarchy along the English Channel coastline, the dense flow of commerce and travelers between Britain and France proved impossible to halt. In early March 1832, steam packets from the Thames estuary docked at Calais, Boulogne, and Dieppe. Travelers incubating the virulent bacillus immediately boarded express mail coaches (malles-postes) bound for Paris, carrying the seeds of catastrophe straight into the intellectual capital of Europe."
+      },
+      "image": "/assets/images/cholera/wave-2/fra/fra_ch_01.jpg"
+    },
+    {
+      "id": "fra-ch-02",
+      "chapterNumber": 2,
+      "type": "milestone",
+      "title": {
+        "id": "Karnaval Mi-Carême: Pesta Dansa Topeng Kematian",
+        "en": "The Mi-Carême Carnival: The Dance of Death Masquerade"
+      },
+      "date": {
+        "id": "29 Maret 1832 M",
+        "en": "March 29, 1832 AD"
+      },
+      "flash": {
+        "id": "Di tengah pesta topeng pertengahan Prapaskah di Théâtre des Variétés, para penari berkostum karnaval tiba-tiba kolaps dengan kejang hebat; kolera meledak di tengah kemeriahan.",
+        "en": "During Mid-Lent masked balls at the Théâtre des Variétés, revelers in grotesque costumes suddenly collapsed in violent convulsions; cholera erupted amidst the revelry."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kerumunan Pesta Topeng Tertutup",
+        "incubation": "Beberapa Jam",
+        "transmission": "Konsumsi minuman dan air es tercemar di ruang dansa berkerumun padat"
+      },
+      "description": {
+        "id": "Pada tanggal 29 Maret 1832, warga Paris merayakan Karnaval Mi-Carême (Pertengahan Prapaskah) dengan pesta dansa topeng liar di sepanjang Grand Boulevards. Beberapa peserta bahkan mengenakan kostum bernada ejekan seperti 'Kolera Berwajah Biru' untuk menertawakan ketakutan publik. Tiba-tiba di Théâtre des Variétés, musik terhenti: seorang pria berkostum Harlequin roboh ke lantai dengan kram kaki membiru dan muntah tak terkendali. Dalam beberapa jam, puluhan penari lainnya dilarikan keluar dengan kereta sewaan, masih mengenakan topeng karnaval mereka, langsung menuju rumah sakit darurat.",
+        "en": "On March 29, 1832, Parisians celebrated the Mi-Carême (Mid-Lent) carnival with boisterous masquerade balls along the Grand Boulevards. Some revelers cynically dressed in satirical costumes depicting 'Blue Cholera' to mock epidemic anxieties. Suddenly at the Théâtre des Variétés, the orchestra faltered: a dancer in Harlequin disguise collapsed onto the ballroom floor in cyanotic convulsions and violent spasms. Within hours, dozens of masqueraders were carried away in hired carriages, still wearing carnival masks, straight into emergency infirmaries."
+      },
+      "image": "/assets/images/cholera/wave-2/fra/fra_ch_02.jpg"
+    },
+    {
+      "id": "fra-ch-03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Episentrum Abad Pertengahan: Rue Saint-Denis & Île de la Cité",
+        "en": "Medieval Ground Zero: Rue Saint-Denis & Île de la Cité"
+      },
+      "date": {
+        "id": "Awal April 1832 M",
+        "en": "Early April 1832 AD"
+      },
+      "flash": {
+        "id": "Di lorong-lorong sempit berbatu Rue Saint-Denis dan Île de la Cité, air buangan tinja yang mengalir di selokan tengah jalan meracuni ribuan warga kelas pekerja.",
+        "en": "In the claustrophobic alleys of Rue Saint-Denis and Île de la Cité, open sewage gutters down the center of cobblestone streets poisoned thousands of laborers."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Selokan Tengah Jalan (Caniveaux) & Sumur Dangkal",
+        "incubation": "12 – 24 Jam",
+        "transmission": "Infiltrasi tinja penderita dari selokan jalan terbuka ke sumur air minum perumahan padat"
+      },
+      "description": {
+        "id": "Paris pada tahun 1832 belum mengalami modernisasi Baron Haussmann. Inti kota masih mempertahankan tata ruang abad pertengahan yang sangat padat, khususnya di sekitar Rue Saint-Denis, Rue Saint-Martin, dan Île de la Cité. Bangunan-bangunan kayu reyot setinggi tujuh lantai menaungi gang-gang sempit tanpa sinar matahari. Air limbah dan tinja rumah tangga dibuang langsung dari jendela ke saluran terbuka di tengah jalan (caniveaux). Ketika kolera menyusup ke kawasan ini, ia menyebar bagai api di atas jerami kering; dalam tempo lima hari, ribuan warga terserang dehidrasi fatal.",
+        "en": "Paris in 1832 had yet to experience Baron Haussmann's grand renovations. The urban core retained high-density medieval morphology, particularly surrounding Rue Saint-Denis, Rue Saint-Martin, and the Île de la Cité. Dilapidated seven-story tenements choked narrow alleys deprived of sunlight. Household wastewater and human excrement were dumped directly from upper windows into open central street gutters (caniveaux). When cholera entered these quarters, it spread like a firestorm across dry tinder; within five days, thousands suffered fatal dehydration."
+      },
+      "image": "/assets/images/cholera/wave-2/fra/fra_ch_03.jpg"
+    },
+    {
+      "id": "fra-ch-04",
+      "chapterNumber": 4,
+      "type": "milestone",
+      "title": {
+        "id": "Bencana di Rumah Sakit Hôtel-Dieu",
+        "en": "Catastrophe at the Hôtel-Dieu Hospital"
+      },
+      "date": {
+        "id": "April 1832 M",
+        "en": "April 1832 AD"
+      },
+      "flash": {
+        "id": "Rumah sakit tertua di Paris di samping Katedral Notre-Dame dijejali 1.000 pasien baru setiap hari; empat orang sekarat ditumpuk di satu tempat tidur yang sama.",
+        "en": "Paris's ancient hospital beside Notre-Dame was overwhelmed by 1,000 daily admissions; four dying victims were piled onto single wooden beds."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Bangsal Rumah Sakit Berdesakan & Kain Seprai Tercemar",
+        "incubation": "Beberapa Jam",
+        "transmission": "Kontaminasi silang nosokomial masif antar-pasien dan perawat"
+      },
+      "description": {
+        "id": "Hôtel-Dieu de Paris, rumah sakit bersejarah yang berdiri tepat di sebelah Katedral Notre-Dame, menjadi pusat kengerian wabah. Setiap jam, gerobak-gerobak kota mengantarkan ratusan pasien dengan wajah mengerut dan bibir membiru pekat. Kapasitas rumah sakit runtuh seketika; pasien-pasien terpaksa ditumpuk tiga hingga empat orang di ranjang kayu yang sama, di mana orang yang sedang meregang nyawa berbaring bersentuhan langsung dengan mereka yang baru tiba. Para biarawati perawat dan dokter bedah bekerja tanpa henti hingga banyak yang pingsan dan tewas tertular di lorong-lorong bangsal.",
+        "en": "The Hôtel-Dieu de Paris, the historic hospital standing in the shadow of Notre-Dame Cathedral, became the absolute epicenter of medical horror. Every hour, municipal carts discharged hundreds of patients with shriveled blue faces and sunken eyes. Hospital capacity collapsed instantly; three to four patients were forced into single wooden beds, where those in active death agonies lay beside the newly arrived. Nursing nuns and surgeons worked without sleep until many collapsed and perished in the infected corridors."
+      },
+      "image": "/assets/images/cholera/wave-2/fra/fra_ch_04.jpg"
+    },
+    {
+      "id": "fra-ch-05",
+      "chapterNumber": 5,
+      "type": "standard",
+      "title": {
+        "id": "Sungai Seine yang Teracuni: Porteurs d'Eau",
+        "en": "The Poisoned Seine: Porteurs d'Eau"
+      },
+      "date": {
+        "id": "April 1832 M",
+        "en": "April 1832 AD"
+      },
+      "flash": {
+        "id": "Para penjual air keliling (porteurs d'eau) memikul ember berisi air mentah Sungai Seine yang disedot tepat di hilir saluran pembuangan kotoran kota.",
+        "en": "Itinerant water-carriers (porteurs d'eau) hauled buckets of raw Seine water drawn directly downstream of major municipal sewage outflows."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Penjual Air Keliling & Ember Kayu Terbuka",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Distribusi air Sungai Seine mentah ke apartemen-apartemen bertingkat Paris"
+      },
+      "description": {
+        "id": "Sebagian besar warga Paris pada tahun 1832 tidak memiliki sambungan pipa air. Pasokan air harian mereka bergantung pada sekitar 20.000 penjual air keliling (porteurs d'eau) yang menyedot air dari Sungai Seine menggunakan gerobak bertong kayu. Titik-titik pengambilan air ini sering kali terletak tepat di hilir saluran pembuangan kotoran rumah sakit dan penjara kota. Kaum borjuis kaya mampu membeli air yang disaring atau air sumur Artois, sementara kelas pekerja miskin meminum air keruh Seine yang sarat dengan miliaran sel Vibrio cholerae aktif.",
+        "en": "The vast majority of Parisians in 1832 had no indoor plumbing. Daily household water depended on approximately 20,000 itinerant water-carriers (porteurs d'eau) who scooped water from the Seine into two-wheeled wooden barrels. These intake points were frequently located directly downstream from hospital sewer outfalls and prison runoffs. While wealthy bourgeois families bought filtered sand-cistern water or Artois well water, the laboring masses drank raw, murky Seine water teeming with active Vibrio cholerae cells."
+      },
+      "image": "/assets/images/cholera/wave-2/fra/fra_ch_05.jpg"
+    },
+    {
+      "id": "fra-ch-06",
+      "chapterNumber": 6,
+      "type": "milestone",
+      "title": {
+        "id": "Pemberontakan Pemulung (Chiffonniers) & Rumor Racun",
+        "en": "The Ragpickers' Revolt (Chiffonniers) & Poison Rumors"
+      },
+      "date": {
+        "id": "1 – 3 April 1832 M",
+        "en": "April 1 – 3, 1832 AD"
+      },
+      "flash": {
+        "id": "Desas-desus bahwa pemerintah meracuni sumur memicu amuk massa; para pemulung sampah (chiffonniers) memberontak melawan larangan pengumpulan limbah jalanan.",
+        "en": "Rumors that the government was poisoning public fountains ignited mob riots; ragpickers (chiffonniers) revolted against bans on municipal refuse collection."
+      },
+      "virusProfile": {
+        "agent": "Keruntuhan Sosial & Teori Konspirasi Racun Bourgeois",
+        "vector": "Kerusuhan Massa & Barikade Pemulung",
+        "incubation": "N/A",
+        "transmission": "Pengerumunan massa di persimpangan jalan dan pembongkaran timbunan sampah busuk"
+      },
+      "description": {
+        "id": "Kepanikan hebat melahirkan teori konspirasi liar: warga miskin meyakini bahwa kaum borjuis, dokter, dan polisi sengaja menaburkan racun arsenik ke dalam air mancur umum dan anggur kedai untuk membasmi kelas pekerja. Ketegangan meledak ketika Prefektur Polisi melarang pemulung tradisional (chiffonniers) mengumpulkan sampah dan mengerahkan gerobak pembersih tertutup. Ribuan pemulung bersenjata pengait besi dan pisau mendirikan barikade di Rue Mouffetard, menyerang kereta polisi, dan menggulingkan gerobak sanitasi, memperparah krisis kebersihan kota.",
+        "en": "Searing social distrust birthed wild conspiracy theories: the laboring poor became convinced that bourgeois elites, doctors, and the police were dusting public fountains and tavern wine with arsenic to cull the proletariat. Tensions boiled over when the Police Prefecture banned traditional ragpickers (chiffonniers) from sorting garbage and introduced sealed municipal carts. Thousands of chiffonniers armed with sorting hooks erected barricades in Rue Mouffetard, attacking police vans and overturning sanitation carts."
+      },
+      "image": "/assets/images/cholera/wave-2/fra/fra_ch_06.jpg"
+    },
+    {
+      "id": "fra-ch-07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Eksodus Kaum Borjuis: Pelarian Menuju Château",
+        "en": "The Bourgeois Exodus: Flight to Countryside Châteaux"
+      },
+      "date": {
+        "id": "April 1832 M",
+        "en": "April 1832 AD"
+      },
+      "flash": {
+        "id": "Lebih dari 100.000 warga kaya dan pejabat tinggi melarikan diri dari Paris menggunakan kereta kuda beriringan, meninggalkan rakyat jelata menghadapi kematian sendirian.",
+        "en": "Over 100,000 affluent citizens and dignitaries fled Paris in endless carriage convoys, abandoning the working class to endure the pestilence alone."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kereta Kuda Pribadi Menuju Pedesaan",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Penyebaran kolera ke kota-kota peristirahatan Normandia dan Lembah Loire oleh pengungsi kaya"
+      },
+      "description": {
+        "id": "Melihat laju kematian di Paris melonjak hingga 800 jiwa per hari, kepanikan melanda kalangan atas. Jalan-jalan keluar dari gerbang kota dipadati ribuan kereta kuda mewah yang disewa dengan harga selangit. Para bangsawan, bankir, diplomat asing, dan menteri kabinet melarikan diri ke villa-villa pedesaan mereka di Normandia, Touraine, dan Lembah Loire. Eksodus massal ini memperdalam jurang kebencian kelas di antara kaum buruh miskin yang terkurung di dalam kota tanpa sumber penghidupan dan tanpa bantuan medis yang memadai.",
+        "en": "As Paris mortalities climbed to 800 per day, hysteria swept high society. The roads out of the city gates choked with thousands of private barouches hired at extortionate rates. Aristocrats, bankers, foreign diplomats, and cabinet ministers abandoned the metropolis for rural châteaux in Normandy, Touraine, and the Loire Valley. This mass flight deepened bitter class animosity among the working poor left trapped within the pestilential capital with neither livelihood nor medical relief."
+      },
+      "image": "/assets/images/cholera/wave-2/fra/fra_ch_07.jpg"
+    },
+    {
+      "id": "fra-ch-08",
+      "chapterNumber": 8,
+      "type": "milestone",
+      "title": {
+        "id": "Tumbangnya Perdana Menteri: Kematian Casimir Périer",
+        "en": "The Fall of the Prime Minister: Death of Casimir Périer"
+      },
+      "date": {
+        "id": "16 Mei 1832 M",
+        "en": "May 16, 1832 AD"
+      },
+      "flash": {
+        "id": "Perdana Menteri Prancis Casimir Périer tertular kolera setelah meninjau bangsal Hôtel-Dieu bersama Pangeran Orléans; kematian tragisnya melumpuhkan pemerintahan kerajaan.",
+        "en": "French Prime Minister Casimir Périer contracted cholera after touring Hôtel-Dieu wards with the Duke of Orléans; his agonizing death paralyzed the kingdom's governance."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kunjungan Resmi Bangsal Infeksi Akut",
+        "incubation": "24 Jam",
+        "transmission": "Penularan langsung di lingkungan rumah sakit selama inspeksi resmi kabinet"
+      },
+      "description": {
+        "id": "Untuk membendung kepanikan publik dan menunjukkan keberanian pemerintah, Perdana Menteri Casimir Périer bersama putra mahkota, Duc d'Orléans, secara berani mengunjungi bangsal kolera Hôtel-Dieu pada 1 April 1832. Kunjungan ini berujung petaka. Dua hari kemudian, Périer terserang demam dan diare dehidrasi yang sangat parah. Sang perdana menteri mengalami penderitaan delirium berkepanjangan selama enam minggu sebelum akhirnya meninggal dunia pada 16 Mei 1832. Kematian kepala pemerintahan membuktikan bahwa kolera tidak membedakan status sosial, meruntuhkan rasa aman kalangan elit kekuasaan.",
+        "en": "In a bid to quell public hysteria and demonstrate government resolve, Prime Minister Casimir Périer and the heir to the throne, the Duke of Orléans, courageously inspected the cholera wards of Hôtel-Dieu on April 1, 1832. The visit proved fatal. Two days later, Périer fell violently ill with relentless fluid loss and delirious fevers. The premier endured six weeks of agonizing decline before succumbing on May 16, 1832. His demise proved that cholera spared neither wealth nor title, shattering any illusion of aristocratic immunity."
+      },
+      "image": "/assets/images/cholera/wave-2/fra/fra_ch_08.jpg"
+    },
+    {
+      "id": "fra-ch-09",
+      "chapterNumber": 9,
+      "type": "milestone",
+      "title": {
+        "id": "Pemberontakan Juni 1832: Pemakaman Jenderal Lamarque",
+        "en": "The June 1832 Rebellion: Funeral of General Lamarque"
+      },
+      "date": {
+        "id": "5 – 6 Juni 1832 M",
+        "en": "June 5 – 6, 1832 AD"
+      },
+      "flash": {
+        "id": "Pahlawan perang Republik, Jenderal Jean Maximilien Lamarque, tewas akibat kolera; iring-iringan pemakamannya berubah menjadi pemberontakan bersenjata melawan monarki.",
+        "en": "Republican war hero General Jean Maximilien Lamarque died of cholera; his massive funeral procession erupted into an armed insurrection against the monarchy."
+      },
+      "virusProfile": {
+        "agent": "Katalis Geopolitik & Pemberontakan Urban",
+        "vector": "Pemberontakan Bersenjata di Lorong Sempit",
+        "incubation": "N/A",
+        "transmission": "Pengerahan pasukan militer di jalanan Paris memicu bentrokan dan penularan lanjutan"
+      },
+      "description": {
+        "id": "Pada tanggal 1 Juni 1832, Jenderal Jean Maximilien Lamarque—sosok pahlawan Napoleon yang dicintai kaum Republikan dan pembela rakyat miskin—tewas terserang kolera. Pemakamannya pada 5 Juni 1832 berubah menjadi demonstrasi politik raksasa. Lebih dari 100.000 warga berbaris mengiringi jenazahnya sebelum bentrokan dengan kavaleri meletus di Pont d'Austerlitz. Kaum Republikan dan mahasiswa mendirikan barikade di distrik Saint-Merri dan Cloître Saint-Merry, peristiwa bersejarah yang kelak diabadikan oleh Victor Hugo dalam adikarya 'Les Misérables'.",
+        "en": "On June 1, 1832, General Jean Maximilien Lamarque—a revered Napoleonic veteran, outspoken champion of the poor, and republican icon—succumbed to cholera. His state funeral on June 5 swelled into a massive anti-monarchical uprising. Over 100,000 citizens marched behind the hearse before cavalry clashed at the Pont d'Austerlitz. Students and secret republican societies threw up formidable barricades around Saint-Merri, igniting the June 1832 Rebellion famously immortalized by Victor Hugo in 'Les Misérables'."
+      },
+      "image": "/assets/images/cholera/wave-2/fra/fra_ch_09.jpg"
+    },
+    {
+      "id": "fra-ch-10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Penetrasi Lembah Rhône: Lyon dan Pelabuhan Mediterania",
+        "en": "The Rhône Valley Descent: Lyon and Mediterranean Ports"
+      },
+      "date": {
+        "id": "Musim Panas 1832 M",
+        "en": "Summer 1832 AD"
+      },
+      "flash": {
+        "id": "Dari Paris, kolera menyusuri jalur tongkang Sungai Saône dan Rhône ke kota tenun Lyon, lalu meluncur ke dermaga Marseille di pesisir Laut Mediterania.",
+        "en": "From Paris, cholera traveled down the Saône and Rhône barge corridors into the silk weaving center of Lyon, reaching the Mediterranean port of Marseille."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Tongkang Sungai Saône-Rhône & Perdagangan Sutra",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Pencemaran sumber air minum di dermaga sungai dan kapal kargo pesisir Mediterania"
+      },
+      "description": {
+        "id": "Setelah melumpuhkan Paris, kolera menyebar ke provinsi-provinsi selatan melalui arteri transportasi air dan darat. Di Lyon, pusat industri sutra Prancis, para penenun sutra (canuts) yang baru saja bangkit dari pemberontakan buruh 1831 tersapu oleh infeksi di pemukiman Croix-Rousse. Dari Lyon, arus Sungai Rhône membawa patogen langsung ke Avignon dan pelabuhan Mediterania Marseille. Di pelabuhan selatan ini, kolera menginfeksi kapal-kapal dagang yang berlayar ke Aljazair, Spanyol, dan Italia, memperluas jangkauan wabah di seluruh cekungan Laut Tengah.",
+        "en": "After devastating Paris, cholera traveled into southern provinces along riverine and road arteries. In Lyon, France's silk-weaving capital, weavers (canuts) still nursing wounds from their 1831 labor revolt were crushed by infections throughout the steep Croix-Rousse district. From Lyon, the swift current of the Rhône carried the bacillus to Avignon and the Mediterranean port of Marseille. At Marseille, the pathogen seeded merchant craft sailing for French-occupied Algiers, Spain, and Italy."
+      },
+      "image": "/assets/images/cholera/wave-2/fra/fra_ch_10.jpg"
+    },
+    {
+      "id": "fra-ch-11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Kuburan Massal Père Lachaise & Montparnasse",
+        "en": "Mass Trenches of Père Lachaise & Montparnasse"
+      },
+      "date": {
+        "id": "Musim Panas 1832 M",
+        "en": "Summer 1832 AD"
+      },
+      "flash": {
+        "id": "Pemakaman umum Paris kewalahan; parit-parit makam massal digali siang malam di Père Lachaise, menampung ribuan jenazah tak beridentitas di bawah siraman kapur tohor.",
+        "en": "Parisian cemeteries collapsed; communal trenches were dug around the clock at Père Lachaise, receiving thousands of unidentified corpses under caustic lime."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kadaver Korban Kolera Massal",
+        "incubation": "N/A",
+        "transmission": "Penimbunan ribuan jasad di parit pemakaman dangkal memicu kepanikan warga di sekitar pemakaman"
+      },
+      "description": {
+        "id": "Pada puncak wabah di bulan April dan Mei 1832, kematian harian di Paris melampaui kapasitas pengrajin peti mati dan penggali kubur. Pemakaman Père Lachaise dan Montparnasse tidak mampu lagi menyediakan liang lahat individu. Parit-parit raksasa sepanjang puluhan meter digali menggunakan tenaga kerja narapidana dan tentara. Setiap malam, iring-iringan gerobak abu-abu yang dikawal oleh polisi bersenjata menurunkan peti-peti kayu pinus murah ke dalam parit, sebelum disiram lapisan tebal kapur tohor untuk meredam bau dekomposisi yang menusuk hidung.",
+        "en": "At the peak of the catastrophe in April and May 1832, daily mortalities in Paris far outstripped the supply of coffins and gravediggers. The cemeteries of Père Lachaise and Montparnasse could no longer accommodate individual interments. Giant trenches tens of meters long were excavated by convict labor and soldiers. Every night, convoys of gray municipal carts guarded by armed gendarmerie dumped rows of rough pine coffins into the earth, drowned in thick coats of quicklime to suppress the overpowering stench."
+      },
+      "image": "/assets/images/cholera/wave-2/fra/fra_ch_11.jpg"
+    },
+    {
+      "id": "fra-ch-12",
+      "chapterNumber": 12,
+      "type": "side_story",
+      "title": {
+        "id": "Eksperimen Dr. François Magendie di Hôtel-Dieu",
+        "en": "Dr. François Magendie's Experiments at Hôtel-Dieu"
+      },
+      "date": {
+        "id": "Juni – Juli 1832 M",
+        "en": "June – July 1832 AD"
+      },
+      "flash": {
+        "id": "Ahli fisiologi ternama François Magendie menguji inhalasi gas oksigen dan injeksi cairan garam ke pembuluh darah vena pasien sekarat, membuka fajar terapi infus modern.",
+        "en": "Renowned physiologist François Magendie tested oxygen inhalation and intravenous saline injections on moribund patients, heralding early fluid resuscitation."
+      },
+      "virusProfile": {
+        "agent": "Eksperimentasi Klinis & Fisiologi Kardiovaskular",
+        "vector": "Injeksi Salin Intravena & Inhalasi Gas",
+        "incubation": "N/A",
+        "transmission": "Upaya perintis memulihkan volume sirkulasi darah yang kolaps akibat dehidrasi masif"
+      },
+      "description": {
+        "id": "Di tengah keputusasaan di Hôtel-Dieu, Dr. François Magendie—salah satu bapak fisiologi eksperimental Prancis—menolak metode pengeluaran darah konvensional yang justru mempercepat kematian pasien. Terinspirasi oleh laporan dari Dr. Thomas Latta di Skotlandia, Magendie mencoba menyuntikkan larutan air garam encer hangat langsung ke dalam vena pasien yang berada dalam fase koma sianotik. Meskipun sebagian besar pasien akhirnya meninggal akibat infeksi sekunder karena belum adanya pemahaman tentang sterilisasi kuman, eksperimen ini menjadi langkah awal revolusi terapi rehidrasi intravena.",
+        "en": "Amidst despair at Hôtel-Dieu, Dr. François Magendie—one of the founding fathers of experimental physiology—rejected conventional bloodletting therapies that hurried victims toward death. Inspired by reports from Dr. Thomas Latta in Scotland, Magendie tested the infusion of warm alkaline saline directly into the collapsed veins of moribund, pulseless patients. While many ultimately died from secondary septic infections due to the absence of sterile technique, these trials were seminal precursors to modern intravenous fluid resuscitation."
+      },
+      "image": "/assets/images/cholera/wave-2/fra/fra_ch_12.jpg"
+    },
+    {
+      "id": "fra-ch-13",
+      "chapterNumber": 13,
+      "type": "standard",
+      "title": {
+        "id": "Peredaan Musim Gugur: Neraca Sosiologis Korban",
+        "en": "The Autumn Lull: The Sociological Reckoning"
+      },
+      "date": {
+        "id": "September – Oktober 1832 M",
+        "en": "September – October 1832 AD"
+      },
+      "flash": {
+        "id": "Setelah merenggut lebih dari 18.000 nyawa di Paris dan 100.000 di seluruh Prancis, gelombang kedua mereda di musim gugur, meninggalkan jurang duka dan trauma demografis.",
+        "en": "After extinguishing over 18,000 lives in Paris and 100,000 across France, the wave ebbed in autumn, leaving behind profound demographic trauma."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Penyusutan Reservoir Pasca-Epidemik",
+        "incubation": "1 – 5 Hari",
+        "transmission": "Penurunan konsentrasi bakteri seiring pendinginan suhu perairan sungai dan pengurasan sumur"
+      },
+      "description": {
+        "id": "Menjelang Oktober 1832, angka kasus kolera di Paris akhirnya turun mendekati nol. Total korban tewas di ibukota mencapai lebih dari 18.400 jiwa hanya dalam kurun waktu enam bulan. Kota itu ditinggalkan dalam keadaan trauma mendalam: ribuan anak yatim piatu berkeliaran di jalanan, toko-toko bangkrut, dan populasi mengalami penurunan drastis. Ketika data statistik dikumpulkan oleh prefektur, terungkap pola mengerikan: tingkat kematian di distrik pekerja miskin seperti Arondisemen VIII dan XII mencapai lima kali lipat lebih tinggi dibandingkan kawasan borjuis di Faubourg Saint-Germain.",
+        "en": "By October 1832, new cholera registrations in Paris dwindled toward zero. The capital had lost over 18,400 souls in just under six months. Paris remained in severe demographic shock: thousands of orphans roamed the avenues, commercial enterprises faced ruin, and public life was muted. When prefecture statistical tallies were assembled, a glaring reality emerged: mortality in destitute proletarian districts like the 8th and 12th arrondissements was fivefold higher than in the affluent mansions of the Faubourg Saint-Germain."
+      },
+      "image": "/assets/images/cholera/wave-2/fra/fra_ch_13.jpg"
+    },
+    {
+      "id": "fra-ch-14",
+      "chapterNumber": 14,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Tragedi Paris: Fondasi Rekonstruksi Haussmann",
+        "en": "Legacy of the Paris Cataclysm: Blueprint for Haussmann"
+      },
+      "date": {
+        "id": "Pasca-1832 M",
+        "en": "Post-1832 AD"
+      },
+      "flash": {
+        "id": "Studi Louis-René Villermé pasca-wabah membuktikan korelasi mutlak antara kemiskinan, kepadatan hunian, dan kematian; memicu cetak biru pembongkaran Paris oleh Baron Haussmann.",
+        "en": "Louis-René Villermé's post-epidemic studies proved direct links between squalor, density, and mortality; inspiring Baron Haussmann's urban overhaul."
+      },
+      "virusProfile": {
+        "agent": "Transformasi Urbanistik & Sanitasi Modern",
+        "vector": "Laporan Epidemiologi & Reformasi Tata Kota",
+        "incubation": "N/A",
+        "transmission": "Kelahiran sistem saluran pembuangan terpadu dan penghancuran lorong-lorong abad pertengahan"
+      },
+      "description": {
+        "id": "Bencana tahun 1832 mengubah jalannya sejarah perkotaan Prancis. Dokter dan sosiolog perintis Louis-René Villermé menerbitkan analisis statistik monumental yang menunjukkan bahwa kolera bukanlah hukuman ilahi atau sekadar udara beracun, melainkan konsekuensi langsung dari kemiskinan, ketiadaan ventilasi, dan pasokan air yang tercemar kotoran manusia. Pelajaran pahit ini menjadi dorongan moral dan ilmiah utama bagi Kaisar Napoleon III dan Prefek Georges-Eugène Haussmann dua dekade kemudian untuk membongkar lorong-lorong sempit Paris, membangun boulevard-boulevard lebar, dan merancang jaringan pembuangan limbah bawah tanah raksasa.",
+        "en": "The catastrophe of 1832 irrevocably altered French urban history. Pioneering hygienist Louis-René Villermé published monumental statistical investigations demonstrating that cholera was neither divine wrath nor mere miasma, but the direct consequence of poverty, suffocating density, and fecal contamination of drinking water. These bitter insights provided the primary scientific justification for Emperor Napoleon III and Prefect Georges-Eugène Haussmann two decades later to demolish medieval Paris, cut expansive boulevards, and build monumental subterranean sewer networks."
+      },
+      "image": "/assets/images/cholera/wave-2/fra/fra_ch_14.jpg"
+    }
+  ]
+}

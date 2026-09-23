@@ -1,0 +1,408 @@
+{
+  "sectorId": "RUS",
+  "waveIndex": 2,
+  "sectorName": {
+    "id": "Sektor RUS (Kekaisaran Rusia: Volga, Moskow, & Kerusuhan Lapangan Sennaya 1829–1831)",
+    "en": "Sector RUS (Russian Empire: Volga, Moscow, & Sennaya Square Riots 1829–1831)"
+  },
+  "coordinates": [
+    55.7558,
+    37.6173
+  ],
+  "timeRange": "1829 – 1831 M",
+  "estimatedFatalities": "250.000+ (Kekaisaran Rusia & Wilayah Kaukasus)",
+  "chapters": [
+    {
+      "id": "rus-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Penetrasi Orenburg: Kafilah dari Asia Tengah",
+        "en": "The Orenburg Breach: Caravans from Central Asia"
+      },
+      "date": {
+        "id": "Agustus – September 1829 M",
+        "en": "August – September 1829 AD"
+      },
+      "flash": {
+        "id": "Kafilah dagang dari Bukhara menyeberangi Sungai Ural membawa spora kolera ke pos perbatasan garnisun Orenburg, membuka pintu masuk Kekaisaran Rusia.",
+        "en": "Caravans from Bukhara crossed the Ural River carrying cholera into the Orenburg border garrison, opening the gateway to the Russian Empire."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kafilah Dagang Stepa & Jalur Air Ural",
+        "incubation": "12 – 72 Jam",
+        "transmission": "Kontaminasi sumber air minum pos garnisun perbatasan oleh pedagang stepa"
+      },
+      "description": {
+        "id": "Setelah mereda di Kaspia pada tahun 1824, gelombang kolera kedua bangkit kembali dari Persia dan wilayah Asia Tengah. Pada akhir musim panas 1829, kafilah pedagang unta dari Bukhara dan Khiva tiba di benteng perbatasan Orenburg di tepi Sungai Ural. Puluhan pedagang dan penjaga pos militer terserang diare cair hebat yang mematikan dalam tempo dua belas jam. Otoritas garnisun Tsar memberlakukan isolasi ketat, namun pembelot karantina dan kurir stepa telah membawa basil tersebut menyusuri rute barat menuju lembah Sungai Volga.",
+        "en": "After receding from the Caspian in 1824, the second cholera wave resurrected across Persia and Central Asia. In late summer 1829, camel caravans from Bukhara and Khiva reached the frontier fortress of Orenburg along the Ural River. Dozens of traders and border sentries suffered catastrophic watery diarrhea that proved fatal within twelve hours. Tsarist garrison commanders imposed immediate isolation, but quarantine evaders and steppe couriers had already carried the bacillus westward toward the Volga River basin."
+      },
+      "image": "/assets/images/cholera/wave-2/rus/rus_ch_01.jpg"
+    },
+    {
+      "id": "rus-ch-02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Arteri Sungai Volga: Burlak dan Tongkang Kaspia",
+        "en": "The Volga Artery: Burlaks and Caspian Barges"
+      },
+      "date": {
+        "id": "Mei – Juli 1830 M",
+        "en": "May – July 1830 AD"
+      },
+      "flash": {
+        "id": "Ribuan buruh penarik tongkang (burlak) menyusuri arus Sungai Volga dari Astrakhan ke Saratov, mencemari sumber air utama pedalaman Rusia.",
+        "en": "Thousands of Volga barge haulers (burlaks) dragged boats upriver from Astrakhan to Saratov, seeding the main freshwater artery of the Russian interior."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Tongkang Sungai & Buruh Burlak",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Penggunaan langsung air sungai Volga yang tercemar tinja oleh kru kapal kargo"
+      },
+      "description": {
+        "id": "Sungai Volga adalah urat nadi perdagangan kekaisaran. Saat es musim dingin mencair pada musim semi 1830, wabah kolera meletus kembali di pelabuhan muara Astrakhan dan dengan cepat menaiki hulu sungai. Ribuan burlak—buruh kasar miskin yang menarik tongkang kargo melawan arus deras—hidup dalam kondisi sanitasi yang sangat mengenaskan. Mereka minum langsung dari air sungai di samping tongkang mereka. Saat mereka jatuh sakit di Tsaritsyn (sekarang Volgograd) dan Saratov, sungai Volga telah berubah menjadi jalur transmisi biologis berkecepatan tinggi.",
+        "en": "The Volga River was the imperial trade artery. When winter ice melted in spring 1830, cholera erupted anew at the delta port of Astrakhan and swept upstream. Thousands of burlaks—destitute laborers hauling cargo barges against the current—lived in appalling sanitary squalor, drinking river water directly beside their vessels. As haulers succumbed at Tsaritsyn (modern Volgograd) and Saratov, the Volga turned into a high-speed biological superhighway heading directly toward European Russia."
+      },
+      "image": "/assets/images/cholera/wave-2/rus/rus_ch_02.jpg"
+    },
+    {
+      "id": "rus-ch-03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Pekan Raya Nizhny Novgorod: Dispersi Saudagar Raya",
+        "en": "Nizhny Novgorod Fair: Great Merchant Dispersal"
+      },
+      "date": {
+        "id": "Agustus 1830 M",
+        "en": "August 1830 AD"
+      },
+      "flash": {
+        "id": "Pekan raya tahunan terbesar di Eropa Timur dihadiri 150.000 pedagang; saat kematian pertama tercatat, kepanikan membubarkan ribuan pembawa infeksi ke segala penjuru.",
+        "en": "Eastern Europe's largest trade fair convened 150,000 merchants; when the first fatalities emerged, panic scattered thousands of carriers in every direction."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Konsentrasi Kerumunan Pedagang Multinasional",
+        "incubation": "Beberapa Jam – 3 Hari",
+        "transmission": "Penyebaran melalui kedai makan, pemandian umum, dan jamban pekan raya"
+      },
+      "description": {
+        "id": "Pekan Raya Makariev di Nizhny Novgorod mempertemukan saudagar dari Asia Tengah, Kaukasus, Persia, Jerman, dan seluruh provinsi Rusia. Pada pertengahan Agustus 1830, kasus kolera meletus di barak-barak penginapan tepi dermaga Sungai Oka. Gubernur berupaya menutup pekan raya secara tergesa-gesa. Namun, perintah pembubaran ini justru menjadi katalis bencana: lebih dari seratus ribu pedagang panik melarikan diri menggunakan kereta kuda dan kapal uap, menyebarkan Vibrio cholerae ke seluruh Rusia Tengah dan provinsi-provinsi Baltik.",
+        "en": "The Makariev Fair in Nizhny Novgorod gathered merchants from Central Asia, the Caucasus, Persia, Germany, and every Russian province. In mid-August 1830, cholera struck the crowded wharf barracks along the Oka River. The governor hurriedly shut down the fair, but this panicked dispersal catalyzed disaster: over a hundred thousand merchants fled via carriage and boat, carrying Vibrio cholerae across Central Russia and into the Baltic borderlands."
+      },
+      "image": "/assets/images/cholera/wave-2/rus/rus_ch_03.jpg"
+    },
+    {
+      "id": "rus-ch-04",
+      "chapterNumber": 4,
+      "type": "milestone",
+      "title": {
+        "id": "Kordon Militer Tsar: Garis Barikade yang Robek",
+        "en": "Tsarist Military Cordons: The Ruptured Line"
+      },
+      "date": {
+        "id": "September 1830 M",
+        "en": "September 1830 AD"
+      },
+      "flash": {
+        "id": "Tsar Nicholas I mengerahkan 16 resimen kavaleri untuk memblokade rute menuju Moskow; kordon sanitasi kaku memicu kelaparan dan diselundupkan di malam gelap.",
+        "en": "Tsar Nicholas I deployed 16 cavalry regiments to seal the roads to Moscow; rigid sanitary cordons caused famine and were bypassed under cover of darkness."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Penyelundup Jalur Tikus Pedesaan",
+        "incubation": "24 – 48 Jam",
+        "transmission": "Penetrasi perbatasan rahasia menghindari pos penjagaan berkuda Cossack"
+      },
+      "description": {
+        "id": "Melihat kolera mendekati Moskow, Tsar Nicholas I memerintahkan pembentukan Kordon Sanitasi Militer (Karantinnye Zastavy). Resimen Kavaleri Cossack menutup jembatan, membakar jerami penginapan, dan menembak siapa pun yang mencoba melintasi garis batas tanpa surat izin kesehatan. Penahanan puluhan ribu gerobak hasil panen memicu krisis pangan hebat di pedesaan. Para petani dan saudagar yang putus asa membayar pemandu lokal untuk menyelundupkan mereka melalui hutan dan rawa-rawa di malam hari, merobek efektivitas kordon sanitasi imperial tersebut.",
+        "en": "Alarmed by cholera's approach toward Moscow, Tsar Nicholas I ordered the creation of Military Sanitary Cordons (Karantinnye Zastavy). Cossack cavalry sealed bridges, burned roadside hayracks, and threatened execution for breaking isolation. Halting thousands of grain carts triggered severe rural food shortages. Desperate peasants and smugglers bribed guides to slip through marshes and forests at night, completely bypassing the imperial cavalry lines."
+      },
+      "image": "/assets/images/cholera/wave-2/rus/rus_ch_04.jpg"
+    },
+    {
+      "id": "rus-ch-05",
+      "chapterNumber": 5,
+      "type": "standard",
+      "title": {
+        "id": "Invasi Moskow: Lonceng Duka di Gerbang Rogozhskaya",
+        "en": "The Fall of Moscow: Toll of the Rogozhskaya Gate"
+      },
+      "date": {
+        "id": "Akhir September 1830 M",
+        "en": "Late September 1830 AD"
+      },
+      "flash": {
+        "id": "Kolera menembus pos terluar Moskow; distrik pekerja padat Zamoskvorechye tersapu diare sianotik biru saat kota dikunci total.",
+        "en": "Cholera penetrated Moscow's outer defenses; the densely packed Zamoskvorechye district collapsed under blue cyanotic diarrhea as the city was locked down."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Sumur Pemukiman Padat & Aliran Sungai Moskva",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Infiltrasi tinja penderita ke sumur-sumur dangkal distrik pekerja"
+      },
+      "description": {
+        "id": "Pada tanggal 20 September 1830, kasus kolera pertama resmi diverifikasi di Rumah Sakit Militer Lefortovo Moskow. Dalam hitungan hari, infeksi merebak di distrik Rogozhskaya dan Zamoskvorechye yang padat oleh pengrajin, pedagang tua, dan buruh pabrik kain. Ribuan aristokrat dan pejabat tinggi melarikan diri ke tanah milik mereka di utara sebelum gerbang kota ditutup rapat. Moskow diisolasi dari dunia luar, diiringi dentang lonceng gereja ortodoks tanpa henti dan asap pembakaran tar untuk mengusir 'udara beracun'.",
+        "en": "On September 20, 1830, cholera was confirmed at Moscow's Lefortovo Military Hospital. Within days, cases flared across Rogozhskaya and Zamoskvorechye, districts crowded with artisans, Old Believer merchants, and textile weavers. Aristocrats and senior bureaucrats fled northward before the imperial gates slammed shut. Moscow was locked in isolation, surrounded by continuous Orthodox funeral bells and thick clouds of burning tar intended to fumigate miasmatic vapours."
+      },
+      "image": "/assets/images/cholera/wave-2/rus/rus_ch_05.jpg"
+    },
+    {
+      "id": "rus-ch-06",
+      "chapterNumber": 6,
+      "type": "side_story",
+      "title": {
+        "id": "Kedatangan Tsar di Kremlin: Keberanian Nicholas I",
+        "en": "The Tsar at the Kremlin: Nicholas I's Defiance"
+      },
+      "date": {
+        "id": "Oktober 1830 M",
+        "en": "October 1830 AD"
+      },
+      "flash": {
+        "id": "Di tengah kepanikan warga, Tsar Nicholas I secara mengejutkan tiba di Moskow untuk memimpin dewan darurat dan meninjau rumah sakit terinfeksi.",
+        "en": "Amidst mounting terror, Tsar Nicholas I arrived unexpectedly in locked-down Moscow to take personal command and inspect cholera wards."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Penyebaran Intramural Kota Moskow",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Penularan langsung di bangsal darurat akibat sanitasi buruk dan kekurangan perawat"
+      },
+      "description": {
+        "id": "Mengejutkan para menterinya dan rakyat umum, Kaisar Nicholas I berkendara langsung dari St. Petersburg ke Moskow yang sedang diisolasi total. Ia menolak mengurung diri di Istana Kremlin; sang Tsar secara pribadi memeriksa rumah sakit darurat, mengalokasikan dana kekaisaran untuk anak yatim piatu korban wabah, dan mendirikan Komisi Penanggulangan Kolera di bawah Dr. Marcus. Keberanian ini menenangkan kepanikan elit Moskow, meskipun metode pengobatan yang digunakan—pengeluaran darah (bloodletting) dan cuka asam—sama sekali tidak berdaya melawan dehidrasi ekstrem sang patogen.",
+        "en": "Defying his councilors, Tsar Nicholas I traveled directly from St. Petersburg into barricaded Moscow. Refusing sanctuary behind Kremlin walls, the emperor visited temporary cholera infirmaries, provided imperial stipends for orphans, and established the Emergency Cholera Commission under Dr. Marcus. While this dramatic presence curbed panic among the nobility, contemporary therapies—aggressive bloodletting and vinegar washes—did nothing to arrest the lethal fluid loss of the pathogen."
+      },
+      "image": "/assets/images/cholera/wave-2/rus/rus_ch_06.jpg"
+    },
+    {
+      "id": "rus-ch-07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Musim Dingin Beku: Hibernasi Sang Patogen",
+        "en": "The Sub-Zero Freeze: Winter Hibernation"
+      },
+      "date": {
+        "id": "November 1830 – Februari 1831 M",
+        "en": "November 1830 – February 1831 AD"
+      },
+      "flash": {
+        "id": "Suhu ekstrem minus 25 derajat Celsius membekukan sungai Moskva; mortalitas harian turun drastis, memberi ilusi kemenangan sementara bagi otoritas medis.",
+        "en": "Temperatures plummeting to -25°C froze the Moskva River; daily casualties dropped precipitously, fostering a false sense of victory."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Biofilm Sedimen Dasar Sungai Beku",
+        "incubation": "Dorman dalam Kondisi Suhu Ekstrem",
+        "transmission": "Penurunan rute air terbuka; penularan sporadis di dalam barak berpenghangat"
+      },
+      "description": {
+        "id": "Ketika musim dingin Rusia yang legendaris tiba, air sungai dan kanal membeku menjadi balok es tebal. Laju infeksi di Moskow turun dari ratusan menjadi beberapa kasus harian. Otoritas kekaisaran mencabut sebagian kordon militer pada bulan Januari 1831 dengan keyakinan bahwa dinginnya salju telah memusnahkan 'racun miasma'. Namun di kedalaman lumpur dasar sungai yang tidak membeku, Vibrio cholerae memasuki fase dorman pada biofilm alga, siap meledak kembali begitu suhu musim semi menghangatkan daratan Eropa Timur.",
+        "en": "With the arrival of the brutal Russian winter, rivers and canals froze solid. New cholera cases in Moscow slowed from hundreds per day to a handful. Imperial officials relaxed quarantine barriers in January 1831, confident that severe frosts had eradicated the 'pestilential miasma'. Beneath the frozen crust, however, Vibrio cholerae survived within benthic sediment biofilms, awaiting spring thaws to reactivate across Eastern Europe's thaw-swollen rivers."
+      },
+      "image": "/assets/images/cholera/wave-2/rus/rus_ch_07.jpg"
+    },
+    {
+      "id": "rus-ch-08",
+      "chapterNumber": 8,
+      "type": "milestone",
+      "title": {
+        "id": "Pemberontakan Polandia: Vektor Resimen Perang",
+        "en": "The Polish Uprising: Vectors of the Imperial Army"
+      },
+      "date": {
+        "id": "Maret – Mei 1831 M",
+        "en": "March – May 1831 AD"
+      },
+      "flash": {
+        "id": "Mobilisasi 100.000 prajurit Tsar untuk menumpas Pemberontakan November di Polandia membawa kolera melintasi garis Dnieper ke Warsawa dan perbatasan Prusia.",
+        "en": "Deploying 100,000 imperial troops to crush the Polish November Uprising carried cholera across the Dnieper to Warsaw and the Prussian frontier."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Mobilisasi Militer Lapangan & Rumah Sakit Tenda",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Pasokan air kemah militer yang tercemar dan pergerakan tawanan perang"
+      },
+      "description": {
+        "id": "Pada musim semi 1831, Kekaisaran Rusia memobilisasi tentara besar di bawah Marsekal Lapangan Diebitsch untuk memadamkan Pemberontakan November di Polandia. Pergerakan resimen dari pedalaman Rusia yang belum bebas kolera bertindak sebagai vektor infeksi skala kontinental. Kolera membantai kedua belah pihak di medan perang Grochów dan Ostrołęka. Bahkan Marsekal Diebitsch dan Adipati Agung Konstantin tewas terserang kolera dalam hitungan jam. Gelombang tentara dan pengungsi mendorong patogen melintasi perbatasan Galisia dan Prusia.",
+        "en": "In spring 1831, the Russian Empire mobilized an army under Field Marshal Diebitsch to suppress Poland's November Uprising. Regiments originating from cholera-seeded provinces acted as continental vectors. The disease devastated combatants on both sides at Grochów and Ostrołęka. Both Marshal Diebitsch and Grand Duke Konstantin succumbed to fulminant cholera within hours. Disorganized troop movements propelled the pathogen into Austrian Galicia and the Prussian borderlands."
+      },
+      "image": "/assets/images/cholera/wave-2/rus/rus_ch_08.jpg"
+    },
+    {
+      "id": "rus-ch-09",
+      "chapterNumber": 9,
+      "type": "standard",
+      "title": {
+        "id": "Serbuan ke St. Petersburg: Tongkang Terusan Ladoga",
+        "en": "Assault on St. Petersburg: The Ladoga Canal Barges"
+      },
+      "date": {
+        "id": "Juni 1831 M",
+        "en": "June 1831 AD"
+      },
+      "flash": {
+        "id": "Melalui sistem terusan Ladoga, tongkang gandum membawa kolera langsung ke ibukota kekaisaran di muara Sungai Neva; 600 warga tewas setiap hari.",
+        "en": "Through the Ladoga canal system, grain barges ferried cholera into the imperial capital on the Neva; daily deaths quickly climbed past 600."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kanal-Kanal Sungai Neva & Pemukiman Haymarket",
+        "incubation": "6 – 24 Jam",
+        "transmission": "Pencemaran kanal air minum St. Petersburg oleh kapal tongkang dari hulu"
+      },
+      "description": {
+        "id": "Ibukota Kekaisaran, St. Petersburg, dibangun di atas rawa-rawa muara Sungai Neva dengan jaringan kanal yang sangat padat. Pada akhir Juni 1831, kapal-kapal pembawa pasokan dari hulu melalui Kanal Ladoga memasukkan wabah ke distrik dermaga. Dalam tempo seminggu, kolera meledak di kawasan padat Sennaya Ploshchad (Lapangan Jerami). Rumah sakit darurat yang didirikan tergesa-gesa segera kewalahan; mayat-mayat bertumpuk di gerobak terbuka karena petugas pemakaman melarikan diri dari bau busuk dan ketakutan tertular.",
+        "en": "The imperial capital of St. Petersburg, constructed upon delta marshes of the Neva River, was interlaced with intricate canals. In late June 1831, supply barges arriving via the Ladoga Canal introduced cholera into the wharf district. Within a week, the infection erupted through the teeming tenement quarter surrounding Sennaya Ploshchad (Haymarket Square). Hospitals were overwhelmed immediately; corpses stacked up in open handcarts as gravediggers fled in terror."
+      },
+      "image": "/assets/images/cholera/wave-2/rus/rus_ch_09.jpg"
+    },
+    {
+      "id": "rus-ch-10",
+      "chapterNumber": 10,
+      "type": "milestone",
+      "title": {
+        "id": "Kerusuhan Lapangan Sennaya: Pembunuhan Para Dokter",
+        "en": "The Sennaya Square Riot: Slaying of the Physicians"
+      },
+      "date": {
+        "id": "22 Juni 1831 M",
+        "en": "June 22, 1831 AD"
+      },
+      "flash": {
+        "id": "Rumor bahwa dokter asing meracuni sumur air memicu amuk massa; rumah sakit pusat dihancurkan dan dokter Jerman dilempar dari lantai tiga.",
+        "en": "Rumors that foreign doctors were poisoning community wells sparked mob fury; the central hospital was sacked and German physicians defenestrated."
+      },
+      "virusProfile": {
+        "agent": "Histeria Sosial & Keruntuhan Otoritas Medis",
+        "vector": "Desinformasi Kerumunan & Teori Konspirasi Racun",
+        "incubation": "N/A",
+        "transmission": "Penolakan pengobatan, penyerbuan bangsal isolasi, dan pembebasan paksa pasien sakit"
+      },
+      "description": {
+        "id": "Pada tanggal 22 Juni 1831, histeria massa meletup di Lapangan Sennaya. Di antara kelas pekerja miskin, beredar desas-desus liar bahwa bangsawan dan para dokter Jerman telah bersekongkol meracuni sumur air dan mengubur pasien hidup-hidup untuk mengurangi populasi miskin. Ribuan massa bersenjata kapak dan pentungan menyerbu Rumah Sakit Pusat Kolera. Mereka memukuli dokter jaga, membunuh Kepala Dokter Blum, dan melemparkan staf medis dari jendela lantai atas sebelum membebaskan pasien kolera yang sedang sekarat ke jalanan umum.",
+        "en": "On June 22, 1831, mass paranoia exploded across Sennaya Square. Rumors raged through the impoverished laboring classes that Tsarist nobles and foreign German physicians were deliberately poisoning wells and burying patients alive to exterminate the poor. Thousands armed with axes and cudgels stormed the Central Cholera Hospital. The mob lynched attending doctors, murdered Chief Physician Blum, threw medical staff from third-story windows, and dragged dying cholera victims out onto public pavements."
+      },
+      "image": "/assets/images/cholera/wave-2/rus/rus_ch_10.jpg"
+    },
+    {
+      "id": "rus-ch-11",
+      "chapterNumber": 11,
+      "type": "milestone",
+      "title": {
+        "id": "Tsar di Lapangan Sennaya: 'Berlutut dan Bertobatlah!'",
+        "en": "The Tsar on Sennaya Square: 'Kneel and Repent!'"
+      },
+      "date": {
+        "id": "23 Juni 1831 M",
+        "en": "June 23, 1831 AD"
+      },
+      "flash": {
+        "id": "Nicholas I melangkah masuk ke tengah lautan massa bersenjata tanpa pengawalan militer, menghardik pemberontak dan memaksa mereka berlutut memohon ampun.",
+        "en": "Nicholas I walked unguarded into the center of an armed mob, fiercely rebuking the rioters and commanding them onto their knees in penance."
+      },
+      "virusProfile": {
+        "agent": "Peredaman Krisis Otoriter",
+        "vector": "Penyebaran Spora Akibat Kerumunan Massa Rusuh",
+        "incubation": "N/A",
+        "transmission": "Peningkatan kontak antarwarga selama kerusuhan memicu lonjakan kasus baru"
+      },
+      "description": {
+        "id": "Mendengar penyerbuan rumah sakit, Tsar Nicholas I menaiki kereta terbuka menuju Lapangan Sennaya yang dipadati ribuan perusuh bersenjata. Berdiri tegak tanpa senapan di hadapan massa yang marah, sang Tsar berteriak dengan suara membahana: 'Orang-orang Rusia! Apakah kalian tidak takut kepada Tuhan? Bangsa kita sedang dihukum dengan wabah, dan kalian justru membunuh orang yang merawat saudaramu! Berlututlah dan mintalah ampun kepada Yang Maha Kuasa!' Terpukau oleh wibawa monarki absolut, ribuan massa menjatuhkan kapak mereka dan bersujud di lumpur lapangan.",
+        "en": "Informed of the hospital massacre, Tsar Nicholas I rode an open carriage directly into Sennaya Square, surrounded by thousands of armed rioters. Standing tall without personal bodyguard escort before the furious crowd, the emperor bellowed: 'Russians! Have you forgotten God? Our people are struck by His scourge, yet you slaughter those who tend your brothers! On your knees, and beg the Almighty for pardon!' Paralyzed by autocratic authority, thousands cast down their clubs and fell prostrate upon the cobblestones."
+      },
+      "image": "/assets/images/cholera/wave-2/rus/rus_ch_11.jpg"
+    },
+    {
+      "id": "rus-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Pemberontakan Koloni Militer Novgorod: Amarah di Barak",
+        "en": "Novgorod Military Colony Mutiny: Fury in the Barracks"
+      },
+      "date": {
+        "id": "Juli 1831 M",
+        "en": "July 1831 AD"
+      },
+      "flash": {
+        "id": "Di pemukiman militer Arakcheyev Novgorod, prajurit petani memberontak melawan karantina brutal, mengeksekusi lebih dari 100 perwira dan dokter resimen.",
+        "en": "In Novgorod's Arakcheyev military settlements, peasant-soldiers revolted against brutal quarantines, executing over 100 officers and regiment surgeons."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Barak Tertutup & Sanitasi Militer Kaku",
+        "incubation": "1 – 2 Hari",
+        "transmission": "Penularan beruntun di barak tertutup dan sumur garnisun militer"
+      },
+      "description": {
+        "id": "Jika di ibukota Tsar berhasil meredam kerusuhan dengan retorika, di pedesaan Novgorod pecah pemberontakan militer paling berdarah dalam sejarah era Nicholas I. Koloni Militer Arakcheyev menggabungkan disiplin barak militer kaku dengan kerja tani paksa. Ketika para perwira memerintahkan rumah-rumah desa dikapur dan warga sakit diikat di tempat tidur isolasi, para prajurit petani memberontak. Mereka mendakwa para komandan sengaja meracuni air. Lebih dari seratus jenderal, kolonel, dan dokter dibunuh secara sadis sebelum resimen Pengawal Kekaisaran menumpas pemberontakan tersebut.",
+        "en": "While the emperor suppressed unrest in St. Petersburg through personal theatre, Novgorod experienced the bloodiest military mutiny of Nicholas I's reign. The Arakcheyev Military Colonies merged rigid barrack discipline with forced peasant labor. When officers ordered cottages fumigated and the sick chained in isolation huts, soldiers revolted. Believing their commanders were poisoning garrison water, they lynched over one hundred generals, colonels, and regimental physicians before imperial guards suppressed the uprising."
+      },
+      "image": "/assets/images/cholera/wave-2/rus/rus_ch_12.jpg"
+    },
+    {
+      "id": "rus-ch-13",
+      "chapterNumber": 13,
+      "type": "standard",
+      "title": {
+        "id": "Benteng Kronstadt: Jalur Maritim ke Laut Baltik",
+        "en": "Kronstadt Fortress: Maritime Spillway to the Baltic"
+      },
+      "date": {
+        "id": "Juli – Agustus 1831 M",
+        "en": "July – August 1831 AD"
+      },
+      "flash": {
+        "id": "Dari pelabuhan militer Kronstadt, armada kapal dagang batubara dan rami membawa infeksi melintasi Laut Baltik menuju pelabuhan Riga, Danzig, dan Hamburg.",
+        "en": "From the Kronstadt naval fortress, merchant colliers and hemp freighters carried infection across the Baltic Sea to Riga, Danzig, and Hamburg."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kapal Dagang Laut Baltik & Tangki Air Kayu",
+        "incubation": "2 – 5 Hari",
+        "transmission": "Pencemaran barel air tawar kapal dagang rami dan kayu oleh kru pelabuhan Kronstadt"
+      },
+      "description": {
+        "id": "Benteng pulau Kronstadt adalah gerbang maritim St. Petersburg ke perairan dunia. Meskipun armada angkatan laut diperintahkan mengarantina kapal-kapal dagang asing, ribuan pelaut dan buruh bongkar muat rami telah terinfeksi. Kapal-kapal kargo Inggris, Prusia, dan Swedia yang buru-buru berlayar keluar dari teluk Finlandia membawa Vibrio cholerae di dalam tangki air minum kayu mereka. Dalam hitungan minggu, kabar kematian akibat kolera dilaporkan dari Riga, Königsberg, Danzig, hingga pelabuhan batubara Sunderland di pantai timur Inggris.",
+        "en": "The island fortress of Kronstadt guarded St. Petersburg's gateway to global maritime commerce. Although foreign merchantmen were placed under anchorage quarantine, hundreds of stevedores loading hemp and timber were already carrying the bacillus. British, Prussian, and Swedish merchant vessels fleeing the Gulf of Finland transported Vibrio cholerae inside wooden freshwater barrels. Within weeks, cholera mortalities were reported from Riga, Königsberg, Danzig, and the coal port of Sunderland in Britain."
+      },
+      "image": "/assets/images/cholera/wave-2/rus/rus_ch_13.jpg"
+    },
+    {
+      "id": "rus-ch-14",
+      "chapterNumber": 14,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Badai Rusia: Runtuhnya Mitos Kordon",
+        "en": "Legacy of the Russian Firestorm: Collapse of Cordon Miasma"
+      },
+      "date": {
+        "id": "Musim Gugur 1831 M",
+        "en": "Autumn 1831 AD"
+      },
+      "flash": {
+        "id": "Dengan korban tewas melebihi 250.000 jiwa di seluruh kekaisaran, kegagalan blokade kavaleri memaksa dunia medis Eropa meninjau ulang strategi sanitasi modern.",
+        "en": "With imperial fatalities exceeding 250,000, the complete collapse of cavalry cordons compelled European medicine to rethink epidemic strategy."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Penyebaran Skala Kontinental Terbuka",
+        "incubation": "Beberapa Jam – 5 Hari",
+        "transmission": "Patahnnya teori karantina militer darat menghadapi patogen berbasis air"
+      },
+      "description": {
+        "id": "Pandemi kolera 1829–1831 di Rusia memusnahkan lebih dari seperempat juta warga, dari gubuk tani Volga hingga istana kekaisaran di St. Petersburg. Bencana ini membuktikan kelemahan fatal kordon militer bersenjata: tentara dan kavaleri yang dikerahkan untuk memblokade kota justru menjadi kurir aktif yang menyebarkan patogen lebih cepat. Catatan klinis rinci dari dokter Rusia dan pengamat asing yang dikirim ke Moskow menjadi dokumen ilmiah pertama yang membuka mata para pemikir medis Barat bahwa sebuah musuh baru yang tak terlihat sedang menuju ibu kota mereka.",
+        "en": "The 1829–1831 cholera epidemic across the Russian Empire claimed over a quarter of a million lives, from Volga peasant hovels to St. Petersburg palaces. The catastrophe proved the total futility of armed sanitary cordons: soldiers deployed to enforce quarantines served instead as biological couriers accelerating transmission. Clinical documentation gathered by Russian physicians and foreign observers sent to Moscow became the foundational scientific evidence alerting Western Europe that an unstoppable waterborne scourge was descending upon their capitals."
+      },
+      "image": "/assets/images/cholera/wave-2/rus/rus_ch_14.jpg"
+    }
+  ]
+}

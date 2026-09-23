@@ -1,0 +1,461 @@
+{
+    "sectorId": "BSO",
+    "waveIndex": 1,
+    "sectorName": {
+        "id": "Sektor Basra & Muskat (Teluk Persia, Mesopotamia & Kaukasus 1821–1824)",
+        "en": "Sector Basra & Muscat (Persian Gulf, Mesopotamia & Caucasus 1821–1824)"
+    },
+    "coordinates": [30.5085, 47.7804],
+    "timeRange": "Juli 1821 – 1824 M",
+    "estimatedFatalities": "150.000+ (Teluk Persia, Mesopotamia, Persia, & Kaukasus)",
+    "chapters": [
+        {
+            "id": "bso-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Pendaratan Maut Kapal Beras Bombay di Muskat",
+                "en": "Lethal Arrival of Bombay Rice Ships at Muscat Harbor"
+            },
+            "date": {
+                "id": "Juli 1821 M",
+                "en": "July 1821 AD"
+            },
+            "flash": {
+                "id": "Kapal kargo beras East India Company dari Bombay merapat di pelabuhan Muskat; dalam sepuluh hari, sepertiga populasi kota pelabuhan tewas tersapu kolera.",
+                "en": "An East India Company rice vessel from Bombay docked at Muscat harbor; within ten days, one-third of the port's population perished from cholera."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+                "vector": "Awak Kapal Kargo Beras & Air Got Lambung Kapal",
+                "incubation": "Beberapa Jam – 3 Hari",
+                "transmission": "Pembuangan air got kapal ke teluk pelabuhan dan kontak langsung kuli bongkar muat beras"
+            },
+            "description": {
+                "id": "Pada pertengahan Juli 1821, kapal niaga kayu yang mengangkut muatan beras dari Bombay tiba di pangkalan laut Muskat, ibu kota Kesultanan Oman. Selama pelayaran melintasi Laut Arab, beberapa kelasi telah meninggal dunia karena muntah dan diare akut. Ketika sauh diturunkan di teluk berbatu Muskat yang tertutup dan minim sirkulasi arus laut, air ballast dan limbah awak kapal dibuang langsung ke perairan pelabuhan. Suhu udara musim panas yang menembus empat puluh derajat Celsius mempercepat dehidrasi warga kota. Dalam kurun waktu sepuluh hari pertama sejak kedatangan kapal tersebut, lebih dari sepuluh ribu jiwa—hampir sepertiga dari total populasi Muskat—tewas mengenaskan di jalan-jalan berbatu dan gang-gang pasar rempah.",
+                "en": "In mid-July 1821, a wooden merchantman laden with grain from Bombay reached the sheltered harbor of Muscat, capital of the Sultanate of Oman. During the voyage across the Arabian Sea, several crewmen had succumbed to violent purging and diarrhea. When the vessel dropped anchor within Muscat's enclosed rocky cove, contaminated ballast water and human waste were flushed into the stagnant harbor waters. Scorching summer temperatures exceeding forty degrees Celsius accelerated extreme dehydration among inhabitants. Within ten days of the ship's arrival, over ten thousand residents—nearly a third of Muscat's entire population—perished in the narrow stone alleys and spice souks."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_01.jpg"
+        },
+        {
+            "id": "bso-ch-02",
+            "chapterNumber": 2,
+            "type": "standard",
+            "title": {
+                "id": "Badai Dehidrasi di Oasis Pegunungan Hajar",
+                "en": "Dehydration Storm in Oman's Inland Oases and Hajar Mountains"
+            },
+            "date": {
+                "id": "Juli – Agustus 1821 M",
+                "en": "July – August 1821 AD"
+            },
+            "flash": {
+                "id": "Kafilah Badui yang melarikan diri dari Muskat membawa kuman ke lembah-lembah pedalaman Pegunungan Hajar; sistem saluran air falaj tercemar dan memusnahkan komunitas oasis.",
+                "en": "Bedouin caravans fleeing Muscat carried the bacillus into the Hajar Mountains; subterranean falaj irrigation channels became poisoned conduits destroying oasis settlements."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae Strain Gurun",
+                "vector": "Jaringan Saluran Air Tradisional (Falaj)",
+                "incubation": "12 – 48 Jam",
+                "transmission": "Pencemaran sumber air hulu sistem irigasi bawah tanah oleh pengungsi pesisir"
+            },
+            "description": {
+                "id": "Ribuan warga Muskat yang panik melarikan diri ke pedalaman menuju benteng-benteng oasis di Pegunungan Hajar, seperti Nizwa dan Rustaq. Namun pelarian ini menjadi malapetaka bagi pemukiman pedalaman. Sumber kehidupan utama masyarakat gurun Oman adalah sistem hidrologi falaj—saluran air gravitasi kuno yang mengalirkan air pegunungan ke desa-desa oasis. Ketika para pengungsi yang terinfeksi membersihkan diri dan membuang hajat di hulu saluran falaj, air yang mengalir ke hilir mendistribusikan kuman ke setiap rumah dan kebun kurma. Komunitas oasis yang terisolasi mengalami tingkat kematian hingga lima puluh persen; mayat-mayat tergeletak di samping pohon kurma karena tak seorang pun tersisa yang cukup kuat untuk menggali kubur di tanah gurun berbatu.",
+                "en": "Thousands of terrified survivors fled Muscat toward mountain oasis citadels in the Hajar range, including Nizwa and Rustaq. This mass flight proved ruinous for interior settlements. Life in the arid interior depended upon the ancient falaj system—gravity-fed aqueducts carrying mountain water to oasis villages. When infected refugees washed and relieved themselves near upstream channels, the continuous flow carried the cholera bacillus into every household and date grove downstream. Isolated oasis communities suffered mortality rates approaching fifty percent; corpses lay unburied beneath date palms as entire clans lacked the physical strength to excavate rocky desert graves."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_02.jpg"
+        },
+        {
+            "id": "bso-ch-03",
+            "chapterNumber": 3,
+            "type": "standard",
+            "title": {
+                "id": "Armada Dhow Teluk Persia: Lonjakan Lintas Pesisir",
+                "en": "The Persian Gulf Dhow Flotilla: Coastal Leap across Bahrain and Bushehr"
+            },
+            "date": {
+                "id": "Agustus 1821 M",
+                "en": "August 1821 AD"
+            },
+            "flash": {
+                "id": "Perahu-perahu layar dhow nelayan mutiara dan pedagang kurma menyebarkan kolera ke setiap pelabuhan singgah di Teluk Persia: Bahrain, Bushehr, dan Pulau Kish.",
+                "en": "Dhows crewed by pearl divers and date merchants carried cholera across every Persian Gulf harbor: Bahrain, Bushehr, and Kish Island."
+            },
+            "virusProfile": {
+                "agent": "Penyebaran Maritim Teluk Dangkal",
+                "vector": "Awak Perahu Dhow & Gentong Air Minum Kayu",
+                "incubation": "1 – 4 Hari",
+                "transmission": "Penggunaan gentong air minum bersama di atas kapal dhow selama pelayaran antar-pelabuhan"
+            },
+            "description": {
+                "id": "Teluk Persia pada abad ke-19 adalah jalur perdagangan maritim yang sangat aktif, dipadati oleh armada perahu dhow tradisional yang mengangkut mutiara, kurma, dan kuda perang Arab. Dari Muskat, perahu-perahu dhow berlayar menyusuri garis pantai menuju Selat Hormuz. Wabah menyambar pulau mutiara Bahrain pada awal Agustus, menewaskan ribuan penyelam mutiara di kamp-kamp pesisir. Di pelabuhan Bushehr di pesisir barat daya Persia, ribuan pelaut dan pedagang terinfeksi sebelum kapal sempat menurunkan muatan. Gentong-gentong kayu penyimpan air minum di atas kapal yang tidak pernah dibersihkan bertindak sebagai inkubator sempurna bagi bakteri Vibrio, memastikan bahwa setiap awak kapal yang selamat tetap menjadi pembawa infeksi aktif ketika mendarat di pelabuhan berikutnya.",
+                "en": "During the nineteenth century, the Persian Gulf bustled with traditional lateen-rigged dhows trading natural pearls, dates, and Arabian horses. From Muscat, these craft fanned northward through the Strait of Hormuz. The contagion leaped to the pearl banks of Bahrain in early August, decimating dive camps. At Bushehr on the southwestern Persian littoral, thousands of mariners and merchants collapsed before cargoes could be cleared. The untreated wooden water casks aboard these sailing craft served as continuous culture vessels for Vibrio cholerae, ensuring that surviving crewmen acted as active vectors upon disembarking at every landfall."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_03.jpg"
+        },
+        {
+            "id": "bso-ch-04",
+            "chapterNumber": 4,
+            "type": "milestone",
+            "title": {
+                "id": "Ingress Muara Shatt al-Arab dan Kehancuran Basra",
+                "en": "Shatt al-Arab Estuarine Ingress and the Devastation of Basra Port"
+            },
+            "date": {
+                "id": "Agustus – September 1821 M",
+                "en": "August – September 1821 AD"
+            },
+            "flash": {
+                "id": "Bakteri memasuki muara Sungai Shatt al-Arab; kota pelabuhan Basra di Irak selatan runtuh total saat 18.000 penduduknya tewas dalam kurun waktu kurang dari tiga pekan.",
+                "en": "The pathogen entered the Shatt al-Arab estuary; the southern Iraqi port of Basra collapsed entirely as 18,000 citizens perished in under three weeks."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik Ingress Irak)",
+                "vector": "Air Muara Shatt al-Arab & Kanal Pasang Surut Basra",
+                "incubation": "Beberapa Jam – 2 Hari",
+                "transmission": "Konsumsi air pasang surut sungai yang tercemar oleh kotoran kapal dagang dan jamban gantung"
+            },
+            "description": {
+                "id": "Pintu gerbang utama menuju wilayah kekuasaan Kesultanan Utsmaniyah di Mesopotamia adalah pelabuhan Basra, terletak di pertemuan Sungai Tigris dan Efrat (Shatt al-Arab). Pada akhir Agustus 1821, perahu-perahu niaga dari Teluk Persia berlayar masuk ke muara sungai dan membuang sauh di depan dermaga Basra. Tata kota Basra dipenuhi kanal-kanal pasang surut yang memasukkan air sungai langsung ke pemukiman penduduk. Ketika air sungai tercemar oleh tinja penderita kolera dari kapal, air minum seluruh kota seketika beracun. Dalam tempo delapan belas hari, bencana mengerikan menimpa Basra: antara lima belas ribu hingga delapan belas ribu orang tewas. Kantor perwakilan dagang British East India Company dan konsulat asing ditinggalkan, pasar-pasar kota kosong melompong, dan anarki merebak di seluruh kota.",
+                "en": "The commercial threshold to Ottoman Mesopotamia was the great port of Basra, situated along the Shatt al-Arab confluence of the Tigris and Euphrates. In late August 1821, merchant flotillas from the Persian Gulf ascended the estuary and anchored before Basra's wharves. The city was threaded with tidal canals drawing estuarine water directly into residential quarters. When river channels were contaminated with choleraic discharges from incoming vessels, the urban water supply turned into poison overnight. Within eighteen days, Basra endured an unprecedented catastrophe: between 15,000 and 18,000 inhabitants died. The British East India Company residency and foreign consulates were abandoned, marketplaces emptied, and civil order collapsed."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_04.jpg"
+        },
+        {
+            "id": "bso-ch-05",
+            "chapterNumber": 5,
+            "type": "standard",
+            "title": {
+                "id": "Parit Kematian di Perkebunan Kurma Basra",
+                "en": "Trench Graves in Basra's Date Palm Plantations"
+            },
+            "date": {
+                "id": "September 1821 M",
+                "en": "September 1821 AD"
+            },
+            "flash": {
+                "id": "Di luar tembok kota Basra, ribuan jasad ditumpuk di parit-parit irigasi perkebunan kurma; anjing-anjing liar dan burung pemakan bangkai menguasai tanah pemakaman yang ditinggalkan.",
+                "en": "Outside Basra's walls, thousands of bodies were piled into irrigation trenches of date palm groves; wild dogs and carrion birds roamed abandoned burial sites."
+            },
+            "virusProfile": {
+                "agent": "Kontaminasi Bangkai Masif",
+                "vector": "Tanah Rawa Basah & Genangan Air Irigasi",
+                "incubation": "N/A",
+                "transmission": "Rembesan cairan dekomposisi jasad ke dalam sumur-sumur dangkal kebun kurma"
+            },
+            "description": {
+                "id": "Kecepatan kematian di Basra melumpuhkan seluruh institusi keagamaan dan tatanan pemakaman Islam. Para ulama dan penggali kubur tewas lebih dulu karena kontak langsung dengan jenazah penderita. Kehabisan kain kafan dan papan kubur memaksa warga yang masih hidup menyeret jasad sanak saudara mereka ke luar benteng kota, menumpuknya di parit-parit drainase perkebunan kurma yang mengering. Bau busuk ribuan mayat tercium hingga bermil-mil ke laut, mengundang kawanan anjing liar gurun dan burung pemakan bangkai. Air tanah di sekitar perkebunan kurma tercemar oleh cairan pembusukan massal, sehingga warga desa sekitar yang meminum air sumur dangkal tertular gelombang infeksi susulan yang bahkan lebih ganas.",
+                "en": "The sheer mortality rate in Basra overwhelmed religious institutions and traditional Islamic burial rites. Clerics and gravediggers died first from constant exposure to contaminated corpses. Depleted stocks of burial shrouds forced surviving relatives to drag bodies beyond the city walls, depositing them into dry irrigation ditches within extensive date palm orchards. The stench of decomposing thousands carried miles out to sea, attracting packs of feral dogs and carrion birds. Groundwater surrounding the groves became saturated with decomposition leachates, triggering secondary epidemic waves among agrarian laborers drinking from unlined perimeter wells."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_05.jpg"
+        },
+        {
+            "id": "bso-ch-06",
+            "chapterNumber": 6,
+            "type": "standard",
+            "title": {
+                "id": "Ekspedisi Kafilah Sungai Tigris Menuju Jantung Mesopotamia",
+                "en": "Tigris River Caravan Expedition toward the Heart of Mesopotamia"
+            },
+            "date": {
+                "id": "September – Oktober 1821 M",
+                "en": "September – October 1821 AD"
+            },
+            "flash": {
+                "id": "Perahu-perahu tongkang dan kafilah unta membawa kolera ke hulu Sungai Tigris dan Efrat, menulari kota-kota bersejarah Amarah, Kut, dan Hillah.",
+                "en": "River barges and camel caravans transported cholera up the Tigris and Euphrates rivers, infecting ancient towns of Amarah, Kut, and Hillah."
+            },
+            "virusProfile": {
+                "agent": "Transmisi Hidrologis Hulu Sungai",
+                "vector": "Tongkang Kayu & Kafilah Dagang Jalur Sungai",
+                "incubation": "1 – 3 Hari",
+                "transmission": "Pembuangan kotoran penderita langsung ke aliran Sungai Tigris yang menjadi sumber minum kota-kota hilir"
+            },
+            "description": {
+                "id": "Sungai Tigris dan Efrat adalah jalan raya alami Mesopotamia. Dari Basra yang hancur, ribuan pengungsi dan pedagang berlayar ke hulu menggunakan perahu tongkang bulat tradisional (mashoof dan quffa) atau menyusuri tanggul sungai dengan kafilah unta. Karena arus Sungai Tigris relatif tenang di musim gugur, bakteri Vibrio bertahan hidup dan berkembang biak di sepanjang aliran sungai. Satu demi satu pemukiman di bantaran sungai tertular: Amarah, Kut al-Imara, hingga Hillah di dekat reruntuhan Babilonia kuno. Penduduk tepi sungai yang mengambil air wudu dan air minum dari tepian sungai terpapar kuman yang dibawa oleh perahu-perahu yang mendahului mereka dari selatan.",
+                "en": "The Tigris and Euphrates rivers formed the natural thoroughfares of Mesopotamia. From decimated Basra, refugees and merchants sailed upstream aboard traditional river craft (mashoof and circular quffa) or journeyed along embankments with camel trains. Because the Tigris flowed sluggishly during autumn, Vibrio cholerae persisted in the river's slow-moving waters. Settlement after settlement along the banks succumbed: Amarah, Kut al-Imara, and Hillah near ancient Babylon. Riparian communities drawing water for ablutions and domestic cooking were repeatedly inoculated by waste discarded from boats traveling upriver."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_06.jpg"
+        },
+        {
+            "id": "bso-ch-07",
+            "chapterNumber": 7,
+            "type": "milestone",
+            "title": {
+                "id": "Pengepungan Baghdad dan Kehancuran Pasukan Persia",
+                "en": "The Siege of Baghdad and the Ruin of Abbas Mirza's Persian Army"
+            },
+            "date": {
+                "id": "Oktober 1821 M",
+                "en": "October 1821 AD"
+            },
+            "flash": {
+                "id": "Di tengah Perang Utsmaniyah-Persia, tentara Persia pimpinan Putra Mahkota Abbas Mirza mengepung Baghdad; kolera menyusup ke barak militer, menewaskan ribuan serdadu dan membatalkan pengepungan.",
+                "en": "Amid the Ottoman-Persian War, the Persian army under Crown Prince Abbas Mirza besieged Baghdad; cholera struck military barracks, killing thousands and breaking the siege."
+            },
+            "virusProfile": {
+                "agent": "Disrupsi Militer Skala Penuh",
+                "vector": "Kamp Tenda Militer Padat & Sanitasi Barak Lapangan",
+                "incubation": "12 – 36 Jam",
+                "transmission": "Penyebaran eksplosif fekal-oral di perkemahan militer tanpa akses air bersih"
+            },
+            "description": {
+                "id": "Pada musim gugur 1821, perang besar meletus antara Kekaisaran Utsmaniyah dan Dinasti Qajar Persia. Pasukan tentara Persia modern yang dipimpin langsung oleh Putra Mahkota Abbas Mirza bergerak maju mengepung benteng kota Baghdad. Namun sebelum meriam-meriam artileri sempat ditembakkan, wabah kolera dari Basra telah merayap masuk ke dalam kota dan menyusup ke barak-barak tenda militer pengepung di luar tembok kota. Kepadatan barak prajurit, parit perlindungan yang kotor, dan ketiadaan air bersih memicu ledakan infeksi dahsyat. Ribuan serdadu elit Persia tewas dalam tempo beberapa hari; jeritan kesakitan memenuhi perkemahan militer. Teror wabah memaksa Abbas Mirza membatalkan pengepungan Baghdad dan memerintahkan penarikan mundur pasukannya secara tergesa-gesa kembali ke wilayah barat laut Persia.",
+                "en": "In the autumn of 1821, war broke out between the Ottoman Empire and Qajar Persia. A Persian army commanded by Crown Prince Abbas Mirza advanced to lay siege to the citadel of Baghdad. Yet before heavy artillery could breach the bastions, cholera from Basra infiltrated both the city and the besieging encampments outside. Dense troop quarters, filthy entrenchments, and polluted water sparked an explosive outbreak. Thousands of elite Persian soldiers perished within days; agonizing moans filled the camps. Terrified by the unseen scourge, Abbas Mirza abandoned the siege of Baghdad and ordered a precipitous retreat back toward northwestern Persia."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_07.jpg"
+        },
+        {
+            "id": "bso-ch-08",
+            "chapterNumber": 8,
+            "type": "standard",
+            "title": {
+                "id": "Rute Kafilah Jenazah Ziarah Suci Najaf dan Karbala",
+                "en": "The Sacred Pilgrim Corpse Trail of Najaf and Karbala"
+            },
+            "date": {
+                "id": "Oktober – November 1821 M",
+                "en": "October – November 1821 AD"
+            },
+            "flash": {
+                "id": "Tradisi pengangkutan jenazah peziarah dari Persia untuk dimakamkan di kota suci Najaf dan Karbala menjadi jalur transmisi massal paling mematikan di Timur Tengah.",
+                "en": "The tradition of transporting pilgrim corpses from Persia for burial at holy shrines in Najaf and Karbala became the deadliest transmission vector in the Middle East."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae Super-Vector Peziarah",
+                "vector": "Kafilah Jenazah & Peziarah Lintas Batas",
+                "incubation": "1 – 5 Hari",
+                "transmission": "Kontak langsung peziarah dengan peti jenazah yang bocor dan sumur-sumur karavanserai di jalur gurun"
+            },
+            "description": {
+                "id": "Selama berabad-abad, tradisi keagamaan Syiah mendorong ribuan keluarga dari Persia untuk mengangkut jenazah kerabat mereka melintasi perbatasan gurun agar dimakamkan di tanah suci Wadi al-Salam di Najaf atau di dekat makam Imam Husain di Karbala. Kafilah-kafilah jenazah ini bergerak perlahan bersama ribuan peziarah yang masih hidup, beristirahat di karavanserai (penginapan musafir) yang sama dan menggunakan sumur air yang sama di sepanjang jalur ziarah. Ketika kolera melanda rute ini, peti-peti jenazah yang belum diawetkan secara sempurna bocor mencemari tanah dan air sumur karavanserai. Najaf dan Karbala berubah menjadi lautan duka; para peziarah yang selamat membawa bakteri kembali ke pedalaman dataran tinggi Persia saat pulang ke kampung halaman.",
+                "en": "For centuries, Shi'a devotion led thousands of Persian families to transport deceased relatives across desert frontiers for burial in the holy soil of Wadi al-Salam in Najaf or near Imam Husayn's shrine in Karbala. These corpse caravans traveled alongside living pilgrims, lodging at the same desert caravanserai and drawing from identical stone cisterns. When cholera struck this sacred artery, leaky wooden coffins defiled waystations and public wells. Najaf and Karbala turned into epicenters of mourning; surviving pilgrims returning to the Iranian plateau carried viable vibrios back to their home provinces."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_08.jpg"
+        },
+        {
+            "id": "bso-ch-09",
+            "chapterNumber": 9,
+            "type": "standard",
+            "title": {
+                "id": "Penetrasi Dataran Tinggi Persia: Shiraz dan Isfahan",
+                "en": "Penetration of the Persian Highlands: Shiraz and Isfahan"
+            },
+            "date": {
+                "id": "November 1821 – Awal 1822 M",
+                "en": "November 1821 – Early 1822 AD"
+            },
+            "flash": {
+                "id": "Wabah mendaki Pegunungan Zagros menuju dataran tinggi Persia; kota bersejarah Shiraz dan Isfahan lumpuh saat puluhan ribu warga tewas di pemukiman padat.",
+                "en": "The pestilence climbed the Zagros Mountains onto the Iranian plateau; historic capitals of Shiraz and Isfahan were crippled as tens of thousands died in crowded bazaars."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae Strain Dataran Tinggi",
+                "vector": "Jaringan Saluran Air Bawah Tanah Qanat",
+                "incubation": "12 – 48 Jam",
+                "transmission": "Infiltrasi limbah pemukiman ke dalam terowongan saluran air minum qanat"
+            },
+            "description": {
+                "id": "Dari Bushehr di pesisir Teluk dan dari perbatasan Irak, wabah kolera menembus celah-celah terjal Pegunungan Zagros menuju dataran tinggi Iran. Di Shiraz, kota penyair dan kebun bunga mawar, lonjakan kematian mendadak menewaskan lebih dari enam ribu jiwa hanya dalam beberapa pekan. Dari Shiraz, infeksi merambat ke utara menuju Isfahan, ibu kota megah era Safawi. Kota-kota di dataran tinggi Persia sangat bergantung pada qanat—sistem terowongan bawah tanah yang mengalirkan air dari kaki gunung ke kolam-kolam penampungan umum di tengah kota. Begitu kotoran penderita kolera merembes ke dalam ventilasi vertikal qanat, air minum bersih di seluruh penjuru Isfahan tercemar seketika. Pasar-pasar tertutup bazar Isfahan dikunci rapat, sementara jenazah ditumpuk di masjid-masjid kuno.",
+                "en": "From coastal Bushehr and the Iraqi frontier, cholera ascended the rugged defiles of the Zagros Mountains onto the high Iranian plateau. In Shiraz, famed city of poets and rose gardens, a sudden spike in mortality claimed over six thousand lives within weeks. From Shiraz, the contagion crept north to Isfahan, the grand former Safavid capital. Iranian highland cities relied on qanats—subterranean aqueducts carrying mountain runoff into public cisterns. When sewage from cholera patients infiltrated vertical qanat shafts, the potable water supply across Isfahan turned lethal. The vaulted corridors of the Grand Bazaar shuttered, while corpses were stacked inside ancient mosques."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_09.jpg"
+        },
+        {
+            "id": "bso-ch-10",
+            "chapterNumber": 10,
+            "type": "standard",
+            "title": {
+                "id": "Histeria di Teheran dan Pelarian Mahkamah Dinasti Qajar",
+                "en": "Hysteria in Tehran and the Flight of the Qajar Royal Court"
+            },
+            "date": {
+                "id": "Musim Panas 1822 M",
+                "en": "Summer 1822 AD"
+            },
+            "flash": {
+                "id": "Kolera tiba di gerbang ibu kota Teheran; Fath-Ali Shah Qajar dan seluruh mahkamah kerajaan melarikan diri ke perkemahan musim panas di lereng Gunung Alborz.",
+                "en": "Cholera reached the gates of Tehran; Fath-Ali Shah Qajar and the imperial court evacuated to mountain summer camps on the slopes of Mount Alborz."
+            },
+            "virusProfile": {
+                "agent": "Eksodus Elit Kekaisaran",
+                "vector": "Rombongan Pengawal Berkuda & Pejabat Istana",
+                "incubation": "1 – 4 Hari",
+                "transmission": "Penyebaran oleh pengungsi istana ke lembah-lembah pedesaan di utara Teheran"
+            },
+            "description": {
+                "id": "Pada puncak musim panas 1822, gelombang wabah kolera akhirnya mengetuk gerbang kota Teheran, ibu kota Dinasti Qajar. Kepanikan total melanda istana Golestan. Penguasa Persia, Fath-Ali Shah Qajar, bersama para menteri, selir, dan resimen pengawal berkudanya segera mengungsi meninggalkan ibu kota menuju lereng tinggi Gunung Alborz untuk mencari udara yang dianggap bersih dari miasma. Di dalam benteng kota Teheran yang ditinggalkan pemerintahannya, pelayanan publik lumpuh total. Mayat-mayat bergelimpangan di selokan-selokan jalanan kota (jub). Sekitar tujuh ribu warga kota meninggal dalam tempo satu bulan, memicu eksodus massal pedagang dan perajin menuju Provinsi Azerbaijan di barat laut Persia.",
+                "en": "During the height of summer in 1822, the cholera wave struck the gates of Tehran, capital of the Qajar dynasty. Pandemonium seized the Golestan Palace. The Persian monarch, Fath-Ali Shah Qajar, accompanied by royal ministers, harems, and cavalry guards, evacuated to the alpine heights of Mount Alborz in search of air free from miasmatic vapors. Within the abandoned city, municipal services collapsed completely. Corpses accumulated in open street conduits (jubs). Approximately seven thousand residents perished in a single month, sparking a panicked exodus of merchants and artisans toward northwestern Azerbaijan province."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_10.jpg"
+        },
+        {
+            "id": "bso-ch-11",
+            "chapterNumber": 11,
+            "type": "milestone",
+            "title": {
+                "id": "Koridor Sutra Tabriz dan Pengungsian Lintas Batas",
+                "en": "The Tabriz Silk Corridor and Cross-Border Exodus"
+            },
+            "date": {
+                "id": "Musim Gugur 1822 M",
+                "en": "Autumn 1822 AD"
+            },
+            "flash": {
+                "id": "Tabriz, episentrum komersial Jalur Sutra barat laut Persia, diserang kolera; pengungsi dan kafilah dagang melarikan diri melintasi Sungai Aras menuju wilayah Kaukasus.",
+                "en": "Tabriz, northwestern commercial pivot of the Silk Road, fell to cholera; refugees and merchant caravans fled across the Aras River into the Caucasus."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae Diseminasi Jalur Sutra",
+                "vector": "Kafilah Dagang Sutra & Kuda Beban",
+                "incubation": "12 Jam – 3 Hari",
+                "transmission": "Penyebaran lintas batas oleh pedagang yang melintasi pos perbatasan pegunungan"
+            },
+            "description": {
+                "id": "Kota Tabriz di barat laut Persia adalah pusat perdagangan internasional terbesar di kawasan itu, menghubungkan pasar-pasar Asia Tengah dan India dengan Kekaisaran Utsmaniyah dan Kekaisaran Rusia. Ketika kolera menyapu pasar bazar Tabriz pada musim gugur 1822, kematian massal melumpuhkan pertukaran karavan sutra dan wol. Para pedagang Armenia, Georgia, dan Persia melarikan diri ke utara melintasi perbatasan Sungai Aras. Pemerintah Kekaisaran Rusia di Tiflis (Tbilisi) yang khawatir akan penyebaran penyakit ini mulai mendirikan pos-pos pemeriksaan militer di sepanjang perbatasan Kaukasus, namun rute penyelundup dan jalur domba pegunungan yang luas memungkinkan ribuan pengungsi meloloskan diri membawa patogen.",
+                "en": "Tabriz in northwestern Persia was the premier commercial crossroads connecting Central Asian and Indian trade with the Ottoman and Russian empires. When cholera swept the vast vaulted bazaars of Tabriz in autumn 1822, mass mortality paralyzed the international trade in raw silk and carpets. Armenian, Georgian, and Persian merchants fled north across the Aras River. Russian imperial authorities in Tiflis (Tbilisi) grew alarmed, deploying military pickets along the Caucasus frontier. Yet mountain smugglers' routes and shepherd tracks allowed thousands to bypass border checkpoints, carrying the bacillus across the imperial border."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_11.jpg"
+        },
+        {
+            "id": "bso-ch-12",
+            "chapterNumber": 12,
+            "type": "standard",
+            "title": {
+                "id": "Penyeberangan Pegunungan Zagros ke Lembah Kaukasus",
+                "en": "Zagros Mountain Passage into the Caucasus Valleys"
+            },
+            "date": {
+                "id": "Awal 1823 M",
+                "en": "Early 1823 AD"
+            },
+            "flash": {
+                "id": "Menentang rintangan geografis alam, kolera menembus ngarai terjal Kaukasus Selatan; kota-kota garnisun Yerevan dan Tbilisi dilanda kepanikan karantina.",
+                "en": "Defying natural geographic barriers, cholera breached the rugged defiles of the South Caucasus; garrison towns of Yerevan and Tbilisi were gripped by quarantine panic."
+            },
+            "virusProfile": {
+                "agent": "Transmisi Lembah Pegunungan Dingin",
+                "vector": "Prajurit Garnisun & Pengembala Transhumansi",
+                "incubation": "1 – 4 Hari",
+                "transmission": "Kontaminasi mata air lembah pegunungan oleh rombongan pejalan kaki dan kafilah militer"
+            },
+            "description": {
+                "id": "Sebelum abad ke-19, sebagian besar ahli meyakini bahwa benteng alam pegunungan tinggi bersalju dan udara dingin akan membendung penyebaran kolera. Namun pada awal tahun 1823, Vibrio cholerae membuktikan kemampuannya melintasi celah-celah Pegunungan Kaukasus. Melalui lembah Sungai Kura dan Araks, wabah merayap ke arah utara. Kota Yerevan dan sekitarnya mengalami lonjakan kematian di barak-barak militer dan permukiman petani. Di Tbilisi (Georgia), Gubernur Jenderal Rusia Alexey Yermolov memerintahkan karantina ketat dan penutupan jalan-jalan pos militer Georgia. Ketakutan bahwa kuman akan menyeberangi Pegunungan Kaukasus Besar menuju daratan Rusia memicu mobilisasi medis darurat militer tsar.",
+                "en": "Prior to the nineteenth century, medical opinion assumed that snowy mountain chains and freezing alpine air would halt cholera. Yet in early 1823, Vibrio cholerae demonstrated its capacity to surmount the Caucasus barrier. Traveling along the Kura and Araks river valleys, the infection pushed relentlessly northward. Yerevan and surrounding districts witnessed heavy casualties among garrison troops and peasant hamlets. In Tbilisi, Russian Governor-General Alexey Yermolov instituted strict cordons and sealed the Georgian Military Highway. Dread that the pathogen would vault the Greater Caucasus into the Russian heartland prompted imperial military mobilization."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_12.jpg"
+        },
+        {
+            "id": "bso-ch-13",
+            "chapterNumber": 13,
+            "type": "standard",
+            "title": {
+                "id": "Pelabuhan Minyak Baku dan Pelayaran Laut Kaspia",
+                "en": "The Oil Port of Baku and Caspian Maritime Transmission"
+            },
+            "date": {
+                "id": "Musim Panas 1823 M",
+                "en": "Summer 1823 AD"
+            },
+            "flash": {
+                "id": "Pelabuhan Baku di Semenanjung Absheron terinfeksi; kapal-kapal layar pengangkut minyak bumi dan ikan asin Kaspia menjadi vektor penularan maritim ke arah utara.",
+                "en": "The port of Baku on the Absheron Peninsula fell; merchant sailing sloops ferrying petroleum and salted fish became northward maritime vectors across the Caspian Sea."
+            },
+            "virusProfile": {
+                "agent": "Transmisi Maritim Kaspia Hiposalin",
+                "vector": "Kapal Layar Kargo Kaspia & Awak Pelaut",
+                "incubation": "1 – 3 Hari",
+                "transmission": "Kontak langsung antar-awak kapal dan penggunaan air tawar muara pelabuhan Kaspia"
+            },
+            "description": {
+                "id": "Pada musim panas 1823, episentrum wabah mencapai pantai barat Laut Kaspia di pelabuhan Baku (Azerbaijan). Baku pada masa itu adalah pusat penyulingan minyak bumi tradisional dan pangkalan kapal-kapal layar dagang Rusia dan Persia. Air Laut Kaspia yang memiliki salinitas lebih rendah dibandingkan samudra terbuka menciptakan habitat yang kondusif bagi kelangsungan hidup bakteri di sekitar muara-muara sungai. Para pelaut yang mengangkut tong-tong minyak tanah mentah dan ikan sturgeon asin terinfeksi di dermaga Baku. Kapal-kapal layar kargo ini berlayar ke utara melintasi Laut Kaspia menuju delta Sungai Volga, bertindak sebagai jembatan maritim terapung yang membawa bakteri langsung ke ambang pintu daratan Eropa.",
+                "en": "In the summer of 1823, the epidemic reached the western shore of the Caspian Sea at Baku. Baku was then an emerging center for surface naphtha extraction and a home port for Russian and Persian merchant sloops. The Caspian's brackish, low-salinity waters provided favorable conditions for Vibrio survival near river deltas. Sailors loading barrels of crude petroleum and salted sturgeon contracted the infection on Baku's wharves. These cargo vessels sailed northward across the Caspian toward the Volga Delta, serving as a floating epidemiological bridge directly approaching the frontiers of European Russia."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_13.jpg"
+        },
+        {
+            "id": "bso-ch-14",
+            "chapterNumber": 14,
+            "type": "milestone",
+            "title": {
+                "id": "Ambang Batas Eropa: Pendaratan di Muara Volga Astrakhan",
+                "en": "Threshold of Europe: Ingress at the Volga Estuary in Astrakhan"
+            },
+            "date": {
+                "id": "September 1823 M",
+                "en": "September 1823 AD"
+            },
+            "flash": {
+                "id": "Pada September 1823, kolera mendarat di Astrakhan di muara Sungai Volga; untuk pertama kalinya dalam sejarah, penyakit kolera asiatik menyentuh perbatasan benua Eropa.",
+                "en": "In September 1823, cholera landed at Astrakhan at the mouth of the Volga; for the first time in recorded history, Asiatic cholera reached the European threshold."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae Ingress Eropa Pertama",
+                "vector": "Pelaut Kargo Volga & Komunitas Nelayan Delta",
+                "incubation": "Beberapa Jam – 2 Hari",
+                "transmission": "Pencemaran cabang-cabang muara Sungai Volga oleh air buangan kapal dagang Kaspia"
+            },
+            "description": {
+                "id": "Bulan September 1823 menandai tonggak paling menegangkan dalam sejarah epidemiologi global: sampainya kolera di Astrakhan, kota pelabuhan besar Rusia di muara delta Sungai Volga. Kapal kargo dari Baku membawa anak buah kapal yang sekarat ke pangkalan karantina Sedlistoye di hilir Astrakhan. Meskipun para dokter Rusia berusaha mengisolasi kapal, kuman telah merembes ke perahu nelayan setempat dan memasuki kota. Dalam tempo beberapa pekan, ratusan warga Astrakhan tewas dengan gejala muntah berak akut. Ibu kota Kekaisaran Rusia di Saint Petersburg dan seluruh ibu kota Eropa barat dicekam teror mendalam; jika kolera berhasil mendaki Sungai Volga ke pedalaman Rusia, seluruh peradaban Eropa pasca-Perang Napoleon akan berada dalam bahaya kepunahan.",
+                "en": "September 1823 marked a momentous threshold in epidemiological history: the arrival of Asiatic cholera in Astrakhan, the Russian imperial gateway on the Volga Delta. A cargo sloop from Baku arrived with dying crewmen at the Sedlistoye quarantine station downstream from Astrakhan. Despite Russian physicians' attempts to isolate the craft, the pathogen leaked into local fishing skiffs and penetrated the city. Within weeks, hundreds of Astrakhan citizens died of acute dehydrating flux. The imperial court in Saint Petersburg and Western European capitals were gripped by unprecedented alarm; should cholera ascend the Volga into Russia's interior, post-Napoleonic Europe faced potential continental devastation."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_14.jpg"
+        },
+        {
+            "id": "bso-ch-15",
+            "chapterNumber": 15,
+            "type": "standard",
+            "title": {
+                "id": "Musim Dingin Beku Kaspia: Pembekuan Alami Sang Basil",
+                "en": "The Freezing Caspian Winter: Nature's Frost Arrests the Bacillus"
+            },
+            "date": {
+                "id": "Desember 1823 – Awal 1824 M",
+                "en": "December 1823 – Early 1824 AD"
+            },
+            "flash": {
+                "id": "Musim dingin ekstrem melanda delta Sungai Volga dan Laut Kaspia utara; permukaan air membeku menjadi es tebal, menghentikan seluruh pelayaran dan membekukan penyebaran kolera.",
+                "en": "A ferocious winter froze the Volga Delta and northern Caspian; waterways turned into thick ice sheets, halting navigation and arresting the cholera advance."
+            },
+            "virusProfile": {
+                "agent": "Desikasi & Inaktivasi Termal Ekstrem",
+                "vector": "Pembekuan Hidrologis Jalur Sungai",
+                "incubation": "N/A",
+                "transmission": "Penghentian total mobilitas perahu dan penurunan drastis replikasi bakteri pada suhu sub-nol"
+            },
+            "description": {
+                "id": "Ketika seluruh Eropa bersiap menghadapi invasi kolera yang tampaknya tak terhindarkan, alam memberikan penyelamatan tak terduga. Pada akhir November 1823, gelombang udara kutub dari Siberia menyapu wilayah Kaspia utara. Suhu anjlok drastis hingga minus dua puluh derajat Celsius. Aliran Sungai Volga, muara kanal, dan perairan pesisir Laut Kaspia membeku menjadi lapisan es tebal setebal puluhan sentimeter. Seluruh pelayaran kapal dagang dan perahu tongkang terhenti total selama hampir lima bulan. Bakteri Vibrio cholerae yang sangat sensitif terhadap pembekuan ekstrem mengalami inaktivasi masif, sementara isolasi geografis akibat salju menghentikan pergerakan manusia. Ketika es mencair pada musim semi 1824, gelombang pertama pandemi kolera di Astrakhan telah padam dengan sendirinya.",
+                "en": "As Europe braced for an apparently inevitable continental invasion, nature intervened with dramatic salvation. In late November 1823, a Siberian polar vortex swept across the northern Caspian basin. Temperatures plunged below minus twenty degrees Celsius. The Volga's channels, delta branches, and northern Caspian shallows froze into thick ice sheets. All river navigation and barge traffic ceased completely for nearly five months. Vibrio cholerae, intolerant of prolonged freezing, underwent massive environmental die-offs, while deep snow halted human travel. When the ice finally broke in the spring of 1824, the first pandemic wave at Astrakhan had extinguished itself."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_15.jpg"
+        },
+        {
+            "id": "bso-ch-16",
+            "chapterNumber": 16,
+            "type": "summary",
+            "title": {
+                "id": "Epilog Sektor BSO: Warisan Sanitasi Teluk Persia dan Benteng Karantina Kaukasus",
+                "en": "Epilogue Sector BSO: Persian Gulf Sanitary Legacy and the Caucasus Quarantine Barrier"
+            },
+            "date": {
+                "id": "1824 M – Refleksi Sejarah",
+                "en": "1824 AD – Historical Legacy"
+            },
+            "flash": {
+                "id": "Gelombang pertama kolera di Teluk Persia dan Kaukasus mereda setelah menelan lebih dari 150.000 jiwa; memicu lahirnya diplomasi karantina internasional dan kesadaran pertahanan epidemiologis global.",
+                "en": "The first cholera wave across the Persian Gulf and Caucasus subsided after claiming over 150,000 lives; giving birth to international quarantine diplomacy and global epidemiological defense."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Pelajaran Epik Gelombang Pertama)",
+                "vector": "Arsip Karantina Maritim Internasional",
+                "incubation": "Permanen (Transformasi Hukum Kesehatan Dunia)",
+                "transmission": "Evolusi dari kepasrahan fatalistik menuju pembentukan dewan sanitasi internasional di pelabuhan Teluk dan Mediterania"
+            },
+            "description": {
+                "id": "Invasi kolera di Sektor BSO (1821–1824) membuktikan bahwa rute perdagangan modern dan pergerakan militer telah mengubah penyakit lokal delta India menjadi ancaman eksistensial bagi peradaban Eurasia. Korban jiwa diperkirakan melampaui 150.000 orang di sepanjang pesisir Oman, Teluk Persia, lembah Mesopotamia, dataran tinggi Persia, hingga perbatasan Kaukasus Rusia. Meskipun Eropa terhindar dari kehancuran pada gelombang pertama ini berkat musim dingin Kaspia, kepanikan yang ditimbulkannya memaksa kekuatan-kekuatan kekaisaran dunia menyadari kerentanan global mereka. Tragedi Basra dan Muskat melahirkan dewan-dewan sanitasi pelabuhan pertama dan meletakkan dasar bagi Konferensi Sanitasi Internasional di kemudian hari, mengubah hukum kesehatan maritim dan pengawasan penyakit menular dunia selamanya.",
+                "en": "The cholera invasion of Sector BSO (1821–1824) conclusively demonstrated that imperial commerce and modern armies had transformed an endemic Ganges infection into an existential threat to Eurasian civilization. Casualties exceeded 150,000 across Oman, the Persian Gulf, Mesopotamia, Iran, and the Russian Caucasus. While continental Europe gained a temporary reprieve through the severe Caspian winter, the shock wave forced global powers to recognize their mutual epidemiological vulnerability. The devastation of Basra and Muscat catalyzed the establishment of maritime sanitary boards, laying the groundwork for subsequent International Sanitary Conferences and permanently reshaping international quarantine law."
+            },
+            "image": "/assets/images/cholera/wave-1/bso/bso_ch_16.jpg"
+        }
+    ]
+}

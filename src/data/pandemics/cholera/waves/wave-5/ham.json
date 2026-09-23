@@ -1,0 +1,582 @@
+{
+  "sectorId": "HAM",
+  "waveIndex": 5,
+  "sectorName": {
+    "id": "Sektor HAM (Kekaisaran Jerman: Hamburg, Sungai Elbe & Kontras Altona // 1892)",
+    "en": "Sector HAM (German Empire: Hamburg, Elbe River & The Altona Contrast // 1892)"
+  },
+  "coordinates": [
+    53.5511,
+    9.9937
+  ],
+  "timeRange": {
+    "id": "Agustus – Oktober 1892",
+    "en": "August – October 1892"
+  },
+  "estimatedFatalities": {
+    "id": "8.605 korban jiwa di Hamburg (16.956 kasus terkonfirmasi dalam 8 pekan; 10.000+ di seluruh Kekaisaran Jerman)",
+    "en": "8,605 deaths in Hamburg (16,956 confirmed cases within 8 weeks; 10,000+ across the German Empire)"
+  },
+  "chapters": [
+    {
+      "id": "ham-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Tanda-Tanda Pertama di Dermaga Elbe: Penumpang Transit Rusia",
+        "en": "First Omens on the Elbe Wharves: Russian Transit Emigrants"
+      },
+      "date": {
+        "id": "16 – 19 Agustus 1892",
+        "en": "August 16 – 19, 1892"
+      },
+      "flash": {
+        "id": "Kasus kolera fatal pertama terdeteksi pada buruh pelabuhan di dermaga Freihafen Hamburg, bersumber dari barak imigran Yahudi Rusia yang melarikan diri ke Amerika.",
+        "en": "First fatal cholera cases diagnosed in dockworkers at Hamburg's Freihafen, tracing to transit barracks of Russian Jewish emigrants bound for America."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (Basil Koma Koch)",
+        "vector": "Air buangan sanitasi barak imigran transit kapal HAPAG di Pulau Amerikahöft",
+        "incubation": "12 – 36 jam",
+        "transmission": "Fekal-oral melalui pembuangan limbah langsung ke Sungai Elbe di hulu titik asupan air kota",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical (Basil Koma Koch) // Vektor: Air buangan sanitasi barak imigran transit kapal HAPAG di Pu",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Air buangan sanitasi barak imigran transit kapal HAPAG di Pu"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Air buangan sanitasi barak imigran transit kapal HAPAG di Pulau Amerikahöft",
+          "en": "Target population and vector: Air buangan sanitasi barak imigran transit kapal HAPAG di Pulau Amerikahöft"
+        }
+      },
+      "description": {
+        "id": "Pada pertengahan Agustus 1892, pelabuhan bebas (Freihafen) Hamburg—pintu gerbang maritim tersibuk di Kekaisaran Jerman dan markas armada raksasa HAPAG—dipadati oleh puluhan ribu imigran asal Kekaisaran Rusia yang melarikan diri dari pogrom dan bencana kelaparan menuju Amerika Serikat. Di barak-barak penampungan transit yang sesak di Amerikahöft, beberapa imigran yang terinfeksi kolera di lembah Volga membawa basil hidup di saluran pencernaan mereka. Pada 16 Agustus, seorang buruh bongkar muat berusia 33 tahun bernama Carl Schwen ambruk dengan kram perut dahsyat dan diare cucian beras. Dalam 48 jam berikutnya, belasan pekerja dermaga lainnya meninggal dunia dalam kondisi tubuh membiru dan dehidrasi ekstrem, menandai lonceng pertama petaka sanitasi paling dramatis di Eropa akhir abad kesembilan belas.",
+        "en": "In mid-August 1892, the free port (Freihafen) of Hamburg—the German Empire's premier maritime gateway and global headquarters of the transatlantic HAPAG shipping line—teemed with tens of thousands of Russian emigrants fleeing Tsarist pogroms and famine bound for America. Inside congested transit sheds on the Amerikahöft piers, infected travelers fleeing the raging Volga epidemic harbored virulent comma bacilli. On August 16, a 33-year-old docker named Carl Schwen collapsed with agonizing abdominal cramps and rice-water purging. Within 48 hours, a dozen fellow stevedores perished with cyanotic, shriveled limbs, sounding the opening alarm of the most dramatic sanitary catastrophe in late-nineteenth-century Western Europe."
+      },
+      "image": "/assets/images/cholera/wave-5/ham/ham_ch_01.jpg"
+    },
+    {
+      "id": "ham-ch-02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Dosa Instalasi Kaltehofe: Air Mentah Elbe Tanpa Filtrasi",
+        "en": "The Sin of Kaltehofe: Unfiltered Raw Elbe River Water"
+      },
+      "date": {
+        "id": "20 – 23 Agustus 1892",
+        "en": "August 20 – 23, 1892"
+      },
+      "flash": {
+        "id": "Sistem air minum kota Hamburg memompa air Sungai Elbe mentah dari Kaltehofe tanpa saringan pasir, mendistribusikan jutaan bakteri ke setiap keran rumah tangga.",
+        "en": "Hamburg's municipal waterworks pumps raw Elbe water from Kaltehofe without sand filters, delivering millions of live vibrios into household taps."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air Sungai Elbe mentah yang dipompa pasang surut dari stasiun pompa Kaltehofe",
+        "incubation": "6 – 24 jam",
+        "transmission": "Pipa distribusi pipa timbal kota yang menyuplai air minum tercemar ke 600.000 warga",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Air Sungai Elbe mentah yang dipompa pasang surut dari stasiu",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Air Sungai Elbe mentah yang dipompa pasang surut dari stasiu"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Air Sungai Elbe mentah yang dipompa pasang surut dari stasiun pompa Kaltehofe",
+          "en": "Target population and vector: Air Sungai Elbe mentah yang dipompa pasang surut dari stasiun pompa Kaltehofe"
+        }
+      },
+      "description": {
+        "id": "Tragedi Hamburg bukanlah bencana alam, melainkan kelalaian administratif yang fatal. Berbeda dengan kota tetangganya Altona yang telah mengoperasikan filter pasir lambat sejak 1859, Senat pedagang Hamburg yang berhaluan liberal konservatif berulang kali menunda anggaran pembangunan stasiun penyaringan air demi menghemat pajak para saudagar kaya. Akibatnya, stasiun pompa Kaltehofe menyedot air Sungai Elbe mentah—yang pada saat air pasang bercampur dengan limbah selokan kota sendiri—dan langsung memompakannya ke jaringan pipa air minum tanpa disinfeksi. Ketika kuman kolera dari barak imigran pelabuhan merembes ke sungai, sistem perpipaan kota bertindak sebagai mesin pembunuh massal otomatis yang mengantarkan patogen maut langsung ke gelas minum 600.000 penduduk dalam hitungan jam.",
+        "en": "The Hamburg tragedy was not an act of God, but an administrative crime of monumental complacency. Unlike its neighboring municipality of Altona, which had operated slow sand filters since 1859, Hamburg's mercantile Senate repeatedly postponed the municipal budget for water filtration to spare merchant oligarchs higher tax assessments. Consequently, the Kaltehofe pumping station drew raw Elbe water—which during high tides intermingled directly with the city's untreated sewer discharge—and pumped it directly into domestic water mains without filtration or disinfection. When cholera vibrios from port docks reached the river, municipal pipes operated as an automated weapon of mass infection, piping living death into the drinking glasses of 600,000 citizens."
+      },
+      "image": "/assets/images/cholera/wave-5/ham/ham_ch_02.jpg"
+    },
+    {
+      "id": "ham-ch-03",
+      "chapterNumber": 3,
+      "type": "milestone",
+      "title": {
+        "id": "Ledakan Eksplosif 1.000 Kasus per Hari: Runtuhnya Rumah Sakit Eppendorf",
+        "en": "The 1,000-Case Daily Explosion: Collapse of Eppendorf Hospital"
+      },
+      "date": {
+        "id": "24 – 27 Agustus 1892",
+        "en": "August 24 – 27, 1892"
+      },
+      "flash": {
+        "id": "Kasus harian menembus 1.000 pasien baru per hari; Rumah Sakit Umum Eppendorf yang baru dibangun kewalahan, koridor dipenuhi ranjang jerami dan jenazah.",
+        "en": "Daily cases surge past 1,000; newly built Eppendorf General Hospital is swamped, corridors packed with straw mattresses and stacking corpses."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air keran ledeng perkotaan dan dehidrasi fulminan",
+        "incubation": "6 – 18 jam",
+        "transmission": "Pencemaran air minum universal di seluruh distrik kota Hamburg",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Air keran ledeng perkotaan dan dehidrasi fulminan",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Air keran ledeng perkotaan dan dehidrasi fulminan"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Air keran ledeng perkotaan dan dehidrasi fulminan",
+          "en": "Target population and vector: Air keran ledeng perkotaan dan dehidrasi fulminan"
+        }
+      },
+      "description": {
+        "id": "Memasuki minggu terakhir bulan Agustus, grafik epidemi meroket secara vertikal. Pada tanggal 27 Agustus saja, tercatat lebih dari 1.000 kasus baru dan ratusan kematian dalam rentang 24 jam. Rumah Sakit Umum Eppendorf yang megah dan baru dibuka tiga tahun sebelumnya berubah menjadi medan pembantaian. Ambulans kuda dan gerobak pasar mengangkut pasien tanpa henti siang dan malam. Bangsal-bangsal paviliun terisi penuh; para korban yang mengerang kesakitan dibaringkan di lantai koridor di atas karung jerami yang basah oleh tinja beras. Tim medis yang kelelahan kehabisan sprei, es batu, dan cairan infus, sementara kamar jenazah rumah sakit terpaksa menumpuk ratusan peti mati kayu pinus sederhana di halaman terbuka di bawah terik matahari musim panas.",
+        "en": "Entering the final week of August, the epidemiological curve surged vertically. On August 27 alone, over 1,000 new cases and hundreds of deaths were registered within 24 hours. The state-of-the-art Eppendorf General Hospital, opened just three years earlier as Europe's pride, degenerated into a charnel house. Horse ambulances and flatbed delivery carts deposited moribund citizens around the clock. Pavilion wards filled to capacity; groaning victims were laid along corridor flagstones on straw ticks soaked in watery discharges. Exhausted medical attendants ran out of sheets, ice, and saline, while the mortuary was compelled to stack hundreds of raw pine coffins in open courtyards beneath the blistering August sun."
+      },
+      "image": "/assets/images/cholera/wave-5/ham/ham_ch_03.jpg"
+    },
+    {
+      "id": "ham-ch-04",
+      "chapterNumber": 4,
+      "type": "milestone",
+      "title": {
+        "id": "Keajaiban Altona: Bukti Epidemiologis Mutlak Filter Pasir Lambat",
+        "en": "The Altona Miracle: Absolute Epidemiological Proof of Sand Filtration"
+      },
+      "date": {
+        "id": "Agustus – September 1892",
+        "en": "August – September 1892"
+      },
+      "flash": {
+        "id": "Di sepanjang satu jalan perbatasan, rumah-rumah di sisi Hamburg dihantam kolera maut, sedangkan rumah di sisi Altona bebas wabah berkat saringan pasir sungai.",
+        "en": "Along a single dividing street, houses on the Hamburg side are ravaged by fatal cholera, while identical homes on the Altona side remain entirely spared by sand filters."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Eksperimen alamiah komparatif hidrologi sungai Elbe",
+        "incubation": "N/A (Epidemiologi Komparatif)",
+        "transmission": "Retensi mekanis dan biologis lapisan Schmutzdecke filter pasir Altona menahan 99% basil kolera",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Eksperimen alamiah komparatif hidrologi sungai Elbe",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Eksperimen alamiah komparatif hidrologi sungai Elbe"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Eksperimen alamiah komparatif hidrologi sungai Elbe",
+          "en": "Target population and vector: Eksperimen alamiah komparatif hidrologi sungai Elbe"
+        }
+      },
+      "description": {
+        "id": "Bencana Hamburg menciptakan eksperimen alamiah paling terkenal dalam sejarah epidemiologi modern. Kota Altona yang berada di bawah administrasi Prussia berbatasan langsung dengan Hamburg, bahkan kedua kota hanya dipisahkan oleh satu ruas jalan raya (Hamburger Straße). Penduduk kedua kota bernapas dengan udara yang sama, memiliki iklim yang identik, dan sama-sama mengambil air minum dari Sungai Elbe. Bedanya, asupan air Altona berada di hilir pembuangan selokan Hamburg tetapi disaring melalui sistem filter pasir lambat (slow sand filtration). Hasilnya mengejutkan dunia: di sisi jalan Hamburg, ratusan orang tewas meregang nyawa, sementara di sisi jalan Altona, hampir tidak ada satu pun kasus penularan lokal. Bukti empiris tak terbantahkan ini membunuh teori miasma untuk selamanya.",
+        "en": "The Hamburg catastrophe generated the most famous natural experiment in the annals of modern epidemiology. The Prussian municipality of Altona shared a seamless boundary with Hamburg, separated only by a single street (Hamburger Straße). Inhabitants of both cities breathed identical air, shared identical weather, and drank from the exact same Elbe River. Crucially, Altona's water intake was positioned downstream of Hamburg's main sewer outfall, but was routed through a battery of slow sand filters. The outcome stunned the scientific world: along the Hamburg side of the street, families were wiped out, while across the gutter on the Altona side, virtually zero indigenous cases occurred. This indisputable empirical contrast delivered the final death blow to the miasma theory."
+      },
+      "image": "/assets/images/cholera/wave-5/ham/ham_ch_04.jpg"
+    },
+    {
+      "id": "ham-ch-05",
+      "chapterNumber": 5,
+      "type": "side_story",
+      "title": {
+        "id": "Tantangan Nekat Max von Pettenkofer: Menenggak Biakan Koma Maut",
+        "en": "Max von Pettenkofer's Defiant Chalice: Drinking the Lethal Comma Broth"
+      },
+      "date": {
+        "id": "7 Oktober 1892",
+        "en": "October 7, 1892"
+      },
+      "flash": {
+        "id": "Di Munich, profesor higienis Max von Pettenkofer yang berusia 74 tahun menenggak tabung biakan Vibrio cholerae hidup dari Hamburg untuk menentang teori Robert Koch.",
+        "en": "In Munich, 74-year-old hygiene professor Max von Pettenkofer drinks a test tube of live Vibrio cholerae broth from Hamburg to refute Robert Koch."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical (kultur murni isolat Hamburg)",
+        "vector": "Biakan cair pepton basil koma laboratorium",
+        "incubation": "24 jam",
+        "transmission": "Ingesti oral eksperimental sukarela dosis masif",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical (kultur murni isolat Hamburg) // Vektor: Biakan cair pepton basil koma laboratorium",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Biakan cair pepton basil koma laboratorium"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Biakan cair pepton basil koma laboratorium",
+          "en": "Target population and vector: Biakan cair pepton basil koma laboratorium"
+        }
+      },
+      "description": {
+        "id": "Di tengah kepanikan nasional Jerman, sebuah drama ilmiah legendaris meletus di Universitas Munich. Profesor Max von Pettenkofer, bapak higienis Jerman yang selama puluhan tahun memegang teguh 'Teori Lokal' (bahwa kolera membutuhkan fermentasi tanah tertentu dan bukan sekadar kuman), menolak mengakui bahwa isolat basil Robert Koch adalah penyebab tunggal wabah. Pada 7 Oktober 1892, di hadapan para saksi, ilmuwan berusia 74 tahun itu menenggak habis tabung reaksi berisi miliaran basil Vibrio cholerae hidup yang dikirim langsung dari kotoran korban Hamburg, setelah menetralkan asam lambungnya dengan soda. Secara ajaib Pettenkofer selamat hanya dengan diare ringan—kemungkinan karena imunitas parsial masa lalu dan inokulum yang dilemahkan—namun aksi nekatnya gagal menghentikan kemenangan mutlak paradigma bakteriologi Koch.",
+        "en": "Amidst national panic, an extraordinary scientific duel erupted at the University of Munich. Professor Max von Pettenkofer, the venerable patriarch of German hygiene who had championed his 'Localist Ground-Water Theory' for decades (arguing cholera required porous soil fermentation, not mere microbes), refused to concede that Koch's comma bacillus was the sole causal agent. On October 7, 1892, before eyewitnesses, the 74-year-old scholar drank down a test tube containing billions of live Vibrio cholerae cultured directly from a dead Hamburg patient, having neutralized his stomach acid with sodium bicarbonate. Pettenkofer miraculously survived with only mild diarrhea—likely due to prior partial immunity—yet his dramatic bravado failed to arrest the unstoppable triumph of Koch's bacteriological model."
+      },
+      "image": "/assets/images/cholera/wave-5/ham/ham_ch_05.jpg"
+    },
+    {
+      "id": "ham-ch-06",
+      "chapterNumber": 6,
+      "type": "milestone",
+      "title": {
+        "id": "Robert Koch Tiba di Gängeviertel: 'Tuan-Tuan, Saya Lupa Ini Eropa!'",
+        "en": "Robert Koch Arrives in the Gängeviertel: 'Gentlemen, I Forget This Is Europe!'"
+      },
+      "date": {
+        "id": "24 – 25 Agustus 1892",
+        "en": "August 24 – 25, 1892"
+      },
+      "flash": {
+        "id": "Robert Koch diutus Kanselir Kekaisaran ke Hamburg; saat memeriksa permukiman kumuh Gängeviertel, ia melontarkan teguran pedas legendaris kepada Senat.",
+        "en": "Robert Koch dispatched by Imperial Chancellor to Hamburg; surveying the Gängeviertel slums, he utters his legendary scathing rebuke to the Senate."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Sumur halaman bersama dan kakus kayu reyot permukiman abad pertengahan Gängeviertel",
+        "incubation": "12 – 48 jam",
+        "transmission": "Fekal-oral di pemukiman dengan kepadatan ekstrem tanpa pasokan air bersih",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Sumur halaman bersama dan kakus kayu reyot permukiman abad p",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Sumur halaman bersama dan kakus kayu reyot permukiman abad p"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Sumur halaman bersama dan kakus kayu reyot permukiman abad pertengahan Gängeviertel",
+          "en": "Target population and vector: Sumur halaman bersama dan kakus kayu reyot permukiman abad pertengahan Gängevier"
+        }
+      },
+      "description": {
+        "id": "Melihat kelumpuhan dan penyangkalan Senat Hamburg, Kanselir Kekaisaran Leo von Caprivi mengirimkan Robert Koch bersama tim ahli bakteriologi Institut Penyakit Menular Berlin dengan kewenangan luar biasa. Pada tanggal 24 Agustus, Koch melangkah menyusuri lorong-lorong sempit Gängeviertel—kawasan permukiman kumuh abad pertengahan di pusat kota tempat ribuan buruh miskin berjejal di rumah kayu tanpa ventilasi, dengan kakus tinja terbuka yang meluap ke selokan jalanan. Terkejut oleh kondisi hidup yang lebih buruk daripada daerah tropis yang pernah ia teliti, Koch menoleh kepada para senator dan pejabat kota yang mendampinginya dan berkata tajam: 'Meine Herren, ich vergesse, dass ich in Europa bin!' ('Tuan-tuan, saya lupa bahwa saya sedang berada di Eropa!').",
+        "en": "Confronted by the denial and paralysis of the Hamburg Senate, Imperial Chancellor Leo von Caprivi dispatched Robert Koch and an elite team of bacteriologists from the Berlin Institute for Infectious Diseases with plenipotentiary oversight. On August 24, Koch inspected the squalid alleyways of the Gängeviertel—the medieval proletarian quarter in the urban core where thousands of laborers huddled in windowless timber tenements over open privies draining into alley gutters. Appalled by living standards squalider than the colonial outposts he had surveyed, Koch turned to the accompanying senators and delivered his famous, blistering rebuke: 'Meine Herren, ich vergesse, dass ich in Europa bin!' ('Gentlemen, I forget that I am in Europe!')."
+      },
+      "image": "/assets/images/cholera/wave-5/ham/ham_ch_06.jpg"
+    },
+    {
+      "id": "ham-ch-07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Dekrit Darurat Militer Sanitasi: Kereta Tangki Air Masak dan Disinfeksi Masif",
+        "en": "Emergency Sanitary Dictatorship: Boiled Water Carts and Massive Disinfection"
+      },
+      "date": {
+        "id": "26 Agustus – September 1892",
+        "en": "August 26 – September 1892"
+      },
+      "flash": {
+        "id": "Koch mengambil alih kendali; air keran kota dilarang, 200 kereta tangki membagikan air masak gratis, dan asam karbol disemprotkan ke seluruh penjuru kota.",
+        "en": "Koch seizes control; municipal tap water outlawed, 200 brewery tanker wagons distribute free boiled water, and carbolic acid floods the streets."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Penyitaan sumber air publik dan isolasi kimiawi kotoran pasien",
+        "incubation": "N/A (Intervensi Higienis Darurat)",
+        "transmission": "Pemberantasan basil melalui perebusan termal air minum dan netralisasi kapur klorida",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Penyitaan sumber air publik dan isolasi kimiawi kotoran pasi",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Penyitaan sumber air publik dan isolasi kimiawi kotoran pasi"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Penyitaan sumber air publik dan isolasi kimiawi kotoran pasien",
+          "en": "Target population and vector: Penyitaan sumber air publik dan isolasi kimiawi kotoran pasien"
+        }
+      },
+      "description": {
+        "id": "Dipersenjatai otoritas kekaisaran, Robert Koch memberlakukan kediktatoran sanitasi. Papan peringatan merah dipasang di setiap sudut jalan, memerintahkan warga untuk tidak meminum setetes pun air keran tanpa direbus mendidih terlebih dahulu. Perusahaan bir lokal dan dinas pemadam kebakaran dikerahkan untuk menyediakan lebih dari 200 kereta tangki kuda yang mendistribusikan air mendidih dan teh gratis di alun-alun kota. Pasukan desinfeksi berseragam karet menyemprotkan ribuan ton kapur klorida dan asam karbolat ke jamban-jamban komunal, sementara sekolah-sekolah, teater, dan bursa komoditas ditutup rapat. Jalur kereta api keluar kota dijaga oleh polisi bersenjata untuk memeriksa setiap penumpang yang menunjukkan tanda-tanda diare.",
+        "en": "Armed with imperial authority, Robert Koch instituted an unyielding sanitary dictatorship. Crimson placards were posted at every street corner ordering citizens under severe penalties not to consume a single drop of unboiled tap water. Local breweries and the municipal fire brigade were mobilized to operate over 200 horse-drawn tanker carts dispensing free boiled water and warm tea in public squares. Uniformed disinfection detachments clad in rubber smocks drenched communal privies with thousands of tons of chloride of lime and carbolic acid. Schools, music halls, and the stock exchange were shuttered, while railway exits were sealed by armed police cordons screening passengers for diarrheal signs."
+      },
+      "image": "/assets/images/cholera/wave-5/ham/ham_ch_07.jpg"
+    },
+    {
+      "id": "ham-ch-08",
+      "chapterNumber": 8,
+      "type": "side_story",
+      "title": {
+        "id": "Garis Depan Medis Eppendorf: Eksperimen Infus Garam dan Sukarelawan Muda",
+        "en": "Eppendorf Clinical Frontline: Saline Infusion Trials and Student Volunteers"
+      },
+      "date": {
+        "id": "September 1892",
+        "en": "September 1892"
+      },
+      "flash": {
+        "id": "Dokter muda Theodor Rumpf dan mahasiswa kedokteran sukarela mempraktikkan infus garam intravena dan subkutan skala besar, menyelamatkan ribuan pasien kolaps.",
+        "en": "Young medical director Theodor Rumpf and student volunteers administer large-scale intravenous and subcutaneous saline infusions, rescuing collapsed patients."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Syok hipovolemik dan asidosis metabolik fulminan",
+        "incubation": "6 – 12 jam",
+        "transmission": "Perawatan bangsal intensif dengan kanula vena dan sterilisasi alat suntik",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Syok hipovolemik dan asidosis metabolik fulminan",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Syok hipovolemik dan asidosis metabolik fulminan"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Syok hipovolemik dan asidosis metabolik fulminan",
+          "en": "Target population and vector: Syok hipovolemik dan asidosis metabolik fulminan"
+        }
+      },
+      "description": {
+        "id": "Di Rumah Sakit Eppendorf, direktur medis baru Dr. Theodor Rumpf bersama ratusan mahasiswa kedokteran sukarelawan dari berbagai penjuru Jerman bertempur tanpa tidur di garis depan klinis. Menghadapi pasien-pasien berwajah cekung dan bersuara serak (vox cholerica) yang pembuluh darahnya telah kolaps tanpa denyut teraba, tim dokter mempraktikkan terapi infus saline intravena dan subkutan skala besar. Tabung kaca dan jarum kanula digunakan untuk memasukkan literan larutan garam fisiologis hangat langsung ke dalam vena lengan penderita. Efeknya sering kali ajaib: pasien yang tampak seperti mayat hidup kembali sadar, denyut nadi mereka berdetak kembali, dan warna kulit mereka berubah dari abu-abu sianotik menjadi merah muda segar, menyelamatkan ribuan jiwa yang sebelumnya divonis mati.",
+        "en": "Inside Eppendorf Hospital, newly appointed medical director Dr. Theodor Rumpf and hundreds of student volunteers from across Germany waged an unrelenting vigil on the clinical ramparts. Confronting sunken-eyed patients with whispered voices (vox cholerica) whose pulseless veins had completely collapsed, the clinical team executed large-scale intravenous and subcutaneous physiological saline infusions. Gravity glass cylinders and silver cannulas channeled liters of warm saline solution directly into brachial veins. The effect was often miraculous: comatose, cadaverous bodies regained consciousness within minutes, radial pulses reappeared, and cyanotic gray flesh turned warm and flushed, snatching thousands back from the threshold of the grave."
+      },
+      "image": "/assets/images/cholera/wave-5/ham/ham_ch_08.jpg"
+    },
+    {
+      "id": "ham-ch-09",
+      "chapterNumber": 9,
+      "type": "standard",
+      "title": {
+        "id": "Vonis atas Gängeviertel: Rencana Pembongkaran Sarang Wabah Abad Pertengahan",
+        "en": "Doom of the Gängeviertel: Demolition Blueprint for the Medieval Slums"
+      },
+      "date": {
+        "id": "September – Oktober 1892",
+        "en": "September – October 1892"
+      },
+      "flash": {
+        "id": "Pemerintah Hamburg memutuskan membongkar total permukiman kumuh Gängeviertel, merelokasi puluhan ribu keluarga miskin demi modernisasi perkotaan.",
+        "en": "Hamburg municipal government decrees the total demolition of the Gängeviertel slums, displacing tens of thousands of impoverished tenants for urban renewal."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Struktur bangunan kayu lembap tanpa saluran drainase bawah tanah",
+        "incubation": "24 – 48 jam",
+        "transmission": "Kepadatan ruang tinggal ekstrem dan ketiadaan sirkulasi udara bersih",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Struktur bangunan kayu lembap tanpa saluran drainase bawah t",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Struktur bangunan kayu lembap tanpa saluran drainase bawah t"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Struktur bangunan kayu lembap tanpa saluran drainase bawah tanah",
+          "en": "Target population and vector: Struktur bangunan kayu lembap tanpa saluran drainase bawah tanah"
+        }
+      },
+      "description": {
+        "id": "Penyelidikan epidemiologis yang dipimpin Koch membuktikan bahwa angka kematian tertinggi terpusat di kawasan Gängeviertel, di mana angka kematian mencapai tiga kali lipat rata-rata kota. Gang-gang sempit selebar satu meter yang gelap dan dipenuhi bau busuk kakus tidak memungkinkan sanitasi modern diterapkan. Menyadari bahwa keberadaan permukiman kumuh ini merupakan ancaman eksistensial bagi reputasi komersial internasional Hamburg, Senat mengesahkan rencana radikal pembaruan kota (Sanierung). Ribuan rumah kayu bersejarah diratakan dengan tanah menggunakan linggis dan dinamit, merelokasi puluhan ribu keluarga buruh ke pinggiran kota dan membuka jalan bagi pembangunan jalan raya lebar, saluran pembuangan bawah tanah, dan kompleks perkantoran modern.",
+        "en": "Epidemiological mapping orchestrated by Koch demonstrated that mortality rates were severely concentrated within the Gängeviertel, where death rates reached three times the municipal average. Narrow, sunless alleys barely three feet wide choked with overflowing privy pits rendered effective hygiene impossible. Recognizing that these medieval warrens posed an existential hazard to Hamburg's global maritime standing, the Senate enacted a radical municipal redevelopment ordinance (Sanierung). Thousands of historic timber tenements were condemned and systematically leveled with pry-bars and dynamite, displacing tens of thousands of working-class families to outer boroughs and paving the way for broad boulevards, brick collector sewers, and modern commercial blocks."
+      },
+      "image": "/assets/images/cholera/wave-5/ham/ham_ch_09.jpg"
+    },
+    {
+      "id": "ham-ch-10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Embargo Maritim Global: Boikot Pelabuhan Dunia Terhadap Kapal Hamburg",
+        "en": "Global Maritime Embargo: World Ports Boycott Hamburg Steamers"
+      },
+      "date": {
+        "id": "September 1892",
+        "en": "September 1892"
+      },
+      "flash": {
+        "id": "Pelabuhan London, New York, dan Le Havre menutup dermaga bagi kapal-kapal dari Hamburg; perdagangan luar negeri Jerman lumpuh total.",
+        "en": "Ports of London, New York, and Le Havre close berths to Hamburg shipping; German overseas commerce grinds to a catastrophic halt."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air balas kapal dan barang bawaan penumpang kapal uap HAPAG",
+        "incubation": "1 – 3 hari",
+        "transmission": "Penyebaran lintas benua melalui kapal penumpang cepat jalur transatlantik",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Air balas kapal dan barang bawaan penumpang kapal uap HAPAG",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Air balas kapal dan barang bawaan penumpang kapal uap HAPAG"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Air balas kapal dan barang bawaan penumpang kapal uap HAPAG",
+          "en": "Target population and vector: Air balas kapal dan barang bawaan penumpang kapal uap HAPAG"
+        }
+      },
+      "description": {
+        "id": "Kabar tentang ledakan kolera di Hamburg mengirimkan gelombang kejut ke seluruh jaringan perdagangan global. Pelabuhan-pelabuhan internasional di Inggris, Prancis, Skandinavia, dan Amerika Serikat segera menyatakan embargo total terhadap semua kapal yang bertolak dari muara Sungai Elbe. Kapal-kapal uap HAPAG yang tiba di pelabuhan New York ditahan di stasiun karantina lepas pantai, memicu kerusuhan di antara para penumpang. Kereta-kereta kargo Jerman di perbatasan Belgia dan Belanda ditolak masuk. Kerugian ekonomi yang dialami para saudagar Hamburg mencapai puluhan juta mark emas per minggu, membuktikan secara brutal bahwa penghematan anggaran fasilitas filter air telah merugikan perekonomian kota ribuan kali lipat lebih besar.",
+        "en": "News of the catastrophic eruption in Hamburg sent seismic shockwaves through global mercantile networks. International ports across Britain, France, Scandinavia, and the United States immediately slapped blanket quarantine embargos on all vessels clearing the Elbe estuary. Arriving HAPAG ocean liners were detained at outer anchorage lazarettos off New York Harbor, sparking panics among quarantined passengers. German railway freight at Belgian and Dutch frontiers was turned back at gunpoint. Economic losses inflicted upon Hamburg's commercial syndicates mounted to tens of millions of gold marks weekly, demonstrating with brutal finality that saving pennies on sand filtration had cost the merchant oligarchs fortunes."
+      },
+      "image": "/assets/images/cholera/wave-5/ham/ham_ch_10.jpg"
+    },
+    {
+      "id": "ham-ch-11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Dinginnya Musim Gugur dan Redanya Wabah: Neraca Akhir 8.605 Jiwa",
+        "en": "Autumn Chill and Abatement: The Final Reckoning of 8,605 Lives"
+      },
+      "date": {
+        "id": "Oktober – November 1892",
+        "en": "October – November 1892"
+      },
+      "flash": {
+        "id": "Penurunan suhu air sungai dan kepatuhan merebus air meredakan epidemi; pada akhir Oktober wabah resmi dinyatakan berakhir dengan 8.605 korban tewas.",
+        "en": "Plummeting water temperatures and universal boiling protocols suppress transmission; epidemic officially declared ended with 8,605 dead."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Penurunan viabilitas bakteri di air Elbe yang mendingin di bawah 10°C",
+        "incubation": "24 – 48 jam",
+        "transmission": "Pemutusan transmisi total berkat kepatuhan disinfeksi dan suplai air bersih darurat",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Penurunan viabilitas bakteri di air Elbe yang mendingin di b",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Penurunan viabilitas bakteri di air Elbe yang mendingin di b"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Penurunan viabilitas bakteri di air Elbe yang mendingin di bawah 10°C",
+          "en": "Target population and vector: Penurunan viabilitas bakteri di air Elbe yang mendingin di bawah 10°C"
+        }
+      },
+      "description": {
+        "id": "Memasuki pertengahan Oktober 1892, kombinasi antara kedisiplinan disinfeksi ketat, larangan total meminum air keran mentah, dan turunnya suhu udara musim gugur yang mendinginkan air Sungai Elbe di bawah 10 derajat Celsius berhasil memotong rantai penularan Vibrio cholerae. Jumlah kasus harian merosot dari ratusan menjadi belasan, hingga akhirnya pada 23 Oktober tidak ada lagi kematian baru yang dilaporkan. Dalam kurun waktu kurang dari delapan pekan, kolera telah menginfeksi 16.956 warga Hamburg dan merenggut 8.605 nyawa—angka kematian sebesar 50,7 persen. Pemakaman Ohlsdorf dipenuhi oleh deretan ribuan gundukan tanah baru, menjadi monumen sunyi dari kebodohan birokrasi yang mengabaikan sains higienis.",
+        "en": "By mid-October 1892, the combined effect of ironclad disinfection, the total prohibition on raw tap water, and plummeting autumn temperatures cooling the Elbe River below 10 degrees Celsius severed transmission chains. Daily notifications dropped from hundreds to single digits, until on October 23 zero new fatalities were logged. Within fewer than eight weeks, the pathogen had struck 16,956 Hamburg citizens and claimed 8,605 lives—an appalling case-fatality rate of 50.7 percent. Ohlsdorf Cemetery was scarred with miles of fresh burial trenches, standing as a silent, harrowing monument to administrative negligence that flouted hygienic science."
+      },
+      "image": "/assets/images/cholera/wave-5/ham/ham_ch_11.jpg"
+    },
+    {
+      "id": "ham-ch-12",
+      "chapterNumber": 12,
+      "type": "milestone",
+      "title": {
+        "id": "Instalasi Sand-Filter Kaltehofe 1893: Lahirnya Benteng Air Bersih Modern",
+        "en": "Kaltehofe Sand Filtration Works 1893: Birth of a Modern Water Fortress"
+      },
+      "date": {
+        "id": "Mei 1893",
+        "en": "May 1893"
+      },
+      "flash": {
+        "id": "Hanya enam bulan setelah bencana, Hamburg meresmikan pabrik filter pasir lambat raksasa di Kaltehofe, memastikan air minum kota bebas patogen selamanya.",
+        "en": "Barely six months after the catastrophe, Hamburg inaugurates colossal slow-sand filtration basins at Kaltehofe, guaranteeing pathogen-free municipal water."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Penyaringan pasir lambat dengan lapisan biofilm biologis mikroorganisme",
+        "incubation": "N/A (Teknologi Sanitasi Preventif)",
+        "transmission": "Eliminasi mekanis dan biologis 99,9% mikroba patogen dari air minum sungai",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Penyaringan pasir lambat dengan lapisan biofilm biologis mik",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Penyaringan pasir lambat dengan lapisan biofilm biologis mik"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Penyaringan pasir lambat dengan lapisan biofilm biologis mikroorganisme",
+          "en": "Target population and vector: Penyaringan pasir lambat dengan lapisan biofilm biologis mikroorganisme"
+        }
+      },
+      "description": {
+        "id": "Terhina di mata dunia dan di bawah ancaman intervensi langsung dari pemerintah pusat di Berlin, Senat Hamburg bekerja lembur menyelesaikan apa yang seharusnya mereka bangun satu dekade sebelumnya. Ribuan pekerja dikerahkan siang dan malam untuk membangun kompleks pengolahan air Kaltehofe yang baru. Pada bulan Mei 1893, pabrik filtrasi pasir lambat tercanggih di dunia resmi beroperasi, terdiri dari 21 kolam penyaring pasir seluas masing-masing 7.500 meter persegi. Air Sungai Elbe dialirkan perlahan melintasi lapisan pasir silika dan kerikil setebal dua meter yang ditumbuhi biofilm alami pemangsa kuman. Ketika kolera kembali melanda pelabuhan Eropa pada musim panas 1893, Hamburg tidak mencatat satu pun kasus infeksi domestik, membuktikan efektivitas benteng hidrolik barunya.",
+        "en": "Humiliated before the international community and facing the threat of federal administrative takeover from Berlin, the Hamburg Senate rushed to complete what it had penny-pinched for decades. Thousands of laborers worked day and night constructing the new Kaltehofe waterworks. In May 1893, Europe's most advanced slow-sand filtration facility commenced operations, comprising 21 massive sand filtration basins each covering 7,500 square meters. Raw river water percolated through six-foot beds of graded silica sand and gravel crowned with a living biological slime layer (Schmutzdecke). When cholera returned to European ports in the summer of 1893, Hamburg recorded zero internal transmissions, completely vindicating its new hydraulic fortress."
+      },
+      "image": "/assets/images/cholera/wave-5/ham/ham_ch_12.jpg"
+    },
+    {
+      "id": "ham-ch-13",
+      "chapterNumber": 13,
+      "type": "standard",
+      "title": {
+        "id": "Tumbangnya Oligarki Pedagang: Reformasi Konstitusi dan Demokratisasi Kota",
+        "en": "Fall of the Merchant Oligarchy: Constitutional Reform and Municipal Democracy"
+      },
+      "date": {
+        "id": "1893 – 1896",
+        "en": "1893 – 1896"
+      },
+      "flash": {
+        "id": "Kemarahan rakyat atas kelalaian wabah menumbangkan dominasi eksklusif saudagar kaya di Senat; Hamburg merombak sistem perwakilan politik dan dinas kebersihan publik.",
+        "en": "Public fury over epidemic negligence breaks the merchant oligarchy's exclusive hold on the Senate; Hamburg overhauls political representation and public health."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Dampak sosio-politik dan restrukturisasi institusi kekuasaan kota",
+        "incubation": "N/A (Transformasi Tata Kelola Perkotaan)",
+        "transmission": "Pemberantasan korupsi sanitasi dan profesionalisasi dewan kesehatan masyarakat",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae // Vektor: Dampak sosio-politik dan restrukturisasi institusi kekuasaan",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Dampak sosio-politik dan restrukturisasi institusi kekuasaan"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Dampak sosio-politik dan restrukturisasi institusi kekuasaan kota",
+          "en": "Target population and vector: Dampak sosio-politik dan restrukturisasi institusi kekuasaan kota"
+        }
+      },
+      "description": {
+        "id": "Bencana kolera 1892 meruntuhkan mitos efisiensi pemerintahan kaum pedagang Hamburg. Partai Sosial Demokrat (SPD) dan serikat buruh memimpin gelombang protes massal, menuntut pertanggungjawaban atas tewasnya ribuan rakyat miskin akibat penolakan Senat memasang filter air. Skandal ini memaksa terjadinya perombakan konstitusi kota. Dominasi mutlak para saudagar dalam lembaga parlemen Bürgerschaft dipangkas, jabatan wali kota dan senator tidak lagi menjadi hak istimewa kaum elit perdagangan, dan Dinas Kesehatan Masyarakat (Gesundheitsamt) didirikan sebagai lembaga independen yang dipimpin oleh dokter dan ilmuwan profesional, bukan oleh politisi atau pemilik kapal.",
+        "en": "The 1892 cholera disaster shattered the foundational myth of the Hamburg merchant patriciate's administrative competence. The Social Democratic Party (SPD) and labor unions mounted massive civic demonstrations, demanding accountability for thousands of working-class deaths caused by the Senate's refusal to finance sand filters. The scandal catalyzed a profound constitutional restructuring of the city-state. The oligopoly of shipping magnates in the Bürgerschaft parliament was broken, mayoral offices were severed from private mercantile interests, and an independent Public Health Department (Gesundheitsamt) was established under professional medical direction rather than commercial oversight."
+      },
+      "image": "/assets/images/cholera/wave-5/ham/ham_ch_13.jpg"
+    },
+    {
+      "id": "ham-ch-14",
+      "chapterNumber": 14,
+      "type": "summary",
+      "title": {
+        "id": "Kemenangan Mutlak Bakteriologi: Lahirnya Undang-Undang Epidemi Reich 1900",
+        "en": "Epistemological Triumph of Bacteriology: The Imperial Epidemics Act of 1900"
+      },
+      "date": {
+        "id": "1896 – 1900",
+        "en": "1896 – 1900"
+      },
+      "flash": {
+        "id": "Tragedi Hamburg memvalidasi teori kuman Robert Koch di panggung dunia, melahirkan Reichsseuchengesetz 1900 dan standar laboratorium mikrobiologi global.",
+        "en": "The Hamburg tragedy validates Robert Koch's germ theory globally, producing the Imperial Epidemics Act of 1900 and modern microbiological standards."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Sintesis ilmiah sejarah kedokteran dan hukum kesehatan publik modern",
+        "incubation": "N/A (Warisan Ilmiah & Regulasi Internasional)",
+        "transmission": "Kewajiban hukum nasional untuk pengujian bakteriologis mikroskopis dan filtrasi air minum",
+        "mutationType": {
+          "id": "Galur Patogen: Vibrio cholerae biotype classical // Vektor: Sintesis ilmiah sejarah kedokteran dan hukum kesehatan publi",
+          "en": "Pathogen Strain: Vibrio cholerae classical // Vector: Sintesis ilmiah sejarah kedokteran dan hukum kesehatan publi"
+        },
+        "threatLevel": {
+          "id": "Tingkat Ancaman Kritis (Epidemik Regional & Pandemik)",
+          "en": "Critical Threat Level (Regional Epidemic & Pandemic)"
+        },
+        "clinicalTarget": {
+          "id": "Sintesis ilmiah sejarah kedokteran dan hukum kesehatan publik modern",
+          "en": "Target population and vector: Sintesis ilmiah sejarah kedokteran dan hukum kesehatan publik modern"
+        }
+      },
+      "description": {
+        "id": "Tragedi Hamburg tahun 1892 menandai titik balik paling menentukan dalam sejarah kedokteran masyarakat modern. Debat panjang selama berabad-abad antara teori miasma (udara busuk) dan teori kontagionisme berakhir dengan kemenangan mutlak bagi teori kuman dan sains laboratorium Robert Koch. Pelajaran berdarah dari Sungai Elbe dituangkan oleh Kekaisaran Jerman ke dalam Undang-Undang Penyakit Menular Kekaisaran tahun 1900 (Reichsseuchengesetz), yang untuk pertama kalinya di dunia mewajibkan pengujian mikrobiologis laboratorium bagi setiap kasus penyakit menular, pengawasan ketat terhadap sumber air perkotaan, dan pelaporan epidemi berbasis bukti ilmiah. Dari puing-puing Hamburg, lahirlah cetak biru sistem kesehatan masyarakat modern yang diwarisi oleh seluruh dunia hingga hari ini.",
+        "en": "The 1892 Hamburg catastrophe stands as the defining watershed in the history of modern public health. The centuries-old ideological clash between miasmatic localism and bacteriological contagionism was terminated in favor of Robert Koch's laboratory science. The blood-bought lessons of the Elbe River were codified by the German Empire into the landmark Imperial Epidemics Act of 1900 (Reichsseuchengesetz), which for the first time mandated laboratory microbiological confirmation for suspected contagions, strict statutory oversight of municipal waterworks, and science-grounded epidemiological tracking. From the ashes of Hamburg emerged the definitive blueprint for municipal sanitary governance inherited across the modern world today."
+      },
+      "image": "/assets/images/cholera/wave-5/ham/ham_ch_14.jpg"
+    }
+  ]
+}

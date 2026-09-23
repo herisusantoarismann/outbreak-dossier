@@ -1,0 +1,434 @@
+{
+    "sectorId": "GBR",
+    "waveIndex": 3,
+    "sectorName": {
+        "id": "Sektor GBR (Britania Raya: Pompa Air Broad Street & Penyelidikan Dr. John Snow 1848–1854)",
+        "en": "Sector GBR (Great Britain: Broad Street Pump & Dr. John Snow's Investigation 1848–1854)"
+    },
+    "coordinates": [51.5133, -0.1366],
+    "timeRange": "1848 – 1854 M",
+    "estimatedFatalities": "60.000+ (Britania Raya; 616 di Klaster Pompa Broad Street Soho)",
+    "chapters": [
+        {
+            "id": "gbr-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Kembalinya Sang Pembunuh: Pendaratan Uap 1848",
+                "en": "The Scourge Returns: The Steam Packet Ingress of 1848"
+            },
+            "date": {
+                "id": "September – Oktober 1848 M",
+                "en": "September – October 1848 AD"
+            },
+            "flash": {
+                "id": "Enam belas tahun setelah wabah perdana, kolera kembali menunggangi kapal uap komersial dari Hamburg dan mendarat di pelabuhan Sungai Thames.",
+                "en": "Sixteen years after the first pandemic wave, cholera returned aboard steam vessels from Hamburg, docking in the Lower Thames."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+                "vector": "Kapal Uap Komersial Laut Utara",
+                "incubation": "12 – 48 Jam",
+                "transmission": "Pencemaran sumber air minum tepi sungai oleh kru pelaut Jerman di dermaga Horsleydown"
+            },
+            "description": {
+                "id": "Pada September 1848, kapal uap 'Elbe' yang berlayar dari Hamburg merapat di dermaga Horsleydown di tepi selatan Sungai Thames. Seorang pelaut bernama John Harnold jatuh sakit di sebuah penginapan tepi dermaga dan meninggal dalam waktu beberapa jam dengan dehidrasi sianotik akut. Beberapa hari kemudian, penyewa berikutnya di kamar yang sama juga terserang diare hebat. Gelombang ketiga kolera resmi menembus London, memulai epidemi berkepanjangan yang merenggut lebih dari 14.000 nyawa di metropolis selama tahun 1848–1849.",
+                "en": "In September 1848, the steam packet 'Elbe' from Hamburg docked at Horsleydown along the southern bank of the River Thames. A seaman named John Harnold fell ill in a riverside lodging house and succumbed within hours to cyanotic dehydration. Days later, the subsequent occupant of his bed collapsed from identical symptoms. The Third Cholera Pandemic had officially breached London, initiating a protracted assault claiming over 14,000 metropolitan lives through 1848–1849."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_01.jpg"
+        },
+        {
+            "id": "gbr-ch-02",
+            "chapterNumber": 2,
+            "type": "side_story",
+            "title": {
+                "id": "Pamflet Monograf John Snow 1849",
+                "en": "John Snow's 1849 Pioneering Monograph"
+            },
+            "date": { "id": "Agustus 1849 M", "en": "August 1849 AD" },
+            "flash": {
+                "id": "Dr. John Snow menerbitkan pamflet berani 'On the Mode of Communication of Cholera', menantang kemapanan miasma dan menyatakan kolera adalah racun tertelan.",
+                "en": "Dr. John Snow published his radical tract 'On the Mode of Communication of Cholera', challenging miasma orthodoxy and proposing waterborne ingestion."
+            },
+            "virusProfile": {
+                "agent": "Hipotesis Patologi Saluran Cerna",
+                "vector": "Ingesti Oral Air Minum Tercemar Tinja",
+                "incubation": "N/A",
+                "transmission": "Penolakan teori udara beracun dan penegasan bahwa agen penyebab masuk melalui mulut ke usus"
+            },
+            "description": {
+                "id": "Di tengah epidemi 1849, seorang dokter anestesi terkemuka bernama Dr. John Snow meragukan dogma miasma yang dianut mayoritas dunia kedokteran era Victoria. Snow mengamati bahwa kolera selalu diawali dengan gangguan perut ekstrem, muntah, dan diare, bukan gejala pernapasan seperti batuk atau radang paru yang lazim terjadi jika penyakit disebabkan oleh udara beracun. Dalam pamflet setebal 31 halaman yang dicetaknya dengan biaya sendiri, Snow mengajukan teori bahwa kolera disebabkan oleh partikel hidup yang tertelan bersama air minum yang terkontaminasi limbah manusia.",
+                "en": "During the 1849 epidemic, eminent anesthesiologist Dr. John Snow grew skeptical of prevailing Victorian miasmatic dogma. Snow observed that cholera invariably began with catastrophic abdominal symptoms, vomiting, and diarrhea, rather than respiratory distress expected from airborne poisons. In a 31-page self-published monograph, Snow argued that cholera was caused by an unseen morbid poison ingested orally through water contaminated by human sewage, multiplying within the alimentary canal."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_02.jpg"
+        },
+        {
+            "id": "gbr-ch-03",
+            "chapterNumber": 3,
+            "type": "standard",
+            "title": {
+                "id": "Kolega Monopoli: Persaingan Perusahaan Air Thames",
+                "en": "The Monopolists' Duel: Thames Water Company Rivalries"
+            },
+            "date": { "id": "1849 – 1853 M", "en": "1849 – 1853 AD" },
+            "flash": {
+                "id": "Dua perusahaan air swasta bersaing menyuplai London Selatan: Lambeth memindahkan intakenya ke hulu sungai yang bersih, sementara Southwark & Vauxhall tetap memompa limbah pasang surut.",
+                "en": "Two private utilities vied for South London: Lambeth moved its intake upriver to clean water, while Southwark & Vauxhall pumped tidal sewage."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+                "vector": "Pipa Distribusi Air Perusahaan Swasta",
+                "incubation": "12 – 72 Jam",
+                "transmission": "Penyaluran air Sungai Thames pasang surut yang sarat limbah ke ratusan ribu rumah tangga di Battersea dan Lambeth"
+            },
+            "description": {
+                "id": "London selatan pada pertengahan abad ke-19 adalah medan pertempuran komersial antara dua penyedia air minum utama: Southwark and Vauxhall Water Company dan Lambeth Waterworks Company. Pipa-pipa kedua perusahaan ini saling silang di jalan-jalan yang sama. Pada tahun 1852, Lambeth Company memindahkan pipa intake penyedotannya jauh ke hulu di Thames Ditton di luar jangkauan pasang surut limbah London. Sebaliknya, Southwark & Vauxhall tetap menyedot air dari Battersea, di mana ratusan ribu galon limbah toilet kota mengapung setiap kali air pasang surut.",
+                "en": "Mid-nineteenth-century South London was a competitive battleground between two primary water companies: Southwark and Vauxhall Water Company and Lambeth Waterworks Company. Their mains ran side-by-side down the same streets. In 1852, Lambeth moved its intake pipes far upriver to Thames Ditton, beyond the reach of London's tidal sewage. Southwark & Vauxhall, however, continued drawing raw water from Battersea, where metropolitan sewer outfalls disgorged thousands of gallons of untreated excrement daily."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_03.jpg"
+        },
+        {
+            "id": "gbr-ch-04",
+            "chapterNumber": 4,
+            "type": "milestone",
+            "title": {
+                "id": "Eksperimen Akbar: Uji Epidemiologis Alami 1853",
+                "en": "The Grand Experiment: The Natural Epidemiological Trial"
+            },
+            "date": {
+                "id": "Musim Dingin 1853 – 1854 M",
+                "en": "Winter 1853 – 1854 AD"
+            },
+            "flash": {
+                "id": "John Snow memulai studi komparatif terbesar dalam sejarah epidemiologi, membandingkan tingkat kematian antar-rumah bertetangga yang meminum dari dua pemasok air berbeda.",
+                "en": "John Snow initiated the grandest comparative trial in medical history, tracking cholera mortalities between neighbors supplied by rival water companies."
+            },
+            "virusProfile": {
+                "agent": "Metodologi Studi Kohor Komparatif",
+                "vector": "Analisis Salinitas Pipa Rumah Tangga",
+                "incubation": "N/A",
+                "transmission": "Korelasi langsung antara sumber pasokan air pipa swasta dan tingkat fatalitas kolera"
+            },
+            "description": {
+                "id": "Ketika kolera mulai kembali merebak pada akhir 1853, John Snow menyadari sebuah kesempatan ilmiah luar biasa yang ia sebut 'The Grand Experiment'. Di kawasan London selatan, lebih dari 300.000 warga dari semua kelas sosial hidup bercampur; sebagian rumah tangga berlangganan air bersih dari Lambeth Company, sementara tetangga sebelah mereka meminum air kotor dari Southwark & Vauxhall. Snow berjalan kaki berminggu-minggu dari pintu ke pintu, menguji kandungan klorida air minum dengan perak nitrat untuk membuktikan bahwa kematian kolera terkonsentrasi secara eksklusif pada pelanggan air limbah.",
+                "en": "When cholera recurred in late 1853, Snow recognized an unprecedented scientific opportunity he termed 'The Grand Experiment'. Across South London, over 300,000 residents of identical social standing lived interspersed; one house drank pristine Lambeth water while its immediate neighbor consumed Southwark & Vauxhall's foul supply. Snow spent weeks knocking on doors, chemically testing tap water with silver nitrate to verify supply origins, proving mortalities clustered almost exclusively in homes fed by sewage-laden mains."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_04.jpg"
+        },
+        {
+            "id": "gbr-ch-05",
+            "chapterNumber": 5,
+            "type": "milestone",
+            "title": {
+                "id": "Ledakan Soho: Badai Malam di Broad Street",
+                "en": "The Soho Outbreak: Night of Terror on Broad Street"
+            },
+            "date": {
+                "id": "31 Agustus – 2 September 1854 M",
+                "en": "August 31 – September 2, 1854 AD"
+            },
+            "flash": {
+                "id": "Dalam tempo 72 jam di distrik Soho, lebih dari 120 orang tewas mendadak di sekitar persimpangan Broad Street dan Cambridge Street; kepanikan melumpuhkan Golden Square.",
+                "en": "Within 72 hours in Soho, over 120 residents died abruptly around Broad and Cambridge Streets; paralyzing hysteria gripped Golden Square."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+                "vector": "Pompa Air Umum Broad Street",
+                "incubation": "Kurang dari 12 Jam",
+                "transmission": "Konsumsi air sumur pompa umum yang terkontaminasi dosis bakteri ultra-pekat"
+            },
+            "description": {
+                "id": "Pada malam Kamis, 31 Agustus 1854, sebuah ledakan kolera paling dahsyat dalam sejarah London menghantam distrik Soho yang padat. Warga yang sebelumnya sehat bugar mendadak mengalami diare cair seperti cucian beras, muntah tanpa henti, dan dehidrasi kilat yang membuat tubuh mereka menyusut membiru dalam hitungan jam. Di Broad Street, Cambridge Street, dan Poland Street, rintihan kesakitan terdengar dari hampir setiap jendela rumah petak. Dalam tiga hari pertama saja, lebih dari 127 warga tewas, memicu eksodus massal di mana tiga perempat populasi Soho melarikan diri dari kawasan tersebut.",
+                "en": "On the night of Thursday, August 31, 1854, the most violent outbreak in London's history struck the dense parish of St. James, Soho. Healthy residents collapsed without warning into spasms of rice-water diarrhea and relentless purging, their skin turning shriveled and leaden blue within hours. Along Broad Street, Cambridge Street, and Poland Street, death wails echoed from tenement windows. Within the first three days, 127 residents perished, sparking an exodus where three-quarters of the local population fled."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_05.jpg"
+        },
+        {
+            "id": "gbr-ch-06",
+            "chapterNumber": 6,
+            "type": "standard",
+            "title": {
+                "id": "Penyelidikan Spasial: Penelusuran John Snow di Soho",
+                "en": "Spatial Detective Work: John Snow's Footsteps in Soho"
+            },
+            "date": {
+                "id": "3 – 5 September 1854 M",
+                "en": "September 3 – 5, 1854 AD"
+            },
+            "flash": {
+                "id": "Tiba di lokasi bencana pada 3 September, John Snow segera mencurigai pompa umum Broad Street dan mulai mencatat alamat setiap korban meninggal.",
+                "en": "Arriving at the disaster zone on September 3, John Snow immediately suspected the Broad Street pump and mapped the address of every fatality."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+                "vector": "Pompa Besi Tuang Broad Street",
+                "incubation": "6 – 24 Jam",
+                "transmission": "Penyebaran melalui air minum dingin yang dianggap paling segar dan berkarbonasi oleh warga lokal"
+            },
+            "description": {
+                "id": "Begitu mendengar kabar malapetaka di Soho, Dr. John Snow bergegas menuju lokasi pada Minggu malam, 3 September. Ia langsung menuju pompa air umum di Broad Street di seberang Cambridge Street. Ironisnya, air dari pompa ini sangat populer di kalangan warga karena terasa dingin dan sedikit bersoda dibanding pompa-pompa tetangga. Snow mengambil sampel air dari pompa tersebut; meskipun air terlihat jernih pada awalnya, pemeriksaan mikroskopis beberapa hari kemudian menunjukkan adanya serpihan-serpihan organik keputihan yang mencurigakan di dasar botol sampel.",
+                "en": "Hearing of the devastation in Soho, Dr. John Snow rushed to the scene on Sunday evening, September 3. He headed directly for the public cast-iron pump on Broad Street opposite Cambridge Street. Ironically, water from this specific well was renowned across the parish for its coolness and pleasant sparkle compared to neighboring pumps. Snow collected samples; although superficially clear upon drawing, careful microscopic inspection revealed suspicious whitish flocculent particles settling at the base of the phials."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_06.jpg"
+        },
+        {
+            "id": "gbr-ch-07",
+            "chapterNumber": 7,
+            "type": "side_story",
+            "title": {
+                "id": "Pabrik Bir Lion & Panti Miskin Poland Street: Anomali Protektif",
+                "en": "Lion Brewery & Poland Street Workhouse: Protective Anomalies"
+            },
+            "date": {
+                "id": "4 – 6 September 1854 M",
+                "en": "September 4 – 6, 1854 AD"
+            },
+            "flash": {
+                "id": "Dari 70 pekerja pabrik bir Lion Brewery di Broad Street, nol orang tewas karena mereka hanya meminum bir; panti miskin dengan 535 narapidana selamat berkat sumur mandiri.",
+                "en": "Among 70 workers at Broad Street's Lion Brewery, zero died because they drank solely malt liquor; the adjacent workhouse was spared by its private well."
+            },
+            "virusProfile": {
+                "agent": "Isolasi Sumber Hidrologis",
+                "vector": "Konsumsi Minuman Fermentasi & Sumur Terlindung",
+                "incubation": "N/A",
+                "transmission": "Bukti negatif esensial yang membuktikan bahwa udara miasma tidak bertanggung jawab atas mortalitas di sekitarnya"
+            },
+            "description": {
+                "id": "Kecurigaan Snow diperkuat oleh dua anomali spasial yang memukau. Di Pabrik Bir Lion Brewery di Broad Street yang mempekerjakan 70 buruh tepat di episentrum wabah, pemilik pabrik mengonfirmasi bahwa tidak ada satu pun pekerjanya yang meninggal: para buruh diberi jatah bir gratis setiap hari dan tidak pernah meminum air pompa jalan. Sebaliknya, Panti Miskin Poland Street (St. James Workhouse) yang menampung 535 fakir miskin dan dikelilingi oleh rumah-rumah terinfeksi hanya mencatat lima kematian, karena panti tersebut memiliki sumur bor internal sendiri dan melarang penghuni minum dari Broad Street.",
+                "en": "Snow's hypothesis was fortified by two striking epidemiological anomalies. At the Lion Brewery on Broad Street employing seventy men in the outbreak's heart, the proprietor confirmed not a single worker had died: laborers were allotted free malt beer daily and never touched pump water. Conversely, the St. James Workhouse on Poland Street, housing 535 destitute inmates surrounded by pestilential tenements, recorded merely five deaths because the institution possessed its own deep artesian well and barred inmates from drawing Broad Street water."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_07.jpg"
+        },
+        {
+            "id": "gbr-ch-08",
+            "chapterNumber": 8,
+            "type": "milestone",
+            "title": {
+                "id": "Pencabutan Gagang Pompa: Rapat Dewan Paroki",
+                "en": "Removing the Pump Handle: The Vestry Board Decision"
+            },
+            "date": {
+                "id": "7 – 8 September 1854 M",
+                "en": "September 7 – 8, 1854 AD"
+            },
+            "flash": {
+                "id": "Pada malam 7 September, John Snow mendesak Dewan Paroki St. James untuk mencopot gagang pompa Broad Street; keesokan paginya, tuas besi dilepaskan.",
+                "en": "On the evening of September 7, John Snow persuaded the St. James Vestry Board to remove the Broad Street pump handle; by morning, the lever was unbolted."
+            },
+            "virusProfile": {
+                "agent": "Intervensi Kesehatan Masyarakat Pertama di Dunia",
+                "vector": "Deaktivasi Akses Pompa Air Bersama",
+                "incubation": "N/A",
+                "transmission": "Pemutusan fisik rantai transmisi hidrologis secara instan"
+            },
+            "description": {
+                "id": "Pada Kamis malam, 7 September 1854, Dr. John Snow menghadiri pertemuan darurat Dewan Paroki St. James (St. James Vestry) di Church Street. Berhadapan dengan para tetua gereja dan pejabat lokal yang masih mempercayai bahwa kabut busuk dari selokan jalanan adalah penyebab wabah, Snow memaparkan bukti statistik dan spasialnya. Ia mendesak satu tindakan sederhana namun radikal: cabut tuas pompa Broad Street. Meskipun skeptis, dewan menyetujui usulan tersebut. Keesokan paginya, Jumat 8 September, gagang pompa dicopot oleh tukang besi paroki, dan laju kasus harian segera menurun drastis.",
+                "en": "On Thursday evening, September 7, 1854, Dr. John Snow addressed an emergency meeting of the St. James Parish Vestry on Church Street. Confronting church elders and aldermen who clung to theories of foul sewer miasmas, Snow presented his meticulous mortality spot counts. He urged a single, decisive intervention: unbolt the handle of the Broad Street pump. Skeptical but desperate, the vestry acceded. On Friday morning, September 8, the cast-iron handle was removed, instantly severing community access to the contaminated aquifer."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_08.jpg"
+        },
+        {
+            "id": "gbr-ch-09",
+            "chapterNumber": 9,
+            "type": "side_story",
+            "title": {
+                "id": "Tragedi Susannah Eley di Hampstead: Korban Jarak Jauh",
+                "en": "The Tragedy of Susannah Eley in Hampstead: The Remote Victim"
+            },
+            "date": { "id": "September 1854 M", "en": "September 1854 AD" },
+            "flash": {
+                "id": "Seorang janda kaya di Hampstead yang tidak pernah menginjakkan kaki di Soho meninggal akibat kolera setelah putranya mengirimkan botol air dari pompa Broad Street.",
+                "en": "A wealthy widow in Hampstead who never visited Soho died of cholera after her son sent her a demijohn of water drawn from the Broad Street pump."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+                "vector": "Botol Kaca Demijohn Air Pompa",
+                "incubation": "Kurang dari 24 Jam",
+                "transmission": "Pengiriman air terkontaminasi melintasi jarak 8 kilometer ke kawasan perbukitan bebas kolera"
+            },
+            "description": {
+                "id": "Bukti paling tak terbantahkan bagi teori Snow datang dari luar distrik Soho. Di kawasan perbukitan sejuk Hampstead, lima mil di utara London yang sama sekali bebas kolera, seorang wanita tua kaya bernama Susannah Eley mendadak tewas pada 2 September. Snow melacak riwayatnya: Nyonya Eley pernah tinggal di Broad Street dan sangat menyukai rasa air pompa tersebut. Putranya secara teratur menyewa kurir untuk membawa botol kaca besar (demijohn) berisi air dari pompa Broad Street ke rumahnya di Hampstead. Keponakannya yang berkunjung dan meminum air yang sama juga tewas bersamanya.",
+                "en": "The most clinching proof for Snow's thesis materialized far beyond Soho. In the elevated suburb of Hampstead, five miles north of London where cholera was completely absent, an affluent widow named Susannah Eley abruptly died on September 2. Snow investigated: Mrs. Eley had previously lived on Broad Street and retained a fondness for the pump's sparkling water. Her son routinely hired a cart to haul large demijohns of Broad Street water to her Hampstead villa. A visiting niece who drank the same water perished alongside her."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_09.jpg"
+        },
+        {
+            "id": "gbr-ch-10",
+            "chapterNumber": 10,
+            "type": "standard",
+            "title": {
+                "id": "Pendeta Henry Whitehead: Dari Penentang Menjadi Sekutu",
+                "en": "Reverend Henry Whitehead: From Skeptic to Ally"
+            },
+            "date": { "id": "Musim Gugur 1854 M", "en": "Autumn 1854 AD" },
+            "flash": {
+                "id": "Pendeta pembantu St. Luke, Henry Whitehead, awalnya berniat membantah teori Snow, namun penyelidikan parokinya justru membuktikan kebenaran hipotesis air.",
+                "en": "St. Luke's curate Henry Whitehead initially set out to disprove Snow, but his parish interviews ultimately provided the definitive proof."
+            },
+            "virusProfile": {
+                "agent": "Investigasi Epidemiologi Lapangan Terperinci",
+                "vector": "Wawancara Paroki Pintu-ke-Pintu",
+                "incubation": "N/A",
+                "transmission": "Penelusuran kebiasaan minum harian keluarga korban yang meninggal dan selamat"
+            },
+            "description": {
+                "id": "Pendeta muda Henry Whitehead dari Gereja St. Luke sangat dicintai oleh warga miskin Soho karena keberaniannya merawat mereka yang sekarat di ranjang mereka. Sebagai penganut setia teori miasma dan kehendak ilahi, Whitehead awalnya menganggap teori pompa Snow sebagai lelucon tak berdasar. Ia memulai penyelidikan independen untuk membantah Snow dengan mewawancarai ratusan jemaatnya tentang kebiasaan hidup mereka. Namun yang mengejutkan Whitehead sendiri, setiap keluarga yang ia teliti mengonfirmasi bahwa mereka yang meninggal telah meminum air pompa Broad Street, mengubahnya menjadi pembela gigih teori Snow.",
+                "en": "The young curate of St. Luke's, Reverend Henry Whitehead, was revered by Soho's poor for his fearless bedside ministrations during the catastrophe. Firmly anchored in miasmatic and providential beliefs, Whitehead initially dismissed Snow's water theory as preposterous. He undertook an exhaustive investigation to refute Snow by interrogating parish families on their drinking habits. To Whitehead's astonishment, his data revealed that drinking pump water was the single common thread linking every death, turning him into Snow's staunchest scientific collaborator."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_10.jpg"
+        },
+        {
+            "id": "gbr-ch-11",
+            "chapterNumber": 11,
+            "type": "milestone",
+            "title": {
+                "id": "Pasien Nol Broad Street: Popok Bayi Lewis",
+                "en": "Broad Street Patient Zero: The Infant Lewis Diaper"
+            },
+            "date": { "id": "November 1854 M", "en": "November 1854 AD" },
+            "flash": {
+                "id": "Penyelidikan mendalam menemukan sumber kontaminasi: seorang bayi berusia lima bulan di 40 Broad Street menderita diare beberapa hari sebelum ledakan wabah.",
+                "en": "Deep forensic inquiry uncovered the index case: a five-month-old infant at 40 Broad Street suffered severe diarrhea days before the general eruption."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+                "vector": "Pencucian Popok Kotor ke Lubang Pembuangan Resapan",
+                "incubation": "N/A",
+                "transmission": "Rembesan limbah tinja dari septic pit rumah nomor 40 yang retak menembus dinding batu sumur pompa"
+            },
+            "description": {
+                "id": "Misteri bagaimana bakteri kolera pertama kali masuk ke dalam sumur Broad Street akhirnya dipecahkan oleh Pendeta Whitehead. Dalam catatan kematian paroki, ia menemukan kasus seorang bayi perempuan berusia lima bulan, Frances Lewis, yang jatuh sakit diare pada 28 Agustus di rumah nomor 40 Broad Street—tepat di samping pompa umum. Ibunya, Sarah Lewis, merendam popok kotor bayinya dalam seember air panas dan membuangnya ke dalam lubang penampungan tinja (cesspool) di bawah ruang bawah tanah rumahnya. Penyelidikan fisik kemudian mengungkap bahwa dinding bata penampungan tinja tersebut telah lapuk dan bocor, merembeskan cairan infeksius langsung ke dalam sumur pompa.",
+                "en": "The mystery of how the bacillus seeded the Broad Street aquifer was unlocked by Reverend Whitehead. Examining mortality records, he identified five-month-old Frances Lewis, who fell ill with diarrhea on August 28 at 40 Broad Street—directly adjacent to the public pump. Her mother, Sarah Lewis, washed soiled linen diapers in warm water and emptied the pail into the basement cesspool. Structural excavation revealed the unlined brick cesspool was fractured, allowing fluid to percolate through soil into the well wall less than three feet away."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_11.jpg"
+        },
+        {
+            "id": "gbr-ch-12",
+            "chapterNumber": 12,
+            "type": "side_story",
+            "title": {
+                "id": "Penggalian Sumur York: Forensik Dinding Bata yang Retak",
+                "en": "The Excavation of the Well: Forensic Masonry Inspection"
+            },
+            "date": { "id": "Musim Semi 1855 M", "en": "Spring 1855 AD" },
+            "flash": {
+                "id": "Insinyur surveyor York menggali tanah di antara rumah nomor 40 dan sumur pompa Broad Street, membuktikan adanya rembesan tinja hitam pekat menembus bata sumur.",
+                "en": "Surveyor York excavated the earth between 40 Broad Street and the pump well, uncovering foul black sewage leaking straight through the brick lining."
+            },
+            "virusProfile": {
+                "agent": "Kegagalan Infrastruktur Bawah Tanah",
+                "vector": "Fraktur Dinding Bata Penampungan Tinja",
+                "incubation": "N/A",
+                "transmission": "Perkolasi cairan limbah manusia melalui tanah berpori ke akuifer air minum"
+            },
+            "description": {
+                "id": "Pada musim semi 1855, atas desakan komite investigasi paroki, insinyur sanitasi J. York melakukan penggalian resmi terhadap jalan dan trotoar di depan 40 Broad Street. Hasil penggalian mengonfirmasi hipotesis Snow secara spektakuler. Dinding bata penampungan kotoran rumah nomor 40 berada hanya berjarak 80 sentimeter dari dinding luar sumur pompa Broad Street. Sambungan mortir bata telah membusuk dan runtuh; tanah di antara kedua struktur tersebut dipenuhi oleh lumpur hitam berbau busuk yang terus-menerus meresap melalui celah-celah batu bata sumur setiap kali hujan turun atau ember dibuang.",
+                "en": "In spring 1855, at the urging of the parish inquiry committee, surveyor J. York excavated the pavement fronting 40 Broad Street. The findings provided physical proof of Snow's thesis. The brickwork of the house cesspool lay a mere thirty inches from the exterior masonry of the public well. The mortar had deteriorated completely; the intervening soil was saturated with foul black sludge that percolated through open joints in the well lining whenever household wastewater was discharged."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_12.jpg"
+        },
+        {
+            "id": "gbr-ch-13",
+            "chapterNumber": 13,
+            "type": "milestone",
+            "title": {
+                "id": "Peta Hantu John Snow: Mahakarya Visualisasi Spasial",
+                "en": "John Snow's Ghost Map: Masterpiece of Spatial Visualization"
+            },
+            "date": {
+                "id": "Desember 1854 – 1855 M",
+                "en": "December 1854 – 1855 AD"
+            },
+            "flash": {
+                "id": "John Snow menerbitkan edisi kedua risalahnya lengkap dengan peta titik ikonik yang menggambarkan tumpukan batang hitam kematian berkerumun di sekitar pompa Broad Street.",
+                "en": "John Snow published the expanded edition of his treatise featuring the iconic spot map, with black bars of mortality clustering tightly around the Broad Street pump."
+            },
+            "virusProfile": {
+                "agent": "Kartografi Epidemiologi Spasial & Poligon Voronoi",
+                "vector": "Visualisasi Data Geografis",
+                "incubation": "N/A",
+                "transmission": "Representasi spasial pertama yang membuktikan korelasi jarak tempuh jalan kaki ke sumber air infeksius"
+            },
+            "description": {
+                "id": "Untuk edisi kedua bukunya pada tahun 1855, Dr. John Snow merancang sebuah peta yang kelak menjadi salah satu dokumen visual paling terkenal dalam sejarah sains: 'The Ghost Map'. Menggunakan peta jalan Soho karya C.F. Cheffins, Snow menandai setiap kematian dengan garis batang hitam kecil di alamat tempat korban jatuh sakit. Garis-garis hitam menumpuk tinggi di sekitar persimpangan Broad Street dan menipis seiring bertambahnya jarak dari pompa tersebut. Ia juga menggambar garis batas poligon jarak tempuh (Voronoi diagram awal) yang menunjukkan bahwa kematian terkonsentrasi di zona di mana pompa Broad Street adalah sumber air terdekat.",
+                "en": "For the 1855 second edition of his treatise, Dr. John Snow drafted what became one of the most celebrated visualizations in scientific history: 'The Ghost Map'. Utilizing C.F. Cheffins's street plan of Soho, Snow marked each death with a discrete black bar at the address where the patient fell ill. The stacks of bars piled up around the Broad Street intersection and tapered off with walking distance. He added a dotted perimeter line representing walking transit distance, proving fatalities concentrated precisely where Broad Street was the closest water source."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_13.jpg"
+        },
+        {
+            "id": "gbr-ch-14",
+            "chapterNumber": 14,
+            "type": "standard",
+            "title": {
+                "id": "Perlawanan Dogma: Penolakan Dewan Kesehatan & Edwin Chadwick",
+                "en": "The Dogma Resists: Denial of the Board of Health & Chadwick"
+            },
+            "date": { "id": "1855 M", "en": "1855 AD" },
+            "flash": {
+                "id": "Dewan Kesehatan Umum dan jurnal medis terkemuka The Lancet menolak kesimpulan Snow, bersikukuh bahwa kolera disebabkan oleh udara buruk dari selokan.",
+                "en": "The General Board of Health and The Lancet rejected Snow's conclusions, dogmatically insisting cholera arose from sewer effluvia and airborne filth."
+            },
+            "virusProfile": {
+                "agent": "Inersia Institusional Dogma Miasma",
+                "vector": "Laporan Resmi Komisi Sanitasi Parlemen",
+                "incubation": "N/A",
+                "transmission": "Penolakan otoritas medis untuk menerima teori penularan kuman melalui air minum"
+            },
+            "description": {
+                "id": "Meskipun bukti Snow sangat meyakinkan, kemapanan medis Victoria menolak mengakuinya. Laporan resmi dari General Board of Health yang dipimpin oleh Sir Benjamin Hall menyimpulkan pada 1855 bahwa 'tidak ada alasan untuk mempercayai bahwa air pompa memiliki peran utama' dan mengembalikan kematian kepada pengaruh kelembapan udara serta gas rawa. Jurnal medis The Lancet bahkan menerbitkan tajuk rencana yang mencemooh Snow. Penganut miasma seperti Edwin Chadwick khawatir jika teori air diterima, proyek pembersihan udara mereka akan kehilangan legitimasi politik.",
+                "en": "Despite Snow's overwhelming evidence, the Victorian medical establishment entrenched itself in denial. The official report by the General Board of Health under Sir Benjamin Hall concluded in 1855 that there was 'no reason to adopt the belief that water was the chief agent' and attributed the disaster to atmospheric atmospheric conditions and decomposing matter. The Lancet published dismissive editorials mocking Snow. Miasma crusaders like Edwin Chadwick feared accepting waterborne transmission would undermine their political campaign for urban deodorization."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_14.jpg"
+        },
+        {
+            "id": "gbr-ch-15",
+            "chapterNumber": 15,
+            "type": "standard",
+            "title": {
+                "id": "Bau Busuk Raya 1858 & Sistem Pembuangan Joseph Bazalgette",
+                "en": "The Great Stink of 1858 & Joseph Bazalgette's Intercepting Sewers"
+            },
+            "date": { "id": "1858 – 1865 M", "en": "1858 – 1865 AD" },
+            "flash": {
+                "id": "Krisis 'The Great Stink' tahun 1858 memaksa Parlemen mendanai mahakarya insinyur Joseph Bazalgette: jaringan 1.800 kilometer saluran pembuangan bawah tanah London.",
+                "en": "The 'Great Stink' of 1858 compelled Parliament to fund Joseph Bazalgette's subterranean masterpiece: an 1,100-mile network of intercepting sewers."
+            },
+            "virusProfile": {
+                "agent": "Rekayasa Sanitasi Hidrologis Skala Penuh",
+                "vector": "Jaringan Saluran Pembuangan Bawah Tanah Bazalgette",
+                "incubation": "N/A",
+                "transmission": "Pengalihan total kotoran manusia menjauh dari intake air minum Sungai Thames menuju muara laut"
+            },
+            "description": {
+                "id": "Pada musim panas 1858 yang membakar, Sungai Thames berubah menjadi saluran pembuangan terbuka yang mendidih. Baunya begitu menyengat hingga parlemen di Westminster harus merendam tirai mereka dengan kapur klorida untuk meredam mual para anggota dewan. Krisis yang dikenal sebagai 'The Great Stink' ini akhirnya memaksa pemerintah bertindak. Insinyur jenius Joseph Bazalgette diberi mandat dan dana raksasa untuk membangun sistem saluran pembuangan limbah terpadu bawah tanah London. Dengan mengalihkan miliaran galon limbah menjauhi intake air minum kota menuju muara timur, London akhirnya memutus siklus kolera untuk selamanya.",
+                "en": "During the sweltering summer of 1858, the Thames turned into a fermenting open sewer. The stench became so overwhelming that Parliament soaked its curtains in chloride of lime to allow debates to proceed. This crisis, christened 'The Great Stink', finally spurred decisive action. Civil engineer Joseph Bazalgette was granted authority and funding to build London's monumental intercepting sewer system. By routing billions of gallons of raw sewage eastward past the city's drinking intakes, Bazalgette broke London's cholera cycle permanently."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_15.jpg"
+        },
+        {
+            "id": "gbr-ch-16",
+            "chapterNumber": 16,
+            "type": "summary",
+            "title": {
+                "id": "Warisan Soho: Kelahiran Epidemiologi Modern",
+                "en": "The Legacy of Soho: The Dawn of Modern Epidemiology"
+            },
+            "date": { "id": "Pasca-1858 M", "en": "Post-1858 AD" },
+            "flash": {
+                "id": "Dr. John Snow wafat pada 1858 sebelum teorinya diakui secara universal; hari ini ia diakui di seluruh dunia sebagai bapak pendiri ilmu epidemiologi modern.",
+                "en": "Dr. John Snow died in 1858 before universal vindication; today he is revered worldwide as the founding father of modern epidemiological science."
+            },
+            "virusProfile": {
+                "agent": "Paradigma Ilmiah Berbasis Bukti & Pemetaan Spasial",
+                "vector": "Penyelidikan Investigatif Lapangan Terpadu",
+                "incubation": "N/A",
+                "transmission": "Fondasi metode pelacakan kontak, analisis spasial klaster, dan pencegahan kesehatan publik berbasis data"
+            },
+            "description": {
+                "id": "Dr. John Snow meninggal dunia karena stroke pada 16 Juni 1858 di usia muda 45 tahun, hanya beberapa hari sebelum 'The Great Stink' memaksa parlemen menyetujui pembangunan saluran pembuangan London. Pengakuan universal atas karyanya baru datang setelah Robert Koch mengisolasi basil Vibrio cholerae pada 1883 dan membuktikan kebenaran mutlak deduksi Snow tiga dekade sebelumnya. Penyelidikan pompa Broad Street di Soho tetap menjadi studi kasus paling abadi dalam sejarah kedokteran dunia: sebuah contoh brilian bagaimana observasi empiris yang cermat, deduksi ilmiah tanpa kompromi, dan pemetaan spasial data dapat menyelamatkan jutaan jiwa manusia.",
+                "en": "Dr. John Snow suffered a fatal stroke on June 16, 1858, aged just 45, mere days before the Great Stink forced Parliament into action. Universal vindication arrived decades later when Robert Koch isolated Vibrio cholerae in 1883, confirming Snow's brilliant deductions. The Broad Street pump investigation remains the foundational touchstone in epidemiology: a shining demonstration of how rigorous empirical observation, unflinching quantitative reasoning, and spatial mapping can triumph over entrenched dogma to preserve millions of human lives."
+            },
+            "image": "/assets/images/cholera/wave-3/gbr/gbr_ch_16.jpg"
+        }
+    ]
+}

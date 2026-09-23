@@ -1,0 +1,384 @@
+{
+  "sectorId": "ITA",
+  "waveIndex": 3,
+  "sectorName": {
+    "id": "Sektor ITA (Semenanjung Italia: Florence, Napoli & Penemuan Filippo Pacini 1854–1855)",
+    "en": "Sector ITA (Italian Peninsula: Florence, Naples & Filippo Pacini's Discovery 1854–1855)"
+  },
+  "coordinates": [
+    43.7696,
+    11.2558
+  ],
+  "timeRange": "1854 – 1855 M",
+  "estimatedFatalities": "50.000+ (Semenanjung Italia; 10.000+ di Napoli)",
+  "description": {
+    "id": "Di tengah hantaman gelombang ketiga kolera di Florence dan Napoli pada tahun 1854, ahli anatomi Italia Filippo Pacini meneliti mukosa usus korban secara mikroskopis di Rumah Sakit Santa Maria Nuova. Melawan dogma miasma yang dianut kemapanan medis Eropa, Pacini mengidentifikasi dan mendeskripsikan secara presisi basil berbentuk koma yang ia namai 'Vibrio cholera', serta merinci patofisiologi kehilangan cairan masif tiga dekade sebelum Robert Koch diakui dunia.",
+    "en": "Amidst the onslaught of the third cholera pandemic in Florence and Naples in 1854, Italian anatomist Filippo Pacini microscopically examined the intestinal mucosa of deceased patients at the Santa Maria Nuova Hospital. Defying the prevailing miasma dogma of European medical orthodoxy, Pacini identified and precisely described the comma-shaped bacillus he named 'Vibrio cholera', meticulously documenting the massive fluid loss pathophysiology three decades before Robert Koch received global acclaim."
+  },
+  "chapters": [
+    {
+      "id": "ita-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Pelabuhan Mediterania & Invasi Livorno",
+        "en": "Mediterranean Harbors & the Livorno Breach"
+      },
+      "date": {
+        "id": "Musim Panas 1854 M",
+        "en": "Summer 1854 AD"
+      },
+      "flash": {
+        "id": "Karantina maritim Kadipaten Agung Toskana ditembus kapal uap dari Marseille.",
+        "en": "Grand Duchy of Tuscany maritime quarantines breached by steamships from Marseille."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Limbah sanitasi pelabuhan & kontaminasi air ballast kapal uap",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Fekal-oral melalui persediaan air kapal dan makanan laut pantai"
+      },
+      "description": {
+        "id": "Pada musim panas 1854, rute maritim Mediterania Barat yang menghubungkan pelabuhan Prancis selatan dan pelabuhan-pelabuhan semenanjung Italia menjadi koridor penularan kolera yang tak terhentikan. Pelabuhan Livorno di Kadipaten Agung Toskana, meskipun menerapkan pos karantina tradisional lazzaretto San Leopoldo, gagal membendung penyusupan patogen dari kapal uap komersial asal Marseille. Dalam hitungan hari, pekerja dermaga dan awak tongkang menyebarkan infeksi sepanjang kanal navigasi Canale dei Navicelli menuju Pisa dan pedalaman Lembah Arno, membuka gerbang kehancuran bagi Florence.",
+        "en": "In the summer of 1854, the Western Mediterranean maritime routes connecting southern French ports with the Italian peninsula became an unstoppable conduit for cholera transmission. The port of Livorno in the Grand Duchy of Tuscany, despite operating its traditional San Leopoldo lazzaretto quarantine station, failed to arrest pathogen infiltration from commercial steamships arriving from Marseille. Within days, dockers and barge crews carried the infection along the Canale dei Navicelli navigation canal toward Pisa and the interior of the Arno River Valley, opening the gates of catastrophe for Florence."
+      },
+      "image": "/assets/images/cholera/wave-3/ita/ita_ch_01.jpg"
+    },
+    {
+      "id": "ita-ch-02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Florence Terkepung: Santa Maria Nuova",
+        "en": "Florence Besieged: Santa Maria Nuova"
+      },
+      "date": {
+        "id": "Juli – Agustus 1854 M",
+        "en": "July – August 1854 AD"
+      },
+      "flash": {
+        "id": "Bangsal kolera Arcispedale Santa Maria Nuova dipenuhi ratusan korban diare kolaps.",
+        "en": "Cholera wards at Arcispedale Santa Maria Nuova overwhelmed by collapsing diarrhea victims."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Sumur dangkal distrik San Frediano & limpasan Sungai Arno",
+        "incubation": "8 – 24 Jam",
+        "transmission": "Fekal-oral melalui air sumur lingkungan padat kumuh pengrajin"
+      },
+      "description": {
+        "id": "Penyakit ini meledak di distrik pengrajin San Frediano dan Santa Croce di Florence, di mana sumur-sumur komunal berjarak hanya beberapa inci dari lubang pembuangan limbah bawah tanah. Rumah sakit tertua di kota itu, Arcispedale di Santa Maria Nuova, segera dikonversi menjadi benteng darurat penanganan wabah. Ratusan warga yang dehidrasi parah dengan mata cekung dan kulit dingin kebiruan membanjiri lorong-lorong batu biara. Dokter-dokter senior Florence, yang masih terikat pada teori miasma dan humoral Galenik, meresepkan pendarahan lintah, asap aromatik juniper, dan kompres es yang mempercepat kematian pasien akibat syok hipovolemik.",
+        "en": "The disease erupted across Florence's working-class artisan quarters of San Frediano and Santa Croce, where communal shallow wells stood inches from porous cesspools. The city's oldest hospital, Arcispedale di Santa Maria Nuova, was hastily converted into an emergency epidemic citadel. Hundreds of severely dehydrated citizens displaying sunken orbits and cyanotic cold skin flooded the stone cloister hallways. Senior Florentine physicians, clinging to Galenic humoralism and miasma doctrines, prescribed leech venesection, aromatic juniper fumigations, and ice compresses that only accelerated hypovolemic death."
+      },
+      "image": "/assets/images/cholera/wave-3/ita/ita_ch_02.jpg"
+    },
+    {
+      "id": "ita-ch-03",
+      "chapterNumber": 3,
+      "type": "milestone",
+      "title": {
+        "id": "Filippo Pacini & Mikroskop Akromatik Amici",
+        "en": "Filippo Pacini & the Amici Achromatic Lens"
+      },
+      "date": {
+        "id": "Agustus 1854 M",
+        "en": "August 1854 AD"
+      },
+      "flash": {
+        "id": "Profesor anatomi Pistoia memanfaatkan lensa akromatik mutakhir untuk menguak rahasia mukosa.",
+        "en": "Pistoia anatomy professor utilizes state-of-the-art achromatic lenses to pierce mucosal secrets."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Morfologi Batang Lengkung)",
+        "vector": "Sediaan otopsi segar mukosa usus halus pasien kolera",
+        "incubation": "N/A (Observasi Mikroskopis Ex Vivo)",
+        "transmission": "Resolusi mikroskopis cahaya polarisasi dan optik akromatik resolusi tinggi"
+      },
+      "description": {
+        "id": "Di tengah kekacauan bangsal Santa Maria Nuova, berdiri seorang profesor anatomi komparatif berusia 42 tahun asal Pistoia: Filippo Pacini. Berbekal mikroskop akromatik canggih rancangan ahli fisika Florence Giovanni Battista Amici—yang menghilangkan aberasi kromatik dan mampu memberikan perbesaran tajam hingga 500-1000 kali—Pacini menolak berspekulasi dari balik meja administrasi. Ia mendirikan laboratorium otopsi darurat langsung di sebelah kamar mayat bangsal kolera untuk mengambil sampel jaringan segera setelah kematian biologis terjadi.",
+        "en": "Amidst the turmoil of Santa Maria Nuova's wards stood a 42-year-old professor of comparative anatomy from Pistoia: Filippo Pacini. Armed with an advanced achromatic microscope engineered by Florentine optician and physicist Giovanni Battista Amici—which neutralized chromatic aberration and delivered crystal-clear magnifications up to 1000x—Pacini refused armchair theorizing. He established an emergency post-mortem dissecting room directly adjacent to the cholera morgue to harvest tissue samples within moments of biological death."
+      },
+      "image": "/assets/images/cholera/wave-3/ita/ita_ch_03.jpg"
+    },
+    {
+      "id": "ita-ch-04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Otopsi Kamar Mayat Santa Maria Nuova",
+        "en": "Santa Maria Nuova Mortuary Autopsies"
+      },
+      "date": {
+        "id": "September 1854 M",
+        "en": "September 1854 AD"
+      },
+      "flash": {
+        "id": "Diseksi kilat mukosa epitel usus halus dalam hitungan menit pasca kematian klinis.",
+        "en": "Rapid dissections of small intestine epithelial mucosa minutes following clinical demise."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Lendir deskuamasi epitel usus halus ileum dan jejunum",
+        "incubation": "In situ post-mortem",
+        "transmission": "Pelepasan cairan transudat serosa masif intra-luminal"
+      },
+      "description": {
+        "id": "Pacini memahami bahwa pembusukan kadaver yang cepat akan mengaburkan lesi histologis primer kolera. Bekerja dalam kondisi penuh uap asam karbolat dan bau kental feses 'air beras', Pacini melakukan pembedahan presisi pada segmen jejunum dan ileum jenazah yang baru meninggal kurang dari tiga puluh menit. Ia mengamati bahwa permukaan usus tidak mengalami gangren atau peradangan destruktif kasar seperti disentri atau tifus, melainkan kehilangan epitel permukaan secara masif disertai pelepasan lendir jernih berbutir yang mengisi seluruh lumen.",
+        "en": "Pacini recognized that rapid post-mortem autolysis would obscure primary histopathological lesions of cholera. Working amidst carbolic vapors and the distinctive pungent reek of 'rice-water' stool, Pacini executed rapid dissections of jejunal and ileal segments within thirty minutes of patient decease. He noted that the intestinal mucosa exhibited neither gangrenous destruction nor ulcerations typical of dysentery or typhoid, but rather an unprecedented shedding of superficial epithelium coupled with massive serous transudation filling the lumen."
+      },
+      "image": "/assets/images/cholera/wave-3/ita/ita_ch_04.jpg"
+    },
+    {
+      "id": "ita-ch-05",
+      "chapterNumber": 5,
+      "type": "milestone",
+      "title": {
+        "id": "Penemuan 'Vibrio cholera': Basil Berbentuk Koma",
+        "en": "Discovery of 'Vibrio cholera': The Comma Bacillus"
+      },
+      "date": {
+        "id": "Oktober 1854 M",
+        "en": "October 1854 AD"
+      },
+      "flash": {
+        "id": "Pacini mengamati miliaran mikroorganisme motil melengkung di antara epitel usus.",
+        "en": "Pacini witnesses billions of motile curved microorganisms swarming the intestinal epithelium."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Pacini 1854)",
+        "vector": "Mukosa dan cairan transudat intraluminal usus",
+        "incubation": "1 – 2 Hari",
+        "transmission": "Proliferasi lokal ekstrem mikroorganisme vibrio pada dinding usus halus"
+      },
+      "description": {
+        "id": "Di bawah lensa Amici perbesaran 1000x, Pacini menyaksikan pemandangan yang belum pernah dilihat mata manusia: di antara serpihan sel epitel yang terlepas, terdapat miliaran mikroorganisme berbentuk batang melengkung yang sangat motil, bergoyang aktif seperti koma tipis. Pacini mencatat bahwa mikroorganisme ini hadir dalam jumlah tak terhitung pada setiap pasien yang meninggal karena kolera, sementara sepenuhnya absen dari preparat usus orang yang meninggal karena penyakit lain. Mengadopsi istilah dari Müller, Pacini secara resmi membaptis organisme ini dengan nama 'Vibrio cholera'.",
+        "en": "Beneath the Amici immersion objective at 1000x magnification, Pacini beheld a sight never before witnessed by human eyes: amidst sloughed epithelial cells swarmed billions of tiny, extraordinarily motile curved rod-shaped microorganisms, vibrating intensely like comma marks. Pacini documented that these microscopic bodies were ubiquitously present in astronomical quantities in every single cholera victim, yet entirely absent in intestinal biopsies of individuals deceased from other causes. Borrowing Müller's taxonomy, Pacini formally christened the organism 'Vibrio cholera'."
+      },
+      "image": "/assets/images/cholera/wave-3/ita/ita_ch_05.jpg"
+    },
+    {
+      "id": "ita-ch-06",
+      "chapterNumber": 6,
+      "type": "standard",
+      "title": {
+        "id": "Fisiologi Cairan & Syok Hipovolemik",
+        "en": "Fluid Dynamics & Hypovolemic Collapse"
+      },
+      "date": {
+        "id": "November 1854 M",
+        "en": "November 1854 AD"
+      },
+      "flash": {
+        "id": "Kuantifikasi matematis deplesi volume intravaskular: 10 liter air dan garam hilang per hari.",
+        "en": "Mathematical quantification of intravascular volume depletion: 10 liters of water and salts lost daily."
+      },
+      "virusProfile": {
+        "agent": "Enterotoksin Vibrio cholerae (Mekanisme Hipotetis Pacini)",
+        "vector": "Kegagalan osmotik epitelium dinding pencernaan",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Pembalikan fluks cairan kapiler menuju rongga gastrointestinal"
+      },
+      "description": {
+        "id": "Pacini tidak berhenti pada identifikasi morfologis kuman; ia menyusun analisis biofisika pertama tentang kolera. Dengan menimbang cawan feses dan mengukur berat jenis darah kadaver, Pacini membuktikan bahwa kolera bukanlah 'keracunan saraf darah' umum seperti anggapan dokter sezamannya, melainkan deplesi cairan dan elektrolit lokal masif. Pasien kehilangan 8 hingga 10 liter air dan garam dalam 24 jam melalui transudat usus, menyebabkan darah mengental seperti aspal dan memicu syok hipovolemik fatal serta kegagalan sirkulasi perifer.",
+        "en": "Pacini did not stop at microbiological identification; he formulated the world's first biophysical pathophysiology of cholera. By weighing stool receptacles and measuring post-mortem blood specific gravity, Pacini demonstrated that cholera was not a generalized 'neurological blood toxemia' as contemporaries claimed, but a catastrophic local fluid and electrolyte depletion. Patients lost 8 to 10 liters of water and essential salts within 24 hours via intestinal transudation, turning blood into thick tar and triggering fatal hypovolemic shock and circulatory collapse."
+      },
+      "image": "/assets/images/cholera/wave-3/ita/ita_ch_06.jpg"
+    },
+    {
+      "id": "ita-ch-07",
+      "chapterNumber": 7,
+      "type": "milestone",
+      "title": {
+        "id": "Publikasi Gazzetta Medica Italiana Federativa",
+        "en": "Publication in the Gazzetta Medica Italiana Federativa"
+      },
+      "date": {
+        "id": "11 Desember 1854 M",
+        "en": "December 11, 1854 AD"
+      },
+      "flash": {
+        "id": "Pemberitahuan resmi monograf mikroskopis Pacini terbit di Florence di tengah ketidakpedulian dunia.",
+        "en": "Pacini's formal microscopic monograph published in Florence amid global indifference."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Nomenklatur Pacini)",
+        "vector": "Monograf cetak 'Osservazioni microscopiche e deduzioni patologiche sul colera asiatico'",
+        "incubation": "N/A (Diseminasi Akademik)",
+        "transmission": "Distribusi terbatas jurnal medis regional Toscana"
+      },
+      "description": {
+        "id": "Pada tanggal 11 Desember 1854, Pacini menerbitkan risalah monumentalnya berjudul 'Osservazioni microscopiche e deduzioni patologiche sul colera asiatico' (Pengamatan Mikroskopis dan Deduksi Patologis tentang Kolera Asiatik) dalam Gazzetta Medica Italiana Federativa Toscana. Makalah ini menyajikan deskripsi morfologis tak tertandingi tentang vibrion, peran kausatif mikroba parasitik tersebut dalam pengelupasan epitel usus, serta seruan revolusioner untuk memusnahkan agen mikroskopis ini dari air minum dan saluran limbah.",
+        "en": "On December 11, 1854, Pacini published his epochal treatise entitled 'Osservazioni microscopiche e deduzioni patologiche sul colera asiatico' (Microscopic Observations and Pathological Deductions on Asiatic Cholera) in the Gazzetta Medica Italiana Federativa Toscana. The paper provided an unmatched morphological description of the vibrion, asserted the parasitic microbe's causative role in epithelial denudation, and issued a revolutionary plea to eliminate these microscopic agents from drinking supplies and sewers."
+      },
+      "image": "/assets/images/cholera/wave-3/ita/ita_ch_07.jpg"
+    },
+    {
+      "id": "ita-ch-08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Penolakan Para Dogmatis Miasma",
+        "en": "The Miasmatic Dogmatists' Rejection"
+      },
+      "date": {
+        "id": "1855 M",
+        "en": "1855 AD"
+      },
+      "flash": {
+        "id": "Akademi Kedokteran Eropa mengabaikan temuan Pacini sebagai serpihan seluler tak berarti.",
+        "en": "European Medical Academies dismiss Pacini's findings as insignificant cellular debris."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Dogma Miasma atmosferik dan otoritas kelembagaan kedokteran",
+        "incubation": "N/A (Hambatan Epistemologis)",
+        "transmission": "Sensor dan pengabaian akademis terhadap teori kuman kontagionisme"
+      },
+      "description": {
+        "id": "Meskipun temuannya sangat akurat, komunitas kedokteran Eropa menolak mentah-mentah karya Pacini. Tokoh-tokoh ortodoks kedokteran Italia dan Eropa, yang terkunci dalam doktrin atmosfer miasma dan pengaruh iklim Max von Pettenkofer, menganggap basil koma Pacini hanyalah artefak mikroskopis, bakteri pembusuk post-mortem biasa, atau pecahan dinding sel mati yang tidak memiliki relevansi kausatif. Pacini, yang tidak memiliki jejaring internasional maupun sokongan laboratorium negara besar, mendapati karyanya terkubur dalam ketidaktahuan umum.",
+        "en": "Despite its flawless precision, European medical orthodoxy flatly rejected Pacini's work. Entrenched institutional authorities, imprisoned in miasmatic atmospheric doctrines and Max von Pettenkofer's telluric theories, dismissed Pacini's comma bacilli as mere post-mortem putrefactive artifacts or sloughed epithelial cell fragments devoid of causative role. Lacking international scientific patron networks and backing from major imperial research institutes, Pacini saw his breakthrough buried under condescending obscurity."
+      },
+      "image": "/assets/images/cholera/wave-3/ita/ita_ch_08.jpg"
+    },
+    {
+      "id": "ita-ch-09",
+      "chapterNumber": 9,
+      "type": "side_story",
+      "title": {
+        "id": "Tragedi Napoli & Sumur-Sumur Fondaco",
+        "en": "The Naples Tragedy & the Fondaco Wells"
+      },
+      "date": {
+        "id": "Musim Panas – Musim Gugur 1854 M",
+        "en": "Summer – Autumn 1854 AD"
+      },
+      "flash": {
+        "id": "Labirin kumuh Porto dan Pendino di Napoli menjadi neraka kolera berdensitas tinggi.",
+        "en": "The squalid labyrinths of Porto and Pendino in Naples turn into high-density cholera infernos."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Sistem akuifer berpori batuan tuf vulkanik dan tangki fondaco",
+        "incubation": "12 – 36 Jam",
+        "transmission": "Pencemaran infiltrasi limbah toilet vertikal ke lapisan sumur tuf Napoli"
+      },
+      "description": {
+        "id": "Sementara Pacini bergulat di Florence, kota pelabuhan terbesar di selatan, Napoli, mengalami bencana kemanusiaan yang mengerikan. Di pemukiman padat kumuh 'fondaci' di distrik Porto dan Mercato, ribuan keluarga miskin hidup berdesakan di kamar-kamar tanpa ventilasi di atas batuan tuf vulkanik berpori. Air limbah jamban merembes langsung menembus batuan berpori ke dalam tangki-tangki air minum komunal. Lebih dari 10.000 jiwa tewas dalam beberapa pekan di bawah bayang-bayang Gunung Vesuvius, memicu kerusuhan anti-pemerintah dan pembakaran kereta jenazah oleh massa yang putus asa.",
+        "en": "While Pacini struggled in Florence, Southern Italy's largest port metropolis, Naples, suffered an apocalyptic humanitarian disaster. In the squalid, overcrowded 'fondaci' slums of the Porto and Mercato districts, thousands of destitute families lived packed in unventilated warrens atop porous volcanic tuff rock. Privy effluent percolated straight through the porous rock strata into communal water cisterns. Over 10,000 citizens perished in mere weeks beneath the shadow of Mount Vesuvius, sparking anti-Bourbon riots and desperate burnings of municipal hearse carts."
+      },
+      "image": "/assets/images/cholera/wave-3/ita/ita_ch_09.jpg"
+    },
+    {
+      "id": "ita-ch-10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Pelopor Terapi Rehidrasi Intravena Salin",
+        "en": "Pioneer of Intravenous Saline Rehydration"
+      },
+      "date": {
+        "id": "1855 M",
+        "en": "1855 AD"
+      },
+      "flash": {
+        "id": "Pacini mengusulkan infus larutan garam natrium langsung ke vena untuk menyelamatkan sirkulasi.",
+        "en": "Pacini proposes direct intravenous sodium chloride infusions to rescue failing circulation."
+      },
+      "virusProfile": {
+        "agent": "Larutan Elektrolit Isotonik (Formulasi Pacini)",
+        "vector": "Kanula vena perifer dan jarum infus infusum salinum",
+        "incubation": "N/A (Intervensi Klinis Akut)",
+        "transmission": "Pemulihan volume sirkulasi efektif dan perfusi kapiler renal"
+      },
+      "description": {
+        "id": "Berdasarkan hitungan deplesi cairan masifnya, Pacini menjadi salah satu orang pertama di daratan Eropa yang merumuskan protokol terapi cairan intravena rasional. Ia menuntut penghentian total pendarahan jarum dan purgatif kalomel yang meracuni pasien. Sebagai gantinya, Pacini merekomendasikan infus segera larutan garam fisiologis (10 gram natrium klorida per liter air steril) yang disuntikkan langsung ke dalam pembuluh vena untuk memulihkan volume plasma sebelum ginjal mengalami nekrosis iskemik irreversibel.",
+        "en": "Drawing from his rigorous intravascular depletion calculus, Pacini became one of the earliest clinicians on the European continent to formulate rational intravenous fluid resuscitation protocols. He vehemently demanded an immediate end to toxic calomel purges and bloodletting lancets. In their stead, Pacini recommended immediate intravenous infusions of physiologic saline solution (10 grams sodium chloride per liter of distilled water) administered directly into collapsed veins to restore plasma volume before irreversible renal ischemic necrosis set in."
+      },
+      "image": "/assets/images/cholera/wave-3/ita/ita_ch_09.jpg"
+    },
+    {
+      "id": "ita-ch-11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Hambatan Risorgimento & Kemunduran Sanitasi",
+        "en": "Risorgimento Obstacles & Sanitary Decay"
+      },
+      "date": {
+        "id": "1856–1859 M",
+        "en": "1856–1859 AD"
+      },
+      "flash": {
+        "id": "Perang penyatuan Italia dan fragmentasi politik menghambat reformasi infrastruktur air bersih.",
+        "en": "Italian unification warfare and political fragmentation stymie water infrastructure reforms."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik)",
+        "vector": "Pergerakan pasukan militer Piedmontese dan gangguan pasokan logistik kota",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Penyebaran endemis di kamp militer Perang Kemerdekaan Italia Kedua"
+      },
+      "description": {
+        "id": "Upaya modernisasi sanitasi di semenanjung Italia terhambat parah oleh pergolakan perang penyatuan Risorgimento. Antara Kadipaten Agung Toskana, Kerajaan Dua Sisilia, dan Negara Gereja, tiada otoritas kesehatan publik terpadu yang bersedia mengalokasikan anggaran besar untuk merekonstruksi sistem saluran air bersih atau sanitasi tertutup. Pasukan militer yang berpindah-pindah melintasi perbatasan negara-negara mini Italia terus membawa residu Vibrio cholera dari satu provinsi ke provinsi lainnya hingga meletusnya Perang Kemerdekaan 1859.",
+        "en": "Sanitary modernization efforts across the Italian peninsula were paralyzed by the revolutionary turbulence of the Risorgimento unification campaigns. Divided among the Grand Duchy of Tuscany, the Kingdom of the Two Sicilies, and the Papal States, no unified public health authority existed with the fiscal capacity or will to reconstruct subterranean sewer networks or clean aqueducts. Continual troop mobilizations crisscrossing fragmented borders sustained residual foci of Vibrio cholera across provinces through the Second Italian War of Independence in 1859."
+      },
+      "image": "/assets/images/cholera/wave-3/ita/ita_ch_11.jpg"
+    },
+    {
+      "id": "ita-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Kematian Sang Pionir dalam Bayang-Bayang",
+        "en": "Death of the Pioneer in Obscurity"
+      },
+      "date": {
+        "id": "9 Juli 1883 M",
+        "en": "July 9, 1883 AD"
+      },
+      "flash": {
+        "id": "Filippo Pacini wafat dalam kemiskinan di Florence, beberapa bulan sebelum ekspedisi Robert Koch.",
+        "en": "Filippo Pacini dies in poverty in Florence, mere months before Robert Koch's Egyptian expedition."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "N/A (Penyakit Kronis & Kemiskinan Akademis)",
+        "incubation": "N/A (Biografi Historis)",
+        "transmission": "N/A"
+      },
+      "description": {
+        "id": "Hingga akhir hayatnya pada 9 Juli 1883 di Florence, Pacini terus menerbitkan pembelaan atas teori kuman dan penemuan vibrionya, namun ia tetap terpinggirkan dari panggung sains internasional. Pacini meninggal dalam kondisi miskin, setelah menghabiskan seluruh tabungannya untuk merawat kedua saudara perempuannya yang sakit parah. Jenazahnya dimakamkan di pemakaman umum Misericordia di Soffiano tanpa upacara kenegaraan, hanya beberapa bulan sebelum dunia kedokteran diguncang pengumuman dari Mesir oleh Robert Koch.",
+        "en": "Until his death on July 9, 1883 in Florence, Pacini persistently published defenses of his germ theory and vibrionic discovery, yet remained an outcast on the international scientific stage. Pacini died in destitute poverty, having expended his modest savings caring for his two chronically ill sisters. His body was interred in the Misericordia cemetery at Soffiano without state honors, a mere few months before the international medical establishment was galvanized by Robert Koch's announcements from Egypt."
+      },
+      "image": "/assets/images/cholera/wave-3/ita/ita_ch_12.jpg"
+    },
+    {
+      "id": "ita-ch-13",
+      "chapterNumber": 13,
+      "type": "summary",
+      "title": {
+        "id": "Kompensasi Sejarah: Pengakuan 'Vibrio cholerae Pacini 1854'",
+        "en": "Historical Vindication: Recognition of 'Vibrio cholerae Pacini 1854'"
+      },
+      "date": {
+        "id": "1965 M (Resolusi Nomenklatur Internasional)",
+        "en": "1965 AD (International Nomenclature Resolution)"
+      },
+      "flash": {
+        "id": "Komite Taksonomi Mikrobiologi Internasional mengembalikan hak cipta ilmiah kepada Filippo Pacini.",
+        "en": "International Committee on Bacteriological Nomenclature formally restores priority to Filippo Pacini."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae Pacini 1854 (Nomenklatur Taksonomi Resmi)",
+        "vector": "Pustaka taksonomi bakteriologis internasional",
+        "incubation": "N/A (Koreksi Sejarah 111 Tahun)",
+        "transmission": "Validasi ilmiah universal hukum prioritas binomial Linnaeus"
+      },
+      "description": {
+        "id": "Meskipun Robert Koch mengisolasi basil kolera di Alexandria dan Calcutta pada 1883–1884 secara independen, dunia ilmiah akhirnya harus mengakui kebenaran sejarah. Pada tahun 1965, Komite Nomenklatur Bakteriologis Internasional secara resmi mengesahkan nama ilmiah taksonomi 'Vibrio cholerae Pacini 1854', mengakui keunggulan kronologis Pacini tiga puluh tahun mendahului Koch. Sektor Italia pada Gelombang Ketiga menjadi saksi momen revolusi epistemologi di mana mikroskop pertama kali menyingkap pembunuh kolosial peradaban manusia.",
+        "en": "Though Robert Koch independently isolated the cholera bacillus in Alexandria and Calcutta in 1883–1884, the global scientific community was ultimately forced to rectify history. In 1965, the International Committee on Bacteriological Nomenclature formally ratified the taxonomic designation 'Vibrio cholerae Pacini 1854', enshrining Pacini's absolute thirty-year chronological priority over Koch. Sector ITA of the Third Pandemic stands as the enduring monument to the epistemological revolution where the microscope first unmasked civilization's greatest aquatic killer."
+      },
+      "image": "/assets/images/cholera/wave-3/ita/ita_ch_13.jpg"
+    }
+  ]
+}

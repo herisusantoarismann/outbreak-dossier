@@ -1,0 +1,436 @@
+{
+    "sectorId": "GBR",
+    "waveIndex": 4,
+    "sectorName": {
+        "id": "Sektor GBR (Britania Raya: Skandal Air London Timur, Sungai Lea & Investigasi William Farr 1866)",
+        "en": "Sector GBR (Great Britain: East London Waterworks, River Lea & William Farr's Investigation 1866)"
+    },
+    "coordinates": [
+        51.53,
+        -0.03
+    ],
+    "timeRange": "1866 M",
+    "estimatedFatalities": "5.596 (London; Terkonsentrasi di Distrik Timur Sungai Lea)",
+    "chapters": [
+        {
+            "id": "gbr-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Anomali London Timur: Ledakan di Luar Garis Bazalgette",
+                "en": "The East London Anomaly: Outbreak Beyond the Bazalgette Line"
+            },
+            "date": {
+                "id": "Juli 1866 M",
+                "en": "July 1866 AD"
+            },
+            "flash": {
+                "id": "Sementara London barat dan tengah tetap aman berkat sistem gorong-gorong baru, London timur meledak dalam wabah dahsyat.",
+                "en": "While west and central London stayed safe under new sewers, the East End erupted in catastrophic mortality."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Pipa Air Bersih Perusahaan Swasta",
+                "incubation": "12 – 36 Jam",
+                "transmission": "Pasokan air minum bertekanan yang terkontaminasi limbah mentah"
+            },
+            "description": {
+                "id": "Pada musim panas 1866, London merasa telah kebal terhadap kolera. Sistem gorong-gorong raksasa rancangan Sir Joseph Bazalgette telah selesai dibangun di sebagian besar kota, mengalihkan miliaran galon limbah menjauhi Sungai Thames. Namun pada pertengahan Juli, malapetaka mengerikan meletus secara eksklusif di London Timur—mencakup distrik miskin Whitechapel, Mile End, Bow, Stepney, dan Poplar. Dalam waktu dua pekan, lebih dari seribu warga tewas tersungkur dengan bibir membiru. Anomali geografis yang mencolok ini membingungkan para pejabat sanitasi: mengapa hanya distrik timur yang tersapu maut?",
+                "en": "By the summer of 1866, London considered itself impervious to cholera. Sir Joseph Bazalgette's monumental intercepting sewer network was substantially complete, diverting billions of gallons of effluent downstream from the Thames. Yet in mid-July, a ferocious contagion detonated exclusively within the East End—engulfing the impoverished quarters of Whitechapel, Mile End, Bow, Stepney, and Poplar. Within a fortnight, over a thousand perished with cyanotic lips. This stark geographic clustering confounded sanitarians: why was the scourge confined strictly to the east?"
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_01.jpg"
+        },
+        {
+            "id": "gbr-ch-02",
+            "chapterNumber": 2,
+            "type": "standard",
+            "title": {
+                "id": "Kasus Indeks Priory Street: Sumber Pencemaran Sungai Lea",
+                "en": "The Priory Street Index Case: Contaminating the River Lea"
+            },
+            "date": {
+                "id": "27 Juni – 8 Juli 1866 M",
+                "en": "June 27 – July 8, 1866 AD"
+            },
+            "flash": {
+                "id": "Keluarga Hedges terinfeksi di Priory Street; air cucian pakaian mereka dibuang langsung ke Sungai Lea.",
+                "en": "The Hedges household fell ill on Priory Street; their infected wash water drained directly into the Lea."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Saluran Pembuangan Rumah Tangga Terbuka",
+                "incubation": "12 – 24 Jam",
+                "transmission": "Pembuangan limbah penderita kolera ke hulu intake air minum kota"
+            },
+            "description": {
+                "id": "Pelacakan epidemiologis forensik kelak mengungkap titik mula bencana: Charles Hedges dan istrinya yang tinggal di Priory Street, Bromley. Keduanya menderita diare parah dan muntah pada akhir Juni setelah kembali dari pelabuhan Southampton. Tanpa saluran pembuangan modern, seluruh tinja dan air rendaman seprei serta pakaian tidur yang penuh kotoran cair penderita dibuang ke parit terbuka yang mengalir langsung ke Sungai Lea. Tepat beberapa ratus meter di hilir titik buangan tersebut, pipa-pipa intake raksasa milik perusahaan air swasta sedang menyedot air sungai.",
+                "en": "Forensic epidemiological detective work later pinpointed the fatal spark: Charles Hedges and his wife residing on Priory Street, Bromley. Both suffered violent vomiting and diarrhea in late June following travel from Southampton. Lacking modern plumbing, their raw excreta and the soak water from contaminated bedsheets were dumped into an open ditch emptying straight into the River Lea. Merely hundreds of yards downstream, massive intake pipes belonging to a private water monopoly were drawing river water."
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_02.jpg"
+        },
+        {
+            "id": "gbr-ch-03",
+            "chapterNumber": 3,
+            "type": "milestone",
+            "title": {
+                "id": "Skandal Waduk Terbuka Old Ford: Kejahatan Korporasi Air",
+                "en": "The Old Ford Open Reservoir Scandal: Corporate Water Malfeasance"
+            },
+            "date": {
+                "id": "10 – 20 Juli 1866 M",
+                "en": "July 10 – 20, 1866 AD"
+            },
+            "flash": {
+                "id": "Perusahaan East London Waterworks memompa air mentah tanpa filter dari waduk terbuka beracun ke ribuan rumah.",
+                "en": "The East London Waterworks Company pumped raw, unfiltered water from toxic open basins into homes."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Pipa Distribusi Air Bertekanan",
+                "incubation": "6 – 18 Jam",
+                "transmission": "Air minum perpipaan yang dialirkan langsung tanpa penyaringan pasir"
+            },
+            "description": {
+                "id": "Perusahaan air swasta East London Waterworks Company membantah keras bahwa pasokan air mereka bermasalah. Namun kenyataannya, untuk menghemat biaya operasional dan memenuhi lonjakan permintaan air di musim panas, perusahaan secara diam-diam menghubungkan pipa distribusinya ke dua waduk penyimpanan terbuka di Old Ford yang sudah lama tidak difilter. Waduk tersebut hanya dipisahkan oleh tanggul tanah rapuh dari Sungai Lea yang pasang-surut dan sarat limbah. Jutaan galon air yang pekat dengan bakteri kolera dipompa langsung ke keran-keran rumah warga tanpa disaring.",
+                "en": "The commercial monopoly East London Waterworks Company vehemently denied any contamination in their supply. In truth, to slash operating costs and satisfy peak summer demand, the company had covertly connected its mains to two disused, uncovered storage basins at Old Ford that lacked sand filtration. These basins were separated only by a porous embankment from the tidal, sewage-choked River Lea. Millions of gallons saturated with choleraic vibrios were pumped directly into domestic taps without a shred of filtration."
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_03.jpg"
+        },
+        {
+            "id": "gbr-ch-04",
+            "chapterNumber": 4,
+            "type": "standard",
+            "title": {
+                "id": "Investigasi Kartografis William Farr: Data Melawan Kebohongan",
+                "en": "William Farr's Cartographic Audit: Data Shatters the Lies"
+            },
+            "date": {
+                "id": "25 Juli – 5 Agustus 1866 M",
+                "en": "July 25 – August 5, 1866 AD"
+            },
+            "flash": {
+                "id": "Ahli statistik medis William Farr memetakan batas kematian yang persis tumpang tindih dengan peta pipa East London Waterworks.",
+                "en": "Medical statistician William Farr proved mortality maps perfectly mirrored East London Waterworks pipes."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Pemetaan Spasial Epidemiologi",
+                "incubation": "N/A",
+                "transmission": "Korelasi statistik absolut antara zona pipa air tertentu dan mortalitas"
+            },
+            "description": {
+                "id": "Di Kantor Pencatatan Umum (General Register Office), ahli statistik legendaris William Farr mencurigai adanya korelasi air. Meskipun Farr pada mulanya adalah pendukung teori miasma, ia adalah ilmuwan yang tunduk pada integritas data kuantitatif. Farr memplot setiap sertifikat kematian kolera ke atas peta kota London. Hasilnya sangat mencengangkan: batas wilayah kematian tinggi berhenti tepat di garis perbatasan pipa pasokan East London Waterworks Company. Rumah-rumah yang menggunakan air dari perusahaan New River di seberang jalan sama sekali bebas dari penyakit, membongkar kebohongan direksi perusahaan.",
+                "en": "At the General Register Office, legendary medical statistician William Farr suspected a lethal aquatic vector. Though Farr had initially defended miasmatic dogmas, he bowed unconditionally to quantitative empirical evidence. Farr plotted every death certificate upon a detailed street map of London. The visual revelation was devastating: the perimeter of soaring fatalities aligned millimeter-for-millimeter with the distribution grid of the East London Waterworks Company. Dwellings across the street supplied by the New River Company suffered zero casualties."
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_04.jpg"
+        },
+        {
+            "id": "gbr-ch-05",
+            "chapterNumber": 5,
+            "type": "side_story",
+            "title": {
+                "id": "Dr. Elizabeth Garrett Anderson: Garis Depan Whitechapel",
+                "en": "Dr. Elizabeth Garrett Anderson: Frontline Valour in Whitechapel"
+            },
+            "date": {
+                "id": "Agustus 1866 M",
+                "en": "August 1866 AD"
+            },
+            "flash": {
+                "id": "Dokter wanita pertama di Britania Raya memimpin perawatan klinis bagi ratusan ibu dan anak miskin di East End.",
+                "en": "Britain's first female physician spearheaded clinical triage for hundreds of impoverished East End families."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Perawatan Medis & Triage Komunitas",
+                "incubation": "12 – 48 Jam",
+                "transmission": "Intervensi klinis rehidrasi dan edukasi perebusan air di pemukiman kumuh"
+            },
+            "description": {
+                "id": "Di tengah kepanikan massal ketika banyak dokter swasta menolak memasuki kawasan kumuh London Timur, Dr. Elizabeth Garrett Anderson—wanita pertama yang berhasil meraih lisensi praktik kedokteran di Inggris—terjun langsung ke medan wabah. Di St. Mary's Dispensary for Women and Children, Anderson merawat lebih dari 3.000 pasien dalam tempo beberapa minggu. Berbekal pemahaman mengenai penularan air, ia tidak hanya memberikan terapi cairan dan stimulan, tetapi juga blusukan dari pintu ke pintu untuk memerintahkan para ibu merebus setiap tetes air minum dan membakar kain linen yang terkena kotoran.",
+                "en": "Amid collective hysteria as private physicians shunned the squalor of the East End, Dr. Elizabeth Garrett Anderson—the first woman to secure a medical license in Britain—marched directly into the epicenter. At St. Mary's Dispensary for Women and Children, Anderson treated over 3,000 afflicted souls within weeks. Convinced of waterborne etiology, she not only dispensed fluids and stimulants, but went door-to-door instructing mothers to boil every drop of tap water and incinerate soiled linens, slashing secondary household infections."
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_05.jpg"
+        },
+        {
+            "id": "gbr-ch-06",
+            "chapterNumber": 6,
+            "type": "side_story",
+            "title": {
+                "id": "Thomas Barnardo & Anak-Anak Yatim Piatu Kolera",
+                "en": "Thomas Barnardo & The Cholera Orphans of the East End"
+            },
+            "date": {
+                "id": "Agustus – September 1866 M",
+                "en": "August – September 1866 AD"
+            },
+            "flash": {
+                "id": "Wabah menewaskan ribuan orang tua, memicu mahasiswa kedokteran muda mendirikan panti asuhan Barnardo.",
+                "en": "The outbreak killed thousands of parents, inspiring a young medical student to found Barnardo's homes."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Dampak Sosial & Yatim Piatu",
+                "incubation": "N/A",
+                "transmission": "Kehancuran struktur keluarga kelas pekerja akibat kematian kepala keluarga"
+            },
+            "description": {
+                "id": "Salah satu dampak sosial paling memilukan dari wabah London Timur 1866 adalah ribuan anak yang mendadak menjadi yatim piatu ketika kedua orang tua mereka tewas dalam hitungan jam. Thomas John Barnardo, seorang mahasiswa kedokteran muda di London Hospital, sangat terguncang melihat anak-anak kecil berkeliaran tanpa pakaian dan kelaparan di atap-atap gedung dan lorong pasar ikan Stepney. Pengalaman traumatis selama wabah kolera ini mendorong Barnardo untuk mendedikasikan seluruh sisa hidupnya mendirikan rumah penampungan dan sekolah amal, yang kelak berkembang menjadi yayasan perlindungan anak terbesar di Inggris Raya.",
+                "en": "Among the most harrowing human consequences of the 1866 East London epidemic was the sudden orphaning of thousands of children whose parents perished in a single night. Thomas John Barnardo, an evangelical medical student at the London Hospital, was profoundly traumatized by the sight of half-naked, starving urchins sleeping on gutters and rooftops around Stepney's fish markets. This harrowing crucible impelled Barnardo to abandon foreign missions and dedicate his life to founding children's shelters, establishing Britain's greatest philanthropic foster network."
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_06.jpg"
+        },
+        {
+            "id": "gbr-ch-07",
+            "chapterNumber": 7,
+            "type": "standard",
+            "title": {
+                "id": "Perintah Perebusan Air: Kampanye Selebaran Darurat",
+                "en": "Boiling Orders: The Emergency Handbill Blitz"
+            },
+            "date": {
+                "id": "6 Agustus 1866 M",
+                "en": "August 6, 1866 AD"
+            },
+            "flash": {
+                "id": "Pemerintah kota menyebarkan 50.000 selebaran darurat yang memerintahkan warga merebus semua air minum.",
+                "en": "Municipal authorities distributed 50,000 emergency handbills commanding citizens to boil all tap water."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Komunikasi Risiko Kesehatan Masyarakat",
+                "incubation": "N/A",
+                "transmission": "Intervensi inaktivasi termal bakteri via perebusan air di rumah tangga"
+            },
+            "description": {
+                "id": "Setelah Farr dan para petugas kesehatan distrik memastikan bahwa pasokan East London Waterworks adalah sumber racun, otoritas bertindak cepat. Lebih dari 50.000 selebaran merah dicetak dalam semalam dan ditempel di setiap tiang lampu, gereja, pub, dan pasar di London Timur. Selebaran tersebut memuat instruksi tegas: 'JANGAN MEMINUM AIR LANGSUNG DARI KERAN. REBUS SEMUA AIR MINUM DAN TEH SEBELUM DIKONSUMSI.' Di saat yang sama, perusahaan air dipaksa menutup pipa dari waduk Old Ford dan menyuntikkan klorin kapur ke dalam tangki air. Dalam tempo satu pekan setelah selebaran disebar, kurva kematian anjlok secara drastis.",
+                "en": "Once Farr and district medical officers established that the East London Waterworks was the toxic fountainhead, authorities launched a decisive counterstrike. Over 50,000 emergency placards were printed overnight and plastered across lampposts, churches, gin palaces, and markets throughout the East End. The command was unequivocal: 'DO NOT DRINK UNBOILED WATER. BOIL ALL WATER FOR DRINKING AND COOKING.' Simultanously, the company was coerced into sealing the Old Ford intakes and dosing mains with chloride of lime. Within seven days of the boiling blitz, mortality curves plummeted."
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_07.jpg"
+        },
+        {
+            "id": "gbr-ch-08",
+            "chapterNumber": 8,
+            "type": "standard",
+            "title": {
+                "id": "Pemberontakan Sanitasi di Liverpool & Swansea: Port Ingress",
+                "en": "Sanitary Revolts in Liverpool & Swansea: Provincial Port Ingress"
+            },
+            "date": {
+                "id": "Agustus – September 1866 M",
+                "en": "August – September 1866 AD"
+            },
+            "flash": {
+                "id": "Kapal imigran Jerman dan Belanda membawa kolera ke Liverpool dan pelabuhan Wales, menewaskan 2.000 warga pelabuhan.",
+                "en": "German and Dutch immigrant packets introduced cholera to Liverpool and Welsh coal ports, killing 2,000."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Kapal Emigran Transatlantik",
+                "incubation": "12 – 48 Jam",
+                "transmission": "Kepadatan rumah pondokan imigran transit di pelabuhan keberangkatan"
+            },
+            "description": {
+                "id": "Meskipun London Timur menjadi episentrum paling mematikan, kolera 1866 juga menghantam kota-kota pelabuhan industri lainnya di Britania. Di Liverpool—pelabuhan utama keberangkatan imigran menuju Amerika Serikat—kapal-kapal uap dari Rotterdam dan Hamburg membawa imigran Jerman yang sakit. Penyakit menyusup ke rumah-rumah sewa sempit di sekitar dermaga, menewaskan lebih dari 1.700 orang. Di Swansea dan pesisir selatan Wales, kapal pengangkut batu bara menyebarkan infeksi ke pemukiman buruh tambang, memicu kerusuhan warga yang menuntut pembongkaran jamban umum yang meluap.",
+                "en": "Though the East End remained the deadliest crucible, the 1866 epidemic battered provincial British seaports. In Liverpool—the empire's primary transit hub for transatlantic emigrants—steamers from Rotterdam and Hamburg disembarked infected German laborers. Contagion infiltrated subterranean cellar dwellings near the Mersey docks, claiming over 1,700 lives. In Swansea and South Wales coal basins, coastal colliers ferried infection into coal-mining tenements, provoking violent riots by miners demanding the demolition of overflowing privy middens."
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_08.jpg"
+        },
+        {
+            "id": "gbr-ch-09",
+            "chapterNumber": 9,
+            "type": "side_story",
+            "title": {
+                "id": "Investigasi Parlemen: Pengadilan Terhadap Direksi Air",
+                "en": "The Parliamentary Inquest: Indicting the Water Monopolies"
+            },
+            "date": {
+                "id": "Oktober – November 1866 M",
+                "en": "October – November 1866 AD"
+            },
+            "flash": {
+                "id": "Investigasi resmi pemerintah membuktikan kelalaian kriminal dewan direksi yang menyedot air sungai beracun demi laba.",
+                "en": "Official government inquiry proved criminal negligence by water directors who pumped toxic river water for profit."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Investigasi Yuridis & Audit Forensik",
+                "incubation": "N/A",
+                "transmission": "Pertanggungjawaban hukum perusahaan publik atas epidemi buatan manusia"
+            },
+            "description": {
+                "id": "Kematian 5.596 warga London memicu kemarahan publik yang luar biasa di media massa dan parlemen. Dewan Pengawas Perdagangan (Board of Trade) menunjuk Kapten Tyler dari Korps Zeni Kerajaan untuk memimpin penyelidikan formal terhadap East London Waterworks Company. Dalam laporannya yang mengguncang publik, Tyler membeberkan bukti tak terbantahkan bahwa teknisi perusahaan secara sengaja membuka pintu air waduk Old Ford yang tercemar limbah untuk menghemat pengeluaran bahan bakar pompa batu bara. Skandal ini menghancurkan reputasi privatisasi air minum tanpa regulasi di Inggris.",
+                "en": "The loss of 5,596 London lives ignited fury across national newspapers and the Houses of Parliament. The Board of Trade appointed Captain Tyler of the Royal Engineers to spearhead an exhaustive technical inquest into the East London Waterworks Company. Tyler's damning report proved that company engineers had deliberately opened the sluice valves connecting contaminated Old Ford reservoirs directly to distribution mains to conserve pumping coal. The revelation permanently crippled public trust in unregulated water monopolies."
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_09.jpg"
+        },
+        {
+            "id": "gbr-ch-10",
+            "chapterNumber": 10,
+            "type": "standard",
+            "title": {
+                "id": "Penyelesaian Thames Embankment: Kemenangan Teknologi Bazalgette",
+                "en": "The Thames Embankment Triumph: Bazalgette's Hydraulic Salvation"
+            },
+            "date": {
+                "id": "1868 – 1870 M",
+                "en": "1868 – 1870 AD"
+            },
+            "flash": {
+                "id": "Penyelesaian tanggul granit Sungai Thames dan jaringan gorong-gorong raksasa membersihkan kota dari limbah selamanya.",
+                "en": "Completion of the granite Thames Embankment and intercepting sewer network cleansed the metropolis permanently."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Infrastruktur Teknik Sipil Raksasa",
+                "incubation": "N/A",
+                "transmission": "Pemisahan permanen dan total antara limbah cair perkotaan dan pasokan air minum"
+            },
+            "description": {
+                "id": "Meskipun wabah 1866 adalah tragedi kemanusiaan, peristiwa itu membuktikan kebenaran absolut dari rekayasa Joseph Bazalgette. Bagian-bagian London yang telah terhubung ke sistem gorong-gorong baru terbukti 100% terlindung dari kolera. Terpacu oleh tragedi London Timur, parlemen mengucurkan dana tambahan untuk mempercepat penyelesaian tanggul granit Thames Embankment (Victoria, Albert, dan Chelsea Embankment) serta memperpanjang saluran pembuangan utara hingga ke Barking Creek, memastikan limbah London dialirkan bermil-mil ke hilir sebelum dibuang ke muara laut.",
+                "en": "Tragic though the 1866 epidemic was, it provided the ultimate empirical vindication for Sir Joseph Bazalgette's sewer masterwork. London neighborhoods connected to his intercepting sewers had remained 100% immune from the pathogen. Galvanized by the East End catastrophe, Parliament allocated immense emergency credits to accelerate the completion of the granite Thames Embankment (Victoria, Albert, and Chelsea) and extend northern outfalls to Barking Creek, guaranteeing all metropolitan sewage was discharged far downstream into the marine estuary."
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_10.jpg"
+        },
+        {
+            "id": "gbr-ch-11",
+            "chapterNumber": 11,
+            "type": "milestone",
+            "title": {
+                "id": "Vindikasi Mutlak John Snow: Runtuhnya Teori Miasma di Britania",
+                "en": "The Total Vindication of John Snow: Death of the Miasma Dogma"
+            },
+            "date": {
+                "id": "1866 – 1871 M",
+                "en": "1866 – 1871 AD"
+            },
+            "flash": {
+                "id": "Delapan tahun setelah wafatnya John Snow, komunitas kedokteran Inggris secara resmi menerima teori penularan air.",
+                "en": "Eight years after John Snow's death, the British medical establishment formally embraced waterborne etiology."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Revolusi Paradigma Ilmiah",
+                "incubation": "N/A",
+                "transmission": "Pengakuan resmi air minum sebagai vektor transmisi primer kolera"
+            },
+            "description": {
+                "id": "Kematian massal di London Timur 1866 menjadi paku terakhir pada peti mati teori miasma di Britania Raya. William Farr sendiri, yang selama bertahun-tahun mempertahankan teori bahwa penyakit disebarkan oleh uap beracun, secara terbuka menyatakan bahwa penyelidikan Sungai Lea telah membuktikan hipotesis almarhum Dr. John Snow secara tak terbantahkan. Jurnal medis bergengsi *The Lancet* dan *British Medical Journal* mempublikasikan editorial yang mengakui bahwa 'air minum yang tercemar adalah kendaraan utama pembawa racun kolera', mengakhiri perdebatan sains selama setengah abad.",
+                "en": "The East London epidemic of 1866 drove the final nail into the coffin of the miasma dogma in the United Kingdom. William Farr himself, who had clung to atmospheric miasma dogmas for decades, publicly conceded that the River Lea data had vindicated the late Dr. John Snow beyond all doubt. Prestigious journals *The Lancet* and the *British Medical Journal* issued historic editorials declaring that 'polluted water is the unquestioned vehicle of the cholera poison', terminating half a century of intellectual denial."
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_11.jpg"
+        },
+        {
+            "id": "gbr-ch-12",
+            "chapterNumber": 12,
+            "type": "standard",
+            "title": {
+                "id": "Undang-Undang Kesehatan Masyarakat 1875: Fondasi Sanitasi Modern",
+                "en": "The Public Health Act 1875: Foundation of Modern State Sanitation"
+            },
+            "date": {
+                "id": "1875 M",
+                "en": "1875 AD"
+            },
+            "flash": {
+                "id": "Pemerintah Disraeli mengesahkan undang-undang kesehatan masyarakat paling komprehensif dalam sejarah dunia.",
+                "en": "Disraeli's government enacted the most comprehensive public health legislation in world history."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Legislasi Negara Kesejahteraan",
+                "incubation": "N/A",
+                "transmission": "Kewajiban hukum penyediaan air bersih dan drainase limbah kedap air bagi semua kota"
+            },
+            "description": {
+                "id": "Pelajaran pahit dari epidemi 1866 berpuncak pada pengesahan Public Health Act 1875 di bawah Perdana Menteri Benjamin Disraeli. Undang-undang revolusioner ini mewajibkan setiap otoritas lokal di seluruh Inggris dan Wales untuk menyediakan air minum bersih yang disaring secara teratur, membangun sistem pembuangan tinja tertutup, menginspeksi perumahan kumuh, dan mengangkat Pejabat Kesehatan Medis (Medical Officer of Health) purna waktu. Tindakan negara ini mengubah sanitasi dari sekadar pilihan amal swasta menjadi hak sipil yang dijamin oleh hukum kekaisaran.",
+                "en": "The searing lessons of the 1866 epidemic culminated in the landmark Public Health Act of 1875 under Prime Minister Benjamin Disraeli. This revolutionary statute legally compelled every municipal council across England and Wales to guarantee filtered tap water, build sealed subterranean sewers, inspect tenement sanitation, and employ full-time Medical Officers of Health. Sanitation ceased to be an elective philanthropic gesture; it became an inviolable statutory civil right guaranteed by imperial law."
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_12.jpg"
+        },
+        {
+            "id": "gbr-ch-13",
+            "chapterNumber": 13,
+            "type": "side_story",
+            "title": {
+                "id": "Mikroskopi Dr. Lionel Beale: Menatap Partikel Maut",
+                "en": "Dr. Lionel Beale's Microscopy: Gazing Upon the Particles of Death"
+            },
+            "date": {
+                "id": "1866 – 1867 M",
+                "en": "1866 – 1867 AD"
+            },
+            "flash": {
+                "id": "Pemeriksaan mikroskopis cairan diare oleh ahli patologi King's College mendokumentasikan peluruhan epitel usus.",
+                "en": "Microscopic analysis of cholera dejecta by King's College pathologists documented epithelial shedding."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Histopatologi & Mikroskop Optik Resolusi Tinggi",
+                "incubation": "N/A",
+                "transmission": "Pengamatan ilmiah kerusakan dinding mukosa dan pelepasan mikrobia usus"
+            },
+            "description": {
+                "id": "Selama wabah London Timur, Dr. Lionel Smith Beale, profesor fisiologi dan anatomi di King's College Hospital, mengumpulkan sampel feses cair dan usus dari korban tewas. Menggunakan mikroskop akromatik berkekuatan tinggi, Beale mempublikasikan litografi mikroskopis detail yang memperlihatkan pelepasan masif sel-sel epitel mukosa usus dan mendokumentasikan miliaran partikel renik hidup yang bergerak lincah. Meskipun belum mampu mengisolasi biakan murni seperti Robert Koch 17 tahun kemudian, riset Beale memberikan bukti fisik nyata bahwa kolera adalah penyakit perusakan seluler yang dimediasi oleh agen mikroskopis.",
+                "en": "During the East End outbreak, Dr. Lionel Smith Beale, professor of physiology at King's College Hospital, gathered bowel dejecta and intestinal tissue from fatalities. Employing high-resolution achromatic immersion lenses, Beale published meticulous lithographs revealing catastrophic desquamation of intestinal mucosal epithelium amidst swarming microscopic particles. Though lacking pure culture isolation protocols achieved by Robert Koch 17 years later, Beale's histological evidence proved cholera was an acute cellular destruction mediated by microscopic biological pathogens."
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_13.jpg"
+        },
+        {
+            "id": "gbr-ch-14",
+            "chapterNumber": 14,
+            "type": "standard",
+            "title": {
+                "id": "Tirai Penutup Kolera di London: Epidemi Terakhir Sang Metropolis",
+                "en": "The Final Curtain in London: The Metropolis's Last Cholera Epidemic"
+            },
+            "date": {
+                "id": "Desember 1866 M",
+                "en": "December 1866 AD"
+            },
+            "flash": {
+                "id": "Wabah 1866 tercatat sebagai epidemi kolera skala besar terakhir yang pernah melanda ibukota Kekaisaran Britania.",
+                "en": "The 1866 outbreak marked the final large-scale cholera epidemic to ever breach the British imperial capital."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Kemenangan Rekayasa Sanitasi Kota",
+                "incubation": "N/A",
+                "transmission": "Eradikasi transmisi perkotaan berkat kombinasi filtrasi air dan pembuangan limbah terpadu"
+            },
+            "description": {
+                "id": "Ketika musim dingin tiba pada Desember 1866, wabah di London Timur mereda sepenuhnya. Tanpa disadari oleh warga pada saat itu, London telah menyaksikan epidemi kolera terakhir dalam sejarahnya. Meskipun gelombang pandemi kelima dan keenam kelak menyapu Eropa pada dekade-dekade berikutnya, London tidak pernah lagi tertembus oleh kolera dalam skala massal. Integrasi filtrasi pasir lambat, pengawasan ketat terhadap intake air minum, dan jaringan pembuangan Bazalgette berhasil mendirikan benteng epidemiologis yang tak tertembus.",
+                "en": "As winter descended in December 1866, the East End epidemic sputtered out and died. Unbeknownst to Londoners at the time, the metropolis had endured its final cholera epidemic. Though the fifth and sixth global pandemics would subsequently devastate continental Europe, London's perimeter was never breached again. The tripartite shield of slow-sand filtration, relentless intake inspection, and Bazalgette's outfall sewers forged an impenetrable municipal firewall against waterborne terror."
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_14.jpg"
+        },
+        {
+            "id": "gbr-ch-15",
+            "chapterNumber": 15,
+            "type": "summary",
+            "title": {
+                "id": "Audit Epidemiologis Sektor GBR: Revolusi Data & Kemenangan Rekayasa",
+                "en": "Epidemiological Audit of Sector GBR: The Data Revolution & Engineering Triumph"
+            },
+            "date": {
+                "id": "1875 M",
+                "en": "1875 AD"
+            },
+            "flash": {
+                "id": "Sektor GBR membuktikan kekuatan statistika William Farr dan rekayasa sipil dalam menundukkan kolera perkotaan.",
+                "en": "Sector GBR demonstrated the triumph of quantitative biostatistics and civil engineering over urban disease."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik)",
+                "vector": "Sintesis Epidemiologi Perkotaan",
+                "incubation": "N/A",
+                "transmission": "Standar emas konvergensi antara biostatistika, rekayasa sipil, dan regulasi korporasi air"
+            },
+            "description": {
+                "id": "Sektor GBR (London Timur & Sungai Lea 1866) merepresentasikan momen penyempurnaan epidemiologi modern. Di sinilah teori air minum John Snow beralih dari hipotesis ilmiah kontroversial menjadi konsensus medis nasional yang tak terbantahkan melalui ketajaman statistika William Farr. Kematian 5.596 korban jiwa di London Timur memaksa negara meruntuhkan keserakahan korporasi air swasta, melahirkan Public Health Act 1875, dan membuktikan bahwa pertahanan terbaik peradaban melawan mikroorganisme mematikan bukanlah mantra ataupun kepanikan, melainkan air bersih yang mengalir dari pipa yang steril.",
+                "en": "Sector GBR (East London & River Lea 1866) represents the definitive maturation of modern public health. Here, John Snow's waterborne doctrine transformed from a contested hypothesis into unassailable imperial consensus through the forensic biostatistics of William Farr. The sacrifice of 5,596 lives forced Parliament to subjugate predatory water monopolies, inaugurate the Public Health Act of 1875, and prove that civilization's greatest bulwark against microscopic death is neither superstition nor panic, but pure filtered water coursing through sterilized pipes."
+            },
+            "image": "/assets/images/cholera/wave-4/gbr/gbr_ch_15.jpg"
+        }
+    ]
+}

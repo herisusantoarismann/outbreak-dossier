@@ -1,0 +1,336 @@
+{
+  "sectorId": "IDN",
+  "waveIndex": 7,
+  "sectorName": {
+    "id": "Makassar & Kepulauan Indonesia (Ground Zero El Tor)",
+    "en": "Makassar & Indonesian Archipelago (El Tor Ground Zero)"
+  },
+  "coordinates": [
+    -5.1477,
+    119.4327
+  ],
+  "timeRange": "1961 – 1970",
+  "estimatedFatalities": "45,000+",
+  "chapters": [
+    {
+      "id": "idn_ch_01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Titik Nol Ujung Pandang: Pelarian Biotipe El Tor",
+        "en": "Ground Zero Ujung Pandang: The El Tor Biotype Escape"
+      },
+      "date": {
+        "id": "Mei 1961",
+        "en": "May 1961"
+      },
+      "flash": {
+        "id": "Di pesisir Makassar, Sulawesi Selatan, biotipe Vibrio cholerae El Tor yang selama puluhan tahun dianggap tidak berbahaya mendadak bermutasi memicu kolera ganas.",
+        "en": "Along the coast of Makassar, South Sulawesi, the Vibrio cholerae El Tor biotype, considered non-epidemic for decades, abruptly escapes its endemic sanctuary."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae serogroup O1, biotype El Tor, serotype Ogawa",
+        "vector": "Perahu nelayan bagan, muara sungai Tallo, dan tambak bandeng pesisir",
+        "incubation": "12 – 72 jam",
+        "transmission": "Fekal-oral via air payau pesisir dan makanan laut mentah atau setengah matang",
+        "mutationType": {
+          "id": "Biotipe V. cholerae El Tor (Resisten Polimiksin B & Hemolitik)",
+          "en": "V. cholerae biotype El Tor (Polymyxin B Resistant & Hemolytic)"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Titik Awal Pandemi Global Baru",
+          "en": "Tier V - Genesis of a New Global Pandemic"
+        },
+        "clinicalTarget": {
+          "id": "Komunitas nelayan pesisir Bugis-Makassar dan buruh pelabuhan",
+          "en": "Bugis-Makassar coastal fishing communities and dockworkers"
+        }
+      },
+      "description": {
+        "id": "Pada Mei 1961, di kota pelabuhan Makassar (Ujung Pandang), Sulawesi Selatan, sebuah peristiwa biologis yang mengubah sejarah kedokteran dunia dimulai tanpa peringatan. Sejak diisolasi pertama kali oleh Felix Gotschlich di Semenanjung Sinai pada 1905, biotipe El Tor secara luas diklasifikasikan oleh Organisasi Kesehatan Dunia (WHO) sebagai vibrio hemolitik air payau yang hanya menyebabkan diare ringan non-epidemik. Namun di muara Sungai Tallo dan perkampungan nelayan Paotere, strain El Tor baru yang mengalami pergeseran genetik virulensi mulai merenggut nyawa warga dalam hitungan jam akibat dehidrasi berat mirip kolera Asia klasik. Rumah Sakit Dadi Makassar dipenuhi ratusan pasien yang mengalami diare 'cucian beras' fulminan dan kram otot ekstrem. Tanpa disadari oleh otoritas sanitasi lokal, mutan El Tor ini memiliki keunggulan evolusioner yang mematikan: ia mampu bertahan hidup berminggu-minggu di perairan muara bersalinitas tinggi dan menghasilkan hingga 50 kali lebih banyak pembawa tanpa gejala (asymptomatic carriers) dibandingkan strain klasik.",
+        "en": "In May 1961, in the bustling maritime port of Makassar (Ujung Pandang), South Sulawesi, a microbiological watershed that would permanently alter global epidemiology unfolded without fanfare. Since its initial isolation by Felix Gotschlich in the Sinai Peninsula in 1905, the El Tor biotype had been categorized by the World Health Organization as a benign, hemolytic aquatic vibrio incapable of initiating pandemic devastation. Yet along the brackish estuaries of the Tallo River and Paotere fishing communities, a newly evolved El Tor variant detonated, felling patients within hours from catastrophic rice-water diarrhea and hypovolemic collapse indistinguishable from classical cholera. Dadi General Hospital was swamped with cyanotic patients. Unbeknownst to municipal doctors, this novel pathogen possessed formidable evolutionary advantages: unprecedented resilience in coastal marine waters and an extraordinary asymptomatic-to-symptomatic ratio exceeding 30-to-1, providing an invisible cloak for transoceanic dispersion."
+      },
+      "image": "/assets/images/cholera/wave-7/idn/idn_ch_01.jpg"
+    },
+    {
+      "id": "idn_ch_02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Eksodus Maritim Phinisi: Melompati Laut Jawa ke Sunda Kelapa",
+        "en": "The Phinisi Maritime Exodus: Leaping the Java Sea to Sunda Kelapa"
+      },
+      "date": {
+        "id": "Juni – September 1961",
+        "en": "June – September 1961"
+      },
+      "flash": {
+        "id": "Armada perahu layar tradisional Phinisi dan kapal dagang kayu menyebarkan vibrio dari pelabuhan Paotere melintasi Laut Flores, Selat Madura, hingga ke Tanjung Priok.",
+        "en": "Traditional wooden Phinisi schooners and inter-island traders carry the vibrio from Paotere across the Flores Sea to the northern coastline of Java."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae El Tor",
+        "vector": "Tong air tawar perahu phinisi dan sanitasi geladak terbuka",
+        "incubation": "24 – 48 jam",
+        "transmission": "Fekal-oral di antara awak kapal pelayaran rakyat antarpulau",
+        "mutationType": {
+          "id": "Transmisi Maritim Kepulauan Nusantara",
+          "en": "Archipelagic Maritime Ingress Lineage"
+        },
+        "threatLevel": {
+          "id": "Tingkat IV - Penyebaran Nasional Antarpulau",
+          "en": "Tier IV - Inter-Island National Propagation"
+        },
+        "clinicalTarget": {
+          "id": "Pelaut rakyat Bugis, kuli bongkar muat pelabuhan, dan pemukim pesisir",
+          "en": "Bugis mariners, stevedores, and coastal littoral inhabitants"
+        }
+      },
+      "description": {
+        "id": "Karakteristik geografis Indonesia sebagai negara kepulauan dengan ribuan pelabuhan rakyat tanpa pengawasan sanitasi ketat menjadi medium transmisi sempurna bagi El Tor. Dari pelabuhan Paotere Makassar, ratusan perahu layar tradisional Phinisi berlayar membawa kopra, rempah-rempah, dan hasil laut menuju Jawa, Bali, dan Nusa Tenggara. Para pelaut yang terinfeksi tanpa gejala mengonsumsi air dari tong kayu bersama dan buang air langsung ke laut di sekitar tambatan kapal. Pada Juni 1961, kolera meletus di Pulau Flores dan pesisir Lombok. Dua bulan kemudian, kasus-kasus fulminan pertama terdeteksi di kalangan buruh dermaga Kali Baru dan Sunda Kelapa di Jakarta Utara. Di pemukiman padat bantaran Kali Ciliwung, di mana air sungai digunakan secara serentak untuk mandi, mencuci, dan minum, bakteri menemukan bahan bakar baru yang menyulut epidemi perkotaan dahsyat.",
+        "en": "The archipelagic geography of Indonesia, characterized by thousands of porous littoral harbors devoid of maritime quarantine surveillance, provided an ideal vector network for El Tor. From Makassar's Paotere harbor, vast flotillas of traditional twin-masted Phinisi schooners sailed carrying copra, timber, and dried fish toward Java, Bali, and the Lesser Sunda islands. Asymptomatic maritime crews shared wooden water casks and defecated directly into harbor shallows. By June 1961, explosive clusters detonated across Flores and western Lombok. Within eight weeks, acute cases breached the quays of Kali Baru and Sunda Kelapa in North Jakarta. In the dense kampungs flanking the murky Ciliwung River, where raw river water served simultaneously for domestic bathing, culinary prep, and drinking, the pathogen ignited an uncontrollable urban firestorm."
+      },
+      "image": "/assets/images/cholera/wave-7/idn/idn_ch_02.jpg"
+    },
+    {
+      "id": "idn_ch_03",
+      "chapterNumber": 3,
+      "type": "side_story",
+      "title": {
+        "id": "Laboratorium Lembaga Eijkman & Kontroversi Taksonomi Internasional",
+        "en": "The Eijkman Institute Lab & The International Taxonomy Controversy"
+      },
+      "date": {
+        "id": "Oktober 1961 – 1962",
+        "en": "October 1961 – 1962"
+      },
+      "flash": {
+        "id": "Para ilmuwan Indonesia di Lembaga Eijkman membuktikan bahwa patogen Makassar adalah kolera sejati, memaksa WHO merevisi Peraturan Sanitasi Internasional.",
+        "en": "Indonesian scientists at the Eijkman Institute prove the Makassar vibrio causes true cholera, compelling the WHO to overhaul the International Sanitary Regulations."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae El Tor (Tipe Serologis Inaba dan Ogawa)",
+        "vector": "Kultur agar pepton gelatin, uji hemolisis sel darah domba, dan lisis bakteriofag",
+        "incubation": "N/A (Investigasi Mikrobiologis)",
+        "transmission": "Konfirmasi laboratorium sifat virulensi galur Sulawesi",
+        "mutationType": {
+          "id": "Penetapan Taksonomi Patogen Karantina Baru",
+          "en": "Quarantine Pathogen Taxonomic Reclassification"
+        },
+        "threatLevel": {
+          "id": "Tingkat III - Disrupsi Kebijakan Kesehatan Dunia",
+          "en": "Tier III - Global Health Policy Disruption"
+        },
+        "clinicalTarget": {
+          "id": "Bakteriolog medis, delegasi WHO, dan kementerian kesehatan",
+          "en": "Medical bacteriologists, WHO delegates, and health ministries"
+        }
+      },
+      "description": {
+        "id": "Ketika laporan kematian ribuan orang di Indonesia mencapai kantor WHO di Jenewa, kebingungan ilmiah dan diplomatik terjadi. Di bawah Peraturan Sanitasi Internasional (ISR) 1951, penyakit yang wajib dikarantina secara hukum hanyalah yang disebabkan oleh Vibrio cholerae galur Klasik; biotipe El Tor secara tegas dikecualikan karena dianggap tidak menular secara epidemik. Di Jakarta, para peneliti di Lembaga Biologi Molekuler Eijkman dan Laboratorium Kesehatan Pusat bekerja siang malam melakukan uji biokimiawi, hemolisin terhadap eritrosit domba, dan resistensi terhadap bakteriofag Mukerjee IV. Hasil kultur membuktikan secara tak terbantahkan bahwa galur El Tor Sulawesi mampu memproduksi toksin enterotoksin kolera yang identik dengan galur klasik dan memiliki potensi pandemi yang jauh lebih besar. Pada pertemuan Majelis Kesehatan Dunia (WHA) Mei 1962, bukti tak terbantahkan dari Indonesia memaksa WHO meratifikasi amendemen darurat yang memasukkan kolera El Tor ke dalam daftar penyakit karantina internasional wajib.",
+        "en": "As reports of soaring mortalities across Indonesia reached the WHO headquarters in Geneva, a severe bureaucratic and taxonomic impasse emerged. Under the 1951 International Sanitary Regulations, legally notifiable quarantinable cholera was strictly defined as illness caused by classical Vibrio cholerae; the El Tor biotype was explicitly exempt as an organism of low public health consequence. In Jakarta, bacteriologists at the historic Eijkman Institute and the Central Public Health Laboratory conducted exhaustive microbiological trials, testing sheep erythrocyte hemolysis, Voges-Proskauer reactions, and Mukerjee's Group IV bacteriophage susceptibility. Their clinical isolations demonstrated conclusively that the Sulawesi El Tor organism synthesized authentic, lethal cholera enterotoxin capable of catastrophic pandemism. In May 1962, confronting irrefutable laboratory data from Indonesia, the World Health Assembly enacted emergency revisions to the International Sanitary Regulations, formally designating El Tor as a quarantinable pathogen."
+      },
+      "image": "/assets/images/cholera/wave-7/idn/idn_ch_03.jpg"
+    },
+    {
+      "id": "idn_ch_04",
+      "chapterNumber": 4,
+      "type": "standard",
+      "title": {
+        "id": "Invasi Pelabuhan Asia: Singapura, Kuching, & Manila",
+        "en": "The Asian Harbor Incursion: Singapore, Kuching, & Manila"
+      },
+      "date": {
+        "id": "Agustus 1961 – 1962",
+        "en": "August 1961 – 1962"
+      },
+      "flash": {
+        "id": "El Tor melompati perbatasan internasional, menyusup ke Sarawak, Kalimantan Utara, pelabuhan bebas Singapura, dan dermaga Teluk Manila.",
+        "en": "El Tor leaps international borders, infiltrating Sarawak, the free port of Singapore, and the bustling docks of Manila Bay."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae El Tor",
+        "vector": "Kapal niaga pesisir Selat Malaka dan pelaut lintas batas Laut Cina Selatan",
+        "incubation": "12 – 48 jam",
+        "transmission": "Fekal-oral di pemukiman perahu terapung dan pangkalan nelayan",
+        "mutationType": {
+          "id": "Penyebaran Regional Maritim Asia Tenggara",
+          "en": "Southeast Asian Maritime Dispersal Clade"
+        },
+        "threatLevel": {
+          "id": "Tingkat IV - Eskalasi Epidemi Kawasan Regional",
+          "en": "Tier IV - Regional Asian Epidemic Escalation"
+        },
+        "clinicalTarget": {
+          "id": "Komunitas rumah panggung pesisir, buruh pelabuhan, dan keluarga migran",
+          "en": "Stilt-house water villages, dockers, and migratory fishermen"
+        }
+      },
+      "description": {
+        "id": "Dengan mobilitas maritim modern pascaperang, El Tor tidak tertahan di perairan Indonesia. Pada Agustus 1961, wabah meletus di Sarawak di sepanjang Sungai Rajang dan Kuching. Hampir bersamaan, bakteri menyusup ke perahu-perahu nelayan di Selat Tebrau yang memisahkan Semenanjung Malaya dan Singapura. Di pelabuhan bebas Singapura, kasus-kasus kolera memicu kepanikan perdagangan internasional. Sementara itu di Filipina, El Tor mendarat di kawasan kumuh Tondo di Teluk Manila pada September 1961, menjangkiti lebih dari 15.000 warga dalam hitungan bulan. Penyebaran cepat ini memperlihatkan sifat El Tor yang jauh lebih agresif di kawasan estuaria tropis yang hangat dan kaya akan fitoplankton, menciptakan basis reservoir endemik baru di seluruh garis pantai Asia Tenggara.",
+        "en": "Propelled by rapid post-war maritime commerce, El Tor breached Indonesia's territorial waters in late 1961. Clusters erupted along the mangrove-lined Rajang River in Sarawak and Kuching. Concurrently, sampan traffic shuttled the vibrio across the Tebrau Strait into Singapore. Within the British Crown Colony's strategic entrepôt, imported cholera cases threatened international maritime trade. By September 1961, El Tor made landfall in the squalid Tondo waterfront slums of Manila Bay, claiming thousands of victims and infecting over 15,000 Filipinos within months. This explosive dispersion demonstrated El Tor's extraordinary affinity for warm, brackish tropical estuaries rich in copepods and phytoplankton, establishing permanent endemic reservoirs along the entire coastline of Southeast Asia."
+      },
+      "image": "/assets/images/cholera/wave-7/idn/idn_ch_04.jpg"
+    },
+    {
+      "id": "idn_ch_05",
+      "chapterNumber": 5,
+      "type": "milestone",
+      "title": {
+        "id": "Krisis G30S, Kelaparan Pedesaan, & Kolera Jawa Tengah 1966",
+        "en": "The 1966 Political Turmoil, Rural Famine, & Central Java Epidemics"
+      },
+      "date": {
+        "id": "1965 – 1967",
+        "en": "1965 – 1967"
+      },
+      "flash": {
+        "id": "Di tengah kekacauan politik nasional 1965–1966 dan hiperinflasi ekstrem, runtuhnya layanan kesehatan pedesaan memicu lonjakan kematian kolera di Jawa dan Bali.",
+        "en": "Amidst Indonesia's 1965–1966 political cataclysm and hyperinflation, the breakdown of rural sanitation sparks massive cholera mortality across Java and Bali."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae El Tor",
+        "vector": "Saluran irigasi sawah pedesaan, sungai tempat pembuangan jenazah, dan sumur dangkal",
+        "incubation": "12 – 36 jam",
+        "transmission": "Pencemaran sumber air minum pedesaan selama anarki sosial",
+        "mutationType": {
+          "id": "Amplifikasi Krisis Humaniter & Keruntuhan Sanitasi",
+          "en": "Humanitarian Breakdown Amplified Lineage"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Bencana Sanitasi Pedesaan Nasional",
+          "en": "Tier V - National Rural Sanitary Catastrophe"
+        },
+        "clinicalTarget": {
+          "id": "Petani miskin Jawa Tengah, anak-anak malnutrisi, dan pengungsi internal",
+          "en": "Impoverished Central Javanese peasantry, malnourished children, and displaced persons"
+        }
+      },
+      "description": {
+        "id": "Tahun-tahun penuh gejolak antara 1965 dan 1967 menjadi salah satu periode paling kelam bagi kesehatan publik di Indonesia. Peristiwa G30S, pembersihan politik massal, dan hiperinflasi ekonomi hingga 600% melumpuhkan seluruh rantai pasok logistik farmasi, klorin, dan infus salin. Di pedesaan Jawa Tengah, Jawa Timur, dan Bali, saluran irigasi dan sungai-sungai utama yang tercemar jenazah dan limbah menjadi jalur transmisi Vibrio cholerae yang tak terbendung. Ribuan petani miskin yang menderita busung lapar dan kekurangan gizi meninggal tanpa pernah menerima bantuan medis. Di banyak desa di Banyuwangi, Bojonegoro, dan Klaten, warga menutup akses jalan dengan bambu runcing untuk mengisolasi diri dari wabah, menghidupkan kembali kepanikan abad ke-19 di tengah era modern pascakolonial.",
+        "en": "The turbulent years between 1965 and 1967 marked a tragic nadir in Indonesian public health. The violent convulsions following the 30 September Movement, mass civil conflict, and hyperinflation exceeding 600% completely disintegrated pharmaceutical supply chains, chlorine imports, and intravenous fluids. Across the agrarian interiors of Central and East Java and Bali, primary irrigation waterways and rivers fouled by social chaos transformed into lethal conduits for Vibrio cholerae. Thousands of impoverished villagers suffering from kwashiorkor and systemic malnutrition collapsed without medical intervention. In villages across Klaten, Bojonegoro, and Banyuwangi, terrified peasants barricaded dirt roads with sharpened bamboo to enforce self-quarantine, resurrecting 19th-century sanitary panics within a fragile post-colonial state."
+      },
+      "image": "/assets/images/cholera/wave-7/idn/idn_ch_05.jpg"
+    },
+    {
+      "id": "idn_ch_06",
+      "chapterNumber": 6,
+      "type": "side_story",
+      "title": {
+        "id": "Revolusi Oralit: Uji Coba Lapangan Garam Rehidrasi Oral (ORS)",
+        "en": "The Oral Rehydration Revolution: Field Trials of ORS Packets"
+      },
+      "date": {
+        "id": "1968 – 1971",
+        "en": "1968 – 1971"
+      },
+      "flash": {
+        "id": "Dokter Indonesia dan peneliti internasional mengembangkan saset bubuk garam gula murah (Oralit), mendemokratisasi penyelamatan nyawa balita dari dehidrasi kolera.",
+        "en": "Indonesian clinicians and global researchers pioneer simple glucose-electrolyte salt packets (Oralit), revolutionizing dehydration survival in remote villages."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Penyediaan larutan rehidrasi oral tingkat desa",
+        "incubation": "N/A (Inovasi Terapi Klinis)",
+        "transmission": "Penghentian syok hipovolemik via penyerapan kotranspor natrium-glukosa usus",
+        "mutationType": {
+          "id": "Terobosan Terapeutik Rehidrasi Oral (ORS)",
+          "en": "Oral Rehydration Therapy (ORS) Breakthrough"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Standar Emas Penyelamatan Jiwa Global",
+          "en": "Tier I - Global Gold Standard Life-Saving Modality"
+        },
+        "clinicalTarget": {
+          "id": "Balita penderita dehidrasi, keluarga pedesaan, dan kader kesehatan posyandu",
+          "en": "Dehydrated infants, rural families, and community health volunteers"
+        }
+      },
+      "description": {
+        "id": "Salah satu warisan ilmiah terpenting dari Pandemi Ketujuh di Indonesia adalah lahir dan diterapkannya terapi rehidrasi oral secara massal. Sebelumnya, penanganan kolera bergantung sepenuhnya pada infus cairan intravena yang mahal, memerlukan botol kaca steril, jarum suntik, dan tenaga medis terlatih—fasilitas yang hampir tidak ada di pulau-pulau terpencil Nusantara. Bekerja sama dengan temuan terobosan dari Cholera Research Laboratory di Dhaka, Departemen Kesehatan RI mulai menguji formula larutan rehidrasi oral sederhana yang memanfaatkan mekanisme biokimia kotranspor natrium-glukosa di dinding usus halus. Di bawah merek 'Oralit', saset serbuk elektrolit murah diproduksi secara massal dan didistribusikan ke puskesmas-puskesmas pedesaan. Ibu-ibu di desa diajarkan untuk melarutkan bubuk tersebut dalam air matang segera setelah anak mereka mengalami diare. Inovasi sederhana ini berhasil memangkas angka kematian balita akibat dehidrasi dari 50% menjadi kurang dari 1%, dipuji oleh jurnal *The Lancet* sebagai terobosan medis paling penting pada abad ke-20.",
+        "en": "One of the most consequential clinical triumphs emerging from the Seventh Pandemic in Indonesia was the mass deployment of Oral Rehydration Salts (ORS). Historically, cholera therapy required liters of expensive sterile intravenous saline, glass bottles, cannulas, and physician oversight—resources virtually unobtainable across remote archipelago outposts. Leveraging foundational discoveries from the Cholera Research Laboratory in Dhaka demonstrating that glucose actively drives sodium and water absorption across damaged intestinal mucosa, the Indonesian Ministry of Health initiated nationwide trials of domestic ORS packets, christened 'Oralit.' Produced at industrial scale for pennies per sachet, Oralit was stocked in fledgling rural health centers (Puskesmas). Village mothers were trained to reconstitute the salts in boiled water at the first sign of purging. This simple therapy slashed pediatric dehydration mortality from 50% to under 1%, hailed by *The Lancet* as the century's most vital medical advance."
+      },
+      "image": "/assets/images/cholera/wave-7/idn/idn_ch_06.jpg"
+    },
+    {
+      "id": "idn_ch_07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Proyek Air Minum Inpres & Program Jambanisasi Orde Baru",
+        "en": "The Inpres Potable Water Mandates & The New Order Latrine Campaigns"
+      },
+      "date": {
+        "id": "1973 – 1980",
+        "en": "1973 – 1980"
+      },
+      "flash": {
+        "id": "Pemerintahan Orde Baru mengerahkan dana 'Inpres Sarana Air Bersih' dan program jamban leher angsa untuk memutus siklus endemik El Tor di pulau Jawa dan Sumatera.",
+        "en": "The New Order government mobilizes presidential decree funds for rural piped artesian wells and pour-flush latrines to sever endemic El Tor transmission."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae El Tor",
+        "vector": "Jamban cemplung terbuka dan rembesan tinja ke air tanah dangkal",
+        "incubation": "24 – 48 jam",
+        "transmission": "Pemberantasan buang air besar sembarangan via jamban leher angsa",
+        "mutationType": {
+          "id": "Sanitasi Infrastruktur Terpusat Tingkat Pedesaan",
+          "en": "Rural Centralized Sanitary Infrastructure Program"
+        },
+        "threatLevel": {
+          "id": "Tingkat II - Rekonstruksi Sanitasi Nasional Skala Besar",
+          "en": "Tier II - Large-Scale National Sanitary Reconstruction"
+        },
+        "clinicalTarget": {
+          "id": "Populasi desa agraris, murid sekolah dasar, dan ibu rumah tangga",
+          "en": "Agrarian village populations, primary school pupils, and housewives"
+        }
+      },
+      "description": {
+        "id": "Memasuki era stabilisasi ekonomi 1970-an, pemerintah Orde Baru melancarkan program sanitasi lingkungan terbesar dalam sejarah Asia Tenggara melalui Instruksi Presiden (Inpres) Sarana Air Bersih dan Sanitasi Lingkungan. Menyadari bahwa kolera El Tor telah menjadi penyakit endemik yang mengakar di sungai-sungai Indonesia, jutaan dolar dari rejeki nomplok minyak bumi (oil boom) dialokasikan untuk membangun ratusan ribu sumur pompa tangan, penampungan mata air pegunungan, dan jamban leher angsa berspesifikasi sanitasi modern di pedesaan Jawa, Sumatera, dan Sulawesi. Tenaga Sanitarian Puskesmas dikerahkan ke dusun-dusun terpencil untuk menggalakkan 'jambanisasi' dan melarang buang air besar di sungai. Meskipun kolera El Tor tidak pernah sepenuhnya musnah dari ekosistem pesisir Indonesia, program infrastruktur massal ini berhasil menghapus epidemi mematikan berskala jutaan kasus dari tanah air.",
+        "en": "Entering the economic stabilization of the 1970s, the New Order regime launched the largest rural water and sanitation crusade in Southeast Asian history through Presidential Instruction (Inpres) decrees. Acknowledging that El Tor had entrenched itself as an endemic resident of Indonesian rivers, windfall petrodollars were channeled into constructing hundreds of thousands of deep hand-pump wells, protected spring catchments, and pour-flush water-seal latrines across Java, Sumatra, and Sulawesi. District sanitarians traversed rural hamlets enforcing the 'Jambanisasi' latrine drive, penalizing river defecation. While the El Tor biotype was never completely eradicated from the nation's estuarine ecosystems, this monumental public works campaign definitively terminated catastrophic, multi-thousand-fatality urban epidemics across the archipelago."
+      },
+      "image": "/assets/images/cholera/wave-7/idn/idn_ch_07.jpg"
+    },
+    {
+      "id": "idn_ch_08",
+      "chapterNumber": 8,
+      "type": "summary",
+      "title": {
+        "id": "Epilog Sulawesi: Enam Dekade Invasi Tanpa Akhir",
+        "en": "The Sulawesi Epilogue: Six Decades of an Unending Invasion"
+      },
+      "date": {
+        "id": "1980 – Sekarang",
+        "en": "1980 – Present"
+      },
+      "flash": {
+        "id": "Enam puluh tahun setelah pelariannya dari Makassar, galur El Tor Sulawesi telah menaklukkan lima benua dan tetap menjadi patogen kolera dominan di dunia.",
+        "en": "Sixty years after escaping Makassar, the Sulawesi El Tor lineage has conquered five continents, remaining the defining pandemic agent of the modern era."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae serogroup O1 biotype El Tor (Garis Keturunan Global)",
+        "vector": "Perairan laut pesisir global, air balas kapal kargo modern, dan krisis kemanusiaan",
+        "incubation": "N/A (Status Endemik Global Permanen)",
+        "transmission": "Penetapan ekologis permanen dalam flora laut dan infeksi air minum darurat",
+        "mutationType": {
+          "id": "Evolusi Genomik Wave 7 Transkontinental",
+          "en": "Transcontinental Wave 7 Genomic Clade"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Pengawasan Genomik & Kesiapsiagaan Global Berkelanjutan",
+          "en": "Tier I - Continuous Global Genomic Surveillance & Preparedness"
+        },
+        "clinicalTarget": {
+          "id": "Komunitas rentan di zona konflik dan bencana iklim seluruh dunia",
+          "en": "Vulnerable populations in conflict and climate disaster zones worldwide"
+        }
+      },
+      "description": {
+        "id": "Kisah Pandemi Ketujuh yang bermula di Makassar pada 1961 adalah bab paling bertahan lama dalam sejarah penyakit menular manusia. Dari perairan hangat Sulawesi Selatan, bakteri yang awalnya dianggap tidak berbahaya ini berhasil melintasi Samudra Hindia, menginvasi Afrika pada 1970, menyerbu Amerika Latin pada 1991, dan meluluhlantakkan Haiti serta Yaman pada abad ke-21. Analisis sekuensing genom modern membuktikan bahwa semua galur kolera pandemi yang bersirkulasi di dunia saat ini adalah keturunan klonal langsung dari galur 'Sulawesi 1961'. Indonesia menjadi saksi di mana kolera bertransformasi dari penyakit darat musiman menjadi ancaman maritim global yang terintegrasi dengan perubahan iklim dan krisis kemanusiaan modern, membuktikan bahwa evolusi mikroba selalu selangkah lebih maju daripada batas-batas pertahanan manusia.",
+        "en": "The narrative of the Seventh Pandemic, ignited in Makassar in 1961, represents the most protracted infectious disease episode in recorded history. From the shallow coastal waters of South Sulawesi, a microbe once dismissed as harmless conquered five continents: sweeping across the Indian Ocean to Africa in 1970, storming Latin America in 1991, and unleashing humanitarian havoc in Haiti and Yemen in the 21st century. Whole-genome sequencing has definitively demonstrated that nearly all contemporary pandemic cholera isolates are direct clonal descendants of the original 1961 Sulawesi ancestor. Indonesia was the crucible where cholera mutated from an archaic seasonal threat into a resilient, climate-entrenched global pathogen, offering an enduring lesson in microbiological adaptation."
+      },
+      "image": "/assets/images/cholera/wave-7/idn/idn_ch_08.jpg"
+    }
+  ]
+}

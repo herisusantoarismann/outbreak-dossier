@@ -1,0 +1,487 @@
+{
+    "sectorId": "JES",
+    "waveIndex": 1,
+    "sectorName": {
+        "id": "Sektor Jessore & Kalkuta (Delta Gangga & Episentrum Perdana 1817)",
+        "en": "Sector Jessore & Calcutta (The Bengal Delta & Inception 1817)"
+    },
+    "coordinates": [23.1687, 89.2173],
+    "timeRange": "Agustus 1817 – 1821 M",
+    "estimatedFatalities": "1.000.000+ (Subbenua India, Kepulauan Hindia Timur, & Teluk Persia)",
+    "chapters": [
+        {
+            "id": "jes-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Rawa Sundarbans: Reservoir Abadi Sang Basil",
+                "en": "The Sundarbans Mangrove: Reservoir of the Bacillus"
+            },
+            "date": { "id": "Awal 1817 M", "en": "Early 1817 AD" },
+            "flash": {
+                "id": "Di perairan payau delta Sungai Gangga dan Brahmaputra, ekosistem plankton purba menyimpan mikroorganisme berbentuk koma yang siap meledak ke peradaban manusia.",
+                "en": "In the brackish waters of the Ganges and Brahmaputra delta, ancient plankton ecosystems harbored comma-shaped microorganisms poised to erupt."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+                "vector": "Copepoda & Plankton Perairan Payau",
+                "incubation": "Beberapa Jam – 5 Hari",
+                "transmission": "Rembesan air rawa delta ke sumur dan saluran irigasi desa"
+            },
+            "description": {
+                "id": "Rawa bakau Sundarbans yang luas dan liar di selatan Bengal telah berabad-abad menjadi reservoir alami bakteri Vibrio cholerae. Bakteri ini menempel secara simbiosis pada cangkang mikroskopis copepoda di perairan payau muara. Pada awal tahun 1817, anomali iklim global pasca-letusan Tambora (1815) memicu kegagalan pola angin monsun yang disusul oleh banjir bandang yang belum pernah terjadi sebelumnya, membilas jutaan koloni bakteri ini dari ekosistem pesisir ke jalur-jalur air pedalaman yang padat penduduk.",
+                "en": "The sprawling mangrove wilderness of the Sundarbans in southern Bengal had served for centuries as the natural reservoir of Vibrio cholerae. The bacteria lived in symbiosis upon microscopic copepod crustaceans in estuarine waters. In early 1817, post-Tambora climatic disruptions caused severe monsoon failures followed by unprecedented flash floods, flushing millions of bacterial colonies from coastal swamps into densely inhabited inland waterways."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_01.jpg"
+        },
+        {
+            "id": "jes-ch-02",
+            "chapterNumber": 2,
+            "type": "standard",
+            "title": {
+                "id": "Banjir Monsun Jessore: Padi yang Terendam",
+                "en": "The Monsoon Inundation of Jessore: Drowned Paddy"
+            },
+            "date": {
+                "id": "Juli – Agustus 1817 M",
+                "en": "July – August 1817 AD"
+            },
+            "flash": {
+                "id": "Curah hujan ekstrem menenggelamkan distrik Jessore; sawah padi membusuk dan sumur-sumur air minum bercampur dengan lumpur pembuangan limbah.",
+                "en": "Torrential rains submerge the Jessore district; rice paddies rot and open drinking wells mix with foul sewer silt."
+            },
+            "virusProfile": {
+                "agent": "Pencemaran Hidrologis Massal",
+                "vector": "Infiltrasi Air Bah ke Sumur Terbuka",
+                "incubation": "N/A",
+                "transmission": "Konsumsi air keruh banjir oleh petani dan buruh desa"
+            },
+            "description": {
+                "id": "Distrik Jessore, terletak sekitar 100 kilometer di timur laut Kalkuta, adalah pusat pertanian padi dan nila yang subur. Hujan lebat monsun musim panas 1817 meruntuhkan tanggul-tanggul tanah tradisional. Air sungai meluap menggenangi ribuan gubuk petani beratap jerami. Sumber-sumber air bersih desa tenggelam di bawah genangan air cokelat berlumpur. Warga desa yang terisolasi tidak memiliki pilihan lain selain menggunakan air genangan tersebut untuk memasak, minum, dan mencuci peralatan makan.",
+                "en": "Jessore district, situated roughly 100 kilometers northeast of Calcutta, was a fertile nexus of rice and indigo cultivation. Extreme summer monsoon downpours breached earthen levees. Floodwaters inundated thousands of thatch-roofed peasant huts. Clean village wells vanished beneath turbid brown sediment. Stranded villagers possessed no alternative but to draw upon the stagnant floodwaters for cooking, drinking, and washing utensils."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_02.jpg"
+        },
+        {
+            "id": "jes-ch-03",
+            "chapterNumber": 3,
+            "type": "milestone",
+            "title": {
+                "id": "Pasien Nol di Jessore: Dehidrasi Kilat",
+                "en": "Patient Zero in Jessore: The Lightning Dehydration"
+            },
+            "date": { "id": "19 Agustus 1817 M", "en": "August 19, 1817 AD" },
+            "flash": {
+                "id": "Kasus kematian mendadak pertama tercatat di pinggiran kota pasar Jessore; seorang petani meninggal dalam delapan jam pasca muntah dan diare profus.",
+                "en": "First acute mortality recorded on the outskirts of Jessore; an agricultural laborer perishes within eight hours of profuse purging and vomiting."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Toksin Koleragen Masif)",
+                "vector": "Kehilangan Cairan Intraselular Cepat",
+                "incubation": "2 – 6 Jam",
+                "transmission": "Ekskresi cairan 'air cucian beras' yang mengontaminasi lantai tanah"
+            },
+            "description": {
+                "id": "Pada 19 Agustus 1817, kepanikan bermula ketika seorang buruh tani mengeluhkan kram perut hebat yang disusul pengeluaran cairan putih keruh seperti air cucian beras tanpa henti. Dalam beberapa jam, tubuhnya kehilangan beberapa liter cairan esensial. Kulitnya mengerut, matanya cekung ke dalam tengkorak, dan ujung-ujung jarinya membiru dingin akibat sirkulasi darah yang mengental. Sebelum matahari terbenam, pria tersebut tewas lemas akibat syok hipovolemik—menjadi lonceng pembuka pandemi kolera pertama dalam sejarah modern.",
+                "en": "On August 19, 1817, terror struck when a farmhand experienced violent abdominal spasms followed by unceasing rice-water evacuations. Within hours, his body voided gallons of vital fluids. His skin wrinkled like parchment, eyes sank into orbital hollows, and extremities turned icy cyanotic blue as his blood thickened. Before dusk, he succumbed to hypovolemic shock—ringing in the first modern global cholera pandemic."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_03.jpg"
+        },
+        {
+            "id": "jes-ch-04",
+            "chapterNumber": 4,
+            "type": "standard",
+            "title": {
+                "id": "Investigasi Dr. Robert Tytler: Teori Beras Busuk",
+                "en": "Dr. Robert Tytler's Probe: The Rotten Rice Hypothesis"
+            },
+            "date": { "id": "23 Agustus 1817 M", "en": "August 23, 1817 AD" },
+            "flash": {
+                "id": "Dokter bedah sipil EIC Dr. Robert Tytler dipanggil ke pasar Jessore; ia menduga penyakit ini dipicu oleh konsumsi beras baru yang berjamur dan membusuk.",
+                "en": "EIC civil surgeon Dr. Robert Tytler is summoned to Jessore bazaar; he erroneously hypothesizes the malady stems from damaged, moldy newly-harvested rice."
+            },
+            "virusProfile": {
+                "agent": "Hipotesis Medis Pra-Bakteriologis",
+                "vector": "Dugaan Intoksikasi Pangan Nabati",
+                "incubation": "N/A",
+                "transmission": "Ketidaktahuan sains awal mengenai transmisi patogen bawaan air (waterborne)"
+            },
+            "description": {
+                "id": "Dr. Robert Tytler, dokter bedah militer Perusahaan Hindia Timur Britania (EIC) di Jessore, bergegas mendatangi pemukiman warga setelah puluhan kematian dilaporkan dalam hitungan hari. Mengingat teori kuman belum ditemukan, Tytler mengamati bahwa wabah ini bertepatan dengan penjualan stok beras murah yang basah dan berjamur di pasar lokal. Ia merumuskan hipotesis bahwa penyakit mematikan ini ('Oola Ootoo' menurut penduduk setempat) adalah keracunan akut akibat makan beras beracun, sebuah kesimpulan yang menunda deteksi kontaminasi air minum.",
+                "en": "Dr. Robert Tytler, the British East India Company's civil surgeon at Jessore, rushed into native quarters after dozens of deaths erupted within days. Decades before the germ theory was formulated, Tytler observed the surge coincided with market sales of damp, fermented rice. He published a hypothesis that the affliction (styled 'Oola Ootoo' by locals) was acute poisoning caused by damaged grain, inadvertently delaying recognition of the waterborne transmission vector."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_04.jpg"
+        },
+        {
+            "id": "jes-ch-05",
+            "chapterNumber": 5,
+            "type": "standard",
+            "title": {
+                "id": "Kepanikan di Pasar Jessore: Eksodus ke Pedalaman",
+                "en": "Panic in the Jessore Bazaar: Flight Inland"
+            },
+            "date": {
+                "id": "Akhir Agustus 1817 M",
+                "en": "Late August 1817 AD"
+            },
+            "flash": {
+                "id": "Sepuluh ribu warga Jessore melarikan diri meninggalkan kios-kios pasar yang terbengkalai; para pengungsi membawa bakteri di saluran pencernaan mereka.",
+                "en": "Ten thousand Jessore inhabitants flee, abandoning market stalls; refugees carry the invisible pathogen inside their digestive tracts."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Bukan) -> Vibrio cholerae (Karier Asimtomatik)",
+                "vector": "Eksodus Penduduk Melalui Jalur Darat & Kereta Lembu",
+                "incubation": "1 – 3 Hari",
+                "transmission": "Pencemaran sumur peristirahatan kafilah di sepanjang rute pelarian"
+            },
+            "description": {
+                "id": "Dalam kurun waktu dua minggu, kematian di Jessore melonjak hingga ribuan jiwa. Aroma kematian dan kepanikan liar melanda kota. Toko-toko ditutup dan keluarga-keluarga mengemas perbekalan mereka ke atas gerobak lembu untuk melarikan diri ke desa-desa kerabat di barat dan selatan. Namun banyak dari mereka yang tampak sehat sesungguhnya adalah pembawa bakteri (*asymptomatic carriers*). Di setiap pos peristirahatan dan sungai yang mereka singgahi, kotoran mereka mencemari sumber air minum setempat, mempercepat penularan ke radius puluhan mil.",
+                "en": "Within a fortnight, mortality in Jessore surged past thousands. Panic gripped the town. Merchants shuttered stalls and families loaded bullock carts to seek refuge with kin across neighboring districts. Yet scores of apparently healthy fugitives were asymptomatic carriers. At every roadside well and riverbank where they paused, fecal shedding seeded local water supplies, propagating the contagion across miles."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_05.jpg"
+        },
+        {
+            "id": "jes-ch-06",
+            "chapterNumber": 6,
+            "type": "standard",
+            "title": {
+                "id": "Ghat Sungai Hooghly: Ritual & Kontaminasi Terbuka",
+                "en": "The Hooghly River Ghats: Ritual & Open Contamination"
+            },
+            "date": {
+                "id": "Awal September 1817 M",
+                "en": "Early September 1817 AD"
+            },
+            "flash": {
+                "id": "Tangga pemandian suci (ghat) di Sungai Hooghly menjadi titik silang maut; peziarah meminum air suci yang telah terkontaminasi limbah tinja perkotaan.",
+                "en": "Sacred bathing ghats along the Hooghly become deadly junctions; pilgrims imbibe holy river waters contaminated with urban sewage."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Dosis Infeksius Masif)",
+                "vector": "Air Sungai Hooghly Berkepekatan Tinggi",
+                "incubation": "Beberapa Jam",
+                "transmission": "Konsumsi langsung air sungai suci dalam upacara ritual harian"
+            },
+            "description": {
+                "id": "Ketika penyakit merambat ke lembah Sungai Hooghly—salah satu cabang utama Sungai Gangga—ia bertemu dengan tradisi religius ribuan tahun. Ribuan umat berkumpul di tangga-tangga batu (ghat) untuk mandi fajar dan meminum air suci sungai. Di saat yang sama, beberapa meter di hulu, limbah toilet kota dan cucian pakaian penderita kolera mengalir langsung ke aliran sungai yang lambat. Paparan air sungai yang mengandung jutaan basil kolera tersebut memicu infeksi serentak pada ratusan peziarah dalam hitungan hari.",
+                "en": "As disease spread along the Hooghly River—a principal distributary of the Ganges—it collided with millennia of ritual devotion. Thousands gathered at riverside stone ghats for ablutions and sanctified draughts. Simultaneously, yards upstream, domestic waste and soiled clothing of cholera victims discharged into the sluggish current. Ingesting waters bearing dense colonies of Vibrio cholerae triggered simultaneous infections among hundreds of worshipers."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_06.jpg"
+        },
+        {
+            "id": "jes-ch-07",
+            "chapterNumber": 7,
+            "type": "milestone",
+            "title": {
+                "id": "Armada Perahu Dagang: Menembus Pintu Gerbang Kalkuta",
+                "en": "The Flotilla of Country Boats: Breaching Calcutta's Gates"
+            },
+            "date": {
+                "id": "Pertengahan September 1817 M",
+                "en": "Mid-September 1817 AD"
+            },
+            "flash": {
+                "id": "Perahu-perahu sungai bermuatan beras dan rami dari Jessore merapat di dermaga Kalkuta; kolera menembus ibu kota Kemaharajaan Britania di India.",
+                "en": "Country barges carrying rice and jute from Jessore dock at Calcutta wharves; cholera breaches the capital of British India."
+            },
+            "virusProfile": {
+                "agent": "Dispersi Sungai Arteri Utama",
+                "vector": "Awak Perahu Sungai (Dandis)",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Pendaratan kru terinfeksi di dermaga-dermaga kota Kalkuta"
+            },
+            "description": {
+                "id": "Kalkuta adalah metropolis perdagangan terbesar di Asia, dihubungkan oleh jaringan ratusan perahu tradisional (*patiles* dan *dinghies*) yang mengangkut komoditas pedalaman. Pada pertengahan September 1817, perahu-perahu yang membawa muatan rami dari Jessore bersandar di sepanjang dermaga Chitpur dan Baghbazar. Beberapa pendayung ditemukan tewas di ruang kemudi, sementara yang lain merangkak ke tepian lumpur dermaga dengan kondisi dehidrasi berat. Jalur suplai komersial EIC telah berhasil membuka gerbang ibu kota kolonial bagi sang patogen.",
+                "en": "Calcutta was Asia's preeminent commercial metropolis, tied to the hinterland by hundreds of rivercraft ferrying raw produce. By mid-September 1817, barges hauling jute from Jessore moored along Chitpur and Baghbazar jetties. Several oarsmen lay dead in the bilge; others crawled onto muddy banks in advanced dehydration. The East India Company's trade arteries had inadvertently opened the capital's portals to the pathogen."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_07.jpg"
+        },
+        {
+            "id": "jes-ch-08",
+            "chapterNumber": 8,
+            "type": "standard",
+            "title": {
+                "id": "Kalkuta Terbelah: Kota Putih vs Black Town",
+                "en": "Divided Calcutta: The White Town vs The Black Town"
+            },
+            "date": {
+                "id": "Akhir September 1817 M",
+                "en": "Late September 1817 AD"
+            },
+            "flash": {
+                "id": "Wabah meledak di pemukiman padat warga lokal (Black Town); kontras tajam dengan istana-istana kolonial megah pejabat EIC di Chowringhee.",
+                "en": "Outbreak consumes the dense native Black Town; standing in stark contrast to the grand neoclassical palaces of EIC elites in Chowringhee."
+            },
+            "virusProfile": {
+                "agent": "Ketimpangan Infrastruktur Sanitasi Kolonial",
+                "vector": "Parit Terbuka & Sumur Gali Tanpa Penutup",
+                "incubation": "N/A",
+                "transmission": "Penyebaran hiper-cepat di kawasan kumuh berpenduduk 500.000 jiwa"
+            },
+            "description": {
+                "id": "Kalkuta pada tahun 1817 terbagi menjadi dua dunia yang sangat berbeda. Di selatan berdiri 'White Town' di Chowringhee dengan jalanan lebar, taman hijau, dan mansion bertiang marmer megah. Di utara terbentang 'Black Town'—labirin gang sempit berisi ratusan ribu pemukiman kayu dan bambu tanpa saluran drainase. Di kawasan utara inilah kolera mengamuk dengan keganasan tak terbayangkan. Ribuan tangki air komunal (*pukurs*) yang digunakan bersama untuk mandi dan minum tercemar tinja, menewaskan ratusan warga setiap hari.",
+                "en": "Calcutta in 1817 comprised two starkly segregated worlds. To the south lay the 'White Town' of Chowringhee, boasting broad esplanades and neoclassical mansions. To the north sprawled the 'Black Town'—a claustrophobic labyrinth of bamboo dwellings lacking all municipal drainage. Here, cholera erupted with unprecedented ferocity. Thousands of stagnant communal ponds (*pukurs*) used for domestic needs became toxic reservoirs, claiming hundreds daily."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_08.jpg"
+        },
+        {
+            "id": "jes-ch-09",
+            "chapterNumber": 9,
+            "type": "side_story",
+            "title": {
+                "id": "Tabib Tradisional & Pemujaan Dewi Ola Bibi",
+                "en": "Traditional Healers & The Cult of Ola Bibi"
+            },
+            "date": { "id": "Oktober 1817 M", "en": "October 1817 AD" },
+            "flash": {
+                "id": "Masyarakat lokal yang putus asa memohon perlindungan kepada Dewi Ola Bibi (Ola Debi); tabib Baidya dan Kobiraj berusaha menahan muntah dengan ramuan herbal.",
+                "en": "Desperate populations invoke Ola Bibi (the cholera deity); traditional Baidya and Kobiraj practitioners attempt to stem fluid loss with bitter herbs."
+            },
+            "virusProfile": {
+                "agent": "Respons Spiritual & Medis Tradisional",
+                "vector": "Ketiadaan Terapi Rehidrasi Oral (Oral Rehydration Therapy)",
+                "incubation": "N/A",
+                "transmission": "Kematian tinggi akibat dehidrasi yang diperparah oleh obat pencahar kolonial"
+            },
+            "description": {
+                "id": "Di tengah ketidakberdayaan medis modern era itu, penduduk Bengal berpaling kepada kepercayaan eskatologis. Umat Muslim dan Hindu menyembah Ola Bibi (Dewi Kolera), menggelar prosesi malam hari dan membakar dupa untuk meredakan amukan sang dewi. Tabib-tabib herbal tradisional (Baidya dan Kobiraj) meracik infus lada hitam, jahe, dan getah pohon ara untuk meredakan kram perut. Sementara itu, dokter bedah Inggris justru meresepkan racun calomel (merkuri klorida) dan pendarahan vena (*bloodletting*), yang secara fatal mempercepat kematian pasien akibat syok dehidrasi.",
+                "en": "Amidst clinical impotence, the populace sought supernatural intercession. Muslim and Hindu communities revered Ola Bibi (the cholera goddess), conducting nocturnal litanies and burning camphor to appease her wrath. Traditional Baidya and Kobiraj physicians dispensed decoctions of black pepper, ginger, and banyan latex to soothe spasms. Meanwhile, British colonial surgeons prescribed calomel (mercurous chloride) and venesection, catastrophically hastening fatal dehydration."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_09.jpg"
+        },
+        {
+            "id": "jes-ch-10",
+            "chapterNumber": 10,
+            "type": "milestone",
+            "title": {
+                "id": "Bencana Grand Army EIC: Kamp Sindhia di Bundelkhand",
+                "en": "Catastrophe of the Grand Army: The Bundelkhand Encampment"
+            },
+            "date": { "id": "November 1817 M", "en": "November 1817 AD" },
+            "flash": {
+                "id": "Tentara terbesar EIC (90.000 pasukan) di bawah Marquess of Hastings lumpuh di Bundelkhand saat memerangi konfederasi Maratha; 5.000 prajurit tewas dalam sepekan.",
+                "en": "The EIC Grand Army (90,000 troops) under Marquess of Hastings is paralyzed in Bundelkhand; 5,000 soldiers and camp followers perish in a single week."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Klaster Kampanye Militer)",
+                "vector": "Perkemahan Militer di Tepian Sungai Pahuj",
+                "incubation": "12 – 24 Jam",
+                "transmission": "Pencemaran air minum resimen oleh ribuan pengikut kamp tentara"
+            },
+            "description": {
+                "id": "Di pedalaman India tengah, Marquess of Hastings memimpin pasukan kolonial terbesar dalam sejarah penaklukan India—90.000 prajurit dan pengikut kemah—untuk menghancurkan pemberontakan Pindari dan Maratha. Pada November 1817, tentara ini mendirikan perkemahan di tepi Sungai Pahuj yang tenang. Bencana melanda tanpa tembakan meriam: kolera menyapu barak kemah. Ribuan prajurit Sepoy dan serdadu Inggris roboh di atas rumput saat berbaris. Jalanan mundurnya pasukan dipenuhi ratusan mayat dan kereta amunisi yang ditinggalkan, memaksa jenderal tertinggi Inggris menunda seluruh kampanye militer.",
+                "en": "In central India, the Marquess of Hastings commanded the largest British imperial force yet assembled—90,000 troops and camp followers—to crush the Pindari and Maratha confederacies. In November 1817, the host encamped along the stagnant banks of the Pahuj River. Disaster struck without cannon shot: cholera tore through the tents. Thousands of native sepoys and British redcoats dropped in their tracks. Baggage trails were littered with abandoned caissons, halting the entire imperial campaign."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_10.jpg"
+        },
+        {
+            "id": "jes-ch-11",
+            "chapterNumber": 11,
+            "type": "standard",
+            "title": {
+                "id": "Kepanikan Dewan Medis Kalkuta: Risalah Jameson",
+                "en": "Calcutta Medical Board in Crisis: The Jameson Report"
+            },
+            "date": { "id": "Awal 1818 M", "en": "Early 1818 AD" },
+            "flash": {
+                "id": "Sekretaris Dewan Medis James Jameson mengumpulkan laporan dokter bedah seluruh garnisun; menyusun dokumen epidemiologi resmi pertama tentang kolera endemik Asia.",
+                "en": "Medical Board secretary James Jameson synthesizes surgeon despatches; publishing the first comprehensive epidemiological report on Asian cholera."
+            },
+            "virusProfile": {
+                "agent": "Dokumentasi Epidemiologi Kolonial Awal",
+                "vector": "Pencatatan Rute Penularan Sepanjang Sungai",
+                "incubation": "N/A",
+                "transmission": "Pemetaan spasial penyebaran wabah dari muara Bengal ke seluruh India"
+            },
+            "description": {
+                "id": "Guncangan akibat lumpuhnya Grand Army memaksa Dewan Medis Kepresidenan Bengal di Kalkuta bertindak. Sekretaris Dewan, Dr. James Jameson, menginstruksikan seluruh dokter bedah garnisun dari Assam hingga perbatasan Punjab untuk mengirimkan laporan klinis terperinci. Hasil analisis Jameson membuktikan fakta mengejutkan: penyakit ini bukanlah demam musiman biasa, melainkan entitas baru dengan keganasan mortalitas hingga 60% yang menyebar secara konsisten mengikuti jalur pergerakan manusia, pasar komersial, dan konvoi logistik militer.",
+                "en": "The near-annihilation of the Grand Army spurred the Bengal Presidency Medical Board into action. Board secretary Dr. James Jameson instructed all military surgeons from Assam to the Punjab frontier to dispatch detailed clinical rolls. Jameson's synthesis exposed a terrifying truth: this was no ordinary seasonal endemic, but a virulent entity carrying up to 60% case fatality that tracked faithfully along trade routes, pilgrimage rivers, and military supply columns."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_11.jpg"
+        },
+        {
+            "id": "jes-ch-12",
+            "chapterNumber": 12,
+            "type": "standard",
+            "title": {
+                "id": "Api Pemakaman di Sepanjang Hooghly: Asap Tanpa Akhir",
+                "en": "Funeral Pyres Along the Hooghly: The Unending Smoke"
+            },
+            "date": { "id": "Pertengahan 1818 M", "en": "Mid-1818 AD" },
+            "flash": {
+                "id": "Kayu bakar pemakaman habis di Kalkuta; ratusan jenazah dilarungkan setengah terbakar ke Sungai Hooghly, memperparah pencemaran patogen.",
+                "en": "Firewood reserves are exhausted in Calcutta; hundreds of half-cremated corpses are consigned to the Hooghly, worsening water contamination."
+            },
+            "virusProfile": {
+                "agent": "Pencemaran Limbah Mortuaria",
+                "vector": "Jenazah Setengah Terbakar di Aliran Sungai",
+                "incubation": "N/A",
+                "transmission": "Peningkatan beban bakteri Vibrio di muara hilir Sungai Hooghly"
+            },
+            "description": {
+                "id": "Pada musim kemarau 1818, pemandangan di sepanjang tepian Sungai Hooghly di Kalkuta menyerupai lanskap api penyucian. Di tempat pembakaran jenazah Nimtala Ghat, api unggun menyala siang dan malam tanpa henti. Permintaan kayu bakar melonjak hingga harga kayu melampaui kemampuan keluarga miskin. Akibatnya, ratusan jenazah yang baru setengah terbakar dilemparkan langsung ke arus air sungai, di mana mereka mengapung bersama bangkai hewan, menciptakan siklus pencemaran biologis yang terus melipatgandakan koloni bakteri.",
+                "en": "By the dry season of 1818, the Hooghly banks in Calcutta resembled an infernal panorama. At Nimtala Ghat, cremation pyres burned day and night without interruption. Firewood demand skyrocketed until cordwood prices soared beyond the poor's reach. Consequently, hundreds of half-cremated corpses were pushed directly into the river's current, floating downstream and amplifying biological contamination across the delta."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_12.jpg"
+        },
+        {
+            "id": "jes-ch-13",
+            "chapterNumber": 13,
+            "type": "milestone",
+            "title": {
+                "id": "Kapal Layar East Indiaman: Menembus Samudra Hindia",
+                "en": "The East Indiaman Vessels: Breaching the Indian Ocean"
+            },
+            "date": {
+                "id": "Akhir 1818 – 1819 M",
+                "en": "Late 1818 – 1819 AD"
+            },
+            "flash": {
+                "id": "Kapal dagang EIC bertiang tiga memuat air minum tawar dari Sungai Hooghly; bakteri kolera terbungkus di dalam tong kayu menuju pelabuhan-pelabuhan samudra.",
+                "en": "Three-masted EIC merchantmen pump fresh drinking water from the Hooghly; cholera bacteria are sealed into timber casks bound for global ports."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Daya Tahan di Air Bersih Tawar)",
+                "vector": "Tong Kayu Persediaan Air Minum Kapal (Casks)",
+                "incubation": "Hari hingga Pekan di Wadah Tertutup",
+                "transmission": "Evolusi kolera dari epidemi daratan menjadi pandemi maritim global"
+            },
+            "description": {
+                "id": "Pelabuhan Kalkuta adalah gerbang ekspor rempah, candu, dan sutra ke seluruh dunia. Kapal-kapal layar East Indiaman bertiang tiga bersiap menempuh pelayaran panjang melintasi Samudra Hindia. Tanpa disadari oleh para perwira laut, tong-tong kayu persediaan air minum mereka diisi dengan air tawar yang dipompa dari Sungai Hooghly di hilir kota. Bakteri kolera mampu bertahan hidup berpekan-pekan di dalam kegelapan tong air kayu tersebut, menanti untuk diminum oleh para kelasi kapal di tengah laut lepas.",
+                "en": "Calcutta harbor was the global export funnel for spices, opium, and textiles. Stout three-masted East Indiamen prepared for arduous ocean crossings across the Indian Ocean. Unbeknownst to ships' masters, freshwater casks were pumped directly from the Hooghly downstream of urban sewers. Vibrio cholerae could survive for weeks in the dark interior of wet oak casks, waiting to infect sailors across open seas."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_13.jpg"
+        },
+        {
+            "id": "jes-ch-14",
+            "chapterNumber": 14,
+            "type": "standard",
+            "title": {
+                "id": "Agoni di Teluk Benggala: Pelaut yang Membisu",
+                "en": "Agony on the Bay of Bengal: The Silenced Mariners"
+            },
+            "date": { "id": "Awal 1819 M", "en": "Early 1819 AD" },
+            "flash": {
+                "id": "Pelayaran kapal HMS Topaze dan armada dagang mengalami wabah di laut lepas; pelaut tewas di ruang dayung dan dilemparkan ke ombak tropis.",
+                "en": "Voyages of HMS Topaze and merchant convoys suffer mid-ocean outbreaks; sailors perish in hammocks and are consigned to the deep."
+            },
+            "virusProfile": {
+                "agent": "Yersinia pestis (Bukan) -> Transmisi Air Minum Geladak Kapal",
+                "vector": "Gayung Air Komunal di Palka Kelasi",
+                "incubation": "24 Jam",
+                "transmission": "Penyebaran cepat di antara awak kapal di ruang isolasi maritim"
+            },
+            "description": {
+                "id": "Beberapa hari setelah lepas sauh dari muara Bengal, neraka mengapung bermula di atas geladak kapal perang dan kapal dagang Inggris. Para kelasi yang meminum air dari tong terkontaminasi mulai kejang dan muntah di atas tali temali. Dokter kapal yang tidak memiliki pemahaman tentang infeksi air minum kebingungan melihat separuh awak kapal terkapar lemas dengan kulit membiru. Upacara pemakaman laut digelar setiap pergantian giliran jaga, namun kapal terus melaju mengikuti angin muson menuju Selat Malaka.",
+                "en": "Days out from the Bengal estuaries, floating nightmares unfolded aboard British men-of-war and merchantmen. Seamen drinking from fouled water casks convulsed and voided uncontrollably across the rigging. Ship surgeons, ignorant of waterborne etiology, looked on helplessly as half the crew lay incapacitated with cyanotic skin. Sea burials took place at each watch change, yet the ships pressed forward on monsoon winds toward the Strait of Malacca."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_14.jpg"
+        },
+        {
+            "id": "jes-ch-15",
+            "chapterNumber": 15,
+            "type": "milestone",
+            "title": {
+                "id": "Invasi Semenanjung Melayu: Penang & Malaka",
+                "en": "Invasion of the Malay Peninsula: Penang & Malacca"
+            },
+            "date": { "id": "Pertengahan 1819 M", "en": "Mid-1819 AD" },
+            "flash": {
+                "id": "Kapal dagang dari Kalkuta merapat di pelabuhan Georgetown (Penang) dan Malaka; kolera menembus Asia Tenggara dan membakar pesisir Selat Malaka.",
+                "en": "Merchant vessels from Calcutta arrive at Georgetown (Penang) and Malacca; cholera breaches Southeast Asia, devastating coastal settlements."
+            },
+            "virusProfile": {
+                "agent": "Transmisi Pelabuhan Entrepôt Maritim",
+                "vector": "Kontak Kuli Dermaga & Pasokan Air Tawar Pelabuhan",
+                "incubation": "1 – 3 Hari",
+                "transmission": "Lompatan antar pulau melalui perahu layar niaga Melayu dan Bugis"
+            },
+            "description": {
+                "id": "Pada musim panas 1819, kapal-kapal pembawa infeksi merapat di pos perdagangan Inggris di Pulau Pinang (Penang). Dari dermaga kayu Georgetown, penyakit merayap ke pemukiman nelayan Melayu, perkampungan Tionghoa, dan barak garnisun sepoi. Penyakit ini melompat cepat ke Malaka dan Singapura yang baru didirikan oleh Stamford Raffles. Di setiap pelabuhan singgah, perahu-perahu layar Bugis dan Melayu yang bertransaksi beras menyerap kuman kolera, membawanya menyeberangi Selat Karimata menuju Kepulauan Nusantara.",
+                "en": "In summer 1819, infected hulls dropped anchor at the British entrepôt of Penang. From the timber jetties of Georgetown, disease permeated Malay stilt villages, Chinese quarters, and sepoy cantonments. It rapidly reached Malacca and newly founded Singapore. At each roadstead, native Bugis and Malay proas trading in provisions absorbed the pathogen, ferrying it across the Karimata Strait toward the Indonesian Archipelago."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_15.jpg"
+        },
+        {
+            "id": "jes-ch-16",
+            "chapterNumber": 16,
+            "type": "milestone",
+            "title": {
+                "id": "Tragedi Batavia (1821): Wabah Melanda Hindia Belanda",
+                "en": "The Batavia Catastrophe (1821): Dutch East Indies Struck"
+            },
+            "date": {
+                "id": "April – Juli 1821 M",
+                "en": "April – July 1821 AD"
+            },
+            "flash": {
+                "id": "Kolera tiba di Batavia (Jakarta) melalui kapal dagang dari Penang; lebih dari 100.000 jiwa tewas di Pulau Jawa dalam kurun waktu satu tahun.",
+                "en": "Cholera arrives in Batavia (Jakarta) via merchantmen from Penang; over 100,000 people perish across the island of Java within a year."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Klaster Kepulauan Nusantara)",
+                "vector": "Kanal Stagnan Kali Besar Batavia",
+                "incubation": "Beberapa Jam – 2 Hari",
+                "transmission": "Pencemaran jaringan kanal buatan Belanda dan Sungai Ciliwung"
+            },
+            "description": {
+                "id": "Pada April 1821, mimpi buruk Bengal tiba di gerbang Hindia Belanda. Sebuah kapal layar dari Malaka merapat di pelabuhan Sunda Kelapa. Penyakit segera menyebar ke kanal-kanal Kali Besar yang airnya mandek dan berbau busuk. Penduduk kampung pribumi, etnis Tionghoa, dan pejabat Belanda di Batavia Lama tumbang serentak. Kematian menyapu Pulau Jawa sepanjang Jalan Raya Pos Daendels hingga ke Cirebon, Semarang, dan Surabaya, merenggut lebih dari seratus ribu nyawa dan mengguncang tatanan kolonial Hindia Belanda.",
+                "en": "In April 1821, Bengal's biological terror landed in the Dutch East Indies. A sailing ship from Malacca moored at Sunda Kelapa. Contagion rapidly invaded the stagnant, fetid canals of Kali Besar. Native kampong dwellers, Chinese merchants, and Dutch burghers in Old Batavia collapsed in tandem. The mortality tore across Java along Daendels' Great Post Road toward Cirebon, Semarang, and Surabaya, killing over 100,000 and shaking colonial governance."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_16.jpg"
+        },
+        {
+            "id": "jes-ch-17",
+            "chapterNumber": 17,
+            "type": "standard",
+            "title": {
+                "id": "Barikade Militer Kolonial: Upaya Karantina yang Gagal",
+                "en": "Colonial Military Cordons: The Failed Quarantines"
+            },
+            "date": { "id": "Akhir 1821 M", "en": "Late 1821 AD" },
+            "flash": {
+                "id": "Pemerintah kolonial Hindia Belanda dan Inggris mengerahkan garnisun untuk memblokade jalan darat; karantina gagal karena penularan melalui perahu nelayan gelap.",
+                "en": "Colonial administrations establish armed road blockades; sanitary cordons fail due to nocturnal smuggler craft bypassing coastal posts."
+            },
+            "virusProfile": {
+                "agent": "Kegagalan Karantina Sanitasi Abad ke-19",
+                "vector": "Jalur Laut Ilegal & Penyelundupan Sungai",
+                "incubation": "N/A",
+                "transmission": "Ketidakmampuan membatasi pergerakan kapal tradisional di perairan terbuka"
+            },
+            "description": {
+                "id": "Pemerintah kolonial di berbagai belahan Asia merespons dengan metode militer kuno: mendirikan barikade jalan (*cordon sanitaire*). Prajurit bersenjata senapan lantak ditempatkan di jembatan perbatasan dan muara sungai untuk menembak siapa pun yang mencoba melintas tanpa surat sehat. Namun upaya ini terbukti sia-sia. Nelayan lokal dan penyelundup menggunakan perahu dayung kecil menyusuri rawa-rawa bakau di malam hari, membawa bakteri kolera menembus pos penjagaan militer dan menyebarkannya ke pedalaman.",
+                "en": "Colonial authorities throughout Asia reacted with archaic military methods: throwing up cordons sanitaires. Flintlock-armed infantry guarded border crossings and river mouths with orders to shoot violators. Yet these measures were utterly porous. Local fishermen and boatmen slipped through mangrove creeks by night, carrying Vibrio cholerae past armed cordons into the interior."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_17.jpg"
+        },
+        {
+            "id": "jes-ch-18",
+            "chapterNumber": 18,
+            "type": "summary",
+            "title": {
+                "id": "Epilog Wave 1: Fajar Pandemi Kolera Global",
+                "en": "Epilogue Wave 1: The Dawn of Global Cholera"
+            },
+            "date": {
+                "id": "1824 M & Warisan Sejarah",
+                "en": "1824 AD & Historical Legacy"
+            },
+            "flash": {
+                "id": "Gelombang Pertama mereda di perbatasan Laut Kaspia dan Rusia selatan; membuktikan bahwa era uap dan layar telah menyatukan dunia di bawah satu ancaman patogen bersama.",
+                "en": "The First Wave burns out along the Caspian Sea and southern Russia; demonstrating that global trade had unified humanity under a shared pathogen."
+            },
+            "virusProfile": {
+                "agent": "Vibrio cholerae (Transformasi Pandemik Global)",
+                "vector": "Jalur Maritim Global Abad ke-19",
+                "incubation": "Tujuh Tahun Gelombang Pertama (1817 – 1824 M)",
+                "transmission": "Penyemaian enam gelombang pandemi kolera berikutnya dalam sejarah dunia"
+            },
+            "description": {
+                "id": "Ketika musim dingin ekstrem di Rusia selatan meredam gelombang pertama kolera pada tahun 1824, dunia telah berubah selamanya. Dari rawa-rawa terisolasi di Jessore, bakteri Vibrio cholerae telah membunuh lebih dari satu juta manusia, melintasi ribuan mil samudra dari Jepang hingga Teluk Persia dan pantai Laut Kaspia. Pandemi Pertama membongkar kerentanan peradaban modern: jaringan perdagangan maritim internasional yang membawa kekayaan juga bertindak sebagai jalan tol bagi penyebaran penyakit mematikan.",
+                "en": "When extreme winter cold in southern Russia halted the First Wave in 1824, the world had fundamentally shifted. Originating in the swamps of Jessore, Vibrio cholerae had claimed over a million lives, traversing thousands of ocean leagues from Japan to the Persian Gulf and the Caspian shore. The First Pandemic unmasked the vulnerability of global trade: commercial shipping lanes carrying wealth also functioned as conduits of annihilation."
+            },
+            "image": "/assets/images/cholera/wave-1/jes/jes_ch_18.jpg"
+        }
+    ]
+}

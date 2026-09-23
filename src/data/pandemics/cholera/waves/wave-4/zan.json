@@ -1,0 +1,358 @@
+{
+  "sectorId": "ZAN",
+  "waveIndex": 4,
+  "sectorName": {
+    "id": "Sektor ZAN (Afrika Timur & Pantai Swahili: Kesultanan Zanzibar, Danau Besar & Jalur Karavan // 1869–1871)",
+    "en": "Sector ZAN (East Africa & Swahili Coast: Zanzibar Sultanate, Great Lakes & Caravan Trails // 1869–1871)"
+  },
+  "coordinates": [
+    -6.1659,
+    39.2026
+  ],
+  "timeRange": {
+    "id": "Oktober 1869 – Desember 1871",
+    "en": "October 1869 – December 1871"
+  },
+  "estimatedFatalities": {
+    "id": "150.000–200.000 korban jiwa di seluruh Afrika Timur (termasuk 25.000–30.000 di Pulau Zanzibar, ribuan kuli karavan Nyamwezi, dan komunitas Danau-Danau Besar)",
+    "en": "150,000–200,000 deaths across East and Central Africa (including 25,000–30,000 on Zanzibar Island, thousands of Nyamwezi caravan porters, and Great Lakes communities)"
+  },
+  "chapters": [
+    {
+      "id": "zan-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Armada Dhow Muson Timur Laut: Pendaratan Maut di Pelabuhan Stone Town",
+        "en": "The Northeast Monsoon Dhow Flotilla: Lethal Landings at Stone Town Port"
+      },
+      "date": {
+        "id": "Oktober 1869",
+        "en": "October 1869"
+      },
+      "flash": {
+        "id": "Perahu-perahu layar dhow yang menunggangi angin muson timur laut dari Teluk Persia dan Laut Merah berlabuh di Zanzibar, membawa basil kolera ke pasar budak.",
+        "en": "Trading dhows riding the northeast monsoon from the Persian Gulf and Red Sea dock at Zanzibar, delivering cholera vibrios into the slave markets."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air tong lambung kapal dhow kayu dan kurma kering terkontaminasi dari pesisir Arab",
+        "incubation": "12 – 48 jam",
+        "transmission": "Fekal-oral melalui air minum lambung dhow dan kontaminasi toilet laut di dermaga karang Stone Town"
+      },
+      "description": {
+        "id": "Pada akhir Oktober 1869, angin muson timur laut (musim kaskazi) meniup ratusan perahu layar tradisional kayu—dhow, baghlah, dan sambuk—melintasi Samudra Hindia bagian barat menuju pelabuhan Stone Town di Pulau Zanzibar. Sebagai ibu kota Kesultanan Zanzibar di bawah Sultan Majid bin Said, pulau ini merupakan pusat perdagangan maritim terkaya dan pasar rempah cengkeh serta budak terbesar di Afrika Timur. Namun di dalam palka kapal-kapal dhow yang datang dari pelabuhan Laut Merah dan Teluk Oman, tersembunyi maut yang mengerikan. Beberapa kelasi dan budak yang diangkut telah meninggal karena muntaber hebat di laut. Ketika kapal-kapal itu membuang sauh di depan istana Sultan, air buangan lambung kapal yang sarat bakteri dilepaskan langsung ke perairan dangkal pelabuhan, menandai awal dari salah satu bencana demografi paling mematikan dalam sejarah benua Afrika.",
+        "en": "In late October 1869, the northeast monsoon (kaskazi) propelled hundreds of traditional timber dhows, baghlahs, and sambuks across the western Indian Ocean into the harbor of Stone Town on Zanzibar Island. As the cosmopolitan seat of the Sultanate of Zanzibar under Sultan Majid bin Said, the island was the wealthiest commercial entrepôt, clove plantation hub, and slave market in East Africa. Yet concealed within the bilges of dhows arriving from Red Sea and Persian Gulf anchorages lurked catastrophic pestilence. Several crewmen and captives had already perished from violent rice-water purging during the voyage. When these vessels dropped anchor opposite the Sultan's seafront palace, bilge effluent saturated with active vibrios discharged directly into the shallow reef waters, inaugurating one of the deadliest demographic holocausts in African history."
+      },
+      "image": "/assets/images/cholera/wave-4/zan/zan_ch_01.jpg"
+    },
+    {
+      "id": "zan-ch-02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Neraka Barak Budak Malindi: Kepadatan dan Air Cistern Beracun",
+        "en": "Hell of the Malindi Slave Pens: Congestion and Tainted Water Cisterns"
+      },
+      "date": {
+        "id": "November 1869",
+        "en": "November 1869"
+      },
+      "flash": {
+        "id": "Kolera meledak di barak penampungan budak distrik Malindi; ribuan tawanan yang kekurangan gizi terinfeksi melalui bak penampungan air hujan komunal.",
+        "en": "Cholera explodes in the Malindi slave barracoons; thousands of malnourished captives are infected through contaminated communal cisterns."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air cistern penampungan komunal di barak budak (barracoons) bawah tanah",
+        "incubation": "6 – 24 jam",
+        "transmission": "Fekal-oral masif di ruang tahanan gelap tanpa sanitasi atau ventilasi"
+      },
+      "description": {
+        "id": "Episentrum awal di daratan Zanzibar terkonsentrasi di distrik Malindi dan kawasan pasar budak terbuka Mkunazini. Di sini, lebih dari 20.000 budak asal pedalaman Afrika yang ditangkap dari wilayah Danau Nyasa dan Tanganyika dikurung dalam barak-barak sempit (barracoons) yang kotor, menunggu giliran untuk dijual ke perkebunan cengkeh atau dikapalkan ke Arab. Tubuh mereka yang kurus kering dan lemah akibat perjalanan karavan berbulan-bulan tidak memiliki daya tahan terhadap Vibrio cholerae. Bak-bak penampungan air hujan (cistern) yang retak dan sumur-sumur dangkal di dekat jamban penjara tercemar dalam hitungan hari. Ratusan budak tewas setiap malam dalam kegelapan sel, memicu kepanikan luar biasa di kalangan para saudagar budak Arab dan Swahili.",
+        "en": "The initial terrestrial flashpoint in Zanzibar erupted within the Malindi quarter and the open slave mart of Mkunazini. Here, over 20,000 captive Africans marched from Lake Nyasa and Tanganyika were crammed into squalid subterranean barracoons awaiting auction for clove estates or transshipment to Arabian ports. Emaciated and traumatized by months of forced marches, their immune systems possessed zero resistance against Vibrio cholerae. Cracked communal rainwater cisterns and shallow yard wells adjacent to latrine pits were contaminated within days. Hundreds of captives expired nightly in the suffocating darkness of their holding cells, igniting pandemonium among Arab and Swahili slave syndicates."
+      },
+      "image": "/assets/images/cholera/wave-4/zan/zan_ch_02.jpg"
+    },
+    {
+      "id": "zan-ch-03",
+      "chapterNumber": 3,
+      "type": "milestone",
+      "title": {
+        "id": "Kematian Raya Pulau Cengkeh: 30.000 Jenazah di Pantai Shangani",
+        "en": "The Great Mortality of the Clove Isle: 30,000 Corpses on Shangani Beach"
+      },
+      "date": {
+        "id": "Desember 1869 – Januari 1870",
+        "en": "December 1869 – January 1870"
+      },
+      "flash": {
+        "id": "Antara 25.000 hingga 30.000 orang tewas di Pulau Zanzibar; sistem pemakaman runtuh dan ratusan jenazah dilarung ke laut hingga terdampar di pantai kota.",
+        "en": "Between 25,000 and 30,000 perish on Zanzibar Island; burial networks collapse and hundreds of corpses are dumped into the sea, washing ashore at town beaches."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air sumur batu karang pulau dan bangkai jenazah yang membusuk di garis pasang surut",
+        "incubation": "12 – 36 jam",
+        "transmission": "Pencemaran air tanah pulau karang yang sangat berpori oleh ribuan kuburan dangkal"
+      },
+      "description": {
+        "id": "Pada puncak epidemi di bulan Desember 1869 dan Januari 1870, Pulau Zanzibar dilanda kehancuran demografi total. Dari perkiraan populasi 200.000 jiwa, antara 25.000 hingga 30.000 orang—hampir 15 persen dari total penduduk—tewas dalam kurun waktu delapan minggu. Di kawasan pinggiran gubuk tanah liat Ng'ambo tempat para buruh dan budak merdeka tinggal, seluruh keluarga musnah tak bersisa. Sistem pemakaman runtuh total; para pemilik budak yang enggan membayar biaya gali kubur melemparkan jenazah pekerja mereka langsung ke laut pada malam hari. Setiap fajar menyingsing, puluhan mayat membengkak dan menghitam terdampar di pasir putih Tanjung Shangani tepat di depan kantor konsulat Inggris dan Prancis, menciptakan pemandangan mengerikan yang tak terhapuskan dari ingatan para saksi zaman itu.",
+        "en": "At the height of the scourge in December 1869 and January 1870, Zanzibar Island suffered near-total demographic paralysis. Out of an estimated population of 200,000, between 25,000 and 30,000 souls—roughly 15 percent of the inhabitants—perished in eight horrific weeks. In the sprawling mud-thatch proletariat settlement of Ng'ambo, entire domestic compounds were wiped out overnight. Burial institutions disintegrated completely; slaveholders unwilling to incur grave-digging fees hauled deceased laborers to the sea under cover of night. At every sunrise, scores of bloated, cyanotic corpses were tossed by the surf onto the white sands of Shangani Point directly beneath the verandas of British and French consulates, creating a macabre panorama burned indelibly into historical memory."
+      },
+      "image": "/assets/images/cholera/wave-4/zan/zan_ch_03.jpg"
+    },
+    {
+      "id": "zan-ch-04",
+      "chapterNumber": 4,
+      "type": "side_story",
+      "title": {
+        "id": "Investigasi Epidemiologi Dr. James Christie: Kronik Dokter Istana Sultan",
+        "en": "Dr. James Christie's Epidemiological Inquest: Chronicle of the Sultan's Physician"
+      },
+      "date": {
+        "id": "1870 – 1871",
+        "en": "1870 – 1871"
+      },
+      "flash": {
+        "id": "Dr. James Christie, dokter istana Sultan dan konsulat Inggris, mewawancarai ratusan pemimpin kafilah untuk memetakan penyebaran kolera melintasi Afrika Timur.",
+        "en": "Dr. James Christie, physician to the Sultan and the British consulate, interrogates hundreds of caravan leaders to map cholera's transit across East Africa."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Penyelidikan epidemiologis wawancara jalur perdagangan kafilah pedalaman",
+        "incubation": "N/A (Metodologi Surveilans Lapangan)",
+        "transmission": "Rekonstruksi jalur penyebaran antar mata air gurun dan rute karavan gading"
+      },
+      "description": {
+        "id": "Di tengah bau kematian yang menyelimuti pulau, seorang dokter bedah Skotlandia bernama Dr. James Christie melakukan salah satu penyelidikan epidemiologi paling brilian di abad kesembilan belas. Sebagai dokter pribadi Sultan Majid dan penasihat medis Konsulat Jenderal Inggris, Christie mengumpulkan data harian jumlah kematian dengan menghitung pembelian kain kafan dan wawancara dengan para penggali kubur. Lebih jauh lagi, Christie secara teliti mewawancarai kapten dhow, saudagar Arab, dan para pemandu kafilah Swahili yang baru kembali dari belantara benua. Catatan lapangannya yang luar biasa kelak diterbitkan sebagai buku monumental 'Cholera Epidemics in East Africa' (1876), yang untuk pertama kalinya secara ilmiah memetakan interkoneksi rute perdagangan muson dan penyebaran patogen melintasi jantung benua hitam.",
+        "en": "Amidst the stench of mortality blanketing the island, Scottish surgeon Dr. James Christie conducted one of the nineteenth century's most brilliant field epidemiological investigations. Serving concurrently as personal physician to Sultan Majid and medical officer to the British Consulate, Christie compiled rigorous daily mortality registers by enumerating shroud sales and interviewing gravediggers. Furthermore, Christie systematically interrogated arriving dhow captains, Arab ivory magnates, and Swahili caravan guides emerging from the continental wilderness. His extraordinary field journals formed the basis of his landmark 1876 volume 'Cholera Epidemics in East Africa', which for the first time scientifically mapped the monsoon trade corridors that carried global vibrios into the deep interior of Africa."
+      },
+      "image": "/assets/images/cholera/wave-4/zan/zan_ch_04.jpg"
+    },
+    {
+      "id": "zan-ch-05",
+      "chapterNumber": 5,
+      "type": "standard",
+      "title": {
+        "id": "Penyeberangan Selat: Jatuhnya Bagamoyo, Pangani, dan Pesisir Swahili",
+        "en": "Crossing the Channel: Fall of Bagamoyo, Pangani, and the Swahili Coastline"
+      },
+      "date": {
+        "id": "Desember 1869 – Februari 1870",
+        "en": "December 1869 – February 1870"
+      },
+      "flash": {
+        "id": "Perahu-perahu kecil melarikan diri dari karantina Zanzibar, menyebarkan kolera ke pelabuhan benua Bagamoyo, Pangani, Kilwa, dan Mombasa.",
+        "en": "Skiffs and dhows fleeing Zanzibar's quarantine spread cholera across mainland continental ports of Bagamoyo, Pangani, Kilwa, and Mombasa."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air tawar persediaan perahu penyeberangan selat dan pakaian pengungsi pesisir",
+        "incubation": "12 – 48 jam",
+        "transmission": "Fekal-oral di pesisir pantai tempat pendaratan perahu pengangkut ikan dan penumpang gelap"
+      },
+      "description": {
+        "id": "Selat Zanzibar selebar 35 kilometer yang memisahkan pulau dari daratan utama benua Afrika terbukti bukan rintangan bagi kolera. Ketakutan akan maut mendorong ribuan penduduk kaya dan pedagang pesisir menyewa perahu-perahu kayu kecil (ngalawa dan mashua) untuk melarikan diri ke daratan benua Afrika. Pelarian tanpa pemeriksaan medis ini membawa basil kolera langsung ke kota-kota pelabuhan pesisir Swahili. Bagamoyo—titik awal utama seluruh kafilah menuju pedalaman Afrika Timur—terhantam keras pada bulan Januari 1870. Pelabuhan-pelabuhan lain seperti Pangani, Kilwa Kivinje, dan Mombasa segera menyusul terbakar wabah, memutus komunikasi telegraf dan melumpuhkan ekspor copra serta damar ke pasar dunia.",
+        "en": "The 35-kilometer Zanzibar Channel separating the island from continental East Africa proved utterly porous to the microscopic invader. Terrified by escalating mortality, thousands of affluent residents and coast traders chartered traditional outrigger skiffs (ngalawas and mashuas) to flee to the African mainland. This unmonitored maritime exodus transported Vibrio cholerae directly into Swahili coastal ports. Bagamoyo—the primary continental terminus for all exploratory and trading expeditions into the deep interior—was overwhelmed in January 1870. Sibling ports including Pangani, Kilwa Kivinje, and Mombasa rapidly succumbed, severing coastal communication and paralyzing copra and gum-copal exports to global markets."
+      },
+      "image": "/assets/images/cholera/wave-4/zan/zan_ch_05.jpg"
+    },
+    {
+      "id": "zan-ch-06",
+      "chapterNumber": 6,
+      "type": "milestone",
+      "title": {
+        "id": "Koridor Karavan Gading Raya: Jalur Penularan Bagamoyo–Tabora",
+        "en": "The Great Ivory Caravan Highway: The Bagamoyo–Tabora Transmission Spine"
+      },
+      "date": {
+        "id": "Maret – Juli 1870",
+        "en": "March – July 1870"
+      },
+      "flash": {
+        "id": "Kafilah dagang raksasa berisi 1.000 porter gading dan budak membawa basil kolera menyusuri rute sentral melintasi rimba Ugogo menuju Tabora.",
+        "en": "Massive caravans of 1,000 ivory porters and captives transport cholera vibrios along the central trunk trail across Ugogo wilderness into Tabora."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Kubangan air payau (ziwa) tempat minum bersama kafilah di dataran semi-kering Ugogo",
+        "incubation": "24 – 48 jam",
+        "transmission": "Pencemaran sumber air minum tunggal di sepanjang rute karavan oleh porter yang terinfeksi"
+      },
+      "description": {
+        "id": "Dari Bagamoyo, jalur perdagangan utama Afrika Timur membentang ke barat sejauh 800 kilometer menuju Tabora (Unyanyembe), pusat kekuasaan para saudagar gading Arab di pedalaman. Kafilah dagang bukanlah kelompok kecil; mereka adalah ekspedisi raksasa yang terdiri dari 500 hingga 1.500 porter (pagazi), pengawal bersenjata senapan sundut, budak berantai, dan gundik. Ketika kafilah yang membawa porter terinfeksi bergerak melintasi dataran semi-kering Ugogo, mereka harus bergantung pada lubang-lubang galian air payau (ziwa) yang langka di tepi jalur. Para porter yang menderita diare mencemari sumber-sumber air satu-satunya ini, mengubah setiap mata air peristirahatan menjadi perangkap kematian beracun bagi kafilah berikutnya yang melintas.",
+        "en": "From Bagamoyo, the primary East African trade artery penetrated 800 kilometers westward into Tabora (Unyanyembe), the interior stronghold of Arab ivory potentates. These trading caravans were not modest parties; they were titanic mobile communities numbering 500 to 1,500 porters (pagazi), armed musket guards, chained captives, and camp followers. As caravans harboring infected bearers traversed the arid Ugogo scrublands, they converged upon scarce brackish waterholes (ziwa) along the trail. Sufferers stricken with acute diarrhea rinsed and relieved themselves in these singular water holes, transforming every desert staging oasis into a lethal toxic trap for successive caravans trailing behind them."
+      },
+      "image": "/assets/images/cholera/wave-4/zan/zan_ch_06.jpg"
+    },
+    {
+      "id": "zan-ch-07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Runtuhnya Poros Nyamwezi: Tulang-Belulang di Belantara Belantara",
+        "en": "Decimation of the Nyamwezi Backbone: Bleached Bones across the Wilderness"
+      },
+      "date": {
+        "id": "Mei – September 1870",
+        "en": "May – September 1870"
+      },
+      "flash": {
+        "id": "Suku Nyamwezi, tulang punggung tenaga pengangkut gading Afrika Timur, kehilangan puluhan ribu pemuda terbaiknya di sepanjang jalur karavan pedalaman.",
+        "en": "The Nyamwezi people, the vital transport backbone of East Africa, lose tens of thousands of able-bodied youths along interior caravan routes."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Beban kerja fisik ekstrem membawa gading seberat 30 kg mempercepat dehidrasi fatal",
+        "incubation": "6 – 18 jam",
+        "transmission": "Diare fulminan di perkemahan malam tanpa perawatan medis di tengah hutan semak"
+      },
+      "description": {
+        "id": "Suku Nyamwezi dari Tanzania barat tengah adalah tulang punggung perekonomian karavan seluruh Afrika Timur; tanpa kekuatan fisik mereka untuk memanggul gading gajah seberat 30 kilogram melintasi rawa dan gunung, perdagangan internasional akan lumpuh. Namun pada tahun 1870, bangsa porter legendaris ini dihancurkan oleh kolera. Mengangkat beban berat di bawah terik matahari khatulistiwa mempercepat kematian akibat dehidrasi dalam hitungan jam setelah infeksi pertama. Porter yang jatuh sakit ditinggalkan oleh majikan mereka di pinggir jalan untuk dimangsa hyena dan singa. Jalur karavan dari Morogoro hingga Tabora dipenuhi oleh tengkorak dan tulang-belulang yang memutih di bawah terik matahari, menciptakan trauma budaya mendalam yang tertanam dalam lagu-lagu ratapan suku Nyamwezi selama beberapa generasi.",
+        "en": "The Nyamwezi people of west-central Tanzania constituted the indispensable logistics backbone of East Africa; without their stamina to shoulder 70-pound elephant tusks across swamps and mountain ranges, international trade ground to a halt. Yet in 1870, this legendary nation of porters was devastated by cholera. Extreme physical exertion under the equatorial sun accelerated circulatory collapse within hours of the first loose stool. Incapacitated porters were unceremoniously abandoned by expedition leaders along the trail to be consumed by hyenas and vultures. The caravan highway from Morogoro to Tabora was strewn with sun-bleached skeletons, imprinting an indelible cultural trauma commemorated in mournful Nyamwezi folk ballads for generations."
+      },
+      "image": "/assets/images/cholera/wave-4/zan/zan_ch_07.jpg"
+    },
+    {
+      "id": "zan-ch-08",
+      "chapterNumber": 8,
+      "type": "side_story",
+      "title": {
+        "id": "Catatan Saksi Mata David Livingstone: Kesunyian Rimba Manyema",
+        "en": "David Livingstone's Eyewitness Chronicle: The Desolation of Manyema"
+      },
+      "date": {
+        "id": "1870 – 1871",
+        "en": "1870 – 1871"
+      },
+      "flash": {
+        "id": "Penjelajah Dr. David Livingstone mencatat dalam buku hariannya kengerian desa-desa Manyema di cekungan Kongo yang sunyi senyap ditinggalkan penghuninya akibat kolera.",
+        "en": "Explorer Dr. David Livingstone records in his diary the desolation of Manyema villages in the Congo basin emptied of life by the cholera scourge."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Catatan observasi medis penjelajah Eropa di pedalaman rimba ekuator Afrika",
+        "incubation": "N/A (Observasi Lapangan Medis)",
+        "transmission": "Penyebaran lintas suku di perbatasan cekungan Kongo dan Danau Tanganyika"
+      },
+      "description": {
+        "id": "Jauh di pedalaman rimba Manyema di sebelah barat Danau Tanganyika (kini Republik Demokratik Kongo), penjelajah dan misionaris medis Skotlandia terkenal, Dr. David Livingstone, mendapati dirinya terjebak di tengah amukan kolera. Dalam buku harian lapangannya yang dramatis, Livingstone mencatat bagaimana permukiman-permukiman pedesaan yang sebelumnya ramai tiba-tiba berubah menjadi desa hantu yang sunyi senyap. Penduduk pribumi yang panik melarikan diri ke hutan lebat meninggalkan mayat orang tua dan anak-anak mereka di dalam gubuk tanpa penguburan. Livingstone mengamati bahwa penyakit ini merambat menyusuri jalur para pemburu gading Arab-Swahili pimpinan Tippu Tip, membuktikan bahwa jangkauan kolera telah menembus hingga ke batas terdalam sistem hidrologi Sungai Kongo.",
+        "en": "Deep in the equatorial rainforests of Manyema west of Lake Tanganyika (now Democratic Republic of the Congo), the celebrated Scottish missionary-physician Dr. David Livingstone found himself stranded in the vortex of the pestilence. In his poignant field journals, Livingstone documented how once-vibrant agrarian settlements were abruptly reduced to deserted ghost hamlets. Terrified villagers fled into primeval thickets, abandoning the unburied corpses of elders and children inside thatch huts. Livingstone observed that the affliction strictly shadowed the marching corridors of Arab-Swahili ivory warlords like Tippu Tip, proving that the Fourth Pandemic had breached the outermost headwaters of the Congo River drainage system."
+      },
+      "image": "/assets/images/cholera/wave-4/zan/zan_ch_08.jpg"
+    },
+    {
+      "id": "zan-ch-09",
+      "chapterNumber": 9,
+      "type": "standard",
+      "title": {
+        "id": "Cekungan Danau-Danau Besar: Ujiji, Tanganyika, dan Kerajaan Buganda",
+        "en": "The Great Lakes Basin: Ujiji, Tanganyika, and the Buganda Kingdom"
+      },
+      "date": {
+        "id": "Pertengahan 1870 – Awal 1871",
+        "en": "Mid 1870 – Early 1871"
+      },
+      "flash": {
+        "id": "Kano-kano dagang menyebarkan kolera melintasi perairan Danau Tanganyika ke pos Ujiji dan utara menuju istana Kabaka Mutesa I di Buganda.",
+        "en": "Trading dugout canoes ferry cholera across Lake Tanganyika into the Ujiji depot and northward toward Kabaka Mutesa I's court in Buganda."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae biotype classical",
+        "vector": "Air danau air tawar Danau Tanganyika dan Danau Victoria",
+        "incubation": "12 – 48 jam",
+        "transmission": "Kontaminasi air minum teluk danau saat perahu kano berlabuh di desa-desa nelayan"
+      },
+      "description": {
+        "id": "Mencapai kota transit Ujiji di tepi Danau Tanganyika pada pertengahan 1870, Vibrio cholerae menemukan wahana penularan baru: armada kano kayu gelondongan (dugout canoes) yang menghubungkan pelabuhan-pelabuhan danau. Dari Ujiji, kano-kano pedagang membawa penyakit ini ke pantai barat dan selatan danau. Pada saat yang sama, cabang rute kafilah barat laut mengarahkan penyakit melintasi Danau Victoria menuju Kerajaan Buganda yang kuat. Di istana Kabaka Mutesa I, kehadiran wabah memicu ketakutan spiritual dan dekrit pengasingan kerajaan. Kabaka memerintahkan penutupan perbatasan dan pengusiran para pedagang pesisir, menyelamatkan sebagian besar aristokrasi kerajaan sementara rakyat jelata di sepanjang dermaga danau menderita kehilangan ribuan nyawa.",
+        "en": "Reaching the strategic hub of Ujiji on the shores of Lake Tanganyika in mid-1870, Vibrio cholerae seized upon a new hydraulic transport vector: fleets of timber dugout canoes plying interlacustrine trade networks. From Ujiji, canoe flotillas disseminated the contagion to southwestern and northern lacustrine settlements. Concurrently, a northwestern caravan spur pushed the contagion across Lake Victoria toward the powerful Kingdom of Buganda. At the royal court of Kabaka Mutesa I, the visitation triggered intense spiritual alarm and swift monarchical isolation decrees. The Kabaka ordered frontier cordons and the expulsion of coastal traders, shielding much of the royal court while lakeside fishing villages endured thousands of casualties."
+      },
+      "image": "/assets/images/cholera/wave-4/zan/zan_ch_09.jpg"
+    },
+    {
+      "id": "zan-ch-10",
+      "chapterNumber": 10,
+      "type": "milestone",
+      "title": {
+        "id": "Ekspansi Selatan Samudra Hindia: Mozambik, Komoro, dan Madagaskar",
+        "en": "Southern Indian Ocean Expansion: Mozambique, Comoros, and Madagascar"
+      },
+      "date": {
+        "id": "1870 – 1871",
+        "en": "1870 – 1871"
+      },
+      "flash": {
+        "id": "Kapal dagang pesisir dan dhow membawa kolera ke selatan menuju koloni Portugis Mozambik, Kepulauan Komoro, dan pelabuhan barat Madagaskar.",
+        "en": "Coastal merchant schooners and dhows convey cholera south toward Portuguese Mozambique, the Comoro Islands, and western Madagascar."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air perbekalan kapal layar dan ikan asin basah yang diangkut ke pelabuhan selatan",
+        "incubation": "24 – 72 jam",
+        "transmission": "Pencemaran sumber air sumur pantai koloni maritim selatan di Selat Mozambik"
+      },
+      "description": {
+        "id": "Penyebaran Gelombang Keempat di Afrika tidak terbatas pada pedalaman khatulistiwa. Dhow-dhow perdagangan kayu bakau dan penyelundup budak membawa penyakit ini ke selatan melintasi Selat Mozambik. Di koloni Portugis di Ilha de Moçambique dan Quelimane, benteng-benteng dan barak budak terjangkit wabah yang menewaskan ribuan orang dalam beberapa pekan. Kapal-kapal dagang juga menulari Kepulauan Komoro (Mayotte dan Anjouan) serta pelabuhan Majunga di pantai barat laut Madagaskar. Di Madagaskar, Ratu Ranavalona II memerintahkan blokade ketat di sekitar pelabuhan untuk melindungi ibu kota pedalaman Antananarivo di dataran tinggi, berhasil mencegah pembantaian massal yang melanda wilayah pesisir.",
+        "en": "The African expanse of the Fourth Pandemic was not confined to equatorial interiors. Mangrove-timber dhows and illicit slave schooners shuttled the disease southward along the Mozambique Channel. In the Portuguese enclaves of Ilha de Moçambique and Quelimane, fortified presidios and slave barracks were engulfed in fatal purging that killed thousands within weeks. Trading craft likewise seeded the Comoro Islands (Mayotte and Anjouan) and the port of Majunga on Madagascar's northwestern littoral. In Madagascar, Queen Ranavalona II instituted rigorous armed cordons surrounding port approaches to insulate the highland plateau capital of Antananarivo, successfully preventing the high-altitude holocaust suffered along the coast."
+      },
+      "image": "/assets/images/cholera/wave-4/zan/zan_ch_10.jpg"
+    },
+    {
+      "id": "zan-ch-11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Tragedi Penggembala Padang Sabana: Suku Maasai dan Badui Somalia",
+        "en": "Tragedy of the Savannah Pastoralists: The Maasai and Somali Nomads"
+      },
+      "date": {
+        "id": "Akhir 1870 – Pertengahan 1871",
+        "en": "Late 1870 – Mid 1871"
+      },
+      "flash": {
+        "id": "Mata air padang sabana yang langka menjadi kuburan massal bagi para penggembala Maasai dan kafilah unta Somalia saat kolera merayap ke utara.",
+        "en": "Scarce savannah watering holes turn into mass graves for Maasai pastoralists and Somali camel caravans as cholera creeps northward."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Mata air terbuka tempat minum bersama ternak sapi dan unta di sabana kering",
+        "incubation": "12 – 36 jam",
+        "transmission": "Penggunaan air minum mentah dari sumber air yang sama dengan kawanan ternak dan kafilah transit"
+      },
+      "description": {
+        "id": "Di sebelah utara Gunung Kilimanjaro dan wilayah Tanduk Afrika, kolera menjalar melalui jalur kafilah unta Somalia dan pertemuan dengan para penggembala nomaden. Bagi suku Maasai, yang menggembalakan ribuan ternak sapi di sabana terbuka Kenya dan Tanzania utara, mata air adalah berkah sekaligus kutukan. Ketika kafilah dagang dari pesisir Pangani melintasi padang rumput mereka, kotoran penderita kolera mencemari cekungan air alami. Dalam masyarakat pastoralis yang meminum susu bercampur darah sapi dan air mentah, penyebaran terjadi dengan kecepatan mematikan. Lusinan pemukiman keluarga kraal (manyatta) musnah tanpa ada yang selamat untuk menguburkan ternak yang mati kelaparan di samping jenazah pemiliknya.",
+        "en": "North of Mount Kilimanjaro and across the Horn of Africa, cholera advanced along Somali camel corridors and collided with nomadic pastoralists. For the Maasai, grazing vast herds of cattle across the open savannahs of Kenya and northern Tanzania, shared water pans represented both life and ruin. When trading caravans from the Pangani coast traversed Maasai pastures, infected porters fouled these precious open springs. In a pastoral society subsisting on cattle milk mixed with fresh blood and raw surface water, transmission exploded with apocalyptic fury. Dozens of family kraals (manyattas) were wiped out, leaving starving cattle to bellow beside the unburied remains of their deceased masters."
+      },
+      "image": "/assets/images/cholera/wave-4/zan/zan_ch_11.jpg"
+    },
+    {
+      "id": "zan-ch-12",
+      "chapterNumber": 12,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Demografi dan Senjakala Kedaulatan Afrika Timur",
+        "en": "Demographic Reckoning and the Twilight of East African Sovereignty"
+      },
+      "date": {
+        "id": "1872 – 1873",
+        "en": "1872 – 1873"
+      },
+      "flash": {
+        "id": "Antara 150.000 hingga 200.000 nyawa melayang di Afrika Timur; melemahnya struktur masyarakat lokal membuka jalan bagi perebutan kolonial Eropa (Scramble for Africa).",
+        "en": "Between 150,000 and 200,000 lives lost in East Africa; societal devastation paves the way for rapid European imperial annexation (Scramble for Africa)."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kajian sejarah demografi dan dampak sosio-politik jangka panjang",
+        "incubation": "N/A (Sintesis Sejarah & Transformasi Geopolitik)",
+        "transmission": "Pelemahan sistemik institusi perdagangan tradisional dan keruntuhan ekonomi perbudakan"
+      },
+      "description": {
+        "id": "Epidemi kolera 1869–1871 di Afrika Timur merupakan salah satu peristiwa paling transformatif dan tragis dalam sejarah benua tersebut. Dengan total korban jiwa diperkirakan mencapai 150.000 hingga 200.000 orang, bencana ini menghancurkan fondasi demografi masyarakat Swahili, Nyamwezi, dan suku-suku pedalaman. Kesultanan Zanzibar kehilangan dominasi ekonominya dan dipaksa oleh Inggris untuk menandatangani perjanjian penghapusan perdagangan budak laut pada tahun 1873 di bawah ancaman bombardir angkatan laut. Kehancuran tatanan sosial pribumi dan kepunahan generasi muda pekerja meninggalkan kekosongan kekuasaan besar di pedalaman, yang dalam waktu satu dekade kemudian dimanfaatkan oleh kekuatan kolonial Jerman dan Inggris untuk membagi-bagi wilayah Afrika Timur dalam apa yang dikenal sebagai 'Scramble for Africa'.",
+        "en": "The 1869–1871 cholera visitation across East Africa stands as one of the most fateful turning points in the continent's history. With an aggregate mortality estimated at 150,000 to 200,000 human beings, the pandemic shattered the demographic foundations of the Swahili, Nyamwezi, and lacustrine nations. The Sultanate of Zanzibar saw its economic supremacy shattered, leaving Sultan Barghash vulnerable to British naval coercion that forced the signing of the 1873 maritime slave trade abolition treaty under threat of bombardment. The evisceration of indigenous social resilience and the eradication of an entire generation of productive youths left an enormous geopolitical vacuum, exploited barely a decade later by British and German imperialists to carve up East Africa during the Scramble for Africa."
+      },
+      "image": "/assets/images/cholera/wave-4/zan/zan_ch_12.jpg"
+    }
+  ]
+}

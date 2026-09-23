@@ -1,0 +1,499 @@
+{
+  "sectorId": "MEK",
+  "waveIndex": 6,
+  "sectorName": {
+    "id": "Kekaisaran Utsmaniyah & Rute Haji Mekkah",
+    "en": "Ottoman Empire & Mecca Pilgrimage Routes"
+  },
+  "coordinates": [
+    21.3891,
+    39.8262
+  ],
+  "timeRange": {
+    "start": "1902",
+    "end": "1919"
+  },
+  "estimatedFatalities": "120,000+",
+  "chapters": [
+    {
+      "id": "mek_ch_01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Wabah Haji 1902 & Kegagalan Karantina Laut Merah",
+        "en": "The 1902 Hajj Epidemic & Red Sea Quarantine Failures"
+      },
+      "date": {
+        "id": "Maret – Juni 1902",
+        "en": "March – June 1902"
+      },
+      "flash": {
+        "id": "Ribuan jemaah haji dari Asia Selatan membawa Vibrio cholerae ke Hejaz, membanjiri stasiun karantina El-Tor dan memicu krisis sanitasi gurun yang dahsyat.",
+        "en": "Thousands of pilgrims from South Asia import Vibrio cholerae into the Hejaz, overwhelming the El-Tor quarantine station and detonating a catastrophic desert sanitary crisis."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1 biotype classical",
+        "vector": "Kontaminasi sumur gurun, tangki air kafilah, dan sanitasi perkemahan haji terbuka",
+        "incubation": "12 – 48 jam",
+        "transmission": "Fekal-oral via air minum sumur karavan dan waduk umum",
+        "mutationType": {
+          "id": "Vibrio cholerae O1 Classical Inaba/Ogawa",
+          "en": "Vibrio cholerae O1 Classical Inaba/Ogawa"
+        },
+        "threatLevel": {
+          "id": "Tingkat IV - Krisis Epidemiologis Regional Timur Tengah",
+          "en": "Tier IV - Regional Middle Eastern Epidemiological Crisis"
+        },
+        "clinicalTarget": {
+          "id": "Jemaah haji lanjut usia, musafir padang pasir, dan kafilah unta",
+          "en": "Elderly pilgrims, desert caravans, and exhausted travelers"
+        }
+      },
+      "description": {
+        "id": "Pada musim semi 1902, ritual tahunan ibadah Haji di Jazirah Arab berubah menjadi mimpi buruk epidemiologis. Ribuan peziarah dari anak benua India, Hindia Belanda, dan kawasan Teluk berlayar menuju pelabuhan Jeddah. Meskipun stasiun karantina internasional El-Tor di Semenanjung Sinai telah didirikan di bawah Dewan Kesehatan Sanitasi Maritim dan Karantina Mesir, puluhan kapal uap lolos dari pemeriksaan ketat dengan memalsukan manifes kesehatan atau tiba sebelum masa inkubasi penuh bermanifestasi. Ketika para jemaah berkumpul di tenda-tenda padat Mina dan Arafah di bawah terik matahari ekstrem, Vibrio cholerae meledak di antara kerumunan yang dehidrasi. Sumur-sumur air kuno dan bak penampungan air gurun yang tidak terlindung terkontaminasi oleh kotoran manusia, mengubah air suci dan air minum biasa menjadi racun yang mematikan. Dalam hitungan minggu, lebih dari 4.000 jemaah tewas di padang pasir Hejaz, meninggalkan jejak kuburan massal di sepanjang jalur kafilah menuju Madinah dan Mekkah.",
+        "en": "In the spring of 1902, the annual Hajj pilgrimage in the Arabian Peninsula degenerated into an epidemiological nightmare. Thousands of pilgrims from the Indian subcontinent, the Dutch East Indies, and the Persian Gulf sailed toward the port of Jeddah. Although the international El-Tor quarantine station in the Sinai Peninsula had been established under the Egyptian Maritime and Sanitary Quarantine Board, dozens of steamships bypassed rigorous inspections by falsifying clean bills of health or slipping through before the full incubation period manifested. As pilgrims crowded into dense encampments at Mina and Mount Arafat under scorching desert heat, Vibrio cholerae tore through the dehydrated throng. Ancient unlined desert wells and communal cisterns were swiftly contaminated by open latrines, transforming essential drinking water into a lethal reservoir. Within weeks, over 4,000 pilgrims perished across the Hejaz, leaving a grim trail of shallow desert graves along the caravan routes between Mecca and Medina."
+      },
+      "image": "/assets/images/cholera/wave-6/mek/mek_ch_01.jpg"
+    },
+    {
+      "id": "mek_ch_02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Stasiun Karantina El-Tor & Deteksi Fenotipik Bakteri",
+        "en": "The El-Tor Quarantine Station & Phenotypic Bacterial Discovery"
+      },
+      "date": {
+        "id": "November 1905",
+        "en": "November 1905"
+      },
+      "flash": {
+        "id": "Dr. Felix Gotschlich mengisolasi strain getah cholerae atipikal dari peziarah tanpa gejala di stasiun karantina El-Tor di Sinai, menandai lahirnya garis keturunan biotipe El Tor.",
+        "en": "Dr. Felix Gotschlich isolates an atypical hemolytic vibrio from symptomless pilgrims at the Sinai El-Tor quarantine station, marking the discovery of the El Tor biotype lineage."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae strain El Tor (hemolytic)",
+        "vector": "Kapal uap pengangkut jemaah haji Laut Merah",
+        "incubation": "24 – 72 jam (proporsi carrier tanpa gejala tinggi)",
+        "transmission": "Fekal-oral di ruang akomodasi geladak kapal dan tangki air tawar kapal",
+        "mutationType": {
+          "id": "Biotipe V. cholerae El Tor (Fenotipe Hemolitik)",
+          "en": "V. cholerae biotype El Tor (Hemolytic Phenotype)"
+        },
+        "threatLevel": {
+          "id": "Tingkat III - Anomali Bakteriologis Internasional",
+          "en": "Tier III - International Bacteriological Anomaly"
+        },
+        "clinicalTarget": {
+          "id": "Carrier asimtomatik dan awak kapal niaga Laut Merah",
+          "en": "Asymptomatic carriers and Red Sea merchant crews"
+        }
+      },
+      "description": {
+        "id": "Di pesisir barat daya Semenanjung Sinai, Stasiun Karantina El-Tor beroperasi sebagai benteng pertahanan sanitasi utama antara Timur dan Eropa. Dipimpin oleh dewan medis internasional, stasiun ini memeriksa puluhan ribu jemaah haji yang kembali ke utara melalui Terusan Suez. Pada musim gugur 1905, ahli bakteriologi Jerman Dr. Felix Gotschlich melakukan otopsi dan kultur tinja pada enam jemaah haji yang meninggal karena disentri dan radang usus tanpa menunjukkan gejala klinis kolera klasik. Secara mengejutkan, cawan petri isolasi menumbuhkan koloni vibrio yang secara morfologis identik dengan basil Koch, namun menghasilkan hemolisis total pada sel darah merah domba—suatu sifat yang tidak pernah ditemukan pada strain kolera klasik. Temuan strain 'El Tor' ini membingungkan dunia kedokteran internasional selama beberapa dekade, membuktikan bahwa bakteri kolera dapat bertahan dan bermutasi di dalam inang manusia tanpa menimbulkan syok dehidrasi akut, menciptakan fenomena 'healthy carrier' yang mampu melintasi pos karantina laut.",
+        "en": "On the southwestern coast of the Sinai Peninsula, the El-Tor Quarantine Station served as the premier sanitary bulwark between the Orient and Europe. Supervised by an international sanitary council, the sprawling compound inspected tens of thousands of returning pilgrims before allowing maritime transit through the Suez Canal. In the autumn of 1905, German bacteriologist Dr. Felix Gotschlich conducted autopsies and fecal cultures on six deceased pilgrims who had died of non-cholera dysentery and intestinal inflammation without exhibiting classical cholera collapse. Astonishingly, his agar plates yielded vibrio colonies morphologically indistinguishable from Koch's comma bacillus, yet capable of vigorously hemolyzing sheep erythrocytes—a phenotypic property absent in classical cholera. This discovery of the 'El Tor' vibrio sparked intense scientific controversy, revealing that pathogenic vibrios could establish silent carrier states in asymptomatic travelers, effortlessly slipping through maritime cordons."
+      },
+      "image": "/assets/images/cholera/wave-6/mek/mek_ch_02.jpg"
+    },
+    {
+      "id": "mek_ch_03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Jalur Kereta Api Hejaz: Akselerasi Vektor di Jantung Khilafah",
+        "en": "The Hejaz Railway: Vector Acceleration in the Imperial Heartland"
+      },
+      "date": {
+        "id": "September 1908 – 1909",
+        "en": "September 1908 – 1909"
+      },
+      "flash": {
+        "id": "Peresmian jalur kereta api Damaskus–Madinah memangkas waktu tempuh gurun dari 40 hari menjadi 72 jam, mengubah transmisi kolera dari laju karavan lambat menjadi ledakan kilat.",
+        "en": "The completion of the Damascus–Medina railway cuts desert transit from 40 days to 72 hours, transforming cholera spread from a sluggish caravan crawl into lightning-fast urban seeding."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1",
+        "vector": "Gerbong kereta api penumpang padat dan depo air stasiun gurun",
+        "incubation": "12 – 48 jam",
+        "transmission": "Sanitasi gerbong kereta tertutup dan kran pengisian air ketel uap",
+        "mutationType": {
+          "id": "Transmisi Akselerasi Kereta Api Cepat",
+          "en": "High-Speed Rail Accelerated Vector"
+        },
+        "threatLevel": {
+          "id": "Tingkat IV - Disrupsi Jaringan Transportasi Massal",
+          "en": "Tier IV - Mass Transit Infrastructure Disruption"
+        },
+        "clinicalTarget": {
+          "id": "Penumpang gerbong kelas tiga, pekerja rel, dan garnisun militer",
+          "en": "Third-class rail passengers, railway laborers, and imperial garrisons"
+        }
+      },
+      "description": {
+        "id": "Di bawah perintah Sultan Abdul Hamid II, Kekaisaran Utsmaniyah menyelesaikan pembangunan Jalur Kereta Api Hejaz yang menghubungkan Damaskus ke Madinah pada September 1908. Proyek rekayasa kolosal ini dimaksudkan untuk memperkuat cengkeraman politik Utsmaniyah dan mempermudah mobilisasi jemaah haji. Namun, dari sudut pandang epidemiologi, rel baja tersebut menjadi jalan tol bagi Vibrio cholerae. Perjalanan gurun yang sebelumnya memakan waktu 40 hingga 50 hari dengan unta—waktu yang cukup lama bagi wabah untuk terbakar habis di padang pasir—kini dipadatkan menjadi hanya 72 jam. Penumpang yang terinfeksi bakteri di Hejaz kini dapat tiba di Suriah, Lebanon, dan Anatolia sebelum gejala muntah dan diare akut mereka memuncak. Gerbong kelas tiga yang sesak tanpa fasilitas sanitasi higienis dan stasiun-stasiun gurun yang mengandalkan satu sumber sumur bor segera menjadi episentrum kontaminasi massal, menyebarkan patogen langsung ke Levant.",
+        "en": "Under the decree of Sultan Abdul Hamid II, the Ottoman Empire completed the formidable Hejaz Railway linking Damascus to Medina in September 1908. Built to consolidate imperial control and modernize the pilgrimage, this engineering triumph also radically rewired regional epidemiological dynamics. Desert journeys that historically required 40 to 50 arduous days by camel caravan—a duration long enough for outbreaks to burn themselves out in the arid wastes—were compressed into an astonishing 72 hours. Infected pilgrims boarding trains in Medina could now disembark in Damascus, Beirut, and Aleppo while still incubating the pathogen or shedding vibrios asymptomatically. Overcrowded third-class carriages lacking hygienic latrines and desert water depots dependent on single artesian wells quickly transformed into super-spreader nodes, injecting virulent cholera directly into the heart of the Levant."
+      },
+      "image": "/assets/images/cholera/wave-6/mek/mek_ch_03.jpg"
+    },
+    {
+      "id": "mek_ch_04",
+      "chapterNumber": 4,
+      "type": "side_story",
+      "title": {
+        "id": "Kepanikan di Grand Bazaar: Kolera Mengguncang Konstantinopel",
+        "en": "Panic at the Grand Bazaar: Cholera Shakes Constantinople"
+      },
+      "date": {
+        "id": "Oktober – Desember 1910",
+        "en": "October – December 1910"
+      },
+      "flash": {
+        "id": "Ibu kota kekaisaran Utsmaniyah lumpuh saat kolera merayap dari pelabuhan Galata ke gang-gang padat Stamboul, memaksa penutupan madrasah dan kedai kopi.",
+        "en": "The Ottoman imperial capital grinds to a halt as cholera creeps from Galata port into the dense alleys of Stamboul, shuttering historic madrasas and coffeehouses."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Pipa saluran air kayu kuno Byzantium dan pedagang makanan jalanan",
+        "incubation": "24 – 48 jam",
+        "transmission": "Pencemaran air mancur wudhu masjid dan sumur distrik kumuh",
+        "mutationType": {
+          "id": "Vibrio cholerae Galata-Stamboul",
+          "en": "Galata-Stamboul Urban Vibrio Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat III - Wabah Metropolitan Metropolitan",
+          "en": "Tier III - Metropolitan Urban Outbreak"
+        },
+        "clinicalTarget": {
+          "id": "Buruh pelabuhan Tanduk Emas, pengrajin bazar, dan keluarga miskin",
+          "en": "Golden Horn dockworkers, bazaar artisans, and destitute families"
+        }
+      },
+      "description": {
+        "id": "Pada musim gugur 1910, kapal kargo yang tiba dari pelabuhan Laut Hitam membawa bakteri kolera ke Konstantinopel (Istanbul). Dari dermaga Galata yang sibuk, infeksi menyebar dengan cepat melintasi Tanduk Emas ke distrik-distrik bersejarah Fatih, Eyüp, dan sekitar Grand Bazaar. Sistem pasokan air kota, yang sebagian masih mengandalkan saluran air batu kuno dan pipa kayu era Byzantium yang retak, bocor berdampingan dengan selokan pembuangan limbah. Air mancur publik tempat warga mengambil air wudhu dan minum tercemar tinja. Pemerintah Utsmaniyah yang dipimpin kelompok Turki Muda mengerahkan polisi sanitasi untuk menyemprotkan larutan karbol di jalan-jalan batu, melarang penjualan buah mentah, dan menutup kedai kopi tradisional. Rumah Sakit Haseki dan Gulhane dipenuhi pasien sekarat di atas kasur jerami darurat, mencerminkan kerentanan struktural ibu kota kekaisaran yang menua.",
+        "en": "In the autumn of 1910, merchant vessels arriving from Black Sea ports introduced cholera into Constantinople. From the bustling quays of Galata, the pathogen penetrated across the Golden Horn into the ancient, densely populated districts of Fatih, Eyüp, and the labyrinthine Grand Bazaar. The city's water infrastructure, still reliant in part on cracked Byzantine-era stone conduits and Ottoman wooden pipes, ran dangerously adjacent to unsealed cesspools. Public fountains where residents drew water for ablution and drinking became contaminated. The Young Turk administration mobilized sanitary cordons, dousing cobblestone thoroughfares in carbolic acid, prohibiting raw produce sales, and padlocking popular coffeehouses. Haseki and Gülhane imperial hospitals were overwhelmed with collapsed patients lining provisional straw mats, exposing the acute sanitary vulnerabilities of the fading imperial capital."
+      },
+      "image": "/assets/images/cholera/wave-6/mek/mek_ch_04.jpg"
+    },
+    {
+      "id": "mek_ch_05",
+      "chapterNumber": 5,
+      "type": "milestone",
+      "title": {
+        "id": "Wabah Haji 1911 & Bencana Karantina Camaran",
+        "en": "The 1911 Hajj Catastrophe & The Kamaran Island Quarantine"
+      },
+      "date": {
+        "id": "November 1911 – Januari 1912",
+        "en": "November 1911 – January 1912"
+      },
+      "flash": {
+        "id": "Pulau Kamaran di Laut Merah selatan menjadi penjara sanitasi terbuka bagi puluhan ribu jemaah haji saat gelombang kolera paling mematikan dalam dua dekade menyapu Hejaz.",
+        "en": "Kamaran Island in the southern Red Sea becomes a grim sanitary prison for tens of thousands of pilgrims as the deadliest cholera wave in two decades ravages the Hejaz."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1 Classical",
+        "vector": "Kepadatan kapal pengangkut jemaah haji samudera Hindia",
+        "incubation": "12 – 36 jam",
+        "transmission": "Fekal-oral di barak penampungan pulau karang gersang",
+        "mutationType": {
+          "id": "Galur Hiper-Virulen Haji 1911",
+          "en": "1911 Hyper-Virulent Hajj Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Bencana Kemanusiaan Lintas Benua",
+          "en": "Tier V - Transcontinental Humanitarian Catastrophe"
+        },
+        "clinicalTarget": {
+          "id": "Jemaah haji lintas samudra, wanita, dan anak-anak",
+          "en": "Transoceanic pilgrims, women, and children"
+        }
+      },
+      "description": {
+        "id": "Musim haji tahun 1911 mencatatkan salah satu angka kematian tertinggi dalam sejarah modern Jazirah Arab. Wabah yang bermula di pelabuhan Basra dan menyusuri pesisir Teluk Persia meledak serentak dengan kedatangan jemaah dari India dan Hindia Belanda di Pulau Kamaran, pos karantina Utsmaniyah di lepas pantai Yaman. Fasilitas desinfeksi uap dan barak isolasi Kamaran kewalahan menghadapi gelombang manusia yang melebihi kapasitas lima kali lipat. Di Mekkah dan Mina, suhu gurun yang menyengat mempercepat dehidrasi fatal. Kurangnya air bersih memaksa peziarah membeli air dari kantong kulit unta yang terkontaminasi oleh pedagang nakal. Dalam rentang waktu kurang dari enam minggu, diperkirakan antara 15.000 hingga 20.000 jemaah tewas. Jenazah menumpuk lebih cepat daripada kemampuan regu pemakaman untuk menggali tanah berbatu, memaksa otoritas militer membakar barang-barang bawaan dan menutup seluruh perbatasan provinsi Hejaz.",
+        "en": "The 1911 pilgrimage witnessed one of the deadliest mortality spikes in the modern history of the Arabian Peninsula. An epidemic tracking out of the port of Basra collided with maritime contingents from India and the East Indies arriving at Kamaran Island, the Ottoman quarantine station off the Yemeni coast. Kamaran's steam disinfection autoclaves and isolation compounds collapsed under fivefold overcrowding. In Mecca and the tent city of Mina, punishing desert temperatures accelerated terminal circulatory collapse. Extreme water scarcity drove desperate pilgrims to purchase tainted water distributed in contaminated goatskin bags by illicit vendors. Over six horrific weeks, an estimated 15,000 to 20,000 worshippers perished. Corpses accumulated faster than burial squads could excavate the rocky terrain, prompting imperial military administrators to incinerate abandoned encampments and seal provincial boundaries."
+      },
+      "image": "/assets/images/cholera/wave-6/mek/mek_ch_05.jpg"
+    },
+    {
+      "id": "mek_ch_06",
+      "chapterNumber": 6,
+      "type": "milestone",
+      "title": {
+        "id": "Tragedi Garis Pertahanan Çatalca: Kolera Menghentikan Tentara",
+        "en": "The Çatalca Lines Disaster: Cholera Halts an Army"
+      },
+      "date": {
+        "id": "November 1912",
+        "en": "November 1912"
+      },
+      "flash": {
+        "id": "Di benteng pertahanan terakhir Konstantinopel selama Perang Balkan Pertama, kolera melumpuhkan 30.000 prajurit Utsmaniyah dan Bulgaria dalam lumpur musim dingin.",
+        "en": "At Constantinople's last defensive bastion during the First Balkan War, cholera incapacitates 30,000 Ottoman and Bulgarian soldiers in freezing winter trenches."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Parit pertahanan berlumpur, genangan air hujan tercemar, dan mayat tak terkubur",
+        "incubation": "8 – 24 jam",
+        "transmission": "Konsumsi air parit dan sanitasi militer yang runtuh total",
+        "mutationType": {
+          "id": "Galur Militer Çatalca-Thrace",
+          "en": "Çatalca-Thrace Military Front Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Runtuhnya Garis Pertahanan Strategis Militer",
+          "en": "Tier V - Strategic Military Defensive Collapse"
+        },
+        "clinicalTarget": {
+          "id": "Infanteri parit, wajib militer muda, dan pengungsi perang",
+          "en": "Trench infantry, young conscripts, and war refugees"
+        }
+      },
+      "description": {
+        "id": "Ketika Perang Balkan Pertama berkecamuk pada November 1912, Tentara Bulgaria memukul mundur pasukan Utsmaniyah hingga ke Garis Çatalca—benteng pertahanan parit terakhir hanya 30 kilometer di barat Konstantinopel. Namun, musuh paling mematikan bukanlah peluru artileri, melainkan Vibrio cholerae. Pasukan Utsmaniyah yang mundur dalam kekacauan membawa bakteri dari garnisun Thrace. Dalam kondisi hujan dingin yang membekukan, tanpa makanan hangat atau pasokan air minum bersih, para prajurit meminum air lumpur dari parit yang penuh dengan kotoran dan jasad manusia. Lebih dari 1.000 tentara Utsmaniyah tumbang setiap hari. Kereta api yang mengangkut korban luka ke stasiun Sirkeci di Istanbul dipenuhi mayat yang membeku kaku akibat dehidrasi. Ironisnya, ketika tentara Bulgaria menyerbu garis tersebut, mereka ikut terinfeksi kolera secara masif, memaksa komando tinggi Bulgaria menghentikan serangan dan menyelamatkan Konstantinopel dari kejatuhan.",
+        "en": "As the First Balkan War peaked in November 1912, the advancing Bulgarian Army drove retreating Ottoman forces back to the Çatalca fortified line—the final defensive bastion just 30 kilometers west of Constantinople. Yet the decisive arbiter of the battle was neither Krupp artillery nor bayonets, but Vibrio cholerae. Retreating Ottoman units introduced the pathogen from infected Thracian garrisons. In freezing autumn rains, devoid of rations or purified water, conscripts drank from flooded trenches fouled by excrement and unburied dead. Over 1,000 soldiers collapsed daily. Supply trains arriving at Constantinople's Sirkeci station were filled with soldiers who had stiffened in agonizing cyanotic shock. Crucially, as Bulgarian infantry breached frontline outposts, they too were decimated by rampant cholera, compelling the Bulgarian High Command to abandon the offensive and inadvertently sparing the imperial capital from capture."
+      },
+      "image": "/assets/images/cholera/wave-6/mek/mek_ch_06.jpg"
+    },
+    {
+      "id": "mek_ch_07",
+      "chapterNumber": 7,
+      "type": "standard",
+      "title": {
+        "id": "Pengungsi Perang Balkan & Krisis Sanitasi Anatolia",
+        "en": "Balkan War Refugees & The Anatolian Sanitary Crisis"
+      },
+      "date": {
+        "id": "Desember 1912 – Mei 1913",
+        "en": "December 1912 – May 1913"
+      },
+      "flash": {
+        "id": "Ratusan ribu muhacir (pengungsi Muslim) melintasi Selat Bosporus membawa kolera ke kota-kota Anatolia, memicu respons karantina Bulan Sabit Merah.",
+        "en": "Hundreds of thousands of muhacir refugees cross the Bosphorus, transplanting cholera into Anatolian cities and prompting Red Crescent emergency mobilizations."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Geladak kapal feri pengungsi dan tenda penampungan sementara",
+        "incubation": "24 – 48 jam",
+        "transmission": "Fekal-oral di kamp pengungsi perkotaan tanpa jamban",
+        "mutationType": {
+          "id": "Strain Muhacir Balkan",
+          "en": "Balkan Refugee Muhacir Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat IV - Krisis Kemanusiaan Pengungsi Massal",
+          "en": "Tier IV - Mass Refugee Humanitarian Crisis"
+        },
+        "clinicalTarget": {
+          "id": "Anak-anak pengungsi, lansia, dan perempuan miskin",
+          "en": "Refugee children, elderly, and destitute families"
+        }
+      },
+      "description": {
+        "id": "Kekalahan telak Utsmaniyah di Balkan memicu eksodus massal lebih dari 400.000 warga Muslim (muhacir) yang melarikan diri dari pembantaian dan persekusi. Dengan gerobak sapi, kereta api ternak, dan kapal layar kayu yang penuh sesak, gelombang pengungsi ini membanjiri dermaga Istanbul sebelum dievakuasi melintasi Selat Bosporus menuju pedalaman Anatolia. Bersama kepedihan dan kemiskinan mereka, kolera menyebar seperti api membakar semak kering. Kota-kota seperti Bursa, Izmir, dan Ankara menghadapi krisis kesehatan publik yang belum pernah terjadi sebelumnya. Barak-barak penampungan Bulan Sabit Merah Utsmaniyah (Hilal-i Ahmer) kekurangan selimut, disinfektan, dan tenaga medis. Para dokter militer yang dipimpin oleh Dr. Besim Omer Pasha berjuang siang dan malam melakukan isolasi darurat, memvaksinasi anak-anak dengan vaksin kolera generasi awal, dan membangun tungku pembakaran limbah untuk memutus rantai penularan.",
+        "en": "The catastrophic Ottoman collapse in the Balkans triggered the flight of over 400,000 Muslim refugees (muhacir) escaping widespread ethnic violence. Crammed into oxcarts, cattle trains, and open caïques, this dispossessed tide flooded the quays of Istanbul before dispersing across the Bosphorus into the Anatolian interior. Alongside trauma and famine, cholera spread like wildfire. Cities such as Bursa, Smyrna (Izmir), and Ankara faced unprecedented public health emergencies. Ottoman Red Crescent (Hilal-i Ahmer) field stations ran desperately short of blankets, carbolic disinfectants, and trained dressers. Dedicated medical directors like Dr. Besim Ömer Pasha worked relentlessly to establish cordons sanitaires, inoculate vulnerable refugee orphans with primitive heat-killed vibrio preparations, and construct field crematoria to arrest pathogenic propagation."
+      },
+      "image": "/assets/images/cholera/wave-6/mek/mek_ch_07.jpg"
+    },
+    {
+      "id": "mek_ch_08",
+      "chapterNumber": 8,
+      "type": "standard",
+      "title": {
+        "id": "Mobilisasi Perang Dunia I & Kampanye Vaksinasi Militer",
+        "en": "World War I Mobilization & Military Inoculation Campaigns"
+      },
+      "date": {
+        "id": "Agustus 1914 – September 1915",
+        "en": "August 1914 – September 1915"
+      },
+      "flash": {
+        "id": "Kekaisaran Utsmaniyah memasuki Perang Dunia I dengan mewajibkan vaksinasi kolera massal bagi Angkatan Darat, diproduksi langsung di Institut Bakteriologi Imperial.",
+        "en": "The Ottoman Empire enters World War I mandating mass cholera vaccinations for imperial conscripts, produced directly at the Imperial Bacteriological Institute."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Inactivated Vaccine Strain)",
+        "vector": "Jarum suntik kaca militer dan ampul serum kuda",
+        "incubation": "N/A (Imunisasi Profilaksis)",
+        "transmission": "Inokulasi subkutan preventif dua dosis",
+        "mutationType": {
+          "id": "Vaksin Sel Utuh Inaktif Kolera Gülhane",
+          "en": "Gülhane Inactivated Whole-Cell Cholera Vaccine"
+        },
+        "threatLevel": {
+          "id": "Tingkat II - Imunisasi Profilaksis Terkendali",
+          "en": "Tier II - Controlled Prophylactic Immunization"
+        },
+        "clinicalTarget": {
+          "id": "Korp infanteri Utsmaniyah, korps medis, dan korps artileri",
+          "en": "Ottoman infantry corps, medical staff, and artillerymen"
+        }
+      },
+      "description": {
+        "id": "Belajar dari malapetaka di Garis Çatalca, staf umum militer Utsmaniyah dan departemen kesehatan menyadari bahwa wabah penyakit dapat menghancurkan front perang sebelum tembakan pertama dilepaskan. Ketika Kekaisaran Utsmaniyah memobilisasi pasukannya pada Agustus 1914 untuk Perang Dunia I, Institut Bakteriologi Imperial (Darülkelb ve Bakteriyoloji Enstitüsü) di bawah kepemimpinan Dr. Refik Saydam dan penasihat medis Jerman memproduksi ratusan ribu dosis vaksin kolera inaktif. Untuk pertama kalinya dalam sejarah Timur Tengah, vaksinasi dua suntikan diwajibkan bagi seluruh prajurit yang dikirim ke front Gallipoli, Kaukasus, dan Sinai. Program imunisasi massal ini berhasil menekan angka kasus di barak-barak militer metropolitan hingga di bawah 5%, membuktikan kekuatan profilaksis ilmiah di tengah keterbatasan logistik negara yang sedang sekarat.",
+        "en": "Chastened by the near-fatal catastrophe at the Çatalca lines, the Ottoman General Staff recognized that infectious disease could liquidate military readiness before the first artillery salvo. As the empire mobilized for World War I in August 1914, the Imperial Bacteriology Institute under Dr. Refik Saydam and German military medical advisers initiated industrial-scale production of killed whole-cell cholera vaccines. For the first time in Middle Eastern history, a mandatory two-dose inoculation schedule was instituted for recruits bound for Gallipoli, the Caucasus, and the Sinai fronts. This unprecedented public health campaign maintained infection rates below 5% across major military staging barracks, establishing the vital efficacy of laboratory prophylaxis within an empire operating under extreme wartime embargoes."
+      },
+      "image": "/assets/images/cholera/wave-6/mek/mek_ch_08.jpg"
+    },
+    {
+      "id": "mek_ch_09",
+      "chapterNumber": 9,
+      "type": "milestone",
+      "title": {
+        "id": "Front Sinai & Palestina: Kolera di Bawah Terik Perang Gurun",
+        "en": "The Sinai & Palestine Front: Cholera Under Desert Fire"
+      },
+      "date": {
+        "id": "1916 – 1917",
+        "en": "1916 – 1917"
+      },
+      "flash": {
+        "id": "Pasukan Ekspedisi Utsmaniyah di bawah Djemal Pasha dan Korps Ekspedisi Mesir Inggris bertempur merebut oase gurun di tengah ancaman kontaminasi Vibrio cholerae.",
+        "en": "Ottoman Expeditionary forces under Djemal Pasha and the British Egyptian Expeditionary Force clash over desert oases amid lethal Vibrio cholerae water contamination."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Oase padang pasir, sumur artesis bir, dan saluran pipa air medan perang",
+        "incubation": "12 – 48 jam",
+        "transmission": "Pencemaran sumber mata air gurun tunggal oleh pasukan bergerak",
+        "mutationType": {
+          "id": "Strain Gurun Sinai-Negev",
+          "en": "Sinai-Negev Arid Theater Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat IV - Peperangan Teritorial Sumber Daya Air",
+          "en": "Tier IV - Water Resource Territorial Warfare"
+        },
+        "clinicalTarget": {
+          "id": "Resimen unta gurun, infanteri Anzac, dan pasukan Utsmaniyah",
+          "en": "Desert camel corps, Anzac mounted infantry, and Ottoman levies"
+        }
+      },
+      "description": {
+        "id": "Di medan perang gurun Sinai dan Palestina, kendali atas air adalah masalah hidup dan mati. Ketika Pasukan Angkatan Darat Keempat Utsmaniyah melancarkan serangan terhadap Terusan Suez, pasukan bergerak melintasi gurun pasir tandus yang hanya memiliki sedikit titik air. Di oase-oase seperti Bir al-Abed dan El Arish, perebutan sumur berujung pada kontaminasi tinja yang parah. Prajurit yang kehausan sering meminum air payau mentah yang telah dicemari vibrio oleh unit-unit sebelumnya. Kolera meletus di batalion kavaleri dan resimen unta gurun. Pihak Sekutu, yang menghadapi ancaman serupa, merespons dengan membangun pipa air raksasa melintasi gurun dari Sungai Nil yang disaring dan diklorinasi secara ketat. Sementara itu, dokter militer Utsmaniyah harus menggunakan garam meja lokal dan merebus air secara primitif di atas api unggun untuk menyelamatkan prajurit yang kolaps.",
+        "en": "Across the scorched expanses of the Sinai and Palestine campaigns, control over water determined military survival. When the Ottoman Fourth Army launched expeditions toward the Suez Canal, forces traversed arid wilderness punctuated by scarce, ancient watering holes. At critical oases like Bir al-Abed and El Arish, frantic over-utilization led to fecal contamination. Parched troops consumed raw, brackish water laced with vibrio shed by advance patrols. Cholera detonated across camel transport corps and Ottoman infantry columns. British and Empire forces countered by constructing an unprecedented treated water pipeline from the Nile across Sinai, heavily dosing it with bleaching powder. Conversely, Ottoman field surgeons, facing acute medical shortages, resorted to boiling brackish water over scrub brush fires and improvising saline enemas to stave off terminal dehydration."
+      },
+      "image": "/assets/images/cholera/wave-6/mek/mek_ch_09.jpg"
+    },
+    {
+      "id": "mek_ch_10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "Pengepungan Kut Al-Amara: Runtuhnya Sanitasi Mesopotamia",
+        "en": "The Siege of Kut Al-Amara: Collapse of Mesopotamian Sanitation"
+      },
+      "date": {
+        "id": "Desember 1915 – April 1916",
+        "en": "December 1915 – April 1916"
+      },
+      "flash": {
+        "id": "Di tikungan Sungai Tigris yang terkepung, pasukan Inggris-India yang kelaparan diserang kolera dan enteritis, mempercepat salah satu kapitulasi terbesar dalam sejarah militer Inggris.",
+        "en": "Trapped in a loop of the Tigris River, starving British-Indian troops are devastated by cholera and enteritis, hastening one of Britain's most humiliating military surrenders."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Air lumpur Sungai Tigris dan bangkai kuda perang yang membusuk",
+        "incubation": "12 – 36 jam",
+        "transmission": "Meminum air Sungai Tigris mentah tanpa klorinasi",
+        "mutationType": {
+          "id": "Strain Mesopotamia Tigris",
+          "en": "Tigris Mesopotamian Riverine Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Pengepungan Ekstrem dan Kapitulasi Militer",
+          "en": "Tier V - Extreme Siege & Military Capitulation"
+        },
+        "clinicalTarget": {
+          "id": "Divisi Ke-6 Poona, prajurit sepoy India, dan penduduk sipil Kut",
+          "en": "6th Poona Division, Indian sepoys, and besieged civilians of Kut"
+        }
+      },
+      "description": {
+        "id": "Pengepungan Kut Al-Amara di Mesopotamia (Irak modern) menjadi salah satu babak paling suram dalam Perang Dunia I. Divisi Ke-6 Poona Angkatan Darat Inggris-India di bawah Mayor Jenderal Charles Townshend terkepung di dalam kota kecil di tepi Sungai Tigris oleh Tentara Keenam Utsmaniyah. Selama pengepungan 147 hari, jatah makanan habis hingga prajurit terpaksa memakan daging kuda dan rumput liar. Ketika musim semi tiba, banjir Tigris meluapkan selokan dan jamban terbuka ke sumber air minum garnisiun. Vibrio cholerae menyapu barak-barak pertahanan yang penuh lumpur. Pasukan Inggris yang kekurangan pasokan garam fisiologis dan tablet klorin menyaksikan ratusan prajurit sepoy India mati lemas akibat diare hebat setiap minggu. Wabah kolera ini, bersama kelaparan ekstrem, mematahkan moral pertahanan dan memaksa kapitulasi total 13.000 tentara pada 29 April 1916.",
+        "en": "The Siege of Kut Al-Amara in Mesopotamia represents one of the grimmest sanitary disasters of the Great War. The British-Indian 6th Poona Division under Major-General Charles Townshend was encircled inside a bend of the Tigris River by the Ottoman Sixth Army. Over 147 harrowing days, starvation forced troops to slaughter cavalry mules and forage for weeds. With the spring thaw, seasonal Tigris floods washed overflowing field latrines directly into the garrison's drinking supply. Vibrio cholerae swept through the muddy, subterranean dugouts. Lacking intravenous saline apparatus and bleaching powder, British medical officers helplessly watched Indian sepoys succumb to agonizing rice-water evacuations. Cholera, compounded by scurvy and starvation, shattered defensive resistance, precipitating the unconditional surrender of 13,000 imperial troops on April 29, 1916."
+      },
+      "image": "/assets/images/cholera/wave-6/mek/mek_ch_10.jpg"
+    },
+    {
+      "id": "mek_ch_11",
+      "chapterNumber": 11,
+      "type": "side_story",
+      "title": {
+        "id": "Dr. Refik Saydam & Fondasi Laboratorium Kesehatan Republik",
+        "en": "Dr. Refik Saydam & The Republican Public Health Laboratory"
+      },
+      "date": {
+        "id": "1919 – 1923",
+        "en": "1919 – 1923"
+      },
+      "flash": {
+        "id": "Dari puing-puing kekaisaran yang runtuh, arsitek kesehatan Turki modern mendirikan institusi mikrobiologi independen di Ankara untuk membasmi kolera secara permanen.",
+        "en": "From the ashes of imperial collapse, modern Turkey's healthcare architects establish an independent bacteriological institute in Ankara to permanently eradicate cholera."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Sanitasi pascaperang di kamp pengungsi Anatolia tengah",
+        "incubation": "24 – 48 jam",
+        "transmission": "Pengawasan epidemiologis terpadu dan desinfeksi sumur pedesaan",
+        "mutationType": {
+          "id": "Eradikasi Galur Pascaperang Anatolia",
+          "en": "Post-War Anatolian Eradication Strain"
+        },
+        "threatLevel": {
+          "id": "Tingkat II - Rekonstruksi Sanitasi Nasional Pascaperang",
+          "en": "Tier II - Post-War National Sanitary Reconstruction"
+        },
+        "clinicalTarget": {
+          "id": "Populasi desa Anatolia, veteran perang, dan anak-anak",
+          "en": "Anatolian rural populations, war veterans, and children"
+        }
+      },
+      "description": {
+        "id": "Setelah berakhirnya Perang Dunia I dan dimulainya Perang Kemerdekaan Turki di bawah Mustafa Kemal Atatürk, struktur kesehatan Utsmaniyah yang lama runtuh berkeping-keping. Dr. Refik Saydam, mantan kepala dinas kesehatan militer yang setia pada gerakan nasionalis, mendirikan Kementerian Kesehatan Republik baru di Ankara pada tahun 1920. Di tengah isolasi diplomatik dan kekurangan peralatan dasar, Saydam memusatkan perhatian pada produksi vaksin mandiri dan pengendalian penyakit menular. Laboratorium bakteriologi Ankara mulai memproduksi vaksin kolera, tifus, dan cacar untuk seluruh Anatolia. Ketika Perjanjian Lausanne ditandatangani pada 1923 dan pertukaran populasi massal antara Yunani dan Turki berlangsung, tim inspeksi sanitasi Saydam menerapkan karantina perbatasan yang ketat dan desinfeksi air massal, mencegah terulangnya wabah kolera besar di era republik yang baru lahir.",
+        "en": "Following the collapse of the Ottoman Empire and the inception of the Turkish War of Independence under Mustafa Kemal Atatürk, the imperial medical apparatus disintegrated. Dr. Refik Saydam, former chief of wartime military sanitation who joined the nationalist cause, established the fledgling Republican Ministry of Health in Ankara in 1920. Amid diplomatic isolation and acute material shortages, Saydam prioritized domestic vaccine production and central infectious disease monitoring. The Ankara Central Laboratory synthesized millions of vaccine units for cholera, typhus, and smallpox. When the 1923 Treaty of Lausanne mandated a massive population exchange between Greece and Turkey, Saydam's public health officers enforced rigorous mobile border cordons and water chlorination, definitively preventing cholera epidemics in the young republic."
+      },
+      "image": "/assets/images/cholera/wave-6/mek/mek_ch_11.jpg"
+    },
+    {
+      "id": "mek_ch_12",
+      "chapterNumber": 12,
+      "type": "summary",
+      "title": {
+        "id": "Senja Khilafah & Era Baru Sanitasi Internasional",
+        "en": "Twilight of the Caliphate & The Dawn of International Sanitation"
+      },
+      "date": {
+        "id": "1923",
+        "en": "1923"
+      },
+      "flash": {
+        "id": "Runtuhnya Kekaisaran Utsmaniyah dan lahirnya Konvensi Sanitasi Internasional 1926 mengakhiri era kolera sebagai teror musiman di jalur ziarah Timur Tengah.",
+        "en": "The fall of the Ottoman Empire and the 1926 International Sanitary Convention terminate cholera's century-long reign of terror over Middle Eastern pilgrimage routes."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Infrastruktur pelabuhan modern dan stasiun karantina otomatis",
+        "incubation": "N/A (Pengendalian Total)",
+        "transmission": "Pencegahan absolut melalui sertifikat vaksinasi dan klorinasi air",
+        "mutationType": {
+          "id": "Penahanan Global Biotipe Classical",
+          "en": "Classical Biotype Global Containment"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Pengawasan Pasca-Pandemi Terstandarisasi",
+          "en": "Tier I - Standardized Post-Pandemic Surveillance"
+        },
+        "clinicalTarget": {
+          "id": "Rute pelayaran internasional dan jemaah haji lintas negara",
+          "en": "International shipping lanes and global pilgrims"
+        }
+      },
+      "description": {
+        "id": "Kisah Pandemi Keenam di Kekaisaran Utsmaniyah dan Timur Tengah menandai akhir dari era kuno di mana kolera mendikte nasib militer dan politik kekaisaran. Pembangunan jalur kereta api dan kapal uap awalnya mempercepat penyebaran bakteri, namun perkembangan sains bakteriologi, vaksinasi militer massal, serta klorinasi air pada akhirnya berhasil merebut kembali kendali. Di Hejaz, yang kemudian beralih ke kendali Kerajaan Arab Saudi, stasiun karantina modern, jaringan pipa air desalinasi, dan kewajiban paspor vaksinasi kolera internasional mengubah ritual haji dari ladang pembantaian menjadi model keselamatan kesehatan publik dunia. Benteng El-Tor dan pulau karantina Kamaran perlahan dinonaktifkan seiring kemunculan Office International d'Hygiène Publique (cikal bakal WHO), membuktikan bahwa batas pertahanan terbaik melawan penyakit bukanlah tembok kekaisaran, melainkan sains dan sanitasi universal.",
+        "en": "The Sixth Pandemic in the Ottoman Empire and the Middle East closed the historic chapter wherein cholera dictated the geopolitical fate of empires. While steam locomotion and railways initially accelerated pathogenic diffusion, bacteriological surveillance, mandatory immunization, and widespread water chlorination ultimately subdued the microbe. In the Hejaz, which later transitioned to the Kingdom of Saudi Arabia, modern quarantine depots, municipal artesian waterworks, and mandatory international vaccination certificates permanently dismantled cholera's lethal cycle during the Hajj. Historic lazarettos like El-Tor and Kamaran Island were decommissioned as the Office International d'Hygiène Publique (the precursor to the WHO) established binding global sanitary treaties, demonstrating that humanity's ultimate defense against contagion lies in universal hygiene and cooperative epidemiology."
+      },
+      "image": "/assets/images/cholera/wave-6/mek/mek_ch_12.jpg"
+    }
+  ]
+}

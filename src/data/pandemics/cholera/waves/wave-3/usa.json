@@ -1,0 +1,440 @@
+{
+  "sectorId": "USA",
+  "waveIndex": 3,
+  "sectorName": {
+    "id": "Sektor USA (Amerika Utara: Demam Emas California & Mortalitas Presiden 1848–1854)",
+    "en": "Sector USA (North America: California Gold Rush & Presidential Mortality 1848–1854)"
+  },
+  "coordinates": [
+    38.5816,
+    -121.4944
+  ],
+  "timeRange": "Desember 1848 – 1854 M",
+  "estimatedFatalities": "150.000+ (Amerika Serikat & Wilayah Perbatasan Barat)",
+  "description": {
+    "id": "Menunggangi kapal uap imigran dan gelombang pencari emas California Gold Rush 1849, kolera melintasi benua Amerika Utara, menyerang Jalur Oregon dan merenggut nyawa Presiden Zachary Taylor di Gedung Putih.",
+    "en": "Riding immigrant steam packets and the 1849 California Gold Rush, cholera swept across North America, decimating wagon trains on the Oregon Trail and claiming President Zachary Taylor in the White House."
+  },
+  "chapters": [
+    {
+      "id": "usa-ch-01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Invasi Dua Pelabuhan: New York & New Orleans",
+        "en": "The Two-Port Ingress: New York & New Orleans"
+      },
+      "date": {
+        "id": "Desember 1848 M",
+        "en": "December 1848 AD"
+      },
+      "flash": {
+        "id": "Dua kapal imigran dari Le Havre mendarat hampir bersamaan di Staten Island dan muara Mississippi; kolera menembus benua Amerika dari utara dan selatan secara simultan.",
+        "en": "Two packet ships from Le Havre docked simultaneously at Staten Island and the Mississippi delta; cholera breached America from north and south at once."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kapal Angkut Imigran 'New York' & 'Swanton'",
+        "incubation": "1 – 4 Hari",
+        "transmission": "Pencemaran barel air minum kapal selama penyeberangan Atlantik dan pembuangan limbah ke dermaga New Orleans"
+      },
+      "description": {
+        "id": "Pada tanggal 1 dan 11 Desember 1848, dua kapal imigran Jerman dan Prancis, 'New York' dan 'Swanton', tiba di perairan Amerika Serikat setelah mengalami wabah fatal di laut lepas. Kapal 'New York' dikarantina di Staten Island, New York, namun kapal 'Swanton' diizinkan berlabuh langsung di dermaga New Orleans tanpa isolasi memadai. Dalam hitungan hari, kolera meledak di kota pelabuhan semi-tropis tersebut, menewaskan ribuan buruh dermaga dan penumpang transit yang sedang bersiap menaiki kapal-kapal uap pedalaman menuju pedalaman benua.",
+        "en": "On December 1 and 11, 1848, two immigrant packet ships out of Le Havre, the 'New York' and the 'Swanton', arrived in American waters following deadly mid-ocean outbreaks. While the 'New York' was quarantined at Staten Island, the 'Swanton' docked directly in New Orleans with minimal inspection. Within days, cholera exploded across the subtropical port, killing thousands of stevedores and transit passengers preparing to board inland riverboats bound for the American heartland."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_01.jpg"
+    },
+    {
+      "id": "usa-ch-02",
+      "chapterNumber": 2,
+      "type": "standard",
+      "title": {
+        "id": "Uap Sungai Mississippi: Bencana Kembar St. Louis",
+        "en": "Mississippi Riverboats: The Twin Calamities of St. Louis"
+      },
+      "date": {
+        "id": "Musim Semi 1849 M",
+        "en": "Spring 1849 AD"
+      },
+      "flash": {
+        "id": "Kapal-kapal uap dari New Orleans membawa kolera ke St. Louis; di tengah kepungan wabah yang menewaskan 4.500 warga, kebakaran raksasa memusnahkan pelabuhan sungai kota.",
+        "en": "Steamboats from New Orleans carried cholera to St. Louis; amidst an outbreak claiming 4,500 lives, a catastrophic fire incinerated the riverfront."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kapal Uap Pedal Roda Sungai Mississippi",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pencemaran pasokan air minum kapal uap dan dermaga transit Sungai Mississippi"
+      },
+      "description": {
+        "id": "St. Louis, Missouri, adalah gerbang utama menuju wilayah barat liar Amerika. Pada musim semi 1849, ratusan kapal uap roda dayung berlayar ke hulu dari New Orleans, menurunkan ribuan pendatang terinfeksi di dermaga kota. Pada bulan Mei 1849, ketika angka kematian kolera melampaui 100 jiwa per hari, malapetaka kedua melanda: kebakaran hebat kapal uap 'White Cloud' merambat ke dermaga kayu, memusnahkan 23 kapal dan 15 blok kota. Dihantam api dan wabah secara bersamaan, lebih dari 4.500 warga St. Louis tewas sebelum musim panas berakhir.",
+        "en": "St. Louis, Missouri, served as the principal gateway to the American western frontier. In spring 1849, hundreds of paddlewheelers steamed upriver from New Orleans, discharging infected travelers at the levee. In May 1849, with cholera deaths exceeding 100 daily, a second catastrophe struck: a fire aboard the steamer 'White Cloud' leaped to the timber wharves, incinerating 23 vessels and 15 city blocks. Besieged by fire and pestilence, over 4,500 citizens perished before summer closed."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_02.jpg"
+    },
+    {
+      "id": "usa-ch-03",
+      "chapterNumber": 3,
+      "type": "milestone",
+      "title": {
+        "id": "Wafatnya Mantan Presiden James K. Polk",
+        "en": "Demise of Former President James K. Polk"
+      },
+      "date": {
+        "id": "15 Juni 1849 M",
+        "en": "June 15, 1849 AD"
+      },
+      "flash": {
+        "id": "Mantan Presiden AS James K. Polk tertular kolera dalam perjalanan pulang dari Washington melalui New Orleans; ia meninggal dunia di Nashville hanya tiga bulan setelah lengser.",
+        "en": "Former US President James K. Polk contracted cholera touring the South via New Orleans, dying in Nashville just three months after leaving office."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Perjalanan Kapal Uap Sungai Pedalaman",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Konsumsi air dan makanan terkontaminasi di atas kapal uap rute New Orleans – Memphis"
+      },
+      "description": {
+        "id": "Hanya beberapa bulan setelah menyelesaikan masa jabatannya yang sukses memperluas wilayah Amerika Serikat ke Samudra Pasifik, mantan Presiden James K. Polk melakukan tur perpisahan melintasi negara-negara bagian selatan. Saat menaiki kapal uap dari New Orleans menuju Memphis, Polk jatuh sakit parah akibat diare kolera yang sedang mengamuk di lembah Mississippi. Meskipun sempat pulih sementara, dehidrasi hebat merusak kesehatannya secara permanen. Ia tiba di kediamannya di Nashville, Tennessee, dalam keadaan sangat lemah dan meninggal dunia pada 15 Juni 1849 pada usia 53 tahun.",
+        "en": "Mere months after completing a term that expanded United States borders to the Pacific, former President James K. Polk embarked on a southern farewell tour. Boarding a riverboat from New Orleans to Memphis, Polk contracted severe cholera then raging along the Mississippi basin. Though he rallied temporarily, extreme dehydration shattered his constitution. He reached his newly purchased estate, Polk Place in Nashville, Tennessee, in a collapsed state and died on June 15, 1849, aged 53."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_03.jpg"
+    },
+    {
+      "id": "usa-ch-04",
+      "chapterNumber": 4,
+      "type": "milestone",
+      "title": {
+        "id": "Demam Emas 1849: 'Forty-Niners' Membawa Maut ke Barat",
+        "en": "The 1849 Gold Rush: Forty-Niners Carry Death West"
+      },
+      "date": {
+        "id": "Musim Semi – Panas 1849 M",
+        "en": "Spring – Summer 1849 AD"
+      },
+      "flash": {
+        "id": "Penemuan emas di California memicu migrasi darat terbesar dalam sejarah AS; lebih dari 30.000 pemburu emas berkumpul di Independence, Missouri, membawa kuman kolera ke jalur kafilah.",
+        "en": "Gold discoveries in California sparked the greatest overland migration in US history; 30,000 fortune-seekers assembled at Independence, seeding the trails."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kafilah Gerobak Tertutup (Covered Wagons) & Kamp Pionir",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pencemaran sumber air minum di titik kumpul kafilah Independence, St. Joseph, dan Council Bluffs"
+      },
+      "description": {
+        "id": "Penemuan bijih emas di Sutter's Mill pada 1848 memicu histeria massal yang dikenal sebagai 'California Gold Rush'. Pada musim semi 1849, puluhan ribu pemburu emas (Forty-Niners) dari seluruh penjuru dunia membanjiri kota-kota perbatasan di Missouri seperti Independence dan St. Joseph untuk melengkapi kereta gerobak mereka. Banyak di antara mereka yang terinfeksi saat menaiki kapal uap Sungai Missouri. Ketika musim semi tiba dan padang rumput mengering, iring-iringan ribuan gerobak mulai bergerak ke barat, membawa bom waktu biologis melintasi padang gurun Amerika.",
+        "en": "The discovery of gold at Sutter's Mill in 1848 ignited the mania known as the 'California Gold Rush'. In spring 1849, tens of thousands of prospectors ('Forty-Niners') flooded Missouri jumping-off towns like Independence and St. Joseph to outfit covered wagons. Many carried active infections contracted aboard Missouri River steamboats. As trail grass greened, thousands of wagons rolled westward, hauling a biological time bomb across the American frontier."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_04.jpg"
+    },
+    {
+      "id": "usa-ch-05",
+      "chapterNumber": 5,
+      "type": "standard",
+      "title": {
+        "id": "Lembah Sungai Platte: Rute Kuburan Sepanjang 1.000 Mil",
+        "en": "The Platte River Road: A Thousand Miles of Graves"
+      },
+      "date": {
+        "id": "Mei – Juli 1849 M",
+        "en": "May – July 1849 AD"
+      },
+      "flash": {
+        "id": "Di sepanjang Sungai Platte di Nebraska dan Wyoming, kolera membantai para pionir; rata-rata satu kuburan darurat ditemukan setiap 100 meter di sepanjang rute emigran.",
+        "en": "Along the Platte River across Nebraska and Wyoming, cholera slaughtered emigrants; an average of one fresh grave was dug every hundred yards."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Mata Air Gurun & Genangan Keruh Sungai Platte",
+        "incubation": "Beberapa Jam – 24 Jam",
+        "transmission": "Penggunaan berulang sumber air minum dan kubangan dangkal oleh ribuan kafilah gerobak yang berkemah berdekatan"
+      },
+      "description": {
+        "id": "Jalur migrasi di sepanjang Sungai Platte berubah menjadi pemakaman terpanjang di dunia. Sungai Platte adalah sungai dangkal berpasir yang lambat dan keruh; ribuan emigran dan hewan ternak buang air dan meminum dari air yang sama. Dalam tempo beberapa hari perjalanan dari Fort Kearny, wabah kolera mencapai puncaknya. Para pionir yang sehat di pagi hari sering kali dimakamkan sebelum matahari terbenam. Papan kayu bertuliskan nama korban dan batu nisan darurat berjejer tanpa putus di sepanjang tepi jalan; serigala gurun kerap menggali kembali kuburan-kuburan dangkal tersebut.",
+        "en": "The trail along the Platte River became the world's longest graveyard. The Platte was sluggish, shallow, and silted; thousands of emigrants and livestock watered and evacuated in the same muddy channels. Days out from Fort Kearny, the epidemic peaked. Pioneers hale at breakfast were buried by sundown. Crude headboards cut from wagon sideboards lined the trail unbroken; prairie wolves frequently disinterred shallow graves, leaving skeletal remnants along the road."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_05.jpg"
+    },
+    {
+      "id": "usa-ch-06",
+      "chapterNumber": 6,
+      "type": "milestone",
+      "title": {
+        "id": "Pembantaian Bangsa Indian Dataran: Wabah Sioux & Cheyenne",
+        "en": "Plains Indigenous Devastation: The 1849 Epidemic"
+      },
+      "date": {
+        "id": "Musim Panas 1849 M",
+        "en": "Summer 1849 AD"
+      },
+      "flash": {
+        "id": "Kafilah Forty-Niners menularkan kolera ke suku-suku Pribumi Dataran; suku Pawnee kehilangan seperempat populasinya dan suku Cheyenne terpecah dalam kepanikan maut.",
+        "en": "Forty-Niner wagon trains transmitted cholera to Plains Indigenous tribes; the Pawnee lost a quarter of their people and the Cheyenne scattered in terror."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kontak Jalur Migrasi Kulit Putih & Sungai Perkemahan Adat",
+        "incubation": "Beberapa Jam",
+        "transmission": "Pencemaran sungai perkemahan tradisional Indian oleh rombongan kafilah emas"
+      },
+      "description": {
+        "id": "Bagi bangsa-bangsa Pribumi Great Plains, migrasi Demam Emas 1849 membawa malapetaka biologis yang tak terlukiskan. Suku Lakota Sioux, Cheyenne, Kiowa, dan Pawnee yang berkemah di dekat Sungai Platte meminum air yang tercemar oleh kotoran kafilah kulit putih. Wabah ini menyerang dengan kecepatan yang mematikan; para pejuang perkasa tewas dalam beberapa jam dengan tubuh membiru kehitaman. Suku Pawnee kehilangan hampir seperempat anggotanya hanya dalam satu musim panas. Para tetua suku menganggap wabah ini sebagai senjata sihir jahat kaum kulit putih, memicu kebencian mendalam yang kelak meledak dalam Perang Indian Dataran.",
+        "en": "For Plains Indigenous nations, the 1849 Gold Rush migration was an unmitigated demographic disaster. Lakota Sioux, Cheyenne, Kiowa, and Pawnee bands encamped near the Platte drank from streams fouled by emigrant trains. Cholera struck with lethal rapidity; formidable warriors died within hours, their skin turning livid. The Pawnee lost nearly a quarter of their entire population in a single season. Tribal elders viewed the visitation as white man's sorcery, seeding grievances that fueled decades of Plains Indian warfare."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_06.jpg"
+    },
+    {
+      "id": "usa-ch-07",
+      "chapterNumber": 7,
+      "type": "side_story",
+      "title": {
+        "id": "Karantina Danau Garam: Benteng Pertahanan Mormon Brigham Young",
+        "en": "Great Salt Lake Quarantine: Brigham Young's Mormon Line"
+      },
+      "date": {
+        "id": "1849 – 1850 M",
+        "en": "1849 – 1850 AD"
+      },
+      "flash": {
+        "id": "Di Lembah Danau Garam Besar, pemimpin Mormon Brigham Young memberlakukan karantina ketat terhadap para pemburu emas California, berhasil melindungi komunitasnya dari kolera.",
+        "en": "In the Great Salt Lake Valley, Mormon leader Brigham Young enforced strict quarantines on California prospectors, shielding his community from cholera."
+      },
+      "virusProfile": {
+        "agent": "Isolasi Geografis & Disiplin Karantina Teokratis",
+        "vector": "Pemeriksaan Pos Perbatasan Celah Gunung Wasatch",
+        "incubation": "N/A",
+        "transmission": "Pemisahan ketat kafilah emas luar dari pemukiman warga sipil Deseret"
+      },
+      "description": {
+        "id": "Ketika gelombang pemburu emas tiba di Pegunungan Rocky, mereka harus melintasi wilayah Lembah Danau Garam Besar (Utah) yang dikuasai oleh pemukim Mormon. Sadar akan bahaya kolera yang menghancurkan para imigran di dataran rendah, pemimpin teokratis Brigham Young mendirikan pos karantina ketat di muara ngarai Emigration Canyon. Para 'Gentiles' (pemburu emas non-Mormon) dilarang berbaur bebas di Salt Lake City; mereka diarahkan ke kamp perdagangan terisolasi di pinggiran kota untuk membeli persediaan makanan dengan emas batangan, membuktikan efektivitas isolasi geografis terencana.",
+        "en": "As Gold Rush tides crested the Rockies, prospectors traversed the Great Salt Lake Valley controlled by Mormon pioneers. Fully aware of the pestilence devastating lowland emigrants, theocratic governor Brigham Young established a rigorous quarantine post at the mouth of Emigration Canyon. Non-Mormon 'Gentiles' were barred from entering Salt Lake City proper, diverted instead to isolated trading encampments to exchange gold dust for flour, demonstrating the efficacy of disciplined territorial isolation."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_07.jpg"
+    },
+    {
+      "id": "usa-ch-08",
+      "chapterNumber": 8,
+      "type": "milestone",
+      "title": {
+        "id": "Wafatnya Presiden Zachary Taylor di Gedung Putih",
+        "en": "Death of President Zachary Taylor at the White House"
+      },
+      "date": {
+        "id": "9 Juli 1850 M",
+        "en": "July 9, 1850 AD"
+      },
+      "flash": {
+        "id": "Presiden AS Zachary Taylor jatuh sakit parah setelah mengonsumsi buah ceri mentah dan susu dingin di perayaan 4 Juli; ia meninggal dunia lima hari kemudian.",
+        "en": "US President Zachary Taylor fell critically ill after consuming raw cherries and iced milk at Fourth of July festivities, dying five days later."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae / Kolera Morbus Akut",
+        "vector": "Air Es Mentah & Susu Tercemar Washington DC",
+        "incubation": "12 – 24 Jam",
+        "transmission": "Konsumsi air es dan susu yang terkontaminasi bakteri enterik di tengah krisis sanitasi ibukota musim panas 1850"
+      },
+      "description": {
+        "id": "Pada tanggal 4 Juli 1850, Presiden Amerika Serikat Zachary Taylor—pahlawan Perang Meksiko yang dikenal tangguh dengan julukan 'Old Rough and Ready'—menghadiri upacara peletakan batu pertama Monumen Washington di bawah terik matahari yang membakar. Untuk menyegarkan diri, sang presiden meminum air es dalam jumlah besar, susu dingin, dan makan buah ceri segar. Malam itu, Taylor terserang kram perut parah, muntah, dan diare akut (didiagnosis dokter sebagai 'cholera morbus'). Meskipun dokter memberinya obat tidur dan kalomel, dehidrasi hebat merenggut nyawa presiden pada 9 Juli 1850, mengguncang politik perbudakan nasional.",
+        "en": "On July 4, 1850, President Zachary Taylor—the rugged Mexican War hero known as 'Old Rough and Ready'—attended sweltering ground-breaking ceremonies for the Washington Monument. To refresh himself, the president consumed quantities of iced water, cold milk, and raw cherries. That evening, Taylor fell ill with severe cramps, vomiting, and diarrhea (diagnosed as 'cholera morbus'). Despite aggressive bleedings and calomel, catastrophic dehydration killed the president on July 9, 1850, upending national compromises on slavery."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_08.jpg"
+    },
+    {
+      "id": "usa-ch-09",
+      "chapterNumber": 9,
+      "type": "milestone",
+      "title": {
+        "id": "Kota Tenda Sacramento: Banjir & Kolera di Lembah Emas",
+        "en": "Sacramento Tent Boomtown: Flood & Pestilence in the Gold Valley"
+      },
+      "date": {
+        "id": "Oktober – November 1850 M",
+        "en": "October – November 1850 AD"
+      },
+      "flash": {
+        "id": "Di kota tenda Sacramento di hilir tambang emas, kolera meletus menewaskan seribu warga dalam tiga pekan; wali kota dan sebagian besar dokter tewas atau melarikan diri.",
+        "en": "In Sacramento's boomtown tent city, cholera struck, killing a thousand souls in three weeks; the mayor and most doctors died or fled."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Lumpur Sungai Sacramento & Sumur Tenda Darurat",
+        "incubation": "Beberapa Jam – 24 Jam",
+        "transmission": "Pencemaran air tanah kota tenda liar tanpa sistem jamban di tengah genangan air pasang sungai"
+      },
+      "description": {
+        "id": "Pada musim gugur 1850, kolera akhirnya menyeberangi Pegunungan Sierra Nevada dan mendarat di kota emas Sacramento di tepi Sungai Sacramento. Kota darurat yang dihuni lebih dari 10.000 pendatang ini sebagian besar terdiri dari tenda kain dan pondok kayu tanpa saluran pembuangan. Pada tanggal 20 Oktober, kematian pertama dicatat; dalam beberapa hari, angka kematian melonjak hingga 40 jiwa per hari. Rumah sakit darurat tenda kewalahan; wali kota Sacramento Hardin Bigelow dan 17 dokter tewas terserang penyakit. Ribuan penambang melarikan diri ke perbukitan, meninggalkan mayat-mayat terbaring tanpa dikubur di dalam tenda.",
+        "en": "In autumn 1850, cholera breached the Sierra Nevada to strike Sacramento on the Sacramento River. This instant boomtown of 10,000 miners consisted of canvas tents and wooden shacks lacking sanitation. On October 20, the first deaths occurred; within days, mortality climbed to 40 per day. Makeshift hospital tents were overwhelmed; Mayor Hardin Bigelow and 17 physicians died of the contagion. Thousands fled into the foothills, leaving decomposing bodies abandoned inside cloth tents."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_09.jpg"
+    },
+    {
+      "id": "usa-ch-10",
+      "chapterNumber": 10,
+      "type": "standard",
+      "title": {
+        "id": "San Francisco: Teluk Kapal Hantu & Karantina Pasifik",
+        "en": "San Francisco: Forest of Abandoned Masts & Pacific Port Crisis"
+      },
+      "date": {
+        "id": "November 1850 M",
+        "en": "November 1850 AD"
+      },
+      "flash": {
+        "id": "Kapal uap 'Carolina' membawa kolera dari Panama ke Teluk San Francisco; kota pelabuhan emas yang dipenuhi kapal-kapal ditinggalkan awaknya tersapu kepanikan.",
+        "en": "Steamship 'Carolina' ferried cholera from Panama to San Francisco Bay; the boomtown, choked with abandoned vessels, succumbed to panic."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Kapal Uap Jalur Pasifik Panama-California",
+        "incubation": "1 – 3 Hari",
+        "transmission": "Pencemaran sumber air minum di dermaga kayu Long Wharf San Francisco"
+      },
+      "description": {
+        "id": "Selain rute darat melalui Jalur Oregon-California, kolera mencapai Pantai Pasifik melalui rute laut melintasi Tanah Genting Panama. Pada akhir Oktober 1850, kapal uap 'Carolina' berlabuh di Pelabuhan San Francisco dengan puluhan jenazah di ruang palka. Di kota yang sedang tumbuh eksplosif dengan teluk yang dipenuhi ratusan 'kapal hantu' yang ditinggalkan oleh awak kapal yang kabur menambang emas, kolera menemukan inang baru. Meskipun Dewan Kota mendirikan rumah sakit darurat di North Beach, lebih dari 250 warga tewas sebelum angin laut yang dingin meredakan epidemi pada akhir November.",
+        "en": "Alongside overland trails, cholera reached the Pacific coast via maritime transits across the Isthmus of Panama. In late October 1850, the steamer 'Carolina' dropped anchor in San Francisco Bay with corpses stacked belowdecks. In a metropolis choked with hundreds of 'ghost ships' deserted by crews seeking gold, the bacillus spread rapidly. Although the City Council established an emergency lazaretto at North Beach, over 250 died before brisk Pacific winds helped quell the outbreak."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_10.jpg"
+    },
+    {
+      "id": "usa-ch-11",
+      "chapterNumber": 11,
+      "type": "standard",
+      "title": {
+        "id": "Chicago: Kota di Atas Rawa yang Bangkit Melawan Maut",
+        "en": "Chicago: Rising Above the Muddy Swamps"
+      },
+      "date": {
+        "id": "1849 – 1854 M",
+        "en": "1849 – 1854 AD"
+      },
+      "flash": {
+        "id": "Kota Chicago yang berkembang pesat kehilangan 5,5 persen populasinya dalam wabah 1854; krisis ini memicu proyek rekayasa menaikkan seluruh level kota setinggi 2 meter.",
+        "en": "Booming Chicago lost 5.5% of its population in 1854; the crisis provoked the audacious engineering feat of raising the entire city level by six feet."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Sungai Chicago yang Tergenang & Danau Michigan",
+        "incubation": "12 – 48 Jam",
+        "transmission": "Pencemaran muara Danau Michigan tempat intake air minum kota berada hanya beberapa ratus meter dari muara limbah"
+      },
+      "description": {
+        "id": "Chicago pada 1850-an adalah kota industri baru yang dibangun di atas rawa-rawa dataran rendah Danau Michigan tanpa kemiringan drainase alami. Setiap kali hujan turun, kotoran dari septic tank meluap ke jalanan dan mengalir ke Sungai Chicago, yang kemudian bermuara tepat di titik intake air minum kota di Danau Michigan. Pada tahun 1854, wabah kolera dahsyat menewaskan hampir 1.500 warga dari 28.000 jiwa. Menyadari kota tidak akan pernah berkembang jika tetap berada di level rawa, pemerintah kota menyetujui proyek gila: menaikkan seluruh jalan, trotoar, dan gedung-gedung bertingkat Chicago setinggi 1,5 hingga 2,5 meter menggunakan dongkrak hidrolik untuk memasang jaringan pipa pembuangan di bawahnya.",
+        "en": "Chicago in the 1850s was built upon flat muddy marshes fringing Lake Michigan with zero natural drainage. Heavy rains forced unlined privies into streets and back into the Chicago River, which discharged into Lake Michigan adjacent to municipal waterworks intakes. In 1854, a virulent outbreak killed 1,500 of its 28,000 citizens (5.5%). Recognizing the city could not survive at swamp level, civic leaders approved a radical scheme: jacking up entire blocks of brick buildings and streets five to eight feet on screw-jacks to install gravity-flow sewer mains beneath."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_11.jpg"
+    },
+    {
+      "id": "usa-ch-12",
+      "chapterNumber": 12,
+      "type": "standard",
+      "title": {
+        "id": "Vektor Kereta Api Uap: Penetrasi Kilat Midwest 1854",
+        "en": "The Iron Horse Vector: Lightning Ingress Across the Midwest 1854"
+      },
+      "date": {
+        "id": "Musim Panas 1854 M",
+        "en": "Summer 1854 AD"
+      },
+      "flash": {
+        "id": "Jaringan rel kereta api uap yang berkembang pesat mempercepat penyebaran kolera melintasi Ohio, Indiana, dan Illinois dengan kecepatan 50 mil per jam.",
+        "en": "Rapidly expanding railway networks propelled cholera across Ohio, Indiana, and Illinois at unprecedented speeds of 50 miles per hour."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Gerbong Penumpang Kereta Api Uap & Stasiun Depot",
+        "incubation": "Beberapa Jam – 24 Jam",
+        "transmission": "Toilet gerbong kereta yang membuang tinja langsung ke bantalan rel di sepanjang rute perjalanan antarkota"
+      },
+      "description": {
+        "id": "Jika epidemi tahun 1832 didorong oleh kapal kanal dan gerobak kuda yang lambat, epidemi tahun 1854 di Amerika Serikat adalah pandemi pertama yang memanfaatkan kecepatan penuh jaringan kereta api uap. Jalur rel besi menghubungkan pelabuhan-pelabuhan pesisir timur dengan lembah Danau-Danau Besar dan Midwest dalam hitungan jam, bukan pekan. Gerbong-gerbong kereta era itu dilengkapi toilet pipa terbuka yang membuang kotoran langsung ke bantalan rel. Di setiap stasiun persimpangan, penumpang yang sakit turun dan mencemari sumber air depot, menyebarkan kolera ke kota-kota pedalaman yang sebelumnya terisolasi.",
+        "en": "While the 1832 epidemic traveled at canal boat speeds, the 1854 resurgence in the United States was the first to ride the iron horse. Expanding railways connected Atlantic seaports with Great Lakes hubs and Midwestern farmland within hours rather than weeks. Passenger coaches featured open-hopper toilets that dropped human waste directly onto tracks. At junction depots, infected passengers disembarked, contaminating station wells and spreading cholera into previously shielded inland towns."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_12.jpg"
+    },
+    {
+      "id": "usa-ch-13",
+      "chapterNumber": 13,
+      "type": "side_story",
+      "title": {
+        "id": "Five Points Manhattan 1854: Uji Ketahanan Akueduk Croton",
+        "en": "Five Points Manhattan 1854: Testing the Croton Aqueduct"
+      },
+      "date": {
+        "id": "Juli – Agustus 1854 M",
+        "en": "July – August 1854 AD"
+      },
+      "flash": {
+        "id": "Ketika kolera kembali menghantam New York pada 1854, keberadaan Akueduk Croton yang mengalirkan air murni pegunungan menekan angka kematian hingga separuh dari bencana 1832.",
+        "en": "When cholera returned to New York in 1854, the Croton Aqueduct delivering pure upstate water halved the mortality seen in 1832."
+      },
+      "virusProfile": {
+        "agent": "Infrastruktur Air Bersih Terproteksi",
+        "vector": "Pipa Air Bersih Akueduk Croton Gravitasi",
+        "incubation": "N/A",
+        "transmission": "Bukti klinis empiris bahwa populasi perkotaan yang memiliki akses ke pasokan air bersih terlindung mengalami penurunan mortalitas drastis"
+      },
+      "description": {
+        "id": "Pada musim panas 1854, bertepatan dengan wabah Broad Street di London, kolera kembali meletus di New York City, terutama di kawasan kumuh Five Points dan Sixth Ward. Namun kali ini ada perbedaan mendasar: kota itu telah menikmati pasokan air bersih dari Akueduk Croton yang selesai dibangun pada 1842. Meskipun lebih dari 2.500 warga miskin yang masih menggunakan sumur pompa tua atau tangki kotor tetap menjadi korban, angka kematian total jauh di bawah proyeksi populasi. Kasus New York membuktikan kepada dunia bahwa rekayasa sipil penyediaan air bersih adalah senjata terkuat melawan pandemi.",
+        "en": "In the summer of 1854, coincident with London's Broad Street outbreak, cholera reappeared in New York City, flaring in the Five Points tenements. But an indispensable structural defense was now in place: the Croton Aqueduct, completed in 1842, delivering pure Westchester reservoir water. Although over 2,500 impoverished residents still relying on contaminated yard pumps died, citywide mortality per capita fell to half that of 1832, providing clear empirical proof that municipal water infrastructure was humanity's strongest shield against pestilence."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_13.jpg"
+    },
+    {
+      "id": "usa-ch-14",
+      "chapterNumber": 14,
+      "type": "standard",
+      "title": {
+        "id": "Perkebunan Selatan: Perbudakan di Bawah Pengepungan Wabah",
+        "en": "Southern Plantations: Chattel Slavery Under Epidemic Siege"
+      },
+      "date": {
+        "id": "1849 – 1853 M",
+        "en": "1849 – 1853 AD"
+      },
+      "flash": {
+        "id": "Di perkebunan kapas dan tebu di Louisiana dan Mississippi Delta, kolera menewaskan puluhan ribu budak Afro-Amerika yang dipaksa bekerja di bawah kekejaman mandor.",
+        "en": "On cotton and cane plantations across Louisiana and the Mississippi Delta, cholera claimed tens of thousands of enslaved African Americans forced to labor under cruel overseers."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Biotipe Klasik O1)",
+        "vector": "Parit Drainase Rawa & Barak Kayu Budak",
+        "incubation": "12 – 24 Jam",
+        "transmission": "Konsumsi air parit berlumpur oleh kaum budak yang tidak memiliki hak atas air bersih atau istirahat medis"
+      },
+      "description": {
+        "id": "Dampak gelombang ketiga kolera di wilayah Amerika Selatan paling parah dirasakan oleh jutaan manusia yang hidup di bawah perbudakan chattel. Di perkebunan-perkebunan besar di sepanjang Sungai Red dan Delta Mississippi, para budak tinggal di pondok-pondok kayu reyot tanpa ventilasi dan meminum air langsung dari saluran drainase rawa tempat pembuangan kotoran. Para pemilik perkebunan yang takut kehilangan 'properti bernilai' sering kali mengurung budak yang sakit di gudang terkunci atau memaksa mereka minum campuran minyak jarak dan wiski keras. Diperkirakan lebih dari 30.000 budak Afro-Amerika tewas tanpa nisan selama tahun-tahun kelam ini.",
+        "en": "The Third Pandemic across the American South exacted its heaviest toll upon millions trapped in chattel slavery. On vast plantations lining the Red and lower Mississippi Rivers, enslaved families occupied unventilated cabins, drinking from stagnant bayou drainage ditches into which waste seeped. Planters terrified of losing capital assets locked sick laborers in unventilated storehouses or forced toxic draughts of castor oil and whiskey upon them. Over 30,000 enslaved souls perished into unmarked swamp trenches during these grim years."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_14.jpg"
+    },
+    {
+      "id": "usa-ch-15",
+      "chapterNumber": 15,
+      "type": "summary",
+      "title": {
+        "id": "Warisan Demam Emas: Lahirnya Dewan Kesehatan Kota Modern",
+        "en": "Legacy of the Gold Rush Epidemic: Birth of Municipal Health Boards"
+      },
+      "date": {
+        "id": "Pasca-1854 M",
+        "en": "Post-1854 AD"
+      },
+      "flash": {
+        "id": "Trauma nasional kematian 150.000 warga dan dua presiden mendorong berdirinya Dewan Kesehatan Metropolitan New York tahun 1866 dan reformasi undang-undang sanitasi federal.",
+        "en": "The national trauma of 150,000 deaths and two presidents catalyzed the creation of New York's Metropolitan Board of Health in 1866 and federal sanitation reform."
+      },
+      "virusProfile": {
+        "agent": "Institusionalisasi Kesehatan Masyarakat Amerika",
+        "vector": "Dewan Kesehatan Metropolitan & Regulasi Karantina",
+        "incubation": "N/A",
+        "transmission": "Pemberlakuan kewenangan hukum karantina wajib, inspeksi perumahan petak, dan perlindungan pasokan air minum perkotaan"
+      },
+      "description": {
+        "id": "Pengalaman pahit gelombang ketiga kolera antara 1848 dan 1854 mengubah pandangan bangsa Amerika terhadap peran pemerintah dalam kesehatan publik. Kematian mantan Presiden Polk dan Presiden Taylor membuktikan bahwa jabatan tertinggi pun tidak kebal dari infeksi kotoran manusia. Dipimpin oleh dokter reformis seperti Dr. Stephen Smith di New York, gerakan sanitasi menuntut pembentukan badan kesehatan publik yang memiliki otoritas penegakan hukum independen. Puncaknya pada tahun 1866, dibentuklah Metropolitan Board of Health di New York—badan kesehatan masyarakat modern pertama di Amerika yang sukses memutus rantai pandemi kolera berikutnya.",
+        "en": "The bitter crucible of the Third Cholera Pandemic between 1848 and 1854 irrevocably transformed American perceptions of government responsibility in public health. The deaths of former President Polk and sitting President Taylor proved the highest office held no immunity against fecal microbes. Led by sanitarians like Dr. Stephen Smith, public agitation demanded health agencies armed with independent police powers. This culminated in the landmark 1866 Metropolitan Health Act in New York—America's first modern public health board, which decisively extinguished subsequent cholera waves."
+      },
+      "image": "/assets/images/cholera/wave-3/usa/usa_ch_15.jpg"
+    }
+  ]
+}

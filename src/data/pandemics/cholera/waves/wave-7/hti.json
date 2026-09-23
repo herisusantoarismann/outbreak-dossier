@@ -1,0 +1,296 @@
+{
+  "sectorId": "HTI",
+  "waveIndex": 7,
+  "sectorName": {
+    "id": "Haiti & Lembah Sungai Artibonite (Tragedi MINUSTAH 2010)",
+    "en": "Haiti & Artibonite River Valley (2010 MINUSTAH Tragedy)"
+  },
+  "coordinates": [
+    18.5944,
+    -72.3074
+  ],
+  "timeRange": "2010 – 2019",
+  "estimatedFatalities": "10,000+",
+  "chapters": [
+    {
+      "id": "hti_ch_01",
+      "chapterNumber": 1,
+      "type": "milestone",
+      "title": {
+        "id": "Lembah Artibonite Terbakar: Spillover di Kamp Mirebalais",
+        "en": "The Artibonite Ignites: Spillover at Mirebalais Camp"
+      },
+      "date": {
+        "id": "Oktober 2010",
+        "en": "October 2010"
+      },
+      "flash": {
+        "id": "Sembilan bulan pasca-gempa dahsyat, air limbah mentah dari pangkalan pasukan penjaga perdamaian PBB (MINUSTAH) bocor ke Sungai Meille, memicu wabah di populasi tanpa kekebalan.",
+        "en": "Nine months after the catastrophic earthquake, raw blackwater from a UN peacekeeping base leaks into the Meille River, igniting an epidemic in an immunologically naive population."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1 biotype El Tor, serotype Ogawa (Garis Keturunan Nepal)",
+        "vector": "Pipa pembuangan limbah jamban pangkalan militer dan aliran anak Sungai Meille",
+        "incubation": "12 – 48 jam",
+        "transmission": "Pencemaran fekal langsung ke sistem sungai utama yang menjadi sumber air minum ribuan desa",
+        "mutationType": {
+          "id": "Introduksi Antarbenua Pasukan Perdamaian PBB",
+          "en": "UN Peacekeeper Intercontinental Introductions Clade"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Bencana Introduksi Iatrogenik Terbesar Modern",
+          "en": "Tier V - Largest Modern Iatrogenic Humanitarian Catastrophe"
+        },
+        "clinicalTarget": {
+          "id": "Petani padi Lembah Artibonite, wanita pencuci pakaian sungai, dan anak-anak",
+          "en": "Artibonite Valley rice farmers, river washerwomen, and young children"
+        }
+      },
+      "description": {
+        "id": "Pada pertengahan Oktober 2010, Haiti masih terhuyung-huyung akibat gempa bumi dahsyat 12 Januari yang menewaskan lebih dari 200.000 orang. Namun, tragedi kedua yang bahkan lebih mematikan secara perlahan mulai terungkap di pedalaman yang tidak tersentuh gempa: Lembah Sungai Artibonite. Di Mirebalais, pangkalan pasukan penjaga perdamaian PBB (MINUSTAH) yang baru saja menerima rotasi kontingen prajurit dari Kathmandu, Nepal—di mana wabah kolera sedang berlangsung—mengalami kebocoran sanitasi parah. Pipa pembuangan limbah kotoran manusia dari toilet pangkalan dialirkan ke tangki septik terbuka yang meluap langsung ke Sungai Meille, anak sungai utama dari Sungai Artibonite. Karena Haiti telah bebas dari kolera selama lebih dari satu abad, seluruh populasinya tidak memiliki kekebalan imunologis (immunologically naive). Dalam hitungan hari, para petani yang mandi dan meminum air sungai di hilir mulai berjatuhan lemas dengan dehidrasi mematikan, membanjiri Rumah Sakit Saint-Nicolas di Saint-Marc.",
+        "en": "In mid-October 2010, Haiti was still reeling from the catastrophic January 12 earthquake that had annihilated over 200,000 lives. Yet an insidious second disaster was quietly detonating in the unaffected rural heartland: the fertile Artibonite River Valley. At Mirebalais, a military cantonment housing freshly rotated United Nations peacekeepers (MINUSTAH) arriving from Kathmandu, Nepal—where a seasonal cholera outbreak was actively circulating—suffered critical sanitary failures. Untreated blackwater from unsealed latrines leaked into holding pits that breached the banks of the Meille tributary, draining directly into the Artibonite River. Because Haiti had not experienced cholera in over a century, its ten million inhabitants were immunologically naive. Within days, downstream subsistence farmers drinking and washing in the river collapsed in cyanotic shock, overwhelming Saint-Nicolas Hospital in Saint-Marc."
+      },
+      "image": "/assets/images/cholera/wave-7/hti/hti_ch_01.jpg"
+    },
+    {
+      "id": "hti_ch_02",
+      "chapterNumber": 2,
+      "type": "side_story",
+      "title": {
+        "id": "Detektif Genomik Dr. Renaud Piarroux: Melacak Asal Nepal",
+        "en": "Genomic Detective Dr. Renaud Piarroux: Tracing the Nepalese Origin"
+      },
+      "date": {
+        "id": "November 2010 – 2011",
+        "en": "November 2010 – 2011"
+      },
+      "flash": {
+        "id": "Epidemiolog Prancis Renaud Piarroux dan para ahli genomik membuktikan secara ilmiah bahwa galur kolera Haiti identik 100% dengan galur yang bersirkulasi di Kathmandu.",
+        "en": "French epidemiologist Renaud Piarroux and molecular geneticists prove that Haiti's cholera strain is a 100% genomic match to contemporaneous isolates from Kathmandu."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae El Tor (Kluster Genomik Nepal 2010)",
+        "vector": "Sekuensing genom utuh (WGS) dan analisis polimorfisme nukleotida tunggal (SNP)",
+        "incubation": "N/A (Forensik Molekuler)",
+        "transmission": "Pelacakan rantai transmisi spasio-temporal dari hulu barak Mirebalais",
+        "mutationType": {
+          "id": "Profil Genomik Filogenetik Isolat Kathmandu-Mirebalais",
+          "en": "Kathmandu-Mirebalais Phylogenetic Genomic Fingerprint"
+        },
+        "threatLevel": {
+          "id": "Tingkat III - Investigasi Forensik Molekuler Internasional",
+          "en": "Tier III - International Molecular Forensic Investigation"
+        },
+        "clinicalTarget": {
+          "id": "Sampel biakan pasien klinis Artibonite dan spesimen lingkungan sungai",
+          "en": "Artibonite clinical patient isolates and river environmental specimens"
+        }
+      },
+      "description": {
+        "id": "Ketika otoritas PBB awalnya membantah keterlibatan pasukan mereka dan berspekulasi bahwa bakteri mungkin terbangun secara alami dari perairan laut akibat perubahan iklim, Kementerian Kesehatan Haiti mengundang ahli epidemiologi Prancis terkemuka, Dr. Renaud Piarroux. Melalui investigasi lapangan spasio-temporal yang teliti dari desa ke desa, Piarroux memetakan bahwa kasus pertama muncul persis beberapa meter di hilir pipa pembuangan pangkalan MINUSTAH di Mirebalais dan tidak ada satu pun kasus di hulu. Segera setelah itu, tim ahli genetika independen dari Harvard University, CDC, dan Translational Genomics Research Institute melakukan sekuensing genom utuh (Whole Genome Sequencing). Hasil analisis DNA membuktikan bahwa galur kolera Haiti adalah klonal identik dengan galur Nepal 2010, mematahkan teori reservoir lingkungan alami dan membuktikan kasus introduksi patogen antarbenua paling terdokumentasi dalam sejarah mikrobiologi.",
+        "en": "When United Nations officials initially dismissed complicity and posited that the pathogen had awakened spontaneously from coastal estuaries due to climatic shifts, the Haitian Ministry of Health engaged renowned French epidemiologist Dr. Renaud Piarroux. Conducting painstaking spatio-temporal shoe-leather field investigations, Piarroux documented that the very first clinical clusters originated meters downstream from the MINUSTAH base's discharge pipes in Mirebalais, with absolute zero cases upstream. Shortly thereafter, independent molecular geneticists from Harvard University, the CDC, and TGen conducted Whole Genome Sequencing (WGS). The phylogenetic data proved incontrovertibly that the Haitian isolate was a 100% clonal match to circulating Kathmandu strains, permanently demolishing climate-origin hypotheses and establishing the most consequential documented case of accidental pathogen importation."
+      },
+      "image": "/assets/images/cholera/wave-7/hti/hti_ch_02.jpg"
+    },
+    {
+      "id": "hti_ch_03",
+      "chapterNumber": 3,
+      "type": "standard",
+      "title": {
+        "id": "Tsunami Dehidrasi: Menyerbu Kamp Pengungsi Port-au-Prince",
+        "en": "The Dehydration Tsunami: Storming Port-au-Prince IDP Camps"
+      },
+      "date": {
+        "id": "November 2010 – 2011",
+        "en": "November 2010 – 2011"
+      },
+      "flash": {
+        "id": "Dari pedesaan Artibonite, kolera menghantam 1,5 juta korban gempa yang hidup berdesakan di kamp-kamp tenda kumuh Port-au-Prince tanpa air bersih.",
+        "en": "From the Artibonite, cholera strikes 1.5 million earthquake survivors jammed into squalid tarpaulin camps across Port-au-Prince."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae El Tor",
+        "vector": "Tenda-tenda pengungsi terpal plastik, toilet kimia yang meluap, dan kubangan lumpur",
+        "incubation": "6 – 24 jam",
+        "transmission": "Fekal-oral cepat di lingkungan berkepadatan ekstrem tanpa sanitasi",
+        "mutationType": {
+          "id": "Amplifikasi Kamp Pengungsian Pasca-Bencana",
+          "en": "Post-Disaster IDP Encampment Amplification"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Krisis Humaniter Kompleks Perkotaan",
+          "en": "Tier V - Complex Urban Humanitarian Catastrophe"
+        },
+        "clinicalTarget": {
+          "id": "Pengungsi internal gempa bumi (IDPs), anak-anak balita, dan lansia",
+          "en": "Earthquake internally displaced persons (IDPs), toddlers, and elderly"
+        }
+      },
+      "description": {
+        "id": "Hanya dalam waktu tiga pekan, wabah menyebar ke hilir dan memasuki ibu kota Port-au-Prince. Kota tersebut berada dalam kondisi paling rentan dalam sejarahnya: lebih dari 1,5 juta pengungsi korban gempa hidup berdesakan di ratusan kamp tenda terpal darurat di lapangan-lapangan terbuka seperti Champ de Mars dan Cité Soleil. Hujan badai tropis Tomas pada November 2010 memperparah bencana, membanjiri kamp-kamp dengan air lumpur bercampur tinja dari toilet-toilet kimia yang tak terawat. Di pusat-pusat perawatan kolera darurat yang didirikan oleh Médecins Sans Frontières (MSF) dan GHESKIO, ribuan pasien bergelimpangan di ranjang-ranjang kolera berlubang (cholera cots). Di puncak krisis pada akhir 2010 dan 2011, lebih dari seribu kasus baru tercatat setiap hari, menjadikan epidemi Haiti sebagai wabah kolera nasional paling intensif di dunia per kapita.",
+        "en": "Within three weeks, the pathogen traversed downstream channels into metropolitan Port-au-Prince. The capital existed in a state of unprecedented acute vulnerability: over 1.5 million homeless survivors were packed inside makeshift tarpaulin settlements sprawled across open plazas like Champ de Mars and Cité Soleil. Torrential rains from Tropical Storm Tomas in November 2010 amplified the nightmare, submerging tent camps under muddy torrents mingled with overflowing portable latrines. In emergency Cholera Treatment Centers (CTCs) hastily erected by Médecins Sans Frontières (MSF) and GHESKIO, thousands of comatose patients lined specialized canvas cholera cots cut with drainage holes. At the zenith of the onslaught in late 2010 and 2011, more than a thousand new cases presented daily, crystallizing Haiti's ordeal as the world's most concentrated modern per-capita epidemic."
+      },
+      "image": "/assets/images/cholera/wave-7/hti/hti_ch_03.jpg"
+    },
+    {
+      "id": "hti_ch_04",
+      "chapterNumber": 4,
+      "type": "side_story",
+      "title": {
+        "id": "Pertarungan Hukum & Penyangkalan Diplomatik PBB",
+        "en": "The Legal Battle & The Decades of UN Diplomatic Denial"
+      },
+      "date": {
+        "id": "2011 – 2016",
+        "en": "2011 – 2016"
+      },
+      "flash": {
+        "id": "Pengacara hak asasi manusia dan para korban Haiti menuntut PBB di Pengadilan Federal New York, menghadapi benteng kekebalan hukum diplomatik selama bertahun-tahun.",
+        "en": "Human rights attorneys and Haitian victims file suit against the UN in New York Federal Court, battling a wall of diplomatic immunity for over five years."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Kekebalan diplomatik Konvensi Hak Istimewa PBB 1946 dan birokrasi hukum",
+        "incubation": "N/A (Pertarungan Hukum Hak Asasi Manusia)",
+        "transmission": "Penolakan tanggung jawab institusional atas kelalaian sanitasi pangkalan militer",
+        "mutationType": {
+          "id": "Litigasi Akuntabilitas Kemanusiaan Internasional",
+          "en": "International Humanitarian Accountability Litigation"
+        },
+        "threatLevel": {
+          "id": "Tingkat II - Krisis Kredibilitas Tata Kelola Global",
+          "en": "Tier II - Global Governance Credibility Crisis"
+        },
+        "clinicalTarget": {
+          "id": "Keluarga korban tewas kolera Haiti dan aktivis keadilan keadilan publik",
+          "en": "Families of deceased Haitian cholera victims and justice advocates"
+        }
+      },
+      "description": {
+        "id": "Di luar penderitaan fisik di bangsal rumah sakit, bencana kolera Haiti memicu salah satu pertempuran hukum dan etika paling penting dalam sejarah hukum internasional. Dipimpin oleh pengacara hak asasi manusia Mario Joseph dari Bureau des Avocats Internationaux (BAI) dan Brian Concannon dari Institute for Justice & Democracy in Haiti (IJDH), ribuan keluarga korban mengajukan petisi ganti rugi dan gugatan hukum terhadap PBB di Pengadilan Distrik Federal New York. Pengacara PBB menolak bertanggung jawab dan mengklaim kekebalan hukum mutlak berdasarkan Konvensi Hak Istimewa dan Kekebalan PBB tahun 1946. Selama enam tahun, PBB menolak meminta maaf secara resmi atau memberikan kompensasi kepada keluarga korban, memicu protes luas dari para pakar hukum internasional, pelapor khusus hak asasi manusia PBB, dan masyarakat sipil dunia atas standar ganda keadilan institusi global.",
+        "en": "Beyond the physical agony in field wards, the Haitian catastrophe precipitated one of the most contentious legal and moral battles in the annals of international jurisprudence. Orchestrated by human rights advocate Mario Joseph of the Bureau des Avocats Internationaux (BAI) and Brian Concannon of the Institute for Justice & Democracy in Haiti (IJDH), thousands of victim families lodged formal petitions and class-action lawsuits against the United Nations in New York Federal District Court. UN legal counsel aggressively asserted absolute jurisdictional immunity under the 1946 Convention on the Privileges and Immunities of the United Nations. For six painful years, the UN leadership refused to acknowledge causality or extend compensation, provoking fierce condemnation from UN Special Rapporteurs and human rights jurists worldwide over the institutional double standard of justice."
+      },
+      "image": "/assets/images/cholera/wave-7/hti/hti_ch_04.jpg"
+    },
+    {
+      "id": "hti_ch_05",
+      "chapterNumber": 5,
+      "type": "milestone",
+      "title": {
+        "id": "Pengakuan Bersejarah Ban Ki-moon & Kampanye Vaksinasi OCV",
+        "en": "Ban Ki-moon's Historical Apology & The Mass OCV Campaigns"
+      },
+      "date": {
+        "id": "1 Desember 2016",
+        "en": "December 1, 2016"
+      },
+      "flash": {
+        "id": "Sekretaris Jenderal PBB Ban Ki-moon akhirnya menyampaikan permintaan maaf resmi kepada rakyat Haiti dan meluncurkan kampanye vaksin kolera oral (OCV) massal.",
+        "en": "UN Secretary-General Ban Ki-moon formally apologizes to the Haitian people, inaugurating a multi-million-dollar mass oral cholera vaccine (OCV) rollout."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae (Vaksin Kolera Oral Inaktif Shanchol / Euvichol)",
+        "vector": "Rantai dingin portabel, tim vaksinator lapangan motor, dan dosis oral dua tahap",
+        "incubation": "N/A (Imunisasi Massal Profilaksis)",
+        "transmission": "Pemberian kekebalan mukosa usus terhadap subunit toksin B dan antigen O1",
+        "mutationType": {
+          "id": "Imunisasi Vaksinasi Kolera Oral Massal (OCV)",
+          "en": "Mass Oral Cholera Vaccine (OCV) Immunization"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Terobosan Profilaksis Vaksinologi Komunitas",
+          "en": "Tier I - Community Vaccinology Prophylactic Milestone"
+        },
+        "clinicalTarget": {
+          "id": "Populasi daerah terpencil pegunungan dan komunitas pesisir Haiti",
+          "en": "Isolated mountainous populations and coastal Haitian communities"
+        }
+      },
+      "description": {
+        "id": "Pada 1 Desember 2016, di hadapan Majelis Umum PBB di New York, Sekretaris Jenderal Ban Ki-moon mencatatkan tonggak sejarah dengan menyampaikan permintaan maaf resmi dalam bahasa Prancis, Kreol Haiti, dan Inggris: 'Atas nama Perserikatan Bangsa-Bangsa, saya ingin menyampaikan dengan sangat jelas kepada rakyat Haiti: kami sungguh-sungguh meminta maaf.' Meskipun pengakuan ini berhati-hati untuk menghindari kewajiban ganti rugi hukum finansial langsung, pernyataan tersebut menandai titik balik moral yang mendalam. PBB meluncurkan 'Pendekatan Baru Kolera di Haiti', mengerahkan jutaan dosis Vaksin Kolera Oral (OCV) Shanchol dan Euvichol melalui kemitraan dengan Gavi dan Kementerian Kesehatan Haiti. Tim vaksinator berkendara menembus pegunungan terjal dan sungai-sungai berarus deras untuk memvaksinasi lebih dari 1,5 juta warga di daerah paling terisolasi, membangun tembok kekebalan komunitas yang mulai menekan angka penularan.",
+        "en": "On December 1, 2016, before the United Nations General Assembly in New York, Secretary-General Ban Ki-moon established a historic diplomatic watershed by delivering a public apology in French, Haitian Creole, and English: 'On behalf of the United Nations, I want to say very clearly: we apologize to the Haitian people.' While carefully parsed to evade formal legal financial liability, the declaration represented a profound moral reckoning. The UN inaugurated the 'New Approach to Cholera in Haiti,' rolling out millions of doses of oral cholera vaccines (OCV) like Shanchol and Euvichol in partnership with Gavi and Haiti's Ministry of Health. Mobile vaccination brigades mounted motorcycles and pack mules to penetrate remote mountainous terrain, administering over 1.5 million doses to construct a resilient immunological wall of community herd protection."
+      },
+      "image": "/assets/images/cholera/wave-7/hti/hti_ch_05.jpg"
+    },
+    {
+      "id": "hti_ch_06",
+      "chapterNumber": 6,
+      "type": "standard",
+      "title": {
+        "id": "Jalan Menuju Eliminasi 2019: Tiga Tahun Tanpa Kasus",
+        "en": "The Road to 2019 Elimination: Three Years Without a Single Case"
+      },
+      "date": {
+        "id": "Februari 2019 – Januari 2022",
+        "en": "February 2019 – January 2022"
+      },
+      "flash": {
+        "id": "Melalui tim respon cepat bergerak (alert-response teams) dan klorinasi air rumah tangga, Haiti mencatatkan nol kasus kolera laboratorium selama lebih dari tiga tahun penuh.",
+        "en": "Through mobile alert-response surveillance teams and aggressive household chlorination, Haiti achieves zero laboratory-confirmed cholera cases for three full years."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae",
+        "vector": "Sistem surveilans epidemiologis laboratorium berbasis komunitas (SISNU)",
+        "incubation": "N/A (Periode Eliminasi)",
+        "transmission": "Pemutusan total transmisi fekal-oral via desinfeksi cepat rumah tangga terdampak",
+        "mutationType": {
+          "id": "Penahanan dan Eliminasi Kasus Nol Terverifikasi",
+          "en": "Verified Zero-Case Containment & Elimination"
+        },
+        "threatLevel": {
+          "id": "Tingkat I - Kemenangan Kesehatan Masyarakat Bersejarah",
+          "en": "Tier I - Historic Public Health Triumph"
+        },
+        "clinicalTarget": {
+          "id": "Seluruh populasi nasional Haiti dan jaringan sumber air minum",
+          "en": "The entire national population of Haiti and municipal drinking sources"
+        }
+      },
+      "description": {
+        "id": "Pada Februari 2019, seorang pasien di Rumah Sakit Mirebalais dinyatakan sebagai kasus kolera laboratorium terkonfirmasi terakhir di Haiti. Selama tiga tahun berikutnya, strategi inovatif 'Alert-Response' yang dijalankan oleh UNICEF, PAHO, dan Kementerian Kesehatan Haiti membuktikan keampuhannya: setiap kali ada laporan diare akut di desa mana pun, tim reaksi cepat dikerahkan dalam 48 jam untuk menguji sampel, mendisinfeksi rumah dan jamban dalam radius 50 meter dengan klorin, serta membagikan sabun dan tablet Aquatabs kepada seluruh warga sekitar. Pendekatan proaktif ini berhasil memutus setiap potensi rantai penularan baru sebelum berkembang menjadi wabah. Pada awal tahun 2022, setelah 36 bulan berturut-turut tanpa ada satu pun kasus kolera yang terkonfirmasi laboratorium di seluruh negeri, Haiti bersiap menerima sertifikasi eliminasi resmi dari WHO—sebuah pencapaian heroik setelah sepuluh tahun penderitaan kelam.",
+        "en": "In February 2019, an inpatient in Mirebalais was discharged as the final laboratory-confirmed cholera patient in Haiti. Over the subsequent thirty-six months, an aggressive 'Alert-Response' strategy operated by UNICEF, PAHO, and the Haitian health ministry yielded extraordinary dividends: whenever acute diarrhea presented anywhere, rapid intervention teams mobilized within 48 hours to swab contacts, douse latrines within a 50-meter perimeter with chlorine solution, and distribute Aquatabs. This surgical micro-containment severed emergent transmission chains before they could spark secondary outbreaks. By early 2022, having sustained thirty-six consecutive months without a single laboratory-confirmed cholera case across all ten departments, Haiti stood poised to receive official elimination certification from the WHO—a heroic victory following a decade of tragedy."
+      },
+      "image": "/assets/images/cholera/wave-7/hti/hti_ch_06.jpg"
+    },
+    {
+      "id": "hti_ch_07",
+      "chapterNumber": 7,
+      "type": "summary",
+      "title": {
+        "id": "Resurgensi 2022 & Krisis Cité Soleil: Teror Geng & Keruntuhan Air",
+        "en": "The 2022 Resurgence & Cité Soleil: Gang Warfare & Water Siege"
+      },
+      "date": {
+        "id": "Oktober 2022 – Sekarang",
+        "en": "October 2022 – Present"
+      },
+      "flash": {
+        "id": "Kemenangan eliminasi hancur saat perang antargeng bersenjata memblokir terminal bahan bakar Varreux, memutus pasokan air dan membangkitkan kembali kolera di Cité Soleil.",
+        "en": "The elimination triumph shatters as armed gang blockades of the Varreux fuel terminal cut off municipal drinking water, resurrecting cholera across Cité Soleil."
+      },
+      "virusProfile": {
+        "agent": "Vibrio cholerae O1 biotype El Tor",
+        "vector": "Pengepungan pelabuhan bahan bakar Varreux, ketiadaan listrik untuk desalinasi air, dan blokade geng",
+        "incubation": "12 – 48 jam",
+        "transmission": "Konsumsi air selokan mentah di kawasan pemukiman kumuh yang terkepung tembakan",
+        "mutationType": {
+          "id": "Resurgensi Garis Keturunan Pandemi Akibat Perang Urban",
+          "en": "Urban Warfare-Driven Pandemic Lineage Resurgence"
+        },
+        "threatLevel": {
+          "id": "Tingkat V - Krisis Kemanusiaan Ekstrem & Kebangkitan Patogen",
+          "en": "Tier V - Extreme Humanitarian Crisis & Pathogen Resurgence"
+        },
+        "clinicalTarget": {
+          "id": "Anak-anak Cité Soleil, keluarga miskin perkotaan Port-au-Prince, dan tahanan penjara",
+          "en": "Cité Soleil children, Port-au-Prince urban poor, and prison inmates"
+        }
+      },
+      "description": {
+        "id": "Harapan Haiti untuk bebas selamanya dari kolera hancur secara tragis pada awal Oktober 2022. Pembunuhan Presiden Jovenel Moïse pada 2021 menjerumuskan negara ke dalam anarki total, di mana koalisi geng bersenjata ('G9') menguasai sebagian besar ibu kota dan memblokade Terminal Bahan Bakar Varreux selama dua bulan. Ketiadaan bahan bakar melumpuhkan seluruh pembangkit listrik kota, pabrik pengolahan air minum kemasan, dan truk tangki air. Di Cité Soleil, pemukiman terpadat dan termiskin di Karibia, warga yang terperangkap dalam baku tembak terpaksa meminum air comberan mentah yang tergenang di sekitar gubuk mereka. Vibrio cholerae bangkit kembali dengan ganas; ratusan anak dilarikan ke rumah sakit darurat MSF dalam kondisi dehidrasi terminal. Bab penutup yang memilukan ini membuktikan bahwa tanpa stabilitas keamanan dan infrastruktur air bersih yang aman, kolera akan selalu siap bangkit dari abu untuk menghukum kerapuhan masyarakat manusia.",
+        "en": "Haiti's hard-won triumph of disease elimination unraveled tragically in early October 2022. Following the 2021 assassination of President Jovenel Moïse, the nation plummeted into catastrophic governance collapse. Heavily armed gang federations (the 'G9 Family and Allies') seized control of Port-au-Prince and blockaded the vital Varreux Fuel Terminal for two harrowing months. The total cessation of diesel shipments shut down municipal pumps, commercial water purification factories, and private delivery trucks. In Cité Soleil, trapped civilians dodging gang sniper crossfire were reduced to drinking stagnant, putrid runoff pooled along unpaved alleys. Vibrio cholerae staged a ferocious return; hundreds of severely dehydrated children inundated MSF emergency tents. This sobering epilogue offers a tragic testament that without basic civic peace, governance, and secure drinking water, microbial killers will inevitably rise from the shadows."
+      },
+      "image": "/assets/images/cholera/wave-7/hti/hti_ch_07.jpg"
+    }
+  ]
+}
