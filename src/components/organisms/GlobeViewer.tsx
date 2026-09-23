@@ -69,6 +69,7 @@ const GlobeViewerInner: React.FC = () => {
     const globeInstanceRef = useRef<any>(null);
     const idleTimeoutRef = useRef<NodeJS.Timeout | null>(null);
     const geoDataRef = useRef<CountriesGeoJson | null>(null);
+    const lastHoveredFeatureRef = useRef<GeoJsonFeature | null>(null);
 
     const router = useRouter();
     const currentLocale = useLocale() as SupportedLocale;
@@ -754,6 +755,9 @@ const GlobeViewerInner: React.FC = () => {
                 .polygonLabel((feat: GeoJsonFeature) => getPolygonLabel(feat))
                 .onPolygonHover((feat: GeoJsonFeature | null) => {
                     let activeFeat: GeoJsonFeature | null = null;
+                    let interactionName: string | null = null;
+                    let isEpicenter = false;
+
                     if (feat) {
                         const { iso2, iso3 } = getFeatureCountryInfo(feat);
                         const interaction =
@@ -770,18 +774,25 @@ const GlobeViewerInner: React.FC = () => {
 
                         if (interaction) {
                             activeFeat = feat;
+                            interactionName =
+                                interaction.epicenter?.name[currentLocale] ||
+                                interaction.surveillance?.name[currentLocale] ||
+                                interaction.code;
+                            isEpicenter = interaction.type === "epicenter";
+                        }
+                    }
+
+                    // Strict FPS Guard: Only re-render polygon geometry and materials when hovered feature changes
+                    if (activeFeat !== lastHoveredFeatureRef.current) {
+                        lastHoveredFeatureRef.current = activeFeat;
+
+                        if (activeFeat) {
                             document.body.style.cursor = "pointer";
                             if (containerRef.current) {
                                 containerRef.current.style.cursor = "pointer";
                             }
-                            const name =
-                                interaction.epicenter?.name[currentLocale] ||
-                                interaction.surveillance?.name[currentLocale] ||
-                                interaction.code;
-                            setHoveredCountryName(name);
-                            setHoveredIsEpicenter(
-                                interaction.type === "epicenter",
-                            );
+                            setHoveredCountryName(interactionName);
+                            setHoveredIsEpicenter(isEpicenter);
                         } else {
                             document.body.style.cursor = "default";
                             if (containerRef.current) {
@@ -790,28 +801,21 @@ const GlobeViewerInner: React.FC = () => {
                             setHoveredCountryName(null);
                             setHoveredIsEpicenter(false);
                         }
-                    } else {
-                        document.body.style.cursor = "default";
-                        if (containerRef.current) {
-                            containerRef.current.style.cursor = "grab";
-                        }
-                        setHoveredCountryName(null);
-                        setHoveredIsEpicenter(false);
-                    }
 
-                    globe
-                        .polygonAltitude((f: GeoJsonFeature) =>
-                            getPolygonAltitude(f, activeFeat),
-                        )
-                        .polygonCapColor((f: GeoJsonFeature) =>
-                            getPolygonCapColor(f, activeFeat),
-                        )
-                        .polygonSideColor((f: GeoJsonFeature) =>
-                            getPolygonSideColor(f, activeFeat),
-                        )
-                        .polygonStrokeColor((f: GeoJsonFeature) =>
-                            getPolygonStrokeColor(f, activeFeat),
-                        );
+                        globe
+                            .polygonAltitude((f: GeoJsonFeature) =>
+                                getPolygonAltitude(f, activeFeat),
+                            )
+                            .polygonCapColor((f: GeoJsonFeature) =>
+                                getPolygonCapColor(f, activeFeat),
+                            )
+                            .polygonSideColor((f: GeoJsonFeature) =>
+                                getPolygonSideColor(f, activeFeat),
+                            )
+                            .polygonStrokeColor((f: GeoJsonFeature) =>
+                                getPolygonStrokeColor(f, activeFeat),
+                            );
+                    }
                 })
                 .onPolygonClick((feat: GeoJsonFeature) => {
                     handleSelectCountry(feat);
