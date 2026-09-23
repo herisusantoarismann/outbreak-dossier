@@ -31,7 +31,8 @@ describe("Globe Interaction, Image Resolution & Performance Guarantees", () => {
     it("preserves external and data URLs without modification", () => {
         const httpsUrl = "https://example.com/satellite-telemetry.jpg";
         const httpUrl = "http://example.com/asset.jpg";
-        const dataUrl = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAB";
+        const dataUrl =
+            "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAB";
 
         expect(resolveImagePath(httpsUrl)).toBe(httpsUrl);
         expect(resolveImagePath(httpUrl)).toBe(httpUrl);
