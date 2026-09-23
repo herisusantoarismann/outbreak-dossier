@@ -355,31 +355,48 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
         id: "spanish-flu-1918",
         year: 1918,
         eraLabel: "1918 – 1920 M",
-        name: { id: "Flu Spanyol 1918", en: "1918 Spanish Flu" },
+        name: { id: "Flu Spanyol (1918 M)", en: "Spanish Flu (1918 AD)" },
         shortLabel: "1918 // SPANISH FLU",
         pathogenName: "H1N1 Influenza A Virus",
         aboutTitle: {
-            id: "Mengenal Flu Spanyol (1918)",
-            en: "Understanding Spanish Flu (1918)",
+            id: "Mengenal Flu Spanyol: Pandemi Influenza 1918 (1918 – 1920 M)",
+            en: "Understanding the Spanish Flu: The 1918 Influenza Pandemic (1918 – 1920 AD)",
         },
         aboutOverview: {
-            id: "Pandemi flu mematikan yang menyebar di tengah Perang Dunia I, menewaskan puluhan juta jiwa terutama usia muda produktif.",
-            en: "A deadly influenza pandemic overlapping World War I troop movements, claiming tens of millions of primarily young adult lives.",
+            id: "Pandemi Flu 1918 (Flu Spanyol) adalah salah satu bencana biologis paling mematikan dalam sejarah peradaban manusia. Dipicu oleh virus influenza A subtipe H1N1 yang bermutasi ganas di tengah pergolakan Perang Dunia I, virus ini menyebar ke seluruh penjuru bumi melalui kapal angkut pasukan, barak militer yang sesak, dan jalur kereta api. Menyerang secara asimetris populasi dewasa muda berusia 20–40 tahun akibat badai sitokin (edema paru hemoragik), pandemi ini menulari sepertiga populasi dunia dan merenggut 50 hingga 100 juta jiwa, melahirkan disiplin virologi modern serta protokol kesehatan masyarakat berskala global.",
+            en: "The 1918 Influenza Pandemic ('Spanish Flu') stands as one of the deadliest biological catastrophes in recorded human history. Driven by a virulent H1N1 Influenza A strain mutating amidst the turmoil of World War I, it circled the globe via troop transports, overcrowded barracks, and wartime railway networks. Uniquely lethal to healthy young adults aged 20–40 due to massive inflammatory cytokine storms and acute pulmonary hemorrhage, it infected approximately 500 million people—one-third of the global population—claiming 50 to 100 million lives and revolutionizing public health epidemiology.",
         },
         tickerExtremesFile: "spanish-flu-1918/extremes.json",
         surveillanceFile: "spanish-flu-1918/surveillance.json",
         themeColor: "#f59e0b",
+        haloHex: "rgba(245, 158, 11, 0.45)",
         atmosphereHex: "#b45309",
         era: "1918 – 1920 M",
         pathogen: "H1N1 Influenza A Virus",
         globeAtmosphere: "#b45309",
-        globalFatalities: "~50M+",
-        status: "classified_archive",
+        globalFatalities: "50.000.000 – 100.000.000 (≈ 3–5% Populasi Dunia)",
+        status: "active",
+        cameraInitialPosition: {
+            lat: 40.0,
+            lng: -20.0,
+            altitude: 2.2,
+        },
+        defaultCameraPosition: [40.0, -20.0, 2.2],
         route: "/globe/spanish-flu-1918",
         baseYear: 1918,
-        epicenters: ["us", "fr", "es", "gb"],
-        primaryEpicenters: ["US", "FR", "ES", "GB"],
-        defaultCameraPosition: [40, -40, 2.3],
+        epicenters: ["US", "FR", "ES", "GB", "IN", "ID"],
+        primaryEpicenters: ["US", "FR", "ES", "GB", "IN", "ID"],
+        surveillanceRegions: [
+            "DE",
+            "IT",
+            "RU",
+            "BR",
+            "JP",
+            "ZA",
+            "WS",
+            "NZ",
+            "CN",
+        ],
         clinicalProfile: {
             classification: {
                 title: {
@@ -387,8 +404,8 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
                     en: "Biological Classification & Pathogen Structure",
                 },
                 text: {
-                    id: "Virus Influenza A subtipe H1N1 adalah virus RNA beruntai tunggal (ssRNA) antisense bersegmen 8 dari famili Orthomyxoviridae dengan glikoprotein Hemagglutinin (H1) dan Neuraminidase (N1).",
-                    en: "Influenza A virus subtype H1N1 is an enveloped, segmented negative-sense ssRNA virus of the Orthomyxoviridae family with surface Hemagglutinin (H1) and Neuraminidase (N1).",
+                    id: "Virus Influenza A subtipe H1N1 adalah virus RNA beruntai tunggal (ssRNA) antisense bersegmen 8 dari famili Orthomyxoviridae. Memiliki selubung lipid dengan dua glikoprotein permukaan utama: Hemagglutinin trimetrik (H1) untuk perlekatan sel inang dan Neuraminidase tetramerik (N1) untuk pelepasan virion baru.",
+                    en: "Influenza A virus subtype H1N1 is an enveloped, negative-sense single-stranded RNA virus with an 8-segmented genome belonging to the Orthomyxoviridae family. Its lipid envelope features trimeric Hemagglutinin (H1) for cellular attachment and tetrameric Neuraminidase (N1) for progeny virion release.",
                 },
             },
             metrics: {
@@ -396,22 +413,22 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
                     title: { id: "Masa Inkubasi", en: "Incubation Period" },
                     value: "1 – 4 Hari",
                     sub: {
-                        id: "Onset Sangat Cepat",
-                        en: "Rapid Fulminant Onset",
+                        id: "Median 24 – 48 Jam",
+                        en: "Median 24 – 48 Hours",
                     },
                 },
                 receptor: {
                     title: { id: "Reseptor Seluler", en: "Host Receptor" },
                     value: "Sialic Acid",
                     sub: {
-                        id: "Alfa-2,3 / Alfa-2,6",
-                        en: "Alpha-2,3 / Alpha-2,6",
+                        id: "Alfa-2,6 (Manusia) & Alfa-2,3 (Unggas)",
+                        en: "Alpha-2,6 (Human) & Alpha-2,3 (Avian)",
                     },
                 },
                 family: {
                     title: { id: "Famili Virus", en: "Viral Family" },
-                    value: "Orthomyxo",
-                    sub: { id: "Influenza A", en: "Influenza A Genus" },
+                    value: "Orthomyxoviridae",
+                    sub: { id: "Influenzavirus A", en: "Influenzavirus A" },
                 },
             },
             transmission: {
@@ -420,8 +437,8 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
                     en: "Transmission Vectors",
                 },
                 text: {
-                    id: "Aerosol pernapasan langsung saat batuk, bersin, dan berbicara di ruang padat tanpa ventilasi (barak militer, kapal angkut pasukan PD I, dan gerbong kereta api).",
-                    en: "Direct airborne droplet nuclei from coughing and sneezing in overcrowded wartime quarters (military camps, troopships, and trains).",
+                    id: "Penularan aerosol droplet pernapasan langsung saat batuk, bersin, dan berbicara di ruang padat tanpa ventilasi (barak militer, kapal angkut pasukan PD I, dan gerbong kereta api), diperparah oleh mobilisasi massal perang.",
+                    en: "Direct airborne respiratory droplet nuclei from coughing, sneezing, and talking in unventilated, high-density environments (military camps, wartime troopships, crowded trains), amplified by global troop movements.",
                 },
             },
             symptoms: {
@@ -430,8 +447,8 @@ export const PANDEMIC_REGISTRY: PandemicProfile[] = [
                     en: "Clinical Manifestations",
                 },
                 text: {
-                    id: "Badai sitokin hiper-inflamasi pada dewasa muda, edema paru berdarah akut, dan heliotrope cyanosis (kulit wajah kebiruan karena asfiksia jaringan fatal).",
-                    en: "Severe cytokine storms in young adults, acute hemorrhagic pulmonary edema, and heliotrope cyanosis (deep purplish-blue facial suffocation).",
+                    id: "Demam tinggi mendadak, badai sitokin hiper-inflamasi pada dewasa muda, edema paru hemoragik akut (paru-paru terendam cairan berdarah), dan heliotrope cyanosis (kulit wajah dan bibir membiru pekat akibat asfiksia jaringan terminal).",
+                    en: "Sudden high fever, devastating hyper-inflammatory cytokine storms in young adults, acute hemorrhagic pulmonary edema (drowning in alveolar transudate), and pathognomonic heliotrope cyanosis (purplish suffocation).",
                 },
             },
         },
@@ -792,73 +809,128 @@ export const SPANISH_FLU_EPICENTERS: Record<string, EpicenterMetadata> = {
         coordinates: { lat: 39.0119, lng: -98.4842, altitude: 1.05 },
         beaconColor: "#3b82f6",
         status: {
-            id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
-            en: "CLASSIFIED ARCHIVE // DRAFTING",
+            id: "ARSIP AKTIF // DIDEKLASIFIKASI",
+            en: "ACTIVE DOSSIER // DECLASSIFIED",
         },
         synopsis: {
             id: "Penyebaran awal gelombang pertama di barak militer Camp Funston, Fort Riley, Kansas pada Maret 1918.",
             en: "First wave ground zero across Camp Funston barracks, Fort Riley, Kansas in March 1918.",
         },
         timelinePeriod: {
-            id: "Maret 1918 - Mei 1919",
-            en: "March 1918 - May 1919",
+            id: "Maret 1918 – Mei 1919 M",
+            en: "March 1918 – May 1919 AD",
         },
     },
     FR: {
         code: "FR",
         iso3: "FRA",
-        name: { id: "Prancis (Étaples)", en: "France (Étaples)" },
+        name: {
+            id: "Prancis (Étaples & Front Barat)",
+            en: "France (Étaples & Western Front)",
+        },
         sectorCode: "SECTOR // FRA - WESTERN FRONT / ÉTAPLES",
         coordinates: { lat: 50.5186, lng: 1.6397, altitude: 1.05 },
         beaconColor: "#ef4444",
         status: {
-            id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
-            en: "CLASSIFIED ARCHIVE // DRAFTING",
+            id: "ARSIP AKTIF // DIDEKLASIFIKASI",
+            en: "ACTIVE DOSSIER // DECLASSIFIED",
         },
         synopsis: {
             id: "Vektor transmisi masif di kamp militer Étaples dan parit Perang Dunia I front barat.",
             en: "Massive transmission vector across Étaples staging camp and Western Front WW1 trenches.",
         },
         timelinePeriod: {
-            id: "April 1918 - November 1918",
-            en: "April 1918 - November 1918",
+            id: "April 1918 – November 1918 M",
+            en: "April 1918 – November 1918 AD",
         },
     },
     ES: {
         code: "ES",
         iso3: "ESP",
-        name: { id: "Spanyol (Madrid)", en: "Spain (Madrid)" },
+        name: {
+            id: "Spanyol (Madrid & Pers Netral)",
+            en: "Spain (Madrid & Neutral Press)",
+        },
         sectorCode: "SECTOR // ESP - MADRID / UNCENSORED PRESS",
         coordinates: { lat: 40.4168, lng: -3.7038, altitude: 1.05 },
         beaconColor: "#eab308",
         status: {
-            id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
-            en: "CLASSIFIED ARCHIVE // DRAFTING",
+            id: "ARSIP AKTIF // DIDEKLASIFIKASI",
+            en: "ACTIVE DOSSIER // DECLASSIFIED",
         },
         synopsis: {
             id: "Pemberitaan bebas tanpa sensor masa perang yang membuat pandemi ini dinamai Flu Spanyol.",
             en: "Uncensored wartime reporting of King Alfonso XIII's illness, giving the pandemic its moniker.",
         },
-        timelinePeriod: { id: "Mei 1918 - 1920", en: "May 1918 - 1920" },
+        timelinePeriod: { id: "Mei 1918 – 1920 M", en: "May 1918 – 1920 AD" },
     },
     GB: {
         code: "GB",
         iso3: "GBR",
-        name: { id: "Britania Raya (London)", en: "United Kingdom (London)" },
+        name: {
+            id: "Britania Raya (London & Grand Fleet)",
+            en: "United Kingdom (London & Grand Fleet)",
+        },
         sectorCode: "SECTOR // GBR - FLEET TRANSMISSION",
         coordinates: { lat: 55.3781, lng: -3.436, altitude: 1.05 },
         beaconColor: "#8b5cf6",
         status: {
-            id: "ARSIP TERENKRIPSI // SEDANG DIDEKLASIFIKASI",
-            en: "CLASSIFIED ARCHIVE // DRAFTING",
+            id: "ARSIP AKTIF // DIDEKLASIFIKASI",
+            en: "ACTIVE DOSSIER // DECLASSIFIED",
         },
         synopsis: {
             id: "Gelombang kedua mematikan yang melumpuhkan armada kapal perang dan pusat industri Britania.",
             en: "Lethal second wave autumn 1918 paralyzing naval grand fleets and industrial heartlands.",
         },
         timelinePeriod: {
-            id: "Mei 1918 - Maret 1919",
-            en: "May 1918 - March 1919",
+            id: "Mei 1918 – Maret 1919 M",
+            en: "May 1918 – March 1919 AD",
+        },
+    },
+    IN: {
+        code: "IN",
+        iso3: "IND",
+        name: {
+            id: "Kemaharajaan Britania (Bombay & Punjab)",
+            en: "British Raj (Bombay & Punjab)",
+        },
+        sectorCode: "SECTOR // IND - BOMBAY INGRESS & RAILWAYS",
+        coordinates: { lat: 18.922, lng: 72.8347, altitude: 1.05 },
+        beaconColor: "#06b6d4",
+        status: {
+            id: "ARSIP AKTIF // DIDEKLASIFIKASI",
+            en: "ACTIVE DOSSIER // DECLASSIFIED",
+        },
+        synopsis: {
+            id: "Masuk lewat pelabuhan Bombay Mei 1918, menjalar ke pedalaman via rel kereta api dan merenggut 17,5 juta jiwa.",
+            en: "Entered via Bombay harbor in May 1918, radiating along railway networks to claim over 17.5 million lives.",
+        },
+        timelinePeriod: {
+            id: "Mei 1918 – 1920 M",
+            en: "May 1918 – 1920 AD",
+        },
+    },
+    ID: {
+        code: "ID",
+        iso3: "IDN",
+        name: {
+            id: "Hindia Belanda (Jawa & Kepulauan)",
+            en: "Dutch East Indies (Java & Archipelago)",
+        },
+        sectorCode: "SECTOR // IDN - COLONIAL MARITIME INVASION",
+        coordinates: { lat: -7.2575, lng: 112.7521, altitude: 1.05 },
+        beaconColor: "#10b981",
+        status: {
+            id: "ARSIP AKTIF // DIDEKLASIFIKASI",
+            en: "ACTIVE DOSSIER // DECLASSIFIED",
+        },
+        synopsis: {
+            id: "Dikenal sebagai 'Pagebluk'; kapal uap SS Singkep membawa gelombang mematikan ke Surabaya dan menjangkiti pedesaan Jawa.",
+            en: "Known locally as 'Pagebluk'; steamer SS Singkep introduced the deadly second wave into Surabaya, ravaging Java.",
+        },
+        timelinePeriod: {
+            id: "Juli 1918 – 1920 M",
+            en: "July 1918 – 1920 AD",
         },
     },
 };
@@ -1192,6 +1264,59 @@ const BLACK_DEATH_TERRITORY_MAP: Record<
     EGY: { code: "CAI", type: "surveillance" },
 };
 
+const SPANISH_FLU_TERRITORY_MAP: Record<
+    string,
+    { code: string; type: "epicenter" | "surveillance" }
+> = {
+    // Primary Epicenters
+    US: { code: "US", type: "epicenter" },
+    USA: { code: "US", type: "epicenter" },
+
+    FR: { code: "FR", type: "epicenter" },
+    FRA: { code: "FR", type: "epicenter" },
+
+    ES: { code: "ES", type: "epicenter" },
+    ESP: { code: "ES", type: "epicenter" },
+
+    GB: { code: "GB", type: "epicenter" },
+    GBR: { code: "GB", type: "epicenter" },
+    UK: { code: "GB", type: "epicenter" },
+
+    IN: { code: "IN", type: "epicenter" },
+    IND: { code: "IN", type: "epicenter" },
+
+    ID: { code: "ID", type: "epicenter" },
+    IDN: { code: "ID", type: "epicenter" },
+
+    // Secondary Surveillance Territories
+    DE: { code: "DE", type: "surveillance" },
+    DEU: { code: "DE", type: "surveillance" },
+
+    IT: { code: "IT", type: "surveillance" },
+    ITA: { code: "IT", type: "surveillance" },
+
+    RU: { code: "RU", type: "surveillance" },
+    RUS: { code: "RU", type: "surveillance" },
+
+    BR: { code: "BR", type: "surveillance" },
+    BRA: { code: "BR", type: "surveillance" },
+
+    JP: { code: "JP", type: "surveillance" },
+    JPN: { code: "JP", type: "surveillance" },
+
+    ZA: { code: "ZA", type: "surveillance" },
+    ZAF: { code: "ZA", type: "surveillance" },
+
+    WS: { code: "WS", type: "surveillance" },
+    WSM: { code: "WS", type: "surveillance" },
+
+    NZ: { code: "NZ", type: "surveillance" },
+    NZL: { code: "NZ", type: "surveillance" },
+
+    CN: { code: "CN", type: "surveillance" },
+    CHN: { code: "CN", type: "surveillance" },
+};
+
 /**
  * Strict Era-Based Interaction Resolver.
  * Guarantees zero data bleed: only returns interactions for territories
@@ -1332,22 +1457,24 @@ export function getCountryInteraction(
     }
 
     if (pId === "spanish-flu-1918") {
-        const epicenters = SPANISH_FLU_EPICENTERS;
-        const normalized = normalizeCountryCode(rawId).toUpperCase();
-        const epi = epicenters[normalized] || epicenters[rawId];
-        if (epi) {
-            return { type: "epicenter", code: epi.code, epicenter: epi };
+        const mapping =
+            SPANISH_FLU_TERRITORY_MAP[rawId] ||
+            SPANISH_FLU_TERRITORY_MAP[
+                normalizeCountryCode(rawId).toUpperCase()
+            ];
+        if (!mapping) return null;
+        if (mapping.type === "epicenter") {
+            const epicenter = SPANISH_FLU_EPICENTERS[mapping.code];
+            return epicenter
+                ? { type: "epicenter", code: mapping.code, epicenter }
+                : null;
+        } else {
+            const survCatalog = getSurveillanceForPandemic(pId);
+            const surveillance = survCatalog[mapping.code];
+            return surveillance
+                ? { type: "surveillance", code: mapping.code, surveillance }
+                : null;
         }
-        const survCatalog = getSurveillanceForPandemic(pId);
-        const surv = survCatalog[normalized] || survCatalog[rawId];
-        if (surv) {
-            return {
-                type: "surveillance",
-                code: surv.iso2,
-                surveillance: surv,
-            };
-        }
-        return null;
     }
 
     // Default: COVID-19
@@ -1473,6 +1600,12 @@ export function normalizeCountryCode(countryCode: string): string {
     if (code === "ukr") return "ua";
     if (code === "pol") return "pl";
     if (code === "rus") return "ru";
+    if (code === "deu") return "de";
+    if (code === "bra") return "br";
+    if (code === "jpn") return "jp";
+    if (code === "zaf") return "za";
+    if (code === "wsm") return "ws";
+    if (code === "nzl") return "nz";
 
     // Historical 3-letter sectors & surveillance territories
     const historicalCodes = [
@@ -2300,6 +2433,62 @@ export async function loadDossier(
                     const mod =
                         await import("@/data/pandemics/covid-19/in.json");
                     return mod.default as unknown as Chapter[];
+                }
+                default:
+                    return null;
+            }
+        }
+
+        if (pId === "spanish-flu-1918") {
+            switch (cCode) {
+                case "us":
+                case "usa": {
+                    const mod =
+                        await import("@/data/pandemics/spanish-flu-1918/us.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "fr":
+                case "fra": {
+                    const mod =
+                        await import("@/data/pandemics/spanish-flu-1918/fr.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "es":
+                case "esp": {
+                    const mod =
+                        await import("@/data/pandemics/spanish-flu-1918/es.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "gb":
+                case "gbr":
+                case "uk": {
+                    const mod =
+                        await import("@/data/pandemics/spanish-flu-1918/gb.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "in":
+                case "ind": {
+                    const mod =
+                        await import("@/data/pandemics/spanish-flu-1918/in.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
+                }
+                case "id":
+                case "idn": {
+                    const mod =
+                        await import("@/data/pandemics/spanish-flu-1918/id.json");
+                    const data = mod.default as unknown as
+                        { chapters: Chapter[] } | Chapter[];
+                    return Array.isArray(data) ? data : data.chapters;
                 }
                 default:
                     return null;

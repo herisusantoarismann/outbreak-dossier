@@ -46,6 +46,11 @@ import {
     WAVE_7_PRIMARY_SECTORS,
     WAVE_7_SECTORS,
 } from "@/data/pandemics/cholera/waves/wave-7";
+import {
+    getSpanishFluSector,
+    SPANISH_FLU_PRIMARY_SECTORS,
+    SPANISH_FLU_SECTORS,
+} from "@/data/pandemics/spanish-flu-1918";
 
 describe("Pandemic Era Isolation & Country Interaction Resolver", () => {
     describe("Plague of Justinian (541 AD) - Strict Whitelisting", () => {
@@ -2082,6 +2087,417 @@ describe("Pandemic Era Isolation & Country Interaction Resolver", () => {
             const yemSeriesW7 = await loadDossier("cholera-series", "YEM", 6);
             expect(yemSeriesW7).toHaveLength(6);
             expect(yemSeriesW7![0].image).toContain("wave-7");
+        });
+    });
+
+    describe("Spanish Flu 1918 (H1N1) - Telemetry, Surveillance & Intelligence Brief", () => {
+        it("registers spanish-flu-1918 with active status, theme color #f59e0b, and rich clinical profile", () => {
+            const spanishFlu = pandemics.find(
+                (p: PandemicProfile) => p.id === "spanish-flu-1918",
+            );
+            expect(spanishFlu).toBeDefined();
+            expect(spanishFlu?.status).toBe("active");
+            expect(spanishFlu?.themeColor).toBe("#f59e0b");
+            expect(spanishFlu?.haloHex).toBe("rgba(245, 158, 11, 0.45)");
+            expect(spanishFlu?.name.en).toContain("Spanish Flu");
+            expect(spanishFlu?.name.id).toContain("Flu Spanyol");
+            expect(spanishFlu?.pathogenName).toContain("H1N1");
+            expect(spanishFlu?.cameraInitialPosition).toBeDefined();
+            expect(spanishFlu?.globalFatalities).toContain("50.000.000");
+
+            // Clinical Profile
+            expect(spanishFlu?.clinicalProfile).toBeDefined();
+            const clinical = spanishFlu!.clinicalProfile!;
+            expect(clinical.classification.text.id).toContain(
+                "Orthomyxoviridae",
+            );
+            expect(clinical.classification.text.en).toContain("Hemagglutinin");
+            expect(clinical.metrics.incubation.value).toBe("1 – 4 Hari");
+            expect(clinical.metrics.receptor.value).toBe("Sialic Acid");
+            expect(clinical.symptoms.text.id).toContain("heliotrope cyanosis");
+            expect(clinical.symptoms.text.en).toContain("heliotrope cyanosis");
+        });
+
+        it("defines all 6 primary epicenters with unique differentiated beacon colors", () => {
+            const epicenters = getEpicentersForPandemic("spanish-flu-1918");
+            expect(Object.keys(epicenters).length).toBeGreaterThanOrEqual(6);
+
+            const primaryKeys = ["US", "FR", "ES", "GB", "IN", "ID"];
+            primaryKeys.forEach((key) => {
+                expect(epicenters[key]).toBeDefined();
+                expect(epicenters[key].status.en).toBe(
+                    "ACTIVE DOSSIER // DECLASSIFIED",
+                );
+                expect(epicenters[key].coordinates.lat).toBeTypeOf("number");
+                expect(epicenters[key].coordinates.lng).toBeTypeOf("number");
+            });
+
+            // Distinct beacon colors check
+            const colors = primaryKeys.map((k) => epicenters[k].beaconColor);
+            const uniqueColors = new Set(colors);
+            expect(uniqueColors.size).toBe(primaryKeys.length);
+        });
+
+        it("resolves global surveillance catalog for Spanish Flu (15 territories)", () => {
+            const surv = getSurveillanceForPandemic("spanish-flu-1918");
+            expect(Object.keys(surv).length).toBeGreaterThanOrEqual(15);
+
+            expect(surv.US).toBeDefined();
+            expect(surv.FR).toBeDefined();
+            expect(surv.GB).toBeDefined();
+            expect(surv.ES).toBeDefined();
+            expect(surv.DE).toBeDefined();
+            expect(surv.IN).toBeDefined();
+            expect(surv.ID).toBeDefined();
+            expect(surv.IT).toBeDefined();
+            expect(surv.RU).toBeDefined();
+            expect(surv.BR).toBeDefined();
+            expect(surv.JP).toBeDefined();
+            expect(surv.ZA).toBeDefined();
+            expect(surv.WS).toBeDefined();
+            expect(surv.NZ).toBeDefined();
+            expect(surv.CN).toBeDefined();
+
+            expect(surv.WS.fatalities).toBe(8500);
+            expect(surv.IN.fatalities).toBe(17500000);
+        });
+
+        it("resolves territory interaction without data bleed for Spanish Flu era", () => {
+            // Primary Epicenters
+            const usInteraction = getCountryInteraction(
+                "spanish-flu-1918",
+                "US",
+            );
+            expect(usInteraction?.type).toBe("epicenter");
+            expect(usInteraction?.code).toBe("US");
+
+            const usaInteraction = getCountryInteraction(
+                "spanish-flu-1918",
+                "USA",
+            );
+            expect(usaInteraction?.type).toBe("epicenter");
+            expect(usaInteraction?.code).toBe("US");
+
+            const inInteraction = getCountryInteraction(
+                "spanish-flu-1918",
+                "IN",
+            );
+            expect(inInteraction?.type).toBe("epicenter");
+            expect(inInteraction?.code).toBe("IN");
+
+            // Secondary Surveillance
+            const deInteraction = getCountryInteraction(
+                "spanish-flu-1918",
+                "DE",
+            );
+            expect(deInteraction?.type).toBe("surveillance");
+            expect(deInteraction?.code).toBe("DE");
+
+            const brInteraction = getCountryInteraction(
+                "spanish-flu-1918",
+                "BRA",
+            );
+            expect(brInteraction?.type).toBe("surveillance");
+            expect(brInteraction?.code).toBe("BR");
+        });
+
+        it("exhaustively resolves all 6 primary epicenters with valid coordinates and beacon colors", () => {
+            const primaryCodes = [
+                {
+                    iso2: "US",
+                    iso3: "USA",
+                    color: "#3b82f6",
+                    nameFragment: "Kansas",
+                },
+                {
+                    iso2: "FR",
+                    iso3: "FRA",
+                    color: "#ef4444",
+                    nameFragment: "Étaples",
+                },
+                {
+                    iso2: "ES",
+                    iso3: "ESP",
+                    color: "#eab308",
+                    nameFragment: "Madrid",
+                },
+                {
+                    iso2: "GB",
+                    iso3: "GBR",
+                    color: "#8b5cf6",
+                    nameFragment: "London",
+                },
+                {
+                    iso2: "IN",
+                    iso3: "IND",
+                    color: "#06b6d4",
+                    nameFragment: "Bombay",
+                },
+                {
+                    iso2: "ID",
+                    iso3: "IDN",
+                    color: "#10b981",
+                    nameFragment: "Jawa",
+                },
+            ];
+
+            for (const { iso2, iso3, color, nameFragment } of primaryCodes) {
+                // Test ISO-2 lookup
+                const res2 = getCountryInteraction("spanish-flu-1918", iso2);
+                expect(res2).not.toBeNull();
+                expect(res2?.type).toBe("epicenter");
+                expect(res2?.code).toBe(iso2);
+                expect(res2?.epicenter?.beaconColor).toBe(color);
+                expect(res2?.epicenter?.coordinates.lat).toBeTypeOf("number");
+                expect(res2?.epicenter?.coordinates.lng).toBeTypeOf("number");
+                expect(res2?.epicenter?.name.id).toContain(nameFragment);
+
+                // Test ISO-3 lookup
+                const res3 = getCountryInteraction("spanish-flu-1918", iso3);
+                expect(res3).not.toBeNull();
+                expect(res3?.type).toBe("epicenter");
+                expect(res3?.code).toBe(iso2);
+            }
+        });
+
+        it("exhaustively resolves all 9 secondary surveillance territories with valid telemetry data", () => {
+            const secondaryCodes = [
+                { iso2: "DE", iso3: "DEU", nameId: "Kekaisaran Jerman" },
+                { iso2: "IT", iso3: "ITA", nameId: "Kerajaan Italia" },
+                { iso2: "RU", iso3: "RUS", nameId: "Rusia" },
+                { iso2: "BR", iso3: "BRA", nameId: "Brasil" },
+                { iso2: "JP", iso3: "JPN", nameId: "Kekaisaran Jepang" },
+                { iso2: "ZA", iso3: "ZAF", nameId: "Uni Afrika Selatan" },
+                { iso2: "WS", iso3: "WSM", nameId: "Samoa Barat" },
+                { iso2: "NZ", iso3: "NZL", nameId: "Selandia Baru" },
+                { iso2: "CN", iso3: "CHN", nameId: "Tiongkok" },
+            ];
+
+            for (const { iso2, iso3, nameId } of secondaryCodes) {
+                // Test ISO-2 lookup
+                const res2 = getCountryInteraction("spanish-flu-1918", iso2);
+                expect(res2).not.toBeNull();
+                expect(res2?.type).toBe("surveillance");
+                expect(res2?.code).toBe(iso2);
+                expect(res2?.surveillance?.name.id).toContain(nameId);
+                expect(res2?.surveillance?.fatalities).toBeGreaterThan(0);
+                expect(res2?.surveillance?.notes.id).toBeDefined();
+
+                // Test ISO-3 lookup
+                const res3 = getCountryInteraction("spanish-flu-1918", iso3);
+                expect(res3).not.toBeNull();
+                expect(res3?.type).toBe("surveillance");
+                expect(res3?.code).toBe(iso2);
+            }
+        });
+
+        it("strictly enforces zero data bleed for unregistered territory codes in Spanish Flu era", () => {
+            const ancientAndForeignCodes = [
+                "CPX",
+                "PEL",
+                "SAS",
+                "ROM",
+                "GAU",
+                "HIS",
+                "BRI",
+                "AFR",
+                "LEV",
+                "KAF",
+                "MES",
+                "JES",
+                "BAT",
+                "BSO",
+                "CAL",
+                "MUS",
+                "HAM",
+                "ZAN",
+                "SAN",
+                "PAP",
+                "MAK",
+                "HAR",
+                "LMA",
+                "YEM",
+                "ZWE",
+                "HTI",
+                "PER",
+            ];
+
+            for (const code of ancientAndForeignCodes) {
+                expect(
+                    getCountryInteraction("spanish-flu-1918", code),
+                ).toBeNull();
+            }
+        });
+    });
+
+    describe("Spanish Flu 1918 (H1N1) - Multi-Sector Dossier Architecture & Chapters", () => {
+        it("registers all 6 primary sectors with exact metadata and unique beacon colors", () => {
+            expect(SPANISH_FLU_PRIMARY_SECTORS).toHaveLength(6);
+            const expectedSectorCodes = ["US", "FR", "ES", "GB", "IN", "ID"];
+            const registeredCodes = SPANISH_FLU_PRIMARY_SECTORS.map(
+                (s) => s.code,
+            );
+            expect(registeredCodes).toEqual(expectedSectorCodes);
+
+            // Ensure every beacon color is unique
+            const colors = SPANISH_FLU_PRIMARY_SECTORS.map(
+                (s) => s.beaconColor,
+            );
+            const uniqueColors = new Set(colors);
+            expect(uniqueColors.size).toBe(6);
+
+            for (const s of SPANISH_FLU_PRIMARY_SECTORS) {
+                expect(s.coordinates).toHaveLength(2);
+                expect(s.coordinates[0]).toBeTypeOf("number");
+                expect(s.coordinates[1]).toBeTypeOf("number");
+                expect(s.label.id.length).toBeGreaterThan(15);
+                expect(s.label.en.length).toBeGreaterThan(15);
+            }
+        });
+
+        it("resolves primary sectors and aliases correctly via getSpanishFluSector", () => {
+            const aliasPairs = [
+                ["US", "USA"],
+                ["FR", "FRA"],
+                ["ES", "ESP"],
+                ["GB", "GBR"],
+                ["GB", "UK"],
+                ["IN", "IND"],
+                ["ID", "IDN"],
+            ];
+
+            for (const [canonical, alias] of aliasPairs) {
+                const canonSec = getSpanishFluSector(canonical);
+                const aliasSec = getSpanishFluSector(alias);
+                expect(canonSec).not.toBeNull();
+                expect(aliasSec).not.toBeNull();
+                expect(canonSec?.sectorId).toBe(canonical);
+                expect(aliasSec?.sectorId).toBe(canonical);
+                expect(canonSec?.chapters.length).toBe(
+                    aliasSec?.chapters.length,
+                );
+            }
+
+            expect(getSpanishFluSector("NONEXISTENT")).toBeNull();
+        });
+
+        it("validates organic chapter count across all 6 sectors totaling exactly 96 chapters", () => {
+            const sectorExpectedCounts: Record<string, number> = {
+                US: 18,
+                FR: 15,
+                ES: 14,
+                GB: 14,
+                IN: 18,
+                ID: 17,
+            };
+
+            let grandTotalChapters = 0;
+            for (const [code, expectedCount] of Object.entries(
+                sectorExpectedCounts,
+            )) {
+                const sector = SPANISH_FLU_SECTORS[code];
+                expect(sector).toBeDefined();
+                expect(sector.chapters.length).toBe(expectedCount);
+                grandTotalChapters += sector.chapters.length;
+            }
+
+            expect(grandTotalChapters).toBe(96);
+        });
+
+        it("strictly enforces chapter schema, type diversity, and bilingual parity across all 96 chapters", () => {
+            const sectorCodes = ["US", "FR", "ES", "GB", "IN", "ID"];
+            const validTypes = [
+                "milestone",
+                "standard",
+                "side_story",
+                "summary",
+            ];
+
+            for (const code of sectorCodes) {
+                const sector = SPANISH_FLU_SECTORS[code];
+                expect(sector.sectorName.id).toBeTruthy();
+                expect(sector.sectorName.en).toBeTruthy();
+                expect(sector.estimatedFatalities).toBeTruthy();
+                expect(sector.timeRange).toBeTruthy();
+
+                const presentTypes = new Set<string>();
+
+                sector.chapters.forEach((ch, idx) => {
+                    expect(ch.id).toBe(
+                        `${code.toLowerCase()}-ch-${String(idx + 1).padStart(2, "0")}`,
+                    );
+                    expect(ch.chapterNumber).toBe(idx + 1);
+                    expect(validTypes).toContain(ch.type);
+                    presentTypes.add(ch.type);
+
+                    // Bilingual title
+                    expect(ch.title.id).toBeTruthy();
+                    expect(ch.title.en).toBeTruthy();
+
+                    // Bilingual date
+                    expect(ch.date.id).toBeTruthy();
+                    expect(ch.date.en).toBeTruthy();
+
+                    // Bilingual flash
+                    expect(ch.flash.id).toBeTruthy();
+                    expect(ch.flash.en).toBeTruthy();
+
+                    // Bilingual description (deep historical narratives)
+                    expect(ch.description.id.length).toBeGreaterThan(150);
+                    expect(ch.description.en.length).toBeGreaterThan(150);
+
+                    // VirusProfile completeness
+                    expect(ch.virusProfile.agent).toBeTruthy();
+                    expect(ch.virusProfile.vector).toBeTruthy();
+                    expect(ch.virusProfile.incubation).toBeTruthy();
+                    expect(ch.virusProfile.transmission).toBeTruthy();
+                    expect(ch.virusProfile.mutationType?.id).toBeTruthy();
+                    expect(ch.virusProfile.mutationType?.en).toBeTruthy();
+                    expect(ch.virusProfile.threatLevel?.id).toBeTruthy();
+                    expect(ch.virusProfile.threatLevel?.en).toBeTruthy();
+                    expect(ch.virusProfile.clinicalTarget?.id).toBeTruthy();
+                    expect(ch.virusProfile.clinicalTarget?.en).toBeTruthy();
+
+                    // Image path format
+                    expect(ch.image).toMatch(
+                        /^\/assets\/images\/spanish-flu-1918\//,
+                    );
+                });
+
+                // Verify narrative type diversity: every sector must contain multiple classifications
+                expect(presentTypes.size).toBeGreaterThanOrEqual(3);
+                expect(presentTypes.has("milestone")).toBe(true);
+                expect(presentTypes.has("standard")).toBe(true);
+                expect(presentTypes.has("summary")).toBe(true);
+            }
+        });
+
+        it("loads Spanish Flu sector dossiers via loadDossier seamlessly with alias resolution", async () => {
+            const testCases = [
+                { query: "us", expectedFirstId: "us-ch-01", count: 18 },
+                { query: "usa", expectedFirstId: "us-ch-01", count: 18 },
+                { query: "fr", expectedFirstId: "fr-ch-01", count: 15 },
+                { query: "fra", expectedFirstId: "fr-ch-01", count: 15 },
+                { query: "es", expectedFirstId: "es-ch-01", count: 14 },
+                { query: "esp", expectedFirstId: "es-ch-01", count: 14 },
+                { query: "gb", expectedFirstId: "gb-ch-01", count: 14 },
+                { query: "gbr", expectedFirstId: "gb-ch-01", count: 14 },
+                { query: "uk", expectedFirstId: "gb-ch-01", count: 14 },
+                { query: "in", expectedFirstId: "in-ch-01", count: 18 },
+                { query: "ind", expectedFirstId: "in-ch-01", count: 18 },
+                { query: "id", expectedFirstId: "id-ch-01", count: 17 },
+                { query: "idn", expectedFirstId: "id-ch-01", count: 17 },
+            ];
+
+            for (const { query, expectedFirstId, count } of testCases) {
+                const chapters = await loadDossier("spanish-flu-1918", query);
+                expect(chapters).not.toBeNull();
+                expect(chapters).toHaveLength(count);
+                expect(chapters![0].id).toBe(expectedFirstId);
+            }
+
+            // Unregistered sector returns null
+            expect(await loadDossier("spanish-flu-1918", "UNKNOWN")).toBeNull();
         });
     });
 });

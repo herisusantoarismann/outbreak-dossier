@@ -349,6 +349,11 @@ export const PandemicProvider: React.FC<{
             }
 
             setSelectedPandemicId(target.id);
+            if (target.id === "spanish-flu-1918") {
+                setEncryptedNotification(
+                    "[ 1918 ARCHIVE DECLASSIFIED // H1N1 WARTIME TELEMETRY ONLINE ]",
+                );
+            }
             try {
                 localStorage.setItem("outbreak_active_pandemic", target.id);
             } catch {

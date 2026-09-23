@@ -1,0 +1,732 @@
+{
+    "sectorId": "US",
+    "sectorName": {
+        "id": "Sektor US (Amerika Serikat: Titik Nol Haskell County, Barak Militer Camp Funston, & Tragedi Parade Philadelphia // 1918–1919)",
+        "en": "Sector US (United States: Haskell County Ground Zero, Camp Funston Barracks, & Philadelphia Parade Catastrophe // 1918–1919)"
+    },
+    "coordinates": [39.0119, -98.4842],
+    "timeRange": "Januari 1918 – Awal 1920",
+    "estimatedFatalities": "675.000 jiwa (Penurunan angka harapan hidup nasional sebesar 12 tahun)",
+    "chapters": [
+        {
+            "id": "us-ch-01",
+            "chapterNumber": 1,
+            "type": "milestone",
+            "title": {
+                "id": "Fajar Haskell County: Firasat Dr. Loring Miner",
+                "en": "The Haskell County Dawn: Dr. Loring Miner's Premonition"
+            },
+            "date": {
+                "id": "Januari – Februari 1918",
+                "en": "January – February 1918"
+            },
+            "flash": {
+                "id": "DOKTER PEDESAAN KANSAS MELAPORKAN WABAH INFLUENZA GANAS TAK LAZIM PADA PETERNAK BABI DAN UNGGAS; SURVEILANS FEDERAL MENGABAIKAN PERINGATAN AWAL.",
+                "en": "RURAL KANSAS PHYSICIAN WARNS OF ABERRANT DEADLY INFLUENZA FLARING AMONG HOG AND POULTRY FARMERS; FEDERAL SURVEILLANCE OVERLOOKS EARLY RED ALERT."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A Subtipe H1N1 (Lompatan Zoonotik Unggas-Babi-Manusia)",
+                "vector": "Droplet pernapasan aerosol & debu peternakan babi-unggas pedesaan",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Kontak zoonotik erat di permukiman pertanian terpencil Santa Fe Trail",
+                "mutationType": {
+                    "id": "Hemagglutinin Avian-Porcine yang Beradaptasi pada Saluran Pernapasan Manusia",
+                    "en": "Avian-Porcine Hemagglutinin Adapting to Human Upper Respiratory Epithelium"
+                },
+                "threatLevel": {
+                    "id": "Siaga Tinggi (Patogen Baru dengan Virulensi Tidak Lazim pada Dewasa Muda)",
+                    "en": "High Alert (Novel Pathogen with Aberrant Virulence in Healthy Young Adults)"
+                },
+                "clinicalTarget": {
+                    "id": "Petani gandum muda, peternak babi, dan pemuda prajurit wajib militer Haskell County",
+                    "en": "Young wheat farmers, swine handlers, and newly conscripted farm recruits"
+                }
+            },
+            "description": {
+                "id": "Pada akhir Januari 1918, di tengah padang rumput beku Haskell County, barat daya Kansas, Dr. Loring Miner dihadapkan pada misteri medis yang mengerikan. Petani-petani muda kekar yang terbiasa bekerja keras tiba-tiba roboh dengan demam membakar, sakit kepala tumpul yang menghancurkan, batuk kering spasmodik, dan nyeri otot hebat. Tidak seperti influenza musiman biasa yang hanya menewaskan bayi atau lansia ringkih, penyakit aneh ini justru melumpuhkan pemuda paling tangguh. Terkejut oleh keparahan kasus yang ia tangani, Dr. Miner mengirim laporan darurat ke U.S. Public Health Service—peringatan yang kemudian dicetak secara singkat di buletin Public Health Reports pada April 1918, namun diabaikan oleh para birokrat masa perang yang sibuk memobilisasi pasukan untuk front Eropa.",
+                "en": "In late January 1918, amid the frozen plains of Haskell County in southwest Kansas, veteran physician Dr. Loring Miner confronted a terrifying clinical anomaly. Robust young farmers accustomed to rigorous field labor were suddenly struck down by blistering fevers, crushing cephalalgia, racking spasms of dry coughing, and prostrating myalgia. Unlike ordinary seasonal catarrh that preyed upon infants and decrepit elders, this virulence selectively felled the strongest young men. Alarmed by the aggressive pathology, Dr. Miner dispatched an urgent advisory to the U.S. Public Health Service—a dispatch briefly noted in the April 1918 Public Health Reports, only to be buried by wartime bureaucrats fixated on assembling manpower for the Western Front."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_01.jpg"
+        },
+        {
+            "id": "us-ch-02",
+            "chapterNumber": 2,
+            "type": "milestone",
+            "title": {
+                "id": "Titik Nol Camp Funston: Dapur Prajurit Albert Gitchell",
+                "en": "Ground Zero at Camp Funston: Private Albert Gitchell's Breakfast Mess"
+            },
+            "date": {
+                "id": "4 Maret 1918",
+                "en": "March 4, 1918"
+            },
+            "flash": {
+                "id": "JURU MASAK MILITER CAMP FUNSTON MELAPOR SAKIT DENGAN DEMAM 39,5°C; SEBELUM TENGAH HARI LEBIH DARI 100 PRAJURIT AMBRUK DI BARAK KAYU YANG SESAK.",
+                "en": "CAMP FUNSTON MESS COOK REPORTS SICK WITH HIGH FEVER; BY NOON OVER 100 RECRUITS COLLAPSE IN OVERCROWDED DRAFTY WOODEN BARRACKS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Galur Gelombang Pertama / Musim Semi 1918)",
+                "vector": "Aerosol pernapasan dalam barak baris bertingkat 20.000 calon prajurit",
+                "incubation": "18 – 36 Jam",
+                "transmission": "Konsentrasi ribuan prajurit di ruang tertutup diperparah badai debu Kansas",
+                "mutationType": {
+                    "id": "Peningkatan Eksponensial Transmisibilitas Antar-Manusia (R0 ≈ 2,2)",
+                    "en": "Exponential Amplification of Human-to-Human Transmissibility (R0 ≈ 2.2)"
+                },
+                "threatLevel": {
+                    "id": "Kritis Militer (Penularan Cepat Melumpuhkan Rantai Komando Pangkalan)",
+                    "en": "Military Critical (Rapid Transmission Paralyzing Base Training Schedules)"
+                },
+                "clinicalTarget": {
+                    "id": "Calon serdadu infanteri Divisi ke-89 Angkatan Darat Amerika Serikat",
+                    "en": "Drafted infantry trainees of the U.S. Army 89th Division"
+                }
+            },
+            "description": {
+                "id": "Pukul 06.30 pagi tanggal 4 Maret 1918, seorang juru masak kompi bernama Prajurit Albert Gitchell tertatih-tatih memasuki rumah sakit pangkalan militer Camp Funston di Fort Riley, Kansas, mengeluhkan tenggorokan terbakar, demam menggigil 39,5°C, dan kelelahan ekstrem. Sebelum tengah hari tiba, lebih dari seratus prajurit lainnya membanjiri koridor rumah sakit dengan gejala identik. Dalam sepekan, jumlah pasien melonjak menjadi lebih dari 500 orang, memaksa komandan garnisun menyulap hangar pesawat dan tenda-tenda latihan menjadi bangsal darurat. Udara barak yang pengap, pemanas batu bara yang mengepulkan asap pekat, dan badai debu Kansas yang mengikis mukosa pernapasan prajurit menciptakan cawan petri sempurna bagi penyebaran virus ke seluruh instalasi militer.",
+                "en": "At 6:30 AM on March 4, 1918, company mess cook Private Albert Gitchell stumbled into the Camp Funston infirmary at Fort Riley, Kansas, complaining of a searing throat, shivering chills, 103°F fever, and utter muscular prostration. Before midday struck, over one hundred soldiers had crowded the hospital corridors with identical distress. Within a week, inpatient tallies surged past five hundred, compelling the cantonment command to requisition aircraft hangars and canvas drill tents as overflow wards. Stifling bunkhouse air, smoky coal-fired stoves, and stinging Kansas dust storms abrading bronchial linings formed the ideal crucible for rapid viral amplification across the entire base."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_02.jpg"
+        },
+        {
+            "id": "us-ch-03",
+            "chapterNumber": 3,
+            "type": "standard",
+            "title": {
+                "id": "Kereta Mobilisasi: Vektor Rel Menuju Pesisir Atlantik",
+                "en": "Mobilization Trains: The Transcontinental Rail Vector"
+            },
+            "date": {
+                "id": "Maret – Mei 1918",
+                "en": "March – May 1918"
+            },
+            "flash": {
+                "id": "PENGIRIMAN PULUHAN RIBU PRAJURIT DENGAN GERBONG KERETA API TERTUTUP MENYEBARKAN PATOGEN KE SELURUH INSTALASI MILITER PESISIR TIMUR.",
+                "en": "MASSIVE TROOP TRAINS INJECT CARRIERS ACROSS EAST COAST CANTONMENTS AND ATLANTIC EMBARKATION PORTS EN ROUTE TO FRANCE."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Amplifikasi Vektor Kereta Api Masa Perang)",
+                "vector": "Gerbong penumpang tertutup tanpa sirkulasi udara segar",
+                "incubation": "24 Jam",
+                "transmission": "Droplet jarak dekat antar-prajurit selama perjalanan 48–72 jam",
+                "mutationType": {
+                    "id": "Penyebaran Geografis Cepat Melintasi Benua Amerika Utara",
+                    "en": "Rapid Transcontinental Geographic Dispersal across North America"
+                },
+                "threatLevel": {
+                    "id": "Tinggi (Vektor Logistik Militer Skala Kontinental)",
+                    "en": "High (Continental-Scale Military Logistic Vector)"
+                },
+                "clinicalTarget": {
+                    "id": "Prajurit angkutan, masinis kereta api militer, dan awak pelabuhan embarkasi",
+                    "en": "Troop train personnel, military engineers, and embarkation port stevedores"
+                }
+            },
+            "description": {
+                "id": "Tuntutan perang total tidak mengizinkan karantina. Dari Camp Funston, ribuan calon prajurit yang tampak sehat—namun telah membawa virion dalam fase inkubasi—dijejalkan ke dalam gerbong-gerbong kereta api tertutup menuju kamp-kamp pelatihan di Georgia, New Jersey, dan Massachusetts. Sepanjang ribuan mil perjalanan rel, ventilasi yang buruk dan batuk tanpa henti mengubah setiap gerbong menjadi inkubator infeksi. Ketika kereta-kereta tersebut tiba di Camp Devens, Camp Upton, dan pelabuhan Hoboken, para prajurit langsung menurunkan kuman ke rekan-rekan mereka dan masyarakat sipil di sepanjang stasiun persinggahan, meletakkan fondasi bagi ledakan global ketika mereka berlayar melintasi Samudra Atlantik.",
+                "en": "The imperative of total war brooked no quarantine delays. From Camp Funston, thousands of ostensibly healthy recruits—harboring incubating virions—were crammed into locked passenger cars bound for staging cantonments across Georgia, New Jersey, and Massachusetts. Across thousands of miles of rail tracks, shuttered windows and incessant coughing transformed each carriage into an incubation vault. When trains pulled into Camp Devens, Camp Upton, and the Hoboken embarkation docks, troops unloaded infectious seedbeds into fellow regiments and depot towns along the lines, establishing the continental pipeline that would soon ferry the pathogen overseas."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_03.jpg"
+        },
+        {
+            "id": "us-ch-04",
+            "chapterNumber": 4,
+            "type": "milestone",
+            "title": {
+                "id": "Mutasi Maut Camp Devens: Edema Paru & Sianosis Gelap",
+                "en": "The Devens Mutation: Hemorrhagic Pulmonary Edema & Heliotrope Cyanosis"
+            },
+            "date": {
+                "id": "Awal September 1918",
+                "en": "Early September 1918"
+            },
+            "flash": {
+                "id": "GELOMBANG KEDUA MELEDAK DI MASSACHUSETTS DENGAN VIRULENSI MEMATIKAN; DOKTER PATOLOGI WILLIAM WELCH TERTEGUN MELIHAT PARU-PARU MENGHITAM TERENDAM CAIRAN.",
+                "en": "DEADLY SECOND WAVE ERUPTS IN MASSACHUSETTS; CELEBRATED PATHOLOGIST DR. WILLIAM WELCH ASTONISHED BY WATERLOGGED, BLACKENED AUTOPSY LUNGS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 Mutan Gelombang Kedua (Galur Hiper-Virulen)",
+                "vector": "Aerosol pernapasan langsung dengan replikasi masif di alveolus paru-paru",
+                "incubation": "12 – 24 Jam",
+                "transmission": "Inhalasi droplet konsentrasi tinggi memicu badai sitokin destruktif",
+                "mutationType": {
+                    "id": "Afinitas Reseptor Dalam Saluran Napas Bawah & Badai Sitokin",
+                    "en": "Lower Respiratory Deep Tropism & Hyper-Cytokine Cascade"
+                },
+                "threatLevel": {
+                    "id": "Katastropik (Case Fatality Rate Melonjak Lebih dari 2,5–5%)",
+                    "en": "Catastrophic (Case Fatality Rate Surges Past 2.5–5%)"
+                },
+                "clinicalTarget": {
+                    "id": "Dewasa muda prima usia 20–40 tahun dengan sistem imun reaktif kuat",
+                    "en": "Robust adults aged 20–40 with vigorous pro-inflammatory immune cascades"
+                }
+            },
+            "description": {
+                "id": "Pada September 1918, gelombang kedua menghantam Camp Devens di dekat Boston dengan keganasan yang belum pernah disaksikan oleh dunia medis. Virus telah bermutasi menjadi pembunuh sejati. Prajurit yang pagi hari masih berbaris gagah, pada sore hari mulai batuk mengeluarkan dahak berbusa merah darah dan wajah mereka berubah menjadi ungu gelap kebiruan—tanda klinis *heliotrope cyanosis* akibat kekurangan oksigen fatal saat alveolus paru-paru terendam cairan transudat darah. Dr. William Henry Welch, salah satu pendiri Rumah Sakit Johns Hopkins, dipanggil untuk memimpin otopsi darurat. Ketika ia membelah dada mayat prajurit muda, paru-paru mereka begitu berat, basah, dan gelap menyerupai hati banteng. Welch bergumam pucat kepada koleganya: 'Ini pasti wabah baru atau sampar jenis lain yang belum pernah kita kenal.'",
+                "en": "In September 1918, the second pandemic wave smashed Camp Devens near Boston with clinical savagery unprecedented in medical annals. The virus had mutated into an efficient executioner. Recruits marching vigorously at dawn were coughing up frothy, blood-tinged sputum by dusk, their features turning a ghastly mahogany violet—pathognomonic *heliotrope cyanosis* denoting systemic suffocation as pulmonary alveoli flooded with bloody transudate. Dr. William Henry Welch, revered founding dean of Johns Hopkins, was dispatched to supervise emergency autopsies. Slicing open the thoracic cavity of a felled soldier, he found lungs so engorged and airless they resembled dark beef liver. Pale and shaken, Welch whispered to colleagues: 'This must be some new kind of plague or a brand-new infection.'"
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_04.jpg"
+        },
+        {
+            "id": "us-ch-05",
+            "chapterNumber": 5,
+            "type": "side_story",
+            "title": {
+                "id": "Nubuat Gelap Dr. Victor Vaughan: Ancaman Kepunahan Peradaban",
+                "en": "Dr. Victor Vaughan's Dark Apocalypse: A Prophecy of Human Extinction"
+            },
+            "date": {
+                "id": "Pertengahan September 1918",
+                "en": "Mid-September 1918"
+            },
+            "flash": {
+                "id": "MANTAN PRESIDEN ASOSIASI MEDIS AMERIKA MENYAKSIKAN KEMATIAN PRAJURIT MUDA DI DEVENS DAN MENULISKAN KETAKUTAN AKAN LENYAPNYA PERADABAN DALAM SEBULAN.",
+                "en": "FORMER AMA PRESIDENT OBSERVES SOLDIERS DYING AT DEVENS, RECORDING HIS DREAD THAT CIVILIZATION WOULD VANISH WITHIN WEEKS IF SPREAD CONTINUED."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Krisis Eksistensial Sains Kedokteran)",
+                "vector": "Bangsal isolasi Rumah Sakit Pangkalan Camp Devens",
+                "incubation": "12 – 24 Jam",
+                "transmission": "Eksudat alveolar purulen di bangsal berkapasitas 2.000 tempat tidur yang menampung 8.000 pasien",
+                "mutationType": {
+                    "id": "Destruksi Morfologis Masif Jaringan Paru yang Melumpuhkan Pengetahuan Medis",
+                    "en": "Massive Morphological Lung Destruction Defying Contemporary Medical Knowledge"
+                },
+                "threatLevel": {
+                    "id": "Eksistensial (Ketakutan Nyata Para Tokoh Kedokteran Terkemuka Dunia)",
+                    "en": "Existential (Acute Dread Among Foremost Scientific Leaders)"
+                },
+                "clinicalTarget": {
+                    "id": "Prajurit infanteri muda paling sehat dari resimen New England",
+                    "en": "Prime young infantry recruits drawn from New England regiments"
+                }
+            },
+            "description": {
+                "id": "Dr. Victor C. Vaughan, Kepala Divisi Penyakit Menular Angkatan Darat AS dan mantan Presiden American Medical Association (AMA), tiba di Camp Devens ketika pangkalan itu sedang dilanda histeria. Ia menyaksikan enam puluh enam prajurit meninggal dalam satu hari tunggal; ranjang-ranjang rumah sakit penuh sesak hingga pasien diletakkan di lantai beralas selimut tipis berlumuran darah. Terguncang secara batiniah oleh ketidakberdayaan ilmu kedokteran menghadapi patogen tersebut, Vaughan menulis catatan yang kelak terkenal: 'Jika epidemi ini terus berlanjut dengan laju percepatan yang sama selama beberapa pekan lagi, peradaban manusia dapat dengan mudah terhapus dari muka bumi.' Pernyataan ini mencerminkan betapa rapuhnya kebanggaan sains modern abad ke-20 di hadapan mutasi biologis tak kasatmata.",
+                "en": "Dr. Victor C. Vaughan, Surgeon General's chief of communicable diseases and former President of the American Medical Association, arrived at Camp Devens as the base dissolved into panic. He witnessed sixty-six men expire in a single 24-hour shift; hospital cots were jammed side-by-side until overflow patients lay on blood-soaked blankets along hallways. Shaken to his core by medicine's impotence against the microbe, Vaughan penned words that became an indelible epitaph for human pride: 'If the epidemic continues its mathematical rate of acceleration for another few weeks, civilization could easily disappear from the face of the earth.' His despair mirrored the sudden shattering of 20th-century scientific hubris before an unseen biological menace."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_05.jpg"
+        },
+        {
+            "id": "us-ch-06",
+            "chapterNumber": 6,
+            "type": "milestone",
+            "title": {
+                "id": "Tragedi Philadelphia: Parade Pinjaman Kemerdekaan Keempat",
+                "en": "The Philadelphia Catastrophe: The Fourth Liberty Loan Parade"
+            },
+            "date": {
+                "id": "28 September 1918",
+                "en": "September 28, 1918"
+            },
+            "flash": {
+                "id": "DIREKTUR KESEHATAN WILMER KRUSEN MENOLAK MEMBATALKAN PARADE PERANG; 200.000 WARGA BERDESAKAN DI JALAN BROAD STREET MEMICU BENCANA MUNICIPAL TERBESAR.",
+                "en": "HEALTH DIRECTOR WILMER KRUSEN REFUSES TO CANCEL WAR BOND PARADE; 200,000 SPECTATORS PACK BROAD STREET, TRIGGERING UNPARALLELED CIVIC DISASTER."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Peristiwa Penyebar Super Luar Ruang / Super-Spreader)",
+                "vector": "Kerumunan massa padat berjarak nol inci di sepanjang Broad Street",
+                "incubation": "24 Jam",
+                "transmission": "Penyebaran aerosol masif dari ribuan pembawa gejala awal dan parade marching band",
+                "mutationType": {
+                    "id": "Super-Spreading Event di Jantung Populasi Sipil Metropolis Padat",
+                    "en": "Super-Spreading Event in High-Density Civilian Urban Core"
+                },
+                "threatLevel": {
+                    "id": "Kehancuran Sipil Total (Kolaps Sistem Kesehatan Kota dalam 72 Jam)",
+                    "en": "Total Civil Breakdown (Complete Collapse of Municipal Healthcare within 72 Hours)"
+                },
+                "clinicalTarget": {
+                    "id": "Penonton parade warga Philadelphia, keluarga pekerja galangan kapal, dan sukarelawan",
+                    "en": "Philadelphia civilian spectators, shipyard families, and parade organizers"
+                }
+            },
+            "description": {
+                "id": "Meskipun puluhan dokter terkemuka telah memohon pembatalan, Direktur Kesehatan Masyarakat Philadelphia, Dr. Wilmer Krusen, berkeras agar Parade Pinjaman Kemerdekaan (Fourth Liberty Loan) tetap berlangsung pada 28 September demi menjaga moril perang dan target penjualan obligasi pemerintah. Sebanyak 200.000 warga kota berkumpul saling berdesakan di sepanjang Broad Street untuk menyaksikan barisan serdadu dan dentuman drum korps musik. Dampaknya sungguh mengerikan. Dalam 72 jam setelah parade usai, seluruh 31 rumah sakit di Philadelphia kehabisan ranjang tidur. Dalam sepekan, 4.500 warga tewas mengenaskan; mayat-mayat ditumpuk di ruang bawah tanah dan trotoar jalan karena para pengurus jenazah dan penggali kubur ikut terkapar terinfeksi.",
+                "en": "Despite frantic pleas from foremost infectious disease specialists, Philadelphia Public Health Director Dr. Wilmer Krusen adamantly refused to cancel the Fourth Liberty Loan Parade scheduled for September 28, fearing patriotic demoralization and missed bond quotas. Upwards of 200,000 citizens crammed shoulder-to-shoulder along Broad Street to cheer marching battalions and brass bands. The epidemiological retribution was swift and merciless. Within 72 hours of the final confetti falling, every single one of Philadelphia's 31 hospitals was filled to bursting. Within one week, over 4,500 Philadelphians were dead; corpses piled up in basements, corridors, and sidewalks as undertakers and gravediggers succumbed in parallel."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_06.jpg"
+        },
+        {
+            "id": "us-ch-07",
+            "chapterNumber": 7,
+            "type": "standard",
+            "title": {
+                "id": "Ekskavator Uap Potter's Field: Kolaps Total Tata Kota Philadelphia",
+                "en": "Steam Shovels in Potter's Field: The Total Collapse of Philadelphia Mortuary Services"
+            },
+            "date": {
+                "id": "Oktober 1918",
+                "en": "October 1918"
+            },
+            "flash": {
+                "id": "KOTA KEHABISAN PETI MATI KAYU; PEMERINTAH MENGERAHKAN EKSKAVATOR UAP UNTUK MENGGALI KUBURAN MASSAL TANPA NAMA DI PERKUBURAN POTTER'S FIELD.",
+                "en": "MORTUARIES RUN OUT OF WOODEN CASKETS; MUNICIPAL AUTHORITIES REQUISITION STEAM SHOVELS FOR MASS TRENCH GRAVES AT POTTER'S FIELD."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Mortalitas Puncak Musim Gugur 1918)",
+                "vector": "Kontaminasi nosokomial di kamar jenazah dan rumah duka darurat",
+                "incubation": "12 – 36 Jam",
+                "transmission": "Penularan berulang di lingkungan padat tanpa alat pelindung diri",
+                "mutationType": {
+                    "id": "Tingkat Fatalitas Kasus Ekstrem Menembus 10% di Beberapa Distrik Kumuh",
+                    "en": "Extreme Case Fatality Rate Exceeding 10% in Dense Tenement Quarters"
+                },
+                "threatLevel": {
+                    "id": "Darurat Kemanusiaan (Kelumpuhan Protokol Pemakaman Sipil)",
+                    "en": "Humanitarian Emergency (Paralysis of Civil Mortuary and Burial Protocols)"
+                },
+                "clinicalTarget": {
+                    "id": "Keluarga pekerja imigran, penggali makam, dan perawat sukarelawan",
+                    "en": "Immigrant tenement families, grave diggers, and volunteer relief nurses"
+                }
+            },
+            "description": {
+                "id": "Pada pekan kedua Oktober 1918, angka kematian harian di Philadelphia menembus 759 jiwa per hari. Kota kehabisan peti mati kayu; pabrik peti mati lokal dijaga polisi bersenjata untuk mencegah penjarahan warga yang putus asa. Mayat dibungkus sprei kotor dan diletakkan di teras rumah menunggu truk sampah kota berkeliling memungut jenazah dengan seruan muram: 'Keluarkan mayat-mayat kalian!'. Di Perkuburan Potter's Field, para penggali kubur menolak bekerja karena takut tertular atau meminta upah pemerasan. Otoritas kota akhirnya mengerahkan ekskavator uap konstruksi parit untuk menggali palung tanah sepanjang ratusan meter, tempat ratusan jenazah diletakkan berjajar dalam kotak kayu sederhana tanpa upacara keagamaan.",
+                "en": "By the second week of October 1918, Philadelphia's daily death toll peaked at an astounding 759 fatalities in a single 24-hour cycle. The city exhausted all commercial wooden caskets; armed constables guarded casket factories against break-ins by grief-crazed families. Unembalmed corpses wrapped in soiled sheets were laid on front porches to await open cart crews crying: 'Bring out your dead!'. At Potter's Field, gravediggers fled or extorted exorbitant fees, leaving hundreds of bodies in the autumn sun. City authorities finally deployed steam excavators to gouge deep communal trenches where wooden crate coffins were stacked three deep without formal clerical rites."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_07.jpg"
+        },
+        {
+            "id": "us-ch-08",
+            "chapterNumber": 8,
+            "type": "side_story",
+            "title": {
+                "id": "Para Biarawati Pengemudi Ambulans: Ordo Suster Santo Yosef",
+                "en": "The Nun Ambulance Drivers: The Sisters of St. Joseph in the Slums"
+            },
+            "date": {
+                "id": "Oktober 1918",
+                "en": "October 1918"
+            },
+            "flash": {
+                "id": "RATUSAN BIARAWATI KATOLIK KELUAR DARI BIARA TERTUTUP UNTUK MENGEMUDIKAN AMBULANS DAN MERAWAT PASIEN SEKARAT DI KAWASAN KUMUH IMIGRAN PHILADELPHIA.",
+                "en": "HUNDREDS OF CLOISTERED CATHOLIC NUNS EMERGE TO DRIVE AMBULANCES AND NURSE DYING FAMILIES IN SQUALID IMMIGRANT TENEMENTS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Mobilisasi Sukarelawan Keagamaan)",
+                "vector": "Rumah-rumah petak imigran Italia dan Irlandia di South Philadelphia",
+                "incubation": "24 Jam",
+                "transmission": "Kontak langsung menyeka lendir berdarah dan memandikan jenazah pasien miskin",
+                "mutationType": {
+                    "id": "Paparan Lini Depan Tingkat Tinggi pada Tenaga Perawat Sukarela",
+                    "en": "High-Dose Frontline Exposure in Untrained Volunteer Nursing Personnel"
+                },
+                "threatLevel": {
+                    "id": "Tinggi (Banyak Biarawati Muda Gugur Akibat Tertular di Lapangan)",
+                    "en": "High (Substantial Mortality Among Young Devoted Religious Novices)"
+                },
+                "clinicalTarget": {
+                    "id": "Biarawati Ordo Sisters of St. Joseph dan keluarga imigran Italia-Irlandia",
+                    "en": "Sisters of St. Joseph novices and Italian-Irish immigrant households"
+                }
+            },
+            "description": {
+                "id": "Ketika dokter dan perawat profesional di Philadelphia tumbang atau melarikan diri, Uskup Agung Dennis Dougherty mengeluarkan seruan darurat kepada ordo-ordo biara wanita Katolik. Lebih dari dua ribu biarawati dari Ordo Sisters of St. Joseph dan Immaculate Heart of Mary menanggalkan jubah biara tertutup mereka untuk terjun ke lapangan. Banyak di antara mereka yang belajar menyetir mobil dalam hitungan jam untuk mengemudikan ambulans darurat. Mereka mendobrak pintu-pintu apartemen kumuh imigran Italia di South Philadelphia, menemukan anak-anak balita menyusu pada ibu mereka yang sudah menjadi mayat beku berhari-hari. Tanpa memandang agama atau ras, para suster memandikan penderita yang sekarat, menyuapkan sup hangat, dan menguburkan jenazah yang telah membusuk dengan tangan mereka sendiri.",
+                "en": "When professional nurses and hospital orderlies in Philadelphia were decimated or fled in terror, Archbishop Dennis Dougherty mobilized a desperate relief brigade from the city's Catholic convents. Over two thousand cloistered nuns from the Sisters of St. Joseph and the Sisters of the Immaculate Heart of Mary cast off seclusion to enter the pestilential slums. Nuns who had never touched machinery learned to crank Model T engines in an afternoon, piloting converted police wagons as makeshift ambulances. Entering wretched Italian tenements in South Philadelphia, they found infants desperately suckling at the breasts of mothers dead for two days. Without regard to religious creed, the sisters washed fever-wracked bodies, ladled broth, and buried putrefying remains with bare hands."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_08.jpg"
+        },
+        {
+            "id": "us-ch-09",
+            "chapterNumber": 9,
+            "type": "standard",
+            "title": {
+                "id": "St. Louis vs. Philadelphia: Kelahiran Kurva Epidemiologis",
+                "en": "St. Louis vs. Philadelphia: The Genesis of Flattening the Curve"
+            },
+            "date": {
+                "id": "Oktober – November 1918",
+                "en": "October – November 1918"
+            },
+            "flash": {
+                "id": "INTERVENSI DINI KOMISARIS DR. MAX STARKLOFF DI ST. LOUIS MEMOTONG KURVA KEMATIAN HINGGA SEPARUH DARI ANGKA KEMATIAN KATASTROPIK PHILADELPHIA.",
+                "en": "DR. MAX STARKLOFF'S SWIFT EARLY CLOSURES IN ST. LOUIS HALVE THE CASUALTY SPIKE COMPARED TO PHILADELPHIA'S DELAYED RESPONSE."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Dinamika Model Transmisi Kurva SIR)",
+                "vector": "Kontak perkotaan sekolah, gereja, teater, dan tempat hiburan",
+                "incubation": "24 Jam",
+                "transmission": "Penularan massal yang berhasil ditekan oleh penutupan serentak fasilitas publik",
+                "mutationType": {
+                    "id": "Studi Komparatif Efektivitas Intervensi Non-Farmakologis (NPI)",
+                    "en": "Comparative Epidemiological Study of Non-Pharmaceutical Interventions"
+                },
+                "threatLevel": {
+                    "id": "Terkendali Relatif (Pencegahan Saturasi Kapasitas Rumah Sakit Kota)",
+                    "en": "Controlled Relative (Prevention of Hospital Surge Capacity Saturation)"
+                },
+                "clinicalTarget": {
+                    "id": "Siswa sekolah, jemaat tempat ibadah, penonton teater, dan buruh pabrik",
+                    "en": "Schoolchildren, church congregations, theatregoers, and industrial laborers"
+                }
+            },
+            "description": {
+                "id": "Perbandingan antara respon Philadelphia dan St. Louis menjadi studi kasus paling klasik dalam sejarah epidemiologi modern. Sementara Philadelphia menunda tindakan hingga dua pekan setelah virus menyebar demi parade militer, Komisaris Kesehatan St. Louis, Dr. Max C. Starkloff, bertindak secepat kilat. Hanya dua hari setelah kasus pertama terdeteksi di pangkalan militer pinggiran kota, Starkloff menutup seluruh sekolah, gereja, bioskop, bar, dan melarang perkumpulan lebih dari dua puluh orang. Hasilnya tercatat dalam kurva grafik legendaris: puncak kematian St. Louis tetap rendah dan landai tanpa pernah melampaui kapasitas rumah sakit, sementara kurva Philadelphia meroket vertikal menyerupai jarum maut yang membantai ribuan nyawa dalam hitungan hari.",
+                "en": "The contrasting fates of Philadelphia and St. Louis became the foundational paradigm of modern pandemic epidemiology. While Philadelphia hesitated for sixteen fatal days to safeguard civic parade revenue, St. Louis Health Commissioner Dr. Max C. Starkloff acted with ruthless celerity. Within 48 hours of the first influenza reports from nearby Jefferson Barracks, Starkloff shuttered all public and private schools, churches, cinemas, saloons, and prohibited gatherings exceeding twenty persons. The resulting twin curves entered medical history: St. Louis's mortality profile remained low, broad, and manageable without ever swamping hospital triage, whereas Philadelphia's curve shot up in a catastrophic vertical spike claiming thousands within days."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_09.jpg"
+        },
+        {
+            "id": "us-ch-10",
+            "chapterNumber": 10,
+            "type": "milestone",
+            "title": {
+                "id": "Perang Masker Kasa San Francisco: Dekrit Wajib Penutup Hidung-Mulut",
+                "en": "The San Francisco Gauze Mandate: The Crusade of the White Cloth"
+            },
+            "date": {
+                "id": "Oktober 1918",
+                "en": "October 1918"
+            },
+            "flash": {
+                "id": "WALI KOTA JAMES ROLPH MENETAPKAN ATURAN WAJIB MASKER KASA BERLAPIS PERTAMA DI KOTA BESAR; PALANG MERAH MEMPRODUKSI RATUSAN RIBU MASKER DALAM SEPEKAN.",
+                "en": "MAYOR JAMES ROLPH ENACTS AMERICA'S FIRST MAJOR MASK MANDATE; RED CROSS CHURNS OUT HUNDREDS OF THOUSANDS OF GAUZE COVERINGS IN DAYS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Efektivitas Intervensi Non-Farmakologis)",
+                "vector": "Droplet pernapasan di trem jalanan dan pertokoan umum",
+                "incubation": "24 – 48 Jam",
+                "transmission": "Reduksi penularan droplet via penutup hidung-mulut kasa 4–6 lapis",
+                "mutationType": {
+                    "id": "Respons Mitigasi Mekanis Sipil Terhadap Vektor Aerosol Udara",
+                    "en": "Civil Mechanical Mitigation Response to Airborne Aerosol Vector"
+                },
+                "threatLevel": {
+                    "id": "Sedang (Kepatuhan Sipil Mengurangi Transmisi Hingga Relaksasi Prematur)",
+                    "en": "Moderate (Civic Compliance Curbs Ingress Until Premature Relaxation)"
+                },
+                "clinicalTarget": {
+                    "id": "Penumpang trem, pejalan kaki, pedagang toko, dan politisi dewan kota",
+                    "en": "Streetcar riders, pedestrians, retail clerks, and municipal board aldermen"
+                }
+            },
+            "description": {
+                "id": "Di pesisir barat, Wali Kota San Francisco James Rolph dan Pejabat Kesehatan Dr. William C. Hassler mengambil langkah paling radikal di Amerika: mewajibkan setiap pria, wanita, dan anak-anak mengenakan masker kasa bedah empat lapis di seluruh ruang publik. Spanduk raksasa dipasang di seluruh Market Street dengan seruan mencolok: 'Pakai Masker atau Masuk Penjara!'. Relawan Palang Merah bekerja tanpa henti di ruang bawah tanah balai kota memotong ribuan meter kain kasa steril. Warga yang tertangkap tidak mengenakan masker dicap sebagai 'pembangkang masker' (*mask slackers*), ditangkap oleh polisi berseragam, dan didenda 5 hingga 10 dolar atau dijatuhi hukuman kurungan sepuluh hari di penjara kota.",
+                "en": "On the Pacific rim, San Francisco Mayor James Rolph and Health Officer Dr. William C. Hassler enacted the most radical municipal mandate in wartime America: requiring every citizen to wear a four-ply surgical gauze mask in all outdoor and indoor public spaces. Enormous banners festooned Market Street with the blunt command: 'Wear a Mask and Save Your Life!'. Red Cross volunteers labored around the clock in the municipal basement, cutting hundreds of thousands of gauze strips. Police squads patrolled cable cars and sidewalks, summarily arresting 'mask slackers' who were hauled before special night courts to pay $5 fines or serve ten days in the county lockup."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_10.jpg"
+        },
+        {
+            "id": "us-ch-11",
+            "chapterNumber": 11,
+            "type": "side_story",
+            "title": {
+                "id": "Pemberontakan Dreamland Rink: Lahirnya Liga Anti-Masker",
+                "en": "The Dreamland Rink Revolt: The Anti-Mask League of 1919"
+            },
+            "date": {
+                "id": "Januari 1919",
+                "en": "January 1919"
+            },
+            "flash": {
+                "id": "RIBUAN WARGA MEMADATI GEDUNG DREAMLAND RINK MENENTANG MASKER KASA; DIPIMPIN OLEH MRS. E.C. HARRINGTON DENGAN DUKUNGAN ANGGOTA DEWAN KOTA.",
+                "en": "THOUSANDS PACK DREAMLAND RINK TO REBEL AGAINST MASKS; LED BY MRS. E.C. HARRINGTON WITH BACKING FROM CITY SUPERVISORS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Resistensi Sosial & Polarisasi Sipil)",
+                "vector": "Rapat akbar ribuan pengunjuk rasa tanpa masker di dalam aula tertutup",
+                "incubation": "24 Jam",
+                "transmission": "Inhalasi aerosol pekat di antara peserta demonstrasi yang berteriak menolak aturan",
+                "mutationType": {
+                    "id": "Super-Spreading Event Politik Akibat Pembangkangan Aturan Kesehatan Sipil",
+                    "en": "Political Super-Spreading Assembly via Defiance of Civic Health Ordinances"
+                },
+                "threatLevel": {
+                    "id": "Tinggi (Memicu Ledakan Gelombang Ketiga di San Francisco)",
+                    "en": "High (Directly Sparking the San Francisco Third Wave Mortality Spike)"
+                },
+                "clinicalTarget": {
+                    "id": "Para aktivis anti-masker, pengacara libertarian, dan anggota dewan kota pembangkang",
+                    "en": "Anti-mask activists, libertarian attorneys, and dissident city aldermen"
+                }
+            },
+            "description": {
+                "id": "Ketika Dewan Pengawas Kota San Francisco berusaha memberlakukan kembali kewajiban masker pada Januari 1919 setelah lonjakan kasus baru, kemarahan publik meledak. Seorang pengacara wanita terkemuka, Mrs. E.C. Harrington, bersama dokter-dokter homeopati dan beberapa anggota dewan kota mendirikan 'Anti-Mask League'. Pada malam 25 Januari 1919, lebih dari 4.500 warga memadati arena seluncur es Dreamland Rink dalam rapat akbar tanpa masker yang riuh. Mereka mengutuk masker kasa sebagai 'penghinaan terhadap kemerdekaan individu' dan 'sepotong kain kotor yang tidak ilmiah'. Tekanan politik massa yang dahsyat memaksa wali kota mencabut aturan masker beberapa hari kemudian. Namun hukum biologi tidak mengenal kompromi politik: dalam hitungan pekan, gelombang ketiga kembali melanda San Francisco dengan ribuan kematian baru.",
+                "en": "When the San Francisco Board of Supervisors attempted to reimpose mandatory masking in January 1919 following a winter recrudescence, public fury boiled over. Prominent civic attorney Mrs. E.C. Harrington, allied with homeopathic physicians and disgruntled city aldermen, formed the 'Anti-Mask League'. On the evening of January 25, 1919, upwards of 4,500 unmasked citizens packed the Dreamland Rink in an uproarious rally. Denouncing the gauze contraptions as 'unconstitutional muzzles' and 'filthy germ traps', they demanded immediate repeal of the sanitary ordinance. Overwhelmed by populist political pressure, the mayor rescinded the law days later. But viral mechanics yielded no ground to political rhetoric: within three weeks, a devastating third wave battered San Francisco, claiming thousands of additional lives."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_11.jpg"
+        },
+        {
+            "id": "us-ch-12",
+            "chapterNumber": 12,
+            "type": "standard",
+            "title": {
+                "id": "Jam Kerja Bergilir New York City: Trik Triage Dr. Royal Copeland",
+                "en": "New York's Staggered Shifts: Dr. Royal Copeland's Transit Triage"
+            },
+            "date": {
+                "id": "Oktober 1918",
+                "en": "October 1918"
+            },
+            "flash": {
+                "id": "KOMISARIS KESEHATAN NEW YORK MENOLAK PENUTUPAN TOTAL KOTA; MEMBERLAKUKAN JAM KERJA BERGILIR PABRIK DAN KANTOR UNTUK MENGURANGI KEPADATAN SUBWAY.",
+                "en": "NEW YORK HEALTH COMMISSIONER REJECTS TOTAL LOCKDOWN; IMPLEMENTS MANDATORY STAGGERED TRANSIT SHIFTS TO FLATTEN SUBWAY CONGESTION."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Manajemen Kepadatan Transportasi Massal)",
+                "vector": "Kereta bawah tanah New York City Subway dan jalur trem bertingkat",
+                "incubation": "24 – 36 Jam",
+                "transmission": "Pengurangan konsentrasi kepadatan jam sibuk melalui desinkronisasi jam buka toko",
+                "mutationType": {
+                    "id": "Intervensi Rekayasa Sosial Aliran Mobilitas Perkotaan Metropolis",
+                    "en": "Social Engineering of Urban Commuter Flow Density in Dense Megacity"
+                },
+                "threatLevel": {
+                    "id": "Terkendali Parsial (New York Mencatat Mortalitas Lebih Rendah dari Kota Pesisir Lain)",
+                    "en": "Partially Managed (New York Registers Lower Fatality Rate than Sister Ports)"
+                },
+                "clinicalTarget": {
+                    "id": "Komuter kereta bawah tanah, pekerja garmen Lower East Side, dan juru tulis Wall Street",
+                    "en": "Subway commuters, Lower East Side sweatshop laborers, and Wall Street clerks"
+                }
+            },
+            "description": {
+                "id": "Di New York City, kota terpadat di Amerika Serikat dengan 5,6 juta penduduk, Komisaris Kesehatan Dr. Royal S. Copeland menempuh strategi yang sangat berbeda dengan kota-kota lain. Alih-alih menutup sekolah dan pabrik yang ia khawatirkan akan membuat jutaan anak berkeliaran di jalanan kumuh yang kotor, Copeland memberlakukan sistem jam kerja bergilir yang ketat. Tokoh-toko grosir, pabrik garmen, kantor perbankan Wall Street, dan teater diwajibkan membuka dan menutup operasional pada jam yang berbeda-beda antara pukul 08.00 pagi hingga 10.00 malam. Tindakan ini memecah kepadatan penumpang di kereta bawah tanah Subway menjadi sepertiga dari volume puncak normal, berhasil menahan tingkat kematian New York pada angka 4,7 per 1.000 penduduk—jauh lebih rendah daripada Philadelphia atau Boston.",
+                "en": "In New York City, America's teeming metropolis of 5.6 million inhabitants, Health Commissioner Dr. Royal S. Copeland charted an unorthodox epidemiological course. Fearing that closing schools and factories would abandon immigrant children to filthy tenement alleys, Copeland kept institutions open under daily medical surveillance while enforcing mandatory staggered opening and closing hours. Wholesalers opened at 8:00 AM, textile sweatshops at 8:30 AM, dry goods stores at 9:00 AM, and non-essential offices at 9:30 AM. This brilliant social engineering halved peak-hour congestion on the subterranean subway lines, holding New York's overall mortality to 4.7 per 1,000—substantially below the devastating tallies of sister Atlantic seaports like Philadelphia and Boston."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_12.jpg"
+        },
+        {
+            "id": "us-ch-13",
+            "chapterNumber": 13,
+            "type": "side_story",
+            "title": {
+                "id": "Tragedi Bangsa Navajo: Pemusnahan di Tanah Reservasi",
+                "en": "The Navajo Reservation Tragedy: Annihilation in the Desert Canyons"
+            },
+            "date": {
+                "id": "Oktober – Desember 1918",
+                "en": "October – December 1918"
+            },
+            "flash": {
+                "id": "LEBIH DARI 3.000 WARGA SUKU PRIBUMI NAVAJO TEWAS DI PONDOK HOGAN TERPENCIL; KETIADAAN AKSES DOKTER DAN MUSIM DINGIN GURUN MEMICU KELAPARAN MASSAL.",
+                "en": "OVER 3,000 INDIGENOUS NAVAJO PERISH IN REMOTE HOGANS; LACK OF MEDICAL CARE AND HARSH DESERT WINTER EXACERBATE MORTALITY."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Kerentanan Ekstrem Suku Pribumi Amerika)",
+                "vector": "Pondok tanah tradisional (*hogan*) Navajo tanpa jendela dan berpemanas kayu",
+                "incubation": "12 – 24 Jam",
+                "transmission": "Penyebaran kilat di antara keluarga besar yang tinggal bersama di ruang tertutup",
+                "mutationType": {
+                    "id": "Tingkat Kematian Menembus 12% pada Populasi Penduduk Asli yang Terabaikan",
+                    "en": "Mortality Rate Surging Past 12% in Systemically Neglected Native American Enclaves"
+                },
+                "threatLevel": {
+                    "id": "Pembersihan Populasi (Mortalitas Suku Pribumi Empat Kali Lipat Populasi Kulit Putih)",
+                    "en": "Population Decimation (Indigenous Mortality Quadruple that of White Americans)"
+                },
+                "clinicalTarget": {
+                    "id": "Keluarga suku Diné (Navajo), penenun wol, dan gembala domba di Arizona-New Mexico",
+                    "en": "Diné (Navajo) families, rug weavers, and sheep herders across the Four Corners"
+                }
+            },
+            "description": {
+                "id": "Di kawasan luas Reservasi Navajo di Arizona dan New Mexico, flu 1918 berubah menjadi pemusnahan massal yang nyaris tidak terdengar oleh publik Amerika. Petugas Biro Urusan Indian (BIA) yang korup dan ketiadaan dokter membuat ribuan keluarga suku Diné terisolasi tanpa bantuan di pondok-pondok tanah tradisional (*hogan*). Seluruh keluarga meninggal di atas tikar mereka; domba-domba ternak mati kedinginan dan kelaparan di dalam kandang karena tidak ada lagi gembala yang hidup. Di beberapa lembah gurun, tingkat kematian suku pribumi melampaui 12%—empat kali lipat lebih tinggi dari rata-rata nasional AS. Mayat-mayat terpaksa dibiarkan di dalam hogan yang kemudian dibakar dari luar oleh para penyintas sebagai satu-satunya cara mencegah penularan roh maut.",
+                "en": "Across the vast, arid expanse of the Navajo Reservation in the Four Corners, the 1918 pandemic devolved into an unrecorded apocalypse. Betrayed by corrupt Bureau of Indian Affairs (BIA) logistics and stripped of physicians, thousands of Diné families were abandoned inside remote earth-and-log *hogans*. Entire households perished on sheepskin pallets; livestock froze and starved in corrals with no living shepherds to tend them. In several desert canyons, indigenous mortality topped 12%—more than four times the national American average. Survivors, paralyzed by dread and unable to dig graves in the frozen earth, resorted to burning infested hogans to the ground with the deceased still inside to seal the path of the death spirit."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_13.jpg"
+        },
+        {
+            "id": "us-ch-14",
+            "chapterNumber": 14,
+            "type": "milestone",
+            "title": {
+                "id": "Tragedi Brevig Mission: Kapsul Waktu Permafrost Alaska",
+                "en": "The Brevig Mission Tragedy: The Permafrost Time Capsule"
+            },
+            "date": {
+                "id": "November 1918",
+                "en": "November 1918"
+            },
+            "flash": {
+                "id": "VIRUS DIBAWA KERETA ANJING KE DESA INUIT TERPENCIL; 72 DARI 80 PENDUDUK TEWAS DALAM LIMA HARI DAN JENAZAH TERAWETKAN ALAMI DI LAPISAN ES ABADI.",
+                "en": "DOG SLED TEAM INTRODUCES VIRUS TO REMOTE INUIT VILLAGE; 72 OF 80 ADULTS DIE IN FIVE DAYS, FROZEN PRESERVED IN ARCTIC PERMAFROST."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Dampak pada Populasi Terisolasi Tanpa Imunitas)",
+                "vector": "Pengemudi kereta anjing pos surat melintasi Seward Peninsula",
+                "incubation": "12 – 24 Jam",
+                "transmission": "Penyebaran eksplosif di rumah-rumah sod tertutup tanpa ventilasi Arktik",
+                "mutationType": {
+                    "id": "Tingkat Serangan Ekstrem (Attack Rate 90%) pada Populasi Naif Imunologi",
+                    "en": "Extreme Attack Rate (90%) in Immunologically Naive Isolated Population"
+                },
+                "threatLevel": {
+                    "id": "Pemusnahan Etnis (Mortalitas Suku Pribumi Mencapai 85–90%)",
+                    "en": "Ethnic Annihilation (Indigenous Mortality Reaching 85–90%)"
+                },
+                "clinicalTarget": {
+                    "id": "Masyarakat adat Inuit Iñupiat di pesisir Semenanjung Seward Alaska",
+                    "en": "Indigenous Iñupiat Inuit villagers across Seward Peninsula tundra"
+                }
+            },
+            "description": {
+                "id": "Pada pertengahan November 1918, seorang pengemudi kereta anjing salju yang membawa surat dan pasokan makanan tiba di permukiman terpencil Brevig Mission di Semenanjung Seward, Alaska. Tanpa disadari, ia membawa patogen H1N1 yang bermutasi. Efeknya terhadap penduduk pribumi Iñupiat yang tidak memiliki kekebalan turun-temurun sangat mengerikan. Dalam kurun waktu lima hari saja, 72 dari 80 orang dewasa di desa itu tewas mengenaskan. Anak-anak yang selamat ditemukan menggigil kelaparan di samping jenazah beku orang tua mereka di dalam pondok bersalju. Tentara Amerika Serikat yang tiba dengan kapal pemotong es terpaksa menggali makam massal sedalam enam kaki di lapisan tanah es abadi (*permafrost*), mengubur para korban bersama virus maut yang terawetkan secara biologis selama puluhan tahun.",
+                "en": "In mid-November 1918, a dog sled mail carrier crossed the frozen Seward Peninsula tundra into the isolated coastal hamlet of Brevig Mission, Alaska. Unwittingly, he carried the virulent H1N1 agent into an immunologically naive Iñupiat community. The devastation was absolute and swift. Within five days, 72 of the village's 80 adult inhabitants perished in agonizing suffocation. Surviving orphans were found shivering beside the frozen bodies of their parents inside turf houses. Terrified territorial authorities dispatched soldiers who excavated a mass grave in the permafrost, sealing the dead beneath arctic tundra where the subzero ice created a pristine biological time capsule that would preserve the viral RNA for nearly a century."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_14.jpg"
+        },
+        {
+            "id": "us-ch-15",
+            "chapterNumber": 15,
+            "type": "standard",
+            "title": {
+                "id": "Euforia Gencatan Senjata 11 November & Gelombang Musim Dingin",
+                "en": "Armistice Day Revelry & The Resurgent Winter Wave"
+            },
+            "date": {
+                "id": "11 November 1918 – Awal 1919",
+                "en": "November 11, 1918 – Early 1919"
+            },
+            "flash": {
+                "id": "BERAKHIRNYA PERANG DUNIA I MENGELUARKAN JUTAAN WARGA KE JALANAN UNTUK BERPESTA; RELAKSASI MASIF PROTOKOL MENGHIDUPKAN GELOMBANG KETIGA DI SELURUH NEGERI.",
+                "en": "MILLIONS FLOOD STREETS TO CELEBRATE WWI ARMISTICE; PREMATURE RELAXATION OF DISTANCING RE-IGNITES VICIOUS WINTER WAVE THREE."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Gelombang Ketiga / Musim Dingin-Semi 1919)",
+                "vector": "Pesta rakyat spontan, pelukan, ciuman, dan pawai kemenangan damai",
+                "incubation": "24 – 36 Jam",
+                "transmission": "Kontak fisik rapat tanpa masker di tengah udara dingin musim gugur",
+                "mutationType": {
+                    "id": "Resurgensi Pasca-Gencatan Senjata Mengikis Imunitas Komunitas",
+                    "en": "Post-Armistice Resurgence Eroding Partial Herd Immunity Baselines"
+                },
+                "threatLevel": {
+                    "id": "Tinggi (Kenaikan Kasus Tak Terduga Saat Moral Bangsa Mengira Pandemi Usai)",
+                    "en": "High (Unexpected Recrudescence When Public Assumed Threat Vanquished)"
+                },
+                "clinicalTarget": {
+                    "id": "Veteran perang yang kembali, keluarga pekerja amunisi, dan pemuda kota",
+                    "en": "Returning doughboy veterans, munitions workers, and urban youth"
+                }
+            },
+            "description": {
+                "id": "Pada jam kesebelas hari kesebelas bulan kesebelas tahun 1918, lonceng gereja di seluruh Amerika berdentang menandai berakhirnya Perang Dunia I. Warga yang telah berminggu-minggu tertekan dalam isolasi dan ketakutan meluapkan kegembiraan dengan menumpahkan jutaan orang ke jalan-jalan di New York, Chicago, dan San Francisco. Masker dicopot dan dibakar, orang asing saling berpelukan dan berciuman dalam pesta kemenangan yang riuh. Namun virus belum tuntas. Seiring turunnya suhu musim dingin, gelombang ketiga merebak kembali dari Desember 1918 hingga musim semi 1919. Meskipun angka fatalitas tidak setinggi puncak Oktober, gelombang musim dingin ini menelan puluhan ribu korban jiwa tambahan dan memperpanjang masa duka nasional.",
+                "en": "At the eleventh hour of the eleventh day of the eleventh month in 1918, church carillons pealed across America to herald the Armistice ending the Great War. Citizens pent up by weeks of quarantine and dread erupted into uninhibited celebration, pouring by the millions into avenues from New York to Chicago and San Francisco. Mask ordinances were tossed aside, strangers embraced, and brass bands marched in triumphant abandon. But the pathogen was far from spent. As winter temperatures plummeted, a virulent third wave resurged from December 1918 into the spring of 1919, reaping tens of thousands of additional casualties and proving that political treaties hold no sway over microbial evolution."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_15.jpg"
+        },
+        {
+            "id": "us-ch-16",
+            "chapterNumber": 16,
+            "type": "side_story",
+            "title": {
+                "id": "Runtuhnya Woodrow Wilson di Meja Perundingan Paris",
+                "en": "Woodrow Wilson's Collapse: The Pathogen at the Versailles Peace Table"
+            },
+            "date": {
+                "id": "April 1919",
+                "en": "April 1919"
+            },
+            "flash": {
+                "id": "PRESIDEN AS WOODROW WILSON AMBRUK DENGAN DEMAM TINGGI 39,5°C DI TENGAH PERUNDINGAN VERSAILLES; EFEK NEUROLOGIS INFLUENZA MENGUBAH JALAN SEJARAH GEOPOLITIK DUNIA.",
+                "en": "US PRESIDENT WOODROW WILSON COLLAPSES WITH HIGH FEVER AT VERSAILLES; NEUROLOGICAL COMPLICATIONS SKEW HISTORIC GEOPOLITICAL TREATY."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Komplikasi Ensefalopati & Efek Neuropsikiatrik)",
+                "vector": "Droplet pernapasan delegasi diplomatik di Istana Versailles",
+                "incubation": "24 Jam",
+                "transmission": "Ruang rapat tertutup antara 'The Big Four' pemimpin sekutu",
+                "mutationType": {
+                    "id": "Manifestasi Ensefalitis Pasca-Influenza pada Pemimpin Tertinggi Negara",
+                    "en": "Post-Influenza Encephalitic Manifestation in Head of State"
+                },
+                "threatLevel": {
+                    "id": "Geopolitik Global (Mengikis Ketahanan Kognitif dalam Perumusan Perjanjian Damai)",
+                    "en": "Global Geopolitical (Compromising Cognitive Tenacity during Treaty Redaction)"
+                },
+                "clinicalTarget": {
+                    "id": "Presiden Woodrow Wilson dan lingkaran staf diplomatik Gedung Putih",
+                    "en": "President Woodrow Wilson and White House diplomatic entourage"
+                }
+            },
+            "description": {
+                "id": "Pada 3 April 1919 di Paris, Presiden Amerika Serikat Woodrow Wilson mendadak tersungkur di tempat tidur dengan batuk parah, sesak napas akut, dan demam 39,5°C. Dokternya, Cary Grayson, mendiagnosis sang presiden terkena influenza yang saat itu sedang meremukkan Paris. Selama berhari-hari Wilson mengalami delusi, paranoia intens bahwa staf Prancis adalah mata-mata yang mengintai ruangannya, serta kelelahan kognitif mendalam. Sebelum terjangkit flu, Wilson bersikeras menentang tuntutan keras Perdana Menteri Prancis Georges Clemenceau yang ingin menghukum Jerman dengan pampasan perang luar biasa berat. Namun pasca-infeksi yang melemahkan mentalnya, Wilson menyerah pada klausul-klausul represif Traktat Versailles—sebuah kompromi fatal yang kelak menabur benih kebangkitan fasisme dan Perang Dunia II.",
+                "en": "On April 3, 1919 in Paris, President Woodrow Wilson collapsed into bed convulsed with racking coughs, respiratory distress, and a fever of 103°F. His personal physician, Rear Admiral Cary Grayson, diagnosed acute influenza then tearing through Paris. Over the ensuing days, the President exhibited acute neuropsychiatric disturbance, obsessive paranoia convinced French servants were spies, and profound mental exhaustion. Prior to infection, Wilson had fiercely resisted French Premier Georges Clemenceau's punitive demands to impoverish Germany through ruinous reparations. In his enervated, post-influenzal state, Wilson capitulated to the retributive clauses of the Treaty of Versailles—a tragic failure of cognitive resolve that sowed the seeds of World War II."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_16.jpg"
+        },
+        {
+            "id": "us-ch-17",
+            "chapterNumber": 17,
+            "type": "side_story",
+            "title": {
+                "id": "Misi Dr. Johan Hultin & Ekshumasi Genom Taubenberger",
+                "en": "Dr. Johan Hultin's Quest & The Taubenberger Genome Reconstruction"
+            },
+            "date": {
+                "id": "1951 / 1997 – 2005",
+                "en": "1951 / 1997 – 2005"
+            },
+            "flash": {
+                "id": "DOKTER PATOLOGI MENEMUKAN JARINGAN PARU BEKU DI KUBURAN ES ALASKA; DR. JEFFERY TAUBENBERGER MENGURAIKAN KODE GENETIK LENGKAP VIRUS 1918.",
+                "en": "PATHOLOGIST EXHUMES FROZEN LUNG TISSUE IN ALASKAN PERMAFROST; DR. JEFFERY TAUBENBERGER COMPLETES WHOLE-GENOME SEQUENCING OF 1918 AGENT."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A (A/Brevig Mission/1/1918 H1N1 Rekonstruksi)",
+                "vector": "Jaringan paru biopsi terawetkan di lapisan es permafrost -10°C",
+                "incubation": "N/A (Analisis Sekuensing Genom Balik)",
+                "transmission": "Rekonstruksi laboratorium biosafety level 4 (BSL-4) di CDC Atlanta",
+                "mutationType": {
+                    "id": "Karakterisasi Molekuler Gen PB1, PB2, PA, HA, NP, NA, M, dan NS",
+                    "en": "Molecular Characterization of All 8 Viral RNA Genomic Segments"
+                },
+                "threatLevel": {
+                    "id": "Riset Keamanan Hayati (Penguraian Kunci Virulensi Reseptor Avian)",
+                    "en": "Biosafety Research (Decoding Structural Keys of Avian Crossing Virulence)"
+                },
+                "clinicalTarget": {
+                    "id": "Analisis patologis jaringan paru-paru korban wanita berlemak bernama 'Lucy'",
+                    "en": "Pathological analysis of lung biopsy from an obese female victim dubbed 'Lucy'"
+                }
+            },
+            "description": {
+                "id": "Selama hampir delapan puluh tahun, struktur biologis virus pembunuh 1918 tetap menjadi teka-teki tak terpecahkan karena virus influenza belum dapat diisolasi pada masa itu. Pada tahun 1951, seorang mahasiswa pascasarjana asal Swedia, Johan Hultin, melakukan perjalanan ke Brevig Mission di Alaska dan menggali makam massal permafrost untuk mengambil sampel paru-paru, namun teknologi kultur virus saat itu gagal menumbuhkannya. Pada 1997, di usia 72 tahun dan menggunakan uang pribadinya, Hultin kembali ke Alaska, memperoleh izin para tetua desa Inuit, dan berhasil mengambil biopsi paru-paru seorang wanita Inuit yang terawetkan sempurna oleh lapisan lemak tubuhnya. Sampel berharga ini dikirim ke Dr. Jeffery Taubenberger di Armed Forces Institute of Pathology. Menggunakan teknik PCR modern, tim Taubenberger berhasil merekonstruksi seluruh delapan segmen genetik virus H1N1 1918, membuktikan bahwa virus tersebut adalah patogen unggas murni yang melompati spesies langsung ke manusia.",
+                "en": "For eight decades, the genetic identity of the 1918 killer remained an elusive ghost, as contemporary science lacked the means to isolate viruses. In 1951, Swedish doctoral student Johan Hultin journeyed to Brevig Mission, Alaska, exhuming permafrost remains to culture live viral particles, but 1950s technology proved inadequate. In 1997, at age 72 and paying his own way, Hultin returned to Alaska with village elders' blessing, obtaining lung tissue from an obese woman whose adipose insulation had preserved her lungs intact. He shipped the samples to Dr. Jeffery Taubenberger at the Armed Forces Institute of Pathology. Using cutting-edge reverse genetics, Taubenberger's team reconstructed the entire 1918 H1N1 viral sequence, proving conclusively that it was an avian-derived strain that made a direct, catastrophic jump into humans."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_17.jpg"
+        },
+        {
+            "id": "us-ch-18",
+            "chapterNumber": 18,
+            "type": "summary",
+            "title": {
+                "id": "Audit Epidemiologis & Warisan Kesehatan Masyarakat Modern",
+                "en": "Epidemiological Audit & The Foundations of Modern Public Health"
+            },
+            "date": {
+                "id": "1919 – 1920",
+                "en": "1919 – 1920"
+            },
+            "flash": {
+                "id": "PANDEMI MERENGGUT 675.000 NYAWA DI AMERIKA SERIKAT DAN MEMOTONG ANGKA HARAPAN HIDUP SEBESAR 12 TAHUN; MELAHIRKAN SURVEILANS EPIDEMIOLOGIS GLOBAL.",
+                "en": "675,000 AMERICAN LIVES LOST AND NATIONAL LIFE EXPECTANCY PLUMMETS BY 12 YEARS; FORGING MODERN GLOBAL DISEASE SURVEILLANCE SYSTEMS."
+            },
+            "virusProfile": {
+                "agent": "Virus Influenza A H1N1 (Katalogisasi Sejarah & Audit Demografi)",
+                "vector": "Transmisi global terintegrasi jaringan transportasi abad ke-20",
+                "incubation": "1 – 4 Hari",
+                "transmission": "Evolusi strain endemik pasca-pandemi menuju influenza musiman H1N1",
+                "mutationType": {
+                    "id": "Drift Antigenik Pasca-Pandemi & Pembentukan Kekebalan Populasi Global",
+                    "en": "Post-Pandemic Antigenic Drift & Establishment of Global Humoral Baselines"
+                },
+                "threatLevel": {
+                    "id": "Audit Historis (Bencana Kematian Massal Terbesar Abad ke-20)",
+                    "en": "Historical Audit (Deadliest Biological Mass Casualty Event in Modern Era)"
+                },
+                "clinicalTarget": {
+                    "id": "Generasi muda pekerja dan prajurit kelahiran 1880–1900",
+                    "en": "The prime demographic cohort born between 1880 and 1900"
+                }
+            },
+            "description": {
+                "id": "Flu Spanyol membunuh sekitar 675.000 warga Amerika Serikat—jauh melampaui gabungan korban militer AS dalam Perang Dunia I, Perang Dunia II, Perang Korea, dan Perang Vietnam. Angka harapan hidup di Amerika Serikat anjlok secara drastis sebesar 12 tahun pada 1918, rekor penurunan tertajam dalam sejarah pencatatan demografi modern. Kurva kematian berbentuk huruf 'W' yang aneh—dengan puncak kematian tertinggi justru menimpa kelompok usia prima 20 hingga 40 tahun akibat respons imun badai sitokin—meninggalkan ratusan ribu anak yatim piatu dan janda pekerja. Dari puing-puing bencana biologis ini, lahirlah kesadaran bahwa perang modern dan patogen menular adalah ancaman kembar terhadap peradaban manusia, mendorong pembentukan sistem pelaporan penyakit menular wajib, modernisasi departemen kesehatan kota, dan fondasi awal surveilans influenza global.",
+                "en": "The 1918 pandemic killed approximately 675,000 Americans—eclipsing US combat fatalities in World War I, World War II, the Korean War, and Vietnam combined. National life expectancy plummeted by an astonishing twelve years in 1918, the steepest demographic drop in recorded modern history. Its bizarre 'W-shaped' mortality curve—which peaked murderously among healthy 20-to-40-year-olds felled by lethal cytokine storms—shattered the workforce, leaving hundreds of thousands of widows and orphans. Out of this biological catastrophe arose the recognition that emerging pathogens constitute existential threats to civilization, laying the groundwork for mandatory disease reporting grids, modern public health infrastructure, and the international influenza surveillance networks that protect the world today."
+            },
+            "image": "/assets/images/spanish-flu-1918/us/us_ch_18.jpg"
+        }
+    ]
+}

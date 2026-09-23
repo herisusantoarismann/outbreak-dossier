@@ -238,6 +238,24 @@ export function generateStaticParams() {
                 "san",
             ],
         },
+        {
+            pandemic: "spanish-flu-1918",
+            countries: [
+                "us",
+                "usa",
+                "fr",
+                "fra",
+                "es",
+                "esp",
+                "gb",
+                "gbr",
+                "uk",
+                "in",
+                "ind",
+                "id",
+                "idn",
+            ],
+        },
     ];
 
     return routing.locales.flatMap((locale) =>
