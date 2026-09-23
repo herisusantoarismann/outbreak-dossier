@@ -9,7 +9,9 @@ test.describe("Multi-Pandemic Scrollytelling Dossiers & Bilingual Precision", ()
 
         // Verify English badge and header
         await expect(
-            page.getByText(/DECLASSIFIED INTELLIGENCE \/\/ PLAGUE OF JUSTINIAN/i),
+            page.getByText(
+                /DECLASSIFIED INTELLIGENCE \/\/ PLAGUE OF JUSTINIAN/i,
+            ),
         ).toBeVisible({ timeout: 10000 });
 
         // Verify return link
@@ -43,9 +45,7 @@ test.describe("Multi-Pandemic Scrollytelling Dossiers & Bilingual Precision", ()
         ).toBeVisible({ timeout: 10000 });
 
         // Scrollytelling content
-        await expect(
-            page.getByText(/SECTOR \[PAR\]/i),
-        ).toBeVisible();
+        await expect(page.getByText(/SECTOR \[PAR\]/i)).toBeVisible();
     });
 
     test("loads Cholera Wave 1 and Wave 7 with wave query param persistence", async ({
@@ -61,9 +61,9 @@ test.describe("Multi-Pandemic Scrollytelling Dossiers & Bilingual Precision", ()
         // Wave 7 Sector IDN
         await page.goto("/en/dossier/cholera-series/idn?wave=7");
         await expect(page.locator("body")).toBeVisible({ timeout: 15000 });
-        await expect(
-            page.getByText(/SECTOR \[IDN\]/i),
-        ).toBeVisible({ timeout: 10000 });
+        await expect(page.getByText(/SECTOR \[IDN\]/i)).toBeVisible({
+            timeout: 10000,
+        });
     });
 
     test("loads Spanish Flu 1918 Sector US (18 organic chapters)", async ({
@@ -72,12 +72,10 @@ test.describe("Multi-Pandemic Scrollytelling Dossiers & Bilingual Precision", ()
         await page.goto("/en/dossier/spanish-flu-1918/us");
         await expect(page.locator("body")).toBeVisible({ timeout: 15000 });
 
-        await expect(
-            page.getByText(/SPANISH FLU/i),
-        ).toBeVisible({ timeout: 10000 });
+        await expect(page.getByText(/SPANISH FLU/i)).toBeVisible({
+            timeout: 10000,
+        });
 
-        await expect(
-            page.getByText(/SECTOR \[US\]/i),
-        ).toBeVisible();
+        await expect(page.getByText(/SECTOR \[US\]/i)).toBeVisible();
     });
 });

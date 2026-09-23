@@ -13,7 +13,12 @@ test.describe("Global Hub, Multi-Pandemic Switcher & Globe Telemetry", () => {
         });
 
         // Verify Tactical Telemetry Ticker
-        await expect(page.getByText(/TELEMETRI/i).or(page.getByText(/RECORD/i)).first()).toBeVisible({
+        await expect(
+            page
+                .getByText(/TELEMETRI/i)
+                .or(page.getByText(/RECORD/i))
+                .first(),
+        ).toBeVisible({
             timeout: 10000,
         });
     });
